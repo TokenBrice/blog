@@ -59,7 +59,7 @@ You don’t have a job? Don’t you know that unemployed people are parasites? T
 
 Oh yes, that’s very regrettable. It makes me angry too. Sadly I can’t do anything about it: it’s the market. If I start to promote progressive laws the jobs will go away. Our neighbor CCLand is taxing companies even less than us; we’ll bleed jobs!
 
-### So when did the deconstruction of the state started?
+### So when did the deconstruction of the state start?
 
 I’m sure our little trip to BBLand reminded you a thing or two about the real world. But in reality, all four processes are almost concomitant. Only the first one — the decomposition of the medias — seems to be a prerequisite of the others.
 
