@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
+title = "TkB - Blog"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` automatically opened text editor
-newContentEditor = ""
+newContentEditor = "typora"
 
 # i18n
 defaultContentLanguage = "en"
@@ -31,7 +31,7 @@ enableEmoji = false
 footnoteReturnLinkContents = "↩"
 
 # Enable `.GitInfo` object for each page?
-enableGitInfo = false
+enableGitInfo = true
 
 # Enable generation of `robots.txt` file?
 enableRobotsTXT = true
@@ -49,7 +49,6 @@ uglyURLs = false
 #language
 [Languages]
 [Languages.en]
-title = "TkB - Blog"
 weight = 1
 languageName = "🇺🇸 EN"
 
@@ -106,17 +105,17 @@ languageName = "🇫🇷 FR"
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "TokenBrice"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "a@gmail.com"
     # Motto or introduction
     motto = "Viva La Vida"
     # Avatar
-    avatar = "/icons/apple-touch-icon.png"
+    avatar = "/img/main/tokenbrice.jpg"
     # Personal website, default: baseURL
     website = "https://io-oi.me/"
     # Twitter
-    twitter = "reuixiy"
+    twitter = "TokenBrice"
 
 # Related content
 [related]
@@ -1238,7 +1237,7 @@ languageName = "🇫🇷 FR"
 
     hideLangToggleInHome = false
 
-    autoHideLangToggle = true
+    autoHideLangToggle = false
     # Note: in other words, the toggle is
     #       displayed only when the post
     #       has a translated version
