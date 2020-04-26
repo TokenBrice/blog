@@ -360,7 +360,7 @@ languageName = "🇫🇷 FR"
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "reuixiy"
+    siteTwitter = "TokenBrice"
     # Note: used for Twitter Cards
 
 
@@ -970,7 +970,7 @@ languageName = "🇫🇷 FR"
     ######################################
     ## Line Height
 
-    lineHeight = 1.618
+    lineHeight = 2.15
     # Note: apply to post paragraph & toc
     #       only
 
@@ -993,7 +993,7 @@ languageName = "🇫🇷 FR"
     ######################################
     ## Text Justification
 
-    enableJustify = false
+    enableJustify = true
     # Note: *global settings*
     #       `align` in post’s Front Matter
     #       has a higher priority than here
@@ -1132,7 +1132,7 @@ languageName = "🇫🇷 FR"
     #       `related` in post’s Front Matter
     #       has a higher priority than here
 
-    relatedPostsNumber = 5
+    relatedPostsNumber = 3
 
     relatedPostsIcon = "plus-circle"
 

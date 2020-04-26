@@ -1,16 +1,16 @@
 ---
 title: 'The Chatbot Masquerade: Crafting a personality with NLP and grammar'
 description: >-
-  Has the chatbot hype peaked? Are they living up to their promises? Why do they
-  fail and what do they need to succeed?
+  Has the chatbot hype peaked? Despite massive investments from leading messaging platforms such as Messenger Facebook, Telegram, or Slack, **are chatbots living up to their promise?**
 date: '2017-08-02T12:43:42.920Z'
 categories: [🔍 Analysis]
+toc: true
 tags: [chat, design, dark patterns, interview]
 ---
 
 ![](/img/2017/chatbot-masquerade/cover.png)
 
-Has the [chatbot](https://hackernoon.com/tagged/chatbot) hype peaked? Despite massive investments from leading messaging platforms such as Messenger ([Facebook](https://hackernoon.com/tagged/facebook)), Telegram, or Slack, **are chatbots living up to their promise?**
+Are chatbots living up to their promises?
 
 The answer is complicated. While on the technical side bot-building frameworks, services, and libraries keep getting better, **chatbots’ ability to understand their users and express themselves needs to be more refined for mass adoption**. Let’s dig in to figure out the underlying challenges of natural language processing and achieving a natural-like expression. The chatbot industry is now worth millions (billions?), yet do you use chatbots daily? Do you know any friends that do?
 
@@ -29,7 +29,7 @@ This dichotomy seems too nice to be true? It’s because it is! Chatbots in the 
 
 The tree logic is straightforward so we won’t detail it in in-depth. What’s more interesting is Natural Language Processing. Besides, it’s not only a bot matter: **NLP powers all form of automated language recognition**, ranging from sorting through a pile of resume to sentiment analysis on social networks.
 
-### Natural language processing: the key to smart chatbots
+## Natural language processing: the key to smart chatbots
 
 > _Natural language processing (NLP) is a way for computers to analyze, understand and derive meaning from human language._
 
@@ -39,7 +39,7 @@ iCapps gives a pretty [clear and straightforward definition of NLP](http://www.i
 
 To do so, **NLP relies on six key steps**. We’ll detail what lies behind each of these steps to make the link between a written prompt to natural language expression analysis:
 
-#### 1\. Tokenization
+### Tokenization
 
 Before processing any written prompt, the text must be broken down into words and sentences to facilitate the analysis. In that regard, **tokenization is pre-processing**: it identifies the basic units (words and sentences) that will be processed during the analysis. While this step may seem basic, the tokenization must be accurate for the rest of the analysis to be relevant. Indeed, since tokenization is the first step of NLP, **errors made here will propagate and cause problems of interpretation later on.**
 
@@ -47,7 +47,7 @@ While it may seem basic (words are separated from each other by spaces, duh!) **
 
 Therefore, different methods of tokenization have been developed, each with their strengths and weaknesses. The [IBM’s developer blog article](https://www.ibm.com/developerworks/community/blogs/nlp/entry/tokenization?lang=en) on the subject is a good starting point to learn more about it. **Tokenization methods are not absolute**: they are chosen and adapted depending of the nature of text analyzed.
 
-#### 2\. Lexical Analysis
+### Lexical Analysis
 
 With a successful tokenization process, the words are properly separated from each other. Naturally, the next step is to categorize the tokens to facilitate their processing. An effortless way to classify the tokens is to **use an already existing categorization of language **— the grammatical nature of the words.
 
@@ -56,7 +56,7 @@ _The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-l
 
 First, it’s convenient because the match between a word and its grammatical nature is **easily done using a dictionary**. On top of that, because grammar is the set of rules governing the composition of clauses and phrases in the language, sorting tokens with **the grammatical criteria makes the following steps easier**, especially the next one: the syntactic analysis.
 
-#### 3\. Syntactic Analysis
+### Syntactic Analysis
 
 While the tokenization and the lexical analysis happen at the word level, the syntactic analysis jumps to the sentence level to identify the relationship between each word.
 
@@ -67,7 +67,7 @@ _The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-l
 
 The **syntactic analysis provides order and structure of each sentence in the text.** Identifying the subjects, for instance, is particularly important for one of the following steps — discourse integration — which looks at the context around each sentence.
 
-#### 4\. Semantic Analysis
+### Semantic Analysis
 
 In this step, the computer looks for the meaning of each word. What may once again seem like a **simple step for a human** (we have dictionaries for this, duh!) is **trickier for a computer.**
 
@@ -77,7 +77,7 @@ The intended meaning can be much harder to figure out for **polysemic words**. [
 
 The previous steps facilitate this one to some extent. Indeed, if we know that “set” is used as a noun, we’re down to 28 possible different meanings. **Context is crucial here to find out the meaning intended by the speaker.**
 
-#### 5\. Discourse Integration
+### Discourse Integration
 
 Discourse integration looks at the **significance of the sentences compared to the preceding sentences**. Cohesion between following sentences of the text is assumed.
 
@@ -87,17 +87,17 @@ To achieve this, the key lies in **pronouns which must be correctly recognized a
 
 While this example is really straightforward. Yet, a real, natural sentence rarely is. Anaphoric references can be hard to interpret, **especially in natural language where pronouns antecedents can be unclear or missing**.
 
-#### 6\. Pragmatic Analysis
+### Pragmatic Analysis
 
 Pragmatics study the ways context contributes to meaning. **It’s the step going from what is said to what is meant**, which is the hardest of the six steps. Ambiguity is hard to handle with computers, yet this is all we do while we humans talk. Depending on languages and situations, context can be more or less important.
 
 Even human linguists have a tough time defining methods to analyze what meaning is brought by the context. **Diverse theories emerged to account for the referential use of language** such as Jakobson’s six functions of language ([Referential, Poetic, Emotive, Conative, Phatic and Metalingual](https://en.wikipedia.org/wiki/Jakobson%27s_functions_of_language)) or the Speech Act Theory (Which [studies performative utterances ](https://en.wikipedia.org/wiki/Speech_act)— a statement that produces an act by itself such as “The meeting is now adjourned.). Defining what is context is already a hard job for a linguist; **contextual awareness is arguably the hardest part of NLP.**
 
-### Why do they fail? The seven sins of chatbots
+## Why do they fail? The seven sins of chatbots
 
 Currently available chatbots most often fail to meet the expectations of users for reasons ranging from **design issues to technical limitations**. [Fabricio from UXdesign.cc](https://chatbot.fail/) sums up, predominantly from a design perspective, the seven sins of chatbots. Here’s my take on it:
 
-#### 1\. Limited AI availability
+### Limited AI availability
 
 Even though NLP platform and libraries are becoming more accessible and common, **AI is still hard and costly to implement.** What this means is that despite the technological hype behind chatbots, **a large part of the currently deployed bot base is still relying on a word-triggered, decision-tree logic to answer the queries**. This type of bot is only as intelligent as the thoroughness of the person who designed the tree and his ability to anticipate potential use cases and inputs.
 
@@ -106,7 +106,7 @@ Even though these bots might be efficient in certain specific contexts, they als
 ![_A weather bot fooled by the ambiguity between Paris, the capital of France and all the others (20+) Paris in several US-states._](/img/2017/chatbot-masquerade/weather-bot-bug.jpeg)
 _A weather bot fooled by the ambiguity between Paris, the capital of France and all the others (20+) Paris in several US-states._
 
-#### 2\. Are use cases really that strong?
+### Are use cases really that strong?
 
 When innovative technologies are emerging, they tend to generate a particular excitation among the developers’ and designers’ communities. Just like the apps, or the website before that, **chatbots are becoming a must-have for any business who wishes to appear innovative**. There’s a **chatbot gold-rush** leading to the development of bots solving irrelevant use cases or offering sub-par customer experience.
 
@@ -117,7 +117,7 @@ Good chatbots, on the other hand, are those who **solve a problem in a more conv
 ![_Kip Slack bot in action_](/img/2017/chatbot-masquerade/kip.png)
 _Kip Slack bot in action_
 
-#### 3\. Lack of transparency: Who/Whom am I talking to?
+### Lack of transparency: Who/Whom am I talking to?
 
 **The way chatbots present themselves frame the user interaction**. Even though bot-makers want to make them feel as human as possible, they must remember the importance of setting up the right expectations. **People are empathetic towards other people, not machines.**
 
@@ -125,7 +125,7 @@ The choice between a “humanized bot” and a bot assuming his mechanical ident
 
 While giving bots generic pre-made answers to use while he doesn’t understand a query can help maintain the conversation flow, **does it help to build trust?**
 
-#### 4\. Lack of context awareness
+### Lack of context awareness
 
 Human conversation is hard to replicate because of its **reliance on context:** we use and understand sarcasm, adapt our way of chatting depending on the channels and the persons we address (see [Jakobson’s phatic function of language](http://www.signosemio.com/jakobson/functions-of-language.asp)) and can read between the lines. Bots can’t.
 
@@ -144,7 +144,7 @@ Bots that are not powered by natural language processing technologies can’t ho
 
 Because of this shortcoming, we can’t exchange with the bot naturally, **we must adapt our prompt** to include location each time we ask him something.
 
-#### 5\. Lack of communications with existing business systems
+### Lack of communications with existing business systems
 
 To be efficient, **bots need to be able to interact with current business processes** instead of creating new ones. Ultimately, chatbots are part of a broad ecosystem constituted of numerous touch points between customers and brands.
 
@@ -152,7 +152,7 @@ Creating a chatbot operating in silo not only hurts the bot’s ability to proce
 
 **Only bots able to interact with pre-existing business processes can consistently produce value**, such as Kip discussed before: he orders the item specified on the grocery list collected with Slack using Amazon.
 
-#### 6\. Lack of focus
+### Lack of focus
 
 **Efficient bots tackle specific issues where they can provide more value than their pre-existing counterparts** (website, apps, or any other mode of interaction).
 
@@ -160,7 +160,7 @@ Creating a chatbot operating in silo not only hurts the bot’s ability to proce
 
 Moreover, lack of focus can result in a bot that is both hard to develop and to maintain.
 
-#### 7\. Lack of human escalation protocol
+### Lack of human escalation protocol
 
 Bots are not the answer to all customer interactions. Even though the temptation of automation is understandable for businesses with many clients, **there are always situations where a human touch is required**.
 
@@ -172,9 +172,9 @@ With a better understanding of what NLP is, from a linguistic perspective and wh
 
 Since linguistics features vary per language, we’ll focus only on English, which is the most common language for bots and the one for which the research is the most advanced.
 
-### How to achieve truly natural-like expression?
+## How to achieve truly natural-like expression?
 
-#### 1\. Vocabulary: quantity is easy, polysemy is not
+### Vocabulary: quantity is easy, polysemy is not
 
 Depending on the estimates and the way a “word” is defined, there are around 500,000 words in the English language. **Most of them are very rarely used**: they may be obsolete, part of a field-specific jargon or register-specific.
 
@@ -182,7 +182,7 @@ Indeed, an educated native English speaker has an active vocabulary of roughly 5
 
 As the analysis of the semantic analysis challenges proved, the difficulty does not lie in the quantity of vocabulary to apprehend but in its flexibility: **polysemy is tough to compute**. We have access to context to sort out between the dozens of potential meanings of a word to find the one relevant to our current situation. Currently, chatbots have little to no context awareness; **they must rely on other strategies**.
 
-#### 2\. The maxims of an honest chatbot
+### The maxims of an honest chatbot
 
 While we talk, a lot of the transmission of meaning happens by the choice we make.
 
@@ -203,7 +203,7 @@ Therefore, we’re left to guess why the person talking to you made these lingui
 
 It’s safe to expect that **we hold the chatbots** — if they are natural enough — **up to the same standards**.
 
-#### 3\. The bot’s self-reference: what/who are we talking to?
+### The bot’s self-reference: what/who are we talking to?
 
 Despite the advanced tech behind chatbots, the though-process on their design and “personality” is still at a very early stage. Indeed, **the submissive female persona in still very prevalent in bots**. Moreover, bots who can process and answer queries with audio predominantly adopt a female voice for speech generation. Siri, probably the most famous virtual assistant was released at first with a female voice in 2011. The option to give a male voice to Siri only came two years later.
 
@@ -223,7 +223,7 @@ Peter Wallis and Emma Norling researched **the impact of social intelligence, or
 
 > _Peter Wallis and Emma Norling_
 
-#### 4\. In search for the Honest Bot
+### In search for the Honest Bot
 
 We tend to get personal and emotionally invested with chatbots. Chatbotslife carried out an analysis of 10 billion messages sent to bots and noted that about 10% of bots receive an ‘I love you’ or ‘I hate you’ type of message.
 
@@ -246,7 +246,7 @@ Now is the time to **question what are the benefits to be gained from chatbots a
 
 This article was first published May the 31st 2017 on [CALLR’s blog](https://www.callr.com/blog/chatbot-masquerade/) and slightly modified for Medium.
 
-### Chatbots’ role and challenges — a quick exchange with [Brett Scott](https://howwegettonext.com/@Suitpossum)
+## Chatbots’ role and challenges — a quick exchange with [Brett Scott](https://howwegettonext.com/@Suitpossum)
 
 While I was researching this article, I had the chance to have a quick exchange with Brett Scott about chatbots’ perceived roles and their current limitations. I figured it would be a good way to wrap this one up, as **we discuss some themes addressed by this article and explore a few others that are related**. Thanks again Brett for the quality insights!   
 Here is the transcript:
