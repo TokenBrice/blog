@@ -4,23 +4,19 @@ description: >-
   On va tout décentraliser ! Mais qu'est-ce que ça peut bien pouvoir dire ? La
   décentralisation pour Jean Dupont en 12 minutes.
 date: '2018-07-02T08:31:36.389Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/la-d%C3%A9centralisation-expliqu%C3%A9e-en-12-minutes-pour-monsieur-tout-le-monde-9804b056bad4
+categories: [vulgarisation]
+tags: [décentralisation, cryptomonnaie, blockchain]
 ---
 
-![](img/1__jtFwa3Yglxk2X470IaGErA.png)
+![](/img/2018/decentralisation-layman/cover.png)
 
 Bien que le grand public entende parler de plus en plus de blockchain et cryptomonnaies, les fondements politiques et philosophiques ne sont encore discutés pour l’instant qu’au sein de communautés de passionnés. Je pense que la décentralisation apporte avec elle **un changement de paradigme qui mérite bien plus de couverture médiatique que le cours du bitcoin.**
 
 Il y a quelques mois, j’ai réalisé que je n’avais pas tout compris à la décentralisation. J’avais cerné la base du concept, mais je n’arrivais pas à envisager **les ramifications sociales et politiques** de celui-ci. Alors j’ai fait mes recherches et il est désormais temps de partager ce que j’en ai compris.
 
-_You speak English? So do I!_ [_Link to the English version._](https://medium.com/@BBerdah/why-decentralization-matter-a-12-min-overview-for-the-layman-6ec572d35af6)
-
 #### LES MÉDIAS AIMENT LES PESSIMISTES
 
-![Sur la pancarte d’Homer: “La fin est proche” — The Simpsons: Saison 16, Episode 19 — Thank God it’s Doomsday / C’est l’apocalypse, Dieu merci !](img/1____zsWbMeaYlwM__ymBOKG1tw.png)
+![Sur la pancarte d’Homer: “La fin est proche” — The Simpsons: Saison 16, Episode 19 — Thank God it’s Doomsday / C’est l’apocalypse, Dieu merci !](/img/2018/decentralisation-layman/homer.png)
 Sur la pancarte d’Homer: “La fin est proche” — The Simpsons: Saison 16, Episode 19 — Thank God it’s Doomsday / C’est l’apocalypse, Dieu merci !
 
 La décentralisation n’est vraiment pas un changement facile à appréhender. Imaginez vous en 1995, dans les premiers jours de l’Internet. Auriez-vous pu envisager toutes les utilisations potentielles de la technologie et les conséquences qu’elle allait avoir ? À cette époque, il y avait même [des acteurs majeurs de l’industrie de la technologie](https://www.newstatesman.com/science-tech/internet/2016/08/25-years-here-are-worst-ever-predictions-about-internet) qui étaient complètement à coté de la plaque :
@@ -53,7 +49,7 @@ C’est un évidence pour certain, mais c’est un fait à rappeler : la décen
 
 Avant de commencer, voici une infographie intéressante qui vous donne un aperçu du degré de centralisation de différentes industries :
 
-![Merci à Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](img/1__FqR8DJxr8cvkw320xWzYLg.png)
+![Merci à Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
 Merci à Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
 
 Maintenant, on peut passer à la seconde notion indispensable pour bien comprendre notre enjeu : **les différentes dimensions de la décentralisation**.
@@ -66,7 +62,7 @@ Cette dimension est la plus facile à comprendre parce qu’elle traite d’obje
 
 Pour maximiser la décentralisation architecturale, il faut multiplier le plus possible les nœuds du réseau et les répandre partout dans le monde.
 
-![Représentation graphique des transactions sur le Tangle (IOTA). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)](img/1__wOWZ0W3jwdFJySo7W2vDSg.png)
+![Représentation graphique des transactions sur le Tangle (IOTA). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)](/img/2018/decentralisation-layman/tangle.png)
 Représentation graphique des transactions sur le Tangle (IOTA). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)
 
 Afin de déterminer à quel point un système est architecturalement décentralisé, posez-vous les deux questions suivantes :
@@ -78,7 +74,7 @@ Afin de déterminer à quel point un système est architecturalement décentrali
 
 La politique, c’est une affaire de pouvoir. Cette dimension couvre le système de décision du protocole. Les protocoles les plus centralisés politiquement sont ceux où une personne prend toute les décisions. À l’autre bout du spectre, vous trouverez de nombreux acteurs se partageant des responsabilités équivalentes.
 
-![](img/1__0QoQ3QI4SCP6Qw85waaWKg.jpeg)
+![](/img/2018/decentralisation-layman/politics.jpeg)
 
 Dans les systèmes les plus politiquement décentralisés, l’écart est minimal entre l’influence de l’acteur le plus important et celui le plus faible. Dans un système avec une décentralisation politique totale, chaque acteur a le même poids.
 
@@ -112,7 +108,7 @@ Passons aux exemples, ils sont bien plus parlant !
 *   Les deux tendent également vers une centralisation politique très forte. Le président/l’assemblée/les représentants élus ou non concentrent l’essentiel du pouvoir de décision. Ils n’ont aucun compte à rendre (pendant leur mandat) et vous ne pouvez pas changer de président au bout de deux ans, même s’il est avéré que celui-ci a menti sous serment, nuit aux intérêts du pays ou détourné de l’argent public (Bonjour Mr. Trump). La fédération peut être un peu moins centralisé que la nation, mais ça reste assez proche.
 *   Là où les choses deviennent intéressantes c’est au niveau de la dimension logique. Une nation, c’est un gros monolithe bien centralisé logiquement. De l’autre coté, une fédération c’est un ensemble de différent acteurs qui souhaitent préserver leur souveraineté et différence tout en agissant dans un but commun — un bon exemple d’un système qui présente une décentralisation logique forte.
 
-![Aperçu de la centralisation de divers protocoles ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))](img/1__WnCojU__EmvfDfJPBOpOsAg.png)
+![Aperçu de la centralisation de divers protocoles ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))](/img/2018/decentralisation-layman/decentralisation-quadrant.png)
 Aperçu de la centralisation de divers protocoles ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))
 
 **La langue Anglaise**
@@ -133,7 +129,7 @@ _Amazon Web Services propose des infrastructures clouds à louer aux entreprises
 
 *   **Au niveau de l’architecture, ils n’ont pas le choix : ils doivent être décentralisés, idéalement le plus possible**. En effet, en tant qu’hébergeur leur service se doit d’être fiable. Pour cela, ils multiplient les serveurs : la redondance construit la résilience. En outre, à la fois pour des raisons de sécurité et de performance, les serveurs doivent être les plus proches possibles des clients finaux — il en faut donc partout dans le monde. Pas de panique si vous n’avez pas tout suivi, je reviens plus bas sur l’intérêt d’une architecture décentralisée pour la sécurité et la performance.
 
-![Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).](img/1__yo9m1__9c5wly5q1T__QVKlg.png)
+![Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).](/img/2018/decentralisation-layman/aws.png)
 Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).
 
 *   **Par contre d’un point de vue politique, c’est tout l’inverse — une centralisation quasi maximale.** Amazon peut refuser de vous servir sans avoir à motiver son choix, peut supprimer vos fichiers (s’ils sont illégaux par exemple) et la communauté des utilisateurs AWS n’a aucun droit de regard sur le développement de la plateforme.
@@ -153,7 +149,7 @@ En réalité, c’est même bien pire que ça. C’est dur de trouver une compar
 
 Et bien… pas vraiment. D’abord, il est bon de se rappeler à quel point les calculs sont devenus peu chers lors des dernières décennies. On arrive à un stade ou même 1€ dépensé sur AWS correspond déjà à une puissance phénoménale. [Cette page](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/) propose plusieurs infographies super bien faites pour visualiser l’augmentation des puissances de calcul et stockage.
 
-![La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](img/1__sAgxyIpAeTzGIijzSB5M5w.gif)
+![La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](/img/2018/decentralisation-layman/storage.gif)
 La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 
 Et puis il faut quand même se poser la question : est-ce que cette comparaison a un sens ? Elle nous aide à mieux cerner l’état encore balbutiant de la technologie, mais c’est à peu prêt tout.
@@ -207,9 +203,3 @@ _Les contenus cryptos qualitatifs en Français se font rare. Si vous connaissez 
 Vous avez peut être raté le virage de l’internet mais cette fois-ci vous arrivez au bon moment : on commence à peine ! **C’est maintenant qu’il faut se renseigner, lire et devenir expert sur le sujet afin d’être à même de reconnaître et saisir les opportunités lorsqu’elles se présenteront.**
 
 J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentraliser à grande échelle.
-
-[Cet article est une publication originale d’EcoCrypto.fr, l’incorruptible publication crypto française bientôt référence.](https://ecocrypto.fr/vulgarisation/la-decentralisation-expliquee-en-15-minutes-pour-monsieur-tout-le-monde/)
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-**Vous avez aimé cet article ? Vous pouvez applaudir jusqu’à 50 fois (en restant appuyé sur** 👏**) pour aider l’article à se diffuser et rejoindre** [**ce groupe Facebook pour ne pas rater les prochains**](https://www.facebook.com/groups/2129607707273125)**.**

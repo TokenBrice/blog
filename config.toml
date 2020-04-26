@@ -1237,7 +1237,7 @@ languageName = "🇫🇷 FR"
 
     hideLangToggleInHome = false
 
-    autoHideLangToggle = false
+    autoHideLangToggle = true
     # Note: in other words, the toggle is
     #       displayed only when the post
     #       has a translated version

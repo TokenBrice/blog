@@ -4,8 +4,8 @@ description: >-
   Un aperçu des principales choses à regarder avant d'investir dans un projet de
   crypto, et des astuces pour repérer les signaux inquiétants.
 date: '2018-07-05T10:36:03.488Z'
-categories: []
-keywords: []
+categories: [vulgarisation, blockchain]
+tags: [ICO, scam, Ethereum, Décentralisation]
 
 ---
 
@@ -156,5 +156,6 @@ Enfin le dernier point mais pas des moindres : **je vous recommande très forte
 Amusez vous bien !
 
 [Cet article est une publication originale d’EcoCrypto.fr, l’incorruptible publication crypto française bientôt référence.](https://ecocrypto.fr/vulgarisation/naviguer-le-cryptomonde-le-guide-pour-reperer-les-arnaques-et-shitcoins/)
+
 
 PS : Si vous avez vos propres astuces que vous n’avez pas retrouvé dans cet article, n’hésitez pas à les partager en commentaire.

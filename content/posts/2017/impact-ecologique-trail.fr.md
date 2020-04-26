@@ -3,7 +3,6 @@ title: "Comment évaluer et limiter l'impact écologique d'un trail ?"
 date: 2017-09-22T13:24:30+02:00
 draft: true
 toc: true
-avatar: img/main/brice.jpg
 ---
 
 Le trail est plus populaire que jamais ! La course à pied séduit, en  France et à travers le monde et le trail n’est pas en reste. C’est  désormais une des pratiques hors-stade les plus populaires avec la  randonnée et la marche nordique. Cet afflux continuel de nouveaux trailers représente une manne pour les organisateurs. Leurs courses  battent des records en nombre et importance chaque année. Le trail est  une pratique intimement liée avec la nature. 

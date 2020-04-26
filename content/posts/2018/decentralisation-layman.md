@@ -4,23 +4,19 @@ description: >-
   Decentralize everything! But wait, what does it even mean? A decentralization
   overview made to be understandable by anyone.
 date: '2018-07-02T08:31:50.115Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/why-decentralization-matters-a-12-min-overview-for-the-layman-6ec572d35af6
+categories: [vulgarization, blockchain]
+tags: [decentralisation, blockchain, cryptocurrency]
 ---
 
-![](img/1__jtFwa3Yglxk2X470IaGErA.png)
+![](/img/2018/decentralisation-layman/cover.png)
 
 While the general public is hearing more and more about [blockchain](https://hackernoon.com/tagged/blockchain) and cryptocurrencies, the philosophical and political underlying of decentralization are still kept mostly within the community. **Decentralization is bringing a paradigm shift that deserves more coverage than price action in my book**.
 
 A few months ago, I realized that I didn’t really understood decentralization. I got the high-level concept, but I failed to connect all the dots and **understand the social and political ramifications of it.** Since then, I’ve done my homework and now it’s time to give back my humble understanding of it.
 
-_Tu parles Français ? Allez viens ! On est bien._ [_Lien vers la version française._](https://ecocrypto.fr/vulgarisation/la-decentralisation-expliquee-en-15-minutes-pour-monsieur-tout-le-monde/)
-
 ### DOOMSAYER GETS THE SPOTLIGHT
 
-![The Simpsons: Season 16, Episode 19 — Thank God it’s Doomsday](img/1____zsWbMeaYlwM__ymBOKG1tw.png)
+![The Simpsons: Season 16, Episode 19 — Thank God it’s Doomsday](/img/2018/decentralisation-layman/homer.png)
 The Simpsons: Season 16, Episode 19 — Thank God it’s Doomsday
 
 Decentralization is not an easy change to apprehend. Imagine yourself in the internet early days, let’s say 1995. Could you have thought about all the potential use cases for this new tech and how they were going to unfold? Back then, you even had prominent actors from the tech industry [predicting the uselessness or failure of the internet](https://www.newstatesman.com/science-tech/internet/2016/08/25-years-here-are-worst-ever-predictions-about-internet):
@@ -53,7 +49,7 @@ It might seem obvious to some, but it’s an important fact: **Decentralization 
 
 Before we dive in, here is an interesting infographic giving you an overview of the centralization of major industries:
 
-![Thanks to Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](img/1__FqR8DJxr8cvkw320xWzYLg.png)
+![Thanks to Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
 Thanks to Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
 
 Now that you get the spectrum of decentralization, the second thing to understand is the **different dimensions of decentralization.**
@@ -66,7 +62,7 @@ The hard part is than in absolute, they aren’t any typology of the different d
 
 To maximize architectural decentralization, you’ll need to multiply the devices powering your [network](https://hackernoon.com/tagged/network), and spread them around the globe.
 
-![Graphical representation of the transactions happening on the IOTA Network (Tangle). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)](img/1__wOWZ0W3jwdFJySo7W2vDSg.png)
+![Graphical representation of the transactions happening on the IOTA Network (Tangle). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)](/img/2018/decentralisation-layman/tangle.png)
 Graphical representation of the transactions happening on the IOTA Network (Tangle). [Visualizer: Tangle.glumb.be](http://tangle.glumb.de/)
 
 To know how architecturally decentralized a system is, you can ask these questions:
@@ -78,7 +74,7 @@ To know how architecturally decentralized a system is, you can ask these questio
 
 Politics is about power. This dimension address the **decision making process of the system**. The most politically centralized protocol is one where a sole decision maker makes all the shots. At the other end of the spectrum, you’ll have many actors and evenly distributed responsibilities.
 
-![](img/1__0QoQ3QI4SCP6Qw85waaWKg.jpeg)
+![](/img/2018/decentralisation-layman/politics.jpeg)
 
 In the most politically decentralized systems, the spread between the least influential node and the most influential node is kept to a minimum. The perfectly politically decentralized network would offer the same influence to any node.
 
@@ -110,7 +106,7 @@ Don’t let some fancy words scare you, it’s actually not so hard. Looking at 
 *   **Both are also politically centralized**: the president/assembly/other elected or not officials hold most of the power, without any public oversight. You can’t swap president two years in, you have to wait the full term, even if the president lie, collude with foreign powers, mishandle public money… Hi to the elephant in the room! The federation might be a little less politically centralized than the nation, but it’s quite similar.
 *   The logical dimension is where things get interesting. While **a nation is one unique main “body”, aka logically centralized**, a federation is made of distinct “parts” that acknowledge and preserve their difference while working towards a common goal. Hence the federation is a good example of logically decentralized system.
 
-![Logical centralization overview for common protocols ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))](img/1__WnCojU__EmvfDfJPBOpOsAg.png)
+![Logical centralization overview for common protocols ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))](/img/2018/decentralisation-layman/decentralisation-quadrant.png)
 Logical centralization overview for common protocols ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))
 
 **The English Language**
@@ -129,7 +125,7 @@ Web hosting services such as AWS (Amazon Web Services) are the perfect example o
 
 *   **From an architectural perspective, they want their network to be as decentralized as possible**. As a hosting provider, AWS need to be reliable. To do so, they have many servers so that the redundancy builds resilience. Moreover, **both for performance and security reasons, they have their servers spread all around the world**. It reduces latency and further increase resilience.
 
-![Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).](img/1__yo9m1__9c5wly5q1T__QVKlg.png)
+![Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).](/img/2018/decentralisation-layman/aws.png)
 Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/).
 
 *   Yet, from a political perspective, Amazon has absolute control over the network. They can refuse to serve you, delete your content (if it’s illegal for instance) and the AWS user community no say on their decisions. **Hence, on the political dimension, AWS is close the most centralized end of the spectrum.**
@@ -149,7 +145,7 @@ It turns out it’s even more than that! It can be hard to find a relevant compa
 
 Well… yes and no. First, you have to consider how cheap computing power got over the last couple decades. We’re reaching a point where even just $1 spent on AWS represents a tremendous amount of computing power. [This page](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/) presents the evolution of computing over the last 25 years with neat infographics:
 
-![Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](img/1__sAgxyIpAeTzGIijzSB5M5w.gif)
+![Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](/img/2018/decentralisation-layman/storage.gif)
 Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 
 And well, we’ve got to ask ourselves: does the comparison even makes sense? It can be useful to understand the current state of our tech, but does it tell us anything else?
@@ -199,9 +195,3 @@ Decentralization is a high level concept that is essential to understand blockch
 You might have missed the internet revolution, but you’re in luck for this one: it’s barely beginning! **Now is the time to get knowledgeable about it so you can recognize and harness opportunities as they emerge**.
 
 I hope this article helped you get a better understanding of the paradigm shift offered by the newfound ability to develop decentralized protocols at scale, thanks to blockchain. and other decentralized protocols.
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you like this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.
-
-This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.

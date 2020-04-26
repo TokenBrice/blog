@@ -4,12 +4,11 @@ description: >-
   Thanks to Decentralised Finance, many new opportunities emerge to generate a
   passive income. I'm sharing some clues to help you start.
 date: '2020-02-20T14:53:50.191Z'
-categories: []
-keywords: []
-slug: /@TokenBrice/free-coffees-thanks-to-defi-916f988cf086
+categories: [tips]
+tags: [DeFi, RealT, Compound, DAI]
 ---
 
-![Free Coffees thanks to DeFi — Using the Monolith Card & DeFi to never pay for a coffee again](https://cdn-images-1.medium.com/max/1200/1*ijFP2yJGwcs59rPSzruW2A.png)
+![Free Coffees thanks to DeFi — Using the Monolith Card & DeFi to never pay for a coffee again](/img/2020/freecoffees/cover.png)
 
 _Overview of the passive income-earning opportunities enabled by decentralised finance_
 
@@ -56,11 +55,11 @@ With the help of these new services, you can:
 
 To keep it simple here, we’re considering only 3 investments strategy matching different risk profiles, using only two different services:
 
-![](img/1__Rixq5xgl0G6__aALAT8N3nA.png)
+![](/img/2020/freecoffees/5DAI.png)
 
 The **Dai Saving Rate is arguably the safest way to earn a return on your DAI**. The risk is minimal because you’re not lending your money to anyone. To keep it short, you lock your DAI in the Maker system, and the system pays you a premium because you’re helping DAI to maintain its peg.
 
-![_👆_ [_DeFiscore_](https://defiscore.io/) _is a community project offering a comprehensive rating of the risks associated with different lending protocols. What you see above is an overview of their ranking of DAI lending opportunities._](img/0__gOzHCrxMSN4__17ZE.jpg)
+![_👆_ [_DeFiscore_](https://defiscore.io/) _is a community project offering a comprehensive rating of the risks associated with different lending protocols. What you see above is an overview of their ranking of DAI lending opportunities._](/img/2020/freecoffees/defiscore.png)
 _👆_ [_DeFiscore_](https://defiscore.io/) _is a community project offering a comprehensive rating of the risks associated with different lending protocols. What you see above is an overview of their ranking of DAI lending opportunities._
 
 On the other hand, the other solution used, RealT, is a **little more novel and risky**. RealT tokenises real estate on Ethereum & allow anyone to become an owner. If you own a share of RealT estate, you’ll receive **your share of the rent, paid in DAI, daily**.
@@ -84,6 +83,9 @@ Well, thanks to Monolith (disclaimer: I work there) it’s easy as ABC. We provi
 
 That was step 1. We’ve shared recently about a [significant upcoming update](https://twitter.com/monolith_web3/status/1223597132952887302?s=20), that will let you exchange tokens and access decentralised lending services straight from your Monolith app:
 
+{{< tweet 1227200774175895552 >}}
+
+
 ### Before you jump in
 
 If you are seriously considering investing amounts close to those presented in the table above, **please ensure that you know the basics**: such as using & [securing](https://medium.com/monolith/5-rules-you-need-to-know-to-stay-safe-on-ethereum-2447244cdcb3) an Ethereum wallet, understanding threats and choosing an [appropriate security model](https://medium.com/monolith/the-usability-of-security-the-choice-of-a-contract-wallet-1e32f92ea9a1).
@@ -92,8 +94,10 @@ If you are seriously considering investing amounts close to those presented in t
 
 Ready to make the jump? Deploy your first contract wallet today and order your Visa debit card [with the Monolith app](https://monolith.app.link/ETH-IS-MONEY).
 
-[!🆓 **Get your Monolith card for free** | 🇪🇺 Shipping to 31 countries in Europe | 💸 Spend DAI in a flash with minimal fees | 🔐 Advanced security model | 💱 Built-in DEX Aggregator (soon)[](https://cdn-images-1.medium.com/max/800/1*gOijzVDKlAfFRg3fwHg0nQ.jpeg)](https://monolith.app.link/ETH-IS-MONEY)
-🆓 **Get your Monolith card for free** | 🇪🇺 Shipping to 31 countries in Europe | 💸 Spend DAI in a flash with minimal fees | 🔐 Advanced security model | 💱 Built-in DEX Aggregator (soon)
+![](/img/2020/freecoffees/card.jpeg)
+
+[🆓 **Get your Monolith card for free** | 🇪🇺 Shipping to 31 countries in Europe | 💸 Spend DAI in a flash with minimal fees | 🔐 Advanced security model | 💱 Built-in DEX Aggregator (soon)](https://monolith.app.link/ETH-IS-MONEY)
+
 
 ### DISCLAIMER
 
