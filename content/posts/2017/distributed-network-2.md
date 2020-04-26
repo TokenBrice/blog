@@ -4,13 +4,11 @@ description: >-
   A tidal wave is rising in France: Mélechon’s novel approach is threatening the
   current crooked order of political affairs.
 date: '2017-04-16T17:31:42.218Z'
-categories: []
+categories: [politics]
 keywords: []
-slug: >-
-  /@TokenBrice/distributed-networks-in-politics-bane-of-the-media-and-will-of-the-people-5fadcec44563
 ---
 
-![Jean-Luc Mélenchon speaking at Marseille 04/09/2017](img/1__hm2cYrB3JA3s28Tic4ITEA.jpeg)
+![Jean-Luc Mélenchon speaking at Marseille 04/09/2017](/img/2017/distributed-networks-2/cover.jpeg)
 Jean-Luc Mélenchon speaking at Marseille 04/09/2017
 
 A tidal wave is rising in France: Mélenchon is federating more and more behind his candidacy every day. His novel approach is threatening the current crooked order of political affairs and medias are strongly reacting to his popularity.
@@ -18,8 +16,6 @@ A tidal wave is rising in France: Mélenchon is federating more and more behind 
 Last week, I wrote my first medium article about distributed networks and the impact they will have in the organization of political affairs. It was built on examples taken from the French and US political life. This week, I want to focus on the state of French political affairs exclusively.
 
 The timing is particularly relevant, with the first round of the French presidential election occurring next Sunday (04/23). The campaign has been surprisingly dynamic, although affairs and corruption scandals occupied much of the media space, especially at the beginning.
-
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
 
 ### A legal framework biased towards candidates of the main parties
 
@@ -35,7 +31,7 @@ Finally, from April 10th to the second round (05/07) **a “strict” equality o
 
 #### Which leads to an even more twisted reality of coverage
 
-![Media coverage from 02/01 to 03/05, [source](http://teleobs.nouvelobs.com/actualites/20170308.OBS6308/temps-d-antenne-anormal-de-francois-fillon-pourquoi-le-csa-sonne-l-alarme.html)](img/1__QKoa9oqgE__hGLIHsQe53Gg.jpeg)
+![Media coverage from 02/01 to 03/05, [source](http://teleobs.nouvelobs.com/actualites/20170308.OBS6308/temps-d-antenne-anormal-de-francois-fillon-pourquoi-le-csa-sonne-l-alarme.html)](/img/2017/distributed-networks-2/media-coverage.jpeg)
 Media coverage from 02/01 to 03/05, [source](http://teleobs.nouvelobs.com/actualites/20170308.OBS6308/temps-d-antenne-anormal-de-francois-fillon-pourquoi-le-csa-sonne-l-alarme.html)
 
 The reality of media coverage (illustrated in the chart above) is **extremely biased to the benefits of Fillon, Lepen, Hamon and possibly Macron**. At the beginning of March, Hamon benefited from roughly three times the media coverage of Mélenchon, for an almost equal share of the voters’ intention. At the same time, **for approximatively twice the voting intention of** Mélenchon**, Fillion was receiving roughly five times his coverage.**
@@ -48,10 +44,8 @@ If you go around in the streets of Paris and ask random passerby who are the can
 
 Yet, we French are seriously concerned about politics and read a lot about it: **the issue is about what we read.** Indeed, France’s media ownership situation is very much alike to most developed countries: a handful (**10 individuals own around 90% of the media coverage**) of wealthy individuals own most of the outlets. One of the few respectable newspaper in France, _Le Monde Diplomatique_, publishes an infographic presenting the situation every year:
 
-![French medias: who owns what? [Source: Le Monde Diplomatique](https://www.monde-diplomatique.fr/cartes/ppa)](img/1__t8UZlR93awhVg4EW7XNkCA.png)
+![French medias: who owns what? [Source: Le Monde Diplomatique](https://www.monde-diplomatique.fr/cartes/ppa)](/img/2017/distributed-networks-2/media-map.png)
 French medias: who owns what? [Source: Le Monde Diplomatique](https://www.monde-diplomatique.fr/cartes/ppa)
-
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
 
 ### The one standing out the crowd: the fight for a the 6th republic
 
@@ -85,8 +79,6 @@ President Hollande didn’t take any stance so far which can seem surprising. Pe
 
 The second reason and probably main one comes from, once again, our skewed legislation: parties are reimbursed their campaigns expenses only if they gather at least 5% of the popular vote. **If Hamon withdraw himself from the campaign, the Parti Socialiste will go bankrupt.**
 
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
-
 #### Leading the real battles: inequality, climate and solidarity
 
 According to the NGOs for the development aid Action Against Hunger, Action santé mondiale, CARE France and ONE Campaign, Jean-Luc Mélenchon is the candidate in the presidential election who is the most engaged regarding international solidarity. **He vigorously denounces free trade between France and the United States as an example of global exploitation.**
@@ -101,12 +93,10 @@ The ideas promoted by Mélenchon are welcomed: although they have been expressed
 
 He’s the first candidate to use YouTube for his campaign: since his success others have tried to reproduce it. Instead of producing short, fast-paced videos — supposedly what works on YouTube — he takes 25 to 30 minutes every week for a review. **Sitting in front the camera, he goes back on the main subjects of the week and offers a fresh and well-documented perspective on each of them**. With close to 300 000 subscribers, he’s now the most successful French politicians on the network.
 
-![Melenchon’s hologram](img/1__rl1NtPMxXFNLD__JCGUd23g.jpeg)
+![Melenchon’s hologram](/img/2017/distributed-networks-2/hologram.jpeg)
 Melenchon’s hologram
 
 Besides, his meetings are hugely successful: **he keeps the presentation short, below the 90 minutes’ mark and always addresses different topic**. During the last one, which occurred this Sunday at Toulouse in the South of France, he addressed the situation in French Guiana which recently became an important topic in the campaign. Moreover, the organization is carefully planned and relies and an innovative approach. **Mélenchon sometimes presents simultaneously in the multiple cities thanks to holograms.**
-
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
 
 ### A shift in voters’ intention
 
@@ -116,22 +106,20 @@ His fresh but pragmatic look at our political situation combined with his smart 
 
 Four days ago, April the 13th, Macron was credited with 94.1 % chance of winning the election, Fillon 3.7% and Mélenchon 2.2%:
 
-![Polls’ average, April 13th](img/1__9c23sCnePQnPq64OT1__iTQ.jpeg)
+![Polls’ average, April 13th](/img/2017/distributed-networks-2/polls1.jpeg)
 Polls’ average, April 13th
 
 Just three days after, April the 16th, Macron was down to 88.3%, Mélenchon at 6% and Fillon at 5.6%
 
-![Polls’ average, April 16th](img/1__hcvo9wBfjaqjxjZkmDfcJQ.jpeg)
+![Polls’ average, April 16th](/img/2017/distributed-networks-2/polls2.jpeg)
 Polls’ average, April 16th
 
 The next day, April the 17th he’s again rising: Macron at 86.4%, Mélenchon at 7.2% and Fillon at 6.3%.
 
-![Polls’ average, April 17th](img/1__EumXKoKASCo7PvIJ1wlROg.jpeg)
+![Polls’ average, April 17th](/img/2017/distributed-networks-2/polls3.jpeg)
 Polls’ average, April 17th
 
 **The dynamic is clear. Mélenchon is on the rise and mainstream medias started shivering.**
-
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
 
 ### Mainstream media in panic mode
 
@@ -143,7 +131,7 @@ While he published the video more than a month ago, medias completely ignored it
 
 Diverse strategies are used to fragilize his candidacy down to the most dishonest — smearing: **some medias are trying to depict him as a socialist-dictator**, like Chavez or Castro. The cover of the digital edition of “Le Figaro” (a French right-leaning newspaper) from April the 13rdis particularly insightful on the matter:
 
-![Le Figaro’s headline, April 13th](img/1__tPeSX48pcsiTkpt5sqw7xA.jpeg)
+![Le Figaro’s headline, April 13th](/img/2017/distributed-networks-2/figaro.jpeg)
 Le Figaro’s headline, April 13th
 
 Here are the translations of the headlines:
@@ -158,7 +146,6 @@ Here are the translations of the headlines:
 
 > Mélenchon wants to shatter “liberal” Europe
 
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
 
 #### What the media panic means for Mélenchon’s candidacy
 
@@ -169,7 +156,3 @@ Indeed, considering who owns them, seeing them react so strongly to Mélenchon�
 In my previous and first article, I discussed how distributed networks could be [the key to free us from neoliberalism](https://medium.com/@BBerdah/is-the-world-ready-for-the-shakedown-of-bottom-up-politics-98c585048db5). The candidacy of Jean-Luc Mélénchon, heavily supported by diverse organizations effectively functioning as distributed network is an actualization of this thesis.
 
 **I welcome the panic of our corrupted medias with comfort and confidence: it’s a sign they’re about to become a thing of the past.**
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.

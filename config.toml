@@ -720,7 +720,7 @@ languageName = "🇫🇷 FR"
     #            supported
 
     # The content width of the post
-    postWidth = 32
+    postWidth = 50
     # Note: you can leave it empty("") to
     #       fallback to the default value: 42
     #       Unit: em

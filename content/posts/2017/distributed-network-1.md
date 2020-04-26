@@ -4,13 +4,11 @@ description: >-
   From a reflection on the effectiveness of the grassroots campaign in the
   United States to the current state of political affairs in France…
 date: '2017-04-10T08:41:30.302Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/is-the-world-ready-for-the-shakedown-of-bottom-up-politics-98c585048db5
+categories: [politics]
+tags: []
 ---
 
-![](img/1__vKYYkiyoec6pwCM__3aJd7Q.jpeg)
+![](/img/2017/distributed-networks-1/cover.jpeg)
 
 From a reflection on the effectiveness of the grassroots campaign in the United States to the current state of political affairs in France, this article discusses the recent changes that occurred in the political life in both countries and what they mean for the future.
 
@@ -20,7 +18,7 @@ Here in France, the two campaigns of Obama appeared like logical successes. Inde
 
 In his view, the main advantage of Obama’s platform, what brought him to success, lied in the volunteers and their organization. The key to the positive voter turnout for Obama in 2008 were the thoroughly organized and very motivated volunteers that lead an effective door-to-door grassroots campaign. **Even if large meetings attract the press coverage, the actual persuasion of undecided voters mostly happens when they are talking, face-to-face, to a volunteer.**
 
-![Snapshot of Barrack Obama’s campaign website (2008)](img/1__qqCsCJQxxXpYHyH3ZMXk9Q.jpeg)
+![Snapshot of Barrack Obama’s campaign website (2008)](/img/2017/distributed-networks-1/obama-website.jpeg)
 Snapshot of Barrack Obama’s campaign website (2008)
 
 Everything besides this, such as the campaign’s website or social medias were conceived [to get people involved in the campaign](http://dragonflyeffect.com/blog/dragonfly-in-action/case-studies/the-obama-campaign/) — fuel the grassroots movement. A quick look at Obama’s 2008 website makes it crystal clear: at the top right, one of the most prominent section of the page, there is a box to help potential voters find the closest polling station to their home. Then, just below, the goal is to get people involved in the movement by proposing them five different ways to mobilize. Finally, the left part of the body is here to help viewers find volunteer events near them. The website also had a personal workspace for volunteers with **a gamified approach** to foster volunteers’ motivation.
@@ -29,7 +27,7 @@ There is no mystery to this for Lex Paulson. Indeed, according to the data colle
 
 **Obama benefited from a very large and highly motivated volunteers base**. To galvanize the base, **the candidate’s attitude is essential**: he sets the tone. While Obama managed to put his volunteers first, and made them feel valued, Clinton failed this in 2016. In Lex’s perspective, that’s the main reason of her defeat: she failed to organize and motivate her community well enough. **Commitment from the base is necessary for it to scale up and branch out.**
 
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
+![](/img/2017/distributed-networks-1/melenphone.png)
 
 ### Formal politics, a remnant of the past?
 
@@ -39,7 +37,7 @@ Nowadays, there is a sharp decline in participation in formal politics such as p
 
 People are more and more frustrated with politics in its traditional sense; they are looking for new ways to engage themselves. Among these are **decentralized and distributed movements** regrouping people fighting for the same cause: in France, there was la “Manif Pour Tous”, a traditional and family-oriented movement originated from the right-wing of the political spectrum to oppose the gay-marriage law in 2013. More recently, and more known internationally, we had “Nuit Debout”, a horizontally-structured, leaderless social movement that arose in 2016 in the wake of the protests against Elkomri Law, a liberal-oriented labor reform.
 
-![](img/1__SKt__JQsW7accaFRSqFSZlw.png)
+![](/img/2017/distributed-networks-1/networks.png)
 
 ### Whether it’s made of wires or people, a network works the same way
 
