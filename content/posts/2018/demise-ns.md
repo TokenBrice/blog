@@ -4,13 +4,11 @@ description: >-
   How to break down a nation-state? A step by step tutorial and a framework
   proposal to understand the post nation-state world.
 date: '2018-06-30T16:14:38.684Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/the-demise-of-nation-states-introducing-the-nation-as-a-service-naas-ef3bf9f494e3
+categories: [🧔 Opinions, 🗺 NaaS]
+tags: [NaaS]
 ---
 
-![Welcome to BBLand. Have a seat and enjoy the ride!](img/1__qiMaRSmwmt2Ar3CwY9r__rA.jpeg)
+![Welcome to BBLand. Have a seat and enjoy the ride!](/img/2018/demise-ns/cover.jpeg)
 Welcome to BBLand. Have a seat and enjoy the ride!
 
 Whether you believe or not in the idea of “the march of history”, there is an undeniable worldwide trend that is leading to a complete overall of the power structure: **the progressive disengagement of the state from state affairs**.
@@ -75,7 +73,7 @@ Going back to BBland for a minute, what’s left of our state? Barely the minima
 
 If you’ve never heard about the Estonian e-residency before, [go have a look](https://e-resident.gov.ee/) you’ll learn a lot. I know most of my dear readers won’t so here is a screenshot from the official website linked above:
 
-![Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)](img/1__BuFx9TzU8lzIBcU39yP6zw.png)
+![Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)](/img/2018/demise-ns/e-residency.png)
 Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)
 
 So it seems that there are two essential features offered by the e-residency:
@@ -119,7 +117,3 @@ So where do we go from here? Since Estonia is the most startupy of all the start
 My faithful readers know my strong interest for cryptocurrencies and decentralization, I kept myself in check all along the article so allow me to drift of a little bit now. I see many synergies between the NaaS concept and the blockchain: identity verification, taxes, contracts… Yet despite the synergies, a NaaS is a very centralized institution. I’m puzzled. Could one really help the other?
 
 Before I give you your attention back (I privatized it a while ago, it’s mine now, remember?), help me to answer this question: Should I cut the crap and start an ICO to raise capital for the first fully private NaaS? I could be the rattiest rat!
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.

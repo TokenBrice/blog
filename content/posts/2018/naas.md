@@ -4,19 +4,13 @@ description: >-
   The rise of the Nation as a Service is an underlying trend forces a paradigm
   shift. Will citizens benefit from it?
 date: '2018-07-11T11:54:20.399Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/the-nation-as-a-service-and-its-fractional-citizenship-a-good-idea-65f66c58c165
+categories: [🧔 Opinions, 🗺 NaaS]
+tags: [NaaS]
 ---
 
-![](img/1__URJ7WiOt1cBQMyvv1KTVog.jpeg)
+![](/img/2018/naas/cover.jpeg)
 
-While nationalists movements seem to be thriving, an equally interesting counter trend is shaping itself quietly. Despite nationalists’ wish to provide the services of the nation only to the purest of their kind, others countries are turning to the opposite direction: they are star
-
-ting to provide services to non-citizens.
-
-[Vous parlez Français ? Chic ! Moi aussi (Traduction FR).](https://ecocrypto.fr/gouvernance/nation-comme-service-ncs/)
+While nationalists movements seem to be thriving, an equally interesting counter trend is shaping itself quietly. Despite nationalists’ wish to provide the services of the nation only to the purest of their kind, others countries are turning to the opposite direction: they are starting to provide services to non-citizens.
 
 Estonia is one of the pioneers reshaping role of the nation and what being a “citizen” even means. Since the launch of the e-residency program, close than 30 000 world citizens applied. Yet e-Estonia is only beginning: the country is [aiming to reach 10 millions e-resident by 2025](https://medium.com/e-residency-blog/happy-3rd-birthday-to-our-global-e-resident-community-7143adc73994), for a country counting 1.35 million “physical” citizens.
 
@@ -95,9 +89,5 @@ Indeed, with more and more fractional citizenships available under a subscriptio
 This article was written to be nothing more than an analysis giving you a framework to read the current shift happening on the very definition of a nation. I tried my best to avoid any judgement one way or another.
 
 Yet, I think the ongoing shift I described in this article will have tremendous consequences, many of which are not yet envisioned. I still can’t really figure how to feel about this, I jump from curiosity to anger, or from fascination to despair. What about you?
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.
 
 This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.

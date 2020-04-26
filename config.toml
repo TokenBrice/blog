@@ -432,7 +432,7 @@ languageName = "🇫🇷 FR"
     ######################################
     # List Page
 
-    listWidth = 30
+    listWidth = 50
     # Note: you can leave it empty("") to
     #       fallback to the default value: 42
     #       Unit: em

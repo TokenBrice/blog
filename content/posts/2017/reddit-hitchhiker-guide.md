@@ -4,7 +4,7 @@ description: >-
   For brands and startups alike, Reddit can be a true goldmine. Reddit Ads
   deliver, even on a budget. Have you tried it?
 date: '2017-10-10T11:16:29.535Z'
-categories: [analysis]
+categories: [📔 Guide]
 tags: [reddit, online community, astroturfing, advertising]
 ---
 

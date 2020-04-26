@@ -4,13 +4,11 @@ description: >-
   How sustainable the advertising model really is? Can’t we really think of
   anything better to provide free goods and services?
 date: '2018-04-17T14:15:12.590Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/growing-beyond-the-advertising-model-to-achieve-democracys-true-potential-5990de48a86f
+categories: [🔍 Analysis, 🎭 Privacy]
+tags: [advertising model, privacy, data harvesting]
 ---
 
-![](img/1__cf8SVmWk8uUsDmh7ittwLQ.jpeg)
+![](/img/2018/ad-model/cover.jpeg)
 
 In a [previous article](https://medium.com/@BBerdah/facebook-x-cambridge-analytica-the-hidden-cost-of-free-services-3f5724e80baf), we raised many issues about the advertising model and free online services in general. **They all fall within the spectrum of hidden cost, something society, we, eventually pay for.** From recurring annoyances to a loss of political power, the range of consequences of data concentration for political and social influence is wide. **Behind all of these “free” offers, compromises are made**.
 
@@ -46,7 +44,7 @@ The [toolbox](https://hackernoon.com/tagged/toolbox) for crowd and individual co
 
 This phenomenon is present in every academic discipline, sometimes with a different name (Hawthorne Effect).
 
-![](img/0__yK0__pMMYeK2y5C__q.jpg)
+![panopticon](/img/2018/ad-model/panopticon.jpg)
 
 This observation was used by the [philosopher Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham) to envision an institutional building designed for maximum efficiency, the panopticon. Since the watchtower is placed in the center, with prisoners all around, any prisoner can potentially be watched at all times with only one guard. Worse, the prisoners can’t know if they’re being watched or not. He described it himself as **“a new mode of obtaining power of mind over mind”.**
 
@@ -62,7 +60,7 @@ In the end, the free supported by ads model is costly. Advertisers are getting c
 
 As we have seen already, Facebook’s and others main profit driver is **how addicted to their service, to maximize the time spent on it**. It can’t be balanced, **it’s a design flaw**. When Zuckerberg speaks about Facebook’s ideals, and how he wishes to make it more honest and transparent, it’s no more than marketing and PR.On a market where two actors (Facebook and Google) hold more than half of the revenue of the whole industry, what can you do if your ad costs explode? Essentially, you have no alternative.
 
-![[Net digital advertising revenue share of major ad-selling online companies worldwide from 2016 to 2019](https://www.statista.com/statistics/290629/digital-ad-revenue-share-of-major-ad-selling-companies-worldwide/)](img/0__IdIBW85V1M83MJCf.jpg)
+![[Net digital advertising revenue share of major ad-selling online companies worldwide from 2016 to 2019](https://www.statista.com/statistics/290629/digital-ad-revenue-share-of-major-ad-selling-companies-worldwide/)](/img/2018/ad-model/revenues.jpg)
 [Net digital advertising revenue share of major ad-selling online companies worldwide from 2016 to 2019](https://www.statista.com/statistics/290629/digital-ad-revenue-share-of-major-ad-selling-companies-worldwide/)
 
 ### THE EDGE OF SCALE
@@ -83,7 +81,7 @@ What it means, in an economic sense, is that **each time Facebook register a new
 1.  First, it will increase its total amount of (active) user, which is the base multiplier of FB’s revenues.
 2.  Secondly, because a bigger dataset allows drawing more insightful analysis, **FB is able to increase its revenue per user (ARPU)** more for each data point it already has on one.
 
-![[Facebook’s ARPU, 2015–2017](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)](img/1__5RgWmm5hK4GQ5AzuxfyKEw.png)
+![[Facebook’s ARPU, 2015–2017](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)](/img/2018/ad-model/arpu.png)
 [Facebook’s ARPU, 2015–2017](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)
 
 The ARPU (Average Revenue per User) is an interesting metric to look at. It gives you an idea of **how much money Facebook is actually able to extract from your data.** The ARPU is also strongly correlated on how detailed the database is.
@@ -92,7 +90,7 @@ A high ARPU could then indicate that Facebook has a very detailed file. With an 
 
 If we look at the growth of Facebook’s ARPU, it has been on exponential growth over the last four years. Once again, the real word seems to confirm the observation, as the role played by Facebook keep getting more important with each new ballot.
 
-![[Facebook’s average revenue per user as of 4th quarter 2017, by region (in U.S. dollars)](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)](img/0__0fFOM7w8bT__kvgj2.jpg)
+![[Facebook’s average revenue per user as of 4th quarter 2017, by region (in U.S. dollars)](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)](/img/2018/ad-model/arpu-growth.jpg)
 [Facebook’s average revenue per user as of 4th quarter 2017, by region (in U.S. dollars)](https://www.statista.com/statistics/251328/facebooks-average-revenue-per-user-by-region/)
 
 **GAFAs are now so big that each of their decisions has huge impacts**. Google and Facebook together are the biggest source of traffic for most websites. [When Google slashes incoming traffic by 70% to a 20 years old left-leaning website — French](https://www.legrandsoir.info/un-nouvel-algorithme-de-google-limite-l-acces-aux-sites-web-progressistes-et-de-gauche.html), the World Socialist Web Site, **it is a political action with real consequences on the political life of the country**. GAFAs are now the gatekeepers of the information online and make calls about what we see or not. Because of their size, their decisions have tremendous impacts on society.
@@ -101,11 +99,4 @@ Now that we know about Facebook and other online services data collection practi
 
 **Do we keep sacrificing our political power on the altar of convenience, or should we build our own decentralized social network services framework to prevent control and manipulation from hostile parties?**
 
-![Screenshot from [essentia.one](https://essentia.one) website](img/0__kRGtzvUhUB__KnSWb.png)
-Screenshot from [essentia.one](https://essentia.one) website
-
-The blockchain opened a range of new options to build decentralized institutions we can trust. Some solutions, such as [Essentia.one](https://essentia.one) (featured above) are already working. We’ll see radical alternatives emerge over the upcoming years, **it’s up to us to make the best of it.**
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.
+The blockchain opened a range of new options to build decentralized institutions we can trust. Some solutions are already working. We’ll see radical alternatives emerge over the upcoming years, **it’s up to us to make the best of it.**

@@ -4,7 +4,7 @@ description: >-
   Has the chatbot hype peaked? Are they living up to their promises? Why do they
   fail and what do they need to succeed?
 date: '2017-08-02T12:43:42.920Z'
-categories: [analysis]
+categories: [🔍 Analysis]
 tags: [chat, design, dark patterns, interview]
 ---
 

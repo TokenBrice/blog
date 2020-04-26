@@ -4,8 +4,8 @@ description: >-
   A tidal wave is rising in France: Mélechon’s novel approach is threatening the
   current crooked order of political affairs.
 date: '2017-04-16T17:31:42.218Z'
-categories: [politics]
-keywords: []
+categories: [🧔 Opinions, 🗳 Campaign]
+tags: []
 ---
 
 ![Jean-Luc Mélenchon speaking at Marseille 04/09/2017](/img/2017/distributed-networks-2/cover.jpeg)

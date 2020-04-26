@@ -4,8 +4,8 @@ description: >-
   Decentralize everything! But wait, what does it even mean? A decentralization
   overview made to be understandable by anyone.
 date: '2018-07-02T08:31:50.115Z'
-categories: [vulgarization, blockchain]
-tags: [decentralisation, blockchain, cryptocurrency]
+categories: [💸 DeFi, 🛸 Basics]
+tags: [decentralisation, vulgarization, blockchain, cryptocurrency]
 ---
 
 ![](/img/2018/decentralisation-layman/cover.png)

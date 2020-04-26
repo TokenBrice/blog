@@ -4,7 +4,7 @@ description: >-
   Ever scrolled through Facebook for hours despite having other things to do?
   That's precisely the goal, among others, of dark patterns.
 date: '2019-04-15T09:02:04.642Z'
-categories: [analysis, attention]
+categories: [🔍 Analysis, 🎭 Privacy]
 tags: [design, engineered addiction, advertising model, data harversting]
 ---
 

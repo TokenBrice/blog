@@ -4,17 +4,13 @@ description: >-
   Stablecoins provide an answer to one of the main concern of the general
   audience with cryptos: volatility. But it comes with a cost.
 date: '2018-08-22T12:14:52.416Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/is-stability-a-necessity-for-cryptocurrencies-mainstream-adoption-c2c083a97dc9
+categories: [💸 DeFi, 🛸 Basics]
+tags: [stablecoins, price volatility, DAI, USDT]
 ---
 
-![](img/1__H6FHf3sn2oLtcIZCnzBwyg.jpeg)
+![](/img/2018/stablecoins/cover.jpeg)
 
 When you talk about cryptocurrencies with people unfamiliar with it, the question of volatility is among the first to pop up. Quite often, it’s a low effort way to dismiss the whole world of cryptocurrencies and recent progress made with decentralization. Volatility does not affect all cryptocurrencies: some of them are made to be stable (price wise) — we call them the “stablecoins.”
-
-[Lire cet article en francais, sa langue originale.](https://ecocrypto.fr/vulgarisation/stablecoins/)
 
 Before we get to that point, let’s state some necessary facts to understand this article:
 
@@ -28,19 +24,19 @@ The question of volatility highlights a vital characteristic of a currency: pric
 
 We observe a strong correlation between the adoption of cryptocurrencies and the “weakness” of the national currency (called fiat currencies) in a given country. It’s hard to measure the adoption of cryptocurrency, but we can easily get figures on how many people are interested in buying some using Google Trends:
 
-![Geographical distribution of the query “How to buy bitcoin” using Google Trends](img/1____7xQGJxgBA4XtU9aEsEmsQ.png)
+![Geographical distribution of the query “How to buy bitcoin” using Google Trends](/img/2018/stablecoins/buy-bitcoin.png)
 Geographical distribution of the query “How to buy bitcoin” using Google Trends
 
 The Ghanaian currency (the Cedi — GHS) went from roughly a dollar in 2008 to around 20 cents nowadays. Meanwhile, the Nigerian currency (the Naira — NGN) lost about half of its worth (measured against the dollar).
 
-![The exchange rate of the dollar against the Cedi (left) and Naira (right) over the last ten years. Source: [TradingEconomics](https://tradingeconomics.com/).](img/1__NlFQmt4FeAYmWoCaa44uxw.png)
+![The exchange rate of the dollar against the Cedi (left) and Naira (right) over the last ten years. Source: [TradingEconomics](https://tradingeconomics.com/).](/img/2018/stablecoins/cedi.png)
 The exchange rate of the dollar against the Cedi (left) and Naira (right) over the last ten years. Source: [TradingEconomics](https://tradingeconomics.com/).
 
 The devaluation happened fast enough for people living in these countries to see the impact of it. It could explain the strong interest we observe for cryptocurrencies in Ghana and Nigeria. However, the issue with the determining how much a given currency is worth is more complex than simply measuring it against the dollar. If we use the dollar as our reference point, we must question its stability: **is the dollar itself even stable?**
 
 Without thinking twice about it, the “yes” seems like the go-to answer. The dollar hasn’t changed over these last 50 years — a $1 bill emitted in 1968 would still be recognized as such today. However, what about its worth? It is changing all the time. Is one 1968 dollar still worth $1 then? The answer is simply no — it would give access to a purchasing power corresponding to roughly 7 present days dollar.
 
-![Evolution of the buying power of the equivalent a 1968 dollar from this date until now. Source: [TradingEconomics](https://tradingeconomics.com/).](img/1__IA3cN0BE8C3Bl__wUWqd0gQ.png)
+![Evolution of the buying power of the equivalent a 1968 dollar from this date until now. Source: [TradingEconomics](https://tradingeconomics.com/).](/img/2018/stablecoins/inflation.png)
 Evolution of the buying power of the equivalent a 1968 dollar from this date until now. Source: [TradingEconomics](https://tradingeconomics.com/).
 
 The main driver of the spread is of course inflation. The topic is sophisticated enough to have theses written about it, so we’ll leave it to others. Now that we have some context let’s get back to stablecoins.
@@ -53,7 +49,7 @@ A stablecoin’s worth is not stable; it is merely its value that is pegged to a
 
 However, the question of having a stable value is interesting to consider. How would it look like? That one unit of the given currency is always worth one unit? That’s DOGE’s specialty!
 
-![The DOGE is a parodical currency created out of a meme which is now taken more and more seriously as cryptocurrencies develop](img/1__lQEJn5ErRY__tZseDeUgKng.png)
+![The DOGE is a parodical currency created out of a meme which is now taken more and more seriously as cryptocurrencies develop](/img/2018/stablecoins/doge.png)
 The DOGE is a parodical currency created out of a meme which is now taken more and more seriously as cryptocurrencies develop
 
 Let’s go back to more serious matters: the stability of currency could be defined as the fact that one unit of it always grant access to the same value. This definition would be consistent with the definition of a currency proposed in a [previous piece](https://hackernoon.com/money-101-discarding-the-myth-of-bartering-to-understand-bitcoin-better-3b8e66cd2e77).

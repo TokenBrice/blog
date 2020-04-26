@@ -4,7 +4,7 @@ description: >-
   There’s a principle in economics that lies at the heart of how the economy
   works: scarcity. What happens when marketers abuse it?
 date: '2019-04-18T15:00:20.293Z'
-categories: [analysis, attention]
+categories: [🔍 Analysis, 🎭 Privacy]
 tags: [advertising model, data harversting]
 ---
 

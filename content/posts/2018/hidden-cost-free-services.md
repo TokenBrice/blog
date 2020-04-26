@@ -4,13 +4,11 @@ description: >-
   Cambridge Analytica is the tree hiding the forest. With the data Facebook
   amassed, comes the power to influence the political life.
 date: '2018-04-13T14:23:08.991Z'
-categories: []
-keywords: []
-slug: >-
-  /@TokenBrice/facebook-x-cambridge-analytica-the-hidden-cost-of-free-services-3f5724e80baf
+categories: [🔍 Analysis, 🎭 Privacy]
+tags: [advertising model, Cambride Analytica, ad blockers]
 ---
 
-![[Image Credit: Pawel Kucynsky](https://www.facebook.com/pawelkuczynskiart/)](img/0__915yTPxalIdKCYgC.)
+![[Image Credit: Pawel Kucynsky](https://www.facebook.com/pawelkuczynskiart/)](/img/2018/free-services/cover.jpeg)
 [Image Credit: Pawel Kucynsky](https://www.facebook.com/pawelkuczynskiart/)
 
 Last month was a strange one. We saw mainstream media questioning [Facebook](https://hackernoon.com/tagged/facebook) and Cambridge Analytica practices after recent concerns over the US election. [The Guardian](https://www.theguardian.com/technology/2018/mar/24/facebook-week-of-shame-data-breach-observer-revelations-zuckerberg-silence) sums it up in one frightening sentence:
@@ -26,7 +24,7 @@ While Cambridge Analytica was already [advertising its services on Youtube since
 
 The activity of Cambridge Analytica and its impact over elections have been well covered, [such as in The Guardian’s Cambridge Analytica files](https://www.theguardian.com/news/series/cambridge-analytica-files) or the [NY Times](https://www.nytimes.com/2017/03/06/us/politics/cambridge-analytica.html). Now, even Google will tell you:
 
-![](img/0__yCwmLnuHmjeTpSfj.)
+![](/img/2018/free-services/google.jpeg)
 
 What’s less discussed is how could we even get to this point? Considering the company’s goals and practices, abuses should have been expected and prevented. Let’s broaden the discussion and address the tradeoff made with “free” services instead and the **consequences of this data theft: a loss of political and personal power.**
 
@@ -58,7 +56,7 @@ On mobile, apps and games may have **aggressive data collection practices**, req
 
 On desktop, there are intrusive banner ads and pop-ups all around deteriorating the browsing experience on the web. Worst, there are also much more intrusive practices such as **spywares** (your beloved grandma’s toolbar) **bundled with free softwares**.
 
-![A glimpse in toolbars’ hell](img/0__Mqi0lMfep25ccfa__.)
+![A glimpse in toolbars’ hell](/img/2018/free-services/toolbars.jpeg)
 A glimpse in toolbars’ hell
 
 If scammy tactics are common for advertisers, brands pay the price for it as automated clicks are hard to distinguish for real ones.
@@ -77,9 +75,6 @@ On top of the click fraud, you must add another stream of lost revenues for adve
 
 Considering how intrusive and annoying ads have become, it was bound to happen. **While adblockers minimize annoyance on the user side, it doesn’t solve the problem at all at the industry level.** Because less users now see the ads they host, media advertising revenues dwindle putting their very subsistence at risk.
 
-[![Image Credits](https://images.unsplash.com/photo-1523274620588-4c03146581a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51d12d7bddbb377232d4624061dc335a&auto=format&fit=crop&w=1950&q=80)[](https://cdn-images-1.medium.com/max/800/0*EAEuLiKFkSzOgS8b.)](https://images.unsplash.com/photo-1523274620588-4c03146581a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51d12d7bddbb377232d4624061dc335a&auto=format&fit=crop&w=1950&q=80)
-[Image Credits](https://images.unsplash.com/photo-1523274620588-4c03146581a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51d12d7bddbb377232d4624061dc335a&auto=format&fit=crop&w=1950&q=80)
-
 On one side, installing a Firefox/Chrome extension come easy for some, many don’t know about them or even about ad blockers. **Only the most tech-savvy users tend to use ad blockers.**
 
 However, **the ad industry is fighting back**, some websites are now blocking access to users with an ad blocker enabled. Luckily, blockers currently have the final world with anti-ad blocker defusers like [Nano Defender](https://jspenguin2017.github.io/uBlockProtector/). It’s an ongoing back and forth.
@@ -97,7 +92,3 @@ It’s not only about Cambridge Analytica, it’s much bigger than this. I share
 If the state is unfit to deal with this, **we have but one option left: do something about it.**
 
 The advertising model is not only tendentious but perverse. Is it really the only option Zuck, or just the one that happened to be proposed first and quietly established as a standard? [Other models that allow a fairer distribution of the values between all the actors of the ecosystem exist.](https://medium.com/@BBerdah/growing-beyond-the-advertising-model-to-achieve-democracys-true-potential-5990de48a86f)
-
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.

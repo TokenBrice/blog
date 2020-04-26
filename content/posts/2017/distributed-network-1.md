@@ -4,7 +4,7 @@ description: >-
   From a reflection on the effectiveness of the grassroots campaign in the
   United States to the current state of political affairs in France…
 date: '2017-04-10T08:41:30.302Z'
-categories: [politics]
+categories: [🧔 Opinions, 🗳 Campaign]
 tags: []
 ---
 
