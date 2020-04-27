@@ -15,7 +15,7 @@ When you talk about cryptocurrencies with people unfamiliar with it, the questio
 Before we get to that point, let’s state some necessary facts to understand this article:
 
 1.  **Cryptocurrencies are much more than just the Bitcoin**. There are more than 1500 tokens listed on CoinMarketCap, which is only the tip of the iceberg: in reality, there are thousands of cryptocurrencies circulating. The sheer amount of tokens can be scary, but it’s positive in the long run. It means that for every problem cryptocurrencies can solve you have dozens of different teams exploring as many different approaches — no stone is left unturned.
-2.  Whatever the initial vision of Satoshi was, **Bitcoin is unfit to become a mainstream currency**. Its technical limitation such as its low transaction speed or the issues with mining (energy consumption, centralization, etc.) makes it inapt for this use case. However, its persistence ([Bitcoin](https://hackernoon.com/tagged/bitcoin) is almost 10 years old!) as well as its reliability makes it a good “store of value”, just like gold.
+2.  Whatever the initial vision of Satoshi was, **Bitcoin is unfit to become a mainstream currency**. Its technical limitation such as its low transaction speed or the issues with mining (energy consumption, centralization, etc.) makes it inapt for this use case. However, its persistence (Bitcoin is almost 10 years old!) as well as its reliability makes it a good “store of value”, just like gold.
 3.  Nevertheless, there are many projects with the ambition to become tomorrow’s mainstream currency. **They answer the fundamental issue raised when considering Bitcoin as a currency: its volatility.** Those projects are called **stablecoins** and they will be the topic of this piece.
 
 The question of volatility highlights a vital characteristic of a currency: price stability is a necessity to have a currency people feel confident using. Indeed, creating a new currency requires a thorough understanding of both technical mechanisms as well as social dynamics. In order **to become a currency, a good must be recognized as such by its users and gain their trust.**
@@ -120,11 +120,6 @@ Stablecoins are a recent yet fascinating innovation. There are many projects cur
 
 Today, stablecoins are speculative [tools](https://hackernoon.com/tagged/tools) more than anything else, but they can become one of the critical elements of the mainstream adoption of cryptocurrencies in the long run. Looking at the volume, the USDT is currently obliterating its competition, which creates a systematic risk for the whole cryptocurrencies market. If USDT was to fail, it could lead to widespread panic. Thus **speculation pushed the market towards a highly centralized tool lacking any real transparency: a gentle irony for the future of decentralization.**
 
-![](img/1__4nvwlCnZkfNy1bo70C8m3A.gif)
-
-Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.
-
-This article is the translation of [an original (French) EcoCrypto.fr story.](https://ecocrypto.fr/vulgarisation/tokens-non-fongibles-expliques-par-tortank-et-dracaufeu/)
 
 #### Sources / Deep Dive
 

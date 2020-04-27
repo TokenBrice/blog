@@ -198,6 +198,8 @@ languageName = "🇫🇷 FR"
 #               flex: `theme-switcher`,
 #               `lang-switcher`)
 
+# sectionPagesMenu = "home"
+
 [menu]
     ## Menu bar
     # [[menu.main]]
@@ -225,19 +227,24 @@ languageName = "🇫🇷 FR"
         pre = "internal"
         post = "tags"
     [[menu.main]]
+        url = "/defi/"
+        name = "DeFi"
+        weight = 6
+        pre = "internal"
+        post = "plus-circle"
+    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 5
+        weight = 7
         pre = "internal"
         post = "user-circle"
+
     [[menu.main]]
-        weight = 6
+        weight = 8
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 9
         identifier = "lang-switcher"
-
-
 
 ##########################################
 # Theme Settings
@@ -307,7 +314,7 @@ languageName = "🇫🇷 FR"
     # Note: invalid for header layout flex
 
     # Highlight current menu item by section?
-    activeInSection = false
+    activeInSection = true
     # Note: if true, the menu item in the
     #       post page will be highlighted
     #       also if that post’s section is
@@ -1080,7 +1087,7 @@ languageName = "🇫🇷 FR"
     #       `gitinfo` in post’s Front Matter
     #       has a higher priority than here
 
-    repoURL = ""
+    repoURL = "https://github.com/TokenBrice/tkb"
     repoEditURL = ""
 
     gitIcon = "code-branch"
