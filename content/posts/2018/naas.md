@@ -18,7 +18,7 @@ As we explore what a Nation as a Service entails, you’ll remark that all of it
 
 ### The Birth of the Nation as a Service
 
-I first introduced the concept in [a very raw article](https://medium.com/@BBerdah/the-demise-of-nation-states-introducing-the-nation-as-a-service-naas-ef3bf9f494e3) that went from my head to Medium in 90 minutes. It started with a tale to introduce the concept that scared some readers and hurt the political sensibility of others. While passion could be nice, I wanted to offer a more formal take on it.
+I first introduced the concept in [a very raw article]({{< relref path="demise-ns.md" >}}) that went from my head to Medium in 90 minutes. It started with a tale to introduce the concept that scared some readers and hurt the political sensibility of others. While passion could be nice, I wanted to offer a more formal take on it.
 
 When I first introduced the concept, I depicted the “4 cornerstones of the Nation as a Service” as:
 
@@ -64,9 +64,9 @@ There will be different tiers of citizens who have access to different services.
 
 #### The NaaS is available under a subscription model
 
-The subscription model is the direct consequence of the fractional citizenship. Since the citizenship is now made of different parts citizens can choose to subscribe to or not, we can envision the establishment of a subscription model for the NaaS, with several different options ranging from a pure [business](https://hackernoon.com/tagged/business) citizenship to a full-fledged citizenship.
+The subscription model is the direct consequence of the fractional citizenship. Since the citizenship is now made of different parts citizens can choose to subscribe to or not, we can envision the establishment of a subscription model for the NaaS, with several different options ranging from a pure business citizenship to a full-fledged citizenship.
 
-So far, in e-Estonia it’s a single 100€ fee to submit a candidacy. In the [future](https://hackernoon.com/tagged/future), it might take the form a yearly/monthly subscription with different features. Here’s what I see, from the most basic to the most advanced one. The first two are already available in the Estonian e-residency in its current form:
+So far, in e-Estonia it’s a single 100€ fee to submit a candidacy. In the future, it might take the form a yearly/monthly subscription with different features. Here’s what I see, from the most basic to the most advanced one. The first two are already available in the Estonian e-residency in its current form:
 
 1.  **Identity citizenship**: provide a digital ID card allowing the holder to prove its identity to public or private services
 2.  **Business citizenship**: provide the ability to open a bank account and set up a business in the country.

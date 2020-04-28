@@ -5,7 +5,7 @@ description: >-
   some tricks to spot the red flags before it's too late.
 date: '2018-07-05T10:36:25.787Z'
 categories: [💸 DeFi, 🛸 Basics]
-tags: [ICO, scam, Ethereum, Decentralisation]
+tags: [ICO, scam, Ethereum, Decentralisation, ecocrypto]
 ---
 
 ![](/img/2018/hitchhikerguide/cover.jpeg)

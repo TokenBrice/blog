@@ -1,11 +1,11 @@
 ---
-title: 'Respecting Users'' Privacy: The oddity that must become a standard'
+title: Respecting Users Privacy - The oddity that must become a standard
 description: >-
   Where did our online privacy go? It disappeared down the Google-Apple-Facebook
   flush. A read to put you on tracks to win it back.
 date: '2018-07-25T10:54:13.745Z'
 categories: [🔍 Analysis, 🎭 Privacy]
-tags: []
+tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
 ---
 
 ![](/img/2018/user-privacy/cover.jpeg)

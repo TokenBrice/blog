@@ -5,7 +5,7 @@ description: >-
   with forgetting the fairy tales we've heard about bartering.
 date: '2018-07-18T12:13:32.950Z'
 categories: [💸 DeFi, 🛸 Basics]
-tags: []
+tags: [ecocrypto]
 ---
 
 ![](/img/2018/money101/cover.jpeg)
@@ -24,7 +24,7 @@ When you hear about currencies, you often get a tale that is easy to understand 
 
 > Yet, later on, those coins evolved once again and became paper money — still a currency, but the origin of their value shifted: while a coin gets its value from its very material (the precious metal it’s made of), the paper money needs an institution to emit it and guarantee its value one way or another.
 
-> Finally, in the digital era, money evolved one more time. It’s now all “digital” — just bits, 0 and 1 located somewhere in a server and transiting almost instantly in the fiber [network](https://hackernoon.com/tagged/network).
+> Finally, in the digital era, money evolved one more time. It’s now all “digital” — just bits, 0 and 1 located somewhere in a server and transiting almost instantly in the fiber network.
 
 We must take our time to methodically deconstruct the tale in order to dismiss it, we’ll learn quite a few things along the way:
 
@@ -151,7 +151,7 @@ It means that all the mechanisms we talked about and many more will be implement
 ![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](/img/2018/money101/bricedollar.jpeg)
 Soon in your wallets: the Brice paper e-Dollar coin pegged on sand
 
-Beyond what [blockchain](https://hackernoon.com/tagged/blockchain) can offer, maybe here lies the most valuable contribution of Satoshi. **By creating Bitcoin, he paved the way and reminded the whole world that minting money isn’t reserved to states** — it’s the business of regular people too: you, me, us, and even your computer illiterate grandma should have a say.
+Beyond what blockchain can offer, maybe here lies the most valuable contribution of Satoshi. **By creating Bitcoin, he paved the way and reminded the whole world that minting money isn’t reserved to states** — it’s the business of regular people too: you, me, us, and even your computer illiterate grandma should have a say.
 
 Like all changes, it sounds scary but if you think twice about it, it makes so much sense: **who better than the future users themselves could design the currency the most fitted to their needs?**
 

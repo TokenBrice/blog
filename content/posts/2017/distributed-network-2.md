@@ -13,7 +13,7 @@ Jean-Luc Mélenchon speaking at Marseille 04/09/2017
 
 A tidal wave is rising in France: Mélenchon is federating more and more behind his candidacy every day. His novel approach is threatening the current crooked order of political affairs and medias are strongly reacting to his popularity.
 
-Last week, I wrote my first medium article about distributed networks and the impact they will have in the organization of political affairs. It was built on examples taken from the French and US political life. This week, I want to focus on the state of French political affairs exclusively.
+Last week, I wrote my [first article about distributed networks and the impact they will have in the organization of political affairs]({{< relref path="distributed-network-1.md" >}}). It was built on examples taken from the French and US political life. This week, I want to focus on the state of French political affairs exclusively.
 
 The timing is particularly relevant, with the first round of the French presidential election occurring next Sunday (04/23). The campaign has been surprisingly dynamic, although affairs and corruption scandals occupied much of the media space, especially at the beginning.
 
