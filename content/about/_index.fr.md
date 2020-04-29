@@ -1,5 +1,5 @@
 ---
-title: "À propos: TokenBrice"
+title: "À propos : TokenBrice"
 date: 2020-04-26T13:24:40+02:00
 description: displayed?
 ---

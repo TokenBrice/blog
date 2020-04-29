@@ -10,7 +10,6 @@ Vous retrouverez ici un tour d'horizon des contenus en français, les plus inté
 
 #### [➡ Pour les contenus en anglais, c'est par ici]({{< relref path="_index.md" lang="en" >}})
 
-
 ### [DeFi France](https://www.meetup.com/DeFi-France/)
 
 DeFi France est une initiative commununautaire portée par [Mounir Benchmenled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humbler serviteur ([TokenBrice](https://twitter.com/TokenBrice))
@@ -20,6 +19,8 @@ Un rendez-vous mensuel pour discuter de finance décentralisée, en français s'
 {{< youtube vF-7T5EtcQo >}}
 
 ##### Revoir les éditions précédentes
+
+###### [➡ Retrouvez toutes les vidéos de DeFi France ici](https://www.youtube.com/watch?v=vF-7T5EtcQo)
 
 ##### Liens utiles:
 - [Groupe Telegram](https://t.me/defifrance)

@@ -246,6 +246,23 @@ languageName = "🇫🇷 FR"
         weight = 9
         identifier = "lang-switcher"
 
+        ## Socials
+    [[menu.socials]]
+        url = "https://github.com/TokenBrice"
+        name = "GitHub"
+        weight = 1
+        pre = "external"
+   [[menu.socials]]
+        url = "https://t.me/TokenBrice"
+        name = "Telegram"
+        weight = 2
+        pre = "external"
+   [[menu.socials]]
+        url = "https://twitter.com/TokenBrice"
+        name = "Twitter"
+        weight = 3
+        pre = "external"
+
 ##########################################
 # Theme Settings
 
@@ -290,8 +307,8 @@ languageName = "🇫🇷 FR"
     # If true, put your SVG in the `SVG.toml`
     # file and configure the following options.
     # Unit: px
-    siteBrandSVGWidth = 250
-    siteBrandSVGHeight = 100
+    siteBrandSVGWidth = 154
+    siteBrandSVGHeight = 154
     siteBrandSVGFill = "#fff"
     # If false, your site title will be
     # used as the default and displayed as

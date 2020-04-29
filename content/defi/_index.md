@@ -10,7 +10,13 @@ You'll find here an overview of content production, the meetups & podcasts I con
 
 ### Content
 
-##### [➡ How DeFi can pay for your lunches? 💸](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches)
+#### [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
+
+I maintain a curated list on Twitter incorporating relevant DeFi projects - feel free to use it to explore the space.
+
+{{< tweet 1233081923825741824 >}}
+
+#### [🕸 How DeFi can pay for your lunches? 💸](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches)
 A practical-oriented overview where I detail a basic strategy to use decentralised finance to cover for my daily expenses.
 
 ### Podcasts
@@ -21,7 +27,7 @@ Every week, along with Abel we go over the new releases in the DeFi space and th
 
 ### Meetups
 
-#### [DeFi France](https://www.meetup.com/DeFi-France/)
+#### [🕸 DeFi France](https://www.meetup.com/DeFi-France/)
 
 DeFi France is a community innitiative carried by Mounir Benchemled (Founder of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of blockchain at Palo.IT) & I. Started in October 2019, the meetup is held monthly since.
 
