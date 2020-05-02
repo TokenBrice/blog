@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://example.com/"
-title = "TkB - Blog"
+title = "TokenBrice - Blog"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -112,8 +112,6 @@ languageName = "🇫🇷 FR"
     motto = "Viva La Vida"
     # Avatar
     avatar = "/img/main/tokenbrice.jpg"
-    # Personal website, default: baseURL
-    website = "https://io-oi.me/"
     # Twitter
     twitter = "TokenBrice"
 
@@ -221,21 +219,15 @@ languageName = "🇫🇷 FR"
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/tags/"
-        name = "Tags"
-        weight = 4
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
         url = "/defi/"
         name = "DeFi"
-        weight = 6
+        weight = 5
         pre = "internal"
         post = "plus-circle"
     [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 7
+        weight = 6
         pre = "internal"
         post = "user-circle"
 
@@ -303,12 +295,12 @@ languageName = "🇫🇷 FR"
     # Brand Bar (inside header)
 
     # Use SVG?
-    siteBrandSVG = false
+    siteBrandSVG = true
     # If true, put your SVG in the `SVG.toml`
     # file and configure the following options.
     # Unit: px
-    siteBrandSVGWidth = 154
-    siteBrandSVGHeight = 154
+    siteBrandSVGWidth = 0
+    siteBrandSVGHeight = 0
     siteBrandSVGFill = "#fff"
     # If false, your site title will be
     # used as the default and displayed as
@@ -540,9 +532,9 @@ languageName = "🇫🇷 FR"
     ######################################
     # Dark Mode
 
-    enableDarkMode = true
+    enableDarkMode = false
 
-    defaultTheme = "dark"
+    defaultTheme = "light"
     # Note: light or dark
 
     hideThemeToggle = false
