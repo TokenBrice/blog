@@ -53,7 +53,7 @@ weight = 1
 languageName = "🇺🇸 EN"
 
 [Languages.fr]
-title = "TkB - Blog"
+title = "TokenBrice - Blog"
 weight = 2
 languageName = "🇫🇷 FR"
 
@@ -365,14 +365,14 @@ languageName = "🇫🇷 FR"
     ######################################
     # Site Info
 
-    siteLogo = "/icons/apple-touch-icon.png"
+    siteLogo = "/img/main/logo.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "MemE is a powerful and highly customizable GoHugo theme for personal blogs."
+    siteDescription = "Personal blog of TokenBrice - DeFi advocate. You'll find here all my content, in EN & FR."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2020-05-02T20:17:43+00:00"
     # ATTENTION: keep this format, change
     #            the number
 
@@ -1215,7 +1215,7 @@ languageName = "🇫🇷 FR"
 
     displayFooterInHome = true
 
-    displayCopyrightSymbol = true
+    displayCopyrightSymbol = false
 
     displaySiteCreatedYear = true
 
@@ -1229,7 +1229,7 @@ languageName = "🇫🇷 FR"
     # Display links to Hugo and MemE?
     displayPoweredBy = true
 
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
     customFooter = ""

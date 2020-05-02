@@ -1,7 +1,7 @@
 ---
 title: "DeFi"
 date: 2020-04-26T13:24:40+02:00
-description: "A quick overview of the DeFi meetup I help organise & podcasts I contribute to."
+description: "An overview of my main contributions to the growth of DeFi"
 ---
 
 Through my professional and personal engagements, I'm working to grow Ethereum's decentralised finance ecosystem. 
@@ -10,20 +10,23 @@ You'll find here an overview of content production, the meetups & podcasts I con
 
 ### Content
 
-#### [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
+#### [Twitter Activity](https://twitter.com/TokenBrice)
 
-I maintain a curated list on Twitter incorporating relevant DeFi projects - feel free to use it to explore the space.
+I curate the most relevant DeFi news on my Twitter, share about the various products I try & the potent new releases I spot & my opinions (when informed & relevant) on the industry's events.
+
+I also maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
 
 {{< tweet 1233081923825741824 >}}
 
-#### [🕸 How DeFi can pay for your lunches? 💸](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches)
+#### [🕸 How DeFi can pay for your lunches? 💸]({{< relref "defi-lunches.md" >}})
+
 A practical-oriented overview where I detail a basic strategy to use decentralised finance to cover for my daily expenses.
 
-### Podcasts
+### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
 
 Every week, along with Abel we go over the new releases in the DeFi space and the articles & data that caught our eyes: find it here - [🎙 Abel Abstracts](https://anchor.fm/abelsabstracts).
 
-![](/img/main/abel-abstracts1.jpeg)
+![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
 
 ### Meetups
 
@@ -51,7 +54,7 @@ You'll find more information here:
 
 #### London meetups
 
-Several informal events were organised before Covid-19, sadly one was recorded: CodeUp #34 organised by [Matoko](twitter.com/makoto_inoue). 
+Several informal events were organised before Covid-19, sadly one was recorded: CodeUp #34 organised by [Matoko](https://twitter.com/makoto_inoue). 
 
 This meetup was held ahead of the ETHLondon Hackaton to present developpers with building blocks they could use.
 
