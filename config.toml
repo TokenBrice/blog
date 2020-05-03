@@ -9,7 +9,7 @@ hasCJKLanguage = false
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
 # Name of theme
-theme = "meme"
+theme = ["meme", "matomo"]
 
 # `hugo new` automatically opened text editor
 newContentEditor = "typora"
@@ -1323,3 +1323,8 @@ languageName = "🇫🇷 FR"
     fofVideoMp4 = ""
     # Note: you can leave these two
     #       options empty("")
+
+
+    [params.matomo]
+    url = "http://ecocrypto.fr/stats"
+    id = 1

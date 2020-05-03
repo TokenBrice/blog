@@ -11,6 +11,9 @@
         {{- end -}}
     {{- end -}}
 
+    <!-- Matomo Analytics -->
+    {{ partial "matomo-tracking" . }}
+    
     <!-- Dark Mode -->
     {{- if .Site.Params.enableDarkMode }}
         <script>
