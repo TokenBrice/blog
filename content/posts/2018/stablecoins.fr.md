@@ -3,7 +3,7 @@ title: Les stablecoins, une nécessité pour l'adoption à grande échelle des c
 description: >-
   Les stablecoins apportent une réponse à une des inquiétudes les plus récurrentes de la population générale : la volalitié. Oui, mais à quel prix?
 date: '2018-08-22T12:14:52.416Z'
-categories: [💸 DeFi, 🛸 Bases]
+categories: [⛓ Blockchain, 🛸 Bases]
 tags: [stablecoins, DAI, USDT]
 ---
 

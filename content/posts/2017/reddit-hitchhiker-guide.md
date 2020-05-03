@@ -6,6 +6,7 @@ description: >-
 date: '2017-10-10T11:16:29.535Z'
 categories: [📔 Guide]
 tags: [reddit, online community, astroturfing, advertising]
+toc: true
 ---
 
 ![](/img/2017/reddit/cover.png)
