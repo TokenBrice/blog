@@ -1096,7 +1096,7 @@ languageName = "🇫🇷 FR"
     #       `gitinfo` in post’s Front Matter
     #       has a higher priority than here
 
-    repoURL = "https://github.com/TokenBrice/tkb"
+    repoURL = "https://github.com/TokenBrice/blog"
     repoEditURL = ""
 
     gitIcon = "code-branch"

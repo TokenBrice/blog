@@ -16,7 +16,9 @@ I curate the most relevant DeFi news on my Twitter, share about the various prod
 
 I also maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
 
+<div align = "center">
 {{< tweet 1233081923825741824 >}}
+</div>
 
 #### [🕸 How DeFi can pay for your lunches? 💸]({{< relref "defi-lunches.md" >}})
 
