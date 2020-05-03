@@ -1,24 +1,24 @@
 ---
 title: "À propos : TokenBrice"
 date: 2020-04-26T13:24:40+02:00
-description: Je travaille pour l'émergence et le développement d'un village Gaulois financièrement souverain, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
+description: Je contribue à l'émergence et le développement d'un village Gaulois financièrement souverain, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
 ---
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
 
 |  Logo | Project | Description | Function |
 | :---: | :---: | :---: | :---: |
-|  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Shaping the future of payments with the world first non-custodial contract wallet paired with a Visa debit card. | Community Strategist |
-|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. <br> [➡More info on the dedicated French page]({{< relref path="_index.fr.md" lang="fr" >}}) | Co-Organiser |
-|  - | TBD | Making the top ressources about DeFi accessible to non-English readers | FR Coordinator |
+|  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Un portefeuille Ethereum sans compromis associé à une carte Visa pour avoir accès au meilleur des deux mondes : payez 45M+ marchants dans le monde en utilisant vos actifs Ethereum. | Community Strategist |
+|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="_index.fr.md" lang="fr" >}}) | Coorganisateur |
 
-I'm currently involved with Monolith as our Community Strategist. I help maximize our brand visibility and awareness, both online and offline using any relevant support (article, video, podcast, meetup) and channels (mainly Twitter, Telegram, Reddit). 
 
-I'm also the co-organiser of DeFi France, the most successful decentralized finance grassroots meetup in Europe.
+Au sein de Monolith, je travaille à développer notre présence en ligne et hors ligne en utilisant tous les supports pertinents (articles, vidéos, évènements, podcasts, etc.).
 
-Since the beginning of my career, I've worked with startups and helped them grow their online presence by designing and enforcing strategies enabling them to harness the long-lasting exposure SEO can deliver.
+Je suis également l'un des coorganisateurs de DeFi France, un rendez-vous mensuel pour discuter de finance décentralisée entièrement en français.
 
-Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed on this blog.
+Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies d'acquisition digitales pérennes.
+
+N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici :
 
 
 ### Contact

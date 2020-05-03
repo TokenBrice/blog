@@ -17,7 +17,7 @@ However, as the blockchains developed (Bitcoin is 10 years old!), the people inv
 
 I think **that just like any major government institutions, “the blockchain industry” (if that’s even a thing) is already suffering from groupthink and lack of diversity.** The `15-35 years old, tech-focused, guy` description matches 95% of the profiles.
 
-From a high-level design perspective, we know it's simply inefficient at best, if not profoundly detrimental: think about the decisions our `45-75 years old, male with elite education, rich, white` politicians come up with. Diversity is not just a shiny cool thing to add to show you're progressive: it's actually the **biggest success driver of success for any given group, even before education or expertise.** (_see reference 1_)
+From a high-level design perspective, we know it's simply inefficient at best, if not profoundly detrimental: think about the decisions our `45-75 years old, male with elite education, rich, white` politicians come up with. Diversity is not just a shiny cool thing to add to show you're progressive: it's actually the **biggest success driver of success for any given group, even before education or expertise.**[^1]
 
 We’re direly missing outsiders, people who will look at the systems being designed and ask the “naive” yet hard and insightful questions. I intend to demonstrate that to you with two very simple examples — I’ll explain the concepts I’m referring so you won’t need to be a tech lad or a blockchain-expert to follow my though process.
 
@@ -31,9 +31,9 @@ More specifically, in the case of proof of stake, the whole system holds onto th
 
 The elephant in the room that is rarely accounted for, as you probably understand already, is that **people are sometimes willing to lose money because they act on other motives**: love, hate, rage… I can picture dozens of scenarios where a group of people would be willing to burn millions if not billions of dollars just to destroy a chain, but one will be enough:
 
-*   Let’s say a PoS protocol becomes increasingly popular, to the point where major banks are worried. Three of them realize that by banding together, and with a little disinformation/scare campaign, they can crash the price 30–40%, and then expand barely a fraction of their annual income to progressively take control of the chain. The coins they buy to destroy the chain are accounted as a cost. They’re not motivated by profit: they are motivated by fear, which is potentially the strongest human driver (_see reference 2_).
+*   Let’s say a PoS protocol becomes increasingly popular, to the point where major banks are worried. Three of them realize that by banding together, and with a little disinformation/scare campaign, they can crash the price 30–40%, and then expand barely a fraction of their annual income to progressively take control of the chain. The coins they buy to destroy the chain are accounted as a cost. They’re not motivated by profit: they are motivated by fear, which is potentially the strongest human driver.[^2]
 
-_ℹ️ There are ways to protect a chain against such an attack, my point is more about the issue of making the assumption that humans are rational while designing this consensus mechanism._
+_ℹ️ There are ways to protect a chain against such an attack and projects accounting for this, my point is more about the issue of making the assumption that humans are rational while designing this consensus mechanism._
 
 #### Layer 2 — Getting lost in the tech, losing sight of real usage
 
@@ -47,7 +47,7 @@ The problem is simple: **some layer 2 solutions somehow managed to provide a wor
     — The base layer knows no limitations to the amounts you can send (as long as you can face the transaction cost) and receive.
 3.  Most of the transactions are settled off-chain (except the state update — the settlement when you close a channel), which means they are low-fee and fast, but you also lose the security and accountability provided by on-chain settlements.
 
-So from a very high level perspective, the layer 2 tradoff is as follows: you loose most (if not all) benefits provided by blockchains + you have to face additional significant limitations but your transactions are faster and cost less. Why such a need for speed? An Ethereum transaction currently takes [~20 second](https://etherscan.io/chart/blocktime)s.
+So from a very high level perspective, **the layer 2 tradoff is as follows: you loose most (if not all) benefits provided by blockchains + you have to face additional significant limitations but your transactions are faster and cost less.** Why such a need for speed? An Ethereum transaction currently takes [~20 second](https://etherscan.io/chart/blocktime)s.
 
 Now, this is where it gets funny: this whole thing has been in development for more than 3 years. So far, there are no real usages or use cases provided by layer-2 solutions that you can’t do better with the appropriate base layer solution. There will never be. Yet we have hundreds of technical papers discussing its potential implementation and crowds getting hyped at the idea of the Lightning Network making small, incremental progress.
 
@@ -74,7 +74,5 @@ Do you want to give involved in blockchains while not having a technical backgro
 
 _⚠️ My opinions are solely my own — I’m expressing myself outside any professional quality or relationship. And yes, I mostly fit the blockchain mono-profile of a 15–35yo privileged white dude, except for my education not being science-focused, which is yet another proof of my whole point: we need diversity._
 
-#### References/Further Reading
-
-1.  [Effects of Diversity in Teams and Workgroups: A Qualitative Systematic Review ](http://www.ijbhtnet.com/journals/Vol_7_No_2_June_2017/2.pdf)— Seyhan Güver&Renate Motschni for the _International Journal of Business, Humanities and Technology,_ June 2017_._
-2.  [Appealing to Fear: A Meta-Analysis of Fear Appeal Effectiveness and Theories](https://www.apa.org/pubs/journals/releases/bul-a0039729.pdf) —Melanie B. Tannenbaum, Rick S. Zimmerman, Justin Helper, Lindsey Saul and Samantha Jacobs for the _American Psychology Association_, 2015.
+[^1]: [Effects of Diversity in Teams and Workgroups: A Qualitative Systematic Review ](http://www.ijbhtnet.com/journals/Vol_7_No_2_June_2017/2.pdf)— Seyhan Güver&Renate Motschni for the _International Journal of Business, Humanities and Technology,_ June 2017_._
+[^2]: [Appealing to Fear: A Meta-Analysis of Fear Appeal Effectiveness and Theories](https://www.apa.org/pubs/journals/releases/bul-a0039729.pdf) —Melanie B. Tannenbaum, Rick S. Zimmerman, Justin Helper, Lindsey Saul and Samantha Jacobs for the _American Psychology Association_, 2015.
