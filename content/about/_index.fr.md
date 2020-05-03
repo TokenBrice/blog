@@ -12,7 +12,7 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="_index.fr.md" lang="fr" >}}) | Coorganisateur |
 
 
-Au sein de Monolith, je travaille à développer notre présence en ligne et hors ligne en utilisant tous les supports pertinents (articles, vidéos, évènements, podcasts, etc.).
+Au sein de Monolith, je développe notre présence en ligne et hors ligne en utilisant tous les supports pertinents (articles, vidéos, évènements, podcasts, etc.).
 
 Je suis également l'un des coorganisateurs de DeFi France, un rendez-vous mensuel pour discuter de finance décentralisée entièrement en français.
 
