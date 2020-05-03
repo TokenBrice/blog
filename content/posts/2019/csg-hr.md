@@ -1,7 +1,5 @@
 ---
 title: 'How to evaluate the atmosphere of a company from the outside?'
-description: >-
-  TODO
 date: '2019-02-24T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Spy Before You Sign]
 tags: [job research, pre-screening, researching companies]

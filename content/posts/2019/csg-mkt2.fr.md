@@ -1,7 +1,5 @@
 ---
 title: "Comment évaluer le marketing d'une startup? (1/2)"
-description: >-
-  TODO
 date: '2019-01-21T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Enquêter avant de signer]
 tags: [job research, pre-screening, researching companies]

@@ -1,5 +1,5 @@
 ---
-title: 'Le guide exhaustif pour éviter les mauvaises surprises'
+title: 'Travailler en startup: le guide exhaustif pour éviter les mauvaises surprises'
 description: >-
   TODO
 date: '2019-03-04T15:00:20.293Z'

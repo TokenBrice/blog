@@ -1,7 +1,5 @@
 ---
 title: 'How to evaluate the development process and technical stack of a company'
-description: >-
-  TODO
 date: '2019-02-18T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Spy Before You Sign]
 tags: [job research, pre-screening, researching companies]

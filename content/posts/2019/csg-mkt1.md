@@ -1,7 +1,5 @@
 ---
 title: 'How to evaluate a company by their marketing (1/2)'
-description: >-
-  TODO
 date: '2019-01-08T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Spy Before You Sign]
 tags: [job research, pre-screening, researching companies]

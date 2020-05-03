@@ -1,7 +1,5 @@
 ---
-title: " Comment évaluer les processus de développement et la stack technique ?"
-description: >-
-  TODO
+title: "Startups : comment évaluer les processus de développement et la stack technique ?"
 date: '2019-02-18T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Enquêter avant de signer]
 tags: [job research, pre-screening, researching companies]
