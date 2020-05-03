@@ -6,6 +6,7 @@ description: >-
 date: '2019-04-18T15:00:20.293Z'
 categories: [🔍 Analysis, 🎭 Privacy]
 tags: [advertising model, data harversting]
+toc: true
 ---
 
 ![](/img/2019/attention-economy/cover.jpeg)
@@ -20,7 +21,7 @@ Attention became the new scarce limiting factor.
 
 This topic is very dense, as it recoups pretty much the whole digital marketing industry. We will start with some considerations on attention itself before exploring the impact of the attention economy on the format and content of the media we consume. Finally, we'll look at the other side of the mirror and see how marketing professionals are addressing this topic.
 
-### Attention, the unit of the new economy?
+## Attention, the unit of the new economy?
 
 Attention is a complex phenomenon. We all have a basic understanding of it when we crave for it or get it. However, we often fail to realize how the attention dynamics drive us in our behavior online.
 
@@ -32,7 +33,7 @@ Money came with a paradigm of value: with its price units, it made it easy to pu
 
 However, just like wealth, attention can build up. Every time you draw attention to you, you somehow build or deplete a stock. If you provide something of interest to your audience, it will grow with each session. With that in mind, we can consider attention like **a kind of enduring wealth**.
 
-#### The roots of the Attention Economy
+### The roots of the Attention Economy
 
 While the general public has just recently started to be aware of the attention economy, it’s been theorized a while ago already. To dive deeper into the nature of attention, I recommend to read the transcript of this fascinating conference: [The Attention Economy and the Net (1997)](https://firstmonday.org/article/view/519/440). While Michael H. Goldhaber did not coined the term “attention economy,” his conference helps to understand better where it’s coming from.
 
@@ -46,7 +47,7 @@ He draws a metaphor of the switch from the monetary economy to the attention eco
 
 > [_The Attention Economy and the Net (1997)_](https://firstmonday.org/article/view/519/440)_ — Michael H. Goldhaber_
 
-### The face of the attention economy: a brief history of online media
+## The face of the attention economy: a brief history of online media
 
 The attention economy manifests itself everywhere on the internet nowadays. However, some trends or activity make its realities more palpable than others.
 
@@ -59,7 +60,7 @@ Two famous updates to Google's ranking algorithm
 
 At the beginning of 2011, Google released an update to its ranking algorithm that impacted content farms: [Panda](https://moz.com/learn/seo/google-panda). Its goal was to reduce the prominence of content farms in the search results. It penalized websites based on different triggers such as thin, low quality and duplicate content, or the overall space occupied by ads.
 
-#### From content farms to clickbaits
+### From content farms to clickbaits
 
 Content farms were deeply impacted, as their traffic plummeted. Soon, the activity became unprofitable. However, in the wake of content farms disappearance, the development of social media offered new opportunities for content tricksters. **Content farms imploded, and clickbait and linkbait content quickly took their spot.**
 
@@ -98,7 +99,7 @@ Different forms of incentives are tested to have highly engaged users that frequ
 
 **Since the content we consume gets more and more engaging, we become more demanding**, **and less attentive**. We need stories and compelling content to stay engaged. We crave bite-sized videos and short articles. At the same time, the gamification of apps is becoming a standard. It is now expected, and maybe soon necessary to create apps people understand and use.
 
-### The other side of the mirror
+## The other side of the mirror
 
 In the marketing world, the attention economy is qualified as [a “mega-trend”](https://www.trendone.com/en/trend-universe/mega-trends/mega-trend-detail/attention-economy.html); a shift that manifests itself with many different macro-trends. Since **paying for attention is no longer sufficient not reliable,** different trends are shaping the future of advertising and digital marketing to acknowledge this reality.
 
