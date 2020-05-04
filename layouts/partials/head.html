@@ -10,9 +10,6 @@
             <meta name="theme-color" content="{{ $.Site.Params.themeColorDark }}" />
         {{- end -}}
     {{- end -}}
-
-    <!-- Matomo Analytics -->
-    {{ partial "matomo-tracking" . }}
     
     <!-- Dark Mode -->
     {{- if .Site.Params.enableDarkMode }}
@@ -159,4 +156,6 @@
     {{- end }}
 
     {{ partial "custom/head.html" . }}
+        <!-- Matomo Analytics -->
+    {{ partial "matomo-tracking" . }}
 </head>

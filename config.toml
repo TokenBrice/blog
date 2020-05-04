@@ -1326,5 +1326,5 @@ languageName = "🇫🇷 FR"
 
 
     [params.matomo]
-    url = "http://ecocrypto.fr/stats"
+    url = "http://ecocrypto.fr/stats/"
     id = 1
