@@ -20,7 +20,7 @@ C'est une initiative commununautaire portée par [Mounir Benchmenled](https://tw
 
 ##### Revoir les éditions précédentes
 
-###### [➡ Retrouvez toutes les vidéos de DeFi France ici](https://www.youtube.com/watch?v=vF-7T5EtcQo)
+###### [➡ Retrouvez toutes les vidéos de DeFi France ici](https://www.youtube.com/watch?v=6rgt-bygKNo&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9)
 
 ##### Liens utiles:
 - [Groupe Telegram](https://t.me/defifrance)
