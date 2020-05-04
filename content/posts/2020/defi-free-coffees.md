@@ -12,7 +12,7 @@ tags: [DeFi, RealT, Compound, DAI]
 
 _Overview of the passive income-earning opportunities enabled by decentralised finance_
 
-Sometimes, it feels like the world of money is upside down: while the returns offered by banks keeps getting lower (if not negative!), innovative techs enabled the emergence of an alternative financial system that is already delivering incredible value.
+Sometimes, it feels like the world of money is upside down: while the returns offered by banks keep getting lower (if not negative!), innovative techs enabled the emergence of an alternative financial system that is already delivering incredible value.
 
 To put it short: Ethereum created money on steroids while regular finance simply fails at delivering anything else than surface-level innovations.
 
@@ -59,6 +59,8 @@ To keep it simple here, we’re considering only 3 investments strategy matching
 
 The **Dai Saving Rate is arguably the safest way to earn a return on your DAI**. The risk is minimal because you’re not lending your money to anyone. To keep it short, you lock your DAI in the Maker system, and the system pays you a premium because you’re helping DAI to maintain its peg.
 
+`🖊 Edit: Please note that the earning rates presented for specific protocols are no longer accurate. However, similar results can still be achieved with alternative methods.`
+
 ![_👆_ [_DeFiscore_](https://defiscore.io/) _is a community project offering a comprehensive rating of the risks associated with different lending protocols. What you see above is an overview of their ranking of DAI lending opportunities._](/img/2020/freecoffees/defiscore.png)
 _👆_ [_DeFiscore_](https://defiscore.io/) _is a community project offering a comprehensive rating of the risks associated with different lending protocols. What you see above is an overview of their ranking of DAI lending opportunities._
 
@@ -66,7 +68,7 @@ On the other hand, the other solution used, RealT, is a **little more novel and 
 
 _ℹ Since RealT tokens are securities, you will have to through a KYC to purchase them._
 
-While the level of risk is higher with RealT that Maker, RealT does have one advantage — so far, the returns are stable. On the other hand, Maker’s DSR rate is still changing quite often:
+While the level of risk is higher with RealT than Maker, RealT does have one advantage — so far, the returns are stable. On the other hand, Maker’s DSR rate is still changing quite often:
 
 1.  (_Nov 18 2019)_ DSR  Launched at 2%
 2.  ➡ _(3 Jan)_ 4 %

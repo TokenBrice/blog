@@ -12,9 +12,9 @@ You'll find here an overview of content production, the meetups & podcasts I con
 
 #### [Twitter Activity](https://twitter.com/TokenBrice)
 
-I curate the most relevant DeFi news on my Twitter, share about the various products I try & the potent new releases I spot & my opinions (when informed & relevant) on the industry's events.
+I curate the most relevant DeFi news on my Twitter and share my insights about the various services I try. I also highlight cool new releases and people in the scene & my opinions (when informed & relevant) on the industry's events.
 
-I also maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
+I maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
 
 <div align = "center">
 {{< tweet 1233081923825741824 >}}
@@ -26,7 +26,7 @@ A practical-oriented overview where I detail a basic strategy to use decentralis
 
 ### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
 
-Every week, along with Abel we go over the new releases in the DeFi space and the articles & data that caught our eyes: find it here - [🎙 Abel Abstracts](https://anchor.fm/abelsabstracts).
+Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes: find it here - [🎙 Abel Abstracts](https://anchor.fm/abelsabstracts).
 
 ![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
 
@@ -56,9 +56,9 @@ You'll find more information here:
 
 #### London meetups
 
-Several informal events were organised before Covid-19, sadly one was recorded: CodeUp #34 organised by [Matoko](https://twitter.com/makoto_inoue). 
+Several informal events were organised before Covid-19, sadly only one was recorded: CodeUp #34 organised by [Matoko](https://twitter.com/makoto_inoue). 
 
-This meetup was held ahead of the ETHLondon Hackaton to present developpers with building blocks they could use.
+This meetup was held ahead of the ETHLondon Hackaton to present developpers with building blocks they could use. It gives a good overview of 4 building blocks developpers can use to create amazing dApps.
 
 Rachel presenting [3Box](https://3box.io/):
 
