@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
+baseURL = "https://tokenbrice.xyz/"
 title = "TokenBrice - Blog"
 languageCode = "en"
 hasCJKLanguage = false
