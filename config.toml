@@ -1217,7 +1217,7 @@ languageName = "🇫🇷 FR"
 
     displayCopyrightSymbol = false
 
-    displaySiteCreatedYear = true
+    displaySiteCreatedYear = false
 
     # Leave it empty("") if you don’t want
     # the icon
@@ -1232,7 +1232,7 @@ languageName = "🇫🇷 FR"
     displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
-    customFooter = ""
+    customFooter = "[🚀 IPFS](https://ipfs.io/) | [⚡ Fleek.co](https://fleek.co)"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "Site UV"
