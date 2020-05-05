@@ -2,7 +2,7 @@
 title: 'How to evaluate if a company is a good place to work for you'
 description: >-
   TODO
-date: '2019-03-04T15:00:20.293Z'
+date: '2019-02-27T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Spy Before You Sign]
 tags: [job research, pre-screening, researching companies]
 canonicalUrl: https://nexten.io/blog/spy-before-you-sign-find-the-company-of-your-dreams-and-the-right-salary

@@ -221,22 +221,58 @@ languageName = "🇫🇷 FR"
     [[menu.main]]
         url = "/defi/"
         name = "DeFi"
-        weight = 5
+        weight = 4
         pre = "internal"
         post = "plus-circle"
     [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 6
+        weight = 5
         pre = "internal"
         post = "user-circle"
 
     [[menu.main]]
-        weight = 8
+        weight = 6
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 9
+        weight = 7
         identifier = "lang-switcher"
+
+
+
+## FR
+
+    ## FR Menu bar
+    # [[languages.fr.menu.main]]
+    #     url = "/"
+    #     name = "Home"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
+    [[languages.fr.menu.main]]
+        url = "/posts/"
+        name = "Archives"
+        weight = 2
+        pre = "internal"
+        post = "archive"
+    [[languages.fr.menu.main]]
+        url = "/categories/"
+        name = "Catégories"
+        weight = 3
+        pre = "internal"
+        post = "th"
+    [[languages.fr.menu.main]]
+        url = "/defi/"
+        name = "DeFi"
+        weight = 4
+        pre = "internal"
+        post = "plus-circle"
+    [[languages.fr.menu.main]]
+        url = "/about/"
+        name = "À propos"
+        weight = 5
+        pre = "internal"
+        post = "user-circle"
 
         ## Socials
     [[menu.socials]]
@@ -244,12 +280,12 @@ languageName = "🇫🇷 FR"
         name = "GitHub"
         weight = 1
         pre = "external"
-   [[menu.socials]]
+    [[menu.socials]]
         url = "https://t.me/TokenBrice"
         name = "Telegram"
         weight = 2
         pre = "external"
-   [[menu.socials]]
+    [[menu.socials]]
         url = "https://twitter.com/TokenBrice"
         name = "Twitter"
         weight = 3

@@ -19,8 +19,6 @@ Without further ado, introducing:
 
 ### Tokenbrice.xyz, a blog respecting your privacy
 
-{{< matomo-optout >}}
-
 > I made this blog as a callout: I'm no dev, I can barely code, and yet I was able to respect my reader's privacy, to an unprecedented level in the space.
 
 To do so, TokenBrice.xyz relies on open source frameworks and solutions such as Hugo (rendering of the blog) or Matomo (privacy-conscious analytics).
@@ -33,7 +31,7 @@ Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely 
 
 ### Be ruthless in asking for more privacy-conscious solutions
 
-Nothing will be done, even in the DeFi industry, unless us users make our concerns heard. **So, check your favourite projects' websites - and let them know how dirty they've been!**
+Nothing will be done, ever, even in the DeFi industry, unless us users make our concerns heard. **So, check your favourite projects' websites - and let them know how dirty they've been!**
 
 You can use tools such as [Privacy Badger](https://privacybadger.org/) to see how many trackers they have & block them!
 
@@ -44,9 +42,9 @@ However, please, assume best intentions: trackers and other privacy-intrusive de
 
 > Let's spell it out in case it's not clear enough: there are no valid reasons for someone to ship a privacy-intrusive website nowadays especially if the site is "read-only", like this blog.
 
-Yet there are damn too many out there! 
+Yet there are still too many out there! 
 
-So let's call these potentially ignorant, if not careless, if not lazy, if not non-giving-a-fuck-about-privacy developers out. 
+So **let's call these potentially ignorant, if not careless, if not lazy, if not not-giving-a-fuck-about-privacy developers out.** 
 
 I can barely touch an HTML file, and I did it - so quit your bullshit and get to work.
 

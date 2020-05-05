@@ -2,10 +2,9 @@
 title: 'Travailler en startup: le guide exhaustif pour éviter les mauvaises surprises'
 description: >-
   TODO
-date: '2019-03-04T15:00:20.293Z'
+date: '2019-02-27T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Enquêter avant de signer]
 tags: [job research, pre-screening, researching companies]
-canonicalUrl: https://nexten.io/blog/spy-before-you-sign-find-the-company-of-your-dreams-and-the-right-salary
 ---
 
 Pour un développeur, ce sont rarement les offres d’emplois qui manquent. Il suffit d’avoir une présence sur Linkedln pour se rendre compte du nombre de sociétés en recherche. Face au flux de propositions, il est parfois complexe de déterminer celles qui valent vraiment la peine d’être explorées.

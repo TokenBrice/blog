@@ -20,15 +20,18 @@ Depuis le début de ma carrière, je travaille avec des startups pour les aider 
 
 N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici :
 
-
 ### Contact
 
 |  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit |
 | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
 
-### Medias & Mentions
+### Medias
 
-[Les français qui font Ethereum #1 : Brice Berdah de Monolith](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)
+- [Les français qui font Ethereum #1 : Brice Berdah de Monolith](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)
+- [Interview: Brice Berdah, «Community Lead » du projet Monolith (TKN)](https://passioncrypto.com/interview-brice-community-lead-du-projet-monolith-tkn/)
 
-[MakerDAO ajoute le WBTC en tant que collatéral pour la création de Dai](https://cryptoast.fr/makerdao-ajoute-wbtc-collateral-creation-dai/) 
+#### & Mentions
+
+- [Finance Décentralisée (DeFi) : enjeux et avenir par Alyra et The Garage](https://www.thecointribune.com/actualites/finance-decentralisee-defi-enjeux-et-avenir-par-alyra-et-the-garage/)
+- [MakerDAO ajoute le WBTC en tant que collatéral pour la création de Dai](https://cryptoast.fr/makerdao-ajoute-wbtc-collateral-creation-dai/)
