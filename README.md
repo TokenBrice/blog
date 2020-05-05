@@ -8,6 +8,6 @@ For those interested, this blog implements **full IP anonymisation, cookies non-
 
 Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely happy with the infrastructure just yet, but I think it's significant progress compared to most existing websites:
 
-![tokenbrice-xyz-infrastructure-overview](/img/2020/hello-world/infrastructure.png)
+![tokenbrice-xyz-infrastructure-overview](https://github.com/TokenBrice/blog/blob/master/static/img/2020/hello-world/infrastructure.png)
 
 ### [More info here](https://tokenbrice.xyz/posts/2020/hello-world/)
