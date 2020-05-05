@@ -9,7 +9,7 @@ tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
 
 Bienvenue dans mon humble domaine,
 
-Je suis ravi de mettre ce site en ligne. Comme souvent avec moi, ce qui a commencé comme une idée simple est devenu… un plus ambitieuse.
+Je suis ravi de mettre ce site en ligne. Comme souvent avec moi, ce qui a commencé comme une idée simple est devenu… un plus ambitieux.
 
 Au départ, j'ai commencé ce blog avec un but simple : j'écris sur internet depuis longtemps, et je voulais un endroit où réunir toutes mes productions.
 
@@ -48,7 +48,7 @@ Néanmoins, s'il vous plaît, accordez le bénéfice du doute : des traqueurs s
 
 Et pourtant, trop de sites parasites existent encore !
 
-Alors **pointons du doigt es développeurs, potentiellement ignorant, ou inconséquent, sinon paresseux, ou encore complètement désintéressé par le respect de votre vie privé**.
+Alors **pointons du doigt les développeurs, potentiellement ignorants, ou inconséquents, sinon paresseux, ou encore complètement désintéressés par le respect de votre vie privé**.
 
 **Je peux à peiner éditer un fichier HTML et pourtant je l'ai fait – alors qu'ils arrêtent leur conneries, et se mettent boulot !**
 
