@@ -13,7 +13,7 @@ I'm thrilled to take this project live. As often with me, what started as a simp
 
 Initially, I started preparing this blog with a straightforward goal: I've been writing content on the web for a while, I wanted a place for all of it to live.
 
-While I was at it, I look at the different solutions available and realized it could be much more: it could turn into **a minimalistic yet sufficient approach to deliver content online, no strings attached.**
+While I was at it, I looked at the different solutions available and realized it could be much more: it could turn into **a minimalistic yet sufficient approach to deliver content online, no strings attached.**
 
 Without further ado, introducing:
 
@@ -49,7 +49,7 @@ Yet there are still too many out there!
 
 So **let's call these potentially — ignorant, if not — careless, if not — lazy, if not — not-giving-a-fuck-about-privacy developers out.** 
 
-**I can barely touch an HTML file, and I did it — so if you truly care, quit your bullshit and get to work.**
+I can barely touch an HTML file, and I did it — **so if you truly care, quit your bullshit and get to work.**
 
 With ♥ love,
 
