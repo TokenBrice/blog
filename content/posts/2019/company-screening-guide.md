@@ -1,7 +1,7 @@
 ---
-title: 'How to evaluate if a company is a good place to work for you'
+title: 'How to evaluate if a company is a good place for you to work at'
 description: >-
-  TODO
+  How to evaluate a company when looking for a job. Are they as good as they look? Or are they another firm wasting your time?
 date: '2019-02-27T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Spy Before You Sign]
 tags: [job research, pre-screening, researching companies]

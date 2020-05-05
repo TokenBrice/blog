@@ -1,7 +1,7 @@
 ---
 title: 'Travailler en startup: le guide exhaustif pour éviter les mauvaises surprises'
 description: >-
-  TODO
+  Comment examiner une startup avant de s'engager : sont-ils aussi attractifs qu'ils le promettent, ou est-ce une perte de temps ?
 date: '2019-02-27T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Enquêter avant de signer]
 tags: [job research, pre-screening, researching companies]
