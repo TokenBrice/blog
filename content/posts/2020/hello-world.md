@@ -25,7 +25,7 @@ To do so, TokenBrice.xyz relies on open source frameworks and solutions such as 
 
 For those interested, this blog implements full IP anonymisation, cookies non-propagation, in full compliance with the [CNIL guidelines](https://www.cnil.fr/sites/default/files/typo/document/Configuration_piwik.pdf) - an independent French' administrative body acting as a privacy watchdog.
 
-Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely happy with the infrastructure just yet, but I think it's significant progress compared to most existing websites:
+Tokenbrice.xyz is deployed on [IPFS](https://ipfs.io/). I'm not entirely happy with the infrastructure just yet, but I think it's significant progress compared to most existing websites:
 
 ![tokenbrice-xyz-infrastructure-overviewe](/img/2020/hello-world/infrastructure.png)
 
