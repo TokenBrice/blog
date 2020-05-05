@@ -27,7 +27,7 @@ Therefore the leading question for this article is: How to evaluate the marketin
 
 
 
-### Marketing Reporting
+## Marketing Reporting
 
 
 
@@ -35,7 +35,7 @@ Of course reporting is up first. It’s one of the words every self-respecting m
 
 
 
-#### How much time is allocated to reporting?
+### How much time is allocated to reporting?
 
 
 
@@ -47,7 +47,7 @@ Still, do not be too harsh with your judgement. The bigger the company, the more
 
 
 
-#### How relevant are the used KPIs?
+### How relevant are the used KPIs?
 
 
 
@@ -63,7 +63,7 @@ In contrary, less experienced teams will use more indicators, but will usually s
 
 
 
-#### Quality and mindset
+### Quality and mindset
 
 
 
@@ -83,7 +83,7 @@ Following and producing a report is an essential activity of any marketing team,
 
 
 
-### The Marketing Team’s approach
+## The Marketing Team’s approach
 
 
 
@@ -103,7 +103,7 @@ The two categories are of course **permeable**: an advertisement can allow a fut
 
 
 
-#### Organic/paid balance
+### Organic/paid balance
 
 
 
@@ -154,7 +154,7 @@ Let's take two concrete examples to put things in perspective:
 
 
 
-### Conclusion
+## Conclusion
 
 
 

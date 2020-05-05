@@ -14,7 +14,7 @@ Il est constitué de deux parties concernant deux situations différentes. La pr
 
 
 
-### QUAND VÉRIFIER ? DÈS QUE POSSIBLE
+## QUAND VÉRIFIER ? DÈS QUE POSSIBLE
 Il n’est jamais trop tôt pour prendre le temps de s’assurer si une société est valable. Même sans avoir aucun accès, vous pouvez déjà en apprendre beaucoup sur ladite société. Nous vous recommandons de procéder aux vérifications décrites ci-dessous le plus tôt possible, idéalement dès que vous commencez à considérer sérieusement un poste.
 
 L’ensemble des opérations prend **environ 30 minutes** en fonction de votre degré de méticulosité. Cela vaut clairement la peine de prendre le temps en amont pour vous épargner des mois de frustration.
@@ -23,7 +23,7 @@ Le mieux est de faire un tour d’horizon du marketing de la société que vous 
 
 Trêve d’introduction, il est temps de voir comment  faire un audit marketing efficacement et rapidement.
 
-### LE PRODUIT/SERVICE
+## LE PRODUIT/SERVICE
 Que vous travailliez sur le site, sur le produit/service ou sur des sujets annexes, votre activité aura pour but de vendre ou de soutenir directement ou indirectement la vente du produit. Il convient donc de commencer par s’assurer qu’il soit à la hauteur. Cela peut sembler évident mais mérite tout de même le rappel.
 
 Si le produit est accessible gratuitement ou en test, allez donc le tester vous apprendrez beaucoup. Si c’est un produit plutôt B2B ou un service payant, pas de problème : il y a d’autres supports pour se faire une opinion Le plus simple consiste à lire les avis de ceux qui l’utilisent, ou qui prétendent le faire. Il y a de très nombreux sites spécialisés à cet effet, ce qui suit n’est qu’une sélection :
@@ -38,12 +38,12 @@ On insiste particulièrement sur [AlternativeTo](https://alternativeto.net/) qui
 
 Une fois le produit couvert, on peut passer à la suite : comment la société en question le met en valeur. L’étape suivante est donc le site.
 
-### LE SITE
+## LE SITE
 On vous laissera juge de la clarté et du design du site, ce n’est pas vraiment le plus intéressant. Il y a des spécificités par industrie et des ovnis partout. Un site comme [Craigslist](https://paris.craigslist.fr/) par exemple peut sembler brutal ou repoussant au premier abord. Mais si on considère sa praticité ( et son succès ! ), on se rend bien compte que ce site est très bien conçu pour son audience. **Il n’y a pas d’absolu en matière de design** et d’organisation de l’information sur un site web, tout dépend de la cible.
 
 La bonne nouvelle est qu’il existe en revanche de nombreux **outils et indicateurs beaucoup plus quantifiables** qui vous en disent long sur un site donné. Faisons un tour d’horizon. Nous appliquerons les techniques présentées à ManyChat.com, un service pour faire des chatbots sur Messenger pour que vous les mettiez en pratique.
 
-#### POPULARITÉ DU SITE
+### POPULARITÉ DU SITE
 Avant de rentrer dans des considérations plus techniques, il y a un outil particulièrement informatif : [Alexa](https://www.alexa.com/siteinfo). Ce service (propriété d’Amazon) est une mine d’informations : outre le classement Alexa, un chiffre qui vous donne une idée de la popularité du site, vous saurez d’où viennent géographiquement le trafic et les sources.
 
 Plus que la valeur absolue du classement Alexa,  sa dynamique est intéressante: vous avez accès à **son évolution sur les douze derniers mois**, et c’est une information très précieuse. Un service ou un produit avec un marketing efficace sera systématiquement dans une dynamique positive sur un période d’un an, comme c’est le cas pour ManyChat :
@@ -56,7 +56,7 @@ Plus que la valeur absolue du classement Alexa,  sa dynamique est intéressante:
 
 Enfin tout en bas de page, Alexa vous propose 5 sites avec des audiences similaires («Audience overlap ») ce qui vous donne une idée de la concurrence thématique.
 
-#### LA PERFORMANCE DU SITE
+### LA PERFORMANCE DU SITE
 La vitesse de chargement du site ainsi que sa performance générale sont facilement quantifiables. Cela peut sembler anodin et pourtant c’est un **facteur très important autant pour l’expérience utilisateur que pour la capacité du site à être bien référencé**.
 
 Le niveau de vérification le plus simple peut se faire directement avec la console de votre navigateur (F12), de préférence en navigation privée. Allez dans l’onglet Réseau/Network, puis rechargez la page (CTRL+F5) :
@@ -84,7 +84,7 @@ Dareboost analyse de très nombreux objets, il existe très peu de sites qui en 
 
 Dans l’ensemble ce n’est pas trop mal à part pour la feuille de style qui peut laisser penser que la propreté du code n’est pas un facteur important pour ManyChat – du moins sur leur site.
 
-#### AUTRES ELEMENTS SUR LE SITE
+### AUTRES ELEMENTS SUR LE SITE
 Sans trop détailler, (ceci n’est pas un guide SEO), voici quelques autres points rapides à vérifier :
 
 **La structure des URLS du site** vous en dit également beaucoup sur la sensibilité SEO de ceux qui l’ont développé : Le site a un blog ? Un centre d’aide ? Regarder les URLS et notamment l’utilisation d’un sous-domaine (blog.site.com) ou d’un sous-dossier (site.com/blog). Sans rentrer dans le débat, **pour une société qui n’est pas déjà énorme** (comme Disney ou Netflix), **un sous- dossier sera plus performant dans 95 % des cas**. Pour creuser cette question : [lisez cet article pour commencer](https://www.searchenginejournal.com/subdomains-vs-subfolders-seo/239795/), [celui-ci pour aller plus loin](https://www.impactbnd.com/blog/subdomains-vs-subfolders), et enfin [cette étude de cas pour finir](http://www.bloggingflail.com/subdomains-vs-subdirectories-seo/). Si une boîte utilise un sous-domaine pour un support thématiquement proche (centre d’aide, blog…) , elle se plante sur un point basique en termes de SEO.
@@ -96,10 +96,10 @@ Si la question vous intéresse, vous trouverez des informations détaillées sur
 
 Après l’analyse du site, il convient de regarder la communication à proprement parler : comment la société interagit avec ses clients et ses prospects. Pour cela, rien de mieux que les réseaux sociaux.
 
-### LES RÉSEAUX SOCIAUX
+## LES RÉSEAUX SOCIAUX
 Tout comme pour le site web, il y a des indicateurs qualitatifs et quantitatifs pour évaluer la performance d’une société sur les réseaux sociaux. On vous laissera, vous et votre bon sens, juge de la qualité de l’activité et des publications de la société en question car une fois de plus, les pratiques varient grandement en fonction de l’industrie et du produit.
 
-#### DÉTECTION DE FAUX
+### DÉTECTION DE FAUX
 Pour les sociétés avec une présence sociale déjà bien établie, un service comme [SocialBlade](https://socialblade.com/) vous permettra de voir l’évolution de leurs followers sur Twitter, Instagram, Twitch et YouTube pour repérer des mouvements suspects. Il y a également des services conçus spécifiquement pour repérer les faux followers mais ils requièrent souvent un accès au compte et sont loin d’être infaillibles.
 **Le plus fiable reste encore de faire la vérification par vous-même** en allant voir les gens qui suivent ladite société. Pas besoin d’éplucher des milliers de followers, la tendance est généralement claire sur une centaine. Voici les signes qui indiquent de faux comptes lorsqu’ils concordent :
 - Pas de photo de profil
@@ -108,7 +108,7 @@ Pour les sociétés avec une présence sociale déjà bien établie, un service 
 - Ils ont une activité excessive, difficilement humaine (par exemple >50 tweets par jour)
 - Ils suivent de nombreux comptes similaires à leurs propres profils (les faux comptes marchent souvent en réseau)
 
-### LE MARCHÉ
+## LE MARCHÉ
 Un des plus grands enjeux du marketing, c’est l’étude de marché. De nombreuses méthodes et outils existent sans offrir de réelles certitudes. La seule façon de savoir si un marché existe pour un produit donné est de le développer et d’essayer de le vendre. Mais même dans ce cas, un échec ne signifie pas forcément que la clientèle n’existe pas mais qu’éventuellement vous ne l’avez pas trouvée.
 
 Dans le cadre d’une analyse rapide pré-entretien, ce n’est pas réaliste. Il existe cependant **des outils secondaires pour estimer la demande**, comme par exemple l’analyse de mots-clefs. En la matière, chacun à ses outils et les professionnels du marketing tendent à utiliser des services onéreux. Il existe cependant des services gratuits très performants comme [KeywordsEverywhere](https://keywordseverywhere.com/).
@@ -120,7 +120,7 @@ Pour revenir à ManyChat, voici ce qu’une analyse rapide de quelques mots-clef
 
 Encore une fois, les chiffres dans l’absolu ne disent pas grand-chose, mais le fait que le CPC (coût par clic pour les publicités) soit non nul ainsi que la compétition organique soit assez dense (>0.5) laisse penser qu’un marché existe réellement pour ce type de service : des compagnies sont prêtes à payer pour être visibles sur ces mots-clefs, c’est donc qu’elles rentrent dans leurs frais d’une manière ou d’une autre.
  
-### CONCLUSION
+## CONCLUSION
 Si vous avez lu jusqu’ici, vous l’aurez compris : il n’y a pas de recettes miracles pour analyser la qualité du marketing d’une société. Si elles existaient de nombreux marketers se retrouveraient au chômage. Il existe par contre **divers signaux qui indiquent des tendances**. Lorsque de nombreux indicateurs concordent, il alors est possible d’en tirer des conclusions.
 
 Plus que les indicateurs ou différents éléments techniques, ce sont la démarche de l’équipe marketing qui importe et la dynamique qu’elle parvient à insuffler  au développement de la société. Une observation depuis l’extérieur vous donne quelques indices sur le sujet mais le mieux reste encore de voir l’équipe en action. Si vous avez déjà vos entrées, vous pouvez [aller plus loin avec la suite de notre guide.]({{< relref "csg-mkt2.md" >}})

@@ -30,3 +30,5 @@ N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet me
 ### Medias & Mentions
 
 [Les français qui font Ethereum #1 : Brice Berdah de Monolith](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)
+
+[MakerDAO ajoute le WBTC en tant que collatéral pour la création de Dai](https://cryptoast.fr/makerdao-ajoute-wbtc-collateral-creation-dai/) 

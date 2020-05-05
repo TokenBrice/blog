@@ -24,7 +24,7 @@ There are two parts to this guide. This first one will help you to analyze from 
 
 
 
-### When should I check? As soon as possible
+## When should I check? As soon as possible
 
 
 
@@ -44,7 +44,7 @@ Enough introduction, let’s get real.
 
 
 
-### The product/service
+## The product/service
 
 
 
@@ -71,7 +71,7 @@ Next up is the website. How does the company present itself?
 
 
 
-### The website
+## The website
 
 
 
@@ -83,7 +83,7 @@ The good news is that many **quantifiable tools and indicators exist** to gain i
 
 
 
-#### Popularity of the site
+### Popularity of the site
 
 
 
@@ -103,7 +103,7 @@ Furthermore you’ll find 5 sites similar to the one in question (“Audience ov
 
 
 
-#### The performance of the site
+### The performance of the site
 
 
 
@@ -151,7 +151,7 @@ In the end their results are mainly positive (except for the style sheet).
 
 
 
-#### Other elements of the site
+### Other elements of the site
 
 
 
@@ -175,7 +175,7 @@ After analysing the site, lets check the communication itself: how does the comp
 
 
 
-### Social Networks
+## Social Networks
 
 
 
@@ -183,7 +183,7 @@ As for the website, there are qualitative and quantitative indicators to assess 
 
 
 
-#### Fake Detection
+### Fake Detection
 
 
 
@@ -203,7 +203,7 @@ A service like [SocialBlade](https://socialblade.com/) allows you to analyse the
 
 
 
-### The market
+## The market
 
 
 
@@ -227,7 +227,7 @@ Again, the figures do not say much in absolute terms, but the fact that the CPC 
 
 
 
-### Conclusion
+## Conclusion
 
 
 

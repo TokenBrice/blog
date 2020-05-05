@@ -41,7 +41,7 @@ People are more and more frustrated with politics in its traditional sense; they
 
 ### Whether it’s made of wires or people, a network works the same way
 
-To grasp a better understanding of what is happening, Lex invite us, once again to go back to the roots: **what are networks and what are the main ways to structure them?** To that end, the work a [Paul Baran](http://[https://en.wikipedia.org/wiki/Paul_Baran), a pioneer in the development of computers networks, is particularly insightful.
+To grasp a better understanding of what is happening, Lex invite us, once again to go back to the roots: **what are networks and what are the main ways to structure them?** To that end, the work a [Paul Baran](https://en.wikipedia.org/wiki/Paul_Baran), a pioneer in the development of computers networks, is particularly insightful.
 
 ![Network types, [source](http://blogs.perficient.com/integrate/2016/12/15/how-will-internet-of-things-use-blockchain/)](img/0__9yZKb9roRQzDx858.png)
 Network types, [source](http://blogs.perficient.com/integrate/2016/12/15/how-will-internet-of-things-use-blockchain/)
