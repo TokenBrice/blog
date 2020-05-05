@@ -29,7 +29,7 @@ Tokenbrice.xyz is deployed on [IPFS](https://ipfs.io/). I'm not entirely happy w
 
 ![tokenbrice-xyz-infrastructure-overviewe](/img/2020/hello-world/infrastructure.png)
 
-### Be ruthless in asking for more privacy-conscious solutions
+### Don't compromise when asking for more privacy-conscious solutions
 
 Nothing will be done, ever, even in the DeFi industry, unless us users make our concerns heard. **So, check your favourite projects' websites - and let them know how dirty they've been!**
 
