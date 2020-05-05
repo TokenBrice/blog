@@ -4,7 +4,7 @@ description: >-
   Complex concepts made accessible thanks to Pokémon cards: the future of
   tokenization on Ethereum - from non-fungible tokens to ERCs.
 date: '2018-08-08T12:56:45.787Z'
-categories: [⛓ Blockchain, 🛸 Basics]
+categories: [⛓ Blockchain, 🛸 Bases]
 tags: []
 ---
 

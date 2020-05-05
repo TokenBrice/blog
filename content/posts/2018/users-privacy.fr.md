@@ -9,7 +9,7 @@ tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
 
 En 2018, respecter la vie privée de ses utilisateurs lorsque l’on lance un site c’est un jeu d’enfant, non ? Avec les révélations de Snowden sur NSA et toutes celles qui ont suivi, les hébergeurs et autres fournisseurs de service ont dû revoir leur pratiques ? C’est ce qu’on croyait nous aussi, et l’illusion est bien vite retombée. C’est parti pour un petit tour des pratiques : qui collecte vos donnés, comment et à quelles fins ?
 
-Link to [the English translation of this article.](https://ecocrypto.fr/en/vulgarization/respecting-users-privacy-oddity-standard/)
+Link to [the English translation of this article.]({{< relref path="users-privacy.fr.md" lang="fr" >}})
 
 ### Un peu de contexte
 

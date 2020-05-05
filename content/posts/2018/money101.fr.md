@@ -11,8 +11,6 @@ tags: [ecocrypto]
 
 <span style="font-weight: 400;">La monnaie est un élément essentiel de nos sociétés : un petit changement dans ses mécanismes sous-jacents peut avoir des répercussions qui dépassent très largement le champ de l’économie. Une meilleure compréhension des mécanismes monétaires permet ainsi de mieux cerner de nombreux sujets connexes allant de l’économie politique aux cryptomonnaies.</span>
 
-Speak English? [Here you go.](https://ecocrypto.fr/en/vulgarization/money-101-bitcoin/)
-
 <span style="font-weight: 400;">La monnaie un sujet complexe, plus encore dans notre monde moderne quand on considère tous les mécanismes alambiqués qui sont venus se greffer dessus à tous les niveaux : création monétaire, banques centrales, l’inflation… Dans cet article, on va revenir sur les bases car elles sont nécessaires pour comprendre tout le reste : qu’est-ce qu’une monnaie ? Pourquoi en est-on venu à utiliser des monnaies ? Et quelles formes peuvent prendre ces monnaies ?</span>
 
 <span style="font-weight: 400;">C’est parti pour une aventure avec des histoires anciennes mais encore dominantes à déconstruire et de nouvelles nécessaires expliquer des mécanismes très complexes.</span>

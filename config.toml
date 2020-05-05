@@ -47,15 +47,14 @@ relativeURLs = false
 uglyURLs = false
 
 #language
-[Languages]
-[Languages.en]
-weight = 1
-languageName = "🇺🇸 EN"
-
-[Languages.fr]
-title = "TokenBrice - Blog"
-weight = 2
-languageName = "🇫🇷 FR"
+[languages]
+    [languages.en]
+        weight = 1
+        languageName = "🇺🇸 EN"
+    [languages.fr]
+        title = "TokenBrice - Blog"
+        weight = 2
+        languageName = "🇫🇷 FR"
 
 # URL structure
 [permalinks]
@@ -109,7 +108,7 @@ languageName = "🇫🇷 FR"
     # Email
     email = "a@gmail.com"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = ""
     # Avatar
     avatar = "/img/main/tokenbrice.jpg"
     # Twitter
@@ -238,42 +237,6 @@ languageName = "🇫🇷 FR"
         weight = 7
         identifier = "lang-switcher"
 
-
-
-## FR
-
-    ## FR Menu bar
-    # [[languages.fr.menu.main]]
-    #     url = "/"
-    #     name = "Home"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
-    [[languages.fr.menu.main]]
-        url = "/posts/"
-        name = "Archives"
-        weight = 2
-        pre = "internal"
-        post = "archive"
-    [[languages.fr.menu.main]]
-        url = "/categories/"
-        name = "Catégories"
-        weight = 3
-        pre = "internal"
-        post = "th"
-    [[languages.fr.menu.main]]
-        url = "/defi/"
-        name = "DeFi"
-        weight = 4
-        pre = "internal"
-        post = "plus-circle"
-    [[languages.fr.menu.main]]
-        url = "/about/"
-        name = "À propos"
-        weight = 5
-        pre = "internal"
-        post = "user-circle"
-
         ## Socials
     [[menu.socials]]
         url = "https://github.com/TokenBrice"
@@ -290,6 +253,45 @@ languageName = "🇫🇷 FR"
         name = "Twitter"
         weight = 3
         pre = "external"
+
+## FR Menu bar
+# [[languages.fr.menu.main]]
+#     url = "/"
+#     name = "Home"
+#     weight = 1
+#     pre = "internal"
+#     post = "home"
+[[languages.fr.menu.main]]
+    url = "/fr/posts/"
+    name = "Archives"
+    weight = 2
+    pre = "internal"
+    post = "archive"
+[[languages.fr.menu.main]]
+    url = "/fr/categories/"
+    name = "Catégories"
+    weight = 3
+    pre = "internal"
+    post = "th"
+[[languages.fr.menu.main]]
+    url = "/fr/defi/"
+    name = "DeFi"
+    weight = 4
+    pre = "internal"
+    post = "plus-circle"
+[[languages.fr.menu.main]]
+    url = "/fr/about/"
+    name = "À propos"
+    weight = 5
+    pre = "internal"
+    post = "user-circle"
+[[languages.fr.menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+[[languages.fr.menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
+
 
 ##########################################
 # Theme Settings
