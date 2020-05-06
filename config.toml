@@ -210,25 +210,25 @@ uglyURLs = false
         name = "Archive"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = ""
     [[menu.main]]
         url = "/categories/"
         name = "Categories"
         weight = 3
         pre = "internal"
-        post = "th"
+        post = ""
     [[menu.main]]
         url = "/defi/"
         name = "DeFi"
         weight = 4
         pre = "internal"
-        post = "plus-circle"
+        post = ""
     [[menu.main]]
         url = "/about/"
         name = "About"
         weight = 5
         pre = "internal"
-        post = "user-circle"
+        post = ""
 
     [[menu.main]]
         weight = 6
@@ -266,25 +266,25 @@ uglyURLs = false
     name = "Archives"
     weight = 2
     pre = "internal"
-    post = "archive"
+    post = ""
 [[languages.fr.menu.main]]
     url = "/fr/categories/"
     name = "Catégories"
     weight = 3
     pre = "internal"
-    post = "th"
+    post = ""
 [[languages.fr.menu.main]]
     url = "/fr/defi/"
     name = "DeFi"
     weight = 4
     pre = "internal"
-    post = "plus-circle"
+    post = ""
 [[languages.fr.menu.main]]
     url = "/fr/about/"
     name = "À propos"
     weight = 5
     pre = "internal"
-    post = "user-circle"
+    post = ""
 [[languages.fr.menu.main]]
         weight = 6
         identifier = "theme-switcher"
