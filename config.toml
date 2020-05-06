@@ -981,7 +981,7 @@ uglyURLs = false
     # Site brand
     fontFamilySiteBrand = ""
     # Menu bar
-    fontFamilyMenu = ""
+    fontFamilyMenu = "'Roboto', sans-serif"
     # Post title, post subtitle, list title, year and month title of the list, related posts title, previous/next post title, header of table, term/name in a definition list
     fontFamilyTitle = "'Comfortaa', sans-serif"
     # Headings, toc title
@@ -989,9 +989,9 @@ uglyURLs = false
     # Code, superscript, post meta info, post updated badge, post gitinfo, minimal footer, busuanzi site view counter
     fontFamilyCode = "'Source Code Pro', monospace"
     # Blockquotes
-    fontFamilyQuote = ""
+    fontFamilyQuote = "'Lato', sans-serif"
     # Table of contents
-    fontFamilyTOC = ""
+    fontFamilyTOC = "'Lato', sans-serif"
     # Caption
     fontFamilyCaption = ""
     # Footer
