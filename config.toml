@@ -337,9 +337,9 @@ uglyURLs = false
     # If true, put your SVG in the `SVG.toml`
     # file and configure the following options.
     # Unit: px
-    siteBrandSVGWidth = 0
-    siteBrandSVGHeight = 0
-    siteBrandSVGFill = "#fff"
+    siteBrandSVGWidth = 300
+    siteBrandSVGHeight = 100
+    siteBrandSVGFill = "#5a4e4e"
     # If false, your site title will be
     # used as the default and displayed as
     # text. The font size and font color
@@ -570,7 +570,7 @@ uglyURLs = false
     ######################################
     # Dark Mode
 
-    enableDarkMode = false
+    enableDarkMode = true
 
     defaultTheme = "light"
     # Note: light or dark
