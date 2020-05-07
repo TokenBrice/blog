@@ -339,7 +339,7 @@ uglyURLs = false
     # Unit: px
     siteBrandSVGWidth = 300
     siteBrandSVGHeight = 100
-    siteBrandSVGFill = "#fff"
+    siteBrandSVGFill = "#cfcbd4"
     # If false, your site title will be
     # used as the default and displayed as
     # text. The font size and font color
@@ -572,7 +572,7 @@ uglyURLs = false
 
     enableDarkMode = true
 
-    defaultTheme = "light"
+    defaultTheme = "dark"
     # Note: light or dark
 
     hideThemeToggle = false
