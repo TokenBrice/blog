@@ -339,7 +339,7 @@ uglyURLs = false
     # Unit: px
     siteBrandSVGWidth = 300
     siteBrandSVGHeight = 100
-    siteBrandSVGFill = "#5a4e4e"
+    siteBrandSVGFill = "#fff"
     # If false, your site title will be
     # used as the default and displayed as
     # text. The font size and font color
