@@ -1047,7 +1047,7 @@ uglyURLs = false
     ######################################
     ## Text Justification
 
-    enableJustify = true
+    enableJustify = false
     # Note: *global settings*
     #       `align` in post’s Front Matter
     #       has a higher priority than here
