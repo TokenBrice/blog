@@ -1,7 +1,7 @@
 ---
 title: "A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter"
 description: "Exploring new perspectives to understand better the current barriers to decentralised finance's mainstream adoption and how to overcome them."
-date: '2020-05-09T10:53:50.191Z'
+date: '2020-05-08T14:53:50.191Z'
 categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Adoption]
 ---
@@ -70,7 +70,7 @@ We need to bring all kind of perspectives, try weird and new stuff again and aga
 
 So, at my level, I went back to my first loves: literature and linguistics and thought about how to use them to better the UX of a DeFi wallet. I did a quick trial run on the onboarding of the Monolith wallet — the results are insightful.
 
-You'll find it here: [📝 Monolith App Semantic Analysis v0.1 - Initial Draft | 04/05/2020](/others/monolith-semantic-analysis.pdf)
+You'll find them here: Monolith App Semantic Analysis v0.1 - Initial Draft | 04/05/2020
 
 Feel free to reach out if this UX writing angle is an approach you'd like to explore or implement in your dApp design process.
 

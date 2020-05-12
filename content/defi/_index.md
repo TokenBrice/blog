@@ -1,7 +1,7 @@
 ---
 title: "DeFi"
 date: 2020-04-26T13:24:40+02:00
-description: "An overview of my main contributions to the growth of DeFi"
+description: "An overview of my main contributions to the growth of Ethereum's Decentralised Finance."
 ---
 
 Through my professional and personal engagements, I'm working to grow Ethereum's decentralised finance ecosystem. 

@@ -106,9 +106,9 @@ uglyURLs = false
     # Name
     name = "TokenBrice"
     # Email
-    email = "me@tokenbrice.com"
+    email = "a@gmail.com"
     # Motto or introduction
-    motto = "Decentralised Finance Evangelist"
+    motto = ""
     # Avatar
     avatar = "/img/main/tokenbrice.jpg"
     # Twitter
@@ -508,9 +508,9 @@ uglyURLs = false
     chineseZodiac = true
 
     # Translate the year? (valid for title)
-    i18nYear = false
+    i18nYear = true
     # Translate the month? (valid for title)
-    i18nMonth = false
+    i18nMonth = true
 
 
     ######################################
@@ -1135,7 +1135,7 @@ uglyURLs = false
     #       has a higher priority than here
 
     repoURL = "https://github.com/TokenBrice/blog"
-    repoEditURL = ""
+    repoEditURL = "https://github.com/TokenBrice/blog/compare?expand=1"
 
     gitIcon = "code-branch"
     displayCommitHash = true
@@ -1222,8 +1222,8 @@ uglyURLs = false
     ######################################
     # Minimal Footer
 
-    enableMinimalFooter = false
-    enableVerticalBarStructure = false
+    enableMinimalFooter = true
+    enableVerticalBarStructure = true
     # Note: If you enable this, the
     #       categories or sections that
     #       displayed on the right will
@@ -1363,6 +1363,6 @@ uglyURLs = false
     #       options empty("")
 
 
-    [params.matomo]
+[params.matomo]
     url = "http://ecocrypto.fr/stats/"
     id = 1
