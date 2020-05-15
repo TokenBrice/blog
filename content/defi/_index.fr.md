@@ -8,6 +8,7 @@ Au travers de mes engagements professionnels et personnels, mon but est de déve
 
 Vous retrouverez ici un tour d'horizon des contenus en français, les plus intéressants auxquels j'ai contribué.
 
+
 ### [➡ Pour les contenus en anglais, c'est par ici]({{< relref path="_index.md" lang="en" >}})
 
 ### [DeFi France](https://www.meetup.com/DeFi-France/)
