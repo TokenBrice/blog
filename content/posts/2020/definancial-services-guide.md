@@ -18,7 +18,7 @@ This article walks you through 6 base strategies and their variants that harness
 
 Before we dive into the strategies, I URGE you to read attentively the primer on gas below & as well as the disclaimers. 
 
-**This article is not investment advice. I am not an accredited investor or asset manager. I am just a 27 yo dude using DeFinancial services abundantly and highly active in the space.**
+**This article is not investment advice. I am not an accredited investor or asset manager. I am just a 27 years old dude using DeFinancial services abundantly and highly active in the space.**
 
 **YOU ARE THE ONLY ONE RESPONSIBLE FOR YOUR INVESTMENT DECISIONS.**
 
