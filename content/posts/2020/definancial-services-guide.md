@@ -1,7 +1,7 @@
 ---
 title: "How to make DeFinancial products work for you"
 description: "A balanced overview of decentralised finance services you can use to make your ETH work for you - 6 base strategies, their variants, & what to watch for while implementing them."
-date: '2020-05-16T14:53:50.191Z'
+date: '2020-05-20T10:53:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets, Liquidation, Gas, Impermanent Lossses, guide]
 toc: true
