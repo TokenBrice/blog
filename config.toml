@@ -222,19 +222,25 @@ uglyURLs = false
         name = "DeFi"
         weight = 4
         pre = "internal"
-        post = "plus-circle"
+        post = "ethereum"
     [[menu.main]]
         url = "/about/"
         name = "About"
         weight = 5
         pre = "internal"
         post = "user-circle"
+    [[menu.main]]
+        url = "/services/"
+        name = "Services"
+        weight = 6
+        pre = "internal"
+        post = "chess-knight"
 
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 8
         identifier = "lang-switcher"
 
         ## Socials
@@ -278,7 +284,7 @@ uglyURLs = false
     name = "DeFi"
     weight = 4
     pre = "internal"
-    post = "plus-circle"
+    post = "ethereum"
 [[languages.fr.menu.main]]
     url = "/fr/about/"
     name = "À propos"
@@ -572,7 +578,7 @@ uglyURLs = false
 
     enableDarkMode = true
 
-    defaultTheme = "dark"
+    defaultTheme = "light"
     # Note: light or dark
 
     hideThemeToggle = false

@@ -9,8 +9,8 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  Logo | Project | Description | Function |
 | :---: | :---: | :---: | :---: |
 |  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Un portefeuille Ethereum sans compromis associé à une carte Visa pour avoir accès au meilleur des deux mondes : payez 45M+ marchants dans le monde en utilisant vos actifs Ethereum. | Community Strategist |
-|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="_index.fr.md" lang="fr" >}}) | Coorganisateur |
-| ![Bankless-logo](/img/others/bankless.jpg) | [BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | FR Coordinator |
+|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Coorganisateur |
+| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | FR Coordinator |
 
 
 Au sein de Monolith, je développe notre présence en ligne et hors ligne en utilisant tous les supports pertinents (articles, vidéos, évènements, podcasts, etc.).
@@ -23,9 +23,9 @@ N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet me
 
 ### Contact
 
-|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit |
-| :---: | :---: | :---: | :---: |
-|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
+|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
+| :---: | :---: | :---: | :---: | :---: |
+|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Ici](mailto:me@tokenbrice.com)
 
 ### Medias
 
