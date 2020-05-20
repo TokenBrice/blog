@@ -283,6 +283,7 @@ Let's have a look at the base of the yield stack:
 
 _Note: The Curve sUSD pool ran into some issues, and the current live version is not the most optimised one for returns. A new version of the sUSD pool is coming up, harnessing Aave to optimize it even farther. This strategy might get even more compelling as soon as this ships!_
 
+Curious ? Here is a [comprehensive overview to get started with Synthetix](https://synthetix.community/docs/intro).
 
 #### 6/ Liquidity Provider (not on stablecoins)
 
