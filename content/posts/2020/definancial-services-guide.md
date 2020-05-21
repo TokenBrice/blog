@@ -194,7 +194,7 @@ Among them, I think the following are the most interesting:
 
 1. aSNX: base rate around 7%, can spike quite high for a bit - keep a very close eye to this one on Wednesdays, especially if prices of ETH/SNX crashed during the week: we observe SNX borrowing surges during certain claim periods.
 2. asUSD: can spikes quite hard too, especially lately (~12% APR over the last month)
-3. aZRX: rates can spike, ready more about ZRX to know when
+3. aZRX: rates can spike, read more about ZRX to know when
 4. aMANA: same here - decentish rate (1-2%)
 
 ---
@@ -209,7 +209,7 @@ Notice how I didn't say work? Sometimes, the "efforts" can simply be that you ac
 
 The next four strategies will require a more precise understanding of what you are doing. Indeed, at their core, all strategies would benefit immensely from your market acumen. So before we explore such strategies, allow me some reminders:
 
-*   **Information is power.** More specifically for DeFi investing: the information you have & understand is the main drive the alpha (returns) you're extracting from the markets.
+*   **Information is power.** More specifically for DeFi investing: the information you have & understand is the main thing driving the alpha (returns) you're extracting from the markets.
 *   **Take it slow, be safe, it's not a race**. Despite writing this article (with many people advising), I have yet to use strategy 6 with serious amounts of capital for instance. It's wise to double-check your understanding of a given platform every time you increase your stake.
 *   **Want to quickstart the process? Go in with $50.** Small amounts are amazing to help you understand a protocol and be involved without taking too many risks and stressing about it.
 
