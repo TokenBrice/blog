@@ -1,5 +1,5 @@
 ---
-title: "Helping DeFi services grow"
+title: "Helping DeFi Services Grow"
 date: 2020-05-18T13:24:40+02:00
 description: "I am deeply involved in the Ethereum decentralised finance ecosystem and happy to help projects who fit this vision. You'll find below an overview of my main areas of expertise. "
 ---
@@ -14,8 +14,8 @@ You'll find below an overview of the main services I provide. If you are interes
 
 **I grow, manage, and structure resilient & welcoming communities.**
 
-*   I co-created of DeFi France, which is now the leading community for DeFi discussions in Europe (650 members on [Telegram](https://t.me/defifrance) & [meetup](https://www.meetup.com/DeFi-France/) (8 organised with top of the line speakers)
-*   I contribute to [Monolith](https://monolith.xyz) as Community Lead and significantly grew the company footprint in the DeFi space. I organise [meetups for Monolith](https://www.meetup.com/monolith/) (#mDeFi) featuring ONLY C-level speakers from the top projects of the space & handle our whole online presence.
+*   I co-created of DeFi France, which is now the leading community for DeFi discussions in Europe (650 members on [Telegram](https://t.me/defifrance) & [meetups](https://www.meetup.com/DeFi-France/) (8 organised with top of the line speakers)
+*   I contribute to [Monolith](https://monolith.xyz) as Community Lead and significantly grew the company footprint in the DeFi space. I organise [meetups for Monolith](https://www.meetup.com/monolith/) (#mDeFi) featuring **only** C-level speakers from the top projects of the space & handle our online presence.
 *   I am the coordinator of [Bankless FR](https://twitter.com/banklessfr), the localisation of Bankless, one of the most prominent DeFi newsletter.
 *   I am French native and a growing figure in French and European DeFi industry. ([portrait on Ethereum France](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)); thanks to my work at Monolith (UK-based) I also have a significant London-based network.
 
@@ -36,9 +36,9 @@ You'll find below an overview of the main services I provide. If you are interes
 **I can inform your DeFi product strategy and development.**
 
 *   I am a DeFi power user, I try pretty much any decent DeFi services and chat daily with many DeFi buffs.
-*   [I develop a linguistic-based approach](https://github.com/TokenBrice/blog/blob/master/static/others/monolith-semantic-analysis.pdf) to better your user experience providing incredible and reliable insights.
+*   [I develop a linguistic-based approach](https://github.com/TokenBrice/blog/blob/master/static/others/monolith-semantic-analysis.pdf) providing actionable and reliable insights to better your user experience.
 *   I have a highly user-centric approach and is usually the "User Champion" wherever I go. 
-*	I produce comprehensive and actionable recommendations. Thanks to my knowledge of the industry I can spot the potential synergies of your product with the DeFi ecosystem & help you maximize them.
+*	Thanks to my knowledge of the industry I can spot the potential synergies of your product with the DeFi ecosystem & help you design a strategy to maximize them.
 
 ### TokenBrice
 
