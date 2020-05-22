@@ -1,28 +1,24 @@
 ---
 title: "Helping DeFi Services Grow"
 date: 2020-05-18T13:24:40+02:00
-description: "I am deeply involved in the Ethereum decentralised finance ecosystem and happy to help projects who fit this vision. You'll find below an overview of my main areas of expertise. "
+description: "I am deeply involved in the Ethereum decentralised finance ecosystem and happy to help projects that fit this vision. You'll find below an overview of my main areas of expertise. "
 ---
 
-You'll find below an overview of the main services I provide. If you are interested, feel free to reach out for a chat:
-
-|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
-| :---: | :---: | :---: | :---: | :---: |
-|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
+You'll find below an overview of the main services I provide.
 
 ### DeFi Community Strategy
 
 **I grow, manage, and structure resilient & welcoming communities.**
 
-*   I co-created of DeFi France, which is now the leading community for DeFi discussions in Europe (650 members on [Telegram](https://t.me/defifrance) & [meetups](https://www.meetup.com/DeFi-France/) (8 organised with top of the line speakers)
+*   I co-created DeFi France, which is now the leading community for DeFi discussions in Europe (650 members on [Telegram](https://t.me/defifrance) & [meetups](https://www.meetup.com/DeFi-France/) (8 organised with top of the line speakers)
 *   I contribute to [Monolith](https://monolith.xyz) as Community Lead and significantly grew the company footprint in the DeFi space. I organise [meetups for Monolith](https://www.meetup.com/monolith/) (#mDeFi) featuring **only** C-level speakers from the top projects of the space & handle our online presence.
-*   I am the coordinator of [Bankless FR](https://twitter.com/banklessfr), the localisation of Bankless, one of the most prominent DeFi newsletter.
-*   I am French native and a growing figure in French and European DeFi industry. ([portrait on Ethereum France](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)); thanks to my work at Monolith (UK-based) I also have a significant London-based network.
+*   I'm the coordinator of [Bankless FR](https://twitter.com/banklessfr), the localisation of Bankless, one of the most prominent DeFi newsletter.
+*   I'm a French native and a growing figure in French and European DeFi scene. ([portrait on Ethereum France](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)); thanks to my work at Monolith (UK-based) I also have a significant London-based network.
 
 
 ### Content Strategy, Production & Promotion
 
-**I produce content on highly technical topics while keeping it engaging for the readers.**
+**I produce content on highly technical topics while keeping it engaging for readers.**
 
 *   [This article on the static web](https://blog.callr.tech/static-web-roots/) reached HackerNews & Reddit front pages resulting in over > 20 000 sessions over a few days for my customer.
 *   I wrote a very accessible [crypto onboarding series](https://tokenbrice.xyz/categories/basics/), available in both French and English, including:
@@ -35,9 +31,9 @@ You'll find below an overview of the main services I provide. If you are interes
 
 **I can inform your DeFi product strategy and development.**
 
-*   I am a DeFi power user, I try pretty much any decent DeFi services and chat daily with many DeFi buffs.
+*   I am a DeFi power user; I try pretty much any decent DeFi services and chat daily with many DeFi buffs.
 *   [I develop a linguistic-based approach](https://github.com/TokenBrice/blog/blob/master/static/others/monolith-semantic-analysis.pdf) providing actionable and reliable insights to better your user experience.
-*   I have a highly user-centric approach and is usually the "User Champion" wherever I go. 
+*   I have a highly user-centric approach and am usually the "User Champion" wherever I go. 
 *	Thanks to my knowledge of the industry I can spot the potential synergies of your product with the DeFi ecosystem & help you design a strategy to maximize them.
 
 ### TokenBrice
@@ -46,4 +42,10 @@ I also have my own rapidly growing audience, through the following initiatives:
 
 *   [My Twitter activity](https://twitter.com/tokenbrice)
 *   My Blog: you are here.
-*   [Weekly podcasts](https://open.spotify.com/show/6NO8M2R4u9YSgAdz5TA4ZA) & many contributions in the space ([Bankless - How can DeFi pay for your lunches](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches) is still, so far, one of the most successful piece every published in Bankless)
+*   [Weekly podcasts](https://open.spotify.com/show/6NO8M2R4u9YSgAdz5TA4ZA) & many contributions in the space ([Bankless - How can DeFi pay for your lunches](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches) is still, so far, one of the most successful pieces every published in Bankless)
+
+If you are interested, feel free to reach out for a chat:
+
+|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
+| :---: | :---: | :---: | :---: | :---: |
+|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
