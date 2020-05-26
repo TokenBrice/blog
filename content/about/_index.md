@@ -26,7 +26,6 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
 
-### Medias
+### Medias & Mentions
 
-- [🎥 Building the world’s first self-sovereign consumer finance service, Brice Berdah :Monolith /BULL.IO/](https://www.youtube.com/watch?v=ljnAsmOe7NA)
-- [🎙 Charge it! Putting Crypto on Debit Cards - Featuring Brice Berdah of Monolith](https://the-defi-podcast.simplecast.com/episodes/charge-it-putting-crypto-on-debit-cards-featuring-brice-berdah-of-monolith)
+{{< custommedia language="en" >}}
