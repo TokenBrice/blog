@@ -530,16 +530,6 @@ uglyURLs = false
 
 
     ######################################
-    # Post Sections
-
-    # Note: the name of the section is the
-    #       name of the folder under the
-    #       site’s `content` directory.
-
-    # mainSections = ["posts"]
-
-
-    ######################################
     # Atom & RSS
 
     # Include full content?
@@ -1364,5 +1354,5 @@ uglyURLs = false
 
 
 [params.matomo]
-    url = "http://ecocrypto.fr/stats/"
+    url = "https://ecocrypto.fr/stats/"
     id = 1
