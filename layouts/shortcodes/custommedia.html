@@ -1,0 +1,18 @@
+<!--
+media custom hugo integration
+Params:
+    name:       css #id of your media
+    url:        path or url of your media.json
+Creates a custom media displayer on your page, call it with: {{/*
+    {{% custommedia language="<page_language>"%}}
+*/}}
+Example: {{/*
+    {{% custommedia language="fr" %}}
+*/}}
+-->
+
+<input id="language" type="hidden" value="{{ .Params.language }}">
+<div id="app">
+    <Filters></Filters>
+</div>
+

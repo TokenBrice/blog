@@ -2,6 +2,7 @@
 title: "À propos : TokenBrice"
 date: 2020-04-26T13:24:40+02:00
 description: Je contribue à l'émergence et le développement d'un village Gaulois financièrement souverain, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
+media: true
 ---
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
@@ -27,12 +28,6 @@ N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet me
 | :---: | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Ici](mailto:me@tokenbrice.com)
 
-### Medias
+### Medias & Mentions
 
-- [Les français qui font Ethereum #1 : Brice Berdah de Monolith](https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/)
-- [Interview: Brice Berdah, «Community Lead » du projet Monolith (TKN)](https://passioncrypto.com/interview-brice-community-lead-du-projet-monolith-tkn/)
-
-#### & Mentions
-
-- [Finance Décentralisée (DeFi) : enjeux et avenir par Alyra et The Garage](https://www.thecointribune.com/actualites/finance-decentralisee-defi-enjeux-et-avenir-par-alyra-et-the-garage/)
-- [MakerDAO ajoute le WBTC en tant que collatéral pour la création de Dai](https://cryptoast.fr/makerdao-ajoute-wbtc-collateral-creation-dai/)
+{{< custommedia language="fr" >}}

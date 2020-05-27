@@ -1,0 +1,32 @@
+{
+  "name": "hugo-image-optimizer",
+  "version": "1.0.0",
+  "description": "Smart image optimization for Hugo",
+  "scripts": {
+    "optimize": "node build/optimize.js",
+    "build": "webpack --config build/webpack.config.dev.js"
+  },
+  "author": "Jérémy Hagneré <jeremy.hagnere@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "hash-files": "^1.1.1",
+    "image-optimizer": "^0.4.0-pre2",
+    "img-loader": "^3.0.1",
+    "lodash": "^4.17.4",
+    "sharp": "^0.17.1",
+    "vue": "^2.6.11",
+    "vue-multiselect": "^2.1.6"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
