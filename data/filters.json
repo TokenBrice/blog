@@ -16,6 +16,10 @@
       "name": "Commentaire"
     },
     {
+      "key": "mention",
+      "name": "Mention"
+    },
+    {
       "key": "en",
       "name": "EN"
     },

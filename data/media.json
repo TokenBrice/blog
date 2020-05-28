@@ -46,5 +46,65 @@
 		"name": "DeFi #6 : French Track - La finance décentralisée : vers une nouvelle finance",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=vF-7T5EtcQo&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=6"
+	},
+	{
+		"tags": ["mention", "post","fr"],
+		"name": "Hebdo Crypto #87 – les actualités de la semaine des cryptomonnaies",
+		"host": "Le Journal Du Coin",
+		"link": "https://journalducoin.com/bitcoin/hebdo-crypto-87-les-actualites-de-la-semaine-des-cryptomonnaies/"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Zerion launches DeFi SDK 🧱, Another DeFi attack 🤦‍♂️ & Balancer Labs raises $3M 🚀",
+		"host": "Abel Abstracts",
+		"link": "https://open.spotify.com/episode/2M3BQqfBSFP8NvgM5Mrafb"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "HegicOptions Bug ⛔, Pool Together Pods 🤑 & The 10k Audit 💸 - Your Weekly Dose of DeFi 🥳",
+		"host": "Abel Abstracts",
+		"link": "https://open.spotify.com/episode/1KoNWhpN5iB1H3jqBOJEqs"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Aave Is Growing Fast 🚀, Why You Need Gastoken ⛽, DeFi Events Recap ✨",
+		"host": "Abel Abstracts",
+		"link": "https://open.spotify.com/episode/55XxDDmleayBCDutgO0Z8v"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "How Argent Is Going to Onboard 1 Billion Users to DeFi 🚀",
+		"host": "Abel Abstracts",
+		"link": "https://open.spotify.com/episode/6jm9Oi7sLQ9se2bLwom3Zo"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Charge it! Putting Crypto on Debit Cards - Featuring Brice Berdah of Monolith",
+		"host": "The DeFi Podcast",
+		"link": "https://the-defi-podcast.simplecast.com/episodes/charge-it-putting-crypto-on-debit-cards-featuring-brice-berdah-of-monolith"
+	},
+	{
+		"tags": ["video", "interview", "en"],
+		"name": "Building the world’s first self-sovereign consumer finance service, Brice Berdah :Monolith [BULL.IO]",
+		"host": "Bull io - Blockchain Media",
+		"link": "https://www.youtube.com/watch?v=ljnAsmOe7NA"
+	},
+	{
+		"tags": ["audio", "interview", "en"],
+		"name": "The growth and impact of Defi & User Adoption - Token Brice - Episode 14",
+		"host": "TheBlockExperience",
+		"link": "https://www.youtube.com/watch?v=DDtcMElQ0iY"
+	},
+	{
+		"tags": ["post", "en"],
+		"name": "How DeFi can pay for your lunches",
+		"host": "Bankless",
+		"link": "https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Charge it! Putting Crypto on Debit Cards - Featuring Brice Berdah of Monolith",
+		"host": "The DeFi Podcast",
+		"link": "https://the-defi-podcast.simplecast.com/episodes/charge-it-putting-crypto-on-debit-cards-featuring-brice-berdah-of-monolith"
 	}
 ]
