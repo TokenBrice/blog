@@ -41,7 +41,7 @@ You can [check recommended gas prices on ⛽ EthGasStation](https://ethgasstatio
 
 Or read [📑 EthHub Docs on Ethereum Transactions](https://docs.ethhub.io/using-ethereum/transactions/) to learn more about gas.
 
-Note: Some strategies listed below (1, 3 & 4)are applicable without having to worry about gas, using [Argent](https://argent.xyz/).
+Note: Some strategies listed below (1, 3 & 4) are applicable without having to worry about gas, using [Argent](https://argent.xyz/).
 
 ---
 
@@ -103,10 +103,7 @@ If you want to expand on top of the base concept, you have several options offer
 
 As said above, there are several services offering stablecoins providing returns thanks to lending pools. You can manually chase the best rate yourself, but will require you to monitor the rates and do the rebalances yourself.
 
-So instead, why not use an Ethereum native service to do that for you in full transparency? Here are the leading options:
-
-1. [Idle Finance](https://idle.finance/)
-2. [RAY](https://medium.com/@staked/https-medium-com-staked-announcing-robo-advisor-for-yield-ray-9d7395e84769)
+So instead, why not use an Ethereum native service to do that for you in full transparency? [Idle Finance](https://idle.finance/) is the leading solution:
 
 ![idle-dai](/img/2020/definancial-services-guide/idle-dai.png)
 
@@ -207,7 +204,7 @@ Among them, I think the following are the most interesting:
 
 Notice how I didn't say work? Sometimes, the "efforts" can simply be that you accept to stomach a risk others wouldn't, and get paid nicely for it --- **the investor equivalent of a stunt double.**
 
-The next four strategies will require a more precise understanding of what you are doing. Indeed, at their core, all strategies would benefit immensely from your market acumen. So before we explore such strategies, allow me some reminders:
+The next strategies will require a more precise understanding of what you are doing. Indeed, at their core, all strategies would benefit immensely from your market acumen. So before we explore such strategies, allow me some reminders:
 
 *   **Information is power.** More specifically for DeFi investing: the information you have & understand is the main thing driving the alpha (returns) you're extracting from the markets.
 *   **Take it slow, be safe, it's not a race**. Despite writing this article (with many people advising), I have yet to use strategy 6 with serious amounts of capital for instance. It's wise to double-check your understanding of a given platform every time you increase your stake.
@@ -311,7 +308,7 @@ If you are considering providing liquidity on AMMs, please read more on the topi
 
 I think this is a good place to call it a run and keep this guide digestible. 
 
-If you're ready to jump-in, here are some sulutions that will make it easier for you:
+If you're ready to jump-in, here are some solutions that will make it easier for you:
 1. [Argent Wallet](https://argent.xyz/) Secure wallet offering one tap access to Aave tokens, PoolTogether & TokenSets presented in this article.
 2. [Monolith Visa Debit Card](https://monolith.xyz) You've made some profits in DeFi you'd like to cash out in the real world? This is the only no-compromise solution allowing you to do so.
 
