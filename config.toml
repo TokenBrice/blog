@@ -56,6 +56,7 @@ uglyURLs = false
         weight = 2
         languageName = "🇫🇷 FR"
         homePoetry = ["Bienvenue explorateur,<br><br> J'espère que vous apprécierez votre séjour dans l'Ether<br>Je travaille à développer sa mémétique<br><br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> ![ether-in-the-sky](/img/others/ether-sky.jpg) <br><br><br> *Art: Ether in the Sky, by [Yogjoshi](https://www.yogjoshi.com/ethereum-art-ether-in-the-sky-painting-artwork/)*"]
+        siteDescription = "Blog personnel de TokenBrice - Vous retrouverez ici tous mes contenus en FR & EN."
 
 # URL structure
 [permalinks]
