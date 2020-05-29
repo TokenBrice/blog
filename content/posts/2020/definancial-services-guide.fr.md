@@ -2,18 +2,17 @@
 title: "Comment utiliser les services DeFinanciers à votre avantage ?"
 description: "Un tour d'horizon de différents services financiers décentralisés et les retours que vous pouvez en tirer: 6 stratégies fondamentales, leur variantes, & des astuces pour les utiliser au mieux."
 date: '2020-05-20T10:53:50.191Z'
-categories: [🌌 DeFi, 💸 Practical DeFi]
+categories: [🌌 DeFi, 💸 DeFi Pratique]
 tags: [DeFi, Ethereum, Finance Décentralisée, Apport de Liquidité, Prêt, Actifs Synthétiques, Immobilier Tokénisé]
 toc: true
 tocNum: false
-draft: true
 ---
 
 Bienvenue dans le nouveau monde !
 
-Si vous arrivez ici, c'est que vous avez déjà probablement entendu parler d'Ethereum et de la finance décentralisée. C'est parfait ! Aujourd'hui on passe de la parole aux actes : comment utiliser la DeFi pour améliorer vos finances personnelles.
+Si vous arrivez ici, c'est que vous avez déjà probablement entendu parler d'Ethereum et de la finance décentralisée. C'est parfait ! Aujourd'hui on passe de la parole aux actes en considérant comment utiliser la DeFi pour améliorer vos finances.
 
-Cet article vous présentera 6 stratégies qui vous permettront de générer un retour grâce à la DeFi, avec leurs variantes. On commencera par les stratégies de management passif avant d'explorer progressivement celles qui requièrent plus d'intervention et présentent plus de risques mais sont également bien plus lucratives.
+Cet article vous présentera 6 stratégies qui permettent de générer un retour grâce à la DeFi, avec leurs variantes. On commencera par les stratégies de management passif avant d'explorer progressivement celles qui requièrent plus d'intervention et présentent plus de risques mais sont également bien plus lucratives.
 
 ![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover-fr.jpeg)
 
@@ -45,12 +44,11 @@ Note : Les stratégies 1, 3 & 4 sont désormais applicables sans avoir à se sou
 
 Nous sommes presque parés pour le décollage, après une dernière salve d'avertissements hautement nécessaires pour s'assurer que nous sommes sur la même longueur d'onde, et pour bien comprendre le contexte.
 
-### Necessary reminders - PLEASE READ
+### Rappels nécessaires - À LIRE
 
-1. **Tous les taux de retours discutés dans cet article sont des taux annuels.** - Pour actualiser ces APRs (estimations), vous devez rester engagé dans la position en question une année entière..
+1. **Tous les taux de retours discutés dans cet article sont des taux annuels.** - Pour actualiser ces APRs (estimations), vous devez rester engagé dans la position en question une année entière.
 2. **Il n'y a pas de mesure objective possible de concepts comme la "complexité"  ou le " risque."** - Les scores que je vous présente sont à vocation purement informationnelle.
-3. Qu'est-ce que représente le score de **risque** ? La possibilité plus ou moins réelle de perdre votre capital, que ce soit dû à un mouvement du marché ou à cause d'une erreur (venant habituellement d'un manque de compréhension).
-Le score de **complexité** vous permet d'estimer à quel point le risque est technique et dur à comprendre.
+3. Qu'est-ce que représente le score de **risque** ? La possibilité plus ou moins réelle de perdre votre capital, que ce soit dû à un mouvement du marché ou à cause d'une erreur (venant habituellement d'un manque de compréhension).<br> Le score de **complexité** vous permet d'estimer à quel point le risque est technique et dur à comprendre.
 <br> *Note : le risque d'un défaut au niveau du réseau Ethereum lui-même n'est pas nul. Je ne le mentionne plus après cette note — c'est un risque fondamental partagé par toutes les stratégies.*
 4. Rien n'est gratuit – restons responsables. En règle générale, **plus les retours sont importants et plus les risques sont élevés.**
 5. Quand les marchés s'emballent, certains services DeFinanciers sont plus impactés que d'autres. Bien qu'un mouvement brutal du prix de l’ETH n'affecte pas les retours sur RealT (stratégie 2) cela peut provoquer des pertes pour les gens engagés sur TokenSets ou Liquidity Providing.
@@ -86,18 +84,18 @@ Pour s'exposer puis sortir, il suffit d'un simple échange de jetons. Il n'y a d
 2. **Les retours** : ils y a plusieurs solutions pour suivre l'évolution des taux, comme [LoanScan](https://loanscan.io).
 3. **Les frais de transaction** (gaz) pour les deux échanges de tokens (entrée puis sortie).
 
-Il y a de nombreux services disponibles pour réaliser cette stratégie : Compound, Aave, etc. Vous retrouverez les tokens correspondants (aDAI, cDAI, etc.) sur des services comme ParaSwap. Ces derniers temps, le meilleur taux se situe le plus souvent sur aDAI.
+Il y a de nombreux services disponibles pour réaliser cette stratégie : Compound, Aave, etc. Vous retrouverez les tokens correspondants (aDAI, cDAI, etc.) sur des services comme [ParaSwap](https://paraswap.io/). Ces derniers temps, le meilleur taux se situe le plus souvent sur aDAI.
 
 Si le concept vous plaît, voici trois variantes qui promettent des retours un peu plus attractifs – ce qui veut dire qu'elles sont également plus risquées :
 
 
-##### 1-A/ Implementing a basic stablecoin-yield based strategy
+##### 1-A/ Optimiser le rendement via réallocation automatique
 
 **RECAP: Vous possédez un actif qui redistribue automatiquement votre capital entre plusieurs stablecoins prêtés afin d'optimiser votre taux de retour.**
 
 Comme on le disait plus haut, il existe désormais plusieurs options pour générer un retour sur un stablecoin. Vous pouvez aller chercher le meilleur taux vous même, mais ils changent sans cesse. 
 
-Alors pourquoi ne pas utiliser un autre service qui se chargera de le faire pour vous en toute transparence ?
+Alors pourquoi pas utiliser un autre service qui se chargera de le faire pour vous en toute transparence ?
 
 C'est précisément ce que fait [Idle Finance](https://idle.finance/).
 
@@ -113,17 +111,17 @@ Il y a une section dédiée à ce sujet plus bas, mais il fallait mentionner [Cu
 
 >Vous verrouillez un stablecoin (DAI/USDC) pour une semaine ou un mois. Ils sont mis en commun avec ceux des autres joueurs et prêtés (→ retour). À la fin de la semaine/mois, le gagnant ramasse les intérêts générés et tout le monde peut repartir avec son capital initial.
 
-J'adore cette stratégie car à première vue, sa présence dans ce guide n'est pas une évidence. Tout d'abord parlons de PoolTogether — il ne s'agit pas d'un produit DeFinancier classique, la portée est plus pédagogique. PoolTogether est un "money-game" .
+J'adore cette stratégie car à première vue, sa présence dans ce guide n'est pas une évidence. Tout d'abord parlons de [PoolTogether](https://www.pooltogether.com/) — il ne s'agit pas d'un produit DeFinancier classique, la portée est plus pédagogique. PoolTogether est un "money-game" .
 
 Le concept est assez simple comme présenté plus haut. Étant donné que les gains du gagnant proviennent des intérêts générés sur le capital de tous les joueurs, il n'y a pas de perte de capital avec PoolTogether.
 
-Néanmoins je vous rassure, la présence sur cette liste n'est pas une question d'idéologie : bien que PoolTogether utilise Compound, les retours sont supérieurs. La raison est simple : il y a des tickets "sponsorisés" : des DAI/USDC qui contribuent au retour du gagnant, mais qui ne correspondent pas à des tickets gagnants.
+Néanmoins je vous rassure, sa présence sur cette liste n'est pas une question d'idéologie : bien que PoolTogether utilise Compound, les retours sont supérieurs. La raison est simple : il y a des tickets "sponsorisés" : des DAI/USDC qui contribuent au retour du gagnant, mais qui ne correspondent pas à des tickets gagnants.
 
 ![pool-together-sponsored-balances](/img/2020/definancial-services-guide/pt-sponsored.png)
 
 Bien que le taux de retour moyen soit supérieur, PoolTogether reste un jeu de hasard – les gains ne sont pas du tout réguliers : le plus souvent, ils seront de 0. Néanmoins avec de la chance au tirage, vous pouvez également gagner l'équivalent d'années d'intérêt sur votre capital.
 
-C'est une version différente construite sur Compound en quelque sorte : un retour légèrement meilleur, en moyenne, beaucoup plus d'aléatoire et encore plus de fun !
+C'est une saveur différente construite sur Compound en quelque sorte : un retour légèrement meilleur, en moyenne, beaucoup plus d'aléatoire et encore plus de fun !
 
 Le mois dernier, PoolTogether a sorti [la fonctionnalité "Pods"](https://medium.com/pooltogether/winning-more-prizes-185bad7f6d63) qui permet de jouer en groupe. Les utilisateurs d'une Pod peuvent ainsi partager leurs chances de victoire & leurs gains : cela permet de gagner plus souvent (mais moins — il faut aussi partager les gains).
 
@@ -169,17 +167,15 @@ Vous vous demandez quel set choisir ? [TokenViz](https://tokenviz.io) vous propo
 
 Ainsi, pour un utilisateur qui ne veut pas regarder les courbes toute la journée, TokenSets est une excellente option. En effet, la plupart des personnes qui essaient de faire du trading ont tendance à perdre de l'argent. **Avec les sets, les émotions sont mises hors-jeu et les machines règnent maîtresses.**
 
-En plus des sets réguliers ("robosets") suivant un indicateur technique (comme la moyenne mobile de 20 jours de l'ETH), il existe maintenant des sets sociaux. C'est le même mécanisme, mais votre ensemble suivra la stratégie d'un autre trader au lieu de simples indicateurs techniques : c'est ce qu'on appelle la fonction "copy-trader".
+En plus des sets réguliers ("robosets") suivant un indicateur technique (comme la moyenne mobile sur 20 jours du prix de l'ETH), il existe maintenant des sets sociaux. C'est le même mécanisme, mais votre ensemble suivra la stratégie d'un autre trader au lieu de simples indicateurs techniques : c'est ce qu'on appelle la fonction "copy-trader".
 
-
-
-#### 4/ 4/ Retours simples sur tokens ERC20
+#### 4/ Retours simples sur tokens ERC20
 
 >Il s'agit essentiellement de la version ERC-20 de la stratégie 1 : vous possédez un tokens ERC-20 (non stable) produisant une certaine forme de rendement, généralement par le biais de prêts ou par l'apport de liquidités.
 
 ![4-erc20-yields](/img/2020/definancial-services-guide/subh/4-erc20-yields.jpeg)
 
-Avant d'explorer les approches plus actives, permettez-moi d'introduire une approche plus passive, cette fois-ci basée sur les tokens ERC20 (non stables).
+Avant d'explorer les approches plus actives, permettez-moi d'introduire une approche plus passive, s'appuyant cette fois-ci sur les **tokens ERC20 (non stables)**.
 
 Comme Aave propose des retours sur un maximum de 15 tokens ERC-20 différents, il pourrait être intéressant pour vous de garder un œil sur eux - avec un outil comme [AaveWatch](https://aavewatch.now.sh/):
 
@@ -196,7 +192,7 @@ Parmi eux, je pense que les suivants sont les plus intéressants :
 
 ## SERVICES DEFINANCIERS ACTIFS
 
-**Ne rien faire est génial - et quand il s'agit d'investir, c'est une stratégie qui peut être étonnamment efficace.**. Pouvoir rester stoïque et ne rien faire, même au milieu d'une tourmente sur les marchés c'est vraiment un art qu'il vous serait utile de maîtriser. Cependant, et cela ne devrait pas vous surprendre, les meilleurs rendements exigeront des efforts.
+**Ne rien faire est génial - et quand il s'agit d'investir, c'est une stratégie qui peut être étonnamment efficace**. Pouvoir rester stoïque et ne rien faire, même au milieu d'une tourmente sur les marchés c'est vraiment un art qu'il vous serait utile de maîtriser. Cependant, et cela ne devrait pas vous surprendre, les meilleurs rendements exigeront des efforts.
 
 ![Doing nothing - the best strategy of them all?](/img/2020/definancial-services-guide/nothing.jpg)
 
@@ -266,19 +262,19 @@ Puisque Synthetix est vraiment flexible, permettez-moi de m'en tenir à une stra
 
 Ne tournons pas autour du pot : c'est beaucoup plus difficile, beaucoup plus de travail que 1-4, mais les rendements sont d'un ordre de grandeur supérieur si c'est bien fait. Votre position est également plus complexe à surveiller car vous êtes exposé à plusieurs types d'actifs, vous obtenez également des rendements dans plusieurs types d'actifs différents (stables ou non), et le calendrier des retours n'est pas le même non plus.
 
-![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldburger.png)
-*Stake? Steak? Does it matter as long as there's meat on the bone?*
+![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldkebab.png)
+*Burger ou kebab : est-ce vraiment important quand il y a 4 steaks ?*
 
 Examinons la base de la pile de rendement :
 
-1. **Placement SNX + récompense SNX** ~ 50% TAEG , en SNX, payé chaque semaine (réclamation requise) et verrouillé pour un an.
-2. **sUSD Staking reward** - récompense variable en sUSD (basée sur le volume des échanges), payée chaque semaine, demande requise, pas de limite.
-3. **Liquidity Provider Curve sUSD pool** l - 3 à 5% TAEG, gagné en sortant du pool.
-4. **Programme d'incitation** pour ce pool (accessible par le stake du token du pool) - 25% TAEG, en SNX, payé chaque semaine (réclamation requise), pas de période d'acquisition.
+1. **Placement SNX + récompense SNX** ~ 50% APR , en SNX, payé chaque semaine (réclamation requise) et verrouillé pour un an.
+2. **sUSD Staking reward** - récompense variable en sUSD (en fonction du volume des échanges), payée chaque semaine, demande requise, pas de limite.
+3. **Liquidity Provider Curve sUSD pool** l - 3 à 5% APR, gagné en sortant du pool.
+4. **Programme d'incitation** pour ce pool (accessible par le stake du token du pool) - 25% APR, en SNX, payé chaque semaine (réclamation requise), pas de période d'acquisition.
 
 _Remarque : le pool Curve sUSD a rencontré quelques problèmes, et la version live actuelle n'est pas la plus optimisée pour les retours. Une nouvelle version du pool sUSD est en cours d'élaboration, exploitant Aave pour l'optimiser encore plus. Cette stratégie pourrait devenir encore plus convaincante !_
 
-Curieux ? Voici un [aperçu complet pour commencer avec Synthetix.Synthetix (EN)](https://synthetix.community/docs/intro).
+Curieux ? Voici un [aperçu complet pour commencer avec Synthetix (EN)](https://synthetix.community/docs/intro).
 
 #### 6/ Apport de liquidité (sur ETH/ERC-20)
 
@@ -288,7 +284,7 @@ Curieux ? Voici un [aperçu complet pour commencer avec Synthetix.Synthetix (EN)
 
 Il s'agit essentiellement d'une variante plus risquée de la stratégie 1-B. Dans ce scénario, vous continuez à fournir des liquidités, mais cette fois-ci, vous passez à un autre type de paires - celles basées sur l'ETH.
 
-**Si vous fournissez des liquidités sur un échange décentralisé, le principal risque auquel vous êtes confronté (en plus des risques habituels) est ce que nous appelons les "pertes impermanentes".** (nom déroutant, elles sont très permanentes).
+**Si vous fournissez des liquidités sur un échange décentralisé, le principal risque auquel vous êtes confronté (en plus des risques habituels) est ce que nous appelons les "pertes impermanentes"** (nom déroutant, elles sont très permanentes).
 
 Je ne peux pas expliquer tout le concept ici, mais voici un bref rappel : les **pertes impermanentes proviennent généralement d'une variation soudaine entre les prix relatifs des deux actifs auxquels vous fournissez des liquidités**.
 
@@ -299,7 +295,7 @@ Ainsi, si les deux actifs suivent le même prix (ex ETH/sETH), le risque de pert
 3. Fournir des liquidités sur une paire ETH/stable.
 4. Fournir des liquidités sur une paire ETH/ERC20 (non stable et ne suivant pas le même cours) - c'est là que le risque est le plus grand, car les prix des deux actifs sont variables - si le prix des deux actifs devait soudainement évoluer dans des directions opposées, vous pourriez subir des pertes impermanentes importantes.
 
-Si vous envisagez de fournir des liquidités sur les AMMs, veuillez lire plus sur le sujet : Risques/récompenses de l'apport de liquidités dans le cadre des AMMs ([Risk/Reward of liquidity provision in AMMs](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
+Si vous envisagez de fournir des liquidités sur les AMMs (mécanisme utilisé par Uniswap, Bancor, Curve, etc.), veuillez lire plus sur le sujet : Risques/récompenses de l'apport de liquidités dans le cadre des AMMs ([Risk/Reward of liquidity provision in AMMs](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
 
 ## Conclusion
 
@@ -307,20 +303,20 @@ On peut s'arrêter là pour aujourd'hui afin de garder ce guide digeste.
 
 Si vous êtes prêt à vous lancer, voici quelques services qui vous faciliteront la tâche :
 
-1. [Argent Wallet](https://argent.xyz/) Portefeuille sécurisé offrant un accès d'un seul coup aux tokens Aave, PoolTogether & TokenSets présentés dans cet article.
-2. [Monolith Visa Debit Card](https://monolith.xyz) Vous avez fait des bénéfices en DeFi que vous aimeriez encaisser dans le monde réel ? C'est la seule solution sans compromis qui vous permette de le faire.
+1. [Argent Wallet](https://argent.xyz/) - Portefeuille sécurisé offrant un accès d'un seul coup aux tokens Aave, PoolTogether & TokenSets présentés dans cet article.
+2. [💳 Monolith Visa Debit Card](https://monolith.xyz) - Vous avez fait des bénéfices en DeFi que vous aimeriez encaisser dans le monde réel ? C'est la seule solution sans compromis qui vous permette de le faire.
 
 Et si vous vous demandez quelles pourraient être vos prochaines étapes, voici quelques-unes de vos possibilités :
 
 *   Ouvrir des coffres-forts sur [Maker](http://makerdao.com/) ou utiliser [Aave](https://aave.com/)  pour obtenir un effet de levier (⚠ risque de liquidation).
-*   Utiliser des options comme [Opyn](https://opyn.co/) ou un service d'assurance comme [Nexus Mutual](https://nexusmutual.io/) Using options like  or insurance service such as 
+*   Utiliser des options comme [Opyn](https://opyn.co/) ou un service d'assurance comme [Nexus Mutual](https://nexusmutual.io/)
 *   Les Flash Loans d'[Aave](https://aave.com/) 
 
-J'espère que ce guide vous aura permis de mieux comprendre ce qu'il est possible de faire dès aujourd'hui avec la finance décentralisée. Si vous hésitez à franchir le pas et que vous avez des n'hésitez pas à contacter [la communauté DeFi française sur Telegram](https://t.me/defifrance), très active et toujours accueillante.
+J'espère que ce guide vous aura permis de mieux comprendre ce qu'il est possible de faire dès aujourd'hui avec la finance décentralisée. Si vous hésitez à franchir le pas et que vous avez des n'hésitez pas à contacter [la communauté DeFi 🇫🇷 française sur Telegram](https://t.me/defifrance), très active et toujours accueillante.
 
 ---
 
-Cet article a été rendu possible grâce au soutien sans faille de membres de la communauté qui ont partagé leurs suggestions, leurs points de vue et l'ont relu.
+Cet article a été rendu possible grâce au soutien sans faille de membres de la communauté qui ont partagé leurs suggestions, leurs points de vue et l'ont relu (contenu / vEN)
 
 Merci à ces personnes extraordinaires :
 
@@ -330,8 +326,12 @@ Merci à ces personnes extraordinaires :
 *   Marouane -  il [s'en prend à vos risques, attention !](https://twitter.com/UnslashedF)
 *   [Viktor](mailto:victor@function.media) qui a travaillé sur les visuels de cet article très librement inspirés de mes horribles maquettes.
 
+Merci également à ceux qui m'ont aidé avec la version française:
+- [Jon](https://twitter.com/OtherBright) : le traducteur principal pour BanklessFR qui a contribué à cette traduction.
+- [Romain](https://twitter.com/FigueOreo) : qui s'est montré tès disponible pour la relire et la finaliser.
+
 Ainsi que des personnes qui n'ont pas contribué directement à cet article mais qui m'ont aidé à mieux comprendre les services financiers décentralisés, ce qui m'a permis de rédiger ce guide :
 
-*   [Pascal Tallarida](https://twitter.com/pscltllrd):  fondateur de Jarvis Network, acteur prééminent dans la DeFi française et vulgarisateur reconnu. C'est lui qui m'a aidé (et beaucoup d'autres) à comprendre les actifs synthétiques et les enjeux de la tokenisation.
+*   [Pascal](https://twitter.com/pscltllrd):  fondateur de Jarvis Network, acteur prééminent dans la DeFi française et vulgarisateur reconnu. C'est lui qui m'a aidé (et beaucoup d'autres) à comprendre les actifs synthétiques et les enjeux de la tokenisation.
 *   [Mounir](https://twitter.com/mounibec):  fondateur de Paraswap.io, le meilleur agrégateur DEX et toujours le seul qui peut trouver un prix rapidement sans faire fondre votre ordinateur portable. Mounir est un homme-armée et un acteur incroyablement prolifique dans les communautés DeFi française et internationale.
-*   [Abel](https://twitter.com/AbelsAbstracts): e type se tient au courant de tout et c'est mon interlocuteur privilégié pour discuter des nouvelles sorties et voir au-delà du marketing. Jetez un coup d'œil à [son podcast : Abel Abstracts](https://open.spotify.com/show/6NO8M2R4u9YSgAdz5TA4ZA) nous faisons un résumé des nouvelles de la DeFi chaque semaine ensemble (en Anglais).
+*   [Abel](https://twitter.com/AbelsAbstracts): ce type se tient au courant de tout et c'est mon interlocuteur privilégié pour discuter des nouvelles sorties et voir au-delà du marketing. Jetez un coup d'œil à [son podcast : Abel Abstracts](https://open.spotify.com/show/6NO8M2R4u9YSgAdz5TA4ZA) nous faisons un résumé des nouvelles de la DeFi chaque semaine ensemble (en Anglais).

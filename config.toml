@@ -320,7 +320,7 @@ uglyURLs = false
         pre = "internal"
         post = "chain"
     [[languages.fr.menu.home]]
-        url = "/categories/defi/"
+        url = "/fr/categories/defi/"
         name = "DeFi Articl."
         weight = 2
         pre = "internal"
