@@ -78,6 +78,6 @@ Avec ♥ amour,
 
 - TokenBrice.
 
-PS : L'utilisation du terme "Grand filtre" est une référence directe au paradoxe de Fermi. Pour en savoir plus, regardez cette [vidéo d'introduction de Kurzgesagt] (https://www.youtube.com/watch?v=UjtOGPJ0URM) (Egalement l'image de base utilisée pour la couverture de cet article, merci 🙏)
+PS : L'utilisation du terme `Grand filtre` est une référence directe au paradoxe de Fermi. Pour en savoir plus, regardez cette [vidéo d'introduction de Kurzgesagt] (https://www.youtube.com/watch?v=UjtOGPJ0URM) (Egalement l'image de base utilisée pour la couverture de cet article, merci 🙏)
 
 [🇫🇷 Une autre vidéo, cette fois-ci en français, sur le Paradoxe de Fermi](https://www.youtube.com/watch?v=X5absIwJbLs)
