@@ -35,7 +35,7 @@ Néanmoins, au fil de votre découverte des arcanes de la DeFi, vous allez vous-
 
 ![eth-gaz-station](/img/2020/definancial-services-guide/gas-station.png)
 
-Vous pouvez utiliser [⛽  EthgazStation pour voir les prix recommandés.](https://ethgazstation.info/),
+Vous pouvez utiliser [⛽  EthgasStation pour voir les prix recommandés.](https://ethgasstation.info/),
 Or bien lire [📑 la documentation EthHub](https://docs.ethhub.io/using-ethereum/transactions/)  sur le sujet.
 
 Note : Les stratégies 1, 3 & 4 sont désormais applicables sans avoir à se soucier du gaz grâce à [Argent](https://argent.xyz/).
