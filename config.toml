@@ -255,6 +255,7 @@ uglyURLs = false
         weight = 3
         pre = "external"
 
+        ## Home Menu
     [[menu.home]]
         url = "/categories/blockchain/"
         name = " Blockchain"
