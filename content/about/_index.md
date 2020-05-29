@@ -23,7 +23,7 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ### Contact
 
-Have a closer look at [the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
+👉 [Have a closer look at the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
 
 |  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
 | :---: | :---: | :---: | :---: | :---: |

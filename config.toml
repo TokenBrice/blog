@@ -423,7 +423,7 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     # {{< relref path=\"/content/about/_index.md\" >}}
-    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether,<br>I'm here to make it enjoyable, dependable & memable<br><br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine some light on Ethereum's fire.** <br><br> ![ether-in-the-sky](/img/others/ether-sky.jpg) <br><br><br> *Art: Ether in the Sky, by [Yogjoshi](https://www.yogjoshi.com/ethereum-art-ether-in-the-sky-painting-artwork/)*"]
+    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether,<br>I'm here to make it enjoyable, dependable & memeable<br><br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine light on Ethereum's fire.** <br><br> ![ether-in-the-sky](/img/others/ether-sky.jpg) <br><br><br> *Art: Ether in the Sky, by [Yogjoshi](https://www.yogjoshi.com/ethereum-art-ether-in-the-sky-painting-artwork/)*"]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1
