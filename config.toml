@@ -230,18 +230,12 @@ uglyURLs = false
         weight = 5
         pre = "internal"
         post = "user-circle"
-    [[menu.main]]
-        url = "/services/"
-        name = "Services"
-        weight = 6
-        pre = "internal"
-        post = "chess-knight"
 
     [[menu.main]]
-        weight = 7
+        weight = 6
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 8
+        weight = 7
         identifier = "lang-switcher"
 
         ## Socials
@@ -260,6 +254,25 @@ uglyURLs = false
         name = "Twitter"
         weight = 3
         pre = "external"
+
+    [[menu.home]]
+        url = "/categories/blockchain/"
+        name = " Blockchain"
+        weight = 1
+        pre = "internal"
+        post = "chain"
+    [[menu.home]]
+        url = "/categories/defi/"
+        name = "DeFi Posts"
+        weight = 2
+        pre = "internal"
+        post = "ethereum"
+    [[menu.home]]
+        url = "/categories/analysis/"
+        name = "Analysis"
+        weight = 3
+        pre = "internal"
+        post = "lightbulb"
 
 ## FR Menu bar
 # [[languages.fr.menu.main]]
