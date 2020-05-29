@@ -1,5 +1,5 @@
 ---
-title: "Comment utiliser les services DeFinanciers à votre avantage"
+title: "Comment utiliser les services DeFinanciers à votre avantage ?"
 description: "Un tour d'horizon de différents services financiers décentralisés et les retours que vous pouvez en tirer: 6 stratégies fondamentales, leur variantes, & des astuces pour les utiliser au mieux."
 date: '2020-05-20T10:53:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
@@ -15,7 +15,7 @@ Si vous arrivez ici, c'est que vous avez déjà probablement entendu parler d'Et
 
 Cet article vous présentera 6 stratégies qui vous permettront de générer un retour grâce à la DeFi, avec leurs variantes. On commencera par les stratégies de management passif avant d'explorer progressivement celles qui requièrent plus d'intervention et présentent plus de risques mais sont également bien plus lucratives.
 
-![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover.jpeg)
+![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover-fr.jpeg)
 
 Avant de commencer, JE VOUS PRIE ET SUPPLIE de lire les avertissements qui vont suivre relatifs à la gestion du gaz et au risque.
 
@@ -34,7 +34,7 @@ Les frais de gaz sont payés en gwei, une sous-unité d'ETH (1 gwei = 0.00000000
 Néanmoins, au fil de votre découverte des arcanes de la DeFi, vous allez vous-même revenir spontanément à la notion de gaz pour mieux la comprendre et éviter de surpayer pour soumettre vos transactions. En effet, en fonction du coût choisi, la validation de votre transaction sera rapide, lente, ou impossible.
 
 
-![eth-gaz-station](/img/2020/definancial-services-guide/gaz-station.png)
+![eth-gaz-station](/img/2020/definancial-services-guide/gas-station.png)
 
 Vous pouvez utiliser [⛽  EthgazStation pour voir les prix recommandés.](https://ethgazstation.info/),
 Or bien lire [📑 la documentation EthHub](https://docs.ethhub.io/using-ethereum/transactions/)  sur le sujet.

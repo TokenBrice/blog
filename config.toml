@@ -39,7 +39,7 @@ enableRobotsTXT = true
 # Number of items per page in paginated 
 # lists (valid for the `posts` homepage
 # layout in MemE)
-paginate = 5
+paginate = 7
 
 # URL related
 disablePathToLower = false
@@ -55,6 +55,7 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
+        homePoetry = ["Bienvenue explorateur,<br><br> J'espère que vous apprécierez votre séjour dans l'Ether<br>Je travaille à développer sa mémétique<br><br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Faire briller la lumière sur le feu de l'Ether** <br><br> ![ether-in-the-sky](/img/others/ether-sky.jpg) <br> *Art: Ether in the Sky, by [Yogjoshi](https://www.yogjoshi.com/ethereum-art-ether-in-the-sky-painting-artwork/)*"]
 
 # URL structure
 [permalinks]
@@ -106,9 +107,9 @@ uglyURLs = false
     # Name
     name = "TokenBrice"
     # Email
-    email = "a@gmail.com"
+    email = "me@tokenbrice.com"
     # Motto or introduction
-    motto = ""
+    motto = "Helping communities to shape, record and share the story of Ethereum."
     # Avatar
     avatar = "/img/main/tokenbrice.jpg"
     # Twitter
@@ -384,11 +385,12 @@ uglyURLs = false
     # 3. posts     List of post’s summary
     # 4. page      Normal page/post
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## Poetry
     # Verse (Markdown supported)
-    homePoetry = []
+    # {{< relref path=\"/content/about/_index.md\" >}}
+    homePoetry = ["Welcome traveler,<br><br> I hope you'll enjoy your stay in the Ether,<br>I'm here to make it enjoyable, dependable & memable<br><br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine some light on Ethereum's fire.** <br><br> ![ether-in-the-sky](/img/others/ether-sky.jpg) <br> *Art: Ether in the Sky, by [Yogjoshi](https://www.yogjoshi.com/ethereum-art-ether-in-the-sky-painting-artwork/)*"]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1
