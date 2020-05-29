@@ -7,7 +7,7 @@ media: true
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
 
-|  Logo | Project | Description | Function |
+|  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 |  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Un portefeuille Ethereum sans compromis associé à une carte Visa pour avoir accès au meilleur des deux mondes : payez 45M+ marchants dans le monde en utilisant vos actifs Ethereum. | Community Strategist |
 |  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Coorganisateur |

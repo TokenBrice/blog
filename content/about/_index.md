@@ -2,6 +2,7 @@
 title: "About TokenBrice"
 date: 2020-04-26T13:24:40+02:00
 description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
+media: true
 ---
 
 I'm working to grow the Ethereum decentralized finance ecosystem by developing welcoming communities:
@@ -28,4 +29,4 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ### Medias & Mentions
 
-{{< custommedia language="en" >}}
+{{< custommedia language="fr" >}}
