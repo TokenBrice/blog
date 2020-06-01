@@ -24,6 +24,6 @@ C'est une initiative commununautaire portée par [Mounir Benchmenled](https://tw
 
 ### À la découverte de la finance décentralisée
 
-|  [📽 Chaine Youtube](https://www.youtube.com/watch?v=6rgt-bygKNo&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
+|  [📽 Chaine Youtube](https://www.youtube.com/channel/UCztkHfSVCdriSpzvZF7Qwtg) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
 | --- | --- | --- |
 |  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >600 français | Pour ne pas rater les prochains évènements |
