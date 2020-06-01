@@ -55,7 +55,7 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
-        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** "]
+        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** !<br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](https://t.me/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
         siteDescription = "Blog personnel de TokenBrice - Vous retrouverez ici tous mes contenus en FR & EN."
 
 # URL structure
@@ -257,18 +257,18 @@ uglyURLs = false
         pre = "external"
 
         ## Home Menu
-    [[menu.home]]
-        url = "/categories/defi/"
-        name = "DeFi Posts"
-        weight = 1
-        pre = "internal"
-        post = "ethereum"
-    [[menu.home]]
-        url = "/categories/blockchain/"
-        name = " Blockchain"
-        weight = 2
-        pre = "internal"
-        post = "chain"
+#    [[menu.home]]
+#        url = "/categories/defi/"
+#        name = "DeFi Posts"
+#        weight = 1
+#        pre = "internal"
+#        post = "ethereum"
+#    [[menu.home]]
+#        url = "/categories/blockchain/"
+#        name = " Blockchain"
+#        weight = 2
+#        pre = "internal"
+#        post = "chain"
 
 
 ## FR Menu bar
@@ -309,18 +309,18 @@ uglyURLs = false
         weight = 7
         identifier = "lang-switcher"
 
-    [[languages.fr.menu.home]]
-        url = "/fr/categories/defi/"
-        name = "Articles DeFi"
-        weight = 1
-        pre = "internal"
-        post = "ethereum"
-    [[languages.fr.menu.home]]
-        url = "/fr/categories/blockchain/"
-        name = " Blockchain"
-        weight = 2
-        pre = "internal"
-        post = "chain"
+  #  [[languages.fr.menu.home]]
+  #      url = "/fr/categories/defi/"
+  #      name = "Articles DeFi"
+  #      weight = 1
+  #      pre = "internal"
+  #      post = "ethereum"
+  #  [[languages.fr.menu.home]]
+  #      url = "/fr/categories/blockchain/"
+  #      name = " Blockchain"
+  #      weight = 2
+  #      pre = "internal"
+  #      post = "chain"
 
 
 
@@ -414,7 +414,7 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     # {{< relref path=\"/content/about/_index.md\" >}}
-    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.**"]
+    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.** <br><br> [🌌 DeFi Stories](categories/defi/)  <br> [🎙Abel Abstracts](https://anchor.fm/abelsabstracts/episodes/Welcome-to-Abels-Abstracts-Season-1-Ep-1-eahjql) <br> [👾 About & Media](/about/)"]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1
