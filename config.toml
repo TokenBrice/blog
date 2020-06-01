@@ -55,8 +55,8 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
-        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** !<br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](https://t.me/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
-        siteDescription = "Blog personnel de TokenBrice - Vous retrouverez ici tous mes contenus en FR & EN."
+        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](https://t.me/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
+        siteDescription = "Blog personnel de TokenBrice - Finance décentralisée (DeFi), Ethereum, et développement de communautés adaptées aux réalités web3. Contenus en FR & EN."
 
 # URL structure
 [permalinks]
@@ -438,7 +438,7 @@ uglyURLs = false
     siteLogo = "/img/main/logo.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "Personal blog of TokenBrice - DeFi advocate. You'll find here all my content, in EN & FR."
+    siteDescription = "Decentralised Finance (DeFi), Ethereum & building communties in the web3 world. Personal blog of TokenBrice. Content, in EN & FR."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
