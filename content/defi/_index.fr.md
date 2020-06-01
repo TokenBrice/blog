@@ -8,6 +8,9 @@ Au travers de mes engagements professionnels et personnels, mon but est de déve
 
 Vous retrouverez ici un tour d'horizon des contenus en français, les plus intéressants auxquels j'ai contribué.
 
+![Comment utiliser les services DeFinanciers à votre avantage ? - TokenBrice](/img/2020/definancial-services-guide/cover-fr.resized.jpeg)
+
+#### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
 
 ### [➡ Pour les contenus en anglais, c'est par ici]({{< relref path="_index.md" lang="en" >}})
 
