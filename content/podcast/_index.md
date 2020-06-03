@@ -1,7 +1,7 @@
 ---
 title: "Podcast: AbelAbstracts with Tokenbrice"
 date: 2020-06-02T13:24:40+02:00
-description: "A single source of truth for the weekly DeFi catch-up I do with Abel from Abel Abstracts. We cover new releases, discuss the latest development and share the interesting pieces of content we ran into that week."
+description: "A single source of truth for the weekly DeFi catch-up I do with Abel from Abel Abstracts. We cover new releases, discuss the latest developments and share the interesting pieces of content we ran into that week."
 toc: true
 tocNum: false
 ---
@@ -32,6 +32,8 @@ Listen and subscribe to the podcast here: [🎙 Abel Abstracts - Anchor.FM](http
 - [The DeFinancial Service Guide](https://tokenbrice.xyz/posts/2020/definancial-services-guide/)
 - [BlockFi incident, why we need DeFi on Ethereum](https://twitter.com/sassal0x/status/1262757122892107777?s=20)
 - [Related article on TheBlockCrypto](https://www.theblockcrypto.com/post/65709/blockfi-says-it-suffered-a-data-breach-but-no-customer-funds-were-lost)
+
+---
 
 ## Previous Editions
 
