@@ -10,11 +10,11 @@ tocNum: false
 
 ## Concept
 
-Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes: find it here. We keep it incremental and try to provide context on each of the topics we approach, as well as provide our listeners with resources to dive deeper. 
+This page organises this curated content registry following the order of the mentions in the DeFi Catchup.
 
-This page will organise this curated content registry following the order of the mentions in the podcast.
+Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our attention. We keep it incremental and try to provide context on each of the topics we approach, as well as resources for our listeners to explore a given topic further.
 
-Listen and subscribe to the podcast here: [🎙 Abel Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts).
+On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**.
 
 ## Last Edition
 
