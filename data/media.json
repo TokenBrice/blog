@@ -9,13 +9,15 @@
 		"tags": ["meetup", "post","fr"],
 		"name": "Finance Décentralisée (DeFi) : enjeux et avenir par Alyra et The Garage",
 		"host": "The Coin Tribune",
-		"link": "https://www.thecointribune.com/actualites/finance-decentralisee-defi-enjeux-et-avenir-par-alyra-et-the-garage/"
+		"link": "https://www.thecointribune.com/actualites/finance-decentralisee-defi-enjeux-et-avenir-par-alyra-et-the-garage/",
+		"date": "2020"
 	},
 	{
 		"tags": ["interview", "video","fr"],
 		"name": "Les nouveautés de Monolith",
 		"host": "Dici",
-		"link": "https://www.youtube.com/watch?v=CNoWtFz1kJ0&feature=youtu.be"
+		"link": "https://www.youtube.com/watch?v=CNoWtFz1kJ0&feature=youtu.be",
+		"date": "2017"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
