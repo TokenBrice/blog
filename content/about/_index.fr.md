@@ -1,5 +1,5 @@
 ---
-title: "À propos : TokenBrice"
+title: "À Propos : TokenBrice"
 date: 2020-04-26T13:24:40+02:00
 description: Je contribue à l'émergence et le développement d'un village Gaulois financièrement souverain, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
 media: true

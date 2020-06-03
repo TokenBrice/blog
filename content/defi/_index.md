@@ -24,7 +24,7 @@ I maintain a curated list on Twitter incorporating relevant DeFi projects - it's
 
 ### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
 
-Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes: find it here - [🎙 Abel Abstracts](https://anchor.fm/abelsabstracts).
+Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes: find it here - [More info on 🎙 Abel Abstracts]({{< relref path="/podcast/_index.md" >}}).
 
 ![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
 

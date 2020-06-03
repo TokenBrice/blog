@@ -209,13 +209,13 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/posts/"
-        name = "Archive"
+        name = "Arch."
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
         url = "/categories/"
-        name = "Categories"
+        name = "Cat."
         weight = 3
         pre = "internal"
         post = "th"
@@ -226,17 +226,23 @@ uglyURLs = false
         pre = "internal"
         post = "ethereum"
     [[menu.main]]
+        url = "/podcast/"
+        name = "Podcast"
+        weight = 5
+        pre = "internal"
+        post = "microphone"
+    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
 
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 8
         identifier = "lang-switcher"
 
         ## Socials
@@ -280,13 +286,13 @@ uglyURLs = false
 #     post = "home"
 [[languages.fr.menu.main]]
     url = "/fr/posts/"
-    name = "Archives"
+    name = "Arch."
     weight = 2
     pre = "internal"
     post = "archive"
 [[languages.fr.menu.main]]
     url = "/fr/categories/"
-    name = "Catégories"
+    name = "Cat."
     weight = 3
     pre = "internal"
     post = "th"
@@ -298,7 +304,7 @@ uglyURLs = false
     post = "ethereum"
 [[languages.fr.menu.main]]
     url = "/fr/about/"
-    name = "À propos"
+    name = "À Propos"
     weight = 5
     pre = "internal"
     post = "user-circle"

@@ -12,7 +12,7 @@ Vous retrouverez ici un tour d'horizon des contenus en français, les plus inté
 
 #### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
 
-### [➡ Pour les contenus en anglais, c'est par ici]({{< relref path="_index.md" lang="en" >}})
+### [🗽 Pour les contenus en anglais, c'est par ici 🇺🇸]({{< relref path="_index.md" lang="en" >}})
 
 ### [DeFi France](https://www.meetup.com/DeFi-France/)
 
@@ -26,4 +26,4 @@ C'est une initiative commununautaire portée par [Mounir Benchmenled](https://tw
 
 |  [📽 Chaine Youtube](https://www.youtube.com/channel/UCztkHfSVCdriSpzvZF7Qwtg) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
 | --- | --- | --- |
-|  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >600 français | Pour ne pas rater les prochains évènements |
+|  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >700 francophones | Pour ne pas rater les prochains évènements |
