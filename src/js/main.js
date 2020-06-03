@@ -1,13 +1,15 @@
 import Vue from 'vue';
-import App from './App.vue';
+import Filters from './App.vue';
 import Multiselect from "vue-multiselect";
 
 Vue.component('multiselect', Multiselect)
 
 
 /* eslint-disable no-new */
-new Vue({
+const app = new Vue({
     el: '#app',
-    components: { App },
-    template: '<App/>',
+    components: { Filters },
+    data() {
+        return {}
+    }
 });

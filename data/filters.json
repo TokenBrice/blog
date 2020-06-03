@@ -1,42 +1,132 @@
-[
-    {
-      "key": "interview",
-      "name": "Interview"
+{
+  "fr": {
+    "tags": {
+      "name": "Tags",
+      "class": "tags",
+      "values": [
+        {
+          "key": "interview",
+          "name": "Interview"
+        },
+        {
+          "key": "discussion",
+          "name": "Discussion"
+        },
+        {
+          "key": "meetup",
+          "name": "Meetup"
+        },
+        {
+          "key": "commentary",
+          "name": "Commentaire"
+        },
+        {
+          "key": "mention",
+          "name": "Mention"
+        }
+      ]
     },
-    {
-      "key": "discussion",
-      "name": "Discussion"
+    "lang": {
+      "name": "Langues",
+      "class": "lang",
+      "values": [
+        {
+          "key": "fr",
+          "name": "🇫🇷 FR"
+        },
+        {
+          "key": "en",
+          "name": "🇬🇧 EN"
+        }
+      ]
     },
-    {
-      "key": "meetup",
-      "name": "Meetup"
+    "date": {
+      "name": "Date",
+      "class": "date",
+      "values": []
     },
-    {
-      "key": "commentary",
-      "name": "Commentaire"
-    },
-    {
-      "key": "mention",
-      "name": "Mention"
-    },
-    {
-      "key": "en",
-      "name": "EN"
-    },
-    {
-      "key": "fr",
-      "name": "FR"
-    },
-    {
-      "key": "video",
-      "name": "Video"
-    },
-    {
-      "key": "audio",
-      "name": "Audio"
-    },
-    {
-      "key": "post",
-      "name": "Post"
+    "type": {
+      "name": "Type",
+      "class": "type",
+      "values": [
+        {
+          "key": "audio",
+          "name": "Audio"
+        },
+        {
+          "key": "video",
+          "name": "Video"
+        },
+        {
+          "key": "post",
+          "name": "Post"
+        }
+      ]
     }
-  ]
+  },
+  "en": {
+    "tags": {
+      "name": "Tags",
+      "class": "tags",
+      "values": [
+        {
+          "key": "interview",
+          "name": "Interview"
+        },
+        {
+          "key": "discussion",
+          "name": "Discussion"
+        },
+        {
+          "key": "meetup",
+          "name": "Meetup"
+        },
+        {
+          "key": "commentary",
+          "name": "Commentary"
+        },
+        {
+          "key": "mention",
+          "name": "Mention"
+        }
+      ]
+    },
+    "lang": {
+      "name": "Langues",
+      "class": "lang",
+      "values": [
+        {
+          "key": "fr",
+          "name": "🇫🇷 FR"
+        },
+        {
+          "key": "en",
+          "name": "🇬🇧 EN"
+        }
+      ]
+    },
+    "date": {
+      "name": "Date",
+      "class": "date",
+      "values": []
+    },
+    "type": {
+      "name": "Type",
+      "class": "type",
+      "values": [
+        {
+          "key": "audio",
+          "name": "Audio"
+        },
+        {
+          "key": "video",
+          "name": "Video"
+        },
+        {
+          "key": "post",
+          "name": "Post"
+        }
+      ]
+    }
+  }
+}
