@@ -14,7 +14,7 @@ This page organises this curated content registry following the order of the men
 
 Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our attention. We keep it incremental and try to provide context on each of the topics we approach, as well as resources for our listeners to explore a given topic further.
 
-On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**.
+On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)** & [check the newsletter here](https://abelsabstracts.substack.com/).
 
 ## Content & Relevant Links
 
