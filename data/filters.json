@@ -39,4 +39,8 @@
       "key": "post",
       "name": "Post"
     }
+    {
+      "key": "live",
+      "name": "live"
+    }
   ]
