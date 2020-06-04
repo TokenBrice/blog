@@ -1,5 +1,5 @@
 ---
-title: "Podcast: AbelAbstracts with Tokenbrice"
+title: "Podcast: Abel's Abstracts with Tokenbrice"
 date: 2020-06-02T13:24:40+02:00
 description: "A single source of truth for the weekly DeFi catch-up I do with Abel from Abel Abstracts. We cover new releases, discuss the latest developments and share the interesting pieces of content we ran into that week."
 toc: true
@@ -14,7 +14,7 @@ This page organises this curated content registry following the order of the men
 
 Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our attention. We keep it incremental and try to provide context on each of the topics we approach, as well as resources for our listeners to explore a given topic further.
 
-On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**.
+On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**.
 
 ## Last Edition
 
