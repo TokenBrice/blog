@@ -16,3 +16,10 @@ Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely 
 ![tokenbrice-xyz-infrastructure-overview](https://github.com/TokenBrice/blog/blob/master/static/img/2020/hello-world/infrastructure.png)
 
 ### [More info here](https://tokenbrice.xyz/posts/2020/hello-world/)
+
+### To Build & Run
+
+yarn install
+yarn run build -> build le js pour le module pour la page about et génère un fichier dans static/js
+hugo -> pour envoyer le fichier static/js/main.js dans public
+yarn run optimize -> Optimize les images de public/img
