@@ -31,4 +31,4 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ### Medias & Mentions
 
-{{< custommedia language="fr" >}}
+{{< custommedia language="en" >}}

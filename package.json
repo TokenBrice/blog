@@ -4,7 +4,8 @@
   "description": "Smart image optimization for Hugo",
   "scripts": {
     "optimize": "node build/optimize.js",
-    "build": "webpack --config build/webpack.config.dev.js"
+    "build": "webpack --config build/webpack.config.dev.js",
+    "build:production": "webpack --config build/webpack.config.production.js"
   },
   "author": "Jérémy Hagneré <jeremy.hagnere@gmail.com>",
   "license": "MIT",
@@ -15,6 +16,7 @@
     "img-loader": "^3.0.1",
     "lodash": "^4.17.4",
     "sharp": "^0.17.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
     "vue-multiselect": "^2.1.6"
   },
