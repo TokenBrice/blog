@@ -1,7 +1,7 @@
 ---
 title: "Podcast: Abel's Abstracts with Tokenbrice"
 date: 2020-06-02T13:24:40+02:00
-description: "A single source of truth for the weekly DeFi catch-up I do with Abel from Abel Abstracts. We cover new releases, discuss the latest developments and share the interesting pieces of content we ran into that week."
+description: "A single source of truth for the weekly DeFi catch-up I do with Abel from Abel's Abstracts. We cover new releases, discuss the latest developments and share the interesting pieces of content we ran into that week."
 toc: true
 tocNum: false
 ---
@@ -16,9 +16,9 @@ Every week, Abel and I catch up and go over the new releases in the DeFi space, 
 
 On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**.
 
-## Last Edition
+## Content & Relevant Links
 
-### #4: How Argent Is Going to Onboard 1 Billion Users to DeFi 🚀
+### #4: How Argent 🔐 Is Going to Onboard 1 Billion Users to DeFi
 
 <div align="center"><a href= "https://anchor.fm/abelsabstracts/episodes/How-Argent-Is-Going-to-Onboard-1-Billion-Users-to-DeFi-eei96e">🎙 Listen to it here</a></div>
 
@@ -35,33 +35,34 @@ On top of the weekly catchup, Abel also publishes insightful interviews with key
 
 ---
 
-## Previous Editions
-
-### #3: Aave Is Growing Fast 🚀, Why You Need Gastoken ⛽, DeFi Events Recap ✨🚀
+### #3: Aave Is Growing Fast, Why You Need Gastoken ⛽, DeFi Events Recap
 
 <div align="center"><a href= "https://anchor.fm/abelsabstracts/episodes/Aave-Is-Growing-Fast---Why-You-Need-Gastoken---DeFi-Events-Recap-ee2h4v">🎙 Listen to it here</a></div>
 
-*   **Topic 1 Aave**
-    *   [Amazing growth in the past few months](https://twitter.com/spencernoon/status/1258398749153517572?s=21)
-    *   Launched in January and already at over $61 million in market size on Aave and that’s only in 5 months!
-    *   New announcements from Ethereal 
-*   **Topic 2 [GasToken (GST2)](https://gastoken.io/)**
-    *   What is it
-    *   Our Thoughts 
-    *   Why we’re talking about it now
-*   **Topic 3 The Week of DeFi Debates & Discussions ✨**
-    *   DeFi Discussions
-    *   [Ready Layer One](https://readylayer.one/)
-    *   [Ethereal Summit](https://www.etherealsummit.com/)
+**Topic 1 Aave**
+- [Amazing growth in the past few months](https://twitter.com/spencernoon/status/1258398749153517572?s=21)
+- Launched in January and already at over $61 million in market size on Aave and that’s only in 5 months!
+- New announcements from Ethereal
 
-**Content**
-*   We’ve got some big news related to Aave coming out soon 🚀
+**Topic 2 [GasToken (GST2)](https://gastoken.io/)**
+- What is it
+- Our Thoughts 
+- Why we’re talking about it now
+
+**Topic 3 The Week of DeFi Debates & Discussions ✨**
+- DeFi Discussions
+- Ready Layer One](https://readylayer.one/)
+- Ethereal Summit](https://www.etherealsummit.com/)
+
+**Interesting content of the week**
 *   [A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter](https://tokenbrice.xyz/posts/2020/great-defi-filter/)
-*   [PoolTogether v3](https://www.youtube.com/watch?v=lx3glpnOgbE) 
+*   [PoolTogether v3 intro](https://www.youtube.com/watch?v=lx3glpnOgbE) 
 *   [Money Market on Steroids, Stani Kulechov (AAVE)](https://youtu.be/CQXsjXl8pQg?t=6891)
 *   [Monolith DeFi Panel, The Layerization of Decentralised Finance: Synthetic Assets, Futures, Options: What's Next?](https://youtu.be/WllCpM8ki5o)
 
-### #2: HegicOptions Bug ⛔, Pool Together Pods 🤑 & The 10k Audit 💸 - Your Weekly Dose of DeFi 🥳
+---
+
+### #2: HegicOptions Bug ⛔, Pool Together Pods & The 10k Audit - Your Weekly Dose of DeFi
 
 <div align="center"><a href= "https://anchor.fm/abelsabstracts/episodes/HegicOptions-Bug---Pool-Together-Pods---The-10k-Audit----Your-Weekly-Dose-of-DeFi-edpqgh">🎙 Listen to it here</a></div>
 
@@ -80,7 +81,9 @@ On top of the weekly catchup, Abel also publishes insightful interviews with key
 - [Furucombo releases support Aave's Flash loans + Kyber](https://twitter.com/furucombo/status/1253307395356295168?s=20)
 - [Bancor v2 with several improvements including LP in 1 token only](https://blog.bancor.network/announcing-bancor-v2-2f56b515e9d8)
 
-### #1: Zerion launches DeFi SDK 🧱, Another DeFi attack 🤦‍♂️ & Balancer Labs raises $3M 🚀
+---
+
+### #1: Zerion launches DeFi SDK 🧱, Another DeFi attack & Balancer Labs raises $3M
 
 <div align="center"><a href= "https://anchor.fm/abelsabstracts/episodes/Zerion-launches-DeFi-SDK---Another-DeFi-attack---Balancer-Labs-raises-3M-ed74bd">🎙 Listen to it here</a></div>
 
