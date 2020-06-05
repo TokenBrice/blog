@@ -2,7 +2,9 @@
     <div>
         <div class="filters">
             <div v-for="(filters, index) in filtersList" :class="filters.class.toLowerCase()">
-                <multiselect v-model="selectedFilters[index]" @input="getFilteredData" :options="filters.values" :placeholder="filters.name" deselect-label="" select-label="" :multiple="true" :searchable="false" :hide-selected="true"
+                <multiselect v-model="selectedFilters[index]" @input="getFilteredData" :options="filters.values"
+                             :placeholder="filters.name" deselect-label="" select-label="" :multiple="true"
+                             :searchable="false" :hide-selected="true"
                              label="name" track-by="name"></multiselect>
             </div>
         </div>
@@ -38,12 +40,21 @@
             }
         },
         methods: {
-            extractDateFromPosts: function() {
+            extractDateFromPosts: function () {
                 media.forEach(item => {
-                    if (item.date !== undefined && !this.filtersList["date"].values.includes(item.date)) {
-                        this.filtersList["date"].values.push({ "key": item.date, "name": item.date});
+                    if (item.date !== undefined && !this.filtersList["date"].values.find(date => date.name === item.date)) {
+                        this.filtersList["date"].values.push({"key": item.date, "name": item.date});
                     }
                 });
+            },
+            preselectActiveFilters: function () {
+                for (const [key, category] of Object.entries(this.filtersList)) {
+                    category.values.forEach(function (filter) {
+                        if (filter.active !== undefined && filter.active) {
+                            this.selectedFilters[key].push({"key": filter.key, "name": filter.name})
+                        }
+                    }, this)
+                }
             },
             getFilteredData: function () {
                 this.filteredData = media;
@@ -77,6 +88,7 @@
         mounted() {
             this.language = document.getElementById("language").value;
             this.getFiltersByLanguage();
+            this.preselectActiveFilters();
             this.getFilteredData();
         }
     };
@@ -88,7 +100,7 @@
 <style>
 
     .multiselect__tags, .multiselect__input, .multiselect__content-wrapper {
-        background: var(--color-bg) ;
+        background: var(--color-bg);
     }
 
     .post ul.multiselect__content {
@@ -101,7 +113,7 @@
     }
 
     .multiselect__option.multiselect__option--highlight {
-        color:#fff;
+        color: #fff;
     }
 
     .multiselect__option--selected.multiselect__option--highlight {

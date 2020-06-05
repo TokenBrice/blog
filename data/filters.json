@@ -97,18 +97,26 @@
       "values": [
         {
           "key": "fr",
-          "name": "🇫🇷 French"
+          "name": "🇫🇷 French",
+          "active": true
         },
         {
           "key": "en",
-          "name": "🇬🇧 English"
+          "name": "🇬🇧 English",
+          "active": true
         }
       ]
     },
     "date": {
       "name": "Date",
       "class": "date",
-      "values": []
+      "values": [
+        {
+          "key": "2020",
+          "name": "2020",
+          "active": true
+        }
+      ]
     },
     "type": {
       "name": "Type",
