@@ -32,7 +32,8 @@
       "values": [
         {
           "key": "fr",
-          "name": "🇫🇷 Français"
+          "name": "🇫🇷 Français",
+          "active": true
         },
         {
           "key": "en",
@@ -43,7 +44,18 @@
     "date": {
       "name": "Date",
       "class": "date",
-      "values": []
+      "values": [
+        {
+          "key": "2020",
+          "name": "2020",
+          "active": true
+        },
+        {
+          "key": "2019",
+          "name": "2019",
+          "active": true
+        }
+      ]
     },
     "type": {
       "name": "Type",
@@ -51,11 +63,13 @@
       "values": [
         {
           "key": "audio",
-          "name": "🎙 Audio"
+          "name": "🎙 Audio",
+          "active": true
         },
         {
           "key": "video",
-          "name": "📹 Video"
+          "name": "📹 Video",
+          "active": true
         },
         {
           "key": "post",
@@ -97,8 +111,7 @@
       "values": [
         {
           "key": "fr",
-          "name": "🇫🇷 French",
-          "active": true
+          "name": "🇫🇷 French"
         },
         {
           "key": "en",
@@ -115,6 +128,11 @@
           "key": "2020",
           "name": "2020",
           "active": true
+        },
+        {
+          "key": "2019",
+          "name": "2019",
+          "active": true
         }
       ]
     },
@@ -124,11 +142,13 @@
       "values": [
         {
           "key": "audio",
-          "name": "🎙 Audio"
+          "name": "🎙 Audio",
+          "active": true
         },
         {
           "key": "video",
-          "name": "📹 Video"
+          "name": "📹 Video",
+          "active": true
         },
         {
           "key": "post",
