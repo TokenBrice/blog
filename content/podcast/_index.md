@@ -51,8 +51,8 @@ On top of the weekly catchup, Abel also publishes insightful interviews with key
 
 **Topic 3 The Week of DeFi Debates & Discussions ✨**
 - DeFi Discussions
-- Ready Layer One](https://readylayer.one/)
-- Ethereal Summit](https://www.etherealsummit.com/)
+- [Ready Layer One](https://readylayer.one/)
+- [Ethereal Summit](https://www.etherealsummit.com/)
 
 **Interesting content of the week**
 *   [A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter](https://tokenbrice.xyz/posts/2020/great-defi-filter/)
@@ -104,9 +104,9 @@ On top of the weekly catchup, Abel also publishes insightful interviews with key
 **Extra Stuff**
 
 Community Calls of your favorite projects:
-- Maker - https://github.com/makerdao/community
-- Synthetix - https://www.synthetix.io/community/
-- Compound - https://compound.finance/discord
-- Aave - https://discordapp.com/invite/AnSqnvV
+- [Maker](https://github.com/makerdao/community)
+- [Synthetix]( https://www.synthetix.io/community/)
+- [Compound](https://compound.finance/discord)
+- [Aave](https://discordapp.com/invite/AnSqnvV)
 
 [The mDeFi Panel mentioned](https://twitter.com/monolith_web3/status/1250424425540771848)
