@@ -57,7 +57,7 @@
         }
       ]
     },
-    "type": {
+    "types": {
       "name": "Type",
       "class": "type",
       "values": [
@@ -136,7 +136,7 @@
         }
       ]
     },
-    "type": {
+    "types": {
       "name": "Type",
       "class": "type",
       "values": [

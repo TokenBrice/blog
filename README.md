@@ -19,7 +19,121 @@ Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely 
 
 ### To Build & Run
 
+```sh
 yarn install
-yarn run build -> build le js pour le module pour la page about et génère un fichier dans static/js
-hugo -> pour envoyer le fichier static/js/main.js dans public
-yarn run optimize -> Optimize les images de public/img
+yarn run build  // Build module javascript for page "about" and generate main.js in /static/js
+hugo  // Allow to use main.js in Hugo. Send static/js/main.js in public
+yarn run optimize // Optimize images of public/img
+```
+
+### How to add filters
+
+If you need to add filters, follow the procedure below :
+
+Open data/filters.json and add filters and add values for fr and en.
+
+```
+[
+ "fr": {
+    "tags": {
+      ...
+      "values" : [
+      ...
+        {
+          "key": "newkey",
+          "name": "French name translation"
+        },
+      ]
+  }
+  "en": {
+      "tags": {
+        ...
+        "values" : [
+        ...
+          {
+            "key": "newkey",
+            "name": "English name translation"
+          },
+        ]
+    }
+]
+    
+```
+
+Then add the "newkey" to your data/media.json
+
+```
+ {
+    "tags": ["newkey"],
+    "name": "Post Name",
+    "host": "Host name",
+    "link": "link to media",
+    "date": "date"
+ },
+```
+
+And finally compile the new main.js using `yarn run build` (local) or `yarn run build:production`
+
+
+### How to add a new filter category
+
+A filter is composed of a name, a class and an array of values object.
+
+Edit data/filters.json and add your new filter category
+
+```
+[
+ "fr": {
+    "newCategory": {
+      "name": "Nouvelle Catégorie",
+      "class": "categoryClass"
+      "values" : [
+      ...       
+    ]
+  }
+  "en": {
+      "newCategory": {
+        "name": "New Category",
+        "class": "categoryClass"
+        "values" : [
+        ...       
+      ]
+    }
+]
+    
+```
+
+After that you need to add the key of your category add style to src/js/App.vue
+
+```
+export default {
+        data() {
+            return {
+                ...
+                selectedFilters: {
+                   ...
+                   newCategory: [],
+                },
+        },
+        ...
+}
+
+...
+
+<style>
+   ...
+   .categoryClass {
+     cssRules: here
+   } 
+</style>
+
+```
+
+Follow by using `yarn run build` and your new category should be visible (clear web browser cache)
+
+
+
+
+
+
+
