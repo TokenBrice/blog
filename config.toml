@@ -43,7 +43,7 @@ paginate = 7
 
 # URL related
 disablePathToLower = false
-relativeURLs = false
+relativeURLs = true
 uglyURLs = false
 
 #language
