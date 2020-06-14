@@ -69,6 +69,13 @@
 		"date": "2020"
 	},
 	{
+		"tags": ["audio", "discussion", "fr"],
+		"name": "Univers Bitcoin Podcast #8 : DeFi et Francophonie : où s'informer ? Interview de TokenBrice",
+		"host": "Univers Bitcoin Podcast",
+		"link": "https://www.youtube.com/watch?v=4zClsm-KTpM&feature=youtu.be",
+		"date": "2020"
+	},
+	{
 		"tags": ["audio", "discussion", "en"],
 		"name": "Zerion launches DeFi SDK 🧱, Another DeFi attack 🤦‍♂️ & Balancer Labs raises $3M 🚀",
 		"host": "Abel Abstracts",
