@@ -226,23 +226,17 @@ uglyURLs = false
         pre = "internal"
         post = "ethereum"
     [[menu.main]]
-        url = "/podcast/"
-        name = "Podcast"
-        weight = 5
-        pre = "internal"
-        post = "microphone"
-    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 6
+        weight = 5
         pre = "internal"
         post = "user-circle"
 
     [[menu.main]]
-        weight = 7
+        weight = 6
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 8
+        weight = 7
         identifier = "lang-switcher"
 
         ## Socials

@@ -18,13 +18,15 @@ A practical-oriented overview where I detail a basic strategy to use decentralis
 
 I curate the most relevant DeFi news on my [Twitter](https://twitter.com/TokenBrice) and share my insights about the various services I try. I also highlight cool new releases and people in the scene & my opinions (when informed & relevant) on the industry's events.
 
-I maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: [🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)
+I maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: **[🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)**
 
 ![How to make DeFinancial products work for you?](/img/2020/definancial-services-guide/cover.resized.jpeg)
 
 ### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
 
-Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes: find it here - [More info on 🎙 Abel Abstracts]({{< relref path="/podcast/_index.md" >}}).
+Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes. On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: 
+- **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**  
+- **[📧 Check the newsletter here](https://abelsabstracts.substack.com/)**.
 
 ![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
 
