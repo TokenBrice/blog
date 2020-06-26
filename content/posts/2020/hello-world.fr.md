@@ -17,7 +17,7 @@ Au départ, j'ai commencé ce blog avec un but simple : j'écris sur internet d
 
 J'ai le plaisir d'introduire :
 
-### TokenBrice.zyx, un blog qui respecte votre vie privée
+### TokenBrice.zyx un blog qui respecte votre vie privée
 
 > Je ne suis pas un développeur, je peux à peine coder et j'ai pourtant réussi à respecter la vie privée de mes lecteurs.
 
@@ -50,7 +50,7 @@ Et pourtant, trop de sites parasites existent encore !
 
 Alors **pointons du doigt les développeurs, potentiellement ignorants, ou inconséquents, sinon paresseux, ou encore complètement désintéressés par le respect de votre vie privé**.
 
-**Je peux à peiner éditer un fichier HTML et pourtant je l'ai fait – alors qu'ils arrêtent leur conneries, et se mettent boulot !**
+**Je peux à peine éditer un fichier HTML et pourtant je l'ai fait – alors qu'ils arrêtent leur conneries, et se mettent au boulot !**
 
 Avec ♥ passion,
 
