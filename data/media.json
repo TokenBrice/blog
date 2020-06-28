@@ -56,6 +56,13 @@
 		"date": "2020"
 	},
 	{
+		"tags": ["meetup", "video","fr"],
+		"name": "DeFi #9 - Les Arcanes de la DeFi : mise à jour avec l'Ether",
+		"host": "DeFi France",
+		"link": "https://www.youtube.com/watch?v=i7f6ZBOTiXo&t=1s",
+		"date": "2020"
+	},
+	{
 		"tags": ["mention", "post","fr"],
 		"name": "Hebdo Crypto #87 – les actualités de la semaine des cryptomonnaies",
 		"host": "Le Journal Du Coin",
@@ -101,6 +108,20 @@
 		"name": "How Argent Is Going to Onboard 1 Billion Users to DeFi 🚀",
 		"host": "Abel Abstracts",
 		"link": "https://open.spotify.com/episode/6jm9Oi7sLQ9se2bLwom3Zo",
+		"date": "2020"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Trustless Stablecoins💰, BTC on Ethereum & DeRisking DeFi 🛡️",
+		"host": "Abel Abstracts",
+		"link": "https://abelsabstracts.substack.com/p/trustless-stablecoins-btc-on-ethereum",
+		"date": "2020"
+	},
+	{
+		"tags": ["audio", "discussion", "en"],
+		"name": "Compound Token Distribution 📈, Curve.fi APR & Volumes Exploding 🚀, Smart Wallet Market Analysis 🔎",
+		"host": "Abel Abstracts",
+		"link": "https://abelsabstracts.substack.com/p/compound-token-distribution-curvefi",
 		"date": "2020"
 	},
 	{
