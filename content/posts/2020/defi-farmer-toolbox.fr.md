@@ -63,7 +63,7 @@ Avant de voir comment entrer et sortir de telles positions, il est temps de disc
 
 Pour simplifier les choses, supposons que les paramètres actuels resteront tels quels l'année suivante. **C'est évidemment irréaliste - prenez cela comme une expérience de pensée.** Voici les paramètres au moment de la rédaction du document :
 
-* 4% APY sur USDT sur l'USDT sur Compound = 80 $ pour un an sur le capital
+* 4% APY sur l'USDT sur Compound = 80 $ pour un an sur le capital
 * 0,66 COMP/an =~150 $ produits par notre capital
 
 Dans le tableau ci-dessous, la colonne "Profits réels" correspond à une sortie totale de la position (retour à l'USDT), ce qui signifie en fait 3 transactions au total pour l'opération :
