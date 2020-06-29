@@ -1,7 +1,7 @@
 ---
 title: "The DeFinancial Farming Toolbox"
 description: "A hitchhiker's guide to liquidity mining curating tips & tools to help you make the most of DeFi's agrarian revolution 🌻"
-date: '2020-06-29T01:13:50.191Z'
+date: '2020-06-28T01:13:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets]
 toc: true
