@@ -188,7 +188,7 @@ Vos contributions sont grandement appréciées et peuvent avoir un réel impact,
 Il m'aidera à financer davantage d'initiatives pour la communauté française et à poursuivre des efforts de production de contenu comme celui-ci. Chaque contribution fait la différence, même 1 DAI (actuellement égal à +5).
 
 Maintenant que vous êtes sur Gitcoin avec une subvention dans votre panier, pourquoi ne pas en ajouter d'autres ? N'hésitez pas à regarder autour de vous et à soutenir des initiatives cruciales, des efforts de vulgarisation à la recherche fondamentale. Vous vous souvenez des luttes pour le gaz ? Vous pouvez **donner au [Fonds communautaire EIP 1559](https://gitcoin.co/grants/946/project-title-eip-1559-community-fund)** pour aider sur ce front aussi !
-Et si vous souhaitez participer plus globalement vous pouvez donner au font Gitcoin n°7, le suivant👍
+Et si vous souhaitez participer plus globalement vous pouvez donner au fond Gitcoin n°7, le suivant👍
 
 Merci de votre lecture et bonnes récoltes !
 
