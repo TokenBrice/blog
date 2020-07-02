@@ -63,6 +63,20 @@
 		"date": "2020"
 	},
 	{
+		"tags": ["video","fr"],
+		"name": "BanklessFR - 1er Point Projet",
+		"host": "BanklessFR",
+		"link": "https://www.youtube.com/watch?v=8I0iryRuFIo&t=1s",
+		"date": "2020"
+	},
+	{
+		"tags": ["video","fr"],
+		"name": "Point Projet #3 BanklessFR & Trousse à outils DeFi",
+		"host": "BanklessFR",
+		"link": "https://www.youtube.com/watch?v=We8NjZY8zK0",
+		"date": "2020"
+	},
+	{
 		"tags": ["mention", "post","fr"],
 		"name": "Hebdo Crypto #87 – les actualités de la semaine des cryptomonnaies",
 		"host": "Le Journal Du Coin",

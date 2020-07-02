@@ -12,6 +12,10 @@ Vous retrouverez ici un tour d'horizon des contenus en français, les plus inté
 
 #### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
 
+![🧰 Trousse à outils du cultivateur DeFi - TokenBrice](/img/2020/defi-farmer-toolbox/cover-fr.jpeg)
+
+#### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
+
 ### [🗽 Pour les contenus en anglais, c'est par ici 🇺🇸]({{< relref path="_index.md" lang="en" >}})
 
 ### [DeFi France](https://www.meetup.com/DeFi-France/)

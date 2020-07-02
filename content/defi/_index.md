@@ -10,17 +10,21 @@ You'll find here an overview of content production, the meetups & podcasts I con
 
 ### Content
 
+![How to make DeFinancial products work for you?](/img/2020/definancial-services-guide/cover.resized.jpeg)
+
 #### [🕸 How to make DeFinancial products work for you? 💸]({{< relref "definancial-services-guide.md" >}})
 
-A practical-oriented overview where I detail a basic strategy to use decentralised finance to cover for my daily expenses.
+A practical-oriented overview where I detail a basic strategy to use decentralised finance to generate a passive income.
+
+![The DeFinancial Farming Toolbox](/img/2020/defi-farmer-toolbox/cover.jpeg)
+
+#### [🧰 The DeFinancial Farming Toolbox]({{< relref "defi-farmer-toolbox.md" >}})
 
 #### [Twitter Activity](https://twitter.com/TokenBrice)
 
 I curate the most relevant DeFi news on my [Twitter](https://twitter.com/TokenBrice) and share my insights about the various services I try. I also highlight cool new releases and people in the scene & my opinions (when informed & relevant) on the industry's events.
 
 I maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: **[🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)**
-
-![How to make DeFinancial products work for you?](/img/2020/definancial-services-guide/cover.resized.jpeg)
 
 ### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
 
