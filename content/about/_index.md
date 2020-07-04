@@ -29,6 +29,6 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | :---: | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
 
-### Medias & Mentions
+### Media
 
 {{< custommedia language="en" >}}

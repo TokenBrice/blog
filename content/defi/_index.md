@@ -20,6 +20,8 @@ A practical-oriented overview where I detail a basic strategy to use decentralis
 
 #### [🧰 The DeFinancial Farming Toolbox]({{< relref "defi-farmer-toolbox.md" >}})
 
+This article focuses on liquidity mining. It presents several tools you can use enter and exit positions or track your portfolio, as well as several tips to make the most out of liquidity pools.
+
 #### [Twitter Activity](https://twitter.com/TokenBrice)
 
 I curate the most relevant DeFi news on my [Twitter](https://twitter.com/TokenBrice) and share my insights about the various services I try. I also highlight cool new releases and people in the scene & my opinions (when informed & relevant) on the industry's events.

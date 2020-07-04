@@ -28,6 +28,6 @@ N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet me
 | :---: | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Ici](mailto:me@tokenbrice.com)
 
-### Medias & Mentions
+### Médias
 
 {{< custommedia language="fr" >}}

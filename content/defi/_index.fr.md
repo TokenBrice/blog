@@ -8,13 +8,23 @@ Au travers de mes engagements professionnels et personnels, mon but est de déve
 
 Vous retrouverez ici un tour d'horizon des contenus en français, les plus intéressants auxquels j'ai contribué.
 
+Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Cette discussion avec Grégory pour le podcast 21 Millions est un excellent point de départ :  
+
+**[🎙 La finance décentralisée (DeFi), la banque sans banquiers](https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78)**
+
+Pour aller plus loin, je vous proposer d'explorer les différents guides que je publie :
+
 ![Comment utiliser les services DeFinanciers à votre avantage ? - TokenBrice](/img/2020/definancial-services-guide/cover-fr.resized.jpeg)
 
 #### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
 
+Une introduction assez complète à la finance décentralisée qui vous présentera 6 stratégies d'investissement ainsi que différents conseils pour en comprendre les enjeux.
+
 ![🧰 Trousse à outils du cultivateur DeFi - TokenBrice](/img/2020/defi-farmer-toolbox/cover-fr.jpeg)
 
 #### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
+
+Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining" .
 
 ### [🗽 Pour les contenus en anglais, c'est par ici 🇺🇸]({{< relref path="_index.md" lang="en" >}})
 
