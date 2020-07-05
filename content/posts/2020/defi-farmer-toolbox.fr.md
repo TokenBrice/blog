@@ -16,7 +16,7 @@ Si vous êtes ici, c'est que nous partageons une compréhension basique de [ce q
 
 Vous avez peut-être même essayé par vous-même, ou entendu les [récits d'un producteur](https://defiweekly.substack.com/p/tales-from-a-yield-farmer) : incroyable ! Aujourd'hui, c'est à mon tour de partager les concepts clés et une liste d'outils pour vous aider à tirer parti de la révolution agraire sur Ethereum.
 
-Si par hasard vous avez atterri ici sans avoir la moindre idée de ce qu'est [Ethereum](https://ethhub.io/) ou **[DeFi](https://tokenbrice.xyz/posts/2020/definancial-services-guide/)**, je vous invite à cliquer sur ces liens. Ceci n'est pas un guide, mais plutôt une sélection d'outils et de conseils. - Commençons ! 
+Si par hasard vous avez atterri ici sans avoir la moindre idée de ce qu'est [Ethereum](https://ethhub.io/) ou **[DeFi]({{< relref "definancial-services-guide.fr.md" >}})**, je vous invite à cliquer sur ces liens. Ceci n'est pas un guide, mais plutôt une sélection d'outils et de conseils. - Commençons ! 
 
 ## L'agriculture biologique DeFi
 
