@@ -55,7 +55,7 @@ Après avoir pris le contrôle total de votre portefeuille, nous pouvons mainten
 
 Vous trouverez l'adresse de votre portefeuille de contrats dans l'application Monolith en cliquant sur le bouton d'action (+) et ensuite sur "Recevoir".
 
-Pour trouver l'adresse du propriétaire, vous devez vous référer au Monolithe. Une fois dans l'application, vous devez ouvrir l'onglet "⚙ Settings", et vous référer à l'adresse après "PK" en bas de la page - il suffit de la toucher pour la copier.
+Pour trouver la "owner address",  Une fois dans l'application, vous devez ouvrir l'onglet "⚙ Settings", et vous référer à l'adresse après "PK" en bas de la page - il suffit de la toucher pour la copier.
 
 Nous avons surligné l'adresse en rouge ci-dessous :
 
@@ -65,7 +65,7 @@ Nous avons surligné l'adresse en rouge ci-dessous :
 
 💡 **_Avant de poursuivre, assurez-vous que vous êtes connecté à MetaMask et que vous avez importé votre owner address Monolith (-> étape 3)._**
 
-Pour interagir avec votre portefeuille de contrats sur Etherscan, visitez l'onglet "Contrat".
+Pour interagir avec votre portefeuille de contrats sur Etherscan, visitez l'onglet "Contrat" de votre wallet sur [Etherscan](https://etherscan.io/). 
 
 Bien que l'onglet "Read" donne des informations sur le portefeuille, pour cet exercice, nous nous concentrerons sur l'onglet "Write" utilisé pour lancer les opérations.
 

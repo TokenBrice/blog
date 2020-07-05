@@ -15,6 +15,8 @@ TKN est un élément central de l'offre Monolith. Dans ce billet, nous allons ab
 
 Avant de vous lancer dans les complexités de TKN, nous vous recommandons de lire rapidement [l'article de prise en main de Monolith]({{< relref "monolith-prise-en-main.fr.md" >}}). Bien que nous décrivions brièvement notre mécanisme de top-up ci-dessous, vous trouverez dans cet article un aperçu complet de notre produit et vous pourrez ainsi anticiper bon nombre de vos questions d'utilisation.
 
+_ℹ Traduction personnelle d'une [production originale Monolith](https://medium.com/monolith/tkn-101-the-community-token-8ba00a13fbc7)._
+
 ---
 
 ### 🏦 Le Coffre Communautaire de TKN

@@ -1,12 +1,39 @@
 ---
-title: "DeFi"
+title: "DeFi France 🇫🇷"
+url: defifrance
 date: 2020-04-26T13:24:40+02:00
-description: "Tour d'horizon des différentes intiatives auxquelles je contribue dans la DeFi."
+description: "DeFi France est une communauté francophone pour discuter de finance décentralisée. Chaque mois, nous organisons une discussion afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi."
 ---
 
-Au travers de mes engagements professionnels et personnels, mon but est de développer l'ecosystème de la finance décentralisée sur Ethereum.
+DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
 
-Vous retrouverez ici un tour d'horizon des contenus en français, les plus intéressants auxquels j'ai contribué.
+C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice))
+
+{{< youtube vF-7T5EtcQo >}}
+
+### À la découverte de la finance décentralisée
+
+Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouverez sur [notre chaine Youtube](https://www.youtube.com/channel/defifrance) :
+
+|  [📽 Chaine Youtube](https://www.youtube.com/channel/defifrance) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
+| --- | --- | --- |
+|  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >800 francophones | Pour ne pas rater les prochains évènements |
+
+### Historique des rendez-vous
+
+|  Date | Thème | Participants |
+| :---: | :---: | :---: |
+|  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, Brice |
+|  20/05/2020 | [🇫🇷 DF #8 - EthereumXBitcoin : DeFi sur la chaîne Bitcoin, ou BTC sur Ethereum?](https://www.youtube.com/watch?v=sHRS2DYOMlg) | Pascal Tallarida, Romain ROUPHAËL, Julien Bouteloup, Adli Takkal-Bataille, Mounir Benchemled |
+|  23/04/2020 | [🇫🇷 DF #7 - Comment prendre et communiquer la mesure du risque dans la DeFi ?](https://www.youtube.com/watch?v=G9w2wOlWOIw) | Clément Lesage (Kleros), Marc Zeller (Aave), Jimmy Ragosa (ConsenSys), <br/>Marouane Haiji (Unslashed) |
+|  3/3/20 | [🇫🇷DF#6 @EthCC : La Finance Décentralisée - vers une nouvelle finance](https://www.youtube.com/watch?v=vF-7T5EtcQo) | Mounir, Arthur, Brice |
+|  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | Brice (Monolith), Pascal (Jarvis Exchange) |
+|  16/01/2020 | [🇫🇷 DF #4 - La Blockchain, un monde sans loi ?](https://www.youtube.com/watch?v=lym5thBJVrY) | Clément Lesage (Kleros), William O'Rorke (ORWL Avocats) |
+|  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
+|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, Brice |
+|  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
+
+### Contenus
 
 Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Cette discussion avec Grégory pour le podcast 21 Millions est un excellent point de départ :  
 
@@ -24,20 +51,4 @@ Une introduction assez complète à la finance décentralisée qui vous présent
 
 #### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
 
-Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining" .
-
-### [🗽 Pour les contenus en anglais, c'est par ici 🇺🇸]({{< relref path="_index.md" lang="en" >}})
-
-### [DeFi France](https://www.meetup.com/DeFi-France/)
-
-DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
-
-C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice))
-
-{{< youtube vF-7T5EtcQo >}}
-
-### À la découverte de la finance décentralisée
-
-|  [📽 Chaine Youtube](https://www.youtube.com/channel/UCztkHfSVCdriSpzvZF7Qwtg) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
-| --- | --- | --- |
-|  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >700 francophones | Pour ne pas rater les prochains évènements |
+Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining".
