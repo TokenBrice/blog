@@ -291,7 +291,7 @@ uglyURLs = false
     pre = "internal"
     post = "th"
 [[languages.fr.menu.main]]
-    url = "/fr/defifrance/"
+    url = "/defifrance/"
     name = "DeFi"
     weight = 4
     pre = "internal"
