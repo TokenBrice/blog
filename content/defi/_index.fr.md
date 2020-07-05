@@ -2,7 +2,7 @@
 title: "DeFi France 🇫🇷"
 url: defifrance
 date: 2020-07-05T08:24:40+02:00
-description: "DeFi France est une communauté francophone pour discuter de finance décentralisée. Chaque mois, nous organisons une discussion afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi."
+description: "DeFi France est une communauté francophone pour discuter de finance décentralisée. Chaque mois, nous organisons une rendez-vous afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi."
 ---
 
 DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
