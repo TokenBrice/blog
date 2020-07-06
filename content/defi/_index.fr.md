@@ -15,9 +15,16 @@ C'est une initiative communautaire portée par [Mounir Benchemled](https://twitt
 
 Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouverez sur [notre chaine Youtube](https://www.youtube.com/channel/defifrance) :
 
-|  [📽 Chaine Youtube](https://www.youtube.com/channel/defifrance) | [🛩 Groupe Telegram](https://t.me/defifrance) | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
-| --- | --- | --- |
-|  Revoir les éditions précédentes de DeFi France | Venez discuter de finance décentralisée avec >800 francophones | Pour ne pas rater les prochains évènements |
+|  **[📽 Chaine Youtube](https://www.youtube.com/channel/defifrance)** | **[🛩 Groupe Telegram](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
+| :---: | :---: | :---: |
+|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >800 francophones | Pour ne pas rater les prochains évènements |
+
+### Prochain rendez-vous
+
+|  Date | Thème | Participants |
+| :---: | :---: | :---: |
+| 16 Juillet 2020 | DeFi France Social | Infos sur le [Telegram](https://t.me/defifrance) |
+| Juillet 2020 | DeFi France X | TBD |
 
 ### Historique des rendez-vous
 
@@ -33,11 +40,14 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 |  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh4) | Mounir, Julien, Brice |
 |  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
 
-### Contenus
+### Contenus 🇫🇷 pour découvrir la DeFi
 
-Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Cette discussion avec Grégory pour le podcast 21 Millions est un excellent point de départ :  
+Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Cette discussion avec Grégory pour le podcast 21 Millions est un excellent point de départ : **[🎙 La finance décentralisée (DeFi), la banque sans banquiers](https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78)**.
 
-**[🎙 La finance décentralisée (DeFi), la banque sans banquiers](https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78)**
+Voici quelques ressources francophones apprendre :
+- **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des fondamentaux.
+- **[📰 Le blog Cryptoast](https://cryptoast.fr/)** : pour suivre l'actualité journalière relative aux cryptomonnaies.
+- **[🎥 La chaine Youtube CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : pour une perspective plus large sur les cryptos.
 
 Pour aller plus loin, je vous proposer d'explorer les différents guides que je publie :
 
@@ -52,3 +62,17 @@ Une introduction assez complète à la finance décentralisée qui vous présent
 #### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
 
 Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining".
+
+### DeFi France BlaBla
+
+Créé initialement pour garder la conversation sur le canal principal thématique et synthétique, DeFi France Bla Bla est un second Telegram pour une discussion plus libre au sein de la communauté.
+
+#### Faits notables
+
+**Le 06 Juillet 2020 |** Le blapening, concept qui réfère au jour où/si la communauté BlaBla s'avère plus nombreuse que la communauté principale, a été théorisé pour la première fois par TorZilla.
+
+![blapening1](/img/others/defi-france/blapening1.png)
+
+Il est donc devenu le premier porteur du titre `Wen Blapening?` qu'il peut désormais octroyer à ceux qui en sont méritants à ses yeux. Il décidera également du prochain titre honorifique quand le temps sera venu.
+
+![blapening2](/img/others/defi-france/blapening2.png)

@@ -1,6 +1,6 @@
 ---
 title: "Vivre sans banque en 7 étapes : prise en main de Monolith" 
-description: "À la découverte du portefeuille Ethereum Monolith qui propose un carte de crédit Visa tout en conservant un contrôle total sur vos actifs."
+description: "À la découverte du portefeuille Ethereum Monolith qui propose une carte de crédit Visa tout en conservant un contrôle total sur vos actifs."
 date: '2020-07-05T10:13:50.191Z'
 categories: [🌌 DeFi, 👾 Monolith]
 tags: [DeFi, Ethereum, Monolith]
