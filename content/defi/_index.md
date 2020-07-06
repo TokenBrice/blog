@@ -2,12 +2,12 @@
 title: "DeFi France 🇫🇷"
 url: defifrance
 date: 2020-07-05T08:24:40+02:00
-description: "**DeFi France is a French-speaking community created to discuss decentralized finance.** Every month, we organize a meeting to allow an instructive exchange to better understand the fundamental elements of DeFi."
+description: "**DeFi France is a French-speaking community created to discuss decentralized finance.** Every month, we organize a meeting to allow an instructive exchange to better understand fundamental elements of DeFi."
 ---
 
 DeFi France is a monthly meeting to discuss decentralized finance, as well as an ongoing discussion on Telegram entirely held in French. After 6 face-to-face editions since October 2019, DeFi France is now held remotely.
 
-**DeFi France is entirely held in French** to help native speakers (sometimes not always at easy in English) to keep track and learn about the space.
+**DeFi France is entirely held in French** to help native speakers (sometimes not always at ease in English) to keep track and learn about the space.
 
 It is a community initiative led by [Mounir Benchemled](https://twitter.com/mounibec) (creator of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) and your humble servant ([TokenBrice](https://twitter.com/TokenBrice)), as well thanks to the amazing support of the French community:  Pascal, Marc, Julien & many others !
 
