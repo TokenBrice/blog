@@ -10,7 +10,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 |  Logo | Project | Description | Function |
 | :---: | :---: | :---: | :---: |
 |  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Shaping the future of personal finance with the world first non-custodial contract wallet paired with a Visa debit card. | Community Strategist |
-|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. <br> [➡More info on the dedicated French page]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Co-Organiser |
+|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. <br> [➡More info on the DeFi France page]({{< relref path="/content/defi/_index.md" >}}) | Co-Organiser |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | The Bankless program blends money and tech insight to help you level up your open finance game every single week. | FR Coordinator |
 
 At Monolith, I help maximize our brand visibility and awareness, both online and offline using any relevant support (article, video, podcast, meetup) and channels (mainly Twitter, Telegram, Reddit).
@@ -21,6 +21,30 @@ Since the beginning of my career, I've worked with startups and helped them grow
 
 Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed on this blog.
 
+---
+
+### Projects
+
+#### Podcast: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
+
+Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes. On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: 
+- **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**  
+- **[📧 Check the newsletter here](https://abelsabstracts.substack.com/)**.
+
+![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
+
+#### Monolith mDeFi Panels
+
+Monolith frequently organises panel discussions to address topics at the very heart of DeFI:
+
+{{< youtube KVgmdJx7oLQ >}}
+
+You'll find more information here:
+- [mDeFi Meetup Page](https://www.meetup.com/monolith/) - to stay in touch with upcoming events or [follow Monolith on Twitter](https://twitter.com/monolith_web3/)
+- [Videos of all previous #mDeFi](https://www.youtube.com/playlist?list=PLimDUDoPGQcmP7E4KKBi8BzMt7gk9izJU) on Monolith Youtube.
+
+---
+
 ### Contact
 
 👉 [Have a closer look at the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
@@ -28,6 +52,8 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 |  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
 | :---: | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
+
+---
 
 ### Media
 

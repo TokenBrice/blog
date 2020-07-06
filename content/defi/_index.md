@@ -1,75 +1,59 @@
 ---
-title: "DeFi"
-date: 2020-04-26T13:24:40+02:00
-description: "An overview of my main contributions to the growth of Ethereum's Decentralised Finance."
+title: "DeFi France 🇫🇷"
+url: defifrance
+date: 2020-07-05T08:24:40+02:00
+description: "**DeFi France is a French-speaking community created to discuss decentralized finance.** Every month, we organize a meeting to allow an instructive exchange to better understand the fundamental elements of DeFi."
 ---
 
-Through my professional and personal engagements, I'm working to grow Ethereum's decentralised finance ecosystem. 
+DeFi France is a monthly meeting to discuss decentralized finance, as well as an ongoing discussion on Telegram entirely held in French. After 6 face-to-face editions since October 2019, DeFi France is now held remotely.
 
-You'll find here an overview of content production, the meetups & podcasts I contribute to.
+**DeFi France is entirely held in French** to help native speakers (sometimes not always at easy in English) to keep track and learn about the space.
 
-### Content
+It is a community initiative led by [Mounir Benchemled](https://twitter.com/mounibec) (creator of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) and your humble servant ([TokenBrice](https://twitter.com/TokenBrice)), as well thanks to the amazing support of the French community:  Pascal, Marc, Julien & many others !
 
-![How to make DeFinancial products work for you?](/img/2020/definancial-services-guide/cover.resized.jpeg)
+All the monthly appointments of DeFi France are recorded. You will find them on [our Youtube channel](https://www.youtube.com/channel/defifrance):
 
-#### [🕸 How to make DeFinancial products work for you? 💸]({{< relref "definancial-services-guide.md" >}})
+| **[📽 Youtube Channel](https://www.youtube.com/channel/defifrance)** | **[🛩 Telegram Group](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
+| :---: | :---: | :---: |
+| Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >800 French speakers | Not to miss the next events |
 
-A practical-oriented overview where I detail a basic strategy to use decentralised finance to generate a passive income.
+---
 
-![The DeFinancial Farming Toolbox](/img/2020/defi-farmer-toolbox/cover.jpeg)
+### Next appointment
 
-#### [🧰 The DeFinancial Farming Toolbox]({{< relref "defi-farmer-toolbox.md" >}})
+| Date | Theme | Participants |
+| :---: | :---: | :---: |
+| July 16, 2020 | DeFi France Social | Infos on the [Telegram](https://t.me/defifrance) |
+| July 2020 | DeFi France X | TBD |
 
-This article focuses on liquidity mining. It presents several tools you can use enter and exit positions or track your portfolio, as well as several tips to make the most out of liquidity pools.
+---
 
-#### [Twitter Activity](https://twitter.com/TokenBrice)
+### Appointment history
 
-I curate the most relevant DeFi news on my [Twitter](https://twitter.com/TokenBrice) and share my insights about the various services I try. I also highlight cool new releases and people in the scene & my opinions (when informed & relevant) on the industry's events.
+| Date | Theme | Participants |
+| :---: | :---: | :---: |
+|  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, Brice |
+|  20/05/2020 | [🇫🇷 DF #8 - EthereumXBitcoin : DeFi sur la chaîne Bitcoin, ou BTC sur Ethereum?](https://www.youtube.com/watch?v=sHRS2DYOMlg) | Pascal Tallarida, Romain ROUPHAËL, Julien Bouteloup, Adli Takkal-Bataille, Mounir Benchemled |
+|  23/04/2020 | [🇫🇷 DF #7 - Comment prendre et communiquer la mesure du risque dans la DeFi ?](https://www.youtube.com/watch?v=G9w2wOlWOIw) | Clément Lesage (Kleros), Marc Zeller (Aave), Jimmy Ragosa (ConsenSys), <br/>Marouane Haiji (Unslashed) |
+|  3/3/20 | [🇫🇷DF#6 @EthCC : La Finance Décentralisée - vers une nouvelle finance](https://www.youtube.com/watch?v=vF-7T5EtcQo) | Mounir, Arthur, Brice |
+|  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | Brice (Monolith), Pascal (Jarvis Exchange) |
+|  16/01/2020 | [🇫🇷 DF #4 - La Blockchain, un monde sans loi ?](https://www.youtube.com/watch?v=lym5thBJVrY) | Clément Lesage (Kleros), William O'Rorke (ORWL Avocats) |
+|  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
+|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh4) | Mounir, Julien, Brice |
+|  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
 
-I maintain a curated list on Twitter incorporating relevant DeFi projects - it's a great starting point to explore the space: **[🕸 The #DeFi Projects list on Twitter](https://twitter.com/TokenBrice/status/1233081923825741824?s=20)**
 
-### Podcasts: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
+---
 
-Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes. On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: 
-- **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**  
-- **[📧 Check the newsletter here](https://abelsabstracts.substack.com/)**.
+### Discovering decentralized finance with DeFi France
 
-![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
+{{< youtube vF-7T5EtcQo >}} 
 
-### Meetups
+---
 
-#### [🕸 DeFi France](https://www.meetup.com/DeFi-France/)
+### French Community Resource
 
-DeFi France is a community innitiative carried by Mounir Benchemled (Founder of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of blockchain at Palo.IT) & I. Started in October 2019, the meetup is held monthly since.
-
-It is the leading grassroots decentralised finance meetup in Europe, held enterily in French. In between meetup, the community hangs out on the DeFi France Telegram which became the main host for DeFi discussion in French.
-
-In March 2020, the DeFi France team was invited to present at the Ethereum Community Conference ([EthCC](https://ethcc.io/)) - French Track, held in Paris:
-
-{{< youtube vF-7T5EtcQo >}}
-
-##### [➡ Find more info on DeFi France on the French page]({{< relref path="_index.fr.md" lang="fr" >}})
-
-#### Monolith mDeFi Panels
-
-Monolith frequently organises panel discussions to address topics at the very heart of DeFI:
-
-{{< youtube KVgmdJx7oLQ >}}
-
-You'll find more information here:
-- [mDeFi Meetup Page](https://www.meetup.com/monolith/) - to stay in touch with upcoming events or [follow Monolith on Twitter](https://twitter.com/monolith_web3/)
-- [Videos of all previous #mDeFi](https://www.youtube.com/playlist?list=PLimDUDoPGQcmP7E4KKBi8BzMt7gk9izJU) on Monolith Youtube.
-
-#### London meetups
-
-Several informal events were organised before Covid-19, sadly only one was recorded: CodeUp #34 organised by [Matoko](https://twitter.com/makoto_inoue). 
-
-This meetup was held ahead of the ETHLondon Hackaton to present developpers with building blocks they could use. It gives a good overview of 4 building blocks developpers can use to create amazing dApps.
-
-Rachel presenting [3Box](https://3box.io/):
-
-{{< youtube yQVoa1-iLm0 >}}
-
-- [Tom presenting Aztec Protocol](https://www.youtube.com/watch?v=NtdgdGkyFCc&t=409s)
-- [Fransceso presenting rDAI](https://www.youtube.com/watch?v=fhXo7hmrW2s)
-- [Ram presenting SolUI](https://www.youtube.com/watch?v=MWI9MpBUOAg&t=4s)
+Here are some French-speaking resources to learn :
+- **[🗞 The BanklessFR newsletter](https://banklessfr.substack.com/)** to develop your understanding of the fundamentals.
+- **[📰 The Cryptoast blog](https://cryptoast.fr/defi-finance-decentralisee/)** : to follow the daily news about cryptomoney.
+- **[🎥 The Youtube channel CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : for a broader perspective on cryptos.

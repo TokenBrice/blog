@@ -58,14 +58,14 @@ Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Ce
 
 Voici quelques ressources francophones apprendre :
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des fondamentaux.
-- **[📰 Le blog Cryptoast](https://cryptoast.fr/)** : pour suivre l'actualité journalière relative aux cryptomonnaies.
+- **[📰 Le blog Cryptoast](https://cryptoast.fr/defi-finance-decentralisee/)** : pour suivre l'actualité journalière relative aux cryptomonnaies.
 - **[🎥 La chaine Youtube CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : pour une perspective plus large sur les cryptos.
 
 Pour aller plus loin, je vous proposer d'explorer les différents guides que je publie :
 
 ![Comment utiliser les services DeFinanciers à votre avantage ? - TokenBrice](/img/2020/definancial-services-guide/cover-fr.resized.jpeg)
 
-#### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
+#### [🕸 Comment utiliser les services DeFinanciers à votre avantage ?]({{< relref "definancial-services-guide.fr.md" >}})
 
 Une introduction assez complète à la finance décentralisée qui vous présentera 6 stratégies d'investissement ainsi que différents conseils pour en comprendre les enjeux.
 

@@ -220,8 +220,8 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/defi/"
-        name = "DeFi"
+        url = "/defifrance/"
+        name = "DeFi France"
         weight = 4
         pre = "internal"
         post = "ethereum"
@@ -292,7 +292,7 @@ uglyURLs = false
     post = "th"
 [[languages.fr.menu.main]]
     url = "/fr/defifrance/"
-    name = "DeFi"
+    name = "DeFi France"
     weight = 4
     pre = "internal"
     post = "ethereum"
@@ -414,7 +414,7 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     # {{< relref path=\"/content/about/_index.md\" >}}
-    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.** <br><br> [🌌 DeFi Stories](categories/defi/) <br> [👾 About & Media](/about/)"]
+    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.** <br><br> [🌌 DeFi Stories](categories/defi/) <br>[🇫🇷 DeFi France](/fr/defifrance) <br>[👾 About & Media](/about/)"]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1
