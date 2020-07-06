@@ -42,6 +42,21 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 |  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh4) | Mounir, Julien, Brice |
 |  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
 
+---
+
+### DeFi France BlaBla
+
+Initially created to keep the conversation on the main thematic and synthetic channel, DeFi France Bla Bla is a second Telegram for a freer discussion within the community.
+
+#### Notable Events
+
+**July 06, 2020 |** Blapening, a concept that refers to the day when/if the BlaBla community outnumbers the main community, was first theorized by TorZilla.
+
+![blapening1](/img/others/defi-france/blapening1.png)
+
+He thus became the first holder of the `Wen Blapening?` title, which he can now bestow on those who are deserving in his eyes. He will also decide on the next honorary title when the time comes.
+
+![blapening2](/img/others/defi-france/blapening2.png)
 
 ---
 
