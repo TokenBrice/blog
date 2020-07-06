@@ -55,7 +55,7 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
-        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](/fr/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
+        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/fr/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](/fr/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
         siteDescription = "Blog personnel de TokenBrice - Finance décentralisée (DeFi), Ethereum, et développement de communautés adaptées aux réalités web3. Contenus en FR & EN."
 
 # URL structure

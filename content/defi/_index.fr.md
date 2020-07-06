@@ -7,9 +7,9 @@ description: "DeFi France est une communauté francophone pour discuter de finan
 
 DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
 
-C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice))
+C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Julien & de nombreuses autres personnes !
 
-{{< youtube vF-7T5EtcQo >}}
+{{< youtube vF-7T5EtcQo >}} 
 
 ### À la découverte de la finance décentralisée
 
@@ -56,8 +56,6 @@ Pour aller plus loin, je vous proposer d'explorer les différents guides que je 
 #### [🕸 Comment utiliser les services DeFinanciers à votre avantage ? 💸]({{< relref "definancial-services-guide.fr.md" >}})
 
 Une introduction assez complète à la finance décentralisée qui vous présentera 6 stratégies d'investissement ainsi que différents conseils pour en comprendre les enjeux.
-
-![🧰 Trousse à outils du cultivateur DeFi - TokenBrice](/img/2020/defi-farmer-toolbox/cover-fr.jpeg)
 
 #### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
 

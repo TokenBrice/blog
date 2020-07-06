@@ -24,7 +24,7 @@ Avant de commencer, JE VOUS PRIE ET SUPPLIE de lire les avertissements qui vont 
 
 ## Une affaire de gaz
 
-_ℹ Redondant pour certains, utiles pour beaucoup - lecture recommandée :_
+_ℹ Redondant pour certains, utile pour beaucoup - lecture recommandée :_
 
 Toutes les stratégies présentées dans cet article sont permises grâce à des services de finance décentralisée et sont exécutées sur le réseau Ethereum. **Pour interagir avec les services DeFinanciers, il faut payer pour les parties communes du réseau Ethereum — c'est précisément ce à quoi les coûts de gaz correspondent.**
 
