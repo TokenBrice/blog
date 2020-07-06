@@ -41,7 +41,7 @@ C'est une initiative communautaire portée par [Mounir Benchemled](https://twitt
 |  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | Brice (Monolith), Pascal (Jarvis Exchange) |
 |  16/01/2020 | [🇫🇷 DF #4 - La Blockchain, un monde sans loi ?](https://www.youtube.com/watch?v=lym5thBJVrY) | Clément Lesage (Kleros), William O'Rorke (ORWL Avocats) |
 |  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
-|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh4) | Mounir, Julien, Brice |
+|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, Brice |
 |  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
 
 ---
