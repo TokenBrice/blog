@@ -1169,7 +1169,7 @@ uglyURLs = false
     feedbackIcon = "question"
     feedbackText = "Feedback"
 
-    displayEditLink = true
+    displayEditLink = false
     editIcon = "edit"
     editText = "Edit Me?"
 

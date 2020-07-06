@@ -19,7 +19,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 
 ---
 
-### Next appointment
+### Next Meetup
 
 | Date | Theme | Participants |
 | :---: | :---: | :---: |
@@ -28,7 +28,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 
 ---
 
-### Appointment history
+### Meetup History
 
 | Date | Theme | Participants |
 | :---: | :---: | :---: |
@@ -60,7 +60,7 @@ He thus became the first holder of the `Wen Blapening?` title, which he can now 
 
 ---
 
-### Discovering decentralized finance with DeFi France
+### Discovering Decentralized Finance with DeFi France
 
 {{< youtube vF-7T5EtcQo >}} 
 
