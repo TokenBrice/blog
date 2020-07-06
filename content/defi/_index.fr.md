@@ -2,16 +2,8 @@
 title: "DeFi France 🇫🇷"
 url: defifrance
 date: 2020-07-05T08:24:40+02:00
-description: "DeFi France est une communauté francophone pour discuter de finance décentralisée. Chaque mois, nous organisons une rendez-vous afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi."
+description: "**DeFi France est une communauté francophone pour discuter de finance décentralisée.** Chaque mois, nous organisons une rendez-vous afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi."
 ---
-
-DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
-
-C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Julien & de nombreuses autres personnes !
-
-{{< youtube vF-7T5EtcQo >}} 
-
-### À la découverte de la finance décentralisée
 
 Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouverez sur [notre chaine Youtube](https://www.youtube.com/channel/defifrance) :
 
@@ -19,12 +11,24 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 | :---: | :---: | :---: |
 |  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >800 francophones | Pour ne pas rater les prochains évènements |
 
+---
+
 ### Prochain rendez-vous
 
 |  Date | Thème | Participants |
 | :---: | :---: | :---: |
 | 16 Juillet 2020 | DeFi France Social | Infos sur le [Telegram](https://t.me/defifrance) |
 | Juillet 2020 | DeFi France X | TBD |
+
+---
+
+### DeFi France, c'est quoi ?
+
+DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
+
+C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Julien & de nombreuses autres personnes !
+
+---
 
 ### Historique des rendez-vous
 
@@ -39,6 +43,14 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 |  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
 |  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh4) | Mounir, Julien, Brice |
 |  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
+
+---
+
+### À la découverte de la finance décentralisée avec DeFi France
+
+{{< youtube vF-7T5EtcQo >}} 
+
+---
 
 ### Contenus 🇫🇷 pour découvrir la DeFi
 
@@ -60,6 +72,8 @@ Une introduction assez complète à la finance décentralisée qui vous présent
 #### [🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})
 
 Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining".
+
+---
 
 ### DeFi France BlaBla
 
