@@ -73,6 +73,8 @@ Une introduction assez complète à la finance décentralisée qui vous présent
 
 Dans la suite directe du premier, cet article vous présentera différents outils utiles pour accéder aux services de finance décentralisée, ou encore suivre l'évolution de la valeur de vos actifs. Il présente également différent conseils pour tirer profit au mieux du " liquidity mining".
 
+#### [💦 Pools de Liquidité avec programmes d'incitation - La Tier List]({{< relref "yield-farmer-tier-list.fr.md" >}})
+
 ---
 
 ### DeFi France BlaBla
