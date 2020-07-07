@@ -23,9 +23,9 @@ _ℹ Traduction personnelle d'une [production originale Monolith](https://medium
 
 Le coffre communautaire est un contrat intelligent vers lequel une commission de 1% est versée lorsqu'un utilisateur recharge sa carte Monolith avec un autre token que le TKN.
 
-Voici un exemple de ce qui se passe sous le capot lorsqu'un utilisateur sélectionne 1 ETH à convertir en fiat et à charger sur sa carte de débit :
+Voici un exemple de ce qui se passe sous le capot lorsqu'un utilisateur sélectionne 1 ETH à convertir en fiat et à charger sur sa carte de crédit :
 
-1. 💳 1.00 ETH est vendu au taux du marché pour créditer le compte de la carte de débit de l'utilisateur.
+1. 💳 1.00 ETH est vendu au taux du marché pour créditer le compte de la carte de crédit de l'utilisateur.
 
 1. 🗝 Le **1% de contribution communautaire** (0,01 ETH) facturé **est envoyé directement vers notre Community Chest**. La contribution communautaire est levée lorsque l'utilisateur recharge son compte à l'aide du token TKN.
 

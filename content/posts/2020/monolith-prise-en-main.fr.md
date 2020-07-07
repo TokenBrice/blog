@@ -15,7 +15,7 @@ Il a inauguré une nouvelle ère dans le domaine de la finance, une ère où les
 Comme notre logo l'indique, chez Monolith, nous travaillons à la mise en place d'un portail vous permettant d'interagir de manière transparente avec DeFi, en utilisant :
 
 1. Un portefeuille Ethereum qui servira de passerelle vers cet écosystème financier décentralisé
-2. Une carte de débit Visa (disponible en France) qui, associée à notre portefeuille, vous permet de dépenser vos actifs Ethereum-natifs partout.
+2. Une carte de crédit Visa (disponible en France) qui, associée à notre portefeuille, vous permet de dépenser vos actifs Ethereum-natifs partout.
 
 Cet article vous guidera dans le processus de création de votre portefeuille Monolith et pour la commande de votre carte.
 
@@ -62,7 +62,7 @@ Monolith vous permet également d'établir une **limite de dépenses quotidienne
 
 ![Déploiement du Contract Wallet Monolith](/img/2020/monolith-prise-en-main/3-deploy.gif)
 
-Maintenant que votre portefeuille est déployé et sécurisé, l'étape suivante consiste à commander votre carte de débit Visa.
+Maintenant que votre portefeuille est déployé et sécurisé, l'étape suivante consiste à commander votre carte de crédit Visa.
 
 Comme la carte permet de vendre des tokens en euros ou en livres sterling, nous sommes confrontés à des exigences réglementaires supplémentaires, ce qui signifie que nous devons confirmer votre identité et votre adresse.
 
@@ -119,7 +119,7 @@ Vous pouvez donc remplir votre gas tank avec des ETH en appuyant sur votre nivea
 
 #### 3/ Recharger votre carte Monolith
 
-Avec un peu d'argent dans votre portefeuille et de l'essence dans votre réservoir, vous pouvez maintenant faire le plein - vendre quelques tokens pour des euros - et vous préparer à utiliser votre carte de débit Visa.
+Avec un peu d'argent dans votre portefeuille et de l'essence dans votre réservoir, vous pouvez maintenant faire le plein - vendre quelques tokens pour des euros - et vous préparer à utiliser votre carte de crédit Visa.
 
 ![Recharge de 10 USDC sur une carte Monolith GBP (des cartes EURO sont également disponibles)](/img/2020/monolith-prise-en-main/6-card-top-up.gif)
 
