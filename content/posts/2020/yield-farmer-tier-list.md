@@ -1,6 +1,6 @@
 ---
 title: "💦 The Yield Farmer Tier List"
-description: "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: the more layers, the better!"
+description: "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: let's stack!"
 date: '2020-07-07T01:13:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve, Liquidity Incentives, Liquidity Mining, Ampleforth, mUSD]
@@ -213,6 +213,7 @@ Happy farming!
 ---
 
 *Thanks to [Grégoire](https://twitter.com/gregoireljda) for his help proofreading this article.*
+*Thanks to [Jon](https://twitter.com/otherbright) for his careful review of the FR translation.*
 
 [^1]:[mStable](https://mstable.org) is a "meta stablecoin" aggregating several stablecoins together (USDC, USDT, TUSD & DAI) under the mUSD token, while the underlying supply is mobilised similarly to Curve (lending and liquidity providing).
 [^2]: You can view the current mUSD underlying distribution on the [mStable app](https://app.mstable.org/).

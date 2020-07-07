@@ -213,6 +213,7 @@ Je vous présente le profil de risque de l'un des pools pour vous aider à le mo
 ---
 
 *Merci à [Grégoire](https://twitter.com/gregoireljda) pour son aide dans la relecture de cet article.*
+*& merci à [Jon](https://twitter.com/otherbright) pour sa dernière relecture très attentive de la version française.*
 
 [^1]: [mStable](https://mstable.org) est un "meta stablecoin" regroupant plusieurs stablecoins (USDC, USDT, TUSD & DAI) sous le tokens mUSD, tandis que les stablecoins vérouillés sont mobilisés de manière similaire à Curve (prêt et apport de liquidité).
 [^2]: Vous pouvez consulter la distribution actuelle des tokens sous-jacent à mUSD sur l'application [mStable app](https://app.mstable.org/).
