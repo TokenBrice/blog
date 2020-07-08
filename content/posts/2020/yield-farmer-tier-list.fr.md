@@ -114,7 +114,11 @@ Le réseau Jarvis propose un programme d'incitation sur trois pools, tous à 90 
 
 [📖 Introduction au programme d'incitation](https://medium.com/jarvis-network/liquidity-program-with-balancer-db23aa0ce10)
 
-Note : le prix du token JRT a été assez actif ces derniers temps. Faites votre propre recherche.
+Note : le prix du token JRT a été assez actif ces derniers temps. Faites vos propres recherches.
+
+⚡ Mise à jour (_08 Juillet_): les JRT supplémentaires sont désormais distributés sur TOUTES les pools Balancer vérifiées (whitelisted):
+
+{{< tweet 1280887456339046400 >}}
 
 ### AMPL Geyser
 

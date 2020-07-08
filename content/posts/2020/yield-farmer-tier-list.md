@@ -113,6 +113,10 @@ Jarvis Network offers an incentive program over three pools, all 90 % JRT + 10% 
 
 _Please note: JRT price's action has been quite explosive lately. DYOR._
 
+⚡ Update (_July 08_): JRT rewards are now distributed to ANY Balancer pool (whitelisted):
+
+{{< tweet 1280887456339046400 >}}
+
 ### AMPL Geyser
 
 AMPL is a beast of its own, so I invite you to read more on it [^3] before you dive into this one. Here, the exposure is 50 % ETH and 50 % AMPL. On top of your commissions, you're eligible for extra AMPL & as well as the AMPL rebalances (on your AMPL = 50% of the exposure).
