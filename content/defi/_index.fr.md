@@ -17,7 +17,7 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 
 |  Date | Thème | Participants |
 | :---: | :---: | :---: |
-| 16 Juillet 2020 | DeFi France Social | Infos sur le [Telegram](https://t.me/defifrance) |
+| 16 Juillet 2020 | DeFi France Social 1 | [Infos par ici](https://www.meetup.com/DeFi-France/events/271838551/) |
 | Juillet 2020 | DeFi France X | TBD |
 
 ---
