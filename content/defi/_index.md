@@ -23,7 +23,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 
 | Date | Theme | Participants |
 | :---: | :---: | :---: |
-| July 16, 2020 | DeFi France Social | Infos on the [Telegram](https://t.me/defifrance) |
+| July 16, 2020 | DeFi France Social | [Infos here - EN-only speakers friendly!](https://www.meetup.com/DeFi-France/events/271838551/)|
 | July 2020 | DeFi France X | TBD |
 
 ---
