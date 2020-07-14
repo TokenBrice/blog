@@ -175,7 +175,7 @@ Because these two Curve pools have full exposure in a stable (USD) or relatively
 
 ### Your Favorite ERC-20 Balancer Pool
 
-The Balancer exchange comes with built-in BAL mining incentives. They apply to any pool involving whitelisted tokens. Therefore, any Balancer pool is already a twofecta: you're eligible for commissions on the swaps facilitated + the BAL mining rewards. Please keep in mind that the pool weighting (ideally balanced) and fees (ideally low) affet the BAL mining ratio. The table below assume a ratio of 1, observed for instance on 50/50 pairs with 5 bps fees (0.05%).
+The Balancer exchange comes with built-in BAL mining incentives. They apply to any pool involving whitelisted tokens. Therefore, any Balancer pool is already a twofecta: you're eligible for commissions on the swaps facilitated + the BAL mining rewards. Please keep in mind that the pool weighting (ideally balanced) and fees (ideally low) affect the BAL mining ratio. The table below assume a ratio of 1, observed for instance on 50/50 pairs with 5 bps fees (0.05%).
 
 Let's look at the return profile generic Balancer pools:
 
@@ -224,4 +224,4 @@ Happy farming!
 [^3]: [Ampleforth (AMPL)](http://ampleforth.org/) is "adaptive money built on sound economics". It intends to provide a new type of asset which price movement is uncorrelated from any other.
 [^4]: [Certik - Audit Report 28 Feb 2020](https://github.com/ampleforth/ampleforth-audits/blob/master/token-geyser/v1.0.0/CertiK_Verification_Report.pdf)
 [^5]: There are currently 51 643 NXM staked on the AMPL Geyser Contract [`0xd36132e0c1141b26e62733e018f12eb38a7b7678`](https://etherscan.io/address/0xd36132e0c1141b26e62733e018f12eb38a7b7678). ![cover-Yield-Farmer-Tier-List](/img/2020/yield-farmer-tier-list/ampl-geyser-insurance.png)
-[^6]: The Curve sUSD pool was already mentioned as part of a DeFi investment strategy built on an SNX stake in the [DeFinancial Service Guide](https://tokenbrice.xyz/posts/2020/definancial-services-guide/#5-a-the-synthetixcurve-yieldstack-aka-the-4-steaks-yieldburger)]
+[^6]: The Curve sUSD pool was already mentioned as part of a DeFi investment strategy built on an SNX stake in the [DeFinancial Service Guide](https://tokenbrice.xyz/posts/2020/definancial-services-guide/#5-a-the-synthetixcurve-yieldstack-aka-the-4-steaks-yieldburger)
