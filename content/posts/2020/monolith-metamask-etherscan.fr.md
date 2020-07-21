@@ -16,7 +16,7 @@ _ℹ Traduction personnelle d'une [production originale Monolith](https://medium
 
 ### Ce dont vous aurez besoin :
 
-1. Sur votre téléphone : [l'application Monolith](https://monolith.app.link/rUNR0lu2Q1)
+1. Sur votre téléphone : [l'application Monolith](https://monolith.app.link/ETH-IS-MONEY)
 2. Sur votre ordinateur : [Chrome](https://www.google.com/chrome/), [Chromium](https://www.chromium.org/), ou [Brave](https://brave.com) + [MetaMask](https://metamask.io/)
 
 ### Importation de votre portefeuille Monolith dans MetaMask

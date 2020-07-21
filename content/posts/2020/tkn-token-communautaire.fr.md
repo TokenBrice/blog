@@ -1,6 +1,6 @@
 ---
 title: "TKN, le token commununautaire" 
-description: "À la découverte du portefeuille Ethereum Monolith qui propose un carte de crédit Visa tout en conservant un contrôle total sur vos actifs."
+description: "Une introduction à TKN, le token communautaire de Monolith - portefeuille Ethereum avec une carte Visa : coffre communautaire, TKN burn et contrats."
 date: '2020-07-05T10:13:50.191Z'
 categories: [🌌 DeFi, 👾 Monolith]
 tags: [DeFi, Ethereum, Monolith, TKN]
@@ -8,12 +8,12 @@ tags: [DeFi, Ethereum, Monolith, TKN]
 
 ![Monolith TKN - Le token communautaire](/img/2020/tkn-token-communautaire/cover.jpeg)
 
-TKN est un élément central de l'offre Monolith. Dans ce billet, nous allons aborder les bases de notre tokenomique en deux sections :
+TKN est un élément central de l'offre Monolith. Dans ce billet, je vais aborder les bases de sa tokenomique en deux sections :
 
 1. 🏦 Le "Coffre Communautaire"
 2. 🔥 TKN Burn
 
-Avant de vous lancer dans les complexités de TKN, nous vous recommandons de lire rapidement [l'article de prise en main de Monolith]({{< relref "monolith-prise-en-main.fr.md" >}}). Bien que nous décrivions brièvement notre mécanisme de top-up ci-dessous, vous trouverez dans cet article un aperçu complet de notre produit et vous pourrez ainsi anticiper bon nombre de vos questions d'utilisation.
+Avant de vous lancer dans les complexités de TKN, je vous recommande de lire rapidement [l'article de prise en main de Monolith]({{< relref "monolith-prise-en-main.fr.md" >}}). Bien que je décris brièvement le mécanisme de top-up ci-dessous, vous trouverez dans cet article un aperçu complet de Monolith et vous pourrez ainsi anticiper bon nombre de vos questions d'utilisation.
 
 _ℹ Traduction personnelle d'une [production originale Monolith](https://medium.com/monolith/tkn-101-the-community-token-8ba00a13fbc7)._
 
@@ -23,15 +23,15 @@ _ℹ Traduction personnelle d'une [production originale Monolith](https://medium
 
 Le coffre communautaire est un contrat intelligent vers lequel une commission de 1% est versée lorsqu'un utilisateur recharge sa carte Monolith avec un autre token que le TKN.
 
-Voici un exemple de ce qui se passe sous le capot lorsqu'un utilisateur sélectionne 1 ETH à convertir en fiat et à charger sur sa carte de crédit :
+Voici un exemple de ce qui se passe sous le capot lorsqu'un utilisateur sélectionne 1 ETH à convertir en Euros pour charger sa carte :
 
 1. 💳 1.00 ETH est vendu au taux du marché pour créditer le compte de la carte de crédit de l'utilisateur.
 
 1. 🗝 Le **1% de contribution communautaire** (0,01 ETH) facturé **est envoyé directement vers notre Community Chest**. La contribution communautaire est levée lorsque l'utilisateur recharge son compte à l'aide du token TKN.
 
-1. 🔮 Une **redevance (0,0101 ETH) de **1% est payée à Monolith. La redevance est supprimée sur les pièces stables (telles que DAI, USDC, ou USDT).**
+1. 🔮 Une **redevance (0,0101 ETH) de 1%** est payée à Monolith. La redevance est levée sur les tokens stables (tels que DAI, USDC, ou USDT).
 
-Il est essentiel pour nous d'être transparents sur nos tarifs - [consultez tous nos tarifs ici](https://monolith.xyz/pricing/).
+[Vous pouvez consulter tous les tarifs ici](https://monolith.xyz/pricing/).
 
 ![Recharge (top-up) de la carte Monolith](/img/2020/tkn-token-communautaire/1-top-up.png)
 
