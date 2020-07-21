@@ -152,6 +152,10 @@ Pour une vue plus globale du marché, vous pouvez regarder :
 
 ### Ressources spécifiques à chaque plate-forme
 
+**Synthetix / Yearn**
+
+Il y a tellement d'oppurtinités qu'il peut être dur de les suivre ! Heureusement, les outils se développent rapidement aussi : **[yieldfarming.info](https://yieldfarming.info/) est très pratique** pour suivre les pools Synthetix/Yearn.
+
 **Compound**
 
 Vous trouverez un [aperçu des jetons COMP gagnés et réclamés (claim)](https://explore.duneanalytics.com/public/dashboards/JMB9bYfVUtMAPHM5moj7aIjLaDwos2k9JjJTtk64) ici. Utilisez cet outil pour [calculer les rendements attendus du COMP](http://www.predictions.exchange/compound/None) obtenus en fournissant ou en empruntant des jetons sur le protocole Compound.

@@ -156,6 +156,10 @@ For a more holistic market view, you can check:
 
 ### Platform-specific resources
 
+**Synthetix / Yearn**
+
+There are so many pools and opportunities, it can be hard to keep track! Luckily, some really neat yield farmer tools are being developped. For Synthetix and Yearn.Finance especially, **[yieldfarming.info](https://yieldfarming.info/) is a neat ressource** to keep track of both platforms.
+
 **Compound**
 
 You'll find an **[overview of the COMP tokens mining & claims](https://explore.duneanalytics.com/public/dashboards/JMB9bYfVUtMAPHM5moj7aIjLaDwos2k9JjJTtk64)** here. Use this tool to **[calculate the expected COMP returns](http://www.predictions.exchange/compound/None)** obtained by supplying or borrowing tokens on Compound.
