@@ -159,7 +159,7 @@ uglyURLs = false
 
 # Maximum number of items in the Atom & RSS feed
 [services.rss]
-    limit = -1
+    limit = 25
 
 
 
@@ -1292,7 +1292,7 @@ uglyURLs = false
     displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
-    customFooter = "[🚀 IPFS](https://ipfs.io/) | [⚡ Fleek.co](https://fleek.co)"
+    customFooter = "[📶 RSS Feed](https://tokenbrice.xyz/rss.xml) | [Flux RSS 📡](https://tokenbrice.xyz/fr/rss.xml) <br>[🚀 IPFS](https://ipfs.io/) | [Fleek.co ⚡](https://fleek.co)"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "Site UV"
