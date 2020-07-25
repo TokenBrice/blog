@@ -21,6 +21,14 @@ Since the beginning of my career, I've worked with startups and helped them grow
 
 Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed on this blog.
 
+### Contact Me
+
+👉 [Have a closer look at the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
+
+|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
+| :---: | :---: | :---: | :---: | :---: |
+|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
+
 ---
 
 ### Projects
@@ -42,16 +50,6 @@ Monolith frequently organises panel discussions to address topics at the very he
 You'll find more information here:
 - [mDeFi Meetup Page](https://www.meetup.com/monolith/) - to stay in touch with upcoming events or [follow Monolith on Twitter](https://twitter.com/monolith_web3/)
 - [Videos of all previous #mDeFi](https://www.youtube.com/playlist?list=PLimDUDoPGQcmP7E4KKBi8BzMt7gk9izJU) on Monolith Youtube.
-
----
-
-### Contact
-
-👉 [Have a closer look at the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
-
-|  🌟 Status IM | 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
-| :---: | :---: | :---: | :---: | :---: |
-|  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
 
 ---
 

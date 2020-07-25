@@ -97,6 +97,13 @@
 		"date": "2020"
 	},
 	{
+		"tags": ["video", "en", "meetup", "discussion"],
+		"name": "#mDeFi 5 - The next generation of stablecoins",
+		"host": "Monolith",
+		"link": "https://www.youtube.com/watch?v=jPrwinPvwv4",
+		"date": "2020"
+	},
+	{
 		"tags": ["audio", "discussion", "en"],
 		"name": "Zerion launches DeFi SDK 🧱, Another DeFi attack 🤦‍♂️ & Balancer Labs raises $3M 🚀",
 		"host": "Abel Abstracts",
