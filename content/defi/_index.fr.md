@@ -9,7 +9,7 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 
 |  **[📽 Chaine Youtube](https://www.youtube.com/channel/defifrance)** | **[🛩 Groupe Telegram](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
 | :---: | :---: | :---: |
-|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >800 francophones | Pour ne pas rater les prochains évènements |
+|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >1100 francophones | Pour ne pas rater les prochains évènements |
 
 ---
 
@@ -17,8 +17,8 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 
 |  Date | Thème | Participants |
 | :---: | :---: | :---: |
-| 16 Juillet 2020 | DeFi France Social 1 | [Infos par ici](https://www.meetup.com/DeFi-France/events/271838551/) |
-| Juillet 2020 | DeFi France X | TBD |
+| Août | DeFi France Social II - Au soleil ~Nice  | Infos à venir |
+| Août | DeFi France Social III - Paris | Infos à venir |
 
 ---
 

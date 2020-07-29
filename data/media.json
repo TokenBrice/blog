@@ -1,10 +1,38 @@
 [
 	{
+		"tags": ["audio", "discussion", "fr"],
+		"name": "La finance décentralisée (DeFi), la banque sans banquiers (avec Brice Berdah)",
+		"host": "21 Millions - Capital",
+		"link": "https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78",
+		"date": "2020"
+	},
+	{
 		"tags": ["post", "fr", "interview"],
 		"name": "Les français qui font Ethereum #1 : Brice Berdah de Monolith",
 		"host": "Ethereum France",
 		"link": "https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/",
 		"date": "2019"
+	},
+	{
+		"tags": ["video","fr"],
+		"name": "BanklessFR - 1er Point Projet",
+		"host": "BanklessFR",
+		"link": "https://www.youtube.com/watch?v=8I0iryRuFIo&t=1s",
+		"date": "2020"
+	},
+	{
+		"tags": ["video","fr"],
+		"name": "Point Projet #3 BanklessFR & Trousse à outils DeFi",
+		"host": "BanklessFR",
+		"link": "https://www.youtube.com/watch?v=We8NjZY8zK0",
+		"date": "2020"
+	},
+	{
+		"tags": ["video","fr"],
+		"name": "Live Bankless FR #1 - Quelle stratégie adopter dans un monde à 100 gwei / transaction rapide ?",
+		"host": "BanklessFR",
+		"link": "https://www.youtube.com/watch?v=3GwKBTG8zXU",
+		"date": "2020"
 	},
 	{
 		"tags": ["meetup", "post","fr"],
@@ -63,31 +91,11 @@
 		"date": "2020"
 	},
 	{
-		"tags": ["video","fr"],
-		"name": "BanklessFR - 1er Point Projet",
-		"host": "BanklessFR",
-		"link": "https://www.youtube.com/watch?v=8I0iryRuFIo&t=1s",
-		"date": "2020"
-	},
-	{
-		"tags": ["video","fr"],
-		"name": "Point Projet #3 BanklessFR & Trousse à outils DeFi",
-		"host": "BanklessFR",
-		"link": "https://www.youtube.com/watch?v=We8NjZY8zK0",
-		"date": "2020"
-	},
-	{
 		"tags": ["mention", "post","fr"],
 		"name": "Hebdo Crypto #87 – les actualités de la semaine des cryptomonnaies",
 		"host": "Le Journal Du Coin",
-		"link": "https://journalducoin.com/bitcoin/hebdo-crypto-87-les-actualites-de-la-semaine-des-cryptomonnaies/"
-	},
-	{
-		"tags": ["audio", "discussion", "fr"],
-		"name": "La finance décentralisée (DeFi), la banque sans banquiers (avec Brice Berdah)",
-		"host": "21 Millions - Capital",
-		"link": "https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78",
-		"date": "2020"
+		"link": "https://journalducoin.com/bitcoin/hebdo-crypto-87-les-actualites-de-la-semaine-des-cryptomonnaies/",
+		"date": "2020"		
 	},
 	{
 		"tags": ["audio", "discussion", "fr"],
