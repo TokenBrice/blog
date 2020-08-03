@@ -58,7 +58,7 @@ Voici mes conseils et recommandations pour éviter que cela ne vous arrive :
 
 **Ne mettez pas tous vos œufs dans le même panier** : sur Maker, vous pouvez ouvrir autant de coffres que vous le souhaitez. Si vous ne voulez pas ouvrir des centaines de coffres pour maîtriser les coûts du gaz, vous pouvez aussi envisager de diviser vos coffres pour ne pas faire courir le même risque à toutes vos ETH et pouvoir gérer les coffres plus progressivement au fur et à mesure de leur croissance.
 
-**Gestion facile des coffres Maker** : si vous souhaitez une approche moins stressante, vous pouvez utiliser [DeFiSaver](https://defisaver.com/) pour vous assurer que votre position soit automatiquement maintenue à un certain ratio.
+**Gestion facile des coffres Maker** : si vous souhaitez une approche moins stressante, vous pouvez utiliser [DeFiSaver](https://defisaver.com/) pour vous assurer que votre position soit automatiquement maintenue à un certain ratio (Save).
 
 ![Automatisation de la gestion des coffres Maker avec DeFi Saver](/img/2020/leveraging-ETH/defisaver-automation.png "Automatisation de la gestion des coffres Maker avec DeFi Saver")
 

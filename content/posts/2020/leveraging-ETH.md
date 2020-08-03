@@ -60,7 +60,7 @@ Here are my tips and recommendations to make sure this does not happen to you:
 
 **Don't put all of your eggs in one basket**: on Maker, you can open as many vaults as you want. While you don’t want to open hundreds of positions to keep the gas costs in check, you might also want to consider splitting your stash to not put all of your ETH under the same risk and be able to more gradually manage the positions as they grow.
 
-**Easy Vault Management**: if you'd like a less stressful approach, you can use [DeFiSaver](https://defisaver.com/) to make sure your vault is automatically kept at a certain ratio.
+**Easy Vault Management**: if you'd like a less stressful approach, you can use [DeFiSaver](https://defisaver.com/) to make sure your vault is automatically kept at a certain ratio with the Save function.
 
 ![Automating Maker Vault Management with DeFi Saver](/img/2020/leveraging-ETH/defisaver-automation.png "Automation Options on DeFi Saver.")
 
@@ -111,7 +111,7 @@ Obviously, it's very nice for ETH-leveraged long. Indeed, if DAI trades at $1.03
 
 If you are considering investing in the Curve y pool, I'd recommend going 100% from DAI. You'll save gas cost massively on the swaps that are not required (+ less deposit and approve tx). On top of these savings, entering the Curve y pool fully in DAI usually has a positive price slippage.
 
-Currently it sits ~1.5% over 5000 DAI: that is 1.5% instant profit as you enter the position, quite attractive right? 
+Currently it sits ~1.5% over 5000 DAI: that is 1.5% instant profit as you enter the position, quite attractive right?
 
 ![Curve DAI Premium](/img/2020/leveraging-ETH/curve-dai-premium.png "Positive slippage while entering the y Curve pool full DAI")
 
