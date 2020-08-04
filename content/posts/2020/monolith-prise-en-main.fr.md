@@ -82,7 +82,7 @@ Il est possible que, dans le cadre des contrôles, nous ayons besoin d'informati
 Une fois votre identité validée, nous devons confirmer votre addresse:
 1. Vous devez pour cela fournir **un document officiel récent** (< 3 mois) lisant **votre nom et addresse**.
 2. **Votre carte Monolith est envoyée à l'addresse confirmée par le document.**
-3. Tout document officiel lié à votre addresse est acceptable, voici quelques exemples: facture d'électrictieé ou gas, facture internet mobile, ou tout document officiel.
+3. Tout document officiel lié à votre addresse est acceptable, voici quelques exemples: facture d'électricité ou gas, facture internet mobile, ou tout document officiel.
 
 Lors de la commande de votre carte, vous pouvez décider de la devise de base qu'elle utilisera : GBP (£) ou EUR (€). La devise de base de la carte a une incidence sur [la structure des frais](https://monolith.xyz/pricing/), aussi assurez-vous d'en tenir compte lorsque vous commandez votre carte. Pour un français qui vit et dépense en France, le choix d'une carte € est assez évident.
 
