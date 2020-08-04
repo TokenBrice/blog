@@ -5,7 +5,7 @@ description: >-
   with forgetting the fairy tales we've heard about bartering.
 date: '2018-07-18T12:13:32.950Z'
 categories: [⛓ Blockchain, 🛸 Basics]
-tags: [ecocrypto]
+tags: [bitcoin, currency, money, cryptocurrency, blockchain]
 ---
 
 ![](/img/2018/money101/cover.jpeg)

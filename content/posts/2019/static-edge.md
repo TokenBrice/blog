@@ -2,7 +2,7 @@
 title: The Edge of the Static Web
 date: '2019-03-18T09:44:14.735Z'
 description: Go static to dramatically improve performance, indexation, and rendering consistency
-keywords: [web development, static websites, static web, dynamic websites, Gatsby, Jekyll, Hugo, Forestry, Netlify]
+tags: [web development, static websites, static web, dynamic websites, Gatsby, Jekyll, Hugo, Forestry, Netlify]
 categories: [🔍 Analysis, 🕸 Static Web]
 canonicalUrl: https://blog.callr.tech/static-website-performance-seo/
 ---
