@@ -16,7 +16,7 @@ Avec ce seul objectif à l'esprit, la solution la plus évidente était [Maker](
 
 Voilà donc l'idée initiale : au lieu d'investir directement vers l'ERC20 ou les stablecoins et de les déployer, vous maintenez une base de l'ETH, vous l'utilisez pour générer des DAI, puis vous vous diversifiez dans vos coffres. De cette façon, vous conservez une exposition saine à l'ETH - le compromis étant le risque supplémentaire, y compris la liquidation, qui est abordé ci-dessous.
 
-![Maker-Leveraging-ETH-overview](/img/2020/leveraging-ETH/leveraging-ETH.png "Un aperçu des principales stratégies que vous pouvez mettre en œuvre en utilisant le DAI extrait de vos positions ETH sur Maker")
+![Maker-Leveraging-ETH-overview](/img/2020/leveraging-ETH/leveraging-ETH-fr.png "Un aperçu des principales stratégies que vous pouvez mettre en œuvre en utilisant le DAI extrait de vos positions ETH sur Maker")
 
 ## Réinvestissir les DAI
 
