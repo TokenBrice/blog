@@ -5,7 +5,7 @@ description: >-
   current crooked order of political affairs.
 date: '2017-04-16T17:31:42.218Z'
 categories: [🧔 Opinions, 🗳 Campaign]
-tags: []
+tags: [Politics, Community Engagement, Grassrooots campaigns]
 ---
 
 ![Jean-Luc Mélenchon speaking at Marseille 04/09/2017](/img/2017/distributed-networks-2/cover.jpeg)

@@ -5,7 +5,7 @@ description: >-
   United States to the current state of political affairs in France…
 date: '2017-04-10T08:41:30.302Z'
 categories: [🧔 Opinions, 🗳 Campaign]
-tags: []
+tags: [Politics, Community Engagement, Grassrooots campaigns]
 ---
 
 ![](/img/2017/distributed-networks-1/cover.jpeg)
