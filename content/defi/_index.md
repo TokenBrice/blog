@@ -17,16 +17,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 | :---: | :---: | :---: |
 | Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >800 French speakers | Not to miss the next events |
 
----
-
-### Next Meetup
-
-| Date | Theme | Participants |
-| :---: | :---: | :---: |
-| July 16, 2020 | DeFi France Social | [Infos here - EN-only speakers friendly!](https://www.meetup.com/DeFi-France/events/271838551/)|
-| July 2020 | DeFi France X | TBD |
-
----
+![](/img/others/defifrance.png)
 
 ### Meetup History
 

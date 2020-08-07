@@ -11,16 +11,7 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 | :---: | :---: | :---: |
 |  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >1100 francophones | Pour ne pas rater les prochains évènements |
 
----
-
-### Prochain rendez-vous
-
-|  Date | Thème | Participants |
-| :---: | :---: | :---: |
-| Août | DeFi France Social II - Au soleil ~Nice  | Infos à venir |
-| Août | DeFi France Social III - Paris | Infos à venir |
-
----
+![](/img/others/defifrance.png)
 
 ### DeFi France, c'est quoi ?
 
