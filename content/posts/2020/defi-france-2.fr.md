@@ -6,6 +6,8 @@ categories: [🌌 DeFi, 🇫🇷 DeFi France]
 tags: [BanklessFR, DeFi France, Live, Meetups]
 ---
 
+![defi-france-cover](/img/others/defifrance.png)
+
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 
 
 Aujourd'hui, nous avons de plus en plus de monde rejoignant le groupe, avec des niveaux d'expertise et des attentes différents. Il convient donc de structurer notre présence pour la rendre plus accessible.
