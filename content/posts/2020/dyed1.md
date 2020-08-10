@@ -6,6 +6,8 @@ categories: [🌌 DeFi, 👽 DYED]
 tags: [DeFi, Ethereum, learning DeFi]
 ---
 
+![Do-You-Even-DeFi-Cover](/img/others/dyed/DYED1.png)
+
 Welcome aboard,
 
 I'm thrilled to be doing this openly for the first time. I helped many friends, colleagues and family members to realize the potential of decentralised finance. When my colleague Vincent asked me to help him figure this out, I knew it was time to share it with the world too!
