@@ -6,23 +6,23 @@ categories: [🌌 DeFi, 🇫🇷 DeFi France]
 tags: [BanklessFR, DeFi France, Live, Meetups]
 ---
 
-![defi-france-cover](/img/others/defifrance.png)
-
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 
 
 Aujourd'hui, nous avons de plus en plus de monde rejoignant le groupe, avec des niveaux d'expertise et des attentes différents. Il convient donc de structurer notre présence pour la rendre plus accessible.
 
+![defi-france-cover](/img/others/defifrance.png)
+
 En ces temps d'emballement sur les marchés, les medias cryptos se montrent de plus en plus cupides, et toujours plus partiaux. La force de DeFi France est sa dimension organique, et nous entendons le démontrer. Nous sommes convaincus que la communauté peut produire des contenus de très haute qualité, dépassant très largement le niveau des publications professionelles françaises.
 
-**L'objet de la seconde année de DeFi France est donc d'instutuer DeFi France en media !** Nous voulons proposer un media alternatif crédible qui ne répond qu'à la communauté et l'ériger en force inconstestable face aux journaux et youtubeurs guidés par leur bourse.
+**L'objet de la seconde année de DeFi France est donc d'instituer DeFi France en media !** Nous voulons proposer un media alternatif crédible qui ne répond qu'à la communauté et l'ériger en force incontestable face aux journaux et youtubeurs guidés par leur bourse.
 
-DeFi France 2.0 est donc une charge militante ! De notre coté, on vous promet une chose : on se mobilise, on rameute et on va occuper le terrain. Nous allons impliquer beaucoup plus de personne, densifier et diversifier notre offre. Le but du plan 2.0 est de faire émerger de nouveaux visages au sein de DeFi France pour se renouveler.
+DeFi France 2.0 est donc une charge militante ! De notre coté, on vous promet une chose : on se mobilise, on rameute et on va occuper le terrain. Nous allons impliquer beaucoup plus de personnes, densifier et diversifier notre offre. Le but du plan 2.0 est de faire émerger de nouveaux visages au sein de DeFi France pour se renouveler.
 
 Quand à vous - comme toujours vous êtes la clef du succès de toute notre aventure : 
 
-### Comment contribuer?
+### Comment contribuer ?
 
-Je détaille plus bas les différents poles envisagés, mais commençons par rappeler une évidence. **La meilleure mannière de nous aider reste encore de parler de DeFi France autour de vous et soutenir nos différentes initiatives** :
+Je détaille plus bas les différents pôles envisagés, mais commençons par rappeler une évidence. **La meilleure mannière de nous aider reste encore de parler de DeFi France autour de vous et soutenir nos différentes initiatives** :
 
 1. [Rejoignez le groupe Telegram si ça n'est pas déjà fait](https://t.me/defifrance)
 2. [Inscrivez-vous à la newsletter BanklessFR](https://banklessfr.substack.com/)
@@ -50,14 +50,14 @@ DeFi France se doit de développer sa réputation à l'international. Nous envis
 
 ### DFP #3 - DeFi France LIVE
 
-**RESPONSABLE = @TokenBrice + 4 (toi?)**
+**RESPONSABLE = @TokenBrice + 4 (toi ?)**
 
-2-4 emissions hebdomadaires avec des approches et présentateurs différents pour parler DeFi.
+2-4 émissions hebdomadaires avec des approches et présentateurs différents pour parler DeFi.
 
 
 
-1. PRÉSENTATEURS | Être co-hôte d'un émission: passionné de DeFi, pas forcément expert, mais à l'aise - c'est en direct (vidéo + audio).
-2. EDITION, PROMOTION, OPTIMISATION | Tu es un pro du Youtube game? Un as du direct et du montage ? On a grand besoin de tes talents !
+1. PRÉSENTATEURS | Être co-hôte d'un émission : passionné de DeFi, pas forcément expert, mais à l'aise - c'est en direct (vidéo + audio).
+2. EDITION, PROMOTION, OPTIMISATION | Tu es un pro du Youtube game ? Un as du direct et du montage ? On a grand besoin de tes talents !
 
 
 ### DFP #4 - DEFI FRANCE ANNOUNCEMENT (INFO/CURATION)
@@ -86,7 +86,7 @@ Les meetups continuent et évoluent. On pensait marquer un grand coup pour le re
 
 **_Étendre/migrer la page [DeFi France](https://tokenbrice.xyz/fr/defifrance/) existante pour inclure toutes les initiatives et faciliter 1/ la prise en main pour les nouveaux, 2/ suivre les évents + productions pour les habitués_**
 
-Cette proposition est plus une promesse, quelque chose qui aurait du être fait depuis longtemps. 
+Cette proposition est plus une promesse personelle, quelque chose qui aurait dû être fait depuis longtemps. 
 
 
 ### DFP #X - RIEN NE TE PARLE ? SUGGÈRE LE TIEN
