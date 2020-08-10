@@ -17,7 +17,7 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 
 DeFi France est un rendez-vous mensuel pour discuter de finance décentralisée, ainsi qu'une discussion continue sur Telegram. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
 
-C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Julien & de nombreuses autres personnes !
+C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Alexandre & de nombreuses autres personnes !
 
 ---
 
@@ -47,12 +47,12 @@ C'est une initiative communautaire portée par [Mounir Benchemled](https://twitt
 
 Ethereum et la finance décentralisée sont des concepts nouveaux pour vous ? Cette discussion avec Grégory pour le podcast 21 Millions est un excellent point de départ : **[🎙 La finance décentralisée (DeFi), la banque sans banquiers](https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78)**.
 
-Voici quelques ressources francophones apprendre :
-- **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des fondamentaux.
+Voici quelques ressources francophones pour découvrir et comprendre la DeFi :
+- **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
 - **[📰 Le blog Cryptoast](https://cryptoast.fr/defi-finance-decentralisee/)** : pour suivre l'actualité journalière relative aux cryptomonnaies.
-- **[🎥 La chaine Youtube CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : pour une perspective plus large sur les cryptos.
+- **[🎥 La chaine Youtube CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : pour une perspective plus large sur toutes les cryptos.
 
-Pour aller plus loin, je vous proposer d'explorer les différents guides que je publie :
+Pour continuer d'explorer la finance décentralisée, je vous proposer d'explorer les différents guides que je publie :
 
 ![Comment utiliser les services DeFinanciers à votre avantage ? - TokenBrice](/img/2020/definancial-services-guide/cover-fr.resized.jpeg)
 
@@ -70,7 +70,7 @@ Dans la suite directe du premier, cet article vous présentera différents outil
 
 ### DeFi France BlaBla
 
-Créé initialement pour garder la conversation sur le canal principal thématique et synthétique, DeFi France Bla Bla est un second Telegram pour une discussion plus libre au sein de la communauté.
+Créé initialement pour garder la conversation sur le canal principal thématique et synthétique, [DeFi France Bla Bla](https://t.me/defifranceblabla) est un second Telegram pour une discussion plus libre au sein de la communauté.
 
 #### Faits notables
 

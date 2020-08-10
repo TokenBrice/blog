@@ -4,3 +4,6 @@
 [submodule "themes/matomo"]
 	path = themes/matomo
 	url = https://github.com/holehan/hugo-components-matomo.git
+[submodule "themes/hugo-notice"]
+	path = themes/hugo-notice
+	url = https://github.com/martignoni/hugo-notice.git

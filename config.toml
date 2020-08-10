@@ -9,7 +9,7 @@ hasCJKLanguage = false
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
 # Name of theme
-theme = ["meme", "matomo"]
+theme = ["hugo-notice", "meme", "matomo"]
 
 # `hugo new` automatically opened text editor
 newContentEditor = "typora"
@@ -55,7 +55,7 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
-        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/fr/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [💸 BanklessFR](https://banklessfr.substack.com/) <br> [🇫🇷 DeFi France](/fr/defifrance) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
+        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/fr/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [🇫🇷 DeFi France & 💸 BanklessFR](/fr/defifrance)  <br>[👾 Do You Even DeFi? (EN)](/dyed/) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
         siteDescription = "Blog personnel de TokenBrice - Finance décentralisée (DeFi), Ethereum, et développement de communautés adaptées aux réalités web3. Contenus en FR & EN."
 
 # URL structure
@@ -220,8 +220,8 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/defifrance/"
-        name = "DeFi France"
+        url = "/dyed/"
+        name = "DYED?"
         weight = 4
         pre = "internal"
         post = "ethereum"
@@ -414,7 +414,7 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     # {{< relref path=\"/content/about/_index.md\" >}}
-    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.** <br><br> [🌌 DeFi Stories](categories/defi/) <br>[🇫🇷 DeFi France](defifrance) <br>[👾 About & Media](/about/)"]
+    homePoetry = ["Welcome traveler,<br><br> I hope you'll appreciate your stay in the Ether<br> [— TokenBrice](/about/),<br>Driven by one simple goal: <br> **To shine a light on the Etherial fire.** <br><br> [🌌 DeFi Stories](categories/defi/) <br>[🇫🇷 DeFi France](defifrance) <br>[👾 Do You Even DeFi?](/dyed/)"]
     # Padding of links at the bottom
     # Unit: em
     homeLinksPadding = 1

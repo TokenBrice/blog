@@ -9,7 +9,7 @@ DeFi France is a monthly meeting to discuss decentralized finance, as well as an
 
 **DeFi France is entirely held in French** to help native speakers (sometimes not always at ease in English) to keep track and learn about the space.
 
-It is a community initiative led by [Mounir Benchemled](https://twitter.com/mounibec) (creator of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) and your humble servant ([TokenBrice](https://twitter.com/TokenBrice)), as well thanks to the amazing support of the French community:  Pascal, Marc, Julien & many others !
+It is a community initiative led by [Mounir Benchemled](https://twitter.com/mounibec) (creator of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) and your humble servant ([TokenBrice](https://twitter.com/TokenBrice)), as well thanks to the amazing support of the French community:  Pascal, Marc, Alexandre & many others !
 
 All the monthly appointments of DeFi France are recorded. You will find them on [our Youtube channel](https://www.youtube.com/channel/defifrance):
 
