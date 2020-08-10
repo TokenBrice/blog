@@ -10,7 +10,7 @@ DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontan�
 
 Aujourd'hui, nous avons de plus en plus de monde rejoignant le groupe, avec des niveaux d'expertise et des attentes différents. Il convient donc de structurer notre présence pour la rendre plus accessible.
 
-![defi-france-cover](/img/others/defifrance.png)
+![defi-france-2](/img/others/defifrance2.jpg)
 
 En ces temps d'emballement sur les marchés, les medias cryptos se montrent de plus en plus cupides, et toujours plus partiaux. La force de DeFi France est sa dimension organique, et nous entendons le démontrer. Nous sommes convaincus que la communauté peut produire des contenus de très haute qualité, dépassant très largement le niveau des publications professionelles françaises.
 
