@@ -30,9 +30,9 @@ It will, however, help you understand what decentralised finance is, why it matt
 
 This program is entirely free - you are here for knowledge and should not expect any reward other than understanding DeFi better.
 
-So stay tuned for the first mission statement this afternoon! I’m eager to see how this goes.
+The first mission is now live: get started by following the link 👇
 
-[Do You Even DeFi? - Mission 1 - Gotta Get Dat ETH]({{< relref path="/content/posts/2020/dyed1.md" >}})
+**[Do You Even DeFi? - Mission 1 - Gotta Get Dat ETH]({{< relref path="/content/posts/2020/dyed1.md" >}})**
 
 ---
 
