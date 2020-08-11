@@ -137,7 +137,7 @@ I can't wait to the Yearn and its family grow!
 {{< notice warning >}}
 Yearn vaults are novel DeFi products integrating many others meaning the failure risks are compounded. I am not a financial advisor - you make your own decision. 
 
-**I am responsible for <u>YOUR INVESTMENT DECISIONS</u>**, may they bring you Lambos or bankruptcy.
+**I am NOT responsible for <u>YOUR INVESTMENT DECISIONS</u>**, may they bring you Lambos or bankruptcy.
 {{< /notice >}}
 
 [^2]: [Here's Stani (Aave's CEO) giving you a rundown of why this is big!](https://twitter.com/StaniKulechov/status/1280500969986498561?s=20)
