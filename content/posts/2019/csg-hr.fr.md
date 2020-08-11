@@ -1,5 +1,5 @@
 ---
-title: "Comment évaluer l'atomosphère d'une startup sans accès interne?"
+title: "Comment évaluer l'atmosphère d'une startup sans accès interne ?"
 date: '2019-02-24T15:00:20.293Z'
 categories: [📔 Guide, 🧐 Enquêter avant de signer]
 tags: []
