@@ -22,7 +22,7 @@ Quand à vous - comme toujours vous êtes la clef du succès de toute notre aven
 
 ### Comment contribuer ?
 
-Je détaille plus bas les différents pôles envisagés, mais commençons par rappeler une évidence. **La meilleure mannière de nous aider reste encore de parler de DeFi France autour de vous et soutenir nos différentes initiatives** :
+Je détaille plus bas les différents pôles envisagés, mais commençons par rappeler une évidence. **La meilleure manière de nous aider reste encore de parler de DeFi France autour de vous et soutenir nos différentes initiatives** :
 
 1. [Rejoignez le groupe Telegram si ça n'est pas déjà fait](https://t.me/defifrance)
 2. [Inscrivez-vous à la newsletter BanklessFR](https://banklessfr.substack.com/)

@@ -21,7 +21,7 @@ Let's grow and learn together!
 
 ---
 
-## Ressources
+## Resources
 
 As the program starts, I'll collate all links the relevant links here. Here are the key links to help you get started:
 
