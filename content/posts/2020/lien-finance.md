@@ -10,7 +10,7 @@ tags: [DeFi, Ethereum, Lending, Derivatives, Stablecoins, MakerDao, DAI, USDC, U
 
 Stablecoins are the base currency of DeFi - we could even argue they were key to get the scene started - indeed, volatility makes most of the lending/borrowing scenario complex if not impossible.
 
-Luckily for us, **the "stablecoin offer" expanded dramatically over the last few years**. On top of habitual DAI and USDT, we saw USDC & sUSD getting increasingly adopted in DeFi. USDC has a lot going for him - most notably a peg well maintained and very decent liquidity. 
+Luckily for us, **the "stablecoin offer" expanded dramatically over the last few years**. On top of habitual DAI and USDT, we saw USDC & sUSD getting increasingly adopted in DeFi. USDC has obvious advantages - most notably a peg well maintained and very decent liquidity. 
 
 However, **just like USDT, an USDC balance can be seized or frozen at any time** - at the sole discretion of Circle. As USDC is used more and more as collateral, this issue raises serious concerns. 
 
@@ -44,7 +44,7 @@ To learn more on trustlessness and understand the different models, I recommend 
 
 ### Chose one: trustlessness or economic viability?
 
-**Currently, we have no stablecoins nailing both.** DAI used to be reasonably trustless, but operating at a low volume. Several decisions were made to massify the volume to the detriment of the trustlessness: Maker now accepts collateral that can be seized, like wBTC, USDC, and soon real-world assets.
+**Currently, we have no stablecoins nailing both.** DAI used to be reasonably trustless, but operating at a low volume. Starting with the Multi Collateral DAI release, the governance decisions were made to boost the usage volume to the detriment of the trustless of the whole system: Maker now accepts collateral that can be seized, like wBTC, USDC, and soon real-world assets.
 
 What we tend to observe is that trustlessness usually hinders economic efficiency, let me unpack this. Take the first Maker model, for instance, enabling you to mint DAI from ETH. Because of the system design, you can at a grand maximum mint ⅔ of the ETH value in DAI. 
 
