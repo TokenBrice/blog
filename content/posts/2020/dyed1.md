@@ -3,7 +3,7 @@ title: "Do You Even DeFi? Mission 1 - Get Dat ETH [DYED#1]"
 description: "It's to time to get started with your onboarding of Ethereum decentralised finance. Good luck with this first assignment!"
 date: '2020-08-10T00:53:50.191Z'
 categories: [🌌 DeFi, 👽 DYED]
-tags: [DeFi, Ethereum, learning DeFi]
+tags: [DeFi, Ethereum, learning DeFi, DYED-mission]
 ---
 
 ![Do-You-Even-DeFi-Cover](/img/others/dyed/DYED1.png)
