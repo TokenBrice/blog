@@ -16,7 +16,7 @@ Leveraging ETH is nothing new and there are many ways you could achieve this, ho
 
 ---
 
-### Why are leveraging ETH?
+### Why are we leveraging ETH?
 
 ETH is a unique type of asset. Why sell it when you could use it as collateral and put the minted money to good use? This week, we focus on the minting part - there will be no deployment of the DAI minted yet.
 
