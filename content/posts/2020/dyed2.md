@@ -64,10 +64,10 @@ Send me (@TokenBrice) proof of the vault being opened, **ONLY BY DM.**
 A position on Maker can be liquidated: it means your collateral will be (partially) seized and sold to cover your debt. Liquidation is, of course, a costly worst-case outcome you must avoid at all cost!
 {{< /notice >}}
 
-To do so, the best is to stay safe. If you're not confident with ETH's current price level, aim for a high collateralisation ratio (>240%) to have a wide margin enabling you to stomach a deep price decrease. 
+To do so, the best is to stay safe. **If you're not confident with ETH's current price level, aim for a high collateralisation ratio (>240%)** to have a wide margin enabling you to stomach a deep price decrease. 
 
 If you're feeling more adventurous, you can push the ratio is the 200-180% levels. I would urge you to use [DeFiSaver Save Automation](https://defisaver.com/) feature to protect yourself from liquidation if you walk this path.
 
-Good luck, don't be reckless. It's much better to learn in a stress-free environment. If you have any doubt, do ask your questions before rushing to the practice.
+Good luck, **don't be reckless. It's much better to learn in a stress-free environment**. If you have any doubt, do ask your questions before rushing to the practice.
 
-See you on the Discord!
+See you on the [Discord](https://discord.gg/ZW8WRzX)!
