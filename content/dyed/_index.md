@@ -32,7 +32,8 @@ As the program starts, I'll collate all links the relevant links here. Here are 
 
 #### Last Mission Statement
 
-1. [AUG 10 | Do You Even DeFi? Mission 1 - Gotta Get Dat ETH [DYED#1]]({{< relref path="/content/posts/2020/dyed1.md" >}})
+1. [AUG 24 | Do You Even DeFi? Mission 2 - Be Your Own Bank [#DYED2]]({{< relref path="/content/posts/2020/dyed2.md" >}})
+2. [AUG 10 | Do You Even DeFi? Mission 1 - Gotta Get Dat ETH [DYED#1]]({{< relref path="/content/posts/2020/dyed1.md" >}})
 
 #### Last Mission Report
 
