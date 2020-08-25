@@ -38,5 +38,3 @@ As the program starts, I'll collate all links the relevant links here. Here are 
 #### Last Mission Report
 
 1. [AUG 23 | DYED 1 - Mission Report: Gotta Get Dat ETH]({{< relref path="/content/posts/2020/dyed1-report.md" >}})
-
-The first report will go live the next weekend. 
