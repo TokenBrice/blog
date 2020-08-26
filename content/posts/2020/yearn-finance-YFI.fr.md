@@ -59,7 +59,7 @@ Yearn a dynamité la DeFi. Il faut bien comprendre que Yearn a été rendu possi
 
 1. **Aave a récemment lancé la fonction de délégation de crédit**, permettant à un smart contract d'emprunter pour le compte d'un autre smart contract. Cette fonctionnalité était nécessaire pour que les yVaults fonctionnent comme ils le font maintenant, car ils permettent la première partie de la plupart des stratégies - obtenir un effet de levier [^2]. 
 2. DEX & Automated Market Makers - en particulier **Curve.fi**, une dépendance évidente pour le vault yCRV.
-3. Le **dynamisme global des marchés des stablecoins**, grâce à de nouveaux entrants tels que mStable ou la version token COMP. 
+3. Le **dynamisme global des marchés des stablecoins**, grâce à de nouveaux entrants tels que mStable ou le lancement du token COMP. 
 
 Yearn est un exemple parfait de la composabilité de DeFi [^3].
 
@@ -70,8 +70,8 @@ Pourquoi je me concentre sur ce sujet ? Parce qu'en tant que personne travaillan
 
 Je pense que les projets DeFi (comme la plupart des startups) gagneraient énormément à essayer de réduire activement le périmètre du travail qu'ils entreprennent - voici deux questions efficaces qui devraient être posées plus souvent :
 
-1. "Quelle est la valeur unique de notre produit ? 
-2. "De quoi avons-nous besoin pour la délivrer ? Pouvons-nous assembler des solutions existantes pour y parvenir ?
+1. "Quelle est la valeur unique de notre produit ?"
+2. "De quoi avons-nous besoin pour la délivrer ? Pouvons-nous assembler des solutions existantes pour y parvenir ?"
 
 La conception structurelle de Yearn démontre une volonté d'identifier les projets DeFi à fort potentiel et d'exploiter leurs synergies. En bref, en **assemblant plusieurs legos DeFi d'une nouvelle manière,** Andre a efficacement créé un tout nouveau scenario d'utilisation, voir un nouveau sous-ensemble de toute l'industrie.
 
@@ -109,7 +109,7 @@ Yearn est bien plus que les yVaults ! J'ai concentré cet explicatif sur eux pou
 
 * **[yBorrow](https://yborrow.finance/)** - une interface de délégation de crédit généralisée utilisant Aave.  Cela permettra à n'importe qui d'accéder à des chambres vaults comme yCRV à partir d'un token ERC-20 de leur choix. 
 * ySwap : un nouveau market maker automatisé
-* Une mystérieuse solution à effet de levier pour l'élevage de stablecoin
+* Une mystérieuse solution à effet de levier pour optimiser les retours sur stablecoins
 
 
 ### La boîte à outils Yearn

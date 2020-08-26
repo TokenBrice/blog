@@ -17,7 +17,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 | :---: | :---: | :---: |
 | Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >800 French speakers | Not to miss the next events |
 
-![](/img/others/defifrance.png)
+![defi-france-cover](/img/others/defifrance.png)
 
 ### Meetup History
 
