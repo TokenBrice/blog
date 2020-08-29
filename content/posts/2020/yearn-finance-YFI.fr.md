@@ -39,7 +39,7 @@ Note : Les yVaults sont encore très expérimentaux. Assurez-vous que vous savez
 
 ### Que se passe-t-il sous le capot ?
 
-Les yVault sont étonnants parce que **ils abstraient une immense complexité pour les utilisateurs,** et le font mieux que la plupart d'entre nous. Pour en revenir au vault yLINK, voici ce qui se passe pour produire les rendements :
+Les yVault sont étonnants parce qu' **ils abstraient une immense complexité pour les utilisateurs,** et le font mieux que la plupart d'entre nous. Pour en revenir au vault yLINK, voici ce qui se passe pour produire les rendements :
 
 1. **Les LINK sont déposés sur Aave** (Délégation de crédit) et utilisés comme garantie pour ouvrir des positions. Les positions sont maintenues dans une fourchette sûre grâce à un mécanisme de sécurité financé sur une fraction des rendements totaux.
 2. **Les stablecoins sont empruntés et mis en œuvre** pour fournir un rendement. La dernière stratégie repose sur le pool Balancer mUSD/USDC MTA.

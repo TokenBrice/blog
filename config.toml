@@ -209,13 +209,13 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/posts/"
-        name = "Arch."
+        name = "Archive"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
         url = "/categories/"
-        name = "Cat."
+        name = "Categories"
         weight = 3
         pre = "internal"
         post = "th"
@@ -280,13 +280,13 @@ uglyURLs = false
 #     post = "home"
 [[languages.fr.menu.main]]
     url = "/fr/posts/"
-    name = "Arch."
+    name = "Archive"
     weight = 2
     pre = "internal"
     post = "archive"
 [[languages.fr.menu.main]]
     url = "/fr/categories/"
-    name = "Cat."
+    name = "Catégories"
     weight = 3
     pre = "internal"
     post = "th"
@@ -409,7 +409,7 @@ uglyURLs = false
     # 3. posts     List of post’s summary
     # 4. page      Normal page/post
 
-    homeLayout = "poetry"
+    homeLayout = "posts"
 
     ## Poetry
     # Verse (Markdown supported)

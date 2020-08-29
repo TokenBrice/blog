@@ -194,5 +194,12 @@
 		"host": "Bankless",
 		"link": "https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches",
 		"date": "2019"
+	},
+	{
+		"tags": ["mention", "post","en"],
+		"name": "Boom or bust? Welcome to the freewheeling world of crypto lending",
+		"host": "Reuters UK",
+		"link": "https://uk.reuters.com/article/uk-crypto-currencies-lending-insight/boom-or-bust-welcome-to-the-freewheeling-world-of-crypto-lending-idUKKBN25M0GQ",
+		"date": "2020"		
 	}
 ]
