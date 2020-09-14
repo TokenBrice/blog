@@ -17,7 +17,7 @@ Cette traduction est officieuse, et j’espère seulement apporter de la visibil
 ![tipbotcc-cover](/img/2020/tipbot/cover.png)
 
 {{< notice note >}}
-Ce guide a été rédigé par **Loico** du [Discord francophone CryptoMatrix](https://discord.com/invite/VdAnF7). Un grand merci à lui !
+Ce guide a été rédigé par **Loico** du [Discord francophone CryptoMatrix](https://discord.com/invite/VdAnF7). 🙏 Un grand merci à lui !
 {{< /notice >}}
 
 ### 🧲 Aide Rapide : Que faire d'un tip ?
@@ -72,9 +72,9 @@ L’utilisation de ce bot présente énormément de surprises !
 
 Participer à des airdrops, recevoir une enveloppe rouge, jeter un oeil rapide sur vos crypto-monnaies favorites, demander le prix du gas sur Ethereum... **Vous apprendrez même, en suivant ce guide, à envoyer des crypto-monnaies à plusieurs utilisateurs dans une seule transaction.**
 
-Un autre bon point à mentionner: il n’y a **pas de minimum requis pour les transactions**, et pas de frais sur les transaction. Les seuls frais sont ceux de la blockchain correspondant à la cryptomonnaie utilisé pour un deposit ou un withdraw. Et si il y a un montant minimum pour un withdraw, c’est celui pour couvrir les frais de la blockchain.
+Un autre bon point à mentionner : il n’y a **pas de minimum requis pour les transactions**, et pas de frais sur les transaction. Les seuls frais sont ceux de la blockchain correspondant à la cryptomonnaie utilisée pour un deposit ou un withdraw. Et **si il y a un montant minimum pour un withdraw, c’est celui pour couvrir les frais de la blockchain**.
 
-Ce bot, à l’heure de la publication de ce guide, est maintenu à jour, et supporte de plus en plus de cryptomonnaie différentes. Vous pouvez voir la [liste de toutes les cryptomonnaies supportées ici](https://tip.cc/currencies).
+Ce bot, à l’heure de la publication de ce guide, est maintenu à jour, et supporte de plus en plus de cryptomonnaie différentes. Vous pouvez voir la [📑 liste de toutes les cryptomonnaies supportées ici](https://tip.cc/currencies).
 
 ### Tip.cc est lié à votre compte Discord
 
@@ -82,15 +82,14 @@ Ce bot, à l’heure de la publication de ce guide, est maintenu à jour, et sup
 Il est **fortement conseillé d’avoir un 2FA actif sur votre compte Discord**: c’est la sécurité de votre compte Discord qui fait la sécurité de votre portefeuille Tip.cc
 {{< /notice >}}
 
-*   Comme dit plus haut, votre portefeuille étant lié à votre compte Discord, vous pouvez utiliser le même portefeuille avec **tous les serveurs Discords ayant activé Tip.cc** (CryptoMatrix, Monolith, Tip.cc…). Mais vous ne pourrez pas l’utiliser en revanche sur les serveurs n’ayant pas installé Tip.cc.
+*   Comme dit plus haut, votre portefeuille étant lié à votre compte Discord, vous pouvez utiliser le même portefeuille avec **tous les serveurs Discord ayant activé Tip.cc** (CryptoMatrix, Monolith, Tip.cc…). Mais vous ne pourrez pas l’utiliser en revanche sur les serveurs n’ayant pas Tip.cc.
 *   Vous pouvez voir la balance de votre portefeuille **en euro ou en dollars**, selon le paramètre utilisé sur les serveurs Discord que vous utilisez.
 *   L’échange de crypto-monnaies entre utilisateur se base actuellement sur le P2P et la confiance. Le développement du bot étant actif, un système plus élaboré pourrait voir le jour prochainement.
 *   Vous pouvez **déposer des crypto-monnaies sur votre compte Tip.cc depuis n’importe quel autre portefeuille, tout comme en retirer vers un autre portefeuille**. Ceci engendre des frais liés au frais de la blockchain de la cryptomonnaie visé. Attention à surveiller le prix du gas sur Ethereum par exemple. 
 
 ## C/ Utilisation de Tip.cc
 
-🚨 Depuis plusieurs mois, les frais de transaction sur Ethereum ont augmenté significativement. Lorsque les coûts en gaz sont excessifs, vous pouvez avoir des messages d’erreur lorsque vous demandez une adresse de Dépôt à Tip.cc. Si cela vous arrive, réessayer la commande adéquate lorsque les coûts de transaction (gas) sont plus bas.
-
+🚨 Depuis plusieurs mois, les frais de transaction sur Ethereum ont augmenté significativement. Lorsque les coûts en gaz sont excessifs, vous pouvez avoir des messages d’erreur lorsque vous demandez une adresse de Dépôt à Tip.cc. Si cela vous arrive, réessayez la commande adéquate lorsque les coûts de transaction (gas) seront plus modérés.
 
 🚩 L’utilisation de Tip.cc se fait via des commandes à écrire dans des messages. Un préfixe est désigné avant chaque commande. Le préfixe par défaut est `$`, mais il est paramétrable, et peut être différent sur chaque serveur Discord. ( Exemple : `$` sur le serveur CryptoMatrix, `!` sur le serveur Monolith)
 
@@ -102,7 +101,7 @@ Il est **fortement conseillé d’avoir un 2FA actif sur votre compte Discord**:
 Par précaution, nous vous conseillons d'utilisez la commande $bals uniquement en message privé.
 {{< /notice >}}
 
-Le withdraw et le Deposit quant à eux ne peuvent se faire qu’en message privé.
+Le `$withdraw` et le `$deposit` quant à eux ne peuvent se faire qu’en message privé.
 
 *   `$balances` et son raccourci `$bals` 
 
@@ -140,9 +139,11 @@ Une confirmation vous sera ensuite demandée pour le montant.
 
 Commande pour permettre le dépôt de crypto-monnaies sur votre portefeuille Tip.cc . `$deposit xtz` fera apparaître un code QR ainsi que l’adresse de dépôt de la crypto-monnaie visé pour votre portefeuille.
 
-Cette commande ne fonctionne qu’en message privé avec Tip.cc. Si vous l’écrivez dans un salon public, vous recevrez automatiquement un message privé.
-
 ![guide-Discord-tipbot](/img/2020/tipbot/image8.jpg "Dépôt de BTC")
+
+{{< notice tip >}}
+La commande deposit ne fonctionne qu’en message privé avec Tip.cc. Si vous l’écrivez dans un salon public, vous recevrez automatiquement un message privé.
+{{< /notice >}}
 
 ### 2. Interaction avec les utilisateurs du Discord:
 
@@ -151,19 +152,19 @@ Cette commande ne fonctionne qu’en message privé avec Tip.cc. Si vous l’éc
 Exemple: `$tip @user 1 TKN`
 
 
-Cette commande est la base de vos interactions avec les autres utilisateurs. Pour envoyer de la crypto-monnaie à un autre utilisateur du Discord, il suffit d’écrire `$tip`, son pseudo `@user`, le montant `10`, et la crypto-monnaie, `btc`. Ce qui donne : `$tip @user 1 btc`. 
+Cette commande est la base de vos interactions avec les autres utilisateurs. Pour envoyer de la crypto-monnaie à un autre utilisateur du Discord, il suffit d’écrire `$tip`, son pseudo `@user`, le montant `10`, et la crypto-monnaie, `btc`. Ce qui donne : `$tip @user 1 btc`
 
 ![guide-Discord-tipbot](/img/2020/tipbot/image14.jpg "Tip de 5 TKN")
 
 
 Vous pouvez aussi tiper plusieurs personnes en même temps : `$tip @userA @userB 20 TKN` ou encore `$tip all @role 70 USDC`
 
-Vous pouvez tiper un groupe entier avec cette commande, la somme se verra partagé équitablement pour le rôle dans une limite de 40 membres.
+Vous pouvez tiper un groupe entier avec cette commande, la somme se verra partagée équitablement pour le rôle dans une limite de 40 membres.
 
 
 Plein de variantes sont possible: changez `online` à la place de `all` pour ne tiper que les utilisateurs en ligne. La combinaison de groupe et possible avec `and`.
 
-Exemple :  `$tip 4 online @Utopiste and 10 offline @Analyste 15 ETH`
+> Exemple :  `$tip 4 online @Utopiste and 10 offline @Analyste 15 ETH`
 
 Voici la liste des paramètres disponibles:
 
@@ -214,17 +215,17 @@ La commande $tip help permet de voir (en anglais) toutes les combinaisons de tip
 
 Marre d’être mentionné pour recevoir des poussières avec les distributions aléatoires ? Vous pouvez désactiver et réactiver les mentions avec une seul et même commande: `$tip nomention`
 
-Vous pouvez aussi [retrouver les commandes ici](https://tip.cc/guides/tipping). 
+Vous pouvez aussi [📖 retrouver toutes les commandes ici](https://tip.cc/guides/tipping). 
 
 #### 2. Les airdrops
 
 Les airdrops permettent de tip aléatoirement des utilisateurs via un message. Cinq types de airdrop sont disponibles: 
 
-1.   Le Airdrop classique, ou il faut réagir à un message airdrop pendant un temps donné
-2.   Le Phrasedrop, ou il faut écrire une phrase correctement pour avoir une chance de gagner.
-3.   Le Mathdrop, ou il faut résoudre une équation mathématique pour être sélectionné.
-4.   Le Redpacket, une enveloppe rouge pour le premier à réagir au airdrop. 
-5.   Triviadrop: répondre correctement à une question aléatoire sur l’univers des crypto-monnaies.
+1.   Le **Airdrop** classique, ou il faut réagir à un message airdrop pendant un temps donné
+2.   Le **Phrasedrop**, ou il faut écrire une phrase correctement pour avoir une chance de gagner.
+3.   Le **Mathdrop**, ou il faut résoudre une équation mathématique pour être sélectionné.
+4.   Le **Redpacket**, une enveloppe rouge pour le premier à réagir au airdrop. 
+5.   **Triviadrop**, où il faut répondre correctement à une question aléatoire sur l’univers des crypto-monnaies.
 
 ##### Airdrop Classique 
 
@@ -290,7 +291,7 @@ Les gains sont répartis parmi les utilisateurs répondant correctement. Vous re
 
 ### 3. Interaction avec les outils du bot
 
-Tip.cc comprend des outils sympathiques à utiliser en plus de sa fonction de wallet et de tip
+Tip.cc comprend des outils sympathiques à utiliser en plus de sa fonction de wallet et de tip :
 
 *   `$ticker lend`
 
@@ -350,16 +351,22 @@ Cette commande vous fournira un panneau d’aide à l’utilisation en anglais. 
 
 *   `$monikers`
 
-Affiche la liste des surnoms. Un surnom est un mot ou une suite de mots pré-paramétré pour une transaction, avec son montant et sa crypto-monnaie fixe. Chaque surnom à son pluriel, vous pouvez donc écrire pour les gourmands `$tip @user 3 pizzas`. Des surnoms peuvent être écrits au lieu des transactions traditionnelles. Il existe quelques surnoms de base, mais les administrateurs de votre Discord peuvent en ajouter si vous avez quelques suggestions sympathiques à leur fournir. 
+Affiche la liste des surnoms. Un surnom est un mot ou une suite de mots pré-paramétrés pour une transaction, avec son montant et sa crypto-monnaie fixe. Chaque surnom à son pluriel, vous pouvez donc écrire pour les gourmands `$tip @user 3 pizzas`. 
 
-Si la crypto-monnaie n’est pas précisé, la transaction sera effectué avec la monnaie par défaut choisie par le Discord (BTC pour le serveur CryptoMatrix, TKN pour le serveur Monolith). La crypto-monnaie par défaut peut être changé par les administrateurs.
+Des surnoms peuvent être écrits au lieu des transactions traditionnelles. Il existe quelques surnoms de base, mais les administrateurs de votre Discord peuvent en ajouter si vous avez quelques suggestions sympathiques à leur fournir. 
+
+Si la crypto-monnaie n’est pas précisée, la transaction sera effectuée avec la monnaie par défaut choisie par le Discord (BTC pour le serveur CryptoMatrix, TKN pour le serveur Monolith). La crypto-monnaie par défaut peut être changée par les administrateurs.
 
 ![guide-Discord-tipbot](/img/2020/tipbot/image15.jpg "Monikers")
 
 
 J’espère que la lecture vous aura apporté les précisions attendues pour utiliser Tip.cc en toute sérénité ! 
 
-Ce guide vous est fourni par Loico du serveur [Discord CryptoMatrix](https://discord.com/invite/VdAnF7) :)
+{{< notice note >}}
+🙏 Ce guide vous est fourni par Loico. Il vous a été utile ? 
+
+Rejoignez [le serveur Discord CryptoMatrix](https://discord.com/invite/VdAnF7) pour le remercier en personne !
+{{< /notice >}}
 
 ## Ressources externes
 
