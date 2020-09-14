@@ -17,7 +17,7 @@ Cette traduction est officieuse, et j’espère seulement apporter de la visibil
 ![tipbotcc-cover](/img/2020/tipbot/cover.png)
 
 {{< notice note >}}
-Ce guide a été rédigé par **Loico** du [Discord francophone CryptoMatrix](https://discord.com/invite/VdAnF7). 🙏 Un grand merci à lui !
+Ce guide a été rédigé par **Loico** du [Discord francophone CryptoMatrix](https://discord.gg/mW94vUU). 🙏 Un grand merci à lui !
 {{< /notice >}}
 
 ### 🧲 Aide Rapide : Que faire d'un tip ?
@@ -365,7 +365,7 @@ J’espère que la lecture vous aura apporté les précisions attendues pour uti
 {{< notice note >}}
 🙏 Ce guide vous est fourni par Loico. Il vous a été utile ? 
 
-Rejoignez [le serveur Discord CryptoMatrix](https://discord.com/invite/VdAnF7) pour le remercier en personne !
+Rejoignez [le serveur Discord CryptoMatrix](https://discord.gg/mW94vUU) pour le remercier en personne !
 {{< /notice >}}
 
 ## Ressources externes
