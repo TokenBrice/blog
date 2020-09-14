@@ -1,7 +1,7 @@
 ---
 title: "💰 Tip.CC - Guide d'utilisation du service de dons en cryptomonnaie sur Discord"
 description: "Un guide pour prendre en main TipBot.CC, le bot Discord crypto qui propose un wallet, des dons, différents jeux et plusieurs outils bien pratiques."
-date: '2020-09-13T01:05:50.191Z'
+date: '2020-09-14T01:05:50.191Z'
 categories: [🌌 DeFi, 💸 DeFi pratique]
 tags: [Ethereum, Outils, Discord, Dons, Stats, Jeux Cryptos, Airdrop]
 toc: true
