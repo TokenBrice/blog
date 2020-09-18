@@ -68,7 +68,7 @@ LINKSwap explore de nouvelles idées pour accroître la sécurité des investiss
 
 YFValue ajoute plusieurs autres éléments, dans le même but de fournir un service facilitant l'investissement dans la DeFi et le rendant plus accessible.
 
-Ici, les pools étaient principalement composés à 98% ERC20-token / 2% de pools YFV Balancer et le calendrier des émissions est beaucoup plus long (5 à 20 semaines) - il est toujours en cours alors que [YFV a lancé mi-août.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) Il existe également une "seed pool" acceptant les stablecoins.
+Ici, les pools étaient principalement composées à 98% ERC20-token / 2% de pools YFV Balancer et le calendrier des émissions est beaucoup plus long (5 à 20 semaines) - il est toujours en cours alors que [YFV a été lancé mi-août.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) Il existe également une "seed pool" acceptant les stablecoins.
 
 YFV a été l'un des premiers projets à offrir des possibilités de gains crédibles sur des tokens tels que BAL, YFI, BAT, REN, KNC, BTC, WETH ou LINK : cela a vraiment contribué à attirer des liquidités - il y a environ 470 millions de dollars déposés sur YFV au moment où j'écris ces lignes.
 

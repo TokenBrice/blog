@@ -12,7 +12,7 @@ Every day a new Yearn fork is popping up: how to keep track with them? There is 
 
 Yearn is more than Yearn.Finance product itself: it became a template to kickstart a project, sometimes called "fair launch". Yearn pioneered the method which stands on three key elements:
 
-1. **Liquidity Mining Fair Launch**: the initial distribution of the token of the platform (ex: YFI) happens through liquidity mining. Supporters can commit stake tokens like yCRV to earn the governance token.
+1. **Liquidity Mining Fair Launch**: the initial distribution of the token of the platform (ex: YFI) happens through liquidity mining. Supporters can stake tokens like yCRV to earn the governance token.
 2. **Community-Driven Development**: the decisions regarding the development of the project are taken by the community of token holders, through informal and formal (on-chain) votes.
 3. **Pooled Investment Strategies (Vaults)**: the Yearn-inspired projects usually also try to replicate this core feature of Yearn: they offer tokenised investment strategies. The vaults are essential for the long-term success of the project past the initial liquidity mining phase. 
 
