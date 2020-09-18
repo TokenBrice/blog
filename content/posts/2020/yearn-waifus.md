@@ -36,7 +36,7 @@ This content assumes an understanding of Yearn, to brush up on the topic I'd rec
 
 ### [DFI.Money (YFII)](http://dfi.money/)
 
-One of the earliest discussion in Yearn's community was around the **emission schedule**: while it was initially planned for a week, there were discussions about extending it - most notably [YIP 8](https://yips.yearn.finance/YIPS/yip-8) which proposed a longer emission schedule halving weekly. **The Yearn (YFI) community voted against YIP-8, which lead to the YFII fork** - a fork of YFI implementing it.
+One of the earliest discussion in Yearn's community was around the **emission schedule**: while it was initially planned for a week, there were discussions about extending it - most notably [YIP 8](https://yips.yearn.finance/YIPS/yip-8) which proposed a longer emission schedule halving weekly. **Despite support from the Yearn Community, the proposal did not meet the quorum and was not implemented**, which lead to the YFII fork** - a fork of YFI implementing it.
 
 So **instead of having a week-only distribution, YFII opted for a longer schedule, still ongoing.** It started July 27 and will end on October 5. The farming pools proposed are very similar to Yearn's: staking the yCRV token or staking the Balancer pool token (98%DAI / 2 % YFII).
 

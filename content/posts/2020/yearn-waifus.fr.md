@@ -36,7 +36,7 @@ Ce contenu suppose une bonne compréhension de Yearn, afin d'approfondir le suje
 
 ### [DFI.Money (YFII)](http://dfi.money/)
 
-L'une des premières discussions au sein de la communauté de Yearn a porté sur le **programme d'émission** : alors qu'il était initialement prévu pour une semaine, il a été question de le prolonger - notamment avec la [YIP 8](https://yips.yearn.finance/YIPS/yip-8) qui proposait un programme d'émissions plus long, avec une réduction de moitié chaque semaine. **La communauté de Yearn (YFI) a voté contre YIP-8, ce qui a conduit au fork YFII** - un fork de YFI la mettant en œuvre.
+L'une des premières discussions au sein de la communauté de Yearn a porté sur le **programme d'émission** : alors qu'il était initialement prévu pour une semaine, il a été question de le prolonger - notamment avec la [YIP 8](https://yips.yearn.finance/YIPS/yip-8) qui proposait un programme d'émissions plus long, avec une réduction de moitié chaque semaine. **Malgré le support de la communauté Yearn pour YIP-8, la proposition n'avait pas le quorum requis pour passer**, ce qui a conduit au fork YFII** - un fork de YFI la mettant en œuvre.
 
 Ainsi **au lieu d'avoir une distribution sur une semaine, YFII a opté pour un calendrier plus long, toujours en cours**, qui a commencé le 27 juillet et se terminera le 5 octobre. Les pools proposées sont très similaires à celles de Yearn : stake du token yCRV ou stake du token Balancer pool (98 %DAI / 2 % YFII).
 
