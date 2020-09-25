@@ -220,8 +220,8 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/dyed/"
-        name = "DYED?"
+        url = "/defifrance/"
+        name = "DeFi France"
         weight = 4
         pre = "internal"
         post = "ethereum"

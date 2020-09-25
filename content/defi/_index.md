@@ -15,7 +15,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 
 | **[📽 Youtube Channel](https://www.youtube.com/channel/defifrance)** | **[🛩 Telegram Group](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
 | :---: | :---: | :---: |
-| Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >800 French speakers | Not to miss the next events |
+| Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >1700 French speakers | To not miss the next events |
 
 ![defi-france-cover](/img/others/defifrance.png)
 

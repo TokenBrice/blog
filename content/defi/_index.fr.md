@@ -9,7 +9,7 @@ Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouv
 
 |  **[📽 Chaine Youtube](https://www.youtube.com/channel/defifrance)** | **[🛩 Groupe Telegram](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
 | :---: | :---: | :---: |
-|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >1100 francophones | Pour ne pas rater les prochains évènements |
+|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec >1700 francophones | Pour ne pas rater les prochains évènements |
 
 ![defi-france-cover](/img/others/defifrance.png)
 
