@@ -146,6 +146,8 @@ Pour en savoir plus sur un vault donné et sur son fonctionnement, n'hésitez pa
 * [**Learn Yearn**](https://www.learnyearn.finance/)
 * [**Farm Wiki**](https://farm.chainwiki.dev/en/home)
 
+Avec Antoine, on a également réalisé une **[vidéo explicative sur Pickle Finance en français](https://www.youtube.com/watch?v=XJS3hKU9Z2A)**
+
 {{< notice warning >}}
 Il ne s'agit pas de conseils en matière d'investissement, restez vigilant et faites vos propres recherches.
 {{< /notice >}}
