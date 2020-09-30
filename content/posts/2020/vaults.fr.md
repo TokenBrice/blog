@@ -51,7 +51,7 @@ La fréquence de la récolte est importante car elle influencera le facteur de c
 
 ### Vaults Stablecoins & BTC 
 
-En ce qui concerne les vaults, les tokens les plus couramment acceptés en dépôt sont les stablecoins. Ces vaults déploieront votre capital sur le pool Curve Finance pour gagner des tokens CRV, généralement le pool Y, . Des projets plus récents, tels que Pickle Finance, permettent également d'exploiter le pool Curve sUSD.
+En ce qui concerne les vaults, les tokens les plus couramment acceptés en dépôt sont les stablecoins. Ces vaults déploieront votre capital sur le pool Curve Finance pour gagner des tokens CRV, généralement le pool Y. Des projets plus récents, tels que Pickle Finance, permettent également d'exploiter le pool Curve sUSD.
 
 <div align="center">
 
@@ -70,7 +70,7 @@ Enfin, certains services comme Harvest ou YFV ont un modèle incitatif en plus d
 |  yCRV | Yearn Finance | Curve | CuRetour Curve composé |
 |  pJar 0 + psCRV pool (Curve sUSD) | Pickle Finance | Curve/Pickle | Retour Curve composé + PICKLE |
 
-Étant donné que Curve prend également en charge les pools tokenisés de la CTB, il existe désormais des vaults pour la CTB également :
+Étant donné que Curve prend également en charge les pools tokenisés de BTC, il existe désormais des vaults pour la BTC également :
 
 |  **TOKEN** | **SERVICE** | **FARME SUR** | **RETOURS** |
 | :---: | :---: | :---: | :---: |
