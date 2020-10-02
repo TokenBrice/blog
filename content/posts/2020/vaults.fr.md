@@ -67,7 +67,7 @@ Enfin, certains services comme Harvest ou YFV ont un modèle incitatif en plus d
 |  DAI, USDC, USDT, TUSD | Harvest.Finance | Curve | Retour Curve composé + FARM |
 |  USDC, USDT, DAI, TUSD, BUSD | DFI.Money | Curve | Retour Curve composé |
 |  DAI, USDC, USDT, TUSD | YFV (Seed Pool) | Value | YFV/VALUE  |
-|  yCRV | Yearn Finance | Curve | CuRetour Curve composé |
+|  yCRV, DAI, USDC, USDT, TUSD | Yearn Finance | Curve | CuRetour Curve composé |
 |  pJar 0 + psCRV pool (Curve sUSD) | Pickle Finance | Curve/Pickle | Retour Curve composé + PICKLE |
 
 Étant donné que Curve prend également en charge les pools tokenisés de BTC, il existe désormais des vaults pour la BTC également :

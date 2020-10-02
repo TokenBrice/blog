@@ -68,7 +68,7 @@ Finally, some services like Harvest or YFV have an incentive model on top of the
 |  DAI, USDC, USDT, TUSD | Harvest.Finance | Curve | Curve returns normalized to the base + FARM |
 |  USDC, USDT, DAI, TUSD, BUSD | DFI.Money | Curve | Curve returns normalized to the base |
 |  DAI, USDC, USDT, TUSD | YFV (Seed Pool) | Value | YFV/VALUE staking reward |
-|  yCRV | Yearn Finance | Curve | Curve returns normalized to the base |
+|  yCRV, DAI, USDC, USDT, TUSD | Yearn Finance | Curve | Curve returns normalized to the base |
 |  pJar 0 + psCRV pool (Curve sUSD) | Pickle Finance | Curve/Pickle | Curve returns normalized to sCRV + PICKLE |
 
 Since Curve also supports tokenized BTC pools, there are now vaults for them too:
