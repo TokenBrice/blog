@@ -25,15 +25,16 @@ C'est une initiative communautaire portée par [Mounir Benchemled](https://twitt
 
 |  Date | Thème | Participants |
 | :---: | :---: | :---: |
-|  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, Brice |
+|  30/09/2020 | [🇫🇷 DF #X - De la ferme à la mine en 5 étapes](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Marc Zeller, Marouane Haiji, Moshe Malawach, TokenBrice |
+|  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, TokenBrice |
 |  20/05/2020 | [🇫🇷 DF #8 - EthereumXBitcoin : DeFi sur la chaîne Bitcoin, ou BTC sur Ethereum?](https://www.youtube.com/watch?v=sHRS2DYOMlg) | Pascal Tallarida, Romain ROUPHAËL, Julien Bouteloup, Adli Takkal-Bataille, Mounir Benchemled |
 |  23/04/2020 | [🇫🇷 DF #7 - Comment prendre et communiquer la mesure du risque dans la DeFi ?](https://www.youtube.com/watch?v=G9w2wOlWOIw) | Clément Lesage (Kleros), Marc Zeller (Aave), Jimmy Ragosa (ConsenSys), <br/>Marouane Haiji (Unslashed) |
-|  3/3/20 | [🇫🇷DF#6 @EthCC : La Finance Décentralisée - vers une nouvelle finance](https://www.youtube.com/watch?v=vF-7T5EtcQo) | Mounir, Arthur, Brice |
-|  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | Brice (Monolith), Pascal (Jarvis Exchange) |
+|  3/3/20 | [🇫🇷DF#6 @EthCC : La Finance Décentralisée - vers une nouvelle finance](https://www.youtube.com/watch?v=vF-7T5EtcQo) | Mounir, Arthur, TokenBrice |
+|  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | TokenBrice (Monolith), Pascal (Jarvis Exchange) |
 |  16/01/2020 | [🇫🇷 DF #4 - La Blockchain, un monde sans loi ?](https://www.youtube.com/watch?v=lym5thBJVrY) | Clément Lesage (Kleros), William O'Rorke (ORWL Avocats) |
 |  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
-|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, Brice |
-|  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
+|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, TokenBrice |
+|  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, TokenBrice, Pascal et Alexandre |
 
 ---
 

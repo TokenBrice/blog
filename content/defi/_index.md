@@ -23,6 +23,7 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 
 | Date | Theme | Participants |
 | :---: | :---: | :---: |
+|  30/09/2020 | [🇫🇷 DF #X - De la ferme à la mine en 5 étapes](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Marc Zeller, Marouane Haiji, Moshe Malawach, TokenBrice |
 |  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, Brice |
 |  20/05/2020 | [🇫🇷 DF #8 - EthereumXBitcoin : DeFi sur la chaîne Bitcoin, ou BTC sur Ethereum?](https://www.youtube.com/watch?v=sHRS2DYOMlg) | Pascal Tallarida, Romain ROUPHAËL, Julien Bouteloup, Adli Takkal-Bataille, Mounir Benchemled |
 |  23/04/2020 | [🇫🇷 DF #7 - Comment prendre et communiquer la mesure du risque dans la DeFi ?](https://www.youtube.com/watch?v=G9w2wOlWOIw) | Clément Lesage (Kleros), Marc Zeller (Aave), Jimmy Ragosa (ConsenSys), <br/>Marouane Haiji (Unslashed) |
