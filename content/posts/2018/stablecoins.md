@@ -5,7 +5,7 @@ description: >-
   audience with cryptos: volatility. But it comes with a cost.
 date: '2018-08-22T12:14:52.416Z'
 categories: [⛓ Blockchain, 🛸 Basics]
-tags: [stablecoins, price volatility, DAI, USDT, USDC, Tether]
+tags: [stablecoins, price volatility, DAI, USDT, USDC, Tether, EcoCrypto]
 ---
 
 ![](/img/2018/stablecoins/cover.jpeg)

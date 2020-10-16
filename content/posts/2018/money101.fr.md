@@ -4,7 +4,7 @@ description: >-
   Comment comprendre l''évolution de la monnaie jusqu''au cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
 date: '2018-07-18T12:13:32.950Z'
 categories: [⛓ Blockchain, 🛸 Bases]
-tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie]
+tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie, EcoCrypto]
 ---
 
 ![](/img/2018/money101/cover.jpeg)

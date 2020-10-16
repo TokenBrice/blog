@@ -5,7 +5,7 @@ description: >-
   shift. Will citizens benefit from it?
 date: '2018-07-11T11:54:20.399Z'
 categories: [🧔 Opinions, 🗺 NaaS]
-tags: [NaaS]
+tags: [NaaS, EcoCrypto]
 ---
 
 ![](/img/2018/naas/cover.jpeg)

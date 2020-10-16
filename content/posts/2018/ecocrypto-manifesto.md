@@ -4,7 +4,7 @@ description: >-
   EcoCrypto.fr''s manisfesto - The French crypto media true to its ideals and up to the standard of the new world. Come feed your mind.
 date: '2018-07-01T10:36:03.488Z'
 categories: [👩‍🔧 Projects]
-tags: [ecocrypto]
+tags: [EcoCrypto]
 ---
 
 Welcome on Ecocrypto, the incorruptible French publication soon to become a reference. EcoCrypto was created to provide an answer the lack of honest and qualitative content in the French crypto ecosystem.

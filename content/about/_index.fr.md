@@ -9,14 +9,14 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-|  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Un portefeuille Ethereum sans compromis associé à une carte Visa pour avoir accès au meilleur des deux mondes : payez 45M+ marchants dans le monde en utilisant vos actifs Ethereum. | Community Strategist |
+|  ![paraswap](/img/others/paraswap.png) | [💱 ParaSwap](https://paraswap.io) | Le middleware DeFi qui facilite l'implémentation de swaps optimisés pour les dApps et les utilisateurs finaux. | Head of Propaganda |
 |  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Coorganisateur |
-| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur francophone |
+| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
 
 
-Au sein de Monolith, je développe notre présence en ligne et hors ligne en utilisant tous les supports pertinents (articles, vidéos, évènements, podcasts, etc.).
+Au sein de ParaSwap, je développe notre présence, supporte notre croissance au sein de l'ecosystème de la DeFi, et mets en lumière ce qui rend ParaSwap unique.
 
-Je suis également l'un des coorganisateurs de DeFi France, un rendez-vous mensuel pour discuter de finance décentralisée entièrement en français.
+Je suis également l'un des coorganisateurs de DeFi France, un rendez-vous mensuel pour discuter de finance décentralisée entièrement en français. J'ai été le Community Manager de [Monolith](https://monolith.xyz) pendant 18 mois avant de décider de me concentrer sur mes engagements communautaires.
 
 Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies d'acquisition digitales pérennes.
 

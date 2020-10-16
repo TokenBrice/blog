@@ -5,7 +5,7 @@ description: >-
   overview made to be understandable by anyone.
 date: '2018-07-02T08:31:50.115Z'
 categories: [⛓ Blockchain, 🛸 Basics]
-tags: [decentralisation, vulgarization, blockchain, cryptocurrency]
+tags: [decentralisation, vulgarization, blockchain, cryptocurrency, EcoCrypto]
 ---
 
 ![](/img/2018/decentralisation-layman/cover.png)

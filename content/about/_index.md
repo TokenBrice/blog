@@ -9,13 +9,13 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 
 |  Logo | Project | Description | Function |
 | :---: | :---: | :---: | :---: |
-|  ![monolith-logo-h](/img/others/monolith-h.png) | [💳 Monolith](https://monolith.xyz) | Shaping the future of personal finance with the world first non-custodial contract wallet paired with a Visa debit card. | Community Strategist |
+|  ![paraswap](/img/others/paraswap.png) | [💱 ParaSwap](https://paraswap.io) | The DeFi middleware abstracting the complexity required to deliver optimized token swaps for Dapp developpers and end-users. | Head of Propaganda |
 |  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. <br> [➡More info on the DeFi France page]({{< relref path="/content/defi/_index.md" >}}) | Co-Organiser |
-| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | The Bankless program blends money and tech insight to help you level up your open finance game every single week. | FR Coordinator |
+| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | The Bankless program blends money and tech insight to help you level up your open finance game every single week. | Coordinator |
 
-At Monolith, I help maximize our brand visibility and awareness, both online and offline using any relevant support (article, video, podcast, meetup) and channels (mainly Twitter, Telegram, Reddit).
+At ParaSwap, I help maximize our visibility and awareness, support our growth within the DeFi ecoystem and help shine on light on what makes ParaSwap awesome.
 
-I'm also the co-organiser of DeFi France, the most successful decentralized finance grassroots meetup in Europe.
+I'm also the co-organiser of DeFi France, the most successful decentralized finance grassroots meetup in Europe. I've been the former Community Manager of [Monolith](https://monolith.xyz) before deciding to recenter on my focus on community engagements.
 
 Since the beginning of my career, I've worked with startups and helped them grow their online presence by designing and enforcing strategies enabling them to harness the long-lasting exposure SEO can deliver.
 
