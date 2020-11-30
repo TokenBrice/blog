@@ -7,6 +7,8 @@ description: "**DeFi France is a French-speaking community created to discuss de
 
 DeFi France is a monthly meeting to discuss decentralized finance, as well as an ongoing discussion on Telegram entirely held in French. After 6 face-to-face editions since October 2019, DeFi France is now held remotely.
 
+![defi-france-cover](/img/others/defifrance.png)
+
 **DeFi France is entirely held in French** to help native speakers (sometimes not always at ease in English) to keep track and learn about the space.
 
 It is a community initiative led by [Mounir Benchemled](https://twitter.com/mounibec) (creator of [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) and your humble servant ([TokenBrice](https://twitter.com/TokenBrice)), as well thanks to the amazing support of the French community:  Pascal, Marc, Alexandre & many others !
@@ -17,7 +19,21 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 | :---: | :---: | :---: |
 | Review the previous editions of DeFi France and **follow the next ones live** | Discuss decentralized finance with >1700 French speakers | To not miss the next events |
 
-![defi-france-cover](/img/others/defifrance.png)
+### Discovering Decentralized Finance with DeFi France
+
+{{< youtube vF-7T5EtcQo >}} 
+
+---
+
+### French Community Resource
+
+Here are some French-speaking resources to learn :
+- **[🗞 The BanklessFR newsletter](https://banklessfr.substack.com/)** to develop your understanding of the fundamentals.
+- **[☕ The French version of The Daily Gwei](https://thedailygweifr.substack.com/)** for shorter and more accessible pieces.
+- **[📰 The Cryptoast blog](https://cryptoast.fr/defi-finance-decentralisee/)** : to follow the daily news about cryptomoney.
+- **[🎥 The Youtube channel CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : for a broader perspective on cryptos.
+
+---
 
 ### Meetup History
 
@@ -33,34 +49,3 @@ All the monthly appointments of DeFi France are recorded. You will find them on 
 |  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
 |  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, Brice |
 |  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, Brice, Pascal et Alexandre |
-
----
-
-### DeFi France BlaBla
-
-Initially created to keep the conversation on the main thematic and synthetic channel, DeFi France Bla Bla is a second Telegram for a freer discussion within the community.
-
-#### Notable Events
-
-**July 06, 2020 |** Blapening, a concept that refers to the day when/if the BlaBla community outnumbers the main community, was first theorized by TorZilla.
-
-![blapening1](/img/others/defi-france/blapening1.png)
-
-He thus became the first holder of the `Wen Blapening?` title, which he can now bestow on those who are deserving in his eyes. He will also decide on the next honorary title when the time comes.
-
-![blapening2](/img/others/defi-france/blapening2.png)
-
----
-
-### Discovering Decentralized Finance with DeFi France
-
-{{< youtube vF-7T5EtcQo >}} 
-
----
-
-### French Community Resource
-
-Here are some French-speaking resources to learn :
-- **[🗞 The BanklessFR newsletter](https://banklessfr.substack.com/)** to develop your understanding of the fundamentals.
-- **[📰 The Cryptoast blog](https://cryptoast.fr/defi-finance-decentralisee/)** : to follow the daily news about cryptomoney.
-- **[🎥 The Youtube channel CryptoMatrix](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** : for a broader perspective on cryptos.
