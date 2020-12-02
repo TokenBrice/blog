@@ -94,7 +94,7 @@ Le prochain round des Gitcoin grants commence aujourd'hui et dure jusqu'au 17 D�
 Un autre sous-ensemble de l'écosystème d'Ethereum offre depuis peu une valeur incroyable pour la création de communautés : les jetons non fongibles (NFT). Si le terme est un peu effrayant, l'idée de base est en fait assez simple : Les NFT représentent un autre niveau de rareté numérique. 
 
 {{< notice note >}}
-Vous trouverez un explicatif détaillé sur les NFTs d'il y a deux ans, toujours d'actualité et accessible pour les nouveaux arrivants : [jetons non fongibles expliqués avec Blastoise et Charizard]({{< relref path="/content/posts/2018/NFT.md" >}}).
+Vous trouverez un explicatif détaillé sur les NFTs d'il y a deux ans, toujours d'actualité et accessible pour les nouveaux arrivants : [jetons non fongibles expliqués avec Blastoise et Charizard]({{< relref path="/content/posts/2018/nft.fr.md" >}}).
 {{< /notice >}}
 
 Associés à DeFi, les NFT permettent désormais de nouvelles formes d'interactions et de financements communautaires. Grâce à des plateformes en libre-service, les artistes et les communautés peuvent créer et vendre de manière autonome des NFTs avec des services qui rationalisent le processus comme [Rarible](https://rarible.com/). Grâce à leur nature programmable, les NFT permettent de **nouveaux modèles de redistribution** tels qu'une contribution sur les achats du marché secondaire. Enfin, puisqu'ils vivent sur la chaîne de distribution Ethereum, les NFTs fournissent également un historique transparent de la propriété et des prix antérieurs.

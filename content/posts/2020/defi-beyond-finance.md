@@ -96,7 +96,7 @@ If you'd like to support French DeFi particularly, feel free to check the **[Ban
 Another subset of the Ethereum ecosystem has been delivering incredible value for community building lately: non-fungible tokens (NFT). While the term is a mouthful, the base idea is actually quite simple: NFTs deliver another level of digital scarcity. 
 
 {{< notice note >}}
-You'll find a detailed explainer on NFT two years ago, still relevant and accessible for newcomers: [Non-fungible tokens explained with Blastoise and Charizard]({{< relref path="/content/posts/2018/NFT.md" >}}).
+You'll find a detailed explainer on NFT two years ago, still relevant and accessible for newcomers: [Non-fungible tokens explained with Blastoise and Charizard]({{< relref path="/content/posts/2018/nft.md" >}}).
 {{< /notice >}}
 
 Paired with DeFi, NFTs are now enabling new forms of community interactions and fundings. Using **self-serve platforms**, artists and communities can autonomously create and sell NFTs with services streamlining the process like [Rarible](https://rarible.com/). Thanks to their programmable nature, NFTs enable **new re-distribution models** such as a contribution on secondary market purchases. Finally, since they live on the Ethereum blockchain, NFTs also provide a transparent history of ownership and previous prices.
