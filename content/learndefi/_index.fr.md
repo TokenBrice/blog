@@ -43,8 +43,8 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 - **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour une perspective plus large sur toutes les cryptos.
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
 - **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis et accessibles.
+- **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
-
 
 ### Communautés
 
