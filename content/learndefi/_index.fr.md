@@ -17,6 +17,10 @@ Où nous considérons les valeurs fondamentales de la DeFi et comment elle peuve
 
 Une introduction exhaustive à la DeFi... qui date d'avril 2020. Le milieu a beaucoup évolué depuis, sa lecture vous donnera donc les bases et un aperçu des progrès réalisés.
 
+**[💭 La réflexion du mercredi - 🤷 La politique monétaire de l'ETH est sous-estimée](https://banklessfr.substack.com/p/-la-rflexion-du-mercredi-la-politique-69d)**
+
+Un article plus conséquent qui vous permettra de découvrir la politique monétaire d'ETH et ses enjeux sur le long terme.
+
 #### La DeFi en pratique
 
 Maintenant que vous avez les bases, il est temps d'envisager de passer à la pratique. Voici quelques ressources mettant en évidence des services que vous pourriez utiliser et des conseils pour en tirer le meilleur parti :
@@ -32,6 +36,10 @@ Quoi que vous fassiez dans la DeFi, vous devrez fréquemment échanger des token
 **[🎚 Exposition à l'ETH ou rendements de DeFi : pourquoi choisir ?]({{< relref "leveraging-ETH.fr.md" >}})**
 
 Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur parti de votre capital avec DeFi. Ceci couvre les bases.
+
+**[🧐 Yearn Finance](/fr/tags/yearn-finance/)**
+
+Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratique au travers d'un de ses protocoles phares avec une séries d'articles sur Yearn Finance.
 
 **[⭐ Sélection DeFi](/fr/categories/picks/)**
 

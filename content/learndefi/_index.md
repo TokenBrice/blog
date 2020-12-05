@@ -37,6 +37,10 @@ Whatever you do in DeFi, you'll frequently need to swap tokens - this piece will
 
 Harnessing money markets is essential to make the most of your capital with DeFi. This covers the basics.
 
+**[🧐 Yearn Finance](/tags/yearn-finance/)**
+
+To better understand DeFi, you can follow its growth through one of its star protocols with this article series.
+
 **[⭐ DeFi Picks](/categories/picks/)**
 
 I frequently share quick overview on projects I'm following and developments in the space.
