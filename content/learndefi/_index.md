@@ -54,18 +54,24 @@ Keeping track with DeFi is an endless task. To get started, I'd recommend you to
 *   [Rekt](https://rekt.ghost.io/): to learn more about the main events of the space.
 *   [This blog](/categories/defi): for practical takes on DeFi services.
 
-### Essential DeFi Tools
+### 🧰 The DeFi Toolbox
 
-You'll find below the leading and essential tools to help you get started and track your investments:
+To interact with DeFi, you'll need some key tools such as a wallet. Once you get involved, you'll quickly be looking for tools to help you with tracking too:
+
+#### Essentials to get started
 
 *   [MetaMask](https://metamask.io/): a browser-extension Ethereum wallet widely used to access DeFi.
-*   [Argent Wallet](http://argent.xyz/): a mobile smart contract-based alternative. 
+*   [Argent Wallet](http://argent.xyz/): a mobile smart contract-based alternative.
+*   [EtherScan](https://etherscan.io/): to check wallets and token contracts. 
 *   [ParaSwap](https://paraswap.io/): to optimize your token swaps.
+
+#### Tracking your investments
+
 *   [Zapper](https://zapper.fi/): to track your portfolio and easily zap in/out of investment opportunities.
+*   [CoinGecko](https://coingecko.com/): to follow the prices of any token.
+*   [Defillama](https://defillama.com/): key metrics about the growth of the main DeFi platform.
 *   [YieldFarmingTools](https://yieldfarmingtools.com/): an overview of the main yield farming opportunities.
 *   [vFat Tools](https://vfat.tools/): another tracker quick to add the latest services.
-
-You'll find more tools and tips in [🧰 DeFi Toolbox](({{< relref path="/content/posts/2020/defi-farmer-toolbox.md" >}}))
 
 ---
 

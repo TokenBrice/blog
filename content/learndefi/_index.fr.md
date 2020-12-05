@@ -63,16 +63,24 @@ Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés
 - [DeFi France Blabla](https://t.me/defifranceblabla) : pour des discussions plus légères.
 - [Discord CryptoMatrix](https://discord.gg/At6mqXvw6R): avec des lives tous les lundi soirs.
 
-### Les outils essentiels de la DeFi
+### 🧰 La boite-à-outils DeFi
 
 Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à démarrer et à suivre vos investissements :
 
+### L'essentiel pour commencer
+
 * [MetaMask](https://metamask.io/) : une extension du navigateur Ethereum portefeuille largement utilisé pour accéder à la DeFi.
-* [Argent Wallet](http://argent.xyz/) : une alternative mobile utilisant un smart contract wallet. 
+* [Argent Wallet](http://argent.xyz/) : une alternative mobile utilisant un smart contract wallet.
+* [EtherScan](https://etherscan.io/): pour vérifier les smart contracts ou wallets. 
 * [ParaSwap](https://paraswap.io/) : pour optimiser vos échanges de tokens.
+
+### Pour suivre vos investissements
+
 * [Zapper](https://zapper.fi/) : pour suivre votre portefeuille et saisir facilement les opportunités d'investissement.
+* [CoinGecko](https://coingecko.com/): pour suivre le prix de n'importe quel token.
+* [Defillama](https://defillama.com/): les stats essentielles sur les principaux protocoles DeFi.
 * [YieldFarmingTools](https://yieldfarmingtools.com/) : un aperçu des principales possibilités de farming.
-* [vFat Tools](https://vfat.tools/) : un autre tracker qui ajouteajouter rapidement les derniers services.
+* [vFat Tools](https://vfat.tools/) : un autre tracker qui ajoute rapidement les derniers services.
 
 ---
 
