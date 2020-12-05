@@ -31,7 +31,7 @@ Le BAC a d'abord été distribué aux personnes qui stakaient des stablecoins Le
 
 ![BasisCash-Boardroom](/img/2020/defi-picks-1/bas-boardroom.png)
 
-Le système n'est pas encore lancé, mais seulement la distribution de tokens. Dès son lancement (prévu pour le mercredi 12/9), la trésorerie commencera à produire des BAC si son prix est supérieur au dollar. Les détenteurs de BAS peuvent les staker dans le "Boardoam" pour gagner la plus grande partie du BAC produit par le système dans ce scénario. En outre, un système d'obligations (BAB) contribuera à stabiliser davantage le taux d'alcoolémie.
+Le système n'est pas encore lancé, mais seulement la distribution de tokens. Dès son lancement (prévu pour le mercredi 12/9), la trésorerie commencera à produire des BAC si son prix est supérieur au dollar. Les détenteurs de BAS peuvent les staker dans le "Boardoam" pour gagner la plus grande partie du BAC produit par le système dans ce scénario. En outre, un système d'obligations (BAB) contribuera à stabiliser davantage le taux du BAC.
 
 Rejoignez [le Discord](https://discord.gg/wPrmhHDREG) pour en savoir plus.
 
