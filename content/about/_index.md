@@ -37,30 +37,6 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | :---: | :---: | :---: | :---: | :---: |
 |  [Tokenbrice.stateofus.eth](https://join.status.im/user/tokenbrice.stateofus.eth) | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Here](mailto:me@tokenbrice.com)
 
----
-
-### Projects
-
-#### Podcast: Abel Abstracts - Weekly DeFi Catchup with TokenBrice
-
-Every week, Abel and I catch up and go over the new releases in the DeFi space, as well the articles & insights that caught our eyes. On top of the weekly catchup, Abel also publishes insightful interviews with key actors of whole web3 ecosystem in his podcast: 
-- **[🎙 Abel's Abstracts - Anchor.FM](https://anchor.fm/abelsabstracts)**  
-- **[📧 Check the newsletter here](https://abelsabstracts.substack.com/)**.
-
-![Abel Abstracts - Weekly DeFi Catchup with TokenBrice](/img/others/abel-abstracts.jpeg)
-
-#### Monolith mDeFi Panels
-
-Monolith frequently organises panel discussions to address topics at the very heart of DeFI:
-
-{{< youtube KVgmdJx7oLQ >}}
-
-You'll find more information here:
-- [mDeFi Meetup Page](https://www.meetup.com/monolith/) - to stay in touch with upcoming events or [follow Monolith on Twitter](https://twitter.com/monolith_web3/)
-- [Videos of all previous #mDeFi](https://www.youtube.com/playlist?list=PLimDUDoPGQcmP7E4KKBi8BzMt7gk9izJU) on Monolith Youtube.
-
----
-
 ### Media
 
 {{< custommedia language="en" >}}
