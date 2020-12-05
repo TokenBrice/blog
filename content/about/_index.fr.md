@@ -20,7 +20,15 @@ Je suis également l'un des coorganisateurs de DeFi France, un rendez-vous mensu
 
 Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies d'acquisition digitales pérennes.
 
-N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici :
+### TokenBrice.xyz
+
+Mon blog est disponible en anglais et en français et suit une philosophie simple :
+
+- **Respect de la vie privée** : pas de trackers intrusifs, seulement une simple analytics auto-hébergée avec Matomo. [En savoir plus](https://tokenbrice.xyz/posts/2020/hello-world/)
+- **Transparent** : ce blog vit dans un [GitHub repo](github.com/tokenbrice/blog/), vous pouvez suivre et contrôler toutes les modifications.
+- **Entièrement gratuit**. Pas de messages sponsorisés. Je suis le seul éditeur : bienvenue dans mon monde. Si vous trouvez que mon travail a de la valeur, vous pouvez **[soutenir le blog sur Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
+
+N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici.
 
 ### Contact
 

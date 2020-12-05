@@ -1,7 +1,7 @@
 ---
 title: "Découvrir la DeFi"
 url: learndefi
-date: 2020-07-05T08:24:40+02:00
+date: 2020-12-05T08:24:40+02:00
 description: "La finance décentralisée est jeune, fascinante et grandit rapidement. Pour vous aider à la découvrir, vous trouverez ici différentes ressources utiles."
 ---
 
@@ -15,7 +15,7 @@ Où nous considérons les valeurs fondamentales de la DeFi et comment elle peuve
 
 **[📖 Comment utiliser les services DeFinanciers à votre avantage ?]({{< relref "definancial-services-guide.fr.md" >}})**
 
-Une introduction exhaustive à DeFi... qui date d'avril 2020. L'espace a beaucoup évolué depuis lors, sa lecture vous donnera donc les bases et un aperçu des progrès réalisés depuis lors.
+Une introduction exhaustive à la DeFi... qui date d'avril 2020. Le milieu a beaucoup évolué depuis, sa lecture vous donnera donc les bases et un aperçu des progrès réalisés.
 
 #### La DeFi en pratique
 
@@ -27,7 +27,7 @@ Vous ne savez pas par où commencer ? Les vaults offrent des options d'investiss
 
 **[🐊 Immersion dans la mare aux swaps]({{< relref "swap-swamp.fr.md" >}})**
 
-Quoi que vous fassiez dans DeFi, vous devrez fréquemment échanger des tokens - cette article vous aidera à le faire efficacement.
+Quoi que vous fassiez dans la DeFi, vous devrez fréquemment échanger des tokens - cette article vous aidera à le faire efficacement.
 
 **[🎚 Exposition à l'ETH ou rendements de DeFi : pourquoi choisir ?]({{< relref "leveraging-ETH.fr.md" >}})**
 
@@ -37,19 +37,21 @@ Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur par
 
 Je partage fréquemment une vue d'ensemble rapide sur les projets que je suis et les développements dans l'espace.
 
+---
+
 ### Media DeFi 
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
-- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour une perspective plus large sur toutes les cryptos.
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
-- **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis et accessibles.
+- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** qui fait le point sur les publications et propose des analyses de projet.
+- **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis qui se concentrent sur un sujet d'actualité.
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
 
 ### Communautés
 
 Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
-- [Telegram DeFi France](https://t.me/defifrance): la principale communauté de DeFians francophones.
+- **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
 - [DeFi France Blabla](https://t.me/defifranceblabla) : pour des discussions plus légères.
 - [Discord CryptoMatrix](https://discord.gg/At6mqXvw6R): avec des lives tous les lundi soirs.
 

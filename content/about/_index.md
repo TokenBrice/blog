@@ -19,7 +19,15 @@ I'm also the co-organiser of DeFi France, the most successful decentralized fina
 
 Since the beginning of my career, I've worked with startups and helped them grow their online presence by designing and enforcing strategies enabling them to harness the long-lasting exposure SEO can deliver.
 
-Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed on this blog.
+### TokenBrice.xyz
+
+This blog is provided in both English and French and follows a simple philosophy:
+
+- **Privacy-conscious**: no intrusive trackers, only a simple self-hosted analytics with Matomo. [Learn more](https://tokenbrice.xyz/posts/2020/hello-world/)
+- **Transparent**: this blog lives in a [GitHub repo](github.com/tokenbrice/blog/), you can follow and track all edits.
+- **Entirerely free**. No sponsored sposts. I'm the sole editor: welcome to my world. If you find value in my work, you can **[support the blog on the Gitcoin grants](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
+
+Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed here.
 
 ### Contact Me
 

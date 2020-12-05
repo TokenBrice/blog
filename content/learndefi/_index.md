@@ -1,7 +1,7 @@
 ---
 title: "Learn DeFi"
 url: learndefi
-date: 2020-07-05T08:24:40+02:00
+date: 2020-12-05T08:24:40+02:00
 description: "Decentralized finance is a fascinating and fast growing space. Navigating it can be tricky, especially when you just discover it: you'll find some useful resources to help you get started here."
 ---
 
