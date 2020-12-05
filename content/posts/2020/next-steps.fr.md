@@ -44,7 +44,7 @@ J'ai tellement appris dans ce rôle ! Ce que j'ai le plus aimé, c'est que j'ét
 
 Je sais que c'est idiot, mais Osaka m'a époustouflé. Avant cela, je ressentais l'énergie et l'ambition de l'espace. En y allant, je l'ai vu personnellement, et c'était autre chose. Cela a renforcé ma confiance dans l'impact qu'Ethereum pourrait avoir sur le monde.
 
-C'est aussi à cette époque que j'ai rencontré [Mounir](https://twitter.com/mounibec) et [Arthur](https://twitter.com/arthurmicoulet), et ensemble nous avons créé [DeFi France]({{{< relref path="/content/defi/_index.fr.md" >}}) : la participation à notre premier événement nous a époustouflés, avec 90 personnes dans la salle pour un événement organisé en quelques jours ! 
+C'est aussi à cette époque que j'ai rencontré [Mounir](https://twitter.com/mounibec) et [Arthur](https://twitter.com/arthurmicoulet), et ensemble nous avons créé [DeFi France]({{{< relref path="/content/learndefi/_index.fr.md" >}}) : la participation à notre premier événement nous a époustouflés, avec 90 personnes dans la salle pour un événement organisé en quelques jours ! 
 
 {{< youtube 6rgt-bygKNo >}}
 

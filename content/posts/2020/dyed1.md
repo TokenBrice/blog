@@ -2,7 +2,7 @@
 title: "DYED #1 - Gotta Get Dat ETH"
 description: "It's to time to get started with your onboarding of Ethereum decentralised finance. Good luck with this first assignment!"
 date: '2020-08-10T00:53:50.191Z'
-categories: [🌌 DeFi, 👽 DYED]
+categories: [👽 DYED]
 tags: [DeFi, Ethereum, learning DeFi, DYED-mission]
 ---
 

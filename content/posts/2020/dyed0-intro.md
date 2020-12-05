@@ -2,7 +2,7 @@
 title: "Do You Even DeFi? Introduction [DYED#0]"
 description: "DYED is a DeFi onboarding program articulate with weekly missions. You will be following the pace of Vincent's Monolith new Product Manager - and I'll guide the sessions."
 date: '2020-08-09T01:53:50.191Z'
-categories: [🌌 DeFi, 👽 DYED]
+categories: [👽 DYED]
 tags: [DeFi, Ethereum, learning DeFi]
 ---
 

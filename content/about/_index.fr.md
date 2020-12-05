@@ -10,7 +10,7 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 |  ![paraswap](/img/others/paraswap.png) | [💱 ParaSwap](https://paraswap.io) | Le middleware DeFi qui facilite l'implémentation de swaps optimisés pour les dApps et les utilisateurs finaux. | Head of Propaganda |
-|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français.<br> [➡Plus d'infos sur la page dédiée]({{< relref path="/content/defi/_index.fr.md" lang="fr" >}}) | Coorganisateur |
+|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France]({{< relref path="/content/learndefi/_index.fr.md" lang="fr" >}}) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Coorganisateur |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
 
 

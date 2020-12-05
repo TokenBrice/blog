@@ -2,7 +2,7 @@
 title: "#DYED 1 - Mission Report: Gotta Get Dat ETH"
 description: "The first mission was easy - yet a necessary pre-requisite for the exciting next ones to come! Let's see how you fared."
 date: '2020-08-23T00:53:50.191Z'
-categories: [🌌 DeFi, 👽 DYED]
+categories: [👽 DYED]
 tags: [DeFi, Ethereum, learning DeFi, DYED-report]
 ---
 

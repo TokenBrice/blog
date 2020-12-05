@@ -2,7 +2,7 @@
 title: "DYED #2 - Be your own bank"
 description: "Now that we have ETH, the **logical and simple** next step is to become our own bank. You've read it right, now let's get to work!"
 date: '2020-08-24T00:53:50.191Z'
-categories: [🌌 DeFi, 👽 DYED]
+categories: [👽 DYED]
 tags: [DeFi, Ethereum, learning DeFi, DYED-mission, Maker, MakerDAO, CDP, Vault, Mint DAI]
 ---
 
