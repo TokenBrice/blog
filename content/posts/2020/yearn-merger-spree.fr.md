@@ -39,7 +39,7 @@ Note : Certaines de ces fusions sont encore en attente d'un vote des détenteurs
 ![Fusion de Yearn](/img/2020/yearn-merger/y-among-us.gif)
 <div align = "center">
 
-*yAmong us - [Cryptouf](https://twitter.com/cryptouf/status/1333792816934256642)*
+*Un membre de la communauté francophone a créé un NFT pour commémorer l'évènement : [yAmong us, par Cryptouf - dispo sur Rarible](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:90731:0xac6d5c44c7a089101c53735211b12f5f722c7688).*
 
 </div>
 

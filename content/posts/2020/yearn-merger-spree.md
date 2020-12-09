@@ -40,7 +40,7 @@ Note: Some of these mergers are still pending a token holder vote to be validate
 ![Yearn-merger](/img/2020/yearn-merger/y-among-us.gif)
 <div align = "center">
 
-*yAmong us - [Cryptouf](https://twitter.com/cryptouf/status/1333792816934256642)*
+*A NFT was made to immortalize this moment of Yearn's history: [yAmong us, by Cryptouf - available on Rarible](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:90731:0xac6d5c44c7a089101c53735211b12f5f722c7688).*
 
 </div>
 
