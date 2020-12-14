@@ -1,7 +1,7 @@
 ---
 title: "Sélection DeFi #2 - PowerPool YETI, Idle Finance (+Harvest)"
 description: "Un nouveau produit pour développer une exposition équilibrée et lucrative à l'écosystème Yearn, le farming de stablecoins sous stéroides, et bien plus ! "
-date: '2020-12-05T01:13:50.191Z'
+date: '2020-12-11T01:13:50.191Z'
 categories: [🌌 DeFi, ⭐ Sélection]
 tags: [DeFi, Ethereum, PowerPool, YETI, Harvest, Idle, Idle Finance, Elastic Stablecoin, Algorithmique stablecoins wBTC, Badger, BadgerDAO, DIGG, Basis, Basis Cash, Rari Capital, Alpha Homora, Earn on ETH, Aave]
 ---

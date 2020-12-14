@@ -78,9 +78,12 @@ Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à d�
 
 * [Zapper](https://zapper.fi/) : pour suivre votre portefeuille et saisir facilement les opportunités d'investissement.
 * [CoinGecko](https://coingecko.com/): pour suivre le prix de n'importe quel token.
+* [vFat Tools](https://vfat.tools/) : un tracker DeFi qui ajoute rapidement les derniers services.
+
+### Pour suivre les métriques de la DeFi
 * [Defillama](https://defillama.com/): les stats essentielles sur les principaux protocoles DeFi.
+* [Token Terminal](https://terminal.tokenterminal.com/) : des donnés numériques standardisées pour comparer différents protocoles DeFi et crypto.
 * [YieldFarmingTools](https://yieldfarmingtools.com/) : un aperçu des principales possibilités de farming.
-* [vFat Tools](https://vfat.tools/) : un autre tracker qui ajoute rapidement les derniers services.
 
 ---
 
