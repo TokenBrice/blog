@@ -12,7 +12,7 @@ Before we dive into what they are and what they entail, let's first discuss the 
 
 ![DeFi BRRR](/img/2020/algorithmic-stablecoins/cover.png "Welcome! Hope you'll enjoy the ride.")
 
-Maker explored another approach with DAI that has significantly fewer compromises - however, the scalability is lowered. Besides, it's hard to consider DAI "sufficiently trustless" today when 60% of the collateral used to mint it are not (USDC, wBTC, TUSD, etc.)
+Maker explored another approach with DAI that has significantly fewer compromises - however, the scalability is lowered. Besides, it's hard to consider DAI "sufficiently trustless" today when the majority of the collaterals used to mint it are not (USDC, wBTC, TUSD, etc.)
 
 So the recap here would be that so far, there is **an obvious unsatisfied demand** in stablecoin - the ones that scaled did it with significant compromises, which enabled them to satisfy markets despite being services requiring trust, and more or less worthy of it (especially USDT).
 
