@@ -30,6 +30,10 @@ La réalité permettra une étrange mais inévitable cohabitation des deux tenda
 
 **Ce sujet n'est pas politique.** Bleu ou rouge, peu importe. Il s'agit d'un sujet bien plus critique que de savoir qui sera la prochaine vedette du théâtre de marionnette politique de votre pays.
 
+{{< notice note >}}
+Pour approfondir le concept de nation, n'hésitez pas à aller lire la dernière publication BanklessFR : <br> [La réflexion du mercredi - 🏴 Une Nation Bankless](https://banklessfr.substack.com/p/-la-rflexion-du-mercredi-une-nation)
+{{< /notice >}}
+
 ---
 
 ## Les États nations de moins en moins pertinents
