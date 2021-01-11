@@ -60,7 +60,7 @@ Comme vous pouvez le voir, à un niveau élevé, ces mécanismes sont simples. I
 
 Cette conception pousse la théorie du jeu et le jeu de mime à un autre niveau :
 
-![DSD Meme](/img/2020/algorithmic-stablecoins/dsd-meme.jpeg "A DSD meme")
+![DSD Meme](/img/2020/algorithmic-stablecoins/dsd-meme.jpeg "Un meme DSD")
 
 ### Phase d'expansion agressive
 
@@ -109,8 +109,8 @@ Pour ma part, je suis enthousiaste quant à la direction que prend ce sous-ensem
 Avant de nous séparer, permettez-moi de vous présenter quelques outils utiles pour suivre l'évolution de ces stablecoins. Tout d'abord, chaque projet possède son propre tracker qui fournit les principales mesures de l'époque actuelle :
 
 - **[Basis Cash Tools](https://bc.tools/)**
-- ** [Outils EDD](https://esd.tools/)**
-- ** [Outils DSD](https://dsd.tools/)**
+- **[Outils de suivi ESD](https://esd.tools/)**
+- **[Outils de suivi DSD](https://dsd.tools/)**
 
 Enfin, vous pouvez consulter des informations plus détaillées sur le système ESD et DSD sur ce tableau de bord : **[ESD/DSD Bonding](https://duneanalytics.com/tongnk/esd_1)**
 
