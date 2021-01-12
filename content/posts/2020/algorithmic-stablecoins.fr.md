@@ -104,7 +104,7 @@ Pour ma part, je suis enthousiaste quant à la direction que prend ce sous-ensem
 
 ---
 
-### 🧰 Boîte à outils algorithmique des Stablecoins
+### 🧰 Boîte à outils pour les stablecoins algorithmique
 
 Avant de nous séparer, permettez-moi de vous présenter quelques outils utiles pour suivre l'évolution de ces stablecoins. Tout d'abord, chaque projet possède son propre tracker qui fournit les principales mesures de l'époque actuelle :
 
