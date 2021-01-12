@@ -32,7 +32,7 @@ Once the critical mass is reached, **the focus can and must evolve**. To further
 
 To me, it seems clear now that **the second phase of growth of the money markets will be feature-driven**. Indeed, the base features available on the money market are essential, as these markets are more integrated into other DeFi protocols. The money markets with the most flexibility at the base layer will be able to handle more intricate use cases, such as credit delegation.
 
-But today, I want to focus this piece on a risk management concept that hasn't found its way to a mainstream money market yet: **tranching**. Let's see what it can enables!
+But today, I want to focus this piece on a risk management concept that hasn't found its way to a mainstream money market yet: **tranching**. Let's see what it can enable!
 
 ---
 
@@ -152,6 +152,6 @@ I for one cannot wait: I've been prepping for the past three years.
 
 ---
 
-_Thanks to Waël for making the cover image featured at the top of this article (as well as the TokenBrice insigna)._
+_Thanks to Waël for making the cover image featured at the top of this article (as well as the TokenBrice emblem)._
 
 _& To FrenchTony and ParaBellum68 for their help reviewing it._
