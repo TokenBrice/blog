@@ -75,6 +75,11 @@ Thanks to the excitement that followed the launch, Saffron grew to close to $60M
 
 ![Saffron Finance TVL - Debank](/img/2021/risk-tranching/saffron-debank.png "Historical overview of the total value locked on Saffron Finance - Debank")
 
+{{< notice note >}}
+On the charts, we can see some sharp withdrawals: it's due to the epoch-based logic of Saffron. At the end of every epochs, depositors are not earning rewards anymore until they pull out and deposit in the next epoch tranches.
+{{< /notice >}}
+
+
 Saffron is looking to expand to other money markets, most obviously Aave and expand their token coverage (currently only DAI). Other projects are exploring the idea of tranching, most notably [BarnBridge](https://barnbridge.com/), but their current achievements are less enticing in my book.
 
 *Last minute edit: BarnBridge [BOND token is now listed on Coinbase](https://twitter.com/CoinbaseCustody/status/1348739247277268997).*

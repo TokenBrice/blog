@@ -72,11 +72,15 @@ Tout cet article a en fait été inspiré par un tweet que j'ai publié et dans 
 
 ![Les différentes tranches disponibles sur Saffron Finance](/img/2021/risk-tranching/saffron.png "Les différentes tranches disponibles sur Saffron Finance pour le marché  Compound/DAI")
 
-Le découpage en tranches se fait sur une base d'"epoch", actuellement fixée à deux semaines. Ainsi, si vous fournissez la tranche A, par exemple, vous supportez le risque de défaillance de la plate-forme pour la tranche AA pendant une période de deux semaines.
+Le découpage en tranches se fait sur une base d'_epoch_, actuellement fixée à deux semaines. Ainsi, si vous fournissez la tranche A, par exemple, vous supportez le risque de défaillance de la plate-forme pour la tranche AA pendant une période de deux semaines.
 
 Grâce à l'enthousiasme qui a suivi le lancement, Saffron s'est développé pour atteindre près de 60 millions de dollars d'actifs déposés. Depuis lors, il y a eu un minimum de 15 millions de dollar d'actif déposé à tout moment sur le service.
 
 ![Saffron Finance TVL - Debank](/img/2021/risk-tranching/saffron-debank.png "Aperçu historique de la valeur totale bloquée sur Saffron Finance - Debank")
+
+{{< notice note >}}
+Sur le graphique, on peut voir des retraits importants : ils sont dus à la logique par _epoch_ de Saffron. À la fin de chaque _epoch_, les déposants doivent retirer leur liquidité et la déposer dans les tranches de la nouvelle _epoch_ pour continuer à générer un rendement.
+{{< /notice >}}
 
 Saffron cherche à s'étendre à d'autres marchés monétaires, en particulier à Aave et à étendre sa couverture en tokens (actuellement seulement DAI). D'autres projets explorent l'idée du tranching, notamment [BarnBridge](https://barnbridge.com/), mais leurs réalisations actuelles sont moins intéressantes à mes yeux.
 
