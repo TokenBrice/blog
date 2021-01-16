@@ -123,4 +123,15 @@ Merci à Grégoire pour la relecture de ce contenu et à [Jimmy](https://twitter
 
 Et à n'oubliez pas, à tout moment, si vous avez besoin d'aide et souhaitez échanger avec plus de 1100 de vos pairs, en français, ça se passe sur le **[🇫🇷 Groupe Telegram DeFi France](https://t.me/defifrance)**.
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
 [^1]: [Le Stability Fee vient de passer à 0](https://twitter.com/MakerDaiBot/status/1290243544670785536) pour tous les collaterals.

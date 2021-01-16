@@ -132,3 +132,14 @@ En bref, notre finance est déjà fortement supérieure à n'importe quel équiv
 Si vous n'êtes pas un trader, cela peut sembler excessif. Ce n'est pas le cas. Imaginez la finance comme une couche de base sous-jacente à toutes les autres. Quel que soit votre objectif, votre système devra probablement gérer des ressources limitées, vous aurez donc besoin de marchés.
 
 La bonne nouvelle, c'est que nos marchés - nos couches de base - sont plus efficaces que tous les autres, de sorte que nous pouvons raisonnablement nous attendre à ce que l'impact de cette efficacité accrue s'amplifie à mesure que nous descendons dans la pile. Pour dire les choses simplement, la finance est le premier champ de bataille que nous avons gagné : l'approche décentralisée a réussi et a permis d'obtenir une infrastructure supérieure sans équivalent. J'ai hâte de voir les prochaines !
+
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}

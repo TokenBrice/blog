@@ -125,3 +125,14 @@ Cet article  **n'est pas du conseil en investissement** ni une recommandation d'
 Je suis un natif de la DeFi et je partage mes idées, faites-en ce que vous voulez, mais réfléchissez à deux fois et évitez à tout prix les décisions impulsives : elles sont généralement les pires.
 
 🚜 Bonnes récoltes !
+
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}

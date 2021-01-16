@@ -81,3 +81,14 @@ Avec ♥ amour,
 PS : L'utilisation du terme `Grand filtre` est une référence directe au paradoxe de Fermi. Pour en savoir plus, regardez cette [vidéo d'introduction de Kurzgesagt] (https://www.youtube.com/watch?v=UjtOGPJ0URM) (Egalement l'image de base utilisée pour la couverture de cet article, merci 🙏)
 
 [🇫🇷 Une autre vidéo, cette fois-ci en français, sur le Paradoxe de Fermi](https://www.youtube.com/watch?v=X5absIwJbLs)
+
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}

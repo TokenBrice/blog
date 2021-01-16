@@ -200,6 +200,17 @@ Enfin, les quatre projets sont supportés par [Zapper](https://zapper.fi/) et [D
 - Pour en savoir plus, les francophones apprécieront cette **[🇫🇷 vidéo de 50 min expliquant les deux modèles](https://www.youtube.com/watch?v=TuenkIZZEq0)** 
 - Si vous lisez l'Anglais, cet article publié sur Derebit vaut la lecture : **[Stabilité, élasticité et réflexivité : A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-stablecoins/)**.
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
 ---
 
 [^1]: Stage/Unstage est la première étape d'engagement avec le mecanisme, une forme de SAS. Un fois staged, vous pouvez "bound" pour etre éligible aux récompenses s'il y en an. Il vous faudra parfois "claim" c'est à dire signer une transaction pour récupérer les tokens gagnés. "Autocompound", c'est quand les récompenses gagnées sont réinvesties automatiquement : autocomposition ? 

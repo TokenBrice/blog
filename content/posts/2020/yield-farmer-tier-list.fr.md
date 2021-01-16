@@ -214,6 +214,17 @@ Je vous présente le profil de risque de l'un des pools pour vous aider à le mo
 4. Nous avons de la chance avec les pertes impermanentes - étant donné que le pool implique deux tokens stables, le risque est minimisé.
 5. Tout dépend des outils que vous utilisez ici. Gardez à l'esprit que vous assumez également un risque associé à mUSD/Mstable.
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
 ---
 
 *Merci à [Grégoire](https://twitter.com/gregoireljda) pour son aide dans la relecture de cet article.*

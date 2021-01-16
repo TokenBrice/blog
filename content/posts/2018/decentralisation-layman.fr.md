@@ -203,3 +203,14 @@ _Les contenus cryptos qualitatifs en Français se font rare. Si vous connaissez 
 Vous avez peut être raté le virage de l’internet mais cette fois-ci vous arrivez au bon moment : on commence à peine ! **C’est maintenant qu’il faut se renseigner, lire et devenir expert sur le sujet afin d’être à même de reconnaître et saisir les opportunités lorsqu’elles se présenteront.**
 
 J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentraliser à grande échelle.
+
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}

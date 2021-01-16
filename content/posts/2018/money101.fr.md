@@ -151,6 +151,17 @@ Bientot dans vos wallets
 
 <span style="font-weight: 400;">Au delà de l’apport de la blockchain, on touche peut être là du doigt la plus grande contribution de Satoshi. **En créant le Bitcoin, il a ouvert la voie et a prouvé que créer une nouvelle monnaie n’était pas seulement l’affaire des banques ou des états** : c’est l’affaire des gens normaux – vous, moi, nous, et même votre grand-mère qui n’a toujours pas abandonné son matra. Comme tout changement, cela peut faire peur, mais en y réfléchissant un peu cela prend tout son sens : **qui mieux que les futurs utilisateurs eux-mêmes pourraient concevoir la monnaie la plus adaptée à leurs besoin** ?</span>
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
 ### Sources : pour approfondir
 
 <span style="font-weight: 400;">Un remerciement tout particulier à Brett Scott qui a grandement m’a aidé à mieux comprendre les mécanismes monétaires avec ses nombreux articles. Si vous lisez l’anglais, [son blog vaut vraiment le détour](https://suitpossum.blogspot.com/).</span>

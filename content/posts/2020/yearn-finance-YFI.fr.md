@@ -139,6 +139,17 @@ Les yVaults sont un produit DeFi innovant intégrant de nombreux autres services
 **Je ne suis pas responsable de <u>VOS DÉCISIONS D'INVESTISSEMENT</u>**, ni de leurs résultats. La phrase précédente s'applique tout aussi bien pour des lambos que votre potentielle banqueroute.
 {{< /notice >}}
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
 [^2]: [Voici Stani (le PDG d'Aave) qui vous explique pourquoi c'est si important](https://twitter.com/StaniKulechov/status/1280500969986498561?s=20)
 [^3]: André lui-même est [le premier à reconnaître](https://twitter.com/AndreCronjeTech/status/1290845154430025731?s=20) ce qui a rendu Yearn possible et l'importance de la composabilité. 
 [^4]: La gouvernance du protocole est maintenant entre les mains du détenteur de YFI. L'accès aux principaux contrats est détenu par un multi-sign, [André n'a pas de clé](https://twitter.com/AndreCronjeTech/status/1285427748761198594?s=20).
