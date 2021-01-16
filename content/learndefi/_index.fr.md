@@ -60,7 +60,7 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 
 Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
 - **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
-- [DeFi France Blabla](https://t.me/defifranceblabla) : pour des discussions plus légères.
+- Également accessible via un **[serveur Discord DeFi France](https://discord.gg/3bWZcK2)** un peu plus complet. 
 - [Discord CryptoMatrix](https://discord.gg/At6mqXvw6R): une communauté dédidée aux cryptomonnaies en général, très active dans la DeFi et avec des lives tous les lundi soirs.
 
 ### 🧰 La boite-à-outils DeFi
