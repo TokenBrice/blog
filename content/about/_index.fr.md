@@ -56,8 +56,9 @@ En dehors de la finance décentralisée, mon expertise technique se concentre au
 Mon blog est disponible en anglais et en français et suit une philosophie simple :
 
 - **Respect de la vie privée** : pas de trackers intrusifs, seulement une simple analytics auto-hébergée avec Matomo. [En savoir plus](https://tokenbrice.xyz/posts/2020/hello-world/)
-- **Transparent** : ce blog vit dans un [GitHub repo](github.com/tokenbrice/blog/), vous pouvez suivre et contrôler toutes les modifications.
-- **Entièrement gratuit**. Pas de messages sponsorisés. Je suis le seul éditeur : bienvenue dans mon monde. Si vous trouvez que mon travail a de la valeur, vous pouvez **[🤗 soutenir le blog sur Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
+- **Transparent** : ce blog vit dans un [repo GitHub](github.com/tokenbrice/blog/), vous pouvez suivre et contrôler toutes les modifications.
+- **Entièrement gratuit** : aucun sponsors sur ce blog. Je suis également le seul écrivain et principal éditeur : bienvenue dans mon monde. Si vous trouvez que mon travail a de la valeur, vous pouvez **[🤗 soutenir le blog sur Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
+- **Aussi libre que possible** : la licence choisie pour mes articles permet leur réutilisation ou traduction du moment que l'auteur original est cité et que le nouveau contenu produit reste accessible à tous gratuitement.
 
 ## Me contacter
 
