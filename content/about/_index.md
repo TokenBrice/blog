@@ -9,7 +9,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 
 |  Logo | Project | Description | Function |
 | :---: | :---: | :---: | :---: |
-|  ![paraswap](/img/others/paraswap.png) | [💱 ParaSwap](https://paraswap.io) | The DeFi middleware abstracting the complexity required to deliver optimized token swaps for Dapp developpers and end-users. | Head of Propaganda |
+|  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | The DeFi middleware abstracting the complexity required to deliver optimized token swaps for Dapp developpers and end-users. | Head of Propaganda |
 |  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. | Co-Organiser |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | The Bankless program blends money and tech insight to help you level up your open finance game every single week. | Coordinator |
 
