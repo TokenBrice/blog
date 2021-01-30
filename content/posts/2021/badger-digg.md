@@ -4,8 +4,8 @@ description: "Badger sits at the forefront of two highly trendy themes: DeFi & B
 date: '2021-01-30T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, Badger, BadgerDAO, DIGG, Elastic Currencies, wBTC, renBTC, Curve BTC pools, gitcoin, Meme, vault, farming, liquidity providing, setts, LP, BTC, BTC on Ethereun, Platformization of DeFi]
-toc: false
-tocNum: false
+toc: true
+tocNum: true
 url: badger-digg
 ---
 

@@ -4,7 +4,7 @@ description: "Un regard sur le mécanisme de capture de valeur d'Uniswap, de Sus
 date: '2021-01-23T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Échanges décentralisés, Uniswap, Sushiswap, Curve, Curve Finance, Balancer, Bancor, CRV, UNI, SUSHI]
-toc: false
+toc: true
 tocNum: false
 url: dex-echanges-decentralisées-capture-valeur
 ---

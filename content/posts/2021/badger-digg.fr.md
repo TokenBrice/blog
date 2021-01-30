@@ -4,8 +4,8 @@ description: "BadgerDAO se trouve en première ligne sur deux thèmes très tend
 date: '2021-01-30T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Découverte]
 tags: [DeFi, Ethereum, Finance décentralisées, Badger, BadgerDAO, DIGG, monaies élastiques, wBTC, renBTC, Curve BTC pools, gitcoin, Meme, vault, setts, farming, liquidity providing, LP, BTC, BTC on Ethereun, platformisation de la DeFi]
-toc: false
-tocNum: false
+toc: true
+tocNum: true
 url: badger-digg
 ---
 

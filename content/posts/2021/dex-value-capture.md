@@ -4,7 +4,7 @@ description: "A look at Uniswap's, Sushiswap's and Curve's value capture mechani
 date: '2021-01-23T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Curve Finance, Balancer, Bancor, CRV, UNI, SUSHI]
-toc: false
+toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
 ---
