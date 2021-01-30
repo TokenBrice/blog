@@ -79,7 +79,7 @@ Alors sans plus attendre, plongeons dans le vif du sujet : les rebases.
 
 Le DIGG est ce qu'on appelle une "monnaie élastique", comme l'a initié Ampleforth. Cela signifie que l'offre totale de DIGG n'est pas fixée, mais fluctue quotidiennement en fonction du prix moyen pondéré dans le temps de le DIGG par rapport à son ancrage - le BTC.
 
-Plus le DIGG est "en dehors de son périmètre", ce qui signifie que son prix est supérieur au prix de BTC, plus l'offre de DIGG est diluée, le DIGG supplémentaire produite étant distribuée proportionnellement à tous les détenteurs - et il se passe la même chose dans l'autre sens : contraction si le prix est inférieur à l'ancrage.
+Plus le DIGG est "en dehors de son périmètre", ce qui signifie que son prix est supérieur au prix de BTC, plus l'offre de DIGG est diluée, le DIGG supplémentaire produit étant distribuée proportionnellement à tous les détenteurs - et il se passe la même chose dans l'autre sens : contraction si le prix est inférieur à l'ancrage.
 
 Tout comme pour l'AMPL, avec DIGG, tous les détenteurs (y compris les tokens de pool de liquidité) sont touchés par la rebase, qu'elle soit positive ou négative. Cependant, avec DIGG, tout comme avec les tokens de seigneuriage, il existe **un mécanisme pour abstraire la rebase afin de permettre une meilleure composabilité au sein de DeFi : c'est bDIGG**, nous en discuterons juste après.
 
