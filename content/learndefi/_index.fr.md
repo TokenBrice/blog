@@ -41,7 +41,7 @@ Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur par
 
 Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratique au travers d'un de ses protocoles phares avec une séries d'articles sur Yearn Finance.
 
-**[⭐ Sélection DeFi](/fr/categories/picks/)**
+**[⭐ Sélection DeFi](/fr/categories/s%C3%A9lection/)**
 
 Je partage fréquemment une vue d'ensemble rapide sur les projets que je suis et les développements dans l'espace.
 
