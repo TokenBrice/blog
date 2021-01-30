@@ -9,7 +9,7 @@ tocNum: false
 url: badger-digg
 ---
 
-Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidement transformé en une centrale DeFi **hébergeant maintenant > 1,2 milliard de dollars d'actifs**. Bien que j'ai rapidement évoqué Badger dans des articles ou des émissions précédentes, je pense qu'il est temps de consacrer un article à le DIGG, sans oublier son contexte.
+Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidement transformé en une centrale DeFi **hébergeant maintenant > 1,2 milliard de dollars d'actifs**. Bien que j'ai rapidement évoqué Badger dans des articles ou des émissions précédentes, je pense qu'il est temps de consacrer un article à DIGG, sans oublier son contexte.
 
 ![badgerdao-story-tkb-cover](/img/2021/badger-digg/cover.png/)
 
@@ -47,7 +47,7 @@ L'aidrop initial de BADGER reconnaissait les actions clés liées à Bitcoin sur
 
 En plus de l'élan créé par le lancement et la distribution initiale, la communauté a pu le maintenir grâce à un esprit de meme florissant : une distribution de NFT a été organisée sur Meme[^2], disponible pour les déposants dans le sett bBADGER ou le sett wBTC/BADGER Uniswap.
 
-Au total, 6 NFTs différents étaient disponibles et le premier à les collecter pouvait réclamer une prime BADGER. Le fait d'être détenteur ou farmer de ces NFT a été reconnu dans la distribution initiale de le DIGG et leur inclusion dans Badger comme multiplicateur de rendement est en cours de discussion.
+Au total, 6 NFTs différents étaient disponibles et le premier à les collecter pouvait réclamer une prime BADGER. Le fait d'être détenteur ou farmer de ces NFT a été reconnu dans la distribution initiale de DIGG et leur inclusion dans Badger comme multiplicateur de rendement est en cours de discussion.
 
 ![un NFT Meme-Badger](/img/2021/badger-digg/badger-nft-satoshi.gif/ "Un des 6 Badger x Meme NFTs - Satoshi")
 
@@ -61,11 +61,11 @@ Si vous êtes très optimiste sur le prix d'un token à court terme, c'est gén�
 
 DIGG est la deuxième grande étape du projet DAO de Badger : un nouveau type de représentation de BTC vivant sur la blockchain Ethereum. Contrairement à la wBTC ou à la renBTC, **DIGG n'est pas soutenu par stock de BTC**. Il utilise plutôt le mécanisme de rebase initié par Ampleforth pour tenter de livrer à terme un actif qui suit le prix de BTC.
 
-Avant de nous plonger dans le fonctionnement de le DIGG, parlons rapidement du pré et post-lancement. 
+Avant de nous plonger dans le fonctionnement de DIGG, parlons rapidement du pré et post-lancement. 
 
 ### Wen DIGG ?
 
-Le lancement de le DIGG était un événement très attendu. Alors que de l'extérieur, il semble que cela ait pris plus de temps que prévu, ce qui s'est passé à l'intérieur était fascinant : la **communauté initiale réunie autour de Badger a participé activement aux décisions clés entourant DIGG.**
+Le lancement de DIGG était un événement très attendu. Alors que de l'extérieur, il semble que cela ait pris plus de temps que prévu, ce qui s'est passé à l'intérieur était fascinant : la **communauté initiale réunie autour de Badger a participé activement aux décisions clés entourant DIGG.**
 
 Après discussion au sein de la communauté, il a été décidé de partir avec une offre de départ relativement faible (4000) permettant un **test de stress dès le début du mécanisme de rebase**. Les rebases ont également commencé dès le tout début - 24h après le lancement du token.
 
@@ -102,7 +102,7 @@ Pour l'instant, le mécanisme de rebase est assez simple, mais il pourrait être
 
 ### Prochaine étape pour les Setts
 
-Avec le lancement de le DIGG, la prochaine grande étape pour Badger, en tant que protocole, est de commencer à **accroître son efficacité en termes de capital** : pour le dire plus simplement, permettre à ses utilisateurs **d'emprunter à partir de leurs positions dans les setts**.
+Avec le lancement du DIGG, la prochaine grande étape pour Badger, en tant que protocole, est de commencer à **accroître son efficacité en termes de capital** : pour le dire plus simplement, permettre à ses utilisateurs **d'emprunter à partir de leurs positions dans les setts**.
 
 Pour être plus clair (tout en extrapolant un peu) : imaginez le Badger actuel, avec une fonction supplémentaire vous permettant de frapper des DAI à partir de vos sets comme vous le faites avec vos ETH sur Maker. Vous ne le feriez pas ?
 
@@ -116,7 +116,7 @@ Sur ce point, j'aimerais attirer votre attention sur le bDIGG en particulier. Bi
 
 ## La fin de jeu pour BadgerDAO & la DeFi
 
-La fin du jeu pour Badger serait comme celle que j'ai décrite précédemment, avec un écosystème complet autour du bDollar ou quel que soit son nom. Badger deviendrait de plus en plus un service de type Synthetix où les détenteurs se verraient proposer différentes options de participation plus ou moins active à l'écosystème, avec les récompenses appropriées.
+La fin du jeu pour Badger serait comme celle que j'ai décrite précédemment, avec un écosystème complet autour du CLAW ou quel que soit son nom.[^3] Badger deviendrait de plus en plus un service de type Synthetix où les détenteurs se verraient proposer différentes options de participation plus ou moins active à l'écosystème, avec les récompenses appropriées.
 
 Comme les services comme Badger intègrent des éléments du marché monétaire tels que l'emprunt, ils **augmentent l'efficacité du capital pour leurs utilisateurs**. Ce qui était autrefois une représentation de la BTC produisant 20 % d'APY est maintenant le même + vous pouvez emprunter une partie de sa valeur en stablecoins pour augmenter encore le rendement, si cela correspond à votre appétit pour le risque.
 
@@ -128,3 +128,4 @@ Compte tenu **[du succès du modèle Curve / CRV]({{< relref path="/content/post
 
 [^1]: Les graphiques proviennent de [Badger's DAO liquidity mining launch announcement](https://badgerdao.medium.com/badger-dao-liquidity-mining-launch-b2415301bd31#:~:text=Tokens%20distributed%3A%20%24BADGER%20and%20%24,2nd%20product%20of%20the%20DAO.).
 [^2]: **[Meme](https://dontbuymeme.com/collections/badger)** est un mécanisme de distribution pour la NFT où les utilisateurs mettent en jeu un token donné (bBADGER dans notre cas) pour gagner des points - les ananas. Ils peuvent ensuite échanger les ananas contre le NFT de leur choix.
+[^3]: Ça n'est pas de la spéculation pure - BadgerDAO considère déjà comment utiliser les [synergies avec UMA et SushiSwap à cet effet](https://twitter.com/spadaboom1/status/1354826775801561091?s=20).

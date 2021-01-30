@@ -115,7 +115,7 @@ On this front, I'd like to draw your attention to bDIGG in particular. While it 
 
 ## The endgame for BadgerDAO & DeFi in general
 
-The endgame for Badger would be like what I described before along with a full ecosystem around the bDollar or whatever his name is. It would increasingly turn Badger into a more of a Synthetix-like service where holders are given different options of more or less active involvement in the ecosystem, with the appropriate rewards.
+The endgame for Badger would be like what I described before along with a full ecosystem around the CLAW or whatever his name is.[^3] It would increasingly turn Badger into a more of a Synthetix-like service where holders are given different options of more or less active involvement in the ecosystem, with the appropriate rewards.
 
 As services like Badger integrate money-market components such as borrowing, they **increase the capital efficiency for their users**. What used to be a representation of BTC producing 20% APY is now the same + you can borrow a share of its value in stablecoin to further increase the yield, if that suits your risk appetite.
 
@@ -127,3 +127,4 @@ Considering the **[success of the Curve & CRV model]({{< relref path="/content/p
 
 [^1]: The graphs are coming from [Badger's DAO liquidity mining launch announcement](https://badgerdao.medium.com/badger-dao-liquidity-mining-launch-b2415301bd31#:~:text=Tokens%20distributed%3A%20%24BADGER%20and%20%24,2nd%20product%20of%20the%20DAO.).
 [^2]: **[Meme](https://dontbuymeme.com/collections/badger)** is a distribution mechanism for NFT where users stake a given token (bBADGER in our case) to earn points - pineapples. They can them redeem the pineapples for the NFT of their choice.
+[^3]: This is not purerly speculative as BadgerDAO is already exploring how it could [harness synergies with UMA and SushiSwap](https://twitter.com/spadaboom1/status/1354826775801561091?s=20) to achieve a similar end.
