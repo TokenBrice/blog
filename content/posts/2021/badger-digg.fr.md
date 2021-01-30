@@ -1,6 +1,6 @@
 ---
 title: "L'histoire de BadgerDAO : une intro via DIGG"
-description: "BadgerDAO se trouve en première ligne sur deux thèmes très tendance : le gestion d'actifs en DeFi (vaults/setts) & BTC sur Ethereum. Voyons donc à qu'implique le projet et quel est son plan."
+description: "BadgerDAO se trouve en première ligne sur deux thèmes très tendance : le gestion d'actifs en DeFi (vaults/setts) & BTC sur Ethereum. Voyons donc qu'implique le projet et quel est son plan."
 date: '2021-01-30T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Découverte]
 tags: [DeFi, Ethereum, Finance décentralisées, Badger, BadgerDAO, DIGG, monaies élastiques, wBTC, renBTC, Curve BTC pools, gitcoin, Meme, vault, setts, farming, liquidity providing, LP, BTC, BTC on Ethereun, platformisation de la DeFi]
