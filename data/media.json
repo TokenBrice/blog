@@ -1,5 +1,12 @@
 [
 	{
+		"tags": ["post", "discussion", "fr"],
+		"name": "Projection - Et si… l'effondrement de l'USDT était une bonne nouvelle pour la DeFi ?",
+		"host": "Cryptoast",
+		"link": "https://cryptoast.fr/effondrement-usdt-bonne-nouvelle-defi/",
+		"date": "2021"
+	},
+	{
 		"tags": ["audio", "discussion", "fr"],
 		"name": "La finance décentralisée (DeFi), la banque sans banquiers (avec Brice Berdah)",
 		"host": "21 Millions - Capital",
@@ -12,20 +19,6 @@
 		"host": "Ethereum France",
 		"link": "https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/",
 		"date": "2019"
-	},
-	{
-		"tags": ["video","fr"],
-		"name": "BanklessFR - 1er Point Projet",
-		"host": "BanklessFR",
-		"link": "https://www.youtube.com/watch?v=8I0iryRuFIo&t=1s",
-		"date": "2020"
-	},
-	{
-		"tags": ["video","fr"],
-		"name": "Point Projet #3 BanklessFR & Trousse à outils DeFi",
-		"host": "BanklessFR",
-		"link": "https://www.youtube.com/watch?v=We8NjZY8zK0",
-		"date": "2020"
 	},
 	{
 		"tags": ["video","fr"],
@@ -50,42 +43,42 @@
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #1 - Vers un système financier plus ouvert et transparent",
+		"name": "DeFi France #1 - Vers un système financier plus ouvert et transparent",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=6rgt-bygKNo&feature=youtu.be",
 		"date": "2020"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #2 - Echanges et gestion d'actifs décentralisés sans intermédiaires",
+		"name": "DeFi France #2 - Echanges et gestion d'actifs décentralisés sans intermédiaires",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=jzrWxAOoh44&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=2",
 		"date": "2019"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #4 - Blockchain, un monde sans loi ?",
+		"name": "DeFi France #4 - Blockchain, un monde sans loi ?",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=lym5thBJVrY&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=4",
 		"date": "2020"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #5 DeFi et Revenu Passif prêts, immobilier et réserves de liquidité",
+		"name": "DeFi France #5 DeFi et Revenu Passif prêts, immobilier et réserves de liquidité",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=RLKvpIMSerI&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=5",
 		"date": "2020"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #6 : French Track - La finance décentralisée : vers une nouvelle finance",
+		"name": "DeFi France #6 : French Track - La finance décentralisée : vers une nouvelle finance",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=vF-7T5EtcQo&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=6",
 		"date": "2020"
 	},
 	{
 		"tags": ["meetup", "video","fr"],
-		"name": "DeFi #9 - Les Arcanes de la DeFi : mise à jour avec l'Ether",
+		"name": "DeFi France #9 - Les Arcanes de la DeFi : mise à jour avec l'Ether",
 		"host": "DeFi France",
 		"link": "https://www.youtube.com/watch?v=i7f6ZBOTiXo&t=1s",
 		"date": "2020"

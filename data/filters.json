@@ -46,6 +46,11 @@
       "class": "date",
       "values": [
         {
+          "key": "2021",
+          "name": "2021",
+          "active": true
+        },
+        {
           "key": "2020",
           "name": "2020",
           "active": true
@@ -73,7 +78,8 @@
         },
         {
           "key": "post",
-          "name": "📰 Article"
+          "name": "📰 Article",
+          "active": true
         }
       ]
     }
@@ -125,6 +131,11 @@
       "class": "date",
       "values": [
         {
+          "key": "2021",
+          "name": "2021",
+          "active": true
+        },
+        {
           "key": "2020",
           "name": "2020",
           "active": true
@@ -152,7 +163,8 @@
         },
         {
           "key": "post",
-          "name": "📰 Post"
+          "name": "📰 Post",
+          "active": true
         }
       ]
     }
