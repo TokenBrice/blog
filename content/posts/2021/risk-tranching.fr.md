@@ -1,5 +1,5 @@
 ---
-title: "Du risque ? Oui, mais juste un doigt"
+title: "🗡 Du risque ? Oui, mais juste un doigt"
 description: "Qu'est que la répartition du risque (traching) et pourquoi est-elle appellée à devenir une **primitive financière essentielle** pour les principaux marchés monétaires de la DeFi comme Aave ou Compound ?"
 date: '2021-01-12T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Découverte]

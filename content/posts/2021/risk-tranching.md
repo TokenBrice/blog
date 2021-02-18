@@ -1,5 +1,5 @@
 ---
-title: "Risk? Yes please, but exactly how I like it"
+title: "🗡 Risk? Yes please, but exactly how I like it"
 description: "Exploring what risk tranching is and why it's **the next financial primitive** in line to be incorporated into major money markets like Aave or Compound."
 date: '2021-01-12T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]

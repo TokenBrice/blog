@@ -1,5 +1,5 @@
 ---
-title: "The tale of two seigniorage models: Basis vs ESD"
+title: "⚖ The tale of two seigniorage models: Basis vs ESD"
 description: "A comparative analysis of the two main seigniorage token models currently explored to produce new types of stablecoins on the Ethereum network."
 date: '2021-01-16T01:13:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
