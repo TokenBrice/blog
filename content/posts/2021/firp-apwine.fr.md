@@ -115,3 +115,14 @@ Le français étant la langue de DeFi, il était temps d'impliquer de bons vigne
 ![apwine-deposit-process](/img/2021/firp-apwine/defi-france-live-19.png)
 
 Je vous suivrai de près car je vais avoir **[un chat avec Antoine](https://www.youtube.com/watch?v=Zo0B64swtPI)**, une des personnes impliquées dans APWine la semaine prochaine (en français). Retrouvez-nous Lundi 15 à 17h sur le YouTube pour le direct, ou à tout moment après pour le replay.
+
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}

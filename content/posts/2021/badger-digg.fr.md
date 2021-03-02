@@ -126,6 +126,21 @@ De plus, pour revenir à Badger, l'adoption d'un tel modèle pourrait signifier 
 
 Compte tenu **[du succès du modèle Curve / CRV]({{< relref path="/content/posts/2021/dex-value-capture.fr.md" >}})**, il est logique de voir de plus en plus de protocoles en adopter les éléments : l'essentiel étant de donner à vos détenteurs la possibilité d'engager leurs tokens pour participer à la gouvernance, de puiser dans les flux de revenus de la plateforme et d'augmenter leurs propres rendements obtenus par l'utilisation du service.
 
+{{< notice tip >}}
+
+Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :
+1. **[💬 Le serveur Discord DeFi France](https://discord.gg/3bWZcK2)** pour échanger avec la communauté.
+2. **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** pour des articles et résumés très accessibles.
+3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour comprendre les concepts fondamentaux.
+4. **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** pour approfondir avec des lives pointus.
+5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
+
+{{< /notice >}}
+
+---
+
+## Notes & Références
+
 [^1]: Les graphiques proviennent de [Badger's DAO liquidity mining launch announcement](https://badgerdao.medium.com/badger-dao-liquidity-mining-launch-b2415301bd31#:~:text=Tokens%20distributed%3A%20%24BADGER%20and%20%24,2nd%20product%20of%20the%20DAO.).
 [^2]: **[Meme](https://dontbuymeme.com/collections/badger)** est un mécanisme de distribution pour la NFT où les utilisateurs mettent en jeu un token donné (bBADGER dans notre cas) pour gagner des points - les ananas. Ils peuvent ensuite échanger les ananas contre le NFT de leur choix.
 [^3]: Ça n'est pas de la spéculation pure - BadgerDAO considère déjà comment utiliser les [synergies avec UMA et SushiSwap à cet effet](https://twitter.com/spadaboom1/status/1354826775801561091?s=20).

@@ -51,7 +51,7 @@ Je partage fréquemment une vue d'ensemble rapide sur les projets que je suis et
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
-- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** qui fait le point sur les publications et propose des analyses de projet.
+- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)** avec un live tous les lundis à 17h pour parler de DeFi profonde !
 - **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis qui se concentrent sur un sujet d'actualité.
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
