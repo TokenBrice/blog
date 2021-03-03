@@ -219,7 +219,8 @@ Aave dispose d'environ 2B dans le module de sécurité, dont jusqu'à 30% peuven
 En plus de l'assurance, les marchés monétaires peuvent aussi avoir des réserves. Compound est ici le pionnier, avec environ 10 millions de dollars de réserves [^compoundreserve]. Aave a également un système de réserve qui a été récemment lancé, mais je l'ai exclu de l'analyse compte tenu du solde limité [^10].
 
 Alors, en regardant les chiffres disponibles, voici nos calculs rapides :
-Ratio de sécurité = Total des emprunts sur le marché monétaire / Valeur de l'assurance en USD
+
+`Ratio de sécurité = Valeur de l'assurance en USD / Total des emprunts sur le marché monétaire`
 
 1. **🛡 Aave = 53%** | 1,765 (30% mobilisable) milliard de dollars dans le module de sécurité pour 1,1 milliard de dollars empruntés à travers V1+V2 (572 millions de dollars V1, 437 millions de dollars V2)
 2. **🕯 Compound = 0,24%** | 4,3 milliards de dollars empruntés sur un capital de sécurité de 10 millions de dollars. 

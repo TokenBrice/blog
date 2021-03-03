@@ -132,9 +132,9 @@ Alors que 1&2 est ce qui intéresse le plus les utilisateurs finaux, **les point
 
 À partir de là, les possibilités sont pratiquement infinies :
 1. Par exemple, imaginez un projet introduisant un nouveau stablecoin. Ne serait-il pas intéressant pour eux d'avoir un pouvoir de gouvernance au sein de Curve pour éventuellement l'inclure dans un pool Curve avec bonus CRV ?
-2. Encore plus loin dans l'oignon, les projets DeFi ** avec une trésorerie peuvent en allouer une partie au token CRV pour exploiter les avantages des 4 éléments** - 1&2 pour augmenter leurs flux de revenus de trésorerie et 3&4 pour rendre leur plateforme ou service plus attractif.
+2. Encore plus loin dans l'oignon, les projets DeFi **avec une trésorerie peuvent en allouer une partie au token CRV pour exploiter les avantages des 4 éléments** - 1&2 pour augmenter leurs flux de revenus de trésorerie et 3&4 pour rendre leur plateforme ou service plus attractif.
 3. Une autre couche plus profonde : le **[vault yveCRV de Yearn](https://crv.ape.tax)**. Il offre de meilleurs rendements que si vous déposiez vos CRV vous-même (~1,3x), mais les déposants renoncent à la capacité de stimulation et de vote (3&4) en faveur de Yearn - qui peut alors utiliser cette capacité supplémentaire de stimulation/vote pour améliorer le rendement de ses produits.
-4. Dernier niveau de profondeur : imaginez un service de crypto/DeFi de type relation presse dans quelques années. Je m'attends à ce qu'ils soient capables de **fournir d'autres projets avec une puissance de proposition** sur les principaux DAO comme Curve ou Aave.
+4. Dernier niveau de profondeur : imaginez un service de crypto/DeFi de type relation presse dans quelques années. Je m'attends à ce qu'ils soient capables de **fournir d'autres projets avec une puissance de proposition** sur les principales DAO comme Curve ou Aave.
 
 ### 6/ Prochaines étapes pour Curve
 
