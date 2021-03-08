@@ -122,7 +122,7 @@ So to wrap this up, here are some good questions to ask to assess the safety of 
 
 Simply put, the oracles are the source for "outside truths". **Blockchains are only aware of themselves**, so for Ethereum, the price of ETH in dollars (or any other token) is technically an "outside truth" you need to bring on-chain in a **safe and verifiable manner**: it's precisely what oracles do!
 
-It's essential, as the **<span style="text-decoration:underline;">perceived</span>** **<span style="text-decoration:underline;">price</span>** delivered by the oracle is the **source of truth for the protocol's liquidation decisions**. If the oracle says DAI is worth 1.30, then you are liquidated even if your DAI-borrowing position was safe on a $1 DAI and DAI is still actually worth $1 on the markets: the oracle is the source of truth. It happened already with Compound, so it's not a theoretical concern.[^4]
+It's essential, as the **perceived price** delivered by the oracle is the **source of truth for the protocol's liquidation decisions**. If the oracle says DAI is worth 1.30, then you are liquidated even if your DAI-borrowing position was safe on a $1 DAI and DAI is still actually worth $1 on the markets: the oracle is the source of truth. It happened already with Compound, so it's not a theoretical concern.[^4]
 
 The good news here is that the answer is quite simple: ChainLink is widely recognized as the most credible decentralized oracle solution, so any money market not using at least partly their price feeds is gambling with its users' money, as Compound did with significant lossses. It seems like the situation has not improved - despite the failure Compound still uses the same centralized oracle (Coinbase) and a proposal suggesting a switch to ChainLink was refused. [^compoundoracle]
 
@@ -146,7 +146,7 @@ The liquidation mechanisms are critical too, but they only happen once a liquida
 
 Then, different money markets handle liquidations differently. They have different delays, fees, and restrictions with their liquidations. For instance, the Maker oracle/liquidation (internal system) has a one-hour delay to prevent flash liquidations during unsustained flash crashes.
 
-Moreover, liquidation is not sudden neither an all-or-nothing event. There are several buffers to your positions, for instance on Aave, every token has a **<span style="text-decoration:underline;">maximum loan to value</span>** and a **<span style="text-decoration:underline;">liquidation threshold </span>**at least slightly higher.
+Moreover, liquidation is not sudden neither an all-or-nothing event. There are several buffers to your positions, for instance on Aave, every token has a **maximum loan to value** and a **liquidation threshold**at least slightly higher.
 
 So with USDC as collateral, for instance, there is a 5% spread between the two - the max LTV is 80% (*max $8000 worth borrowed from a 10 000 USDC collateral*), while the liquidation threshold is 85% (*= liquidation if collateral value &lt; $8500*)
 
@@ -217,7 +217,7 @@ Aave has roughly 2B in the Safety Module, of which up to 30% can be seized if ne
 On top of insurance, money markets can also have reserves. Compound is the pioneer here, with about $10M in reseve[^compoundreserve]. Aave also has a reserve system that was recently launched, but I excluded it from the analysis considering the limited balance.[^10]
 
 So looking at the available numbers, here are our quick maths:
-Safety Ratio = Total borrow on the money market / USD value of insurance
+`Safety Ratio = USD value of insurance / Total borrow on the money market`
 
 1. **🛡 Aave =  53%** | $1.765 B in the Safety Module for $1.1B borrowed accross V1+V2 ($572M V1, $437M V2)
 2. **🕯 Compound = 0.24%** | $4.3B borrowed on a $10M safety capital. 
@@ -385,7 +385,7 @@ If you do not agree with this statement, feel free to challenge me. **I'm eager 
 
 ---
 
-Reminder: this blog is **[one of the few websites of the space not pillaging your data](({{< relref path="/content/posts/2020/hello-world.md" >}}))** through the usage of Google Analytics and the likes.
+Reminder: this blog is **[one of the few websites of the space not pillaging your data]({{< relref path="/content/posts/2020/hello-world.md" >}})** through the usage of Google Analytics and the likes.
 
 ## IV. Notes & References
 

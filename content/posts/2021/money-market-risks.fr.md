@@ -392,7 +392,7 @@ Si vous n'êtes pas d'accord avec cette déclaration, **n'hésitez pas à me con
 
 ---
 
-Rappel : ce blog est **[l'un des rares sites web de l'espace à ne pas piller vos données](({{< relref path="/content/posts/2020/hello-world.fr.md" >}}))** : je n'utilise pas Google Analytics & autres trackers intrusifs.
+Rappel : ce blog est **[l'un des rares sites web de l'espace à ne pas piller vos données]({{< relref path="/content/posts/2020/hello-world.fr.md" >}})** : je n'utilise pas Google Analytics & autres trackers intrusifs.
 
 {{< notice tip >}}
 
