@@ -1,7 +1,7 @@
 ---
 title: "TokenBrice, désormais 100% en français et bientôt sur Twitch !"
 description: "/Insérez de la hype et un Brice heureux ici/"
-date: '2021-03-07T01:13:50.191Z'
+date: '2021-03-08T01:13:50.191Z'
 categories: [🌌 DeFi, 👩‍🔧 Projets]
 tags: [DeFi, TokenBric.xyz, DeFi France, Twitch]
 toc: false
@@ -95,7 +95,7 @@ Néanmoins, **le chat et la diffusion en live seront uniquement sur Twitch**.
 
 Je continuerai de produire des contenus sur mon blog de qualité équivalente aux derniers articles publiés. Je considère mon blog comme **un carnet de recherche DeFi**. Il m'arrive de passer des heures à creuser des protocoles ou des thématiques et j'écris des articles s'appuyant sur ces recherches lorsque cela est pertinent.
 
-Auparavant j'écrivais mes articles en anglais pour en suite les traduire en français, j'ai décidé d'inverser le processus : ils seront désormais écrits en français et traduits éventuellement en anglais par des membres de la communauté.
+Auparavant j'écrivais mes articles en anglais : je les traduisais par la suite en français, j'ai décidé d'inverser le processus : ils seront désormais écrits en français et traduits éventuellement en anglais par des membres de la communauté.
 
 Cela devrait engendrer une amélioration de la qualité de mon expression en français qui n'était pas toujours idéale par le passé. Cela me permet de réduire également le temps nécessaire pour produire chaque article. Une très bonne nouvelle. 
 
