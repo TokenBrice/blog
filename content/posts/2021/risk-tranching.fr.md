@@ -126,7 +126,7 @@ Jusqu'à présent, deux projets visent à fournir un rendement fixe sur des prod
 
 Tout comme Saffron, 88mph est une autre couche d'abstraction construite sur les dépôts de Compound, Aave et Harvest. Elle fournit un **rendement fixe pour les déposants**, alors que de l'autre côté du marché, les acheteurs d'obligations à taux variable supportent le risque des fluctuations de rendement du produit d'investissement sous-jacent.
 
-![88mph main interface](/img/2021/risk-tranching/88mph.png "Différentes oppourtinités à rendement stable sur 88mph")
+![88mph main interface](/img/2021/risk-tranching/88mph.png "Différentes opportunités à rendement stable sur 88mph")
 
 ---
 
