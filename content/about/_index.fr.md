@@ -45,7 +45,7 @@ J'ai contribué à la mise en route de BanklessFR, prise en charge par Jon et re
 
 J'ai été le Community Manager de [Monolith](https://monolith.xyz) pendant 18 mois avant de décider de me concentrer sur mes engagements communautaires. Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies digitales pérennes. 
 
-En dehors de la finance décentralisée, mon expertise technique se concentre autour de la production de contenus, la gestion de communauté et la logistique nécessaire pour mener à bien ces opérations dans la durée.
+En dehors de la finance décentralisée, mon expertise technique se concentre autour de la production de contenus, la gestion de communautés et la logistique nécessaire pour mener à bien ces opérations dans la durée.
 
 ---
 
