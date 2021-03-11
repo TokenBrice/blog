@@ -51,7 +51,8 @@ Je partage fréquemment une vue d'ensemble rapide sur les projets que je suis et
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
-- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)** avec un live tous les lundis à 17h pour parler de DeFi profonde !
+- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)** qui regroupe les vidéos diffusées sur Youtube & Twitch.
+- **[🎥 Ma chaine Twitch](https://www.twitch.tv/tokenbrice)** avec plusieurs rendez-vous chaque semaine dont un **live DeFi** tous les mardis à 19h pour parler de DeFi profonde, un **live Science-Fiction DeFi** le samedi à 21h. D'autres rendez-vous sont en phase de réflexion comme un **Cash Investigation communautaire DeFi** ainsi que **Le coin des NFTs**, plus d'informations très bientôt !
 - **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis qui se concentrent sur un sujet d'actualité.
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
@@ -61,7 +62,7 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
 - **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
 - Également accessible via un **[serveur Discord DeFi France](https://discord.gg/3bWZcK2)** un peu plus complet. 
-- [Discord CryptoMatrix](https://discord.gg/At6mqXvw6R): une communauté dédidée aux cryptomonnaies en général, très active dans la DeFi et avec des lives tous les lundi soirs.
+- [Discord CryptoMatrix](https://discord.gg/jjpuNzr9Cf): une communauté dédidée aux cryptomonnaies en général, très active dans la DeFi et avec des lives tous les lundis soirs.
 
 ### 🧰 La boite-à-outils DeFi
 
