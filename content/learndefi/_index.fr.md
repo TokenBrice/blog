@@ -41,17 +41,18 @@ Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur par
 
 Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratique au travers d'un de ses protocoles phares avec une séries d'articles sur Yearn Finance.
 
-**[⭐ Sélection DeFi](/fr/categories/s%C3%A9lection/)**
+**[🔍 Évaluation du risque en DeFi]({{< relref "money-market-risks.fr.md" >}})**
 
-Je partage fréquemment une vue d'ensemble rapide sur les projets que je suis et les développements dans l'espace.
+Cet article très détaillé propose un modèle non-exhaustif mais facilement applicable pour analyser l'exposition à différents types de risque sur un protocol DeFi donné, en se concentrant sur les marchés monétaires.
 
 ---
 
 ### Media DeFi 
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
+- **[🃏 La chaine Twitch TokenBrice](https://www.twitch.tv/tokenbrice)** : avec deux à trois lives par semaine pour discuter de DeFi et creuser les thèmes associées !
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
-- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)** avec un live tous les lundis à 17h pour parler de DeFi profonde !
+- **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)**
 - **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis qui se concentrent sur un sujet d'actualité.
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
@@ -61,7 +62,6 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
 - **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
 - Également accessible via un **[serveur Discord DeFi France](https://discord.gg/3bWZcK2)** un peu plus complet. 
-- [Discord CryptoMatrix](https://discord.gg/At6mqXvw6R): une communauté dédidée aux cryptomonnaies en général, très active dans la DeFi et avec des lives tous les lundi soirs.
 
 ### 🧰 La boite-à-outils DeFi
 

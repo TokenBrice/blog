@@ -2,7 +2,7 @@
 title: "🍷 En oenologie comme en DeFi, la patience paie : introduction aux FIRps avec APWine.FI"
 description: "Une introduction aux protocoles de fixation de rendements (FIRP) au travers du prisme d'APWine pour mieux comprendre ce qu'ils permettent de faire et apportent à DeFi"
 date: '2021-02-11T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [🌌 DeFi, 🔮 Découverte]
 tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Marchés monétaires, Aave, Compound, ApWine, 88MPH, Fixed Interest Rate Protocol, FIRP]
 toc: true
 tocNum: true

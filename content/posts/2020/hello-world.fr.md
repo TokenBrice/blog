@@ -3,7 +3,7 @@ title: "Hello, World! (FR)"
 description: >-
  Ce qu'est ce blog et un rappel relatif à préservation de la vie privée
 date: '2020-05-05T14:53:50.191Z'
-categories: [👩‍🔧 Projects]
+categories: [👩‍🔧 Projets]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
 ---
 
