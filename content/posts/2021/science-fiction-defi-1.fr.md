@@ -7,11 +7,11 @@ tags: [DeFi, Science Fiction]
 url: science-fiction-defi-1
 ---
 
-Bonjours à tous et bienvenue dans ce nouvel espace de réflexion !
+Bonjour à tous et bienvenue dans ce nouvel espace de réflexion !
 
 Je suis ravi de lancer une émission qui va vous parler de DeFi tout en allant bien au-delà. La science-fiction, c'est toute mon enfance et aujourd'hui encore ça m'aide à élargir mes horizons de pensée.
 
-Avec cette émission, je veux donc me faire plaisir tout en essayant d'établir un nouveau concept et format qui je pense pourrait être fascinant. Nous allons réfléchir sur des sujets très vastes mais toujours **connectés d'une façon ou d'un autre aux idées de décentralisation, absence de confiance nécessaire et autres valeurs apportées par la finance décentralisée**.
+Avec cette émission, je veux donc me faire plaisir tout en essayant d'établir un nouveau concept et format qui je pense pourrait être fascinant. Nous allons réfléchir sur des sujets très vastes mais toujours **connectés d'une façon ou d'une autre aux idées de décentralisation, absence de confiance nécessaire et autres valeurs apportées par la finance décentralisée**.
 
 ## Science-Fiction DeFi : Le concept
 
@@ -23,16 +23,16 @@ Du point de vue du Twitch, il y aura le nécessaire pour faire venir à l'antenn
 
 Le format est aussi ouvert que possible — vous pouvez me soumettre vos intitulés sans prendre part à l'émission pour autant. Enfin je le rappelle au cas où : il n'est pas nécessaire de montrer votre tête, seule votre douce voix suffit.
 
-## SciFiDeFi #1 - Les intitulés
+## SciFiDeFi #1 - Les scénarios
 
 ### 1.A – ManuRedPills : Le marché d'actions humaines
 
 Manu commence fort avec un scénario fascinant pour réfléchir sur l'avenir des personal tokens :
 
-> En 2040, une énième crise financière amène les bourses a des plus bas historiques. Seul le HSE (human stock exchange) voit ses cours atteindre des sommets. Les " red eyes" comme on surnomme, ceux qui ont décidé de se faire tokeniser attirent de plus en plus les investisseurs.
+> En 2040, une énième crise financière amène les bourses à des plus bas historiques. Seul le HSE (human stock exchange) voit ses cours atteindre des sommets. Les " red eyes" comme on surnomme, ceux qui ont décidé de se faire tokeniser attirent de plus en plus les investisseurs.
 Simple avantage culturel ou miracle économique ? En tout cas la cotation humaine attire de nombreux adeptes.
 
->Felix est un agent commercial chez Lamborghini : grâce à ses talents de vendeur, il va goûter aux joies de la réussite, mais à quel prix ? Va t-il accepter les sacrifices et désillusions infligés par aux " red eyes" ?
+>Felix est un agent commercial chez Lamborghini : grâce à ses talents de vendeur, il va goûter aux joies de la réussite, mais à quel prix ? Va t-il accepter les sacrifices et désillusions infligés aux "red eyes" ?
 
 >De rien à nanti puis qui sait ? Pour Félix une chose est sûre : le marché est entré dans ses gènes.
 
@@ -54,13 +54,13 @@ Pour ma part, je pars directement dans l'espace comme j'aime à le faire pour r�
 
 >L'humanité a vaincu Moloch sur terre : peut-elle désormais vaincre le Moloch interstellaire ?
 
-### 1.C – ManuRedPills : L'affaire d'une vie ? Tu ne fais pas si bien dire !
+### 1.C – ManuRedPills : L'affaire d'une vie ? Tu ne crois pas si bien dire !
 
 Les ICOs ont fait de nombreux heureux, mais pas que. Cette dernière histoire de Manu explore l'autre face du phénomène :
 
 > L'histoire commence en 2021, dans le grand nord canadien. Un hangar immense est érigé presque au milieu de nulle part : en s'en rapprochant, une oreille attentive peut reconnaître le ronronnement caractéristique de milliers d'ASICs en plein travail. 
 
-> Soudainement, une moto surgit suivie rapidement de plusieurs camions imposants. Le gardien du site est rapidement neutralisé tandis que des dizaines d'homme vêtus de noir surgissent et chargent en grande hâte les camions avec autant de machines que possible.
+> Soudainement, une moto surgit suivie rapidement de plusieurs camions imposants. Le gardien du site est rapidement neutralisé tandis que des dizaines d'hommes vêtus de noir surgissent et chargent en grande hâte les camions avec autant de machines que possible.
 
 > Le larcin est bien vite accompli et ses acteurs sont repartis aussi vite qu'ils sont arrivés. Apparemment très professionnels, ils mettent le feu à l'ensemble des entrepôts avant de disparaître dans la nuit blanche.
 
@@ -77,3 +77,5 @@ Pendant que les autres parlent en lambos, ici nous savons bien qu'une DeLorean =
 ![Space-Bulla-ManWithNoName](/img/2021/scifidefi/space-bulla.gif "Le Space Bulla - ManWithNoName")
 
 J'ai absolument hâte de vous retrouver en compagnie de Manu pour la première. On ne sait pas si l'audience sera au rendez-vous mais une chose est sûre : on se fait déjà plaisir !
+
+On vous dit donc à **[samedi 21h sur Twitch](https://www.twitch.tv/tokenbrice)** : vous retrouverez déjà deux bon lives DeFi sur la châine.
