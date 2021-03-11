@@ -9,7 +9,7 @@ one = "min"
 other = "mins"
 
 [tocTitle]
-other = "Contents"
+other = "Sommaire"
 
 [readMore]
 other = "Lire la suite"
@@ -33,7 +33,7 @@ other = "Auteur"
 other = "Lien"
 
 [copyrightLicense]
-other = "License"
+other = "Licence"
 
 [shareOn]
 other = "Partagez sur :"
