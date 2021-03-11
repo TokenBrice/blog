@@ -280,7 +280,7 @@ uglyURLs = false
 #     post = "home"
 [[languages.fr.menu.main]]
     url = "/fr/posts/"
-    name = "Archive"
+    name = "Archives"
     weight = 2
     pre = "internal"
     post = "archive"
