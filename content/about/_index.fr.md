@@ -19,9 +19,11 @@ J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses pr
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
 
+
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-|  ![DeFiFrance-logo](/img/others/defifrance.jpg) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Coorganisateur |
+|  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://t.me/defifrance) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Coorganisateur |
+|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [TokenBrice](https://twitch.tv/tokenbrice) | Sur [Twitch](https://twitch.tv/tokenbrice), j'explique les concepts fondamentaux de la finance décentralisée. Plusieurs formats d'émission nous aident également à prendre de la hauteur, comme la [Science Fiction DeFi]({{< relref path="/content/posts/2021/science-fiction-defi-1.fr.md" >}}). | Hôte principal |
 |  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | Le middleware DeFi qui facilite l'implémentation de swaps optimisés pour les dApps et les utilisateurs finaux. | Développement Communautaire |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
 
@@ -29,7 +31,7 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 
 DeFi France est la principale communauté francophone pour échanger au sujet de la finance décentralisée. 
 
-J'anime les directs hebdomadaires qui ont lieu le **[Lundi à 17h sur la chaine YouTube DeFi France](https://www.youtube.com/c/defifrance)** — après une revue de presse de la DeFi francophone, nous y analysons une thématique transversale ou un projet donné.
+J'animais les directs hebdomadaires qui ont lieu le **[Lundi à 17h sur la chaine YouTube DeFi France](https://www.youtube.com/c/defifrance)** — après une revue de presse de la DeFi francophone, nous y analysons une thématique transversale ou un projet donné.
 
 ### ParaSwap
 

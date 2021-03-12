@@ -1,6 +1,6 @@
 ---
 title: "Découvrir la DeFi"
-url: learndefi
+url: defi-decouverte-finance-decentralisee
 date: 2020-12-05T08:24:40+02:00
 description: "La finance décentralisée est jeune, fascinante et grandit rapidement. Pour vous aider à la découvrir, vous trouverez ici différentes ressources utiles."
 ---

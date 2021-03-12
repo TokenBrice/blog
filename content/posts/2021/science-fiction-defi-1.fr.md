@@ -78,4 +78,4 @@ Pendant que les autres parlent en lambos, ici nous savons bien qu'une DeLorean =
 
 J'ai absolument hâte de vous retrouver en compagnie de Manu pour la première. On ne sait pas si l'audience sera au rendez-vous mais une chose est sûre : on se fait déjà plaisir !
 
-On vous dit donc à **[samedi 21h sur Twitch](https://www.twitch.tv/tokenbrice)** : vous retrouverez déjà deux bon lives DeFi sur la châine.
+On vous dit donc à **[samedi 21h sur Twitch](https://www.twitch.tv/tokenbrice)** : vous retrouverez déjà deux bon lives DeFi sur la chaine.
