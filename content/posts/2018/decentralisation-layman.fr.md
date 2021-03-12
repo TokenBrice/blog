@@ -31,11 +31,11 @@ La décentralisation n’est vraiment pas un changement facile à appréhender. 
 
 **Il est facile de rire d’eux aujourd’hui mais avant ça demandez vous si vous n’êtes pas en train de faire exactement la même chose avec la décentralisation.**
 
-Ma première audience pour cette article, ce sont les gens qui ont lu deux articles dans des medias grand public avant de conclure sur l’inutilité de la décentralisation. **Laissez-moi compléter la trinité avec un avis informé.**
+Ma première audience pour cet article, ce sont les gens qui ont lu deux articles dans des medias grand public avant de conclure sur l’inutilité de la décentralisation. **Laissez-moi compléter la trinité avec un avis informé.**
 
 Les médias grand public sont là pour promouvoir des contenus émotionnels qui font réagir : essentiellement, ce sont des dealers de dopamine. Ils ne sont pas là pour vous aider à apprendre et à vous développer ; ils sont les seuls responsables de leur agonie.
 
-Pour ma part, je ne suis qu’un de vos compatriotes âgé de 26 ans avec une passion pour l’écriture et du temps pour l’exercer. **Je n’ai rien à vous vendre mais simplement un but : aidez les gens à réaliser ce qu’il est en train de se passer afin qu’ils puissent en prendre part.**
+Pour ma part, je ne suis qu’un de vos compatriotes âgé de 26 ans avec une passion pour l’écriture et du temps pour l’exercer. **Je n’ai rien à vous vendre mais simplement un but : aider les gens à réaliser ce qu’il est en train de se passer afin qu’ils puissent en prendre part.**
 
 J’ai testé le brouillon de cet article sur des gens de tout âge: pour 12 minutes de votre attention, il vous permet d’acquérir une grille de lecture qui vous laissera voir la décentralisation pour ce qu’elle est : les prémisses d’un nouvel ordre mondial.
 
@@ -58,7 +58,7 @@ Seulement voilà, il n’y a pas qu’une seule typologie de ces dimensions mais
 
 #### 1\. La dimension architecturale
 
-Cette dimension est la plus facile à comprendre parce qu’elle traite d’objet physiques : les appareils, les serveurs, les trucs ! En une phrase, la dimension architecturale traite des éléments de base du réseau, qu’on appelle les nœuds (nodes).
+Cette dimension est la plus facile à comprendre parce qu’elle traite d’objets physiques : les appareils, les serveurs, les trucs ! En une phrase, la dimension architecturale traite des éléments de base du réseau, qu’on appelle les nœuds (nodes).
 
 Pour maximiser la décentralisation architecturale, il faut multiplier le plus possible les nœuds du réseau et les répandre partout dans le monde.
 
@@ -80,7 +80,7 @@ Dans les systèmes les plus politiquement décentralisés, l’écart est minima
 
 Voici quelques questions pour vous aider à déterminer vers quel bout du spectre penche un système donné :
 
-*   Combien de personne sont impliqués dans les décisions ?
+*   Combien de personnes sont impliqués dans les décisions ?
 *   Comment le pouvoir est réparti? Quels sont les critères utilisés pour déterminer l’influence de chaque participant ?
 *   Le système propose t-il des moyens pour faire réviser les décisions déjà prises / faire appel ?
 
@@ -90,7 +90,7 @@ Celle-ci est la plus complexe des trois mais pas de panique ! On va y aller en 
 
 Dans les mots de Vitalik, cela donne ça :
 
-> « Est-ce que votre système ressemble plutôt à une seul élément, comme un monolithe ou plutôt à une masse informe ? »
+> « Est-ce que votre système ressemble plutôt à un seul élément, comme un monolithe ou plutôt à une masse informe ? »
 
 En bref, cette dimension s’intéresse aux différences entre les nœuds du réseau. S’ils sont tous pareils, c’est un système qui penche vers l’extrême la plus logiquement centralisée.
 
@@ -106,18 +106,18 @@ Passons aux exemples, ils sont bien plus parlant !
 
 *   Tout comme la démocratie directe, **les deux sont des systèmes centralisés en terme d’architecture.** Il n’y a que peu de nœuds par rapport à l’ensemble de la population affectée par les décisions.
 *   Les deux tendent également vers une centralisation politique très forte. Le président/l’assemblée/les représentants élus ou non concentrent l’essentiel du pouvoir de décision. Ils n’ont aucun compte à rendre (pendant leur mandat) et vous ne pouvez pas changer de président au bout de deux ans, même s’il est avéré que celui-ci a menti sous serment, nuit aux intérêts du pays ou détourné de l’argent public (Bonjour Mr. Trump). La fédération peut être un peu moins centralisé que la nation, mais ça reste assez proche.
-*   Là où les choses deviennent intéressantes c’est au niveau de la dimension logique. Une nation, c’est un gros monolithe bien centralisé logiquement. De l’autre coté, une fédération c’est un ensemble de différent acteurs qui souhaitent préserver leur souveraineté et différence tout en agissant dans un but commun — un bon exemple d’un système qui présente une décentralisation logique forte.
+*   Là où les choses deviennent intéressantes c’est au niveau de la dimension logique. Une nation, c’est un gros monolithe bien centralisé logiquement. De l’autre coté, une fédération c’est un ensemble de différents acteurs qui souhaitent préserver leur souveraineté et différence tout en agissant dans un but commun — un bon exemple d’un système qui présente une décentralisation logique forte.
 
 ![Aperçu de la centralisation de divers protocoles ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))](/img/2018/decentralisation-layman/decentralisation-quadrant.png)
 Aperçu de la centralisation de divers protocoles ([Source: Vitalik Buterin](https://www.youtube.com/watch?v=cgStgMyR9sY))
 
-**La langue Anglaise**
+**La langue anglaise**
 
-_Note : Par fidélité pour l’article original que j’ai écris en Anglais, j’ai gardé l’Anglais comme exemple. Cependant ce que je dis là peut s’appliquer à toute langue parlée par un grand nombre de personnes. Cela marche donc tout aussi bien avec le Français !_
+_Note : Par fidélité pour l’article original que j’ai écris en anglais, j’ai gardé l’anglais comme exemple. Cependant ce que je dis là peut s’appliquer à toute langue parlée par un grand nombre de personnes. Cela marche donc tout aussi bien avec le français !_
 
-*   **Au niveau de l’architecture, on est proche de la décentralisation maximale possible**: considérant l’Anglais comme protocole, chaque personne parlant Anglais est un nœud. Bonne nouvelle ! Les locuteurs anglais sont très nombreux et répartis partout autour du monde.
-*   D’un point de vue politique, c’est moins évident au premier abord. Oui, il y a des institutions officiels qui publient des grammaires et des dictionnaires. Mais la grammaire n’est pas loi, le choix de la suivre ou non se fait à votre discrétion. Le véritable langage Anglais (celui que les linguistes étudient), ce n’est pas celui décrit dans les livres, c’est celui que les gens parlent, même s’ils prennent des libertés avec la grammaire ou la syntaxe. **La langue Anglaise est donc un système qui présente une grande décentralisation politique.**
-*   Enfin **sur la dimension logique là encore on est proche de la décentralisation maximale possible.** Deux locuteurs Anglais qui viennent de deux pays différents (voir régions) ne parlent pas le même anglais. En outre, de nombreuses variations locales de l’Anglais existent: l’Anglais de la couronne, l’Anglais Américain, le Globish, mon favori le Frenglish…
+*   **Au niveau de l’architecture, on est proche de la décentralisation maximale possible**: considérant l’anglais comme protocole, chaque personne parlant anglais est un nœud. Bonne nouvelle ! Les locuteurs anglais sont très nombreux et répartis partout autour du monde.
+*   D’un point de vue politique, c’est moins évident au premier abord. Oui, il y a des institutions officiels qui publient des grammaires et des dictionnaires. Mais la grammaire n’est pas loi, le choix de la suivre ou non se fait à votre discrétion. Le véritable langage anglais (celui que les linguistes étudient), ce n’est pas celui décrit dans les livres, c’est celui que les gens parlent, même s’ils prennent des libertés avec la grammaire ou la syntaxe. **La langue anglaise est donc un système qui présente une grande décentralisation politique.**
+*   Enfin **sur la dimension logique là encore on est proche de la décentralisation maximale possible.** Deux locuteurs anglais qui viennent de deux pays différents (voir régions) ne parlent pas le même anglais. En outre, de nombreuses variations locales de l’anglais existent: l’anglais de la couronne, l’anglais américain, le globish, mon favori le frenglish…
 
 ### UTILISER LE SPECTRE PLURIDIMENSIONNEL DE LA DÉCENTRALISATION
 
@@ -143,7 +143,7 @@ Maintenant qu’on est au point sur les trois dimensions de la décentralisation
 
 Tous ces impératifs listés plus haut alourdissent et ralentissent le système, non ? Alors pourquoi s’embêter ? En effet, d’un point de vue de la pure efficacité technique, les systèmes centralisés sont loins devant les systèmes décentralisés.
 
-En réalité, c’est même bien pire que ça. C’est dur de trouver une comparaison qui a du sens. Je vais prendre le prix de d’une puissance de calcul équivalente qui à le mérite d’être simple.
+En réalité, c’est même bien pire que ça. C’est dur de trouver une comparaison qui a du sens. Je vais prendre le prix d’une puissance de calcul équivalente qui à le mérite d’être simple.
 
 **Actuellement, le ratio entre le coût d’un calcul donné sur un système traditionnel (Amazon AWS) et un le même calcul fait sur le Ethereum World Computer est d’environ un million.** Pas besoin de me faire confiance, [vérifiez par vous-même](https://www.youtube.com/watch?v=a-xHiI-G_CQ&t=251s). Ça fait peur hein ?
 
@@ -162,9 +162,9 @@ Pour faire simple, les systèmes décentralisés présentent des caractéristiqu
 
 #### EFFICACITÉ
 
-Dans certain cas, construire un système décentralisé est tout simplement le plus efficace (cf AWS), c’est la meilleur réponse à votre besoin. Prenons un exemple absurde mais parlant : la distribution des bureaux de poste en France est décentralisé. Ce ne serait pas efficace d’avoir une seul énorme bureau de poste à Paris.
+Dans certains cas, construire un système décentralisé est tout simplement le plus efficace (cf AWS), c’est la meilleure réponse à votre besoin. Prenons un exemple absurde mais parlant : la distribution des bureaux de poste en France est décentralisé. Ce ne serait pas efficace d’avoir une seul énorme bureau de poste à Paris.
 
-Il y a une autre notion utile qui joue un grand rôle dans l’efficacité des systèmes : la capacité de réserve (spare capacity). Prenez des gens qui possèdent déjà une ressource (comme une voiture ou une maison) mais qui ne l’utilisent que 10 % du temps. Ainsi plutôt que de construire votre propre infrastructure pour votre service, vous pouvez vous content d’utiliser celle déjà existante : avec Uber et Airbnb, on a désormais tous une compréhension pratique de ce concept.
+Il y a une autre notion utile qui joue un grand rôle dans l’efficacité des systèmes : la capacité de réserve (spare capacity). Prenez des gens qui possèdent déjà une ressource (comme une voiture ou une maison) mais qui ne l’utilisent que 10 % du temps. Ainsi plutôt que de construire votre propre infrastructure pour votre service, vous pouvez vous contenter d’utiliser celle déjà existante : avec Uber et Airbnb, on a désormais tous une compréhension pratique de ce concept.
 
 #### TOLÉRANCE AUX DÉFAILLANCES
 
@@ -190,19 +190,19 @@ L’idée de la résistance à la collusion est d’empêcher un sous-groupe du 
 
 ### Conclusion
 
-La décentralisation est un concept de haut-niveau, mais il est indispensable à cerner pour comprendre l’intérêt de la blockchain. Maintenant que vous êtres des pros, je vous invite à aller plus loin en vous intéressant aux projets décentralisés qui sont en plein développement pour mieux comprendre ce que cela permet de faire :
+La décentralisation est un concept de haut-niveau, mais il est indispensable à cerner pour comprendre l’intérêt de la blockchain. Maintenant que vous êtes des pros, je vous invite à aller plus loin en vous intéressant aux projets décentralisés qui sont en plein développement pour mieux comprendre ce que cela permet de faire :
 
 *   [Blockchain, gouvernance et énergie?](https://www.youtube.com/watch?v=3FJAhWBPhO4) : Un fascinant échange entre un profil plutôt technique — Remy Bourganel de Brickchain et une personne tout simplement épatante par sa connaissance des dimensions juridiques du sujet couplée à une très bonne compréhension de la technique — Primavera De Filippi. 1h40 à écouter et réécouter!
-*   [Toute la chaine ThinkerView](https://www.youtube.com/channel/UCQgWpmt02UtJkyO32HGUASQ), ça ne traite pas forcément de crypto, mais ça va vous permettre de mieux comprendre tous les domaines que la crypto peut transformer: politique, légal, sécurité, données… Les gars font un travail de monstre, n’hésitez pas à leur faire savoir s’ils vous apportent quelque chose.
+*   [Toute la chaine ThinkerView](https://www.youtube.com/channel/UCQgWpmt02UtJkyO32HGUASQ), ça ne traite pas forcément de crypto, mais ça va vous permettre de mieux comprendre tous les domaines que la crypto peut transformer: politique, légal, sécurité, données… Les gars font un travail monstre, n’hésitez pas à leur faire savoir s’ils vous apportent quelque chose.
 *   [Vitalik Buterin qui explique ce qu’est Ethereum pour monsieur tout le monde. Anglais \[03:51\]](https://www.youtube.com/watch?v=0lJDy5wvwaU)
 *   [Charles Hoskinson expliquant l’approche de l’équipe de Cardano et ce qu’ils veulent accomplir. Anglais\[1:02:49\]](https://www.youtube.com/watch?v=_BnBmBZPvS8)
 *   [NEO expliqué par son créateur Da HongFei. Anglais\[16:04\]](https://www.youtube.com/watch?v=gA5X69YY3yY)
 
-_Les contenus cryptos qualitatifs en Français se font rare. Si vous connaissez des publications/vidéos FR de qualité, n’hésiter pas à les partager en commentaire._
+_Les contenus cryptos qualitatifs en Français se font rare. Si vous connaissez des publications/vidéos FR de qualité, n’hésitez pas à les partager sur notre Discord._
 
 Vous avez peut être raté le virage de l’internet mais cette fois-ci vous arrivez au bon moment : on commence à peine ! **C’est maintenant qu’il faut se renseigner, lire et devenir expert sur le sujet afin d’être à même de reconnaître et saisir les opportunités lorsqu’elles se présenteront.**
 
-J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentraliser à grande échelle.
+J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentralisés à grande échelle.
 
 {{< notice tip >}}
 
