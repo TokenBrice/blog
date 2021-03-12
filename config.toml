@@ -209,13 +209,13 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         url = "/posts/"
-        name = "Archive"
+        name = "Articles"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
         url = "/money-markets-risk/"
-        name = "DeFi Risk Analysis"
+        name = "Risk Analysis"
         weight = 3
         pre = "internal"
         post = "chess-knight"
@@ -286,7 +286,7 @@ uglyURLs = false
     post = "news"
 [[languages.fr.menu.main]]
     url = "/fr/marche-monetaire-risque/"
-    name = "Risques x DeFi"
+    name = "Risques"
     weight = 3
     pre = "internal"
     post = "chess-knight"
