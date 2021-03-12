@@ -69,8 +69,6 @@ Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratiq
 
 La DeFi permet des approches innovantes sur la gestion et distribution des risques ; je vous les présente dans l'article ci-dessous:
 
-
-
 **[🔍 Évaluation du risque en DeFi]({{< relref "money-market-risks.fr.md" >}})**
 
 Cet article très détaillé propose un modèle non-exhaustif mais facilement applicable pour analyser l'exposition à différents types de risque sur un protocol DeFi donné, en se concentrant sur les marchés monétaires.

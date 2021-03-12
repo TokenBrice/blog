@@ -213,12 +213,12 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-    #[[menu.main]]
-    #    url = "/categories/"
-    #    name = "Categories"
-    #    weight = 3
-    #    pre = "internal"
-    #    post = "th"
+    [[menu.main]]
+        url = "/money-markets-risk/"
+        name = "DeFi Risk Analysis"
+        weight = 3
+        pre = "internal"
+        post = "chess-knight"
     [[menu.main]]
         url = "/learndefi/"
         name = "Learn DeFi"
@@ -280,19 +280,19 @@ uglyURLs = false
 #     post = "home"
 [[languages.fr.menu.main]]
     url = "/fr/posts/"
-    name = "Archives"
+    name = "Articles"
     weight = 2
     pre = "internal"
-    post = "archive"
-#[[languages.fr.menu.main]]
-#    url = "/fr/categories/"
-#    name = "Catégories"
-#    weight = 3
-#    pre = "internal"
-#    post = "th"
+    post = "news"
+[[languages.fr.menu.main]]
+    url = "/fr/marche-monetaire-risque/"
+    name = "Risques x DeFi"
+    weight = 3
+    pre = "internal"
+    post = "chess-knight"
 [[languages.fr.menu.main]]
     url = "/fr/defi-decouverte-finance-decentralisee/"
-    name = "Découvrir la DeFi"
+    name = "Découverte DeFi"
     weight = 4
     pre = "internal"
     post = "ethereum"
