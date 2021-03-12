@@ -221,7 +221,7 @@ uglyURLs = false
         post = "chess-knight"
     [[menu.main]]
         url = "/learndefi/"
-        name = "Learn DeFi"
+        name = "Discovery"
         weight = 4
         pre = "internal"
         post = "ethereum"
@@ -292,7 +292,7 @@ uglyURLs = false
     post = "chess-knight"
 [[languages.fr.menu.main]]
     url = "/fr/defi-decouverte-finance-decentralisee/"
-    name = "Découverte DeFi"
+    name = "Découverte"
     weight = 4
     pre = "internal"
     post = "ethereum"

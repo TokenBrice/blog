@@ -22,7 +22,7 @@ Je vous recommande la lecture dans l'ordre de présentation :
 1. **[La décentralisation expliquée en 12 minutes pour monsieur tout le monde]({{< relref "decentralisation-layman.fr.md" >}})** qui vous aidera à comprendre le concept le plus essentiel de ce nouveau monde.
 2. Avec la finance décentralisée, vous allez être amenés à questionner vos acquis sur la notion même de ce qu'est l'argent. Quelques pistes par ici : **[Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les innovations monétaires]({{< relref "money101.fr.md" >}})**
 3. En 2018 déjà, la question des actifs stables était centrale. Cet article vous donne des bases pour y réfléchir, et vous retrouverez de nombreux contenus plus avancés sur mon blog qui traitent le sujet : **[Les stablecoins, une nécessité pour l'adoption à grande échelle des cryptomonnaies?]({{< relref path="/content/posts/2018/stablecoins.fr.md" >}})**
-4. La rareté numérique vérifiable est un concept fabuleux qui va bien au delà de la monnaie. Cet article vous parle de token non-fongibles qui permettent de représenter à peu près tout, sur un blockchain : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path ="/content/posts/2018/nft.fr.md" >}})**
+4. La rareté numérique vérifiable est un concept fabuleux qui va bien au delà de la monnaie. Cet article vous parle de token non-fongibles qui permettent de représenter à peu près tout, sur une blockchain : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path ="/content/posts/2018/nft.fr.md" >}})**
 5. Enfin, comme dans toute nouvelle industrie, les arnaques et charlatans sont nombreux. Ce guide vous apporter des outils pour ne pas tomber dans le panneau : **[Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins]({{< relref "hitchhiker-crypto-guide.fr.md" >}})**
 
 {{< notice tip >}}
@@ -71,7 +71,7 @@ La DeFi permet des approches innovantes sur la gestion et distribution des risqu
 
 **[🔍 Évaluation du risque en DeFi]({{< relref "money-market-risks.fr.md" >}})**
 
-Cet article très détaillé propose un modèle non-exhaustif mais facilement applicable pour analyser l'exposition à différents types de risque sur un protocol DeFi donné, en se concentrant sur les marchés monétaires.
+Cet article très détaillé propose un modèle non-exhaustif mais facilement applicable pour analyser l'exposition à différents types de risques sur un protocole DeFi donné, en se concentrant sur les marchés monétaires.
 
 ---
 
