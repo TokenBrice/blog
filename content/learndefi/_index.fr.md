@@ -7,7 +7,27 @@ description: "La finance décentralisée est jeune, fascinante et grandit rapide
 
 La finance décentralisée est à la fois fascinante et intimidante, surtout pour les nouveaux arrivants. Pour vous aider à naviguer dans cet espace, vous trouverez ici une lecture guidée ainsi que de nombreuses ressources pour suivre et en savoir plus sur la DeFi.
 
-### Lecture guidée
+Avant d'en arriver là néanmoins il y a des concepts essentiels qu'il faut saisir relatifs à la décentralisation et ce qu'apportent et permettent les blockchains.
+
+## Comprendre l'apport des blockchains : la rareté numérique vérifiable
+
+Les blockchains en soit ne sont qu'une nouvelle brique technologique. Néanmoins, elles permettent de résoudre un problème sans solution avant Bitcoin : **comment créer un actif numérique mais aussi "rare" ?**. 
+
+Un objet qui ne peut pas être reproduit à l'infini sans conditions comme vous copierez une image : au contraire, toute reproduction ou production est impossible en dehors du cadre initialement envisagé (ex: récompense en BTC pour les mineurs de la blockchain Bitcoin).
+
+Les 5 articles que je vous propose ci-dessous tournent tous autour de cette thématique, chacun avec un angle différent. Ils ont tous plus de deux ans, mais restent très pertinents comme ils s'attaquent à des questions de haut-niveau.
+
+Je vous recommande la lecture dans l'ordre de présentation :
+
+1. **[La décentralisation expliquée en 12 minutes pour monsieur tout le monde]({{< relref "decentralisation-layman.fr.md" >}})** qui vous aidera à comprendre le concept le plus essentiel de ce nouveau monde.
+2. Avec la finance décentralisée, vous allez être amenés à questionner vos acquis sur la notion même de ce qu'est l'argent. Quelques pistes par ici : **[Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les innovations monétaires]({{< relref "money101.fr.md" >}})**
+3. En 2018 déjà, la question des actifs stables était centrale. Cet article vous donne des bases pour y réfléchir, et vous retrouverez de nombreux contenus plus avancés sur mon blog qui traitent le sujet : **[Les stablecoins, une nécessité pour l'adoption à grande échelle des cryptomonnaies?]({{< relref path="/content/posts/2018/stablecoins.fr.md" >}})**
+4. La rareté numérique vérifiable est un concept fabuleux qui va bien au delà de la monnaie. Cet article vous parle de token non-fongibles qui permettent de représenter à peu près tout, sur un blockchain : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path ="/content/posts/2018/nft.fr.md" >}})**
+5. Enfin, comme dans toute nouvelle industrie, les arnaques et charlatans sont nombreux. Ce guide vous apporter des outils pour ne pas tomber dans le panneau : **[Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins]({{< relref "hitchhiker-crypto-guide.fr.md" >}})**
+
+---
+
+## Lecture guidée découverte DeFi
 
 **[La DeFi, au delà de la finance]({{< relref "defi-beyond-finance.fr.md" >}})**
 
@@ -21,7 +41,7 @@ Une introduction exhaustive à la DeFi... qui date d'avril 2020. Le milieu a bea
 
 Un article plus conséquent qui vous permettra de découvrir la politique monétaire d'ETH et ses enjeux sur le long terme.
 
-#### La DeFi en pratique
+### La DeFi en pratique
 
 Maintenant que vous avez les bases, il est temps d'envisager de passer à la pratique. Voici quelques ressources mettant en évidence des services que vous pourriez utiliser et des conseils pour en tirer le meilleur parti :
 
@@ -35,11 +55,17 @@ Quoi que vous fassiez dans la DeFi, vous devrez fréquemment échanger des token
 
 **[🎚 Exposition à l'ETH ou rendements de DeFi : pourquoi choisir ?]({{< relref "leveraging-ETH.fr.md" >}})**
 
-Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur parti de votre capital avec DeFi. Ceci couvre les bases.
+Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur parti de votre capital avec DeFi. Cet article explique l'idée de base : pourquoi s'endêter peut être rentable.
 
 **[🧐 Yearn Finance](/fr/tags/yearn-finance/)**
 
 Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratique au travers d'un de ses protocoles phares avec une séries d'articles sur Yearn Finance.
+
+**[🗡 Du risque ? Oui, mais juste un doigt]({{< relref "risk-tranching.fr.md" >}})**
+
+La DeFi permet des approches innovantes sur la gestion et distribution des risques ; je vous les présente dans l'article ci-dessous:
+
+
 
 **[🔍 Évaluation du risque en DeFi]({{< relref "money-market-risks.fr.md" >}})**
 
@@ -47,7 +73,7 @@ Cet article très détaillé propose un modèle non-exhaustif mais facilement ap
 
 ---
 
-### Media DeFi 
+## Media DeFi 
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
 - **[🃏 La chaine Twitch TokenBrice](https://www.twitch.tv/tokenbrice)** : avec deux à trois lives par semaine pour discuter de DeFi et creuser les thèmes associées !
@@ -63,7 +89,7 @@ Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés
 - **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
 - Également accessible via un **[serveur Discord DeFi France](https://discord.gg/3bWZcK2)** un peu plus complet. 
 
-### 🧰 La boite-à-outils DeFi
+## 🧰 La boite-à-outils DeFi
 
 Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à démarrer et à suivre vos investissements :
 

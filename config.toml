@@ -213,12 +213,12 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "Categories"
-        weight = 3
-        pre = "internal"
-        post = "th"
+    #[[menu.main]]
+    #    url = "/categories/"
+    #    name = "Categories"
+    #    weight = 3
+    #    pre = "internal"
+    #    post = "th"
     [[menu.main]]
         url = "/learndefi/"
         name = "Learn DeFi"
@@ -284,14 +284,14 @@ uglyURLs = false
     weight = 2
     pre = "internal"
     post = "archive"
+#[[languages.fr.menu.main]]
+#    url = "/fr/categories/"
+#    name = "Catégories"
+#    weight = 3
+#    pre = "internal"
+#    post = "th"
 [[languages.fr.menu.main]]
-    url = "/fr/categories/"
-    name = "Catégories"
-    weight = 3
-    pre = "internal"
-    post = "th"
-[[languages.fr.menu.main]]
-    url = "/fr/learndefi/"
+    url = "/fr/defi-decouverte-finance-decentralisee/"
     name = "Découvrir la DeFi"
     weight = 4
     pre = "internal"
