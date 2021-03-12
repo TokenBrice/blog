@@ -25,6 +25,10 @@ Je vous recommande la lecture dans l'ordre de présentation :
 4. La rareté numérique vérifiable est un concept fabuleux qui va bien au delà de la monnaie. Cet article vous parle de token non-fongibles qui permettent de représenter à peu près tout, sur un blockchain : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path ="/content/posts/2018/nft.fr.md" >}})**
 5. Enfin, comme dans toute nouvelle industrie, les arnaques et charlatans sont nombreux. Ce guide vous apporter des outils pour ne pas tomber dans le panneau : **[Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins]({{< relref "hitchhiker-crypto-guide.fr.md" >}})**
 
+{{< notice tip >}}
+Si vous appreçiez mes articles, je vous invite à aller faire un tour sur **[ma chaine Twitch](https://twitch.tv/tokenbrice/)** qui parle de DeFi de manière très pratique mais prend aussi du recul avec des émissions comme la Science Fiction DeFi.
+{{< /notice >}}
+
 ---
 
 ## Lecture guidée découverte DeFi
