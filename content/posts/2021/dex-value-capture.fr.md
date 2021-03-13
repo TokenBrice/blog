@@ -27,7 +27,7 @@ Avec toutes les discussions autour des teneurs de marché automatisés (AMM) ces
 
 Nous discuterons des AMM, mais je laisserai à d'autres le soin de régler les détails techniques des bonding curves. Nous aborderons plutôt le sujet sous l'angle de la saisie de la valeur et de la tokenomique. 
 
-**L'essor et le développement des AMM a fondamentalement changé le marché**. Avant leur domination, les approches basées sur le carnet de d'ordres étaient encore largement utilisées. L'un des principaux mérites des AMM est de changer la logique du service, car il devient **peer to contract** : il n'y a pas besoin d'un ordre correspondant de l'autre côté, grâce à la bonding curve, il y en a toujours un (dans les limites de liquidité et de slippage).
+**L'essor et le développement des AMM a fondamentalement changé le marché**. Avant leur domination, les approches basées sur le carnet d'ordres étaient encore largement utilisées. L'un des principaux mérites des AMM est de changer la logique du service, car il devient **peer to contract** : il n'y a pas besoin d'un ordre correspondant de l'autre côté, grâce à la bonding curve, il y en a toujours un (dans les limites de liquidité et de slippage).
 
 Je pense que c'est l'un des facteurs clés qui leur a permis de se développer en rationalisant tout ce qui concerne les échanges de tokens : de l'acte d'échange lui-même, mais aussi de l'apport de liquidité et même des choses comme la recherche d'un prix pour les actifs.
 
@@ -52,7 +52,7 @@ Il n'y a actuellement aucune redevance ou saisie de valeur au niveau du token ma
 
 ### SushiSwap : Capture de valeur au niveau du token
 
-Depuis les premiers jours, l'un des principaux changements apportés au SushiSwap a été une légère réduction de cette redevance à 25 points de base pour **réorienter les 5 points de base restants vers les stakers de SUSHI**, ce qui permet une exposition à une part des frais colletés sur l'ensemble de l'échange plutôt qu'une logique uniquement par paire comme sur Uniswap.
+Depuis les premiers jours, l'un des principaux changements apportés au SushiSwap a été une légère réduction de cette redevance à 25 points de base pour **réorienter les 5 points de base restants vers les stakers de SUSHI**, ce qui permet une exposition à une part des frais collectés sur l'ensemble de l'échange plutôt qu'une logique uniquement par paire comme sur Uniswap.
 
 Depuis la phase initiale de distribution, plusieurs ajustements ont été apportés mais le mécanisme est à peu près le même. Onsen a introduit un système de récompense par rotation de nouveaux pools pertinents. Plus important encore pour la tokenomique, ⅔ des récompenses SUSHI gagnées par l'exploitation des liquidités sont désormais acquises sur une période de 6 mois (vesting).
 
@@ -98,7 +98,7 @@ Pour décrire la prochaine couche de l'oignon de Curve, j'aime utiliser une mét
 Nous utiliserons ce cadre de référence pour analyser les trois couches suivantes de l'oignon qu'est Curve.
 {{< /notice >}}
 
-### 3/ Le PvE de Curve - Stimluation des récompenses CRV
+### 3/ Le PvE de Curve - Stimulation des récompenses CRV
 
 Comme indiqué précédemment, les fournisseurs de liquidités peuvent mettre en jeu leurs tokens LP pour gagner des CRV en plus de leurs commissions habituelles. Mais ils peuvent également **utiliser leurs tokens veCRV pour booster** un ou plusieurs de leurs pools, augmentant ainsi les CRV gagnée jusqu'à 2,5 fois.
 
