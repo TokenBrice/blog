@@ -14,7 +14,7 @@ En effet, la finance décentralisée s'emballe et les rendements sont attrayants
 
 Avec ce seul objectif à l'esprit, la solution la plus évidente était [Maker](http://makerdao.com/). La position peut, bien sûr, être atteinte en utilisant d'autres services ; je les considère à la fin.
 
-Voilà donc l'idée initiale : au lieu d'investir directement vers l'ERC20 ou les stablecoins et de les déployer, vous maintenez une base de l'ETH, vous l'utilisez pour générer des DAI, puis vous vous diversifiez dans vos coffres. De cette façon, vous conservez une exposition saine à l'ETH - le compromis étant le risque supplémentaire, y compris la liquidation, qui est abordé ci-dessous.
+Voilà donc l'idée initiale : au lieu d'investir directement vers les ERC20s ou les stablecoins et de les déployer, vous maintenez une base d'ETH que vous utilisez pour générer des DAI, ensuite réinvestis par exemple dans des vaults. De cette façon, vous conservez une exposition saine à l'ETH - le compromis étant le risque supplémentaire, y compris la liquidation, qui est abordé ci-dessous.
 
 ![Maker-Leveraging-ETH-overview](/img/2020/leveraging-ETH/leveraging-ETH-fr.png "Un aperçu des principales stratégies que vous pouvez mettre en œuvre en utilisant le DAI extrait de vos positions ETH sur Maker")
 
@@ -24,10 +24,10 @@ Les possibilités de réinvestir votre DAI sont pratiquement infinies. Je me con
 1. **[💦 Pools de Liquidité avec programmes d'incitation - La Tier List]({{< relref path="/content/posts/2020/yield-farmer-tier-list.fr.md" >}})** 
 2. **[🧰 Trousse à outils du cultivateur DeFi]({{< relref path="/content/posts/2020/defi-farmer-toolbox.fr.md" >}})**.
 
-Donc, essentiellement, en ce qui concerne la composition de l'DAI, vous avez plusieurs options, voici les grandes catégories :
+Donc, essentiellement, pour réinvestir vos DAI ou autre stablecoins, vous avez plusieurs options, voici les grandes catégories :
 
-* **RETOURS CLASSIQUES SUR STABLECOINS** - Faites fonctionner votre DAI, avec un simple dépôt sur Compound ou Aave, ou en utilisant un optimiseur de rendement.
-* **STRATEGIES STABLECOINS AVANCÉES** - Investissez dans le Curve Ypool pour obtenir des rendements décents + des possibilités de gains supplémentaires sur vos jetons de pool.
+* **RETOURS CLASSIQUES SUR STABLECOINS** - Rendez vos DAI productifs, avec un simple dépôt sur Compound ou Aave, ou en utilisant un optimiseur de rendement.
+* **STRATEGIES STABLECOINS AVANCÉES** - Déployez vos DAI dans la Curve Ypool pour obtenir des rendements décents + des possibilités de gains supplémentaires sur vos tokens d'apport de liquidité.
 * **EXPOSITION ERC20 (+LP)** - Achetez des jetons ERC20 et conservez ou achetez des jetons ERC20 et fournissez des liquidités.
 * **ENCORE PLUS D'ETH** - Utilisez le DAI pour acheter plus d'ETH. Peut être potentiellement répété pour plus d'effet de levier (ATTENTION). Cette méthode est évidemment la plus intéressante lorsque vous attendez une action positive sur le prix de l'ETH.
 
@@ -50,7 +50,7 @@ Si vous avez de nombreuses coffres à fermer/ouvrir, vous pouvez aussi attendre 
 
 ### Comprendre le mécanisme de liquidation de Maker
 
-Lorsque vous êtes liquidé, (une partie de) votre capital est saisie pour couvrir votre dette. **L'existence de la liquidation sur Maker signifie que vous pourriez perdre potentiellement tous vos ETH** si vous êtes négligent.
+Lorsque vous êtes liquidé, (une partie de) votre capital est saisie pour couvrir votre dette. **L'existence de la liquidation sur Maker signifie que vous pourriez perdre potentiellement une grande partie de vos ETH utilisé comme collateral** si vous êtes négligent.
 
 Voici mes conseils et recommandations pour éviter que cela ne vous arrive :
 
@@ -70,23 +70,23 @@ Mint des DAI sur le Coffre-1 (actuellement en sécurité)
 > Brûler la dette DAI de le Coffre-2 pour réduire les risques
 ```
 
-Grâce à un prêt flash, vous pouvez même fermer complètement un coffre "dans" une autre chambre forte par exemple :
+Grâce à un flashloan, vous pouvez même fermer complètement un coffre "dans" une autre chambre forte par exemple :
 ```
-Prêt Flash DAI (= dette de le Coffre-1) 
+Flashloan DAI (= dette de le Coffre-1) 
 > Brûler les DAI sur le Coffre-1, pour libérer vos ETH
 >> Dépôt des ETH dans le Coffre-2 (celle que vous gardez) 
 >>> Mint DAI sur le Coffre-2 
->>>> Rembourser le prêt flash.
+>>>> Rembourser le flashloan.
 ```
 
-**Faites attention à ce que vous faites avec les DAI que vous créez : c'est une dette**. Si vous investissez dans quelque chose de stupide et vous faites massacrer en même temps que le prix de l'ETH se déprécie, vous pourriez mettre l'ensemble des ETH de votre position en danger.
+**Faites attention à ce que vous faites avec les DAI que vous créez : c'est une dette**. Si vous investissez dans quelque chose de stupide et vous faites massacrer en même temps que le prix de l'ETH se déprécie, vous pouvez mettre l'ensemble de la position en danger et perdre de nombreux ETH.
 
 ## Pourquoi Maker est le meilleur service pour tirer parti de l'ETH en ce moment
 
 J'ai décidé de centrer cet article sur Maker uniquement, considérant que l'angle d'attaque est de tirer parti de l'ETH et que Maker est actuellement la meilleure plateforme pour y parvenir, ainsi que probablement la plus sûre (en tout cas la plus ancienne). Voici mes trois principales raisons :
 
 1. **Ça marche** - Maker vous permet de conserver une exposition à l'ETH tout en générant un DAI supplémentaire à réinvestir - ça colle parfaitement au but initial.
-2. **La commission de stabilité actuelle est de 0** (sur l'ETH) - il ne vous en coûte que du gaz pour ouvrir une position sur Maker. (Stability Fee /ETH = 0)[^1]
+2. **La coût de l'emprunt est actuellement de 0** (sur l'ETH) - il ne vous en coûte que du gaz pour ouvrir une position sur Maker. (Stability Fee /ETH = 0)[^1]
 3. **Premium DAI -** Le DAI se négocie fréquemment à 1,02-1,03 $, ce qui signifie que la frappe du DAI peut entraîner un profit instantané de 2-3% sur les montants réinvestis (plus d'informations à ce sujet plus loin - section prime DAI).
 
 Veuillez garder à l'esprit que **c'est la situation MAINTENANT**, dans plusieurs semaines il pourrait y avoir de meilleures options pour de telles positions, comme Aave met en place ses nouveaux tokenomics par exemple. Une position similaire pourrait déjà être atteinte aujourd'hui en utilisant Compound, mais il ne semble pas rentable de le faire maintenant (vs Maker).
@@ -95,7 +95,7 @@ Veuillez garder à l'esprit que **c'est la situation MAINTENANT**, dans plusieur
 
 Comme il s'agit d'une stratégie assez flexible, **elle peut être utilisée par pratiquement tous ceux qui possèdent des ETH et cherchent un moyen de la mettre en œuvre.** Permettez-moi toutefois de mettre en évidence quelques cas d'utilisation qui devraient vous donner des idées :
 
-1. Vous êtes entré sur les marchés récemment (2019) et vous avez fait des bénéfices, mais pas vraiment sur l'ETH. Alors que vos investissements au sein de l'ERC-20 sont à la hausse, vous pourriez craindre de ne pas réaliser de bénéfices sur l'ETH. Pour augmenter votre exposition à l'ETH, vous pourriez solder certaines de vos positions pour de l'ETH, ouvrir une position Maker et rouvrir jusqu'à ⅔ des positions ERC-20 fermées.
+1. Vous êtes entré sur les marchés récemment (2019) et vous avez fait des bénéfices, mais pas vraiment sur l'ETH. Alors que vos investissements sur les ERC20s sont à la hausse, vous pourriez craindre de ne pas réaliser de bénéfices sur l'ETH. Pour augmenter votre exposition à l'ETH, vous pourriez solder certaines de vos positions pour de l'ETH, ouvrir une position Maker et rouvrir jusqu'à ⅔ des positions ERC-20 fermées.
 2. Ces derniers temps, vous avez réalisé des gains intéressants sur les stablecoins, mais même les meilleurs rendements ne peuvent pas battre un géant qui se réveille. Vous pouvez envisager d'acheter ETH avec vos stablecoins, pour ensuite ouvrir un coffre-Maker et rouvrir une partie de votre position sur les stablecoins - vous conservez une partie de vos rendements tout en ajoutant une exposition au prix d'ETH.
 
 ### Exploiter la prime DAI

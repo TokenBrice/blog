@@ -2,8 +2,8 @@
 title: "Science Fiction DeFi #1 - Le marché d'actions humaines & le Moloch interstellaire 🛸"
 description: "Le début d'une grande aventure : une émission interactive qui allie science-fiction et DeFi pour réfléchir aux enjeux du monde de demain."
 date: '2021-03-11T01:13:50.191Z'
-categories: [🃏 Twitch, 👾 SciFiDeFi]
-tags: [DeFi, Science Fiction]
+categories: [🃏 Twitch, 👾 DeSciFi]
+tags: [DeFi, Science Fiction, DeSciFi]
 url: science-fiction-defi-1
 ---
 
@@ -13,7 +13,7 @@ Je suis ravi de lancer une émission qui va vous parler de DeFi tout en allant b
 
 Avec cette émission, je veux donc me faire plaisir tout en essayant d'établir un nouveau concept et format qui je pense pourrait être fascinant. Nous allons réfléchir sur des sujets très vastes mais toujours **connectés d'une façon ou d'une autre aux idées de décentralisation, absence de confiance nécessaire et autres valeurs apportées par la finance décentralisée**.
 
-## Science-Fiction DeFi : Le concept
+## Science-Fiction DeFi (DeSciFi) : Le concept
 
 Chaque jeudi, comme aujourd'hui, je publierai sur ce blog un article qui vous proposera **plusieurs intitulés pour l'émission de la semaine** qui a lieu en direct **[le samedi soir à 21h sur Twitch](https://www.twitch.tv/tokenbrice)**.
 
@@ -23,7 +23,7 @@ Du point de vue du Twitch, il y aura le nécessaire pour faire venir à l'antenn
 
 Le format est aussi ouvert que possible — vous pouvez me soumettre vos intitulés sans prendre part à l'émission pour autant. Enfin je le rappelle au cas où : il n'est pas nécessaire de montrer votre tête, seule votre douce voix suffit.
 
-## SciFiDeFi #1 - Les scénarios
+## DeSciFi #1 - Les scénarios
 
 ### 1.A – ManuRedPills : Le marché d'actions humaines
 
@@ -68,7 +68,7 @@ Les ICOs ont fait de nombreux heureux, mais pas que. Cette dernière histoire de
 
 > Quelques semaines après l'ICO qui a été un franc succès, Patrick commence à douter de la crédibilité de l'équipe. Le piège se referme sur Patrick, embarqué progressivement au fil des découvertes inquiétantes sur Nekocoin : son calvaire ne fait que commencer.
 
-## Science Fiction DeFi : les cadeaux
+## DeSciFi : les cadeaux
 
 Comme toujours durant les lives, je serai ravi de partager avec vous une partie de ma collection grandissante de NFTs.
 
