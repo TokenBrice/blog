@@ -1,7 +1,7 @@
 ---
 title: Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les innovations monétaires
 description: >-
-  Comment comprendre l''évolution de la monnaie jusqu''au cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
+  Comment comprendre l''évolution de la monnaie jusqu''aux cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
 date: '2018-07-18T12:13:32.950Z'
 categories: [⛓ Blockchain, 🛸 Bases]
 tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie, EcoCrypto]
@@ -13,7 +13,7 @@ tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie, EcoCrypto]
 
 <span style="font-weight: 400;">La monnaie un sujet complexe, plus encore dans notre monde moderne quand on considère tous les mécanismes alambiqués qui sont venus se greffer dessus à tous les niveaux : création monétaire, banques centrales, l’inflation… Dans cet article, on va revenir sur les bases car elles sont nécessaires pour comprendre tout le reste : qu’est-ce qu’une monnaie ? Pourquoi en est-on venu à utiliser des monnaies ? Et quelles formes peuvent prendre ces monnaies ?</span>
 
-<span style="font-weight: 400;">C’est parti pour une aventure avec des histoires anciennes mais encore dominantes à déconstruire et de nouvelles nécessaires expliquer des mécanismes très complexes.</span>
+<span style="font-weight: 400;">C’est parti pour une aventure avec des histoires anciennes mais encore dominantes à déconstruire et de nouvelles nécessaires pour  expliquer des mécanismes très complexes.</span>
 
 ## La fable des origines de la monnaie
 
@@ -21,7 +21,7 @@ tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie, EcoCrypto]
 
 > <span style="font-weight: 400;">Au début, on avait du troc : mes poulets contre ton blé par exemple. Puis, comme ce système était inefficace, on avait besoin d’un mode d’échange plus standardisé : un bien qui servirait de réserve de valeur. Les métaux précieux étaient les candidats parfaits, les voilà devenue pièces – une forme de monnaie.</span>
 > 
-> <span style="font-weight: 400;">Seulement plus tard la monnaie a évolué pour devenir du papier – toujours un refuge de valeur, mais l’origine de la valeur a changé : la où la pièce d’or tire sa valeur de l’or qui la compose, le billet nécessite une institution qui l’émet et lui «donne » sa valeur en la garantissant d’une manière ou d’une autre.</span>
+> <span style="font-weight: 400;">Seulement plus tard la monnaie a évolué pour devenir du papier – toujours un refuge de valeur, mais l’origine de la valeur a changé : là où la pièce d’or tire sa valeur de l’or qui la compose, le billet nécessite une institution qui l’émet et lui «donne » sa valeur en la garantissant d’une manière ou d’une autre.</span>
 > 
 > <span style="font-weight: 400;">Enfin à l’ère d’internet, la monnaie aurait évolué une fois de plus pour devenir « digitale », ce n’est désormais plus que des 0 et des 1 dans un serveur quelque part et ça transite par fibre optique.</span>
 
@@ -164,7 +164,7 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 
 ### Sources : pour approfondir
 
-<span style="font-weight: 400;">Un remerciement tout particulier à Brett Scott qui a grandement m’a aidé à mieux comprendre les mécanismes monétaires avec ses nombreux articles. Si vous lisez l’anglais, [son blog vaut vraiment le détour](https://suitpossum.blogspot.com/).</span>
+<span style="font-weight: 400;">Un remerciement tout particulier à Brett Scott qui m'a grandement aidé à mieux comprendre les mécanismes monétaires avec ses nombreux articles. Si vous lisez l’anglais, [son blog vaut vraiment le détour](https://suitpossum.blogspot.com/).</span>
 
 [^1]: [_Money is not a store of value. It is a claim upon value_](https://suitpossum.blogspot.com/2016/03/money-is-not-store-of-value.html) — Brett Scott for The Hectic’s Guide to Global Finance, on March the 10th 2016
 [^2]: [_Was money created to overcome barte r?_](http://neweconomicperspectives.org/2013/09/money-created-overcome-barter.html) — Reynold F. Nesiba for New Economic Perspective, on September the 23rd 2013
