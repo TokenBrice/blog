@@ -1,5 +1,5 @@
 ---
-title: "Stable Assets on Ethereum: the approaches and their limitations"
+title: "Exploring stable assets on Ethereum: approaches & endgame"
 description: "The quest for stability on Ethereum: an overview of the different approaches to stabilization and asset indexing to understand their issues."
 date: '2021-03-23T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Découverte]
@@ -8,8 +8,6 @@ toc: true
 tocNum: true
 url: ethereum-stable-assets
 ---
-
-***STABLE ASSETS ON ETHEREUM: APPROACHES AND ISSUES***
 
 Today, I want to cover an essential topic for Ethereum and other blockchains and often misunderstood: **"stable" assets**, which track the price of a reference asset. Before looking at the different approaches to producing such an asset, we'll first start with a higher level of analysis:
 
