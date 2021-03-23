@@ -247,3 +247,5 @@ I am discussing the mechanics of several protocols and what they allow for or en
 I hope this article helps you better understand the rise of pegged-assets on Ethereum - it is essential. It's also critical to understand the different trade-off sets associated with each approach: they are all potentially more or less relevant, depending on your situation and needs!
 
 Finally, whether you are convinced by Reflexer or not, I strongly encourage you to dig into this system, just as I regularly invite you to explore the workings of Aave, Curve or Unslashed. All four are very relevant and innovative systems: understanding them in depth will allow you to internalize many essential things  to understand decentralized finance in general.
+
+*🙏 Huge thanks to Louis, Charles, Th., HarveyDentist & FrenchTony for proofreading the French version of this article and translating it integrally into English*
