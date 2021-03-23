@@ -78,7 +78,7 @@ Cet article très détaillé propose un modèle non-exhaustif mais facilement ap
 ## Media DeFi 
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
-- **[🃏 La chaine Twitch TokenBrice](https://www.twitch.tv/tokenbrice)** : avec deux à trois lives par semaine pour discuter de DeFi et creuser les thèmes associées !
+- **[🃏 La chaine Twitch TokenBrice](https://www.twitch.tv/tokenbrice)** : avec deux à trois lives par semaine pour discuter de DeFi et creuser les thèmes associés !
 - **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** pour développer votre compréhension des concepts fondamentaux.
 - **[🎥 La chaine Youtube DeFi France](https://www.youtube.com/c/DefiFrance)**
 - **[☕ La version française du Daily Gwei](https://thedailygweifr.substack.com/)** qui vous propose des articles plus concis qui se concentrent sur un sujet d'actualité.
