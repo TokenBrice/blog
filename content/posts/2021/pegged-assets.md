@@ -21,7 +21,7 @@ Once these foundations are established, we will have all the tools to **figure o
 
 ![reflexer-money-god-meme](/img/2021/pegged-assets/money-god-meme.png)
 
-If you are already familiar with the different pegging mechanisms, you can jump [directly to the section on Reflexer].(#zoom-sur-le-rai-de-reflexer).
+If you are already familiar with the different pegging mechanisms, you can jump [directly to the section on Reflexer](#focus-on-reflexers-rai).
 
 ## Assets standardization on the Ethereum's blockchain
 
@@ -91,7 +91,7 @@ Pegged-assets" are assets that follow the price of another via a mechanism calle
 
 A growing variety of approaches are being explored to produce a pegged-asset with less compromise. They are generally grouped into large families that correspond to the main method used to maintain the peg. However, as these approaches develop, the boundaries between them become blurred as several projects explore **hybrid approaches mixing several elements of each**. We will start from the simplest to understand and progressively go to the most complex.
 
-### Using a trusted third party (1:1 correspondence)
+### Using a trusted third party (1:1 ratio)
 
 *   **👍 Advantages:** The peg is easily maintained and rather stable. The system is solvent at all times (-> 1 USD in the bank for 1 USDC issued for example)
 *   **👎 Disadvantages/Risks:** The system requires a central trusted intermediary - the issuing organization. This same organization relies on another intermediary, the bank where the USD are deposited. In addition, the presence of a trusted intermediary creates a risk: is it reliable? transparent? The risk goes beyond image, it can also be legal.
@@ -248,4 +248,4 @@ I hope this article helps you better understand the rise of pegged-assets on Eth
 
 Finally, whether you are convinced by Reflexer or not, I strongly encourage you to dig into this system, just as I regularly invite you to explore the workings of Aave, Curve or Unslashed. All four are very relevant and innovative systems: understanding them in depth will allow you to internalize many essential things  to understand decentralized finance in general.
 
-*🙏 Huge thanks to Louis, Charles, Th., HarveyDentist & FrenchTony for proofreading the French version of this article and translating it integrally into English*
+*🙏 Huge thanks to HHK, Charles, Th., HarveyDentist & FrenchTony for proofreading the French version of this article and translating it integrally into English*
