@@ -249,4 +249,4 @@ J'espère que cet article vous aidera à mieux comprendre l'essor des pegged-ass
 
 Enfin, que vous soyez convaincu par Reflexer ou non, je vous invite grandement à creuser ce système, tout comme je vous invite régulièrement à explorer le fonctionnement d'Aave, de Curve ou d'Unslashed. Tous les quatre sont des systèmes très pertinents et innovants : les comprendre en profondeur vous permettra d'internaliser de nombreuses choses essentielles pour comprendre la finance décentralisée en général.
 
-*🙏 Un grand merci à HHK, Charles, Th., HarveyDentist & FrenchTony pour leur relecture attentive de l'édition française de cet article ainsi que sa traduction.*
+*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en anglais.*

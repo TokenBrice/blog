@@ -2,7 +2,7 @@
 title: "Exploring stable assets on Ethereum: approaches & endgame"
 description: "The quest for stability on Ethereum: an overview of the different approaches to stabilization and asset indexing to understand their issues."
 date: '2021-03-23T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Découverte]
+categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave, Compound, Reflexer, Stablecoin, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
 toc: true
 tocNum: true
@@ -102,7 +102,7 @@ This approach has already been detailed enough, so I'll move on to the more comp
 
 *   **👍 Advantages:** The system no longer involves a central trusted intermediary (at least initially) & still manages to more or less maintain the peg.
 
-*   **👎 ** Disadvantages/Risks:** It will require **always more $ collateral than $ (DAI) produced (over-collateralization)**. Governance risks. Risks at the liquidation level, carried out by third parties. The system is as trustless as its most used collateral. Maker now accepts censorable collateral (wBTC, USDC, etc.) which reintroduces a trust risk into the system.
+*   **👎 Disadvantages/Risks:** It will require **always more $ collateral than $ (DAI) produced (over-collateralization)**. Governance risks. Risks at the liquidation level, carried out by third parties. The system is as trustless as its most used collateral. Maker now accepts censorable collateral (wBTC, USDC, etc.) which reintroduces a trust risk into the system.
 
 Long before algorithmic stablecoins, MakerDAO is a pioneer when thinking about how to **produce a stable asset with less trust needed in the system than 1:1 approaches**. Maker is a more complex service because beyond the DAI - the stablecoin issued by the system, it also allows its users to use different assets to borrow (technically mint) DAIs.
 
@@ -206,7 +206,7 @@ There are often gaps between the two, which creates an incentive to beat the RAI
 
 ![reflexer-spread](/img/2021/pegged-assets/reflexer-spread.png "Here we observe a spread of about 3 cents USD")
 
-**Therefore, RAI is obviously not a stablecoin, It is not a pegged-asset either **. There are not enough words to describe RAI accurately, but let me try. RAI is an abstraction on the ETH which is intended to be more stable than the ETH, while maintaining its trustlessness (with time).
+**Therefore, RAI is obviously not a stablecoin, It is not a pegged-asset either**. There are not enough words to describe RAI accurately, but let me try. RAI is an abstraction on the ETH which is intended to be more stable than the ETH, while maintaining its trustlessness (with time).
 
 ### All Hail the Money God
 
