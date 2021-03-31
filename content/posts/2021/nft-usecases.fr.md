@@ -218,7 +218,7 @@ Si vous préférez les formats plus interactifs, sachez que j'anime désormais u
 
 ## Notes et références
 
-Les notes de bas de page vous aident à approfondir différent sujets mentionnés dans l'article :
+Les notes de bas de page vous aident à approfondir différents sujets mentionnés dans l’article :
 
 [^1]: [Cet article](https://www.artnome.com/news/2019/4/08/autoglyphs-generative-art-born-on-the-blockchain) vous aidera à en apprendre plus sur les CryptoPunks et la démarche de l'équipe derrière (LarvaLabs).
 [^2]: Retrouvez [les types de Punks ainsi que leurs attributs ici]( https://www.larvalabs.com/cryptopunks/attributes)
