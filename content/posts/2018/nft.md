@@ -12,7 +12,6 @@ tags: [Ethereum, NFT, non fungible tokens, collectibles, ERC721, ERC1155, Enjin,
 
 “Non-fungibles” — don’t let yourself be fooled by the mushroom-evoking name, fungibility is an old concept that is finding a second wind nowadays. It’s mostly about collectibles and video games for now, but it will soon outgrow these industries. Indeed, the potential of non-fungibles tokens is much more significant than this: from official documents to titles of ownership, their use cases are diverse and numerous.
 
-
 Let’s start by establishing the basics about non-fungible tokens (NFTs from now on) thanks to Pokémon cards before we dive into their potential use cases and the future developments of the underlying technology.
 
 #### Tokens? Smart Contracts?
@@ -67,6 +66,8 @@ Most of the cryptocurrencies you already know such as Bitcoin or Ethereum can be
 _Since the history of transactions of most cryptocurrencies can be checked on block explorers, some tokens involved in illicit activity are flagged and blocked on exchanges. Therefore, cryptocurrencies with public transaction histories are not truly fungible. Full fungibility is currently achieved by privacy-focused coins such as Monero, because the transaction history is not publicly disclosed._
 
 We won’t address these today, as we focus on non-fungible tokens. There were several attempts, as early as 2013 to create NFTs, but they were mostly unsuccessful. What made a difference was a new Ethereum standard, the ERC-721 which greatly facilitated the creation of “cryptocollectibles.” They are unique goods which share common attributes — the blockchain equivalent of Pokémon cards.
+
+**[📑 To explore what is being done with NFT, both for community building and artistic purposes, check this article]({{< relref path="/content/posts/2021/nft-usecases.md" >}})**.
 
 ### The humble beginnings powered by the ERC-721
 
