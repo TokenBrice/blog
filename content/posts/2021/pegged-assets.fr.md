@@ -233,6 +233,8 @@ L'équipe a établi **un plan avec des objectifs concrets et datés** pour arriv
 
 Vous pouvez retrouver[ le détail de ce plan ici](https://medium.com/reflexer-labs/introducing-flx-20755214a465).
 
+Pour approfondir, n'hésitez pas à lire **[le whitepaper de RAI traduit en français traduit par PhilH et BenDuPeloux](https://github.com/reflexer-labs/whitepapers/blob/master/French/rai-french.pdf)**.
+
 ---
 
 ## Conclusion

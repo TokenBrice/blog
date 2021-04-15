@@ -1,6 +1,6 @@
 ---
 title: "Comprendre les innovations sur les marchés monétaires pour envisager leur avenir"
-description: "Quelles sont les prochaines étapes pour les marchés monétaires DeFi ? On aborde différent thèmes avec un projet emblématique : ré-appropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
+description: "Quelles sont les prochaines étapes pour les marchés monétaires ? On aborde différent thèmes avec un projet emblématique : ré-appropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
 date: '2021-04-14T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Découverte]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Compound, Liquity, Mimo Capital, Reflexer, BProtocol, Liquidation]
@@ -31,7 +31,7 @@ Ou encore celui qui s'intéresse aux différents services d'abstraction et de di
 
 Néanmoins, les marchés monétaires évoluent sans cesse, autant par leurs mises à jour que par l'apport de services tiers construits sur leurs protocoles. En outre, de nouveaux marchés monétaires ambitieux se lancent pour couvrir des besoins encore insatisfaits.
 
-C'est donc précisément notre objet du jour : **comprendre les innovations essentielles en cours sur les marchés monétaires pour mieux envisager leurs évolutions à venir.** Plutôt que de vous faire une liste exhaustive, je vous propose au contraire de regarder une sélection de projets que je pense pertinent pour comprendre la marche de l'industrie.
+C'est donc précisément notre objet du jour : **comprendre les innovations essentielles en cours sur les marchés monétaires pour mieux envisager leurs évolutions à venir.** Plutôt que de vous faire une liste exhaustive, je vous propose au contraire de regarder une sélection de projets que je pense pertinente pour comprendre la marche de l'industrie.
 
 ---
 
