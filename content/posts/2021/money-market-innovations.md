@@ -56,7 +56,7 @@ Although DeFiSaver is very useful, it remains a tool that does not fundamentally
 
 The idea is very simple: instead of borrowing directly from Maker, the user goes through the BProtocol contract. Funds available to the protocol allows it to **liquidate the user's position (if necessary) before other liquidators do so.**
 
-![bprotocol explainer](/img/2021/money-market-innovations/bprotocolexplainer.png "Fonctionnement de haut niveau de BProtocol")
+![bprotocol explainer](/img/2021/money-market-innovations/bprotocolexplainer.png "High-level explainer of Bprotocol")
 
 What is usually a gas war between different liquidators becomes a more predictable operation. It also allows **redistributing part of the liquidation premium to the user himself rather than to the miners.**
 

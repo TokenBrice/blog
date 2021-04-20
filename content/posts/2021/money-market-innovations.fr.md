@@ -156,7 +156,7 @@ Le ratio prêt/valeur maximum (LTV maximum) détermine le pouvoir d'emprunt des 
 {{< /notice >}}
 
 *   Maker : Ratio minimal = 150% ⇒ environ 66% max LTV
-*   Liquidity : Collateralisation ratio minimal = 110% ⇒ environ 90% max LTV
+*   Liquity : Collateralisation ratio minimal = 110% ⇒ environ 90% max LTV
 
 Liquity innove également du côté des frais puisque **les emprunts se font sans intérêt** contrairement à d'autres systèmes. Sur Maker/ETH par exemple, le stability fee est de 5.5%. Si vous empruntez 10 000 DAI aujourd'hui, vous devrez rembourser 10 550 DAI dans 1 an (si les frais ne changent pas).
 
