@@ -1,64 +1,64 @@
 ---
-title: Le manifeste d'Ecocrypto.fr
+title: El manifiesto de EcoCrypto.fr
 description: >-
-  Le manifeste d''EcoCrypto.fr - la publication crypto française incorruptible, intransigeante et inachetable.
+  El Manifiesto de EcoCrypto.fr - la publicación crypto francesa, incorruptible, intransigente y libre.
 date: '2018-07-01T10:36:03.488Z'
-categories: [👩‍🔧 Projets]
+categories: [👩‍🔧 Proyectos]
 tags: [EcoCrypto]
 ---
 
-`EcoCrypto est une initiative que j'ai lancé en 2008 pour établir un media qualitatif et transparent pour parler de crypto-monnaies. Trop ambitieux peut-être, trop idéaliste sans doute, l'aventure n'a duré que quelques articles que vous retrouverez désormais ici.`
+`EcoCrypto es una iniciativa que lancé en el 2008 para establecer un informativo calitativo y transparente para discutir sobre las crypto monedas. Quizás muy ambicioso y muy idealista sin duda. La aventura se plasma en los artículos que desde ahora se encontrarán aquí.`
 
-Bienvenue sur EcoCrypto, l’incorruptible publication française bientôt référence. EcoCrypto a été créée en réponse à l’absence de medias cryptos français transparents et qualitatifs.
+Bienvenidos a EcoCrypto, la incorruptible publicación francesa que dentro de muy poco sera referencia. EcoCrypto ha sido creada ante la necesidad de una fuente de información sobre cryptos, francesa, transparente y calitativa.
 
-Ce manifeste établit les règles que nous suivrons pour faire d’EcoCrypto un media admirable dès son premier jour d’existence.
+Este manifiesto establece la reglas que seguiremos para hacer de EcoCrypto, un informativo admirable desde su primer día de existencia.
 
-### EcoCrypto prend son temps
+### EcoCrypto se toma su tiempo
 
-Nous prendrons le temps nécessaire pour écrire des articles de qualité. Nous ne contentons pas de commenter ou de réagir aux nouvelles du jour. Nous suivons notre propre rythme.
+Nos tomaremos el tiempo necesario para escribir artículos de calidad. No nos conformaremos con comentar o reaccionar ante las noticias del día. Seguiremos nuestro propio ritmo.
 
-Nous avons un but simple : élargir le cryptomonde. Nous voulons inclure le plus de monde possible dans une discussion qui reste encore pour l’instant très communautaire. Nous sommes convaincus que la communauté crypto bénéficiera grandement d’un accès à des points de vues divers et des perspectives plus variées. Parler anglais, ou être à l’aise avec l’informatique ne devrait pas être un critère d’admission au sein de la discussion.
+Tenemos un sólo objetivo: extender el mundo de la crypto. Queremos incluir el mayor número posible de personas en una discusión, que por el momento, sigue siendo comunitaria. Estamos convencidos que la comunidad de las cryptos se beneficiará enormemente de un acceso a diversos puntos de vista y a perspectivas mas variadas. Hablar inglés o ser un pro de la informática no sera mas un criterio de selección en el seno de la discusión.
 
-Nous écrivons des articles pour vous faire réfléchir, vous apprendre des choses et pour défier vos perspectives sur le monde et la société. Si un article ne répond pas au moins à l’un de ces trois enjeux, il ne sera tout simplement pas publié.
+Escribiremos artículos para invitar a la reflexión, aportar herramientas para construir otras perspectivas del mundo y de la sociedad. Si algún artículo no responde al menos a uno de esos tres pilares, simplemente no sera publicado.
 
-Nos thématiques se concentrent autour de la décentralisation et des cryptomonnaies, mais nous ne nous limiterons pas. La décentralisation affectera le monde dans son ensemble, nous apporterons donc des points de vue en provenance de toute les spécialités pertinentes pour comprendre son impact : politique, philosophie, sociologie, ou tout autre expertise appropriée.
+Nuestros temas se concentran en la descentralización de las cryptomonedas, pero no nos limitaremos. La descentralización impactará el mundo en su totalidad, aportaremos desde luego, puntos de vista que vienen de todas las fuentes pertinentes para comprender los alcances de ese impacto: político, filosófico, sociológico, o cualquier otro conocimiento adecuado.
 
-##### *ES-TU schizophrène Brice ? Pourquoi utiliser « nous » ?*
+##### *ERES esquizofrénico Brice? Por qué dices « nosotros »?*
 
-Je suis convaincu qu’EcoCrypto dépassera rapidement ma simple personne. Néanmoins, je suis prêt à porter ce projet aussi longtemps que nécessaire, seul s’il le faut. Toute personne qui se reconnaît dans ce manifeste est la bienvenue. La qualité du contenu et l’adhésion au manifeste sont les deux seuls critères de publication sur EcoCrypto.
+Estoy convencido que EcoCrypto me sobrepasará muy pronto. Por mi parte, estoy dispuesto a llevar este proyecto tan lejos como pueda y el tiempo que me sea necesario. Toda persona que se identifique con con este manifiesto, es bienvenida. La calidad del contenido y el compromiso con este manifiesto son los únicos requisitos para publicar en EcoCrypto.
 
-### EcoCrypto est le média du nouveau monde, il se doit d’être exemplaire
+### EcoCrypto es el informativo del nuevo mundo, por lo tanto debe ser ejemplar
 
-Les jeunes et les moins jeunes du monde entier ont enfin la chance de participer à une nouvelle genèse. Nous serons intransigeants pour s’assurer que cette table rase ne retourne pas à ses origines cupides.
+Los jóvenes y los menos jóvenes del mundo entero tienen por fin la oportunidad de participar en un nuevo génesis. Con el objetivo de garantizar que este nuevo comienzo no se desvíe hacia los viejos orígenes codiciosos, seremos inflexibles.
 
-**Nous respecterons donc les règles suivantes dès le premier jour :**
+**Por lo tanto respetaremos las siguientes directivas desde el primer día:**
 
-#### Non-recours aux services propriétaires et centralisés
+#### No mas servicios particulares y centralizados
 
-Nous éviterons autant que possible d’utiliser des services propriétaires ou centralisés. L’objectif à terme est de n’en utiliser aucun. Nous n’avons pas mis en place Google Analytics, pour des raisons évidentes. Nous n’utiliserons pas les autres mécanismes de suivi insidieux comme le Facebook pixel ou tout autre pixel. Face à la nécessité d’avoir des statistiques exploitables sur notre publication, nous avons implémenté [Matomo (ex Piwit)](https://matomo.org/), la solution d’analytics open source à héberger soi-même. Le site tourne actuellement grâce à WordPress et est hébergé sur SiteGround pour sa première année. N’hésitez pas à nous proposer toute solution plus respectueuse de la vie privée de nos utilisateurs qui répondrait à nos besoins.
+Evitaremos tanto como sea posible de utilizar servicios particulares o centralizados. Nuestro objetivo es no utilizar ninguno. No hemos instalado Google Analytics, por razones evidentes. Tampoco utilizaremos otros mecanismos insidiosos como Facebool pixel o cualquier otro pixel. Para seguir las estadísticas utilizables de nuestras publicaciones, hemos instalado [Matomo (ex Piwit)](https://matomo.org/), la solución de análisis open source a hospedar localmente y por uno mismo. Nuestro sitio funciona actualmente gracias a WordPress y está alojado en SiteGround durante su primer año. Pero por favor, no dude en proponernos cualquier solución mas respetuosa de la vida privada de nuestros usuarios y que reponda a nuestras necesidades.
 
-#### Non-coopération avec les monopoles de l’attention
+#### No coperaremos con los monopolios de la distracción
 
-Bien qu’EcoCrypto a besoin de se faire connaître, nous sommes intransigeants sur nos principes. Nous nous permettons donc un an de présence sur les réseaux sociaux centralisés pour attirer un audience initiale sur notre publication. Après cette date, il sera temps de faire le ménage ! EcoCrypto a été officiellement lancé aujourd’hui (le 08/07/2018) : tous nos comptes sur les réseaux sociaux centralisés seront supprimés le 8 Juillet 2019 – ce sera un jour de fête !
+A pesar de que EcoCrypto necesita hacerse conocer, somos celosos de nuestros principios. Nos permitiremos un año de presencia en las redes sociales centralizadas para atraer una primera audiencia hacia nuestra publicación. Después de este período, sera tiempo de limpiar la casa! EcoCrypto es oficialmente lanzado hoy (el 08/07/2018): todas nuestras cuentas en las redes sociales centralizadas serán borradas el 8 de Julio de 2019 - Ese día sera una fiesta!
 
-#### Respect de l’anonymat des écrivains
+#### Respeto del anónimato de los escritores
 
-Révéler votre identité n’est pas nécessaire pour publier sur EcoCrypto. Envoyez nous simplement un email depuis une adresse jetable sur <redaction@ecocrypto.fr>. Du moment que le contenu est de qualité et suit les principes présentés dans ce document, on en a vraiment rien à faire de votre nom.
+Revelar su identidad para publicar en EcoCrypto no es obligatorio. Envíenos un email desde su email secundario a <reaction@ecocrytp.fr>. Desde que el contenido sea de calidad y respete los principios del presente documento, no tendremos necesidad de su identidad para nada.
 
-#### Traçabilité du manifeste
+#### Trazabilidad del Manifiesto
 
-Si le manifeste devait être mis à jour, toutes les versions précédentes resteront accessible en ligne. [Vous trouverez toutes les versions du manifeste ici](https://ecocrypto.fr/manifeste/) ainsi qu’un historique des versions (changelog) expliquant les principaux changements et leur motivation. N’hésitez pas à nous suggérer toute solution qui nous permettra de vous prouver, sans que vous ayez à nous faire confiance, que le manifeste n’a pas été modifié sans que le changement soit motivé et documenté.
+Si el manifiesto debe ser actualizado, todas las publicaciones precedentes seguirán en línea. [Encontrarán todas las versiones del manifiesto aquí](https://ecocrypto.fr/manifiesto/) como también el historial de versiones (changelog), explicando los principales cambios y la razón para hacerlos. Por favor, sientase libre de sugerirnos cualquier solución que nos permita demostrar, sin poner a duda su confianza, de que el manifiesto ha sido modificado con razón y perfectamente documentado.
 
-#### Nos articles sont écrits pour être lus partout
+#### Nuestros artículos son escritos para ser leídos en todo el mundo
 
-Tous les articles publiés sur EcoCrypto seront traduits en anglais pour accroître leur audience. Si vous avez particulièrement apprécié un article et que vous souhaitez le traduire dans une langue autre que le français ou l’anglais, faites donc ! Notre seule condition est que vous nous teniez informés.
+Todos los artículos de EcoCrypto seran traducidos en inglés para incrementar sus lectores. Si tiene un interés en particular por algún artículo y desea traducirlo en otra lengua diferente al francés o al inglés, hágalo! La única condición es que nos lo haga saber.
 
-#### Nous respectons votre attention
+#### Respetamos su tiempo
 
-Vous, lecteurs d’EcoCrypto, nous confiez une ressource précieuse : le temps et l’attention que vous consacrez à nos articles. Nous sommes pleinement conscients de la responsabilité que cela implique. Nous serons honnêtes, transparents et incorruptibles. Nous ne vous tromperons pas avec des titres accrocheurs et sans rapport avec nos articles. Si vous avez le sentiment que l’un de nos articles n’a pas respecté votre attention, faites le nous savoir.
+Ustedes, lectores de EcoCrypto, nos confian un recurso invaluable: el tiempo y la disponibilidad que ustedes consacran a nuestros artículos. Tenemos la absoluta conciencia de la responsabilidad que esto implica. Seremos honestos, transparentes e incorruptibles. No los engañaremos con títulos mercaderistas y sin relación con nuestros escritos. Si siente que alguno de nuestros artículos no respeta su buena voluntad, háganoslo saber.
 
-### La décentralisation d’EcoCrypto
+### La descentralización de EcoCrypto
 
-En tant qu’initiateur du projet, j’aurai (Brice Berdah) une influence significative sur ses premiers jours. Je suis parfaitement conscient du vecteur de centralisation que je représente. EcoCrypto évoluera jusqu’à devenir une publication complètement décentralisée, mais je dois d’abord m’assurer de son développement et maintenir sa qualité. Je communiquerai directement sur EcoCrypto quant aux démarches prises pour ouvrir et progressivement décentraliser le journal.
+Como precursor de este proyecto, tendré (Brice Berdah) una influencia significativa en sus primeros días. Tengo la plena conciencia del vector de centralización que represento. EcoCrypto evolucionará hasta convertirse en una publicación completamente descentralizda, pero debo primero asegurarme de su desarrollo y de mantener su calidad. Comunicaré directamente en EcoCrypto sobre las acciones tomadas para iniciar y progresivamente descentralizar este informativo.
 
-Bienvenue dans le nouveau monde.
+Bienvenidos a este nuevo mundo.
