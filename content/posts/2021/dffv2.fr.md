@@ -95,6 +95,8 @@ Deux emojis n'ont pas de fonction spécifique mais un point légèrement plus im
 - Notre bien aimé logo, le Coq Intergalactique de DeFi France (`:dff`)
 - La légendaire DeLorean 88MPH (`:delo:`)
 
+Certains salons bénéficient également d'une pondération plus importante comme le `#panthéon` ou encore `#présentation`.
+
 {{< /notice >}}
 
 Nous avons également mis en place trois nouveaux canaux pour s'impliquer plus aisément dans les décisions de la communauté :
