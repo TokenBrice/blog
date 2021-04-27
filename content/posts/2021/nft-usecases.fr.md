@@ -100,6 +100,14 @@ L'analyse des CryptoPunks permet de comprendre de nombreuses choses fondamentale
 
 ## Les principaux cas d'usage des NFTs
 
+Pour un tour d'horizon plus exhaustif du monde des NFTs, je vous invite chaudement à lire l'article publié sur Ethereum-France : **[🗺 États des lieux des tokens non fongibles](https://www.ethereum-france.com/etat-des-lieux-des-tokens-non-fongibles-nfts/)**
+
+<div align ="center">
+
+{{< tweet 1386958653476020228 >}}
+
+</div>
+
 ### Les services de création et de vente
 
 La méthode la plus simple pour acquérir ses premiers NFTs reste encore de les acheter. C'est **loin d'être la seule méthode,** comme nous le verrons plus bas mais avant cela, voyons rapidement les principales plateformes et leur modalités.
