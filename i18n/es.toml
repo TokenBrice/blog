@@ -9,58 +9,58 @@ one = "min"
 other = "mins"
 
 [tocTitle]
-other = "Contents"
+other = "Contenido"
 
 [readMore]
-other = "Read More"
+other = "Leer más"
 
 [prevPage]
-other = "Newer"
+other = "Más reciente"
 
 [nextPage]
-other = "Older"
+other = "Más antigu"
 
 [copy]
-other = "Copy"
+other = "Copia"
 
 [copied]
-other = "Copied!"
+other = "¡Copiado!"
 
 [copyrightAuthor]
-other = "Author"
+other = "Autor"
 
 [copyrightLink]
-other = "Link"
+other = "Enlace"
 
 [copyrightLicense]
-other = "License"
+other = "Licencia"
 
 [shareOn]
-other = "Share on:"
+other = "Compartir en:"
 
 [shareOnTitle]
-other = "Share on "
+other = "Compartir en "
 
 [shareViaTitle]
-other = "Share via "
+other = "Compartir a través de "
 
 [relatedPosts]
-other = "See Also:"
+other = "Ver también:"
 
 [loadComments]
-other = "Load Comments?"
+other = "¿Cargar comentarios?"
 
 [pageNotFound]
-other = "404 - Page not found"
+other = "404 - Página no encontrada"
 
 [fofLinkText]
-other = "Take Me Home"
+other = "Llévame a casa"
 
 [serviceWorkerUpdatedText]
-other = "New Update Available"
+other = "Nueva actualización disponible"
 
 [serviceWorkerUpdatedAction]
-other = "Refresh"
+other = "Actualizar"
 
 
 # Socials
@@ -97,40 +97,40 @@ other = "QR Code"
 # Used for `i18nMonth`
 
 [january]
-other = "January"
+other = "Enero"
 
 [february]
-other = "February"
+other = "Febrero"
 
 [march]
-other = "March"
+other = "Marzo"
 
 [april]
-other = "April"
+other = "Abril"
 
 [may]
-other = "May"
+other = "Mayo"
 
 [june]
-other = "June"
+other = "Junio"
 
 [july]
-other = "July"
+other = "Julio"
 
 [august]
-other = "August"
+other = "Agosto"
 
 [september]
-other = "September"
+other = "Septiembre"
 
 [october]
-other = "October"
+other = "Octubre"
 
 [november]
-other = "November"
+other = "Noviembre"
 
 [december]
-other = "December"
+other = "Diciembre"
 
 
 # Numbers
