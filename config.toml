@@ -55,7 +55,12 @@ uglyURLs = false
         title = "TokenBrice - Blog"
         weight = 2
         languageName = "🇫🇷 FR"
-        homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/fr/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [🇫🇷 DeFi France & 💸 BanklessFR](/fr/defifrance)  <br>[👾 Do You Even DeFi? (EN)](/dyed/) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
+        # homePoetry = ["Bienvenue explorateur,<br>J'espère que vous apprécierez votre séjour dans l'Ether<br> [— TokenBrice](/fr/about/),<br>Motivé par un but simple : <br> **Mettre en lumière le feu de l'Ether.** <br><br> [🇫🇷 DeFi France & 💸 BanklessFR](/fr/defifrance)  <br>[👾 Do You Even DeFi? (EN)](/dyed/) <br> [🌌 Articles DeFi](/fr/categories/defi/)"]
+        siteDescription = "Blog personnel de TokenBrice - Finance décentralisée (DeFi), Ethereum, et développement de communautés adaptées aux réalités web3. Contenus en FR & EN."
+    [languages.es]
+        title = "TokenBrice - Blog"
+        weight = 2
+        languageName = "🇪🇸 ES"
         siteDescription = "Blog personnel de TokenBrice - Finance décentralisée (DeFi), Ethereum, et développement de communautés adaptées aux réalités web3. Contenus en FR & EN."
 
 # URL structure
@@ -322,6 +327,31 @@ uglyURLs = false
   #      pre = "internal"
   #      post = "chain"
 
+
+[[languages.es.menu.main]]
+    url = "/es/posts/"
+    name = "Artículos"
+    weight = 2
+    pre = "internal"
+    post = "news"
+[[languages.es.menu.main]]
+    url = "/fr/marche-monetaire-risque/"
+    name = "Riesgos"
+    weight = 3
+    pre = "internal"
+    post = "chess-knight"
+[[languages.es.menu.main]]
+    url = "/fr/about/"
+    name = "Info"
+    weight = 5
+    pre = "internal"
+    post = "user-circle"
+[[languages.es.menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+[[languages.es.menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
 
 
 ##########################################

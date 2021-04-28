@@ -58,6 +58,6 @@ You, readers of EcoCrypto are entrusting us with a highly sensitive material: th
 
 ### The Decentralization of EcoCrypto
 
-As the initiator of the project, I, Brice Berdah, will have a significant influence over it in its early days. I am fully aware of the centralization vector I represent. EcoCrypto will eventually grow into a decentralized project, but I must first ensure its development and maintain its quality. I will communicate directly on EcoCrypto regarding the steps taken for its decentralization.
+As the initiator of the project, I, TokenBrice, will have a significant influence over it in its early days. I am fully aware of the centralization vector I represent. EcoCrypto will eventually grow into a decentralized project, but I must first ensure its development and maintain its quality. I will communicate directly on EcoCrypto regarding the steps taken for its decentralization.
 
 Welcome to the new world.

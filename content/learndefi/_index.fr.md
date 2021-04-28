@@ -85,11 +85,12 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
 
-### Communautés
+### Communauté DéFi France
 
 Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
-- **[✈ Telegram DeFi France](https://t.me/defifrance)**: la principale communauté de DeFians francophones.
-- Également accessible via un **[serveur Discord DeFi France](https://discord.gg/3bWZcK2)** un peu plus complet. 
+- **[Rejoignez le serveur Discord DeFi France](https://discord.gg/3bWZcK2)**: la principale communauté de DeFians francophones.
+
+Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est en suite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
 
 ## 🧰 La boite-à-outils DeFi
 

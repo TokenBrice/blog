@@ -59,6 +59,6 @@ Vous, lecteurs d’EcoCrypto, nous confiez une ressource précieuse : le temps e
 
 ### La décentralisation d’EcoCrypto
 
-En tant qu’initiateur du projet, j’aurai (Brice Berdah) une influence significative sur ses premiers jours. Je suis parfaitement conscient du vecteur de centralisation que je représente. EcoCrypto évoluera jusqu’à devenir une publication complètement décentralisée, mais je dois d’abord m’assurer de son développement et maintenir sa qualité. Je communiquerai directement sur EcoCrypto quant aux démarches prises pour ouvrir et progressivement décentraliser le journal.
+En tant qu’initiateur du projet, j’aurai (TokenBrice) une influence significative sur ses premiers jours. Je suis parfaitement conscient du vecteur de centralisation que je représente. EcoCrypto évoluera jusqu’à devenir une publication complètement décentralisée, mais je dois d’abord m’assurer de son développement et maintenir sa qualité. Je communiquerai directement sur EcoCrypto quant aux démarches prises pour ouvrir et progressivement décentraliser le journal.
 
 Bienvenue dans le nouveau monde.
