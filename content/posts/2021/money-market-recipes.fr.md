@@ -102,7 +102,7 @@ Pour illustrer le concept, je vous propose à nouveau une stratégie simple qui 
 
 ## Mettre au travail un collatéral holdé sur le long terme
 
-Je suis en arrivé à la DeFi il y a plusieurs années avec une ambition simple : je voulais mettre au travail mes Ether. À l'époque ça n'était pas une mince affaire mais aujourd'hui il existe de nombreuses solutions très intéressantes. Je vais me concentrer sur l'une d'entre elles : Aave pour deux raisons.
+Je suis arrivé à la DeFi il y a plusieurs années avec une ambition simple : je voulais mettre au travail mes Ether. À l'époque ça n'était pas une mince affaire mais aujourd'hui il existe de nombreuses solutions très intéressantes. Je vais me concentrer sur l'une d'entre elles : Aave pour deux raisons.
 
 1. Aave a lancé **un programme de liquidity mining** payé en StkAave[^aaveLMmainnet] (Aave V2 - Mainnet).
 2. Aave est accessible sur la **sidechain Polygon** où les frais minimes permettent de déployer des stratégies DeFi de manière efficace même avec des petits capitaux. Il y a là aussi un programme de liquidity mining, en MATIC.[^aaveLMmatic]
