@@ -182,5 +182,5 @@ Enfin pour mieux comprendre ce nouveau système communautaire, le replay de notr
 
 {{< youtube fMpYQYXBrfA >}}
 
-[^aaveLMmainnet]: Le programme de liquidity mining StkAAVE a été lancé le 26 Mai suite à vote de gouvernance. [Plus d'infos ici](https://twitter.com/AaveAave/status/1386753673104134155?s=20)
+[^aaveLMmainnet]: Le programme de liquidity mining StkAAVE a été lancé le 26 Avril suite à vote de gouvernance. [Plus d'infos ici](https://twitter.com/AaveAave/status/1386753673104134155?s=20)
 [^aaveLMmatic]: Polygon sponsorise un programme de liquidity mining en MATIC, à la fois [sur Aave](https://blog.polygon.technology/defiforall-kicking-off-l2-defi-summer-with-40-million-usd-in-liquidity-mining-rewards-from-4937d7c6e287) et sur [Curve](https://blog.polygon.technology/continuing-scalability-defi-summer-with-5-million-usd-in-liquidity-mining-rewards-from-polygon-e73a76c5a8ad?gi=9a7b7e130606)
