@@ -4,7 +4,7 @@ description: >-
   On va tout décentraliser ! Mais qu'est-ce que ça peut bien pouvoir dire ? La
   décentralisation pour Jean Dupont en 12 minutes.
 date: '2018-07-02T08:31:36.389Z'
-categories: [⛓ Blockchain, 🛸 Bases]
+categories: [⛓ Blockchain]
 tags: [décentralisation, vulgarisation, cryptomonnaie, blockchain, EcoCrypto]
 ---
 

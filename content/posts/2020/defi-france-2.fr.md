@@ -2,7 +2,7 @@
 title: "DeFi France 2.0 : Engagez-vous !"
 description: "Ce document présente les prochains projets de DeFi France. Motivé ? N'hésitez pas à nous contacter pour vous impliquer."
 date: '2020-08-10T01:53:50.191Z'
-categories: [🌌 DeFi, 🇫🇷 DeFi France]
+categories: [🇫🇷 DeFi France]
 tags: [BanklessFR, DeFi France, Live, Meetups]
 ---
 
