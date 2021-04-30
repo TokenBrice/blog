@@ -95,3 +95,5 @@ Je suis moi-même un joueur actif avec **un pouvoir de vote sympathique ("Master
 On réfléchit également à un système de notifications personnalisées afin de permettre à chacun de recevoir une alerte sur les sujets qui l'intéressent. Voici la proposition initiale, n'hésitez pas à contribuer à la discussion :
 
 ![defi france notifications](/img/2021/dffv2-w1/notifications.png "Pré-proposition pour un système de notification DeFi France qui a déjà reçu plusieurs précisions et ajustements")
+
+Si vous n'y êtes pas encore, il n'est jamais trop tard pour bien faire ! Rejoignez le **[Discord DeFi France ici](https://discord.gg/3bWZcK2)**.
