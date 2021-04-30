@@ -35,14 +35,14 @@ Le Discord compte désormais plus de 1900 membres, dont >700 humains (utilisateu
 
 Sur l'`#🏟-agora` les discussions ont été nombreuses et animées.
 
-Le **délai initial pour un vote, de 7 jours a été abaissé à 3 jours** étant donné que les trois premiers votes étaient portés par un consensus de >99 %. Des discussions sont en cours pour potentiellement avoir une durée dynamique : par exemple 3 jours quand il y a consensus, mais le vote s'allongerait si le support n'est pas majoritaire.
+Le **délai initial pour un vote, de 7 jours a été abaissé à 3 jours** étant donné que les trois premiers votes étaient portés par un consensus de >99 %. Des discussions sont en cours pour potentiellement avoir une durée dynamique : par exemple 3 jours quand il y a consensus, mais le vote pourrait plus longtemps s'il n'est pas consensuel.
 
 Trois propositions ont été voté avec succès et vont devenir fonctionnelles dans les prochains jours :
 1. Un système s'appuyant sur le 🌾 Blé pour **structurer et prioriser les demandes de vouch sur Proof of Humanity**, proposé par Disiaque
 2. Un **canal spécifique pour les débutants**
 3. Un **canal spécifique pour discuter de stratégies**, avec une limite s'appuyant sur le 🌾 Blé collecté pour la participation.
 
-![proposition-poh DeFi France](/img/2021/dffv2-w1/proposition-poh.png "La première proposition de DeFi France voté avec succès")
+![proposition-poh DeFi France](/img/2021/dffv2-w1/proposition-poh.png "La première proposition de DeFi France votée avec succès")
 
 Les trois permiers votes ont connu un engagement important avec plus d'une centaine de votants pour chacun.
 
@@ -54,11 +54,11 @@ La panthéon est un canal qui pousse la logique du 🌾 Blé à son paroxysme :
 
 > Le 🌾 Blé ça ne se gagne pas, ça se donne !
 
-Quoi de mieux pour se faire que ce canal conçu pour partager votre apprécition ? Sur le `🏅-panthéon` le posteur ne reçoit pas beaucoup de 🌾 Blé, mais il en génère beaucoup pour les personnes qu'il mentionne surtout si son message reçoit de nombreuses réactions.
+Quoi de mieux pour se faire que ce canal conçu pour partager votre appréciation ? Sur le `🏅-panthéon` le posteur ne reçoit pas beaucoup de 🌾 Blé, mais il en génère beaucoup pour les personnes qu'il mentionne surtout si son message reçoit de nombreuses réactions.
 
 ![panthéon DeFi France](/img/2021/dffv2-w1/pantheon.png "Quelques messages sur le `🏅-panthéon`")
 
-Vous avez été très nombreux à vous approprier le canal et ça fait plaisir à voir ! L'engouement est tel qu'il va peut-être faloir réviser la pondération en 🌾 Blé sur ce canal étant donné qu'on ne s'attendait pas à un tel engouement !
+Vous avez été très nombreux à vous approprier le canal et ça fait plaisir à voir ! L'engouement est tel qu'il va peut-être falloir réviser la pondération en 🌾 Blé sur ce canal étant donné qu'on ne s'attendait pas à un tel engouement !
 
 ### Avez-vous signé le livre d'or ? `🙍-présentation`
 
@@ -72,8 +72,8 @@ En effet, ce canal a un poids légèrement plus important afin d'inciter les mem
 
 Plusieurs émojis-fonctions existent sur DeFi France, certaines sont spécifiques par canal.
 
-1. Le logo de DeFi France (`:dff`) ainsi que la fameuse DeLo (`:delo`) donnent tout deux un peu plus de poids (→ 🌾 Blé) lorsque qu'un utilisateur les emploie.
-2. 📜 L'emoji parchemin permet d'experimer son soutien à une proposition (canal `#🏟-agora`)
+1. Le logo de DeFi France (`:dff`) ainsi que la fameuse DeLo (`:delo`) donnent tout deux un peu plus de poids (→ 🌾 Blé) lorsqu'un utilisateur les emploie.
+2. 📜 L'emoji parchemin permet d'exprimer son soutien à une proposition (canal `#🏟-agora`)
 3. L'émoji menotte (`:prison`) permet de sanctionner un message abusif. Cela se fait via un vote communautaire dans le `#⚖-tribunal`.
 
 Une nouvelle émoji-action arrive afin de proposer un mécanisme communautaire pour pérenniser les meilleures contributions : l'emoji 💾 save.
@@ -86,7 +86,7 @@ Elle fonctionne avec un mécanisme de quorum comme pour le scroll. Si assez d'ut
 
 La beauté de ce nouveau système c'est qu'on peut tous se l'approprier ! J'ai par exemple lancé une initiative communautaire liée à un jeu : Legends of Cryptonia. Il s'agit d'une sorte de jeu de rôle papier s'appuyant sur des NFTs. Fréquemment, le maitre du jeu Arke propose aux joueurs de voter sur la prochaine étape du scénario.
 
-![cryptonia DeFi France](/img/2021/dffv2-w1/cryptonia.png "La première décision sur Cryptonia à la quelle tous les membres de DeFi France peuvent participer.")
+![cryptonia DeFi France](/img/2021/dffv2-w1/cryptonia.png "La première décision sur Cryptonia à laquelle tous les membres de DeFi France peuvent participer.")
 
 Je suis moi-même un joueur actif avec **un pouvoir de vote sympathique ("Master Summoner") que j'ai décidé d'ouvrir à la communauté**. Via le canal `#🎲-cryptonia-dff`, les membres de DeFi France peuvent désormais voter sur chaque étape de l'aventure. Je répercute ensuite le vote communautaire de DeFi France avec mon vote personnel sur le système de Cryptonia.
 
