@@ -117,6 +117,8 @@ Pour en apprendre plus sur ce nouveau système pour notre Discord, on vous invit
 
 📅 On vous retrouvera également ce **Mercredi (28 Avril) à 21h sur le Discord DeFi France** pour un **live audio avec [Nolan](https://twitter.com/NolanVanmoortel)** pour expliquer cette nouvelle étape.
 
+-> [Le replay est ici ](https://www.youtube.com/watch?v=fMpYQYXBrfA)
+
 ---
 
 ## 🏗 Le mot de Nolan, l'architecte

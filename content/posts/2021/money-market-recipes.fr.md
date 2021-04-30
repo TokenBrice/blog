@@ -6,7 +6,7 @@ categories: [🌌 DeFi, 🔮 Découverte]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Curve, Liquity, Mimo Capital, Alchemix, Aave, Polygon, Liquidation]
 toc: true
 tocNum: true
-url: recettes-marchés-d'actifs
+url: recettes-marches-actifs
 ---
 
 Sur ce blog, je discute fréquemment des marchés monétaires ou marchés d'actifs en DeFi. Fondamentalement, ils vous permettent de **prêter et d'emprunter des tokens**. Ces deux actions sont devenues comme **des verbes de la DeFi** : ils sont mobilisés directement ou indirectement dans quasiment toutes les stratégies.

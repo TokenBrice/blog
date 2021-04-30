@@ -219,11 +219,11 @@ uglyURLs = false
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        url = "/money-markets-risk/"
-        name = "Risk Analysis"
+        url = "/categories/"
+        name = "Tags"
         weight = 3
         pre = "internal"
-        post = "chess-knight"
+        post = "th"
     [[menu.main]]
         url = "/learndefi/"
         name = "Discovery"
@@ -290,11 +290,11 @@ uglyURLs = false
     pre = "internal"
     post = "news"
 [[languages.fr.menu.main]]
-    url = "/fr/marche-monetaire-risque/"
-    name = "Risques"
+    url = "/fr/categories/"
+    name = "Tags"
     weight = 3
     pre = "internal"
-    post = "chess-knight"
+    post = "th"
 [[languages.fr.menu.main]]
     url = "/fr/defi-decouverte-finance-decentralisee/"
     name = "Découverte"
@@ -335,11 +335,17 @@ uglyURLs = false
     pre = "internal"
     post = "news"
 [[languages.es.menu.main]]
-    url = "/fr/marche-monetaire-risque/"
-    name = "Riesgos"
+    url = "/es/categories/"
+    name = "Tags"
     weight = 3
     pre = "internal"
-    post = "chess-knight"
+    post = "th"
+[[languages.fr.menu.main]]
+    url = "/fr/defi-decouverte-finance-decentralisee/"
+    name = "Découverte"
+    weight = 4
+    pre = "internal"
+    post = "ethereum"
 [[languages.es.menu.main]]
     url = "/fr/about/"
     name = "Info"
