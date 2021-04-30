@@ -2,7 +2,7 @@
 title: "TKN, le token commununautaire" 
 description: "Une introduction à TKN, le token communautaire de Monolith - portefeuille Ethereum avec une carte Visa : coffre communautaire, TKN burn et contrats."
 date: '2020-07-05T10:13:50.191Z'
-categories: [🌌 DeFi, 👾 Monolith]
+categories: [👾 Monolith]
 tags: [DeFi, Ethereum, Monolith, TKN]
 ---
 

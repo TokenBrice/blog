@@ -220,7 +220,7 @@ uglyURLs = false
         post = "archive"
     [[menu.main]]
         url = "/categories/"
-        name = "Tags"
+        name = "Categories"
         weight = 3
         pre = "internal"
         post = "th"
@@ -291,7 +291,7 @@ uglyURLs = false
     post = "news"
 [[languages.fr.menu.main]]
     url = "/fr/categories/"
-    name = "Tags"
+    name = "Catégories"
     weight = 3
     pre = "internal"
     post = "th"
@@ -303,7 +303,7 @@ uglyURLs = false
     post = "ethereum"
 [[languages.fr.menu.main]]
     url = "/fr/about/"
-    name = "À Propos"
+    name = "Info"
     weight = 5
     pre = "internal"
     post = "user-circle"

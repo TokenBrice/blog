@@ -2,7 +2,7 @@
 title: "Interagir avec votre wallet Monolith via MetaMask et EtherScan" 
 description: "Un tutoriel pour apprendre à utiliser son portefeuille Monolith avec MetaMask et EtherScan, utile pour interagir avec des tokens non supportés, ou en tant que processus de secours."
 date: '2020-07-05T10:13:50.191Z'
-categories: [🌌 DeFi, 👾 Monolith]
+categories: [👾 Monolith]
 tags: [DeFi, Ethereum, Monolith]
 ---
 

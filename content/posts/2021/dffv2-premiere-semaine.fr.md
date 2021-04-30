@@ -2,7 +2,7 @@
 title: "Retour sur la première semaine de gouvernance participative sur DeFi France"
 description: "La communauté DeFi France s'ouvre et devient encore plus horizontale : c'est à vous de jouer désormais !"
 date: '2021-04-30T01:53:50.191Z'
-categories: [🇫🇷 DeFi France]
+categories: [🇫🇷 Communauté DeFi France]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: defi-france-v2-premiere-semaine
 ---
