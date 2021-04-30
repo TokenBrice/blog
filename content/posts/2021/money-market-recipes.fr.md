@@ -104,7 +104,7 @@ Pour illustrer le concept, je vous propose à nouveau une stratégie simple qui 
 
 Je suis arrivé à la DeFi il y a plusieurs années avec une ambition simple : je voulais mettre au travail mes Ether. À l'époque ça n'était pas une mince affaire mais aujourd'hui il existe de nombreuses solutions très intéressantes. Je vais me concentrer sur l'une d'entre elles : Aave pour deux raisons.
 
-1. Aave a lancé **un programme de liquidity mining** payé en StkAave[^aaveLMmainnet] (Aave V2 - Mainnet).
+1. Aave a lancé **un programme de liquidity mining** payé en StkAave[^aaveLMmainnet] sur le mainnet.
 2. Aave est accessible sur la **sidechain Polygon** où les frais minimes permettent de déployer des stratégies DeFi de manière efficace même avec des petits capitaux. Il y a là aussi un programme de liquidity mining, en MATIC.[^aaveLMmatic]
 
 Pour que cette stratégie soit la plus accessible possible, on va développer l'exemple sur la sidechain Polygon. Elle est donc possible en utilisant n'importe lequel des tokens supportés en collatéral sur le marché Aave/Polygon : MATIC, AAVE, wETH, wBTC, USDC, et DAI. 
