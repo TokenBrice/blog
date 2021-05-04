@@ -41,7 +41,7 @@ Evitaremos tanto como sea posible de utilizar servicios particulares o centraliz
 
 A pesar de que EcoCrypto necesita hacerse conocer, somos celosos de nuestros principios. Nos permitiremos un año de presencia en las redes sociales centralizadas para atraer una primera audiencia hacia nuestra publicación. Después de este período, sera tiempo de limpiar la casa! EcoCrypto es oficialmente lanzado hoy (el 08/07/2018): todas nuestras cuentas en las redes sociales centralizadas serán borradas el 8 de Julio de 2019 - Ese día sera una fiesta!
 
-#### Respeto del anónimato de los escritores
+#### Respeto del anonimato de los escritores
 
 Revelar su identidad para publicar en EcoCrypto no es obligatorio. Envíenos un email desde su email secundario a <reaction@ecocrytp.fr>. Desde que el contenido sea de calidad y respete los principios del presente documento, no tendremos necesidad de su identidad para nada.
 
@@ -51,7 +51,7 @@ Si el manifiesto debe ser actualizado, todas las publicaciones precedentes segui
 
 #### Nuestros artículos son escritos para ser leídos en todo el mundo
 
-Todos los artículos de EcoCrypto seran traducidos en inglés para incrementar sus lectores. Si tiene un interés en particular por algún artículo y desea traducirlo en otra lengua diferente al francés o al inglés, hágalo! La única condición es que nos lo haga saber.
+Todos los artículos de EcoCrypto seran traducidos en inglés para incrementar la audiencia. Si tiene un interés en particular por algún artículo y desea traducirlo en otra lengua diferente al francés o al inglés, hágalo! La única condición es que nos lo haga saber.
 
 #### Respetamos su tiempo
 
