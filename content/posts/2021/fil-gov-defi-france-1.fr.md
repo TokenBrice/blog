@@ -1,10 +1,10 @@
 ---
-title: "Retour sur la première semaine de gouvernance participative sur DeFi France"
+title: "📜 Le fil de la gouvernance DeFi France #1 : Retour sur la première semaine de gouvernance participative sur DeFi France"
 description: "La communauté DeFi France s'ouvre et devient encore plus horizontale : c'est à vous de jouer désormais !"
 date: '2021-04-30T01:53:50.191Z'
 categories: [🇫🇷 Communauté DeFi France]
-tags: [DeFi France, Discord, Contributions, Communauté]
-url: defi-france-v2-premiere-semaine
+tags: [DeFi France, Discord, Contributions, Communauté, Gouvernance DFF]
+url: fil-gov-defi-france-1
 ---
 
 La communauté DeFi France évolue à une vitesse impressionnante ! La semaine dernière, nous avons lancé un nouveau système pour organiser la communauté – il est temps de revenir sur ses débuts !
@@ -23,7 +23,7 @@ Pour mieux comprendre le nouveau système, vous pouvez également **[écouter l'
 
 Aujourd'hui, on va se concentrer sur ce qu'il s'est passé depuis le lancement et les premières décisions communautaires.
 
-![dffv2-w1-cover](/img/2021/dffv2-w1/dffv2-w1-cover.png)
+![dffv2-w1-cover](/img/2021/fil-gov-defi-france-1/dffv2-w1-cover.png)
 
 ---
 
@@ -42,7 +42,7 @@ Trois propositions ont été voté avec succès et vont devenir fonctionnelles d
 2. Un **canal spécifique pour les débutants**
 3. Un **canal spécifique pour discuter de stratégies**, avec une limite s'appuyant sur le 🌾 Blé collecté pour la participation.
 
-![proposition-poh DeFi France](/img/2021/dffv2-w1/proposition-poh.png "La première proposition de DeFi France votée avec succès")
+![proposition-poh DeFi France](/img/2021/fil-gov-defi-france-1/proposition-poh.png "La première proposition de DeFi France votée avec succès")
 
 Les trois permiers votes ont connu un engagement important avec plus d'une centaine de votants pour chacun.
 
@@ -56,7 +56,7 @@ La panthéon est un canal qui pousse la logique du 🌾 Blé à son paroxysme :
 
 Quoi de mieux pour se faire que ce canal conçu pour partager votre appréciation ? Sur le `🏅-panthéon` le posteur ne reçoit pas beaucoup de 🌾 Blé, mais il en génère beaucoup pour les personnes qu'il mentionne surtout si son message reçoit de nombreuses réactions.
 
-![panthéon DeFi France](/img/2021/dffv2-w1/pantheon.png "Quelques messages sur le `🏅-panthéon`")
+![panthéon DeFi France](/img/2021/fil-gov-defi-france-1/pantheon.png "Quelques messages sur le `🏅-panthéon`")
 
 Vous avez été très nombreux à vous approprier le canal et ça fait plaisir à voir ! L'engouement est tel qu'il va peut-être falloir réviser la pondération en 🌾 Blé sur ce canal étant donné qu'on ne s'attendait pas à un tel engouement !
 
@@ -86,7 +86,7 @@ Elle fonctionne avec un mécanisme de quorum comme pour le scroll. Si assez d'ut
 
 La beauté de ce nouveau système c'est qu'on peut tous se l'approprier ! J'ai par exemple lancé une initiative communautaire liée à un jeu : Legends of Cryptonia. Il s'agit d'une sorte de jeu de rôle papier s'appuyant sur des NFTs. Fréquemment, le maitre du jeu Arke propose aux joueurs de voter sur la prochaine étape du scénario.
 
-![cryptonia DeFi France](/img/2021/dffv2-w1/cryptonia.png "La première décision sur Cryptonia à laquelle tous les membres de DeFi France peuvent participer.")
+![cryptonia DeFi France](/img/2021/fil-gov-defi-france-1/cryptonia.png "La première décision sur Cryptonia à laquelle tous les membres de DeFi France peuvent participer.")
 
 Je suis moi-même un joueur actif avec **un pouvoir de vote sympathique ("Master Summoner") que j'ai décidé d'ouvrir à la communauté**. Via le canal `#🎲-cryptonia-dff`, les membres de DeFi France peuvent désormais voter sur chaque étape de l'aventure. Je répercute ensuite le vote communautaire de DeFi France avec mon vote personnel sur le système de Cryptonia.
 
@@ -94,6 +94,6 @@ Je suis moi-même un joueur actif avec **un pouvoir de vote sympathique ("Master
 
 On réfléchit également à un système de notifications personnalisées afin de permettre à chacun de recevoir une alerte sur les sujets qui l'intéressent. Voici la proposition initiale, n'hésitez pas à contribuer à la discussion :
 
-![defi france notifications](/img/2021/dffv2-w1/notifications.png "Pré-proposition pour un système de notification DeFi France qui a déjà reçu plusieurs précisions et ajustements")
+![defi france notifications](/img/2021/fil-gov-defi-france-1/notifications.png "Pré-proposition pour un système de notification DeFi France qui a déjà reçu plusieurs précisions et ajustements")
 
 Si vous n'y êtes pas encore, il n'est jamais trop tard pour bien faire ! Rejoignez le **[Discord DeFi France ici](https://discord.gg/3bWZcK2)**.
