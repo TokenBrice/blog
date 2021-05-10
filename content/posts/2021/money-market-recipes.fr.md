@@ -172,6 +172,8 @@ J'espère que ces différentes recettes sauront vous inspirer. Assurez-vous d'ê
 
 ---
 
+*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en anglais.*
+
 ## Ensemble, le 🌾 Blé foisonne
 
 La DeFi, ça marche encore mieux en communauté ! Pour aller plus loin dans votre découverte, **[rejoignez le Discord DeFi France](https://discord.gg/3bWZcK2)**. Vous pourrez échanger avec plus de 1500 DeFians francophones de différentes expériences et horizons. 
