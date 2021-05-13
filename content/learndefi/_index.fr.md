@@ -14,11 +14,11 @@ La finance décentralisée est à la fois fascinante et intimidante, surtout pou
 La DeFi saisit l'opportunité offerte par les développements des blockchains et surtout Ethereum pour développer une finance construite sur de nouvelles valeurs. Ces valeurs ne sont pas des promesses, mais belle-et-bien garanties par le fonctionnement normal du réseau :
 
 1. **Transparence de toutes les transactions par défaut** : ce qui permet de vérifier toute information potentielle et réduit le besoin pour des intermédiaires de confiance supplémentaires (par exemple les agences de notation)
-2. **Accessibilité totale** : pour interagir avec une application décentralisée sur Ethereum, il suffit d'un portefeuille (wallet). Concrètement cela signifie par exemple qu'Aave (plateforme de prêt) ne demande aucune information lors d'un emprunt, du moment que les conditions de collatéral sont remplises.
+2. **Accessibilité totale** : pour interagir avec une application décentralisée sur Ethereum, il suffit d'un portefeuille (wallet). Concrètement cela signifie par exemple qu'Aave (plateforme de prêt) ne demande aucune information lors d'un emprunt, du moment que les conditions de collatéral sont remplis.
 3. **Codes libres et forkables (open-source)** :dû à la transparence de la blockchain, les smart contracts permettant aux applications DeFi de fonctionner sont visibles et forkables par tous.
 4. **Aucune permission n'est requise (permissionless)** : les applications DeFi les plus intransigeantes peuvent être potentiellement inarrêtables comme Uniswap V2. Cela signifie que personne ne peut les mettre hors ligne tant que le réseau Ethereum fonctionne ou empêcher quelqu'un d'utiliser l'application.
 
-Pour bien comprendre les enjeux de la DeFi, il faut d'abord saisir l'apport des blockchains. Je vous propose donc de faire un pas en arrière avec un trio d'article pour comprendre l'essentiel de leur apport avant d'explorer la finance décentralisée. 
+Pour bien comprendre les enjeux de la DeFi, il faut d'abord saisir l'apport des blockchains. Je vous propose donc de faire un pas en arrière avec un trio d'articles pour comprendre l'essentiel de leur apport avant d'explorer la finance décentralisée. 
 
 ---
 
@@ -36,7 +36,7 @@ Je vous recommande la lecture dans l'ordre de présentation :
 2. Avec la finance décentralisée, vous allez être amenés à questionner vos acquis sur la notion même de ce qu'est l'argent. Quelques pistes par ici : **[Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les innovations monétaires]({{< relref "money101.fr.md" >}})**
 3. En 2018 déjà, la question des actifs stables était centrale. Cet article vous donne des bases pour y réfléchir, et vous retrouverez de nombreux contenus plus avancés sur mon blog qui traitent le sujet : **[Les stablecoins, une nécessité pour l'adoption à grande échelle des cryptomonnaies?]({{< relref path="/content/posts/2018/stablecoins.fr.md" >}})**
 4. La rareté numérique vérifiable est un concept fabuleux qui va bien au delà de la monnaie. Cet article vous parle de token non-fongibles qui permettent de représenter à peu près tout, sur une blockchain : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path ="/content/posts/2018/nft.fr.md" >}})**
-5. Enfin, comme dans toute nouvelle industrie, les arnaques et charlatans sont nombreux. Ce guide vous apporter des outils pour ne pas tomber dans le panneau : **[Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins]({{< relref "hitchhiker-crypto-guide.fr.md" >}})**
+5. Enfin, comme dans toute nouvelle industrie, les arnaques et charlatans sont nombreux. Ce guide vous apportera des outils pour ne pas tomber dans le panneau : **[Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins]({{< relref "hitchhiker-crypto-guide.fr.md" >}})**
 
 {{< notice tip >}}
 Si vous appreçiez mes articles, je vous invite à aller faire un tour sur **[ma chaine Twitch](https://twitch.tv/tokenbrice/)** qui parle de DeFi de manière très pratique mais prend aussi du recul avec des émissions comme la Science Fiction DeFi.
@@ -48,7 +48,7 @@ Si vous appreçiez mes articles, je vous invite à aller faire un tour sur **[ma
 
 **[La DeFi, au delà de la finance]({{< relref "defi-beyond-finance.fr.md" >}})**
 
-Où nous considérons les valeurs fondamentales de la DeFi et comment elle peuvent être utilisés à diverses fins, y compris non financières.
+Où nous considérons les valeurs fondamentales de la DeFi et comment elle peuvent être utilisées à diverses fins, y compris non financières.
 
 **[📖 Comment utiliser les services DeFinanciers à votre avantage ?]({{< relref "definancial-services-guide.fr.md" >}})**
 
@@ -64,7 +64,7 @@ Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fr�
 - **[Articles 🔮 Découverte](/fr/categories/découverte)** : des articles de haut-niveau pour comprendre les différents outils et protocoles utilisés en DeFi.
 - **[Articles 💸 DeFi Pratique](/fr/categories/defi-pratique/)** : où l'on parle plus concrètement de stratégies pour tirer parti des différents protocoles.
 
-Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardi à 19h, un Jeudi/2 à 19h + quelques lives "sauvages" bonus en fonction des humeurs.
+Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardis à 19h, un Jeudi/2 à 19h + quelques lives "sauvages" bonus en fonction des humeurs.
 
 ## La DeFi en groupe c'est encore mieux !
 
@@ -84,9 +84,9 @@ C'est une initiative communautaire initialement portée par [Mounir Benchemled](
 
 #### Y'a même du 🌾 Blé dans l'histoire !
 
-Depuis la mise à jour V2 et l'arrivée Déméter sur le Discord, les contributions de la communauté sont reconnues et elle peut s'impliquer directement grâce à des mécanismes de vote par émojis.
+Depuis la mise à jour V2 et l'arrivée de Déméter sur le Discord, les contributions de la communauté sont reconnues et elle peut s'impliquer directement grâce à des mécanismes de vote par émojis.
 
-Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est en suite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
+Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est ensuite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
 
 Une gouvernance communautaire s'est mise en place sur le canal Agora et plusieurs propositions ont déjà été implémentées. Vous pouvez suivre la gouvernance DeFi France grâce au travail de nos scribes (Disiaque et Charles) : **[Fil de gouvernance DeFi France](/fr/categories/communauté-defi-france/)**
 
