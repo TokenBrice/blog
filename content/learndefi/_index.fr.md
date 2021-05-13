@@ -2,14 +2,27 @@
 title: "Découvrir la DeFi"
 url: defi-decouverte-finance-decentralisee
 date: 2020-12-05T08:24:40+02:00
-description: "La finance décentralisée est jeune, fascinante et grandit rapidement. Pour vous aider à la découvrir, vous trouverez ici différentes ressources utiles."
+description: "La finance décentralisée est jeune, fascinante et grandit rapidement. Pour la comprendre, il faut de bonnes ressources et surtout une communauté ! Ça commence ici."
+toc: true
+tocNum: false
 ---
 
 La finance décentralisée est à la fois fascinante et intimidante, surtout pour les nouveaux arrivants. Pour vous aider à naviguer dans cet espace, vous trouverez ici une lecture guidée ainsi que de nombreuses ressources pour suivre et en savoir plus sur la DeFi.
 
-Avant d'en arriver là néanmoins il y a des concepts essentiels qu'il faut saisir relatifs à la décentralisation et ce qu'apportent et permettent les blockchains.
+## Des ressources pour découvrir la DeFi
 
-## Comprendre l'apport des blockchains : la rareté numérique vérifiable
+La DeFi saisit l'opportunité offerte par les développements des blockchains et surtout Ethereum pour développer une finance construite sur de nouvelles valeurs. Ces valeurs ne sont pas des promesses, mais belle-et-bien garanties par le fonctionnement normal du réseau :
+
+1. **Transparence de toutes les transactions par défaut** : ce qui permet de vérifier toute information potentielle et réduit le besoin pour des intermédiaires de confiance supplémentaires (par exemple les agences de notation)
+2. **Accessibilité totale** : pour interagir avec une application décentralisée sur Ethereum, il suffit d'un portefeuille (wallet). Concrètement cela signifie par exemple qu'Aave (plateforme de prêt) ne demande aucune information lors d'un emprunt, du moment que les conditions de collatéral sont remplises.
+3. **Codes libres et forkables (open-source)** :dû à la transparence de la blockchain, les smart contracts permettant aux applications DeFi de fonctionner sont visibles et forkables par tous.
+4. **Aucune permission n'est requise (permissionless)** : les applications DeFi les plus intransigeantes peuvent être potentiellement inarrêtables comme Uniswap V2. Cela signifie que personne ne peut les mettre hors ligne tant que le réseau Ethereum fonctionne ou empêcher quelqu'un d'utiliser l'application.
+
+Pour bien comprendre les enjeux de la DeFi, il faut d'abord saisir l'apport des blockchains. Je vous propose donc de faire un pas en arrière avec un trio d'article pour comprendre l'essentiel de leur apport avant d'explorer la finance décentralisée. 
+
+---
+
+### 5 Articles pour comprendre l'apport des blockchains
 
 Les blockchains en soit ne sont qu'une nouvelle brique technologique. Néanmoins, elles permettent de résoudre un problème sans solution avant Bitcoin : **comment créer un actif numérique mais aussi "rare" ?**. 
 
@@ -31,7 +44,7 @@ Si vous appreçiez mes articles, je vous invite à aller faire un tour sur **[ma
 
 ---
 
-## Lecture guidée découverte DeFi
+### 3 lectures pour saisir le potentiel de la DeFi
 
 **[La DeFi, au delà de la finance]({{< relref "defi-beyond-finance.fr.md" >}})**
 
@@ -45,33 +58,35 @@ Une introduction exhaustive à la DeFi... qui date d'avril 2020. Le milieu a bea
 
 Un article plus conséquent qui vous permettra de découvrir la politique monétaire d'ETH et ses enjeux sur le long terme.
 
-### La DeFi en pratique
+### La DeFi en pratique avec TokenBrice
 
-Maintenant que vous avez les bases, il est temps d'envisager de passer à la pratique. Voici quelques ressources mettant en évidence des services que vous pourriez utiliser et des conseils pour en tirer le meilleur parti :
+Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fréquemment sur ce blog depuis plus de deux ans sur le sujet :
+- **[Articles 🔮 Découverte](/fr/categories/découverte)** : des articles de haut-niveau pour comprendre les différents outils et protocoles utilisés en DeFi.
+- **[Articles 💸 DeFi Pratique](/fr/categories/defi-pratique/)** : où l'on parle plus concrètement de stratégies pour tirer parti des différents protocoles.
 
-**[🤖 Les vaults : stratégies d'investissement DeFi accessibles ?]({{< relref "vaults.fr.md" >}})**
+Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardi à 19h, un Jeudi/2 à 19h + quelques lives "sauvages" bonus en fonction des humeurs.
 
-Vous ne savez pas par où commencer ? Les vaults offrent des options d'investissement simplifiées et passives.
+## La DeFi en groupe c'est encore mieux !
 
-**[🐊 Immersion dans la mare aux swaps]({{< relref "swap-swamp.fr.md" >}})**
+Suivre, comprendre et utiliser la DeFi va vous amener à remettre en questions de très nombreux sujets : c'est une tâche ardue mais heureusement il existe de très nombreuses communautés pour échanger sur le sujet. 
 
-Quoi que vous fassiez dans la DeFi, vous devrez fréquemment échanger des tokens - cette article vous aidera à le faire efficacement.
+### DeFi France
 
-**[🎚 Exposition à l'ETH ou rendements de DeFi : pourquoi choisir ?]({{< relref "leveraging-ETH.fr.md" >}})**
+En France, nous sommes très chanceux grâce à la mobilisation de nombreux acteurs du secteur dès ses premiers jours avec **DeFi France, une communauté francophone pour discuter de finance décentralisée** : 
 
-Il est essentiel d'exploiter les marchés monétaires pour tirer le meilleur parti de votre capital avec DeFi. Cet article explique l'idée de base : pourquoi s'endêter peut être rentable.
+{{< notice tip >}}
+**[💬 Rejoindre la communauté DeFi France sur Discord](https://discord.gg/3bWZcK2)**
+{{< /notice >}}
 
-**[🧐 Yearn Finance](/fr/tags/yearn-finance/)**
+C'est une initiative communautaire initialement portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et moi-même ([TokenBrice](https://twitter.com/TokenBrice)).
 
-Pour mieux comprendre la DeFi, je vous invite à suivre son évolution en pratique au travers d'un de ses protocoles phares avec une séries d'articles sur Yearn Finance.
+![dffv2-cover-image](/img/2021/dffv2/dffv2-cover.png)
 
-**[🗡 Du risque ? Oui, mais juste un doigt]({{< relref "risk-tranching.fr.md" >}})**
+#### Y'a même du 🌾 Blé dans l'histoire !
 
-La DeFi permet des approches innovantes sur la gestion et distribution des risques ; je vous les présente dans l'article ci-dessous:
+Depuis la mise à jour V2 et l'arrivée Déméter sur le Discord, les contributions de la communauté sont reconnues et elle peut s'impliquer directement grâce à des mécanismes de vote par émojis.
 
-**[🔍 Évaluation du risque en DeFi]({{< relref "money-market-risks.fr.md" >}})**
-
-Cet article très détaillé propose un modèle non-exhaustif mais facilement applicable pour analyser l'exposition à différents types de risques sur un protocole DeFi donné, en se concentrant sur les marchés monétaires.
+Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est en suite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
 
 ---
 
@@ -85,12 +100,7 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 - **[📖 Le site de Cryptoouf](https://cryptoouf.com/)** qui suit la DeFi de près, notamment Curve et Harvest.
 - **[📰 Ce blog](/categories/defi/)** pour une approche pratique des différents services de la DeFi.
 
-### Communauté DéFi France
-
-Pour échanger au sujet de la DeFi, n'hésitez pas à rejoindre les communautés francophones très dynamiques:
-- **[Rejoignez le serveur Discord DeFi France](https://discord.gg/3bWZcK2)**: la principale communauté de DeFians francophones.
-
-Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est en suite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
+---
 
 ## 🧰 La boite-à-outils DeFi
 
@@ -114,37 +124,4 @@ Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à d�
 * [Token Terminal](https://terminal.tokenterminal.com/) : des donnés numériques standardisées pour comparer différents protocoles DeFi et crypto.
 * [YieldFarmingTools](https://yieldfarmingtools.com/) : un aperçu des principales possibilités de farming.
 
----
-
-## DeFi France
-
-![defi-france-cover](/img/others/defifrance.png)
-
-### DeFi France, c'est quoi ?
-
-**DeFi France est une communauté francophone pour discuter de finance décentralisée.** Chaque mois, nous organisons une rendez-vous afin de permettre un échange thématisé et instructif pour mieux comprendre des éléments fondamentaux de la DeFi. Après 6 éditions présentielles depuis Octobre 2019, DeFi France se tient désormais à distance.
-
-C'est une initiative communautaire portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et votre humble serviteur ([TokenBrice](https://twitter.com/TokenBrice)), ainsi que le soutien de la communauté française : merci à Pascal, Marc, Alexandre & de nombreuses autres personnes !
-
-Tous les rendez-vous mensuels de DeFi France sont enregistrés. Vous les retrouverez sur [notre chaine Youtube](https://www.youtube.com/channel/defifrance) :
-
-|  **[📽 Chaine Youtube](https://www.youtube.com/channel/defifrance)** | **[🛩 Groupe Telegram](https://t.me/defifrance)** | [🍻 Page Meetup](https://www.meetup.com/DeFi-France/) |
-| :---: | :---: | :---: |
-|  Revoir les éditions précédentes de DeFi France et **suivez les prochains en live** | Discutez de finance décentralisée avec > 1900 francophones | Pour ne pas rater les prochains évènements |
-
----
-
-### Historique des rendez-vous
-
-|  Date | Thème | Participants |
-| :---: | :---: | :---: |
-|  30/09/2020 | [🇫🇷 DF #X - De la ferme à la mine en 5 étapes]({{< relref path="/content/posts/2020/defifrance10.fr.md">}}) | Pascal Tallarida, Marc Zeller, Marouane Haiji, Moshe Malawach, TokenBrice |
-|  25/06/2020 | [🇫🇷 DF #9 - Les arcanes de la DeFi - mise à jour avec l'Ether](https://www.youtube.com/watch?v=i7f6ZBOTiXo) | Pascal Tallarida, Julien Bouteloup, Mounir Benchemled, TokenBrice |
-|  20/05/2020 | [🇫🇷 DF #8 - EthereumXBitcoin : DeFi sur la chaîne Bitcoin, ou BTC sur Ethereum?](https://www.youtube.com/watch?v=sHRS2DYOMlg) | Pascal Tallarida, Romain ROUPHAËL, Julien Bouteloup, Adli Takkal-Bataille, Mounir Benchemled |
-|  23/04/2020 | [🇫🇷 DF #7 - Comment prendre et communiquer la mesure du risque dans la DeFi ?](https://www.youtube.com/watch?v=G9w2wOlWOIw) | Clément Lesage (Kleros), Marc Zeller (Aave), Jimmy Ragosa (ConsenSys), <br/>Marouane Haiji (Unslashed) |
-|  3/3/20 | [🇫🇷DF#6 @EthCC : La Finance Décentralisée - vers une nouvelle finance](https://www.youtube.com/watch?v=vF-7T5EtcQo) | Mounir, Arthur, TokenBrice |
-|  13/02/2020 | [🇫🇷 DF #5 DeFi et Revenu Passif: Prêts, immobilier et réserves de liquidité](https://www.youtube.com/watch?v=RLKvpIMSerI&) | TokenBrice (Monolith), Pascal (Jarvis Exchange) |
-|  16/01/2020 | [🇫🇷 DF #4 - La Blockchain, un monde sans loi ?](https://www.youtube.com/watch?v=lym5thBJVrY) | Clément Lesage (Kleros), William O'Rorke (ORWL Avocats) |
-|  12/12/19 | [🇫🇷 DF #3 - Smart Wallets, Actifs Synthétiques & Finance Décentralisée](https://www.youtube.com/watch?v=R-44BHOmmJw) | Julien Niset (Argent), Thibaut Sahaghian (Multis), Pascal Tallarida (Jarvis) |
-|  20/11/2019 | [🇫🇷 DF #2 - Échanges et gestion d'actifs décentralisés sans intermédiaires](https://www.youtube.com/watch?v=jzrWxAOoh44) | Mounir, Julien, TokenBrice |
-|  17/10/2019 | [🇫🇷 DF α - La finance décentralisée : vers un système financier plus ouvert et transparent ?](https://www.youtube.com/watch?v=6rgt-bygKNo) | Mounir, Arthur, TokenBrice, Pascal et Alexandre |
+Je vous propose également un article qui couvre l'outillage de base du DeFian : **[🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})**
