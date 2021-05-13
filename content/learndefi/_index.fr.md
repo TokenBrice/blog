@@ -88,6 +88,8 @@ Depuis la mise à jour V2 et l'arrivée Déméter sur le Discord, les contributi
 
 Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est en suite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
 
+Une gouvernance communautaire s'est mise en place sur le canal Agora et plusieurs propositions ont déjà été implémentées. Vous pouvez suivre la gouvernance DeFi France grâce au travail de nos scribes (Disiaque et Charles) : **[Fil de gouvernance DeFi France](/fr/categories/communauté-defi-france/)**
+
 ---
 
 ## Media DeFi 
