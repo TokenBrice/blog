@@ -2,7 +2,7 @@
 title: "Yearn Finance's Merger Spree"
 description: "Yearn has joined forces with several DeFi projects. What does it mean for its ecosystem?"
 date: '2020-12-09T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, Pickle Finance, Cover Protocol, Cream Finance, Akropolis, SushiSwap]
 ---
 
