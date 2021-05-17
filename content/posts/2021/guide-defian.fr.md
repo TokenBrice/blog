@@ -172,3 +172,5 @@ Pour se quitter, voici quelques contenus afin d’aller plus loin dans ta décou
 *   Comprendre la vision : vidéo d'introduction avec Nolan, l'architecte du système 👇
 
 {{< youtube fMpYQYXBrfA >}}
+
+*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de cet article.*
