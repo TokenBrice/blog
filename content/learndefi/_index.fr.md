@@ -75,7 +75,9 @@ Suivre, comprendre et utiliser la DeFi va vous amener à remettre en questions d
 En France, nous sommes très chanceux grâce à la mobilisation de nombreux acteurs du secteur dès ses premiers jours avec **DeFi France, une communauté francophone pour discuter de finance décentralisée** : 
 
 {{< notice tip >}}
-**[💬 Rejoindre la communauté DeFi France sur Discord](https://discord.gg/3bWZcK2)**
+Pour prendre part à la conversation , il suffit de **[💬 rejoindre la communauté DeFi France sur Discord](https://discord.gg/3bWZcK2)**. 
+
+Nous y avons mis en place un système innovant pour soutenir une communauté conviviale, lisez le **[🐓Le guide du DeFian : tutoriel de prise en main du Discord DeFi France]({{< relref "guide-defian.fr.md" >}})** pour en savoir plus.
 {{< /notice >}}
 
 C'est une initiative communautaire initialement portée par [Mounir Benchemled](https://twitter.com/mounibec) (créateur de [Paraswap](https://paraswap.io)), [Arthur Micoulet](https://twitter.com/arthurmicoulet) (Head of Blockchain [PALO-IT](https://www.palo-it.com/)) et moi-même ([TokenBrice](https://twitter.com/TokenBrice)).
