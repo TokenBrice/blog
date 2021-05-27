@@ -185,11 +185,11 @@ Don't panic if you don't immediately understand why this system is innovative an
 
 ### Censorship-resistant collateral
 
-**Initially, MakerDAO only accepted Ether as collateral**. With the first significant update of the system - the [Multi Collateral DAI](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf) - The community was perplexed by this decision, especially because of the choice of accepted tokens. Thus, BAT was one of the first new collateral while LINK, a token with volume and liquidity already far superior to BAT at the time, only arrived much later.
+**Initially, MakerDAO only accepted Ether as collateral**. With the first significant update of the system - the [Multi Collateral DAI](https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf) - more tokens became usable as collateral.
 
 The community was perplexed by this decision, especially because of the choice of accepted tokens. Thus, BAT was one of the first new collateral while LINK, a token with volume and liquidity already far superior to BAT at the time, only arrived much later.
 
-Beyond this **difficult to understand valuation**, the crux of the problem is that **many collaterals now accepted are censorable**: wBTC, RenBTC, USDC, TUSD, etc. This reduces the trustlessness of MakerDAO since at different times up to 50% of all DAIs were hit from censorable collaterals.
+Beyond this **difficult to understand valuation**, the crux of the problem is that **many collaterals now accepted are censorable**: wBTC, RenBTC, USDC, TUSD, etc. This reduces the trustlessness of MakerDAO since at different times up to 50% of all DAIs were minted from censorable collaterals.
 
 The figure is now reduced, but the concern remains. Furthermore, the addition of a special USDC vault was criticized during Black Thursday for helping DAI regain its peg - but it also made MakerDAO even more dependent on such collaterals.
 
