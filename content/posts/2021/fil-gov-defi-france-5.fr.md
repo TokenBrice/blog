@@ -4,7 +4,7 @@ description: "Compte rendu de la gouvernance participative de la communauté DeF
 date: '2021-06-07T01:53:50.191Z'
 categories: [🇫🇷 Communauté DeFi France]
 tags: [DeFi France, Discord, Contributions, Communauté]
-url: fil-gov-defi-france-4
+url: fil-gov-defi-france-5
 ---
 
 Ces deux dernières semaines ont été l'occasion de débuter le travail sur les projets DeFi France. Au menu de ce fil de la gouvernance, vous pourrez lire :
