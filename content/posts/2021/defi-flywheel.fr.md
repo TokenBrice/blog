@@ -156,3 +156,5 @@ Des engagements longue durée permettent également de **développer une straté
 J'espère que cet article vous aidera à mieux comprendre ce qu'il s'est joué avec Convex, Yearn et Curve ces dernières semaines et utiliser les leçons tirées de cet épisode pour identifier les prochaines opportunités similaires. 
 
 Ce qui est chouette avec les différents mécanismes d'incitation, c'est qu'ils précèdent l'action. En game theory, il n'y a pas de certitudes, mais certains comportements sont quasiment mécaniques - pour qui comprend réellement les incitations et leurs enjeux. C'est à vous de jouer !
+
+*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article.*
