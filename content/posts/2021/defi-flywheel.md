@@ -142,7 +142,7 @@ The basic equation is simple:
 
 The challenge of such a pooled strategy is to **manage the collateralization ratio** and to be able to balance it quickly if the market moves. Here again, Liquity lends itself well to this since the stability pool offers an attractive return on the LUSD while allowing **the rapid mobilization of LUSD to repay the debt if necessary**.
 
-The X protocol in question would offer **a passive ETH return product** for users who would not have to manage the position themselves. We can also consider that the X protocol has its own token with a tokenomics that addresses one of the main dangers of the strategy: the lack of predictability. Thus the native token of protocol X could be used to encourage long deposits of a predictable duration (users lock their ETH over 3/6/9/12 months for example).
+The X protocol in question would offer **a passive ETH investment product** for users who would not have to manage the position themselves. We can also consider that the X protocol has its own token with a tokenomics that addresses one of the main dangers of the strategy: the lack of predictability. Thus the native token of protocol X could be used to encourage long deposits of a predictable duration (users lock their ETH over 3/6/9/12 months for example).
 
 Long term commitments also allow to **develop a strategy on the LQTY farmed by the LUSDs.** By committing ETH for one year in the protocol for example, the user will be able to claim a portion of the LQTYs farmed by the whole protocol, and benefited, for life, from the LUSDs and ETHs they generate. The synergy of the protocol with Liquity as well as the long term returns are maximized if protocol X does not sell any LQTY, as is the case in the concept proposed above.
 
