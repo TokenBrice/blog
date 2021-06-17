@@ -1,5 +1,5 @@
 ---
-title: "🎡 Flywheel DeFi : protocol to protocol synergies, through tokens"
+title: "🎡 DeFi Flywheel : engineering protocol to protocol synergies through tokens"
 description: "We analyze the race to accumulate CRV with the launch of Convex to understand the flywheel concept in DeFi: protocols that evolve in synergy thanks to their tokenomics."
 date: '2021-06-17T01:13:50.191Z'
 categories: [🌌 DeFi, 💸 Practical DeFi]
