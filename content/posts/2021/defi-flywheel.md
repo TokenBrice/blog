@@ -90,7 +90,9 @@ Convex charges a total fee of 16% on all CRVs farmed on the protocol (compared t
 
 ![convex-synergies-CRV](/img/2021/defi-flywheel/convex-synergies-CRV-en.png "Convex / Curve : Synergies and value capture ")
 
-The most interesting part is the redistribution of the remaining 15%, i.e. 15% of all CRVs farmed by Convex (**over 400,000 CRVs per day** at Convex charges a total fee of 16% on all CRVs farmed on the protocol (compared to 20/2 on all tokens for Yearn, or 30% for Harvest for example). Of the 16%, 1% is used to cover operational costs such as the gas cost of collections.rythme actuel). You can view the [Convex Curve position via CurveMarketCap here](https://curve.fi/pools?see=0x989aeb4d175e16225e39e87d0d97a3360524ad80) Two staker populations are eligible for this juicy pie:
+The most interesting part is the redistribution of the remaining 15%, i.e. 15% of all CRVs farmed by Convex (**over 400,000 CRVs per day** You can view the [Convex Curve position via CurveMarketCap here](https://curve.fi/pools?see=0x989aeb4d175e16225e39e87d0d97a3360524ad80))
+
+Two staker populations are eligible for this juicy pie:
 
 1. **10% is paid back to CvxCRV** stakers, in CRV, in addition to their return in 3pool and CVX tokens (+airdrops VeCRV holder). Owning CvxCRV becomes much more attractive than VeCRV for a simple depositor.
 
