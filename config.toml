@@ -226,14 +226,20 @@ uglyURLs = false
         post = "th"
     [[menu.main]]
         url = "/learndefi/"
-        name = "Discovery"
+        name = "Learn"
         weight = 4
         pre = "internal"
         post = "ethereum"
     [[menu.main]]
+        url = "/nft/"
+        name = "NFT"
+        weight = 5
+        pre = "internal"
+        post = "chess-knight"
+    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
 
@@ -285,7 +291,7 @@ uglyURLs = false
 #     post = "home"
 [[languages.fr.menu.main]]
     url = "/fr/posts/"
-    name = "Articles"
+    name = "Posts"
     weight = 2
     pre = "internal"
     post = "news"
@@ -302,16 +308,22 @@ uglyURLs = false
     pre = "internal"
     post = "ethereum"
 [[languages.fr.menu.main]]
+    url = "/fr/nft/"
+    name = "NFT"
+    weight = 5
+    pre = "internal"
+    post = "chess-knight"
+[[languages.fr.menu.main]]
     url = "/fr/about/"
     name = "Info"
-    weight = 5
+    weight = 6
     pre = "internal"
     post = "user-circle"
 [[languages.fr.menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
 [[languages.fr.menu.main]]
-        weight = 7
+        weight = 8
         identifier = "lang-switcher"
 
   #  [[languages.fr.menu.home]]
