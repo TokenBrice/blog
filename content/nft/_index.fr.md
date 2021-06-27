@@ -54,6 +54,8 @@ Une fois créés, les NFTs peuvent être **achetés et vendus grâce à des serv
 
 **Les collections de NFTs peuvent également avoir des index [NFT20](https://nft20.io/)** qui permettent l'échange d'un NFT à l'autre ou depuis ETH. Cela facilite également l'établissement du fameux floor - le prix "minimal" pour une œuvre issue d'une certaine collection.
 
+Les adeptes des collections apprécient également différent outils qui permettent d'apprécier la rareté relative de chaque oeuvre comme **[RarityTools](https://rarity.tools/)** **[https://NiftyRank](niftyrank.com)**. 
+
 Différents outils permettent de **visualiser les NFTs et d'organiser des collections**. Des musées et expositions existent, et des vernissages virtuels ont même lieux dans le MetaVerse : [la Gallery of Crypto Art dans le Metaverse](https://www.artsy.net/gallery-of-crypto-art).
 
 La nature programmable des NFTs permet d'envisager de **redéfinir les termes même de la possession**. Les approches de "partialisation" permettent ainsi de posséder collectivement une oeuvre unique, par exemple [Spectre.zyx](https://spectre.xyz/).
