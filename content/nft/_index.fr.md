@@ -46,6 +46,8 @@ Tout comme la DeFi, les NFTs sont **composables**. Un NFT peut ainsi en posséde
 
 ![isotile-mooncats](/img/others/isotile-mooncats.png "☝ Mes MoonCats qui se pavannent dans leur chambre grâce à Isotile.")
 
+Si le sujet des NFTs vous intéresse, vous pouvez **[revoir les précédent lives NFT ici]**(https://www.youtube.com/watch?v=buCQbnM6mHw&list=PLreQl_vxgtPj0CF6Bsh7GPn_r9Vlm-kqz) et **[me suivre sur Twitch[https://twitch.tw/tokenbrice/]** pour ne pas rater les prochains. J'y mets fréquemment en jeu des NFTs !
+
 ## 🧰 Trousse à outils NFT
 
 De nombreux outils permettent de **créer des NFTs**. Ils utilisent différentes solutions pour l'hébergement des médias référencés. [Rarible](https://rarible.com/) ou encore [NiftyKit](https://niftykit.com/) sont un bon point de départ.
@@ -54,7 +56,7 @@ Une fois créés, les NFTs peuvent être **achetés et vendus grâce à des serv
 
 **Les collections de NFTs peuvent également avoir des index [NFT20](https://nft20.io/)** qui permettent l'échange d'un NFT à l'autre ou depuis ETH. Cela facilite également l'établissement du fameux floor - le prix "minimal" pour une œuvre issue d'une certaine collection.
 
-Les adeptes des collections apprécient également différent outils qui permettent d'apprécier la rareté relative de chaque oeuvre comme **[RarityTools](https://rarity.tools/)** **[https://NiftyRank](niftyrank.com)**. 
+Les adeptes des collections apprécient également différent outils qui permettent d'apprécier la rareté relative de chaque oeuvre comme **[RarityTools](https://rarity.tools/)**.
 
 Différents outils permettent de **visualiser les NFTs et d'organiser des collections**. Des musées et expositions existent, et des vernissages virtuels ont même lieux dans le MetaVerse : [la Gallery of Crypto Art dans le Metaverse](https://www.artsy.net/gallery-of-crypto-art).
 
