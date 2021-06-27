@@ -66,9 +66,9 @@ Mon blog est disponible en anglais et en français et suit une philosophie simpl
 
 N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici.
 
- 🐦 Twitter | 🛩 Telegram | 👾 Reddit | 📧 Mail |
-| :---: | :---: | :---: | :---: |
-| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) | [Ici](mailto:me@tokenbrice.com)
+ 🐦 Twitter | 🛩 Telegram | 👾 Reddit |
+| :---: | :---: | :---: |
+| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
 
 ## Médias
 

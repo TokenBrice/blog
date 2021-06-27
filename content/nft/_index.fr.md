@@ -46,7 +46,7 @@ Tout comme la DeFi, les NFTs sont **composables**. Un NFT peut ainsi en posséde
 
 ![isotile-mooncats](/img/others/isotile-mooncats.png "☝ Mes MoonCats qui se pavannent dans leur chambre grâce à Isotile.")
 
-Si le sujet des NFTs vous intéresse, vous pouvez **[revoir les précédent lives NFT ici]**(https://www.youtube.com/watch?v=buCQbnM6mHw&list=PLreQl_vxgtPj0CF6Bsh7GPn_r9Vlm-kqz) et **[me suivre sur Twitch[https://twitch.tw/tokenbrice/]** pour ne pas rater les prochains. J'y mets fréquemment en jeu des NFTs !
+Si le sujet des NFTs vous intéresse, vous pouvez **[revoir les précédent lives NFT ici](https://www.youtube.com/watch?v=buCQbnM6mHw&list=PLreQl_vxgtPj0CF6Bsh7GPn_r9Vlm-kqz)** et **[me suivre sur Twitch](https://twitch.tv/tokenbrice/)** pour ne pas rater les prochains. J'y mets fréquemment en jeu des NFTs !
 
 ## 🧰 Trousse à outils NFT
 
