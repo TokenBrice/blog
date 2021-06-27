@@ -1,5 +1,5 @@
 ---
-title: "NFTs explained without headaches by a crypto-native."
+title: "NFTs explained without headaches by a crypto-native"
 date: 2021-06-26T13:24:40+02:00
 description: NFTs allow the existence of new types of digital objects which few still really understand the benefits. I explain the basics, what they allow to do and how to utilize them.
 url: nft
