@@ -89,6 +89,6 @@ Depuis le succès de CryptoPunks, les projets de ce type se multiplient. Les NFT
 
 Je participe aux générations des collections qui m'intriguent et me semblent pertinentes. J'essaie également de soutenir des artistes qui débutent en supportant leur travail et le faisant découvrir sur Twitch ou Twitter. 
 
-![gallerie-nft](/img/others/gallerie-nft.jpeg "Exposition virtuelle de mes NFTs")
+![gallerie-nft](/img/others/gallerie-nft.png "Exposition virtuelle de mes NFTs")
 
 Vous pouvez consulter **[ma collection de NFTs avec une exposition virtuelle dans le MetaVerse par ici](https://oncyber.io/tokenbrice)**.

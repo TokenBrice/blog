@@ -69,8 +69,8 @@ NFTs are used to define collections of objects. They are thus **used in decentra
 * On **Uniswap V3**, liquidity providing positions are represented by an NFT.
 * On **Curve**, an NFT is used as a receipt for inter-active swaps via Synthetix (6 min delay)
 * On **Mai.Finance**, a money market, the vault is represented by an NFT
-* On **StakeDAO**, users stak their xSDT to earn points used to mint NFTs that give bonuses on the platform
-* Finally **Alchemix** which recently suffered a technical problem on AlETH offers an NFT to users who refund the money unduly received. 
+* On **StakeDAO**, users stake their xSDT to earn points used to mint NFTs that give bonuses on the platform
+* Finally **Alchemix** which recently suffered a technical problem on AlETH offered an NFT to users who refund the money unduly received. 
 
 ![uniswap-v3-LP-NFT](/img/others/uniswapv3-lp-nft.gif "Visual of a Uniswap V3 NFT-LP")
 
@@ -81,12 +81,12 @@ NFTs are used to define collections of objects. They are thus **used in decentra
 I am particularly interested in **generative art collections**, a novelty enabled by Ethereum's programmability.
 
 Since the success of CryptoPunks, projects of this type are multiplying. NFTs allow the existence of truly innovative collections of generative art:
-- Unlike traditional collections (Pokémon or Magic card type), ownership of items and their rarity are real and verifiable.
+- Unlike traditional collections (Pokémon or Magic card type), ownership of items and their rarity are publicly verifiable.
 - With the right arrangements, it is possible to host the referenced media in a perennial way.
 - The generation of NFT parameters can also be done in a random but fully verifiable (on-chain) way thanks to Chainlink's VRF, as for the **[Luchadores](https://luchadores.io)**.
 
 I participate in the generations of collections that intrigue me and seem relevant. I also try to support emerging artists by supporting their work and promoting it on Twitch or Twitter. 
 
-![gallery-nft](/img/others/gallerie-nft.jpeg "Virtual exhibition of my NFTs")
+![gallery-nft](/img/others/gallerie-nft.png "Virtual exhibition of my NFTs")
 
 You can check out **[my collection of NFTs with a virtual exhibition in the MetaVerse here](https://oncyber.io/tokenbrice)**.
