@@ -109,7 +109,7 @@ Plus de 60% des garanties du DAI sont des tokens qui nécessitent une forme de c
 
 Ici, on va plutôt creuser le problème des frais excessifs qui illustre **un cas classique de maximisation de rente sur une clientèle pensée captive**.[^makerclientelecaptive] DAI étant un stablecoin synthétique frappé directement par l'utilisateur, son frais d'emprunt annuel ne devrait pas excéder 2-3% et cela reste encore coûteux. [Liquity](http://liquity.org/), une alternative à Maker, charge un frais qui revient à 0.5% annuel sur les LUSD empruntés.
 
-Avant la dernière mise à jour, le principal vault ETH de maker (ETH-A) chargeait 5.5% de frais annuel. C'est désormais descendu à 3.5%, mais le frais sur le vault le plus proche des conditions d'emprunt de Liquity (ETH-B, collatéralisation minimale = 130% // 110% sur Liquity) reste à 9% annuel, soit **18 fois plus coûteux que son alternative**.
+Avant la dernière mise à jour, le principal vault ETH de maker (ETH-A) chargeait 5.5% de frais annuel. C'est désormais descendu à 3.5%, mais les frais sur le vault le plus proche des conditions d'emprunt de Liquity (ETH-B, collatéralisation minimale = 130% // 110% sur Liquity) reste à 9% annuel, soit **18 fois plus coûteux que son alternative**.
 
 {{< notice info >}}
 Liquity est construit avec une approche de minimisation de la gouvernance, contrairement à Maker, ce qui peut expliquer une partie de l'écart immense observé entre les frais appliqués par les deux plateformes.
@@ -171,7 +171,7 @@ _Aperçu des veCRV possédés par les différentes DAO - source [Dune Analytics 
 
 Malgré cette situation fondamentale assez inquiétante puisque Yearn propose désormais des **produits essentiellement non compétitifs** (tous les vaults Curve), Yearn se présente comme un des succès incontestables de la DeFi.
 
-En effet, l'équipe semble mesurer le succès du protocole au volume des frais prélevés par celui-ci. L'indicateur est évidemment dangereux puisqu'avec le frais de gestion à 2% annuel, tout dépôt sur Yearn paie systématiquement des frais même si peu ou pas de profit n'est dégagé. 
+En effet, l'équipe semble mesurer le succès du protocole au volume des frais prélevés par celui-ci. L'indicateur est évidemment dangereux puisqu'avec les frais de gestion à 2% annuel, tout dépôt sur Yearn paie systématiquement des frais même si peu ou pas de profit n'est dégagé. 
 
 Plutôt que de prendre les frais prélevés comme un indicateur et donc une mesure de succès, le protocole pourrait être optimisé sur la base des profits générés pour les déposants.
 
