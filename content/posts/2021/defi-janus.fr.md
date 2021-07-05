@@ -15,9 +15,9 @@ Dans cet article, on analyse les mécanismes des gouvernances ouvertes des proto
 
 ![defi-janus-cover](/img/2021/defi-janus/defi-janus-cover.png)
 
-Tout comme le dieu aux deux visages, **un protocole Janus souffre d’une réalité ambivalente** : bien qu'il puisse être un succès incontestable en termes d'utilisation, il fait face à de sérieux antagonismes entre ses différentes parties-prenantes qui mettent en jeu la pérennité du protocole (utilisateurs, holdeurs, investisseurs, équipe et communauté étendue).
+Tout comme le dieu aux deux visages, **un protocole Janus souffre d’une ambivalence profonde** : bien qu'il puisse être un succès incontestable en termes d'utilisation, il fait face à de sérieux antagonismes entre ses différentes parties prenantes qui mettent en jeu la pérennité du protocole (utilisateurs, holdeurs, investisseurs, équipe et communauté étendue).
 
-Pour comprendre les Janus, il faut saisir la complexité inhérente de la DeFi et comment celle-ci peut aboutir à **un consensus sur une décision pourtant délétère ou non optimale**. Une fois le contexte posé, on pourra analyser trois Janus, chacun à leur manière : MakerDAO, Yearn Finance et Uniswap.
+Pour comprendre les Janus, il faut saisir la complexité inhérente de la DeFi et comment elle peut s’accommoder de  **consensus sur des décisions pourtant délétères ou non optimales**. Une fois le contexte posé, on pourra analyser trois Janus, chacun à leur manière : MakerDAO, Yearn Finance et Uniswap.
 
 ## Complexité et enjeux de gouvernance : un terreau fertile pour Janus
 
@@ -39,7 +39,7 @@ _Mesurer l'influence dans la gouvernance des protocoles DeFi - [source](https://
 
 Certains protocoles ont pourtant réussi à remettre en cause cette approche en ajoutant une logique d'engagement temporel : interagir avec la DAO de Curve nécessite d'engager ses CRV pour une période allant de 1 à 4 ans. Un engagement de longue durée augmente le pouvoir de vote effectif obtenu (veCRV).
 
-Malgré tout, la **participation est généralement basse**, bien que des mécanismes de délégation soient également disponibles.
+Malgré tout, la **participation est généralement basse**, même lorsque des mécanismes de délégation sont utilisés.
 
 ### Complexité des décisions
 
@@ -47,11 +47,11 @@ Pour évaluer des propositions de gouvernance d'un protocole de finance décentr
 
 À partir de là, il faut idéalement une compréhension approfondie du protocole en question, ainsi que ses **interactions avec les autres protocoles, synergies**, etc. On peut également désormais rajouter à cela toute la complexité additionnelle liée à la multiplication des solutions de scalabilité : sidechains et L2.[^mkrgov] 
 
-En outre, la formulation des propositions sur les forums de gouvernance est généralement assez technique, ce qui aboutit à **un manque de compréhension réelle des enjeux sur de nombreux votes**, ouvrant la porte aux manipulations.
+En outre, la formulation des propositions sur les forums de gouvernance est généralement assez technique, ce qui **rend leur compréhension** difficile et ouvre la porte aux manipulations.
 
-Enfin, la gouvernance souffre d'un véritable effet de masse : au fur et à mesure que les protocoles se développent, la quantité d'informations à digérer pour avoir un vote éclairé devient de plus en plus conséquente. 
+Enfin, la gouvernance souffre d'un véritable effet de masse : au fur et à mesure que les protocoles se développent, la quantité d'informations à digérer pour avoir un vote éclairé augmente en conséquence.
 
-Un membre du forum de gouvernance MakerDAO a estimé son travail hebdomadaire nécessaire pour suivre à environ 40h par jour, en augmentation constante :
+Un membre du forum de gouvernance MakerDAO a estimé son travail hebdomadaire de suivi et de participation à environ 40h par semaine, en augmentation constante :
 
 ![maker-governance-overhead](/img/2021/defi-janus/maker-governance-overhead.png)
 
@@ -61,7 +61,7 @@ Bien que la gouvernance soit ouverte et transparente, **elle s'appuie encore sou
 
 Ainsi, les discussions relatives à la gouvernance se font généralement sur Discord et sur le forum de gouvernance - les **deux supports sont généralement modérés directement par l'équipe du projet**. 
 
-En outre, l'équipe peut avoir **un contrôle sur les mécanismes de signalement** également comme [Snapshot](https://snapshot.org/). Le cumul de toutes ces limitations des systèmes de gouvernance décentralisée peut amener aux situations observées dernièrement, où les possesseurs de tokens ne votent pas dans leurs meilleurs intérêts.
+En outre, l'équipe peut avoir **un contrôle sur les mécanismes de signalement** comme [Snapshot](https://snapshot.org/). Le cumul de toutes ces limitations des systèmes de gouvernance décentralisée peut amener aux situations observées dernièrement, où les possesseurs de tokens ne votent pas dans leurs meilleurs intérêts.
 
 Ce tour rapide des limites actuelles des systèmes de gouvernance était nécessaire pour avoir le contexte pour la suite. Voyons donc les trois Janus que j'ai repérés :
 
@@ -141,7 +141,7 @@ Le succès de Yearn s'obtient à quel prix ? Encore une fois, essentiellement **
 1. Yearn prend **2% de frais de gestion annuel sur l'ensemble du dépôt**.
 2. Yearn prélève également un frais sur la performance de 20% : 20% de tous les actifs farmés partent vers la trésorerie.[^yearnfrais]
 
-Le premier frais est le plus problématique puisque cela signifie que les frais excessivement gourmands de Yearn amène à des vaults qui… perdent de l'argent ! 
+Les premier frais est le plus problématique puisque cela signifie que les frais excessivement gourmands de Yearn amène à des vaults qui… perdent de l'argent ! 
 
 <div align ="center">
 
@@ -149,7 +149,7 @@ Le premier frais est le plus problématique puisque cela signifie que les frais 
 
 </div>
 
-En effet, tout vault qui ne réalise pas au minimum 2% de retour annuel sur Yearn finit dans le rouge une fois les frais de gestion prélevé, sans même prendre en compte les frais de performance...
+En effet, tout vault qui ne réalise pas au minimum 2% de retour annuel sur Yearn finit dans le rouge une fois les frais de gestion prélevés, sans même prendre en compte les frais de performance...
 
 
 ### Coté protocoles : le câlin de la mort de Yearn
