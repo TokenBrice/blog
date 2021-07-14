@@ -23,7 +23,7 @@ Avant de creuser les NFTs et de parler Pokémon, rappelons deux définitions uti
 
 ### La fongibilité, kézako ?
 
-Un bien fongible est un bien qui se caractérise par son appartenance à un genre& : chaque unité est interchangeable. Le terme est utilisé dans plusieurs disciplines, on se concentre ici sur la définition économique.
+Un bien fongible est un bien qui se caractérise par son appartenance à un genre : chaque unité est interchangeable. Le terme est utilisé dans plusieurs disciplines, on se concentre ici sur la définition économique.
 
 Passons tout de suite à des exemples concrets qui sont bien plus parlants que les définitions. Nos monnaies modernes telles que l'Euro ou le Dollar sont fongibles : un billet de 5€ en vaut un autre, et les deux sont parfaitement interchangeables. L'or est également un bien fongible : un kilogramme d'or pur est interchangeable avec un autre.
 
@@ -32,7 +32,7 @@ Passons tout de suite à des exemples concrets qui sont bien plus parlants que l
 ### Et les biens non fongibles, ils ne sont pas comestibles alors ?
 
 
-À l'inverse, il existe des biens non fongibles. Ce sont des biens qui **partagent des attributs communs mais qui ont leur propre identité**& : chaque bien possède un ensemble de valeurs unique pour chaque attribut qui est partagé avec l'ensemble du genre.
+À l'inverse, il existe des biens non fongibles. Ce sont des biens qui **partagent des attributs communs mais qui ont leur propre identité** : chaque bien possède un ensemble de valeurs unique pour chaque attribut qui est partagé avec l'ensemble du genre.
 
 
 Le meilleur exemple que nous connaissons tous, ce sont bien sûr... Les cartes Pokémon ! Tant qu'à faire, prenons celle qui assurait le respect dans la cours de recré : Dracaufeu en personne.
