@@ -175,7 +175,7 @@ Indeed, the team seems to measure the success of the protocol by the volume of f
 
 Rather than taking the fees charged as an indicator and therefore a measure of success, the protocol could be optimized on the basis of the profits generated for depositors.
 
-Finally, and even if it is a more subjective topic, the communication around the project is muddled or even almost disturbing at times, for example [when Yearn is compared](https://thedefiant.io/yearn-revenues-projected-to- surpass-tradfis-fueled-by-thriving-community /) to traditional asset managers like WealthFront or BlackRock - I find that quite unbalanced since Yearn charges similar fees to these structures but operates in a much more dynamic market. In addition, are such companies really relevant models to have in DeFi?
+Finally, and even if it is a more subjective topic, the communication around the project is muddled or even almost disturbing at times, for example [when Yearn is compared](https://thedefiant.io/yearn-revenues-projected-to-surpass-tradfis-fueled-by-thriving-community/) to traditional asset managers like WealthFront or BlackRock - I find that quite unbalanced since Yearn charges similar fees to these structures but operates in a much more dynamic market. In addition, are such companies really relevant models to have in DeFi?
 
 ![yearn-comp](/img/2021/defi-janus/yearn-comp.png)
 
