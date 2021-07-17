@@ -94,7 +94,9 @@ Finalement, la proposition se veut plus large qu'Uniswap puisqu'ils sont officie
 
 Après les réactions aux premières itérations de la proposition, différents mécanismes ont été ajoutés pour apporter plus de transparence sur les agissements du DeFi Education Fund. L'équipe s'est également engagée à implémenter [FailSafe](https://github.com/withtally/safeguard) dès que possible. Cela permettrait à la DAO (holdeurs UNI) de pouvoir exercer un veto sur les transactions réalisées par le multisig. 
 
-Néanmoins à l'heure d'aujourd'hui **le contrôle effectif de la DAO reste limité** : le vote est passé et les 1M UNI sont désormais alloués.
+Néanmoins à l'heure d'aujourd'hui **le contrôle effectif de la DAO reste limité** : le vote est passé et [les 1M UNI sont désormais alloués](https://etherscan.io/address/0x1C95930Dfc1139381265ce45B5f480F1EFae09A1).
+
+Edit du 17 Juillet : peu après avoir reçu les fonds, le multisig [a déjà vendu la moitié de ceux-ci](https://thedefiant.io/sale-of-usdc-raises-concerns-regarding-newly-formed-defi-education-fund/) pour des stablecoins qui restent encore dans le wallet pour l'instant.
 
 Cet épisode correspond pour moi à l'équivalent d'un détournement de fonds publics, sauf qu'ici les fonds proviennent d'une DAO. L'aventure et ses péripéties mettent également en lumière le pouvoir effectif exercé par les différentes parties prenantes du protocole.
 
