@@ -1,7 +1,7 @@
 ---
 title: "Le fil de la gouvernance DeFi France #5"
 description: "Compte rendu de la gouvernance participative de la communauté DeFi France. Un site Web en cours de développement !"
-date: '2021-06-07T01:53:50.191Z'
+date: '2021-07-17T01:53:50.191Z'
 categories: [🇫🇷 Communauté DeFi France]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: fil-gov-defi-france-5
