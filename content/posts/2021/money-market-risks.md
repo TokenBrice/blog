@@ -219,7 +219,7 @@ On top of insurance, money markets can also have reserves. Compound is the pione
 So looking at the available numbers, here are our quick maths:
 `Safety Ratio = USD value of insurance / Total borrow on the money market`
 
-1. **🛡 Aave =  53%** | $1.765 B in the Safety Module for $1.1B borrowed accross V1+V2 ($572M V1, $437M V2)
+1. **🛡 Aave =  53%** | $1.765 B (600M can be mobilized) in the Safety Module for $1.1B borrowed accross V1+V2 ($572M V1, $437M V2)
 2. **🕯 Compound = 0.24%** | $4.3B borrowed on a $10M safety capital. 
 3. **💀 Cream = 0%** | As far as I know, Cream has no or highly limited (low amounts) native insurance module.
 
