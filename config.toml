@@ -1434,5 +1434,5 @@ uglyURLs = false
 
 
 [params.matomo]
-    url = "https://ecocrypto.fr/stats/"
+    url = "https://giec3.skipdns.link/stats/"
     id = 1
