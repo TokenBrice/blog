@@ -39,7 +39,7 @@ I'm now calling for delegation to thrive to uphold the following principles in A
 
 1. Thrive to provide comprehensive breakdowns of the challenges pertaining to the main votes
 2. Fight to ensure that the Ecosystem Reserve is used in the best long-term interest of the protocol.
-3. Articlulate key concepts and ideas voiced by the community to make sure they are answered.
+3. Articulate key concepts and ideas voiced by the community to make sure they are answered.
 4. Provide a documented and motivated position for each main issue, with a particular attention given their impact on the protocol's safety and resiliency.
 5. Use, as much as possible, my existing network and presence to document Aave's governance and make it more accessible, particularly to FR-speaking audiences. 
 
