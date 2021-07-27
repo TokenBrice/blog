@@ -12,6 +12,8 @@ Alors que les vacances d'été se font doucement sentir, les projets avancent po
 📢 Création du multisig ;
 🏛️ Votes dans l’Agora ;
 
+![fil-gov-defi-france-6-cover](/img/2021/fil-gov-defi-france-5/fil-gov-defi-france-6-cover.png)
+
 # 📢 Création du multisig
 
 La proposition de création de multisig votée en mai dernier a vu le jour : dix membres se sont portés volontaires pour sécuriser le compte de DeFi France DAO  !
@@ -46,7 +48,7 @@ Cette semaine a aussi vu l'adoption de la dixième proposition de la DAO : elle 
 |--|--|--|--|--|--|
 |10|Création d'un salon ETHCC|21/05/2021| 	28 (46 %)| 	0 (0 %)| 	Acceptée|
 
-Nombreux membres étaient présents à l'événement : ils ont utiliser le canal pour se retrouver et échanger les infos pratiques.
+Nombreux membres étaient présents à l'événement : ils ont utilisé le canal pour se retrouver et échanger les infos pratiques.
 
 Si vous n’êtes pas encore membre, il n’est jamais trop tard pour nous rejoindre : retrouvez le [Discord DeFi France ici](https://discord.com/invite/3bWZcK2) !
 
