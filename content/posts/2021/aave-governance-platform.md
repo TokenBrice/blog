@@ -31,7 +31,7 @@ Critical decisions for major protocols are increasingly decided by a limited num
 
 ## My vision for Aave
 
-Money markets are at the heat of DeFi. I think Aave established itself as both the most innovative and secure service available in the vertical, and the observed track record aligns with this view. Relative to other money markets, Aave managed to so far avoid any failure resulting in loss of funds for users (others did not). If that was to happen, thanks to the Safety Module, affected users could be reimbursed.
+Money markets are at the heart of DeFi. I think Aave established itself as both the most innovative and secure service available in the vertical, and the observed track record aligns with this view. Relative to other money markets, Aave managed to so far avoid any failure resulting in loss of funds for users (others did not). If that was to happen, thanks to the Safety Module, affected users could be reimbursed.
 
 Regarding the liquidity mining extension, the ongoing proposal that motivated me to get more involved in the governance, my main concerns are the sizable budget currently proposed (27% of the total ecosystem reserve for a year) & the fact that it is allocated "blindly" based on set budget per assets with no other adjustments.
 

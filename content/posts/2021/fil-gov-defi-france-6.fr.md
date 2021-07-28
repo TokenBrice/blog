@@ -9,8 +9,8 @@ url: fil-gov-defi-france-6
 
 Alors que les vacances d'été se font doucement sentir, les projets avancent pour DeFi France DAO. Au menu de ce Fil de la gouvernance, vous pourrez lire :
 
-📢 Création du multisig ;
-🏛️ Votes dans l’Agora ;
+- 📢 Création du multisig ;
+- 🏛️ Votes dans l’Agora ;
 
 ![fil-gov-defi-france-6-cover](/img/2021/fil-gov-defi-france-5/fil-gov-defi-france-6-cover.png)
 
