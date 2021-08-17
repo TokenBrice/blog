@@ -352,16 +352,16 @@ uglyURLs = false
     weight = 3
     pre = "internal"
     post = "th"
-[[languages.fr.menu.main]]
-    url = "/fr/defi-decouverte-finance-decentralisee/"
-    name = "Découverte"
-    weight = 4
-    pre = "internal"
-    post = "ethereum"
 [[languages.es.menu.main]]
-    url = "/fr/about/"
-    name = "Info"
+    url = "/es/nft/"
+    name = "NFT"
     weight = 5
+    pre = "internal"
+    post = "chess-knight"
+[[languages.es.menu.main]]
+    url = "/es/about/"
+    name = "Info"
+    weight = 6
     pre = "internal"
     post = "user-circle"
 [[languages.es.menu.main]]
