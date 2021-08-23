@@ -9,8 +9,8 @@ url: fil-gov-defi-france-7
 
 Alors que la rentrée arrive et que se prépare un nouveau *DeFi summer*, les membres actifs de la communauté DeFi France se voient récompensés. Au menu de ce Fil de la gouvernance, vous pourrez lire un résumé du :
 
-📢 Premier airdrop communautaire ;
-🏛️ Vote dans l’Agora ;
+- 📢 Premier airdrop communautaire ;
+- 🏛️ Vote dans l’Agora ;
 
 # 📢 Premier airdrop communautaire
 
