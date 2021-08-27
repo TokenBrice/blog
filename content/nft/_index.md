@@ -67,7 +67,7 @@ The programmable nature of NFTs makes it possible to **consider redefining the v
 NFTs are used to define collections of objects. They are thus **used in decentralized finance** when relevant. This is becoming more and more frequent:
 
 * On **Uniswap V3**, liquidity providing positions are represented by an NFT.
-* On **Curve**, an NFT is used as a receipt for inter-active swaps via Synthetix (6 min delay)
+* On **Curve**, an NFT is used as a receipt for cross-asset swaps via Synthetix (6 min delay)
 * On **Mai.Finance**, a money market, the vault is represented by an NFT
 * On **StakeDAO**, users stake their xSDT to earn points used to mint NFTs that give bonuses on the platform
 * Finally **Alchemix** which recently suffered a technical problem on AlETH offered an NFT to users who refund the money unduly received. 
