@@ -37,7 +37,7 @@ Si vous n'avez pas le temps d'explorer le concept approfondi avec les articles p
 
 J'utilise le terme "wrapped USDC" (wUSDC) pour expliciter une situation fréquente dans les stablecoins alternatifs : il permet de décrire de manière concise et appropriée **les solutions qui utilisent essentiellement USDC comme collatéral**, un stablecoin de confiance garanti par un organisme central (Circle).
 
-Dans une situation telle, inutile d'aller plus loin, même pas besoin d'analyser les détails du système : puisque leur collatéral principal peut être gelé ou saisi, **les stablecoins produit**s** de cette manière ne peuvent pas être considérés comme décentralisés ou trustless.** 
+Dans une situation telle, inutile d'aller plus loin, même pas besoin d'analyser les détails du système : puisque leur collatéral principal peut être gelé ou saisi, **les stablecoins produits de cette manière ne peuvent pas être considérés comme décentralisés ou trustless.** 
 
 Cette famille connaît étonnamment de nombreux adeptes, les principaux étant Maker et Frax.
 
