@@ -213,4 +213,4 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 
 ---
 
-[^1]: Stage/Unstage est la première étape d'engagement avec le mecanisme, une forme de SAS. Un fois staged, vous pouvez "bound" pour etre éligible aux récompenses s'il y en an. Il vous faudra parfois "claim" c'est à dire signer une transaction pour récupérer les tokens gagnés. "Autocompound", c'est quand les récompenses gagnées sont réinvesties automatiquement : autocomposition ? 
+[^1]: Stage/Unstage est la première étape d'engagement avec le mecanisme, une forme de SAS. Un fois staged, vous pouvez "bound" pour etre éligible aux récompenses s'il y en an. Il vous faudra parfois "claim" c'est à dire signer une transaction pour récupérer les tokens gagnés. 
