@@ -103,7 +103,7 @@ Le système n'a bien sûr pas de contrôle sur le prix de RAI observé sur le ma
 
 On fait donc face à une situation assez facilement généralisable incarnée par un pan entier de l'ingénierie et baptisée **la théorie du contrôle** :
 
-![theorie-du-controle](/img/2021/reflexer-rai/theorie-du-controle.png "Ce graphique, ainsi que les deux qui vont suivre sont issus de la traduction française du whitepaper RAI - un grand merci à PhilH & Ben.Oxmo pour leur travail qualitatif
+![theorie-du-controle](/img/2021/reflexer-rai/theorie-du-controle.png "Boucle d'asservissement. Ce graphique, ainsi que les deux qui vont suivre sont issus de la traduction française du whitepaper RAI - un grand merci à PhilH & Ben.Oxmo pour leur travail qualitatif
 ")
 
 Dans le cas de RAI, **le régulateur est algorithmique** et là encore assez standard : c'est le fameux **"PID controller"**. Il repose sur une formule mathématique assez dense qu'il n'est pas nécessaire de comprendre pour saisir la pertinence du système.
