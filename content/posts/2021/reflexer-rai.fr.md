@@ -14,7 +14,7 @@ RAI est une drôle de bête dont la compréhension ou l'intérêt échappe encor
 Préparez-vous un café et accrochez-vous, on est parti pour une belle promenade !
 
 
-![cover](/img/2021/reflexer-rai/cover.gif "")
+![cover](/img/2021/reflexer-rai/cover.gif)
 
 ## Comprendre le contexte de RAI
 
