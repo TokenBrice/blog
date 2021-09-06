@@ -14,7 +14,7 @@ Une rentrée sur les chapeaux de roues ! Alors que le *NFT summer* se poursuit, 
 
 # 📢 La rentrée de DeFi France
 
-De nombreux membres nous ont rejoint ces dernières semaines ce qui a donné lieu à des discussions renouvelées sur le serveur. Bienvenue à tous les nouveaux, nous espérons que vous allez approfondir vos connaissances avec DeFi France ! Un live est prévu prochainement pour vous aider à faire vos premiers pas dans la DeFi, le mardi 07 Septembre à 19h.
+De nombreux membres nous ont rejoint ces dernières semaines ce qui a donné lieu à des discussions renouvelées sur le serveur. Bienvenue à tous les nouveaux, nous espérons que vous allez approfondir vos connaissances avec DeFi France ! Un live est prévu prochainement pour vous aider à faire vos premiers pas dans la DeFi, le **mardi 14 Septembre à 17h avec Nolan**.
 
 L'airdrop communautaire organisé le 18 août par [TokenBrice](https://twitter.com/TokenBrice) a permis à de jeunes defiants d'aquérir leur premier NFT... Avec beaucoup d'enthousiasme, bien entendu ! Plus généralement, il a offert une plus grande visibilité au système de blé sur les réseaux sociaux : plusieurs personnes étrangères à l'écosystème DeFi France se sont même demandés comment ils pouvaient en acquérir !
 
