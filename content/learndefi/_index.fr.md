@@ -9,7 +9,7 @@ tocNum: false
 
 La finance décentralisée est à la fois fascinante et intimidante, surtout pour les nouveaux arrivants. Pour vous aider à naviguer dans cet espace, vous trouverez ici une lecture guidée ainsi que de nombreuses ressources pour suivre et en savoir plus sur la DeFi.
 
-## Des ressources pour découvrir la DeFi
+## 📚 Des ressources pour découvrir la DeFi
 
 La DeFi saisit l'opportunité offerte par les développements des blockchains et surtout Ethereum pour développer une finance construite sur de nouvelles valeurs. Ces valeurs ne sont pas des promesses, mais belle-et-bien garanties par le fonctionnement normal du réseau :
 
@@ -22,7 +22,16 @@ Pour bien comprendre les enjeux de la DeFi, il faut d'abord saisir l'apport des 
 
 ---
 
-### 5 Articles pour comprendre l'apport des blockchains
+### 🎥 Introduction à la finance décentralisée en 150 minutes
+
+La DeFi, c'est dense ! Je vous propose néanmoins une session d'introduction qui vous propose un tour d'horizon plutôt complet après avoir posé les fondamentaux. 
+
+Réalisée avec NolanvanMortel le 14 septembre 2021, cette vidéo vous également permettra de vous mettre à jour si vous redécouvrez la DeFi.
+
+{{< youtube id="yZUlZgOneOk" title="Live rentrée DeFi avec Nolan  introduction à la finance décentralisée sur Ethereum et au delà" >}}
+
+
+### 📜 5 Articles pour comprendre l'apport des blockchains
 
 Les blockchains en soit ne sont qu'une nouvelle brique technologique. Néanmoins, elles permettent de résoudre un problème sans solution avant Bitcoin : **comment créer un actif numérique mais aussi "rare" ?**. 
 
@@ -44,7 +53,7 @@ Si vous appreçiez mes articles, je vous invite à aller faire un tour sur **[ma
 
 ---
 
-### 3 lectures pour saisir le potentiel de la DeFi
+### 📖 3 lectures pour saisir le potentiel de la DeFi
 
 **[La DeFi, au delà de la finance]({{< relref "defi-beyond-finance.fr.md" >}})**
 
@@ -58,7 +67,7 @@ Une introduction exhaustive à la DeFi... qui date d'avril 2020. Le milieu a bea
 
 Un article plus conséquent qui vous permettra de découvrir la politique monétaire d'ETH et ses enjeux sur le long terme.
 
-### La DeFi en pratique avec TokenBrice
+### 🛸 La DeFi en pratique avec TokenBrice
 
 Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fréquemment sur ce blog depuis plus de deux ans sur le sujet :
 - **[Articles 🔮 Découverte](/fr/categories/découverte)** : des articles de haut-niveau pour comprendre les différents outils et protocoles utilisés en DeFi.
@@ -66,11 +75,11 @@ Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fr�
 
 Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardis à 19h, un Jeudi/2 à 19h + quelques lives "sauvages" bonus en fonction des humeurs.
 
-## La DeFi en groupe c'est encore mieux !
+## 🤗 La DeFi en groupe c'est encore mieux !
 
 Suivre, comprendre et utiliser la DeFi va vous amener à remettre en questions de très nombreux sujets : c'est une tâche ardue mais heureusement il existe de très nombreuses communautés pour échanger sur le sujet. 
 
-### DeFi France
+### 🇫🇷 DeFi France
 
 En France, nous sommes très chanceux grâce à la mobilisation de nombreux acteurs du secteur dès ses premiers jours avec **DeFi France, une communauté francophone pour discuter de finance décentralisée** : 
 
@@ -84,7 +93,7 @@ C'est une initiative communautaire initialement portée par [Mounir Benchemled](
 
 ![dffv2-cover-image](/img/2021/dffv2/dffv2-cover.png)
 
-#### Y'a même du 🌾 Blé dans l'histoire !
+#### 🌾 Y'a même du Blé dans l'histoire !
 
 Depuis la mise à jour V2 et l'arrivée de Déméter sur le Discord, les contributions de la communauté sont reconnues et elle peut s'impliquer directement grâce à des mécanismes de vote par émojis.
 
@@ -94,7 +103,7 @@ Une gouvernance communautaire s'est mise en place sur le canal Agora et plusieur
 
 ---
 
-## Media DeFi 
+## 📢 Media DeFi 
 
 Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne pas trop vous disperser, trois ou quatre sources suffisent. Voici donc quelques ressources francophones pour découvrir et comprendre la DeFi :
 - **[🃏 La chaine Twitch TokenBrice](https://www.twitch.tv/tokenbrice)** : avec deux à trois lives par semaine pour discuter de DeFi et creuser les thèmes associées !
@@ -110,20 +119,20 @@ Suivre la DeFi est une tâche sans fin. Pour commencer, je vous conseille de ne 
 
 Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à démarrer et à suivre vos investissements :
 
-### L'essentiel pour commencer
+### 👩‍💻 L'essentiel pour commencer
 
 * [MetaMask](https://metamask.io/) : une extension du navigateur Ethereum portefeuille largement utilisé pour accéder à la DeFi.
 * [Argent Wallet](http://argent.xyz/) : une alternative mobile utilisant un smart contract wallet.
 * [EtherScan](https://etherscan.io/): pour vérifier les smart contracts ou wallets. 
 * [ParaSwap](https://paraswap.io/) : pour optimiser vos échanges de tokens.
 
-### Pour suivre vos investissements
+### 💸 Pour suivre vos investissements
 
 * [Zapper](https://zapper.fi/) : pour suivre votre portefeuille et saisir facilement les opportunités d'investissement.
 * [CoinGecko](https://coingecko.com/): pour suivre le prix de n'importe quel token.
 * [vFat Tools](https://vfat.tools/) : un tracker DeFi qui ajoute rapidement les derniers services.
 
-### Pour suivre les métriques de la DeFi
+### 📊 Pour suivre les métriques de la DeFi
 * [Defillama](https://defillama.com/): les stats essentielles sur les principaux protocoles DeFi.
 * [Token Terminal](https://terminal.tokenterminal.com/) : des donnés numériques standardisées pour comparer différents protocoles DeFi et crypto.
 * [YieldFarmingTools](https://yieldfarmingtools.com/) : un aperçu des principales possibilités de farming.
