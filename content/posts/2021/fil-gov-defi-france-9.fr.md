@@ -1,7 +1,7 @@
 ---
 title: “Le fil de la gouvernance DeFi France #9”
 description: “Compte rendu de la gouvernance participative de la communauté DeFi France. Un faucet communautaire pour DeFi France !”
-date: ’
+date: '2021-09-27T01:13:50.191Z'
 categories: [🇫🇷 Communauté DeFi France]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: fil-gov-defi-france-9
