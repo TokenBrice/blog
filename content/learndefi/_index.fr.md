@@ -73,7 +73,7 @@ Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fr�
 - **[Articles 🔮 Découverte](/fr/categories/découverte)** : des articles de haut-niveau pour comprendre les différents outils et protocoles utilisés en DeFi.
 - **[Articles 💸 DeFi Pratique](/fr/categories/defi-pratique/)** : où l'on parle plus concrètement de stratégies pour tirer parti des différents protocoles.
 
-Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardis à 19h, un Jeudi/2 à 19h + quelques lives "sauvages" bonus en fonction des humeurs.
+Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardis à 17h, un Jeudi/2 à 17h + quelques lives "sauvages" bonus en fonction des humeurs.
 
 ## 🤗 La DeFi en groupe c'est encore mieux !
 
