@@ -100,8 +100,6 @@ Pour la mobiliser, le déposant doit "vote lock" ses CVX en vlCVX. Ils sont verr
 
 Outre la rentabilité accrue du CVX pour influencer Curve, l'engagement est également moins conséquent que sur VeCRV. Pour la table de comparaison, je suis parti sur une assomption de vérouillage 4 ans sur CRV. L'écart est encore plus en faveur de vlCVX pour des engagements moins longs.
 
-Imo il manque juste un petit point sur un désavantage du vlCVX : après les 16 semaines de lock, si les tokens restent idle au sein du smart contract (+ de 4 semaines), des pénalités sont appliquées sur la balance de l'utilisateur
-
 {{< notice warning >}}
 Le vlCVX a malgré tout un inconvénient : à l'issue des 16 semaines de verrouillage initiales, des pénalités sont appliquées aux déposants si les tokens restent inactifs pendant plus de 4 semaines.
 {{< /notice >}}
