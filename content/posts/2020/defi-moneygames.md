@@ -2,7 +2,7 @@
 title: "🧭 DeFi Moneygames: Assessing risk and avoiding wreckage"
 description: "A quick primer to help players of DeFi food-based moneygames to understand the basic template (go WINE!), assess the risk & save their precious tokens."
 date: '2020-08-26T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Practical DeFi]
+categories: [🌌 DeFi, 💸 Practical]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
 ---
 

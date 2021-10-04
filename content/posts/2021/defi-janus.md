@@ -2,7 +2,7 @@
 title: "Janus: the new sworn enemy of DeFi protocols?"
 description: "Within decentralized finance, a veritable open-air laboratory, governance issues are complex and often contradictory. In this article, I examine the potential antagonisms between the various stakeholders of a given protocol."
 date: '2021-07-17T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 DeFi Pratique]
+categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Liquity, Curve Finance, CRV, MakerDAO, Convex, CVX, Yearn Finance, Uniswap]
 toc: true
 tocNum: true

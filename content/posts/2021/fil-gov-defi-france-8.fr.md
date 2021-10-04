@@ -2,7 +2,7 @@
 title: "Le fil de la gouvernance DeFi France #8"
 description: "Compte rendu de la gouvernance participative de la communauté DeFi France. De nouveaux membres avec la rentrée de DeFi France !"
 date: '2021-09-05T01:53:50.191Z'
-categories: [🇫🇷 Communauté DeFi France]
+categories: [🇫🇷 Communauté DeFi France, 📜 CR Gouvernance]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: fil-gov-defi-france-8
 ---

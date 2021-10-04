@@ -2,7 +2,7 @@
 title: "🌽 Defi money markets cookbook"
 description: "Money markets like Aave or Alchemix are essential in DeFi. This article explains and illustrates some strategies to take advantage of the different options they offer."
 date: '2021-05-10T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [🌌 DeFi, 💸 Practical]
 tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Curve, Liquity, Mimo Capital, Alchemix, Aave, Polygon, Liquidation]
 toc: true
 tocNum: true

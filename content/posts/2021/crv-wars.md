@@ -2,7 +2,7 @@
 title: "⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol"
 description: "A concise guide to tracking the CRV accumulation race by any means possible including vote buying (Bribes) and evaluating the Curve strategies of DeFi protocols"
 date: '2021-09-28T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 DeFi Pratique]
+categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Finance décentralisée, Curve Finance, CRV, Polygon, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 toc: true
 tocNum: true

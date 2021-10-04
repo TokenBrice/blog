@@ -2,7 +2,7 @@
 title: "🗿 Pourquoi, comment et qu'est-ce que le RAI ?"
 description: "Le RAI de Reflexer est un nouveau type d'actif encore unique en DeFi. Il s'appuie également sur un système avec un plan de dégouvernance. Voyons donc comment s'extraire tout à la fois des risques liés aux monnaies fiduciaires, à la centralisation et à la confiance."
 date: '2021-09-01T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 DeFi Pratique]
+categories: [🌌 DeFi, ⚙ Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Reflexer, RAI, Maker, Liquity]
 toc: true
 tocNum: true

@@ -2,7 +2,7 @@
 title: "Le fil de la gouvernance DeFi France #6"
 description: "Compte rendu de la gouvernance participative de la communauté DeFi France. Le multisig de DeFi France DAO a été créé !"
 date: '2021-07-27T01:53:50.191Z'
-categories: [🇫🇷 Communauté DeFi France]
+categories: [🇫🇷 Communauté DeFi France, 📜 CR Gouvernance]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: fil-gov-defi-france-6
 ---
