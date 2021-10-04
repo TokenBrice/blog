@@ -81,8 +81,6 @@ I'll let you read up on the impact of attributes and skills, but as a fan of tur
 
 ### 📜 The community and its history
 
-Le jeu est développé par une seule personne, Luchador, qui a progressivement été rejoint par plusieurs profils nécessaires pour le développement:
-
 The game is developed by a single person, Luchador, who was gradually joined by several profiles needed for the development:
 
 * From the beginning, community members emerged like Teh_Griz and LuchaBroy: they became the first moderators of the Discord.
