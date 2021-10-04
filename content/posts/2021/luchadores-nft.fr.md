@@ -106,7 +106,7 @@ Concrètement, j'anime la communauté avec différents giveaways et j'aide à fa
 
 ### 🃏 Mes Luchadores
 
-J'ai été assez peu chanceux au minting de mes Luchadores, et j'ai donc compenser ma chance par mes acquisitions. Bien que la plupart correspondent à un nettoyage mécanique du prix plancher, surtout entre 0.025 et 0.035 ETH, j'ai aussi acquis quelques Luchadores plus rares dont trois 7 attributs.
+J'ai été assez peu chanceux au minting de mes Luchadores, et j'ai donc compensé ma chance par mes acquisitions. Bien que la plupart correspondent à un nettoyage mécanique du prix plancher, surtout entre 0.025 et 0.035 ETH, j'ai aussi acquis quelques Luchadores plus rares dont trois 7 attributs.
 
 Ma plus belle prise est le "Batman", un 7 attributs qui sera l'un de mes principaux combattants dans l'arène :
 
