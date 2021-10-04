@@ -30,7 +30,7 @@ Mi interés y mi entusiasmo por los Luchadores están en cuatro razones principa
 
 La creación de Luchadores fue un proceso completamente onchain gracias a la utilización de la VRF de Chainlink. Esto permite **generar cantidades aleatorias de forma verificable**. Gracias a esta tecnología, el minaje de un Luchador se realizó con la garantía de que no había ningún tipo de manipulación posible, y la prueba de cálculo está disponible.
 
-Fue esta dimensión técnica innovante que me permitió identificar este proyecto. Limitado a un **número total de 10 000 Luchadores**, el minaje estuvo disponible durante **3 meses** (Marzo->Junio de 2021), con un poco de exaltación en los últimos días.
+Fue esta dimensión técnica innovante que me permitió identificar este proyecto. Limitado a un **número total de 10 000 Luchadores**, el minaje estuvo disponible durante **3 meses** (Mayo->Agosto de 2021), con un poco de exaltación en los últimos días.
 
 El largo período del minaje permitió a todo aquel que quisiera, poder participar, con tiempo de sobra para obtener unos costos de transacción más adecuados si así lo hubiesen deseado.
 
@@ -98,7 +98,7 @@ Por el momento sólo hablamos de implicaciones formales. Pero no se puede olvida
 
 ## 🐒 Mi participación
 
-Descubrí los Luchadores en Marzo, he minado unos 80 y seguí el proyecto muy pasivamente al principio. En Junio, cuando la popularidad comenzó a hacerse más palpable, me impliqué más activamente, al principio como moderador en la comunidad francófona y luego como administrador del servidor Discord.
+Descubrí los Luchadores en Mayo, he minado unos 80 y seguí el proyecto muy pasivamente al principio. En Junio, cuando la popularidad comenzó a hacerse más palpable, me impliqué más activamente, al principio como moderador en la comunidad francófona y luego como administrador del servidor Discord.
 
 Veo mi implicación en el proyecto como una oportunidad para enseñar sobre las dimensiones de los NFTs. No escogí este proyecto al azar: considero que el enfoque SVG onchain utilizado por los Luchadores está entre los más creíbles, a pesar de su contraste gráfico (-> style pixel).
 
@@ -156,7 +156,7 @@ En esto, es hacer sus apuestas, nada vale más 🎲.
 
 {{< notice note >}}
 
-_Apenas toco el tema en el blog porque quería tomarme mi tiempo para bien organizar mis reflexiones. Para quienes me siguen en vivo o en Twitter me han escuchado hablar del proyecto desde Marzo y han podido minar directamente, si lo hubieran querido._
+_Apenas toco el tema en el blog porque quería tomarme mi tiempo para bien organizar mis reflexiones. Para quienes me siguen en vivo o en Twitter me han escuchado hablar del proyecto desde Mayo y han podido minar directamente, si lo hubieran querido._
 
 {{< /notice >}}
 

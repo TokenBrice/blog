@@ -98,7 +98,7 @@ We are talking here only about "formal" implications. Of course, we must not for
 
 ## 🐒 My involvement
 
-I discovered the Luchadores in March, I minted about 80 of them and I followed the project quite passively at the beginning. In June, when the craze started to be more palpable, I got more actively involved, first as a moderator for the French community and then as an administrator of the Discord server.
+I discovered the Luchadores in May, I minted about 80 of them and I followed the project quite passively at the beginning. In June, when the craze started to be more palpable, I got more actively involved, first as a moderator for the French community and then as an administrator of the Discord server.
 
 I see my involvement in the project as an opportunity to educate about the technical dimensions of NFTs. I didn't choose this project at random: I think that the SVG onchain approach used by the Luchadores is among the most credible, despite the graphical compromise (-> pixel style).
 
@@ -154,7 +154,7 @@ So now place your bets, "rien ne va plus" 🎲.
 
 {{< notice note >}}
 
-I'm only talking about it now on the blog because I wanted to take the time to articulate my thoughts. Those who follow me live or on Twitter heard about the project in March and could read about it directly, if they wanted to.
+I'm only talking about it now on the blog because I wanted to take the time to articulate my thoughts. Those who follow me live or on Twitter heard about the project in May and could read about it directly, if they wanted to.
 {{< /notice >}}
 
 

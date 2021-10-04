@@ -30,7 +30,7 @@ Mon intérêt pour les Luchadores et la raison de mon enthousiasme pour cette co
 
 La génération des Luchadores était un processus entièrement onchain grâce à l'utilisation de la VRF de Chainlink. Elle permet de **générer des nombres aléatoires de manière vérifiable**. Grâce à cet apport, le minting d'un Luchadores se faisait avec la garantie qu'il n'y avait pas de manipulations possibles, et la preuve du calcul reste disponible.
 
-C'est cette dimension technique innovante qui m'a aidé à repérer le projet initialement. Limité à **10 000 Luchadores au total**, le mint est resté disponible environ **3 mois** (Mars->Juin 2021), avec une certaine excitation dans les derniers jours.
+C'est cette dimension technique innovante qui m'a aidé à repérer le projet initialement. Limité à **10 000 Luchadores au total**, le mint est resté disponible environ **3 mois** (Mai->Août 2021), avec une certaine excitation dans les derniers jours.
 
 La longue période de minting a permis à tous ceux qui le souhaitaient de pouvoir s'impliquer, avec tout le temps nécessaire pour atteindre des coûts de transaction plus opportuns si désirés.
 
@@ -97,7 +97,7 @@ On ne parle ici que des implications "formelles". Il ne faut bien sûr pas oubli
 
 ## 🐒 Mon implication
 
-J'ai découvert les Luchadores en Mars, j'en ai minté environ 80 et j'ai suivi le projet assez passivement au début. En juin, lorsque l'engouement a commencé à être plus palpable, je me suis impliqué plus activement, au début comme modérateur pour la communauté francophone puis administrateur du serveur Discord.
+J'ai découvert les Luchadores en Mai, j'en ai minté environ 80 et j'ai suivi le projet assez passivement au début. En juin, lorsque l'engouement a commencé à être plus palpable, je me suis impliqué plus activement, au début comme modérateur pour la communauté francophone puis administrateur du serveur Discord.
 
 Je vois mon implication dans le projet comme une opportunité pour éduquer sur les dimensions techniques des NFTs. Je n'ai pas choisi ce projet au hasard : j'estime que l'approche SVG onchain utilisée par les Luchadores est parmi les plus crédibles, malgré le compromis graphique (-> style pixel).
 
@@ -155,7 +155,7 @@ Là-dessus, c'est faites vos jeux, rien ne va plus 🎲.
 
 {{< notice note >}}
 
-_Je n'en parle que maintenant sur le blog car je voulais prendre le temps d'articuler ma pensée. Ceux qui me suivent en live ou sur Twitter ont entendu parler du projet dès Mars et ont pu en minter directement, s'ils le désiraient._
+_Je n'en parle que maintenant sur le blog car je voulais prendre le temps d'articuler ma pensée. Ceux qui me suivent en live ou sur Twitter ont entendu parler du projet dès Mai et ont pu en minter directement, s'ils le désiraient._
 
 {{< /notice >}}
 
