@@ -99,7 +99,7 @@ In addition to the increased profitability of CVX to influence Curve, the commit
 The vlCVX does have one drawback: after the initial 16 weeks of lock-in, penalties are applied to depositors if the tokens remain inactive for more than 4 weeks.
 {{< /notice >}}
 
-If you want to further analyze the returns offered by the delegation of CVX and the associated vote buying, feel free to [read this article (https://medium.com/@portiadog/convex-finance-1cc6c9c1c733) which offers more detailed calculations :
+If you want to further analyze the returns offered by the delegation of CVX and the associated vote buying, feel free to [read this article](https://medium.com/@portiadog/convex-finance-1cc6c9c1c733) which offers more detailed calculations :
 
 ![bribes-rewards](/img/2021/crv-wars/bribes-rewards.png "Estimating the performance of Curve voting delegation via vlCVX")
 
