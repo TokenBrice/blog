@@ -89,7 +89,7 @@ Le jeu est développé par une seule personne, Luchador, qui a progressivement �
 On ne parle ici que des implications "formelles". Il ne faut bien sûr pas oublier toutes les initiatives communautaires. Il est impossible de toutes les lister ici, mais je citerai quand même :
 
 * Nicosz qui a créé un [outil en Python pour analyser les données liées aux Luchadores](https://github.com/sznicolas/luchadata).
-* Un [dashboard pour suivre les principales métriques sur les Luchadores](https://dune.xyz/lokhidor/Luchadores), proposé par cnhkp.eth, grâce à l'outil de Nicosz.
+* Un [dashboard pour suivre les principales métriques sur les Luchadores](https://dune.xyz/lokhidor/Luchadores), proposé par cnhkp.eth, grâce à Dune Analytics et l'aide de Nicosz.
 * Ou encore OxMule qui a [traduit le whitepaper](https://whitepaper.luchadores.io/v/francais/) en quelques jours. 
 * Sans oublier les nombreux collectionneurs et "snipeurs" du Discord qui l'animent tous les jours, comme Chainlinkers, un des premiers membres de la communauté qui a gagné deux giveaways à la suite le jour de son anniversaire et est entré dans la légende.
 
