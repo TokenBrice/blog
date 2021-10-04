@@ -60,7 +60,7 @@ Outre la génération faite entièrement onchain, le visuel du Luchadores est da
 
 ![luchadores-art-for-all](/img/2021/luchadores-nft/AFA-score.png "ArtForAll permet d'analyser la résilience des NFTS")
 
-Je ne suis pas le seul à remarquer cette approche très résiliente, qui a également plu au Link marines. Les Luchadores sont également le seul projet à 100/100 avec les Avastars sur [ArtForAll, un service qui évalue la résilience de NFTs](https://artforall.io/score?search=).
+Je ne suis pas le seul à remarquer cette approche très résiliente, qui a également plu aux Link marines. Les Luchadores sont également le seul projet à 100/100 avec les Avastars sur [ArtForAll, un service qui évalue la résilience de NFTs](https://artforall.io/score?search=).
 
 Ainsi, on pourrait décrire le projet comme "on chain maximaliste" mais ça n'est pas le cas : des compromis, hélas nécessaires, sont envisagés au niveau où il est possible de se le permettre : les tirages aléatoires liés au jeu, seront réalisés sur une sidechain (Polygon) ou un rollup. Cela permettra de **garder le jeu accessible et peu coûteux**, tout en profitant de garanties maximales au niveau du NFT, lui toujours bien au chaud sur la chaîne Ethereum.
 
