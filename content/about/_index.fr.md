@@ -62,6 +62,10 @@ Mon blog est disponible en anglais et en français et suit une philosophie simpl
 - **Entièrement gratuit** : aucun sponsors sur ce blog. Je suis également le seul écrivain et principal éditeur : bienvenue dans mon monde. Si vous trouvez que mon travail a de la valeur, vous pouvez **[🤗 soutenir le blog sur Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
 - **Aussi libre que possible** : la licence choisie pour mes articles permet leur réutilisation ou traduction du moment que l'auteur original est cité et que le nouveau contenu produit reste accessible à tous gratuitement.
 
+### Lives TokenBrice
+
+Les directs ont lieu sur [Twitch](https://twitch.tv/tokenbrice). Il sont en suite mis en ligne sur le [YouTube DeFi France](https://www.youtube.com/c/defifrance) mais aussi **[disponible au format podcast sur Spotify](https://open.spotify.com/show/78Ggw5N9Sn694VBAhVhIME)**.
+
 ## Me contacter
 
 N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici.
