@@ -99,7 +99,11 @@ Depuis la mise à jour V2 et l'arrivée de Déméter sur le Discord, les contrib
 
 Les participants de la communauté DeFi France sont désormais rémunérés en Blé qui est ensuite traduit en TGC, le token de gouvernance de la communauté. Découvrez DeFi France v2 avec cet article : **[🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2]({{< relref "dffv2.fr.md" >}})**
 
-Une gouvernance communautaire s'est mise en place sur le canal Agora et plusieurs propositions ont déjà été implémentées. Vous pouvez suivre la gouvernance DeFi France grâce au travail de nos scribes (Disiaque et Charles) : **[Fil de gouvernance DeFi France](/fr/categories/communauté-defi-france/)**
+Une gouvernance communautaire s'est mise en place sur le canal Agora et plusieurs propositions ont déjà été implémentées. Vous pouvez suivre la gouvernance DeFi France grâce au travail de nos scribes (Disiaque et Charles) : **[Fil de gouvernance DeFi France](https://docs.defi-france.org/dff/fil-de-la-gouvernance/publies-en-2021)**
+
+{{< notice tip >}}
+Toutes les propositions ainsi que fils de gouvernance sont sur la **[📖 documentation DeFi France](https://docs.defi-france.org/)**.
+{{< /notice >}}
 
 ---
 
@@ -121,20 +125,31 @@ Vous trouverez ci-dessous les principaux outils essentiels pour vous aider à d�
 
 ### 👩‍💻 L'essentiel pour commencer
 
-* [MetaMask](https://metamask.io/) : une extension du navigateur Ethereum portefeuille largement utilisé pour accéder à la DeFi.
-* [Argent Wallet](http://argent.xyz/) : une alternative mobile utilisant un smart contract wallet.
+* [MetaMask](https://metamask.io/) : une extension navigateur portefeuille Ethereum largement utilisée pour accéder à la DeFi.
+* [Argent Wallet](http://argent.xyz/) : une alternative mobile utilisant un smart contract wallet (⛽gas).
 * [EtherScan](https://etherscan.io/): pour vérifier les smart contracts ou wallets. 
 * [ParaSwap](https://paraswap.io/) : pour optimiser vos échanges de tokens.
 
-### 💸 Pour suivre vos investissements
+### 💸 Suivre vos investissements
 
-* [Zapper](https://zapper.fi/) : pour suivre votre portefeuille et saisir facilement les opportunités d'investissement.
-* [CoinGecko](https://coingecko.com/): pour suivre le prix de n'importe quel token.
-* [vFat Tools](https://vfat.tools/) : un tracker DeFi qui ajoute rapidement les derniers services.
+* [Zapper](https://zapper.fi/) / [DeBank](https://debank.com) : pour suivre votre portefeuille et saisir facilement les opportunités d'investissement.
+* [CoinGecko](https://coingecko.com/): pour suivre le prix de *presque* n'importe quel token.
+* [vFat Tools](https://vfat.tools/) : un tracker de rendement qui ajoute rapidement les derniers services.
 
-### 📊 Pour suivre les métriques de la DeFi
+### 📊 Les principales métriques de la DeFi
 * [Defillama](https://defillama.com/): les stats essentielles sur les principaux protocoles DeFi.
 * [Token Terminal](https://terminal.tokenterminal.com/) : des donnés numériques standardisées pour comparer différents protocoles DeFi et crypto.
 * [YieldFarmingTools](https://yieldfarmingtools.com/) : un aperçu des principales possibilités de farming.
+
+### Outils pratiques
+
+* 🎲 [Wheresthedrip](https://wheresthedrip.com/) - Calcul de l'APY sur PoolTogether v4.
+* [Le dashboard Dune gammastrategies](https://dune.xyz/gammastrategies/Uniswap-v3-Volume-and-Fees-Collected) pour suivre et analyser les rendements LP Uniswap v3.
+
+### 🎡 Suivre l'écosystème Curve
+
+* [Llama Air Force](https://llama.airforce/#/convex/flyer) : des métriques claires sur l'ensemble de l'ecoystème Curve/Convex/Votium.
+* [Cur.vote](https://cur.vote/) : outil pratique pour les possesseurs de veCRV pour suivre les bribes directes.
+* [CurveMarketCap](https://curvemarketcap.com/) : aperçu des plus gros holders veCRV et des retours générés.
 
 Je vous propose également un article qui couvre l'outillage de base du DeFian : **[🧰 Trousse à outils du cultivateur DeFi]({{< relref "defi-farmer-toolbox.fr.md" >}})**
