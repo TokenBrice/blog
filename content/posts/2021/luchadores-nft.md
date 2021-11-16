@@ -13,7 +13,7 @@ This article is going to be more personal than usual, but given the subject I ca
 
 More than the project itself, I will explain the thesis I am developing about it. I think this approach may interest you and help you develop personal beliefs about other collections.
 
-In this article, I don't detail the mechanics of the Luchadores or the upcoming game. Feel free to read [the whitepaper now available](https://whitepaper.luchadores.io/) for more info on this subject.
+In this article, I don't detail the mechanics of the Luchadores or the upcoming game. Feel free to read [the whitepaper now available](https://whitepaper.luchadores.io/) for more info on this.
 
 ![luchadores-cover](/img/2021/luchadores-nft/luchadores-cover.png)
 
