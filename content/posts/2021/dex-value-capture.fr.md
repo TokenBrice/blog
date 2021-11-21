@@ -142,10 +142,6 @@ Enfin, nous devons considérer une dernière dimension de Curve, car ce n'est pa
 
 Grâce à l'augmentation des liquidités disponibles, Curve exploite maintenant les synergies de DeFi (avec Synthetix) pour proposer des swaps entre les différents actifs pegged disponibles sur Curve, tels que DAI -> wBTC ou USDT -> EURS.
 
-<div align = "center">
-{{< tweet 1352219526495133696 >}}
-</div>
-
 C'est une innovation significative car cela ouvre des marchés actuellement peu ou pas couverts ailleurs (EURS) et permet de minimiser le slippage pour les grandes transactions.
 
 Pour rester concis, les bondings curve d'Uniswap et de Sushiswap sont bien adaptées pour **supporter de nombreux swaps de petite ou moyenne taille, en particulier sur les grands pools** avec un faible glissement. Cependant, elles sont moins optimales pour les gros ordres car le slippage augmente proportionnellement à la part de liquidité du pool requise par la transaction. 
