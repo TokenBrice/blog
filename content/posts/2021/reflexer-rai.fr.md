@@ -127,7 +127,7 @@ On commence par cette situation car elle est plus simple à comprendre à mon av
 2. Vente de RAI sur le marché pour un profit ;
 3. (Quand prix du marché &lt; rédemption) rachat de RAI pour rembourser la dette et libérer les ETH. La différence entre les 2 prix sur RAI - frais en gas correspond au profit généré.
 
-![marche>redemption](/img/2021/reflexer-rai/marche>redemption.png)
+![marchesupredemption](/img/2021/reflexer-rai/marchesupredemption.PNG)
 
 
 Cette situation est d'autant plus intéressante pour ceux qui ont déjà des safes avec de la capacité disponible : ils s'épargnent une étape du scénario présenté plus haut.
