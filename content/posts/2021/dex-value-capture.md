@@ -143,10 +143,6 @@ Finally, we have to consider one last dimension on Curve, as it's not just any D
 
 Thanks to the growing available liquidity, the team is now harnessing DeFi synergies (with Synthetix) to offer swaps between the different pegged assets listed on Curve, such as DAI -> wBTC or USDT -> EURS.
 
-<div align = "center">
-{{< tweet 1352219526495133696 >}}
-</div>
-
 It provides incredible value as it covers markets that are currently not broadly available elsewhere (EURS) and enables a minimization of slippage for large trades.
 
 To stay concise, Uniswap and Sushiswap's bonding curves are well suited to **support many small or average swaps, especially on large pools** with a low slippage. However, they are less optimal for large orders as slippage increases in proportion to the share of liquidity of the pool required by the trade. 
