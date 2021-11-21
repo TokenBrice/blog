@@ -114,7 +114,7 @@ We start with this situation because I think it is simpler to understand. In the
 2. Sale of RAI in the market for a profit;
 3. (When market price &lt; redemption) repurchase of RAI to pay off debt and release ETH. The difference between the 2 prices on RAI - fees in gas is the profit generated.
 
-![marche>redemption](/img/2021/reflexer-rai/marche>redemption-en.png)
+![marchesupredemption](/img/2021/reflexer-rai/marchesupredemption-en.png)
 
 This situation is all the more interesting for those who already have safes with available capacity: they save themselves a step in the scenario presented above.
 
