@@ -66,6 +66,27 @@ Mon blog est disponible en anglais et en français et suit une philosophie simpl
 
 Les directs ont lieu sur [Twitch](https://twitch.tv/tokenbrice). Il sont en suite mis en ligne sur le [YouTube DeFi France](https://www.youtube.com/c/defifrance) mais aussi **[disponible au format podcast sur Spotify](https://open.spotify.com/show/78Ggw5N9Sn694VBAhVhIME)**.
 
+### Présentations DeFi & NFT (SLIDES)
+
+Je présente fréquément sur ces deux sujets, vous retrouverez les slides quand disponibles ici.
+
+#### Les dernières présentations
+
+Live **introduction à la finance décentralisée avec Nolan** - realisé en Septembre 2021.
+1. [Les slides par ici](https://docs.google.com/presentation/d/16e4oFexINXCqzjMk_18oUEUyuWkfF4q6froIh9CbqVc/edit?usp=sharing) 
+2. Le [replay du live là](https://www.youtube.com/watch?v=yZUlZgOneOk&t=8623s)
+
+La **DeFinanciarisation des NFTs** (DFF XIII - Nov 25 2021) : 
+[Slides de la présentation](https://docs.google.com/presentation/d/1yR6TttpBCtCYC5rKNvL8apzOCPQ7qPNTZjrYGHyTvTw/edit?usp=sharing)
+
+#### Précédentes présentations
+
+- DFF X - **De la ferme à la mine** : [slides](https://docs.google.com/presentation/d/15xIuVYmrs3P4gkxwBQIrFrz7thNW0tGvZ203P5rT6rw/edit?usp=sharing)
+- DXX IX - **Composabilité dans la DeFi** : [slides](https://docs.google.com/presentation/d/157Mnedi8dwlyNJxl5fSOo1mtQ4o4fbVDjkIbz87122o/edit?usp=sharing)
+- DFF VI (EthCC) - **La finance décentralisée, enjeux, risques et futur** [slides](https://docs.google.com/presentation/d/1TTNmAuBdp0GW625XpSHtYgx9bACosESJQ2RktAJlD8I/edit?usp=sharing)
+
+[nameoflink](linklink)
+
 ## Me contacter
 
 N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici.
