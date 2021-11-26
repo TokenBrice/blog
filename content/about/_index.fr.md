@@ -81,10 +81,10 @@ La **DeFinanciarisation des NFTs** (DFF XIII - Nov 25 2021) :
 
 #### Précédentes présentations
 
-- DFF X - **De la ferme à la mine** : [slides](https://docs.google.com/presentation/d/15xIuVYmrs3P4gkxwBQIrFrz7thNW0tGvZ203P5rT6rw/edit?usp=sharing) [replay](https://www.youtube.com/watch?v=rf6WGKNg_vA&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=4)
-- DFF IX - **Composabilité dans la DeFi** : [slides](https://docs.google.com/presentation/d/157Mnedi8dwlyNJxl5fSOo1mtQ4o4fbVDjkIbz87122o/edit?usp=sharing) [replay](https://youtu.be/i7f6ZBOTiXo?t=2802)
-- DFF VI (EthCC) - **La finance décentralisée, enjeux, risques et futur** [slides](https://docs.google.com/presentation/d/1TTNmAuBdp0GW625XpSHtYgx9bACosESJQ2RktAJlD8I/edit?usp=sharing) [replay](https://www.youtube.com/watch?v=vF-7T5EtcQo)
-- **Introduction à la finance décentralisée avec [Arthur Micoulet](https://twitter.com/ArthurMicoulet)** : [slides](https://docs.google.com/presentation/d/1cw971kGUP5dBZVFvDLsF3j8_c6rx5FE8aP7yxp9cYdE/edit?usp=sharing) [replay](https://www.youtube.com/watch?v=62HSMkM1cOM)
+- DFF X - **De la ferme à la mine** : [slides](https://docs.google.com/presentation/d/15xIuVYmrs3P4gkxwBQIrFrz7thNW0tGvZ203P5rT6rw/edit?usp=sharing) / [replay](https://www.youtube.com/watch?v=rf6WGKNg_vA&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=4)
+- DFF IX - **Composabilité dans la DeFi** : [slides](https://docs.google.com/presentation/d/157Mnedi8dwlyNJxl5fSOo1mtQ4o4fbVDjkIbz87122o/edit?usp=sharing) / [replay](https://youtu.be/i7f6ZBOTiXo?t=2802)
+- DFF VI (EthCC) - **La finance décentralisée, enjeux, risques et futur** [slides](https://docs.google.com/presentation/d/1TTNmAuBdp0GW625XpSHtYgx9bACosESJQ2RktAJlD8I/edit?usp=sharing) / [replay](https://www.youtube.com/watch?v=vF-7T5EtcQo)
+- **Introduction à la finance décentralisée avec [Arthur Micoulet](https://twitter.com/ArthurMicoulet)** : [slides](https://docs.google.com/presentation/d/1cw971kGUP5dBZVFvDLsF3j8_c6rx5FE8aP7yxp9cYdE/edit?usp=sharing) / [replay](https://www.youtube.com/watch?v=62HSMkM1cOM)
 
 ## Me contacter
 
