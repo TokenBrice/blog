@@ -79,7 +79,7 @@ Live **introduction à la finance décentralisée avec [NolanVanmoortel](https:/
 La **DeFinanciarisation des NFTs** (DFF XIII - Nov 25 2021) : 
 [Slides de la présentation](https://docs.google.com/presentation/d/1yR6TttpBCtCYC5rKNvL8apzOCPQ7qPNTZjrYGHyTvTw/edit?usp=sharing)
 
-#### Précédentes présentations
+#### Les précédentes présentations
 
 - DFF X - **De la ferme à la mine** : [slides](https://docs.google.com/presentation/d/15xIuVYmrs3P4gkxwBQIrFrz7thNW0tGvZ203P5rT6rw/edit?usp=sharing) / [replay](https://www.youtube.com/watch?v=rf6WGKNg_vA&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=4)
 - DFF IX - **Composabilité dans la DeFi** : [slides](https://docs.google.com/presentation/d/157Mnedi8dwlyNJxl5fSOo1mtQ4o4fbVDjkIbz87122o/edit?usp=sharing) / [replay](https://youtu.be/i7f6ZBOTiXo?t=2802)
