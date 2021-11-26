@@ -85,8 +85,6 @@ La **DeFinanciarisation des NFTs** (DFF XIII - Nov 25 2021) :
 - DXX IX - **Composabilité dans la DeFi** : [slides](https://docs.google.com/presentation/d/157Mnedi8dwlyNJxl5fSOo1mtQ4o4fbVDjkIbz87122o/edit?usp=sharing)
 - DFF VI (EthCC) - **La finance décentralisée, enjeux, risques et futur** [slides](https://docs.google.com/presentation/d/1TTNmAuBdp0GW625XpSHtYgx9bACosESJQ2RktAJlD8I/edit?usp=sharing)
 
-[nameoflink](linklink)
-
 ## Me contacter
 
 N'hésitez pas à rentrer en contact pour parler de DeFi, ou tout autre sujet mentionné ici.
