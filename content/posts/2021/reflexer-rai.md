@@ -5,7 +5,7 @@ date: '2021-09-17T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
-tocNum: true
+tocNum: false
 url: reflexer-rai
 ---
 
