@@ -170,7 +170,7 @@ Si le protocole peut être aussi permissif, ce n'est pas parce qu'il prend plus 
 
 Le recovery mode est un jeu protocol-level sur Liquity : son déclenchement dépend du "Total Collateral Ratio" du protocole : le ratio entre l'ensemble des collatéraux et les LUSD dûs. 
 
-Lorsque celui-ci passe **sous la barre des 150%, le Recovery Mode s'enclenche pour rétablir l'équilibre** : le seuil minimal de collatéralisation pour un trove passe à 110%. Les utilisateurs à risques sont ainsi invités à re-collatéraliser ou rembourser de la dette - et/ou seront liquidés si nécessaire lors de la mise en route du recovery.
+Lorsque celui-ci passe **sous la barre des 150%, le Recovery Mode s'enclenche pour rétablir l'équilibre** : le seuil minimal de collatéralisation pour un trove passe à 150%. Les utilisateurs à risques sont ainsi invités à re-collatéraliser ou rembourser de la dette - et/ou seront liquidés si nécessaire lors de la mise en route du recovery.
 
 La mise en route du recovery mode ne se fait néanmoins pas par surprise, puisqu'elle dépend d'un paramètre que tout le monde peut suivre aisément. Un tel système permet de maximiser l'efficacité du protocole la plupart du temps, tout en revenant rapidement vers des paramètres plus conservateurs si cela est nécessaire.
 
