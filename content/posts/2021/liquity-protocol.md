@@ -18,7 +18,7 @@ If that's not enough to excite your curiosity, the good news is that to achieve 
 
 The purpose of this article is therefore to introduce Liquity while expliciting several critical dimensions for any loan/money market service in DeFi.
 
-![liquity-cover-tokenbrice](/img/2021/liquity-protocol/cover.png)
+![liquity-cover-tokenbrice](/img/2021/liquity-protocol/cover-en.png)
 
 ## OPERATION OF THE PROTOCOL
 
