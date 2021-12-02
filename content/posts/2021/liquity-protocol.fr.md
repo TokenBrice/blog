@@ -238,7 +238,7 @@ Les propriétés inhérentes du LUSD lui ont déjà valu de l’attention en DeF
 ![olympus-lusd](/img/2021/liquity-protocol/olympus-lusd.png)
 
 
-Les ohmies ne vont pas s’arrêter là : ils adorent les actifs productifs, et Liquity n’en manque pas : [le plan](https://forum.olympusdao.finance/d/177-tap-5-whitelist-liquity-lusd-stability-pool-and-lqty-staking) est donc que le protocole déploie ses LUDS dans la Stability Pool pour accumuler des LQTY qui seront également stakés.
+Les ohmies ne vont pas s’arrêter là : ils adorent les actifs productifs, et Liquity n’en manque pas : [le plan](https://forum.olympusdao.finance/d/177-tap-5-whitelist-liquity-lusd-stability-pool-and-lqty-staking) est donc que le protocole déploie ses LUSD dans la Stability Pool pour accumuler des LQTY qui seront également stakés.
 
 Il y avait même du liquidity mining classique sur la paire LUSD/OHM, mais revisité. Avec le [Crucible ](https://crucible.alchemist.wtf/)d’Alchemist, un smart contract wallet NFT pour gérer facilement ses positions LP, un [programme de 35 jours ](https://www.liquity.org/blog/how-to-earn-rewards-on-the-lusd-ohm-pool-using-alchemists-crucible)était proposé, avec des récompenses en OHM, LUSD et MIST.
 
