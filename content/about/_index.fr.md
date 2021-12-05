@@ -19,25 +19,30 @@ J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses pr
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
 
-
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
-|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [TokenBrice](https://twitch.tv/tokenbrice) | Sur [Twitch](https://twitch.tv/tokenbrice), j'explique les concepts fondamentaux de la finance décentralisée. Plusieurs formats d'émission nous aident également à prendre de la hauteur, comme la [Science Fiction DeFi]({{< relref path="/content/posts/2021/science-fiction-defi-1.fr.md" >}}). | Hôte principal |
-|  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | Le middleware DeFi qui facilite l'implémentation de swaps optimisés pour les dApps et les utilisateurs finaux. | Développement Communautaire |
+|  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | Le middleware DeFi qui facilite et optimise l'échange de tokens pour les utilisateurs finaux ou les dApps. | Ambassadeur Gouvernance |
+|  ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn + token ERC20 à venir ! | Développement Communautaire |
+|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
 
 ### DeFi France
 
 DeFi France est la principale communauté francophone pour échanger au sujet de la finance décentralisée. 
 
-J'animais les directs hebdomadaires qui avaient lieu le **[Lundi à 17h sur la chaine YouTube DeFi France](https://www.youtube.com/c/defifrance)** — après une revue de presse de la DeFi francophone, nous y analysons une thématique transversale ou un projet donné.
+Elle se retrouve désormais sur le Discord, avec [un système sur-mesure](https://tokenbrice.xyz/posts/2021/guide-defian.fr.md) pour permettre la gestion directe de la communauté par ses membres. 
 
 ### ParaSwap
 
-ParaSwap est un outil qui permet l'optimisation des échanges de tokens via les échanges décentralisés sur le réseau Ethereum. Il est accessible directement, mais aussi intégrable & utilisable par d'autres applications décentralisées.
+ParaSwap est un outil qui permet l'optimisation des échanges de tokens via les échanges décentralisés sur le réseau Ethereum et les sidechains EVM compatible (actuellement BSC, Polygon et Avalanche). Il est accessible directement, mais aussi intégrable & utilisable par d'autres applications décentralisées.
 
-Je travaille à rendre ParaSwap le plus accessible possible grâce au développement de **[sa documentation utilisateur : 📖 Learn2Swap](https://learn2swap.com/l2s/)**. N'hésitez pas à me contacter pour parler swaps et comment l'API ParaSwap peut être utilisée.
+En Novembre 2021, [le token PSP a été lancé](https://doc.paraswap.network/psp-token-and-governance/token-overview), permettant une décentralisation plus approfondie du protocole et la délégation progressive des fonctions essentielles à la DAO. En tant qu' "ambassadeur gouvernance", je suis là pour faciliter la prise de fonction et montée en puissance de la DAO ParaSwap.
+
+### Luchadores
+
+`#UltraSoundNFT`
+Un projet NFT opiniatre qui fait les choses bien : données 100% onchain (svg) et génération des attributs lors du mint par un processus vérifiable et auditable (ChainLink VRF). Jeu en modèle Play2Earn à venir.
 
 ### BanklessFR
 

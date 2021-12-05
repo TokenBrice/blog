@@ -19,11 +19,13 @@ At the time, quality articles, videos or podcasts in French dealing with decentr
 
 I'm working to grow the Ethereum decentralized finance ecosystem by developing welcoming communities:
 
-|  Logo | Project | Description | Function |
+| Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-|  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | The DeFi middleware abstracting the complexity required to deliver optimized token swaps for Dapp developpers and end-users. | Head of Propaganda |
-|  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://discord.gg/3bWZcK2) | The original and leading grassroots Decentralised Finance meetup in Europe, held entirely in French to broaden accessibility. | Co-Organiser |
-| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | The Bankless program blends money and tech insight to help you level up your open finance game every single week. | Coordinator |
+| ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
+| ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | DeFi's middleware that facilitates and optimizes the exchange of tokens for end-users or dApps. | Governance Ambassador
+| ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model game + ERC20 token coming soon! | Community Development |
+| ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
+| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | French version of [Bankless](https://twitter.com/BanklessHQ): a newsletter designed as a guide that helps you progressively understand and take advantage of the opportunities offered by decentralized finance. | Coordinator
 
 ### DeFi France
 
@@ -31,11 +33,17 @@ DeFi France is the main French-speaking community to exchange about decentralize
 
 I host the weekly live shows that take place on **[Monday at 5pm on the YouTube channel DeFi France](https://www.youtube.com/c/defifrance)** - after a press review of the French-speaking DeFi, we analyze a transversal theme or a given project.
 
+
 ### ParaSwap
 
-ParaSwap is a tool that allows the optimization of token exchanges via decentralized exchanges on the Ethereum network. It is directly accessible, but also integrable & usable by other decentralized applications.
+ParaSwap is a tool enabling the optimization of token swaps via decentralized exchanges on the Ethereum network and compatible EVM sidechains (currently BSC, Polygon and Avalanche). It is directly accessible, but also integrable & usable by other decentralized applications.
 
-I work to make ParaSwap as accessible as possible thanks to the development of ** [its user documentation: 📖 Learn2Swap](https://learn2swap.com/l2s/)**. Feel free to contact me to talk about swaps and how the ParaSwap API can be used.**
+In November 2021, [the PSP token was launched](https://doc.paraswap.network/psp-token-and-governance/token-overview), allowing for further decentralization of the protocol and gradual delegation of core functions to the DAO. As a "governance ambassador", I am here to facilitate the takeover and ramp-up of the ParaSwap DAO.
+
+### Luchadores
+
+UltraSoundNFT
+An NFT project that does things right: 100% onchain data (svg) and attribute generation during mint by a verifiable and auditable process (ChainLink VRF). Game in Play2Earn model to come.
 
 ### BanklessFR
 
