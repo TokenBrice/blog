@@ -245,3 +245,5 @@ I hope this article has helped you grasp the intricacies of the extended veCRV e
 Before concluding, I would like to remind you that as usual the alpha is in the dips. If you have understood this article, feel free to export the liquidity strategy analysis to other projects: I am sure it will be instructive!
 
 I tell you often, but it will never be enough: not only Curve is the most important DEX in DeFi but it is also **the most advanced protocol in terms of governance and tokenomics by far compared to anything else**. Even if you have no interest in Curve/Convex, it's essential to understand these protocols in order to properly consider what's going on in DeFi... Hopefully this article will help you!
+
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan & FrenchTony for proofreading the French version of this article and translating it integrally into English._

@@ -268,3 +268,5 @@ Pour aller plus loin, y’a pas de secrets :
 Have fun !
 
 {{< youtube LXDSxRCMsDE >}}
+
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

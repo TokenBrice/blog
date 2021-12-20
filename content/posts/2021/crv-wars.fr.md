@@ -267,3 +267,5 @@ J'espère que cet article vous aura aidé à saisir les subtilités de l'écosys
 Avant de conclure, je tiens à vous rappeler que comme d'habitude l'alpha se trouve dans les creux. Si vous avez compris cet article, n'hésitez pas à exporter l'analyse de la stratégie de liquidité à d'autres projets : je suis certain qu'elle sera instructive !
 
 Je vous le dis souvent, mais ce sera jamais assez : non seulement Curve est le DEX le plus important en DeFi mais c'est également **le protocole le plus avancé en terme de gouvernance et de tokenomics de très loin par rapport à tout ce qu'il se fait d'autre**. Même si vous n'avez aucun intérêt pour Curve/Convex, il est indispensable de comprendre ces protocoles pour bien envisager ce qu'il se passe en DeFi… En espérant que cet article vous y aidera !
+
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
