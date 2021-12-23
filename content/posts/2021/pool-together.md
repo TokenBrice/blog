@@ -78,8 +78,6 @@ If we want to be very precise, the only cost of Pool Together is the "opportunit
 
 ## PoolTogether v3: the POOL token, sponsors and community pools
 
-Cette mise à jour a été lancée [en Octobre 2020](https://defirate.com/pooltogether-v3/) peu avant [le token POOL](https://medium.com/pooltogether/introducing-pool-23b09f36db48), en Février 2021. Elle apporte de nombreuses améliorations à l’infrastructure de PoolTogether.--> 
-
 Two versions of PoolTogether are online: v3 and v4. The concept remains the same but the infrastructure has greatly evolved. So before we look at what v4 has brought, let's start with the still relevant v3 and [accessible here](https://app.pooltogether.com/).
 
 This update was released [in October 2020](https://defirate.com/pooltogether-v3/) shortly before [the POOL token](https://medium.com/pooltogether/introducing-pool-23b09f36db48), in February 2021. It brings many improvements to the PoolTogether infrastructure.
