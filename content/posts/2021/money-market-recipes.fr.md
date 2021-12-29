@@ -172,7 +172,8 @@ J'espère que ces différentes recettes sauront vous inspirer. Assurez-vous d'ê
 
 ---
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en anglais.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
+
 
 ## Ensemble, le 🌾 Blé foisonne
 

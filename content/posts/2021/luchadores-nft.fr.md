@@ -161,4 +161,4 @@ _Je n'en parle que maintenant sur le blog car je voulais prendre le temps d'arti
 
 J'espère que cet article vous a permis de comprendre ce qui peut bien me fasciner dans une collection de lutteurs, et plus généralement comment j'analyse une collection et qu'il vous aidera également à évaluer d'autres.
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en anglais.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

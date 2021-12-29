@@ -179,7 +179,7 @@ To farm natively in Euros, the best option is still what you can do with EURS. S
 
 I hope these different recipes will inspire you. Make sure you are **[aware of the different money market risks]({{< relref path="/content/posts/2021/money-market-risks.md" >}})**, used for all these strategies.
 
-*🙏 Huge thanks to HHK, Charles, Thomas, Erwan & FrenchTony for proofreading the French version of this article and translating it integrally into English.*
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
 
 ---
 

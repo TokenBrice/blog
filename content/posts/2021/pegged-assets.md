@@ -248,4 +248,4 @@ I hope this article helps you better understand the rise of pegged-assets on Eth
 
 Finally, whether you are convinced by Reflexer or not, I strongly encourage you to dig into this system, just as I regularly invite you to explore the workings of Aave, Curve or Unslashed. All four are very relevant and innovative systems: understanding them in depth will allow you to internalize many essential things  to understand decentralized finance in general.
 
-*🙏 Huge thanks to HHK, Charles, Th., HarveyDentist & FrenchTony for proofreading the French version of this article and translating it integrally into English*
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._

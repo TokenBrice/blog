@@ -126,3 +126,5 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 5. & Bien sûr [ce blog](/fr/) qui creuse des sujets spécifiques liés à la pratique de la DeFi.
 
 {{< /notice >}}
+
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

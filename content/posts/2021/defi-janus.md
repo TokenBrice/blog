@@ -203,6 +203,8 @@ On all three fronts, I think the situation will force Uniswap, Maker and Yearn t
 
 As the DAOs of the three protocols fell out of sync with their users, the latter reminded them where their interests lay in the simplest and most effective way we know of: with consistent capital movement. I can't wait to see what happens next!
 
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
+
 [^mkrgov]: Take a look for example [this pre-proposal taken at random from the MakerDAO governance forum](https://forum.makerdao.com/t/mip33-maker-stability-price-module/5943)
 [^yearnfrais]: [Yearn Finance documentation - Fee structure](https://docs.yearn.finance/yearn-finance/yvaults/overview#yvault-fee-structure)
 [^makerclientelecaptive]: DAI is still seen by many as a decentralized stablecoin that doesn't require trust, although it no longer does. There are still few stablecoins that rely only on trustless (ETH) and credibly decentralized (or on track) collateral: I know of two - Liquity's LUSD and Reflexer's RAI.

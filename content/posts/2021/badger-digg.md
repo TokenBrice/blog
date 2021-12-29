@@ -128,3 +128,5 @@ Considering the **[success of the Curve & CRV model]({{< relref path="/content/p
 [^1]: The graphs are coming from [Badger's DAO liquidity mining launch announcement](https://badgerdao.medium.com/badger-dao-liquidity-mining-launch-b2415301bd31#:~:text=Tokens%20distributed%3A%20%24BADGER%20and%20%24,2nd%20product%20of%20the%20DAO.).
 [^2]: **[Meme](https://dontbuymeme.com/collections/badger)** is a distribution mechanism for NFT where users stake a given token (bBADGER in our case) to earn points - pineapples. They can them redeem the pineapples for the NFT of their choice.
 [^3]: This is not purerly speculative as BadgerDAO is already exploring how it could [harness synergies with UMA and SushiSwap](https://twitter.com/spadaboom1/status/1354826775801561091?s=20) to achieve a similar end.
+
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._

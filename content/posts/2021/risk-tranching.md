@@ -159,4 +159,4 @@ I for one cannot wait: I've been prepping for the past three years.
 
 _Thanks to Waël for making the cover image featured at the top of this article (as well as the TokenBrice emblem)._
 
-_& To FrenchTony and ParaBellum68 for their help reviewing it._
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._

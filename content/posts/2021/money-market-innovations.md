@@ -182,6 +182,6 @@ Finally, let me remind you that in addition to functionality, **risk management 
 
 **[Assessing risk in decentralized finance: a handbook for money markets]({{< relref path="/content/posts/2021/money-market-risks.md" >}})**
 
-*🙏 Huge thanks to HHK, Charles, Thomas, Erwan & FrenchTony for proofreading the French version of this article and translating it integrally into English.*
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
 
 [^LQTY]: You'll find more info [regarding the LQTY token distribution](https://docs.liquity.org/faq/lqty-distribution-and-rewards) in the official documentation.

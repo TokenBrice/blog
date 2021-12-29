@@ -160,4 +160,4 @@ I'm only talking about it now on the blog because I wanted to take the time to a
 
 I hope this article has helped you understand what it is about a collection of wrestlers that fascinates me, and more generally how I analyze a collection, and that it will also help you evaluate others.
 
-🙏 Huge thanks to HHK, Charles, Thomas, Erwan & FrenchTony for proofreading the French version of this article and translating it integrally into English.
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._

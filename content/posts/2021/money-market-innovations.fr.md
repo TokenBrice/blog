@@ -182,6 +182,7 @@ Pour finir, permettez moi de vous rappeler qu'outre les fonctionnalités, **la g
 
 **[De l'évaluation du risque sur les marchés monétaires en finance décentralisée]({{< relref path="/content/posts/2021/money-market-risks.fr.md" >}})**
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en anglais.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
+
 
 [^LQTY]: Retrouvez [plus d'infos sur la distribution de LQTY](https://docs.liquity.org/faq/lqty-distribution-and-rewards) dans la doc.

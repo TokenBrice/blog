@@ -237,7 +237,7 @@ I hope you've learned a few things from this fairly comprehensive presentation o
 
 I hope that reading this article has been informative for you.
 
-_🙏 Huge thanks to HHK, Charles, Thomas, Erwan & FrenchTony for proofreading the French version of this article and translating it integrally into English._
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
 
 Didn't get enough? Well, the Reflexer team has some very well written articles to explain the system in more depth - in English. Here are the ones I particularly recommend reading:
 

@@ -172,4 +172,4 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 
 _Merci à Waël qui a réalisé l'image de couverture qui illustre cet article (et l'emblème TokenBrice)._
 
-_& merci à FrenchTony et ParaBellum68 pour leur relecture et conseils._
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

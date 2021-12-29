@@ -157,4 +157,4 @@ J'espère que cet article vous aidera à mieux comprendre ce qu'il s'est joué a
 
 Ce qui est chouette avec les différents mécanismes d'incitation, c'est qu'ils précèdent l'action. En game theory, il n'y a pas de certitudes, mais certains comportements sont quasiment mécaniques - pour qui comprend réellement les incitations et leurs enjeux. C'est à vous de jouer !
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

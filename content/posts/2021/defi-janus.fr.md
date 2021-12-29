@@ -207,7 +207,7 @@ Sur les trois fronts, je pense que la situation forcera Uniswap, Maker et Yearn 
 
 Alors que les DAO des trois protocoles se sont désynchronisées de leurs utilisateurs, le meilleur intérêt de ceux-ci leur a été rappelé de la manière la plus simple et efficace que l'on connaisse : avec des mouvements de capitaux conséquents. J'ai hâte de voir ce qui arrive ensuite !
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
 
 [^mkrgov]: Regardez par exemple [cette pré-proposition prise au hasard sur le forum de gouvernance de MakerDAO](https://forum.makerdao.com/t/mip33-maker-stability-price-module/5943)
 [^yearnfrais]: [Documentation Yearn Finance - Structure des frais](https://docs.yearn.finance/yearn-finance/yvaults/overview#yvault-fee-structure)

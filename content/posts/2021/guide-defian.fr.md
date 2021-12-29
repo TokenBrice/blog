@@ -173,4 +173,4 @@ Pour se quitter, voici quelques contenus afin d’aller plus loin dans ta décou
 
 {{< youtube fMpYQYXBrfA >}}
 
-*🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de cet article.*
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de cet article._

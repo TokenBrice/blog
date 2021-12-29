@@ -193,3 +193,5 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 
 [^1]: Vous trouverez plus d'informations dans la [Documentation Uniswap V2](https://uniswap.org/docs/v2/advanced-topics/fees/).
 [^2]: Un concept [d'abord théorisé dans la lettre d'information Bankless]([https://newsletter.banklesshq.com/p/the-life-of-a-protocol-politician]) qui fait référence à une personne ou une entité spécialisée dans l'obtention d'une influence sur divers protocoles décentralisés et qui offre ensuite un accès sur le terrain à cette influence en tant que service.
+
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._

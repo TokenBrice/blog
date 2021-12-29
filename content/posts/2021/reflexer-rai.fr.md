@@ -269,7 +269,7 @@ J'espère que cette présentation assez exhaustive de RAI vous aura appris des c
 
 J'espère que la lecture de cet article aura été instructive pour vous.
 
-_🙏 Un grand merci à HHK, Charles, Thomas, Erwan & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais. Ainsi qu'à [Guifel](https://twitter.com/guifel_) de l'équipe Reflexer pour ses suggestions avisées._
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais. Ainsi qu'à [Guifel](https://twitter.com/guifel_) de l'équipe Reflexer pour ses suggestions avisées._
 
 Vous n'en avez pas eu assez ? Ça tombe bien, l'équipe Reflexer vous propose des articles très bien écrits pour expliquer le système plus en profondeur - en anglais. Voici ceux dont je recommande particulièrement la lecture :
 

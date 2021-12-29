@@ -126,6 +126,9 @@ De plus, pour revenir à Badger, l'adoption d'un tel modèle pourrait signifier 
 
 Compte tenu **[du succès du modèle Curve / CRV]({{< relref path="/content/posts/2021/dex-value-capture.fr.md" >}})**, il est logique de voir de plus en plus de protocoles en adopter les éléments : l'essentiel étant de donner à vos détenteurs la possibilité d'engager leurs tokens pour participer à la gouvernance, de puiser dans les flux de revenus de la plateforme et d'augmenter leurs propres rendements obtenus par l'utilisation du service.
 
+_🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
+
+
 {{< notice tip >}}
 
 Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit — nous avons un ecosystème dynamique en français pour vous aider à suivre et comprendre la finance décentralisée. Du plus accessible au plus spécialisé :

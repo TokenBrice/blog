@@ -185,3 +185,5 @@ We're thrilled to meet 0xMaki to discuss the topic **in French** this Monday on 
 
 [^1]: Find more info in the [Uniswap V2 Documentation](https://uniswap.org/docs/v2/advanced-topics/fees/).
 [^2]: A concept [first theorized in the Bankless newsletter]([https://newsletter.banklesshq.com/p/the-life-of-a-protocol-politician)referring to a person or entity specializing in gaining influence over diverse decentralized protocols & then offering on-the-tap access to this influence as a service.
+
+_🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
