@@ -270,4 +270,3 @@ Have fun !
 {{< youtube LXDSxRCMsDE >}}
 
 _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
-

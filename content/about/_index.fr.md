@@ -82,7 +82,8 @@ Live **introduction à la finance décentralisée avec [NolanVanmoortel](https:/
 2. Le [replay du live là](https://www.youtube.com/watch?v=yZUlZgOneOk&t=8623s)
 
 La **DeFinanciarisation des NFTs** (DFF XIII - Nov 25 2021) : 
-[Slides de la présentation](https://docs.google.com/presentation/d/1yR6TttpBCtCYC5rKNvL8apzOCPQ7qPNTZjrYGHyTvTw/edit?usp=sharing)
+- [Slides de la présentation](https://docs.google.com/presentation/d/1yR6TttpBCtCYC5rKNvL8apzOCPQ7qPNTZjrYGHyTvTw/edit?usp=sharing)
+- [Replay de la présentation Youtube avec CookingCrypto](https://www.youtube.com/watch?v=cdj-wXvIuwU)
 
 #### Les précédentes présentations
 
