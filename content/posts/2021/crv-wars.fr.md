@@ -268,4 +268,12 @@ Avant de conclure, je tiens à vous rappeler que comme d'habitude l'alpha se tro
 
 Je vous le dis souvent, mais ce sera jamais assez : non seulement Curve est le DEX le plus important en DeFi mais c'est également **le protocole le plus avancé en terme de gouvernance et de tokenomics de très loin par rapport à tout ce qu'il se fait d'autre**. Même si vous n'avez aucun intérêt pour Curve/Convex, il est indispensable de comprendre ces protocoles pour bien envisager ce qu'il se passe en DeFi… En espérant que cet article vous y aidera !
 
+{{< notice tip >}}
+Pour approfondir votre compréhension du CRV, pilier de la DeFi, je vous propose également deux sessions en direct avec Charlie; un membre de l'équipe Curve :
+
+**[Marathon DeFi Curve Finance dans le détail](https://www.youtube.com/watch?v=G5PbqGtjSDQ)**
+{{< /notice >}}
+
+{{< youtube EjuPdHv1bX8 >}}
+
 _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
