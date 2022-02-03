@@ -12,6 +12,9 @@ Pourtant, l'expression a eu le mérite de souligner le rôle de la pandémie qui
 
 ![francis-bacon-triptych](/img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg "Triptyque - Francis Bacon (1976)")
 
+## 🔊 Écoutez cet article en audio, lu par HeyZachy:
+{{< audio "technofeodalisme-fr.mp3" >}}
+
 ## Les deux mondes post-covid
 
 Pour ma part, j'ai accueilli le monde "post-Covid" à bras ouverts, car il a finalement fait apparaître des changements fondamentaux qui étaient auparavant difficiles à remarquer. Cela peut être effrayant et inquiétant, mais cela a un mérite : la situation actuelle exerce **trop de pression sur le statu quo pour qu'il se maintienne** - il finira par se normaliser d'une manière ou d'une autre.
