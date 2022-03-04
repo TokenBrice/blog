@@ -136,8 +136,8 @@ This rate impacts simple RAI owners less directly, especially if they use them t
 
 **Dynamic adjustment of the redemption rate is one of the essential features of Reflexer / RAI**. To better understand why this is critical, let's analyze the situation on Maker pre-MCD:
 
-1. The demand for IADs is (part of) the demand for stablecoins.
-2. However, IADs are created by leveraging ETH, so they depend on the need/appetite for leverage on ETH, which is independent of the demand for stablecoins, which mostly depends on general market conditions (bear or bull and others).
+1. The demand for DAI is (part of) the demand for stablecoins.
+2. However, DAI are created by leveraging ETH, so they depend on the need/appetite for leverage on ETH, which is independent of the demand for stablecoins, which mostly depends on general market conditions (bear or bull and others).
 3. If demand is higher than supply, on Maker, there is no dynamic adjustment. You have to wait for a vote of the governance (and the delays that go with it) to lower the Stability Fee. And it's the same in the other direction (too much supply).
 
 Thus, **the balance between the supply and demand side of the equation is almost impossible to maintain**, which is why the pre-MCD DAI could often end up above its peg. Maker solved this problem by adding many types of collateral, including non-trustless stablecoins and then the PSM which automatically mints DAI from USDC when needed. The solution proposed by Reflexer (dynamic adjustment of the redemption rate) has the merit of **solving the problem at the level of the system itself**, which allows to keep ETH as the only collateral.
