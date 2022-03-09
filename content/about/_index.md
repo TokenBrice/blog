@@ -71,8 +71,6 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ## Contact Me
 
-👉 [Have a closer look at the services I provide to help DeFi projects grow here]({{< relref path="/content/about/services.md" >}})
-
 | 🐦 Twitter | 🛩 Telegram | 👾 Reddit |
 | :---: | :---: | :---: |
 | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
