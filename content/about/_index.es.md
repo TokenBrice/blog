@@ -24,7 +24,6 @@ Trabajo en el desarrollo del ecosistema DeFi en Ethereum apoyando las comunidade
 | :---: | :---: | :---: | :---: |
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://discord.gg/3bWZcK2) | Encuentro mensual y grupo de discusión sobre las Finanzas Descentralizadas, completamente en francés. | Co-organizador |
 |  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [TokenBrice](https://twitch.tv/tokenbrice) | En [Twitch](https://twitch.tv/tokenbrice), explico los conceptos fundamentales de las Finanzas Descentralizadas. Diferentes formatos de emisión nos ayudan a tener una mejor perspectiva como la Science Fiction DeFi. | Anfitrión |
-|  ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | El software DeFi que facilita la implementación de swaps optimizados por las dAPps y los usuarios finales. | Desarrollo de la comunidad |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Versión francesa de [Bankless](https://twitter.com/BanklessHQ): una newsletter concebida como una guía que lo ayudará a entender progresivamente las Finanzas Descentralizadas y a aprovechas las oportunidades que esta ofrece. | Coordinador |
 
 ### DeFi France

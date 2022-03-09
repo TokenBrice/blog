@@ -22,7 +22,6 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
-| ![paraswap](/img/others/paraswap.jpeg) | [💱 ParaSwap](https://paraswap.io) | DeFi's middleware that facilitates and optimizes the exchange of tokens for end-users or dApps. | Governance Ambassador
 | ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model game + ERC20 token coming soon! | Community Development |
 | ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | French version of [Bankless](https://twitter.com/BanklessHQ): a newsletter designed as a guide that helps you progressively understand and take advantage of the opportunities offered by decentralized finance. | Coordinator
