@@ -3,10 +3,10 @@ title: "Comment construire un portefeuille DeFi résistant à l'inflation ?"
 description: "Et si la DeFi, plus que jamais, offrait des réponses sérieuses et crédibles aux enjeux économiques et financiers ? Illustration avec l'inflation gallopante et les divers produits et stratégies qui peuvent être mis en place pour s'en prémunir."
 date: '2022-03-08T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Comprendre]
-tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin, Yearn Finance, Harvest Finance, Fuse, jFiats, Inflation, Dollar]
+tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin, Yearn Finance, Harvest Finance, Fuse, jFiats, Inflation, Dollar, stagflation, PT, FYT]
 toc: true
-tocNum: true
-url: 
+tocNum: false
+url: defi-vs-inflation
 ---
 
 
@@ -26,7 +26,7 @@ Je ne m’hasarderais pas à rentrer en détail sur l’inflation pour les monna
 
 Avant de rentrer dans le vif du sujet, partons de la base : l’inflation, telle que définie par l’Insee (Institut National de la Statistique et des Études Économiques) :
 
-“L'inflation est la perte du pouvoir d'achat de la monnaie qui se traduit par une augmentation générale et durable des prix. Elle doit être distinguée de l'augmentation du coût de la vie. La perte de valeur de la monnaie est un phénomène qui frappe l'économie nationale dans son ensemble (ménages, entreprises, etc.).”
+> L'inflation est la perte du pouvoir d'achat de la monnaie qui se traduit par une augmentation générale et durable des prix. Elle doit être distinguée de l'augmentation du coût de la vie. La perte de valeur de la monnaie est un phénomène qui frappe l'économie nationale dans son ensemble (ménages, entreprises, etc.).
 
 Rappelons juste que, **tout comme en DeFi où chaque token est associé à un protocole et potentiellement même un écosystème, chaque monnaie fiduciaire s’appuie sur une économie ainsi qu’un ensemble de règles** (système légal).
 
@@ -60,7 +60,7 @@ On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduc
 
 Pour  comparer avec la crypto, nombreux sont ceux qui se soucient de l’inflation / émission de nouveau token sur Curve Finance (CRV). La courbe d'émission sur 4 ans ressemble à ceci :
 
-![cover](/img/2022/defi-vs-inflation/crv-release-schedule.png "Courbe d'émission du token CRV")
+![crv-release-schedule](/img/2022/defi-vs-inflation/crv-release-schedule.png "Courbe d'émission du token CRV")
 
 
 
@@ -90,7 +90,7 @@ Ici, le jeu est simple et les règles assez faciles à comprendre :
 
 On visera donc **un rendement 10.875% annuel sur stablecoin $ au strict minimum**. Avec les baisses récentes et la compression des rendements c’est de plus en plus difficile, mais encore trouvable même avec un dépôt dans un seul stablecoin sans risque d’IL. Des outils comme [Coindix](https://coindix.com/?kind=stable&sort=-apy&chain=ethereum) peuvent vous aider à trouver le vault de vos rêves :
 
-![cover](/img/2022/defi-vs-inflation/coindix.png)
+![coindix](/img/2022/defi-vs-inflation/coindix.png)
 
 
 Attention cependant, **tous les vaults ne se valent pas** ! Par exemple, on voit de beaux rendements sur Bancor sur la capture d’écran : n’oubliez pas de considérer la volatilité de ces rendements ainsi que les frais en gas pour déployer la position (un LP Bancor est notoirement plus coûteux qu’un dépôt sur Yearn par exemple).
@@ -122,7 +122,7 @@ L’exemple est pris ici sur DAI, mais la situation est similaire sur les autres
 ![FRAX/USDC LP opportunities](/img/2022/defi-vs-inflation/frax-usdc.png "Opportunités LP sur FRAX/USDC")
 
 {{< notice tip >}}
-Convex pour Frax arrive, si vous n’avez pas vos propres veFXS, il est probablement pertinent d’attendre la sortie du service pour prendre une décision avec toutes les cartes en main.
+Convex pour Frax arrive (optimisation du farming des LPs Frax via Convex), si vous n’avez pas vos propres veFXS, il est probablement pertinent d’attendre la sortie du service pour prendre une décision avec toutes les cartes en main.
 {{< /notice >}}
 
 ### Spéculation sur le taux de rendement et tokénisation
@@ -329,9 +329,9 @@ Chez les romains, les Parques sont trois déesses qui gouvernent la vie des huma
 
 
 
-* Clotho tisse le fil de la vie
-* Lachesis le déroule
-* Atropos le découpe
+1. Clotho tisse le fil de la vie
+2. Lachesis le déroule
+3. Atropos le découpe
 
 La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et croissance de potentiellement tout autre.
 
@@ -391,6 +391,7 @@ Depuis, le volume de transactions a baissé et le rendement en ETH avec, mais **
 
 Je m’arrête à ces trois suggestions, mais il y a bien sûr d’autres options - à vous de juger. Par exemple, les QI Wars ont commencé et le protocole a une bonne traction. Attention cependant à ne pas tomber dans le piège qui consiste à penser que tous les protocoles qui adoptent le modèle ve + bribes connaîtront le succès de Curve et Convex. Les tokenomics ve vont se multiplier : il s’agit de faire les bons choix !
 
+---
 
 ## Bonne chance et joyeuses récoltes 🚜
 
@@ -413,4 +414,9 @@ Et enfin pour la pratique, qui reste ESSENTIELLE, le mieux est encore d’essaye
 2. Minting jFIAT / Apport de liquidité sur Curve + farming pour découvrir Jarvis
 3. Long/short sur Forex grâce aux jFiats + Fuse.
 
-_Disclosure: J’ai investi dans la pre-sale d’APWine et je suis un grand utilisateur du protocole. Je suis utilisateur et souvent holder de quasi tous les protocoles mentionnés dans cet article._
+
+{{< notice info >}}
+Disclosure: J’ai investi dans la pre-sale d’APWine et je suis un grand utilisateur du protocole. Je suis utilisateur et souvent holder de quasi tous les protocoles mentionnés dans cet article. 
+
+Cet article ne constitue pas un conseil en investissement : je partage simplement mes recherches pour vous aider à faire les votres.
+{{< /notice >}}
