@@ -293,14 +293,15 @@ En effet, Abracadabra permet d’emprunter depuis divers collatéraux productifs
 
 L’idée ici, avec Volt, c’est de couvrir la même verticale en utilisant une infrastructure qui a fait ses preuves : la base offerte par Reflexer (RAI). Trois modifications principales sont attendues sur ce modèle :
 
-
-
 1. Contrairement à Reflexer qui n’accepte que ETH en collatéral, Volt va diversifier les options disponibles, notamment avec des collatéraux productifs type wstETH. 
 2. La valeur de VOLT, le stablecoin du système, sera indexée sur le FPI de Frax. L’infrastructure de Reflexer sera là encore réutilisée (PID controller adapté)
 3. L’équipe de Volt travaille également en collaboration avec Fuse et Olympus.
 
 Pour suivre Volt, rien de mieux que [leur Discord ](https://discord.gg/dGhvDmCNGr)!
 
+{{< notice note >}}
+Je décrit ici le design initial de Volt Protocol, qui a évolué depuis. La vision de créer un service d'emprunt avec un stablecoin résistant à l'inflation demeure, mais les choix techniques ont évolué. Lisez [le whitepaper disponible ici](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) pour les dernières informations.
+{{< /notice >}}
 
 ## IV/ Battre l’inflation grâce à des rendements sur actifs volatils
 
@@ -363,8 +364,6 @@ Avec l’arrivée des APWine Wars, il n’est pas fantoche d’envisager à term
 #### Reflexer (FLX) : pari sur la dégouvernance
 
 Outre l’approche technique très intéressante, Reflexer innove également à un autre niveau. En effet, depuis le lancement du protocole, l’équipe a présenté un “Plan de Dégouvernance” visant à progressivement minimiser le contrôle de l’équipe sur le protocole grâce à deux moyens principaux :
-
-
 
 * Automatisation de tout ce qui peut l’être
 * Gestion par les holders de FLX pour les situations nécessitant encore une analyse manuelle / prise de décision.
