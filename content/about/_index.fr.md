@@ -32,16 +32,13 @@ DeFi France est la principale communauté francophone pour échanger au sujet de
 
 Elle se retrouve désormais sur le Discord, avec [un système sur-mesure](https://tokenbrice.xyz/posts/2021/guide-defian.fr.md) pour permettre la gestion directe de la communauté par ses membres. 
 
-### ParaSwap
-
-ParaSwap est un outil qui permet l'optimisation des échanges de tokens via les échanges décentralisés sur le réseau Ethereum et les sidechains EVM compatible (actuellement BSC, Polygon et Avalanche). Il est accessible directement, mais aussi intégrable & utilisable par d'autres applications décentralisées.
-
-En Novembre 2021, [le token PSP a été lancé](https://doc.paraswap.network/psp-token-and-governance/token-overview), permettant une décentralisation plus approfondie du protocole et la délégation progressive des fonctions essentielles à la DAO. En tant qu' "ambassadeur gouvernance", je suis là pour faciliter la prise de fonction et montée en puissance de la DAO ParaSwap.
 
 ### Luchadores
 
 `#UltraSoundNFT`
 Un projet NFT opiniatre qui fait les choses bien : données 100% onchain (svg) et génération des attributs lors du mint par un processus vérifiable et auditable (ChainLink VRF). Jeu en modèle Play2Earn à venir.
+
+[Vive la lutte libre (et vérifiable onchain) !](https://tokenbrice.xyz/fr/luchadores-nft/)
 
 ### BanklessFR
 
@@ -49,7 +46,9 @@ J'ai contribué à la mise en route de BanklessFR, prise en charge par Jon et re
 
 ### Précédentes occupations
 
-J'ai été le Community Manager de [Monolith](https://monolith.xyz) pendant 18 mois avant de décider de me concentrer sur mes engagements communautaires. Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies digitales pérennes. 
+En tant qu' "ambassadeur gouvernance" de [ParaSwap](https://paraswap.io), j'ai aidé à la mise en place et montée en puissance de la DAO.
+
+J'ai également été le Community Manager de [Monolith](https://monolith.xyz) pendant 18 mois avant de décider de me concentrer sur mes engagements communautaires. Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies digitales pérennes.
 
 En dehors de la finance décentralisée, mon expertise technique se concentre autour de la production de contenus, la gestion de communauté et la logistique nécessaire pour mener à bien ces opérations dans la durée.
 

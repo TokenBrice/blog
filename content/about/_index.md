@@ -33,22 +33,20 @@ DeFi France is the main French-speaking community to exchange about decentralize
 I host the weekly live shows that take place on **[Monday at 5pm on the YouTube channel DeFi France](https://www.youtube.com/c/defifrance)** - after a press review of the French-speaking DeFi, we analyze a transversal theme or a given project.
 
 
-### ParaSwap
-
-ParaSwap is a tool enabling the optimization of token swaps via decentralized exchanges on the Ethereum network and compatible EVM sidechains (currently BSC, Polygon and Avalanche). It is directly accessible, but also integrable & usable by other decentralized applications.
-
-In November 2021, [the PSP token was launched](https://doc.paraswap.network/psp-token-and-governance/token-overview), allowing for further decentralization of the protocol and gradual delegation of core functions to the DAO. As a "governance ambassador", I am here to facilitate the takeover and ramp-up of the ParaSwap DAO.
-
 ### Luchadores
 
-UltraSoundNFT
+`UltraSoundNFT`
 An NFT project that does things right: 100% onchain data (svg) and attribute generation during mint by a verifiable and auditable process (ChainLink VRF). Game in Play2Earn model to come.
+
+[Read the Luchadores Thesis](https://tokenbrice.xyz/luchadores-nft/)
 
 ### BanklessFR
 
 I was instrumental in getting BanklessFR off the ground, taken over by Jon and remains an active promoter - involved primarily at the community level.
 
 ### Previous Occupations
+
+I've helped [ParaSwap](https://paraswap.io), the decentralized exchange aggregator launch its DAO and quickstart the initial contributions.
 
 I was the Community Manager of [Monolith](https://monolith.xyz) for 18 months before I decided to focus on my community commitments. Since the beginning of my career, I have been working with startups to help them develop their online presence and implement sustainable digital strategies. 
 
