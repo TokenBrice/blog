@@ -327,8 +327,6 @@ Une position ainsi équilibrée suit l’inflation / la dépasse légèrement av
 
 Chez les romains, les Parques sont trois déesses qui gouvernent la vie des humains :
 
-
-
 1. Clotho tisse le fil de la vie
 2. Lachesis le déroule
 3. Atropos le découpe
@@ -337,15 +335,11 @@ La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle c
 
 En effet, outre l’ETH, il y a plusieurs projets DeFi qui ont déjà fait leurs preuves, contrôlent des flux de revenu conséquents et offrent un service réellement pertinent dans un contexte macro d’inflation prolongée ; j’en vois trois essentiellement :
 
-
-
 1. **Curve Finance - CRV** : la mère de tous les yields en DeFi + machine à peg et liquidité.
 2. **Convex Finance - CVX** : une option sur CRV, qui contrôle quasi 50% de tous les CRV verrouillés et apporte une réelle valeur ajoutée.
 3. **Frax Finance - FXS** : projet stable innovant, DeFi natif, très productif via les AMOs + arrivée de FPI + Frax possède une grosse position sur CVX & quelques autres protocoles.
 
 Tout en étant des tokens adossés à des protocoles essentiels en DeFi, les options de rendement sur ces trois tokens ne manquent pas :
-
-
 
 1. CRV -> Dépôt sur Convex en CvxCRV puis stake ou LP cvxCRV/CRV.
 2. CVX -> Vote locked sur Convex en vlCVX -> rendement en cvxCRV + bribes

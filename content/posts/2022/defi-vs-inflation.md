@@ -297,6 +297,9 @@ The idea here, with Volt, is to cover the same vertical using a proven infrastru
 
 To follow Volt, as always, the alpha lives on [the Discord](https://discord.gg/dGhvDmCNGr)!
 
+{{< notice note >}}
+I describe here the initial design of Volt Protocol, which has since evolved. The vision of creating a borrowing service with an inflation-proof stablecoin remains, but the technical choices have evolved. Read [the whitepaper available here](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) for the latest information.
+{{< /notice >}}
 
 ## IV/ Beating inflation with returns on volatile assets
 
@@ -322,8 +325,6 @@ A position balanced in this way tracks/exceeds inflation slightly with the retur
 
 Among the Romans, the Fates are three goddesses who govern the lives of humans:
 
-
-
 1. Clotho weaves the thread of life
 2. Lachesis unwinds it
 3. Atropos cuts it
@@ -331,8 +332,6 @@ Among the Romans, the Fates are three goddesses who govern the lives of humans:
 DeFi also knows these Fates: three protocols that play a critical role in the survival and growth of potentially any other.
 
 Indeed, in addition to ETH, there are several DeFi projects that have already proven themselves, control substantial revenue streams, and offer a truly relevant service in a macro context of prolonged inflation; I see three essentially:
-
-
 
 1. **Curve Finance - CRV**: the mother of all yields in DeFi + peg machine and liquidity.
 2. **Convex Finance - CVX**: an option on CRV, which controls almost 50% of all locked CRVs and adds real value.
