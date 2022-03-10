@@ -66,7 +66,7 @@ Pour  comparer avec la crypto, nombreux sont ceux qui se soucient de l’inflati
 
 Je ne suis pas économiste, mais je connais mes shitcoins. Le chiffre officiel de l’inflation américaine qui nous est donné est 7.5% par an. Comme les chiffres du chômage, c’est une métrique hautement politique qu’il est dur d’apprécier réellement. 
 
-Le chiffre de 7.5% peut sembler élevé, mais il reste faible fasse à la création monétaire sans précédent réalisée pour faire face au Covid. Je m’attends ainsi à voir cette inflation augmenter encore, ou alors se maintenir sur une période prolongée d’une dizaine d’années.
+Le chiffre de 7.5% peut sembler élevé, mais il reste faible face à la création monétaire sans précédent réalisée pour faire face au Covid. Je m’attends ainsi à voir cette inflation augmenter encore, ou alors se maintenir sur une période prolongée d’une dizaine d’années.
 
 L’inflation est donc là, à 7.5% minimum pour plusieurs années a priori. Assez pour la macro de boomer, voyons donc l'éventail d’outils que la DeFi nous offre pour lui faire face et la dépasser.
 
