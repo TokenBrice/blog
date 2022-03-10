@@ -54,7 +54,7 @@ Assez pour le macro, revenons à notre échelle, avec des choses que l’on conn
 
 _Ici on ne regarde que M1 par simplicité mais la tendance est similaire sur M2 et M3._
 
-On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduciaire qui donne le ton. Comme vous pouvez le voir, la courbe part à la verticale depuis le début de la crise Covid. L’allure de la courbe est désormais bien plus effrayante que les pires shitcoins que j’ai pu croiser. Vous en doutez ? Considérez la même information, présentée sous cette angle :
+On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduciaire qui donne le ton. Comme vous pouvez le voir, la courbe part à la verticale depuis le début de la crise Covid. L’allure de la courbe est désormais bien plus effrayante que les pires shitcoins que j’ai pu croiser. Vous en doutez ? Considérez la même information, présentée sous cet angle :
 
 **Le dollar existe depuis 1914. 20% de tous les dollars en circulation ont été créés en 2020. Au rythme actuel, la quantité totale de dollars en circulation double tous les 4-5 ans environ.**
 
@@ -66,7 +66,7 @@ Pour  comparer avec la crypto, nombreux sont ceux qui se soucient de l’inflati
 
 Je ne suis pas économiste, mais je connais mes shitcoins. Le chiffre officiel de l’inflation américaine qui nous est donné est 7.5% par an. Comme les chiffres du chômage, c’est une métrique hautement politique qu’il est dur d’apprécier réellement. 
 
-Le chiffre de 7.5% peut sembler élevé, mais il reste faible fasse à la création monétaire sans précédent réalisée pour faire face au Covid. Je m’attends ainsi à voir cette inflation augmenter encore, ou alors se maintenir sur une période prolongée d’une dizaine d’années.
+Le chiffre de 7.5% peut sembler élevé, mais il reste faible face à la création monétaire sans précédent réalisée pour faire face au Covid. Je m’attends ainsi à voir cette inflation augmenter encore, ou alors se maintenir sur une période prolongée d’une dizaine d’années.
 
 L’inflation est donc là, à 7.5% minimum pour plusieurs années a priori. Assez pour la macro de boomer, voyons donc l'éventail d’outils que la DeFi nous offre pour lui faire face et la dépasser.
 
@@ -300,14 +300,14 @@ L’idée ici, avec Volt, c’est de couvrir la même verticale en utilisant une
 Pour suivre Volt, rien de mieux que [leur Discord ](https://discord.gg/dGhvDmCNGr)!
 
 {{< notice note >}}
-Je décrit ici le design initial de Volt Protocol, qui a évolué depuis. La vision de créer un service d'emprunt avec un stablecoin résistant à l'inflation demeure, mais les choix techniques ont évolué. Lisez [le whitepaper disponible ici](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) pour les dernières informations.
+Je décris ici le design initial de Volt Protocol, qui a évolué depuis. La vision de créer un service d'emprunt avec un stablecoin résistant à l'inflation demeure, mais les choix techniques ont évolué. Lisez [le whitepaper disponible ici](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) pour les dernières informations.
 {{< /notice >}}
 
 ## IV/ Battre l’inflation grâce à des rendements sur actifs volatils
 
-**Dans un monde où plus rien ne tient et la valeur fuit, que nous reste il ?** Et pourquoi pas de bons actifs DeFi qui ont fait leurs preuves et sont adossés à des protocoles aux revenus massifs et récurrents partagés directement avec leur holders ?
+**Dans un monde où plus rien ne tient et la valeur fuit, que nous reste-t-il ?** Et pourquoi pas de bons actifs DeFi qui ont fait leurs preuves et sont adossés à des protocoles aux revenus massifs et récurrents partagés directement avec leurs holders ?
 
-Il en existe quelques uns, très peu. On va les détailler un à un, ainsi que les différentes options disponibles sur ceux-ci pour produire un rendement.
+Il en existe quelques-uns, très peu. On va les détailler un à un, ainsi que les différentes options disponibles sur ceux-ci pour produire un rendement.
 
 
 ### ETH : l’origine et la fin
@@ -321,7 +321,7 @@ Il y a bien sûr l’ETH, qui connaît de nombreuses sources de rendements diver
 * Vault covered call options sur ETH via [Stakedao](https://stakedao.org/) ou [Ribbon Finance](https://www.ribbon.finance/) [~25%, risques !]
 * Apport de liquidité cross-chain sur un Bridge, par exemple [Celer](https://cbridge.celer.network/#/liquidity) [~10%]
 
-Une position ainsi équilibrée suit l’inflation / la dépasse légèrement avec les rendements obtenus sur les ETH. La profitabilité de la position sur le long-terme dépend bien sûr essentiellement du prix d’entrée moyen sur ETH et de l’évolution de celui-ci.
+Une position ainsi équilibrée suit l’inflation / la dépasse légèrement avec les rendements obtenus sur les ETH. La profitabilité de la position sur le long terme dépend bien sûr essentiellement du prix d’entrée moyen sur ETH et de l’évolution de celui-ci.
 
 
 ### CRV, CVX, et FXS : Les trois Parques de la DeFi ?
@@ -332,7 +332,7 @@ Chez les romains, les Parques sont trois déesses qui gouvernent la vie des huma
 2. Lachesis le déroule
 3. Atropos le découpe
 
-La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et croissance de potentiellement tout autre.
+La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et la croissance de potentiellement tout autre.
 
 En effet, outre l’ETH, il y a plusieurs projets DeFi qui ont déjà fait leurs preuves, contrôlent des flux de revenu conséquents et offrent un service réellement pertinent dans un contexte macro d’inflation prolongée ; j’en vois trois essentiellement :
 
@@ -349,12 +349,12 @@ Tout en étant des tokens adossés à des protocoles essentiels en DeFi, les opt
 
 ### D’autres tokens prometteurs
 
-Enfin, il reste d’autres projets qui n’ont pas encore atteint la profitabilité de Curve ou Convex mais représentent des paris crédibles. Dans un monde où l’inflation est là durablement, les outils qui vont permettre de s’en prémunir peuvent devenir très populaire : je vous propose quelques autres thèses toujours en lien avec ce qui a été mentionné dans l’article.
+Enfin, il reste d’autres projets qui n’ont pas encore atteint la profitabilité de Curve ou Convex mais représentent des paris crédibles. Dans un monde où l’inflation est là durablement, les outils qui vont permettre de s’en prémunir peuvent devenir très populaires : je vous propose quelques autres thèses toujours en lien avec ce qui a été mentionné dans l’article.
 
 
 #### APWine.fi (APW) : pari sur l’infrastructure DeFi avancée
 
-Quand l’inflation monte, tout le monde cherche du rendement. Laissez les courir derrière les %, et ciblez plutôt les vendeurs de pioches dans cette ruée vers l’or. C’est la thèse principale derrière un pari sur APW.
+Quand l’inflation monte, tout le monde cherche du rendement. Laissez-les courir derrière les %, et ciblez plutôt les vendeurs de pioches dans cette ruée vers l’or. C’est la thèse principale derrière un pari sur APW.
 
 Comme vous avez pu le voir dans l’article déjà, APWine offre des produits intéressants pour parier sur l’évolution des rendements ou encore réaliser immédiatement un rendement futur. Au fur et à mesure que la DeFi se développe, la demande pour un produit type APWine ne fait que grandir. Est-ce que ce sera APWine, ou un autre ? À vous de voir !
 
@@ -382,7 +382,7 @@ Voyez LOOKS comme une option sur le marché NFT. En effet, LooksRare est la prem
 
 Depuis, le volume de transactions a baissé et le rendement en ETH avec, mais **le staking LOOKS reste l’un des plus gros yields en ETH qui existe**.
 
-Je m’arrête à ces trois suggestions, mais il y a bien sûr d’autres options - à vous de juger. Par exemple, les QI Wars ont commencé et le protocole a une bonne traction. Attention cependant à ne pas tomber dans le piège qui consiste à penser que tous les protocoles qui adoptent le modèle ve + bribes connaîtront le succès de Curve et Convex. Les tokenomics ve vont se multiplier : il s’agit de faire les bons choix !
+Je m’arrête à ces trois suggestions, mais il y a bien sûr d’autres options - à vous de juger. Par exemple, les QI Wars ont commencé et le protocole a une bonne traction. Attention cependant à ne pas tomber dans le piège qui consiste à penser que tous les protocoles qui adoptent le modèle ve + bribes connaîtront le succès de Curve et Convex. Les tokenomics vont se multiplier : il s’agit de faire les bons choix !
 
 ---
 
@@ -411,5 +411,5 @@ Et enfin pour la pratique, qui reste ESSENTIELLE, le mieux est encore d’essaye
 {{< notice info >}}
 Disclosure: J’ai investi dans la pre-sale d’APWine et je suis un grand utilisateur du protocole. Je suis utilisateur et souvent holder de quasi tous les protocoles mentionnés dans cet article. 
 
-Cet article ne constitue pas un conseil en investissement : je partage simplement mes recherches pour vous aider à faire les votres.
+Cet article ne constitue pas un conseil en investissement : je partage simplement mes recherches pour vous aider à faire les vôtres.
 {{< /notice >}}
