@@ -240,7 +240,6 @@ Pour faire revenir le sdveCRV au peg et développer sa liquidité, il leur faudr
 
 * Revoir les paramètres de la pool
 * Incitations directes en SDT sur la pool ?
-* Bribes en SDT sur la pool ?
 
 Une fois ces étapes accomplies, l'équipe aurait alors une chance d'obtenir la gauge CRV sur cette pool, mais pas avant. La situation actuelle ressemble donc à une coûteuse impasse : **pas d'issue à moins de faire chauffer (encore plus) la planche à SDT**.
 

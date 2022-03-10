@@ -220,7 +220,6 @@ To get sdveCRV back to peg and develop its liquidity, they will need a lot of ef
 
 * Review the pool parameters
 * Direct incentives in SDT on the pool?
-* Bribes in SDT on the pool?
 
 Once these steps are completed, the team would then have a chance to get the CRV gauge on this pool, but not before. So the current situation looks like a costly dead end: **no way out unless the SDT board is heated (even more)**.
 
