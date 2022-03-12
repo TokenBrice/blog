@@ -414,3 +414,5 @@ Disclosure: I have invested in APWine pre-sale and I am a big user of the protoc
 This article does not constitute investment advice, I'm just sharing my research to help you do yours!
 {{< /notice >}}
 
+
+_🙏 Thanks to [Charles](https://twitter.com/C53300), [PhilH](https://twitter.com/phil_h) and [Disiaque](https://twitter.com/disiaque_eth) for their careful proofreading and their suggestions to help improve this article._

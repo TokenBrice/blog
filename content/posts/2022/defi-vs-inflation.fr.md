@@ -413,3 +413,5 @@ Disclosure: J’ai investi dans la pre-sale d’APWine et je suis un grand utili
 
 Cet article ne constitue pas un conseil en investissement : je partage simplement mes recherches pour vous aider à faire les votres.
 {{< /notice >}}
+
+_🙏 Un grand merci à [Charles](https://twitter.com/C53300), [PhilH](https://twitter.com/phil_h) et [Disiaque](https://twitter.com/disiaque_eth) pour leur relecture attentive et leurs nombreuses suggestions pertinentes._
