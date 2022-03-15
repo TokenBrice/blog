@@ -402,7 +402,6 @@ Pour approfondir, voici quelques lectures recommandées :
 Et enfin pour la pratique, qui reste ESSENTIELLE, le mieux est encore d’essayer avec de petites sommes sur des sidechains/L2 peu coûteux :
 
 
-
 1. Le protocole APWine sur Polygon afin de vous familiariser avec ces mécanismes.
 2. Minting jFIAT / Apport de liquidité sur Curve + farming pour découvrir Jarvis
 3. Long/short sur Forex grâce aux jFiats + Fuse.
