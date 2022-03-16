@@ -282,7 +282,7 @@ Le Frax Price Index, c’est un nouveau protocole qui devrait arriver prochainem
 
 Il est dur de se projeter sur un simple design envisagé, mais il est clair qu’un stablecoin qui maintiendrait sa valeur malgré l’inflation est un produit très désirable. **Plusieurs questions se posent quant au maintien du peg sur FPI** : pour maintenir son équilibre, il va falloir que des gens prennent le trade contraire au FPI, c’est à dire “short inflation”. Or, dans le contexte actuel avec une inflation galopante, on a du mal à envisager qui pourrait assumer une telle position.
 
-Néanmoins, l'arrivée du FPI est imminente. On trouve des traces du token [FPIS sur EtherScan](https://etherscan.io/address/0x4eb8b4c65d8430647586cf44af4bf23ded2bb794) dès la fin du mois de Février. Il a été créé par le Frax Deployer, donc à priori c’est bien le FPIS légitime. J’ai hâte de voir le design proposé par l’équipe Frax pour répondre à ces enjeux conséquents.
+Néanmoins, l'arrivée du FPI est imminente. On trouve des traces du token [FPIS sur EtherScan](https://etherscan.io/token/0xdb68c6264e9d0f8a6df1fa5a89f205da38698d15) depuis début Mars. J’ai hâte de voir le design proposé par l’équipe Frax pour répondre à ces enjeux conséquents.
 
 
 ### 🚧 Résistance à l’inflation + degen = VOLT
