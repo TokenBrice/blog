@@ -220,7 +220,7 @@ Con un servicio como este, todo es posible, aquí le doy algunos ejemplos para i
 * Short GBP vía CHF = jCHF en colateral, hacer préstamo jGBP, luego vender y potencialmente realizar un espiral.
 
 {{< notice tip >}}
-Tenga en cuenta que los stablecoins productivos m2CAD y m2JPY son disponibles en colateral y conservan un atractivo rendimiento para las estrategias de leverage más tradicionales.
+Tenga en cuenta que los stablecoins productivos m2CAD y m2JPY son disponibles en colateral y conservan un atractivo rendimiento para las estrategias de apalancamiento más tradicionales.
 {{< /notice >}}
 
 
