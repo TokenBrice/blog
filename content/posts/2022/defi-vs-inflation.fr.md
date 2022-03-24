@@ -171,7 +171,7 @@ Outre les quelques stablecoins centralisés (EURS ou EURT) c’est un marché su
 
 ### Simple dépôt
 
-Les opportunités natives de rendementsans IL sur de tels stablecoins sont encore assez rares, et se situent généralement sur Curve : l’apport de liquidité contre d’autres stablecoins basés sur la même monnaie fiduciaire, s’il y en a.
+Les opportunités natives de rendement sans IL sur de tels stablecoins sont encore assez rares, et se situent généralement sur Curve : l’apport de liquidité contre d’autres stablecoins basés sur la même monnaie fiduciaire, s’il y en a.
 
 ![Pool CHF sur Curve Finance](/img/2022/defi-vs-inflation/curve-chf.png "Une pool CHF sur Curve Finance")
 
@@ -258,7 +258,7 @@ Malgré tout, diversifier une partie de ses stablecoins vers du RAI peut être u
 
 
 
-* Simple dépôt sans risque d’IL : Idle Finance dépose vos RAI dans Fuse/Aave pour optimiser le retour natif + incentives en FLX de Reflexer + incentives en IDLE.
+* Simple dépôt sans risque d’IL : Idle Finance déposez vos RAI dans Fuse/Aave pour optimiser le retour natif + incentives en FLX de Reflexer + incentives en IDLE.
 
 ![RAI on Idle Finance](/img/2022/defi-vs-inflation/rai-idle-0.png "Le vault RAI sur Idle Finance")
 
@@ -328,9 +328,9 @@ Une position ainsi équilibrée suit l’inflation / la dépasse légèrement av
 
 Chez les romains, les Parques sont trois déesses qui gouvernent la vie des humains :
 
-1. Clotho tisse le fil de la vie
-2. Lachesis le déroule
-3. Atropos le découpe
+1. Nona tisse le fil de la vie
+2. Decima le déroule
+3. Morta le découpe
 
 La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et croissance de potentiellement tout autre.
 
