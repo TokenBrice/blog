@@ -171,7 +171,7 @@ Outre les quelques stablecoins centralisés (EURS ou EURT) c’est un marché su
 
 ### Simple dépôt
 
-Les opportunités natives de rendementsans IL sur de tels stablecoins sont encore assez rares, et se situent généralement sur Curve : l’apport de liquidité contre d’autres stablecoins basés sur la même monnaie fiduciaire, s’il y en a.
+Les opportunités natives de rendement sans IL sur de tels stablecoins sont encore assez rares, et se situent généralement sur Curve : l’apport de liquidité contre d’autres stablecoins basés sur la même monnaie fiduciaire, s’il y en a.
 
 ![Pool CHF sur Curve Finance](/img/2022/defi-vs-inflation/curve-chf.png "Une pool CHF sur Curve Finance")
 
@@ -258,7 +258,7 @@ Malgré tout, diversifier une partie de ses stablecoins vers du RAI peut être u
 
 
 
-* Simple dépôt sans risque d’IL : Idle Finance dépose vos RAI dans Fuse/Aave pour optimiser le retour natif + incentives en FLX de Reflexer + incentives en IDLE.
+* Simple dépôt sans risque d’IL : Idle Finance déposez vos RAI dans Fuse/Aave pour optimiser le retour natif + incentives en FLX de Reflexer + incentives en IDLE.
 
 ![RAI on Idle Finance](/img/2022/defi-vs-inflation/rai-idle-0.png "Le vault RAI sur Idle Finance")
 
@@ -282,7 +282,7 @@ Le Frax Price Index, c’est un nouveau protocole qui devrait arriver prochainem
 
 Il est dur de se projeter sur un simple design envisagé, mais il est clair qu’un stablecoin qui maintiendrait sa valeur malgré l’inflation est un produit très désirable. **Plusieurs questions se posent quant au maintien du peg sur FPI** : pour maintenir son équilibre, il va falloir que des gens prennent le trade contraire au FPI, c’est à dire “short inflation”. Or, dans le contexte actuel avec une inflation galopante, on a du mal à envisager qui pourrait assumer une telle position.
 
-Néanmoins, l'arrivée du FPI est imminente. On trouve des traces du token [FPIS sur EtherScan](https://etherscan.io/address/0x4eb8b4c65d8430647586cf44af4bf23ded2bb794) dès la fin du mois de Février. Il a été créé par le Frax Deployer, donc à priori c’est bien le FPIS légitime. J’ai hâte de voir le design proposé par l’équipe Frax pour répondre à ces enjeux conséquents.
+Néanmoins, l'arrivée du FPI est imminente. On trouve des traces du token [FPIS sur EtherScan](https://etherscan.io/token/0xdb68c6264e9d0f8a6df1fa5a89f205da38698d15) depuis début Mars. J’ai hâte de voir le design proposé par l’équipe Frax pour répondre à ces enjeux conséquents.
 
 
 ### 🚧 Résistance à l’inflation + degen = VOLT
@@ -328,9 +328,9 @@ Une position ainsi équilibrée suit l’inflation / la dépasse légèrement av
 
 Chez les romains, les Parques sont trois déesses qui gouvernent la vie des humains :
 
-1. Clotho tisse le fil de la vie
-2. Lachesis le déroule
-3. Atropos le découpe
+1. Nona tisse le fil de la vie
+2. Decima le déroule
+3. Morta le découpe
 
 La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et croissance de potentiellement tout autre.
 
