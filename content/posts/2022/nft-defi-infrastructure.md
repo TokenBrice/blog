@@ -252,4 +252,5 @@ Renting allows for example to borrow an NFT to play a game without having to own
 If you found this peek into the NTFfi landscape insightful, you are now sitting at the crossroads:
 - you can [read my other articles on NFTs here](https://tokenbrice.xyz/categories/nft/) 
 - or [explore the depths of DeFi](https://tokenbrice.xyz/categories/defi/)
+
 Enjoy!
