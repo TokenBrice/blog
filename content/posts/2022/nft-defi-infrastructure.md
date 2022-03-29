@@ -215,7 +215,7 @@ In this article, we have stayed on the visible part of the iceberg. At the cross
 
 [FloorDAO](https://floor.xyz/) is sort of an extra layer built on top of NFTX. FloorDAO uses the OlympusDAO model but adapted for NFTs. The objective is to ensure a return and support liquidity on the collections concerned (Punk and Wizard for the moment). How does it work? Simple: for the concerned collections, the owners of the corresponding NFTX token (ex WIZARD for Forgotten Wizards) as well as the LP (WIZARD/ETH) can bond it to obtain FLOOR tokens.
 
-![floordao-bond](/img/2022/nft-defi-infrastructure/floordao-bond.png "The relevance of the bonding varies according to the needs of the FloorDAO and the evolution of the price of FLOOR".)
+![floordao-bond](/img/2022/nft-defi-infrastructure/floordao-bond.png "The relevance of the bonding varies according to the needs of the FloorDAO and the evolution of the price of FLOOR.")
 
 The collected tokens and LPs are used by FloorDAO to generate a return (NFTX staking). The community (gFLOOR holders) votes to decide which assets to acquire next. Olympus uses the inflation of its governance token to acquire strategic assets such as DAI, LUSD, or CRV; FloorDAO does the same thing but targets NFTX tokens and therefore backs them with an NFT.   
 
