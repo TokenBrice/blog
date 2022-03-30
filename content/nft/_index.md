@@ -72,6 +72,9 @@ NFTs are used to define collections of objects. They are thus **used in decentra
 * On **StakeDAO**, users stake their xSDT to earn points used to mint NFTs that give bonuses on the platform
 * Finally **Alchemix** which recently suffered a technical problem on AlETH offered an NFT to users who refund the money unduly received. 
 
+The world of NFTs and DeFi are converging, I explore what it entails in a dedicated article:
+**[NFTfi: NFT meets DeFi, liquidity and leverage ensues]({{< relref path="/content/posts/2022/nft-defi-infrastructure.md" >}})**
+
 ![uniswap-v3-LP-NFT](/img/others/uniswapv3-lp-nft.gif "Visual of a Uniswap V3 NFT-LP")
 
 ---

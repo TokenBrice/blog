@@ -72,7 +72,11 @@ Les NFTs permettent de définir des collections d'objets. Ils sont ainsi **utili
 *   Sur **Curve**, un NFT sert de reçu pour les swaps inter-actifs via Synthetix (6 min de délais)
 *   Sur **Mai.Finance**, un marché monétaire, le vault est représenté par un NFT
 *   Sur **StakeDAO**, les utilisateurs stakent leur xSDT pour gagner des points servant à mint des NFT qui donnent des bonus sur la plateforme
-*   Enfin **Alchemix** qui a récemment subi un souci technique sur AlETH offre un NFT aux utilisateurs qui remboursent l'argent indûment reçu. 
+*   Enfin **Alchemix** qui a récemment subi un souci technique sur AlETH offre un NFT aux utilisateurs qui remboursent l'argent indûment reçu.
+
+Les NFTs et la DeFi convergent de plus en plus, je décris cette tendance dans un article dédidé :
+**[NFTfi : repousser les limites de NFTs grâce à la DeFi]({{< relref path="/content/posts/2022/nft-defi-infrastructure.fr.md" >}})**
+
 
 ![uniswap-v3-LP-NFT](/img/others/uniswapv3-lp-nft.gif "Visuel d'un NFT-LP Uniswap V3")
 
