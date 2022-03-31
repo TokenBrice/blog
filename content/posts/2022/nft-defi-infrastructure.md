@@ -40,7 +40,7 @@ Without going into too much detail, OpenSea has many limitations:
 * A basic lack of respect for the NFT community: violation of their privacy, manipulation, etc.
 * A certain disregard for the most community-based NFT projects: the verification mechanisms on OpenSea are not very transparent and do not really depend on the volume. Pitiful projects, but carried by celebrities, have been verified quickly while Luchadores, for example, are still waiting.
 * A lack of investment in its own development: the platform is slow to evolve and does not listen to its users.
-* A 100% business approach: [OpenSea has done 9 fundraisings](https://www.crunchbase.com/organization/opensea/company_financials) so far, and this despite the gargantuan profits they generate via the excessive fees charged: $100M in volume **on 1 day **⇒ $2.5M in the team's pockets** (- operational fees, but still...)
+* A 100% business approach: [OpenSea has done 9 fundraisings](https://www.crunchbase.com/organization/opensea/company_financials) so far, and this despite the gargantuan profits they generate via the excessive fees charged: $100M in volume **on 1 day ⇒ $2.5M in the team's pockets** (- operational fees, but still...)
 
 So we get a situation close to the US ISPs: OpenSea is used by everyone in the NFT world, but also **virtually hated by a significant part of its users**.
 
