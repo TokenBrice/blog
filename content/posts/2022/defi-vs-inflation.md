@@ -238,7 +238,7 @@ For example, for a European (= spending €):
 * 20% in stable productive dollar (e.g. aUSDT APWine strategy)
 * & Diversification: 15% jCHF/USDC + 15% jGBP/USDC
 
-Finally, while we're on the subject of "exotic" stablecoins, you should know that there are also a few that track gold or silver - they can be relevant from this perspective too. For example xAURt (with Pool Curve xAURt/3crv). Gold and silver remain ~~barbaric~~ boomers' relics, personally I see very little interest in them for a competent DeFian.
+Finally, while we're on the subject of "exotic" stablecoins, you should know that there are also a few that track gold or silver - they can be relevant from this perspective too. For example XAUT (with Pool Curve XAUT/3crv). Gold and silver remain ~~barbaric~~ boomers' relics, personally I see very little interest in them for a competent DeFian.
 
 
 ## III/ Inflation resistant stablecoins

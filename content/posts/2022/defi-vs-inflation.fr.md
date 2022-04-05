@@ -242,7 +242,7 @@ Par exemple, pour un Européen (= qui dépense des €) :
 * 20% en stable dollar productif (par ex stratégie aUSDT APWine)
 * & Diversification: 15% jCHF/USDC + 15% jGBP/USDC
 
-Enfin, tant qu’on discute de stablecoins “exotiques” sachez qu’il en existe également quelques-uns qui suivent l’or ou l’argent - ils peuvent être également pertinents dans une telle perspective. Par exemple xAURt (avec pool Curve xAURt/3crv). L’or et l’argent restent des reliques ~~barbares ~~ de boomers, personnellement je n’y vois que très peu d’intérêt pour un DeFian compétent.
+Enfin, tant qu’on discute de stablecoins “exotiques” sachez qu’il en existe également quelques-uns qui suivent l’or ou l’argent - ils peuvent être également pertinents dans une telle perspective. Par exemple XAUT (avec pool Curve XAUT/3crv). L’or et l’argent restent des reliques ~~barbares ~~ de boomers, personnellement je n’y vois que très peu d’intérêt pour un DeFian compétent.
 
 
 ## III/ Les stablecoins résistants à l’inflation
