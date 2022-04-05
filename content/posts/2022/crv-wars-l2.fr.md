@@ -151,7 +151,7 @@ Une des limites actuelles de Convex (ou feature pour certains) c’est que malgr
 
 ![CCRV.finance](/img/2022/curve-wars-l2/ccrv.png)
 
-1. Création du token cCRV,backé par 1 cvxCRV. Le protocole stake tous les cvxCRV déposés pour backés des cCRV dans Convex, afin d’obtenir un rendement.
+1. Création du token cCRV, backé par 1 cvxCRV. Le protocole stake tous les cvxCRV déposés pour backer des cCRV dans Convex, afin d’obtenir un rendement.
 2. Création de la pool Curve 3CRV : CRV, cvxCRV et cCRV
 3. Bribes sur la pool 3CRV pour l’aider à se développer.
 
