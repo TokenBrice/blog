@@ -32,7 +32,7 @@ Il ne faut pas oublier que malgré l’équivalence calculable entre CVX et CRV 
 
 L’équilibre entre CRV et CVX a tendance à se maintenir, malgré des oscillations fréquentes : dernièrement, le pendule semble plus aller du côté de CVX. Néanmoins je pense qu’il reste de la place pour d’autres approches qui partent de la source (CRV) et elles commencent à émerger. 
 
-[Warden](https://app.warden.vote/) de Paladin propose ainsi un protocole qui aident les apporteurs de liquidité sur Curve à maximiser leurs rendements et peut être atteindre le désirable bonus 2.5x grâce à de l’emprunt de la capacité de boosts des tokens veCRV (apportés par d’autres) payés directement en CRV.
+[Warden](https://app.warden.vote/) de Paladin propose ainsi un protocole qui aide les apporteurs de liquidité sur Curve à maximiser leurs rendements et peut être atteindre le désirable bonus 2.5x grâce à de l’emprunt de la capacité de boosts des tokens veCRV (apportés par d’autres) payés directement en CRV.
 
 Mais il y a tellement d’autres subtilités et interactions à avoir en tête pour comprendre la pertinence des stratégies déployées par les différents projets, DAOs et protocoles pour gagner les Curve Wars.
 
