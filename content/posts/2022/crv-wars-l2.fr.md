@@ -279,7 +279,7 @@ Avec cette stratégie, la pool FRAX/3CRV est en mesure de **maintenir un taux d�
 
 ### Badger : un petit coin pour Bitcoin
 
-Depuis le début, Badger se concentre sur l’optimisation du farming avec BTC sur Ethereum. Initialement, avant Convex, Badger travaillait de prêt avec Yearn, mais avec le lancement de Convex et sa domination rapide, la position de Badge a évolué.
+Depuis le début, Badger se concentre sur l’optimisation du farming avec BTC sur Ethereum. Initialement, avant Convex, Badger travaillait de près avec Yearn, mais avec le lancement de Convex et sa domination rapide, la position de Badge a évolué.
 
 Contrairement à Frax, Badger n’a pas acheté ses CVX. À la place, Badger développe plutôt un modèle similaire à celui de Convex pour accumuler du CRV sous contrôle ; le vault bveCVX. Il propose un retour similaire au verrouillage direct sur Convex, mais s’inclut dans l'écosystème Badger.
 
@@ -304,3 +304,5 @@ Quand un protocole développe une position conséquente sur CVX (disons >300K CV
 </div>
 
 On voit déjà la mécanique à l'œuvre, avec la discussion autour d’une potentielle 4pool (USDC/USDT/FRAX/UST), rendue possible grâce au cumul des influences de Frax, Luna, Redacted et Olympus. Les protocoles-whales CVX deviennent ainsi des interfaces pour les Curve Wars, reste à voir qui saura leur faire la meilleure offre.
+
+_🙏 Un grand merci à [Charles](https://twitter.com/C53300) pour sa relecture attentive et ses nombreuses suggestions pertinentes._
