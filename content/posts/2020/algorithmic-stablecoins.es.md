@@ -2,7 +2,7 @@
 title: "El presente y el futuro de los stablecoins algorítmicos"
 description: "Un análisis de DSD, ESD y Basis Cash para imaginar lo que podría ser el stablecoin de mañana."
 date: '2020-12-28T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Stablecoins, Maker, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, sUSD, ESD, DSD, BAC, BAS]
 ---
 
@@ -129,14 +129,3 @@ Me siento legítimo para escribir este artículo porque he seguido de cerca Basi
 {{< /notice >}}
 
 Espero que esta lectura lo haya ilustrado. De ser así, puede **[seguirme en Twitter](https://twitter.com/tokenbrice/)** o en este blog por RSS (abajo toda la información👇)
-
-{{< notice tip >}}
-
-Este artículo despertó su curiosidad? Ha caído en el buen lugar - Tenemos un ecosistema dinámico en francés para ayudarle a seguir y a comprender la finanza descentralizada. De lo más accesible a lo más especializado:
-1. **[💬 El servidor Discord DeFi France](https://discord.gg/3bWZcK2)** para intercambiar con la comunidad.
-2. **[☕ La versión françesa del Daily Gwei](https://thedailygweifr.substack.com/)** para artículos resumidos muy accesibles.
-3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** para entender los conceptos fundamentales.
-4. **[🎥 El canal Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** para profundizar con los lives más avanzados.
-5. & Bien claro [este blog](/fr/) que profundiza en temas específicos relacionados con la práctica de la DeFi.
-
-{{< /notice >}}

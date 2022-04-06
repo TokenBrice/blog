@@ -2,7 +2,7 @@
 title: "La historia de BadgerDAO: una introducción via DIGG"
 description: "BadgerDAO está en la primera línea de dos temas  que son tendencia: la gestión de activos en DeFi (valts/setts) & BTC en Ethereum. Véamos que implica este proyecto y cual es su plan."
 date: '2021-01-30T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Découverte]
+categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Finanzas descentralizadas, Badger, BadgerDAO, DIGG, monedas elásticas, wBTC, renBTC, Curve BTC pools, gitcoin, Meme, vault, setts, farming, liquidity providing, LP, BTC, BTC en Ethereun, plataformización de DeFi]
 toc: true
 tocNum: true
@@ -86,7 +86,7 @@ Al igual que el APML, con DIGG, todos los poseedores (incluyendo los tokens de l
 Los reajustes se hace a una hora fija, para DIGG es a las 15h EST, a las 21H para mis queridos lectores franceses.
 
 {{< notice tip >}}
-Los tokens de reajustes explotan mecanismos similares a los de los stablecoins algorítmicos / tokens de señoreaje, así que no dude en leer mi **[precedente tiquete sobre el tema]({{< relref path="/content/posts/2021/seigniorage-basis-vs-esd.fr.md" >}})** para más información.
+Los tokens de reajustes explotan mecanismos similares a los de los stablecoins algorítmicos / tokens de señoreaje, así que no dude en leer mi **[precedente tiquete sobre el tema]({{< relref path="/content/posts/2021/seigniorage-basis-vs-esd.fr.md" lang="fr">}})** para más información.
 {{< /notice >}}
 
 Por ejemplo, después del primer día, el reajuste genesis fue positivo y lanzó una producción y una redistribución de alrededor del 12% de la oferta inicial. Varios reajustes positivos siguieron.
@@ -124,21 +124,10 @@ Esta lógica es más grande que Badger, como se ve en otras plataformas, lo podr
 
 Además, para volver a Badger, la adopción de un modelo parecido, podría significar otros ingresos nativos y durables que podrían estar relacionados al token BADGER o a su sett. Si se considera que la mayoría de los rendimientos provienen actualmente de las incentivos de los aportes de liquidez, sería bastante sinérgico el sacarle partido.
 
-Teniendo en cuenta **[el exito del modelo de Curve / CRV]({{< relref path="/content/posts/2021/dex-value-capture.fr.md" >}})**, es lógico de ver cada vez más protocolos adoptar estos elementos: lo principal de dar a sus poseedores la posibilidad de comprometer sus tokens por participar en la gubernanza, aprevechar los flujos de los ingresos de la plataforma y aumentar sus propios beneficios por el uso del servicio.
+Teniendo en cuenta **[el exito del modelo de Curve / CRV]({{< relref path="/content/posts/2021/dex-value-capture.fr.md" lang="fr" >}})**, es lógico de ver cada vez más protocolos adoptar estos elementos: lo principal de dar a sus poseedores la posibilidad de comprometer sus tokens por participar en la gubernanza, aprevechar los flujos de los ingresos de la plataforma y aumentar sus propios beneficios por el uso del servicio.
 
 
 _🙏 Muchas gracias a HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony por su cuidadosa lectura de la edición francesa de este artículo y su traducción al inglés._
-
-{{< notice tip >}}
-
-Este artículo despertó su curiosidad? Ha caído en el buen lugar - Tenemos un ecosistema dinámico en francés para ayudarle a seguir y a comprender la finanza descentralizada. De lo más accesible a lo más especializado :
-1. **[💬 El servidor Discord DeFi France](https://discord.gg/3bWZcK2)** para intercambiar con la comunidad.
-2. **[☕ La versión françesa del Daily Gwei](https://thedailygweifr.substack.com/)** para artículos resumidos muy accesibles.
-3. **[🗞 La newsletter BanklessFR](https://banklessfr.substack.com/)** para entender los conceptos fundamentales.
-4. **[🎥 El canal Youtube DeFi France](https://www.youtube.com/channel/UCefQC4Y-X9MBRuYBKc2waiQ)** para profundizar con los lives más avanzados.
-5. & Bien claro [este blog](/fr/) que profundiza en temas específicos relacionados con la práctica de la DeFi.
-
-{{< /notice >}}
 
 ---
 
