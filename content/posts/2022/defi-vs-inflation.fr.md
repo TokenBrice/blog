@@ -54,7 +54,7 @@ Assez pour le macro, revenons à notre échelle, avec des choses que l’on conn
 
 _Ici on ne regarde que M1 par simplicité mais la tendance est similaire sur M2 et M3._
 
-On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduciaire qui donne le ton. Comme vous pouvez le voir, la courbe part à la verticale depuis le début de la crise Covid. L’allure de la courbe est désormais bien plus effrayante que les pires shitcoins que j’ai pu croiser. Vous en doutez ? Considérez la même information, présentée sous cette angle :
+On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduciaire qui donne le ton. Comme vous pouvez le voir, la courbe part à la verticale depuis le début de la crise Covid. L’allure de la courbe est désormais bien plus effrayante que les pires shitcoins que j’ai pu croiser. Vous en doutez ? Considérez la même information, présentée sous cet angle :
 
 **Le dollar existe depuis 1914. 20% de tous les dollars en circulation ont été créés en 2020. Au rythme actuel, la quantité totale de dollars en circulation double tous les 4-5 ans environ.**
 
@@ -300,14 +300,14 @@ L’idée ici, avec Volt, c’est de couvrir la même verticale en utilisant une
 Pour suivre Volt, rien de mieux que [leur Discord ](https://discord.gg/dGhvDmCNGr)!
 
 {{< notice note >}}
-Je décrit ici le design initial de Volt Protocol, qui a évolué depuis. La vision de créer un service d'emprunt avec un stablecoin résistant à l'inflation demeure, mais les choix techniques ont évolué. Lisez [le whitepaper disponible ici](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) pour les dernières informations.
+Je décris ici le design initial de Volt Protocol, qui a évolué depuis. La vision de créer un service d'emprunt avec un stablecoin résistant à l'inflation demeure, mais les choix techniques ont évolué. Lisez [le whitepaper disponible ici](https://github.com/volt-protocol/whitepaper/blob/main/volt.md) pour les dernières informations.
 {{< /notice >}}
 
 ## IV/ Battre l’inflation grâce à des rendements sur actifs volatils
 
-**Dans un monde où plus rien ne tient et la valeur fuit, que nous reste il ?** Et pourquoi pas de bons actifs DeFi qui ont fait leurs preuves et sont adossés à des protocoles aux revenus massifs et récurrents partagés directement avec leur holders ?
+**Dans un monde où plus rien ne tient et la valeur fuit, que nous reste-t-il ?** Et pourquoi pas de bons actifs DeFi qui ont fait leurs preuves et sont adossés à des protocoles aux revenus massifs et récurrents partagés directement avec leurs holders ?
 
-Il en existe quelques uns, très peu. On va les détailler un à un, ainsi que les différentes options disponibles sur ceux-ci pour produire un rendement.
+Il en existe quelques-uns, très peu. On va les détailler un à un, ainsi que les différentes options disponibles sur ceux-ci pour produire un rendement.
 
 
 ### ETH : l’origine et la fin
@@ -332,7 +332,7 @@ Chez les romains, les Parques sont trois déesses qui gouvernent la vie des huma
 2. Decima le déroule
 3. Morta le découpe
 
-La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et croissance de potentiellement tout autre.
+La DeFi connaît elle aussi ces Parques : trois protocoles qui jouent un rôle critique dans la survie et la croissance de potentiellement tout autre.
 
 En effet, outre l’ETH, il y a plusieurs projets DeFi qui ont déjà fait leurs preuves, contrôlent des flux de revenu conséquents et offrent un service réellement pertinent dans un contexte macro d’inflation prolongée ; j’en vois trois essentiellement :
 
