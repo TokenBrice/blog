@@ -1,7 +1,7 @@
 ---
 title: "⚔ La Guerra de CRV: entender la carrera de acumulación de capacidad para influenciar el protocolo Curve Finance"
 description: "Una guía concisa para seguir la contienda de acumulación de CRV por todos los medios posibles, incluyendo la compra de votos (bribes), y para evalaur las estrategias de Curve en los protocolos DeFi"
-date: '2021-09-28T01:13:50.191Z'
+date: '2022-04-06T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Comprender]
 tags: [DeFi, Ethereum, Finanzas Descentrlizadas, Curve Finance, CRV, Polygon, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 toc: true
@@ -24,7 +24,7 @@ Sin embargo como siempre en DeFi, nada es tan simple y el diablo está en los de
 
 ## Convex y la distinción de VeCRV
 
-Antes de entrar en el campo de batalla - es decir, las diferentes aplicaciones utilizadas en esta guerra de CRV, es necesario profundizar en uno en particular: Convex. Ya he discutido sobre el en este blog, explicando [la dimensión flywheel de Convex con el CvxCRV]({{< relref path="/content/posts/2021/defi-flywheel.fr.md" >}}).
+Antes de entrar en el campo de batalla - es decir, las diferentes aplicaciones utilizadas en esta guerra de CRV, es necesario profundizar en uno en particular: Convex. Ya he discutido sobre el en este blog, explicando [la dimensión flywheel de Convex con el CvxCRV]({{< relref path="/content/posts/2021/defi-flywheel.fr.md" lang="fr" >}}).
 
 Las interacciones de Convex con Curve van mucho más allá del CvxCRV que no es sino un elemento.
 
