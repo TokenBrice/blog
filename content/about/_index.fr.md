@@ -7,7 +7,7 @@ media: true
 
 ## Qui suis-je ?
 
-J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses premiers jours avec le lancement de MakerDAO. J'ai la chance de me débrouiller en anglais — donc j'ai eu accès aux ressources pour comprendre ce qu'il se passait.
+J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses premiers jours avec le lancement de MakerDAO et Uniswap. J'ai la chance de me débrouiller en anglais — donc j'ai eu accès aux ressources pour comprendre ce qu'il se passait.
 
 À l'époque, les articles, vidéos ou podcast de qualité en français qui traitaient de finance décentralisée étaient rares. Grâce au lancement de [DeFi France](https://discord.gg/3bWZcK2) (Octobre 2019), [BanklessFR](https://banklessfr.substack.com/) (Mars 2020), ce blog (Mai 2020), et [TheDailyGweiFR](https://thedailygweifr.substack.com/) (Novembre 2020), et de nombreuses autres intiatives, la situation a désormais bien changé. 
 
@@ -22,7 +22,8 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
-|  ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn + token ERC20 à venir ! | Développement Communautaire |
+| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Protocole de prêt immuable basé sur Ethereum, sans taux d'intérêt et avec une grande efficacité du capital. <br> **[ℹ️ Présentation de Liquity]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})** <br> **[📢 Annonce]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}})** | Head of Marketing |
+|  ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn | Développement Communautaire |
 |  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
 
@@ -32,6 +33,9 @@ DeFi France est la principale communauté francophone pour échanger au sujet de
 
 Elle se retrouve désormais sur le Discord, avec [un système sur-mesure](https://tokenbrice.xyz/posts/2021/guide-defian.fr.md) pour permettre la gestion directe de la communauté par ses membres. 
 
+### Liquity
+
+Je suis ravi de contribuer à la croissance d'un projet qui incarne les valeurs fondamentales de la DeFi. Liquity est un protocole de prêt innovant dont la conception maximise la résilience et la décentralisation tout en offrant également un taux d'intérêt nul et une efficacité élevée du capital. Grâce à ces propriétés, LUSD, le stablecoin issu du protocole, est le stablecoin le plus décentralisé et le plus durable actuellement disponible sur le mainnet Ethereum.
 
 ### Luchadores
 

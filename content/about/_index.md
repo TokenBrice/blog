@@ -21,10 +21,15 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
+| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Ethereum-based unstoppable lending protocol, with no interest rates and high capital efficiency. <br> **[ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})** <br> **[📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})** | Head of Marketing |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
-| ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model game + ERC20 token coming soon! | Community Development |
+| ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model autobattler strategic game | Community Development |
 | ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
 | ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | French version of [Bankless](https://twitter.com/BanklessHQ): a newsletter designed as a guide that helps you progressively understand and take advantage of the opportunities offered by decentralized finance. | Coordinator
+
+### Liquity
+
+I'm thrilled to contribute to the growth of a project that upholds the root values of DeFi. Liquity is an innovative lending protocol with a design maximizing resilience and decentralization while also offering no interest rate and high capital efficiency. Thanks to these properties, LUSD, the stablecoin output of the protocol, is the most decentralized and durable stablecoin currently available on the Ethereum mainnet.
 
 ### DeFi France
 
