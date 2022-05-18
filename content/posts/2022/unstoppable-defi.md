@@ -204,7 +204,7 @@ There are also nuances and differences between V3 and V4 of the protocol as far 
 
 ### TrustlessFi 🏗️
 
-[Trustless](trustless.fi) is a protocol that I've been fascinated with lately. It's not live yet, but I think the approach has a lot of merits. To describe it very simply, **TrustlessFi is like Liquity and Reflexer having a child together on zkSync**.
+[Trustless](https://trustless.fi) is a protocol that I've been fascinated with lately. It's not live yet, but I think the approach has a lot of merits. To describe it very simply, **TrustlessFi is like Liquity and Reflexer having a child together on zkSync**.
 
 So the goal is, as with Liquity, to create a protocol that will eventually be as unstoppable as possible, and the associated stablecoin (HUE) will inherit this property. Other mechanisms are similar to Liquity, such as ETH as the only collateral, immediate liquidations, or decentralization of the front-end (with a community validation mechanism this time).
 
