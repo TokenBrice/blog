@@ -219,7 +219,7 @@ Côté gouvernance, on a ici une approche similaire au plan de dégouvernance de
 
 Il y a également un mécanisme similaire au Dai Saving Rate de Maker-MCD qui permet de participer au système sans avoir forcément besoin de générer de la dette. Les possesseurs de HUE pourront ainsi le staker pour obtenir un rendement provenant des taux d’intérêt payés par les emprunteurs.
 
-Finalement, il y a également de véritables nouveautés fascinantes, comme par exemple le fait que les Troves/CDP seront tokenisés sous forme de NFT, permettant ainsi leur transfert. Ou bien encore, le déploiement de la liquidité en HUE sur Uniswap v3 avec une gestion assurée par le protocole lui-même (HUE/ETH). Les positions LP “out of range” peuvent ainsi être liquidées. Au niveau de l’oracle également, on aurait ici enfin une source de prix inarrêtable avec l’utilisation d’Uniswap v3, mais cela vient sans doute avec des risques de manipulation accrus.[^^UNIv3-oracle]
+Finalement, il y a également de véritables nouveautés fascinantes, comme par exemple le fait que les Troves/CDP seront tokenisés sous forme de NFT, permettant ainsi leur transfert. Ou bien encore, le déploiement de la liquidité en HUE sur Uniswap v3 avec une gestion assurée par le protocole lui-même (HUE/ETH). Au niveau de l’oracle également, on aurait ici enfin une source de prix inarrêtable avec l’utilisation d’Uniswap v3, mais cela vient sans doute avec des risques de manipulation accrus.[^^UNIv3-oracle]
 
 Dans l’ensemble, l’approche part clairement dans la bonne direction, mais il y a de nombreux nouveaux concepts dans ce protocole, il n’est donc pas aisé de se projeter pour envisager le résultat une fois disponible en production pour l’instant.[^trustlessfi-doc]
 

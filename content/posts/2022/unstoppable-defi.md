@@ -212,7 +212,7 @@ On the governance side, we have here an approach similar to the Reflexer/RAI de-
 
 A mechanism similar to Maker-MCD's Dai Saving Rate allows participation in the system without necessarily needing to generate debt. HUE owners will be able to stake it to get a return from the interest rates paid by the borrowers.
 
-Finally, there are also some fascinating new features, such as that Troves/CDPs will be tokenized as NFTs, allowing their transfer. Another example is the deployment of HUE liquidity in Uniswap v3 (HUE/ETH), managed by the protocol. It will also be possible for the protocol to liquidate out-of-range LP positions. At the oracle level, we would also have an unstoppable price source using Uniswap v3, but this undoubtedly comes with increased manipulation risks.
+Finally, there are also some fascinating new features, such as that Troves/CDPs will be tokenized as NFTs, allowing their transfer. Another example is the deployment of HUE liquidity in Uniswap v3 (HUE/ETH), managed by the protocol. At the oracle level, we would also have an unstoppable price source using Uniswap v3, but this undoubtedly comes with increased manipulation risks.
 
 Overall, the approach is going in the right direction. Still, there are many new concepts in this protocol, so it is not easy to anticipate the result once it is available in production for the time being [^trustlessfi-doc].
 
