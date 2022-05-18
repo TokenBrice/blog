@@ -153,7 +153,7 @@ Here, the case is straightforward. If there is indeed a governance, the good new
 
 ### Curve Finance
 
-[Curve Finance](https://curve.fi/) is another example of resilient DEX with an equally exciting approach. Again, the essential functions are provided by immutable contracts. Nevertheless, Curve also has an "Emergency DAO" whose members are elected by the governance. This Emergency DAO can "kill" a pool: all functions except withdrawal are disabled. It prevents further loss of funds if a problem emerges with Curve's contracts.
+[Curve Finance](https://curve.fi/) is another example of resilient DEX with an equally exciting approach. Again, the essential functions are provided by immutable contracts. Nevertheless, Curve also has an "Emergency DAO" whose members are elected by the governance. This Emergency DAO can "kill" a pool (only if pools that are younger than 2 months old and not factory pools): all functions except withdrawal are disabled. It prevents further loss of funds if a problem emerges with Curve's contracts. The Emergency DAO can also kill a gauge - that is the reward contract handling CRV (and potentially other token) rewards.
 
 Like Uniswap, Curve's governance is centered around the management of CRV token issuance and management. However, the model is much more refined here; I invite you to read my previous articles on the subject to better understand it:
 
