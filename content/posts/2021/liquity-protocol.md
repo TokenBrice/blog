@@ -3,7 +3,7 @@ title: "⚖️ Liquity: an unstoppable, efficient and innovative borrowing servi
 description: "Liquity is the first borrowing service that operates without the need for governance, while being low cost and highly efficient. I explain the protocol to understand how it innovates and what it brings to DeFi."
 date: '2021-12-02T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Understanding]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Borrw, Liquity, LUSD, LQTY]
+tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Borrow, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false
 url: liquity-protocol
@@ -136,7 +136,10 @@ First of all, the most basic: fees. I mentioned above that the initiation fee is
 
 When Liquity is used heavily, the `baseRate` increases. This is also a defensive mechanism for the protocol, which otherwise could be "emptied" of ETH by arbitrageurs (massive redemption LUSD->ETH). The "decay" rate when the use calms down to come back nicely to 0.5% and I let you go see [the math behind it](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) on the doc for the curious. 
 
-NOTE: Since the depositor pays his fees at the time of borrowing on Liquity, the evolution of the rate afterwards has no consequence for him.
+{{< notice note >}}
+Since the depositor pays his fees at the time of borrowing on Liquity, the evolution of the rate afterwards has no consequence for him.
+{{< /notice >}}
+
 
 ##### "Recovery Mode": as terrifying as it is effective?
 

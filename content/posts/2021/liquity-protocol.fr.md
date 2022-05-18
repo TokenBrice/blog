@@ -150,8 +150,9 @@ Tout d'abord, le plus basique : les frais. Je vous parlais plus haut d'un frais 
 
 Lors d'une forte utilisation de Liquity, le `baseRate` augmente. C'est également un mécanisme défensif pour le protocole, qui sans ça, pourrait se faire "vider ses ETH" par des arbitrageurs (redemption massive LUSD->ETH). Le taux "decay" lorsque l'utilisation se calme pour revenir gentiment à 0.5% et je vous laisse aller voir [les maths derrière tout ça](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) sur la doc pour les curieux. 
 
-NOTE : Comme le déposant paie ses frais au moment de l'emprunt sur Liquity, l'évolution du taux par la suite n'a pas de conséquence pour lui.
-
+{{< notice note >}}
+Comme le déposant paie ses frais au moment de l'emprunt sur Liquity, l'évolution du taux par la suite n'a pas de conséquence pour lui.
+{{< /notice >}}
 
 ##### "Recovery Mode" : aussi terrifiant qu'efficace ?
 
