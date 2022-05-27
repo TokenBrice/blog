@@ -61,7 +61,7 @@ L’essentiel du problème ici ce n’est pas l’existence de ce multisig, néc
 1. 3/20 c’est extrêmement permissif et plus risqué d’un point de vue 🔧 wrench attack que 3/6 par exemple (qui aurait moins de cibles potentielles pour réaliser l’attaque). Un nombre plus raisonnable et aligné avec ce qu’il se fait habituellement pour 20 signataires au total serait quelque chose entre 8 et 12 requis.
 2. Absence de timelock : les changements sont donc immédiats.
 
-**Mise à jour - 27 Mai**: Le 23 Mai (5 jours après la publication de cet article), la paramétrage de la Multisig a été modifié pour devenir 4/9, offrant une meilleure protection contre les 🔧 wrench attack, mais il n'y a toujours pas de timelock.[^chainlink-multisig].
+**Mise à jour - 27 Mai** : Le 23 Mai (5 jours après la publication de cet article), la paramétrage de la Multisig a été modifié pour devenir 4/9, offrant une meilleure protection contre les 🔧 wrench attack, mais il n'y a toujours pas de timelock.[^chainlink-multisig].
 
 
 #### Dépendance à d’autres protocoles moins résilients que le protocole de base
