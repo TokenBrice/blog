@@ -61,6 +61,8 @@ L’essentiel du problème ici ce n’est pas l’existence de ce multisig, néc
 1. 3/20 c’est extrêmement permissif et plus risqué d’un point de vue 🔧 wrench attack que 3/6 par exemple (qui aurait moins de cibles potentielles pour réaliser l’attaque). Un nombre plus raisonnable et aligné avec ce qu’il se fait habituellement pour 20 signataires au total serait quelque chose entre 8 et 12 requis.
 2. Absence de timelock : les changements sont donc immédiats.
 
+**Mise à jour - 27 Mai**: Le 23 Mai (5 jours après la publication de cet article), la paramétrage de la Multisig a été modifié pour devenir 4/9, offrant une meilleure protection contre les 🔧 wrench attack, mais il n'y a toujours pas de timelock.[^chainlink-multisig].
+
 
 #### Dépendance à d’autres protocoles moins résilients que le protocole de base
 
@@ -258,4 +260,5 @@ _🙏 Un immense merci à tous les relecteurs et contributeurs qui ont particié
 [^liquity-front-end]: Plus d’informations [sur le modèle technique et d’incitation pour les opérateurs de front-end Liquity](https://www.liquity.org/blog/liquity-runs-on-decentralized-frontends).
 [^liquity-disclaimer]: Comme vous l’avez sans doute déjà vu, je suis ravi d’avoir [rejoint l’equipe de Liquity très récemment]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}}). Je mentionne Liquity dans cet article car c’est un exemple pertinent et instructif de protocole résilient, indépendamment de mes engagements professionnels.
 [^UNIv3-oracle]: Pour vous faire une idée plus précise, Euler Finance propose [un outil permettant de simuler les attaques d'oracle potentielles lorsqu'un TWAP Uniswap V3 est utilisé](https://oracle.euler.finance/).
-[^trustlessfi-doc]: Comme toujours, l'alpha est pour ceux qui creusent et lisent attentivement les footnotes ainsi que [les documentations](https://trustlessfi.notion.site/Trustless-4be753d947b040a89a46998eca90b2c9). 
+[^trustlessfi-doc]: Comme toujours, l'alpha est pour ceux qui creusent et lisent attentivement les footnotes ainsi que [les documentations](https://trustlessfi.notion.site/Trustless-4be753d947b040a89a46998eca90b2c9).
+[^chainlink-multisig]: ChainLink a partagé plus d'information sur ce multisig [dans leur documentation](https://docs.chain.link/docs/using-chainlink-reference-contracts/#updates-to-proxy-and-aggregator-contracts) et vous pouvez vérifier le contrat **[directement sur EtherScan ici](https://etherscan.io/address/0x21f73d42eb58ba49ddb685dc29d3bf5c0f0373ca#readProxyContract)** ![chainlink-multisig-updated](/img/2022/unstoppable-defi/chainlink-multisig-updated.png)
