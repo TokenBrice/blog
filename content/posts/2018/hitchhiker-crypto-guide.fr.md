@@ -19,7 +19,7 @@ Les whitepapers (WP pour le reste de l’article) peuvent faire peur. Bien que c
 
 #### Un Anglais irréprochable
 
-Surprenant ? Pas vraiment si vous considérez la chose sous cette angle : **comment faire confiance à une équipe pour un développer projet décentralisé de grande envergure si elle n’est pas capable de sortir 20 pages sans fautes ?** Ça peut sembler petit, voir même mesquin mais croyez-moi : si vous y trouvez un Anglais douteux voir de nombreuses fautes, mieux vaut commencer à courir !
+Surprenant ? Pas vraiment si vous considérez la chose sous cette angle : **comment faire confiance à une équipe pour un développeur projet décentralisé de grande envergure si elle n’est pas capable de sortir 20 pages sans fautes ?** Ça peut sembler petit, voir même mesquin mais croyez-moi : si vous y trouvez un Anglais douteux voir de nombreuses fautes, mieux vaut commencer à courir !
 
 #### Des grandes promesses, quasi rien sur la technique
 
@@ -89,7 +89,7 @@ Imaginez Acoin, qui se targue de supporter 1 million de transactions par seconde
 *   **Des compromis sur la décentralisation.** Le meilleur exemple est bien sûr [EOS et ses 21 «block producers »](https://medium.com/@CryptoPeterG/eos-centralization-problem-bd7a392eeed2) qui font la pluie et le beau temps sur le réseau.
 *   **L’hypothèse de labo :** vous trouverez parfois des coins qui promettent des TPS de malade, dans les 100 000 ou plus et vous le prouvent avec un testnet. Seulement voilà il faut creuser un peu — le testnet n’a probablement que quelques noeuds. C’est facile de monter dans les TPS sur trois nœuds, mais ça devient de plus en plus dur quand les nœuds se multiplient.
 *   Ils s’appuient sur des **solutions jamais testées à l’échelle**. [NANO](https://nano.org/en) utilise un nouveau type de ledger appelé block-lattice ce qui lui permet de supporter jusqu’à 7 000 TPS en conditions idéales. [IOTA](https://www.iota.org/) utilise une autre solution radicalement nouvelle, le Tangle pour atteindre ~800 TPS aujourd’hui mais potentiellement beaucoup plus. Ces deux projets sont essentiellement l’état de l’art actuel en terme de vitesse : n’importe quel projet qui promet des TPS supérieures sans apporter une solution radicalement nouvelle se paye votre tête.
-*   **Ils comptent les mécanismes « off-chain »** dans leur calcul des TPS. Sans se perdre dans la technique, cet type de système conduit actuellement à une centralisation excessive. Retour au premier point.
+*   **Ils comptent les mécanismes « off-chain »** dans leur calcul des TPS. Sans se perdre dans la technique, ce type de système conduit actuellement à une centralisation excessive. Retour au premier point.
 *   **Ils comptent des mécanismes nouveaux et pas encore implémentés**, comme le sharding. Ethereum, qui a l’une des communautés de développeur la mieux fournie, aura encore besoin d’une ou deux années pour l’implémenter à grande échelle. Comment des inconnus pourraient le faire en 6 mois ?
 *   Ils sortent tout simplement un nombre sans lien avec la réalité.
 
