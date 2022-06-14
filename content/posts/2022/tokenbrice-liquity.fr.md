@@ -42,7 +42,7 @@ Chez Liquity, je mènerai les efforts de croissance à travers tous les canaux p
 
 Je suis toujours entièrement convaincu que les grandes choses se construisent du bas vers le haut : je serai en contact étroit avec la communauté de Liquity pour intégrer ses idées et ses commentaires à tous les niveaux possibles.
 
-Bien que je sois enthousiasmé par la mission, mon dernier congé m'a beaucoup appris sur l'équilibre entre vie professionnelle et vie privée : j'ai donc décidé de  m'impliquer à temps partiel avec Liquity. Cela me permet de m'assurer que j'ai toujours le temps pour une vie personnelle saine et des hobbies, y compris la DeFi, comme mener mes propres recherches et les partager avec vous sur ce blog.
+Bien que je sois enthousiasmé par la mission, mon dernier congé m'a beaucoup appris sur l'équilibre entre vie professionnelle et vie privée : j'ai donc décidé de  m'impliquer à temps partiel avec Liquity. Cela me permet de m'assurer que j'ai toujours le temps pour une vie personnelle saine et des passions, y compris la DeFi, comme mener mes propres recherches et les partager avec vous sur ce blog.
 
 En ce qui concerne mes émissions en direct sur Twitch, je ne pense pas que je retrouverai le rythme hebdomadaire que j'avais auparavant, mais je n'exclus pas quelques émissions occasionnelles pour discuter de protocoles et de sujets pertinents.
 

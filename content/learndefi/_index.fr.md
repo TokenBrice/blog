@@ -71,7 +71,7 @@ Un article plus conséquent qui vous permettra de découvrir la politique monét
 
 Je suis actif au sein de l'ecosystème DeFi depuis ses débuts et je partage fréquemment sur ce blog depuis plus de deux ans sur le sujet :
 - **[Articles 🔮 Découverte](/fr/categories/découverte)** : des articles de haut-niveau pour comprendre les différents outils et protocoles utilisés en DeFi.
-- **[Articles 💸 DeFi Pratique](/fr/categories/defi-pratique/)** : où l'on parle plus concrètement de stratégies pour tirer parti des différents protocoles.
+- **[Articles 💸 ⚙ Comprendre](/fr/categories/comprendre/)** : qui approfondissent des protocoles ou des thématiques clefs de la DeFi.
 
 Depuis Mars 2021 je suis également sur **[Twitch](https://twitch.tv/tokenbrice)** ! Vous m'y retrouverez tous les Mardis à 17h, un Jeudi/2 à 17h + quelques lives "sauvages" bonus en fonction des humeurs.
 
