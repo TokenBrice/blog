@@ -40,7 +40,7 @@ L’idée est toute jeune, elle a émergé ces dernières années. Ce qui pourra
 
 
 - **Priorité au numérique** : tous les services publics sont disponibles en ligne et accessibles à distance.
-- **Ouverture des données (open data)** : les données publiques sont accessibles au travers d’API. Cela permet la création de services tiers pour l’infrastructure publique : l’exemple le plus parlant de ce concept, ce sont les applis qui vous donnent les horaires des bus/trains/métros déjà disponibles dans la plupart des grandes viles.
+- **Ouverture des données (open data)** : les données publiques sont accessibles au travers d’API. Cela permet la création de services tiers pour l’infrastructure publique : l’exemple le plus parlant de ce concept, ce sont les applis qui vous donnent les horaires des bus/trains/métros déjà disponibles dans la plupart des grandes villes.
 - **Échange de données entre les services publics** : plus besoin de soumettre la même information deux fois, même face à deux services publics bien distincts. Une seule saisie suffit – la donnée circule ensuite entre les différents services pertinents de manière transparente et avec votre consentement.
 
 Ces concepts peuvent être un peu dur à envisager dans la pratique. Permettez moi de vous emmener en e-Estonie où Kaspar Korjus (responsable du programme d’e-résidence) nous montre ce que ça implique dans le vie de tous les jours,[avec la naissance de son fils Ruufus](https://medium.com/e-residency-blog/what-is-a-nation-children-born-today-will-grow-up-with-a-radically-different-answer-b31f14403c3c) :

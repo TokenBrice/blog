@@ -77,7 +77,7 @@ Pour ceux qui ont un site à gérer, on propose une alternative dans en fin d’
 
 On est passé un peu vite sur les trackers pour les services de publicité alors il fallait y revenir ici. Permettons nous un petit retour aux bases de la pub en ligne :
 
-- Ça se paye par action : coût par clic, coût par mile vues, coût par action spécifique (inscription, téléchargement d’app…)
+- Ça se paye par action : coût par clic, coût par mille vues, coût par action spécifique (inscription, téléchargement d’app…)
 - Une action n’en vaut pas une autre – un clic peut provenir d’une personne totalement en dehors de la cible du site ou alors au contraire de quelqu’un qui va devenir un fan.
 - Les campagnes peuvent être modifiées et mises à jour en temps réel.
 

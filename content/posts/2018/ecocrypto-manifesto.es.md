@@ -7,7 +7,7 @@ categories: [👩‍🔧 Proyectos]
 tags: [EcoCrypto]
 ---
 
-`EcoCrypto es una iniciativa que lancé en el 2008 para establecer un informativo calitativo y transparente para discutir sobre las crypto monedas. Quizás muy ambicioso y muy idealista sin duda. La aventura se plasma en los artículos que desde ahora se encontrarán aquí.`
+`EcoCrypto es una iniciativa que lancé en el 2018 para establecer un informativo calitativo y transparente para discutir sobre las crypto monedas. Quizás muy ambicioso y muy idealista sin duda. La aventura se plasma en los artículos que desde ahora se encontrarán aquí.`
 
 Bienvenidos a EcoCrypto, la incorruptible publicación francesa que dentro de muy poco sera referencia. EcoCrypto ha sido creada ante la necesidad de una fuente de información sobre cryptos, francesa, transparente y calitativa.
 
