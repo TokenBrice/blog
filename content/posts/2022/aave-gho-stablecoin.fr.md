@@ -48,13 +48,13 @@ J'ai réalisé quelques calculs rapides et un peu schématiques pour estimer le 
 
 <table>
   <tr>
-   <td>Capitalisation de GHO
+   <td><p style="text-align: center">Capitalisation de GHO</p>
    </td>
-   <td>Taux d'intérêt moyen
+   <td><p style="text-align: center">Taux d'intérêt moyen</p>
    </td>
-   <td>Revenus annuels pour la DAO
+   <td><p style="text-align: center">Revenus annuels pour la DAO</p>
    </td>
-   <td>Revenus journaliers pour la DAO
+   <td><p style="text-align: center">Revenus journaliers pour la DAO</p>
    </td>
   </tr>
   <tr>
@@ -229,7 +229,7 @@ Tout comme Frax s'éloigne actuellement de USDT et DAI et tente d'établir la Fr
 
 Cependant, alors que Frax contrôle un pouvoir de gouvernance et de vote important dans les Curve Wars, ce n'est pas le cas pour la DAO Aave. Les soldes actuels de la trésorerie CRV/CVX seront clairement insuffisants pour inciter les pools à atteindre le milliard de dollars, ce qui pourrait pousser la DAO Aave à envisager l'acquisition de plus de tokens CRV/CVX. Avec les revenus importants que la DAO percevra du taux d'intérêt de GHO, elle devrait avoir suffisamment de moyens pour soutenir une liquidité appropriée, quelle que soit la capitalisation de GHO.
 
-Enfin, Aave a été historiquement proche de Balancer, avec la pool Balancer 80% AAVE / 20% wETH utilisé dans le module de sécurité depuis la transition vers le token AAVE. Nous pourrions donc nous attendre à un jeu passionnant pour GHO sur Balancer. Pourtant, lorsqu'il s'agit de stablecoin, Curve reste à la fois le roi et le faiseur de roi : Je ne vois pas comment Aave pourrait faire croître suffisamment la liquidité de GHO sans s'impliquer d'une manière ou d'une autre dans [la guerre du CRV]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}}).
+Enfin, Aave a été historiquement proche de Balancer, avec la pool Balancer 80% AAVE / 20% wETH utilisé dans le module de sécurité depuis la transition vers le token AAVE. La trésorerie possède déjà 200k BAL et [un achat additionel de 100K BAL est prévu](https://governance.aave.com/t/arc-strategic-partnership-with-balancer-part-2/7813). Nous pourrions donc nous attendre à un jeu passionnant pour GHO sur Balancer. Pourtant, lorsqu'il s'agit de stablecoin, Curve reste à la fois le roi et le faiseur de roi : Je ne vois pas comment Aave pourrait faire croître suffisamment la liquidité de GHO sans s'impliquer d'une manière ou d'une autre dans [la guerre du CRV]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}}).
 
 En plus des incitations du protocole de base (comme le taux d'intérêt d'emprunt dynamique ou géré par la DAO) et du mécanisme de liquidation, la stratégie de liquidité est probablement l'un des éléments les plus cruciaux pour un stablecoin, car elle a également un impact sur la façon dont l'ancrage est maintenu.
 
