@@ -1,5 +1,5 @@
 ---
-title: "NFTfi: NFT meets DeFi, liquidity and leverage ensues"
+title: "NFTfi: NFT meets DeFi, liquidity and leverage ensue"
 description: "DeFi offers NFT projects tools to solve their main limitations (like liquidity) while NFTs allow to make DeFi more fun and digestible: a perfect pairing?"
 date: '2022-03-29T01:13:50.191Z'
 categories: [🃏 NFT]
@@ -202,7 +202,7 @@ The 🪅 are ERC-1155 tokens that contain 1 accessory for Luchadores, whose rari
 
 The game is not yet available (Alpha by the end of March!), but interactions of this type will only become more dense as it develops. With the arrival of the game, new features will come: staking your LUCHA tokens will allow you to get MASK, a non-transferable token but necessary to buy different items to increase the power of your Luchadores.
 
-From the launch of the game, players will earn LUCHA for each victory. Depending on their ranking, the amount of LUCHA obtained increases: the best players will be able to get interesting returns, for a very moderate initial cost (1 Luchador, potentially minted for ~0.03 ETH). Be prepared!
+From the launch of the game, players will earn LUCHA for each victory. Depending on their ranking, the amount of LUCHA obtained increases: the best players will be able to get interesting returns, for a very moderate initial cost (1 Luchador, potentially minted for \~0.03 ETH). Be prepared!
 
 If you discover Luchadores with this article, feel free to read this introduction: **[🤼 Long live free (and verifiable onchain) wrestling]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})**
 
