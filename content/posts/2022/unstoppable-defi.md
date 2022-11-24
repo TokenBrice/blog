@@ -149,7 +149,7 @@ The front-end issue for DEX is less critical since many access points exist. The
 
 ### Uniswap
 
-The contracts are completely immutable on [Uniswap](https://uniswap.org/) v1 and v2. On Uniswap v3, all essential functions also are. Yet, the governance can vote on the introduction of an administrative fee [^UNI-fee-switch] (= to the protocol), as already seen on Curve.
+The contracts core functions are completely immutable on [Uniswap](https://uniswap.org/) v1, v2 and v3. The Uniswap V2 release markededthe introduction of an administrative fee the governance can decided to turn on[^UNI-fee-switch] (= to the protocol), as already seen on Curve.
 
 Here, the case is straightforward. If there is indeed a governance, the good news (less for UNI holders) is that what it can do is very limited. **No seizure or migration of funds is possible**. Apart from the fee, it manages matters such as deploying Uniswap on a new chain, adding a new tier of fees (1bps for stablecoins), or using the protocol's treasury [^UNI-treasury], for example, to fund liquidity mining campaigns or to distribute UNI to friendly people who ask for it, without any limit or accounting [^UNI5].
 

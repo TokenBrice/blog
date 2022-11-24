@@ -154,7 +154,7 @@ La question du front-end pour les DEX est un peu moins critique puisque de nombr
 
 ### Uniswap
 
-Sur [Uniswap](https://uniswap.org/) v1 et v2, les contrats sont totalement immuables. Sur Uniswap v3, toutes les fonctions essentielles le sont. La gouvernance peut voter néanmoins l’introduction d’un frais administratif[^UNI-fee-switch] (= pas pour les LP mais pour le protocole), comme c’est déjà le cas sur Curve.
+Sur [Uniswap](https://uniswap.org/) v1, v2 et v3, les fonctions essentielles sont assurées par des contrats immuables. Depuis Uniswap V2, la gouvernance peut voter néanmoins l’introduction d’un frais administratif[^UNI-fee-switch] (= pas pour les LP mais pour le protocole), comme c’est déjà le cas sur Curve.
 
 Ici, le cas est donc très simple. S’il y a certes une gouvernance, la bonne nouvelle (moins pour les possesseurs d’UNI), est que ce qu’elle peut faire est très limité. **Aucune saisie ou migration des fonds n’est possible**. Outre le frais, elle gère des sujets tels que le déploiement d’Uniswap sur une nouvelle chaîne, l’ajout de nouveaux tiers de frais (1bps pour les stablecoins), ou encore l’utilisation de la trésorerie du protocole[^UNI-treasury], par exemple pour financer des campagnes de liquidity mining ou encore pour distribuer des UNI à des gens sympathiques qui le demandent, sans aucune forme de limite ou comptabilité[^UNI5].
 
