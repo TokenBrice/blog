@@ -91,7 +91,7 @@ This enables unbalanced pool structures that are very useful in certain situatio
 Finally, Balancer can adjust the pool weighting distribution as needed through a specific type of pool called a [Liquidity Boostraping Pool (LBP)](https://docs.balancer.fi/products/balancer-pools/liquidity-bootstrapping-pools-lbps). Such pools are particularly fitting for launching tokens & building their liquidity at the same time, as they enable the streamlined go-to-market token flow. For instance:
 
 1. A given project wants to quickstart its token liquidity — the associated DAO controls a significant amount of the token, but usually none of the potential pairing asset (usually ETH or stablecoin)
-2. So they start with a 98%USDC/2%USDC pool, enabling them to provide liquidity with minimal pairing token requirements.
+2. So they start with a 98% USDC / 2% Token pool, enabling them to provide liquidity with minimal pairing token requirements.
 3. The pool acts as a token initiation event and price discovery mechanism at the same time. The token starts at a given price, which decreases as time goes on if no one purchases the token.
 
 ![balancer-trinity](/img/2022/balancer-wars/LBP.png "Evolution of the price of a token during an LBP if there is no purchase")
