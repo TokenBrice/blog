@@ -21,7 +21,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Ethereum-based unstoppable lending protocol, with no interest rates and high capital efficiency. <br> **[ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})** <br> **[📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})** | Head of Marketing |
+| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Ethereum-based unstoppable lending protocol, with no interest rates and high capital efficiency. <br> **[ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})** <br> **[📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})** | Strategy |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
 | ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model autobattler strategic game | Community Development |
 | ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
