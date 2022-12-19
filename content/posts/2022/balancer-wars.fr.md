@@ -55,7 +55,7 @@ Pour ceux qui sont familiers avec l'approvisionnement en liquidités d'UniswapV3
 
 ## En quoi Balancer est-il différent ?
 
-Avec Uniswap et Curve, Balancer est l'un des DEX les plus anciens et les plus populaires aujourd'hui. En effet, si l'on considère le marché DEX d'un point de vue global, Balancer se classe à la cinquième place avec environ 3 % du volume total traité :
+Avec Uniswap et Curve, Balancer est l'un des DEX les plus anciens et les plus populaires aujourd'hui. En effet, si on considère le marché DEX d'un point de vue global, Balancer se classe à la cinquième place avec environ 3 % du volume total traité :
 
 ![defillama-dex-overview](/img/2022/balancer-wars/dex-overview.png)
 
