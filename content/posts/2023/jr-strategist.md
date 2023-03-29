@@ -38,7 +38,7 @@ Solid understanding of the top DeFi protocols and good overview of the promising
 
 ### What I can offer
 
-- Exiting part time position (~50%) + fixed $2000 compensation monthly.
+- Exiting part time position (~50%) with a monthly retainer in FIAT (for the beginning)
 - Drive a community-led initiative (more to be announced soon)
 - Be part of a top notch and proven DeFi team 
 - Work remotely (ideally in Europe or US timezone)
