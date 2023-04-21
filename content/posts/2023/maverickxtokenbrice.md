@@ -1,6 +1,6 @@
 ---
 title: "Announcement: TokenBrice 🤝 Maverick"
-description: "Je soutiens l'équipe de Maverick en tant que conseiller, en aidant à la stratégie de croissance, tokenomique et au développement commercial."
+description: "I am supporting the Maverick team as an advisor, helping with the growth strategy, tokenomics, and BD."
 date: '2023-04-21T01:13:50.191Z'
 categories: [👩‍🔧 Projets]
 tags: [DeFi, Ethereum, Decentralized Finance, DEX, Liquidity]
