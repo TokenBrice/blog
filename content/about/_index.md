@@ -19,13 +19,21 @@ At the time, quality articles, videos or podcasts in French dealing with decentr
 
 I'm working to grow the Ethereum decentralized finance ecosystem by developing welcoming communities:
 
+### Main
+
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Ethereum-based unstoppable lending protocol, with no interest rates and high capital efficiency. <br> **[ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})** <br> **[📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})** | Strategy |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
-| ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Play2Earn model autobattler strategic game | Community Development |
 | ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
-| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | French version of [Bankless](https://twitter.com/BanklessHQ): a newsletter designed as a guide that helps you progressively understand and take advantage of the opportunities offered by decentralized finance. | Coordinator
+
+### Advisory
+
+| Logo | Project | Description | Role |
+| :---: | :---: | :---: | :---: |
+| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})** | DeFi/Tokenomics Advisory |
+|  ![maverick](/img/others/mav-symbol-color.png) | [Maverick](https://mav.xyz) | The AMM for all market conditions <br> **[ℹ️ Announcement]({{< relref path="/content/posts/2023/maverickxtokenbrice.md" >}})**  | Growth Strategy, Tokenomics & BD Advisor |
+
 
 ### Liquity
 
@@ -37,17 +45,12 @@ DeFi France is the main French-speaking community to exchange about decentralize
 
 I host the weekly live shows that take place on **[Monday at 5pm on the YouTube channel DeFi France](https://www.youtube.com/c/defifrance)** - after a press review of the French-speaking DeFi, we analyze a transversal theme or a given project.
 
-
 ### Luchadores
 
 `UltraSoundNFT`
 An NFT project that does things right: 100% onchain data (svg) and attribute generation during mint by a verifiable and auditable process (ChainLink VRF). Game in Play2Earn model to come.
 
 [Read the Luchadores Thesis](https://tokenbrice.xyz/luchadores-nft/)
-
-### BanklessFR
-
-I was instrumental in getting BanklessFR off the ground, taken over by Jon and remains an active promoter - involved primarily at the community level.
 
 ### Previous Occupations
 

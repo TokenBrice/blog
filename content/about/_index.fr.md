@@ -19,13 +19,21 @@ J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses pr
 
 Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des communuautés acceuillantes :
 
+### Activitité principale
+
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
+| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Protocole de prêt immuable basé sur Ethereum, sans taux d'intérêt et avec une grande efficacité du capital. <br> **[ℹ️ Présentation de Liquity]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})** <br> **[📢 Annonce]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}})** | Statégie DeFi |
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
-| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Protocole de prêt immuable basé sur Ethereum, sans taux d'intérêt et avec une grande efficacité du capital. <br> **[ℹ️ Présentation de Liquity]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})** <br> **[📢 Annonce]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}})** | Statégie |
-|  ![luchadores](/img/others/luchadores.jpg) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn | Développement Communautaire |
-|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal |
-| ![Bankless-logo](/img/others/bankless.jpg) | [💸 BanklessFR](https://banklessfr.substack.com/) | Version française de [Bankless](https://twitter.com/BanklessHQ): une newsletter conçue comme un guide qui vous aide progressivement à comprendre et tirer profit des opportunités offertes par la finance décentralisée. | Coordinateur |
+|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal 
+
+### Conseiller (Advisor)
+
+|  Logo | Projet | Description | Rôle |
+| :---: | :---: | :---: | :---: |
+|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores]({{< relref path="/content/posts/2021/luchadores-nft.fr.md" >}})** | | Conseil DeFi / Tokenomics |
+|  ![maverick](/img/others/mav-symbol-color.png) | [Maverick](https://mav.xyz) | Un AMM adapté à toutes les conditions de marché  <br> **[ℹ️ Annonce]({{< relref path="/content/posts/2023/maverickxtokenbrice.fr.md" >}})** | Conseil Growth, Tokenomics & BD |
+
 
 ### DeFi France
 
@@ -43,10 +51,6 @@ Je suis ravi de contribuer à la croissance d'un projet qui incarne les valeurs 
 Un projet NFT opiniatre qui fait les choses bien : données 100% onchain (svg) et génération des attributs lors du mint par un processus vérifiable et auditable (ChainLink VRF). Jeu en modèle Play2Earn à venir.
 
 [Vive la lutte libre (et vérifiable onchain) !](https://tokenbrice.xyz/fr/luchadores-nft/)
-
-### BanklessFR
-
-J'ai contribué à la mise en route de BanklessFR, prise en charge par Jon et reste un promoteur actif - impliqué avant tout au niveau communautaire.
 
 ### Précédentes occupations
 
