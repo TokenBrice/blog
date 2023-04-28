@@ -60,7 +60,11 @@ Apart from these changes, Solidly inherited most of the Curve model, including**
 
 The presence/absence of this feature is the critical difference between the Solidly and Velodrome models, so we’ll touch back on it later.
 
-Solidly innovated on the launch strategy, with **an airdrop targeted at protocols**, depending on their onchain activity on Fantom, where Solidly was. Together, all those innovations and the hype led to a massive amount of liquidity quickly attracted to the exchange.
+Finally, there on last critical twist to the voter incentives model. On Curve, LP get half of the trading fees collected + CRV emissions, while voters have no exposure to the fees of the pool they are voting on. It can lead to situation where voters are voting for pools just for the bribes, even if the pool is useless and provides no volume to the exchange.
+
+On Solidly, the LPs are only rewarded with SOLID emission, and the LP fees are redirected to the voters of the pool. Thus, as a veSOLID holder, to optimize your earning, you are incentivized to consider the volume on the pool you are voting on, and not just the bribes. This leads to a better alignment of the incentives of the main participants of the protocol (swapper, liquidity provider, veHolder)
+
+Solidly also innovated on the launch strategy, with **an airdrop targeted at protocols**, depending on their onchain activity on Fantom, where Solidly was. Together, all those innovations and the hype led to a massive amount of liquidity quickly attracted to the exchange.
 
 But Solidly’s initial implementation had a few key weaknesses, including an aggressively steep decline in emissions and fully permissionless gauge creation that allowed any pools to receive SOLID rewards. It was gamable, so it was gamed. Soon, tokens were created for the sole purpose of farming SOLID, and the price quickly spiraled, along with the TVL.
 
