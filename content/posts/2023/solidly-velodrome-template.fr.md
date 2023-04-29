@@ -61,7 +61,7 @@ Hormis ces changements, Solidly a hérité de la plupart des éléments du modè
 
 La présence ou l'absence de cette caractéristique constitue la différence essentielle entre les modèles de Solidly et de Velodrome, et nous y reviendrons plus tard.
 
-Enfin, il y a une dernière particularité essentielle sur le modèle d'incitation des votants. Sur Curve, les LP reçoivent la moitié des frais d'échange collectés + les émissions de CRV, alors que les votants ne sont pas exposés aux frais du pool sur lequel ils votent. Cela peut conduire à une situation où les veCRV holders votent pour des pools uniquement pour les incitations de vote, même si la pool est inutile et ne fournit aucun volume à l'échange.
+Enfin, il y a une dernière particularité essentielle sur le modèle d'incitation des votants. Sur Curve, les LP reçoivent la moitié des frais d'échange collectés + les émissions de CRV, alors que les votants ne sont pas exposés aux frais de la pool sur laquelle ils votent. Cela peut conduire à une situation où les veCRV holders votent pour des pools uniquement pour les incitations de vote, même si la pool ne fournit aucun volume à l'échange.
 
 Sur Solidly, les LP ne sont récompensés que par l'émission SOLID, et les frais collectés sur la paire sont redirigés vers les votants de la pool. Ainsi, en tant que détenteur de veSOLID, pour optimiser vos gains, vous êtes incité à prendre en compte le volume de la pool sur lequel vous votez, et pas seulement les pots-de-vin. Cela abouti à un meilleur alignement des incitations des principaux participants du protocole (swapper, apporteur de liquidité, veHolder).
 

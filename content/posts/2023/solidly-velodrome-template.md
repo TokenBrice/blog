@@ -39,7 +39,7 @@ Indeed, to grasp the ve(3,3) DEXes story, we need to distinguish between two lay
 
 While at the end of the day, 1 – the liquidity structure – is the heart of the game, the second layer – incentives – is crucial in attracting and sustaining sufficient liquidity.
 
-Curve innovated on both, but the models we’ll discuss today are built on top of it and **focus entirely on improving the incentivization layer**. Indeed at the current stage, most of ve(3,3) DEXes harnessing the Solidly or Velodrome model only offer two well-known liquidity structure types: x\*y=k & stableswap.
+Curve innovated on both. While the models we'll discuss today harnessed it, they **focus entirely on improving the incentivization layer**. Indeed at the current stage, most of ve(3,3) DEXes harnessing the Solidly or Velodrome model only offer two well-known liquidity structure types: x\*y=k & stableswap.
 
 {{< notice info >}}
 Depending on the DEXes, those two liquidity models are called correlated/volatile or stable/volatile.
@@ -56,13 +56,13 @@ Thus came ve(3,3), with at its core **the veNFT**. While veCRV are illiquid, veS
 
 The idea here is simple: since the Curve/Solidly DEX model emits tokens weekly to liquidity providers, vetokens holders are constantly diluted. They must keep increasing their position even to maintain their current vote share. To compensate for this, veSOLID holders receive a weekly rebase proportional to the weekly emissions under the Solidly model. This allows them to maintain their voting share even if no new tokens are locked.
 
-Apart from these changes, Solidly inherited most of the Curve model, including** the LP boost** feature, enabling vetokens holders to earn boosted yields on their liquidity position. This feature has real consequences since it pretty much “calls for a Convex.” Indeed, the logical conclusion of such a feature is one/a few actors seizing significant amounts of vetokens and providing their LP boost to depositors for a fee.
+Apart from these changes, Solidly inherited most of the Curve model, including **the LP boost** feature, enabling vetokens holders to earn boosted yields on their liquidity position. This feature has real consequences since it pretty much “calls for a Convex.” Indeed, the logical conclusion of such a feature is one/a few actors seizing significant amounts of vetokens and providing their LP boost to depositors for a fee.
 
 The presence/absence of this feature is the critical difference between the Solidly and Velodrome models, so we’ll touch back on it later.
 
-Finally, there on last critical twist to the voter incentives model. On Curve, LP get half of the trading fees collected + CRV emissions, while voters have no exposure to the fees of the pool they are voting on. It can lead to situation where voters are voting for pools just for the bribes, even if the pool is useless and provides no volume to the exchange.
+Finally, there one last critical twist to the voter incentives model. On Curve, LP get half of the trading fees collected + CRV emissions, while voters have no exposure to the fees of the pool they are voting on. It can lead to situation where voters are voting for pools just for the bribes, even if the pool provides no volume to the exchange.
 
-On Solidly, the LPs are only rewarded with SOLID emission, and the LP fees are redirected to the voters of the pool. Thus, as a veSOLID holder, to optimize your earning, you are incentivized to consider the volume on the pool you are voting on, and not just the bribes. This leads to a better alignment of the incentives of the main participants of the protocol (swapper, liquidity provider, veHolder)
+On Solidly, the LPs are only rewarded with SOLID emission, and the LP fees are redirected to the voters of the pool. Thus, as a veSOLID holder, to optimize your earnings, you are incentivized to consider the volume on the pool you are voting on, and not just the bribes. This leads to a better alignment of the incentives of the main participants of the protocol (swapper, liquidity provider, veHolder)
 
 Solidly also innovated on the launch strategy, with **an airdrop targeted at protocols**, depending on their onchain activity on Fantom, where Solidly was. Together, all those innovations and the hype led to a massive amount of liquidity quickly attracted to the exchange.
 
