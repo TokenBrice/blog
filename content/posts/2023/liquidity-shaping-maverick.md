@@ -115,7 +115,7 @@ This whole process can be automated and triggered entirely through smart contrac
 
 Let's study another checkmate case, the one of cvxCRV. Indeed, the cvxCRV/CRV Curve pool is the absolute worst offender:
 
-- It harnesses a **V2 pool structure, absolutely sub-optimal for an asset trading in a constrained range like cvxCRV**.
+- It harnesses a **a regular structure, absolutely sub-optimal for an asset trading in a constrained range like cvxCRV**.
 - It harnesses a **"dumb" liquidity mining model where all LPs are paid equally**, leading to cvxCRV deposits, which make 75% of the pool, earning 75% of the rewards - while being close to useless liquidity-wise (as there are already too much cvxCRV in that pool).
 
 #### So what can be done better?

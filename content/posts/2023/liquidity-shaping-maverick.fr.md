@@ -115,7 +115,7 @@ L'ensemble de ce processus peut être automatisé et déclenché entièrement pa
 
 Étudions un autre cas d'échec et mat, celui de cvxCRV. En effet, le pool cvxCRV/CRV Curve est le pire des cas :
 
-- Il exploite une structure de pool **V2, absolument sous-optimale pour un actif se négociant dans une fourchette contrainte comme le cvxCRV**.
+- Il exploite une structure de pool classique, **absolument sous-optimale pour un actif se négociant dans une fourchette contrainte comme le cvxCRV**.
 - Il exploite un **modèle d'incitation de liquidité "stupide" où tous les LPs sont payés de la même manière**, ce qui conduit à des dépôts de cvxCRV, qui représentent 75% du pool, gagnant 75% des récompenses - tout en étant presque inutile du point de vue de la liquidité (car il y a déjà trop de cvxCRV dans ce pool).
 
 #### Que peut-on faire de mieux ?
