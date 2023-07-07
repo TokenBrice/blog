@@ -138,7 +138,7 @@ The details of this example help you understand that if you take this pool to Ma
 
 There are currently $54M TVL in Curve cvxCRV/CRV pool for a daily volume of around $300k daily (0.5% utilization). With a base incentive of 12% CRV, ~**$6M of CRV tokens are expanded yearly to maintain this liquidity**.
 
-**On Maverick, a ~$500K  properly structured pool** ($250k static broad range + $250k left-right) **would be sufficient to consistently process the $160k daily volume** with better prices than on Curve. Assuming the same incentivization intensity, **it would cost $60k a year to maintain**.
+**On Maverick, a ~$500K  properly structured pool** ($250k static broad range + $250k left-right) **would be sufficient to consistently process the $300k daily volume** with better prices than on Curve. Assuming the same incentivization intensity, **it would cost $60k a year to maintain**.
 
 ### Proto Liquidity Shaping with Bunni?
 

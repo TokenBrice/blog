@@ -138,7 +138,7 @@ Les détails de cet exemple vous aident à comprendre que si vous amenez ce pool
 
 Il y a actuellement 54 millions de dollars de TVL dans le pool cvxCRV/CRV de Curve pour un volume quotidien d'environ 300 000 dollars par jour (0,5 % d'utilisation). Avec une incitation de base de 12% CRV, ~**$6M de jetons CRV sont dépensés chaque année pour maintenir cette liquidité**.
 
-**Sur Maverick, une pool de ~500K$ correctement structuré** (250k$ statique à large gamme + 250k$ gauche-droite) **serait suffisante pour traiter régulièrement le volume quotidien de 160k$** avec des prix plus intéressants que sur Curve. En supposant la même intensité d'incitation, **cela coûterait 60 000 $ par an à maintenir**.
+**Sur Maverick, une pool de ~500K$ correctement structuré** (250k$ statique à large gamme + 250k$ gauche-droite) **serait suffisante pour traiter régulièrement le volume quotidien de 300k$** avec des prix plus intéressants que sur Curve. En supposant la même intensité d'incitation, **cela coûterait 60 000 $ par an à maintenir**.
 
 
 ### Proto Liquidity Shaping avec Bunni ?
