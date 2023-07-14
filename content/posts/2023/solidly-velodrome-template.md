@@ -99,7 +99,7 @@ It’s been almost a year, and the activity has sustained, thanks to careful and
 
 The bribe matching is further increased for projects which lock veVELO or deploy sizeable amounts of protocol-owned liquidity to the exchange, helping further amplify the reinforcing effect: those who want to build liquidity sustained over the long term on Velodrome have been given solid reasons to buy VELO, lock and vote, bribe, and supply POL, **ideally all at once**.
 
-It leads to Velodrome topping the protocols TVL charts on Velodrome and processing about 30% of the total volume of the chain, vs 50% for Uniswap, which has roughly ¼ of Velodrome’s TVL.
+It leads to Velodrome topping the protocols TVL charts on Optimism and processing about 30% of the total volume of the chain vs 50% for Uniswap, which has roughly ¼ of Velodrome’s TVL.
 
 ![optimism-DEX-volume](/img/2023/solidly-velodrome-template/optimism-volume.png "Volume on DEXes on Optimism, from DeFiLlama")
 

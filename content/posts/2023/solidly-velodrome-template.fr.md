@@ -99,7 +99,7 @@ Cela fait presque un an, et l'activité s'est maintenue, grâce à des ajustemen
 
 Le matching des bribes est encore augmentée pour les projets qui verrouillent veVELO ou déploient des quantités importantes de liquidité (Protocol Owned Liquidity), ce qui contribue à amplifier l'effet de renforcement : ceux qui veulent construire des liquidités soutenues à long terme sur Velodrome ont de bonnes raisons d'acheter veVELO, de verrouiller et de voter, de soumettre des incitations de vote et de fournir de la POL, **idéalement tout cela en même temps**.
 
-Cela permet à Velodrome d'être en tête du classement des protocoles TVL sur Velodrome et de traiter environ 30% du volume total de la chaîne, contre 50% pour Uniswap, qui a environ ¼ de la TVL de Velodrome.
+Cela permet à Velodrome d'être en tête du classement des protocoles TVL sur Optimism et de traiter environ 30% du volume total de la chaîne, contre 50% pour Uniswap, qui a environ ¼ de la TVL de Velodrome.
 
 ![optimism-DEX-volume](/img/2023/solidly-velodrome-template/optimism-volume.png "Volume on DEXes on Optimism, from DeFiLlama")
 
