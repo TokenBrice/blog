@@ -119,7 +119,7 @@ Pour y remédier, une gestion très active des AMOs est nécessaire - par des hu
 
 Pour assurer la stabilité du crvUSD, Curve a exploré une voie similaire à celle du PSM, mais légèrement améliorée. En effet, ici, la contribution des utilisateurs n'est plus nécessaire :
 
-Avec Maker PSM, c’est toujours l'utilisateur qui décide : en cas de dépassement, les utilisateurs fournissent des USDC comme garantie à Maker PSM et frappent des DAI, ce qui contribue à faire remonter leur prix. Si le prix du DAI devait baisser, les utilisateurs pourraient de la même manière acheter du DAI (à moins de 1 $) pour le racheter contre 1 USDC, ce qui contribuerait à ramener son prix à son niveau de référence.
+Avec Maker PSM, c’est toujours l'utilisateur qui décide : en cas de dépassement, les utilisateurs fournissent des USDC comme garantie à Maker PSM et frappent des DAI, ce qui contribue à faire baisser son prix. Si le prix du DAI devait baisser, les utilisateurs pourraient de la même manière acheter du DAI (à moins de 1 $) pour le racheter contre 1 USDC, ce qui contribuerait à ramener son prix à son niveau de référence.
 
 crvUSD fonctionne de manière similaire(si crvUSD>1$ => frapper, si crvusd&lt;$1 => brûler) mais ne nécessite aucune action : le système se stabilise de lui-même grâce à ses contrats pegKeepers. Ces contrats spéciaux peuvent créer des crvUSD non collatéralisés sous certaines conditions et pour des cas d'utilisation spécifiques uniquement.
 
