@@ -207,7 +207,7 @@ Une autre équipe, [Lybra](https://lybra.finance/), a expérimenté un modèle d
 
 ##### DYAD
 
-Enfin, parlons de [DYAD] (https://dyadstable.xyz/). Techniquement, il ne s'agit pas d'un fork de Liquity à proprement parler, mais plutôt d'un protocole inspiré de Liquity, en particulier en ce qui concerne le mécanisme de stabilisation du prix de leur stablecoin.
+Enfin, parlons de [DYAD](https://dyadstable.xyz/). Techniquement, il ne s'agit pas d'un fork de Liquity à proprement parler, mais plutôt d'un protocole inspiré de Liquity, en particulier en ce qui concerne le mécanisme de stabilisation du prix de leur stablecoin.
 
 Le principal problème qu'ils tentent de résoudre est l'intégration de nouvelles garanties dans un protocole CDP actif sans étendre la portée du risque du protocole de base plus qu'il n'est nécessaire. Pour ce faire, DYAD introduit une "couche de licence sociale", essentiellement la couche de gouvernance.
 
