@@ -89,7 +89,7 @@ While underpegging is usually more concerning, overpegging can have real consequ
 
 LUSD’s overpeg stems from mostly psychological mechanisms: the worst case of sustained overpegging was observed during movements of market panic, especially when a prominent centralized stablecoin is perceived at risk. 
 
-Indeed, thanks to its resilience, LUSD is seen as a **safe heaven stablecoin**. A remarkable feat, but it comes with a price: crowds rush to LUSD when other stablecoins are at fault, such as when USDC depegged 10% following the bank run on Silicon Valley Bank. LUSD saw an incredible trading volume that day, with sizeable purchases above $1.03, $1.04, and $1.05 as the market panicked. Amid the panic, some users are willing to pay a high price to fly to safety.
+Indeed, thanks to its resilience, LUSD is seen as a **safe haven stablecoin**. A remarkable feat, but it comes with a price: crowds rush to LUSD when other stablecoins are at fault, such as when USDC depegged 10% following the bank run on Silicon Valley Bank. LUSD saw an incredible trading volume that day, with sizeable purchases above $1.03, $1.04, and $1.05 as the market panicked. Amid the panic, some users are willing to pay a high price to fly to safety.
 
 
 #### DAI and the PSM: solving overpegging, for a price
