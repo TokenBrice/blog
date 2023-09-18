@@ -297,7 +297,7 @@ J'ai fait court sur les stablecoins garantis par des réserves, car je publierai
 
 * [Un appel récent de la communauté, lorsque Robert et moi avons rejoint l'équipe AladinDAO/Protocol F(x) pour discuter plus largement des stablecoins décentralisés [60min]](https://twitter.com/aladdindao/status/1684141750900736000?s=20)
 * [Community Call - Deep Dive into f(x) [30min]]](https://www.youtube.com/watch?v=_xA6AFufGoQ&t=3871s)
-* [Protocole f(x) avec Kmets et Crouger de AladinDAO (Leviathan News) [28min]](https://www.youtube.com/watch?v=Nzy7xO09SFw)
+* [Protocole f(x) avec Kmets et Crouger de AladinDAO(Leviathan News) [28min]](https://www.youtube.com/watch?v=Nzy7xO09SFw)
 * [Présentation de Liquity v2 - Liquity Blog](https://www.liquity.org/blog/introducing-liquity-v2)
 * [Liquity v2 avec Colin Platt (Leviathan News)](https://www.youtube.com/watch?v=KOnGCPE5gaU)
 
