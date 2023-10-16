@@ -52,10 +52,6 @@ _Service_: Streamlined investment products (vaults)
 
 The "symbiotic relationship" with Pickle Finance was the first to be introduced on November 24. The idea is to merge the efforts of the two projects currently offering similar products. Pickle will now deliver an **incentive mechanism on top of the Yearn vaults** through gauges, similar to Curve's current model.
 
-<div align="center">
-{{< tweet 1331222558536998914 >}}
-</div>
-
 By joining forces, it creates additional options for Yearn vaults depositors while securing the assets deposited in the Pickle jars, one of which was subject to a [$20 million exploit ](https://cointelegraph.com/news/pickle-in-a-pickle-as-attacker-swipes-20-million-in-evil-jar-exploit)shortly before the merge.
 
 
@@ -99,10 +95,6 @@ Sushi is now **the second DEX by volume** with roughly half ($889M) of the total
 
 This could allow Yearn to **incentivize liquidity providing for critical pairs of the Yearn ecosystem**, such as a CRV &lt;> yyveCRV to drive deposit into this vault which can provide additional returns for other Yearn deposits on Curve. The team joins efforts so that Sushi/0xMaki can lead the AMM efforts amongst the ecosystem.
 
-<div align="center">
-{{< tweet 1333765583788191744 >}}
-</div>
-
 ### What does it mean for Yearn?
 
 While this merger spree is a **massive increase in Yearn's firepower**, it's also a **form of recentering**: some key parts of the ecosystem are delegated, such as the AMM (swaps) to Sushiswap's team, or the lending markets to Cream. It should enable the team to move faster on its core products.
@@ -113,10 +105,4 @@ In DeFi, composability is key and Yearn is yet another demonstration of what it 
 
 ![Yearn-Merger-TVL-Overview](/img/2020/yearn-merger/yearn-merger-tvl.png "Overview of the mergers in terms of TVL, expressed in millions of $")
 
-With these 5 acquisitions, Yearn will roughly triple its total value of assets locked across its ecosystem. Along with the synergies, it could help Yearn develop a moat that will be hard to beat:
-
-DCInvestor expresses it better that I would do:
-
-<div align="center">
-{{< tweet 1334474169942159361 >}}
-</div>
+With these 5 acquisitions, Yearn will roughly triple its total value of assets locked across its ecosystem. Along with the synergies, it could help Yearn develop a moat that will be hard to beat.

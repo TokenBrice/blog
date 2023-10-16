@@ -102,10 +102,6 @@ Why this? It got my mind racing. This was how it went:
 3. **End of first month:** at first I spent the DAI almost immediately using my [Monolith Visa card](https://monolith.xyz/). It was so tempting—the DAI sitting there in my wallet, accumulating every day. 
 4. **After first month:** as the idea of daily DAI became a reality to me, I started rethinking about my masterplan: how much DAI do I need per day to live solely on that? How much capital would it represent? (*Hint: way less than $1.5M)*
 
-<div align = "center">
-{{< tweet 1223641685898465282 >}}
-</div>
-
 *(Above: a [DeFi Milkshake](https://twitter.com/TokenBrice/status/1223641685898465282?s=20) I bought with my daily DAI passive income using [Visa card](https://monolith.xyz/))*
 
 ### **DAI per day as a framework**

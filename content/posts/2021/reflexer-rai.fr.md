@@ -219,10 +219,6 @@ RAI est pour l'instant disponible dans 3 pools d'actifs proposants différents n
 
 Après avoir ajouté le support pour RAI il y a déjà quelques semaines, Aave a récemment alloué une enveloppe (très modérée) de StkAAVE pour incentiver les emprunts et dépôts sur RAI. Il aura fallu mettre la lumière sur l' une des contradictions principales de la plateforme : Aave est un marché monétaire décentralisé qui utilise (encore) la grande majorité de son budget pour inciter les emprunts/dépôts sur des stablecoins qui ne le sont pas du tout (USDC et USDT).
 
-<div align = "center">
-{{< tweet 1426577620695719944 >}}
-</div> 
-
 À noter : pour l'instant **le max LTV de RAI est de 0 : RAI ne peut donc pas servir de collatéral sur Aave**. Pas de discrimination ici, c'est assez standard de la part d'Aave - il s'agit de la procédure "classique" et prudente lors de l'ajout d'un nouveau type de collatéral. La gouvernance peut voter pour augmenter cette valeur.
 
 
@@ -234,10 +230,6 @@ Cream a été l'un des premiers marchés monétaires à supporter RAI. Il s'agit
 ### RAI sur Idle Finance
 
 Idle Finance est un service qui permet, comme son nom l'indique, de mettre en place des stratégies de rendement passif. Dans le cas de RAI, Idle exploite les rendements disponibles sur Fuse ainsi que Aave. Initialement, il y avait aussi Cream mais la gouvernance a choisi de recentrer les stratégies pour contenir le risque :
-
-<div align = "center">
-{{< tweet 1429907701081989121 >}}
-</div>
 
 Outre le rendement natif en RAI, un dépôt sur Idle Finance vous permet également de bénéficier :
 
@@ -258,10 +250,6 @@ Ainsi, FEI est un stablecoin qui partage une caractéristique avec RAI et LUSD :
 
 Récemment, la DAO de Fei a voté pour **diversifier une partie de la trésorerie du protocole vers RAI** afin de la rendre plus pérenne. Ainsi, jusqu'à $6M (~2M RAI) vont être acquis et déployés sur Aave et Fuse pour produire un rendement.  D'autres DAOs envisagent également de diversifier une partie de leur trésorerie vers RAI (Moloch, DxDAO, Metagame, etc.), je m'attends donc à plus d'initiatives similaires.
 
-
-<div align = "center">
-{{< tweet 1430625935607226368 >}}
-</div>
 
 ## Conclusion
 

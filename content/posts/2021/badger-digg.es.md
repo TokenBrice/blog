@@ -93,12 +93,6 @@ Por ejemplo, después del primer día, el reajuste genesis fue positivo y lanzó
 
 Por el moment, el mecanismo de reajustes es bastante simple, pero podría estar mejor alineado con los incentivos del conjunto en el futuro para ayudar a DIGG a mantener su anclaje.
 
-<div align = "center">
-
-{{< tweet 1354963274387886090 >}}
-
-</div>
-
 
 ### Próxima etapa para los Setts
 

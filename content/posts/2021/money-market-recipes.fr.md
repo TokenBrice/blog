@@ -37,13 +37,6 @@ Les marchés d'actifs ont tous un token associé, par exemple le token AAVE pour
 
 Bien que cette stratégie soit assez basique, il s'agit d'une de mes préférées. Je vous proposais récemment sur Twitter un exemple de sa mise en pratique que nous détaillerons ici :
 
-
-<div align ="center">
-
-{{< tweet 1385873962404614144 >}}
-
-</div>
-
 Ici, le protocole en question c'est [Liquity](https://liquity.org) et la mise en place de la stratégie est assez simple, mais connaît deux variations :
 
 ### Exposition directe au token natif

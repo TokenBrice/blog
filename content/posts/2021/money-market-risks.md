@@ -35,12 +35,6 @@ Before we dive into the risk analysis framework, let's quickly discuss the curre
 
 **DeFiScore is undisputedly compromised since it's still giving DAI a higher rate on Compound than Aave** even with the oracle failure on the Compound side and the arrival of the Safety Module on Aave's side:
 
-<div align ="center">
-
-{{< tweet 1361623363228209152 >}}
-
-</div>
-
 The Consensys CodeFi team was notified a few days ago[^1], acknowledged the issue[^8] but yet **refused any immediate to update the website even with just notice or disclaimer**. Instead, one of their members proposed a 500 USDC bounty open for anyone willing to update the formula[^2]. It has yet to be claimed.
 
 It's no surprise that quantitative approaches so far have failed. They must achieve both sustainability (if the formula stays consistent it allows historical comparisons) and adaptability (yet the risk parameters are always evolving): it's not an easy feat.

@@ -84,11 +84,7 @@ July 17 edit: quickly after receiving the funds, [the multisig sold half of the 
 
 Finally, the proposal wants to be broader than Uniswap since they are officially mandated to lobby DeFi, but we can ask the question of the vision of DeFi carried by such profiles.
 
-<div align ="center">
 
-{{< tweet 1408428012605952002 >}}
-
-</div>
 
 ### Transparency? Maybe. Control? Hell no !
 
@@ -144,12 +140,6 @@ Yearn's success comes at what cost? Again, essentially **users who are literally
 2. Yearn also takes a 20% performance fee: 20% of all farmed assets go into cash. [^yearnfrais]
 
 The first charge is the most problematic since it means that Yearn's excessively greedy charges lead to vaults that… lose money!
-
-<div align ="center">
-
-{{< tweet 1408394252799860740 >}}
-
-</div>
 
 Indeed, any vault that does not achieve a minimum of 2% annual return on Yearn ends up in the red once the management fees are taken, without even taking into account the performance fees ...
 >

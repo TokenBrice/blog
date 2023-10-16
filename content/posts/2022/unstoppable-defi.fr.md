@@ -17,11 +17,6 @@ Effectivement, il y a bien **une poignée de protocoles qui correspondent à cet
 
 L’implosion récente de l’écosystème Luna et de son stablecoin associé, UST, aura, je l’espère, servi de piqûre de rappel pour certains. C’était hélas une catastrophe **parfaitement évitable**. Le modèle utilisé pour ce stablecoin et ses défauts étaient déjà connus, avec de nombreuses précédentes instances couvertes à l’époque sur ce blog : BAC, MIC, ESD, DSD, etc. (au niveau applicatif sur Ethereum plutôt que protocolaire, mais avec les mêmes problèmes de fond). Tous ont connu la même fin : une spirale interminable qui les amène toujours plus proche du 0 absolu.
 
-<div align ="center">
-
-{{< tweet 1524910207838699520 >}}
-
-</div>
 
 Face à cet événement, de nombreux investisseurs ont pris conscience que tous les stablecoins ne se valaient pas et cherchent à se renseigner davantage sur la résilience des nombreux stablecoins disponibles sur le marché ainsi que la robustesse de différents protocoles DeFi en général. Je saisis donc ce moment exceptionnel pour discuter de ce sujet essentiel pour la pérennité de la DeFi qui me passionne depuis longtemps.
 
@@ -45,12 +40,6 @@ En DeFi, il est extrêmement rare qu’un protocole fasse tout par lui-même. Le
 #### Dépendance aux oracles comme ChainLink
 
 En la matière, l’oracle le plus utilisé est ChainLink. Bien que techniquement robuste, l’industrie a eu récemment droit à un rappel grâce à Chris Blec et quelques autres acteurs soucieux de la résilience du service : les oracles de ChainLink sont susceptibles d’être manipulés ou censurés. Le vecteur d’attaque le plus risqué semble être **la multisig 3/20** qui permet de changer immédiatement la source de prix pour un actif donné.
-
-<div align ="center">
-
-{{< tweet 1522129626977423361 >}}
-
-</div>
 
 Concrètement, cela signifie que si 3 personnes se synchronisent parmi ces 20, ils pourraient changer l’oracle ETH/USD par exemple pour un oracle maison qui retourne un prix de $1 et quasiment tous les prêts DeFi seraient liquidés dans la foulée. Il semble assez peu probable néanmoins que des gens membres de l’équipe ChainLink ou proches de celle-ci réalisent une telle attaque.
 
@@ -101,12 +90,6 @@ Pour finir, en matière de résilience du front-end, la palme de l’approche la
 Enfin, il ne faut pas oublier qu’aussi résilient que les smart contracts puissent être, un front-end reste un site web qui même s’il n’est pas censuré **peut être susceptible de subir des attaques** plus ou moins conséquentes : les sites des échanges décentralisés SpiritSwap ou bien encore QuickSwap ont par exemple récemment [fait les frais d’un tel scénario](https://twitter.com/QuickswapDEX/status/1525306033400188928?s=20&t=UKpcM2Gu6nZ9Kgl65kmp3w).
 
 En l’occurrence, le vecteur d’attaque est lié au gestionnaire de nom de domaine (GoDaddy) utilisé par le service. D’autres types d’attaques sont envisageables : par exemple, les injections de code par le biais d’un service tiers que le site intègre, comme on a également pu le voir très récemment sur EtherScan et de nombreux autres sites à la suite de la compromission du tracker publicitaire utilisé (CoinZilla).
-
-<div align ="center">
-
-{{< tweet 1525232602759966721 >}}
-
-</div>
 
 
 ### ℹ️ Limites des protocoles inarrêtables

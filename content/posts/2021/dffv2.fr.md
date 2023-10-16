@@ -19,12 +19,6 @@ Depuis son lancement, la communauté a grandi et a été à l'origine de très n
 - 🎥 [Mon lancement sur Twitch](https://twitch.tv/tokenbrice), merci à vous pour votre soutien !
 - 💸 Une campagne de soutien aux projets internationaux sur Gitcoin grâce aux donations des membres de la communauté : plus de 15 000 DAI ont été collectés pour supporter les producteurs de contenus explicatifs de la DeFi en langue non-anglaise.
 
-<div align ="center">
-
-{{< tweet 1369976192518983682 >}}
-
-</div>
-
 ---
 
 ## DeFi France, version 2

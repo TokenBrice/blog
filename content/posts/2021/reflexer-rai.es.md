@@ -217,10 +217,6 @@ Por el momento RAI es disponible en 3 pools de activos que proponen diferentes n
 ### RAI en Aave
 
 Después de haber integrado el soporte RAI hace ya algunas semanas, Aave acaba de asignar un presupuesto (muy modesto) de StkAAVE para inncentivar los préstamos y depositos en RAI. Ha sido necesario sacar a la luz una de las contradicciones principales de la plataforma:  Aave es un mercado monetario descentralizado que utiliza (aún) la mayor parte de su presupuesto para incitar los préstamos/depósitos en stablecoins que no son descentralizados (USDC y USDT).
-
-<div align = "center">
-{{< tweet 1426577620695719944 >}}
-</div>
   
 Es de remarcar: que por el momento **el max TVL de RAI es de 0: por lo que RAI no puede servir de colateral en Aave**. sin discriminar, es muy básico de la parte de Aave - se trata del procedimiento "tradicional" y prudente cuando es sobre la integración de un nuevo tipo de colateral. La gobernanza puede votar para aumentar este valor.
 
@@ -233,10 +229,6 @@ Cream fue uno de los primeros mercados monetarios en incorporar RAI. Y sin embar
 ### RAI en Idle Finance
 
 Idle Finance es un servicio que permite, como su nombre lo indica, poner en marcha estratégias de rendimientos pasivos. En el caso de RAI, Idle explota los rendimientos disponibles en Fuse como en Aave. Inicialmente, también lo hacía en Cream pero la gobernanza a decidido de recentrar las estrategias para reducir el riesgo: 
-
-<div align = "center">
-{{< tweet 1429907701081989121 >}}
-</div>
   
 Además del rendimiento nativo en RAI, un depósito en Idle Finance también le permite beneficiar:
   
@@ -256,11 +248,6 @@ FEI es otro stablecoin que busca maximizar la descentralización. Aquí el enfoq
 De esta manera, FEI es un stablecoin que comparte una característica con RAI y LUSD: está completamente colateralizado por activos trustless (ETH). No obstante, FEI está mucho más cerca de LUSD que de RAi en el sentido de estar indexado al dólar.
   
 Recientemente, la DAO de FEI votó para **diversificar parte de los fondos del protocolo para invertir en RAI** con el fin de hacerlo más perenne. Así, hasta 6 millones de dólares (~2M RAI) serán adquiridos y se utilizarán en Aave y Fuse para generar un rendimiento. Otras DAO también proyectan de diversificar parte de sus fondos en RAI (Moloch, DxDAO, Metagame, etc.), por lo que creo que vendrán más iniciativas de este tipo.
-
-
-<div align = "center">
-{{< tweet 1430625935607226368 >}}
-</div>
 
 ## Conclusión
 

@@ -27,12 +27,6 @@ _Nous devons ce chef d'oeuvre à un Redditeur francophone [/u/Argh3483](https://
 
 Pour fêter ça, j'ai amassé de nombreuses éditions de ce NFT vraiment chouette qui sera l'un des nombreux cadeaux à gagner de différentes manières pour ceux qui suivent la chaine, aident à la faire connaître et contribuent à la communauté.
 
-<div align ="center">
-
-{{< tweet 1368600781314809862 >}}
-
-</div>
-
 En outre, j'ai également préparé un budget en DAI — issu de mon farming DeFi — pour être sûr qu'il n'y ait pas un français qui s'intéresse à la DeFi de près ou de loin qui ne soit pas informé.
 
 

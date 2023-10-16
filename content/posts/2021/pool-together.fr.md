@@ -204,10 +204,6 @@ Je qualifie parfois PoolTogether de “protocole le plus fun de toute la DeFi”
 La gouvernance de PoolTogether, avec ses décisions, travaille à définir ce qu’est le “fun optimal”, avec des questions très concrètes, comme le nombre de prix ou leur distribution. Avec le lancement de la v4, le nombre de prix a grandement augmenté ce qui permet à plus de joueurs de gagner : plus de la moitié des wallets uniques qui jouent à PTv4 ont gagné au moins une fois :
 
 
-<div align = "center">
-{{< tweet 1463642952778014726 >}}
-</div>
-
 C’est un bon début, mais il est sans doute possible d’affiner encore plus le modèle pour réjouir toujours plus de joueurs en promouvant l’épargne long terme positivement. 
 
 

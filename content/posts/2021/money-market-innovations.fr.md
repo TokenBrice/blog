@@ -139,12 +139,6 @@ Voici Bob, un fermier DeFi qui a bien travaillé : il souhaite désormais profit
 
 C'est tellement puissant et novateur que beaucoup ont encore du mal à le croire. Les retours d'expérience des utilisateurs d'Alchemix attirent encore de nombreux sceptiques :
 
-<div align ="center">
-
-{{< tweet 1380631352316428291 >}}
-
-</div>
-
 ### Liquity : l'efficacité à tout prix
 
 [Liquity](https://www.liquity.org/) est un autre marché monétaire qui innove à plusieurs niveaux. Le concept fondamental à comprendre ici est que **les liquidations sont automatisées et donc beaucoup plus prédictibles et rapides.**

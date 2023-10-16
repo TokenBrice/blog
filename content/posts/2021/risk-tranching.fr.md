@@ -60,10 +60,6 @@ Je reviens plus explicitement sur l'utilité du tranching en fin d'article.
 
 Tout cet article a en fait été inspiré par un tweet que j'ai publié et dans lequel je partageais ce à quoi pouvait ressembler un aDAI tranché :
 
-<div align = "center">
-{{< tweet 1347878501697916928 >}}
-</div>
-
 À ce jour, il y a principalement un produit qui fournit des tranches sur le mainnet que je regarde : [Saffron Finance](https://saffron.finance/). Il s'agit d'une couche d'abstraction de tranching construite sur le marché DAI de Compound. La séparation des risques est simple avec deux tranches principales + une :
 
 1. La tranche **AA**, **couverte en cas de défaillance de la plateforme**.

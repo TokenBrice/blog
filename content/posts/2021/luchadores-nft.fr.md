@@ -110,12 +110,6 @@ J'ai été assez peu chanceux au minting de mes Luchadores, et j'ai donc compens
 
 Ma plus belle prise est le "Batman", un 7 attributs qui sera l'un de mes principaux combattants dans l'arène :
 
-<div align ="center">
-
-{{< tweet 1443559627128549376 >}}
-
-</div>
-
 #### ⭐ Lucha 7 attributs #8956
 
 ![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "Un Luchador 7 attributs, à gagner dans l'arène")

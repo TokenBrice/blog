@@ -195,10 +195,6 @@ I sometimes call PoolTogether "the most fun protocol in the whole of DeFi", a tr
 
 PoolTogether governance, with its decisions, works to define what is "optimal fun", with very concrete questions, like the number of prizes or their distribution. With the launch of v4, the number of prizes has greatly increased, allowing more players to win: more than half of the unique wallets playing PTv4 have won at least once:
 
-
-<div align = "center">
-{{< tweet 1463642952778014726 >}}
-</div>
     
 It's a good start, but there's probably room to refine the model even further to delight more players by positively promoting long-term savings. 
 

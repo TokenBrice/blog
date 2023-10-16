@@ -85,12 +85,6 @@ The biggest part of the collection is made up with "common" Punks, with 2 ( 3560
 
 Punks are now at the center of a whole ecosystem : from technical integrations (with the ERC-721 wrapper for example or into NFTs indexes[^4]) to the artistic field such as the PicassoPunk :
 
-<div align ="center">
-
-{{< tweet 1376379683890073603 >}}
-
-</div>
-
 Just as exhibiting well-chosen modern art in a living room gives a special aura, **displaying your Punk becomes a symbol that goes far beyond the token itself.** It may now be in good taste to use a Punk from your collection as a profile picture on Twitter. Of course, the more unique and rare it is, the more intrigued the savvy audience will be.
 
 The analysis of CryptoPunks allows us to understand many fundamental things to assimilate the use of NFTs. Nevertheless, the use cases for NFTs are much more diversified. So I suggest you explore a few more!
@@ -159,11 +153,6 @@ Other services use Meme with a similar approach : the YOP platform proposes to [
 
 88MPH is doing something similar **by offering NFTs to the biggest users of its new products a few weeks after their launch**. Holding such an NFT would also be an excellent criterion to target the most relevant users to test the new versions and participate more actively in the development of the project (purely an illustration on my part, there has been no official announcement in this sense to my knowledge).
 
-<div align ="center">
-
-{{< tweet 1370853933057503233 >}}
-
-</div>
 
 ---
 
@@ -195,12 +184,6 @@ Of course, **the use cases of NFTs are still very primitive**, due to their main
 ## Censorship of media associated with NFTs
 
 In this article, I did not address a key point about NFTs: **the persistence of their associated media**. To be truly persistent and censorship resistant, the NFT must incorporate a direct reference to the associated media file, which is itself hosted using a resilient medium like IPFS. For more details on the issue, I refer you to this clear and detailed discussion on Twitter:
-
-<div align ="center">
-
-{{< tweet 1372163423446917122 >}}
-
-</div>
 
 ---
 

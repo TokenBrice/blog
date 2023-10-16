@@ -93,12 +93,6 @@ For instance, after the first day, the genesis rebase was positive and triggered
 
 Right now the rebase mechanism is quite straightforward but it might be better aligned with the setts incentives in the future to help DIGG maintain its peg.
 
-<div align = "center">
-
-{{< tweet 1354963274387886090 >}}
-
-</div>
-
 ### Next step for the setts
 
 With DIGG launched, the next big step for Badger as the protocol is to start increasing its capital efficiency: to put it in simple words - to allow its users to borrow from their setts positions.

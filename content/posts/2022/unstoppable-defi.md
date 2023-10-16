@@ -17,12 +17,6 @@ Indeed, **a handful of protocols fit this reality,** but most are far from being
 
 The recent implosion of the Luna ecosystem and its associated stablecoin, UST, will hopefully serve as a wake-up call for some. It was, unfortunately, a **perfectly avoidable** disaster. The model used for this stablecoin and its flaws were already known, with many previous instances covered on this blog: BAC, MIC, ESD, DSD, etc. (at the application level on Ethereum rather than the protocol level, but with the same fundamental problems). They all had the same end: an endless spiral that brought them closer to absolute 0.
 
-<div align ="center">
-
-{{< tweet 1524910207838699520 >}}
-
-</div>
-
 In the face of this event, many investors have become aware that not all stablecoins are created equal and seek to learn more about the resilience of the many stablecoins available on the market and the robustness of different DeFi protocols in general. Therefore, I'm seizing this exceptional moment to discuss this essential topic for the sustainability of DeFi; it has been a passion of mine for a long time.
 
 Indeed, last year I already proposed to you an exhaustive analysis of the risks incurred on the borrowing services in DeFi and how to evaluate them. **[This article]({{< relref path="/content/posts/2021/money-market-risks.md" >}})** is still relevant and a highly recommended read for any informed investor.
@@ -42,12 +36,6 @@ In DeFi, it is infrequent that a protocol does everything by itself. More often 
 #### Dependence on oracles like ChainLink
 
 In this regard, the most widely used oracle is ChainLink. Although technically robust, the industry recently got a reminder, thanks to Chris Blec and a few other actors concerned about the resilience of the service: ChainLink's oracles are susceptible to manipulation or censorship. The riskiest attack vector seems to be **the 3/20 multisig**, which allows the price source for a given asset to be changed immediately.
-
-<div align ="center">
-
-{{< tweet 1522129626977423361 >}}
-
-</div>
 
 Concretely, if three people synchronize among these 20, they could change the ETH/USD oracle, for example, for an in-house oracle that returns a price of $1, and almost all DeFi loans would be liquidated in the process. However, it seems rather unlikely that people on or close to the ChainLink team would carry out such an attack.
 
@@ -96,12 +84,6 @@ Finally, in terms of front-end resilience, the most original, elegant, and effic
 Finally, one should not forget that a front-end remains a website. Even if it is not censored, **it may be susceptible to attacks** of varying degrees of severity: the websites of the decentralized exchange SpiritSwap and QuickSwap, for example, have recently [suffered from such a scenario](https://twitter.com/QuickswapDEX/status/1525306033400188928?s=20&t=UKpcM2Gu6nZ9Kgl65kmp3w).
 
 The attack vector is linked to the service's domain name manager (GoDaddy). Other types of attacks are possible: for example, code injections through a third-party service that the site integrates, as we recently saw on EtherScan, as an advertising tracker they use was compromised (CoinZilla).
-
-<div align ="center">
-
-{{< tweet 1525232602759966721 >}}
-
-</div>
 
 
 ### ℹ️ Limitations of unstoppable protocols

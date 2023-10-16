@@ -139,11 +139,6 @@ This is Bob, a DeFi farmer who has worked hard: he now wants to enjoy the fruits
 
 It is so powerful and innovative that many still find it hard to believe. The feedback from Alchemix users still attracts many skeptics:
 
-<div align ="center">
-
-{{< tweet 1380631352316428291 >}}
-
-</div>
 
 ### Liquity: efficiency at all costs
 

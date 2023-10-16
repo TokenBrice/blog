@@ -33,11 +33,6 @@ En effet, la tokenomique veCRV a plus de deux ans, et de nombreux autres projets
 
 À mon échelle personnelle, je suis également addict aux tokens directeurs de liquidité, commme je le partageais récemment sur Twitter :
 
-<div align ="center">
-
-{{< tweet 1591014873009254400 >}}
-
-</div>
 
 Tous les projets ont des besoins constants en matière de liquidités ; y répondre de manière durable a une grande valeur. En effet, la valeur des tokens directeurs de liquidité dépasse ce que les DAO/projets peuvent en tirer : 1 $ de bribe peut déplacer > 1 $ d'incitations. Les participants individuels peuvent également gagner beaucoup en étant capables de se positionner tôt dans une course pertinente.
 

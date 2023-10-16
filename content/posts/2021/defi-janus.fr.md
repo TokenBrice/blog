@@ -84,12 +84,6 @@ En outre, **l'organisation qui va recevoir les 1M UNI est composée de membres p
 
 Finalement, la proposition se veut plus large qu'Uniswap puisqu'ils sont officiellement mandatés pour faire du lobbying DeFi, mais on peut se poser la question de la vision de la DeFi portée par de tels profils.
 
-<div align ="center">
-
-{{< tweet 1408428012605952002 >}}
-
-</div>
-
 ### Transparence ? Peut être. Contrôle ? Non !
 
 Après les réactions aux premières itérations de la proposition, différents mécanismes ont été ajoutés pour apporter plus de transparence sur les agissements du DeFi Education Fund. L'équipe s'est également engagée à implémenter [FailSafe](https://github.com/withtally/safeguard) dès que possible. Cela permettrait à la DAO (holdeurs UNI) de pouvoir exercer un veto sur les transactions réalisées par le multisig. 
@@ -144,12 +138,6 @@ Le succès de Yearn s'obtient à quel prix ? Encore une fois, essentiellement **
 2. Yearn prélève également un frais sur la performance de 20% : 20% de tous les actifs farmés partent vers la trésorerie.[^yearnfrais]
 
 Les premier frais est le plus problématique puisque cela signifie que les frais excessivement gourmands de Yearn amène à des vaults qui… perdent de l'argent ! 
-
-<div align ="center">
-
-{{< tweet 1408394252799860740 >}}
-
-</div>
 
 En effet, tout vault qui ne réalise pas au minimum 2% de retour annuel sur Yearn finit dans le rouge une fois les frais de gestion prélevés, sans même prendre en compte les frais de performance...
 

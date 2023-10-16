@@ -265,11 +265,6 @@ Ainsi, la pool LUCY devrait être intéressante pour accroître la liquidité di
 2. Le **rendement de base** de chaque jeton du pool (rendement d'Aave pour USDC/USDT/DAI, rendement de la Stability Pool pour LUSD).
 3. [Si une jauge BAL est obtenue] le **un rendement additionnel en BAL**, qui peut être encore augmenté avec des votes de jauge et des campagnes de bribes.
 
-<div align ="center">
-
-{{< tweet 1558489695184556032 >}}
-
-</div>
 
 Cette nouvelle pool marquera l'arrivée du LUSD sur Balancer, diversifiant davantage ses sources de liquidité, puisque les principaux lieux d'échange du LUSD sont actuellement Curve, Uniswap et Velodrome sur Optimism.
 

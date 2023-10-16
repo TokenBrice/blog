@@ -86,11 +86,6 @@ Le gros de la collection est ainsi constitué des Punks "moyens", avec 2 (3560 u
 
 Les Punks sont désormais **au centre de tout un écosystème** qui va des intégrations techniques (par exemple le wrapper ERC-721 ou leur intégration dans des index NFTs[^3]) aux intégrations artistiques, comme les PicassoPunk :
 
-<div align ="center">
-
-{{< tweet 1376379683890073603 >}}
-
-</div>
 
 Tout comme exposer de l'art contemporain choisi avec goût dans son salon projette un certain statut, **afficher son Punk devient un symbole qui va bien au-delà de l'objet en lui-même.** Il peut désormais être de bon goût d'utiliser un Punk de sa collection comme photo de profil sur Twitter. Bien sûr, plus celui-ci est unique et rare, plus l'audience érudite sera intriguée.
 
@@ -101,12 +96,6 @@ L'analyse des CryptoPunks permet de comprendre de nombreuses choses fondamentale
 ## Les principaux cas d'usage des NFTs
 
 Pour un tour d'horizon plus exhaustif du monde des NFTs, je vous invite chaudement à lire l'article publié sur Ethereum-France : **[🗺 États des lieux des tokens non fongibles](https://www.ethereum-france.com/etat-des-lieux-des-tokens-non-fongibles-nfts/)**
-
-<div align ="center">
-
-{{< tweet 1386958653476020228 >}}
-
-</div>
 
 ### Les services de création et de vente
 
@@ -167,12 +156,6 @@ D'autres services utilisent Meme avec une approche similaire. Par exemple, la pl
 
 88MPH fait quelque chose de similaire **en offrant des NFTs aux plus grands utilisateurs de ses nouveaux produits quelques semaines après leur lancement.** La possession d'un tel NFT serait également un excellent critère pour cibler les utilisateurs les plus pertinents pour tester les nouvelles versions et participer plus activement au développement du projet (pure illustration de ma part, il n'y a pas eu d'annonce officielle en ce sens à ma connaissance).
 
-<div align ="center">
-
-{{< tweet 1370853933057503233 >}}
-
-</div>
-
 ---
 
 ## Aller toujours plus loin avec des NFTs
@@ -203,12 +186,6 @@ Bien sûr, **les cas d'utilisation de ces NFTs restent encore très primitif**, 
 ## Censurabilité des médias associés aux NFTs
 
 Dans cet article, je n'ai pas abordé un point essentiel sur les NFTs : **la conservabilité des médias qui leur sont associés**. Pour qu'il soit réellement persistant et résistant à toute censure, le NFT doit incorporer une référence directe vers le fichier média associé, lui-même hébergé en utilisant un support résilient comme l'IPFS. Pour plus de détails sur la question, je vous renvoie vers cette discussion claire et détaillée sur Twitter :
-
-<div align ="center">
-
-{{< tweet 1372163423446917122 >}}
-
-</div>
 
 ---
 

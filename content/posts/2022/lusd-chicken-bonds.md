@@ -263,12 +263,6 @@ Thus, the LUCY pool should be interesting to grow LUSD’s available liquidity, 
 2. The **base yield** on each pool token (Aave’s yield for USDC/USDT/DAI, Stability Pool’s yields for LUSD)
 3. [If a BAL gauge is obtained] the **LP token BAL staking APY**, which can be further increased with gauge votes and bribing campaigns. 
 
-<div align ="center">
-
-{{< tweet 1558489695184556032 >}}
-
-</div>
-
 This novel pool will mark the arrival of LUSD on Balancer, diversifying its liquidity source further, as the main venues to trade LUSD are currently Curve, Uniswap, and Velodrome on Optimism.
 
 ### LUSD integrations into other lending protocols

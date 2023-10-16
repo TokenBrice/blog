@@ -111,12 +111,6 @@ No tuve mucha suerte en el minaje de mis Luchadores, pero la he recompensado a t
 
 Mi mejor pesca ha sido la de "Batman", uno de 7 atributos quien será uno de mis principales combatientes en la arena :
 
-<div align ="center">
-
-{{< tweet 1443559627128549376 >}}
-
-</div>
-
 #### ⭐ Lucha 7 atributos #8956
 
 ![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "Un Luchador 7 atributos, a ganar en la arena")

@@ -85,9 +85,6 @@ Well, thanks to Monolith (disclaimer: I work there) it’s easy as ABC. We provi
 
 That was step 1. We’ve shared recently about a [significant upcoming update](https://twitter.com/monolith_web3/status/1223597132952887302?s=20), that will let you exchange tokens and access decentralised lending services straight from your Monolith app:
 
-{{< tweet 1227200774175895552 >}}
-
-
 ### Before you jump in
 
 If you are seriously considering investing amounts close to those presented in the table above, **please ensure that you know the basics**: such as using & [securing](https://medium.com/monolith/5-rules-you-need-to-know-to-stay-safe-on-ethereum-2447244cdcb3) an Ethereum wallet, understanding threats and choosing an [appropriate security model](https://medium.com/monolith/the-usability-of-security-the-choice-of-a-contract-wallet-1e32f92ea9a1).

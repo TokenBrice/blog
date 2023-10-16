@@ -110,12 +110,6 @@ I've been pretty unlucky at minting my Luchadores, so I've made up for my luck w
 
 My best catch is the "Batman", a "7 attributes" that will be one of my main fighters in the arena:
 
-<div align ="center">
-
-{{< tweet 1443559627128549376 >}}
-
-</div>
-
 #### ⭐ Lucha 7 attributes #8956
 
 ![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "A Luchador 7 attributes, to win in the arena")

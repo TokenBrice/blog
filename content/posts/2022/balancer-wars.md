@@ -33,12 +33,6 @@ Indeed, the veCRV tokenomics is more than two years old, and many other projects
 
 I am myself a liquidity-driver addict, as I was sharing recently on Twitter:
 
-<div align ="center">
-
-{{< tweet 1591014873009254400 >}}
-
-</div>
-
 All projects have constant liquidity needs; addressing them sustainably is highly valuable. Indeed, the value of liquidity-driver tokens exceeds what DAOs/projects can draw from them: $1 worth of vote-bribing can move >$1 worth of incentives. Individual participants can also gain a lot by being able to position themselves early in a relevant race.
 
 So with the stage set, let’s dive into today’s matter: Balancer, their BAL races, and the “BAL-Layer-2” infrastructure that emerged on top of it, just like it happened with Curve.

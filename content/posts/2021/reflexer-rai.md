@@ -191,10 +191,6 @@ RAI is currently available in 3 asset pools with different risk levels and borro
 
 After adding support for RAI already a few weeks ago, Aave recently allocated a (very moderate) amount of StkAAVE to incentivize borrowing and depositing on RAI. It was necessary to shed light on one of the main contradictions of the platform: Aave is a decentralized money market that (still) uses the vast majority of its budget to encourage borrowing/deposits on stablecoins that are not stablecoins at all (USDC and USDT).
 
-<div align = "center">
-{{< tweet 1426577620695719944 >}}</tweet>
-</div> 
-
 Note: for the moment **the max LTV of RAI is 0: RAI cannot be used as collateral on Aave**. No discrimination here, this is pretty standard on Aave's part - this is the "classic" and prudent procedure when adding a new type of collateral. Governance can vote to increase this value.
 
 ### RAI on Cream
@@ -204,10 +200,6 @@ Cream was one of the first money markets to support RAI. However, it is an extre
 ### RAI on Idle Finance
 
 Idle Finance is a service that allows, as the name suggests, to set up passive return strategies. In the case of RAI, Idle leverages the returns available on Fuse as well as Aave. Initially, there was also Cream but the governance chose to refocus the strategies to contain the risk:
-
-<div align = "center">
-{{< tweet 1429907701081989121 >}}</tweet>
-</div>
 
 In addition to the native RAI return, a deposit on Idle Finance also allows you to benefit from:
 
@@ -226,10 +218,6 @@ Fei is another stablecoin that seeks to maximize decentralization. Here the appr
 It is a stablecoin that shares a characteristic with RAI and LUSD: it is fully collateralized by trustless assets (ETH). Nevertheless, FEI is much closer to LUSD than to RAI in the sense that it remains pegged to the dollar.
 
 Recently, the Fei DAO voted to **diversify some of the protocol cash flow to RAI** to make it more sustainable. Thus, up to $6M (~2M RAI) will be acquired and deployed on Aave and Fuse to produce a return.  Other DAOs are also considering diversifying some of their cash to RAI (Moloch, DxDAO, Metagame, etc.), so I expect more similar initiatives.
-
-<div align = "center">
-{{<tweet 1430625935607226368 >}} </tweet>
-</div>
 
 ## Conclusion
 

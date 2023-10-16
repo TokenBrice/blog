@@ -28,10 +28,6 @@ Antes de entrar en el campo de batalla - es decir, las diferentes aplicaciones u
 
 Las interacciones de Convex con Curve van mucho más allá del CvxCRV que no es sino un elemento.
 
-<div align = "center">
-{{< tweet 1435996524518035462 >}}
-</div> 
-
 De hecho, **podríamos describir Convex como una división entre la gubernanza y las rentabilidad de VeCRV** ampliando cada uno de los elementos de un token a parte, me explico:
   
 

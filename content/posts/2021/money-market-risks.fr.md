@@ -35,12 +35,6 @@ Avant de nous plonger dans le cadre de l'analyse des risques, examinons rapideme
 
 **DeFiScore est incontestablement compromis puisqu'il donne toujours un score sur DAI plus élevé sur Compound que sur Aave** même avec l'échec de l'oracle du côté du Compound et l'arrivée du module de sécurité du côté d'Aave :
 
-<div align ="center">
-
-{{< tweet 1361623363228209152 >}}
-
-</div>
-
 L'équipe de Consensys CodeFi a été avertie il y a quelques jours [^1], a reconnu le problème [^8] mais a pourtant **refusé toute mise à jour immédiate du site web, même avec un simple avis ou une clause de non-responsabilité**. À la place, un de leurs membres a proposé une prime de 500 USDC ouverte à toute personne souhaitant mettre à jour la formule [^2]. Cette prime n'a pas encore été réclamée.
 
 Il n'est pas surprenant que les approches quantitatives aient échoué jusqu'à présent. Elles doivent atteindre à la fois la durabilité (si la formule reste cohérente, elle permet des comparaisons historiques) et l'adaptabilité (pourtant les paramètres de risque sont toujours en évolution) : ce n'est pas une mince affaire.

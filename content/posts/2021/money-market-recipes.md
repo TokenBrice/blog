@@ -41,11 +41,6 @@ Every money markets have an associated token, for example the AAVE token for Aav
 
 Although this strategy is quite basic, it is one of my favorites. I recently shared with you on Twitter an example of how to put it into practice, which we will detail here:
 
-<div align ="center">
-
-{{< tweet 1385873962404614144 >}}
-
-</div>
 
 Here, the concerned protocol is [Liquity](https://liquity.org) and the implementation of the strategy is quite simple, but has two variations:
 

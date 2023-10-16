@@ -28,9 +28,6 @@ Avant d'analyser les champs de bataille - c'est-à-dire les différents outils u
 
 Les interactions de Convex avec Curve vont largement au-delà du CvxCRV qui n'en est qu'un élément.
 
-<div align = "center">
-{{< tweet 1435996524518035462 >}}
-</div> 
 
 En fait, **on pourrait décrire Convex comme une séparation entre la gouvernance et les rendements sur VeCRV** en amplifiant chacun des éléments sur un token séparé, je m'explique :
 

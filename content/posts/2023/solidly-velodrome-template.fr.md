@@ -81,12 +81,6 @@ Velodrome est allé bien au-delà d'un simple fork et a mis en œuvre d'autres a
 
 Au-delà des caractéristiques techniques, une grande partie du succès de Velodrome est due à **l'exécution et au soin apporté par l'équipe aux stratégies de développement commercial**, une partie essentielle du modèle ve(3,3). Construit sur Optimism, Velodrome a trouvé son PMF comme la source de liquidité de la chaîne. Grâce à son modèle, le maintien de la liquidité sur Velodrome est beaucoup plus rentable pour les projets que, par exemple, sur Uniswap.
 
-<div align ="center">
-
-{{< tweet 1643631689984274432 >}}
-
-</div>
-
 Comme Solidly, **Velodrome a airdrop plusieurs protocoles avec un NFT veVELO,** sans conditions, ce qui a énormément aidé à attirer l'activité initiale de vote et d'incitation. Le protocole a trouvé une bonne place, principalement auprès d'autres protocoles émettant des stablecoins ou des dérivés d'enjeux liquides ETH :
 
 ![defiwars-velodrome](/img/2023/solidly-velodrome-template/defiwars-velodrome.png "DeFiwars.xyz - veVELO ownership overview")

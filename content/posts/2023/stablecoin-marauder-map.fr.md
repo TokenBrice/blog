@@ -81,12 +81,6 @@ Les *Redemptions* offrent l'accès le plus direct à la garantie sous-jacente d'
 
 Le LUSD s'est négocié à un prix élevé pendant la majeure partie de son existence, même si la situation s'est récemment améliorée. En effet, plusieurs facteurs ont contribué à accroître la liquidité et la pression sur les prix : le succès des [Chicken Bonds](https://chickenbonds.net/), les stratégies de liquidité avancées sur les nouveaux DEX comme [Maverick](https://mav.xyz/), ou l'accumulation de LUSD par les DAO et les trésoreries.
 
-<div align ="center">
-
-{{< tweet 1695079607681393083 >}}
-
-</div>
-
 La raison de ce prix élevé reste à déterminer avec précision. L'un des principaux facteurs probables est que **LUSD dessert une niche unique**, le stablecoin à la résilience optimale, où il y a généralement plus de demande (personnes souhaitant détenir LUSD) que d'offre (détenteurs d'ETH empruntant LUSD et le vendant). [Ce sujet a été traité en profondeur l'année dernière sur le blog de Liquity](https://www.liquity.org/blog/the-premium-of-resiliency#:~:text=LUSD%20est%20un%20stablecoin%20mais%20vient%20avec%20des%20défis%20de%20scalabilité.).
 
 Si le depeg est globalement plus préoccupant, l’overpeg peut aussi avoir un impact non négligeable en rendant les coûts d'emprunt effectifs moins prévisibles pour les utilisateurs.

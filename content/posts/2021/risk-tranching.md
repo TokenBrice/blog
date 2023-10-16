@@ -57,10 +57,6 @@ I explain why tranching matters more explicitly in the last part of this article
 
 This whole article was actually inspired by a tweet I published where I shared what a tranched aDAI could look like:
 
-<div align = "center">
-{{< tweet 1347878501697916928 >}}
-</div>
-
 As of today, there is mostly one product delivering tranching on mainnet I'm looking at [Saffron Finance](https://saffron.finance/). It's essentially a tranching abstraction layer built on top of the Compound DAI market. The risk segregation is straightforward with two main tranches + one:
 
 1. The **AA tranche**, **covered in case of platform failure**.

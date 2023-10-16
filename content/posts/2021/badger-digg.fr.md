@@ -93,12 +93,6 @@ Par exemple, après le premier jour, la rebase de genèse était positive et a d
 
 Pour l'instant, le mécanisme de rebase est assez simple, mais il pourrait être mieux aligné sur les incitations de l'ensemble à l'avenir pour aider le DIGG à maintenir son ancrage.
 
-<div align = "center">
-
-{{< tweet 1354963274387886090 >}}
-
-</div>
-
 
 ### Prochaine étape pour les Setts
 

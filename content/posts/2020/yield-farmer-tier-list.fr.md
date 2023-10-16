@@ -118,8 +118,6 @@ Note : le prix du token JRT a été assez actif ces derniers temps. Faites vos p
 
 ⚡ Mise à jour (_08 Juillet_): les JRT supplémentaires sont désormais distributés sur TOUTES les pools Balancer vérifiées (whitelisted):
 
-{{< tweet 1280887456339046400 >}}
-
 ### AMPL Geyser
 
 L'AMPL est une bête à part entière, je vous invite donc à en lire plus [^3] avant de vous plonger dans celui-ci. Ici, l'exposition est de 50 % d'ETH et 50 % d'AMPL. En plus de vos commissions, vous avez droit à des AMPL supplémentaires & ainsi qu'aux habituels rééquilibrages d'AMPL (sur vos AMPL = 50 % du capital total).

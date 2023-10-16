@@ -297,11 +297,6 @@ Je me suis concentré sur deux projets qui développent deux stratégies bien di
 
 Quand un protocole développe une position conséquente sur CVX (disons >300K CVX), il bénéficie d’avantages directs pour son/ses tokens, notamment au niveau de la liquidité. Néanmoins ça ne s’arrête pas là : les grands possesseurs de CVX sont dans une position stratégique et vont être également courtisés très prochainement pour différents partenariats. 
 
-<div align ="center">
-
-{{< tweet 1510340791712944129 >}}
-
-</div>
 
 On voit déjà la mécanique à l'œuvre, avec la discussion autour d’une potentielle 4pool (USDC/USDT/FRAX/UST), rendue possible grâce au cumul des influences de Frax, Luna, Redacted et Olympus. Les protocoles-whales CVX deviennent ainsi des interfaces pour les Curve Wars, reste à voir qui saura leur faire la meilleure offre.
 

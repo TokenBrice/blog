@@ -51,10 +51,6 @@ _Service_ : Produits d'investissement simplifiés (vaults)
 
 La "relation symbiotique" avec Pickle Finance a été la première à être introduite le 24 novembre. L'idée est de fusionner les efforts des deux projets qui offrent actuellement des produits similaires. Pickle va maintenant fournir un **mécanisme d'incitation au dessus des vaults de Yearn** par le biais de jauges, similaire au modèle actuel de Curve.
 
-<div align="center">
-{{< tweet 1331222558536998914 >}}
-</div>
-
 En unissant leurs forces, les deux projets créent des options supplémentaires pour les déposants des vaults de Yearn tout en sécurisant les actifs déposés dans les jars de Pickle, dont l'un a fait l'objet d'un [exploit de 20 millions de dollars](https://cointelegraph.com/news/pickle-in-a-pickle-as-attacker-swipes-20-million-in-evil-jar-exploit) peu avant la fusion.
 
 #### Cream Finance (11/26)
@@ -97,10 +93,6 @@ SushiSwap est maintenant **le deuxième DEX en volume** avec environ la moitié 
 
 Cela pourrait permettre à Yearn de **inciter les fournisseurs de liquidité sur certaines paires critiques de l'écosystème de Yearn**, comme un CRV &lt;> yyveCRV pour conduire le dépôt dans ce vault qui peut fournir des rendements supplémentaires pour d'autres dépôts de Yearn sur Curve. L'équipe joint ses efforts afin que Sushi/0xMaki puisse diriger les efforts de l'AMM au sein de l'écosystème.
 
-<div align="center">
-{{< tweet 1333765583788191744 >}}
-</div>
-
 ### Qu'est-ce que cela signifie pour Yearn ?
 
 Si ces fusions amènent une **augmentation massive de la puissance de feu de Yearn**, c'est aussi une **forme de recentrage** : certaines parties clés de l'écosystème sont déléguées, comme l'AMM (swaps) à l'équipe de Sushiswap, ou les marchés de prêt à Cream. Cela devrait permettre à l'équipe d'avancer plus rapidement sur ses produits de base.
@@ -114,9 +106,6 @@ Pour DeFi, la composabilité est essentielle et Yearn est une autre démonstrati
 Avec ces 5 acquisitions, Yearn va approximativement tripler la valeur totale de ses actifs bloqués dans son écosystème. En plus des synergies, cela pourrait aider Yearn à développer un avantage unique.
 
 DCInvestor l'exprime mieux que moi :
-
-<div align="center">
-{{< tweet 1334474169942159361 >}}
 
 _Pourquoi le modèle Yearn / $YFI intégré verticalement est-il intéressant ?_
 

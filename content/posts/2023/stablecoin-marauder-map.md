@@ -77,12 +77,6 @@ Collateral redemptions provide the most direct access to the underlying backing 
 
 LUSD traded at a premium for most of its existence, even though the situation has improved recently. Indeed, several factors contributed to enhancing the liquidity and the peg pressure: the success of the [Chicken Bonds](https://chickenbonds.net/), advanced liquidity strategies on novel DEXes like [Maverick](https://mav.xyz/), or the accumulation of LUSD by DAOs and treasuries.
 
-<div align ="center">
-
-{{< tweet 1695079607681393083 >}}
-
-</div>
-
 The why of the premium still needs to be pinpointed precisely. One of the likely main factors is that **LUSD is servicing a unique niche**, the resilience-maximized stablecoin, where there is usually more demand (people wanting to hold LUSD) than offer (ETH holders borrowing LUSD and selling it). [This topic was covered in depth last year on Liquity’s blog](https://www.liquity.org/blog/the-premium-of-resiliency#:~:text=LUSD%20is%20a%20stablecoin%20fully,also%20comes%20with%20scalability%20challenges.).
 
 While underpegging is usually more concerning, overpegging can have real consequences, too, as it can make effective borrowing costs less predictable for the users.
