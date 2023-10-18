@@ -88,7 +88,7 @@ Les membres du conseil d'administration (dont je fais partie) et les contributeu
 
 Vous êtes en accord avec la vision du collectif et vous voulez faire la différence en DeFi ? Vous pouvez façonner le Collectif : faites-nous part de votre expertise pour aider le Collectif en tant que contributeur ou ami, ou impliquez-vous activement en devenant membre - tout cela se passe sur [le Discord du DeFi Collective](https://discord.gg/KFhE3tpGsM) : un endroit où il faut être !
 
-Pour rester en contact avec le DeFi Collective, vous pouvez également [nous suivre sur Twitter](https://twitter.com/DeFiCollective_), où nous tiendrons la communauté au courant de nos actualités, y compris le premier point en direct que j'animerai prochainement : **[rejoignez-nous le jeudi 19 octobre à 19h GMT+2](https://discord.gg/h34FvEcsth?event=1163463885211312259)**.
+Pour rester en contact avec le DeFi Collective, vous pouvez également [nous suivre sur Twitter](https://twitter.com/DeFiCollective_), où nous tiendrons la communauté au courant de nos actualités, y compris le premier point en direct que j'animerai prochainement : **[rejoignez-nous le jeudi 19 octobre à 19h GMT+2](https://discord.gg/NsaQNpC65C?event=1164186718375772261)**.
 
 * [Site DeFi Collective](https://deficollective.org)
 * [Introducing the DeFi Collective](https://deficollective.org/blog/the-defi-collective-introduction/)

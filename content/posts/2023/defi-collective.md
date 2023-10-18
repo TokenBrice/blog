@@ -86,7 +86,7 @@ Board members (myself included) and contributors have agreed to compensation wel
 
 Do you resonate with the Collective’s vision and want to make a difference in DeFi? You can shape the Collective: let us know about your unique expertise to assist the collective as a contributor or a friend, or get actively involved to join as a member – all of this is happening on [the Collective Discord](https://discord.gg/KFhE3tpGsM): a place to be!
 
-To keep in touch with The DeFi Collective, you can also [follow us on Twitter](https://twitter.com/DeFiCollective_), where we will update the community with our news, including the upcoming first Collective Live Session I’ll be hosting: **[join us Thursday, October 19, at 7 PM GMT+2](https://discord.gg/h34FvEcsth?event=1163463885211312259)**.
+To keep in touch with The DeFi Collective, you can also [follow us on Twitter](https://twitter.com/DeFiCollective_), where we will update the community with our news, including the upcoming first Collective Live Session I’ll be hosting: **[join us Thursday, October 19, at 7 PM GMT+2](https://discord.gg/NsaQNpC65C?event=1164186718375772261)**.
 
 Learn more about the Collective:
 
