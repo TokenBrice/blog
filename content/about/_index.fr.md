@@ -1,6 +1,6 @@
 ---
 title: "À Propos : TokenBrice"
-date: 2020-04-26T13:24:40+02:00
+date: 2023-10-16T13:24:40+02:00
 description: Je contribue à l'émergence et le développement d'un **village gaulois financièrement souverain**, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
 media: true
 ---
@@ -23,7 +23,7 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-| ![liquity-logo](/img/others/liquity.png) | [⛓️ Liquity](https://liquity.org) | Protocole de prêt immuable basé sur Ethereum, sans taux d'intérêt et avec une grande efficacité du capital. <br> **[ℹ️ Présentation de Liquity]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})** <br> **[📢 Annonce]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}})** | Statégie DeFi |
+| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif qui soutient les protocoles DeFi antifragiles de toute manière pertinente. <br> **[📢 Annonce]({{< relref path="/content/posts/2023/defi-collective.fr.md" >}})** | Statégie DeFi |
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
 |  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal 
 
@@ -41,10 +41,6 @@ DeFi France est la principale communauté francophone pour échanger au sujet de
 
 Elle se retrouve désormais sur le Discord, avec [un système sur-mesure](https://tokenbrice.xyz/posts/2021/guide-defian.fr.md) pour permettre la gestion directe de la communauté par ses membres. 
 
-### Liquity
-
-Je suis ravi de contribuer à la croissance d'un projet qui incarne les valeurs fondamentales de la DeFi. Liquity est un protocole de prêt innovant dont la conception maximise la résilience et la décentralisation tout en offrant également un taux d'intérêt nul et une efficacité élevée du capital. Grâce à ces propriétés, LUSD, le stablecoin issu du protocole, est le stablecoin le plus décentralisé et le plus durable actuellement disponible sur le mainnet Ethereum.
-
 ### Luchadores
 
 `#UltraSoundNFT`
@@ -54,7 +50,18 @@ Un projet NFT opiniatre qui fait les choses bien : données 100% onchain (svg) e
 
 ### Précédentes occupations
 
+#### Liquity - Liquidity Engineer
+
+Je suis ravi de contribuer à la croissance d'un projet qui incarne les valeurs fondamentales de la DeFi. Liquity est un protocole de prêt innovant dont la conception maximise la résilience et la décentralisation tout en offrant également un taux d'intérêt nul et une efficacité élevée du capital. Grâce à ces propriétés, LUSD, le stablecoin issu du protocole, est le stablecoin le plus décentralisé et le plus durable actuellement disponible sur le mainnet Ethereum.
+
+- [ℹ️ Présentation de Liquity]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})
+- [📢 Annonce]({{< relref path="/content/posts/2022/tokenbrice-liquity.fr.md" >}})
+
+#### ParaSwap - DAO Ops
+
 En tant qu' "ambassadeur gouvernance" de [ParaSwap](https://paraswap.io), j'ai aidé à la mise en place et montée en puissance de la DAO.
+
+#### Monolith - Community Manager
 
 J'ai également été le Community Manager de [Monolith](https://monolith.xyz) pendant 18 mois avant de décider de me concentrer sur mes engagements communautaires. Depuis le début de ma carrière, je travaille avec des startups pour les aider à développer leur présence en ligne et mettre en place des stratégies digitales pérennes.
 
