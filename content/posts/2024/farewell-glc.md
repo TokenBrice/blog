@@ -61,7 +61,7 @@ I was eventually elected head of the committee and [assumed a temporary and obje
 
 Yet the story also raised eyebrows and attracted media attention ([CoinDesk](https://www.coindesk.com/business/2023/11/28/aaves-gho-stablecoin-nears-elusive-dollar-peg/), [DeFiant](https://thedefiant.io/benevolent-dictator-succeeds-in-bringing-aave-s-stablecoin-gho-near-parity-with-usd), etc.) as it highlighted the failure of governance by itself – at least from the perspective of said media. **During my two mandates, two targets were set: the first was missed by a few basis points (after an increase of ~200 bps), and the second was missed by a few days**. My targets were ambitious, especially considering that they relied as much on deliverables external to the liquidity committee (interest rate management, single-sided staking for GHO, etc.). After two terms, I let go of the leading role early in January.
 
-⇒ When governance elects a committee to handle a specific task, it acknowledges its inefficiency on the matter. **Such committees should not shy away from appointing a leadership, as ownership and responsibility can be very healthy, **especially in “decentralized” governances where the eminences are often gray, and thus ownership and responsibility often lacking.
+⇒ When governance elects a committee to handle a specific task, it acknowledges its inefficiency on the matter. **Such committees should not shy away from appointing a leadership, as ownership and responsibility can be very healthy,** especially in “decentralized” governances where the eminences are often gray, and thus ownership and responsibility often lacking.
 
 
 ### Scope of the GLC
