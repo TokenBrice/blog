@@ -20,7 +20,7 @@ For those whose first reaction will be “ain’t ready all of that,” here is 
 
 Governance is always a challenge. Indeed, it can seem insane to give power to random people on the internet, and it often is. There is a built-in democratic assumption in governance operations – although most governances are purely plutocratic – that severely hinders any serious structuration that would enable delivering upon commonly agreed goals. The GHO Liquidity Committee was appointed by the Aave governance precisely because it recognized – in a flash of lucidity – its incompetence and ineptitude in directional liquidity management.
 
-Yet, after years of experience, I’ll tell you what’s even more crazy: giving power to people that the crowds perceive as “experts” on a topic. It’s all a show: the most recognized and mediatic expert of a given field is never the one actually the most informed on the topic. I, for one, would know quite a bit on the matter, with my own field of expertise — liquidity management, shaping, and incentivization — a topic prone to public perception manipulation more than any other because of the financial stakes inherently associated with it.
+Yet, I’ll tell you what’s even crazier: giving power to people that the crowds perceive as “experts” on a topic. It’s all a show: the most recognized and mediatic expert of a given field is never the one actually the most informed on the topic. I, for one, would know quite a bit on the matter, with my own field of specialization — liquidity management, shaping, and incentivization — a topic prone to public perception manipulation more than any other because of the financial stakes inherently associated with it.
 
 
 ## The case of the CRV Wars
