@@ -86,23 +86,23 @@ On the other hand, money markets tend to be more flexible. Thanks to their struc
 
 ## DYAD: Flirting with the endogenous collateral taboo
 
-Dyad is a CDP protocol that implements several novel ideas, such as delivering free borrowing to its users, who must own an NFT to partake (Note). It also serves as the protocol's base coordination layer. I invite you to [read the documentation](https://dyad.gitbook.io/dyad-docs-v2/) to become more familiar with it. Let’s zoom in on Dyad’s novel approach when it comes to handling a key topic for CDP protocols: overcollateralization.
+Dyad is a CDP protocol that implements several novel ideas, such as delivering free borrowing to its users, who must own an NFT to partake (Note). It also serves as the protocol's base coordination layer. I invite you to [read the documentation](https://dyad.gitbook.io/dyad-docs-v2/) to become more familiar with it. Let’s zoom in on Dyad’s novel approach to handling a key topic for CDP protocols: overcollateralization.
 
 {{< notice info >}} For stablecoins, we talk about endogenous vs exogenous collateral. To quickly tell, ask yourself this question: if the stablecoin fails, does the collateral also fail? If yes, your collateral is endogenous (ex: my beloved & defunct [seigniorage-based stablecoins](https://tokenbrice.xyz/posts/2021/seigniorage-basis-vs-esd/)); if not, it’s exogenous (ex: ETH for Liquity). {{< /notice >}}
 
-Stablecoins harnessing endogenous or no collateral can scale quickly, as seen with ESD, Basis Cash, or Terra/UST. However, they can and usually do explode even faster. For this reason, harnessing endogenous collateral is considered a very risky practice – worthy of an instant Red Flag / F on the stablecoin rating agency [Bluechip](https://bluechip.org/).
+Stablecoins harnessing endogenous or no collateral can scale quickly, as seen with ESD, Basis Cash, or Terra/UST. However, they can and usually do explode even faster. For this reason, harnessing endogenous collateral is considered a risky practice – worthy of an instant Red Flag / F on the stablecoin rating agency [Bluechip](https://bluechip.org/).
 
 
 ![1-endogenous-collateral-bluechip](/img/2024/lending-protocol-renaissance/1-endogenous-collateral-bluechip.png "Red Flags on Bluechip")
 
 
-What I want to focus on today regarding Dyad is its utility token, KEROSENE, which acts as a mechanism for allocating the right to mint against existing surplus collateral in the system. By default, the system's minimal collateralization ratio is 150%. However, KEROSENE holders can deposit it into their Notes to reduce their exogenous collateral ratio to 100%.
+What I would like to focus on today regarding Dyad is its utility token, KEROSENE, which is a mechanism for allocating the right to mint against existing surplus collateral in the system. By default, the system's minimal collateralization ratio is 150%. However, KEROSENE holders can deposit it into their Notes to reduce their exogenous collateral ratio to 100%.
 
 Thus, KEROSENE is not technically an endogenous collateral but a mechanism to price and enable users to harness the protocol's exogenous over-collateralization. KEROSENE’s utility gives it a “deterministic value” corresponding to its utility while deposited into a Note. Since KEROSENE is mostly farmed by supplying liquidity on DYAD, it could entertain an interesting flywheel.
 
 ![2-dyad-defillama](/img/2024/lending-protocol-renaissance/2-dyad-defillama.png "Dyad TVL on Defillama")
 
-Launched at the end of the year, the protocol has seen gentle and steady growth although still limited. The rollout is progressive: the base functionalities are live (Note, DYAD minting, LP incentives, KEROSENE utility), yet much more is coming: sDYAD, momentum (a mechanism to better align protocol participants), a lending market, etc. It’s worth following for any stablecoin enjoyer such as myself.
+Launched at the end of the year, the protocol has seen gentle and steady growth, although still limited. The rollout is progressive: the base functionalities are live (Note, DYAD minting, LP incentives, KEROSENE utility), yet much more is coming: sDYAD, momentum (a mechanism to better align protocol participants), a lending market, etc. It’s worth following for any stablecoin enjoyer such as myself.
 
 
 ## Liquity v2 – The base rate of DeFi
@@ -161,7 +161,7 @@ This dual structure allows Tapioca to host various collateral, with appropriate 
 
 ### twAML: an innovative token-locking model
 
-After following and commenting on the DEX evolutions, starting with veCRV and followed by the improvements we observed with Velodrome (veNFT), I was anticipating seeing token lock models harnessed on lending protocols too. It has been, but only in a primitive manner, with gauge-based emissions & governance token locking to allocate them, such as seen on Prisma.
+After following and commenting on the DEX evolutions, starting with veCRV and [the improvements we observed with Velodrome (veNFT)](https://tokenbrice.xyz/crv-vs-velo/), I anticipated seeing token lock models harnessed on lending protocols too. It has been, but only in a primitive manner, with gauge-based emissions & governance token locking to allocate them, such as seen on Prisma.
 
 Tapioca finally delivers with an exciting approach harnessing a new type of token locking (twAML), both for their governance token TAP and for the suppliers of the money market, to secure the supply side and thus drive more borrowing demand. Hence, after Velodrome improved the veCRV model and delivered the first credible improvement over veCRV, we might see its third iteration come to fruition. Here are the highlights:
 
