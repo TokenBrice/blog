@@ -285,7 +285,7 @@ Tapioca is quite the beefy protocol, two years in the work. I’ve barely scratc
 
 
 
-* It’s natively omnichain harnessing Stargate omnichain fungible token standard
+* It’s natively omnichain harnessing Layer 0's omnichain fungible token standard
 * Tapioca, like Liquity, will be one of the few CDP protocols redirecting fees generated from stablecoin minting to its token holders through the twTAP model.
 * Rewards for USDO lockers are distributed in oTAP, an option token connected to the twAML logic.
 * The protocol is keen on accruing Protocol-Owned Liquidity, both for TAP and USDO, which will enable it to lower its liquidity maintenance costs and potentially turn it into a profitable endeavor.
