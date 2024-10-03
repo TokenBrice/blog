@@ -32,7 +32,6 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})** | DeFi/Tokenomics Advisory |
-|  ![maverick](/img/others/mav-symbol-color.png) | [Maverick](https://mav.xyz) | The AMM for all market conditions <br> **[ℹ️ Announcement]({{< relref path="/content/posts/2023/maverickxtokenbrice.md" >}})**  | Growth Strategy, Tokenomics & BD Advisor |
 
 ### DeFi France
 
