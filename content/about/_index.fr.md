@@ -32,7 +32,6 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 |  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores]({{< relref path="/content/posts/2021/luchadores-nft.fr.md" >}})** | | Conseil DeFi / Tokenomics |
-|  ![maverick](/img/others/mav-symbol-color.png) | [Maverick](https://mav.xyz) | Un AMM adapté à toutes les conditions de marché  <br> **[ℹ️ Annonce]({{< relref path="/content/posts/2023/maverickxtokenbrice.fr.md" >}})** | Conseil Growth, Tokenomics & BD |
 
 
 ### DeFi France
