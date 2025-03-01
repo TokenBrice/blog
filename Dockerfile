@@ -1,15 +1,4 @@
-# Fleek
-#FROM klakegg/hugo:0.69.0-ext
-##FROM hugomods/hugo:0.69
-# Working
 FROM hugomods/hugo:0.111.3
-
-# Latest
-#FROM klakegg/hugo:0.111.3-ext
-#FROM hugomods/hugo:latest
-
-# TokenBrice
-#FROM klakegg/hugo:0.125.3-ext
 #FROM hugomods/hugo:0.125.3
 
 WORKDIR /src
