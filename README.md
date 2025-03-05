@@ -26,6 +26,20 @@ hugo  // Allow to use main.js in Hugo. Send static/js/main.js in public
 yarn run optimize // Optimize images of public/img
 ```
 
+### Local development
+
+```sh
+git config --global --add safe.directory /workspace
+git submodule update --init --recursive
+hugo --gc --minify
+hugo server
+```
+or
+```sh
+docker-compose up -d --build
+```
+and open `http://localhost:1313`
+
 ### How to add filters
 
 If you need to add filters, follow the procedure below :
@@ -130,10 +144,3 @@ export default {
 ```
 
 Follow by using `yarn run build` and your new category should be visible (clear web browser cache)
-
-
-
-
-
-
-
