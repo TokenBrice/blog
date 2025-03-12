@@ -1,5 +1,5 @@
 ---
-title: "Effet de Levier Comme un Sir : Gains Polynomiaux, Pas de Douleur de Liquidation"
+title: "Effet de Levier pour gentilhomme : gains polynomiaux sans liquidations"
 description: "Exploration d'un nouveau protocole offrant un effet de levier sans frais de financement ni liquidation avec des rendements convexes, et annonce de mon implication."
 date: '2025-03-12T01:13:50.191Z'
 categories: [🌌 DeFi]
