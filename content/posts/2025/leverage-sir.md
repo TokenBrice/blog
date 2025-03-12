@@ -317,8 +317,6 @@ Before you, I’d like to give you more context on my involvement with Sir: I am
 
 I discovered Sir somewhat recently (the protocol is still just a few weeks old), but the timing was excellent. As those following me on Twitter probably already know, I have been profoundly disappointed with f(x), where I suffered from an abusive liquidation stemming from infrastructure shortcomings on their end (RPCs). 
 
-https://x.com/TokenBrice/status/1889265738650677673
-
 I was, since then, on the hunt for an alternative solution to f(x) and stumbled upon Sir, which delivers some similar features (“real” no liquidation, no funding fees) but also brings welcome additions to the mix, such as the polynomial leverage vs linear: both the protocol and the timing were perfect, so going the extra mile to help it succeed happened very spontaneously.
 
 I do not approach advisory as a collectible to add to my wallet, show in 2 monthly calls, collect the payout, and call it a day. I am on the opposite side, equally maximally committed, involved, and selective with them. 
