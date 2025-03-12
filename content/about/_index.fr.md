@@ -27,11 +27,12 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
 |  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal 
 
-### Conseiller (Advisor)
+### Autres
 
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores]({{< relref path="/content/posts/2021/luchadores-nft.fr.md" >}})** | | Conseil DeFi / Tokenomics |
+| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | Levier sans liquiditations, avec des frais clairs et prévisibles <br> **[Effet de Levier pour gentilhomme : gains polynomiaux sans liquidations]({{< relref path="/content/posts/2025/leverage-sir.fr.md" >}})** | DeFi & BD Advisory |
+|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores]({{< relref path="/content/posts/2021/luchadores-nft.fr.md" >}})** | | Alpha Whale & Conseil DeFi / Tokenomics |
 
 
 ### DeFi France
