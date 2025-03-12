@@ -284,8 +284,6 @@ Avant de vous quitter, j'aimerais vous donner plus de contexte sur mon implicati
 
 J'ai découvert Sir assez récemment (le protocole n'a que quelques semaines), mais le timing était excellent. Comme ceux qui me suivent sur Twitter le savent probablement déjà, j'ai été profondément déçu par f(x), où j'ai subi une liquidation abusive découlant de lacunes infrastructurelles de leur côté (RPCs).
 
-https://x.com/TokenBrice/status/1889265738650677673
-
 J'étais, depuis lors, à la recherche d'une solution alternative à f(x) et je suis tombé sur Sir, qui offre des fonctionnalités similaires (« vraie » absence de liquidation, pas de frais de financement) mais apporte également des ajouts bienvenus au mix, comme l'effet de levier polynomial vs linéaire : à la fois le protocole et le timing étaient parfaits, donc faire un effort supplémentaire pour aider à son succès s'est produit très spontanément.
 
 Je n'aborde pas le conseil comme un objet de collection à ajouter à mon portefeuille, à montrer dans 2 appels mensuels, à collecter le paiement et à en rester là. Je suis à l'opposé, tout aussi engagé, impliqué et sélectif avec eux.
