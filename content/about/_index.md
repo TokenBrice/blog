@@ -25,13 +25,14 @@ I'm working to grow the Ethereum decentralized finance ecosystem by developing w
 | :---: | :---: | :---: | :---: |
 | ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement]({{< relref path="/content/posts/2023/defi-collective.md" >}})** | Strategy |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
-| ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
+| ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
 
-### Advisory
+### Side
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})** | DeFi/Tokenomics Advisory |
+| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage <br> **[Leverage Like a Sir: Polynomial Gains, No Liquidation Pains]({{< relref path="/content/posts/2025/leverage-sir.md" >}})** | DeFi & BD Advisory |
+| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})** | Alpha whale & DeFi advisory |
 
 ### DeFi France
 
