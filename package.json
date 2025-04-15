@@ -7,7 +7,7 @@
     "build": "webpack --config build/webpack.config.dev.js",
     "build:production": "webpack --config build/webpack.config.production.js"
   },
-  "author": "Jérémy Hagneré <jeremy.hagnere@gmail.com>",
+  "author": "Sigri Denver <sigri44+github@hotmail.fr>",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.4",
