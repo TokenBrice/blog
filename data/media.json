@@ -14,20 +14,6 @@
 		"date": "2021"
 	},
 	{
-		"tags": ["audio", "discussion", "fr"],
-		"name": "La finance décentralisée (DeFi), la banque sans banquiers (avec Brice Berdah)",
-		"host": "21 Millions - Capital",
-		"link": "https://art19.com/shows/21-millions/episodes/4e69e1fc-74a5-49c8-9b1f-cc5dd5281d78",
-		"date": "2020"
-	},
-	{
-		"tags": ["post", "fr", "interview"],
-		"name": "Les français qui font Ethereum #1 : Brice Berdah de Monolith",
-		"host": "Ethereum France",
-		"link": "https://www.ethereum-france.com/les-francais-qui-font-ethereum-1-brice-berdah-de-monolith/",
-		"date": "2019"
-	},
-	{
 		"tags": ["video","fr"],
 		"name": "Live Bankless FR #1 - Quelle stratégie adopter dans un monde à 100 gwei / transaction rapide ?",
 		"host": "BanklessFR",
@@ -166,20 +152,6 @@
 		"host": "Abel Abstracts",
 		"link": "https://abelsabstracts.substack.com/p/tokenised-ownership-is-the-best-coordination",
 		"date": "2020"
-	},
-	{
-		"tags": ["audio", "interview", "en"],
-		"name": "Charge it! Putting Crypto on Debit Cards - Featuring Brice Berdah of Monolith",
-		"host": "The DeFi Podcast",
-		"link": "https://the-defi-podcast.simplecast.com/episodes/charge-it-putting-crypto-on-debit-cards-featuring-brice-berdah-of-monolith",
-		"date": "2019"
-	},
-	{
-		"tags": ["video", "interview", "en"],
-		"name": "Building the world’s first self-sovereign consumer finance service, Brice Berdah :Monolith [BULL.IO]",
-		"host": "Bull io - Blockchain Media",
-		"link": "https://www.youtube.com/watch?v=ljnAsmOe7NA",
-		"date": "2019"
 	},
 	{
 		"tags": ["audio", "interview", "en"],
