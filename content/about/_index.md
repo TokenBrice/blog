@@ -83,9 +83,9 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ## Contact Me
 
-| 🐦 Twitter | 🛩 Telegram | 👾 Reddit |
-| :---: | :---: | :---: |
-| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
+| 🐦 Twitter | 🛩 Telegram | 🛩 Announcements | 👾 Reddit |
+| :---: | :---: | :---: | :---: |
+| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice_news) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
 
 ## Media
 
