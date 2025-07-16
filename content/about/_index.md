@@ -74,7 +74,7 @@ This blog is provided in both English and French and follows a simple philosophy
 
 - **Privacy-conscious**: no intrusive trackers, only a simple self-hosted analytics with Matomo. [Learn more](https://tokenbrice.xyz/posts/2020/hello-world/)
 - **Transparent**: this blog lives in a [GitHub repo](github.com/tokenbrice/blog/), you can follow and track all edits.
-- **Entirerely free**. No sponsored sposts. I'm the sole editor: welcome to my world. If you find value in my work, you can **[🤗 support the blog through Gitcoin grants](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
+- **Entirerely free**. No sponsored sposts. I'm the sole editor: welcome to my world.
 - **As open as possible** - all the content is free of rights. You can translate it or re-use as long as access is kept for all and for free & the original content is linked to (CC BY-NC-SA 4.0 license).
 
 ---
