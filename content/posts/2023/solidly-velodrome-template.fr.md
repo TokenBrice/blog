@@ -75,7 +75,7 @@ La TVL a disparu aussi rapidement qu'elle est apparue, et Solidly est entré dan
 
 ## Les améliorations apportées par Velodrome au modèle Solidly
 
-Velodrome a exploité le modèle de Solidly et a résolu le problème des émissions en mettant en place une **validation pour les jauges**, ce qui permet d'éviter la situation où les récompenses sont attribuées à des jetons inventés, comme c'est le cas sur Solidly. 
+[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) a exploité le modèle de Solidly et a résolu le problème des émissions en mettant en place une **validation pour les jauges**, ce qui permet d'éviter la situation où les récompenses sont attribuées à des jetons inventés, comme c'est le cas sur Solidly. 
 
 Velodrome est allé bien au-delà d'un simple fork et a mis en œuvre d'autres améliorations, notamment un modèle d'émissions plus durable et la **suppression de la fonction LP boost**, ce qui signifie qu'il n'y a pas de traitement préférentiel pour les détenteurs de veVELO en termes de rendement. Cela simplifie également l'expérience pour les nouveaux LP qui pourraient être déconcertés par la gamme de rendement que l'on voit sur les DEX avec la fonction LP boost.
 
