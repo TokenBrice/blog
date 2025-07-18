@@ -27,7 +27,7 @@ I've built a platform and shed light on the projects that brought something new 
 
 ### Announcing: TokenBrice x Liquity
 
-I'm delighted to announce that I've joined Liquity as Head of Marketing to support the growth of protocol, mainly focusing on a yet-to-be-announced project. 
+I'm delighted to announce that I've joined [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) as Head of Marketing to support the growth of protocol, mainly focusing on a yet-to-be-announced project. 
 
 While the Liquity protocol is just over a year old, the team has already been active and building for much longer. What has been achieved is truly unique, remarkable, and needed. Liquity is the **first and still only lending service available in DeFi that is  unstoppable** & likewise, LUSD is the only stablecoin capable of resisting all kinds of censorships. 
 
