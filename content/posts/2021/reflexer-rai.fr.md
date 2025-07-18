@@ -44,7 +44,7 @@ Cette famille connaît étonnamment de nombreux adeptes, les principaux étant M
 
 #### Maker = une majorité de collatéraux nécessitant de la confiance
 
-Avec Maker (DAI), **environ 60% des DAI sont mintés (frapper monnaie) avec USDC comme collatéral**, chiffre auquel il faut ajouter ceux mintés depuis d'autres collatéraux nécessitant de la confiance: wBTC, TUSD, GUSD, PAX, USDT, renBTC + toutes les paires UniV2 impliquant au moins l'un de ces tokens + tous les collatéraux issus du monde réel comme Centrifuge: New Silver. [Détail sur DAIStats](https://daistats.com/#/).
+Avec [Maker (DAI)](https://www.defiscan.info/protocols/sky/ethereum), **environ 60% des DAI sont mintés (frapper monnaie) avec USDC comme collatéral**, chiffre auquel il faut ajouter ceux mintés depuis d'autres collatéraux nécessitant de la confiance: wBTC, TUSD, GUSD, PAX, USDT, renBTC + toutes les paires UniV2 impliquant au moins l'un de ces tokens + tous les collatéraux issus du monde réel comme Centrifuge: New Silver. [Détail sur DAIStats](https://daistats.com/#/).
 
 ![dai-collateral](/img/2021/reflexer-rai/dai-collateral.png "Aperçu de la distribution des collatéraux utilisés pour garantir le DAI dans le système MakerDAO.
 ")
