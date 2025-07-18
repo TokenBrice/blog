@@ -40,7 +40,7 @@ This kind of assets has a surprisingly large following, the main ones being Make
 
 ### Maker = a majority of collateral requiring trust
 
-With Maker (DAI), **approximately 60% of DAI are minted with USDC as collateral**, to which figure we need to add those minted from other collaterals requiring trust: wBTC, TUSD, GUSD, PAX, USDT, renBTC + all UniV2 pairs involving at least one of these tokens + all collaterals from the real world such as Centrifuge: New Silver. [Details on DAIStats](https://daistats.com/#/).
+With [Maker (DAI)](https://www.defiscan.info/protocols/sky/ethereum), **approximately 60% of DAI are minted with USDC as collateral**, to which figure we need to add those minted from other collaterals requiring trust: wBTC, TUSD, GUSD, PAX, USDT, renBTC + all UniV2 pairs involving at least one of these tokens + all collaterals from the real world such as Centrifuge: New Silver. [Details on DAIStats](https://daistats.com/#/).
 
 ![dai-collateral](/img/2021/reflexer-rai/dai-collateral.png "Overview of the distribution of collateral used to secure DAI in the MakerDAO system.")
 
