@@ -10,7 +10,7 @@ url: liquity-protocol
 ---
 
 
-Liquity is still a unique protocol: it allows borrowing on ETH and mint of a stablecoin (LUSD) without requiring governance which makes it "unstoppable".
+[Liquity](https://www.defiscan.info/protocols/liquity/ethereum) is still a unique protocol: it allows borrowing on ETH and mint of a stablecoin (LUSD) without requiring governance which makes it "unstoppable".
 
 The term is not always well understood, so let's make it clear: the contracts necessary for the existence of Liquity and LUSD have been deployed and since they have no administrative functions, **nothing can stop them as long as the Ethereum network is synchronizing**.
 
