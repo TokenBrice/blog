@@ -11,7 +11,7 @@ url: pool-together
 
 DeFi has enabled the emergence of an alternative financial system built on fundamentally different foundations: transparency, open-source, composability and resistance to censorship. Many use cases have emerged and it is now possible to buy and exchange tokens without a centralized intermediary, but also to lend or borrow and much more!
 
-The topic of the day, PoolTogether, goes one step further: it uses and assembles different DeFi services to offer a new kind of "money game", which is more fun, but also more instructive and much less dangerous and harmful than its classic counterpart.
+The topic of the day, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum), goes one step further: it uses and assembles different DeFi services to offer a new kind of "money game", which is more fun, but also more instructive and much less dangerous and harmful than its classic counterpart.
 
 I offer you to explore this protocol in detail: we start with its context, before analyzing how it works and the different issues it involves. Let's get started!
 
