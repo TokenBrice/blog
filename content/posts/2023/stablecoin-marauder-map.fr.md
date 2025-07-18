@@ -67,7 +67,7 @@ Les défis actuels que GHO rencontre sont relatifs à son jeune âge et, côté 
 
 #### Overpeg illustré par le LUSD
 
-Liquity utilise un mécanisme unique de *Redemption* pour maintenir la stabilité de son prix. Dans Liquity, les utilisateurs déposent des ETH comme garantie pour emprunter et frapper des stablecoins (LUSD). La principale innovation réside dans le mécanisme de *Redemption*, qui permet aux utilisateurs d’échanger leurs LUSD contre la garantie sous-jacente (ETH) à taux fixe, même si le prix du marché de l'ETH chute de manière significative.
+[Liquity](https://www.defiscan.info/protocols/liquity/ethereum) utilise un mécanisme unique de *Redemption* pour maintenir la stabilité de son prix. Dans Liquity, les utilisateurs déposent des ETH comme garantie pour emprunter et frapper des stablecoins (LUSD). La principale innovation réside dans le mécanisme de *Redemption*, qui permet aux utilisateurs d’échanger leurs LUSD contre la garantie sous-jacente (ETH) à taux fixe, même si le prix du marché de l'ETH chute de manière significative.
 
 Ce mécanisme incite les utilisateurs à stabiliser le prix du LUSD en le rachetant lorsque le prix de l’ETH est bas, ce qui réduit ainsi l’offre en circulation en maintenant son cours au plus près de celui de l'USD.  **Les  détenteurs de LUSD ont ainsi un accès immédiat et immuable au collatéral du LUSD** sans devoir accéder à de la liquidité sur un échange décentralisé.
 
