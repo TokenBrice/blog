@@ -39,7 +39,7 @@ En DeFi, il est extrêmement rare qu’un protocole fasse tout par lui-même. Le
 
 #### Dépendance aux oracles comme ChainLink
 
-En la matière, l’oracle le plus utilisé est ChainLink. Bien que techniquement robuste, l’industrie a eu récemment droit à un rappel grâce à Chris Blec et quelques autres acteurs soucieux de la résilience du service : les oracles de ChainLink sont susceptibles d’être manipulés ou censurés. Le vecteur d’attaque le plus risqué semble être **la multisig 3/20** qui permet de changer immédiatement la source de prix pour un actif donné.
+En la matière, l’oracle le plus utilisé est [ChainLink](https://www.defiscan.info/protocols/chainlink-oracles/ethereum). Bien que techniquement robuste, l’industrie a eu récemment droit à un rappel grâce à Chris Blec et quelques autres acteurs soucieux de la résilience du service : les oracles de ChainLink sont susceptibles d’être manipulés ou censurés. Le vecteur d’attaque le plus risqué semble être **la multisig 3/20** qui permet de changer immédiatement la source de prix pour un actif donné.
 
 Concrètement, cela signifie que si 3 personnes se synchronisent parmi ces 20, ils pourraient changer l’oracle ETH/USD par exemple pour un oracle maison qui retourne un prix de $1 et quasiment tous les prêts DeFi seraient liquidés dans la foulée. Il semble assez peu probable néanmoins que des gens membres de l’équipe ChainLink ou proches de celle-ci réalisent une telle attaque.
 
@@ -76,11 +76,11 @@ Ici, il faut commencer par rappeler un point absolument fondamental : un service
 
 Ainsi, les protocoles qui tiennent à maximiser leur résilience se doivent de réfléchir à cette question. Il y a ici deux approches principales qui peuvent être cumulées.
 
-Tout d’abord, un protocole peut avoir **plusieurs points d’accès** qui permettent l’accès à son service : si l’un d’eux venait à être inaccessible, d’autres resteront en ligne, n’entraînant ainsi qu’un désagrément mineur pour les utilisateurs du service. Par exemple, Aave peut être utilisé via le site principal app.aave.com, mais également grâce à des outils comme [DeFiSaver](https://defisaver.com/), [InstaDapp](https://instadapp.io/) et de nombreux autres.
+Tout d’abord, un protocole peut avoir **plusieurs points d’accès** qui permettent l’accès à son service : si l’un d’eux venait à être inaccessible, d’autres resteront en ligne, n’entraînant ainsi qu’un désagrément mineur pour les utilisateurs du service. Par exemple, [Aave](https://www.defiscan.info/protocols/aave/ethereum) peut être utilisé via le site principal app.aave.com, mais également grâce à des outils comme [DeFiSaver](https://defisaver.com/), [InstaDapp](https://instadapp.io/) et de nombreux autres.
 
 Néanmoins, la plupart de ces sites restent hébergés par des **services centralisés** qui pourraient tous être censurés en même temps : c’est plus de travail, mais c’est techniquement possible. Pour remédier à cette limite, il reste une autre option : avoir un ou plusieurs **sites hébergés via une solution décentralisée comme [IPFS](https://ipfs.io/)**.
 
-Pour finir, en matière de résilience du front-end, la palme de l’approche la plus originale, élégante et efficace déployée à ce jour reste sans doute celle du protocole Liquity. En effet, Liquity n’a pas de site officiel pour son application déployé et géré directement par l’équipe. À la place, l’équipe fournit **un kit pour déployer un front-end** de Liquity, utilisable par tous. Cela permet au projet d’avoir [une myriade de sites différents permettant d’utiliser son service](https://www.liquity.org/frontend), dont certains sont hébergés sur IPFS :
+Pour finir, en matière de résilience du front-end, la palme de l’approche la plus originale, élégante et efficace déployée à ce jour reste sans doute celle du protocole [Liquity](https://www.defiscan.info/protocols/liquity/ethereum). En effet, Liquity n’a pas de site officiel pour son application déployé et géré directement par l’équipe. À la place, l’équipe fournit **un kit pour déployer un front-end** de Liquity, utilisable par tous. Cela permet au projet d’avoir [une myriade de sites différents permettant d’utiliser son service](https://www.liquity.org/frontend), dont certains sont hébergés sur IPFS :
 
 ![some-liquity-frontends](/img/2022/unstoppable-defi/liquity-frontend.png "Aperçu des différents front-end pour utiliser Liquity (parmi >20)")
 
@@ -137,7 +137,7 @@ La question du front-end pour les DEX est un peu moins critique puisque de nombr
 
 ### Uniswap
 
-Sur [Uniswap](https://uniswap.org/) v1, v2 et v3, les fonctions essentielles sont assurées par des contrats immuables. Depuis Uniswap V2, la gouvernance peut voter néanmoins l’introduction d’un frais administratif[^UNI-fee-switch] (= pas pour les LP mais pour le protocole), comme c’est déjà le cas sur Curve.
+Sur [Uniswap](https://uniswap.org/) v1, v2 et v3, les fonctions essentielles sont assurées par des contrats immuables. Depuis [Uniswap V2](https://www.defiscan.info/protocols/uniswap-v2/ethereum), la gouvernance peut voter néanmoins l’introduction d’un frais administratif[^UNI-fee-switch] (= pas pour les LP mais pour le protocole), comme c’est déjà le cas sur Curve.
 
 Ici, le cas est donc très simple. S’il y a certes une gouvernance, la bonne nouvelle (moins pour les possesseurs d’UNI), est que ce qu’elle peut faire est très limité. **Aucune saisie ou migration des fonds n’est possible**. Outre le frais, elle gère des sujets tels que le déploiement d’Uniswap sur une nouvelle chaîne, l’ajout de nouveaux tiers de frais (1bps pour les stablecoins), ou encore l’utilisation de la trésorerie du protocole[^UNI-treasury], par exemple pour financer des campagnes de liquidity mining ou encore pour distribuer des UNI à des gens sympathiques qui le demandent, sans aucune forme de limite ou comptabilité[^UNI5].
 
@@ -178,7 +178,7 @@ Grâce à cette approche, Liquity est le protocole d’emprunt le plus résilien
 
 ### PoolTogether
 
-[PoolTogether](https://pooltogether.com/) est un protocole fascinant qui explore un concept nouveau : le “sans-perte”. Concrètement, PoolTogether est une loterie où le joueur ne prend aucun risque financier sur son apport principal : le jeu s’appuie entièrement sur le rendement que le principal produit, et le redistribue au différents joueurs en fonction de leur chance au tirage.
+[PoolTogether](https://pooltogether.com/) est un protocole fascinant qui explore un concept nouveau : le “sans-perte”. Concrètement, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) est une loterie où le joueur ne prend aucun risque financier sur son apport principal : le jeu s’appuie entièrement sur le rendement que le principal produit, et le redistribue au différents joueurs en fonction de leur chance au tirage.
 
 ![pooltogether](/img/2022/unstoppable-defi/pooltogether.png "Présentation de la lotterie sans perte PoolTogether")
 
