@@ -33,7 +33,7 @@ Pour en savoir plus sur la couche de services qui est en train de se construire 
 
 Avant de nous plonger dans le cadre de l'analyse des risques, examinons rapidement la principale solution actuellement utilisée pour évaluer les risques dans le cadre de la DeFi : Consensys CodeFi DeFiScore [^defiscore].
 
-**DeFiScore est incontestablement compromis puisqu'il donne toujours un score sur DAI plus élevé sur Compound que sur Aave** même avec l'échec de l'oracle du côté du Compound et l'arrivée du module de sécurité du côté d'Aave :
+**DeFiScore est incontestablement compromis puisqu'il donne toujours un score sur DAI plus élevé sur [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) que sur [Aave](https://www.defiscan.info/protocols/aave/ethereum)** même avec l'échec de l'oracle du côté du Compound et l'arrivée du module de sécurité du côté d'Aave :
 
 L'équipe de Consensys CodeFi a été avertie il y a quelques jours [^1], a reconnu le problème [^8] mais a pourtant **refusé toute mise à jour immédiate du site web, même avec un simple avis ou une clause de non-responsabilité**. À la place, un de leurs membres a proposé une prime de 500 USDC ouverte à toute personne souhaitant mettre à jour la formule [^2]. Cette prime n'a pas encore été réclamée.
 
@@ -118,7 +118,7 @@ En termes simples, les oracles sont la source de "vérités extérieures". **Les
 
 C'est essentiel, car le **prix perçu** délivré par l'oracle est la **source de vérité pour les décisions de liquidation du protocole**. Si l'oracle dit que le DAI vaut 1,30, alors vous êtes liquidé même si votre position d'emprunt DAI était sûre avec un DAI de 1 $ et que le DAI vaut toujours en réalité 1 $ sur les marchés. C'est déjà arrivé avec Compound, donc ce n'est pas une préoccupation théorique [^4].
 
-La bonne nouvelle ici est que la réponse est assez simple : ChainLink est largement reconnu comme la solution décentralisée la plus crédible pour les oracles, donc tout marché monétaire qui n'utilise pas au moins en partie ses flux de prix joue avec l'argent de ses utilisateurs, comme l'a fait Compound avec de lourdes pertes. Il semble que la situation ne se soit pas améliorée - malgré le problème, Compound utilise toujours le même oracle centralisé (Coinbase)[^compoundoracle].
+La bonne nouvelle ici est que la réponse est assez simple : [ChainLink](https://www.defiscan.info/protocols/chainlink-oracles/ethereum) est largement reconnu comme la solution décentralisée la plus crédible pour les oracles, donc tout marché monétaire qui n'utilise pas au moins en partie ses flux de prix joue avec l'argent de ses utilisateurs, comme l'a fait Compound avec de lourdes pertes. Il semble que la situation ne se soit pas améliorée - malgré le problème, Compound utilise toujours le même oracle centralisé (Coinbase)[^compoundoracle].
 
 #### Évaluer les oracles
 
