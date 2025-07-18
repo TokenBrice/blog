@@ -17,7 +17,7 @@ Dans cet article, nous examinerons le concept présenté avant de voir comment l
 
 ## Introduction à GHO, le stablecoin natif d'Aave
 
-Depuis ses débuts, l'un des principaux défis d'Aave a été d'attirer suffisamment de dépôts en stablecoin, car c'est le choix préféré de la plupart des emprunteurs. Ainsi, la création d'un stablecoin natif de la DAO est une prochaine étape naturelle et devrait également permettre de réduire les coûts pour les emprunteurs. Puisque ce stablecoin est minté, il devrait être plus économique à emprunter.
+Depuis ses débuts, l'un des principaux défis d'[Aave](https://www.defiscan.info/protocols/aave/ethereum) a été d'attirer suffisamment de dépôts en stablecoin, car c'est le choix préféré de la plupart des emprunteurs. Ainsi, la création d'un stablecoin natif de la DAO est une prochaine étape naturelle et devrait également permettre de réduire les coûts pour les emprunteurs. Puisque ce stablecoin est minté, il devrait être plus économique à emprunter.
 
 Plongeons donc dans les principales caractéristiques du GHO telles que présentées sur le forum de la gouvernance.
 
