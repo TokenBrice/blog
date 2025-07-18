@@ -9,7 +9,7 @@ tocNum: false
 url: money-market-innovations
 ---
 
-Money markets like Aave, Compound or Maker are the heart of the DeFi ecosystem. For the final user, these protocols have the same function than a classic bank : borrowing or putting sleepy money at work by lendind it.
+Money markets like [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) or [Maker](https://www.defiscan.info/protocols/sky/ethereum) are the heart of the DeFi ecosystem. For the final user, these protocols have the same function than a classic bank : borrowing or putting sleepy money at work by lendind it.
 
 Nevertheless, **the analogy stops immediately at this functional comparison**. Indeed, the underlying logic of money markets has nothing to do with the functioning of a bank. Money markets benefit from all the advantages of DeFi and, in particular, the transparency and accessibility of all operations.
 
@@ -144,7 +144,7 @@ It is so powerful and innovative that many still find it hard to believe. The fe
 
 [Liquity](https://www.liquity.org/) is another money market that innovates on several levels. The fundamental concept to understand here is that **liquidations are automated and therefore much more predictable and quick.**
 
-This allows Liquity to offer **lower collateralization ratios** than other systems, or to put it another way: Liquity users can raise more dollars per ETH deposited than on a system like Maker:
+This allows [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) to offer **lower collateralization ratios** than other systems, or to put it another way: Liquity users can raise more dollars per ETH deposited than on a system like Maker:
 
 {{< notice info >}}
 The maximum loan-to-value ratio (maximum LTV) determines the borrowing power of a collateral. A maximum loan-to-value of 50% means that up to half of the dollar value of the deposited collateral can be borrowed.
