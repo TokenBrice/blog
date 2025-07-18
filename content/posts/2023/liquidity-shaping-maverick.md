@@ -26,10 +26,10 @@ Most new DEX being released recycle an existing infrastructure and focus on inno
 
 There are, however, a few critical moments in the industry when a new DEX was released and provided **critical innovation on both fronts:**
 
-1. **Uniswap V1/V2** established a solid infrastructure for `x*y=k` pools & basic incentivization model: 30 bps fees auto compounded & the possibility of having Liquidity Mining programs on the staked LP tokens (ERC20).
+1. **[Uniswap V1/V2](https://www.defiscan.info/protocols/uniswap-v2/ethereum)** established a solid infrastructure for `x*y=k` pools & basic incentivization model: 30 bps fees auto compounded & the possibility of having Liquidity Mining programs on the staked LP tokens (ERC20).
 2. **Curve** provided an innovative and efficient liquidity model for pegged assets (stableswap) while pioneering a ve/gauge-based model for liquidity provider incentivization introducing a revenue capture at the token level (admin fee).
-3. **UniswapV3** delivered the tools to manage a more advanced liquidity structure harnessing concentrated liquidity efficiently and providing more flexibility fee-wise (1, 5, 30, 100 bps fees, not auto-compounded)
-4. And finally came **Maverick**, which goes even further than UniswapV3 in the customization of the liquidity structure it provides, offers streamlined position management (native rebalancing) and an unprecedented level of control regarding incentivization options, marking the birth of a new paradigm: liquidity shaping.
+3. **[UniswapV3]( https://www.defiscan.info/protocols/uniswap-v3/ethereum)** delivered the tools to manage a more advanced liquidity structure harnessing concentrated liquidity efficiently and providing more flexibility fee-wise (1, 5, 30, 100 bps fees, not auto-compounded)
+4. And finally came **[Maverick](https://www.defiscan.info/protocols/maverick-v2/ethereum)**, which goes even further than UniswapV3 in the customization of the liquidity structure it provides, offers streamlined position management (native rebalancing) and an unprecedented level of control regarding incentivization options, marking the birth of a new paradigm: liquidity shaping.
 
 Each core innovations **enable more expressivity for LPs: they get access to increasingly refined and customized tools enabling even the most intricate thesis to find a proper medium to be expressed onchain**.
 
