@@ -35,7 +35,7 @@ In DeFi, it is infrequent that a protocol does everything by itself. More often 
 
 #### Dependence on oracles like ChainLink
 
-In this regard, the most widely used oracle is ChainLink. Although technically robust, the industry recently got a reminder, thanks to Chris Blec and a few other actors concerned about the resilience of the service: ChainLink's oracles are susceptible to manipulation or censorship. The riskiest attack vector seems to be **the 3/20 multisig**, which allows the price source for a given asset to be changed immediately.
+In this regard, the most widely used oracle is [ChainLink](https://www.defiscan.info/protocols/chainlink-oracles/ethereum). Although technically robust, the industry recently got a reminder, thanks to Chris Blec and a few other actors concerned about the resilience of the service: ChainLink's oracles are susceptible to manipulation or censorship. The riskiest attack vector seems to be **the 3/20 multisig**, which allows the price source for a given asset to be changed immediately.
 
 Concretely, if three people synchronize among these 20, they could change the ETH/USD oracle, for example, for an in-house oracle that returns a price of $1, and almost all DeFi loans would be liquidated in the process. However, it seems rather unlikely that people on or close to the ChainLink team would carry out such an attack.
 
@@ -71,11 +71,11 @@ Here, I must start by reminding you of a fundamental point: a DeFi service exist
 
 Thus, protocols that maximize their resilience need to think about it. Two main approaches are possible and can be combined.
 
-First, a protocol can have **multiple access points** that allow access to its service: if one of them were inaccessible, others would remain online, thus causing only minor inconvenience to the service users. For example, Aave can be used through the main app.aave.com site, but also through tools like [DeFiSaver](https://defisaver.com/), [InstaDapp](https://instadapp.io/) and many others.
+First, a protocol can have **multiple access points** that allow access to its service: if one of them were inaccessible, others would remain online, thus causing only minor inconvenience to the service users. For example, [Aave](https://www.defiscan.info/protocols/aave/ethereum) can be used through the main app.aave.com site, but also through tools like [DeFiSaver](https://defisaver.com/), [InstaDapp](https://instadapp.io/) and many others.
 
 Nevertheless, most of these sites are still hosted by **centralized services** that could all be censored simultaneously: it's more work, but it's technically possible. To overcome this limitation, another option is available: having one or more **sites hosted via a decentralized solution like [IPFS](https://ipfs.io/)**.
 
-Finally, in terms of front-end resilience, the most original, elegant, and efficient approach deployed to date is probably the one of Liquity protocol. Indeed, Liquity does not have an official website for its application deployed and managed directly by the team. Instead, the team provides **a kit to deploy a front-end** of Liquity, usable by all. Because of this approach, the project now has [a myriad of different sites to use its service](https://www.liquity.org/frontend), some of which are hosted on IPFS:
+Finally, in terms of front-end resilience, the most original, elegant, and efficient approach deployed to date is probably the one of [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) protocol. Indeed, Liquity does not have an official website for its application deployed and managed directly by the team. Instead, the team provides **a kit to deploy a front-end** of Liquity, usable by all. Because of this approach, the project now has [a myriad of different sites to use its service](https://www.liquity.org/frontend), some of which are hosted on IPFS:
 
 ![some-liquity-frontends](/img/2022/unstoppable-defi/liquity-frontend.png "Overview of the different front-end to use Liquity (among >20)")
 
@@ -131,7 +131,7 @@ The front-end issue for DEX is less critical since many access points exist. The
 
 ### Uniswap
 
-The contracts core functions are completely immutable on [Uniswap](https://uniswap.org/) v1, v2 and v3. The Uniswap V2 release markededthe introduction of an administrative fee the governance can decided to turn on[^UNI-fee-switch] (= to the protocol), as already seen on Curve.
+The contracts core functions are completely immutable on [Uniswap](https://uniswap.org/) v1, v2 and v3. The [Uniswap V2](https://www.defiscan.info/protocols/uniswap-v2/ethereum) release markededthe introduction of an administrative fee the governance can decided to turn on[^UNI-fee-switch] (= to the protocol), as already seen on Curve.
 
 Here, the case is straightforward. If there is indeed a governance, the good news (less for UNI holders) is that what it can do is very limited. **No seizure or migration of funds is possible**. Apart from the fee, it manages matters such as deploying Uniswap on a new chain, adding a new tier of fees (1bps for stablecoins), or using the protocol's treasury [^UNI-treasury], for example, to fund liquidity mining campaigns or to distribute UNI to friendly people who ask for it, without any limit or accounting [^UNI5].
 
@@ -172,7 +172,7 @@ Thanks to this approach, Liquity is the most resilient borrowing protocol availa
 
 ### PoolTogether
 
-[PoolTogether](https://pooltogether.com/) is a fascinating protocol that explores a new concept: "no-loss". Concretely, PoolTogether is a prize-linked savings account where the player takes no financial risk on his principal: the game relies entirely on the yield produced by the principal. It redistributes it to the different players according to their luck at the draw.
+[PoolTogether](https://pooltogether.com/) is a fascinating protocol that explores a new concept: "no-loss". Concretely, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) is a prize-linked savings account where the player takes no financial risk on his principal: the game relies entirely on the yield produced by the principal. It redistributes it to the different players according to their luck at the draw.
 
 ![pooltogether](/img/2022/unstoppable-defi/pooltogether.png "Presentation of the PoolTogether no-loss prize-linked savings account")
 
