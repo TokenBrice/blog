@@ -27,7 +27,7 @@ J'ai construit une plateforme et mis en lumière des projets qui ont apporté qu
 
 #### Annonce : TokenBrice x Liquity
 
-J'ai le plaisir d'annoncer que j'ai rejoint Liquity en tant que responsable du marketing pour soutenir la croissance du protocole, en me concentrant principalement sur un projet qui n'a pas encore été annoncé. 
+J'ai le plaisir d'annoncer que j'ai rejoint [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) en tant que responsable du marketing pour soutenir la croissance du protocole, en me concentrant principalement sur un projet qui n'a pas encore été annoncé. 
 
 Bien que le protocole Liquity n'ait qu'un peu plus d'un an, l'équipe est  active et construit depuis bien plus longtemps. Ce qui a été réalisé est vraiment unique, remarquable et nécessaire. Liquity est le **premier et toujours le seul service de prêt disponible en DeFi qui est inarrêtable** & de même, LUSD est le seul stablecoin capable de résister à toutes sortes de censures. 
 
