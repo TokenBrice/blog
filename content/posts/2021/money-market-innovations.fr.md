@@ -9,7 +9,7 @@ tocNum: false
 url: marche-monetaire-innovations
 ---
 
-Les marchés monétaires comme Aave, Compound ou Maker sont au centre de la DeFi. Pour l'utilisateur final, ils remplissent des fonctions similaires à ce qu'offre une banque dans la finance classique : pouvoir emprunter ou rendre productif des actifs en les prêtant à d'autres.
+Les marchés monétaires comme [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) ou [Maker](https://www.defiscan.info/protocols/sky/ethereum) sont au centre de la DeFi. Pour l'utilisateur final, ils remplissent des fonctions similaires à ce qu'offre une banque dans la finance classique : pouvoir emprunter ou rendre productif des actifs en les prêtant à d'autres.
 
 Néanmoins, **l'analogie s'arrête immédiatement à la comparaison fonctionnelle**. En effet, la logique sous-jacente des marchés monétaires n'a rien à voir avec le fonctionnement d'une banque. Les marchés monétaires bénéficient de tous les avantages de la DeFi, et notamment la transparence de toutes les opérations ainsi que son accessibilité.
 
@@ -143,7 +143,7 @@ C'est tellement puissant et novateur que beaucoup ont encore du mal à le croire
 
 [Liquity](https://www.liquity.org/) est un autre marché monétaire qui innove à plusieurs niveaux. Le concept fondamental à comprendre ici est que **les liquidations sont automatisées et donc beaucoup plus prédictibles et rapides.**
 
-Cela permet à Liquity de proposer **des ratios de collatéralisation inférieurs** à d'autres systèmes, ou pour le dire autrement : les utilisateurs de Liquity peuvent mobiliser plus de dollars par ETH déposé que sur un système comme Maker :
+Cela permet à [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) de proposer **des ratios de collatéralisation inférieurs** à d'autres systèmes, ou pour le dire autrement : les utilisateurs de Liquity peuvent mobiliser plus de dollars par ETH déposé que sur un système comme Maker :
 
 {{< notice info >}}
 Le ratio prêt/valeur maximum (LTV maximum) détermine le pouvoir d'emprunt des collatéraux. Un prêt à valeur maximale de 50 % signifie que l'on peut emprunter jusqu'à la moitié de la valeur en dollars des collatéraux déposés.
