@@ -67,7 +67,7 @@ Since it was launched a few weeks ago, most of GHO’s current challenges come f
 
 #### Overpegging illustrated with LUSD
 
-Liquity utilizes a unique mechanism called Redemptions to maintain its price stability. In Liquity, users deposit their ETH as collateral to borrow and mint stablecoins (LUSD). The key innovation lies in the redemption mechanism, which enables users to redeem LUSD for the underlying collateral (ETH) at a fixed ratio, even if the market price of ETH drops significantly.
+[Liquity](https://www.defiscan.info/protocols/liquity/ethereum) utilizes a unique mechanism called Redemptions to maintain its price stability. In Liquity, users deposit their ETH as collateral to borrow and mint stablecoins (LUSD). The key innovation lies in the redemption mechanism, which enables users to redeem LUSD for the underlying collateral (ETH) at a fixed ratio, even if the market price of ETH drops significantly.
 
 This mechanism incentivizes users to stabilize the price of LUSD by redeeming it when ETH prices are low, thereby reducing the circulating supply of LUSD and supporting its peg to the USD. It provides **immediate and immutable access to LUSD’s collateral to LUSD holders** without the need for liquidity on a decentralized exchange.
 
