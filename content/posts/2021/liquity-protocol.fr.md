@@ -9,7 +9,7 @@ tocNum: false
 url: liquity-protocol
 ---
 
-Liquity est un protocole encore unique en son genre : il permet l'emprunt sur ETH et le mint d'un stablecoin (LUSD) sans pour autant nécessiter de gouvernance ce qui le rend "inarrêtable".
+[Liquity](https://www.defiscan.info/protocols/liquity/ethereum) est un protocole encore unique en son genre : il permet l'emprunt sur ETH et le mint d'un stablecoin (LUSD) sans pour autant nécessiter de gouvernance ce qui le rend "inarrêtable".
 
 Le terme n’est pas toujours bien compris, alors explicitons : les contrats nécessaires à l'existence de Liquity et du LUSD ont été déployés et comme ils n’ont pas de fonctions administratives, **rien ne peut les arrêter tant que le réseau Ethereum se synchronise**.
 
