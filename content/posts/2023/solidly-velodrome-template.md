@@ -75,7 +75,7 @@ The TVL disappeared as quickly as it came, and Solidly became a part of history 
 
 ## Velodrome’s refinements to the Solidly model
 
-Velodrome harnessed the Solidly model and fixed the issue with emissions by implementing a **whitelist for gauges**, helping to avoid the situation where rewards are allocated to made-up tokens, as seen on Solidly. 
+[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) harnessed the Solidly model and fixed the issue with emissions by implementing a **whitelist for gauges**, helping to avoid the situation where rewards are allocated to made-up tokens, as seen on Solidly. 
 
 Velodrome went far beyond a mere fork, though, and implemented further improvements; among them were a more sustainable emissions model and **removing the LP boost feature**, meaning there is no preferential treatment for veVELO holders in terms of yield. Velodrome also streamlines the experience for first-time LPs who might be confused with the yield range you see on DEXes with LP boost implemented.
 
