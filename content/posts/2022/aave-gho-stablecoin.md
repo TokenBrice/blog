@@ -17,7 +17,7 @@ In this article, we'll examine the design introduced before considering how the 
 
 ## Introduction to GHO, Aave's native stablecoin
 
-Since its early days, one of Aave's main challenges has been attracting sufficient stablecoin deposits since it's a preferred choice for most borrowers. Thus, creating a stablecoin native to the DAO is a natural next step and should also allow lowering costs for borrowers. Since this stablecoin is minted, there is no need to pay the APR of the depositors on the other side.
+Since its early days, one of [Aave](https://www.defiscan.info/protocols/aave/ethereum)'s main challenges has been attracting sufficient stablecoin deposits since it's a preferred choice for most borrowers. Thus, creating a stablecoin native to the DAO is a natural next step and should also allow lowering costs for borrowers. Since this stablecoin is minted, there is no need to pay the APR of the depositors on the other side.
 
 So let's dive into the main characteristics of GHO as presented on the governance forum.
 
