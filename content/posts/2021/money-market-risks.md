@@ -33,7 +33,7 @@ To dive more into the service layer currently being built on top of money market
 
 Before we dive into the risk analysis framework, let's quickly discuss the current leading solution used to evaluate risk in DeFi: Consensys CodeFi DeFiScore.[^defiscore]
 
-**DeFiScore is undisputedly compromised since it's still giving DAI a higher rate on Compound than Aave** even with the oracle failure on the Compound side and the arrival of the Safety Module on Aave's side:
+**DeFiScore is undisputedly compromised since it's still giving DAI a higher rate on [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) than [Aave](https://www.defiscan.info/protocols/aave/ethereum)** even with the oracle failure on the Compound side and the arrival of the Safety Module on Aave's side:
 
 The Consensys CodeFi team was notified a few days ago[^1], acknowledged the issue[^8] but yet **refused any immediate to update the website even with just notice or disclaimer**. Instead, one of their members proposed a 500 USDC bounty open for anyone willing to update the formula[^2]. It has yet to be claimed.
 
@@ -118,7 +118,7 @@ Simply put, the oracles are the source for "outside truths". **Blockchains are o
 
 It's essential, as the **perceived price** delivered by the oracle is the **source of truth for the protocol's liquidation decisions**. If the oracle says DAI is worth 1.30, then you are liquidated even if your DAI-borrowing position was safe on a $1 DAI and DAI is still actually worth $1 on the markets: the oracle is the source of truth. It happened already with Compound, so it's not a theoretical concern.[^4]
 
-The good news here is that the answer is quite simple: ChainLink is widely recognized as the most credible decentralized oracle solution, so any money market not using at least partly their price feeds is gambling with its users' money, as Compound did with significant lossses. It seems like the situation has not improved - despite the failure Compound still uses the same centralized oracle (Coinbase) and a proposal suggesting a switch to ChainLink was refused. [^compoundoracle]
+The good news here is that the answer is quite simple: [ChainLink](https://www.defiscan.info/protocols/chainlink-oracles/ethereum) is widely recognized as the most credible decentralized oracle solution, so any money market not using at least partly their price feeds is gambling with its users' money, as Compound did with significant lossses. It seems like the situation has not improved - despite the failure Compound still uses the same centralized oracle (Coinbase) and a proposal suggesting a switch to ChainLink was refused. [^compoundoracle]
 
 #### Assessing oracles
 
