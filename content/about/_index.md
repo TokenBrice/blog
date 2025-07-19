@@ -1,31 +1,37 @@
 ---
 title: "About TokenBrice"
-date: 2023-10-16T13:24:40+02:00
+date: 2025-07-19T13:24:40+02:00
 description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
 media: true
 ---
 
 ## Who am I?
 
-I have followed the emergence of decentralized finance on Ethereum since its early days with the launch of MakerDAO. I'm fortunate to be able to get by in English - so I had access to resources to understand what was going on.
+I have followed the emergence of decentralized finance on Ethereum since its early days with the launch of MakerDAO. Since then, I have shared my understanding of it through various channels, including live shows, this blog, and my Twitter account.
 
-At the time, quality articles, videos or podcasts in French dealing with decentralized finance were rare. Thanks to the launch of [DeFi France](https://discord.gg/3bWZcK2) (October 2019), [BanklessFR](https://banklessfr.substack.com/) (March 2020), this blog (May 2020), and [TheDailyGweiFR](https://thedailygweifr.substack.com/) (November 2020), and many other initiatives, the situation has now changed. 
+All my actions and involvement in the space follow a single north star: maximizing the amount of trustless protocols available, and their recognition. To that end, I co-founded **[The DeFi Collective](https://deficollective.org/)** with [Nils Bundi](https://x.com/nilsbundi) and [Florian Prantl](https://x.com/floowp_) in October 2023, a nonprofit organization that harnesses DeFi to self-fund and support all relevant initiatives aimed at bolstering the most decentralized form of decentralized finance (DeFi).
 
-🇫🇷 My ambition is to make decentralized finance more accessible to all: the mission is very broad, so let's be chauvinistic - I focus most of my action on the francophone community. Nevertheless, I remain sensitive to any initiative that helps to promote decentralized finance among international communities.
+![all-hail-ants](/img/others/all-hail-ants.jpeg)
+
+Our latest and most significant endeavour to date is DeFiScan, the "L2beat of protocol decentralization", launched in October 2024. **[DeFiScan](https://www.defiscan.info/)** provides users, DAOs, and institutions with an in-depth assessment of DeFi's protocols' decentralization. It's essentially the DeFi police, helping users determine the effective decentralization state of the main DeFi protocols, as the teams' communications on the matter tend to be unreliable, if not misleading.
+
+![defiscan-preview](/img/others/defiscan-preview.png)
 
 ---
 
 ## What do I do?
 
-I'm working to grow the Ethereum decentralized finance ecosystem by developing welcoming communities:
+I'm working to grow the Ethereum decentralized finance ecosystem while ensuring it remains aligned with its core values of trustless, accessibility, resilience and permissionlessness.
 
 ### Main
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement]({{< relref path="/content/posts/2023/defi-collective.md" >}})** | Strategy |
+| ![defiscan-logo](/img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | A decentralization assesment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
+| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement]({{< relref path="/content/posts/2023/defi-collective.md" >}})** | Boardmember & Treasury Management |
+| ![TokenBrice-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | With this blog and my live shows, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together.| Host/Author |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
-| ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | With this blog and my lives, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together, with quality guests directly involved. | Main Host |
+
 
 ### Side
 
@@ -49,12 +55,19 @@ An NFT project that does things right: 100% onchain data (svg) and attribute gen
 
 ### Previous Occupations
 
+#### GHO Liquidity Committee
+
+At the request of the community, I joined the GHO Liquidity Committee in October 2023 to help repeg GHO and optimize its liquidity strategy. Witnessing serious waste and disorganization, I offered my services as a **["temporary and benevolent dictator"](https://x.com/TokenBrice/status/1719328410479059227)** to steer the Committee through a vote that passed.
+
+Yet, even in such a role, my efforts were insufficient to counteract the stealthy work of professional politicians, who viewed the Committee as a golden goose to exploit, to the benefit of their numerous other commitments. Dishertened by the experience, which turned out to be more of a job for a politician than a liquidity manager, **[I've slammed the door of the Committee in February 2024](http://localhost:1313/farewell-glc/)**. I was not compensated in any manner for this engagement.
+
 #### Liquity - Liquidity Engineer
 
 I'm thrilled to have contributed to the growth of a project that upholds the root values of DeFi for more than 18 months. Liquity is an innovative lending protocol with a design maximizing resilience and decentralization while also offering no interest rate and high capital efficiency. Thanks to these properties, LUSD, the stablecoin output of the protocol, is the most decentralized and durable stablecoin currently available on the Ethereum mainnet.
 
 - [ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})
 - [📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})
+
 
 #### ParaSwap - DAO Ops
 
@@ -83,9 +96,9 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 
 ## Contact Me
 
-| 🐦 Twitter | 🛩 Telegram | 🛩 Announcements | 👾 Reddit |
+| 🐦 Twitter | 🛩 Telegram | 🛩 Announcements | 👾 Farcaster |
 | :---: | :---: | :---: | :---: |
-| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice_news) | [Token_Brice](https://www.reddit.com/user/Token_Brice) |
+| [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://hey.xyz/u/tokenbrice) |
 
 ## Media
 
