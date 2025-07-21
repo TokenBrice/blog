@@ -59,7 +59,7 @@ An NFT project that does things right: 100% onchain data (svg) and attribute gen
 
 At the request of the community, I joined the GHO Liquidity Committee in October 2023 to help repeg GHO and optimize its liquidity strategy. Witnessing serious waste and disorganization, I offered my services as a **["temporary and benevolent dictator"](https://x.com/TokenBrice/status/1719328410479059227)** to steer the Committee through a vote that passed.
 
-Yet, even in such a role, my efforts were insufficient to counteract the stealthy work of professional politicians, who viewed the Committee as a golden goose to exploit, to the benefit of their numerous other commitments. Dishertened by the experience, which turned out to be more of a job for a politician than a liquidity manager, **[I've slammed the door of the Committee in February 2024](http://localhost:1313/farewell-glc/)**. I was not compensated in any manner for this engagement.
+Yet, even in such a role, my efforts were insufficient to counteract the stealthy work of professional politicians, who viewed the Committee as a golden goose to exploit, to the benefit of their numerous other commitments. Dishertened by the experience, which turned out to be more of a job for a politician than a liquidity manager, **[I've slammed the door of the Committee in February 2024](http://tokenbrice.xyz/farewell-glc/)**. I was not compensated in any manner for this engagement.
 
 #### Liquity - Liquidity Engineer
 
