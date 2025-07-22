@@ -24,7 +24,7 @@ Sin embargo como siempre en DeFi, nada es tan simple y el diablo está en los de
 
 ## Convex y la distinción de VeCRV
 
-Antes de entrar en el campo de batalla - es decir, las diferentes aplicaciones utilizadas en esta guerra de CRV, es necesario profundizar en uno en particular: Convex. Ya he discutido sobre el en este blog, explicando [la dimensión flywheel de Convex con el CvxCRV]({{< relref path="/content/posts/2021/defi-flywheel.fr.md" lang="fr" >}}).
+Antes de entrar en el campo de batalla - es decir, las diferentes aplicaciones utilizadas en esta guerra de CRV, es necesario profundizar en uno en particular: Convex. Ya he discutido sobre el en este blog, explicando [la dimensión flywheel de Convex con el CvxCRV](https://tokenbrice.xyz/content/posts/2021/defi-flywheel.fr.md).
 
 Las interacciones de Convex con Curve van mucho más allá del CvxCRV que no es sino un elemento.
 

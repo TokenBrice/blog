@@ -8,7 +8,7 @@ toc: true
 url: risk-tranching-defi
 ---
 
-DeFi has grown tremendously over the past year, partly thanks to the appearance of more streamlined investment products such as Yearn's or Harvest's **[vaults]({{< relref path="/content/posts/2020/vaults.md" >}})**. Thanks to their architecture, they facilitate the mutualization of capital which enables smaller yet profitable investments on money markets and other DeFi services like Curve or SushiSwap.
+DeFi has grown tremendously over the past year, partly thanks to the appearance of more streamlined investment products such as Yearn's or Harvest's **[vaults](https://tokenbrice.xyz/content/posts/2020/vaults.md)**. Thanks to their architecture, they facilitate the mutualization of capital which enables smaller yet profitable investments on money markets and other DeFi services like Curve or SushiSwap.
 
 It was a necessary and much-welcomed layer, and several improvements are still to be made to streamline things even further and increase gas efficiency. However, I believe the bulk of the innovation this year will come from another front: risk management on the vault-type products.
 

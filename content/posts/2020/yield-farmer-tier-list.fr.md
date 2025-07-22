@@ -26,8 +26,8 @@ Dans les jeux de stratégies ou de combat, on utilise des tiers lists pour étab
 
 
 
-1. Ce document ne couvrira pas les stratégies d'investissement de base de DeFi, détaillées dans le **[📖 Guide des services DeFinanciers]({{< relref path="/content/posts/2020/definancial-services-guide.fr.md" lang="fr" >}})**. 
-2. Pour plus d'informations concernant les outils que vous pouvez utiliser pour mettre en œuvre et gérer ces stratégies, veuillez consulter la **[🧰 Trousse à outils du cultivateur DeFi]({{< relref path="/content/posts/2020/defi-farmer-toolbox.fr.md" lang="fr" >}})**.
+1. Ce document ne couvrira pas les stratégies d'investissement de base de DeFi, détaillées dans le **[📖 Guide des services DeFinanciers](https://tokenbrice.xyz/content/posts/2020/definancial-services-guide.fr.md")**. 
+2. Pour plus d'informations concernant les outils que vous pouvez utiliser pour mettre en œuvre et gérer ces stratégies, veuillez consulter la **[🧰 Trousse à outils du cultivateur DeFi](https://tokenbrice.xyz/content/posts/2020/defi-farmer-toolbox.fr.md)**.
 
 **_Il ne s'agit pas de conseils en matière d'investissement et ce document ne doit pas être lu comme autre chose qu'une liste structurée de pools de liquidités avec programmes d'incitation._**
 

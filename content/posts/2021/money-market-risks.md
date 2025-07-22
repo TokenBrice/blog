@@ -21,11 +21,11 @@ To dive more into the service layer currently being built on top of money market
 
 1.   An introduction to tranching focusing on Saffron Finance: 
 
-**[🗡 Risk? Yes please, but exactly how I like it]({{< relref path="/content/posts/2021/risk-tranching.md" >}})**
+**[🗡 Risk? Yes please, but exactly how I like it](https://tokenbrice.xyz/content/posts/2021/risk-tranching.md)**
 
 2.   A presentation of fixed interest rate protocols through the lense of APWine: 
 
-**[🍷 Yields are like fine wines, the secret lies in the brewing process]({{< relref path="/content/posts/2021/firp-apwine.md" >}})**
+**[🍷 Yields are like fine wines, the secret lies in the brewing process](https://tokenbrice.xyz/content/posts/2021/firp-apwine.md)**
 
 ---
 
@@ -318,7 +318,7 @@ On such a topic, again, no metrics will help you just by themselves. The gist is
 
 Another consequence of a healthy community is **widespread support and usage across the ecosystem**, with many services and products built "on top of" the protocol examined. Here despite Compound's lead being the first mover, Aave is also now a prime choice for any new protocol building a new financial primitive.
 
-Indeed, teams can purposely foster such an environment simply by having members accessible and involved in the space. Besides, Aave has an **ecosystem grants**[^aavegrants] initiative helping to fund projects built on top of Aave such as [APWine offering fixed yields]({{< relref path="/content/posts/2021/firp-apwine.md" >}}). Other community-related initiatives are a healthy tell, such as hackathons, AMAs, livestreams, etc.
+Indeed, teams can purposely foster such an environment simply by having members accessible and involved in the space. Besides, Aave has an **ecosystem grants**[^aavegrants] initiative helping to fund projects built on top of Aave such as [APWine offering fixed yields](https://tokenbrice.xyz/content/posts/2021/firp-apwine.md). Other community-related initiatives are a healthy tell, such as hackathons, AMAs, livestreams, etc.
 
 Again here - make sure to **assess the quality, not the quantity**. It's easy to rush out all the initiatives listed above. But doing it right, in a way that makes sense for the community and pushes it forward is much harder.
 
@@ -379,7 +379,7 @@ If you do not agree with this statement, feel free to challenge me. **I'm eager 
 
 ---
 
-Reminder: this blog is **[one of the few websites of the space not pillaging your data]({{< relref path="/content/posts/2020/hello-world.md" >}})** through the usage of Google Analytics and the likes.
+Reminder: this blog is **[one of the few websites of the space not pillaging your data](https://tokenbrice.xyz/content/posts/2020/hello-world.md)** through the usage of Google Analytics and the likes.
 
 ## IV. Notes & References
 

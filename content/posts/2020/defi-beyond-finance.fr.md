@@ -68,7 +68,7 @@ L'exemple de la loterie est essentiel pour mieux comprendre les cas d'utilisatio
 
 ### Permettre des biens communs durables : Gitcoin
 
-Pour les projets décentralisés de la DeFi, la communauté est essentielle, comme nous l'avons vu avec [Yearn Finance]({{< relref path="/content/posts/2020/yearn-finance-YFI.fr.md" >}}). En plus de leur rôle de moteur du développement et de la croissance du projet, les communautés fournissent aussi fréquemment des ressources clés, telles que des tableaux de bord, des calculateurs et divers outils pour faciliter le suivi et la gestion des postes, comme [Zapper](https://zapper.fi/), [DeFiSaver](https://defisaver.com/) ou [Zerion](https://zerion.io/). 
+Pour les projets décentralisés de la DeFi, la communauté est essentielle, comme nous l'avons vu avec [Yearn Finance](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md). En plus de leur rôle de moteur du développement et de la croissance du projet, les communautés fournissent aussi fréquemment des ressources clés, telles que des tableaux de bord, des calculateurs et divers outils pour faciliter le suivi et la gestion des postes, comme [Zapper](https://zapper.fi/), [DeFiSaver](https://defisaver.com/) ou [Zerion](https://zerion.io/). 
 
 Au niveau macro, les principaux outils utilisés pour suivre la croissance globale du secteur proviennent également de la communauté, comme [DeFiLlama](https://defillama.com/home), [YieldFarmingInfo](https://yieldfarming.info/) ou [YieldFarmingTools](https://yieldfarmingtools.com/). Le développement de ces services est généralement alimenté par les dons de la communauté. 
 
@@ -94,7 +94,7 @@ Le prochain round des Gitcoin grants commence aujourd'hui et dure jusqu'au 17 D�
 Un autre sous-ensemble de l'écosystème d'Ethereum offre depuis peu une valeur incroyable pour la création de communautés : les jetons non fongibles (NFT). Si le terme est un peu effrayant, l'idée de base est en fait assez simple : Les NFT représentent un autre niveau de rareté numérique. 
 
 {{< notice note >}}
-Vous trouverez un explicatif détaillé sur les NFTs d'il y a deux ans, toujours d'actualité et accessible pour les nouveaux arrivants : [jetons non fongibles expliqués avec Blastoise et Charizard]({{< relref path="/content/posts/2018/nft.fr.md" >}}).
+Vous trouverez un explicatif détaillé sur les NFTs d'il y a deux ans, toujours d'actualité et accessible pour les nouveaux arrivants : [jetons non fongibles expliqués avec Blastoise et Charizard](https://tokenbrice.xyz/content/posts/2018/nft.fr.md).
 {{< /notice >}}
 
 Associés à DeFi, les NFT permettent désormais de nouvelles formes d'interactions et de financements communautaires. Grâce à des plateformes en libre-service, les artistes et les communautés peuvent créer et vendre de manière autonome des NFTs avec des services qui rationalisent le processus comme [Rarible](https://rarible.com/). Grâce à leur nature programmable, les NFT permettent de **nouveaux modèles de redistribution** tels qu'une contribution sur les achats du marché secondaire. Enfin, puisqu'ils vivent sur la chaîne de distribution Ethereum, les NFTs fournissent également un historique transparent de la propriété et des prix antérieurs.

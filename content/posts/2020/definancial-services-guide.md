@@ -303,7 +303,7 @@ I can't explain the full concept here, but here's a quick recap: **impermanent l
 
 If you are considering providing liquidity on AMMs, please read more on the topic: [Risk/Reward of liquidity provision in AMMs](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22).
 
-*Edit (07/16)* - If you are curious about liquidity providing, here is another guide covering the main incentivised opportunities: **[💦 The Yield Farmer Tier List]({{< relref path="/content/posts/2020/yield-farmer-tier-list.md" >}})**.
+*Edit (07/16)* - If you are curious about liquidity providing, here is another guide covering the main incentivised opportunities: **[💦 The Yield Farmer Tier List](https://tokenbrice.xyz/content/posts/2020/yield-farmer-tier-list.md)**.
 
 ## Conclusion
 

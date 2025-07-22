@@ -24,7 +24,7 @@ Néanmoins comme souvent en DeFi, tout n'est pas si simple et le diable est dans
 
 ## Convex et la séparation du VeCRV
 
-Avant d'analyser les champs de bataille - c'est-à-dire les différents outils utilisés dans cette guerre des CRV, il faut s'attarder plus en profondeur sur un en particulier : Convex. J'en ai déjà parlé sur ce blog, en expliquant [la dimension flywheel de Convex avec le CvxCRV]({{< relref path="/content/posts/2021/defi-flywheel.fr.md" >}}).
+Avant d'analyser les champs de bataille - c'est-à-dire les différents outils utilisés dans cette guerre des CRV, il faut s'attarder plus en profondeur sur un en particulier : Convex. J'en ai déjà parlé sur ce blog, en expliquant [la dimension flywheel de Convex avec le CvxCRV](https://tokenbrice.xyz/content/posts/2021/defi-flywheel.fr.md).
 
 Les interactions de Convex avec Curve vont largement au-delà du CvxCRV qui n'en est qu'un élément.
 

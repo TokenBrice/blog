@@ -10,7 +10,7 @@ Food-based social moneygames are all the rage in decentralised finance. Today, I
 
 ![defi-moneygames-cover-tokenbrice](/img/2020/defi-moneygames/cover.png "Welcome! I hope you're hungry.")
 
-The launch of Yearn Finance last month was probably the most significant event of the year for DeFi. If you are not familiar at all with Yearn, check this intro: **[YearnFinance - DeFi on autopilot?]({{< relref path="/content/posts/2020/yearn-finance-YFI.md">}})** - it will be helpful to better understand today's article.
+The launch of Yearn Finance last month was probably the most significant event of the year for DeFi. If you are not familiar at all with Yearn, check this intro: **[YearnFinance - DeFi on autopilot?](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md)** - it will be helpful to better understand today's article.
 
 The launch of Yearn's token, YFI was highly innovative back then: 100% of the supply has been distributed to users providing liquidity on different pools tied to the protocol. This launch framework has now become a template replicated by countless projects which spun out in the wake of Yearn's tremendous success: YFII, YFL, YAM, SHRIMP, PASTA, BASED, etc.
 

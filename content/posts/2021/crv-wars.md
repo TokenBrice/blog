@@ -23,7 +23,7 @@ Nevertheless, as often in DeFi, everything is not so simple and the devil is in 
 
 ## Convex and the VeCRV separation
 
-Before analyzing the battlefields - i.e. the different tools used in this CRV war - we need to look more deeply at one in particular: Convex. I've already talked about it on this blog, explaining [the flywheel dimension of Convex with the CvxCRV]({{< relref path="/content/posts/2021/defi-flywheel.md" >}}).
+Before analyzing the battlefields - i.e. the different tools used in this CRV war - we need to look more deeply at one in particular: Convex. I've already talked about it on this blog, explaining [the flywheel dimension of Convex with the CvxCRV](https://tokenbrice.xyz/content/posts/2021/defi-flywheel.md).
 
 The interactions of Convex with Curve go far beyond the CvxCRV, which is only one element.
 

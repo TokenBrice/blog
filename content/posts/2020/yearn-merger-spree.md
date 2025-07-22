@@ -18,9 +18,9 @@ So to better understand the latest events - the merger spree, let's first quickl
 
 ### Yearn's Backstory: Launch, waifus & the ecosystem
 
-Last June, Yearn's token launch was a unique moment, initiating what is now called a "fair launch". Essentially, the **YFI token was distributed over a week to users** depositing to several pools related to Yearn's products. Feel free to check **[my first story on Yearn]({{< relref path="/content/posts/2020/yearn-finance-YFI.md" >}})** to learn more about this moment.
+Last June, Yearn's token launch was a unique moment, initiating what is now called a "fair launch". Essentially, the **YFI token was distributed over a week to users** depositing to several pools related to Yearn's products. Feel free to check **[my first story on Yearn](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md)** to learn more about this moment.
 
-It translated into a growing awareness for the project, a rapid price appreciation of the token, and attracted involved DeFi users to contribute to Yearn through the DAO's discussions. The launch was so successful that it actually became a template replicated more or less successfully by many other projects: **[the Yearn's waifus (forks)]({{< relref path="/content/posts/2020/yearn-waifus.md" >}})**.
+It translated into a growing awareness for the project, a rapid price appreciation of the token, and attracted involved DeFi users to contribute to Yearn through the DAO's discussions. The launch was so successful that it actually became a template replicated more or less successfully by many other projects: **[the Yearn's waifus (forks)](https://tokenbrice.xyz/content/posts/2020/yearn-waifus.md)**.
 
 Initially, Yearn was focusing on its own products, the main ones being the vaults enabling streamlined implementations of farming strategies. The vaults too grew beyond Yearn to become a product offered by many DeFi services.
 

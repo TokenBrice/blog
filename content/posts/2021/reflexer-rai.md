@@ -21,8 +21,8 @@ Before we even begin to get into the nitty-gritty, I think it's essential to und
 
 The context for understanding RAI is quite dense, but the good news is that this is not the first time I have covered this topic on the blog. So I'll refer you to some relevant reading to go deeper into the subject :
 
-1. [Exploring stable assets on Ethereum: approaches & endgame]({{< relref path="/content/posts/2021/pegged-assets.md" >}})
-2. [Understanding innovations in money markets to envision their future]({{< relref path="/content/posts/2021/money-market-innovations.md" >}})
+1. [Exploring stable assets on Ethereum: approaches & endgame](https://tokenbrice.xyz/content/posts/2021/pegged-assets.md)
+2. [Understanding innovations in money markets to envision their future](https://tokenbrice.xyz/content/posts/2021/money-market-innovations.md)
 
 If you don't have time to explore the concept in depth with the articles proposed above, here are the two essential points to remember to fully understand the rest:
 
@@ -104,7 +104,7 @@ Once this is understood, let me remind you that the system by itself cannot affe
 
 Let's look at this in practice.
 
-There is a logic here that is reminiscent of [algorithmic stablecoins]({{< relref path="/content/posts/2020/algorithmic-stablecoins.md" >}}), although the end product of the system is totally different.
+There is a logic here that is reminiscent of [algorithmic stablecoins](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.md), although the end product of the system is totally different.
 
 ### When market price > redemption price
 
@@ -195,7 +195,7 @@ Note: for the moment **the max LTV of RAI is 0: RAI cannot be used as collateral
 
 ### RAI on Cream
 
-Cream was one of the first money markets to support RAI. However, it is an extremely risky and non-value-added, even deleterious, second-tier money market over the long term. So I'll stop there, and [invite you to read this article if you're wondering why]({{< relref path="/content/posts/2021/money-market-risks.md" >}}).
+Cream was one of the first money markets to support RAI. However, it is an extremely risky and non-value-added, even deleterious, second-tier money market over the long term. So I'll stop there, and [invite you to read this article if you're wondering why](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md).
 
 ### RAI on Idle Finance
 

@@ -11,7 +11,7 @@ url: recettes-marches-actifs
 
 Sur ce blog, je discute fréquemment des marchés monétaires ou marchés d'actifs en DeFi. Fondamentalement, ils vous permettent de **prêter et d'emprunter des tokens**. Ces deux actions sont devenues comme **des verbes de la DeFi** : ils sont mobilisés directement ou indirectement dans quasiment toutes les stratégies.
 
-Ainsi, bien qu'il soit crucial de comprendre les protocoles que vous utilisez et surtout **les différents [risques encourus sur les marchés monétaires]({{< relref path="/content/posts/2021/money-market-risks.fr.md" >}})**, je vous propose aujourd'hui de nous concentrer plutôt sur le pourquoi et le comment :
+Ainsi, bien qu'il soit crucial de comprendre les protocoles que vous utilisez et surtout **les différents [risques encourus sur les marchés monétaires](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)**, je vous propose aujourd'hui de nous concentrer plutôt sur le pourquoi et le comment :
 
 1. Quelles stratégies peut-on mettre en place en utilisant les marchés d'actifs ?
 2. Comment concrètement les déployer ?
@@ -161,7 +161,7 @@ Pour farmer nativement en Euros, la meilleure option reste encore ce qu'il est p
 *   Le farming est également possible via le vault EURS de [StakeDAO](https://stakedao.org/), afin d'accumuler aussi des SDT.
 *   Ou bien encore, [Harvest](https://harvest.finance) propose également un vault qui compose l'essentiel des rendements tout en rémunérant en FARM.
 
-J'espère que ces différentes recettes sauront vous inspirer. Assurez-vous d'être **[conscient des différents risques liés aux marchés monétaires]({{< relref path="/content/posts/2021/money-market-risks.fr.md" >}})**, utilisés pour toutes ces stratégies.
+J'espère que ces différentes recettes sauront vous inspirer. Assurez-vous d'être **[conscient des différents risques liés aux marchés monétaires](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)**, utilisés pour toutes ces stratégies.
 
 ---
 

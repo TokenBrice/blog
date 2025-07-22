@@ -99,7 +99,7 @@ Cet épisode correspond pour moi à l'équivalent d'un détournement de fonds pu
 Le problème avec Maker est plus général et remonte bien plus loin. C'est un problème courant en DeFi d'alignement d'intérêts divergents de différents participants. En outre, pour répondre rapidement à la demande grandissante pour le DAI, **la multiplication des collatéraux (mise à jour MCD) a grandement impacté la trustlessness et la décentralisation effective de DAI.**
 
 Plus de 60% des garanties du DAI sont des tokens qui nécessitent une forme de confiance comme USDC, wBTC ou TUSD. Le problème existe depuis longtemps et n'est pas prêt de se résoudre, si jamais. J'ai déjà discuté de ce problème sur ce blog, je vous renvoie vers cet article : 
-**[Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?]({{< relref path="/content/posts/2021/pegged-assets.fr.md" >}})**
+**[Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?](https://tokenbrice.xyz/content/posts/2021/pegged-assets.fr.md)**
 
 ### Des frais d'utilisation abusifs
 
@@ -148,7 +148,7 @@ Yearn permet à ses utilisateurs de farmer différents protocoles comme Curve en
 
 C'est pratique pour l'utilisateur, mais cela signifie également que **Yearn vend systématiquement tous les tokens farmés** par ses vaults : on peut donc se poser la question de l'impact et de la pertinence pour le protocole farmé, qui subit donc une pression vendeuse sur son token natif.
 
-L'arrivée de Convex a démontré qu'un protocole mieux structuré en termes de tokenomics et spécifique à Curve peut proposer une alternative synergistique où les rendements sont largement supérieurs, tout en évitant la vente systématique des tokens farmés. J'analyse la "flywheel" de Convex dans cet article : **[🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens interposés]({{< relref path="/content/posts/2021/defi-flywheel.fr.md" >}})**
+L'arrivée de Convex a démontré qu'un protocole mieux structuré en termes de tokenomics et spécifique à Curve peut proposer une alternative synergistique où les rendements sont largement supérieurs, tout en évitant la vente systématique des tokens farmés. J'analyse la "flywheel" de Convex dans cet article : **[🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens interposés](https://tokenbrice.xyz/content/posts/2021/defi-flywheel.fr.md)**
 
 Ainsi, l'arrivée de Convex a mis Yearn face à ses contradictions et Yearn a essentiellement capitulé en intégrant Convex pour optimiser le rendement de ses vaults. Cela signifie désormais que **les utilisateurs de Yearn paient des frais à Convex et aident le protocole à accumuler plus de VeCRV** et creuser ainsi son écart avec Yearn - échec et mat pour Yearn sur Curve.
 

@@ -25,9 +25,9 @@ Cela peut sembler basique pour un DeFian, mais c'est un véritable changement de
 
 ## Découvrir les marchés monétaires 
 
-On a déjà beaucoup parlé de marchés monétaires sur ce blog, notamment avec l'article qui propose une méthodologie qualitative pour évaluer leurs risques : **[De l'évaluation du risque sur les marchés monétaires en finance décentralisée]({{< relref path="/content/posts/2021/money-market-risks.fr.md" >}})**
+On a déjà beaucoup parlé de marchés monétaires sur ce blog, notamment avec l'article qui propose une méthodologie qualitative pour évaluer leurs risques : **[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)**
 
-Ou encore celui qui s'intéresse aux différents services d'abstraction et de distribution du risque inhérent aux marchés monétaires : **[🗡 Du risque ? Oui, mais juste un doigt]({{< relref path="/content/posts/2021/risk-tranching.fr.md" >}})**
+Ou encore celui qui s'intéresse aux différents services d'abstraction et de distribution du risque inhérent aux marchés monétaires : **[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/content/posts/2021/risk-tranching.fr.md)**
 
 Néanmoins, les marchés monétaires évoluent sans cesse, autant par leurs mises à jour que par l'apport de services tiers construits sur leurs protocoles. En outre, de nouveaux marchés monétaires ambitieux se lancent pour couvrir des besoins encore insatisfaits.
 
@@ -43,7 +43,7 @@ Les marchés monétaires peuvent sembler complexes au premier abord. Les curieux
 
 De très nombreux utilisateurs de DeFi n'ont pas encore bien compris les enjeux à ce niveau là. Nombreux encore sont ceux qui pensent que la liquidation peut être totale et soudaine. Outre l'information et l'éducation, des outils de gestion de ses positions aident les utilisateurs à se sentir plus en confiance.
 
-Heureusement, très vite, des outils facilitant et automatisant la gestion des positions d'emprunts sur les marchés monétaires sont apparus, comme DeFi Saver. Je vous en parlais déjà l'année dernière dans l'article **[🎚 Ether ou DeFi : Pourquoi choisir ?]({{< relref path="/content/posts/2020/leveraging-ETH.fr.md" >}})**
+Heureusement, très vite, des outils facilitant et automatisant la gestion des positions d'emprunts sur les marchés monétaires sont apparus, comme DeFi Saver. Je vous en parlais déjà l'année dernière dans l'article **[🎚 Ether ou DeFi : Pourquoi choisir ?](https://tokenbrice.xyz/content/posts/2020/leveraging-ETH.fr.md)**
 
 DeFiSaver agit comme une interface (proxy) entre l'utilisateur et le marché monétaire. Il permet de nouvelles fonctionnalités comme la bien aimée "Save" : lorsque la position passe sous un seuil de collatéralisation défini par l'utilisateur, **DeFiSaver se charge de rééquilibrer automatiquement la position grâce à un flash loan.**
 
@@ -104,7 +104,7 @@ Différents paramètres du système Reflexer s'ajustent pour **faire converger l
 
 Pour mieux comprendre Reflexer, je vous invite à consulter mon précédent article sur les actifs à vocation stable :
 
-**[Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?]({{< relref path="/content/posts/2021/pegged-assets.fr.md" >}})**
+**[Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?](https://tokenbrice.xyz/content/posts/2021/pegged-assets.fr.md)**
 
 ---
 
@@ -174,7 +174,7 @@ J'espère que cette découverte des dernières innovations sur les marchés mon�
 
 Pour finir, permettez moi de vous rappeler qu'outre les fonctionnalités, **la gestion du risque est l'élément essentiel qui différencie les différents marchés monétaires**. Avant de commencer à déployer des sommes conséquentes sur ceux-ci, je vous invite à vous familiariser avec les risques associés. Ça tombe bien, j'ai écrit ce qui reste à ce jour **la synthèse la plus exhaustive et compréhensible pour comprendre les risques encourus au niveau des marchés monétaires**, je vous invite à la lire : 
 
-**[De l'évaluation du risque sur les marchés monétaires en finance décentralisée]({{< relref path="/content/posts/2021/money-market-risks.fr.md" >}})**
+**[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)**
 
 _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
 

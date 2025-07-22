@@ -21,8 +21,8 @@ Voilà donc l'idée initiale : au lieu d'investir directement vers les ERC20s ou
 ## Réinvestir les DAI
 
 Les possibilités de réinvestir votre DAI sont pratiquement infinies. Je me concentrerai donc sur celles qui sont les plus judicieuses, c'est-à-dire celles qui permettent le mieux de tirer parti de la prime actuelle sur DAI. N'hésitez pas à consulter mes précédentes publications sur les possibilités d'investissement dans les pools de liquidités avec programme d'incitations et les outils utiles pour les exploiter :
-1. **[💦 Pools de Liquidité avec programmes d'incitation - La Tier List]({{< relref path="/content/posts/2020/yield-farmer-tier-list.fr.md" >}})** 
-2. **[🧰 Trousse à outils du cultivateur DeFi]({{< relref path="/content/posts/2020/defi-farmer-toolbox.fr.md" >}})**.
+1. **[💦 Pools de Liquidité avec programmes d'incitation - La Tier List](https://tokenbrice.xyz/content/posts/2020/yield-farmer-tier-list.fr.md)** 
+2. **[🧰 Trousse à outils du cultivateur DeFi](https://tokenbrice.xyz/content/posts/2020/defi-farmer-toolbox.fr.md)**.
 
 Donc, essentiellement, pour réinvestir vos DAI ou autre stablecoins, vous avez plusieurs options, voici les grandes catégories :
 

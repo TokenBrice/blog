@@ -28,7 +28,7 @@ _Harvest Finance propose plusieurs vaults pour simplifier le farming [(source gi
 Les vaults sont faits pour **abstraire la complexité pour les utilisateurs finaux**.  Vous déposez des tokens et attendez qu'ils élaborent une stratégie pour vous. Voyons donc quelles sont les options disponibles.
 
 {{< notice note >}}
-Cet article va droit au but et met en évidence les différents vaults disponibles. Pour en savoir plus sur les débuts de Yearn Finance, [**lisez cet article**]({{< relref path="/content/posts/2020/yearn-finance-YFI.fr.md" >}}). Pour en savoir plus sur les forks de Yearn, [**celui-ci**]({{< relref path="/content/posts/2020/yearn-waifus.fr.md" >}})
+Cet article va droit au but et met en évidence les différents vaults disponibles. Pour en savoir plus sur les débuts de Yearn Finance, [**lisez cet article**](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md). Pour en savoir plus sur les forks de Yearn, [**celui-ci**](https://tokenbrice.xyz/content/posts/2020/yearn-waifus.fr.md)
 {{< /notice >}}
 
 ## Le plus simple : les vaults basiques
@@ -85,7 +85,7 @@ Avec Harvest.Finance, vous pouvez déposer directement le wBTC ou le renBTC, ou 
 
 Les vaults sur BTC et stablecoins sont intéressants mais peut-être aimeriez-vous conserver une exposition au prix de l'ETH ? 
 
-Vous pouvez obtenir un tel résultat par vous-même en tirant parti de votre ETH. Vous les utiliserez comme collateral pour générer ou emprunter des stablecoins / WBTC qui sont ensuite déployés pour produire un rendement supérieur à votre coût d'emprunt : voici un article que j'ai écrit et qui fournit des conseils et des outils pour tirer efficacement parti de l'ETH - [**🎚 ETH ou DeFi : pourquoi choisir?**]({{< relref path="/content/posts/2020/leveraging-ETH.fr.md" >}})
+Vous pouvez obtenir un tel résultat par vous-même en tirant parti de votre ETH. Vous les utiliserez comme collateral pour générer ou emprunter des stablecoins / WBTC qui sont ensuite déployés pour produire un rendement supérieur à votre coût d'emprunt : voici un article que j'ai écrit et qui fournit des conseils et des outils pour tirer efficacement parti de l'ETH - [**🎚 ETH ou DeFi : pourquoi choisir?**](https://tokenbrice.xyz/content/posts/2020/leveraging-ETH.fr.md)
 
 
 Toutefois, avec une telle position, vous pouvez être exposé à des liquidations si le prix de l'ETH devait baisser.

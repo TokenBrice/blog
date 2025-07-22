@@ -11,7 +11,7 @@ url: money-market-recipes
 
 On this blog, I frequently discuss about money markets and assets market in DeFi. Basically, they allow you to **loan and borrow tokens**. These two actions have become like **deFi verbs**: they are used directly or indirectly in almost every strategy.
 
-So while it is crucial to understand the protocols you are using and especially **the different [money market risks]({{< relref path="/content/posts/2021/money-market-risks.md" >}})**, Today, I would like to focus on the why and the how:
+So while it is crucial to understand the protocols you are using and especially **the different [money market risks](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md)**, Today, I would like to focus on the why and the how:
 
 1. Which strategies can be implemented using money markets?
 
@@ -172,7 +172,7 @@ To farm natively in Euros, the best option is still what you can do with EURS. S
 
 ---
 
-I hope these different recipes will inspire you. Make sure you are **[aware of the different money market risks]({{< relref path="/content/posts/2021/money-market-risks.md" >}})**, used for all these strategies.
+I hope these different recipes will inspire you. Make sure you are **[aware of the different money market risks](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md)**, used for all these strategies.
 
 _🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
 

@@ -44,7 +44,7 @@ Check the [full report here](https://assets.coingecko.com/reports/2020-Year-End-
 
 This is precisely where FIRPs get a chance to shine: **since they make the interest predictable, FIRPs help promote a more responsible attitude** for the whole space - by making it easier to use all the meta-structure now available to protect deposits on money markets or DeFi asset managers.
 
-This article addresses fixed interest rate protocols only. For a broader perspective on risk management for DeFi deposits, **[read my introduction piece touching on insurance, tranching and FIRPs]({{< relref path="/content/posts/2021/risk-tranching.md" >}})**. In there, we addressed how insurance, tranching, and fixed interest might eventually be integrated natively into money-markets, enabling to **[envision "risk-free" interest bearing stablecoins]({{< relref path="/content/posts/2021/risk-tranching.md" >}})**.
+This article addresses fixed interest rate protocols only. For a broader perspective on risk management for DeFi deposits, **[read my introduction piece touching on insurance, tranching and FIRPs](https://tokenbrice.xyz/content/posts/2021/risk-tranching.md)**. In there, we addressed how insurance, tranching, and fixed interest might eventually be integrated natively into money-markets, enabling to **[envision "risk-free" interest bearing stablecoins](https://tokenbrice.xyz/content/posts/2021/risk-tranching.md)**.
 
 From now on, this article assume a minimal understanding of the topic. If something is still unclear, please refer to the previous article ☝
 

@@ -29,7 +29,7 @@ The volume of issuance and use of pegged-assets has exploded last year, but befo
 
 To do this, **the method used at a high level is tokenization**: we represent an asset that comes from another chain / world on Ethereum, such as wBTC (corresponding to 1 BTC on the Bitcoin chain) or USDC (corresponding to 1 USD in Circle's bank account).
 
-This **addresses one of the most common concerns for the general public: [cryptos are volatile assets]({{< relref path="/content/posts/2018/stablecoins.md" >}})**.
+This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/content/posts/2018/stablecoins.md)**.
 
 Also, **the rise of stablecoins has gone hand in hand with the rise of DeFi**, why? According to me, there are many reasons, the main ones being:
 
@@ -132,7 +132,7 @@ Most often, the main parameter taken into account is simply **the price of the s
 
 For more background on this "smart contract central bank" idea, you can read my first article on algorithmic stablecoins:
 
-**[L'état et le futur des stablecoins algorithmiques]({{< relref path="/content/posts/2020/algorithmic-stablecoins.md" >}})**
+**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.md)**
 
 #### Algorithmic approaches
 
@@ -141,7 +141,7 @@ For more background on this "smart contract central bank" idea, you can read my 
 
 I analyze the main approaches to produce algorithmic stablecoins in a dedicated article :
 
-**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD]({{< relref path="/content/posts/2021/seigniorage-basis-vs-esd.md" >}})**
+**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.md)**
 
 Thus, projects like ESD, DSD, or Basis Cash were the pioneers of algorithmic stablecoins. However, all of these systems are now in a bit of an abyss: **their stablecoins have been worth well under a dollar for a long time**.
 

@@ -29,7 +29,7 @@ _Harvest Finance offers several vaults to simplify farming [(gif source)](https:
 Vaults are made to **abstract the complexity for the end-users**. You deposit some tokens and wait while they are farming a set strategy for you. So let's see what options are available.
 
 {{< notice note >}}
-This article is straight to the point and highlights the different vaults available. To learn more about Yearn Finance debuts, [**read this piece**]({{< relref path="/content/posts/2020/yearn-finance-YFI.md" >}}). For more context on Yearn’s forks, [**check this one**]({{< relref path="/content/posts/2020/yearn-waifus.md" >}}).
+This article is straight to the point and highlights the different vaults available. To learn more about Yearn Finance debuts, [**read this piece**](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md). For more context on Yearn’s forks, [**check this one**](https://tokenbrice.xyz/content/posts/2020/yearn-waifus.md).
 {{< /notice >}}
 
 ## Simplest: Basic Vaults
@@ -86,7 +86,7 @@ With Harvest.Finance, you can deposit wBTC or renBTC directly, or the CRVRENWBTC
 
 BTC & Stablecoins positions are interesting, but maybe you'd like to keep an exposure to the price ETH? 
 
-You can achieve such a result by yourself by leveraging your ETH. You'll use them as collateral to mint or borrow stablecoins/wBTC that are then deployed to produce a return superior to your borrowing cost: here's an article I wrote providing tips and tools to leverage ETH efficiently - [**🎚 ETH exposure or DeFi yields: why choose?**]({{< relref path="/content/posts/2020/leveraging-ETH.md" >}})
+You can achieve such a result by yourself by leveraging your ETH. You'll use them as collateral to mint or borrow stablecoins/wBTC that are then deployed to produce a return superior to your borrowing cost: here's an article I wrote providing tips and tools to leverage ETH efficiently - [**🎚 ETH exposure or DeFi yields: why choose?**](https://tokenbrice.xyz/content/posts/2020/leveraging-ETH.md)
 
 
 However, with such a position, you can be exposed to liquidations if the price of ETH was to drop.

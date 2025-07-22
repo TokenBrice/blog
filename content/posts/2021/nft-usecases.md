@@ -17,7 +17,7 @@ Today I would like to leave theory aside as much as possible and focus on **the 
 
 ![88DeLorean](/img/2021/nft-usecases/88DeLo.png "The DeLorean 88MPH, an NFT at the center of a small experiment that you will read about below")
 
-I'm not going to explain the basic features offered by NFTs. I published an article in 2018 that covered the basics and which is still relevant to date. **[Non-fungible Tokens Explained by Blastoise and Charizard]({{< relref path="/content/posts/2018/nft.md" >}})**.
+I'm not going to explain the basic features offered by NFTs. I published an article in 2018 that covered the basics and which is still relevant to date. **[Non-fungible Tokens Explained by Blastoise and Charizard](https://tokenbrice.xyz/content/posts/2018/nft.md)**.
 
 {{< notice note >}}
 
@@ -101,7 +101,7 @@ The most commonly used site is probably [OpenSea](https://opensea.io/), which al
 
 Other services exist, with more curatorial approaches, such as [Foundation](https://foundation.app/) which is **selective about its artists and where each work is a unique copy.**
 
-Each service comes with different modalities and sometimes different NFT types as well: **[ERC-721 or 1155 explained here]({{< relref path="/content/posts/2018/nft.md" >}})**. The rules that govern their auctions and revenue sharing also affect the overall direction of the platform. To start collecting with taste, it's good to know at least what you're buying!
+Each service comes with different modalities and sometimes different NFT types as well: **[ERC-721 or 1155 explained here](https://tokenbrice.xyz/content/posts/2018/nft.md)**. The rules that govern their auctions and revenue sharing also affect the overall direction of the platform. To start collecting with taste, it's good to know at least what you're buying!
 
 ### NFTs + Video games, in all forms
 

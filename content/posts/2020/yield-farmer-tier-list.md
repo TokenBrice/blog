@@ -24,8 +24,8 @@ In video games, tier lists are useful to navigate the different types of charact
 
 ℹ Please note - This content assumes a basic understanding of the world of Ethereum's decentralized finance. Refer to my earlier articles if that's the first time you've heard of it:
 
-1. This piece will not cover basic DeFi investment strategies, detailed in the **[📖 DeFinancial Services Guide]({{< relref path="/content/posts/2020/definancial-services-guide.md" >}})**. 
-2. For more information regarding the tools you can use to implement and manage these strategies, please check **[🧰 The DeFinancial Farming Toolbox]({{< relref path="/content/posts/2020/defi-farmer-toolbox.md" >}})**.
+1. This piece will not cover basic DeFi investment strategies, detailed in the **[📖 DeFinancial Services Guide](https://tokenbrice.xyz/content/posts/2020/definancial-services-guide.md)**. 
+2. For more information regarding the tools you can use to implement and manage these strategies, please check **[🧰 The DeFinancial Farming Toolbox](https://tokenbrice.xyz/content/posts/2020/defi-farmer-toolbox.md)**.
 
 **_This is not investment advice and reading this document as anything more than a structured list of incentivised liquidity pools would be a misrepresentation._**
 

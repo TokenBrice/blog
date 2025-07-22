@@ -86,7 +86,7 @@ Al igual que el APML, con DIGG, todos los poseedores (incluyendo los tokens de l
 Los reajustes se hace a una hora fija, para DIGG es a las 15h EST, a las 21H para mis queridos lectores franceses.
 
 {{< notice tip >}}
-Los tokens de reajustes explotan mecanismos similares a los de los stablecoins algorítmicos / tokens de señoreaje, así que no dude en leer mi **[precedente tiquete sobre el tema]({{< relref path="/content/posts/2021/seigniorage-basis-vs-esd.fr.md" lang="fr">}})** para más información.
+Los tokens de reajustes explotan mecanismos similares a los de los stablecoins algorítmicos / tokens de señoreaje, así que no dude en leer mi **[precedente tiquete sobre el tema](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.fr.md)** para más información.
 {{< /notice >}}
 
 Por ejemplo, después del primer día, el reajuste genesis fue positivo y lanzó una producción y una redistribución de alrededor del 12% de la oferta inicial. Varios reajustes positivos siguieron.
@@ -118,7 +118,7 @@ Esta lógica es más grande que Badger, como se ve en otras plataformas, lo podr
 
 Además, para volver a Badger, la adopción de un modelo parecido, podría significar otros ingresos nativos y durables que podrían estar relacionados al token BADGER o a su sett. Si se considera que la mayoría de los rendimientos provienen actualmente de las incentivos de los aportes de liquidez, sería bastante sinérgico el sacarle partido.
 
-Teniendo en cuenta **[el exito del modelo de Curve / CRV]({{< relref path="/content/posts/2021/dex-value-capture.fr.md" lang="fr" >}})**, es lógico de ver cada vez más protocolos adoptar estos elementos: lo principal de dar a sus poseedores la posibilidad de comprometer sus tokens por participar en la gubernanza, aprevechar los flujos de los ingresos de la plataforma y aumentar sus propios beneficios por el uso del servicio.
+Teniendo en cuenta **[el exito del modelo de Curve / CRV](https://tokenbrice.xyz/content/posts/2021/dex-value-capture.fr.md")**, es lógico de ver cada vez más protocolos adoptar estos elementos: lo principal de dar a sus poseedores la posibilidad de comprometer sus tokens por participar en la gubernanza, aprevechar los flujos de los ingresos de la plataforma y aumentar sus propios beneficios por el uso del servicio.
 
 
 _🙏 Muchas gracias a HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony por su cuidadosa lectura de la edición francesa de este artículo y su traducción al inglés._

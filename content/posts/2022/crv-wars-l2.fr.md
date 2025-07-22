@@ -63,7 +63,7 @@ En résumé, Convex donne accès aux rendements du token CRV maximisés et liqui
 
 Bien que Convex contrôle une grande quantité de veCRV, la centralisation du pouvoir de vote sur les jauges est évitée en offrant cette capacité au plus offrant grâce à Votium (bribes).
 
-Convex, c’est désormais basique, je ne le détaille donc pas plus ici. Mon précédent article sur la guerre du CRV approfondi sur le modèle et les apports de Convex : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}})
+Convex, c’est désormais basique, je ne le détaille donc pas plus ici. Mon précédent article sur la guerre du CRV approfondi sur le modèle et les apports de Convex : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)
 
 
 ### Warden de Paladin : Curve sous stéroides ?

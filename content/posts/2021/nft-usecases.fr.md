@@ -17,7 +17,7 @@ Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me
 
 ![Moloch](/img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
 
-Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu]({{< relref path="/content/posts/2018/nft.fr.md" >}})**.
+Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**.
 
 {{< notice note >}}
 
@@ -105,7 +105,7 @@ Le site le plus couramment utilisé est probablement [OpenSea](https://opensea.i
 
 D'autres services existent, avec des approches plus curatives, comme par exemple [Foundation](https://foundation.app/) qui est sélectif sur ses artistes et où chaque œuvre est un exemplaire unique.
 
-Chaque service vient avec des modalités différentes et des types de NFT parfois différents également : **[ERC-721 ou 1155 expliqué ici]({{< relref path="/content/posts/2018/nft.fr.md" >}})**. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
+Chaque service vient avec des modalités différentes et des types de NFT parfois différents également : **[ERC-721 ou 1155 expliqué ici](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
 
 ### NFT + Jeux-vidéos, sous toutes leurs formes
 

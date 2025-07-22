@@ -297,7 +297,7 @@ Ainsi, si les deux actifs suivent le même prix (ex ETH/sETH), le risque de pert
 
 Si vous envisagez de fournir des liquidités sur les AMMs (mécanisme utilisé par Uniswap, Bancor, Curve, etc.), veuillez lire plus sur le sujet : Risques/récompenses de l'apport de liquidités dans le cadre des AMMs ([Risk/Reward of liquidity provision in AMMs](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
 
-*Edit (07/16)* - Pour en apprendre plus sur l'apport de liquidité, vous pouvez lire : **[💦 Pools de Liquidité avec programmes d'incitation - La Tier List]({{< relref path="/content/posts/2020/yield-farmer-tier-list.fr.md" >}})**.
+*Edit (07/16)* - Pour en apprendre plus sur l'apport de liquidité, vous pouvez lire : **[💦 Pools de Liquidité avec programmes d'incitation - La Tier List](https://tokenbrice.xyz/content/posts/2020/yield-farmer-tier-list.fr.md)**.
 
 ## Conclusion
 

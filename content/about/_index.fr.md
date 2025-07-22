@@ -32,7 +32,9 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 | ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | Levier sans liquiditations, avec des frais clairs et prévisibles <br> **[Effet de Levier pour gentilhomme : gains polynomiaux sans liquidations](https://tokenbrice.xyz//content/posts/2025/leverage-sir.fr.md)** | DeFi & BD Advisory |
-|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores](https://tokenbrice.xyz//content/posts/2021/luchadores-nft.fr.md)** | | Alpha Whale & Conseil DeFi / Tokenomics |
+|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores](https://tokenbrice.xyz//content/posts/2021/luchadores-nft.fr.md
+
+)** | | Alpha Whale & Conseil DeFi / Tokenomics |
 
 
 ### DeFi France
