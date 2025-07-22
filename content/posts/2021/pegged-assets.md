@@ -38,7 +38,7 @@ Also, **the rise of stablecoins has gone hand in hand with the rise of DeFi**, w
 
 ### Why are borrowings mostly in stablecoins?
 
-[The money markets]({{<relref path="/content/posts/2021/money-market-risks.md">}}) allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern. 
+The money markets allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern. 
 
 1. The user deposits a volatile asset, such as ETH, wBTC or LINK
 2. He uses it as collateral to **borrow a stable asset, like USDC or DAI**.

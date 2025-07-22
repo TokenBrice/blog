@@ -17,15 +17,7 @@ Il y a actuellement trois grands marchés monétaires dans DeFi : Aave, Compound
 
 Les marchés monétaires sont étonnants - à la fois simples et très complexes. Dans cet article, j'essaie de fournir un cadre et quelques indices pour évaluer le risque à différents niveaux.
 
-Pour en savoir plus sur la couche de services qui est en train de se construire sur les marchés monétaires, n'hésitez pas à lire mes articles précédents :
-
-1.   Une introduction au tranching via Saffron Finance :
-
-**[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/content/posts/2021/risk-tranching.fr.md)**
-
-2.   Une présentation des protocoles de taux d'intérêt fixes à travers le prisme d'APWine : 
-
-**[🍷 En oenologie comme en DeFi, la patience paie](https://tokenbrice.xyz/content/posts/2021/firp-apwine.fr.md)**
+Pour en savoir plus sur la couche de services qui est en train de se construire sur les marchés monétaires, n'hésitez pas à lire mes articles précédents.
 
 ---
 

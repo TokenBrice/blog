@@ -17,8 +17,6 @@ Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me
 
 ![Moloch](/img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
 
-Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**.
-
 {{< notice note >}}
 
 Les tokens non-fongibles sont un comme un nouveau type de lego utilisé pour représenter des familles d'actifs qui partagent des attributs communs. Ils sont extrêmement pertinents pour des usages à dimension communautaire ou dans les jeux-vidéos mais **les NFTs permettent bien plus**. 

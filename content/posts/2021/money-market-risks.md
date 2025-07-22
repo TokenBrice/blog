@@ -17,15 +17,7 @@ There are three major money markets right now in DeFi: Aave, Compound & Cream. Y
 
 Money markets are amazing - simple yet very intricate. In this article, I try to provide a framework and some clues to assess the risk at different levels.
 
-To dive more into the service layer currently being built on top of money markets, feel free to read my previous articles:
-
-1.   An introduction to tranching focusing on Saffron Finance: 
-
-**[🗡 Risk? Yes please, but exactly how I like it](https://tokenbrice.xyz/content/posts/2021/risk-tranching.md)**
-
-2.   A presentation of fixed interest rate protocols through the lense of APWine: 
-
-**[🍷 Yields are like fine wines, the secret lies in the brewing process](https://tokenbrice.xyz/content/posts/2021/firp-apwine.md)**
+To dive more into the service layer currently being built on top of money markets, feel free to read.
 
 ---
 

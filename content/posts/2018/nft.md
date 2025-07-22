@@ -67,8 +67,6 @@ _Since the history of transactions of most cryptocurrencies can be checked on bl
 
 We won’t address these today, as we focus on non-fungible tokens. There were several attempts, as early as 2013 to create NFTs, but they were mostly unsuccessful. What made a difference was a new Ethereum standard, the ERC-721 which greatly facilitated the creation of “cryptocollectibles.” They are unique goods which share common attributes — the blockchain equivalent of Pokémon cards.
 
-**[📑 To explore what is being done with NFT, both for community building and artistic purposes, check this article]({{< relref path="/content/posts/2021/nft-usecases.md" >}})**.
-
 ### The humble beginnings powered by the ERC-721
 
 [Cryptokitties](https://www.cryptokitties.co/) is what made NFTs known to the general audience — they are virtual kittens which were the precursors of the ERC-721.

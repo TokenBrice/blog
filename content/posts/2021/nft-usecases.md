@@ -17,8 +17,6 @@ Today I would like to leave theory aside as much as possible and focus on **the 
 
 ![88DeLorean](/img/2021/nft-usecases/88DeLo.png "The DeLorean 88MPH, an NFT at the center of a small experiment that you will read about below")
 
-I'm not going to explain the basic features offered by NFTs. I published an article in 2018 that covered the basics and which is still relevant to date. **[Non-fungible Tokens Explained by Blastoise and Charizard](https://tokenbrice.xyz/content/posts/2018/nft.md)**.
-
 {{< notice note >}}
 
 Non-fungible tokens are like a new type of lego used to represent families of assets that share common attributes. They are extremely relevant for community-based uses or in video games but **NFTs offer much more**.
@@ -133,8 +131,6 @@ In **each digital world its bazaar paid in real money**: for example in World of
 
 Imagine if you could deploy your own Charizard - the one that's been sleeping in your GameBoy for over 15 years - in a Pokemon arena in virtual reality. It would become a digital object, represented by an NFT and incorporating all your history with it, making it also, in effect, unique. Each battle or tournament could leave traces on the NFT-object, such as a temporary weakening or learning new abilities.
 
-Voici une vision primitive du "endgame" que j'entrevois, à la croisée des jeux vidéo, des NFTs et de la réalité virtuelle. Il y a déjà **tout un concept pour décrire cette nouvelle réalité qui prend forme sous nos yeux : le Metaverse**. Il s'agit de mondes virtuels persistants composés entre autres de NFTs. N'hésitez pas à suivre la newsletter francophone référence en la matière pour en apprendre davantage : [MetaVersalFR](https://twitter.com/MetaversalFR).
-
 Here is a primitive vision of the "endgame" that I foresee, at the crossroads of video games, NFTs and virtual reality. **There is already a concept to describe this new reality that is taking shape : the Metaverse**. These are persistent virtual worlds composed among others of NFTs.
 
 ### Farming NFTs ? NFT + DeFi
@@ -162,8 +158,6 @@ In this article we have mainly developed few analyses that demonstrate possibili
 
 In France, I had the opportunity to talk with an artist who explores a universe that could be described as "role playing with NFTs".  Arke, for example, offers **an innovative collection that is animated with Legends of Cryptonia.**
 
-
-{{< youtube K6F4qRKyuyA >}}
 
 Aside for the usual characters, some have been poisoned, others have specific status and the story of Cryptonia is still being written every day.  The first "creature" is now available for sale and unlocks access to multiple poisoned characters.
 
