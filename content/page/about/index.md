@@ -3,8 +3,25 @@ title: "About TokenBrice"
 date: 2025-07-19
 description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
 media: true
+aliases:
+  - about-us
+  - about-hugo
+  - contact
+license: CC BY-NC-ND
+lastmod: '2020-10-09'
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: user
 ---
 
+---
+title: "About TokenBrice"
+date: 2025-07-19T13:24:40+02:00
+description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
+media: true
+---
 
 ## Who am I?
 
