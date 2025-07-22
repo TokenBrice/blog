@@ -204,7 +204,7 @@ The game is not yet available (Alpha by the end of March!), but interactions of 
 
 From the launch of the game, players will earn LUCHA for each victory. Depending on their ranking, the amount of LUCHA obtained increases: the best players will be able to get interesting returns, for a very moderate initial cost (1 Luchador, potentially minted for \~0.03 ETH). Be prepared!
 
-If you discover Luchadores with this article, feel free to read this introduction: **[🤼 Long live free (and verifiable onchain) wrestling]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})**
+If you discover Luchadores with this article, feel free to read this introduction: **[🤼 Long live free (and verifiable onchain) wrestling](https://tokenbrice.xyz/content/posts/2021/luchadores-nft.md)**
 
 ## What next? 
 

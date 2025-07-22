@@ -29,7 +29,7 @@ _Note: What follows is merely a tale written to make you question the (shrinking
 
 #### First, I must destroy or sabotage the flows of information
 
-If it does flow, people will know what’s happening and might revolt, I can’t chance it. I’ve got many ways to do this, but I think the most efficient is simply **to allow an unprecedented level of concentration in the medias.** Eventually, [I’ll have less than 10 individuals or companies owning them all,](https://amp.businessinsider.com/images/4fd9ee1e6bb3f7af5700000a-480-4650.jpg) and those happy few will promote exactly the same worldview.
+If it does flow, people will know what’s happening and might revolt, I can’t chance it. I’ve got many ways to do this, but I think the most efficient is simply **to allow an unprecedented level of concentration in the medias.** Eventually, I’ll have less than 10 individuals or companies owning them all, and those happy few will promote exactly the same worldview.
 
 Now my citizens are left with partisan medias. Even better, those medias so concentrated they are easier to manipulate than ever before. **Essentially, what I did is privatizing the attention of my citizens** — I’m a very modern ruler you see. Just to make sure there are no reliable information anymore, I’ll also make the advertising laws very lax, let lies and false information spread widely, and turn the political life into a TV show. Now we’re talking and by that I mean we’re not anymore, but that was precisely the point.
 

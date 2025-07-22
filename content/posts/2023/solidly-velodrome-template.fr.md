@@ -21,7 +21,7 @@ C'est parti !
 ![cover-image](/img/2023/solidly-velodrome-template/cover.png)
 
 {{< notice note >}}
-Cet article suppose une compréhension minimale de la finance décentralisée et une compréhension approfondie du modèle veCRV. Si vous avez besoin d'une remise à niveau, consultez : [⚔ CRV Wars : comprendre la course à l'accumulation de CRV pour influencer le protocole Curve Finance]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}}).
+Cet article suppose une compréhension minimale de la finance décentralisée et une compréhension approfondie du modèle veCRV. Si vous avez besoin d'une remise à niveau, consultez : [⚔ CRV Wars : comprendre la course à l'accumulation de CRV pour influencer le protocole Curve Finance](https://tokenbrice.xyz"/content/posts/2021/crv-wars.fr.md).
 {{< /notice >}}
 
 ## Introduction aux DEX ve(3,3)

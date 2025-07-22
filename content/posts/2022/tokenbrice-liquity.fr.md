@@ -34,7 +34,7 @@ Bien que le protocole Liquity n'ait qu'un peu plus d'un an, l'équipe est  activ
 Ce qui m'a toujours étonné, c'est que cet exploit est réalisé sans compromettre l'efficacité du protocole : Liquity est extrêmement économique pour les emprunteurs, et la conception du protocole est d'une rare élégance. Liquity est **construit comme un logiciel critique** : l'échec n'est pas une option. Je suis heureux qu'un tel protocole, fidèle à l'esprit de base de la DeFi, existe, et je suis ravi d'avoir la chance de l'aider à se développer. 
 
 Si vous ne connaissez pas encore ce que fait Liquity et pourquoi c'est important, n'hésitez pas à lire cette introduction :
-**[⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})**.
+**[⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.fr.md)**.
 
 ### Que vais-je faire ?
 

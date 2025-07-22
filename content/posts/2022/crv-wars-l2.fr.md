@@ -26,7 +26,7 @@ Malgré tout, Convex n’est pas le seul projet qui a essayé de réaliser cette
 
 ## CRV ou CVX ?
 
-Je ne reviendrai pas sur les bases de la séparation entre les deux tokens ici, c’est l’affaire d’un article entier si vous découvrez le sujet : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}})
+Je ne reviendrai pas sur les bases de la séparation entre les deux tokens ici, c’est l’affaire d’un article entier si vous découvrez le sujet : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
 
 Il ne faut pas oublier que malgré l’équivalence calculable entre CVX et CRV (1vl CVX contrôle environ 4.8 veCRV - [source](https://dune.xyz/Marcov/Convex-Finance)), les deux tokens ont des compromis différents comme décrit plus haut. 
 

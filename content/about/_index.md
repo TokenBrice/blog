@@ -28,7 +28,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | ![defiscan-logo](/img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | A decentralization assesment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
-| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement]({{< relref path="/content/posts/2023/defi-collective.md" >}})** | Boardmember & Treasury Management |
+| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement](https://tokenbrice.xyz/posts/2023/defi-collective.md)** | Boardmember & Treasury Management |
 | ![TokenBrice-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | With this blog and my live shows, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together.| Host/Author |
 | ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
 
@@ -37,8 +37,8 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage <br> **[Leverage Like a Sir: Polynomial Gains, No Liquidation Pains]({{< relref path="/content/posts/2025/leverage-sir.md" >}})** | DeFi & BD Advisory |
-| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis]({{< relref path="/content/posts/2021/luchadores-nft.md" >}})** | Alpha whale & DeFi advisory |
+| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage <br> **[Leverage Like a Sir: Polynomial Gains, No Liquidation Pains](https://tokenbrice.xyz/posts/2025/leverage-sir.md)** | DeFi & BD Advisory |
+| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis](https://tokenbrice.xyz/posts/2021/luchadores-nft.md)** | Alpha whale & DeFi advisory |
 
 ### DeFi France
 
@@ -65,8 +65,8 @@ Yet, even in such a role, my efforts were insufficient to counteract the stealth
 
 I'm thrilled to have contributed to the growth of a project that upholds the root values of DeFi for more than 18 months. Liquity is an innovative lending protocol with a design maximizing resilience and decentralization while also offering no interest rate and high capital efficiency. Thanks to these properties, LUSD, the stablecoin output of the protocol, is the most decentralized and durable stablecoin currently available on the Ethereum mainnet.
 
-- [ℹ️ Presentation of the Liquity protocol]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})
-- [📢 Announcement]({{< relref path="/content/posts/2022/tokenbrice-liquity.md" >}})
+- [ℹ️ Presentation of the Liquity protocol](https://tokenbrice.xyz/posts/2021/liquity-protocol.md)
+- [📢 Announcement]({https://tokenbrice.xyz//content/posts/2022/tokenbrice-liquity.md)
 
 
 #### ParaSwap - DAO Ops

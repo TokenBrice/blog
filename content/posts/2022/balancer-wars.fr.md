@@ -17,8 +17,8 @@ Ainsi, les tokens directeurs de liquidité sont rapidement devenus très recherc
 
 J'ai largement couvert la tokenomique CRV, le pionnier du modèle ve, et leurs conséquences dans ce blog :
 
-1. [⚔ CRV wars : comprendre la course à l'accumulation de pouvoir pour influencer le protocole Curve Finance]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}})
-2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex]({{< relref path="/content/posts/2022/crv-wars-l2.fr.md" >}})
+1. [⚔ CRV wars : comprendre la course à l'accumulation de pouvoir pour influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)
+2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
 
 ## Les veTokenomiques, au-delà de l'écosystème Curve
 

@@ -17,8 +17,10 @@ Thus, the liquidity-driver tokens quickly became highly sought after by DAOs wit
 
 I’ve covered the CRV tokenomics, the pioneer of the veToken model, and their consequences in this blog extensively:
 
-1. [⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol]({{< relref path="/content/posts/2021/crv-wars.md" >}})
-2. [⚔ Advanced CRV warfare: analysis of protocols built on top of Curve and Convex]({{< relref path="/content/posts/2022/crv-wars-l2.md" >}})
+1. [⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
+/content/posts/2021/crv-wars.md" >}})
+2. [⚔ Advanced CRV warfare: analysis of protocols built on top of Curve and Convex](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
+/content/posts/2022/crv-wars-l2.md" >}})
 
 ## veTokenomics, beyond the Curve ecosystem
 

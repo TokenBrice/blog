@@ -225,21 +225,9 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/learndefi/"
-        name = "Learn"
-        weight = 4
-        pre = "internal"
-        post = "ethereum"
-    [[menu.main]]
-        url = "/nft/"
-        name = "NFT"
-        weight = 5
-        pre = "internal"
-        post = "chess-knight"
-    [[menu.main]]
         url = "/about/"
         name = "About"
-        weight = 6
+        weight = 4
         pre = "internal"
         post = "user-circle"
 
@@ -302,21 +290,9 @@ uglyURLs = false
     pre = "internal"
     post = "th"
 [[languages.fr.menu.main]]
-    url = "/fr/defi-decouverte-finance-decentralisee/"
-    name = "Découverte"
-    weight = 4
-    pre = "internal"
-    post = "ethereum"
-[[languages.fr.menu.main]]
-    url = "/fr/nft/"
-    name = "NFT"
-    weight = 5
-    pre = "internal"
-    post = "chess-knight"
-[[languages.fr.menu.main]]
     url = "/fr/about/"
     name = "Info"
-    weight = 6
+    weight = 4
     pre = "internal"
     post = "user-circle"
 [[languages.fr.menu.main]]

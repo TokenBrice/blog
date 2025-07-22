@@ -132,7 +132,7 @@ En tant que protocole, les Chicken Bonds collectent les LUSD et les déploient d
 
 {{< notice info >}}
 Si vous n'êtes pas encore familier avec le fonctionnement de Liquity, vous pouvez vous mettre à jour avec cet article dédié : <br>
-**[⚖️ Liquity : un service d'emprunt imparable, efficace et innovant]({{< relref path="/content/posts/2021/liquity-protocol.fr.md" >}})**.
+**[⚖️ Liquity : un service d'emprunt imparable, efficace et innovant](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.fr.md)**.
 {{< /notice >}}
 
 #### Composition des rendements automatique
@@ -240,7 +240,7 @@ En utilisant Warden Quest, des jetons LQTY sont attribués aux votants veCRV et 
 
 {{< notice info >}}
 À la trâine par rapport aux CRV Wars ? Rattrappez votre retard avec cet article : <br>
-**[⚔ CRV wars : la course pour accumuler la capacité d'influencer le protocole Curve Finance]({{< relref path="/content/posts/2021/crv-wars.fr.md" >}})**.
+**[⚔ CRV wars : la course pour accumuler la capacité d'influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)**.
 {{< /notice >}}
 
 ### Le LUCY de PowerPool : Stability Pool et apport de liquidité

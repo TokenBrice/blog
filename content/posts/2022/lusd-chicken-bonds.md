@@ -132,7 +132,7 @@ As a protocol, Chicken Bonds collect LUSD and deploy them into two potential yie
 
 {{< notice info >}}
 If you are not familiar with how Liquity works yet, you can get up to date with this dedicated article: <br>
-**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service]({{< relref path="/content/posts/2021/liquity-protocol.md" >}})**
+**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.md)**
 {{< /notice >}}
 
 #### Auto compounded
@@ -238,7 +238,7 @@ Using Warden Quest, LQTY tokens are awarded to veCRV and vlCVX voters on the LUS
 
 {{< notice info >}}
 Are you out of the loop with the Curve Wars? Start here: <br>
-**[⚔ CRV wars: the race to accumulate the ability to influence the Curve Finance protocol]({{< relref path="/content/posts/2021/crv-wars.md" >}})**
+**[⚔ CRV wars: the race to accumulate the ability to influence the Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md)**
 {{< /notice >}}
 
 ### PowerPool’s LUCY: interest-bearing LUSD LP position
