@@ -44,7 +44,7 @@ I've learned so much in that role! What I loved the most about it is that I was 
 
 I know it's silly, but Osaka blew my mind. Before it, I felt the energy and ambition of the space. Going there, I **saw** it personally, and it was something else. It bolstered my confidence in the impact Ethereum could have on the world.
 
-It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France]({{< relref path="/content/learndefi/_index.md" >}}): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days! 
+It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/content/learndefi/_index.md): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days! 
 
 ![DeFi France DF1](/img/2020/next-steps/df1.png "DeFi France's first event, held entirely in French")
 
@@ -76,7 +76,7 @@ There are still costs incurred with the blog, mostly the time spent writing and 
 
 **If you appreciate my work, you can contribute to the [Gitcoin grant](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr) to support it.**
 
-You can read more about the approach with this blog in [this article detailling the infrastructure]({{< relref path="/content/posts/2020/hello-world.md" >}}).
+You can read more about the approach with this blog in [this article detailling the infrastructure](https://tokenbrice.xyz/content/posts/2020/hello-world.md).
 
 #### DeFi France
 

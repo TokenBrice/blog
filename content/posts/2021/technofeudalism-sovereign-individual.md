@@ -89,8 +89,6 @@ While the values of our political system are promises that must be actively kept
 
 DeFi thus allows individuals to possess and exchange goods without the need for an intermediary - it was a form of missing piece to the safeguarding of sovereignty. Thanks to DeFi, everyone can access elite financial services that are more resilient than those of the conventional world, made possible by a mix of private companies and legal frameworks.
 
-If you've never heard of it before, you've come to the right place! **[This introduction]({{< relref path="/content/learndefi/_index.md" >}})** will help you get started, and you'll find many articles discussing DeFi on this blog.
-
 ![da-vinci-aile](/img/2021/technofeudalism-sovereign-individual/da-vinci-aile.jpg "Leonardo Da Vinci - Flying Wing")
 
 Thanks for reading this piece until the end. If you liked it, you can:
@@ -107,4 +105,4 @@ _Find below more additional resources to research further the key thesis and ide
 [^2]: The two authors define and explore the thesis in their book *[The Sovereign Individual: Mastering the Transition to the Information Age](https://www.goodreads.com/book/show/82256.The_Sovereign_Individual)*, first **published in 1997**.
 [^3]: It's essentially the concept referring to the modern servitude created by service platforms like Uber or Deliveroo & the increasing incorporation of algorithms in our daily life without control or understanding over them. Learn more here: [Meet Your New Overlords: How Digital Platforms Develop and Sustain Technofeudalism](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3473990)
 [^4]: Here's [one of such story](https://www.lemonde.fr/societe/article/2013/02/13/un-homme-s-immole-par-le-feu-devant-pole-emploi-a-nantes_1832062_3224.html), in French but similar scenario unfolded in various countries.
-[^5]: I wrote more extensively about this thesis about two years ago: **[The Demise of Nation States: Introducing the Nation as a Service (NaaS)]({{< relref path="/content/posts/2018/naas.md" >}})** & **[The Nation as a Service and its fractional citizenship- a good idea?]({{< relref path="/content/posts/2018/demise-ns.md" >}})**
+[^5]: I wrote more extensively about this thesis about two years ago: **[The Demise of Nation States: Introducing the Nation as a Service (NaaS)](https://tokenbrice.xyz/content/posts/2018/naas.md)** & **[The Nation as a Service and its fractional citizenship- a good idea?](https://tokenbrice.xyz/content/posts/2018/demise-ns.md)**
