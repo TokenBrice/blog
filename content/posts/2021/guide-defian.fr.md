@@ -11,8 +11,6 @@ tocNum: true
 
 La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi. 
 
-Certains s'en sortent parfaitement en toute autonomie : grand bien leur fait, et ils sont désormais bien servis : de nombreux francophones produisent des ressources pour faciliter leur découverte, j'en propose quelques-unes sur **[la page de découverte DéFi]({{< relref path="/content/learndefi/_index.fr.md" >}})**. 
-
 Pour réellement comprendre la finance décentralisée, il faut être en mesure de déconstruire des mythes encore bien ancrés et surtout découvrir et manipuler de nouveaux modèles mentaux. Néanmoins, remettre en cause des notions fondamentales en matière d'économie, d'organisation sociale, de collaboration et bien plus encore est une tâche ardue : **et si on le faisait ensemble** ?
 
 Le rythme de l'industrie est tel qu'il est important de disposer des bonnes informations pour prendre des décisions conséquentes. C'est ce que nous efforçons de développer à **DeFi France, la première communauté francophone pour échanger sur le sujet**.
@@ -162,7 +160,7 @@ Une fonction permet également de tirer au sort des gagnants parmi ceux qui réa
 
 ---
 
-Tu as désormais toutes les informations utiles pour découvrir, débuter et t'épanouir au sein de la communauté DeFi France : il reste à en profiter ! Si ta compréhension de la DeFi est encore partielle, **[un guide de découverte est disponible sur ce blog]({{< relref path="/content/learndefi/_index.fr.md" >}})**.
+Tu as désormais toutes les informations utiles pour découvrir, débuter et t'épanouir au sein de la communauté DeFi France : il reste à en profiter !
 
 Pour se quitter, voici quelques contenus afin d’aller plus loin dans ta découverte de DeFi France :
 
