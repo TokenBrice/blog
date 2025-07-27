@@ -10,3 +10,4 @@ languageName = "French"
 languagedirection = "ltr"
 title = "TokenBrice Blog : analyses DeFi"
 weight = 2
+params =

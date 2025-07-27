@@ -4,16 +4,15 @@ description: "The DEX war rages on, more competitive than ever. Next to the unic
 date: '2023-07-07T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Maverick, veMAV, DEX, Liquidity, Liquidity Mining, Liquidity Management, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
-toc: false
-tocNum: false
+toc: true
+tocNum: true
 url: maverick-liquidity-shaping
+image: /img/2023/liquidity-shaping-maverick/cover.png
 ---
 
 It's been four months since Maverick is out, and a few days since the MAV token joined the fray. Yet, most of DeFi is still scratching its head regarding how Maverick delivers 2-3x the capital efficiency of its top competitor, Uniswap. 
 
 So the time was right for a deep dive into the innovations brought by the model and the new paradigm it fosters regarding liquidity management: **liquidity shaping**.
-
-![cover.png](/img/2023/liquidity-shaping-maverick/cover.png)
 
 ## Innovations on DEX? More like tools for LP to express themselves
 

@@ -4,9 +4,10 @@ description: "A deeper look at the Solidly and then later Velodrome model for un
 date: '2023-04-28T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Convex, CVX, vlCVX, veCRV, Solidly, Velodrome, ve(3,3), DEX, Decentralized Exchange]
-toc: false
+toc: true
 tocNum: false
 url: solidly-velodrome-fork
+image: /img/2023/solidly-velodrome-template/cover.png
 ---
 
 Solidly/Velodrome forks have been popping up like mushrooms, especially across the popular layer 2 like Arbitrum or zkSync. Solidly is now the top #3 forked protocol in DeFi and one of the rare cases where the forks (such as Velodrome) are the market leaders. At first glance, it could seem like just another fork hype train, like when we had the Uni/Sushi fork season, Olympus fork season, etc.
@@ -17,7 +18,6 @@ So this article will dive deep into the Solidly and Velodrome models to understa
 
 Let’s get right to it!
 
-![cover-image](/img/2023/solidly-velodrome-template/cover.png)
 
 {{< notice note >}}
 This article assumes a minimal understanding of decentralized finance and a thorough understanding of the veCRV model. If you need a refresher, check: [⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md")

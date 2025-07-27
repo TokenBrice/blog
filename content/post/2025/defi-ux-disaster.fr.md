@@ -5,11 +5,10 @@ date: '2025-03-08T01:13:50.191Z'
 categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
+image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 ---
 
 Tout le monde se soucie des couches d'applications et d'infrastructures, et c'est mignon, mais qu'en est-il de la couche de curation ? Sans elle, les deux autres sont presque inutiles, car la complexité de l'espace est déjà bien trop grande pour que la plupart des gens puissent la gérer. Aujourd'hui, je veux plaider pour combler la plus grande lacune de DeFi, éclairée par mon expérience de plus de six ans à éduquer les gens à ce sujet, à onboarder à peu près tous ceux qui le souhaitaient dans mon entourage et en ligne, et à faire un suivi avec eux.
-
-![defi-ux-disaster-cover](/img/2025/defi-ux-disaster/defi-ux-disaster-cover.png)
 
 ## Définir les trois couches : infrastructure, application et curation
 

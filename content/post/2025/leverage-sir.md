@@ -4,13 +4,12 @@ description: "Exploring a novel protocol offering no funding fee no liquidation 
 date: '2025-03-12T01:13:50.191Z'
 categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
+image: /img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
 ---
 
 
 A few weeks ago, Sir Trading, a fascinating novel DeFi primitive was shipped, and I quickly fell in love with it. I’ve also decided to get involved, so welcome to this article introducing Sir Trading, explaining what I found interesting in the model, and announcing my involvement as an advisor.
-
-![leverage-sir-cover](/img/2025/leverage-sir/leverage-sir-cover.jpg)
 
 
 ## Sir.Trading explained like a business
