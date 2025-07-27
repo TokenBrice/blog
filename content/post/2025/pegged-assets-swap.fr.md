@@ -11,7 +11,7 @@ url: pegged-assets-swap
 Chers lecteurs, cela fait un moment ! Comme vous le savez probablement, la gestion de la liquidité est à la fois ma passion et ma profession. Dans cet article, je souhaite revenir aux fondamentaux et offrir une brève histoire au travers du prisme des swaps d'actifs pegged. En détaillant la structure de liquidité et les plateformes qui soutiennent le mieux ces paires, nous approfondirons notre compréhension des concepts clés qui restent cruciaux. Nous aurons également l'opportunité de parler de Fluid DEX et EulerSwap, les deux lancements les plus intéressants de l'année pour la construction de liquidité, qui méritent définitivement plus d'attention ici.
 
 
-### Les débuts des swaps d'actifs pegged (2018-2019)
+## Les débuts des swaps d'actifs pegged (2018-2019)
 
 Il était une fois, il y a plus de cinq ans, **tout ce que nous avions pour échanger sur le mainnet était Uniswap, Bancor, et quelques DEX basés sur des carnets d'ordres maladroits comme EtherDelta.** Ainsi, pour les swaps d'actifs pegged, les options étaient limitées, et nous utilisions le pool USDC/USDT d'Uniswap V2, ce qui était presque de la folie pure.
 
@@ -28,7 +28,7 @@ La seule liquidité utile là-dedans (en supposant 1 USDC ≃ 1 USDT) se trouve 
 D'un autre côté, notez la distribution de liquidité StableSwap, affichée en bleu, sur le même graphique. Pour des actifs à des prix similaires, la zone couverte par la courbe est bien plus grande qu'avec l'invariant d'Uniswap.
 
 
-### La révolution StableSwap pour les swaps d'actifs pegged (2020)
+## La révolution StableSwap pour les swaps d'actifs pegged (2020)
 
 Une fois que StableSwap fut disponible, la liquidité des stablecoins a rapidement migré vers cette solution, car elle était significativement plus efficace (on parle d'améliorations >100x en efficacité par rapport à UNIv2). C'était **la première instance en direct de liquidité concentrée vue sur le mainnet, avant UNIv3**. Les deux sont difficiles à comparer, car UNIv3 est beaucoup plus flexible, tandis que Curve-StableSwap est plus spécialisé ; cependant, il faut rendre à César ce qui est à César. En plus de l'efficacité accrue, Curve a fourni un modèle d'incitation - veCRV+émissions CRV, qui a été [couvert plusieurs fois sur ce blog déjà](https://tokenbrice.xyz/crv-wars/).
 
@@ -42,7 +42,7 @@ Les incitations sont critiques pour les paires d'actifs pegged, car elles ont de
 À cause de tout cela, je pensais jusqu'à récemment que les structures d'incitation étaient encore plus critiques pour les paires d'actifs pegged que pour les actifs volatils. Avec l'arrivée de Fluid DEX et EulerSwap, je ne pense plus que ce soit le cas. Cependant, avant d'approfondir ces derniers, nous devons d'abord aborder une autre étape historique significative dans la liquidité des actifs pegged : la sortie d'Uniswap V3.
 
 
-### L'arrivée de la liquidité concentrée d'Uniswap V3 (2021)
+## L'arrivée de la liquidité concentrée d'Uniswap V3 (2021)
 
 Uniswap V3 est sorti et a offert une liquidité concentrée personnalisable à pratiquement tous les types d'actifs, permettant des gains d'efficacité massifs pour tous les fournisseurs de liquidité. Cependant, comme ce n'était pas uniquement pour les actifs pegged, cela signifiait presque des pertes impermanentes amplifiées pour les LP d'actifs volatils. Compte tenu de la nouveauté de la structure de liquidité, ainsi que du manque d'infrastructure au début, le lancement d'UNIv3 fut initialement lent.
 
@@ -56,7 +56,7 @@ Cependant, la concentration personnalisable a apporté des avantages tangibles, 
 Dans de tels cas, **la liquidité concentrée d'UNIv3 a permis aux LP de reproduire une distribution similaire en efficacité à celle de StableSwap de Curve, mais ajustée aux particularités des prix des tokens**, et cela s'est traduit une fois de plus par des gains d'efficacité massifs. Cependant, le déverrouillage final (selon l'état actuel de l'industrie) n'est arrivé que des années plus tard avec l'arrivée de Fluid DEX et EulerSwap.
 
 
-### La dette comme liquidité (2025)
+## La dette comme liquidité (2025)
 
 Je ne m'étendrai pas trop sur les modèles de Fluid et EulerSwap dans cet article pour des raisons de concision, car je veux me concentrer davantage sur ce que cela signifie pour la construction de liquidité. En résumé, Fluid a trouvé une manière créative de transformer la dette en liquidité avec la « Dette Intelligente » (Smart Debt).
 

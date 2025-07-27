@@ -19,14 +19,14 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: Personal Blog - DeFi alpha and analyses
+                subtitle: Brutally Honest DeFi
     fr:
-        languageName: French
+        languageName: Français
         title: "TokenBrice"
         weight: 2
         params:
             sidebar:
-                subtitle: Blog personnel - alpha DeFi et analyses
+                subtitle: DeFi en brutale honnêteté
 
 services:
     # Change it to your Disqus shortname before using
@@ -59,12 +59,12 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🐜
+        subtitle: TEST
         avatar:
             enabled: true
             local: false
-            src: img/main/emblem-color-square.png
+            src: /img/main/emblem-color-square.png
 
     article:
         math: false

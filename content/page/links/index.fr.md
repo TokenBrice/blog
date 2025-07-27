@@ -1,8 +1,8 @@
 ---
 title: Liens
 links:
-  - title: Twitter pour le sel
-    description: About anything but mostly DeFi
+  - title: Twitter
+    description: Pour le sucré et le salé
     website: http://x.com/tokenbrice/
     image: /img/others/x.png
   - title: Le canal Telegram pour l'alpha
@@ -14,11 +14,11 @@ links:
     website: https://www.youtube.com/@Token_Brice 
     image: /img/others/youtube.jpg
   - title: Farcaster, CT mais différent
-    description: Pas encore très actif par là bas.
+    description: Pas encore très actif par là bas
     website: https://hey.xyz/u/tokenbrice
     image: /img/others/farcaster.jpg
   - title: GitHub
-    description: Où est le code de ce blog
+    description: Utilisé pour héberger et rendre blog
     website: https://github.com/TokenBrice/
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 
