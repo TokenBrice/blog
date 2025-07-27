@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: true
 url: unstoppable-defi
+image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 ---
 
 La finance décentralisée a permis l’émergence de protocoles autonomes dont les fonctionnalités sont assurées par des smart contracts parfois immuables, permettant à des individus du monde entier d’utiliser des services financiers tout à la fois souverains, accessibles mais aussi plus efficaces et résilients que ceux disponibles en finance classique. Voilà la belle histoire qu’on raconte aux nouveaux arrivants pour les endormir : la réalité est bien plus nuancée.
 
 Effectivement, il y a bien **une poignée de protocoles qui correspondent à cette réalité,** mais la plupart sont loin d’être à la hauteur. Quand les taureaux sont de sortie, l’intérêt pour la résilience des protocoles est généralement très faible : la seule chose qui importe ce sont les appréciations de prix. Mais les ours ont fait leur grand retour, et avec vient heureusement un regain d’intérêt pour ces sujets.
-
-![unstoppable-defi-tokenbrice-cover](/img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png)
 
 L’implosion récente de l’écosystème Luna et de son stablecoin associé, UST, aura, je l’espère, servi de piqûre de rappel pour certains. C’était hélas une catastrophe **parfaitement évitable**. Le modèle utilisé pour ce stablecoin et ses défauts étaient déjà connus, avec de nombreuses précédentes instances couvertes à l’époque sur ce blog : BAC, MIC, ESD, DSD, etc. (au niveau applicatif sur Ethereum plutôt que protocolaire, mais avec les mêmes problèmes de fond). Tous ont connu la même fin : une spirale interminable qui les amène toujours plus proche du 0 absolu.
 

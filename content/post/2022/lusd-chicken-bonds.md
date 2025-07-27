@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money 
 toc: true
 tocNum: true
 url: lusd-chicken-bonds
+image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 ---
 
 Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**. 
@@ -15,8 +16,6 @@ Although Chicken Bonds are building on top of existing protocols, such as Yearn,
 
 1. **No maturity principal-protected bonding**: Chicken Bonds use a new type of bonding offering strong guarantees to the depositor, including the possibility to recoup the entire initially supplied capital at no cost (Chicken Out).
 2. **Participate to Earn dynamic NFT**: While interacting with the LUSD Chicken Bonds protocol, users obtain a **dynamic NFT** that evolves depending on their choices and previous onchain interactions.
-
-![cover-image](/img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png)
 
 Chicken Bonds tackle one of the core challenges of DeFi, the sustainable growth of liquidity pools, first for the LUSD token only. Still, eventually, the model will be made available in a generalizable permissionless version for any protocol in need of liquidity to use.
 

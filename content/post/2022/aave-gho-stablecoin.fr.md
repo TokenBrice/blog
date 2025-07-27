@@ -7,13 +7,12 @@ tags : [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Ma
 toc : true
 tocNum : true
 url : aave-gho-stablecoin
+image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 ---
 
 Il y a quelques semaines, le concept du stablecoin GHO a été introduit sur le forum de gouvernance Aave et a déclenché une vague d'excitation à travers la DeFi. En effet, l'idée d'un stablecoin décentralisé, sur-collatéralisé, peg à l'USD et natif de la DAO d'Aave est une prochaine étape logique pour le protocole.
 
 Dans cet article, nous examinerons le concept présenté avant de voir comment la DAO et l'équipe d'Aave pourraient le mettre sur le marché et en faire un stablecoin potentiellement aussi important que le DAI. Bien sûr, les informations sont encore rares, aussi la deuxième partie de l'article est fondée sur des extrapolations s'appuyant sur le modèle présenté et mon expérience en DeFi.
-
-![aave-gho-stablecoin-cover](/img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png)
 
 ## Introduction à GHO, le stablecoin natif d'Aave
 

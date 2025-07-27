@@ -6,6 +6,7 @@ categories: [🃏 NFT]
 tags: [DeFi, Ethereum, Decentralized Finance, NFT, Forgotten Wizard, Luchadores, NFTX, Spectre, NFTfi]
 tocNum: false
 url: nftfi-defi-nft
+image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 ---
 
 Decentralized finance has opened up a world of possibilities: a myriad of previously necessary intermediaries are now supernumerary. Nevertheless, it is intimidating because of its potential complexity and interdisciplinary. In addition to the obvious technical dimension, DeFi also invokes concepts from various disciplines: economics, social sciences, "memetics", etc.
@@ -13,8 +14,6 @@ Decentralized finance has opened up a world of possibilities: a myriad of previo
 Thus, for years now, NFTs have served as a gateway to the decentralized world, demonstrating the benefits of tokenization and disintermediation to a population still not very fond of DeFi. 
 
 So today I propose to converge the two main themes of this blog into one captivating topic: the emergence of DeFi infrastructure for NFTs, or the arrival of NFTs/gamification in DeFi - it's all about perspective.
-
-![nft-defi-infrastructure-tokenbrice](/img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png "NFT x DeFi joint use case: creating a liquidity vault for a given collection (NFTX model)")
 
 ## DeFi + NFT => NFTfi : a world of possibilities for your JPEGs
 

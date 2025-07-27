@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, NFT, Forgotten Wizard, Luchadore
 toc: true
 tocNum: false
 url: nftfi-defi-nft
+image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 ---
 
 La finance décentralisée a ouvert un monde de possibles : une myriade d’intermédiaires auparavant nécessaires sont désormais surnuméraires. Malgré tout, elle intimide par sa potentielle complexité et sa transdisciplinarité. Outre la dimension technique évidente, la DeFi invoque également des notions issues de disciplines diverses: économie, sciences sociales, “mémétique”, etc.
@@ -15,7 +16,6 @@ Ainsi, depuis des années déjà, les NFTs ont servi de porte d’entrée vers l
 
 Je vous propose donc aujourd’hui de faire converger les deux thèmes principaux de ce blog en un sujet captivant : l’émergence de l’infrastructure DeFi pour les NFTs, ou encore l’arrivée des NFTs/gamification dans la DeFi - c’est une question de perspective.
 
-![nft-defi-infrastructure-tokenbrice](/img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png "Utilisation jointe de DeFi et NFT : création d'un vault pour déveloper la liquidité d'une collection donnée.")
 
 ## DeFi + NFT => NFTfi : un monde de possibles pour vos JPEGs
 

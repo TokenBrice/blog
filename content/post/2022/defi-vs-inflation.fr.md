@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: false
 url: defi-vs-inflation
+image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 ---
 
 
@@ -15,8 +16,6 @@ L’inflation est plus que jamais au centre des discussions et préoccupations :
 Aujourd’hui, on laisse l’économie et la politique de côté pour se concentrer sur le concret : en finance décentralisée, toutes sortes de protocoles sont développés, et une bonne partie d’entre eux **apportent des outils crédibles et novateurs pour préserver et développer le pouvoir d’achat d’un portefeuille**, même lorsque le contexte macroéconomique est des plus incertains.
 
 Je vous propose donc d’évaluer des stratégies impliquants des actifs et protocoles différents, toutes avec le même but : préserver et développer le pouvoir d’achat effectif d’un portefeuille donné. Néanmoins, il faut commencer par la base, le niveau 0 : qu’est-ce que l’inflation et pourquoi nous, DeFians, devrions-nous en soucier ?
-
-![defi-vs-inflation-tokenbrice-cover](/img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg)
 
 _L'image de couverture a été réalisée par un généreux contributeur anonyme et met en scène les majestueuses **[Valkyr-E](https://rarible.com/valkyre/created)**_
 

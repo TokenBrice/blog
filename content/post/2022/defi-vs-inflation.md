@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money 
 toc: true
 tocNum: false
 url: defi-vs-inflation
+image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 ---
 
 
@@ -15,8 +16,6 @@ Inflation is more than ever at the center of discussions and concerns: no one un
 Today, we leave economics and politics aside to focus on what matters for your wallet: in decentralized finance, all kinds of protocols are developed, and a good part of them **provide credible and innovative tools to preserve and develop the purchasing power of a portfolio**, even when the macroeconomic context is most uncertain.
 
 I propose to evaluate strategies involving different assets and protocols, all with the same goal: to preserve and develop the effective purchasing power of a given portfolio. Nevertheless, we have to start with the basics, level 0: what is inflation and why should we, DeFians, care about it?
-
-![defi-vs-inflation-tokenbrice-cover](/img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg)
 
 _The cover image was made by a generous anonymous contributor and features the majestic **[Valkyr-E](https://rarible.com/valkyre/created)**._
 
