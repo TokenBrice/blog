@@ -1,7 +1,7 @@
 ---
 title: "Tutoriel"
 description: "Non Fungibles Tokens"
-slug: "Tutoriel"
+slug: "tutorial"
 image: "tutorial.jpg"
 style:
     background: "#2a9d8f"

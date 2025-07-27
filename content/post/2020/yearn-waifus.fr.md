@@ -2,7 +2,7 @@
 title: "Les forks de Yearn Finance : présentation de la famille des Waifus"
 description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de nombreux projets qui l'ont forké. Cet article le tour des forks de YFI les plus pertinents."
 date: '2020-09-18T01:13:50.191Z'
-categories: [DeFi, Découverte]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, YFV, YFII, YFL, FARM, Harvest Finance]
 image: /img/2020/yearn-waifus/cover.jpg
 ---

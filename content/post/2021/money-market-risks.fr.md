@@ -2,7 +2,7 @@
 title: "De l'évaluation du risque sur les marchés monétaires en finance décentralisée"
 description: "L'évaluation du risque dans la DeFi est actuellement à coté de la plaque ; cet article vous montre pourquoi avec une proposition claire pour évaluer les risques des marchés monétaires. La plupart des observations sont également applicables aux protocoles DeFi de manière plus générale."
 date: '2021-02-18T01:13:50.191Z'
-categories: [DeFi, Comprendre]
+categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave, Compound, risque DeFi, évaluation du risque, risques marchés monétaires, risque aave, risque compound, risque cream, DeFiScore, CREAM, AAVE, COMP, Oracles, Liquidation, Assurance, Safety Module]
 toc: true
 tocNum: false

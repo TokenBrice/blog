@@ -2,7 +2,7 @@
 title: "🧰 Trousse à outils du cultivateur DeFi"
 description: "Une liste d'outils et de conseils sélectionnés avec attention pour que vous puissiez tirer parti de la révolution agraire de la DeFi 🌻"
 date: '2020-06-28T01:13:50.191Z'
-categories: [DeFi, Pratique]
+categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Prêts, Apports de liquidités, Actifs synthétiques]
 toc: true
 tocNum: false

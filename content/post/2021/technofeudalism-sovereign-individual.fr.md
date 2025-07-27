@@ -2,7 +2,7 @@
 title: "L'individu souverain dans l'ère du technoféodalisme"
 description: "Covid a précipité la marche de l’histoire en cristallisant plusieurs tendances latentes. Nous assistons désormais à l’émergence d’un protocole social et politique qui systématise l’exploitation et la misère : comment s’en extraire ?"
 date: '2021-01-04T01:13:50.191Z'
-categories: [Analyse]
+categories: [Analysis]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Nation States, Post-Covid]
 image: /img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
 ---

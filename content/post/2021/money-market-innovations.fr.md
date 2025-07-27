@@ -2,7 +2,7 @@
 title: "Comprendre les innovations sur les marchés monétaires pour envisager leur avenir"
 description: "Quelles sont les prochaines étapes pour les marchés monétaires ? On aborde différent thèmes avec un projet emblématique : ré-appropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
 date: '2021-04-14T01:13:50.191Z'
-categories: [DeFi, Découverte]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Compound, Liquity, Mimo Capital, Reflexer, BProtocol, Liquidation]
 toc: true
 tocNum: false

@@ -1,7 +1,7 @@
 ---
 title: "Projets"
 description: "Pour discuter des mes projets personnels en DeFi"
-slug: "Project"
+slug: "Projects"
 image: "projects.jpg"
 style:
     background: "#2a9d8f"

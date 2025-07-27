@@ -2,7 +2,7 @@
 title: "🌽 Livre de recettes pour les marchés d'actifs DeFi"
 description: "Les marchés d'actifs comme Aave ou Alchemix sont des outils essentiels en DeFi. Cet article explique et illustre quelques stratégies pour tirer parti des différentes options qu'ils offrent."
 date: '2021-04-29T01:13:50.191Z'
-categories: [DeFi, Pratique]
+categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Curve, Liquity, Mimo Capital, Alchemix, Aave, Polygon, Liquidation]
 toc: true
 tocNum: true

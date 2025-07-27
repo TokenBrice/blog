@@ -2,7 +2,7 @@
 title: "🐥 Le guide du DeFian : prise en main des outils communautaires DeFi France"
 description: "DeFi France est la communauté francophone la plus dynamique pour découvrir la finance décentralisée. Cet article détaille le système d'incitation mis en place sur le Discord et comment y participer."
 date: '2021-05-17T01:53:50.191Z'
-categories: [Communauté DeFi France]
+categories: [Projects]
 tags: [DeFi France, Discord, Contributions, Communauté, finance décentralisée, tutoriel]
 url: guide-defian
 toc: true

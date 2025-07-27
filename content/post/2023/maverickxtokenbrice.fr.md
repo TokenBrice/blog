@@ -1,6 +1,6 @@
 ---
 title: "Annonce : TokenBrice 🤝 Maverick"
-description: "Je supporte l'équipe Maverick en conseillant la stratégie de croissance, la tokénomique et le ."
+description: "Je supporte l'équipe Maverick en conseillant la stratégie de croissance, la tokénomique"
 date: '2023-04-21T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Finance Décentralisée, Liquidité, DEX]

@@ -2,7 +2,7 @@
 title: "Annonce : lancement du DeFi Collective - une association conçue pour soutenir la DeFi autonome et résiliente"
 description: "Il est temps de faire le meilleur usage de mes cinq années passées à DeFi : un soutien sans faille aux biens publics."
 date: '2023-10-16T01:13:50.191Z'
-categories: [Projets]
+categories: [Projects]
 tags: [DeFi, Ethereum, Finance Décentralisée, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
 image: /img/2023/defi-collective/twitter_banner.png

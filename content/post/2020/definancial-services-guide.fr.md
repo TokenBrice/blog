@@ -2,7 +2,7 @@
 title: "📖 Comment utiliser les services DeFinanciers à votre avantage ?"
 description: "Un tour d'horizon de différents services financiers décentralisés et les retours que vous pouvez en tirer: 6 stratégies fondamentales, leur variantes, & des astuces pour les utiliser au mieux."
 date: '2020-05-29T10:53:50.191Z'
-categories: [DeFi, Comprendre]
+categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Finance Décentralisée, Apport de Liquidité, Prêt, Actifs Synthétiques, Immobilier Tokénisé]
 toc: true
 tocNum: false

@@ -2,7 +2,7 @@
 title: "La prochaine étape de mon aventure : un engagement encore plus communautaire"
 description: "Il est temps pour moi de rendre mon tablier de Community Manager de Monolith afin de consacrer une plus grande partie de mon temps à soutenir des efforts à vocation plus communautaire."
 date: '2020-10-15T01:13:50.191Z'
-categories: [Projets]
+categories: [Projects]
 tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
