@@ -19,18 +19,14 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: "Personal Blog: DeFi alpha and analyses"
+                subtitle: Personal Blog - DeFi alpha and analyses
     fr:
         languageName: French
         title: "TokenBrice"
         weight: 2
         params:
             sidebar:
-                subtitle: "Blog personnel : alpha DeFi et analyses"
-                avatar:
-                    enabled: true
-                    local: false
-                    src: img/main/emblem-color-square.png
+                subtitle: Blog personnel - alpha DeFi et analyses
 
 services:
     # Change it to your Disqus shortname before using
