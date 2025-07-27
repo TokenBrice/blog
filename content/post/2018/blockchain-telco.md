@@ -7,9 +7,8 @@ date: '2018-11-28T14:00:52.000Z'
 categories: [⛓ Blockchain]
 tags: [telco, blockchain, device authentification, mobile data reselling]
 canonicalUrl: https://www.callr.com/blog/blockchains-telecommunications/
+image: img/2018/blockchain-telco/cover.png
 ---
-
-![](/img/2018/blockchain-telco/cover.png)
 
 _Can the telecom industry benefit from blockchains and decentralized ledger technologies?_
 

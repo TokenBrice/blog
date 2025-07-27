@@ -4,13 +4,12 @@ description: "Looking at ESD, DSD and Basis Cash to establish a mockup of the al
 date: '2020-12-28T01:13:50.191Z'
 categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Stablecoins, Maker, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, sUSD, ESD, DSD, BAC, BAS]
+image: /img/2020/algorithmic-stablecoins/cover.png
 ---
 
 Since the beginning of December, a new trend has been shaping up in DeFi: algorithmic stablecoins. Several projects launched and saw significant growth, attracting even more interest for this subset of the space.
 
 Before we dive into what they are and what they entail, let's first discuss the addressable markets. Stablecoins on Ethereum are massive: they are around 20B USDT circulating, 3.5B USDC & 1B DAI. As you can see, right now most of the volume is served by stablecoins requiring some forms of trust, such as **USDC or USDT: the emitting company has the power to freeze assets and manipulate balances.**
-
-![DeFi BRRR](/img/2020/algorithmic-stablecoins/cover.png "Welcome! Hope you'll enjoy the ride.")
 
 Maker explored another approach with DAI that has significantly fewer compromises - however, the scalability is lowered. Besides, it's hard to consider DAI "sufficiently trustless" today when the majority of the collaterals used to mint it are not (USDC, wBTC, TUSD, etc.)
 

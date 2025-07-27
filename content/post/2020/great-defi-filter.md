@@ -4,13 +4,12 @@ description: "Exploring new perspectives to understand better the current barrie
 date: '2020-05-08T14:53:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Adoption]
+image: /img/2020/great-defi-filter/cover.png
 ---
 
 In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about privacy."
 
-Today, as my usual, I'd like to bring to your attention a different perspective.
-
-![the-great-defi-filter-tokenbrice](/img/2020/great-defi-filter/cover.png)
+Today, as my usual, I'd like to bring to your attention a different perspective. 
 
 ## The Great DeFi Filter
 

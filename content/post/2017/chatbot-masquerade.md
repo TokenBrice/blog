@@ -6,9 +6,8 @@ date: '2017-08-02T12:43:42.920Z'
 categories: [🔍 Analysis]
 toc: true
 tags: [chat, design, dark patterns, interview]
+image: /img/2017/chatbot-masquerade/cover.png
 ---
-
-![](/img/2017/chatbot-masquerade/cover.png)
 
 Are chatbots living up to their promises?
 

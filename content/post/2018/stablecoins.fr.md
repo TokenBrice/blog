@@ -5,9 +5,9 @@ description: >-
 date: '2018-08-22T12:14:52.416Z'
 categories: [⛓ Blockchain]
 tags: [stablecoins, DAI, USDT, USDC, Tether, EcoCrypto]
+image: /img/2018/stablecoins/cover.jpeg
 ---
 
-![](/img/2018/stablecoins/cover.jpeg)
 Lorsqu’on parle de cryptos à des non-initiés, la question de la volatilité revient très souvent. Elle sert parfois à balayer l’ensemble du monde des cryptomonnaies et des progrès récents fait en matière de décentralisation sans effort. La volatilité, ça ne touche pas toutes les cryptomonnaies. Il en existe certaines conçues pour êtres stables : on les appelle les « stablecoins ».
 
 Avant d’en venir à ces cryptomonnaies particulières, rappelons quelques éléments utiles pour la compréhension de cet article :

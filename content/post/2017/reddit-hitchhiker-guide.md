@@ -7,9 +7,8 @@ date: '2017-10-10T11:16:29.535Z'
 categories: [📔 Guide]
 tags: [reddit, online community, astroturfing, advertising]
 toc: true
+image: /img/2017/reddit/cover.png
 ---
-
-![](/img/2017/reddit/cover.png)
 
 It’s been a long time since I realized most content and marketing materials focused on the main social networks — Facebook, Twitter, LinkedIn and Instagram, leaving little to no room to the countless other services used around the world.
 

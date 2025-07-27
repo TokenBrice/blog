@@ -4,6 +4,7 @@ description: "Vaults enable easy DeFi investments with a streamlined management 
 date: '2020-09-30T01:13:50.191Z'
 categories: [🌌 DeFi, 💸 Practical]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
+image: /img/2020/vaults/harvest.gif
 ---
 
 As the ecosystem of decentralized financial services on Ethereum grows and matures, the service offering is becoming more dense and sometimes hard to understand. While the most technically savvy users can chase the latest releases and hedge their risk appropriately, less-seasoned investors might feel left out.
@@ -17,14 +18,6 @@ The base idea is simple as 1, 2, 3:
 3. **Fees are streamlined**: the depositors do not pay for the gas costs of the vaults operation (such as harvesting). Fees are usually charged while exiting the vault.
 
 So if you'd like to **avoid the headaches** of chasing the latest farm, managing the claim of the profits you earn, when and how to reinvest them, without forgetting, of course, to account for the gas costs of all these operations in the calculation of your profits, vaults are a credible alternative.
-
-<div align=""center>
-
-![Harvest Finance GIF](/img/2020/vaults/harvest.gif)
-_Harvest Finance offers several vaults to simplify farming [(gif source)](https://twitter.com/risk22_/status/1307304283415560193?s=20)_
-
-</div>
-
 
 Vaults are made to **abstract the complexity for the end-users**. You deposit some tokens and wait while they are farming a set strategy for you. So let's see what options are available.
 

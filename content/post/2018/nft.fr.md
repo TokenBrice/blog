@@ -5,9 +5,8 @@ description: >-
 date: '2018-08-08T12:56:45.787Z'
 categories: [🃏 NFT]
 tags: [Ethereum, NFT, tokens non fongibles, collectibles, ERC721, ERC1155, Enjin, CryptoKitties, EcoCrypto]
+image: /img/2018/nft/cover.png
 ---
-
-![](/img/2018/nft/cover.png)
 
 «Non fongibles». Derrière ce nom énigmatique qui nous rappelle la garniture de nos omelettes, se cache un concept assez ancien qui trouve un second souffle aujourd'hui. Pour l'instant, cela se traduit surtout par des objets à collectionner et des jeux, mais le potentiel est énorme. En effet, **leur potentiel dépasse largement le simple cadre des jeux-vidéos**&nbsp;: documents officiels, titres de propriétés, traçabilité de l'art, etc
 

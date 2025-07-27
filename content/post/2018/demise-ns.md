@@ -6,10 +6,8 @@ description: >-
 date: '2018-06-30T16:14:38.684Z'
 categories: [🧔 Opinions, 🗺 NaaS]
 tags: [NaaS]
+image: /img/2018/demise-ns/cover.jpeg
 ---
-
-![Welcome to BBLand. Have a seat and enjoy the ride!](/img/2018/demise-ns/cover.jpeg)
-Welcome to BBLand. Have a seat and enjoy the ride!
 
 Whether you believe or not in the idea of “the march of history”, there is an undeniable worldwide trend that is leading to a complete overall of the power structure: **the progressive disengagement of the state from state affairs**.
 

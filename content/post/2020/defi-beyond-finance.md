@@ -4,6 +4,7 @@ description: "Considering how the core building blocks of Ethereum's decentralis
 date: '2020-12-01T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin, Funding Commons, NFT, BanklessFR]
+image: /img/2020/defi-beyond-finance/cover.png
 ---
 
 Ethereum's decentralized finance is ready to grow beyond its sandbox: with a dense network of financial primitives, it's now easier than ever to harness DeFi for other ends, such as to replace a predatory relic of our past like the lottery, still insanely popular and detrimental.
@@ -13,8 +14,6 @@ With this story, I'd like to take a step back and adopt a macro perspective on E
 Yet, I believe we're reaching the next step of the growth of the incredible human coordination experiment that is the Ethereum network: the lego blocks provided by DeFi are now mature enough to be harnessed for other ends.
 
 Indeed, we're now seeing how these **streamlined value capture and exchange devices** can be harnessed to facilitate the creation of engaged communities or sustain the commons. So this time, instead of what or how, let's ask why? After a quick reminder on the key benefits delivered by DeFi legos, we'll look at a few projects harnessing them to flip the table in their respective domains.
-
-![DeFi-legos-beyond-defi-cover](/img/2020/defi-beyond-finance/cover.png)
 
 ---
 

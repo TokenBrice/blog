@@ -4,6 +4,7 @@ description: "Yearn has joined forces with several DeFi projects. What does it m
 date: '2020-12-09T01:13:50.191Z'
 categories: [🌌 DeFi, 🔮 Discovery]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, Pickle Finance, Cover Protocol, Cream Finance, Akropolis, SushiSwap]
+image: /img/2020/yearn-merger/y-among-us.gif
 ---
 
 Yearn Finance has been making headlines lately with the announcement of **several acquisitions** like Pickle Finance or SushiSwap. The Yearn team has joined its development forces with five other DeFi projects already.
@@ -36,9 +37,6 @@ It leads to the current merger phase - joining development efforts with other De
 With the context set, let's now look at the different projects joining forces with Yearn and how they contribute to add value to the offering. We'll consider them as they happened, in their chronological order.
 
 Note: Some of these mergers are still pending a token holder vote to be validated.
-
-![Yearn-merger](/img/2020/yearn-merger/y-among-us.gif)
-<div align = "center">
 
 *A NFT was made to immortalize this moment of Yearn's history: [yAmong us, by Cryptouf - available on Rarible](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:90731:0xac6d5c44c7a089101c53735211b12f5f722c7688).*
 

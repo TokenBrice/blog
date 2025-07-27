@@ -6,6 +6,7 @@ categories: [🌌 DeFi, 💸 Practical]
 tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging, Minting DAI]
 toc: true
 tocNum: true
+image: /img/2020/leveraging-ETH/leveraging-ETH.png
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session! 
@@ -15,8 +16,6 @@ Indeed, DeFi is heating up and yields are attractive. However, **even crazy liqu
 With this one goal in mind, the most obvious solution was [Maker](http://makerdao.com/). The position can, of course, be achieved using other services; I consider them at the end.
 
 So there you have the base idea: instead of investing directly in ERC20 or stablecoins and putting them to work, you maintain an ETH base, use it to generate DAI and then diversify into your positions. This way, you maintain a healthy ETH exposure - the tradeoff being the additional risk, including liquidation that are discussed below.
-
-![Maker-Leveraging-ETH-overview](/img/2020/leveraging-ETH/leveraging-ETH.png "An overview of the main strategies you can implement using the DAI minted from your ETH vaults.")
 
 ## Re-investing the minted DAI
 

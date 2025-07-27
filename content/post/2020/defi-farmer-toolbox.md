@@ -6,9 +6,8 @@ categories: [🌌 DeFi, 💸 Practical]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets, Liquidity Incentives, Liquidity Mining]
 toc: true
 tocNum: false
+image: /img/2020/defi-farmer-toolbox/cover.jpeg
 ---
-
-![cover-DeFi-Farmer-Toolbox](/img/2020/defi-farmer-toolbox/cover.jpeg)
 
 Howdy farmer,
 
