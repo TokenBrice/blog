@@ -27,6 +27,10 @@ languages:
         params:
             sidebar:
                 subtitle: "Blog personnel : alpha DeFi et analyses"
+                avatar:
+                    enabled: true
+                    local: false
+                    src: img/main/emblem-color-square.png
 
 services:
     # Change it to your Disqus shortname before using
@@ -51,7 +55,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2018
         customText:
 
     dateFormat:
@@ -183,7 +187,7 @@ params:
 
     defaultImage:
         opengraph:
-            enabled: false
+            enabled: true
             local: false
             src:
 

@@ -1,8 +1,17 @@
 ---
-title: "À Propos : TokenBrice"
+title: "À Propos"
 date: 2023-10-16T13:24:40+02:00
-description: Je contribue à l'émergence et le développement d'un **village gaulois financièrement souverain**, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
-media: true
+description: Je contribue à l'émergence et le développement d'un village gaulois financièrement souverain, résistant aux attaques de l'envahisseur banco-romain grâce à la finance décentralisée.
+aliases:
+  - about-us
+  - contact
+license: CC BY-NC-ND
+lastmod: '2020-10-09'
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: user
 ---
 
 ## Qui suis-je ?

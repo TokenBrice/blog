@@ -1,11 +1,9 @@
 ---
-title: "About TokenBrice"
+title: About
 date: 2025-07-19
-description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
-media: true
+description: Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe.
 aliases:
   - about-us
-  - about-hugo
   - contact
 license: CC BY-NC-ND
 lastmod: '2020-10-09'
@@ -14,16 +12,8 @@ menu:
         weight: -90
         params:
             icon: user
----
 
 ---
-title: "About TokenBrice"
-date: 2025-07-19T13:24:40+02:00
-description: "Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe."
-media: true
----
-
-## Who am I?
 
 I have followed the emergence of decentralized finance on Ethereum since its early days with the launch of MakerDAO. Since then, I have shared my understanding of it through various channels, including live shows, this blog, and my Twitter account.
 
