@@ -2,7 +2,7 @@
 title: "🍷 Yields are like fine wines, the secret lies in the brewing process"
 description: "An introduction to Fixed Interest Rate Protocols (FIRPs) through the lense of APWine to better understand what they enable and bring to DeFi."
 date: '2021-02-11T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound, ApWine, 88MPH, Fixed Interest Rate Protocol, FIRP]
 toc: true
 tocNum: true

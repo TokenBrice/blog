@@ -2,7 +2,7 @@
 title: "BadgerDAO's story: an intro through DIGG"
 description: "Badger sits at the forefront of two highly trendy themes: DeFi & BTC on Ethereum. Let's digg in to better understand what the end game plan looks like."
 date: '2021-01-30T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, Badger, BadgerDAO, DIGG, Elastic Currencies, wBTC, renBTC, Curve BTC pools, gitcoin, Meme, vault, farming, liquidity providing, setts, LP, BTC, BTC on Ethereun, Platformization of DeFi]
 toc: true
 tocNum: true

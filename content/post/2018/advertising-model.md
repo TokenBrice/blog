@@ -4,7 +4,7 @@ description: >-
   How sustainable the advertising model really is? Can’t we really think of
   anything better to provide free goods and services?
 date: '2018-04-17T14:15:12.590Z'
-categories: [🔍 Analysis, 🎭 Privacy]
+categories: [Analysis, Privacy]
 tags: [advertising model, privacy, data harvesting]
 image: /img/2018/ad-model/cover.jpeg
 ---

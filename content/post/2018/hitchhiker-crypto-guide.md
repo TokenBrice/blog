@@ -4,7 +4,7 @@ description: >-
   An overview of the main things to watch for in a cryptocurrency project and
   some tricks to spot the red flags before it's too late.
 date: '2018-07-05T10:36:25.787Z'
-categories: [⛓ Blockchain]
+categories: [Analysis]
 tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
 image: /img/2018/hitchhikerguide/cover.jpeg
 ---

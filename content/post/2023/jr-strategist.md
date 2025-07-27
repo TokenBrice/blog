@@ -2,7 +2,7 @@
 title: "Hiring a Junior DeFi Strategist to help foster the growth of immutable protocols"
 description: "I'm looking for a part-time DeFi enthusiast to join me on my adventures growing liquidity and utility for key unstoppable tokens. If harnessing the power of unstoppable code is something you like to do on the weekends, this mission is a fit for you."
 date: '2023-03-29T01:13:50.191Z'
-categories: [👩‍🔧 Projects]
+categories: [Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false

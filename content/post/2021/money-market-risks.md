@@ -2,7 +2,7 @@
 title: "Assessing risk in decentralized finance: a handbook for money markets"
 description: "DeFi risk scoring is broken; this article shows you why with a clear breakdown of how to assess the risks of money markets; most of the observations are also applicable to DeFi protocols more broadly."
 date: '2021-02-18T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, AAVE, COMP, Oracles, Liquidation, Insurance, Safety Module]
 toc: true
 tocNum: false

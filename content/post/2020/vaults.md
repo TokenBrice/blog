@@ -2,7 +2,7 @@
 title: "🤖 Vaults: DeFi Investing Streamlined?"
 description: "Vaults enable easy DeFi investments with a streamlined management of the position for the end-users. What are the options and their tradeoffs?"
 date: '2020-09-30T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Practical]
+categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
 image: /img/2020/vaults/harvest.gif
 ---

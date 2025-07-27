@@ -2,7 +2,7 @@
 title: "Chicken Bonds: an NFT-powered hatching factory to beat DeFi’s liquidity chicken and egg problem"
 description: "How can a new experiment pioneering dynamic NFTs evolving based on the user's interactions help Liquity grow LUSD's liquidity and reduce the stablecoin premium?"
 date: '2022-10-17T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Understanding]
+categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 toc: true
 tocNum: true

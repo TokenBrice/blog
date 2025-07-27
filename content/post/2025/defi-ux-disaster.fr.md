@@ -2,7 +2,7 @@
 title: "Le cauchemard UX de la DeFi : comment la curation pourrait sauver l'innovation"
 description: "Où je révèle le sombre secret de la DeFi : la crise de la couche de curation - et ce que nous pouvons faire pour y remédier."
 date: '2025-03-08T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png

@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Liens
 links:
   - title: Twitter pour le sel
     description: About anything but mostly DeFi
@@ -30,6 +30,7 @@ menu:
             icon: link
 
 comments: false
+readingTime: false
 ---
 
 Suivez moi sur Twitter pour mes analyses et rejoignez le canal Telegram pour ne pas rater les lives et nouveaux articles :

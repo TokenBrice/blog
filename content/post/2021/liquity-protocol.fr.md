@@ -2,7 +2,7 @@
 title: "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant"
 description: "Liquity est le premier service d'emprunt qui opère sans avoir besoin de gouvernance, tout en étant peu coûteux et très efficace. J'explique le protocol pour comprendre comment il innove et ce qu'il apporte à la DeFi."
 date: '2021-11-30T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false

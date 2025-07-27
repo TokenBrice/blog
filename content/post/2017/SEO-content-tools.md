@@ -4,7 +4,7 @@ description: >-
   Are premium SEO/SEM/Social media analytics tools worth it? Some answers with
   an overview of SEMRush and BuzzSumo can help you know.
 date: '2017-10-31T13:21:53.376Z'
-categories: [📔 Guide]
+categories: [Tutorial]
 tags: [SEO, content, KW research]
 toc: true
 image: /img/2017/seo-tools/cover.png

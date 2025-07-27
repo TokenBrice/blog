@@ -4,7 +4,7 @@ description: >-
   Cambridge Analytica is the tree hiding the forest. With the data Facebook
   amassed, comes the power to influence the political life.
 date: '2018-04-13T14:23:08.991Z'
-categories: [🔍 Analysis, 🎭 Privacy]
+categories: [Analysis, Privacy]
 tags: [advertising model, Cambride Analytica, ad blockers]
 image: /img/2018/free-services/cover.jpeg
 ---

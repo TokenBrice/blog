@@ -2,7 +2,7 @@
 title: "Les fusions de Yearn Finance"
 description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi. Qu'est-ce que cela signifie pour l'ecosystème Yearn Finance ?"
 date: '2020-12-09T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Découverte]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Prêts, Aave, Compound, BzX, Curve, yVault, Stablecoins, Leveraging, YFI, Yearn, Yearn Finance, Pickle Finance, Cover Protocol, Cream Finance, Akropolis, SushiSwap]
 image: /img/2020/yearn-merger/y-among-us.gif
 ---

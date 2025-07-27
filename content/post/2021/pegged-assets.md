@@ -2,7 +2,7 @@
 title: "Exploring stable assets on Ethereum: approaches & endgame"
 description: "The quest for stability on Ethereum: an overview of the different approaches to stabilization and asset indexing to understand their issues."
 date: '2021-03-23T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Understanding]
+categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave, Compound, Reflexer, Stablecoin, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
 toc: true
 tocNum: true

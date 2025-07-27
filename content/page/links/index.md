@@ -30,6 +30,7 @@ menu:
             icon: link
 
 comments: false
+readingTime: false
 ---
 
 Follow me on Twitter for my takes and join the Telegram channel to be notified of live shows and new posts:

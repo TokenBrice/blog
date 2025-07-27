@@ -2,7 +2,7 @@
 title: "The Maurauder's Map of Decentralized Stablecoins"
 description: "New stables are launching weekly, so keeping track of the relevant innovations is challenging. AMO? PSM? DSR? pegKeeper? This article examines the various mechanisms harnessed by stablecoin projects and evaluates their relevance."
 date: '2023-09-15T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Understanding]
+categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Interest Rate]
 url: stablecoin-marauder-map
 image: /img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png

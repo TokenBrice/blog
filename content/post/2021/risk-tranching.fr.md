@@ -2,7 +2,7 @@
 title: "🗡 Du risque ? Oui, mais juste un doigt"
 description: "Qu'est que la répartition du risque (tranching) et pourquoi est-elle appellée à devenir une **primitive financière essentielle** pour les principaux marchés monétaires de la DeFi comme Aave ou Compound ?"
 date: '2021-01-12T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, Gestion du risque, Sérialisation du risque, Marchés monétaires, Prêt, Dépôt, Stablecoin, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn Finance, AAVE, SFI, APWineFi]
 toc: true
 url: tranching-risque-defi

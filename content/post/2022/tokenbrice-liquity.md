@@ -2,7 +2,7 @@
 title: "Announcement: Joining Liquity to bolster the growth of unstoppable DeFi"
 description: "Where I reflect on the current state of DeFi, and why I decided to join Liquity's team to support the growth of one of DeFi's most resilient protocols."
 date: '2022-05-16T01:13:50.191Z'
-categories: [👩‍🔧 Projects]
+categories: [Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false

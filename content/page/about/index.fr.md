@@ -13,6 +13,7 @@ menu:
         weight: -90
         params:
             icon: user
+readingTime: false
 ---
 
 ## Qui suis-je ?

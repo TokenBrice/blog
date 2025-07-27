@@ -3,7 +3,7 @@ title: The Edge of the Static Web
 date: '2019-03-18T09:44:14.735Z'
 description: Go static to dramatically improve performance, indexation, and rendering consistency
 tags: [web development, static websites, static web, dynamic websites, Gatsby, Jekyll, Hugo, Forestry, Netlify]
-categories: [🔍 Analysis, 🕸 Static Web]
+categories: [Analysis]
 ---
 
 `This article is the second of a series which examines the technical reasons behind the renewed interest for static websites, from both a content writer and a developer perspective.

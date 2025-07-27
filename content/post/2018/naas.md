@@ -4,7 +4,7 @@ description: >-
   The rise of the Nation as a Service is an underlying trend forces a paradigm
   shift. Will citizens benefit from it?
 date: '2018-07-11T11:54:20.399Z'
-categories: [🧔 Opinions, 🗺 NaaS]
+categories: [Analysis]
 tags: [NaaS, EcoCrypto]
 image: img/2018/naas/cover.jpeg
 ---
