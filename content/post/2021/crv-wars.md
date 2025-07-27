@@ -7,11 +7,10 @@ tags: [DeFi, Ethereum, Finance décentralisée, Curve Finance, CRV, Polygon, Con
 toc: true
 tocNum: true
 url: crv-wars
+image: /img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 ---
 
 Since the early days of Curve Finance and the launch of the CRV token, we have been waiting, contemplating and assuming what the CRV war could bring. Now, with the launch of Convex, then Bribe.crv and finally Votium, everything is accelerating: VeCRV votes can now be bought! So let's see how this impacts Curve and DeFi as a whole.
-
-![curve-wars-cover-tokenbrice](/img/2021/crv-wars/curve-wars-cover-tokenbrice.png)
 
 At first glance, the question is quite simple and straightforward:
 

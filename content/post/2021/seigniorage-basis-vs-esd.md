@@ -6,13 +6,12 @@ categories: [🌌 DeFi, ⚙ Understanding]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, ESD, DSD, BAC, BAS, MithCash, MIC, MIS, DAIQ, ZAI]
 toc: true
 tocNum: false
+image: /img/2021/seigniorage-basis-vs-esd/cover.png
 ---
 
 A few weeks ago, I shared my first post on algorithmic stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model. 
 
 Both are successfully used by the projects bearing their names but also a sizable trail of forks, more or less relevant. As the field of algorithmic stablecoin grows, there seems to be a **consensus around these two models, now used as a template** to quickstart newer projects trying various alterations, such as pegging the system to another currency other than the dollar, like gold or the euro.
-
-![seigniorage-esd-basis-tokenbrice](/img/2021/seigniorage-basis-vs-esd/cover.png)
 
 The plethora of existing forks enables the latest ones to pick and build upon the existing or pending improvements of the live systems, further leapfrogging the innovation. But before you dive into the arcane of the latest gold elastic token, it's worth making sure you understand the underlying models behind these projects. That's why we are here today.
 

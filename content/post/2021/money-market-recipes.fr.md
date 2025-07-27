@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Curv
 toc: true
 tocNum: true
 url: recettes-marches-actifs
+image: /img/2021/money-market-recipes/money-market-recipes-cover.png
 ---
 
 Sur ce blog, je discute fréquemment des marchés monétaires ou marchés d'actifs en DeFi. Fondamentalement, ils vous permettent de **prêter et d'emprunter des tokens**. Ces deux actions sont devenues comme **des verbes de la DeFi** : ils sont mobilisés directement ou indirectement dans quasiment toutes les stratégies.
@@ -17,8 +18,6 @@ Ainsi, bien qu'il soit crucial de comprendre les protocoles que vous utilisez et
 2. Comment concrètement les déployer ?
 
 Nous allons donc décortiquer différentes "recettes" pour tirer parti des marchés d'actifs. Prenez ces recettes comme **des inspirations pour développer vos propres stratégies**.
-
-![recettes-marché-d'actif-cover-tokenbrice](/img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png)
 
 {{< notice warning >}}
 Cet article ne constitue pas du conseil en investissement : je ne suis pas habilité à en dispenser. Plutôt que de reproduire mécaniquement les stratégies présentées en exemple, je vous invite surtout à chercher à en comprendre la démarche.

@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Liquity, C
 toc: true
 tocNum: true
 url: defi-janus
+image: /img/2021/defi-janus/defi-janus-cover-en.png
 ---
 
 La mythologie est souvent utilisée pour illustrer la DeFi. Par exemple, on évoque souvent le dieu cananéen Moloch pour symboliser les enjeux de coordination. Aujourd'hui, je vais identifier avec vous une nouvelle divinité du panthéon DeFi : Janus.
 
 Dans cet article, on analyse les mécanismes des gouvernances ouvertes des protocoles DeFi qui peuvent conduire à l'émergence d'un nouveau genre de défi pour la DeFi, un ennemi juré que je vous propose d'incarner dans la divinité romaine Janus.
-
-![defi-janus-cover](/img/2021/defi-janus/defi-janus-cover.png)
 
 Tout comme le dieu aux deux visages, **un protocole Janus souffre d’une ambivalence profonde** : bien qu'il puisse être un succès incontestable en termes d'utilisation, il fait face à de sérieux antagonismes entre ses différentes parties prenantes qui mettent en jeu la pérennité du protocole (utilisateurs, holdeurs, investisseurs, équipe et communauté étendue).
 

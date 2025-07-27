@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Curve, Liquit
 toc: true
 tocNum: true
 url: money-market-recipes
+image: /img/2021/money-market-recipes/money-market-recipes-cover.png
 ---
 
 On this blog, I frequently discuss about money markets and assets market in DeFi. Basically, they allow you to **loan and borrow tokens**. These two actions have become like **deFi verbs**: they are used directly or indirectly in almost every strategy.
@@ -18,9 +19,6 @@ So while it is crucial to understand the protocols you are using and especially 
 2. How can they be deployed in practice?
 
 We're going to break down different "recipes" to take advantage of the money markets. Take these recipes as **inspiration to develop your own strategies**.
-
-![money-market-recipes-cover-tokenbrice](/img/2021/money-market-recipes/money-market-recipes-cover.png)
-
 
 {{< notice warning >}}
 

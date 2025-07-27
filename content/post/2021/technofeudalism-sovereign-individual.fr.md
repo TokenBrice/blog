@@ -4,13 +4,12 @@ description: "Covid a précipité la marche de l’histoire en cristallisant plu
 date: '2021-01-04T01:13:50.191Z'
 categories: [🔍 Analyse]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Nation States, Post-Covid]
+image: /img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
 ---
 
 Vous vous souvenez quand on parlait d'un "monde post-covid" ? Il est amusant de voir comment l'expression a rapidement cessé d'être utilisée lorsque les gens ont réalisé que l'ordre social du "nouveau" monde serait aussi absurde et gaspilleur que le précédent.
 
 Pourtant, l'expression a eu le mérite de souligner le rôle de la pandémie qui a tellement mis à mal nos structures sociales qu'elle a entraîné vingt ans de "progrès" réunis en un seul. Je pense qu'aujourd'hui déjà, si nous sommes attentifs et prudents, nous pouvons envisager les prochaines étapes de notre développement sociétal.
-
-![francis-bacon-triptych](/img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg "Triptyque - Francis Bacon (1976)")
 
 ## 🔊 Écoutez cet article en audio, lu par HeyZachy:
 {{< audio "technofeodalisme-fr.mp3" >}}

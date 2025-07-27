@@ -7,6 +7,7 @@ tags: [DeFi France, Discord, Contributions, Communauté, finance décentralisée
 url: guide-defian
 toc: true
 tocNum: true
+image: /img/2021/guide-defian/guide-defian-cover.png
 ---
 
 La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi. 
@@ -14,8 +15,6 @@ La finance décentralisée peut être intimidante pour ceux qui la découvrent t
 Pour réellement comprendre la finance décentralisée, il faut être en mesure de déconstruire des mythes encore bien ancrés et surtout découvrir et manipuler de nouveaux modèles mentaux. Néanmoins, remettre en cause des notions fondamentales en matière d'économie, d'organisation sociale, de collaboration et bien plus encore est une tâche ardue : **et si on le faisait ensemble** ?
 
 Le rythme de l'industrie est tel qu'il est important de disposer des bonnes informations pour prendre des décisions conséquentes. C'est ce que nous efforçons de développer à **DeFi France, la première communauté francophone pour échanger sur le sujet**.
-
-![guide-defian-cover](/img/2021/guide-defian/guide-defian-cover.png)
 
 ---
 

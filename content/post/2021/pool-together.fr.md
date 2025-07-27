@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, POOL, PoolTogether, Loterie, Par
 toc: true
 tocNum: false
 url: pool-together
+image: /img/2021/pool-together/cover.png
 ---
 
 
@@ -16,7 +17,6 @@ Notre sujet du jour, [PoolTogether](https://www.defiscan.info/protocols/pool-tog
 
 Je vous propose donc d’explorer ce protocole dans le détail : on commence par son contexte, avant d’analyser son fonctionnement et les différents enjeux qu’il implique. C’est parti !
 
-![tokenbrice-pooltogether-cover](/img/2021/pool-together/cover.png)
 
 ---
 

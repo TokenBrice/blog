@@ -5,6 +5,7 @@ date: '2021-07-27T01:13:50.191Z'
 categories: [🌌 DeFi]
 tags: [DeFi, Ethereum, Decentralized finance, Aave, Governance, Delegation]
 url: aave-governance-program
+image: /img/2021/aave-governance-platform/cover.png
 ---
 
 Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation in the Aave governance. While calling for delegations and explaining my vision for Aave, I'd also like to set a new standard for DAO delegates. 

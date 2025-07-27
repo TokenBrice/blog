@@ -7,6 +7,7 @@ tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoP
 toc: true
 tocNum: true
 url: nft-usecases
+image: /img/2021/nft-usecases/88DeLo.png
 ---
 
 Non-fungible tokens are attracting a lot of attention lately. On the one hand, the general public is scratching its head about the ever-rising records observed on flagship sales, now covered in the mainstream press[^1]. On the other hand, artists still not initiated to blockchains realize the potential offered by **disintermediation** as well as the possibilities offered by **the programmable nature of this new art form**. In between, a diverse audience ranging from the casual collector to the seasoned speculator.
@@ -15,7 +16,7 @@ One thing is certain: NFTs leave no one indifferent. Indeed, by **combining the 
 
 Today I would like to leave theory aside as much as possible and focus on **the practical uses observed with these NFTs.** We will therefore analyze two fundamental characteristics of NFTs - **their community dimension** and their **ability to become social markers**. Once these two dimensions are established, we can consider different use cases.
 
-![88DeLorean](/img/2021/nft-usecases/88DeLo.png "The DeLorean 88MPH, an NFT at the center of a small experiment that you will read about below")
+![88DeLorean]( "The DeLorean 88MPH, an NFT at the center of a small experiment that you will read about below")
 
 {{< notice note >}}
 

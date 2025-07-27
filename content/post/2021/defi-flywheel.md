@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, DeFi, Money Markets, Liquity, Curve Finance, CRV, Polygon
 toc: true
 tocNum: true
 url: defi-flywheel
+image: /img/2021/defi-flywheel/defi-flywheel-cover-en.png
 ---
 
 In three weeks, the Convex protocol attracted over $3 billion in deposits, while becoming the largest 🐳 whale of CRV, today and probably forever. Luck is never a negligible factor, but with such a smashing entry into DeFi top protocols, we must look much further. Indeed, the key to understanding the meteoric rise of Convex is tokenomics, and this is our topic of the day!
@@ -18,8 +19,6 @@ The emergence of liquidity mining programs last year showed that the right set o
 Indeed, liquidity mining by itself only attracts **mercenary and opportunistic deposits**. In fact, liquidity mining is more a tool to make a project known than to perpetuate it. 
 
 To last in DeFi, it is a matter of tokenomics: i.e. the mechanics of the native tokens of protocols. **Tokenomics is in a way the gameplay of a DeFi protocol**.
-
-![flywheel-defi-cover](/img/2021/defi-flywheel/defi-flywheel-cover-en.png)
 
 As you probably know, I am a big fan of the CRV model. It's perfect, since the game around the CRV token has never been as lively as it has been in the last few weeks. Some people even talk about #lockening to describe **the race to accumulate CRVs** that Convex, Yearn and StakeDAO are engaged in.
 

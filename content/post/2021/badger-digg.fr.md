@@ -7,11 +7,10 @@ tags: [DeFi, Ethereum, Finance décentralisées, Badger, BadgerDAO, DIGG, monaie
 toc: true
 tocNum: true
 url: badger-digg
+image: /img/2021/badger-digg/cover.png/
 ---
 
 Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidement transformé en une centrale DeFi **hébergeant maintenant > 1,2 milliard de dollars d'actifs**. Bien que j'ai rapidement évoqué Badger dans des articles ou des émissions précédentes, je pense qu'il est temps de consacrer un article à DIGG, sans oublier son contexte.
-
-![badgerdao-story-tkb-cover](/img/2021/badger-digg/cover.png/)
 
 ## Une introduction à Badger DAO
 

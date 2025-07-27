@@ -7,11 +7,10 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Unisw
 toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
+image: /img/2021/dex-value-capture/cover.png
 ---
 
 I've shared my perspective on many DeFi protocols on this blog, but recently I realized I've never gone back to the basics: the DEXs. That's precisely what we will do today, tackling the topic mostly by looking at value capture mechanisms.
-
-![volume-begets-fees-cover](/img/2021/dex-value-capture/cover.png)
 
 AMM-based DEXs like Uniswap, Curve or SushiSwap all grew tremendously both in available liquidity and volume this year, and so did the fees they collected. To put it simply: **these DEXs now are the main fee-collectors there are in crypto, right after the Bitcoin and Ethereum network themselves**:
 

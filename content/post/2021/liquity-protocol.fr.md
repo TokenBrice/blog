@@ -7,6 +7,8 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: false
 url: liquity-protocol
+image: /img/2021/liquity-protocol/cover-en.png
+
 ---
 
 [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) est un protocole encore unique en son genre : il permet l'emprunt sur ETH et le mint d'un stablecoin (LUSD) sans pour autant nécessiter de gouvernance ce qui le rend "inarrêtable".
@@ -16,8 +18,6 @@ Le terme n’est pas toujours bien compris, alors explicitons : les contrats né
 Si cela ne suffit pas à exciter votre curiosité, la bonne nouvelle c'est que pour arriver à un tel résultat, Liquity met en œuvre plusieurs nouvelles idées vraiment pertinentes. En effet, outre sa résilience, Liquity est aussi **le protocole le moins coûteux** pour des emprunts long termes sur ETH et également **le plus permissif en levier**, hors “recovery mode”.
 
 Le but de cet article est donc de présenter Liquity tout en explicitant plusieurs dimensions critiques pour tout service de prêt / marché monétaire en DeFi.
-
-![liquity-cover-tokenbrice](/img/2021/liquity-protocol/cover.png)
 
 
 ---

@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Marchés monétaires, Aave,
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
+image: /img/2021/firp-apwine/pac-man.png
 ---
 
 
