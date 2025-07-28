@@ -26,7 +26,7 @@ languages:
         weight: 2
         params:
             sidebar:
-                subtitle: DeFi en brutale honnêteté
+                subtitle: Analyses DeFi
 
 services:
     # Change it to your Disqus shortname before using
@@ -209,9 +209,19 @@ menu:
     social:
         - identifier: X
           name: X
-          url: https://x.com/tokenbrice
+          url: https:/x.com/tokenbrice
           params:
-              icon: brand-twitter
+              icon: brand-x
+        - identifier: youtube
+          name: Youtube
+          url: https:/x.com/tokenbrice
+          params:
+              icon: brand-youtube
+        - identifier: telegram
+          name: telegram
+          url: https:/t.me/tokenbrice_news
+          params:
+              icon: brand-telegram
 
 related:
     includeNewer: true
