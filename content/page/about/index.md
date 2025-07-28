@@ -14,13 +14,12 @@ menu:
         params:
             icon: user
 readingTime: false
+image: img/others/all-hail-ants.jpeg
 ---
 
 I have followed the emergence of decentralized finance on Ethereum since its early days with the launch of MakerDAO. Since then, I have shared my understanding of it through various channels, including live shows, this blog, and my Twitter account.
 
 All my actions and involvement in the space follow a single north star: maximizing the amount of trustless protocols available, and their recognition. To that end, I co-founded **[The DeFi Collective](https://deficollective.org/)** with [Nils Bundi](https://x.com/nilsbundi) and [Florian Prantl](https://x.com/floowp_) in October 2023, a nonprofit organization that harnesses DeFi to self-fund and support all relevant initiatives aimed at bolstering the most decentralized form of decentralized finance (DeFi).
-
-![all-hail-ants](img/others/all-hail-ants.jpeg)
 
 Our latest and most significant endeavour to date is DeFiScan, the "L2beat of protocol decentralization", launched in October 2024. **[DeFiScan](https://www.defiscan.info/)** provides users, DAOs, and institutions with an in-depth assessment of DeFi's protocols' decentralization. It's essentially the DeFi police, helping users determine the effective decentralization state of the main DeFi protocols, as the teams' communications on the matter tend to be unreliable, if not misleading.
 
@@ -53,7 +52,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 DeFi France is the main French-speaking community to exchange about decentralized finance. 
 
-I host the weekly live shows that take place on **[Monday at 5pm on the YouTube channel DeFi France](https://www.youtube.com/c/defifrance)** - after a press review of the French-speaking DeFi, we analyze a transversal theme or a given project.
+I hosted the weekly live shows that took the YouTube channel [DeFi France](https://www.youtube.com/c/defifrance).
 
 ### Luchadores
 
@@ -75,7 +74,7 @@ Yet, even in such a role, my efforts were insufficient to counteract the stealth
 I'm thrilled to have contributed to the growth of a project that upholds the root values of DeFi for more than 18 months. Liquity is an innovative lending protocol with a design maximizing resilience and decentralization while also offering no interest rate and high capital efficiency. Thanks to these properties, LUSD, the stablecoin output of the protocol, is the most decentralized and durable stablecoin currently available on the Ethereum mainnet.
 
 - [ℹ️ Presentation of the Liquity protocol](https://tokenbrice.xyz/posts/2021/liquity-protocol.md)
-- [📢 Announcement]({https://tokenbrice.xyz//content/posts/2022/tokenbrice-liquity.md)
+- [📢 Announcement]({https://tokenbrice.xyz/content/posts/2022/tokenbrice-liquity.md)
 
 
 #### ParaSwap - DAO Ops
@@ -108,7 +107,3 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | 🐦 Twitter | 🛩 Telegram | 🛩 Announcements | 👾 Farcaster |
 | :---: | :---: | :---: | :---: |
 | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://hey.xyz/u/tokenbrice) |
-
-## Media
-
-{{< custommedia language="en" >}}
