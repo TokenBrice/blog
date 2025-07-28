@@ -5,7 +5,7 @@ date: '2023-09-15T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Interest Rate]
 url: stablecoin-marauder-map
-image: /img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
+image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 ---
 
 Wild new stablecoins are constantly appearing, and with the multiplication of chains, layers, and viable stablecoin models the trend is not stopping anytime soon. **Navigating the stablecoin landscape is turning into a critical skill for DeFi**.
@@ -55,7 +55,7 @@ It usually happens when the stablecoin is mainly used for leverage and lacks sig
 
 Besides, the AaveDAO has been slow to take action to support GHO. Despite the stablecoin being live since mid-July, there are still very few incentives directed to growing GHO’s liquidity, and they are poorly allocated as most of them focus on stableswap pools where GHO is overweight because of its price. Since these pools are 80% composed of GHO, they provide little adequate liquidity at the current price:
 
-![gho-balancer-pool](/img/2023/stablecoin-marauder-map/gho-balancer-pool.png "One of the main GHO pool on Balancer")
+![gho-balancer-pool](img/2023/stablecoin-marauder-map/gho-balancer-pool.png "One of the main GHO pool on Balancer")
 
 Right now, the only pressure for GHO to repeg comes from the existing borrowers who could consider repaying their debt with a ~3% discount if they could borrow and swap GHO around $1.
 
@@ -91,7 +91,7 @@ In its early days, before the Mutli Collateral Dai update, DAI had similar chall
 
 By adjusting the exchange rate in response to market dynamics, MakerDAO can influence the supply of DAI in the market and keep its price close to the USD peg. It helped MakerDAO resolve the DAI problem over pegging, observed before the PSM. Still, it came with a cost: an accumulation of USDC and other centralized stablecoins as DAI’s collateral.
 
-![maker-psm](/img/2023/stablecoin-marauder-map/maker-psm.png "$~1B of centralized stablecoins were accumulated as DAI collateral through the PSM")
+![maker-psm](img/2023/stablecoin-marauder-map/maker-psm.png "$~1B of centralized stablecoins were accumulated as DAI collateral through the PSM")
 
 #### FRAX's AMO (Algorithmic Market Operations): scale liquidity and risk to infinity
 
@@ -116,7 +116,7 @@ There are 4 pegKeepers, each plugged into a different pool of crvUSD paired agai
 
 Thus, pegKeepers accumulate a crvUSD debt to the protocol when the stablecoin is overpegged, to be ideally resorbed once crvUSD is underpeg. The key here lies in the balance, ensuring that the spread between the supply of crvUSD (incl. Pegkeeper debt) and the borrowed supply does not grow too big.
 
-![pegkeeper](/img/2023/stablecoin-marauder-map/pegkeeper.png "Data from Curve Monitor")
+![pegkeeper](img/2023/stablecoin-marauder-map/pegkeeper.png "Data from Curve Monitor")
 
 While pegKeepers still pose a decent threat to the protocol, just like the FRAX’s AMO or Maker’s PSM, the risk seems more mitigated there. Yet, crvUSD is still quite a young stablecoin, and only time will tell.
 
@@ -231,7 +231,7 @@ Nevertheless, surprise, surprise: incentives work, at least at first. Thus, this
 * [Raft launched a similar concept at 6%.](https://mirror.xyz/0xa486d3a7679D56D545dd5d357469Dd5ed4259340/1qSAAQtVdNCW_xn9cObEjwrQzFpwEshNrm0sjX0nkG8)
 * Frax is also working on [sFRAX / Frax Saving Rate targeting 5%](https://gov.frax.finance/t/fip-2xx-sfrax-governance-proposal/2585).
 
-![maker-dsr-impact](/img/2023/stablecoin-marauder-map/maker-dsr-impact.png "Incentives work...")
+![maker-dsr-impact](img/2023/stablecoin-marauder-map/maker-dsr-impact.png "Incentives work...")
 
 Now, time will tell for the impact of such design over the long run. The way I see it, these protocols are **depleting most of their revenues to pay for acquisition on an ongoing basis** — they will lose most of the users acquired with DSR the minute they stop. They would have burned a massive amount of money to sustain the charade, money that could have been spent on strategic assets providing life-long incentives to the liquidity providers of their stablecoin, for instance. **This design is a great tactic but one of the most short-sighted strategies I have ever seen**.
 
@@ -261,7 +261,7 @@ F(x) is a fascinating protocol freshly released! It’s a dual product, enabling
 
 Similarly to a CDP protocol, users deposit ETH (or stETH) to mint fETH or xETH. However, unlike Liquity/Maker/Other CDP, the user does not manage its position (a Trove). Instead, the protocol directly manages the stETH reserve. A redemption feature enables holders of fETH or xETH to reclaim the underlying stETH. However, how much they redeem depends on the system's state, most notably its Net Asset Value: the overall value of stETH in reserve.
 
-![protocolfx](/img/2023/stablecoin-marauder-map/protocolfx.png)
+![protocolfx](img/2023/stablecoin-marauder-map/protocolfx.png)
 
 Launched just a few weeks ago, the protocol is still in its early stages with about 1300 ETH of TVL, and the liquidity on fETH is still being worked on. A third token, FXN, the governance token of the protocol, is also planned. 
 

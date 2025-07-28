@@ -34,16 +34,16 @@ Je travaille à développer l'ecoystème DeFi sur Ethereum, en supportant des co
 
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif qui soutient les protocoles DeFi antifragiles de toute manière pertinente. <br> **[📢 Annonce](https://tokenbrice.xyz/posts/2023/defi-collective.fr.md)** | Statégie DeFi |
-|  ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
-|  ![TokenBrice-Twitch-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal 
+| ![the-defi-collective-logo](img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif qui soutient les protocoles DeFi antifragiles de toute manière pertinente. <br> **[📢 Annonce](https://tokenbrice.xyz/posts/2023/defi-collective.fr.md)** | Statégie DeFi |
+|  ![DeFiFrance-logo](img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Rendez-vous mensuel et groupe de discussion autour de la Finance décentralisée, entièrement en français. | Gentil Organisateur |
+|  ![TokenBrice-Twitch-Logo](img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://twitch.tv/tokenbrice) | Avec ce blog et mes lives j'explique les concepts fondamentaux relatifs à la finance décentralisée et aux NFTs. On analyse les projets et nouveaux mécanismes ensemble, avec des invités de qualité directement impliquées. | Hôte principal 
 
 ### Autres
 
 |  Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | Levier sans liquiditations, avec des frais clairs et prévisibles <br> **[Effet de Levier pour gentilhomme : gains polynomiaux sans liquidations](https://tokenbrice.xyz//content/posts/2025/leverage-sir.fr.md)** | DeFi & BD Advisory |
-|  ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores](https://tokenbrice.xyz//content/posts/2021/luchadores-nft.fr.md
+| ![leverage-sir](img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | Levier sans liquiditations, avec des frais clairs et prévisibles <br> **[Effet de Levier pour gentilhomme : gains polynomiaux sans liquidations](https://tokenbrice.xyz//content/posts/2025/leverage-sir.fr.md)** | DeFi & BD Advisory |
+|  ![luchadores](img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | Collection NFT 100% onchain avec un jeu en modèle Play2Earn  <br> **[🤼 Présentation des Luchadores](https://tokenbrice.xyz//content/posts/2021/luchadores-nft.fr.md
 
 )** | | Alpha Whale & Conseil DeFi / Tokenomics |
 

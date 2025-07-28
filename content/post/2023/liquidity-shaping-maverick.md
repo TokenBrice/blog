@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Maverick, veMAV, DEX, Liquidity, L
 toc: true
 tocNum: true
 url: maverick-liquidity-shaping
-image: /img/2023/liquidity-shaping-maverick/cover.png
+image: img/2023/liquidity-shaping-maverick/cover.png
 ---
 
 It's been four months since Maverick is out, and a few days since the MAV token joined the fray. Yet, most of DeFi is still scratching its head regarding how Maverick delivers 2-3x the capital efficiency of its top competitor, Uniswap. 
@@ -60,11 +60,11 @@ Like UniswapV3, Maverick supports supplying liquidity in **an arbitrary custom r
 
 If the current price is below $2000 (at the time of writing: $1900), the LP will be supplied purely with ETH and progressively rebalances to USDC as the price moves upwards, ending entirely in USDC at $2400.
 
-![eth-lp-univ3.png](/img/2023/liquidity-shaping-maverick/eth-lp-univ3.png "The $2000-2400 ETH/USDC LP on UniswapV3")
+![eth-lp-univ3.png](img/2023/liquidity-shaping-maverick/eth-lp-univ3.png "The $2000-2400 ETH/USDC LP on UniswapV3")
 
 But what about LPs that have an even more refined thesis? What about the LP that sees ETH in that range for a week but mainly in the $2150-2250 area? Wouldn't it be nice for him to be able to express this thesis through the liquidity structure he chooses? It is precisely what Maverick enables:
 
-![eth-lp-mav.png](/img/2023/liquidity-shaping-maverick/eth-lp-mav.png "The same $2000-2400 ETH/USDC LP on Maverick, with about x4 more liquidity in the $2150-$2250 range")
+![eth-lp-mav.png](img/2023/liquidity-shaping-maverick/eth-lp-mav.png "The same $2000-2400 ETH/USDC LP on Maverick, with about x4 more liquidity in the $2150-$2250 range")
 
 In the screenshot above, you see a distribution from $2000 to $2400 on the ETH/USDC pair; however, **unlike Uniswap, which necessarily distributes liquidity evenly across the range, Maverick enables LPs to choose**. To better fit our LP thesis, most of the liquidity is concentrated over the three ticks covering the $2150-2250 price zone.
 
@@ -74,7 +74,7 @@ The expressivity offered to LP on Maverick is virtually infinite. I expect to se
 
 Assuming the stablecoin project controls some liquidity, it could supply it in very expressive ways in times of need to constraint the price range. Here's a "buy wall" liquidity structure on LUSD: the whole liquidity of this LP is supplied on a single tick, the first one where LUSD is worth below 1.00 USDC.
 
-![mav-buy-wall.png](/img/2023/liquidity-shaping-maverick/mav-buy-wall.png "A stablecoin buying wall liquidity structure on Maverick")
+![mav-buy-wall.png](img/2023/liquidity-shaping-maverick/mav-buy-wall.png "A stablecoin buying wall liquidity structure on Maverick")
 
 With a current price >1.00 USDC, this LP is supplied 100% in USDC and acts like a buying reserve: if the price of LUSD falls, the LP will rebalance. Such positions are promising, as they can exert buy/sell pressure helping to better constrain peg assets within narrower ranges, which massively reduces the cost of their liquidity incentivization.
 
@@ -85,7 +85,7 @@ Maverick dynamic modes offer a convenient and easy solution for LPs who maximize
 - Follow the price just one way (left or right) - there are tons of pairs where it makes a lot of sense, like wstETH/ETH (wstETH being "up-only" against ETH thanks to the staking yield)
 - Follow the price both ways, a good match for LP looking to maximize adequate liquidity and fees collected at the expense of increased IL risk on the principal. It's particularly suited for stable and pegged asset pairs, but not only.
 
-![mav-both.gif](/img/2023/liquidity-shaping-maverick/mav-both.gif "Visual explainer of Maverick's both mode")
+![mav-both.gif](img/2023/liquidity-shaping-maverick/mav-both.gif "Visual explainer of Maverick's both mode")
 
 The key thing to understand here is that **Maverick delivers native rebalancing to its LP**, and here again, it goes above and beyond what preceded in terms of customization options. "Native" is the keyword here, meaning the rebalancing can be **done cleverly and gas-efficiently**. While this is not new by itself, here again, the devil lies in the details:
 
@@ -133,7 +133,7 @@ Now, for the incentivization layer, massive gains are to be made with a switch. 
 
 The details of this example help you understand that if you take this pool to Maverick, the compounded effect of the superior liquidity structure with a vastly more efficient incentivization model leads to results from a different league. 
 
-![curve-cvxcrv-crv.png](/img/2023/liquidity-shaping-maverick/curve-cvxcrv-crv.png "The cvxCRV/CRV pool on Curve")
+![curve-cvxcrv-crv.png](img/2023/liquidity-shaping-maverick/curve-cvxcrv-crv.png "The cvxCRV/CRV pool on Curve")
 
 There are currently $54M TVL in Curve cvxCRV/CRV pool for a daily volume of around $300k daily (0.5% utilization). With a base incentive of 12% CRV, ~**$6M of CRV tokens are expanded yearly to maintain this liquidity**.
 
@@ -159,7 +159,7 @@ As readers of this blog, I imagine you are extensively familiar with the veCRV m
 
 ### veMAV & Liquidity Directing Voting (vote-directed liquidity shaping)
 
-![vemav](/img/2023/liquidity-shaping-maverick/vemav.png)
+![vemav](img/2023/liquidity-shaping-maverick/vemav.png)
 
 The launch of the MAV token is sequential, currently in phase 1, where users can claim their drop, LP MAV, or lock it to obtain veMAV. **Stage 2 will introduce Maverick's Liquidity Directing Voting and mark the true beginning of the MAV races.** 
 
@@ -185,9 +185,9 @@ Regarding wrappers, several existing projects have already expressed their inten
 
 Maverick is currently live on mainnet, zkSync, and BSC. It's interesting to remark on how much it dominates the volume on zkSync, even with a fraction of its competitor TVL:
 
-![zksync-dex-volume.png](/img/2023/liquidity-shaping-maverick/zksync-dex-volume.png "Overview of volume processed by the main DEXes on zkSync (DeFiLlama)")
+![zksync-dex-volume.png](img/2023/liquidity-shaping-maverick/zksync-dex-volume.png "Overview of volume processed by the main DEXes on zkSync (DeFiLlama)")
 
-![zksync-dex-tvl.png](/img/2023/liquidity-shaping-maverick/zksync-dex-tvl.png "Overview of the TVL attracted by the main DEXes on zkSync (DeFiLlama)")
+![zksync-dex-tvl.png](img/2023/liquidity-shaping-maverick/zksync-dex-tvl.png "Overview of the TVL attracted by the main DEXes on zkSync (DeFiLlama)")
 
 On mainnet, most of the success has been found with ETH-LSDs pairs (wstETH, swETH, etc.) and stablecoins. Maverick's efficient liquidity structure is highly competitive with Curve, Uniswap, and Balancer.
 

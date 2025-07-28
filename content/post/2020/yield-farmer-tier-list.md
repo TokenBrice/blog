@@ -6,7 +6,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve, Liquidity Incentives, Liquidity Mining, Ampleforth, mUSD]
 toc: true
 tocNum: true
-image: /img/2020/yield-farmer-tier-list/cover.png
+image: img/2020/yield-farmer-tier-list/cover.png
 ---
 
 DeFi is like a layered yield cake. When you first walk through the door, making a deposit on Aave and seeing your balance grow puts you in awe. Shortly thereafter, through your own research or discussions with the community, you realize there is more to it **- there could be icing on the cake too!**
@@ -41,7 +41,7 @@ The good news is: you can stack both! Let's see how.
 
 ---
 
-![TokenBrice-Yield-Farmer-Tier-List-DeFi](/img/2020/yield-farmer-tier-list/yield-farmer-tier-list.png)
+![TokenBrice-Yield-Farmer-Tier-List-DeFi](img/2020/yield-farmer-tier-list/yield-farmer-tier-list.png)
 
 ---
 
@@ -59,7 +59,7 @@ mstable[^1] is a meta-stablecoin. You can go on their app to lock your USDT, USD
 
 The most direct one is the "Save" feature on the mStable app. It will lock your mStable tokens and generate a return through lending.
 
-![mstable](/img/2020/yield-farmer-tier-list/mstable.png)
+![mstable](img/2020/yield-farmer-tier-list/mstable.png)
 
 Now that's a simple yield and won't deserve a feature here by itself. 
 
@@ -77,7 +77,7 @@ _*Native rewards = earned in the same token as the exposure (usually a commissio
 
 Please note: The respective ratios of four stablecoins backing the mUSD (half of the exposure) can vary, go to the m stable app[^2] to view it:
 
-![mstable-asset-distribution](/img/2020/yield-farmer-tier-list/musd.png)
+![mstable-asset-distribution](img/2020/yield-farmer-tier-list/musd.png)
 
 This pool is particularly attractive because the exposure is 100% stablecoin-based, despite a very solid yield thanks to the max BAL mining ratio + the incentive program paid in the highly anticipated MTA token.
 
@@ -126,7 +126,7 @@ AMPL is a beast of its own, so I invite you to read more on it [^3] before you d
 
 Rebalances compounded impact can be hard to calculate. This spreadsheet recently emerged to [🧮 help AMPL investors calculate the impact of the rebalances.](https://www.publish0x.com/canuhodl/ampleforth-dollar-ampl-calculator-spreadsheet-for-investors-xmdjxvy) 
 
-![ampleforth-geyser](/img/2020/yield-farmer-tier-list/ampl-geyser.png)
+![ampleforth-geyser](img/2020/yield-farmer-tier-list/ampl-geyser.png)
 
 The Geyser code is audited[^4] and insured on Nexus Mutual[^5]. The reward calculation here takes into account the time staked - so this pool is best utilised over the long-term.
 
@@ -154,7 +154,7 @@ This pool is one of the earliest liquidity mining programs there is yet still qu
 
 ### The BTC-OG Variant: Curve renBTC/sBTC/wBTC
 
-![curve-synthetix-balancer-ren-btc-pool](/img/2020/yield-farmer-tier-list/curve-btc.png)
+![curve-synthetix-balancer-ren-btc-pool](img/2020/yield-farmer-tier-list/curve-btc.png)
 
 This is similar to the first one, with different tokens. Here, your price exposure is 100% in BTC, while your liquidity mining rewards are made of four hot DeFi tokens: BAL, SNX, REN & CRV. 
 
@@ -220,5 +220,5 @@ Happy farming!
 [^2]: You can view the current mUSD underlying distribution on the [mStable app](https://app.mstable.org/).
 [^3]: [Ampleforth (AMPL)](http://ampleforth.org/) is "adaptive money built on sound economics". It intends to provide a new type of asset which price movement is uncorrelated from any other.
 [^4]: [Certik - Audit Report 28 Feb 2020](https://github.com/ampleforth/ampleforth-audits/blob/master/token-geyser/v1.0.0/CertiK_Verification_Report.pdf)
-[^5]: There are currently 51 643 NXM staked on the AMPL Geyser Contract [`0xd36132e0c1141b26e62733e018f12eb38a7b7678`](https://etherscan.io/address/0xd36132e0c1141b26e62733e018f12eb38a7b7678). ![cover-Yield-Farmer-Tier-List](/img/2020/yield-farmer-tier-list/ampl-geyser-insurance.png)
+[^5]: There are currently 51 643 NXM staked on the AMPL Geyser Contract [`0xd36132e0c1141b26e62733e018f12eb38a7b7678`](https://etherscan.io/address/0xd36132e0c1141b26e62733e018f12eb38a7b7678). ![cover-Yield-Farmer-Tier-List](img/2020/yield-farmer-tier-list/ampl-geyser-insurance.png)
 [^6]: The Curve sUSD pool was already mentioned as part of a DeFi investment strategy built on an SNX stake in the [DeFinancial Service Guide](https://tokenbrice.xyz/posts/2020/definancial-services-guide/#5-a-the-synthetixcurve-yieldstack-aka-the-4-steaks-yieldburger)

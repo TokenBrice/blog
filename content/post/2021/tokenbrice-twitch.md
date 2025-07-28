@@ -6,7 +6,7 @@ categories: [Projects]
 tags: [DeFi, TokenBric.xyz, DeFi France, Twitch]
 toc: false
 tocNum: false
-image: /img/2021/tokenbrice-twitch/troll-en.png
+image: img/2021/tokenbrice-twitch/troll-en.png
 ---
 
 Yo.

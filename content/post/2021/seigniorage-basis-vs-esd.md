@@ -6,7 +6,7 @@ categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, ESD, DSD, BAC, BAS, MithCash, MIC, MIS, DAIQ, ZAI]
 toc: true
 tocNum: false
-image: /img/2021/seigniorage-basis-vs-esd/cover.png
+image: img/2021/seigniorage-basis-vs-esd/cover.png
 ---
 
 A few weeks ago, I shared my first post on algorithmic stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model. 
@@ -109,7 +109,7 @@ Now that we are up to date on each model and their gas efficiency, let's details
 
 In the Basis model, the **BAC/DAI liquidity pool is continuously rewarded with BAS token**. Since the BAS reward continues even when BAC is in a contraction phase, we're not observing the same compounded reduction of liquidity seen in contraction on the ESD model: when the ESD price is on a downtrend & liquidity providers are pulling out at the same time.
 
-![liquidity-esd-bac-tokenbrice](/img/2021/seigniorage-basis-vs-esd/liquidity-esd-bac.png "The total liquidity available on the ESD/USDC and BAC/DAI pairs since inception.")
+![liquidity-esd-bac-tokenbrice](img/2021/seigniorage-basis-vs-esd/liquidity-esd-bac.png "The total liquidity available on the ESD/USDC and BAC/DAI pairs since inception.")
 
 We can see that **ESD's liquidity tends to be more spikey** while BAC's is correlated mostly to BAC price (expected).
 
@@ -125,7 +125,7 @@ The share is fluid in the sense that there is currently no commitment required t
 
 Rewards in the Basis model are distributed through **standard staking contract**, enabling and facilitating the integration by third parties. There are already Harvest & Pickle vaults to streamline the farming of the BAC/DAI, BAS/DAI, MIC/USDT & MIS/USDT pools.
 
-![harvest-basis-cash-mith-cash](/img/2021/seigniorage-basis-vs-esd/harvest.png "BasisCash & MithCash related vaults on Harvest Finance.")
+![harvest-basis-cash-mith-cash](img/2021/seigniorage-basis-vs-esd/harvest.png "BasisCash & MithCash related vaults on Harvest Finance.")
 
 ### 3.2. 👎 Downsides of the Basis model
 
@@ -167,7 +167,7 @@ Finally, the emission logic of ESD-based systems, coupled with the lockups perio
 
 During the last expansion phase, the period around epoch 396 was famous and scared because most of the newly minted DSD was made transferrable over a very short window:
 
-![DSD-epoch-396-397-tokenbrice](/img/2021/seigniorage-basis-vs-esd/dsd-raindrop.png "After the last expansion phase, over 30M DSD were released in just two epochs (396 and 397), a dreaded moment for DSD and coupon holders.")
+![DSD-epoch-396-397-tokenbrice](img/2021/seigniorage-basis-vs-esd/dsd-raindrop.png "After the last expansion phase, over 30M DSD were released in just two epochs (396 and 397), a dreaded moment for DSD and coupon holders.")
 
 *Yes this is DSD, but similar patterns are observed on ESD. It's due to the DAO lockups and emission schedule.*
 
@@ -178,7 +178,7 @@ Before I let you go, here's a quick overview of the main tools useful to monitor
 {{< notice tip >}}
 **[Vfat in particular](https://vfat.tools/)** has been super reactive updating his tracking and management tools for the newer projects. It even includes a **[seigniorage tokens overview](https://vfat.tools/seigniorage/)** now:
 
-![vfat-seigniorage-overview](/img/2021/seigniorage-basis-vs-esd/vfat.png "Overview of the main seigniorage tokens on Vfat")
+![vfat-seigniorage-overview](img/2021/seigniorage-basis-vs-esd/vfat.png "Overview of the main seigniorage tokens on Vfat")
 {{< /notice >}}
 
 *   For ESD, your main dashboard is [ESDTools](https://esd.tools/)

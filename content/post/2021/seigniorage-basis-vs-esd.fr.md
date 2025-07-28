@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, D
 toc: true
 tocNum: false
 url: seigneuriage-basis-vs-esd
-image: /img/2021/seigniorage-basis-vs-esd/cover.png
+image: img/2021/seigniorage-basis-vs-esd/cover.png
 
 ---
 
@@ -108,7 +108,7 @@ Maintenant que nous sommes à l'aise avec les bases de chaque modèle et de leur
 
 Dans le modèle de Basis, les apporteurs de liquidité sur **BAC/DAI sont continuellement récompensés par des tokens BAS**. Comme la récompense BAS se poursuit même lorsque BAC est en phase de contraction, nous n'observons pas la même réduction composée de la liquidité que celle observée dans le modèle ESD : lorsque le prix de l'ESD est en baisse et que les fournisseurs de liquidité se retirent en même temps.
 
-![liquidity-esd-bac-tokenbrice](/img/2021/seigniorage-basis-vs-esd/liquidity-esd-bac.png "La liquidité totale disponible sur les paires ESD/USDC et BAC/DAI depuis le début.")
+![liquidity-esd-bac-tokenbrice](img/2021/seigniorage-basis-vs-esd/liquidity-esd-bac.png "La liquidité totale disponible sur les paires ESD/USDC et BAC/DAI depuis le début.")
 
 Nous pouvons voir que la liquidité de **ESD est assez peu stable** alors que celle de BAC est principalement corrélée au prix de BAC (attendu).
 
@@ -124,7 +124,7 @@ La part est fluide en ce sens qu'il n'y a actuellement aucun engagement requis p
 
 Les récompenses du modèle de base sont distribuées par le biais d'un **contrat de staking standard**, permettant et facilitant l'intégration par des tiers. Il existe déjà des vaults Harvest & Pickle pour simplifier l'exploitation des pools BAC/DAI, BAS/DAI, MIC/USDT et MIS/USDT.
 
-![harvest-basis-cash-mith-cash](/img/2021/seigniorage-basis-vs-esd/harvest.png "BasisCash & MithCash vaults sur Harvest Finance")
+![harvest-basis-cash-mith-cash](img/2021/seigniorage-basis-vs-esd/harvest.png "BasisCash & MithCash vaults sur Harvest Finance")
 
 ### 3.2. 👎 Les inconvénients du modèle Basis
 
@@ -170,7 +170,7 @@ Enfin, la logique d'émission des systèmes basés sur l'ESD, associée aux vér
 
 Lors de la dernière phase d'expansion, la période autour de l'epoch 396 était célèbre et effrayante parce que la plupart des DSD nouvellement frappés y sont devenus transférables :
 
-![DSD-epoch-396-397-tokenbrice](/img/2021/seigniorage-basis-vs-esd/dsd-raindrop.png "Après la dernière phase d'expansion, plus de 30M de DSD ont été libérés en seulement deux epochs (396 et 397), un moment redouté pour les détenteurs de DSD et de coupons").
+![DSD-epoch-396-397-tokenbrice](img/2021/seigniorage-basis-vs-esd/dsd-raindrop.png "Après la dernière phase d'expansion, plus de 30M de DSD ont été libérés en seulement deux epochs (396 et 397), un moment redouté pour les détenteurs de DSD et de coupons").
 
 *Oui, il s'agit de DSD, mais des tendances similaires sont observées sur l'ESD. C'est dû au vérouillage dans la DAO et au calendrier d'émission.*
 
@@ -183,7 +183,7 @@ Avant de vous laisser partir, voici un rapide aperçu des principaux outils util
 {{< notice tip >}}
 **[Vfat en particulier](https://vfat.tools/)** a été très réactif en mettant à jour ses outils de suivi et de gestion pour les projets les plus récents. Il inclut même un **[aperçu des tokens de seigneuriage](https://vfat.tools/seigniorage/)** maintenant :
 
-![vfat-seigniorage-overview](/img/2021/seigniorage-basis-vs-esd/vfat.png "Aperçu des principaux tokens de seigneuriage sur Vfat")
+![vfat-seigniorage-overview](img/2021/seigniorage-basis-vs-esd/vfat.png "Aperçu des principaux tokens de seigneuriage sur Vfat")
 {{< /notice >}}
 
 * Pour l'ESD, votre tableau de bord principal est [ESDTools](https://esd.tools/)

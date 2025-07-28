@@ -5,7 +5,7 @@ date: '2024-07-01T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, Tapioca, Dyad, TAP, USDO, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate, veCRV, veVELO, twTAP]
 url: lending-protocol-renaissance
-image: /img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
+image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 ---
 
 In the last few months, we’ve seen a flurry of novel and exciting lending protocols come to market, such as Morpho, DYAD, Fluid, or Tapioca; even more are expected in the coming months, such as Liquity V2 (Bold) or Euler V2. All are innovative, in the arena, trying things to the point that I wonder if we’re not experiencing a lending protocol renaissance after a few years of rehashing the same concepts.
@@ -92,14 +92,14 @@ Dyad is a CDP protocol that implements several novel ideas, such as delivering f
 Stablecoins harnessing endogenous or no collateral can scale quickly, as seen with ESD, Basis Cash, or Terra/UST. However, they can and usually do explode even faster. For this reason, harnessing endogenous collateral is considered a risky practice – worthy of an instant Red Flag / F on the stablecoin rating agency [Bluechip](https://bluechip.org/).
 
 
-![1-endogenous-collateral-bluechip](/img/2024/lending-protocol-renaissance/1-endogenous-collateral-bluechip.png "Red Flags on Bluechip")
+![1-endogenous-collateral-bluechip](img/2024/lending-protocol-renaissance/1-endogenous-collateral-bluechip.png "Red Flags on Bluechip")
 
 
 What I would like to focus on today regarding Dyad is its utility token, KEROSENE, which is a mechanism for allocating the right to mint against existing surplus collateral in the system. By default, the system's minimal collateralization ratio is 150%. However, KEROSENE holders can deposit it into their Notes to reduce their exogenous collateral ratio to 100%.
 
 Thus, KEROSENE is not technically an endogenous collateral but a mechanism to price and enable users to harness the protocol's exogenous over-collateralization. KEROSENE’s utility gives it a “deterministic value” corresponding to its utility while deposited into a Note. Since KEROSENE is mostly farmed by supplying liquidity on DYAD, it could entertain an interesting flywheel.
 
-![2-dyad-defillama](/img/2024/lending-protocol-renaissance/2-dyad-defillama.png "Dyad TVL on Defillama")
+![2-dyad-defillama](img/2024/lending-protocol-renaissance/2-dyad-defillama.png "Dyad TVL on Defillama")
 
 Launched at the end of the year, the protocol has seen gentle and steady growth, although still limited. The rollout is progressive: the base functionalities are live (Note, DYAD minting, LP incentives, KEROSENE utility), yet much more is coming: sDYAD, momentum (a mechanism to better align protocol participants), a lending market, etc. It’s worth following for any stablecoin enjoyer such as myself.
 
@@ -123,7 +123,7 @@ Thus, users who choose a very low interest will put themselves first in line for
 
 This will allow the protocol to rapidly adjust to all kinds of market environments, from low interest rates to high, avoiding the long redemption phases as seen in v1 while remaining immutable and delivering greater predictability to borrowers.
 
-![3-bold-stability](/img/2024/lending-protocol-renaissance/3-bold-stability.png)
+![3-bold-stability](img/2024/lending-protocol-renaissance/3-bold-stability.png)
 
 As the protocol gains adoption, the average interest rate observed could even inform beyond Liquity v2 itself, as it will correspond to a base rate borrowers are willing to pay on a risk-minimized and immutable protocol. Riskier protocols will have to offer a lower interest rate to attract borrowers. The v2 packs many more interesting innovations. To get up to speed, I recommend checking out [Bojan’s thread of threads](https://x.com/bjnpck/status/1772227278606389496).
 
@@ -276,7 +276,7 @@ Tapioca finally delivers with an exciting approach harnessing a new type of toke
 
 The main innovation lies in the flexibility and additional game theory layer this model implements. Instead of a linear veTKN to TKN correspondence, depending on the time locked and maxing at four years, like with veCRV and veAERO, twAML looks at other lockers' average lock time (magnitude weighted). In practice, achieving a 1:1 TKN&lt;->veTKN correspondence no longer requires a four-year lock but simply to lock for as much / longer than the existing locks. Thus, the lock time will rapidly increase during the first epoch, ramping up from the 4-week maximum initially set up until it finds an equilibrium point and potentially starts to decay.
 
-![4-twTAP](/img/2024/lending-protocol-renaissance/4-twTAP.png "twTAP overview")
+![4-twTAP](img/2024/lending-protocol-renaissance/4-twTAP.png "twTAP overview")
 
 Released for the first time with dynamic adjusting, the twAML was met with excessive degeneracy and quickly ramped up over four years. Thus, the team has returned to work and switched the adjustment to epoch-based. The new iteration is expected in the coming weeks, another development worth monitoring for stablecoin and lock tokens enjoyers.
 

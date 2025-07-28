@@ -5,7 +5,7 @@ description: >-
 date: '2018-08-08T12:56:45.787Z'
 categories: [NFT]
 tags: [Ethereum, NFT, tokens non fongibles, collectibles, ERC721, ERC1155, Enjin, CryptoKitties, EcoCrypto]
-image: /img/2018/nft/cover.png
+image: img/2018/nft/cover.png
 ---
 
 «Non fongibles». Derrière ce nom énigmatique qui nous rappelle la garniture de nos omelettes, se cache un concept assez ancien qui trouve un second souffle aujourd'hui. Pour l'instant, cela se traduit surtout par des objets à collectionner et des jeux, mais le potentiel est énorme. En effet, **leur potentiel dépasse largement le simple cadre des jeux-vidéos**&nbsp;: documents officiels, titres de propriétés, traçabilité de l'art, etc
@@ -36,7 +36,7 @@ Passons tout de suite à des exemples concrets qui sont bien plus parlants que l
 
 Le meilleur exemple que nous connaissons tous, ce sont bien sûr... Les cartes Pokémon ! Tant qu'à faire, prenons celle qui assurait le respect dans la cours de recré : Dracaufeu en personne.
 
-![](/img/2018/nft/charizard.jpeg)
+![](img/2018/nft/charizard.jpeg)
 
 Un carte Pokémon c'est :
 
@@ -54,7 +54,7 @@ Chaque carte Pokémon est unique, mais toutes suivent cette typologie.
 
 En effet, considérons la carte de Tortank : il a lui aussi les mêmes 7 attributs décrits plus haut, mais a des valeurs différentes pour chaque.
 
-![](/img/2018/nft/blastoise.jpeg)
+![](img/2018/nft/blastoise.jpeg)
 
 C'est la combinaison de tous les attributs qui font l'unicité de la carte. Ainsi, toute carte de type feu à 150PV n'est pas un Dracaufeu, c'est simplement une carte qui partage 2 de ses 7 attributs (type et PV) avec Dracaufeu.
 
@@ -79,13 +79,13 @@ Ce qui va nous intéresser aujourd'hui, ce sont les tokens non fongibles. Il y a
 
 L'exemple le plus célèbre, ce sont les [CryptoKitties](https://www.cryptokitties.co/), des chats virtuels qui ont été les précurseurs du standard mentionné plus haut.
 
-![](/img/2018/nft/cryptokitties.png)
+![](img/2018/nft/cryptokitties.png)
 
 Lancé en Octobre, les CryptoKitties ont eu tellement de succès qu'ils ont provoqué une surcharge de l'ensemble du réseau Ethereum pendant plusieurs jours début Décembre, au summum de leur viralité.
 
 Certains matous particulièrement désirables ont atteint des prix délirants, à 5 chiffres (en $) et changé de main plusieurs fois par semaine début Décembre. Face au succès, le standard est passé par toutes les étapes de validation pour être finalisé en juin 2018.
 
-![](/img/2018/nft/ck-price.png)
+![](img/2018/nft/ck-price.png)
 
 
 ### Les tokens non fongibles dans le vrai monde
@@ -146,7 +146,7 @@ L'ERC-1155 est un nouveau standard pour les NFTs proposés par Witek Radomski, l
 
 **L'ERC-1155 résout plusieurs problèmes techniques posés par l'utilisation à grande échelle de tokens ERC-721 tout en apportant de nouvelles fonctionnalités**. Du point de vue de l'optimisation technique, et sans rentrer dans trop de détails, l'ERC-1155 permet l'utilisation d'un code commun à plusieurs tokens/collections de tokens non fongibles différents. Cela permettra de supporter un volume bien plus grand de transactions, le tout pour la même charge sur le réseau Ethereum (comparé au ERC-721).
 
-![A transaction involving several fungible and non-fungible goods thanks to ERC-1155](/img/2018/nft/erc1155.png)
+![A transaction involving several fungible and non-fungible goods thanks to ERC-1155](img/2018/nft/erc1155.png)
 A transaction impliquant plusieurs tokens fongibles et non fongibles grâce au à l'ERC1155
 
 On peut également noter notamment la possibilité d'échanger plusieurs objets en une seule transaction. Avec l'ERC-721, si Bob veut échanger CryptoKitty #1, #2, #3 et #4 contre le CryptoKitty #5 d'Alice, cela va nécessiter 5 transactions au total, alors qu'une seule serait suffisante avec l'ERC-1155.
@@ -161,13 +161,13 @@ Finalement, une des dernières grande nouveauté est la gestion de la fongibilit
 
 Les biens non fongibles sont en plein essor, et Ethereum mène la charge. Le mieux pour comprendre les ramifications du concept de token non fongible reste encore d'aller voir les utilisations concrètes qui en sont faites. Faison donc un petit tour d'horizon loin d'être exhaustif pour finir. Il n'y a pas que les cryptokitties dans les NFTs :
 
-![Gods Unchained](/img/2018/nft/godsunchained.png)
+![Gods Unchained](img/2018/nft/godsunchained.png)
 Gods Unchained
 
 *   [Gods Unchained ](https://godsunchained.com/): On a utilisé les jeux de cartes pour introduire le concept de non fongibilité plus haut, on les retrouve logiquement ici. GodsUnchained est l'un des plus connus et s'appuie sur le standard ERC-721. Les bénéfices par rapport aux jeux de carte classiques (comme Hearthstone) sont nombreux : immutabilité des cartes après la phase de beta (fini les nerfs surprises), transparence quant à la rareté de chaque type de carte, traçabilité des possesseurs précédents de chaque carte... L'accent est mis sur l'eSport avec un premier championnat du monde début 2019.
 *   [Decentraland ](https://decentraland.org/): Imaginez Minecraft, en réalité virtuelle, avec des mécanismes basés sur la blockchain pour gérer les titres de propriété : bienvenue dans le futur ! Une fois possesseur d'une parcelle, libre aux utilisateurs d'y créer/développer l'expérience de leur choix (grâce au SDK) ; ils pourront ensuite en contrôler l'accès à leur guise, et donc le faire payer s'ils le souhaitent. Decentraland est une expérience humaine et sociale à l'échelle mondiale. Elle sera assurément pleine de surprises !
 
-![A creature of Augmentors](/img/2018/nft/augmentors.png)
+![A creature of Augmentors](img/2018/nft/augmentors.png)
 Une créature dans Augmentors
 
 *   [Augmentors](https://www.augmentorsgame.com/) : On parlait de Pokémons en début d'article, mais quid de Pokémo GO ? Augmentors jeu combine réalité augmentée et blockchain pour proposer un jeu où les NFTs permettent à chacun de posséder réellement ses créatures et de les échanger à sa guise.

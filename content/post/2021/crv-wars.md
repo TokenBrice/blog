@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Curve Finance, CRV, Polygon, Con
 toc: true
 tocNum: true
 url: crv-wars
-image: /img/2021/crv-wars/curve-wars-cover-tokenbrice.png
+image: img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 ---
 
 Since the early days of Curve Finance and the launch of the CRV token, we have been waiting, contemplating and assuming what the CRV war could bring. Now, with the launch of Convex, then Bribe.crv and finally Votium, everything is accelerating: VeCRV votes can now be bought! So let's see how this impacts Curve and DeFi as a whole.
@@ -100,7 +100,7 @@ The vlCVX does have one drawback: after the initial 16 weeks of lock-in, penalti
 
 If you want to further analyze the returns offered by the delegation of CVX and the associated vote buying, feel free to [read this article](https://medium.com/@portiadog/convex-finance-1cc6c9c1c733) which offers more detailed calculations :
 
-![bribes-rewards](/img/2021/crv-wars/bribes-rewards.png "Estimating the performance of Curve voting delegation via vlCVX")
+![bribes-rewards](img/2021/crv-wars/bribes-rewards.png "Estimating the performance of Curve voting delegation via vlCVX")
 
 ### Bribes: a not so clean separation
 
@@ -121,7 +121,7 @@ VeCRV is obtained by locking CRV for up to 4 years. The longer the lock, the clo
 This is why vaults built on VeCRV operate on a 4-year perpetual locking logic: in order to preserve a voting capacity that is always as close to the maximum possible, **they "refresh" the locking frequently.**
 
 
-![vecrv-ecosystem-tokenbrice](/img/2021/crv-wars/vecrv-ecosystem-tokenbrice.png "Overview of the ecosystem built on veCRV")
+![vecrv-ecosystem-tokenbrice](img/2021/crv-wars/vecrv-ecosystem-tokenbrice.png "Overview of the ecosystem built on veCRV")
 
 ### Bribe v0 : direct incentive on pools
 
@@ -177,7 +177,7 @@ In a few weeks, the MIM pool has exploded on Curve, at all levels:
 * This has attracted liquidity and volume, slightly reducing the yield but increasing the ability to boost the pool
 * As a result of this momentum, MIM is now the fifth largest pool curve in terms of volume, with a nice volume/TVL ratio.
 
-![curve-pools](/img/2021/crv-wars/crv-pools.png "Overview of the largest pools on Curve (volume)")
+![curve-pools](img/2021/crv-wars/crv-pools.png "Overview of the largest pools on Curve (volume)")
 
 Moreover, the pool is now well balanced and rather dense (> $700M total liquidity).
 
@@ -197,7 +197,7 @@ Although the situations are similar, there are some important differences:
 2. Furthermore, sdveCRV has serious problems with its peg: 1 sdveCRV ~= 0.5 CRV
 
 
-![sdvecrv-peg](/img/2021/crv-wars/sdvecrv-peg.png "Échange sdveCRV/CRV")
+![sdvecrv-peg](img/2021/crv-wars/sdvecrv-peg.png "Échange sdveCRV/CRV")
 
 #### sdveCRV liquidity plan: total misunderstanding and abject failure
 
@@ -209,7 +209,7 @@ After creating an anemic sdveCRV/CRV pool via the Curve Factory, a vote was take
 
 Indeed, the factor A (amplification parameter) of the pool is [set to 200](https://curve.fi/factory/34) --- a correct value for assets that follow the same peg, but **delusional if one asset is worth twice the other**. 
 
-![sdvecrv-mim-crv-pools](/img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Curve pools (factory) sdvecrv and MIM comparison")
+![sdvecrv-mim-crv-pools](img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Curve pools (factory) sdvecrv and MIM comparison")
 
 To give you an idea, even the aforementioned absolutely massive MIM pool (7000x the liquidity of the sdveCRV pool) has not yet reached 200 of A factor (119 currently, increasing).
 
@@ -230,7 +230,7 @@ This situation does not really make sense: **Sushi is far from optimal for optim
 
 (Note here the A Factor at 50 - while cvxCRV holds its peg much better than sdveCRV...)
 
-![cvxcrv-pool](/img/2021/crv-wars/cvxcrv-pool.png "Pool (factory) cvxCRV/CRV")
+![cvxcrv-pool](img/2021/crv-wars/cvxcrv-pool.png "Pool (factory) cvxCRV/CRV")
 
 Without any incentive from Convex or Curve, the pool has already seen significant volume flow through DEX aggregators like Paraswap. Soon, there was a vote to add the CRV gauge which passed - and this pool is now farmable directly through Convex.
 

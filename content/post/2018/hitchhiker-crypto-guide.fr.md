@@ -6,7 +6,7 @@ description: >-
 date: '2018-07-05T10:36:03.488Z'
 categories: [Analysis]
 tags: [ICO, scam, Ethereum, Décentralisation, EcoCrypto]
-image: /img/2018/hitchhikerguide/cover.jpeg
+image: img/2018/hitchhikerguide/cover.jpeg
 ---
 
 Vous voulez investir dans une ICO, or acheter des cryptomonnaies déjà sur le marché ? Bienvenue à bord ! Avant de vous mettre à l’eau, je vous propose un petit guide pour vous aider à naviguer le Far-Ouest : il inclut des astuces et des exemples pris sur des projets existants. C’est en quelque sorte une synthèse de ce que j’ai appris de mes expériences (et échecs), et de mes échanges la communauté.
@@ -28,7 +28,7 @@ C’est probablement le plus fréquent, vu que la plupart des gens zappent la pa
 *   **«On sera les premiers à X »**: cette phrase est un gyrophare à elle toute seule. Il n’y a aucune certitude dans le monde des cryptos.
 *   **Un WP fait par des marketeux** (pour des marketeux) : beaucoup de visuels , un design plutôt soigné mais dans l’ensemble c’est vide de tout sens.
 
-![stellar-wp](/img/2018/hitchhikerguide/stellar-wp.png)
+![stellar-wp](img/2018/hitchhikerguide/stellar-wp.png)
 
 Il est normal qu’un WP devienne technique à un moment donné (ici celui de Stellar — XLM particulièrement complexe), ce qui l’est moins c’est quand le langage technique est utilisé pour couvrir l’absence de fond.
 
@@ -36,7 +36,7 @@ Il est normal qu’un WP devienne technique à un moment donné (ici celui de St
 
 Vous voulez un exemple du pire des whitepapers ? [Narbonne est un bon candidat](https://narbonne.io/Narbonne.pdf), je n’ai pas trouvé pire depuis l’avoir découvert il y a 7 mois. Sur les 22 pages du WP, environ 18 vous racontent des banalités sur le futur qui semblent être copiées/collées. L’ensemble du papier ne se mouille pas et reste très générique et simplement bizarre. Il y a tellement de choses à coté de la plaque, qu’il fallait choisir. Permettez moi de vous présenter le tableau comparant Narbonne, Wa**w**es et Ether**i**um. Oui vous avez bien lu, ils ont réussi à faire une faute sur « Ethereum » et « Waves ».
 
-![narbonne-wp](/img/2018/hitchhikerguide/narbonne-wp.png) Comparaison très subjective faite par Narbonne vs Ethereum et Waves
+![narbonne-wp](img/2018/hitchhikerguide/narbonne-wp.png) Comparaison très subjective faite par Narbonne vs Ethereum et Waves
 
 L’ensemble du tableau est démontable, ce qui en fait un bon exercice. Je vous en donne quelques uns et vous laisse faire la suite :
 
@@ -80,7 +80,7 @@ Bien que les TPS ne veulent rien dire, on les voit partout. Les investisseurs no
 
 Imaginez Acoin, qui se targue de supporter 1 million de transactions par seconde tandis que Bcoin n’en supporte que 10. Et la décentralisation dans tout ça ? La vision de l’équipe ? La communauté ? En regardant simplement le chiffre avancé, je sais déjà que Acoin est un shitcoin, tandis que Bcoin pourrait être sérieux.
 
-![nano](/img/2018/hitchhikerguide/nano.gif)
+![nano](img/2018/hitchhikerguide/nano.gif)
 
 **L’état de l’art actuel permet de supporter ~10 000 TPS pour les projets les plus avancés sans atteindre une centralisation excessive.** Tout coin qui promet plus fait des compromis ou manipule la vérité :
 
@@ -115,7 +115,7 @@ Même si vous n’êtes pas développeur, rien ne vous empêche d’aller faire 
 
 Si vous envisager sérieusement d’investir dans une ICO, je vous conseille vivement de prendre 15 minutes pour faire vos recherches sur les membres de l’équipe les plus importants. Allez voir leur LinkedIn, leur Twitter, ce qu’ils ont fait avant, etc. Si vous trouvez des profils inactifs ou peu garnis, c’est généralement mauvais signe. Vous trouverez peut être des choses intéressantes, comme l’implication d’un des membres de l’équipe dans un autre projet qui s’est avéré être une arnaque.
 
-![L’équipe de [BANANO](https://banano.co.in), un fork de NANO qui ne se prend pas trop au sérieux](/img/2018/hitchhikerguide/team.png))
+![L’équipe de [BANANO](https://banano.co.in), un fork de NANO qui ne se prend pas trop au sérieux](img/2018/hitchhikerguide/team.png))
 L’équipe de [BANANO](https://banano.co.in), un fork de NANO qui ne se prend pas trop au sérieux
 
 Une présence sociale limitée ou de mauvaise qualité c’est un signe inquiétant. Ces gars que vous vérifiez, ce sont les mêmes qui vont devoir promouvoir un projet, trouver des utilisateurs et des partenaires. S’ils ne sont pas capable de se marketer eux-même un minimum, c’est mal parti pour le projet.
@@ -128,7 +128,7 @@ Généralement vous trouverez dans les WP que vous lirez un graphique (le plus s
 
 Les projets les plus transparents vous proposerons même deux camemberts : un reprenant la distribution des tokens entre les différents acteurs, et un autre détaillant les dépenses.
 
-![La distribution des tokens chez Storm ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))](/img/2018/hitchhikerguide/distribution.png)
+![La distribution des tokens chez Storm ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))](img/2018/hitchhikerguide/distribution.png)
 La distribution des tokens chez Storm ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))
 
 C’est normal que l’équipe garde une partie des tokens, et c’est même plutôt bénéfique pour la pérennité du projet. **Ce qu’il faut surveiller c’est la part qu’ils prennent : entre 10 et 30 % c’est plutôt classique.**

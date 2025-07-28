@@ -4,7 +4,7 @@ description: "Les vaults permettent d'exploiter des programmes d'incitation à l
 date: '2020-09-30T01:13:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
-image: /img/2020/vaults/harvest.gif
+image: img/2020/vaults/harvest.gif
 ---
 
 À mesure que l'écosystème des services financiers décentralisés sur Ethereum se développe et mûrit, l'offre de services devient plus dense et parfois difficile à comprendre. Si les utilisateurs les plus avertis sur le plan technique peuvent se tenir au courant des dernières sorties et couvrir leurs risques de manière appropriée, les investisseurs moins expérimentés peuvent se sentir largués.
@@ -49,7 +49,7 @@ En ce qui concerne les vaults, les tokens les plus couramment acceptés en dép�
 
 <div align="center">
 
-![pickle-finance-pjar0](/img/2020/vaults/pickle-pjar0.png)
+![pickle-finance-pjar0](img/2020/vaults/pickle-pjar0.png)
 
 _Infographie détaillant le vault pJar0 de Pickle Finance [source](https://medium.com/@picklefinance/introducing-picklejars-70a311ab65c5)_
 </div>

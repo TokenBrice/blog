@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave,
 toc: true
 tocNum: true
 url: actifs-stables-ethereum
-image: /img/2021/pegged-assets/money-god-meme.png
+image: img/2021/pegged-assets/money-god-meme.png
 
 ---
 
@@ -65,7 +65,7 @@ La situation est assez similaire ailleurs avec des différences dues aux spécif
 
 En effet, **les opportunités pour produire un retour avec des stablecoins ne manquent pas**. Je vous parle ici de prêts, mais il est également possible d'apporter de la liquidité sur les paires de stablecoins voire de cumuler les deux approches pour augmenter le rendement avec un produit comme Curve :
 
-![curve-yield-pool](/img/2021/pegged-assets/curve-yield-pool.png "Curve propose de nombreuses pools acceptant des stablecoins productifs")
+![curve-yield-pool](img/2021/pegged-assets/curve-yield-pool.png "Curve propose de nombreuses pools acceptant des stablecoins productifs")
 
 ### Explosion de l'utilisation des pegged-assets en 2020
 
@@ -79,7 +79,7 @@ Ce type de produits permet un arbitrage temporel intéressant et entraîne une d
 
 Je vous ai parlé jusqu'à présent plutôt des stablecoins, mais un scénario similaire s'est déroulé sur d'autres pegged-assets comme les BTC tokénisés sur Ethereum.
 
-![stablecoin-growth-ethereum-messari](/img/2021/pegged-assets/stablecoin-growth.png "Perspective historique sur l'évolution du volume de stablecoins émis sur le réseau Ethereum. Source: Messari.")
+![stablecoin-growth-ethereum-messari](img/2021/pegged-assets/stablecoin-growth.png "Perspective historique sur l'évolution du volume de stablecoins émis sur le réseau Ethereum. Source: Messari.")
 
 Face à la croissance impressionnante de la DeFi, on ne peut s'attendre qu'à une augmentation toujours plus rapide de la demande pour ce type d'actifs. Voyons donc les différentes approches utilisées pour les produire afin de comprendre leur compromis.
 
@@ -149,7 +149,7 @@ J'analyse les principales approches pour produire des stablecoins algorithmiques
 
 Ainsi, des projets comme ESD, DSD, ou encore Basis Cash ont été les pionniers des stablecoins algorithmiques. Néanmoins tous ces systèmes sont aujourd'hui un peu dans une abysse : cela fait **bien longtemps que leur "stablecoin" vaut largement moins d'un dollar**.
 
-![bac-price-90d](/img/2021/pegged-assets/bac-90days.png "Évolution du prix de BAC sur les trois derniers mois. La situation est similaire sur ESD, DSD & MIC.")
+![bac-price-90d](img/2021/pegged-assets/bac-90days.png "Évolution du prix de BAC sur les trois derniers mois. La situation est similaire sur ESD, DSD & MIC.")
 
 Leurs utilisateurs sont plutôt dans l'expectative d'une V2 qui arriverait comme le messie à ramener le stablecoin au dollar.
 
@@ -163,7 +163,7 @@ Face aux limites actuelles des stablecoins algorithmiques de première générat
 
 Le pionnier en la matière, c'est Frax. Avec Frax, **lorsque le FRAX s'échange au-dessus du dollar le système lui-même en vend pour accumuler des USDC**. Cela permet de ramener le prix vers le bas tout en constituant une réserve en stablecoins non exposés au système lui-même. Ainsi, si le FRAX s'échange **au-dessous du dollar, le système peut acheter des FRAX directement** sur le marché (grâce à son stock d'USDC) pour ramener le prix vers $1.
 
-![frax-price-90d](/img/2021/pegged-assets/frax-price.png "Le stablecoin FRAX maintient son peg depuis plusieurs mois.")
+![frax-price-90d](img/2021/pegged-assets/frax-price.png "Le stablecoin FRAX maintient son peg depuis plusieurs mois.")
 
 Bien que cette approche a le **mérite de l'efficacité** (FRAX a très bien maintenu son peg depuis le lancement), elle réintroduit un intermédiaire de confiance dans le mécanisme. Certes, ce n'est pas une banque comme avec Tether, mais ça reste de la confiance nécessaire dans le système. Que se passe-t-il si la balance en USDC de Frax est saisie ou gelée : est-ce que le système pourrait y survivre ? Pour ceux qui ne le savent pas, oui c'est tout à fait possible techniquement parlant (et légalement).
 
@@ -204,7 +204,7 @@ En outre, Reflexer va bien plus loin que DAI dans sa quête de stabilité. En ef
 
 Il y a souvent des écarts entre les deux, ce qui crée une forme d'incitation à battre du RAI :
 
-![reflexer-spread](/img/2021/pegged-assets/reflexer-spread.png "Ici on observe un écart d'environ 3 centimes USD")
+![reflexer-spread](img/2021/pegged-assets/reflexer-spread.png "Ici on observe un écart d'environ 3 centimes USD")
 
 **RAI n'est donc bien évidemment pas un stablecoin. Ce n'est pas non plus un pegged-asset.** Les mots manquent pour décrire fidèlement ce qu'est RAI mais permettez moi d'essayer. RAI c'est une abstraction sur l'ETH qui a vocation d'être plus stable que celui-ci, tout en maintenant sa trustlessness (à terme).
 

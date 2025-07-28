@@ -6,7 +6,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Prêts, Apports de liquidités, Actifs synthétiques, Balancer, Curve, Programme d'incitation, Liquidity Mining, Ampleforth]
 toc: true
 tocNum: true
-image: /img/2020/yield-farmer-tier-list/cover.png-
+image: img/2020/yield-farmer-tier-list/cover.png-
 ---
 
 La DeFi est comme un gâteau à plusieurs étages. Lorsque vous passez sa porte pour la première fois, faire un dépôt sur Aave et voir votre solde augmenter vous laisse bouche bée. Peu de temps après, grâce à vos propres recherches ou à vos discussions avec la communauté, vous vous rendez compte qu'il y a plus que cela **- il pourrait aussi y avoir une cerise sur le gâteau !**
@@ -43,7 +43,7 @@ La bonne nouvelle, c'est que vous pouvez cumuler les deux ! Voyons comment.
 
 ---
 
-![TokenBrice-Yield-Farmer-Tier-List-DeFi](/img/2020/yield-farmer-tier-list/yield-farmer-tier-list.png)
+![TokenBrice-Yield-Farmer-Tier-List-DeFi](img/2020/yield-farmer-tier-list/yield-farmer-tier-list.png)
 
 ---
 
@@ -62,7 +62,7 @@ mstable[^1] est une méta-stablecoin. Vous pouvez aller sur leur application pou
 
 La plus directe est la fonction "Save" de l'application mStable. Elle permet de verrouiller vos mUSD afin de générer un rendement grâce au prêt.
 
-![mstable](/img/2020/yield-farmer-tier-list/mstable.png)
+![mstable](img/2020/yield-farmer-tier-list/mstable.png)
 
 Il s'agit là d'un simple rendement qui ne méritera pas à lui seul un reportage ici. 
 
@@ -80,7 +80,7 @@ _Récompenses natives = gagnées dans le token que l'exposition de base (génér
 
 À noter : Les ratios respectifs des quatre stablecoins soutenant le mUSD (la moitié de l'exposition) peuvent varier, allez à l'application m stable [^2] pour les visualiser :
 
-![mstable-asset-distribution](/img/2020/yield-farmer-tier-list/musd.png)
+![mstable-asset-distribution](img/2020/yield-farmer-tier-list/musd.png)
 
 Ce pool est particulièrement attractif car l'exposition est à 100% basée sur des stablecoins, malgré un rendement très solide grâce au ratio minier max BAL + le programme d'incitation payé dans le très attendu token MTA.
 
@@ -129,7 +129,7 @@ L'AMPL est une bête à part entière, je vous invite donc à en lire plus [^3] 
 
 L'impact des rééquilibrages peut être difficile à calculer. Ce tableur a récemment été créé pour [🧮 aider les investisseurs d'AMPL à calculer l'impact des rééquilibrages](https://www.publish0x.com/canuhodl/ampleforth-dollar-ampl-calculator-spreadsheet-for-investors-xmdjxvy) 
 
-![ampleforth-geyser](/img/2020/yield-farmer-tier-list/ampl-geyser.png)
+![ampleforth-geyser](img/2020/yield-farmer-tier-list/ampl-geyser.png)
 
 Le code du Geyser est audité [^4] et assuré sur Nexus Mutual [^5]. Le calcul de la récompense tient ici compte du temps mis en jeu - ce pool est donc le mieux utilisé sur le long terme.
 
@@ -157,7 +157,7 @@ Ce pool est l'un des premiers programmes d'extraction de liquidités qui existe 
 
 ### La variante BTC-OG : Pool Curve renBTC/sBTC/wBTC
 
-[curve-synthetix-balancer-ren-btc-pool](/img/2020/yield-farmer-tier-list/curve-btc.png)
+[curve-synthetix-balancer-ren-btc-pool](img/2020/yield-farmer-tier-list/curve-btc.png)
 
 Celui-ci est similaire au premier, avec des tokens différents. Ici, votre exposition aux prix est de 100 % en BTC, tandis que vos récompenses pour l'exploitation des liquidités sont constituées de quatre tokens DeFi : BAL, SNX, REN & CRV. 
 
@@ -231,6 +231,6 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 [^2]: Vous pouvez consulter la distribution actuelle des tokens sous-jacent à mUSD sur l'application [mStable app](https://app.mstable.org/).
 [^3]: [Ampleforth (AMPL)](http://ampleforth.org/) est une "monnaie adaptative fondée sur une économie solide". Elle vise à fournir un nouveau type d'actif dont les mouvements de prix ne sont corrélés à aucun autre.
 [^4]: [Certik - Rapport d'audit 28 février 2020](https://github.com/ampleforth/ampleforth-audits/blob/master/token-geyser/v1.0.0/CertiK_Verification_Report.pdf)
-[^5]: Il y a actuellement 51 643 NXM mis en jeu sur le contrat AMPL Geyser [`0xd36132e0c1141b26e62733e018f12eb38a7b7678`](https://etherscan.io/address/0xd36132e0c1141b26e62733e018f12eb38a7b7678). ![AMPL-Geyser-Insurance](/img/2020/yield-farmer-tier-list/ampl-geyser-insurance.png)
+[^5]: Il y a actuellement 51 643 NXM mis en jeu sur le contrat AMPL Geyser [`0xd36132e0c1141b26e62733e018f12eb38a7b7678`](https://etherscan.io/address/0xd36132e0c1141b26e62733e018f12eb38a7b7678). ![AMPL-Geyser-Insurance](img/2020/yield-farmer-tier-list/ampl-geyser-insurance.png)
 [^6]: Le pool Curve sUSD a déjà été mentionné dans le cadre d'une stratégie d'investissement de DeFi basée sur une participation de SNX dans le [Guide des services DeFinanciers](https://tokenbrice.xyz/fr/posts/2020/definancial-services-guide/#5-a-le-synthetixcurve-kebb-alias-the-4-steaks-yieldburger).
 

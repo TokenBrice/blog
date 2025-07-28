@@ -4,7 +4,7 @@ description: "Yearn Finance V2 is just a few weeks old, yet it is already one of
 date: '2020-08-11T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Lending, Aave, Compound, BzX, Curve, yVault, Lending, Leveraging, YFI, Yearn, Yearn Finance]
-image: /img/2020/yearn-finance-YFI/wifeys.jpg
+image: img/2020/yearn-finance-YFI/wifeys.jpg
 ---
 
 A few weeks ago, Yearn v2 release and the launch of the YFI token (pronounced "Waifu") shook decentralised finance. Indeed, the whole recipe was there: Yearn is like a robo advisor, it helps you save and grow a capital - obviously one of the most thought after use cases. 
@@ -48,7 +48,7 @@ The gist of yVaults is that **they harness DeFi synergies to provide yields on a
 
 Each vault has a different strategy. Here's a neat explainer graphics made to explain the yCRV vault strategy:
 
-![Yearn Finance yCRV vault strategy explained](/img/2020/yearn-finance-YFI/yCRV-vault.png "Yearn Finance yCRV vault strategy explained")
+![Yearn Finance yCRV vault strategy explained](img/2020/yearn-finance-YFI/yCRV-vault.png "Yearn Finance yCRV vault strategy explained")
 
 Explaining this one would be another article by itself, so I'll let you dig the graph and join the [Yearn Discord](https://discord.gg/HFK5uea) if interested.
 
@@ -100,7 +100,7 @@ In the case of DeFi, I can't wait to see the **clash of brands** we're about to 
 *   On the one hand, VC-funded brand-companies tend to lack personality and have a harder time bolstering dynamic organic communities.
 *   On the other hand, a community-driven project is **a story writing itself every day.** And when it comes to Yearn's brand, we see it growing fast: the swag is already there! 
 
-![Yearn Finance Swag](/img/2020/yearn-finance-YFI/yearn-swag.png "Yearn swag was quick to arrive")
+![Yearn Finance Swag](img/2020/yearn-finance-YFI/yearn-swag.png "Yearn swag was quick to arrive")
 
 
 ## Feeling the Yearn

@@ -34,7 +34,7 @@ Yet, all transactions are public and **auditable** — anyone can check at a
 
 The combination of the peer-validation mechanism, the cryptographic seal, and the transparency offered by the blockchain’s publicity makes them **“trustless”**: their users don’t need to trust a central body to proceed the transaction, as it doesn’t exist. Besides, since the book is public, anybody can verify that there is no foul play.
 
-![_Potential benefits of blockchain (_[_source_](https://www.lexology.com/library/detail.aspx?g=10f56b96-b249-4621-949c-f25514fc127a)_)_](/img/2018/blockchain-telco/benefits.png)
+![_Potential benefits of blockchain (_[_source_](https://www.lexology.com/library/detail.aspx?g=10f56b96-b249-4621-949c-f25514fc127a)_)_](img/2018/blockchain-telco/benefits.png)
 _Potential benefits of blockchain (_[_source_](https://www.lexology.com/library/detail.aspx?g=10f56b96-b249-4621-949c-f25514fc127a)_)_
 
 ### What do blockchains have to offer?
@@ -45,7 +45,7 @@ They are **the missing technological block enabling the switch** between systems
 
 By autonomous, we’re not picturing the artificial intelligence-fueled self-deciding robot fantasy but quite the opposite: peer-driven systems with enough checks and balances built-in so that they won’t require external forces (such as laws) to maintain themselves.
 
-![](/img/2018/blockchain-telco/buzzword.jpeg)
+![](img/2018/blockchain-telco/buzzword.jpeg)
 
 Blockchain-based technologies are still at a very **early stage of development** and not yet able to achieve this vision. However, they are not to dismiss altogether until further advancements.
 
@@ -97,7 +97,7 @@ Blockchains are particularly apt to enable tighter control of users over their d
 
 Telecom industry actors and particularly mobile service providers could play a role to prevent further scandals and breaches from happening. They could provide consummers with the next generation of data management services (Identity as a Service).
 
-![Overview of the architecture of Civic identity management service ([source: token sale whitepaper)](https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf)](/img/2018/blockchain-telco/civic.png)
+![Overview of the architecture of Civic identity management service ([source: token sale whitepaper)](https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf)](img/2018/blockchain-telco/civic.png)
 Overview of the architecture of Civic identity management service ([source: token sale whitepaper)](https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf)
 
 The most advanced projects, [Civic](https://www.civic.com/) and [uPort](https://www.uport.me/) are looking to reshape the way we share data online. Their users create a blockchain-backed identity and populate it with the pieces of information they are willing to share.
@@ -112,7 +112,7 @@ The interconnection cost for the service provided, as well as the margin taken b
 
 He will be able to browse in a much more cost-effective fashion. Thanks to the transactional capabilities of blockchain based systems, they are excellent candidates to power a worldwide data reselling network.
 
-![Screenshot taken from DENT app — mobile data reselling service](/img/2018/blockchain-telco/dent.png)
+![Screenshot taken from DENT app — mobile data reselling service](img/2018/blockchain-telco/dent.png)
 Screenshot taken from DENT app — mobile data reselling service
 
 This use case is already covered by live projects such as [DENT](https://www.dentwireless.com/dent-app) which connects to over 400 mobile operators in 130 countries. They aim to accelerate the decrease of roaming fees, to bring them as close as possible to the operational costs. DENT or other similar projects are looking to make use of the spare capacity available on the network and data plans.
@@ -131,7 +131,7 @@ The [QLCChain project](https://qlcchain.org/) dubs itself as “decentralized ne
 
 The project is currently testing the network, looking to open it to the public by the end of the year. Here is a high-level overview of their network infrastructure:
 
-![QLC Chain Decentralized Network as a Service — Infrastructure Overview ([source: official website](https://qlcchain.org/en/ecosystem/))](/img/2018/blockchain-telco/qlc.png)
+![QLC Chain Decentralized Network as a Service — Infrastructure Overview ([source: official website](https://qlcchain.org/en/ecosystem/))](img/2018/blockchain-telco/qlc.png)
 QLC Chain Decentralized Network as a Service — Infrastructure Overview ([source: official website](https://qlcchain.org/en/ecosystem/))
 
 #### Other telco-related blockchain use cases

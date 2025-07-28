@@ -7,7 +7,7 @@ tags: [DeFi France, Discord, Contributions, Communauté, finance décentralisée
 url: guide-defian
 toc: true
 tocNum: true
-image: /img/2021/guide-defian/guide-defian-cover.png
+image: img/2021/guide-defian/guide-defian-cover.png
 ---
 
 La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi. 
@@ -59,11 +59,11 @@ En effet, le 🌾 blé est majoritairement alloué lors de réponses ou réactio
 
 Pour bien comprendre le système du 🌾 blé, voici l'anatomie d'un message publié dans un canal spécifique du Discord, le `🏅-panthéon` qui permet de reconnaître les contributions pertinentes des membres :
 
-![defi-france-ble-pantheon](/img/2021/guide-defian/message-pantheon.png "Anatomie de la récolte en 🌾 blé pour un message de remerciement dans le 🏅-panthéon")
+![defi-france-ble-pantheon](img/2021/guide-defian/message-pantheon.png "Anatomie de la récolte en 🌾 blé pour un message de remerciement dans le 🏅-panthéon")
 
 Le 🌾 blé distribué est **pondéré en fonction de la source** : si un grand farmeur de blé réagit à un message, cela a plus d'impact qu'un membre récent avec encore peu de 🌾 blé. La distribution de 🌾 blé se fait chaque semaine, et les membres peuvent voir leur récolte dans le canal oracle.
 
-![alt_text](/img/2021/guide-defian/top-ble.png "Top 10 des fermiers de 🌾 blé sur le canal #🔮-oracle")
+![alt_text](img/2021/guide-defian/top-ble.png "Top 10 des fermiers de 🌾 blé sur le canal #🔮-oracle")
 
 **Le 🌾 blé sert de mécanisme de pondération pour tous les votes internes**. Le pouvoir de gouvernance est ainsi progressivement distribué aux contributeurs les plus actifs et pertinents.
 
@@ -100,12 +100,12 @@ Avant de détailler les principales emojis-réactions, voici un tableau qui réc
 
 | VISUEL | EMOJI | EFFET | CONDITIONS |
 | ------ | ----------------- | -------------------------------------------------------- | ------------ |
-|   ![hors-sujet](/img/2021/guide-defian/reac-hs.png)     | `:hs_stratégies:` | Déplace le message vers le canal correspondant à l'émoji (une emoji spécifique par canal de destination) | Quorum 10% 🌾 |
-|   ![floppy-disk](/img/2021/guide-defian/reac-floppy-disk.png)      | `:floopy_disk:`     | Sauvegarde le message dans le canal `#💾-best-of`              | Quorum 10% 🌾 |
-| ![scroll](/img/2021/guide-defian/reac-scroll.png)   | `:scroll:`            | Permet de soumettre une proposition au vote (seulement dans `#🏟-agora`)                                   | Quorum 10% 🌾 pour commencer le vote            |
-| ![prison](/img/2021/guide-defian/reac-prison.png)   | `:prison:`          | Supprime le message + potentielle sanction si la communauté le décide dans le `#⚖-tribunal`             | Quorum 10% 🌾 |
-| ![dff](/img/2021/guide-defian/reac-dff.png)    | `:dff:`             | Bonus pondération blé                                    | -            |
-| ![delo](/img/2021/guide-defian/reac-delo.png)   | `:delo:`            | Bonus pondération blé                                    | -            |
+|   ![hors-sujet](img/2021/guide-defian/reac-hs.png)     | `:hs_stratégies:` | Déplace le message vers le canal correspondant à l'émoji (une emoji spécifique par canal de destination) | Quorum 10% 🌾 |
+|   ![floppy-disk](img/2021/guide-defian/reac-floppy-disk.png)      | `:floopy_disk:`     | Sauvegarde le message dans le canal `#💾-best-of`              | Quorum 10% 🌾 |
+| ![scroll](img/2021/guide-defian/reac-scroll.png)   | `:scroll:`            | Permet de soumettre une proposition au vote (seulement dans `#🏟-agora`)                                   | Quorum 10% 🌾 pour commencer le vote            |
+| ![prison](img/2021/guide-defian/reac-prison.png)   | `:prison:`          | Supprime le message + potentielle sanction si la communauté le décide dans le `#⚖-tribunal`             | Quorum 10% 🌾 |
+| ![dff](img/2021/guide-defian/reac-dff.png)    | `:dff:`             | Bonus pondération blé                                    | -            |
+| ![delo](img/2021/guide-defian/reac-delo.png)   | `:delo:`            | Bonus pondération blé                                    | -            |
 
 
 ### La curation des messages : hors-sujet et 💾 sauvegarde
@@ -117,7 +117,7 @@ Deux familles d'emojis-actions permettent à la communauté d'organiser et de pr
 
 Voyons comment ces fonctions sont utilisées concrètement :
 
-![dffv2-curation-communautaire](/img/2021/guide-defian/dffv2-curation-communautaire.png "Curation communautaire sur DeFi France : gestion des hors-sujet et sauvegarde")
+![dffv2-curation-communautaire](img/2021/guide-defian/dffv2-curation-communautaire.png "Curation communautaire sur DeFi France : gestion des hors-sujet et sauvegarde")
 
 ### `#🏟-agora` : la gouvernance communautaire
 
@@ -125,11 +125,11 @@ Voyons comment ces fonctions sont utilisées concrètement :
 
 Notre scribe Disiaque a même proposé une formalisation du processus pour structurer les échanges et le chemin jusqu'au vote :
 
-![dffv2-processus-gouvernance](/img/2021/guide-defian/agora-proposition-structure.png "Processus proposé pour l'élaboration d'une proposition au sein de la gouvernance DeFi France")
+![dffv2-processus-gouvernance](img/2021/guide-defian/agora-proposition-structure.png "Processus proposé pour l'élaboration d'une proposition au sein de la gouvernance DeFi France")
 
 Tout comme pour le hors-sujet ou la fonction sauvegarde, **si un minimum de 10% du blé réagit avec l'emoji parchemin 📜**, alors la proposition est soumise au vote de la communauté dans le canal `#📜-proposition`.
 
-![dffv2-gouvernance-communautaire](/img/2021/guide-defian/dffv2-gouvernance-communautaire.png "Mise en oeuvre de la gouvernance communautaire sur DeFi France")
+![dffv2-gouvernance-communautaire](img/2021/guide-defian/dffv2-gouvernance-communautaire.png "Mise en oeuvre de la gouvernance communautaire sur DeFi France")
 
 **Le vote est pondéré par le blé** et les membres ont trois jours pour se prononcer. L'implémentation effective se fait dans un délai raisonnable suivant la conclusion du vote, en fonction de la complexité technique de la proposition.
 
@@ -137,7 +137,7 @@ Tout comme pour le hors-sujet ou la fonction sauvegarde, **si un minimum de 10% 
 
 Tout comme la curation et la gouvernance se font communautairement, sur DeFi France les sanctions se décident également ensemble. Cela fonctionne comme pour les propositions : les membres peuvent réagir avec l'emoji :prison: sur une contribution dérangeante.
 
-![dffv2-moderation-communautaire](/img/2021/guide-defian/dffv2-moderation-communautaire.png "Gestion commune de la modération sur le discord DeFi France")
+![dffv2-moderation-communautaire](img/2021/guide-defian/dffv2-moderation-communautaire.png "Gestion commune de la modération sur le discord DeFi France")
 
 Si assez de gens réagissent, un vote débutera dans le `#⚖-tribunal` pour décider de la sanction. La récolte de blé de l'utilisateur peut être saisie sur une semaine et d'autres sanctions sont possibles. Jusqu'à présent aucune sanction n'a été prononcée.
 

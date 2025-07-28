@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance Décentralisée, Liquidité, DEX]
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
-image: /img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
+image: img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
 ---
 
 Ce billet est plus une annonce personnelle : je voulais vous faire savoir ce que je fais et ce qui se passe avec Maverick. Alors ne tournons pas autour du pot : je suis ravi d'annoncer que **je soutiens l'équipe de Maverick en tant que conseiller, en aidant à la stratégie de croissance, à la tokenomics, et au développement des affaires**.
@@ -42,7 +42,7 @@ En termes simples, Maverick est le descendant spirituel d'UniV3 et de CurveV2. I
 * Curve stableswap, qui optimise la liquidité pour un prix de 1:1, n'est pas idéal lorsque le LUSD est au dessus du peg.
 * Uniswap v3, où les LPs finissent généralement par être super concentrés autour du prix actuel du marché, ce qui est efficace, mais les met rapidement hors de portée lorsque le prix évolue.
 
-![mav-mode-both](/img/2023/maverickxtokenbrice/mav-both.gif "Maverick mode both, où la liquidité suit le prix à gauche et à droite")
+![mav-mode-both](img/2023/maverickxtokenbrice/mav-both.gif "Maverick mode both, où la liquidité suit le prix à gauche et à droite")
 
 Sur Maverick, une telle paire peut être exploitée de manière optimale par chaque LP, en fonction de son objectif réel. **Cela permet à chaque investisseur de créer une position qui s'ajuste automatiquement et qui met en œuvre une stratégie correspondant à ses hypothèses et à ses besoins**. Voici quelques exemples d'objectifs &lt;-> d'appariement de la structure de liquidité :
 
@@ -55,7 +55,7 @@ Jusqu'à présent, Maverick a trouvé **une adéquation produit/marché exceptio
 * Curve : TVL = $1.5B, Volume =$34M, Utilisation = 2,26%
 * Maverick : TVL = $10.6M, Volume =$10.45M, **Utilisation = 98,5%** 
 
-![Maverick Top Pools](/img/2023/maverickxtokenbrice/mav-pools.png "Top pools sur Maverick aujourd'hui (4/20/23)")
+![Maverick Top Pools](img/2023/maverickxtokenbrice/mav-pools.png "Top pools sur Maverick aujourd'hui (4/20/23)")
 
 ### Que se passe-t-il ensuite ?
 

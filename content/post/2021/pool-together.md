@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, Sports betting, money games,
 toc: true
 tocNum: false
 url: pool-together
-image: /img/2021/pool-together/cover-EN.png
+image: img/2021/pool-together/cover-EN.png
 ---
 
 DeFi has enabled the emergence of an alternative financial system built on fundamentally different foundations: transparency, open-source, composability and resistance to censorship. Many use cases have emerged and it is now possible to buy and exchange tokens without a centralized intermediary, but also to lend or borrow and much more!
@@ -28,7 +28,7 @@ This chapter is almost hard for me to write because it is seems so obvious, yet 
 4. The lottery was wildly taxed and owned by the state... until now. **Privatization means giving the profits from an activity that is clearly harmful to society to private companies** - the comparison with smoking makes even more sense!
 5. Finally, and this is not specific to the lottery but **equally miserable, denounceable and pitiful**: gambling often targets the most vulnerable populations for their advertising and [and particularly on young people](https://www.theguardian.com/society/2020/mar/27/children-more-likely-to-become-gamblers-due-to-high-volume-of-betting-ads).
 
-![winamax-pub](/img/2021/pool-together/winamax-pub.jpg "Example of advertising in France: 'Tout pour la daronne', which means 'Everything for your mama'")
+![winamax-pub](img/2021/pool-together/winamax-pub.jpg "Example of advertising in France: 'Tout pour la daronne', which means 'Everything for your mama'")
 
 You can have a look on the full film advertisement created by TBWA, France for Winamax [here](https://www.adsoftheworld.com/media/film/winamax_the_mama)...
 
@@ -36,11 +36,11 @@ You can have a look on the full film advertisement created by TBWA, France for W
 
 What follows is logical, mechanical and despairing: in the long term trend, bets are exploding despite a declining number of players:
 
-![stats-fdj](/img/2021/pool-together/evolution-2007-2017.png)
+![stats-fdj](img/2021/pool-together/evolution-2007-2017.png)
 
 The subject is complex and, like smoking, often documented and researched by the gambling service providers themselves. The numbers speak for themselves, however: about 17% of gamblers are potentially at risk of addiction or dependency.
 
-![addictions](/img/2021/pool-together/addictions.png)
+![addictions](img/2021/pool-together/addictions.png)
 
 "_In 2017, Internet gambling (lottery games, horse or sports betting and poker) accounted for 11.2% of total spending, a share that has been steadily increasing since its authorization in 2010_" according to the French Observatory of Drugs and Addictions.
 
@@ -132,11 +132,11 @@ So of course this requires more development and implementation work and there ar
 
 Where v3 opted for flexibility, with pools having daily or weekly draws, the unique v4 pool can afford a **daily draw** given its size. In addition, the prize structure has been revised to allocate more small prizes to make the experience a little less random in the long run.
 
-![prize-breakdown-old](/img/2021/pool-together/prize-breakdown-old.png "First PTv4 prize distribution logic")
+![prize-breakdown-old](img/2021/pool-together/prize-breakdown-old.png "First PTv4 prize distribution logic")
 
 The jackpot logic is preserved with the first and only winner pocketing $2500 anyway, but there are also nearly 720 other potential winners with the $100 and $10 prizes.
 
-![tokenbrice-pooltogether-winning](/img/2021/pool-together/winning.png "Approximately 2 weeks worth of 5000 PTaUSDC draws")
+![tokenbrice-pooltogether-winning](img/2021/pool-together/winning.png "Approximately 2 weeks worth of 5000 PTaUSDC draws")
 
 In reality, the number of winning players is lower because it is possible to win several prizes at once. However, this approach also smoothes out the income for large depositors, who frequently win $10 or $100 rewards, potentially even every day if the deposit is large enough.
 
@@ -147,7 +147,7 @@ This distribution allows for frequent rewards for players who use PoolTogether f
 
 Beyond the prize model, the whole experience around prize allocation has been reviewed with v4. The governance has continued to iterate and recently voted on an overhaul of the prize structure: [PTIP-47: Prize Adjustments](https://gov.pooltogether.com/t/ptip-47-prize-adjustments/1752).
 
-![prize-breakdown](/img/2021/pool-together/prize-breakdown.png "The new prize distribution")
+![prize-breakdown](img/2021/pool-together/prize-breakdown.png "The new prize distribution")
 
 ### A more satisfying experience.
 
@@ -155,7 +155,7 @@ Many settings and details have been adjusted to make the winning experience more
 
 First of all, the winnings go into a **claim logic**, where before they went directly into the wallet. This makes it easier for players to understand and quantify winnings. In addition, they are now paid out in PTaUSDC, the PoolTogether v4 lottery ticket, and are therefore **automatically compounded**: winning increases your chances of winning, with a simple claim!
 
-![comparison-pt-vs-savings](/img/2021/pool-together/comparaison.png "Pooltogether vs savings")
+![comparison-pt-vs-savings](img/2021/pool-together/comparaison.png "Pooltogether vs savings")
 
 **Players have 60 days to claim their reward**, which guarantees a form of follow-up and commitment, but also allows an almost totally passive interaction with the protocol for those who wish to do so: deposit > every 59 days: claim > withdrawal when desired.
 

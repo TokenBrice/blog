@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money 
 toc: true
 tocNum: true
 url: aave-gho-stablecoin
-image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
+image: img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 ---
 
 A few weeks ago, the concept for the GHO stablecoin was introduced on the Aave Governance Forum and triggered a wave of excitement across DeFi. Indeed, the idea of a decentralized, collateral-backed stablecoin, pegged to USD and native to the Aave DAO makes a lot of sense as a next step for the protocol.
@@ -179,7 +179,7 @@ Table references:
 GHO's design envisions "Facilitators," onboarded by Aave's governance, that would be able to mint GHO. The first facilitator would be the Aave protocol itself, but others will follow suit, be they protocols or entities. This part is exciting, as it widely opens up GHO's design space. Following the release, we could see other protocols applying to become facilitators and building on top of Aave and GHO.
 
 
-![gho-facilitators](/img/2022/aave-gho-stablecoin/gho-facilitators.png)
+![gho-facilitators](img/2022/aave-gho-stablecoin/gho-facilitators.png)
 
 
 There are also explicit mentions of undercollateralized positions based on credentials such as a credit score. Each facilitator will have a maximal GHO minting capacity determined by the DAO.
@@ -194,14 +194,14 @@ GHO is presented as a decentralized stablecoin by the Aave team, with even some 
 Unless I've misunderstood the design, GHO will be **as "decentralized" as DAI and have weak censorship resistance** because of its collateral composition. Indeed, assuming that all aTokens that can be currently used as collateral to borrow on Aave will also be used to borrow GHO, GHO's collateral composition will be mostly made of censorable tokens such as USDC:
 
 
-![aave-collateral](/img/2022/aave-gho-stablecoin/aave-collateral.png)
+![aave-collateral](img/2022/aave-gho-stablecoin/aave-collateral.png)
 
 
 Source: [DeFiLlama](https://defillama.com/protocol/aave-v2)
 
 Indeed excluding stETH used as collateral to leverage the ETH staking yield (borrowing ETH), USDC is the top collateral used on Aave, with another trusted token (wBTC) not far behind. **Still, the collateral composition would be much better than DAI,** which is >50% backed by pure USDC. 
 
-![dai-collateral](/img/2022/aave-gho-stablecoin/dai-collateral.png "Over 75% of the tokens backing DAI are censorable")
+![dai-collateral](img/2022/aave-gho-stablecoin/dai-collateral.png "Over 75% of the tokens backing DAI are censorable")
 
 Another ~25% of the backing comes from other trust-required collateral or reflexive liquity providing positions (such as DAI/USDC LP used as collateral to mint DAI).
 
@@ -224,7 +224,7 @@ Still, it would allow for exciting stablecoin arbitrage loops, such as aUSDC > M
 Another critical and essential part of any stablecoin's design is its liquidity strategy. Since CRV, CVX, and BAL are accepted as collateral on Aave, there could be exciting things done with the CRV, CVX, and BAL accumulated by the treasury, thanks to the Reserve Factor. Locking them into their native protocols would enable the Aave DAO to direct incentives to GHO-related pools.
 
 
-![aaveDAO-treasury](/img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "Current state of Aave's treasury with ~615K CRV")
+![aaveDAO-treasury](img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "Current state of Aave's treasury with ~615K CRV")
 Source: [Aave’s Treasury Report](https://governance.aave.com/t/aave-treasury-report/5575/37) (July 2022)
 
 Just like Frax is currently pivoting away from USDT and DAI and trying to establish the Frax Basepool (FRAX/USDC) as a pairing currency on Curve for other stablecoins, we could envision a similar move from Aave. Moreover, many projects currently exposed to USDC and DAI are looking to diversify their liquidity away from them. GHO might arrive with perfect timing to enable DeFi to be less reliant on USDC.

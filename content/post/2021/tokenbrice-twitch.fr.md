@@ -6,7 +6,7 @@ categories: [Projects]
 tags: [DeFi, TokenBric.xyz, DeFi France, Twitch]
 toc: false
 tocNum: false
-image: /img/2021/tokenbrice-twitch/francebaiseouais.jpg
+image: img/2021/tokenbrice-twitch/francebaiseouais.jpg
 ---
 
 Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'était qu'un début. Assez d'engouement, il est temps de vous parler de ce qui arrive cette semaine et ensuite !
@@ -106,4 +106,4 @@ De très nombreuses personnes suivent et contribuent quotidiennement aux discuss
 
 Merci pour votre soutien jusqu'à présent ! **La communauté me donne des ailes, déployons les et volons ensemble... vers l'infini et au-delà !**
 
-![buzz](/img/2021/tokenbrice-twitch/buzz.jpg)
+![buzz](img/2021/tokenbrice-twitch/buzz.jpg)

@@ -5,7 +5,7 @@ description: >-
 date: '2020-05-05T14:53:50.191Z'
 categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
-image: /img/2020/hello-world/infrastructure-fr.png
+image: img/2020/hello-world/infrastructure-fr.png
 ---
 
 Bienvenue dans mon humble domaine,
@@ -28,7 +28,7 @@ Pour les intéressés, ce blog met en place une anonymisation totale des adresse
 
 TokenBrice.xyz est également répliqué sur [IPFS](https://ipfs.io/). Je ne suis pas encore tout à fait satisfait avec l'infrastructure, mais je pense qu'elle représente un progrès significatif par rapport à la plupart des blogs existants :
 
-![tokenbrice-xyz-infrastructure-apercu](/img/2020/hello-world/infrastructure-fr.png)
+![tokenbrice-xyz-infrastructure-apercu](img/2020/hello-world/infrastructure-fr.png)
 
 ### Soyez intransigeants avec votre vie privée
 
@@ -36,7 +36,7 @@ Rien ne se fait, même dans la DeFi, si nous les utilisateurs nous ne faisons pa
 
 Des outils comme [Privacy Badger](https://privacybadger.org/) vous permettent de voir et bloquer les traqueurs.
 
-![privacy-badger](/img/2020/hello-world/privacy-badger.png)
+![privacy-badger](img/2020/hello-world/privacy-badger.png)
 *CoinTelegraph et ses 14 traqueurs pour un article.*
 
 

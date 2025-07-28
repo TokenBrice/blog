@@ -5,7 +5,7 @@ date: '2023-10-16T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Finance Décentralisée, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
-image: /img/2023/defi-collective/twitter_banner.png
+image: img/2023/defi-collective/twitter_banner.png
 toc: false
 ---
 
@@ -30,7 +30,7 @@ C'est ainsi que je me suis progressivement engagé à soutenir et à concrétise
 * Enfin, en 2022, j'ai rejoint l'équipe de Liquity, pour aider à l'adoption du LUSD, une infrastructure essentielle à mes yeux, car LUSD reste le stablecoin le plus résilient disponible à ce jour.
 
 
-![tokenbrice-metamorphosis-timeline](/img/2023/defi-collective/tokenbrice-metamorphosis.png)
+![tokenbrice-metamorphosis-timeline](img/2023/defi-collective/tokenbrice-metamorphosis.png)
 
 ### Introduction du DeFi Collective
 

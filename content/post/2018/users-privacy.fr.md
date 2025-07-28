@@ -42,7 +42,7 @@ Voici un petit tour d’horizon d’une sélection de site qui compte parmis les
 
 *Note : Le nombre de tracker peut varier par page. Les chiffres donnés ci-dessus correspondent à une mesure prise sur la page d’accueil de chaque site et faite le 18 Juillet 2018. Si vous utiliser un AdBlocker, il faut le désactiver pour voir tous les trackers présents sur un site.*
 
-![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](/img/2018/user-privacy/trackers.png)
+![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](img/2018/user-privacy/trackers.png)
 Elle.fr : 53 trackers différents détectés – un record ?; Libération est pas mal non plus avec ses 40 trackers
 
 **Souvent, la présence de ces trackers n’est pas connue même des gens qui travaillent sur le site**. Nous avons contacté des publications cryptos françaises de premier plan afin de les alerter quant à leur pratiques dangereuses. Tous sont très surpris de « découvrir » l’ampleur de la traque qu’ils mettent eux-même en place. D’autres diront qu’ils se sont gentillement payés notre tête – à vous de voir.
@@ -84,7 +84,7 @@ On est passé un peu vite sur les trackers pour les services de publicité alors
 
 Avec ces bases rappelés, on comprend bien vite que : **le** **respect de la vie privée et publicité en ligne sont strictement incompatibles**. En effet, pour rendre la publicité la plus efficace possible, il faut collecter le maximum de données pour pouvoir la cibler de plus en plus et éviter les dépenses inutiles.
 
-![](/img/2018/user-privacy/privacy.jpeg)
+![](img/2018/user-privacy/privacy.jpeg)
 *À gauche : « Je suis heureux que Facebook s’attaque au problème du respect de la vie privée… » // Au milieu, Zuckerberg, PDG de Facebook annonce à un publicitaire : « Nudiste, marié, 75 000 annuel, bon buveur, possède un minivan, collectionneur de Beanie Babies \[ours en peluche\]… »*
 
 Il ne faut pas se laisser berner pas les envolées lyriques des sites de presse et consorts sur la vie privée – **tous les sites les plus visités en France ont recours à la publicité et utilisent une abondance de trackers divers et variés : en bref ils n’ont aucun respect pour la vie privée de leurs utilisateurs, pire encore – ils la monétisent.**
@@ -97,7 +97,7 @@ L’intérêt pour le webmaster réside dans le faits que ces infos sont disponi
 
 Cela pose précisément le même problème que Google Analytics : le pixel de Facebook (et autres) est désormais très répandu, **ce qui donne à Facebook un accès de première main à la données de la plupart des plus grands sites web**.
 
-![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](/img/2018/user-privacy/pixel.png)
+![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](img/2018/user-privacy/pixel.png)
 Exemple de retargeting sur Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))
 
 Le pixel permet en outre de faire du **retargeting** : ce terme un peu barbare désigne toutes les formes de publicités où **le ciblage se fonde sur les actions réalisées précédemment par le prospect**. Dans le cas du retargeting via Facebook Pixel, voici le scénario le plus simple :
@@ -140,7 +140,7 @@ On conseille [Nano AdBlocker](https://chrome.google.com/webstore/detail/nano-adb
 
 Quelque soit votre choix d’AdBlocker, n’oubliez pas d’activer la EasyListFR pour bien tout bloquer. Voici un petit GIF qui montre la manipulation.
 
-![](/img/2018/user-privacy/adblock-fr.gif)
+![](img/2018/user-privacy/adblock-fr.gif)
 
 Pour tester votre installation, on conseille [LeMonde.fr](https://lemonde.fr) – environ la moitié du site devrait avoir disparu – si c’est le cas, c’est que tout marche parfaitement : les pubs sont bloquées ! Il vous restera encore les articles sponsorisés et les éditos à charge, mais ça c’est un autre problème.
 
@@ -148,7 +148,7 @@ Pour tester votre installation, on conseille [LeMonde.fr](https://lemonde.fr) �
 
 Les pubs ce n’est que le début. Maintenant passons aux trackers. La bonne nouvelle c’est qu’à ce niveau là on a une extension qui met tout le monde d’accord : [Privacy Badger.](https://www.eff.org/privacybadger)
 
-![](/img/2018/user-privacy/privacy-badger.png)
+![](img/2018/user-privacy/privacy-badger.png)
 
 Elle est dévelopé par [l’EFF – Electronic Frontier Foundation](https://www.eff.org/about) qui lute pour la vie privée en ligne depuis des années déjà – ce n’est pas une raison pour avoir une confiance aveugle dans l’extension mais ça rassure quand même un peu. Pas besoin de paramétrage spécifique mais n’hésitez pas à aller voir les trackers trouvés par Privacy Badger et à en désactiver.
 

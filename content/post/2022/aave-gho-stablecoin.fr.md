@@ -7,7 +7,7 @@ tags : [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Ma
 toc : true
 tocNum : true
 url : aave-gho-stablecoin
-image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
+image: img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 ---
 
 Il y a quelques semaines, le concept du stablecoin GHO a été introduit sur le forum de gouvernance Aave et a déclenché une vague d'excitation à travers la DeFi. En effet, l'idée d'un stablecoin décentralisé, sur-collatéralisé, peg à l'USD et natif de la DAO d'Aave est une prochaine étape logique pour le protocole.
@@ -176,7 +176,7 @@ Références du tableau :
 La conception de GHO prévoit des "facilitateurs", embarqués par la gouvernance d'Aave, qui seraient en mesure de frapper le GHO. Le premier facilitateur serait le protocole Aave lui-même, mais d'autres suivront, qu'il s'agisse de protocoles ou d'entités. Cette partie est passionnante, car elle ouvre largement l'espace de conception du GHO. Après sa mise en circulation, nous pourrions voir d'autres protocoles demander à devenir des facilitateurs et construire sur Aave et GHO.
 
 
-![gho-facilitators](/img/2022/aave-gho-stablecoin/gho-facilitators.png)
+![gho-facilitators](img/2022/aave-gho-stablecoin/gho-facilitators.png)
 
 
 Il y a également des mentions explicites de positions sous-collatéralisées basées sur des références telles qu'un score de crédit. Chaque facilitateur aura une capacité maximale de frappe de GHO déterminée par la DAO.
@@ -191,14 +191,14 @@ Le GHO est présenté comme un stablecoin décentralisé par l'équipe d'Aave, a
 À moins que j'aie mal compris la conception, GHO sera **aussi "décentralisé" que DAI et aura une faible résistance à la censure** en raison de la composition de son collatéral. En effet, en supposant que tous les aTokens qui peuvent actuellement être utilisés comme collatéral pour emprunter sur Aave seront également utilisables pour emprunter GHO, la composition du collatéral de GHO sera dominée par des tokens censurables tels que USDC :
 
 
-![aave-collateral](/img/2022/aave-gho-stablecoin/aave-collateral.png)
+![aave-collateral](img/2022/aave-gho-stablecoin/aave-collateral.png)
 
 
 Source : [DeFiLlama](https://defillama.com/protocol/aave-v2)
 
 En effet, si l'on exclut les stETH utilisés comme collatéral pour emprunter des ETH et s'exposer avec levier aux rendements du staking, l'USDC est le principal collatéral utilisé sur Aave, avec un autre token nécessitant de la confiance (wBTC) non loin derrière. **La composition du collatéral serait néanmoins bien meilleure que celle de DAI**, qui est soutenu à plus de 50 % par des USDC purs. 
 
-![dai-collateral](/img/2022/aave-gho-stablecoin/dai-collateral.png "Plus de 75% du collatéral de DAI est désormais constituté de tokens censorables")
+![dai-collateral](img/2022/aave-gho-stablecoin/dai-collateral.png "Plus de 75% du collatéral de DAI est désormais constituté de tokens censorables")
 
 Une autre tranche de ~25 % de la garantie provient d'autres garanties requises par la confiance ou de positions fournissant de la liquidité réflexive (comme le DAI/USDC LP utilisé comme garantie pour frapper le DAI).
 
@@ -221,7 +221,7 @@ Néanmoins, cela permettrait de créer des boucles d'arbitrage de stablecoin int
 Une autre partie critique et essentielle de la conception de tout stablecoin est sa stratégie de liquidité. Puisque CRV, CVX, et BAL sont acceptés comme garantie sur Aave, il pourrait y avoir des choses passionnantes faites avec les CRV, CVX, et BAL accumulés par la trésorerie, grâce au facteur de réserve. Les verrouiller dans leurs protocoles natifs permettrait à la DAO d'Aave de diriger les incitations vers les pools impliquant au GHO.
 
 
-![aaveDAO-treasury](/img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "État actuel de la trésorerie d'Aave avec ~615K CRV")
+![aaveDAO-treasury](img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "État actuel de la trésorerie d'Aave avec ~615K CRV")
 Source : [Rapport sur la trésorerie d'Aave](https://governance.aave.com/t/aave-treasury-report/5575/37) (juillet 2022)
 
 Tout comme Frax s'éloigne actuellement de USDT et DAI et tente d'établir la Frax Basepool (FRAX/USDC) comme paire de base sur Curve pour d'autres stablecoins, nous pourrions envisager un mouvement similaire de la part d'Aave. De plus, de nombreux projets actuellement exposés à l'USDC et au DAI cherchent à diversifier leurs liquidités. GHO pourrait arriver au bon moment pour permettre à DeFi d'être moins dépendante de l'USDC.

@@ -7,7 +7,7 @@ tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoP
 toc: true
 tocNum: true
 url: nft-usecases
-image: /img/2021/nft-usecases/88DeLo.png
+image: img/2021/nft-usecases/88DeLo.png
 ---
 
 Non-fungible tokens are attracting a lot of attention lately. On the one hand, the general public is scratching its head about the ever-rising records observed on flagship sales, now covered in the mainstream press[^1]. On the other hand, artists still not initiated to blockchains realize the potential offered by **disintermediation** as well as the possibilities offered by **the programmable nature of this new art form**. In between, a diverse audience ranging from the casual collector to the seasoned speculator.
@@ -46,7 +46,7 @@ I'm testing this hypothesis with a artwork of which I write part of the history,
 
 It is too early to draw conclusions from this experiment but nevertheless the first results are encouraging: out of the 22 DeLos, 8 have been distributed. The best buyback offer is currently at 0.15 ETH, which is about 3x the initial purchase price (88 DAI) but none of the 8 people who received this NFT gave in. The Delo is still being traded though: one of them was just sold for 0.5 ETH.
 
-![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "The DeLorean 88MPH on Rarible")
+![rarible-88-DeLorean](img/2021/nft-usecases/delo-sale.png "The DeLorean 88MPH on Rarible")
 
 For them, some of them at least, this NFT also has **a very personal story**. Indeed, it was the first digital object of its kind owned by several of the winners and the context of its acquisition quickly makes it a symbol: it was earned trough their hard work
 
@@ -62,13 +62,13 @@ I do not give resale instructions for NFT donations. I encourage the winners to 
 
 Due to the NFTs's social aspect, together with their ability to incorporate and verify their own storyline, another feature emerged : they can be used as a social distinction. Using CryptoPunks to make this point is quite suitable in my opinion.
 
-![Cryptopunk-list](/img/2021/nft-usecases/punk-variety-2x.png "An overview of some Punks")
+![Cryptopunk-list](img/2021/nft-usecases/punk-variety-2x.png "An overview of some Punks")
 
 They were among the first NFTs collection projects. The originality lies in their unique charateristics : No two Punks are alike as they have been generated algorithmically with some traits rarer than others. In this way some Punks have become almost legendary as well as their prices ![^2]
 
 As time goes by, CryptoPunks have established themselves as the symbol of something way greater than just NFTs. It is now the most traded NFTs collection on the market with a floor price that lies around 17 ETH :
 
-![Cryptopunk-stats](/img/2021/nft-usecases/punk-stats.png "The main metrics around the Punks (screenshot on March 29, 2021)")
+![Cryptopunk-stats](img/2021/nft-usecases/punk-stats.png "The main metrics around the Punks (screenshot on March 29, 2021)")
 
 ### How to recognize the scarcity ?
 
@@ -80,7 +80,7 @@ Thus, there are only 333 Punks (/10 000) with 1 trait, which also makes them qui
 
 The biggest part of the collection is made up with "common" Punks, with 2 ( 3560 units ), 3 ( 4501 units ) or 4 attributes ( 1420 units ) : these Punks represent almost 95% of the total supply.[^3]
 
-![Cryptopunk-stats](/img/2021/nft-usecases/punk-attributes-count.png "The number of traits per Punk and their rarity")
+![Cryptopunk-stats](img/2021/nft-usecases/punk-attributes-count.png "The number of traits per Punk and their rarity")
 
 Punks are now at the center of a whole ecosystem : from technical integrations (with the ERC-721 wrapper for example or into NFTs indexes[^4]) to the artistic field such as the PicassoPunk :
 
@@ -110,7 +110,7 @@ One of the most obvious use cases for NFTs is of course video games. Almost ever
 
 Without NFT, a player can find himself fighting for days in an online game to get an item... that is not actualy his. It is sometimes so repetitive that the term "farming" is also used by players to describe their practice (a slightly different meaning from the DeFians' "farming").
 
-![meuporg](/img/2021/nft-usecases/meuporg.jpg)
+![meuporg](img/2021/nft-usecases/meuporg.jpg)
 
 The game services may stop for example (if it is an online game) and often the player cannot exchange his item freely. Incorporating NFTs in video games allows **the existence of a persistence that is not dependent of the game editor**.
 

@@ -6,7 +6,7 @@ categories: [Tutorial]
 tags: [Ethereum, Outils, Discord, Dons, Stats, Jeux Cryptos, Airdrop]
 toc: true
 tocNum: false
-image: /img/2020/tipbot/cover.png
+image: img/2020/tipbot/cover.png
 ---
 
 ## A/ Introduction	
@@ -29,29 +29,29 @@ Si vous avez reçu un tip, cela veut dire que **quelqu’un vous a envoyé de la
 1. Entamez une discussion privée avec le bot, en cliquant sur son nom.
 
 
-![guide-Discord-tipbot](/img/2020/tipbot/image23.jpg "Trouver TipBot")
+![guide-Discord-tipbot](img/2020/tipbot/image23.jpg "Trouver TipBot")
 
 
 2. Puis écrivez `$bals` dans le champ prévu pour envoyer un message.
 
 
-![guide-Discord-tipbot](/img/2020/tipbot/image13.jpg "DM à Tipbot")
+![guide-Discord-tipbot](img/2020/tipbot/image13.jpg "DM à Tipbot")
 
 
 3. Une discussion en message privé va s’ouvrir, avec le montant de vos tips reçu.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image9.jpg "Vos balances tipbot")
+![guide-Discord-tipbot](img/2020/tipbot/image9.jpg "Vos balances tipbot")
 
 4. Pour récupérer le tip (dans ce cas d’exemple, des TKN) et l’envoyer sur votre wallet préféré, écrivez `$withdraw TKN`
 
 🚨 **Soyez averti, le withdraw entraîne des frais de réseau.** 
 
-![guide-Discord-tipbot](/img/2020/tipbot/image1.jpg)
+![guide-Discord-tipbot](img/2020/tipbot/image1.jpg)
 
 
 5. Renseignez l’adresse de destination de votre portefeuille TKN (par exemple, l’adresse ERC-20 de votre metamask)
 
-![guide-Discord-tipbot](/img/2020/tipbot/image4.jpg "Retrait de TKN")
+![guide-Discord-tipbot](img/2020/tipbot/image4.jpg "Retrait de TKN")
 
 6. Confirmez, en écrivant `all` ou le montant souhaité. Votre crypto arrivera dans votre wallet 😀
 
@@ -108,37 +108,37 @@ Voir le contenu de votre wallet.
 
 Vous pouvez aussi préciser  `$bals eur` pour voir le total en euros. En discussion privé avec Tip.cc, le total s'affiche en dollars sans cette précision.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image12.jpg "Balances sur Tipbot")
+![guide-Discord-tipbot](img/2020/tipbot/image12.jpg "Balances sur Tipbot")
 
 *   `$balance eth` et son raccourci `$bal ethereum`
 
 Voir la somme d’une crypto spécifique de votre wallet. Remplacez `ethereum` par la crypto-monnaie souhaité. Les raccourcis comme `btc`ou `tkn` marche, tout comme les noms complets comme `bitcoin` ou `monolith`.
     
-![guide-Discord-tipbot](/img/2020/tipbot/image3.jpg "Balance ETH")
+![guide-Discord-tipbot](img/2020/tipbot/image3.jpg "Balance ETH")
 
 
 *   `$currencies`
 
 Voir toutes les crypto-monnaies supporté par Tip.cc. Vous pouvez naviguer avec les flèches bleues pour toute les découvrir. Chaque Discord utilisant Tip.cc peut choisir de limiter la liste des crypto-monnaies disponible à sa convenance.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image20.jpg "Les tokens supportés sur TipBot")
+![guide-Discord-tipbot](img/2020/tipbot/image20.jpg "Les tokens supportés sur TipBot")
 
 *   `$withdraw btc`
 
 En utilisant cette commande en message privé, vous recevrez une demande d’adresse pour envoyer votre retrait vers l’adresse de votre choix. Vous pouvez aussi envoyer une photo de votre QR code en message privé au bot.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image5.jpg "Retirer du BTC")
+![guide-Discord-tipbot](img/2020/tipbot/image5.jpg "Retirer du BTC")
 
 Une confirmation vous sera ensuite demandée pour le montant.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image11.jpg "Confirmation de retrait")
+![guide-Discord-tipbot](img/2020/tipbot/image11.jpg "Confirmation de retrait")
 
 
 *   `$deposit btc`
 
 Commande pour permettre le dépôt de crypto-monnaies sur votre portefeuille Tip.cc . `$deposit xtz` fera apparaître un code QR ainsi que l’adresse de dépôt de la crypto-monnaie visé pour votre portefeuille.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image8.jpg "Dépôt de BTC")
+![guide-Discord-tipbot](img/2020/tipbot/image8.jpg "Dépôt de BTC")
 
 {{< notice tip >}}
 La commande deposit ne fonctionne qu’en message privé avec Tip.cc. Si vous l’écrivez dans un salon public, vous recevrez automatiquement un message privé.
@@ -153,7 +153,7 @@ Exemple: `$tip @user 1 TKN`
 
 Cette commande est la base de vos interactions avec les autres utilisateurs. Pour envoyer de la crypto-monnaie à un autre utilisateur du Discord, il suffit d’écrire `$tip`, son pseudo `@user`, le montant `10`, et la crypto-monnaie, `btc`. Ce qui donne : `$tip @user 1 btc`
 
-![guide-Discord-tipbot](/img/2020/tipbot/image14.jpg "Tip de 5 TKN")
+![guide-Discord-tipbot](img/2020/tipbot/image14.jpg "Tip de 5 TKN")
 
 
 Vous pouvez aussi tiper plusieurs personnes en même temps : `$tip @userA @userB 20 TKN` ou encore `$tip all @role 70 USDC`
@@ -239,7 +239,7 @@ Les gains sont séparés entre tous les utilisateurs ayant réagi dans les limit
 > ou: `$airdrop 0.2 ETH`
 
 
-![guide-Discord-tipbot](/img/2020/tipbot/image16.png "Tipbot Airdrop - Cliquez sur 🎉 pour collecter !")
+![guide-Discord-tipbot](img/2020/tipbot/image16.png "Tipbot Airdrop - Cliquez sur 🎉 pour collecter !")
 
 
 ##### PhraseDrop 
@@ -271,7 +271,7 @@ Le premier utilisateur à réagir dans le temps imparti récolte la somme.
 
 >ex: `$redenvelope 0.005 btc 10s`
 
-![guide-Discord-tipbot](/img/2020/tipbot/image18.png "Red Packet")
+![guide-Discord-tipbot](img/2020/tipbot/image18.png "Red Packet")
 
 
 
@@ -285,7 +285,7 @@ Les gains sont répartis parmi les utilisateurs répondant correctement. Vous re
 
 > ex: `$triviadrop $1 for 30 minutes for 10 users`
 
-![guide-Discord-tipbot](/img/2020/tipbot/image21.png "Trivia Drop")
+![guide-Discord-tipbot](img/2020/tipbot/image21.png "Trivia Drop")
 
 
 ### 3. Interaction avec les outils du bot
@@ -296,35 +296,35 @@ Tip.cc comprend des outils sympathiques à utiliser en plus de sa fonction de wa
 
 Vous pouvez utiliser cette commande pour avoir des informations sur le prix d’un token, ainsi que son graphique en 1D si celui-ci est listé sur coingecko. Remplacez `lend` par le token que vous souhaitez.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image24.jpg "Ticker Lend sur Tipbot")
+![guide-Discord-tipbot](img/2020/tipbot/image24.jpg "Ticker Lend sur Tipbot")
 
 
 *   `$uniswap 0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e`
 
 Affiche les informations d’un token listé sur uniswap. Vous pouvez soit écrire l’adresse contrat du token, **soit écrire son nom** s’il fait partie des plus connus. (exemple: `$uniswap tkn`)
 
-![guide-Discord-tipbot](/img/2020/tipbot/image6.jpg "Aperçu de la paire YFI/ETH Uniswap dans TipBot")
+![guide-Discord-tipbot](img/2020/tipbot/image6.jpg "Aperçu de la paire YFI/ETH Uniswap dans TipBot")
 
 
 *   `$gas`
 
 Les prix de gas Ethereum et Bitcoin à l’instant T vous sont accessible via cette commande. Les données sont récupérées depuis mempool.space et [ETH Gas Station](https://ethgasstation.info/).
 
-![guide-Discord-tipbot](/img/2020/tipbot/image19.jpg "Aperçu des coûts des transaction")
+![guide-Discord-tipbot](img/2020/tipbot/image19.jpg "Aperçu des coûts des transaction")
 
 
 *   `$mining eth`
 
 Affiche le hashrate et la difficulté de la crypto-monnaie demandée. Les informations sont récupérées depuis MiningPoolStats. Remplacez `eth` par une des  crypto-monnaies présente dans les données de MiningPoolStats.stream.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image7.jpg)
+![guide-Discord-tipbot](img/2020/tipbot/image7.jpg)
 
 
 *   `$pools eth`
 
 Affiche les pools les plus actives de la crypto-monnaie demandée. Les informations sont récupérées depuis MiningPoolStats. Remplacez **eth** par une des  crypto-monnaies présente dans les données de MiningPoolStats.stream. Vous pouvez naviguer avec les flèches bleues en réactions sous le message.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image10.jpg "Top 10 ETH Mining Pool")
+![guide-Discord-tipbot](img/2020/tipbot/image10.jpg "Top 10 ETH Mining Pool")
 
 *   `$convert`
 
@@ -337,15 +337,15 @@ Une fonction de conversion est présente avec Tip.cc. Vous pouvez voir à quoi c
 Le bot Tip.cc comprend lui-même un faucet pour aider à découvrir et utiliser les fonctions du service. Vous devez préciser btc, eth, ou autre crypto-monnaie dans la commande, puis suivez le lien pour effectuer un vote pour tip.cc sur top.gg. L’action est possible chaque 12h . Le service de faucet n’est en rien relié avec les Discords hébergeant Tip.cc. 
 
 
-![guide-Discord-tipbot](/img/2020/tipbot/image25.jpg)
-![guide-Discord-tipbot](/img/2020/tipbot/image17.jpg)
+![guide-Discord-tipbot](img/2020/tipbot/image25.jpg)
+![guide-Discord-tipbot](img/2020/tipbot/image17.jpg)
  
 
 *   `$help`
 
 Cette commande vous fournira un panneau d’aide à l’utilisation en anglais. Vous pouvez naviguer à l’aide des réactions.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image2.jpg "Message d'intro Tipbot")
+![guide-Discord-tipbot](img/2020/tipbot/image2.jpg "Message d'intro Tipbot")
 
 
 *   `$monikers`
@@ -356,7 +356,7 @@ Des surnoms peuvent être écrits au lieu des transactions traditionnelles. Il e
 
 Si la crypto-monnaie n’est pas précisée, la transaction sera effectuée avec la monnaie par défaut choisie par le Discord (BTC pour le serveur CryptoMatrix, TKN pour le serveur Monolith). La crypto-monnaie par défaut peut être changée par les administrateurs.
 
-![guide-Discord-tipbot](/img/2020/tipbot/image15.jpg "Monikers")
+![guide-Discord-tipbot](img/2020/tipbot/image15.jpg "Monikers")
 
 
 J’espère que la lecture vous aura apporté les précisions attendues pour utiliser Tip.cc en toute sérénité ! 

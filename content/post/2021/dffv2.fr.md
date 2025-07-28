@@ -23,7 +23,7 @@ Depuis son lancement, la communauté a grandi et a été à l'origine de très n
 
 ## DeFi France, version 2
 
-![dffv2-cover-image](/img/2021/dffv2/dffv2-cover.png)
+![dffv2-cover-image](img/2021/dffv2/dffv2-cover.png)
 
 La croissance a été rapide l'année dernière et l'esprit organique des débuts devient de plus en plus dur à maintenir avec l'arrivée de très nombreuses nouvelles personnes. Bien qu'on soit ravi de voir l’engouement et le groupe grandir, de nombreuses personnes ont manifesté leur inquiétude face à la baisse de qualité des échanges.
 
@@ -41,13 +41,13 @@ L'enjeu est de reconnaître à leur juste valeur les différentes contributions 
 
 Ainsi, **le 🌾 Blé s'obtient grâce aux autres** : il est impossible de générer du 🌾 Blé par vous-même, mais les autres peuvent vous en donner avec des messages comme ça par exemple :
 
-![panthéon-DeFi-France-Discord](/img/2021/dffv2/pantheon.png "Ces messages du Panthéon vont générer pas mal de 🌾 Blé : ils citent une personne `@` et comptent de nombreuses réactions")
+![panthéon-DeFi-France-Discord](img/2021/dffv2/pantheon.png "Ces messages du Panthéon vont générer pas mal de 🌾 Blé : ils citent une personne `@` et comptent de nombreuses réactions")
 
 ---
 
 ## Bonjour Déméter, reine du 🌾 Blé
 
-![déméter](/img/2021/dffv2/déméter.jpg)
+![déméter](img/2021/dffv2/déméter.jpg)
 
 Alors concrètement comment ça se passe ? Désormais quand vous rejoignez le Discord, **Déméter notre gentil bot vous accueille**. Il suffit de réagir avec l'emoji-logo de DeFi France (`:dff:`) pour qu'elle puisse vous joindre en message privé afin de vous expliquer le fonctionnement du serveur. 
 

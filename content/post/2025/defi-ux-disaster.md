@@ -5,7 +5,7 @@ date: '2025-03-08T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
-image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
+image: img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 ---
 
 Everyone worries about the infrastructure and app layers, and that’s cute, but what about the curation layer? Without it, the two others are nearly useless, as the complexity of the space is already far too great for most of the population to handle. So today, I want to plead to address the most significant lack in DeFi, informed by my experience with over six years spent educating people about it, onboarding pretty much anyone willing in my surroundings and online, and following up with them.
@@ -15,7 +15,7 @@ Everyone worries about the infrastructure and app layers, and that’s cute, but
 Before we move forward, we need to align on the key terms – those three layers. An image is worth a thousand words, so let’s study an interesting example taken from the wild that features bits of each of the three layers:
 
 
-![jumper-exchange](/img/2025/defi-ux-disaster/jumper.png)
+![jumper-exchange](img/2025/defi-ux-disaster/jumper.png)
 
 
 This is a pretty dense flow involving:
@@ -55,7 +55,7 @@ So from that example, let’s take a minute to settle the definitions:
 This perspective is essentially a simplified version of [Schär's DeFi Stack](https://www.researchgate.net/figure/The-Decentralized-Finance-DeFi-Stack_fig4_340061422) where his Settlement and Asset layers are merged into my Infrastructure layer, his Protocol+Application layer into my Application layer, and his Aggregation layer is broadened and rebranded into my Curation Layer:
 
 
-![Schar-defi-stack](/img/2025/defi-ux-disaster/defi-stack.png)
+![Schar-defi-stack](img/2025/defi-ux-disaster/defi-stack.png)
 
 
 The Curation layer champions, others than widely used tools with a curation/directory element such as [CoinGecko](https://coingecko.com/) (helping users to validate token contract & protocols front end URLs), [Jumper](https://jumper.exchange/) or [Debank](https://debank.com/) currently are websites/frameworks providing essential and verifiable insights on key verticals such as [L2Beat](https://l2beat.com/) (L2s decentralization evaluation), [DeFillama](https://defillama.com/) (DeFi data + directory), [Bluechip](https://bluechip.org/) (stablecoin economic ratings), [DeFiSafety](https://www.defisafety.com/) (development practices evaluation) or [DeFiScan](https://defiscan.info/) (protocol decentralization evaluation).

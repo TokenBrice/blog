@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Convex, CVX, v
 toc: true
 tocNum: false
 url: solidly-velodrome-fork
-image: /img/2023/solidly-velodrome-template/cover.png
+image: img/2023/solidly-velodrome-template/cover.png
 ---
 
 Solidly/Velodrome forks have been popping up like mushrooms, especially across the popular layer 2 like Arbitrum or zkSync. Solidly is now the top #3 forked protocol in DeFi and one of the rare cases where the forks (such as Velodrome) are the market leaders. At first glance, it could seem like just another fork hype train, like when we had the Uni/Sushi fork season, Olympus fork season, etc.
@@ -68,7 +68,7 @@ Solidly also innovated on the launch strategy, with **an airdrop targeted at pro
 
 But Solidly’s initial implementation had a few key weaknesses, including an aggressively steep decline in emissions and fully permissionless gauge creation that allowed any pools to receive SOLID rewards. It was gamable, so it was gamed. Soon, tokens were created for the sole purpose of farming SOLID, and the price quickly spiraled, along with the TVL.
 
-![cover-image](/img/2023/solidly-velodrome-template/solidly-tvl.png)
+![cover-image](img/2023/solidly-velodrome-template/solidly-tvl.png)
 
 The TVL disappeared as quickly as it came, and Solidly became a part of history for most. But those who followed the events closely knew that Solidly’s failure did not come from a weakness in the ve(3,3) model but more of **an overlooked detail of its implementation**, meaning that while Solidly was no more, ve(3,3) would likely resurface. And it did, a few months later, on another chain made by another team: enter Velodrome.
 
@@ -83,7 +83,7 @@ Beyond the technical features, a large part of Velodrome’s success is due to t
 
 Like Solidly, **Velodrome airdropped several protocols with a veVELO NFT,** no strings attached, which helped immensely to attract the initial voting and bribing activity. The protocol found a good fit, mostly with other protocols emitting stablecoins or ETH liquid stake derivatives:
 
-![defiwars-velodrome](/img/2023/solidly-velodrome-template/defiwars-velodrome.png "DeFiwars.xyz - veVELO ownership overview")
+![defiwars-velodrome](img/2023/solidly-velodrome-template/defiwars-velodrome.png "DeFiwars.xyz - veVELO ownership overview")
 
 
 It’s been almost a year, and the activity has sustained, thanks to careful and progressive adjustments of the **OP incentives allocated on the protocol**, known as [Tour de OP](https://medium.com/@VelodromeFi/tour-de-op-updates-631268181baa). Most of them are used to incentivize two behaviors essential to sustain the flywheel:
@@ -95,7 +95,7 @@ The bribe matching is further increased for projects which lock veVELO or deploy
 
 It leads to Velodrome topping the protocols TVL charts on Optimism and processing about 30% of the total volume of the chain vs 50% for Uniswap, which has roughly ¼ of Velodrome’s TVL.
 
-![optimism-DEX-volume](/img/2023/solidly-velodrome-template/optimism-volume.png "Volume on DEXes on Optimism, from DeFiLlama")
+![optimism-DEX-volume](img/2023/solidly-velodrome-template/optimism-volume.png "Volume on DEXes on Optimism, from DeFiLlama")
 
 So, why such a spread between the both? Simple: Uniswap's Volume/TVL ratio is ~9x above Velodrome right now because the liquidity on Uniswap is much more concentrated and thus more efficient. But it’s about to change as Velodrome V2 is arriving soon.
 

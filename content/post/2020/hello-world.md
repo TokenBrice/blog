@@ -5,7 +5,7 @@ description: >-
 date: '2020-05-05T14:53:50.191Z'
 categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
-image: /img/2020/hello-world/infrastructure-fr.png
+image: img/2020/hello-world/infrastructure-fr.png
 ---
 
 Welcome to my humble domain, 
@@ -28,7 +28,7 @@ For those interested, this blog implements full IP anonymisation, cookies non-pr
 
 Tokenbrice.xyz is deployed on [IPFS](https://ipfs.io/). I'm not entirely happy with the infrastructure just yet, but I think it's significant progress compared to most existing websites:
 
-![tokenbrice-xyz-infrastructure-overviewe](/img/2020/hello-world/infrastructure.png)
+![tokenbrice-xyz-infrastructure-overviewe](img/2020/hello-world/infrastructure.png)
 
 ### Don't compromise when asking for more privacy-conscious solutions
 
@@ -36,7 +36,7 @@ Nothing will be done, ever, even in the DeFi industry, unless us users make our 
 
 You can use tools such as [Privacy Badger](https://privacybadger.org/) to see how many trackers they have & block them!
 
-![privacy-badger](/img/2020/hello-world/privacy-badger.png)
+![privacy-badger](img/2020/hello-world/privacy-badger.png)
 *A basic CoinTelegraph page has 14 trackers.*
 
 However, please, assume best intentions: trackers and other privacy-intrusive devices are embedded in many systems, sometimes insidiously.  Do not assume a malicious intent as soon as you see a tracker. This tracker can be here for other reasons, such as:

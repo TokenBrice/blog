@@ -4,7 +4,7 @@ description: "Ce document présente les prochains projets de DeFi France. Motiv�
 date: '2020-08-10T01:53:50.191Z'
 categories: [Projects]
 tags: [BanklessFR, DeFi France, Live, Meetups]
-image: /img/others/defifrance2.jpg
+image: img/others/defifrance2.jpg
 ---
 
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 
@@ -90,4 +90,4 @@ Cette proposition est plus une promesse personelle, quelque chose qui aurait dû
 
 ### DFP #X - RIEN NE TE PARLE ? SUGGÈRE LE TIEN
 
-![c'est notre projet](/img/others/defi-france/projet.gif)
+![c'est notre projet](img/others/defi-france/projet.gif)

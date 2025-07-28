@@ -27,7 +27,7 @@ Yet, I’ll tell you what’s even crazier: giving power to people that the crow
 
 Let’s illustrate: regarding liquidity, the word on the street is that Curve is the best model, and all pros and experts use Curve, right? **It’s so good that over the last round (62), projects are spending $1 to receive $0.7 of incentives to their pools**: an instant donation of 30% of the amount they spend on bribes to veCRV/vlCVX holders. It means that if projects which bribed would have allocated the same amount to direct liquidity mining instead, they would have delivered 30% more $ to their LPs and thus attracted more liquidity for the same cost, all of which without assuming the price risk associated with CRV fluctuations for a week.
 
-![curve-bribes](/img/2024/farewell-glc/votium-round-62.png)
+![curve-bribes](img/2024/farewell-glc/votium-round-62.png)
 
 So what’s happening there? Quite a few things, and it’s not the main course on today’s menu, just the appetizer, so I’ll go over this quickly:
 
@@ -38,7 +38,7 @@ So what’s happening there? Quite a few things, and it’s not the main course 
 Don’t take my word for it; simply look at the top spenders: Frax, Convex, Alchemix, CLever (Aladin), Prisma, Conic, Inverse, etc. **To make it easy to visualize, here are the top spenders of the last round, ranked by amount spent, with the insider protocols highlighted in red**:
 
 
-![curve-bribes](/img/2024/farewell-glc/top-bribers.png "Top bribes in Votium CRV epoch 62")
+![curve-bribes](img/2024/farewell-glc/top-bribers.png "Top bribes in Votium CRV epoch 62")
 
 
 Enough with Curve, llamas already hate me; I just wanted to highlight the example of Curve, “the king of liquidity,” being a poorly efficient venue to build and sustain liquidity. Curve, “maker or breaker of stablecoins,” as the DEX with arguably subpar liquidity structures for most stablecoin pools: **Newspeak arrived in DeFi, and public perception/words used are often entirely at odds with the onchain observable reality**. Sadly, a similar pattern has been observed with the GHO Liquidity Committee, today's topic, so let’s get to it.
@@ -99,7 +99,7 @@ Governance is a theater. Anyone involved in DeFi knows that, but even myself was
 
 **Such profiles specialize in governance-related operations and operate exactly like the IRL PR specialists: their primary care is about public perception and how to manipulate it to achieve their purpose** (usually obtaining the allocation of a sizeable budget from the DAO to their governance structure). Governance discussion is not happening publicly on the forum — the forum is just a stage. The actual discussions are happening backstage: in calls, IRL meetings, and DMs. Discussions on the forum are avoided as much as possible, especially if they are anticipated to be controversial. The forum is simply here to record previously and privately discussed matters: look at the conversations on most proposals: they look so fake that, at this point, one could suspect bots are talking to one another, which once again reminds me of IRL politics. It happened to me several times that such a profile contacted me as I was typing an answer to their governance post, trying to avoid any form of public discourse:
 
-![typing](/img/2024/farewell-glc/gov-typing.png)
+![typing](img/2024/farewell-glc/gov-typing.png)
 
 {{< notice note >}}
 ⇒ Confirmed DeFi politicians (= those who earn their money mostly/only through governance-related activities) should simply be banned from participating in any structure having even a remote power – as they are the bane of decentralization, the devil in Prada of DeFi. The professionalization of governance is synonymous with its capture and thus centralization.

@@ -6,7 +6,7 @@ description: >-
 date: '2019-05-07T11:39:41.016Z'
 categories: [Analysis]
 tags: [Diversity, Proof of Stake, Lightning Network]
-image: /img/2019/technocentrism/cover.jpeg
+image: img/2019/technocentrism/cover.jpeg
 ---
 
 From its very early days, the blockchain industry was a world for geeks. It really made sense at first: I think it was a conjunction of two main factors. First, technical profiles were already deeply involved in promoting the values (autonomy, privacy, trustless cooperation) that blockchains can deliver. Moreover, at the humble beginnings, the roadblocks were technical ones involving “hard science” fields: mathematics, cryptography, game theory, etc.

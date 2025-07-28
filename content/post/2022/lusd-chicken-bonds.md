@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money 
 toc: true
 tocNum: true
 url: lusd-chicken-bonds
-image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
+image: img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 ---
 
 Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**. 
@@ -29,7 +29,7 @@ In the wake of [OFAC’s crackdown on Tornado Cash](https://blog.chainalysis.com
 
 Both factors have converged over the last few months, leading to a **sustained price premium** for LUSD, often trading in the $1.02 to $1.04 range. I won’t expand too deeply into this topic here, as it has already been covered on Liquity’s blog: **[The Premium of Resiliency](https://www.liquity.org/blog/the-premium-of-resiliency)**. However, let’s discuss **the impact of the premium on Liquity users** since it has real consequences.
 
-![lusd-peg-incentives](/img/2022/lusd-chicken-bonds/lusd-peg-incentives.png)
+![lusd-peg-incentives](img/2022/lusd-chicken-bonds/lusd-peg-incentives.png)
 
 ### Impact of the LUSD premium
 
@@ -52,7 +52,7 @@ Thus, LUSD’s fluctuations in the $1.00-1.10 range add **an additional layer of
 
 ## Enter LUSD Chicken Bonds
 
-![lusd-chicken-bonds](/img/2022/lusd-chicken-bonds/chicken-bonds.png)
+![lusd-chicken-bonds](img/2022/lusd-chicken-bonds/chicken-bonds.png)
 
 To solve LUSD’s liquidity challenge, the Liquity team worked on a **brand new protocol**, first tried out with LUSD: Chicken Bonds. If successful, the model will be generalized with an LQTY instance. As a final step, the generalized model could be made ready to be harnessed by any DAO with the Chicken Bond Factory.
 
@@ -69,7 +69,7 @@ As a consequence, Chicken Bonds fulfill the function of different types of produ
 
 From the deployer (protocol) perspective, Chicken Bonds are a **cost-effective solution to develop the available liquidity on their token**. Alternative solutions to achieve a similar goal would include liquidity mining, POL-capture solution like Olympus Pro, acquiring liquidity-driver tokens (CRV, BAL, VELO, etc.)[^liquidity-driver-tokens], or bribing liquidity-driver token owner votes. 
 
-![chicken-egg](/img/2022/lusd-chicken-bonds/chicken-egg.png)
+![chicken-egg](img/2022/lusd-chicken-bonds/chicken-egg.png)
 
 While each existing solution has its own tradeoffs, they all share a similar profile: they **require recurring expenses to grow and sustain liquidity**. Only the acquisition of liquidity-driver tokens can provide continuous incentives to support liquidity, but it’s also the most costly approach as it requires significant investments from projects.
 
@@ -79,7 +79,7 @@ To explain the model of LUSD Chicken Bonds, let’s jump to the depositor perspe
 
 ### The story of a bond through its NFT
 
-![3chickens](/img/2022/lusd-chicken-bonds/3chickens-static.gif "An 🥚 Egg NFT, a 🐔 Chicken In NFT and a 🐣 Chicken Out NFT")
+![3chickens](img/2022/lusd-chicken-bonds/3chickens-static.gif "An 🥚 Egg NFT, a 🐔 Chicken In NFT and a 🐣 Chicken Out NFT")
 
 **To create a bond, a user deposits LUSD. In exchange, he receives an 🥚 Egg NFT representing his deposit**. The NFT contains the claim on the underlying bonded LUSD and can be sold or transferred. From thereon, the user has two mutually exclusive options that will transform his NFT too: 
 - 🐔 Chicken In 
@@ -91,7 +91,7 @@ When an egg is created, it starts progressively accruing bLUSD. As the bond matu
 
 A user can recover the full invested amount at any time during the process. Still, he will renounce the bLUSD accumulated so far — it’s the “**Chicken Out**” option and also leads to an evolution of the NFT from the Egg to a 🐣 **Scared Chick**.
 
-![3chickens](/img/2022/lusd-chicken-bonds/3chickens.gif "Preview of the possible variations")
+![3chickens](img/2022/lusd-chicken-bonds/3chickens.gif "Preview of the possible variations")
 
 #### Going deeper into the Chicken Bonds NFT
 
@@ -103,7 +103,7 @@ While Chickening In, the NFT gains additional attributes rolled at random (comb,
 
 The NFT collection also harnesses interesting mechanisms, such as the **affinity** to generate the coolest chickens possible; read the dedicated article on Liquity’s blog for more information on the topic:
 
-![egg-variants-overview](/img/2022/lusd-chicken-bonds/egg-variants-overview.png "Overview of existing eggs on x2y2")
+![egg-variants-overview](img/2022/lusd-chicken-bonds/egg-variants-overview.png "Overview of existing eggs on x2y2")
 
 All NFTs are part of the same collection and can be traded on the usual venues, such as [LooksRare](https://looksrare.org/collections/0xa8384862219188a8f03c144953Cf21fc124029Ee/) or [X2Y2](https://x2y2.io/collection/lusd-chicken-bonds-nfts/items). Chicken Bonds is a generative NFT collection as much as a DeFi protocol: both are intrinsically tied together. The art and initial generation script were made by the NFT artist [Luchador](https://luchadores.io), creator of the eponym game. 
 
@@ -116,11 +116,11 @@ For an explainer of all the attributes and modifiers taken into account, read th
 
 By bonding and eventually Chickening In, depositors can accumulate bLUSD, but you might wonder at this point why this token can be desirable: let’s dive into the beefy DeFi side of Chicken Bonds!
 
-![blusd](/img/2022/lusd-chicken-bonds/blusd.png)
+![blusd](img/2022/lusd-chicken-bonds/blusd.png)
 
 The short story is that **owning bLUSD provides access to auto-compounded and amplified yields on LUSD**. bLUSD is a standard ERC-20 token backed by LUSD thanks to the redemption mechanism, with a rising price floor thanks to the yield amplification.
 
-![user-flow-overview](/img/2022/lusd-chicken-bonds/user-flow-overview.png)
+![user-flow-overview](img/2022/lusd-chicken-bonds/user-flow-overview.png)
 
 #### Base yield source
 
@@ -149,7 +149,7 @@ To understand how it can achieve this, we must start peeling the onion that is t
 
 There are three buckets enabling the Chicken bonds to guarantee the three core features of the protocol: the option to Chicken Out (Pending), the yield amplification (Reserve), and the growth of liquidity (Permanent).
 
-![3buckets](/img/2022/lusd-chicken-bonds/3buckets.png "Yield source and redistribution between each bucket")
+![3buckets](img/2022/lusd-chicken-bonds/3buckets.png "Yield source and redistribution between each bucket")
 
 The **Pending Bucket** has a simple job: it must be able to repay investors fully if they were to Chicken Out. To ensure it’s always possible, the Pending Bucket harnesses a yield source free of impermanent loss: the Stability Pool.
 
@@ -161,7 +161,7 @@ When users Chicken In a bond, the corresponding LUSD balances are split between 
 
 The **yield produced by the Pending and Permanent buckets is redirected to the Reserve Bucket**, which creates the yield amplification and rising price floor of bLUSD.
 
-![lusd-cb-user-timeline](/img/2022/lusd-chicken-bonds/lusd-cb-user-timeline.png "Bonder-centric timeline of LUSD Chicken Bonds")
+![lusd-cb-user-timeline](img/2022/lusd-chicken-bonds/lusd-cb-user-timeline.png "Bonder-centric timeline of LUSD Chicken Bonds")
 
 ### Bootstrap period & next steps 
 
@@ -250,7 +250,7 @@ Like the Chicken Bonds, this pool **harnesses b.protocol to provide an auto-comp
 
 This pool is essentially the **Balancer’s equivalent of Curve’s 3 pool**, the main stablecoin pool of the decentralized exchange. The key difference here is that the pool involves **interest-bearing wrappers** of each stablecoin. Depending on the pool’s liquidity needs, each stablecoin rebalances between liquidity-providing or yield-bearing through Aave:
 
-![bbaUSD-pool-composition](/img/2022/lusd-chicken-bonds/bbaUSD-pool-composition.png)
+![bbaUSD-pool-composition](img/2022/lusd-chicken-bonds/bbaUSD-pool-composition.png)
 
 #### 2/ LUSD + b.protocol
 
@@ -270,7 +270,7 @@ Over the last few months, LUSD has been increasingly integrated across various D
 
 The [addition of LUSD as a borrowable asset on Aave](https://app.aave.com/reserve-overview/?underlyingAsset=0x5f98805a4e8be255a32880fdec7f6728c6568ba0&marketName=proto_mainnet) marked the first time the stablecoin could be borrowed using collateral other than ETH to secure the position. As the liquidity available on the market grows, it opens LUSD arbitrage to non-ETH holders.
 
-![lusd-aave-market](/img/2022/lusd-chicken-bonds/lusd-aave-market.png)
+![lusd-aave-market](img/2022/lusd-chicken-bonds/lusd-aave-market.png)
 
 Meanwhile, **LUSD was also added as collateral on two €-based lending protocols**: [Angle Money](https://angle.money/) and [Mimo](https://mimo.capital/). Both enable LUSD holders to enter a short position on €, using their LUSD as collateral.
 
@@ -282,7 +282,7 @@ Growing the lending market of LUSD beyond Liquity grows the stablecoin utility w
 
 LUSD also **has a strong presence on Optimism**, thanks to Liquity being one of the protocols involved in the Velodrome races. With a respectable veVELO position, Liquity has been able to grow several LUSD-related pools to sizeable TVL. Moreover, pools on Velodrome tend to be more balanced than the mainnet pools:
 
-![lusd-velodrome](/img/2022/lusd-chicken-bonds/lusd-velodrome.png)
+![lusd-velodrome](img/2022/lusd-chicken-bonds/lusd-velodrome.png)
 
 However, bridging LUSD to Optimism is currently a bit of a one-way trip. Bridging LUSD to Optimism is easy and only takes 5-10 min using the official bridge. However bridging back to the mainnet takes 7 days with the official bridge, and no alternative options with decent liquidity are available yet.
 

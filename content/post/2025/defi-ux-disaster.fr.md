@@ -5,7 +5,7 @@ date: '2025-03-08T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
-image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
+image: img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 ---
 
 Tout le monde se soucie des couches d'applications et d'infrastructures, et c'est mignon, mais qu'en est-il de la couche de curation ? Sans elle, les deux autres sont presque inutiles, car la complexité de l'espace est déjà bien trop grande pour que la plupart des gens puissent la gérer. Aujourd'hui, je veux plaider pour combler la plus grande lacune de DeFi, éclairée par mon expérience de plus de six ans à éduquer les gens à ce sujet, à onboarder à peu près tous ceux qui le souhaitaient dans mon entourage et en ligne, et à faire un suivi avec eux.
@@ -14,7 +14,7 @@ Tout le monde se soucie des couches d'applications et d'infrastructures, et c'es
 
 Avant d'aller plus loin, nous devons nous aligner sur les termes clés – ces trois couches. Une image vaut mille mots, alors étudions un exemple réel et intéressant qui présente des éléments de chacune des trois couches :
 
-![jumper-exchange](/img/2025/defi-ux-disaster/jumper.png)
+![jumper-exchange](img/2025/defi-ux-disaster/jumper.png)
 
 Il s'agit d'un flux assez dense impliquant :
 
@@ -46,7 +46,7 @@ Donc, à partir de cet exemple, prenons une minute pour fixer les définitions :
 
 Cette perspective est essentiellement une version simplifiée du [DeFi Stack de Schär](https://www.researchgate.net/figure/The-Decentralized-Finance-DeFi-Stack_fig4_340061422) où ses couches "Settlement" et "Asset" sont fusionnées dans ma couche Infrastructure, ses couches "Protocol"+"Application" dans ma couche Application, et sa couche "Aggregation" est élargie et rebaptisée dans ma couche Curation :
 
-![Schar-defi-stack](/img/2025/defi-ux-disaster/defi-stack.png)
+![Schar-defi-stack](img/2025/defi-ux-disaster/defi-stack.png)
 
 Les champions de la couche Curation, en plus des outils largement utilisés avec un élément de curation/répertoire tels que [CoinGecko](https://coingecko.com/) (aidant les utilisateurs à valider les contrats de tokens et les URLs des frontends des protocoles), [Jumper](https://jumper.exchange/) ou [Debank](https://debank.com/), sont actuellement des sites web/frameworks fournissant des informations essentielles et vérifiables sur des verticales clés telles que [L2Beat](https://l2beat.com/) (évaluation de la décentralisation des L2), [DeFillama](https://defillama.com/) (données DeFi + répertoire), [Bluechip](https://bluechip.org/) (évaluations économiques des stablecoins), [DeFiSafety](https://www.defisafety.com/) (évaluation des pratiques de développement) ou [DeFiScan](https://defiscan.info/) (évaluation de la décentralisation des protocoles).
 

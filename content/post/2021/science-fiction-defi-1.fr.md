@@ -74,7 +74,7 @@ Comme toujours durant les lives, je serai ravi de partager avec vous une partie 
 
 Pendant que les autres parlent en lambos, ici nous savons bien qu'une DeLorean = 88 lambos. Il y en aura bien sûr à gagner mais aussi d'autres NFTs en guise de récompense exceptionnelle comme ce magnifique veau d'or bitcoin-natif : le Space Bulla.
 
-![Space-Bulla-ManWithNoName](/img/2021/scifidefi/space-bulla.gif "Le Space Bulla - ManWithNoName")
+![Space-Bulla-ManWithNoName](img/2021/scifidefi/space-bulla.gif "Le Space Bulla - ManWithNoName")
 
 J'ai absolument hâte de vous retrouver en compagnie de Manu pour la première. On ne sait pas si l'audience sera au rendez-vous mais une chose est sûre : on se fait déjà plaisir !
 

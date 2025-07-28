@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending
 toc: false
 tocNum: false
 url: jr-strategist
-image: /img/2023/jr-strategist/jr-strategist-cover.png
+image: img/2023/jr-strategist/jr-strategist-cover.png
 ---
 
 

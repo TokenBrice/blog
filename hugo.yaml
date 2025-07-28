@@ -1,8 +1,8 @@
-baseurl: https://example.com/
+baseurl: https://tokenbrice.xyz
 languageCode: en-us
 theme: [hugo-notice, hugo-theme-stack, matomo]
-title: Example Site
-copyright: Example Person
+title: TokenBrice
+copyright: TokenBrice
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -64,7 +64,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: /img/main/emblem-color-square.png
+            src: img/main/emblem-color-square.png
 
     article:
         math: false

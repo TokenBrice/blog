@@ -4,19 +4,19 @@ links:
   - title: Twitter for the takes
     description: About anything but mostly DeFi
     website: http://x.com/tokenbrice/
-    image: /img/others/x.png
+    image: img/others/x.png
   - title: Telegram Channel for alpha
     description: Telegram Channel for live and posts notifications
     website: http://t.me/tokenbrice_news
-    image: /img/others/telegram.jpg
+    image: img/others/telegram.jpg
   - title: YouTube for the replays
     description: Find the replays of the live of YouTube
     website: https://www.youtube.com/@Token_Brice 
-    image: /img/others/youtube.jpg
+    image: img/others/youtube.jpg
   - title: Farcaster, like CT but different
     description: Not too active there yet
     website: https://hey.xyz/u/tokenbrice
-    image: /img/others/farcaster.jpg
+    image: img/others/farcaster.jpg
   - title: GitHub
     description: Where this blog repo lives
     website: https://github.com/TokenBrice/

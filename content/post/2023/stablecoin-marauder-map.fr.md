@@ -5,7 +5,7 @@ date: '2023-09-15T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Finance décentralisée, stablecoins, Actifs stables, Marchés monétaires, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Taux d’intérêt]
 url: stablecoin-marauder-map
-image: /img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
+image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 ---
 
 De nouveaux stablecoins plus ou moins décentralisés émergent chaque jour, et avec la multiplication des modèles dont ils s’inspirent, des blockchains et des couches (layers 2), la tendance n'est pas prête de s'arrêter. **Naviguer dans le paysage des stablecoins devient une compétence essentielle en DeFi**.
@@ -55,7 +55,7 @@ Cela se produit généralement lorsque le stablecoin est principalement utilisé
 
 En outre, la DAO d’Aave a tardé à prendre des mesures pour soutenir GHO. Bien que le stablecoin soit en ligne depuis mi-juillet, il y a encore très peu d'incitations visant à augmenter sa liquidité ; par ailleurs, les incitations présentes sont mal réparties car elles se concentrent principalement sur les pools de stableswaps où GHO est surpondéré en raison de son prix. Comme ces pools sont composés à 80 % de GHO, ils fournissent peu de liquidité adéquate au prix actuel :
 
-![gho-balancer-pool](/img/2023/stablecoin-marauder-map/gho-balancer-pool.png "Un des principaux pools GHO sur Balancer")
+![gho-balancer-pool](img/2023/stablecoin-marauder-map/gho-balancer-pool.png "Un des principaux pools GHO sur Balancer")
 
 A l'heure actuelle, la seule pression pour le repeg du GHO vient de ses emprunteurs qui, s'ils pouvaient emprunter et échanger GHO autour de 1$, rembourseraient leur dette avec une décote de ~3%.
 
@@ -95,7 +95,7 @@ En effet, grâce à sa résilience, le LUSD est considéré comme **un stablecoi
 
 En ajustant le taux de change en fonction des dynamiques du marché, MakerDAO peut influencer l'offre de DAI et maintenir son prix proche de la parité avec l'USD. Ce qui a permis à  Maker de résoudre le problème d’ancrage du DAI. Cependant, cela a eu un coût : l’accumulation d'USDC et d'autres stablecoins centralisés comme garanties du DAI.
 
-![maker-psm](/img/2023/stablecoin-marauder-map/maker-psm.png "Le PSM a accumulé ~$1B de stablecoins centralisés en collateral pour DAI")
+![maker-psm](img/2023/stablecoin-marauder-map/maker-psm.png "Le PSM a accumulé ~$1B de stablecoins centralisés en collateral pour DAI")
 
 #### AMO (Algorithmic Market Operations) de FRAX : scaler la liquidité et le risque à l'infini
 
@@ -120,7 +120,7 @@ Il y a 4 pegKeepers, chacun connecté à une pool différente de crvUSD et stabl
 
 Ainsi, les PegKeepers accumulent une dette en crvUSD envers le protocole lorsque le stablecoin est surcompensé, pour être idéalement résorbée une fois que le crvUSD est sous-compensé. La clé réside ici dans l'équilibre, en veillant à ce que l'écart entre l'offre de crvUSD (y compris la dette Pegkeeper) et l'offre empruntée ne devienne pas trop important.
 
-![pegkeeper](/img/2023/stablecoin-marauder-map/pegkeeper.png "Data from Curve Monitor")
+![pegkeeper](img/2023/stablecoin-marauder-map/pegkeeper.png "Data from Curve Monitor")
 
 Bien que les pegKeepers représentent toujours un risque pour le protocole, tout comme l'AMO de FRAX ou le PSM de Maker, il semble plus atténué ici. Mais le crvUSD est encore jeune, et seul le temps permettra d'évaluer avec précision la résilience effective du système.
 
@@ -235,7 +235,7 @@ Néanmoins, surprise, surprise : les incitations fonctionnent, du moins au débu
 * [Raft a lancé un concept similaire à 6 %](https://mirror.xyz/0xa486d3a7679D56D545dd5d357469Dd5ed4259340/1qSAAQtVdNCW_xn9cObEjwrQzFpwEshNrm0sjX0nkG8)
 * Frax travaille également sur [sFRAX / Frax Saving Rate targeting 5%](https://gov.frax.finance/t/fip-2xx-sfrax-governance-proposal/2585).
 
-![maker-dsr-impact](/img/2023/stablecoin-marauder-map/maker-dsr-impact.png "Les incitations fonctionnent...")
+![maker-dsr-impact](img/2023/stablecoin-marauder-map/maker-dsr-impact.png "Les incitations fonctionnent...")
 
 L'avenir nous informera sur l'impact d'une telle conception sur le long terme. De mon point de vue, ces protocoles **épuisent la plupart de leurs revenus pour l'acquisition d'utilisateurs sur une base continue** - ils perdront la plupart des utilisateurs acquis avec le DSR à la minute où ils s'arrêteront. Ils auront brûlé une énorme quantité d'argent pour maintenir le cap, de l'argent qui aurait pu, par exemple, être dépensé sur des actifs stratégiques qui fournissent des incitations à vie aux fournisseurs de liquidité. **Cette conception est une excellente tactique, mais c'est l'une des stratégies les plus inconséquentes que je n’aie jamais vues**.
 
@@ -266,7 +266,7 @@ F(x) est un protocole fascinant fraîchement sorti ! C’est un produit double, 
 
 Comme dans un protocole avec CDP, les utilisateurs déposent de l'ETH (ou du stETH) pour frapper du fETH ou du xETH. Cependant, contrairement à Liquity/Maker/Other CDP, l'utilisateur ne gère pas sa position (un Trove). Au lieu de cela, le protocole gère directement la réserve de stETH. Une fonction de rachat permet aux détenteurs de fETH ou de xETH de récupérer le stETH sous-jacent. Cependant, le montant du rachat dépend de l'état du système, notamment de sa valeur nette d'inventaire : la valeur globale des stETH en réserve.
 
-![protocolfx](/img/2023/stablecoin-marauder-map/protocolfx.png)
+![protocolfx](img/2023/stablecoin-marauder-map/protocolfx.png)
 
 Lancé il y a quelques semaines, le protocole en est encore à ses débuts avec environ 1300 ETH de TVL, et la liquidité sur fETH est encore en cours d'élaboration. Un troisième jeton, FXN, le jeton de gouvernance du protocole, est également prévu. 
 

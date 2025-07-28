@@ -20,11 +20,11 @@ I have followed the emergence of decentralized finance on Ethereum since its ear
 
 All my actions and involvement in the space follow a single north star: maximizing the amount of trustless protocols available, and their recognition. To that end, I co-founded **[The DeFi Collective](https://deficollective.org/)** with [Nils Bundi](https://x.com/nilsbundi) and [Florian Prantl](https://x.com/floowp_) in October 2023, a nonprofit organization that harnesses DeFi to self-fund and support all relevant initiatives aimed at bolstering the most decentralized form of decentralized finance (DeFi).
 
-![all-hail-ants](/img/others/all-hail-ants.jpeg)
+![all-hail-ants](img/others/all-hail-ants.jpeg)
 
 Our latest and most significant endeavour to date is DeFiScan, the "L2beat of protocol decentralization", launched in October 2024. **[DeFiScan](https://www.defiscan.info/)** provides users, DAOs, and institutions with an in-depth assessment of DeFi's protocols' decentralization. It's essentially the DeFi police, helping users determine the effective decentralization state of the main DeFi protocols, as the teams' communications on the matter tend to be unreliable, if not misleading.
 
-![defiscan-preview](/img/others/defiscan-preview.png)
+![defiscan-preview](img/others/defiscan-preview.png)
 
 ---
 
@@ -36,18 +36,18 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![defiscan-logo](/img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | A decentralization assesment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
-| ![the-defi-collective-logo](/img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement](https://tokenbrice.xyz/posts/2023/defi-collective.md)** | Boardmember & Treasury Management |
-| ![TokenBrice-Logo](/img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | With this blog and my live shows, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together.| Host/Author |
-| ![DeFiFrance-logo](/img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
+| ![defiscan-logo](img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | A decentralization assesment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
+| ![the-defi-collective-logo](img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement](https://tokenbrice.xyz/posts/2023/defi-collective.md)** | Boardmember & Treasury Management |
+| ![TokenBrice-Logo](img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | With this blog and my live shows, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together.| Host/Author |
+| ![DeFiFrance-logo](img/others/defifrance-logo.png) | [🇫🇷 DeFi France](https://docs.defi-france.org) | Monthly meeting and discussion group about decentralized finance, entirely in French. | Coordinator |
 
 
 ### Side
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| ![leverage-sir](/img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage <br> **[Leverage Like a Sir: Polynomial Gains, No Liquidation Pains](https://tokenbrice.xyz/posts/2025/leverage-sir.md)** | DeFi & BD Advisory |
-| ![luchadores](/img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis](https://tokenbrice.xyz/posts/2021/luchadores-nft.md)** | Alpha whale & DeFi advisory |
+| ![leverage-sir](img/others/leverage-sir.jpg) | [🎩 Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage <br> **[Leverage Like a Sir: Polynomial Gains, No Liquidation Pains](https://tokenbrice.xyz/posts/2025/leverage-sir.md)** | DeFi & BD Advisory |
+| ![luchadores](img/others/luchadores.png) | [👊 Luchadores](https://luchadores.io) | NFT 100% onchain collection with a Fight 2 Earn model autobattler strategic game <br> **[🤼 The Luchadores Thesis](https://tokenbrice.xyz/posts/2021/luchadores-nft.md)** | Alpha whale & DeFi advisory |
 
 ### DeFi France
 

@@ -6,7 +6,7 @@ date: '2017-08-02T12:43:42.920Z'
 categories: [Analysis]
 toc: true
 tags: [chat, design, dark patterns, interview]
-image: /img/2017/chatbot-masquerade/cover.png
+image: img/2017/chatbot-masquerade/cover.png
 ---
 
 Are chatbots living up to their promises?
@@ -50,7 +50,7 @@ Therefore, different methods of tokenization have been developed, each with thei
 
 With a successful tokenization process, the words are properly separated from each other. Naturally, the next step is to categorize the tokens to facilitate their processing. An effortless way to classify the tokens is to **use an already existing categorization of language **— the grammatical nature of the words.
 
-![_The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)](/img/2017/chatbot-masquerade/linguistics.png)
+![_The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)](img/2017/chatbot-masquerade/linguistics.png)
 _The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)
 
 First, it’s convenient because the match between a word and its grammatical nature is **easily done using a dictionary**. On top of that, because grammar is the set of rules governing the composition of clauses and phrases in the language, sorting tokens with **the grammatical criteria makes the following steps easier**, especially the next one: the syntactic analysis.
@@ -61,7 +61,7 @@ While the tokenization and the lexical analysis happen at the word level, the sy
 
 Essentially, it takes you back to school: article + adjective(s) + noun = subject group and so on.
 
-![_The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)](/img/2017/chatbot-masquerade/linguistics-2.png)
+![_The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)](img/2017/chatbot-masquerade/linguistics-2.png)
 _The linguistics behind chatbots — _[_iCapps_](http://www.icapps.com/the-linguistics-behind-chatbots/)
 
 The **syntactic analysis provides order and structure of each sentence in the text.** Identifying the subjects, for instance, is particularly important for one of the following steps — discourse integration — which looks at the context around each sentence.
@@ -102,7 +102,7 @@ Even though NLP platform and libraries are becoming more accessible and common, 
 
 Even though these bots might be efficient in certain specific contexts, they also **quickly generate frustration because of their lack of linguistic capabilities**. They are quite often at a loss when faced with the way we talk in the real world: abbreviations, ungrammatical phrasing, spelling mistakes… Moreover, because of their tree-based decision logic, **they are not able to respond appropriately to non-anticipated use cases**:
 
-![_A weather bot fooled by the ambiguity between Paris, the capital of France and all the others (20+) Paris in several US-states._](/img/2017/chatbot-masquerade/weather-bot-bug.jpeg)
+![_A weather bot fooled by the ambiguity between Paris, the capital of France and all the others (20+) Paris in several US-states._](img/2017/chatbot-masquerade/weather-bot-bug.jpeg)
 _A weather bot fooled by the ambiguity between Paris, the capital of France and all the others (20+) Paris in several US-states._
 
 ### Are use cases really that strong?
@@ -113,7 +113,7 @@ This leads to a **multiplication of ill-conceived bots** either missing to fit a
 
 Good chatbots, on the other hand, are those who **solve a problem in a more convenient and straightforward way that websites or apps would have done.** For instance, [Kip is a Slack bot](https://medium.com/@kipsearch/kip-for-slack-edc84908f298) made to simplify the handling of grocery and food collective orders at the office. The **efficient usage of Slack’s built-in functions** allows @Kiptalk to be handy and reactive.
 
-![_Kip Slack bot in action_](/img/2017/chatbot-masquerade/kip.png)
+![_Kip Slack bot in action_](img/2017/chatbot-masquerade/kip.png)
 _Kip Slack bot in action_
 
 ### Lack of transparency: Who/Whom am I talking to?
@@ -136,7 +136,7 @@ You_: “Help yourself.”_
 
 With nothing more than these two words, your friend infers that you do have beers, that they’re probably in their usual place and he can grab one or two if you’re drinking too.
 
-![[_Sure chatbot_](https://facebook.com/surebot/) _is asking for your location at every query._](/img/2017/chatbot-masquerade/sure-chatbot.jpeg)
+![[_Sure chatbot_](https://facebook.com/surebot/) _is asking for your location at every query._](img/2017/chatbot-masquerade/sure-chatbot.jpeg)
 [_Sure chatbot_](https://facebook.com/surebot/) _is asking for your location at every query._
 
 Bots that are not powered by natural language processing technologies can’t hold contextual information for a long time. **They may lose track of what the customer is saying before he asks his question.**
@@ -206,7 +206,7 @@ It’s safe to expect that **we hold the chatbots** — if they are natural 
 
 Despite the advanced tech behind chatbots, the though-process on their design and “personality” is still at a very early stage. Indeed, **the submissive female persona in still very prevalent in bots**. Moreover, bots who can process and answer queries with audio predominantly adopt a female voice for speech generation. Siri, probably the most famous virtual assistant was released at first with a female voice in 2011. The option to give a male voice to Siri only came two years later.
 
-![](/img/2017/chatbot-masquerade/gender-neutral.png)
+![](img/2017/chatbot-masquerade/gender-neutral.png)
 
 Some bot-builders avoid the gender definition issue by crafting gender neutral persona. For instance, Kip, the slackbot discussed earlier use a penguin mascot as its persona.
 
@@ -226,7 +226,7 @@ Peter Wallis and Emma Norling researched **the impact of social intelligence, or
 
 We tend to get personal and emotionally invested with chatbots. Chatbotslife carried out an analysis of 10 billion messages sent to bots and noted that about 10% of bots receive an ‘I love you’ or ‘I hate you’ type of message.
 
-![_What 10 Billion Messages can Teach us About Making Chatbots –_[_Chatbotslife_](https://chatbotslife.com/what-10-billion-messages-can-teach-us-about-making-chatbots-fb796781bb4a)](/img/2017/chatbot-masquerade/10b-messages.png)
+![_What 10 Billion Messages can Teach us About Making Chatbots –_[_Chatbotslife_](https://chatbotslife.com/what-10-billion-messages-can-teach-us-about-making-chatbots-fb796781bb4a)](img/2017/chatbot-masquerade/10b-messages.png)
 _What 10 Billion Messages can Teach us About Making Chatbots –_[_Chatbotslife_](https://chatbotslife.com/what-10-billion-messages-can-teach-us-about-making-chatbots-fb796781bb4a)
 
 A lot is at stake behind the question of chatbots’ self-reference. Humans tend to mystify objects — **we see objects for more than their mere physical existence**: a Coke is not just soda, it’s a lifestyle. Brett Scott discusses this process called fetishization in his article [If You Talk to Bots, You’re Talking to Their Bosses](https://howwegettonext.com/if-you-talk-to-bots-youre-talking-to-their-bosses-cd8e390c242f).

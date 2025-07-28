@@ -4,7 +4,7 @@ description: "Exploring a novel protocol offering no funding fee no liquidation 
 date: '2025-03-12T01:13:50.191Z'
 categories: [DeFi, Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
-image: /img/2025/leverage-sir/leverage-sir-cover.jpg
+image: img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
 ---
 
@@ -16,7 +16,7 @@ A few weeks ago, Sir Trading, a fascinating novel DeFi primitive was shipped, an
 
 To understand Sir Trading (and it works well with most protocols), we can use a business metaphor: Who are the customers, intermediaries, and stakeholders?
 
-![sir-diagram](/img/2025/leverage-sir/sir-diagram.png)
+![sir-diagram](img/2025/leverage-sir/sir-diagram.png)
 
 So let’s start from the bottom up: our “customers” are the APEs who open leverage positions and pay fees. Everything else is a "means" to that end.
 
@@ -29,7 +29,7 @@ Finally, the SIR holders act as stakeholders. They can stake their tokens to rec
 With our three core populations defined, we can essentially assemble them into the “business model” of Sir:
 
 
-![sir-business-model](/img/2025/leverage-sir/sir-business-model.png)
+![sir-business-model](img/2025/leverage-sir/sir-business-model.png)
 
 
 SIR Protocol aims to maximize its customer base (APE holders), which drives revenue shared with stakeholders (SIR holders). Stakeholders approve SIR emissions to fund intermediaries (TEA LPers) that provide the liquidity necessary to the purpose and allocate it to the vaults most relevant to drive usage.
@@ -196,7 +196,7 @@ Next is the fee model, which is also quite different from the usual. Sir fees ar
 
 Let’s zoom in on an ETH/USDC^1.5 position to understand better the impact of the polynomial leverage and the Sir’s fees, with a hypothetical position opened at ETH = $2000.
 
-![sir-calculator](/img/2025/leverage-sir/sir-calculator.png)
+![sir-calculator](img/2025/leverage-sir/sir-calculator.png)
 
 With ETH = $4000 (+100%), such position is up ~17% in ETH terms or ~134% in USD terms. Of course, by this point, you are a polynomial leverage expert, and thus you understand that **the gap between the ETH/USDC^1.5 and raw ETH holding increases the further the price appreciates**. At ETH = $6000 (+200%), the position is now up ~43% vs ETH or ~330% vs USD. At ETH = $8000, we are now at ~65% gains vs ETH and ~562% vs USD. Again, this works the same way in reverse; please remember.
 
@@ -247,7 +247,7 @@ My blog readers will not be surprised to find a section addressing this, as maxi
 Let’s start with the most important – the potential immutability of the protocol. Considering its novel approach and the risks associated with it, making the protocol immediately fully immutable could be inconsequential. Instead, the approach developed here is a progressive path to eventual immutability with four modes:
 
 
-![sir-beta-mode](/img/2025/leverage-sir/sir-beta-mode.png)
+![sir-beta-mode](img/2025/leverage-sir/sir-beta-mode.png)
 
 
 Sir is currently in Training Wheels mode, in which some parameters, such as the fees can still be adjusted. From the Training Wheels mode, it can switch to Emergency in response to a bug or exploit and from here to a Shutdown (⇒ Redeploy) if needed. On the other hand, if all goes well, the training wheels can be removed, and the protocol can be switched to Unstoppable mode, where it becomes immutable. I find this approach balanced and interesting, [definitely worthy of studying](https://docs.sir.trading/protocol-overview/beta-period) for other builders.

@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, DEX, Liquidity]
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
-image: /img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
+image: img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
 ---
 
 This post is more of a personal announcement: I wanted to let you know what I am up to and what's happening with Maverick. So let's not beat around the bush: I'm thrilled to announce that **I'm supporting the Maverick team as an advisor, helping with the growth strategy, tokenomics, and business development.**
@@ -42,7 +42,7 @@ Simply put, Maverick is the spiritual descendant of UniV3 and CurveV2. It offers
 * Curve stableswap, which optimizes liquidity for a 1/1 price, is not ideal when LUSD is overpeg.
 * Uniswap v3, where LPs usually end up super concentrated around the current market price, which is efficient, but also quickly through them out of range as the price move
 
-![mav-mode-both](/img/2023/maverickxtokenbrice/mav-both.gif "Maverick both mode, where the liquidity follow the price left and right")
+![mav-mode-both](img/2023/maverickxtokenbrice/mav-both.gif "Maverick both mode, where the liquidity follow the price left and right")
 
 On Maverick, such a pair can be harnessed optimally by each LP, depending on their actual goal. **It enables each LP to craft an automatically adjusting position that enforces a strategy fitting his assumptions and needs**. Here are some examples of goals &lt;-> liquidity structure matching:
 
@@ -55,7 +55,7 @@ So far, Maverick has found **a beast of a product/market fit on pools like wstET
 * Curve: TVL = $1.5B, Volume =$34M, Utilization = 2,26%
 * Maverick: TVL = $10.6M, Volume =$10.45M, **Utilization = 98,5%** 
 
-![Maverick Top Pools](/img/2023/maverickxtokenbrice/mav-pools.png "Top pools on Maverick today (4/20/23)")
+![Maverick Top Pools](img/2023/maverickxtokenbrice/mav-pools.png "Top pools on Maverick today (4/20/23)")
 
 
 ### What's next?

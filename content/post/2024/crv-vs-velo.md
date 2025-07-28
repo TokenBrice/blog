@@ -5,7 +5,7 @@ date: '2024-03-21T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 url: crv-vs-velo
-image: /img/2024/crv-vs-velo/cover.png
+image: img/2024/crv-vs-velo/cover.png
 ---
 
 Today, I want to address Velodrome/Aerodrome, a genuine success story in DeFi. I’ve covered DEXes extensively on this blog, especially Curve: this article will compare the two models and explain how Velodrome improved on the veCRV template.
@@ -41,7 +41,7 @@ These emissions are essentially the main cost for the DEX: the price paid to att
 
 On Curve, revenues stem from the “admin fees” of each pool, which are usually set at 50%. This means the fees collected on a given pool are split 50/50 between the LP and the DAO/veCRV holders. 
 
-![curve-revenues](/img/2024/crv-vs-velo/curve-revenues.png "Overview of Curve Revenues: the light blue are admin fees, in yellow fees paid to the LP, and in deep blue revenues stemming from the crvUSD stablecoin - source: curvemonitor.com") 
+![curve-revenues](img/2024/crv-vs-velo/curve-revenues.png "Overview of Curve Revenues: the light blue are admin fees, in yellow fees paid to the LP, and in deep blue revenues stemming from the crvUSD stablecoin - source: curvemonitor.com") 
 
 On Velodrome, it's straightforward: liquidity providers get no exposure to the fees collected on the pool they supply; they are incentivized through $VELO emissions only, meaning that the DAO/veVELO holders get 100% of the fees generated on the DEX.
 
@@ -60,10 +60,10 @@ Velodrome ties fee distribution to the gauge-voting activity: veVELO holders rec
 
 This simple twist creates an interesting voting flywheel. High-volume pairs collect lots of fees, meaning high incentives for voters. This leads to many votes, which direct sensible emissions to the pair, attracting more liquidity providers, enabling more volume processing, etc., until an equilibrium point is reached. This means that high-volume pairs sustain themselves without bribes or a benevolent profit-minimizer whale-voter needed, which is not the case with Curve.
 
-![velodrome-revenues](/img/2024/crv-vs-velo/velodrome-revenues.png)
+![velodrome-revenues](img/2024/crv-vs-velo/velodrome-revenues.png)
 Velodrome Revenues Overview - [source: 0xkhmer dashboard](https://dune.com/0xkhmer/velodrome)
 
-![aerodrome-revenues](/img/2024/crv-vs-velo/aerodrome-revenues.png)
+![aerodrome-revenues](img/2024/crv-vs-velo/aerodrome-revenues.png)
 Aerodrome Revenues Overview - [source: 0xkhmer dashboard](https://dune.com/0xkhmer/aerodrome)
 
 
@@ -141,7 +141,7 @@ On Velodrome, the bribe marketplace is built-in: projects can post their bribes 
 
 They go from quality-of-life / gas-saving upgrades, such as the “auto-max-lock”, saving lockers for those who wish to remain max-locked to maximize their gauge-voting power the hassle of doing it manually, to much more extensive features, like Relay, a veVELO position management system.
 
-![velodrome-relay](/img/2024/crv-vs-velo/relay.png)
+![velodrome-relay](img/2024/crv-vs-velo/relay.png)
 
 It’s a tool catering to projects using Velodrome to grow liquidity on their pairs. It enables them to set up their voting and bribing strategy and implement it automatically: no need to submit weekly transactions anymore. Relay has another benefit, since currently, the strategy available is a veVELO-maxi one, compounding all fees & bribes collected into VELO and relocking it to maximize voting power: it creates a sizeable VELO sink, directly indexed on the fees distributed by the exchange. [Almost 1/5 of all veVELO are already there](https://twitter.com/VelodromeFi/status/1762908204894445834).
 
@@ -161,7 +161,7 @@ In that regard, I feel like Curve utterly failed. With its pyramid of solutions 
 
 In contrast, the experience with Velodrome is seamless: one place where everything happens, one option for each – without needing to compare between half a dozen cryptic and sometimes misleading alternatives. Coupled with the previous characteristics of the veCRV games discussed before, especially the LP Boost, it makes the [Curve ecosystem particularly unfriendly to new entrants](https://tokenbrice.xyz/farewell-glc/#the-case-of-the-crv-wars): **who would want to enter a race rigged in favor of the first entrants three years after it began**?
 
-![tour-de-op](/img/2024/crv-vs-velo/tour-de-op.png)
+![tour-de-op](img/2024/crv-vs-velo/tour-de-op.png)
 
 Moreover, the Velodrome BD efforts are remarkable; the team is broadly available to help onboard new projects, and several programs are designed to make the experience as simple and compelling for new entrants, regrouped under the “Tour de OP” umbrella, which includes a bribe matching program, lock bonuses and vote boosting.
 

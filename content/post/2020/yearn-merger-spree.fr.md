@@ -4,7 +4,7 @@ description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi.
 date: '2020-12-09T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Prêts, Aave, Compound, BzX, Curve, yVault, Stablecoins, Leveraging, YFI, Yearn, Yearn Finance, Pickle Finance, Cover Protocol, Cream Finance, Akropolis, SushiSwap]
-image: /img/2020/yearn-merger/y-among-us.gif
+image: img/2020/yearn-merger/y-among-us.gif
 ---
 
 L'équipe de Yearn Finance a fait parler d'elle ces derniers temps avec l'annonce de **plusieurs acquisitions** comme Pickle Finance ou SushiSwap. Elle joint ses forces de développement à celles de cinq autres projets de DeFi.
@@ -99,7 +99,7 @@ Il y a maintenant tellement de fusions annoncées que CoinGecko a créé une cat
 
 Pour DeFi, la composabilité est essentielle et Yearn est une autre démonstration de ce qu'elle peut réaliser. En effet, il y a une dernière dimension à souligner avec ces fusions : la liquidité. 
 
-![Yearn-Merger-TVL-Overview](/img/2020/yearn-merger/yearn-merger-tvl.png "Yearn et les acquisitions en termes de valeur totale des actifs déposés (exprimé en  millions de $)")
+![Yearn-Merger-TVL-Overview](img/2020/yearn-merger/yearn-merger-tvl.png "Yearn et les acquisitions en termes de valeur totale des actifs déposés (exprimé en  millions de $)")
 
 Avec ces 5 acquisitions, Yearn va approximativement tripler la valeur totale de ses actifs bloqués dans son écosystème. En plus des synergies, cela pourrait aider Yearn à développer un avantage unique.
 

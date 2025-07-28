@@ -6,7 +6,7 @@ categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized finance, Risk Management, Risk Tranching, Money Markets, Lend, Borrow, Interest-bearing Stablecoin, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn Finance, AAVE, SFI, APWineFi]
 toc: true
 url: risk-tranching-defi
-image: /img/2021/risk-tranching/cover.gif
+image: img/2021/risk-tranching/cover.gif
 ---
 
 DeFi has grown tremendously over the past year, partly thanks to the appearance of more streamlined investment products such as Yearn's or Harvest's **[vaults](https://tokenbrice.xyz/content/posts/2020/vaults.md)**. Thanks to their architecture, they facilitate the mutualization of capital which enables smaller yet profitable investments on money markets and other DeFi services like Curve or SushiSwap.
@@ -26,7 +26,7 @@ If you've been reading me for a while, you might have seen the term "lending pro
 
 In a sense, the change of nomenclature reflects the different stages of evolution of these money markets. In their first months of existence, there was **a liquidity imperative**: it's essentially a fight to grow to a sizeable size, big enough to justify interest from other projects to integrate with the money market fuelling a positive growth loop as we've seen on Aave.
 
-![Aave TVL Growth - Debank](/img/2021/risk-tranching/aave-debank.png "Historical overview of the total value locked on Aave V1 - Debank")
+![Aave TVL Growth - Debank](img/2021/risk-tranching/aave-debank.png "Historical overview of the total value locked on Aave V1 - Debank")
 
 Once the critical mass is reached, **the focus can and must evolve**. To further expand, the money market must extend its range of features - again, like we've seen Aave do with flashloans and fixed rate loans.
 
@@ -63,13 +63,13 @@ As of today, there is mostly one product delivering tranching on mainnet I'm loo
 2. The **A tranche**, supplying the cover for the AA tranche (= slashing if a failure occurs) but earns a much **more favorable APY**.
 3. There is a third tranche - the **S tranche**. However, it is simply rebalancing between the two others as needed.
 
-![The different tranches available on Saffron Finance](/img/2021/risk-tranching/saffron.png "The different tranches available on Saffron Finance for the Compound/DAI market")
+![The different tranches available on Saffron Finance](img/2021/risk-tranching/saffron.png "The different tranches available on Saffron Finance for the Compound/DAI market")
 
 Tranching occurs on an epoch-basis, currently set at two weeks. So if you supply the A tranche, for instance, you are bearing the risk of platform failure for the AA tranche for a 2 week period.
 
 Thanks to the excitement that followed the launch, Saffron grew to close to $60M assets deposited. Since then, the dust settled around a low bar of roughly $15M of assets.
 
-![Saffron Finance TVL - Debank](/img/2021/risk-tranching/saffron-debank.png "Historical overview of the total value locked on Saffron Finance - Debank")
+![Saffron Finance TVL - Debank](img/2021/risk-tranching/saffron-debank.png "Historical overview of the total value locked on Saffron Finance - Debank")
 
 {{< notice note >}}
 On the charts, we can see some sharp withdrawals: it's due to the epoch-based logic of Saffron. At the end of every epochs, depositors are not earning rewards anymore until they pull out and deposit in the next epoch tranches.
@@ -120,7 +120,7 @@ So far, there are two projects working on delivering fixed-APY yield on popular 
 
 Just like Saffron, 88mph is another abstraction layer built on top of Compound, Aave, and Harvest deposits. It provides a **fixed APY for depositors**, while on the other side of the market buyers of floating-rate bonds are bearing the risk of the fluctuations of the APY of the underlying investment product.
 
-![88mph main interface](/img/2021/risk-tranching/88mph.png "Fixed-rate earning opportunities on 88mph")
+![88mph main interface](img/2021/risk-tranching/88mph.png "Fixed-rate earning opportunities on 88mph")
 
 ---
 

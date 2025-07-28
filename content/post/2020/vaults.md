@@ -4,7 +4,7 @@ description: "Vaults enable easy DeFi investments with a streamlined management 
 date: '2020-09-30T01:13:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
-image: /img/2020/vaults/harvest.gif
+image: img/2020/vaults/harvest.gif
 ---
 
 As the ecosystem of decentralized financial services on Ethereum grows and matures, the service offering is becoming more dense and sometimes hard to understand. While the most technically savvy users can chase the latest releases and hedge their risk appropriately, less-seasoned investors might feel left out.
@@ -49,7 +49,7 @@ When it comes to Vaults, the most common tokens accepted as deposits are stablec
 
 <div align="center">
 
-![pickle-finance-pjar0](/img/2020/vaults/pickle-pjar0.png)
+![pickle-finance-pjar0](img/2020/vaults/pickle-pjar0.png)
 
 _Pickle Finance pJar 0 explainer infographics [source](https://medium.com/@picklefinance/introducing-picklejars-70a311ab65c5)_
 </div>

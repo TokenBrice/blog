@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Polygon, Conve
 toc: true
 tocNum: false
 url: crv-wars-l2
-image: /img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
+image: img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
 ---
 
 The game and the fight around CRV and CVX tokens have changed in scope since my last article describing the original Curve Wars, now almost primitive. The infrastructure around Curve has become much denser with the arrival of Convex of course, but also Votium, Union Llama Airforce, Concentrator, CCRV, Lendflare, Warden, and many other protocols still in development.
@@ -52,7 +52,7 @@ It's a dense and colorful adventure, but as is often the case with my articles, 
 
 To lose you on the way, I propose you this map which summarizes the main actors of the Curve/Convex ecosystem:
 
-![Curve/Convex L2 map](/img/2022/curve-wars-l2/curve-convex-l2-map-en.png "Summary of the main functional L2 protocols Curve/Convex")
+![Curve/Convex L2 map](img/2022/curve-wars-l2/curve-convex-l2-map-en.png "Summary of the main functional L2 protocols Curve/Convex")
 
 ### Convex Finance: Curve by the slice
 
@@ -71,13 +71,13 @@ Convex is now basic, so I won't detail it further here. My previous article on C
 
 The rental is paid directly in CRVs and by the week. It comes from veCRV owners who make it available, for the price and duration of their choice. The deal is concluded through the delegation of the corresponding veCRVs.
 
-![LP Ve boost rental on Warden](/img/2022/curve-wars-l2/warden-veboost.png "LP Ve boost rental on Warden")
+![LP Ve boost rental on Warden](img/2022/curve-wars-l2/warden-veboost.png "LP Ve boost rental on Warden")
 
 Warden thus returns to the LP Curve boost game. On Convex, most pools are boosted between 1.5 and 1.7x via Convex. Having your own stock of veCRV, increased by a Warden loan, allows you to reach 2x or even 2.5x maximum on certain pools.
 
 Recently, Warden even offers a handy calculator to visualize the amount of veCRV needed to reach a given multiplier:
 
-![Warden Calculator](/img/2022/curve-wars-l2/warden-calc.gif "A calculator to estimate the impact of a boost ve rental with Warden")
+![Warden Calculator](img/2022/curve-wars-l2/warden-calc.gif "A calculator to estimate the impact of a boost ve rental with Warden")
 
 
 Warden is therefore a credible alternative for protocols, DAOs and large carriers who would like to optimize their LP Curve in a perspective of maximizing the obtained CRV.
@@ -95,7 +95,7 @@ The Convex protocol concentrates the largest amount of veCRVs owned by a single 
 
 Via snapshot, they can mobilize their voting power directly on the Curve pool gauge of their choice. [Votium](https://votium.app/) is an additional layer built on top of this feature: Votium allows any project to allocate a budget to support a given Curve gauge. At the end of the round, the vlCVX owners who voted on this gauge share the rewards, according to their voting power: these are the famous bribes.
 
-![Votium bribes](/img/2022/curve-wars-l2/votium-bribes.png "More than $15M of bribes are paid every two weeks to influence the play of Curve gauges.")
+![Votium bribes](img/2022/curve-wars-l2/votium-bribes.png "More than $15M of bribes are paid every two weeks to influence the play of Curve gauges.")
 
 Thanks to the impressive amount of veCRVs controlled by Convex, Votium has quickly emerged as **an essential tool to establish and sustain a presence on Curve**: consistent bribes on Votium can quickly make a Curve pool very attractive. 
 
@@ -125,7 +125,7 @@ The Union thus offers a relevant alternative for CVX owners who intend to mainta
 * Gas fees are passed on and distributed to all Union users.
 * A fee of 2% of the total bribes received is also charged in each round.
 
-![Llama Air Force Union](/img/2022/curve-wars-l2/llama-airforce-union.png "Evolution of the Union TVL ⚠️")
+![Llama Air Force Union](img/2022/curve-wars-l2/llama-airforce-union.png "Evolution of the Union TVL ⚠️")
 
 {{< notice warning >}}
 This TVL only takes into account the yields of the bribes compounded into cvxCRVs by the Union (uCRV). The vlCVX are not taken into account since they are simply delegated to the Union (about 2.5M CVX).
@@ -149,7 +149,7 @@ One of the current limitations of Convex (or feature for some) is that despite t
 
 [CCRV](https://ccrv.finance/) is therefore designed as a mechanism to help rebalance this pool, using both Curve and Convex. The principle is quite simple if you understand the mechanisms of Curve and Convex:
 
-![CCRV.finance](/img/2022/curve-wars-l2/ccrv.png)
+![CCRV.finance](img/2022/curve-wars-l2/ccrv.png)
 
 1. Creation of the cCRV token, backed by 1 cvxCRV. The protocol stakes all the cvxCRVs deposited to back cCRVs in Convex, in order to obtain a return.
 2. Creation of the Curve 3CRV pool: CRV, cvxCRV and cCRV
@@ -168,14 +168,14 @@ cCRV is not yet launched but is intended to be a **new optimization of the flywh
 
 Concretely, Bent works like Convex works for Curve: Bent allows you to stake Curve LP tokens: they are then staked in Convex (by Bent), and you benefit from an additional return paid with their native token - BENT, in exchange for fees collected by Bent:
 
-![Bentfinance-fees](/img/2022/curve-wars-l2/bentfinance-fees.png "Fee structure on Bent, very similar to Convex")
+![Bentfinance-fees](img/2022/curve-wars-l2/bentfinance-fees.png "Fee structure on Bent, very similar to Convex")
 
 
 As you may notice, the fee structure is almost identical to Convex. Finally, just as Convex created its own representation of CRV (cvxCRV), Bent creates its representation of CVX, the bentCVX. This can also be locked (weBENT) exactly like CVX->vlCVX, for 8 weeks to get an additional yield corresponding to the bribes.
 
 Every two weeks (Curve gauge round), weBENT holders vote on Snapshot to allocate their voting capacity on the gauges of their choice. The votes of the weBENT holders are echoed via the CVX owned by BentFinance, themselves echoed in CRV vote by Convex: two levels of depth!
 
-![bentCVX-lock.png](/img/2022/curve-wars-l2/bentCVX-lock.png "Locking BENTs gives access to the bribes collected on the underlying tokens (vlCVX).")
+![bentCVX-lock.png](img/2022/curve-wars-l2/bentCVX-lock.png "Locking BENTs gives access to the bribes collected on the underlying tokens (vlCVX).")
 
 
 
@@ -218,7 +218,7 @@ The depositors receive their CRV, CVX and CNC tokens from Conic. In a similar wa
 
 Conic's approach thus seems relevant and could be described as pooled asset management. It is a model reminiscent of [Tokemak](https://tokemak.xyz/) and goes one step further than Curve/Convex which remains at the level of governance determination of incitations. Here, governance votes will result in the actual movement of assets between different Curve pools. If the protocol manages to attract sufficient liquidity, it could become a major player in the Curve Wars, potentially with its own bribe system in the future.
 
-![conic-finance-en](/img/2022/curve-wars-l2/conic-finance-en.png "How Conic Finance works, a collective liquidity management solution on Curve")
+![conic-finance-en](img/2022/curve-wars-l2/conic-finance-en.png "How Conic Finance works, a collective liquidity management solution on Curve")
 
 
 The project has just been unveiled and the approach being considered for launch is also interesting. Part of the CNC supply will be airdropped to vlCVX owners. For the rest, it will be distributed with community fundraising, liquidity mining on CNC/ETH and to depositors on Conic. To learn more, there is [only one article available for now](https://medium.com/@ConicFinance/conic-finance-pre-launch-announcement-7b9f485f59f2).
@@ -242,7 +242,7 @@ The critical point, as with any money market, is to attract enough depositors to
 
 Just like on Curve, here they can also benefit from a multiplier of up to 2.5x by locking in a quantity of LFT (veLFT) proportional to the deposit. There is even a very dense diagram that summarizes everything and will make you appreciate the special care I put into my home-made infographics:
 
-![LendFlare](/img/2022/curve-wars-l2/lendflare.jpeg)
+![LendFlare](img/2022/curve-wars-l2/lendflare.jpeg)
 
 The protocol is still in the midst of deployment, although the borrowing functionality is already available. An initial sale (IDO) of the LFT token is underway, and an airdrop is also being discussed.
 
@@ -262,7 +262,7 @@ Finally, to finish this overview of the Curve/Convex ecosystem, we should not fo
 
 For CRV, there is not yet a clear dashboard summarizing the situation to my knowledge. For CVX on the other hand, there is a site for that: [daocvx.com](Daocvx.com). The protocols we will detail now do not have any synergy built natively with Curve or Convex, but they have a lot of CVX and use them to improve their competitive position in the CRV war.
 
-![daocvx.png](/img/2022/curve-wars-l2/daocvx.png "Distribution of CVX tokens among different DAOs (⚠️DAO only)")
+![daocvx.png](img/2022/curve-wars-l2/daocvx.png "Distribution of CVX tokens among different DAOs (⚠️DAO only)")
 
 I'll let you dig through the list on your own, we'll just detail two: Frax and Badger.
 
@@ -287,7 +287,7 @@ Unlike Frax, Badger did not buy its CVX. Instead, Badger is developing a model s
 
 For example, the bveCVX scales contribute to Badger's internal boost system that is effective on most vaults. In addition, in each round the BadgerDAO uses the corresponding bveCVX voting power to support the Curve pools supported in Badger, which are essentially pools that involve one or more variants of wBTC.
 
-![bvecvx.png](/img/2022/curve-wars-l2/bvecvx.png)
+![bvecvx.png](img/2022/curve-wars-l2/bvecvx.png)
 
 
 Rather than acquiring its position in CVX, Badger is able to obtain control of CVX tokens thanks to incentives - so it's a sort of CVX rental. There is also a Curve bveCVX/CVX pool to allow early exit from the vault. There are now almost 1.7M CVX in the vault, so the strategy has proven itself.

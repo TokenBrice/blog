@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Comp
 toc: true
 tocNum: false
 url: marche-monetaire-innovations
-image: /img/2021/money-market-innovations/cover-en.png
+image: img/2021/money-market-innovations/cover-en.png
 ---
 
 Les marchés monétaires comme [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) ou [Maker](https://www.defiscan.info/protocols/sky/ethereum) sont au centre de la DeFi. Pour l'utilisateur final, ils remplissent des fonctions similaires à ce qu'offre une banque dans la finance classique : pouvoir emprunter ou rendre productif des actifs en les prêtant à d'autres.
@@ -55,7 +55,7 @@ Bien que DeFiSaver soit très utile, cela reste un outil qui ne change pas fonda
 
 L'idée est très simple : au lieu d'emprunter directement sur Maker par exemple, l'utilisateur passe par le contrat de BProtocol. La réserve de fonds dont dispose le protocole lui permet de **liquider la position de l'utilisateur (si besoin est) avant que d'autres liquidateurs s'en chargent.**
 
-![bprotocol explainer](/img/2021/money-market-innovations/bprotocolexplainer.png "Fonctionnement de haut niveau de BProtocol")
+![bprotocol explainer](img/2021/money-market-innovations/bprotocolexplainer.png "Fonctionnement de haut niveau de BProtocol")
 
 Ainsi, ce qui correspond d'habitude à une guerre de gas entre différents liquidateurs devient une opération plus prévisible. Cela permet également de **redistribuer une partie du premium de liquidation à l'utilisateur lui-même plutôt qu'aux mineurs.**
 
@@ -83,7 +83,7 @@ Le dollar étant la monnaie fiat la plus courante et la mieux connue, cela faisa
 
 C'est précisément ce que recherche un projet comme Mimo Capital qui propose **un système similaire à MakerDAO mais où l'Euro est la monnaie fiduciaire de base**, au lieu du dollar. Cela signifie que le stablecoin produit par les emprunteurs - le PAR - suit l'Euro, mais également que les prix internes du système sont en €, comme la valeur des collatéraux utilisés (ETH, wBTC ou USDC).
 
-![Mimo-Capital-PAR](/img/2021/money-market-innovations/mimo-capital-par.png "Les principales métriques pour PAR, issues du site officiel.")
+![Mimo-Capital-PAR](img/2021/money-market-innovations/mimo-capital-par.png "Les principales métriques pour PAR, issues du site officiel.")
 
 Mimo n'arrive pas sur une page blanche puisque les stablecoins en Euros commencent à émerger. Outre le PAR de Mimo, il existe l'EURS un stablecoin qui suit un modèle centralisé : chaque EURS en circulation est garanti par un Euro fiat possédé par l'émetteur. Ainsi, **les opportunités de rendement commencent à émerger via des expositions en euros**, avec par exemple la pool sEUR/EURS sur Curve également accessible via des vaults sur StakeDAO ou Harvest Finance par exemple.
 
@@ -97,7 +97,7 @@ Mimo est encore un système assez récent avec environ 25 millions € de collat
 
 Ici, il n'y a pas de prix de référence. Le prix du RAI (actif produit par les emprunteurs) est gouverné directement par le marché (moyenne de prix sur la paire RAI/ETH). Le système a également son prix "interne", le _Redemption Price_ - le taux utilisé lorsque les utilisateurs frappent directement du RAI (en déposant de l'ETH comme collatéral).
 
-![prix du reflexer RAI](/img/2021/money-market-innovations/raiprice.png "Évolution du prix du RAI depuis son lancement")
+![prix du reflexer RAI](img/2021/money-market-innovations/raiprice.png "Évolution du prix du RAI depuis son lancement")
 
 Différents paramètres du système Reflexer s'ajustent pour **faire converger les deux prix à terme, ou en tout cas les maintenir dans une fourchette étroite**. Bien que cette approche soit bien plus ardue à prendre en main pour l'utilisateur, elle est totalement dissociée de toute corrélation avec le dollar (ou tout autre monnaie fiduciaire), ce qui a de la valeur en soi. 
 
@@ -122,7 +122,7 @@ Je ne pouvais pas commencer cette section par un projet autre que Alchemix ! L'i
 2. Notre collatéral a désormais un rendement : et si le rendement du collatéral servait à rembourser l'emprunt ?
 3. Et voilà : **un emprunt qui se rembourse tout seul avec le temps** !
 
-![Alchemix overview](/img/2021/money-market-innovations/alchemix.png "L'infrastructure d'Alchemix")
+![Alchemix overview](img/2021/money-market-innovations/alchemix.png "L'infrastructure d'Alchemix")
 
 Alchemix s'est lancé en acceptant le yDAI (DAI déposé sur Yearn Finance) comme collatéral. Les déposants peuvent emprunter **jusqu'à 50% de la valeur de leur yDAI en AlUSD**, un autre stablecoin dollar. Leur collatéral n'est pas à risque, et l'emprunt se rembourse tout seul grâce aux intérêts générés par le yDAI : il faut compter environ 3 ans avec le taux de rendement actuel.
 
@@ -153,7 +153,7 @@ Le ratio prêt/valeur maximum (LTV maximum) détermine le pouvoir d'emprunt des 
 
 Liquity innove également du côté des frais puisque **les emprunts se font sans intérêt** contrairement à d'autres systèmes. Sur Maker/ETH par exemple, le stability fee est de 5.5%. Si vous empruntez 10 000 DAI aujourd'hui, vous devrez rembourser 10 550 DAI dans 1 an (si les frais ne changent pas).
 
-![Liquity](/img/2021/money-market-innovations/liquity.png "Un emprunt sans intérêt et sans autre frais que 0.5% de borrowing fee payé immédiatemment")
+![Liquity](img/2021/money-market-innovations/liquity.png "Un emprunt sans intérêt et sans autre frais que 0.5% de borrowing fee payé immédiatemment")
 
 Sur Liquity au contraire, il n'y a pas de stability fee. À la place, les utilisateurs paient **un frais unique et immédiat lors de l'emprunt**. Ce frais dépend du "base rate" qui est gouverné par le protocole directement. Il est actuellement à 0.5%.
 

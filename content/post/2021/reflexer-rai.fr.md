@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: true
 url: reflexer-rai
-image: /img/2021/reflexer-rai/cover.gif
+image: img/2021/reflexer-rai/cover.gif
 ---
 
 RAI est une drôle de bête dont la compréhension ou l'intérêt échappe encore à de nombreuses personnes, y compris des gens vraiment calés en DeFi. Il était donc temps de vous proposer un article assez exhaustif dédié à son sujet. J'y ai inclus tout ce que j'estimais pertinent pour comprendre pourquoi un actif comme RAI est nécessaire, ce qu'il apporte et comment il fonctionne.
@@ -44,7 +44,7 @@ Cette famille connaît étonnamment de nombreux adeptes, les principaux étant M
 
 Avec [Maker (DAI)](https://www.defiscan.info/protocols/sky/ethereum), **environ 60% des DAI sont mintés (frapper monnaie) avec USDC comme collatéral**, chiffre auquel il faut ajouter ceux mintés depuis d'autres collatéraux nécessitant de la confiance: wBTC, TUSD, GUSD, PAX, USDT, renBTC + toutes les paires UniV2 impliquant au moins l'un de ces tokens + tous les collatéraux issus du monde réel comme Centrifuge: New Silver. [Détail sur DAIStats](https://daistats.com/#/).
 
-![dai-collateral](/img/2021/reflexer-rai/dai-collateral.png "Aperçu de la distribution des collatéraux utilisés pour garantir le DAI dans le système MakerDAO.
+![dai-collateral](img/2021/reflexer-rai/dai-collateral.png "Aperçu de la distribution des collatéraux utilisés pour garantir le DAI dans le système MakerDAO.
 ")
 
 Note : le PSM est un module qui permet d'éviter les envolées de prix sur le DAI au-dessus du dollar. Les DAI mintés par le PSM le sont donc de manière automatique lorsque cela est nécessaire.
@@ -58,7 +58,7 @@ La première version de Maker, avant la mise à jour Multi Collateral DAI ([MCD 
 
 **Côté FRAX, seul l'USDC est utilisé en collatéral**, sous différentes formes - soit dans Yearn/Compound/Aave pour produire un rendement, soit via les [AMOs (Algorithmic Market Operations Controller](https://docs.frax.finance/amo/overview)). Voici le détail des actifs qui servent à garantir le FRAX, [disponible sur le site officiel](https://app.frax.finance/).
 
-![frax-collateral](/img/2021/reflexer-rai/frax-collateral.png "Aperçu des collatéraux utilisés dans Frax : USDC et toutes ses variantes yield-bearing (risques techniques additionnels) + une part algorithmique (sans collatéral) variable.
+![frax-collateral](img/2021/reflexer-rai/frax-collateral.png "Aperçu des collatéraux utilisés dans Frax : USDC et toutes ses variantes yield-bearing (risques techniques additionnels) + une part algorithmique (sans collatéral) variable.
 ")
 
 Frax tout comme DAI développent une myriade d'approches intéressantes, mais comme leur base est centralisée, **ils ne peuvent être considérés comme quelque chose d'autre qu'un mécanisme d'amplification de la liquidité disponible sur USDC, au mieux**. Ils apportent néanmoins **des contributions intéressantes en termes de recherche fondamentale** qui pourront aider à établir une solution plus optimale et qui ne nécessite pas de confiance (trustless).
@@ -101,7 +101,7 @@ Le système n'a bien sûr pas de contrôle sur le prix de RAI observé sur le ma
 
 On fait donc face à une situation assez facilement généralisable incarnée par un pan entier de l'ingénierie et baptisée **la théorie du contrôle** :
 
-![theorie-du-controle](/img/2021/reflexer-rai/theorie-du-controle.png "Boucle d'asservissement. Ce graphique, ainsi que les deux qui vont suivre sont issus de la traduction française du whitepaper RAI - un grand merci à PhilH & Ben.Oxmo pour leur travail qualitatif
+![theorie-du-controle](img/2021/reflexer-rai/theorie-du-controle.png "Boucle d'asservissement. Ce graphique, ainsi que les deux qui vont suivre sont issus de la traduction française du whitepaper RAI - un grand merci à PhilH & Ben.Oxmo pour leur travail qualitatif
 ")
 
 Dans le cas de RAI, **le régulateur est algorithmique** et là encore assez standard : c'est le fameux **"PID controller"**. Il repose sur une formule mathématique assez dense qu'il n'est pas nécessaire de comprendre pour saisir la pertinence du système.
@@ -125,7 +125,7 @@ On commence par cette situation car elle est plus simple à comprendre à mon av
 2. Vente de RAI sur le marché pour un profit ;
 3. (Quand prix du marché &lt; rédemption) rachat de RAI pour rembourser la dette et libérer les ETH. La différence entre les 2 prix sur RAI - frais en gas correspond au profit généré.
 
-![marchesupredemption](/img/2021/reflexer-rai/marchesupredemption.PNG)
+![marchesupredemption](img/2021/reflexer-rai/marchesupredemption.PNG)
 
 
 Cette situation est d'autant plus intéressante pour ceux qui ont déjà des safes avec de la capacité disponible : ils s'épargnent une étape du scénario présenté plus haut.
@@ -137,7 +137,7 @@ Dans ce scénario, il y a donc une incitation à minter du RAI (->augmentation d
 
 Dans le cas inverse, le taux de rédemption devient positif, ce qui a pour effet de rendre plus coûteuse la dette déjà existante. Les utilisateurs avec des safes actifs ont ainsi intérêt à rembourser leur dette, ce qui a pour effet de réduire le supply de RAI disponible. 
 
-![marcheinfredemption](/img/2021/reflexer-rai/marcheinfredemption.png)
+![marcheinfredemption](img/2021/reflexer-rai/marcheinfredemption.png)
 
 
 En outre, s'ils avaient convertis leur RAI pour un autre actif (par exemple ETH pour une exposition avec levier), ils devront acquérir des RAI sur le marché (->pression haussière) afin d'être en capacité de rembourser leur dette.
@@ -211,7 +211,7 @@ Fuse est un marché monétaire assez innovant puisqu'il permet la création de p
 RAI est pour l'instant disponible dans 3 pools d'actifs proposants différents niveaux de risques et tokens empruntables :
 
 
-![fuse-rai](/img/2021/reflexer-rai/fuse-rai.png)
+![fuse-rai](img/2021/reflexer-rai/fuse-rai.png)
 
 ### RAI sur Aave
 

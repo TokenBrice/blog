@@ -5,7 +5,7 @@ date: '2025-03-12T01:13:50.191Z'
 categories: [DeFi, Projects]
 tags: [DeFi, Ethereum, Finance Décentralisée, DeFi, Effet de Levier, Protocole Immuable, Prêt, Polynomial]
 url: leverage-sir
-image: /img/2025/leverage-sir/leverage-sir-cover.jpg
+image: img/2025/leverage-sir/leverage-sir-cover.jpg
 ---
 
 Il y a quelques semaines, Sir Trading, une nouveau protocole DeFi fascinant et innovant, a été lancée, et je suis rapidement tombé amoureux. J'ai également décidé de m'impliquer, alors bienvenue dans cet article qui présente Sir Trading, explique ce que j'ai trouvé intéressant dans le modèle et annonce mon implication en tant que conseiller.
@@ -14,7 +14,7 @@ Il y a quelques semaines, Sir Trading, une nouveau protocole DeFi fascinant et i
 
 Pour comprendre Sir Trading (et cela fonctionne bien avec la plupart des protocoles), nous pouvons utiliser une métaphore d'entreprise : Qui sont les clients, les intermédiaires et les parties prenantes ?
 
-![sir-diagram](/img/2025/leverage-sir/sir-diagram.png)
+![sir-diagram](img/2025/leverage-sir/sir-diagram.png)
 
 Commençons donc par le bas : nos « clients » sont les APEs qui ouvrent des positions à effet de levier et paient des frais. Tout le reste est un « moyen » pour atteindre cet objectif.
 
@@ -26,7 +26,7 @@ Enfin, les détenteurs de SIR agissent comme des parties prenantes. Ils peuvent 
 
 Avec nos trois populations clés définies, nous pouvons essentiellement les assembler dans le « modèle d'entreprise » de Sir :
 
-![sir-business-model](/img/2025/leverage-sir/sir-business-model.png)
+![sir-business-model](img/2025/leverage-sir/sir-business-model.png)
 
 Le protocole SIR vise à maximiser sa base de clients (détenteurs d'APE), ce qui génère des revenus partagés avec les parties prenantes (détenteurs de SIR). Les parties prenantes approuvent les émissions de SIR pour financer les intermédiaires (LPers TEA) qui fournissent la liquidité nécessaire à cet objectif et l'allouent aux vaults les plus pertinents pour stimuler l'utilisation.
 
@@ -181,7 +181,7 @@ Ensuite, le modèle de frais, qui est également assez différent de l'habituel.
 
 Zoomons sur une position ETH/USDC^1.5 pour mieux comprendre l'impact de l'effet de levier polynomial et des frais de Sir, avec une position hypothétique ouverte à ETH = 2000 $.
 
-![sir-calculator](/img/2025/leverage-sir/sir-calculator.png)
+![sir-calculator](img/2025/leverage-sir/sir-calculator.png)
 
 Avec ETH = 4000 $ (+100%), une telle position est en hausse d'environ 17% en termes d'ETH ou de 134% en termes d'USD. Bien sûr, à ce stade, vous êtes un expert en effet de levier polynomial, et donc vous comprenez que **l'écart entre l'ETH/USDC^1.5 et la détention brute d'ETH augmente plus le prix s'apprécie**. À ETH = 6000 $ (+200%), la position est maintenant en hausse d'environ 43% par rapport à ETH ou 330% par rapport à USD. À ETH = 8000 $, nous sommes maintenant à ~65% de gains par rapport à ETH et 562% par rapport à USD. Encore une fois, cela fonctionne de la même manière en sens inverse ; veuillez vous en souvenir.
 
@@ -226,7 +226,7 @@ Les lecteurs de mon blog ne seront pas surpris de trouver une section abordant c
 
 Commençons par le plus important — le potentiel d'immuabilité du protocole. Compte tenu de son approche novatrice et des risques associés, rendre le protocole immédiatement entièrement immuable pourrait être inconséquent. Au lieu de cela, l'approche développée ici est un chemin progressif vers une immuabilité éventuelle avec quatre modes :
 
-![sir-beta-mode](/img/2025/leverage-sir/sir-beta-mode.png)
+![sir-beta-mode](img/2025/leverage-sir/sir-beta-mode.png)
 
 Sir est actuellement en mode Roues d'Entraînement, dans lequel certains paramètres, tels que les frais, peuvent encore être ajustés. À partir du mode Roues d'Entraînement, il peut passer en mode Urgence en réponse à un bug ou à une exploitation et de là à un Arrêt (⇒ Redéploiement) si nécessaire. D'un autre côté, si tout se passe bien, les roues d'entraînement peuvent être retirées, et le protocole peut être basculé en mode Imparable, où il devient immuable. Je trouve cette approche équilibrée et intéressante, [définitivement digne d'étude](https://docs.sir.trading/protocol-overview/beta-period) pour d'autres constructeurs.
 

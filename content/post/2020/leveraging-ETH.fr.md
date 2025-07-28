@@ -6,7 +6,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging, Minting DAI]
 toc: true
 tocNum: true
-image: /img/2020/leveraging-ETH/leveraging-ETH.png
+image: img/2020/leveraging-ETH/leveraging-ETH.png
 
 ---
 
@@ -40,7 +40,7 @@ Lorsqu'il s'agit de s'assurer que vous ne vous brûlez pas votre capital sur les
 1. En interagissant avec vos coffres, vous vous trouverez à effectuer des séries de transactions (déposer ETH -> mint DAI -> faire quelque chose avec le DAI). Pour réduire vos coûts de gaz, vous pouvez **utiliser [FuruCombo](https://furucombo.app/) pour construire votre série d'opérations et l'exécuter en une seule transaction.**
 2. Vous pourriez avoir besoin d'un "capital flash" pour fermer une position quelque part et la rouvrir ailleurs. Si c'est le cas, un flash loan Aave vous sera utile. Et voici la meilleure: **les flash loans sont dispos sur FuruCombo!**
 
-![Collateral swap using Furucombo](/img/2020/leveraging-ETH/furucombo.png "Échange de collateral sur Maker (ETH->USC) en utilisant FuruCombo + Flash Loan")
+![Collateral swap using Furucombo](img/2020/leveraging-ETH/furucombo.png "Échange de collateral sur Maker (ETH->USC) en utilisant FuruCombo + Flash Loan")
 
 Gardez à l'esprit qu'en ces temps de prix élevé du gaz, chaque interaction est coûteuse. Pour réduire l'impact du gaz sur votre stratégie, essayez de minimiser la quantité d'opérations que vous effectuez - FuruCombo est tout simplement étonnant pour cela !
 
@@ -60,7 +60,7 @@ Voici mes conseils et recommandations pour éviter que cela ne vous arrive :
 
 **Gestion facile des coffres Maker** : si vous souhaitez une approche moins stressante, vous pouvez utiliser [DeFiSaver](https://defisaver.com/) pour vous assurer que votre position soit automatiquement maintenue à un certain ratio (Save).
 
-![Automatisation de la gestion des coffres Maker avec DeFi Saver](/img/2020/leveraging-ETH/defisaver-automation.png "Automatisation de la gestion des coffres Maker avec DeFi Saver")
+![Automatisation de la gestion des coffres Maker avec DeFi Saver](img/2020/leveraging-ETH/defisaver-automation.png "Automatisation de la gestion des coffres Maker avec DeFi Saver")
 
 ### Gestion avancée des coffres Maker
 
@@ -109,7 +109,7 @@ Si vous envisagez d'investir dans le pool Curve y, je vous recommande de consid�
 Actuellement, il se situe à environ 1,5 % pour 5 000 DAI : c'est 1,5 % de profit instantané lorsque vous entrez dans la position, ce qui est assez attrayant, non ? 
 
 
-![Curve DAI Premium](/img/2020/leveraging-ETH/curve-dai-premium.png "Slippage positif (1.5%) en entrant dans la pool Y 100% depuis DAI")
+![Curve DAI Premium](img/2020/leveraging-ETH/curve-dai-premium.png "Slippage positif (1.5%) en entrant dans la pool Y 100% depuis DAI")
 
 En fonction de votre préférence en matière de risque et de votre capital, vous pouvez choisir le moment de votre entrée. J'ai réussi à obtenir un bonus positif jusqu'à ~ 3,5 % en entrant dans le ypool, alors attendre peut valoir le coup !
 

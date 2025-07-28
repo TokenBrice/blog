@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, POOL, PoolTogether, Loterie, Par
 toc: true
 tocNum: false
 url: pool-together
-image: /img/2021/pool-together/cover.png
+image: img/2021/pool-together/cover.png
 ---
 
 
@@ -30,17 +30,17 @@ Ce chapitre me fait presque du mal à écrire tellement c’est une évidence m�
 4. La loterie était sauvagement taxée et possédée par l’Etat... jusqu’à présent. **La privatisation revient à donner les bénéfices générés par une activité nettement délétère pour la société à des entreprises privées** - la comparaison avec la cigarette prend encore plus de sens !
 5. Enfin, et ça n'est pas propre à la loterie mais **tout aussi misérable, dénonçable et pitoyable** : les jeux d’argent ciblent souvent les populations les plus vulnérables pour leur publicité, en jouant sur les émotions. On l'a vu récemment avec les très nombreuses [publicités pour du paris sportif qui ciblent les jeunes de banlieue](https://www.vice.com/fr/article/n7wjjz/pourquoi-les-sites-de-paris-sportifs-ciblent-les-banlieusards).
 
-![winamax-pub](/img/2021/pool-together/winamax-pub.jpg "Une des publicités les plus critiquées")
+![winamax-pub](img/2021/pool-together/winamax-pub.jpg "Une des publicités les plus critiquées")
 
 ### Addictions, dépendances : conséquences
 
 La suite est logique, mécanique et désespérante : en tendance longue, les mises explosent malgré un nombre de joueurs en berne :
 
-![stats-fdj](/img/2021/pool-together/evolution-2007-2017.png)
+![stats-fdj](img/2021/pool-together/evolution-2007-2017.png)
 
 Le sujet est complexe et comme pour la cigarette, souvent documenté et recherché par les prestataires de service de jeu/paris eux-mêmes. Les chiffres en disent long malgré tout : environ **17% des joueurs sont potentiellement en risque de dépendance ou d’addiction**.
 
-![addictions](/img/2021/pool-together/addictions.png)
+![addictions](img/2021/pool-together/addictions.png)
 
 > "Enfin, en 2017, la pratique des jeux d’argent sur Internet (jeux de loterie, paris hippiques ou sportifs et poker) représentait 11,2 % des dépenses totales, part en constante progression depuis son autorisation en 2010."
 
@@ -142,11 +142,11 @@ Alors bien sûr, cela nécessite plus de travail de développement et d'impléme
 
 Là où la v3 optait pour de la flexibilité, avec des pools ayant des tirages journaliers ou hebdomadaires, la pool unique v4 peut se permettre un **tirage journalier** vu sa taille. En outre, la structure des prix a été revue afin d'allouer plus de petits prix pour rendre l’expérience un peu moins aléatoire sur le long-terme.
 
-![prize-breakdown-old](/img/2021/pool-together/prize-breakdown-old.png "Première logique de distribution des prix PTv4")
+![prize-breakdown-old](img/2021/pool-together/prize-breakdown-old.png "Première logique de distribution des prix PTv4")
 
 La logique du jackpot est préservée avec le premier et unique gagnant qui empoche $2500 tout de même, mais il y a également près de 720 autres gagnants potentiellement grâce aux prix de $100 et $10.
 
-![tokenbrice-pooltogether-winning](/img/2021/pool-together/winning.png "Environ 2 semaines de tirage sur 5000 PTaUSDC")
+![tokenbrice-pooltogether-winning](img/2021/pool-together/winning.png "Environ 2 semaines de tirage sur 5000 PTaUSDC")
 
 En réalité, le nombre de joueurs gagnants est plus faible car il est possible de gagner plusieurs prix à la fois. Néanmoins cette approche permet également de lisser le revenu pour les gros déposants, qui remportent fréquemment des récompenses de $10 ou $100, potentiellement même tous les jours si le dépôt est assez conséquent.
 
@@ -157,7 +157,7 @@ Cette distribution permet ainsi de récompenser fréquemment les joueurs qui uti
 
 Au-delà du modèle de prix, c’est toute l’expérience autour de l’allocation des prix qui a été revue avec la v4. La gouvernance a d’ailleurs continué a itéré et récemment voté une refonte de la structure des prix : [PTIP-47: Prize Adjustments](https://gov.pooltogether.com/t/ptip-47-prize-adjustments/1752).
 
-![prize-breakdown](/img/2021/pool-together/prize-breakdown.png "La nouvelle distribution des prix")
+![prize-breakdown](img/2021/pool-together/prize-breakdown.png "La nouvelle distribution des prix")
 
 ### Une expérience plus satisfaisante
 
@@ -165,7 +165,7 @@ De nombreux paramètres et détails ont été ajustés pour rendre l’expérien
 
 Tout d’abord, les gains passent dans une **logique de claim**, là où avant ils arrivaient directement dans le wallet. Pour les joueurs, cela rend les gains plus simples à comprendre et quantifier. En outre, ils sont désormais payés en PTaUSDC, le ticket de loterie PoolTogether v4 et sont donc **composés automatiquement** : gagner augmente vos chances de gagner, avec un simple claim !
 
-![comparaison-pt-vs-epargne](/img/2021/pool-together/comparaison.png "Pooltogether vs l'épargne")
+![comparaison-pt-vs-epargne](img/2021/pool-together/comparaison.png "Pooltogether vs l'épargne")
 
 **Les joueurs ont 60 jours pour réclamer leur récompense**, ce qui garantit une forme de suivi et d’engagement, mais permet également une interaction avec le protocole quasiment totalement passive pour ceux qui le souhaitent : dépôt > tous les 59j : claim > retrait quand désiré.
 

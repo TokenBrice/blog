@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound
 toc: true
 tocNum: false
 url: money-markets-risk
-image: /img/2021/risk-tranching/cover.gif
+image: img/2021/risk-tranching/cover.gif
 ---
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.
@@ -135,7 +135,7 @@ Moreover, liquidation is not sudden neither an all-or-nothing event. There are s
 
 So with USDC as collateral, for instance, there is a 5% spread between the two - the max LTV is 80% (*max $8000 worth borrowed from a 10 000 USDC collateral*), while the liquidation threshold is 85% (*= liquidation if collateral value &lt; $8500*)
 
-![Aave USDC collateral parameters](/img/2021/money-market-risks/aave-usdc.png "The main metrics for USDC as a collateral on Aave.")
+![Aave USDC collateral parameters](img/2021/money-market-risks/aave-usdc.png "The main metrics for USDC as a collateral on Aave.")
 
 It gives borrowers using USDC as collateral another 5% margin so that even if the oracle reports $0.97 no abusive liquidations would occur. The situation is similar in other money markets.
 
@@ -173,7 +173,7 @@ Another way to look at it is the other way around: assess the overall "health" o
 
 You can also look at the overall collateral usage for any suspicious mismatch, like on Cream where almost a third of the deposits are FTT tokens (FTX exchange).
 
-![Cream](/img/2021/money-market-risks/cream.png "Roughly 1/3 of the deposits on Cream are made of a single token, and it's not the one you'd want or expect to be here.")
+![Cream](img/2021/money-market-risks/cream.png "Roughly 1/3 of the deposits on Cream are made of a single token, and it's not the one you'd want or expect to be here.")
 
 #### Assessing the collateral listing strategy
 
@@ -197,7 +197,7 @@ The good news is that there is! Aave pioneered the field & even Compound has a r
 
 Aave has roughly 2B in the Safety Module, of which up to 30% can be seized if needed = 600M. It covers both the V1 & V2 of the protocol. If the 30% on the slashing of the Safety Module is not sufficient, the safety module can mint additional AAVE tokens. Such a scenario is accounted for by neither Compound nor Cream.
 
-![Aave's Safety Module](/img/2021/money-market-risks/aave-safety-module.jpeg "Overview of Aave's Safety Module.")
+![Aave's Safety Module](img/2021/money-market-risks/aave-safety-module.jpeg "Overview of Aave's Safety Module.")
 
 On top of insurance, money markets can also have reserves. Compound is the pioneer here, with about $10M in reseve[^compoundreserve]. Aave also has a reserve system that was recently launched, but I excluded it from the analysis considering the limited balance.[^10]
 
@@ -252,7 +252,7 @@ On top of risks of smart contract failures, please consider the following list o
 
 Most insurance services are unhelpful with all these risks but for the risks of smart contract failures. The market for other types of risk is barely getting started thanks to Unslashed Finance now providing **coverage for the risk of stablecoins losing their peg** or custodian risk.
 
-![Defiprime insurance](/img/2021/money-market-risks/defiprime-insurance.png "The different approaches to DeFi insurance --- FROM 2019 & but still somewhat instructive.")
+![Defiprime insurance](img/2021/money-market-risks/defiprime-insurance.png "The different approaches to DeFi insurance --- FROM 2019 & but still somewhat instructive.")
 
 To learn more about the different approaches for DeFi insurance, check [this piece from DeFi Rate](https://defiprime.com/comparing-insurance-like-solutions-in-defi). However please keep in mind the **massive bias here**: it was written more than two years ago by Hugh Karp, founder of Nexus Mutual. However, it's still factual enough and insightful to understand the different models.
 
@@ -315,7 +315,7 @@ Again here - make sure to **assess the quality, not the quantity**. It's easy to
 
 I don't want to make this a case against Compound, but here again, it's so obvious. While Compound community fundings are quite limited the grants program just launched[^6], its founder Robert Leshner is an active venture capital investor, with the Robot Ventures funds[^7].
 
-![Robovc](/img/2021/money-market-risks/robovc.png "RoboVC & its main investments.")
+![Robovc](img/2021/money-market-risks/robovc.png "RoboVC & its main investments.")
 
 #### Assessing the community & DAO of a money market
 

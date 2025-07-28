@@ -5,7 +5,7 @@ date: '2021-07-27T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized finance, Aave, Governance, Delegation]
 url: aave-governance-program
-image: /img/2021/aave-governance-platform/cover.png
+image: img/2021/aave-governance-platform/cover.png
 ---
 
 Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation in the Aave governance. While calling for delegations and explaining my vision for Aave, I'd also like to set a new standard for DAO delegates. 
@@ -14,7 +14,7 @@ You'll find in the post details about my long-term vision for Aave, who I am, wh
 
 You'll find my vote delegate disclosure, [following the template proposed by Erich Dylus & Sarah Brennan (Open Source Law)](https://github.com/ErichDylus/Open-Source-Law/blob/main/forms/legal/Vote%20Delegate%20Disclosure.md) at [the end of this document](#vote-delegate-disclosure).
 
-![aave-calling-for-vote-delegation-cover-tokenbrice](/img/2021/aave-governance-platform/cover.png)
+![aave-calling-for-vote-delegation-cover-tokenbrice](img/2021/aave-governance-platform/cover.png)
 
 ## Why me, why now, why Aave?
 
@@ -26,7 +26,7 @@ I'm now ready to uphold this vision at the Aave DAO level with an active partici
 
 Critical decisions for major protocols are increasingly decided by a limited number of participants sharing similar interests, as we've seen with [Uniswap's DeFi Education Fund vote](https://tokenbrice.xyz/content/posts/2021/defi-janus.md#uniswap-1m-uni-here-1m-uni-there). I'd like to at least try to prevent a similar scenario from unfolding on Aave's governance.
 
-![aave-top-delegates](/img/2021/aave-governance-platform/sybil-delegates.png "Most AAVE top delegates are either venture capitalists (ex: FranklinBi / Pantera Capital) or received most of their voting power thanks to a delegation from such actor, such as BlockchainHEC or CalBlockchain")
+![aave-top-delegates](img/2021/aave-governance-platform/sybil-delegates.png "Most AAVE top delegates are either venture capitalists (ex: FranklinBi / Pantera Capital) or received most of their voting power thanks to a delegation from such actor, such as BlockchainHEC or CalBlockchain")
 
 ---
 
@@ -50,7 +50,7 @@ I'm now calling for delegation to thrive to uphold the following principles in A
 
 You can use Sybil.org to check your voting power on various DAOs and handle delegations. 
 
-![aave-sybil-delegation](/img/2021/aave-governance-platform/aave-sybil.png)
+![aave-sybil-delegation](img/2021/aave-governance-platform/aave-sybil.png)
 
 1. Go on [Sybil.org - Aave](https://sybil.org/#/delegates/aave): once you connect your wallet you'll see your voting power on the right panel
 2. You can self-delegate to use that voting power yourself (default) or delegate it to another wallet.

@@ -4,7 +4,7 @@ description: "Considering how the core building blocks of Ethereum's decentralis
 date: '2020-12-01T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin, Funding Commons, NFT, BanklessFR]
-image: /img/2020/defi-beyond-finance/cover.png
+image: img/2020/defi-beyond-finance/cover.png
 ---
 
 Ethereum's decentralized finance is ready to grow beyond its sandbox: with a dense network of financial primitives, it's now easier than ever to harness DeFi for other ends, such as to replace a predatory relic of our past like the lottery, still insanely popular and detrimental.
@@ -37,7 +37,7 @@ So let's take a minute to unpack these core pragmatic values:
 
 **Minimalism**: Ethereum is a network designed for resiliency and it comes with interesting consequences. With a highly redundant infrastructure where bandwidth and storage capacity are limited, successful projects tend to be those able to reduce or avoid unnecessary complexity.
 
-![DeFi-legos](/img/2020/defi-beyond-finance/defi-legos.png)
+![DeFi-legos](img/2020/defi-beyond-finance/defi-legos.png)
 
 The DeFi ecosystem delivered a range of services thanks to which anyone can buy, sell, secure, exchange tokens in a decentralized fashion. They also **normalized behaviors that were uncommon before**, such as staking tokens, borrowing, using leverage, minting synthetic assets, and many other options made possible once assets are tokenized.
 
@@ -73,7 +73,7 @@ At the macro level, the main tools used to track the overall growth of the indus
 
 To facilitate the discovery and funding of such projects, there is a platform harnessing the possibilities offered by Ethereum to improve public good funding: [Gitcoin](http://gitcoin.co/). Gitcoin streamlines the creation of “Grants” to collect donations for given projects and communities. It makes the most of Ethereum core attributes:
 
-![Gitcoin-grants-round7](/img/2020/defi-beyond-finance/gitcoin-grants.jpg "The last Gitcoin grants round")
+![Gitcoin-grants-round7](img/2020/defi-beyond-finance/gitcoin-grants.jpg "The last Gitcoin grants round")
 
 *   **All donations are public and transparent**, making it easy to measure and track contributions.
 *   Projects can be funded with common Ethereum-based tokens, usually stablecoins such as DAI.
@@ -104,13 +104,13 @@ Yet again, thanks to Jon ([@OtherBright](https://twitter.com/otherbright)), Bank
 
 _With [BanklessFR](https://banklessfr.substack.com/) and [The Daily Gwei FR](https://thedailygweifr.substack.com/) we are trying different experiments._
 
-![BanklessFR-NFT](/img/2020/defi-beyond-finance/banklessfr-nft.gif "The first BanklessFR NFT produced by Arke")
+![BanklessFR-NFT](img/2020/defi-beyond-finance/banklessfr-nft.gif "The first BanklessFR NFT produced by Arke")
 
 _With [Arke](https://twitter.com/Arke56374430), we started with the sale of a [BanklessFR NFT](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:43413:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00?tab=overview), representing the newsletter BanklessFR. This collectible card, available in 40 copies, was successfully sold at 0.15 ETH each. We shared the profits with the artist. We included an article that can be unlocked at the time of purchase, 24 hours ahead of readers who do not have the card. This distribution model is clearly innovative, but in my opinion requires to be developed._
 
 _Our [second sale](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:64356:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00?tab=overview), different from the first, still for BanklessFR, illustrated an article, and offered 10 copies of the card, at 0.3 ETH per unit. It also contained an article that could be unlocked 24 hours in advance. The latter worked much less, certainly because of a relatively high price, despite a rarity 4 times greater._
 
-![TheDailyGwei-FR-NFT](/img/2020/defi-beyond-finance/the-daily-gwei-fr.gif "Another NFT released for the FR adaptation of the Daily Gwei")
+![TheDailyGwei-FR-NFT](img/2020/defi-beyond-finance/the-daily-gwei-fr.gif "Another NFT released for the FR adaptation of the Daily Gwei")
 
 _The [last sale](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:81692:0x83ac01254b0b8e9745492c5e73f5f32a05570a76?tab=overview) concerns the launch of The Daily Gwei FR. We published 50 copies of a card representing the newsletter. We haven't sold one yet, 0.05 ETH per card, 50 cards available. We will modify this sale to continue the experience._
 

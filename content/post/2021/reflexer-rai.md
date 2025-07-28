@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
 tocNum: false
 url: reflexer-rai
-image: /img/2021/reflexer-rai/cover.gif
+image: img/2021/reflexer-rai/cover.gif
 ---
 
 RAI is a strange beast that many people still don't understand or care about, including people who are really knowledgeable about DeFi. So it was time to offer you a rather exhaustive article dedicated to its subject. I've included everything I thought was relevant to understand why an asset like RAI is needed, what it does and how it works.
@@ -41,7 +41,7 @@ This kind of assets has a surprisingly large following, the main ones being Make
 
 With [Maker (DAI)](https://www.defiscan.info/protocols/sky/ethereum), **approximately 60% of DAI are minted with USDC as collateral**, to which figure we need to add those minted from other collaterals requiring trust: wBTC, TUSD, GUSD, PAX, USDT, renBTC + all UniV2 pairs involving at least one of these tokens + all collaterals from the real world such as Centrifuge: New Silver. [Details on DAIStats](https://daistats.com/#/).
 
-![dai-collateral](/img/2021/reflexer-rai/dai-collateral.png "Overview of the distribution of collateral used to secure DAI in the MakerDAO system.")
+![dai-collateral](img/2021/reflexer-rai/dai-collateral.png "Overview of the distribution of collateral used to secure DAI in the MakerDAO system.")
 
 Note: PSM is a module that prevents excessive price volatility of DAI. It is therefore automatically minted by the PSM when necessary.
 
@@ -54,7 +54,7 @@ The first version of Maker, before the Multi Collateral DAI update ([MCD - 18/11
 
 **On the FRAX side, only USDC is used as collateral**, in various forms - either in Yearn/Compound/Aave to produce a return, or via [AMOs (Algorithmic Market Operations Controller)](https://docs.frax.finance/amo/overview). Here are the details of the assets that are used to collateralize FRAX, [available on the official website](https://app.frax.finance/).
 
-![frax-collateral](/img/2021/reflexer-rai/frax-collateral.png "Overview of collateral used in Frax: USDC and all its yield-bearing variants (additional technical risks) + a variable algorithmic (collateral-free) portion.")
+![frax-collateral](img/2021/reflexer-rai/frax-collateral.png "Overview of collateral used in Frax: USDC and all its yield-bearing variants (additional technical risks) + a variable algorithmic (collateral-free) portion.")
 
 Both Frax and DAI are developing a myriad of interesting approaches, but since their basis is centralized, **they cannot be considered anything more than a mechanism for amplifying the liquidity available on USDC, at best**. They do, however, make **interesting contributions in terms of fundamental research** that may help establish a more optimal solution that does not require trustlessness.
 
@@ -92,7 +92,7 @@ Of course, the system has no control over the RAI price observed in the market, 
 
 We are therefore faced with a situation that can be generalized quite easily, embodied by an entire field of engineering and called **control theory**:
 
-![control-theory](/img/2021/reflexer-rai/control-theory.png)
+![control-theory](img/2021/reflexer-rai/control-theory.png)
 
 In the case of RAI, **the controller is algorithmic** and again quite standard: it is the famous **"PID controller "**. It is based on a fairly dense mathematical formula that it is not necessary to understand in order to understand the relevance of the system.
 
@@ -113,7 +113,7 @@ We start with this situation because I think it is simpler to understand. In the
 2. Sale of RAI in the market for a profit;
 3. (When market price &lt; redemption) repurchase of RAI to pay off debt and release ETH. The difference between the 2 prices on RAI - fees in gas is the profit generated.
 
-![marchesupredemption](/img/2021/reflexer-rai/marchesupredemption-en.PNG)
+![marchesupredemption](img/2021/reflexer-rai/marchesupredemption-en.PNG)
 
 This situation is all the more interesting for those who already have safes with available capacity: they save themselves a step in the scenario presented above.
 
@@ -123,7 +123,7 @@ In this scenario, there is therefore an incentive to mint RAI (->increase supply
 
 In the opposite case, the redemption rate becomes positive, making the existing debt more expensive. Users with active safes have an interest in paying off their debt, which reduces the available supply of RAI.
 
-![marcheinfredemption](/img/2021/reflexer-rai/marcheinfredemption-en.png)
+![marcheinfredemption](img/2021/reflexer-rai/marcheinfredemption-en.png)
 
 In addition, if they had converted their RAI to another asset (e.g. ETH for leveraged exposure), they will have to acquire RAI in the market (->bullish pressure) in order to be able to repay their debt.
 
@@ -184,7 +184,7 @@ Fuse is a rather innovative money market since it allows the creation of pools b
 
 RAI is currently available in 3 asset pools with different risk levels and borrowable tokens:
 
-![fuse-rai](/img/2021/reflexer-rai/fuse-rai.png)
+![fuse-rai](img/2021/reflexer-rai/fuse-rai.png)
 
 ### RAI on Aave
 

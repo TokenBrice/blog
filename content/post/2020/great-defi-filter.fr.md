@@ -4,7 +4,7 @@ description: "Explorons de nouvelles perspectives pour mieux comprendre les frei
 date: '2020-05-27T11:53:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Adoption]
-image: /img/2020/great-defi-filter/cover.png
+image: img/2020/great-defi-filter/cover.png
 ---
 
 Quand on parle de DeFi, la question de l'adoption est si récurrente qu'elle déclenche maintenant presque automatiquement une réponse toute faite : "quelque chose à propos de l'UX, quelque chose sur la " scalabilité" & si vous êtes chanceux, "quelque chose à propos de la vie privée".

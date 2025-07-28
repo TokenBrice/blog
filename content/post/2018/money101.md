@@ -6,7 +6,7 @@ description: >-
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
-image: /img/2018/money101/cover.jpeg
+image: img/2018/money101/cover.jpeg
 ---
 
 
@@ -36,7 +36,7 @@ We must take our time to methodically deconstruct the tale in order to dismiss i
 
 Let’s study together the example that made the distinction between the two very clear to me: let’s say I burn a $20 bill — will any value be destroyed?
 
-![Thanks to the Joker for helping with the experiment](/img/2018/money101/joker.jpeg)
+![Thanks to the Joker for helping with the experiment](img/2018/money101/joker.jpeg)
 Thanks to the Joker for helping with the experiment
 
 Well… Simply no! What has been destroyed is my ability to claim the aforementioned value: I can’t exchange the ashes of my bill for a beer.
@@ -45,7 +45,7 @@ Well… Simply no! What has been destroyed is my ability to claim the aforementi
 
 Understanding the difference between a store of value and a claim upon value allows us to also understand **the obsession with circulating currency**. Indeed, money is not wealth by itself: as long as the money is not claimed (spent for goods or services), it has no contribution whatsoever to the wealth of the given country.
 
-![](/img/2018/money101/fly.gif)
+![](img/2018/money101/fly.gif)
 
 Let’s go back to our previous cash burning experiment to dig deeper: when I burnt my $20 bill, it had no impact on the GDP (Gross Domestic Product) of the USA. Yet, if I start to burn millions of dollars, we might start to see **secondary consequences** affecting the GDP: since there will be less money circulating, there might be less people using it to claim value (a beer, clothes…) and therefore an impact on the real economy of the country.
 
@@ -57,7 +57,7 @@ Putting a stop to the flow of money which would have changed hands without that 
 
 To get over with the myth of money as a store of value, let’s consider a third and last scenario. Let’s say I print a very **well done stash of counterfeit money **— everybody take it for the real one. Now I give out those bills to normal American citizens, and for the sake of the simplicity of this example, the FED doesn’t notice.
 
-![](/img/2018/money101/print.jpeg)
+![](img/2018/money101/print.jpeg)
 
 In that scenario, the happy citizens who got free real-like yet counterfeit bills will start spending them for goods and services — they will claim what is rightfully theirs because of their ownership of the bills, hence increasing the GDP of the country.
 
@@ -71,7 +71,7 @@ Let’s go back to the first tale about the origin of money presented in the beg
 
 We need to place some context to answer this question. We’re talking about a world where money doesn’t exist yet; hell, the very notion of “property” is even clear yet. **Of course there were exchanges, but the “exchange protocol” was very different that what we picture behind the idea of bartering**.
 
-![](/img/2018/money101/swap.jpeg)
+![](img/2018/money101/swap.jpeg)
 
 Premodern agricultural societies were largely self-sufficient: exchanges between the member of a given community followed informal systems based on relationships: the “economy” was powered by gifting and reciprocity.[^3]
 
@@ -85,7 +85,7 @@ In the premodern agricultural societies depicted above, barter also existed but 
 
 There could be another reason to explain why the tale of the evolution from bartering to currency is still prevalent. **To reconstruct the past, historians use remains found in modern times**. Coins stand the test of time. On the opposite, informal gift/counter-gift dynamics barely leave any traces behind them.[^4]
 
-![Helixism was born when Reddit started to play Pokemon, together ([Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) — [The Origin of Ancient Helixism](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)](/img/2018/money101/helixism.gif)
+![Helixism was born when Reddit started to play Pokemon, together ([Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) — [The Origin of Ancient Helixism](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)](img/2018/money101/helixism.gif)
 Helixism was born when Reddit started to play Pokemon, together ([Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) — [The Origin of Ancient Helixism](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)
 
 Moreover, the example frequently chosen to illustrate the bartering system are doubtful. We’re talking about `goat vs corn` deals, but is it realistic in the context of a premodern agricultural society? Since they were mostly auto sufficient, bartering was for goods that weren't required for the community's survival, since these were already produced within the community.
@@ -96,7 +96,7 @@ With the tale of the origins of money, banks look like mere intermediary. They p
 
 Yet, this skip **the crucial role played by banks in our current monetary systems: monetary creation**. For the sake of the easy-of-comprehension of this article, I won’t dive into the depths of it in here, a quick presentation of it will have to suffice. This mechanism is called the fractional-reserve banking.[^5]
 
-![fractional-reserve](/img/2018/money101/fractional-reserve.png)
+![fractional-reserve](img/2018/money101/fractional-reserve.png)
 
 Here is a short and (too) quick explanation — a central bank emit a monetary base allowing commercial banks to issue currency by themselves through loans. When Bob comes to Bank of America for a $10,000 loan, BA is not pulling money from its reserve to credit Bob’s account. No, what happens instead is this: the amount written in Bank of America’s ledger next to Bob’s name is increased by 10,000, and that’s pretty much it. The confidence is the banking system is preserved through mandatory reserve, corresponding to a fraction (~10%) of the loaned amount.[^6] Which leads us to our next point.
 
@@ -104,13 +104,13 @@ Here is a short and (too) quick explanation — a central bank emit a moneta
 
 Now that we are clear on monetary creation — made by bank and nothing more that an input on a ledger — let’s tackle the last myth surrounding money, the one that states that money became 0 and 1, bits stored somewhere on a server.
 
-![](/img/2018/money101/1000xcut.jpeg)
+![](img/2018/money101/1000xcut.jpeg)
 
 **In real life, the nature of money hasn’t changed**: the good old bank ledger is still authoritative. Its authority comes from the fact that it doesn’t exist in a vacuum: it draws its authority from the whole **political, societal and judiciary system that surround it**. The way we interact with the ledger (analog or digital) doesn’t reshuffle the decks.
 
 With credit cards, ATMs, online banking and all the others “innovations”, it might seem like our monetary system evolved. In reality, we’re still very close to our first monetary systems and our modern currencies follow pretty much the same rules as the old ones. **Innovations and changes happened mostly at the interface level: how we interact with the ledger.**
 
-![](/img/2018/money101/coins.jpeg)
+![](img/2018/money101/coins.jpeg)
 
 Most of the changes happened at the monetary creation level, it used to be much simpler and a state matter but the rest didn’t budge much. Our modern currencies share more with the Gold Franc[^7] - pardon my Frenchness - that we imagine. Disruption has yet to happen on currencies, what we had so far is barely a parade of facelifts.
 
@@ -148,7 +148,7 @@ I hope this article will provide you with a better understanding of money but mo
 
 It means that all the mechanisms we talked about and many more will be implemented and tested at scale. They already are: there are more than 1500 traded cryptocurrencies and easily another 10 thousands local, confidential or developed for learning purposes. You would like to mint your own coins too? Here’s a [guide to get started.](https://blog.ethereum.org/2015/12/03/how-to-build-your-own-cryptocurrency/)
 
-![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](/img/2018/money101/bricedollar.jpeg)
+![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](img/2018/money101/bricedollar.jpeg)
 Soon in your wallets: the Brice paper e-Dollar coin pegged on sand
 
 Beyond what blockchain can offer, maybe here lies the most valuable contribution of Satoshi. **By creating Bitcoin, he paved the way and reminded the whole world that minting money isn’t reserved to states** — it’s the business of regular people too: you, me, us, and even your computer illiterate grandma should have a say.

@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Liquity, C
 toc: true
 tocNum: true
 url: defi-janus
-image: /img/2021/defi-janus/defi-janus-cover-en.png
+image: img/2021/defi-janus/defi-janus-cover-en.png
 ---
 
 La mythologie est souvent utilisée pour illustrer la DeFi. Par exemple, on évoque souvent le dieu cananéen Moloch pour symboliser les enjeux de coordination. Aujourd'hui, je vais identifier avec vous une nouvelle divinité du panthéon DeFi : Janus.
@@ -32,7 +32,7 @@ Des mécanismes de **signalement** (Snapshot) permettent d'identifier les propos
 
 La plupart des systèmes de gouvernance fonctionnent encore sur la logique du **1 token = 1 vote**, attribuant ainsi le même poids à tous les possesseurs de tokens quelque soit leur attitude vis-à-vis du projet ou niveau d'engagement par rapport à celui-ci.
 
-![influence-governance](/img/2021/defi-janus/influence-governance.png)
+![influence-governance](img/2021/defi-janus/influence-governance.png)
 
 _Mesurer l'influence dans la gouvernance des protocoles DeFi - [source](https://twitter.com/Lsquaredleland/status/1411031620748943360)_
 
@@ -52,7 +52,7 @@ Enfin, la gouvernance souffre d'un véritable effet de masse : au fur et à mesu
 
 Un membre du forum de gouvernance MakerDAO a estimé son travail hebdomadaire de suivi et de participation à environ 40h par semaine, en augmentation constante :
 
-![maker-governance-overhead](/img/2021/defi-janus/maker-governance-overhead.png)
+![maker-governance-overhead](img/2021/defi-janus/maker-governance-overhead.png)
 
 ### Supports de la gouvernance
 
@@ -151,7 +151,7 @@ L'arrivée de Convex a démontré qu'un protocole mieux structuré en termes de 
 
 Ainsi, l'arrivée de Convex a mis Yearn face à ses contradictions et Yearn a essentiellement capitulé en intégrant Convex pour optimiser le rendement de ses vaults. Cela signifie désormais que **les utilisateurs de Yearn paient des frais à Convex et aident le protocole à accumuler plus de VeCRV** et creuser ainsi son écart avec Yearn - échec et mat pour Yearn sur Curve.
 
-![vecrv-par-dao](/img/2021/defi-janus/vecrv-par-dao.png)
+![vecrv-par-dao](img/2021/defi-janus/vecrv-par-dao.png)
 
 _Aperçu des veCRV possédés par les différentes DAO - source [Dune Analytics / Banteg](https://duneanalytics.com/banteg/misc)_
 
@@ -166,11 +166,11 @@ Plutôt que de prendre les frais prélevés comme un indicateur et donc une mesu
 
 Enfin, et même si c'est un sujet plus subjectif, la communication autour du projet est brouillone voire presque dérangeante parfois, par exemple [quand Yearn est comparé](https://thedefiant.io/yearn-revenues-projected-to-surpass-tradfis-fueled-by-thriving-community/) aux gestionnaires d'actifs classiques comme WealthFront ou BlackRock - je trouve ça assez déséquilibré puisque Yearn charge des frais similaires à ces structures mais opère dans un marché bien plus dynamique. En outre, de telles sociétés sont-elles réellement des modèles pertinents à avoir en DeFi ?
 
-![yearn-comp](/img/2021/defi-janus/yearn-comp.png)
+![yearn-comp](img/2021/defi-janus/yearn-comp.png)
 
 Si Yearn se compare aux gestionnaires d'actifs, c'est peut-être parce que la comparaison avec ses pairs DeFi est sans appel :
 
-![defi-asset-manager](/img/2021/defi-janus/defi-asset-manager.jpeg)
+![defi-asset-manager](img/2021/defi-janus/defi-asset-manager.jpeg)
 
 En outre, là où Convex travaille à permettre aux holdeurs cvxCRV de voter dans les décisions de la DAO Curve, Yearn s'octroie le contrôle sur la puissance de vote associée aux CRV déposés par ses utilisateurs sur le yveCRV. La même démarche s'observe sur les airdrops alloués aux holdeurs VeCRV : Yearn se les octroie pour acheter des CRV et sponsoriser son vault yveCRV tandis que Convex les rend accessibles à ses déposants.
 
@@ -184,7 +184,7 @@ Néanmoins **la machine est lancée** : Convex possède déjà plus de deux fois
 
 Côté Marker, de plus en plus de personnes commencent à souligner l'absurdité de la situation actuelle sur DAI, et les alternatives gagnent du terrain. En quelques semaines et avec seulement ETH comme collatéral accepté, Liquity a déjà attiré l'équivalent de plus de 40% de la valeur total déposée dans MakerDAO :
 
-![tokenterminal-tvl-maker-liquity](/img/2021/defi-janus/tokenterminal-tvl-maker-liquity.png "Comparaison des TVL MakerDAO vs Liquity")
+![tokenterminal-tvl-maker-liquity](img/2021/defi-janus/tokenterminal-tvl-maker-liquity.png "Comparaison des TVL MakerDAO vs Liquity")
 
 Sur Liquity, les frais d'emprunt sont bien plus bas, plus clairs, et distribués directement aux stakers de LQTY. Le service est ainsi plus ouvert et participatif que MakerDAO tout en étant brutalement plus efficace. Là encore, je pense qu'une refonte d'ampleur de MakerDAO serait nécessaire pour que le protocole retrouve sa pertinence et sa compétitivité.
 

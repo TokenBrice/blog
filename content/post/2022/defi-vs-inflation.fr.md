@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: false
 url: defi-vs-inflation
-image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
+image: img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 ---
 
 
@@ -49,7 +49,7 @@ _Dans ce second scénario, la nouvelle monnaie est utilisée pour couvrir une �
 
 Assez pour le macro, revenons à notre échelle, avec des choses que l’on connait bien. Voici  l'évolution de la masse monétaire M1 sur le dollar, cela permet de visualiser sa “marketcap” en quelque sorte :
 
-![USD M1 Supply](/img/2022/defi-vs-inflation/USD-m1-supply.png "Une représentation de l'évolution du total circulant d'une PARTIE des dollars")
+![USD M1 Supply](img/2022/defi-vs-inflation/USD-m1-supply.png "Une représentation de l'évolution du total circulant d'une PARTIE des dollars")
 
 _Ici on ne regarde que M1 par simplicité mais la tendance est similaire sur M2 et M3._
 
@@ -59,7 +59,7 @@ On s’intéresse ici au dollar qui, bien que challengé, reste la monnaie fiduc
 
 Pour  comparer avec la crypto, nombreux sont ceux qui se soucient de l’inflation / émission de nouveau token sur Curve Finance (CRV). La courbe d'émission sur 4 ans ressemble à ceci :
 
-![crv-release-schedule](/img/2022/defi-vs-inflation/crv-release-schedule.png "Courbe d'émission du token CRV")
+![crv-release-schedule](img/2022/defi-vs-inflation/crv-release-schedule.png "Courbe d'émission du token CRV")
 
 
 
@@ -89,7 +89,7 @@ Ici, le jeu est simple et les règles assez faciles à comprendre :
 
 On visera donc **un rendement 10.875% annuel sur stablecoin $ au strict minimum**. Avec les baisses récentes et la compression des rendements c’est de plus en plus difficile, mais encore trouvable même avec un dépôt dans un seul stablecoin sans risque d’IL. Des outils comme [Coindix](https://coindix.com/?kind=stable&sort=-apy&chain=ethereum) peuvent vous aider à trouver le vault de vos rêves :
 
-![coindix](/img/2022/defi-vs-inflation/coindix.png)
+![coindix](img/2022/defi-vs-inflation/coindix.png)
 
 
 Attention cependant, **tous les vaults ne se valent pas** ! Par exemple, on voit de beaux rendements sur Bancor sur la capture d’écran : n’oubliez pas de considérer la volatilité de ces rendements ainsi que les frais en gas pour déployer la position (un LP Bancor est notoirement plus coûteux qu’un dépôt sur Yearn par exemple).
@@ -104,7 +104,7 @@ Je le mentionne ici pour l’oublier aussi vite après : le protocole [Anchor](h
 
 Toujours en dollar, mais un peu plus risqué, on peut considérer différents types d’engagement, toujours en stablecoin dollar et avec des risques d’IL très maîtrisés. Par exemple, un apport de liquidité entre FRAX et DAI.
 
-![FRAX/DAI LP opportunities on Frax](/img/2022/defi-vs-inflation/frax-dai.png "Opportunités LP sur FRAX/DAI")
+![FRAX/DAI LP opportunities on Frax](img/2022/defi-vs-inflation/frax-dai.png "Opportunités LP sur FRAX/DAI")
 
 
 Ici, ca se passe chez [Frax Finance](https://frax.finance/), le taux de base (x1) correspond tout juste à notre objectif minimum, mais il est possible d’atteindre jusqu’à x5 avec deux types d’engagement :
@@ -118,7 +118,7 @@ Le rendement effectif d’une position verrouillée pour trois ans correspond à
 
 L’exemple est pris ici sur DAI, mais la situation est similaire sur les autres stablecoins majeurs ; par exemple, voici les pools FRAX/USDC :
 
-![FRAX/USDC LP opportunities](/img/2022/defi-vs-inflation/frax-usdc.png "Opportunités LP sur FRAX/USDC")
+![FRAX/USDC LP opportunities](img/2022/defi-vs-inflation/frax-usdc.png "Opportunités LP sur FRAX/USDC")
 
 {{< notice tip >}}
 Convex pour Frax arrive (optimisation du farming des LPs Frax via Convex), si vous n’avez pas vos propres veFXS, il est probablement pertinent d’attendre la sortie du service pour prendre une décision avec toutes les cartes en main.
@@ -134,7 +134,7 @@ Pour celle-ci, on s’appuie sur [APWine](https://apwine.fi/), un protocole qui 
 
 Restons sur des choses simples et tout de même largement au-dessus des 10% requis : faisons un zoom sur le vault aUSDT de [APWine](https://app.apwine.fi/):
 
-![APWine aUSDT vault](/img/2022/defi-vs-inflation/apwine-USDT-fr.png "Le vault aUSDT sur APWine")
+![APWine aUSDT vault](img/2022/defi-vs-inflation/apwine-USDT-fr.png "Le vault aUSDT sur APWine")
 
 
 J'exclue d’office la pool PT/FYT qui est plus complexe à comprendre et présente des risques bien plus conséquents que la PT/Underlying offrant un rendement en APW à 44% tout de même.
@@ -155,7 +155,7 @@ L’avantage ici, par rapport à Frax par exemple, c’est que **la position est
 
 Le troisième winelisting (là où sont décidés les prochains tokens supportés sur APWine) vient de s’achever, n’hésitez pas à vous y préparer :
 
-![APWine - Winelisting 3](/img/2022/defi-vs-inflation/apw-winelisting3.png "Les résultats du troisième winelisting sur APWine")
+![APWine - Winelisting 3](img/2022/defi-vs-inflation/apw-winelisting3.png "Les résultats du troisième winelisting sur APWine")
 
 
 APWine est encore un protocole jeune, mais la gouvernance est dynamique. La prochaine étape approche : tout comme sur Curve, ce seront bientôt les holders de veAPW (APW verrouillés) qui [décideront des émissions](https://gov.apwine.fi/t/apgp-2-enable-gauges-for-apw-rewards/171) pour chaque vault donné. Une redistribution des cartes est à envisager, prévoyez en connaissance de cause.
@@ -172,7 +172,7 @@ Outre les quelques stablecoins centralisés (EURS ou EURT) c’est un marché su
 
 Les opportunités natives de rendement sans IL sur de tels stablecoins sont encore assez rares, et se situent généralement sur Curve : l’apport de liquidité contre d’autres stablecoins basés sur la même monnaie fiduciaire, s’il y en a.
 
-![Pool CHF sur Curve Finance](/img/2022/defi-vs-inflation/curve-chf.png "Une pool CHF sur Curve Finance")
+![Pool CHF sur Curve Finance](img/2022/defi-vs-inflation/curve-chf.png "Une pool CHF sur Curve Finance")
 
 
 Seuls quelques stablecoins ont des options lucratives en dépôt simple jEUR, jCHF, jJPY. Elles s’appuient sur les pools Curve correspondantes, avec des incitations additionnelles offertes par Jarvis et d’autres projets.
@@ -188,7 +188,7 @@ Plus intéressant encore, surtout pour les portefeuilles plus modestes, de nombr
 
 Ainsi Jarvis propose des pools jCHF-USDC, jEUR-USDC ou encore jCAD-USDC avec des rendements supérieurs à 20%. Des outils comme [Harvest.Finance](https://harvest.finance/) ou encore [Beefy.Finance](https://beefy.finance/) peuvent être également utilisés pour composer automatiquement les rendements obtenus :
 
-![Harvest Network Jarvis jFIAT](/img/2022/defi-vs-inflation/harvest-jarvis-2-stables.png "Vaults jFIATs sur Harvest Finance")
+![Harvest Network Jarvis jFIAT](img/2022/defi-vs-inflation/harvest-jarvis-2-stables.png "Vaults jFIATs sur Harvest Finance")
 
 
 Attention : en fonction de votre actif de base (par ex USDC), s’exposer à de l’EUR (ou autre monnaie) peut être lucratif ou coûteux - tout dépend de l’évolution du taux de change USDC/EUR.
@@ -213,7 +213,7 @@ Là encore, l’addition des tokens votés lors du winelisting 3 va ouvrir de no
 
 Enfin, si les liquidations ne vous font pas peur, sachez qu’une pool Fuse sur Polygon ([Pool7 - Jarvis Forex Market](https://polygon.market.xyz/pool/7)) vous permet l’utilisation de différentes jFiat comme collatéral ainsi que pour emprunter. 
 
-![Fuse pool 7](/img/2022/defi-vs-inflation/fuse-pool7.png "Jarvis Forex Market (Fuse/Polygon/Pool7)")
+![Fuse pool 7](img/2022/defi-vs-inflation/fuse-pool7.png "Jarvis Forex Market (Fuse/Polygon/Pool7)")
 
 
 Avec un tel service, presque tout est possible, voici quelques exemples pour vous inspirer :
@@ -259,9 +259,9 @@ Malgré tout, diversifier une partie de ses stablecoins vers du RAI peut être u
 
 * Simple dépôt sans risque d’IL : Idle Finance déposez vos RAI dans Fuse/Aave pour optimiser le retour natif + incentives en FLX de Reflexer + incentives en IDLE.
 
-![RAI on Idle Finance](/img/2022/defi-vs-inflation/rai-idle-0.png "Le vault RAI sur Idle Finance")
+![RAI on Idle Finance](img/2022/defi-vs-inflation/rai-idle-0.png "Le vault RAI sur Idle Finance")
 
-![Additional FLX incentives for RAI on Idle Finance](/img/2022/defi-vs-inflation/rai-idle.png "Incentives FLX supplémentaire sur Idle/RAI")
+![Additional FLX incentives for RAI on Idle Finance](img/2022/defi-vs-inflation/rai-idle.png "Incentives FLX supplémentaire sur Idle/RAI")
 
 * En assumant des risques d’IL via un apport de liquidité sur Curve contre la 3pool, un meilleur rendement est possible. Le crvRAI peut ensuite être staké directement sur Curve ou via Convex ou encore Yearn.
 
@@ -377,7 +377,7 @@ Dernier tuyau : les stakers du LP FLX/ETH dans le Safety Module de Reflexer sont
 Voyez LOOKS comme une option sur le marché NFT. En effet, LooksRare est la première place de marché NFT qui partage ses revenus. Cela se traduit par **un rendement en ETH pour stakers de LOOKS qui a pu atteindre 3 chiffres soutenus pendant les premières semaines**.
 
 
-![ETH yields on LOOKS staking](/img/2022/defi-vs-inflation/looks-eth-farm.jpeg "Rendement de ~69 000 LOOKS stakés durant les deux premières semaines d’existence du protocole") 
+![ETH yields on LOOKS staking](img/2022/defi-vs-inflation/looks-eth-farm.jpeg "Rendement de ~69 000 LOOKS stakés durant les deux premières semaines d’existence du protocole") 
 
 Depuis, le volume de transactions a baissé et le rendement en ETH avec, mais **le staking LOOKS reste l’un des plus gros yields en ETH qui existe**.
 

@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Mar
 toc: true
 tocNum: false
 url: liquity-protocol
-image: /img/2021/liquity-protocol/cover-en.png
+image: img/2021/liquity-protocol/cover-en.png
 
 ---
 
@@ -58,7 +58,7 @@ Tout d'abord, le nerf de la guerre : les frais d'emprunt. À ce sujet et outre d
 
 En outre, chez Liquity les frais se paient en une fois, lors de la mise en place de l'emprunt : ce sont les “**initiation fees”, par défaut à 0.5%. Ce sont les seul frais que l'emprunteur paie, même s'il garde son trove pendant des années.**
 
-![liquity-trove](/img/2021/liquity-protocol/trove.png "Ouverture d'un trove sur Liquity")
+![liquity-trove](img/2021/liquity-protocol/trove.png "Ouverture d'un trove sur Liquity")
 
 
 C'est pourquoi Liquity est **idéal pour les positions à long terme**, de tels coûts d'emprunt sont effectivement 5-10x inférieur à ce qu’on peut trouver sur les principales alternatives.
@@ -88,7 +88,7 @@ Je vous le disais plus haut : Liquity n'a pas de gouvernance. Le système s'ajus
 Dans sa forme la plus basique, c'est un mécanisme comptable qui permet d'allouer les revenus générés par le protocole. LQTY peut être staké pour obtenir des LUSD correspondant à sa part des frais d'initiation et des ETH en provenance des frais de redemption :
 
 
-![lqty-staking-returns](/img/2021/liquity-protocol/lqty-staking-returns.png "Revenus pour les stakers LQTY")
+![lqty-staking-returns](img/2021/liquity-protocol/lqty-staking-returns.png "Revenus pour les stakers LQTY")
 
 Voilà pour les points essentiels sur Liquity et ses principales différences avec les solutions existantes. Néanmoins comme toujours le diable est dans les détails, donc maintenant que les bases sont établies je vous propose d'explorer les arcanes du protocole.
 
@@ -123,7 +123,7 @@ Le pegging de stablecoin, c'est une science assez dense, on ne va pas forcément
 
 Ainsi, bien que le LUSD tient relativement bien son peg à $1, on observe des fluctuations d'amplitude plus conséquentes que sur un stablecoin centralisé.
 
-![lusd-price](/img/2021/liquity-protocol/lusd-price.png "Valeur du LUSD sur 90 jours")
+![lusd-price](img/2021/liquity-protocol/lusd-price.png "Valeur du LUSD sur 90 jours")
 
 
 Différentes situations extrêmes au niveau du marché (et donc du protocole) peuvent également amener à envisager un LUSD qui s'écarte plus ou moins durablement du peg. Dans l'ensemble, les mécanismes de stabilisation sont là pour ramener l'équilibre sur le long-terme.
@@ -166,7 +166,7 @@ En utilisation normale, **Liquity est le protocole le plus permissif pour levera
 
 Si le protocole peut être aussi permissif, ce n'est pas parce qu'il prend plus de risques, mais plutôt parce que plusieurs solutions sont implémentées pour pousser les utilisateurs à re-collatéraliser lorsque cela est nécessaire : le recovery mode et les redemptions.
 
-![recovery-mode](/img/2021/liquity-protocol/recovery-mode.png)
+![recovery-mode](img/2021/liquity-protocol/recovery-mode.png)
 
 
 Le recovery mode est un jeu protocol-level sur Liquity : son déclenchement dépend du "Total Collateral Ratio" du protocole : le ratio entre l'ensemble des collatéraux et les LUSD dûs. 
@@ -214,7 +214,7 @@ Il y a tout d’abord les différents protocoles qui intègrent une ou plusieurs
 [Pickle Finance](https://app.pickle.finance/farms) propose un produit similaire (pJar 0.98l) ainsi qu’un vault particulier en partenariat avec B.Protocol pour maximiser les LQTY obtenus :
 
 
-![pickle-lusd](/img/2021/liquity-protocol/pickle-lusd.png "Vault LUSD B.Protocol sur Pickle Finance")
+![pickle-lusd](img/2021/liquity-protocol/pickle-lusd.png "Vault LUSD B.Protocol sur Pickle Finance")
 
 
 La source principale de liquidité pour LUSD c’est [la pool Curve](https://curve.fi/lusd), disponible  également avec Convex.
@@ -222,7 +222,7 @@ La source principale de liquidité pour LUSD c’est [la pool Curve](https://cur
 Côté liquidité sur le token LQTY, la situation est plus tendue mais s’améliore depuis le lancement du vault Uniswap V3 géré par [Visor](https://www.visor.finance/) qui offre également une nouvelle option pour farmer avec LQTY.
 
 
-![visor-uni-lqty](/img/2021/liquity-protocol/visor-uni-lqty.png)
+![visor-uni-lqty](img/2021/liquity-protocol/visor-uni-lqty.png)
 
 
 Liquity est également supporté sur [DeFiSaver](https://defisaver.com/), pour gérer plus aisément le levier et protéger les troves.
@@ -236,7 +236,7 @@ Voilà pour le tour d’horizon rapide des principales intégrations. Les DAOs s
 Les propriétés inhérentes du LUSD lui ont déjà valu de l’attention en DeFi. Par exemple, après avoir accumulé beaucoup de liquidité sur DAI et FRAX, Olympus s’est tourné vers LUSD avec l’accumulation de LUSD et LP Sushi LUSD/OHM via le mécanisme de bonds. LUSD est désormais un des principaux actifs possédés par OlympusDAO ([stats](https://dune.xyz/shadow/Olympus-(OHM))).
 
 
-![olympus-lusd](/img/2021/liquity-protocol/olympus-lusd.png)
+![olympus-lusd](img/2021/liquity-protocol/olympus-lusd.png)
 
 
 Les ohmies ne vont pas s’arrêter là : ils adorent les actifs productifs, et Liquity n’en manque pas : [le plan](https://forum.olympusdao.finance/d/177-tap-5-whitelist-liquity-lusd-stability-pool-and-lqty-staking) est donc que le protocole déploie ses LUSD dans la Stability Pool pour accumuler des LQTY qui seront également stakés.
@@ -253,7 +253,7 @@ D’autres protocoles en quête de résilience, diversification et stabilité po
 
 [Le top holder LUSD ](https://etherscan.io/token/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0#balances)compte ainsi déjà plusieurs DAOs et **tout comme pour RAI** je pense que la tendance peut s’accentuer :
 
-![lusd-holders](/img/2021/liquity-protocol/lusd-holders.png "Les 15 plus gros holders LUSD sur EtherScan")
+![lusd-holders](img/2021/liquity-protocol/lusd-holders.png "Les 15 plus gros holders LUSD sur EtherScan")
 
 
 D’autres intégrations sont encore envisageables, comme par exemple l’intégration directe de la stability pool sur une pool fuse pour permettre une utilisation plus optimale des actifs de la stability pool.

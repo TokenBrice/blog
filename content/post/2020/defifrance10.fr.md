@@ -4,7 +4,7 @@ description: "Retour sur l'évènement DeFi France X : le programme, la vidéo e
 date: '2020-10-01T10:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Compound, COMP, Yean Finance, Curve, CRV, SushiSwap, Sushi, Uniswap, UNI]
-image: /img/others/defi-france/defifranceX.png
+image: img/others/defi-france/defifranceX.png
 ---
 
 Hier soir nous nous sommes retrouvés la reprise des évènements avec DeFi France X. Avec des invités aux premières lignes de la finance décentralisée, nous avons fait le point sur les évènements impactants des trois derniers mois.
