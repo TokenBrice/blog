@@ -20,13 +20,23 @@ image: img/others/all-hail-ants.jpeg
 
 J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses débuts avec le lancement de MakerDAO. Depuis lors, j'ai partagé ma compréhension à travers divers canaux, y compris des émissions en direct, ce blog et mon compte Twitter.
 
-Toutes mes actions et mon implication dans l'espace suivent une seule étoile du nord : maximiser le nombre de protocoles sans confiance disponibles, et leur reconnaissance. À cette fin, j'ai co-fondé [The DeFi Collective](https://deficollective.org/) avec Nils Bundi et Florian Prantl en octobre 2023, une organisation à but non lucratif qui exploite DeFi pour s'auto-financer et soutenir toutes les initiatives pertinentes visant à renforcer la forme la plus décentralisée de finance décentralisée (DeFi).
+Toutes mes actions et mon implication dans l'espace suivent le même but : maximiser le nombre de protocoles trustless disponibles, et leur reconnaissance. À cette fin, j'ai co-fondé [The DeFi Collective](https://deficollective.org/) avec Nils Bundi et Florian Prantl en octobre 2023, une organisation à but non lucratif qui exploite DeFi pour s'auto-financer et soutenir toutes les initiatives pertinentes visant à renforcer la forme la plus décentralisée de finance décentralisée (DeFi).
 
-Notre dernier et plus important projet à ce jour est DeFiScan, le "L2beat de la décentralisation des protocoles", lancé en octobre 2024. [DeFiScan](https://www.defiscan.info/) fournit aux utilisateurs, aux DAOs et aux institutions une évaluation approfondie de la décentralisation des protocoles DeFi. C'est essentiellement la police DeFi, aidant les utilisateurs à déterminer l'état effectif de décentralisation des principaux protocoles DeFi, car les communications des équipes sur le sujet ont tendance à être peu fiables, sinon trompeuses.defiscan-preview
+Notre dernier et plus important projet à ce jour est DeFiScan, le "L2beat de la décentralisation des protocoles", lancé en octobre 2024. [DeFiScan](https://www.defiscan.info/) fournit aux utilisateurs, aux DAOs et aux institutions une évaluation approfondie de la décentralisation des protocoles DeFi. C'est essentiellement la police DeFi, aidant les utilisateurs à déterminer l'état effectif de décentralisation des principaux protocoles DeFi, car les communications des équipes sur le sujet ont tendance à être peu fiables, sinon trompeuses.
+
+
+  - |  
+--------|------
+                ![defiscan-preview](img/others/defiscan-preview-stats.png) | ![defiscan-preview](img/others/defiscan-preview-ratings.png)
+ |
+
+
 
 ------
 
-Que fais-je ?Je travaille à développer l'écosystème de la finance décentralisée Ethereum tout en veillant à ce qu'il reste aligné sur ses valeurs fondamentales de sans confiance, accessibilité, résilience et sans permission.Principal
+## Que fais-je ?
+
+Je travaille à développer l'écosystème de la finance décentralisée Ethereum tout en veillant à ce qu'il reste aligné sur ses valeurs fondamentales de sans confiance, accessibilité, résilience et sans permission.Principal
 
 ### Principaux Projets
 

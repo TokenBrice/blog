@@ -23,7 +23,12 @@ All my actions and involvement in the space follow a single north star: maximizi
 
 Our latest and most significant endeavour to date is DeFiScan, the "L2beat of protocol decentralization", launched in October 2024. **[DeFiScan](https://www.defiscan.info/)** provides users, DAOs, and institutions with an in-depth assessment of DeFi's protocols' decentralization. It's essentially the DeFi police, helping users determine the effective decentralization state of the main DeFi protocols, as the teams' communications on the matter tend to be unreliable, if not misleading.
 
-![defiscan-preview](img/others/defiscan-preview.png)
+  - |  
+--------|------
+                ![defiscan-preview](img/others/defiscan-preview-stats.png) | ![defiscan-preview](img/others/defiscan-preview-ratings.png)
+ |
+
+
 
 ---
 
