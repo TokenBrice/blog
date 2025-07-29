@@ -1,7 +1,7 @@
 ---
 title: "Découverte"
 description: "Pour explorer des concepts et idées nouveaux"
-slug: "Découverte"
+slug: "discovery"
 image: "discovery.jpg"
 style:
     background: "#2a9d8f"
