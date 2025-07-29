@@ -4,19 +4,19 @@ links:
   - title: Twitter
     description: Pour le sucré et le salé
     website: http://x.com/tokenbrice/
-    image: img/others/x.png
+    image: /img/others/x.png
   - title: Le canal Telegram pour l'alpha
     description: Pour les alertes lives et nouveaux articles
     website: http://t.me/tokenbrice_news
-    image: img/others/telegram.jpg
+    image: /img/others/telegram.jpg
   - title: YouTube pour les replays
     description: Les replays des lives sont publiés sur YouTube
     website: https://www.youtube.com/@Token_Brice 
-    image: img/others/youtube.jpg
+    image: /img/others/youtube.jpg
   - title: Farcaster, CT mais différent
     description: Pas encore très actif par là bas
     website: https://hey.xyz/u/tokenbrice
-    image: img/others/farcaster.jpg
+    image: /img/others/farcaster.jpg
   - title: GitHub
     description: Utilisé pour héberger et rendre blog
     website: https://github.com/TokenBrice/

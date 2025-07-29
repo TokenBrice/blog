@@ -64,7 +64,9 @@ params:
         avatar:
             enabled: true
             local: false
-            src: "https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/main/static/img/main/emblem-color-square-150.png"
+            src: /img/main/emblem-color-square-150.png
+
+
     article:
         math: false
         toc: true
