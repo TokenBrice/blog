@@ -18,7 +18,7 @@ First, let me start with a disclaimer: there are two core components to a DEX th
 1. The liquidity structures it provides (x*y=k, stableswap, CL, stableswap-NG, curve V2, etc.)
 2. The incentives model, which for a DEX is synonymous with its tokenomics.
 
-This post focuses on the latter, the core of [Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism)'s innovation. This post assumes basic familiarity with Curve’s veCRV tokenomics; if not, I urge you to [read my previous writing about it](https://tokenbrice.xyz/fr/crv-wars), posted three years ago but still helpful to understand the model.
+This post focuses on the latter, the core of [Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism)'s innovation. This post assumes basic familiarity with Curve’s veCRV tokenomics; if not, I urge you to [read my previous writing about it](https://tokenbrice.xyz/crv-wars), posted three years ago but still helpful to understand the model.
 
 
 ## A/ veCRV/veVELO Fees Collection & Distribution
