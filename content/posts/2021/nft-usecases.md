@@ -17,7 +17,7 @@ Today I would like to leave theory aside as much as possible and focus on **the 
 
 ![88DeLorean](/img/2021/nft-usecases/88DeLo.png "The DeLorean 88MPH, an NFT at the center of a small experiment that you will read about below")
 
-I'm not going to explain the basic features offered by NFTs. I published an article in 2018 that covered the basics and which is still relevant to date. **[Non-fungible Tokens Explained by Blastoise and Charizard](https://tokenbrice.xyz/content/posts/2018/nft.md)**.
+I'm not going to explain the basic features offered by NFTs. I published an article in 2018 that covered the basics and which is still relevant to date.
 
 {{< notice note >}}
 
@@ -141,7 +141,7 @@ Here is a primitive vision of the "endgame" that I foresee, at the crossroads of
 
 If NFTs are coming to games, the reverse is also true: games and NFTs are also coming into DeFi.
 
-It all started very simply, with an approach that every DeFian knows well: **This is the concept of [Meme](http://dontbuymeme.com/), where the user stakes MEME tokens to obtain points (pineapples) used to obtain the desired NFTs.**
+It all started very simply, with an approach that every DeFian knows well: **This is the concept of Meme, where the user stakes MEME tokens to obtain points (pineapples) used to obtain the desired NFTs.**
 
 There are no other fees than gas costs of the various operations and potentially a minting fee paid in ETH for some coins. Even so, many coins are highly desirable and wanted on the secondary market.[^5]
 
@@ -149,7 +149,7 @@ Meme is now several months old and has become a service that has managed to surp
 
 For example, Meme was used to support a game with BadgerDAO. By depositing bBADGER or UNIv2 BADGER/wBTC tokens, users could farm 6 different NFTs related to the project universe. The first player to assemble all 6 different NFTs was able to open a smart contract and receive a nice amount of BADGER tokens as a bonus. **In addition, the possession of these NFTs served as a bonus factor on the distribution (airdrop) of the DIGG token.** The [second part of the Badger NFT game](https://badgerdao.medium.com/badger-x-meme-nft-honeypot-part-ii-diamond-hands-7111d38b5df4) has just begun.
 
-Other services use Meme with a similar approach : the YOP platform proposes to [farm "tickets"](https://dontbuymeme.com/collections/yop) of different rarities. They will potentially allow **access before the general public, once the service is available.** Here we find the community dimension of NFTs.
+Other services use Meme with a similar approach : the YOP platform proposes to farm "tickets" of different rarities. They will potentially allow **access before the general public, once the service is available.** Here we find the community dimension of NFTs.
 
 88MPH is doing something similar **by offering NFTs to the biggest users of its new products a few weeks after their launch**. Holding such an NFT would also be an excellent criterion to target the most relevant users to test the new versions and participate more actively in the development of the project (purely an illustration on my part, there has been no official announcement in this sense to my knowledge).
 

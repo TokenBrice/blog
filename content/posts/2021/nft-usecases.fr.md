@@ -17,7 +17,7 @@ Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me
 
 ![Moloch](/img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
 
-Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci : **[Les tokens non fongibles expliqués par Tortank et Dracaufeu](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**.
+Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci.
 
 {{< notice note >}}
 
@@ -105,7 +105,7 @@ Le site le plus couramment utilisé est probablement [OpenSea](https://opensea.i
 
 D'autres services existent, avec des approches plus curatives, comme par exemple [Foundation](https://foundation.app/) qui est sélectif sur ses artistes et où chaque œuvre est un exemplaire unique.
 
-Chaque service vient avec des modalités différentes et des types de NFT parfois différents également : **[ERC-721 ou 1155 expliqué ici](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
+Chaque service vient avec des modalités différentes et des types de NFT parfois différents également. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
 
 ### NFT + Jeux-vidéos, sous toutes leurs formes
 
@@ -152,7 +152,7 @@ Meme a désormais plusieurs mois et est devenu un service qui a réussi à dépa
 
 Ainsi, Meme a servi de support à un jeu avec BadgerDAO. En déposant des tokens bBADGER ou UNIv2 BADGER/wBTC, les utilisateurs ont pu farmer 6 NFTs différents relatifs à l'univers du projet. **Le premier joueur qui a assemblé les 6 NFTs différents a pu ouvrir un coffre** (smart contract) et recevoir une belle quantité de tokens BADGER en bonus. En outre, la possession de ces NFTs a servi de facteur bonus sur la distribution (airdrop) du token DIGG. [La seconde partie du jeu NFT de Badger](https://badgerdao.medium.com/badger-x-meme-nft-honeypot-part-ii-diamond-hands-7111d38b5df4) vient de commencer.
 
-D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de [farmer des "tickets"](https://dontbuymeme.com/collections/yop) de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs. 
+D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de farmer des "tickets" de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs. 
 
 88MPH fait quelque chose de similaire **en offrant des NFTs aux plus grands utilisateurs de ses nouveaux produits quelques semaines après leur lancement.** La possession d'un tel NFT serait également un excellent critère pour cibler les utilisateurs les plus pertinents pour tester les nouvelles versions et participer plus activement au développement du projet (pure illustration de ma part, il n'y a pas eu d'annonce officielle en ce sens à ma connaissance).
 
