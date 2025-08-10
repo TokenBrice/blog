@@ -5,9 +5,8 @@ date: '2024-07-01T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, Tapioca, Dyad, TAP, USDO, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate, veCRV, veVELO, twTAP]
 url: lending-protocol-renaissance
+image: /img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 ---
-
-![0-lending-protocol-renaissance-cover](/img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png)
 
 In the last few months, we’ve seen a flurry of novel and exciting lending protocols come to market, such as Morpho, DYAD, Fluid, or Tapioca; even more are expected in the coming months, such as Liquity V2 (Bold) or Euler V2. All are innovative, in the arena, trying things to the point that I wonder if we’re not experiencing a lending protocol renaissance after a few years of rehashing the same concepts.
 

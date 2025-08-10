@@ -7,13 +7,14 @@ tags: [DeFi, Ethereum, Decentralized Finance, Maverick, veMAV, DEX, Liquidity, L
 toc: false
 tocNum: false
 url: maverick-liquidity-shaping
+image: /img/2023/liquidity-shaping-maverick/cover.png
+
 ---
 
 It's been four months since Maverick is out, and a few days since the MAV token joined the fray. Yet, most of DeFi is still scratching its head regarding how Maverick delivers 2-3x the capital efficiency of its top competitor, Uniswap. 
 
 So the time was right for a deep dive into the innovations brought by the model and the new paradigm it fosters regarding liquidity management: **liquidity shaping**.
 
-![cover.png](/img/2023/liquidity-shaping-maverick/cover.png)
 
 ## Innovations on DEX? More like tools for LP to express themselves
 

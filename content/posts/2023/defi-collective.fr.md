@@ -5,10 +5,8 @@ date: '2023-10-16T01:13:50.191Z'
 categories: [Projets]
 tags: [DeFi, Ethereum, Finance Décentralisée, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
+image: /img/2023/defi-collective/twitter_banner.png
 ---
-
-![cover](/img/2023/defi-collective/twitter_banner.png)
-
 
 [Présentation du DeFi Collective](https://deficollective.org)
 

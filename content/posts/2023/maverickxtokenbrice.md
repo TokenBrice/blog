@@ -7,11 +7,11 @@ tags: [DeFi, Ethereum, Decentralized Finance, DEX, Liquidity]
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
+image: /img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
+
 ---
 
 This post is more of a personal announcement: I wanted to let you know what I am up to and what's happening with Maverick. So let's not beat around the bush: I'm thrilled to announce that **I'm supporting the Maverick team as an advisor, helping with the growth strategy, tokenomics, and business development.**
-
-![maverick-x-tokenbrice-cover](/img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png)
 
 ### Storytime
 

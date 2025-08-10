@@ -5,6 +5,7 @@ date: '2023-09-15T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Interest Rate]
 url: stablecoin-marauder-map
+image: /img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 ---
 
 Wild new stablecoins are constantly appearing, and with the multiplication of chains, layers, and viable stablecoin models the trend is not stopping anytime soon. **Navigating the stablecoin landscape is turning into a critical skill for DeFi**.
@@ -27,9 +28,6 @@ Remember that there is a lot of redundancy between the two metrics as stablecoin
 {{< /notice >}}
 
 Now, let’s dive in! As we consider the various designs harnessed to deliver decentralized stablecoins, I’ll illustrate the mechanisms discussed using examples from live projects: picture this article as recipe book meets marauder map on the topic of decentralized stablecoins.
-
-![stablecoin-marauder-map-cover](/img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png "Overview of the decentralized stablecoin landscape")
-
 
 ## HOW TO BUILD A DECENTRALIZED STABLECOIN
 

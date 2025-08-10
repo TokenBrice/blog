@@ -5,17 +5,16 @@ date: '2024-03-21T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 url: crv-vs-velo
+image: /img/2024/crv-vs-velo/cover.png
 ---
 
 Today, I want to address Velodrome/Aerodrome, a genuine success story in DeFi. I’ve covered DEXes extensively on this blog, especially Curve: this article will compare the two models and explain how Velodrome improved on the veCRV template.
-
-![crv-vs-velo-cover](/img/2024/crv-vs-velo/cover.png)
 
 First, let me start with a disclaimer: there are two core components to a DEX that everyone needs to be aware of to understand what follows:
 
 
 
-1. The liquidity structures it provides (x*y=k, stableswap, CL, stableswap-NG, curve V2, etc.)
+1. The liquidity structures it provides (x\*y=k, stableswap, CL, stableswap-NG, curve V2, etc.)
 2. The incentives model, which for a DEX is synonymous with its tokenomics.
 
 This post focuses on the latter, the core of [Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism)'s innovation. This post assumes basic familiarity with Curve’s veCRV tokenomics; if not, I urge you to [read my previous writing about it](https://tokenbrice.xyz/crv-wars), posted three years ago but still helpful to understand the model.

@@ -7,9 +7,8 @@ tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending
 toc: false
 tocNum: false
 url: jr-strategist
+image: /img/2023/jr-strategist/jr-strategist-cover.png
 ---
-
-![cover](/img/2023/jr-strategist/jr-strategist-cover.png)
 
 I'm looking for a Junior DeFi Strategist to join me on my daily DeFi adventures, learn and grow. The fundamental missions are governance proposals, liquidity management, business development, and partnerships, but the scope is quite flexible.
 

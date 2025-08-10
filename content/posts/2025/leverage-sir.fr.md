@@ -5,11 +5,10 @@ date: '2025-03-12T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Finance Décentralisée, DeFi, Effet de Levier, Protocole Immuable, Prêt, Polynomial]
 url: leverage-sir
+image: /img/2025/leverage-sir/leverage-sir-cover.jpg
 ---
 
 Il y a quelques semaines, Sir Trading, une nouveau protocole DeFi fascinant et innovant, a été lancée, et je suis rapidement tombé amoureux. J'ai également décidé de m'impliquer, alors bienvenue dans cet article qui présente Sir Trading, explique ce que j'ai trouvé intéressant dans le modèle et annonce mon implication en tant que conseiller.
-
-![leverage-sir-cover](/img/2025/leverage-sir/leverage-sir-cover.jpg)
 
 ## Sir.Trading expliqué comme une entreprise
 

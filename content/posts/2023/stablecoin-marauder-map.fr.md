@@ -5,6 +5,7 @@ date: '2023-09-15T01:13:50.191Z'
 categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, stablecoins, Actifs stables, Marchés monétaires, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Taux d’intérêt]
 url: stablecoin-marauder-map
+image: /img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 ---
 
 De nouveaux stablecoins plus ou moins décentralisés émergent chaque jour, et avec la multiplication des modèles dont ils s’inspirent, des blockchains et des couches (layers 2), la tendance n'est pas prête de s'arrêter. **Naviguer dans le paysage des stablecoins devient une compétence essentielle en DeFi**.
@@ -27,8 +28,6 @@ N'oubliez pas que ces deux mesures sont redondantes, car les stablecoins sont la
 {{< /notice >}}
 
 Et maintenant, le vif du sujet ! Au fur et à mesure que nous examinerons les modèles de stablecoins décentralisés utilisés, j'illustrerai leurs mécanismes avec des exemples issus de projets réels : imaginez cet article à la croisée d’un livre de recettes et d’une carte de maraudeur, mais sur le thème des stablecoins décentralisés.
-
-![stablecoin-marauder-map-cover](/img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png "Vue d'ensemble du paysage des stablecoins décentralisés")
 
 
 ## COMMENT CONSTRUIRE UN STABLECOIN DÉCENTRALISÉ
