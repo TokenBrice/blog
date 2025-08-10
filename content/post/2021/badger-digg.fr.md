@@ -20,7 +20,7 @@ BadgetDAO est un projet communautaire avec une proposition de valeur claire : ai
 
 La première couche de cet oignon est assez simple : Badger offre un service de type Yearn pour les BTC sur Ethereum : les utilisateurs peuvent déposer des tokens représentant une position dans un pool de BTC Curve pour gagner BADGER & DIGG en plus de l'APY natif.
 
-![badger-stats](/img/2021/badger-digg/badger-stats.png/ "Aperçu des principales métriques de Badger avec Sett.Vision")
+![badger-stats](/img/2021/badger-digg/badger-stats.png "Aperçu des principales métriques de Badger avec Sett.Vision")
 
 Il existe également des vaults (appelés "setts") pour BADGER et DIGG eux-mêmes, ainsi que leurs tokens LP respectifs sur Uniswap et SushiSwap.
 
@@ -34,9 +34,9 @@ Cette proposition de valeur n'est pas nouvelle en soi et aurait pu être fournie
 
 Depuis le début, la communauté a été mise au centre avec Badger. C'est clairement visible simplement en regardant les distributions de tokens [^1] :
 
-![aperçu de la distribution de badger](/img/2021/badger-digg/badger-breakdown.png/ "Aperçu de la distribution initiale du token BADGER")
+![aperçu de la distribution de badger](/img/2021/badger-digg/badger-breakdown.png "Aperçu de la distribution initiale du token BADGER")
 
-![aperçu de la distribution de digg](/img/2021/badger-digg/digg-breakdown.png/ "Aperçu de la distribution initiale du token DIGG")
+![aperçu de la distribution de digg](/img/2021/badger-digg/digg-breakdown.png "Aperçu de la distribution initiale du token DIGG")
 
 En effet, les deux plus grandes parts du total circulant des deux tokens ont été allouées au programme de liquidity mining - récompensant les utilisateurs actifs du protocole ainsi que la trésorerie du DAO chargée de structurer les opérations à long terme du protocole et sa croissance.
 
@@ -48,7 +48,7 @@ En plus de l'élan créé par le lancement et la distribution initiale, la commu
 
 Au total, 6 NFTs différents étaient disponibles et le premier à les collecter pouvait réclamer une prime BADGER. Le fait d'être détenteur ou farmer de ces NFT a été reconnu dans la distribution initiale de DIGG et leur inclusion dans Badger comme multiplicateur de rendement est en cours de discussion.
 
-![un NFT Meme-Badger](/img/2021/badger-digg/badger-nft-satoshi.gif/ "Un des 6 Badger x Meme NFTs - Satoshi")
+![un NFT Meme-Badger](/img/2021/badger-digg/badger-nft-satoshi.gif "Un des 6 Badger x Meme NFTs - Satoshi")
 
 {{< notice tip >}}
 Si vous êtes très optimiste sur le prix d'un token à court terme, c'est généralement une mauvaise idée d'entrer dans une position à 50/50 fournissant des liquidités sur celui-ci, surtout si vous vous attendez à ce que l'autre actif de la paire (ETH, stablecoins ou ici wBTC) reste relativement stable sur la même période. Si vous craignez que ce scénario se produise avec Badger ou DIGG, vous pouvez déposer dans les coffres-forts de BADGER ou de DIGG uniquement (pas de risque de perte impermanente).
@@ -68,7 +68,7 @@ Le lancement de DIGG était un événement très attendu. Alors que de l'extéri
 
 Après discussion au sein de la communauté, il a été décidé de partir avec une offre de départ relativement faible (4000) permettant un **test de stress dès le début du mécanisme de rebase**. Les rebases ont également commencé dès le tout début - 24h après le lancement du token.
 
-![wen-digg](/img/2021/badger-digg/wen-digg.jpeg/ "Wen DIGG meme contest")
+![wen-digg](/img/2021/badger-digg/wen-digg.jpeg "Wen DIGG meme contest")
 
 Badger étant Badger, la machine à hype était bien sûr au point avec un concours de mèmes "Wen DIGG ?" pour s'assurer que tout le monde soit au courant. 
 

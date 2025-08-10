@@ -6,6 +6,7 @@ categories: [Projects]
 tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
+image: /img/others/defifrance.png
 ---
 
 As I move on with the next chapter of my involvement in the DeFi space, I wanted to take the time to write a rare personal statement to share my story and what's coming next.
