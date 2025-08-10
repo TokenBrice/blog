@@ -4,7 +4,7 @@ description: >-
   Blockchains are the future, let’s make sure they live by its standards: the
   people of tomorrow are diverse and inclusive, so why can’t we?
 date: '2019-05-07T11:39:41.016Z'
-categories: [Opinions]
+categories: [Analysis]
 tags: [Diversity, Proof of Stake, Lightning Network]
 ---
 

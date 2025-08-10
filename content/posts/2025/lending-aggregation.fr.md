@@ -5,11 +5,10 @@ date: '2025-08-10T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregator, Fluid, Euler]
 url: lending-aggregation
+image: img/2025/lending-aggregation/lending-aggregation-cover.png
 ---
 
 Quelque chose de grand se passe dans le prêt onchain. Sous la surface, un changement discret est en train de remodeler la façon dont la liquidité se déplace, dont les marchés se connectent et dont les utilisateurs accèdent au rendement. Une vague de nouveaux modèles, d'intégrations et d'étoiles montantes comme Euler et Fluid ont réécrit les règles avec une efficacité et une flexibilité sans précédent. Une nouvelle couche de coordination émerge et pourrait redéfinir le prêt lui-même : aujourd'hui, nous levons le voile sur l'agrégation de prêts.
-
-![lending-aggregation-cover](/img/2025/lending-aggregation/lending-aggregation-cover.png)
 
 ## Le Cycle de l'Agrégation
 
