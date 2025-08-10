@@ -1,6 +1,6 @@
 ---
 title: "Understanding"
-description: "Deep-dives of key DeFi concepts"
+description: "Deep-dives of key DeFi concepts tranversal to protocols and necessary to grasp"
 slug: "Understanding"
 image: "understanding.jpg"
 style:

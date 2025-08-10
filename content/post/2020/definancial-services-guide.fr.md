@@ -6,6 +6,7 @@ categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, Apport de Liquidité, Prêt, Actifs Synthétiques, Immobilier Tokénisé]
 toc: true
 tocNum: false
+image: /img/2020/definancial-services-guide/cover-fr.jpeg
 ---
 
 Bienvenue dans le nouveau monde !
@@ -13,8 +14,6 @@ Bienvenue dans le nouveau monde !
 Si vous arrivez ici, c'est que vous avez déjà probablement entendu parler d'Ethereum et de la finance décentralisée. C'est parfait ! Aujourd'hui on passe de la parole aux actes en considérant comment utiliser la DeFi pour améliorer vos finances.
 
 Cet article vous présentera 6 stratégies qui permettent de générer un retour grâce à la DeFi, avec leurs variantes. On commencera par les stratégies de management passif avant d'explorer progressivement celles qui requièrent plus d'intervention et présentent plus de risques mais sont également bien plus lucratives.
-
-![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover-fr.jpeg)
 
 Avant de commencer, JE VOUS PRIE ET SUPPLIE de lire les avertissements qui vont suivre relatifs à la gestion du gaz et au risque.
 

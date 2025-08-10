@@ -4,11 +4,10 @@ description: "A quick primer to help players of DeFi food-based moneygames to un
 date: '2020-08-26T01:13:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
+image: /img/2020/defi-moneygames/cover.png
 ---
 
 Food-based social moneygames are all the rage in decentralised finance. Today, I wanted to write a quick piece to provide some context on them, as well as some tips for those who want to. I'll not pass moral judgement on such projects, I leave it up to you.
-
-![defi-moneygames-cover-tokenbrice](/img/2020/defi-moneygames/cover.png "Welcome! I hope you're hungry.")
 
 The launch of Yearn Finance last month was probably the most significant event of the year for DeFi. If you are not familiar at all with Yearn, check this intro: **[YearnFinance - DeFi on autopilot?](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md)** - it will be helpful to better understand today's article.
 

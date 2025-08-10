@@ -4,6 +4,7 @@ description: "Il n'aura fallu que quelques jours après la sortie de Yearn Finan
 date: '2020-08-11T01:13:50.191Z'
 categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Prêts, Aave, Compound, BzX, Curve, yVault, Stablecoins, Leveraging, YFI, Yearn, Yearn Finance]
+image: /img/2020/yearn-finance-YFI/wifeys.jpg
 ---
 
 Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (prononcé "Waifu") ont ébranlé le monde de la finance décentralisée. En effet, toute la recette était là : Yearn est comme un conseiller automatique, il vous aide à économiser et à faire fructifier un capital - évidemment l'un des cas d'utilisation les plus en vogue. 
@@ -11,8 +12,6 @@ Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (pr
 Plus que le produit lui-même, c'est son fondateur André Cronje qui  a été intrumental pour définir la "culture" Yearn. **Son choix d'ouvrir complètement la gouvernance**, a dynamisé une communauté qui s'est rapidement fédérée autour du projet.
 
 Avec cette article, je veux partager aujourd'hui quelques indications pour comprendre pourquoi Yearn a vu le jour, comment il fonctionne et pourquoi il est important.
-
-![La Famille YFI](/img/2020/yearn-finance-YFI/wifeys.jpg "YFI est open source et a déjà de très nombreux forks")
 
 ## Qu'est-ce que Yearn ?
 

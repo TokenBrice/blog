@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Ethereum, Outils, Discord, Dons, Stats, Jeux Cryptos, Airdrop]
 toc: true
 tocNum: false
+image: /img/2020/tipbot/cover.png
 ---
 
 ## A/ Introduction	
@@ -13,8 +14,6 @@ tocNum: false
 Bienvenue dans ce guide d’utilisation en français pour tip.cc. Vous y découvrirez son but, son utilité, et comment s’en servir avec les commandes principales du bot Discord.
 
 Cette traduction est officieuse, et j’espère seulement apporter de la visibilité pour tip.cc à la communauté francophone, en lui donnant l’outil pour apprendre à s’en servir à son plein potentiel.
-
-![tipbotcc-cover](/img/2020/tipbot/cover.png)
 
 {{< notice note >}}
 Ce guide a été rédigé par **Loico** du [Discord francophone CryptoMatrix](https://discord.gg/mW94vUU). 🙏 Un grand merci à lui !

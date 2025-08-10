@@ -4,11 +4,11 @@ description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de 
 date: '2020-09-18T01:13:50.191Z'
 categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, YFV, YFII, YFL, FARM, Harvest Finance]
+image: /img/2020/yearn-waifus/cover.jpg
 ---
 
 À chaque jour son nouveau fork de Yearn Finance : comment les suivre ? Il n'y a pas de réponse simple, mais je pense pouvoir **vous fournir quelques éléments pour vous aider à repérer les fork de YFI à fort potentiel**. Pour ce faire, je vais couvrir trois (+1) fork YFI et essayer de mettre le doigt sur ce qui les rend intéressants.
 
-![Yearn's Fork Waifus](/img/2020/yearn-waifus/cover.jpg) 
 
 Yearn est plus que le produit Yearn.Finance lui-même : il est devenu un modèle pour lancer un projet, parfois appelé "lancement équitable". Yearn a été le pionnier de cette méthode qui repose sur trois éléments clés :
 

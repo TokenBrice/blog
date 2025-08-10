@@ -4,11 +4,10 @@ description: "Un peu de contexte sur les DeFi moneygames (YAM, PASTA, BASED, etc
 date: '2020-08-26T01:13:50.191Z'
 categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
+image: /img/2020/defi-moneygames/cover.png
 ---
 
 Les moneygames alimentaires font fureur dans la finance décentralisée. Aujourd'hui, je voulais écrire un petit article pour les mettre en contexte et donner quelques conseils à ceux qui le souhaitent. Je ne porterai pas de jugement moral sur ces projets, je vous laisse le soin de le faire.
-
-![defi-moneygames-cover-tokenbrice](/img/2020/defi-moneygames/cover.png "Bienvenue ! J'espère que vous avez faim.")
 
 Le lancement de Yearn Finance le mois dernier a probablement été l'événement le plus important de l'année pour DeFi. Si vous ne connaissez pas du tout Yearn, je vous recommande de lire mon article sur le sujet pour vous rafraîchir la mémoire - il vous sera utile de mieux comprendre celui-ci : **[YearnFinance - La DeFi avec pilote automatique ?](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md)**
 

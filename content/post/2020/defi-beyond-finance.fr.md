@@ -4,6 +4,7 @@ description: "Une analyse des principes fondamentaux de la DeFi qui souligne les
 date: '2020-12-01T01:13:50.191Z'
 categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin, Communs, NFT, BanklessFR]
+image: /img/2020/defi-beyond-finance/cover.png)
 ---
 
 La finance décentralisée d'Ethereum est prête à se développer au-delà de son bac à sable : avec un réseau dense de primitifs financiers, il est maintenant plus facile que jamais d'exploiter la DeFi à d'autres fins, par exemple pour remplacer une relique prédatrice de notre passé comme la loterie, toujours follement populaire et préjudiciable.
@@ -13,8 +14,6 @@ Avec cet article, j'aimerais prendre un peu de recul et adopter une perspective 
 Pourtant, je crois que nous atteignons la prochaine étape de la croissance de l'incroyable expérience de coordination humaine qu'est le réseau Ethereum : les blocs Lego fournis par DeFi sont maintenant suffisamment matures pour être exploités à d'autres fins.
 
 En effet, nous voyons maintenant comment ces **dispositifs de capture et d'échange de valeur** peuvent être exploités pour faciliter la création de communautés engagées ou pour soutenir les biens communs. Alors cette fois, au lieu de se demander quoi ou comment, demandons-nous pourquoi ? Après un bref rappel des principaux avantages offerts par les legos DeFi, nous examinerons quelques projets qui les exploitent pour faire basculer la table dans leurs domaines respectifs.
-
-![DeFi-legos-beyond-defi-cover](/img/2020/defi-beyond-finance/cover.png)
 
 ---
 

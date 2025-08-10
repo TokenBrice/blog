@@ -6,9 +6,8 @@ description: >-
 date: '2020-02-20T14:53:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, RealT, Compound, DAI]
+image: /img/2020/freecoffees/cover.png
 ---
-
-![Free Coffees thanks to DeFi — Using the Monolith Card & DeFi to never pay for a coffee again](/img/2020/freecoffees/cover.png)
 
 _Overview of the passive income-earning opportunities enabled by decentralised finance_
 

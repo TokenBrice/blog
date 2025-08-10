@@ -6,6 +6,7 @@ categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets, Liquidation, Gas, Impermanent Lossses, guide]
 toc: true
 tocNum: false
+image: /img/2020/definancial-services-guide/cover-fr.jpeg
 ---
 
 Welcome to the new economic paradigm!
@@ -14,7 +15,6 @@ If you landed here, you probably already have heard about Ethereum and even dece
 
 This article walks you through 6 base strategies and their variants that harness the most relevant DeFinancial services. We start with the "set and forget" strategies and progressively move down the stack towards the more complex but also lucrative ones.
 
-![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover.jpeg)
 
 Before we dive into the strategies, I URGE you to read attentively the primer on gas below & as well as the disclaimers. 
 

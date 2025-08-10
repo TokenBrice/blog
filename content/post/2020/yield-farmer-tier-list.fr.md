@@ -6,9 +6,8 @@ categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Prêts, Apports de liquidités, Actifs synthétiques, Balancer, Curve, Programme d'incitation, Liquidity Mining, Ampleforth]
 toc: true
 tocNum: true
+image: /img/2020/yield-farmer-tier-list/cover.png
 ---
-
-![cover-Yield-Farmer-Tier-List](/img/2020/yield-farmer-tier-list/cover.png)
 
 La DeFi est comme un gâteau à plusieurs étages. Lorsque vous passez sa porte pour la première fois, faire un dépôt sur Aave et voir votre solde augmenter vous laisse bouche bée. Peu de temps après, grâce à vos propres recherches ou à vos discussions avec la communauté, vous vous rendez compte qu'il y a plus que cela **- il pourrait aussi y avoir une cerise sur le gâteau !**
 

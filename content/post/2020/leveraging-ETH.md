@@ -6,6 +6,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging, Minting DAI]
 toc: true
 tocNum: true
+image: /img/2020/leveraging-ETH/leveraging-ETH-fr.png
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session! 

@@ -1,6 +1,6 @@
 ---
 title: "Practical"
-description: "To discuss practical usecases of DeFi"
+description: "To discuss practical usecases of DeFi: how to harness it to produce tangible results"
 slug: "Practical"
 image: "practical.jpg"
 style:
