@@ -3,8 +3,8 @@ title: La nation à la carte, une bonne idée ?
 description: >-
   Introduction au concept de la Nation Comme Service : son origine, ses enjeux et ses conséquences.
 date: '2018-07-11T11:54:20.399Z'
-categories: [Opinions, NaaS]
-tags: [Analyse]
+categories: [Analyse]
+tags: [Naas]
 ---
 
 ![](/img/2018/naas/cover.jpeg)
