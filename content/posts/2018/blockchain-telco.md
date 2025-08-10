@@ -4,7 +4,7 @@ description: >-
   What can blockchains bring to the telecommunications industry. Blokchains meet
   telcos — will disintermediation ensue?
 date: '2018-11-28T14:00:52.000Z'
-categories: [Blockchain]
+categories: [Analysis]
 tags: [telco, blockchain, device authentification, mobile data reselling]
 canonicalUrl: https://www.callr.com/blog/blockchains-telecommunications/
 ---

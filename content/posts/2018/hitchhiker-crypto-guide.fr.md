@@ -4,7 +4,7 @@ description: >-
   Un aperçu des principales choses à regarder avant d'investir dans un projet de
   crypto, et des astuces pour repérer les signaux inquiétants.
 date: '2018-07-05T10:36:03.488Z'
-categories: [Blockchain]
+categories: [Tutorial]
 tags: [ICO, scam, Ethereum, Décentralisation, EcoCrypto]
 
 ---

@@ -4,7 +4,7 @@ description: >-
   Introduction au concept de la Nation Comme Service : son origine, ses enjeux et ses conséquences.
 date: '2018-07-11T11:54:20.399Z'
 categories: [Opinions, NaaS]
-tags: [NaaS, EcoCrypto]
+tags: [Analyse]
 ---
 
 ![](/img/2018/naas/cover.jpeg)

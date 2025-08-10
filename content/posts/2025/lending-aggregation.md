@@ -1,6 +1,6 @@
 ---
 title: "The Cycle of Aggregation Spins On, Now with Lending"
-description: "In lending, the real edge isn’t in finding the rate—it’s in owning the rails that connect them all."
+description: "The real edge isn’t in finding the rate; it’s in owning the rails that connect them all."
 date: '2025-08-10T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregator, Fluid, Euler]
