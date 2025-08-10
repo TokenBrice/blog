@@ -1,6 +1,6 @@
 ---
 title: "DeFi"
-description: "Defi Broad Category"
+description: "To discuss key DeFi concepts pertaining to exchange, lending and more"
 slug: "DeFi"
 image: "defi.jpg"
 style:

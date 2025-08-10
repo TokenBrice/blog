@@ -40,7 +40,7 @@ pagination:
     pagerSize: 10
 
 permalinks:
-    post: /p/:slug/
+    post: /:slug/
     page: /:slug/
 
 params:
@@ -71,6 +71,7 @@ params:
 
 
     article:
+        headingAnchor: false
         math: false
         toc: true
         readingTime: true
@@ -232,11 +233,11 @@ related:
     threshold: 60
     toLower: false
     indices:
-        - name: tags
-          weight: 100
-
         - name: categories
-          weight: 200
+          weight: 10
+
+        - name: tags
+          weight: 1
 
 markup:
     goldmark:

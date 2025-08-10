@@ -7,8 +7,8 @@ tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregation, Fluid, Euler
 url: lending-aggregation
 image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/lending-aggregation/aggregration-lending-cover.png
 toc: true
+draft: false
 ---
-
 
 Something big is happening in onchain lending. Beneath the surface, a quiet shift is reshaping how liquidity moves, how markets connect, and how users access yield. A wave of new models, integrations, and rising stars like Euler and Fluid rewrote the rules with unprecedented efficiency and flexibility. A new layer of coordination is emerging and could redefine lending itself: today, we pull back the curtain on lending aggregation.
 
