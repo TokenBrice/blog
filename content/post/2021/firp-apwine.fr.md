@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Marchés monétaires, Aave,
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
+image: /img/2021/firp-apwine/pac-man.png
 ---
 
 
@@ -17,8 +18,6 @@ Notre sujet d'aujourd'hui frappe au cœur de cette tendance, avec une solution o
 ---
 
 ## Marché monétaire = PacMan
-
-![the interest bearing stablecoin pacman-tokenbrice](/img/2021/firp-apwine/pac-man.png "Plusieurs couches d'abstraction s'accumulent sur les marchés monétaires - feront-elles bientôt partie de l'expérience native ?")
 
 Le tranching (sérialisation de risque), l'assurance et les FIRP agissent tous les trois comme des **couches d'abstraction construites sur un marché monétaire** pour fournir des fonctionnalités supplémentaires :
 1. **🔪 Tranching** ➡ meilleure séparation des différents types de risques

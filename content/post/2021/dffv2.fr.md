@@ -5,6 +5,7 @@ date: '2021-04-27T01:53:50.191Z'
 categories: [Projets]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: defi-france-version-2
+image: /img/2021/dffv2/dffv2-cover.png
 ---
 
 L'heure est venue pour la prochaine ère de DeFi France ! Cet article explicite la vision ainsi que les différents éléments d'un nouveau système déjà disponible sur le Discord DeFi France. Y'a du blé à se faire avec le prochain chapitre de l'aventure DFF, mais pas seulement celui que vous croyez !
@@ -22,8 +23,6 @@ Depuis son lancement, la communauté a grandi et a été à l'origine de très n
 ---
 
 ## DeFi France, version 2
-
-![dffv2-cover-image](/img/2021/dffv2/dffv2-cover.png)
 
 La croissance a été rapide l'année dernière et l'esprit organique des débuts devient de plus en plus dur à maintenir avec l'arrivée de très nombreuses nouvelles personnes. Bien qu'on soit ravi de voir l’engouement et le groupe grandir, de nombreuses personnes ont manifesté leur inquiétude face à la baisse de qualité des échanges.
 

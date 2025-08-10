@@ -6,6 +6,7 @@ categories: [Projets]
 tags: [DeFi, TokenBric.xyz, DeFi France, Twitch]
 toc: false
 tocNum: false
+image: /img/2021/tokenbrice-twitch/francebaiseouais.jpg
 ---
 
 Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'était qu'un début. Assez d'engouement, il est temps de vous parler de ce qui arrive cette semaine et ensuite !
@@ -13,13 +14,6 @@ Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'�
 Alors, qu'est-ce je vous prépare de beau ?
 
 C'est simple : **une présence intensifiée 100 % en français** pour aider encore plus de personnes à saisir ce qui se passe avec la finance décentralisée et réellement comprendre les différents protocoles utilisés.
-
-![francebaiseouais](/img/2021/tokenbrice-twitch/francebaiseouais.jpg)
-<div align = "center">
-
-_Nous devons ce chef d'oeuvre à un Redditeur francophone [/u/Argh3483](https://www.reddit.com/u/Argh3483): un vrai Chad !_
-
-</div>
 
 À cette fin, j'arrive sur Twitch en tant que TokenBrice (et non DeFi France), vous pouvez d'ores et déjà [me suivre sur Twitch](https://www.twitch.tv/tokenbrice) pour être sûr de ne pas rater le premier live ainsi que les prochains.
 

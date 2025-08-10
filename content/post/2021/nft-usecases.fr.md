@@ -7,6 +7,7 @@ tags: [Collectibles, Tokens Non Fongibles, NFT, Achat de NFT, Marché NFT, Farmi
 toc: true
 tocNum: true
 url: nft-cas-d'utilisation
+image: /img/2021/nft-usecases/88DeLo.png
 ---
 
 Les tokens non-fongibles attirent beaucoup l’attention dernièrement. D'une part, le grand public se gratte la tête quant aux records toujours plus hauts observés sur les ventes phares, désormais couvertes dans la presse généraliste[^beeple]. D'autre part, des artistes encore non initiés aux blockchains réalisent le potentiel qu'offre la **désintermédiation** ainsi que les possibilités offertes par **la nature programmable de cette nouvelle forme d'art**. Entre les deux, se mêle un public varié allant du collectionneur occasionnel au spéculateur aguerri.
@@ -14,8 +15,6 @@ Les tokens non-fongibles attirent beaucoup l’attention dernièrement. D'une pa
 Une chose est sûre : les NFTs ne laissent pas indifférent. En effet, en **alliant la logique de rareté numérique prouvable à l'art**, les NFTs permettent d'explorer de nouvelles formes d'expression. En outre, la dimension programmable des NFTs ouvre la voie à une exploration à peine entamée de nouvelles formes d'interactivité. 
 
 Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me concentrer sur **les usages pratiques observés avec ces NFTs.** Nous analyserons donc deux caractéristiques fondamentales des NFTs - **leur dimension communautaire** et leur **capacité à devenir des marqueurs sociaux**. Une fois ces deux dimensions établies, nous pourrons considérer différents cas d'utilisation.
-
-![Moloch](/img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
 
 Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci.
 

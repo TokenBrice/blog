@@ -7,6 +7,7 @@ tags: [Collectibles, Tokens Non Fongibles, NFT, Achat de NFT, Marché NFT, Farmi
 toc: true
 tocNum: false
 url: luchadores-nft
+image: /img/2021/luchadores-nft/luchadores-cover.png
 ---
 
 This article is going to be more personal than usual, but given the subject I can't do otherwise. We're going to focus on an NFT project in which I'm strongly involved: the Luchadores. They are fully onchain wrestlers, soon to be characters in an upcoming game, also onchain.
@@ -14,8 +15,6 @@ This article is going to be more personal than usual, but given the subject I ca
 More than the project itself, I will explain the thesis I am developing about it. I think this approach may interest you and help you develop personal beliefs about other collections.
 
 In this article, I don't detail the mechanics of the Luchadores or the upcoming game. Feel free to read [the whitepaper now available](https://whitepaper.luchadores.io/) for more info on this.
-
-![luchadores-cover](/img/2021/luchadores-nft/luchadores-cover.png)
 
 ---
 

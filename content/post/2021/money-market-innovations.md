@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Compound, Liq
 toc: true
 tocNum: false
 url: money-market-innovations
+image: /img/2021/money-market-innovations/cover.png
 ---
 
 Money markets like [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) or [Maker](https://www.defiscan.info/protocols/sky/ethereum) are the heart of the DeFi ecosystem. For the final user, these protocols have the same function than a classic bank : borrowing or putting sleepy money at work by lendind it.
 
 Nevertheless, **the analogy stops immediately at this functional comparison**. Indeed, the underlying logic of money markets has nothing to do with the functioning of a bank. Money markets benefit from all the advantages of DeFi and, in particular, the transparency and accessibility of all operations.
-
-![money-market-innovations-cover-tokenbrice](/img/2021/money-market-innovations/cover-en.png)
 
 When a user borrows on Aave, **the protocol does not need to know his age or identity**: validate all conditions is enough ! It means that you just have to put enough collateral.
 

@@ -5,6 +5,7 @@ date: '2021-07-27T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized finance, Aave, Governance, Delegation]
 url: aave-governance-program
+image: /img/2021/aave-governance-platform/cover.png
 ---
 
 Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation in the Aave governance. While calling for delegations and explaining my vision for Aave, I'd also like to set a new standard for DAO delegates. 
@@ -12,8 +13,6 @@ Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation
 You'll find in the post details about my long-term vision for Aave, who I am, why I'm asking for your AAVE vote delegations today, as well as all relevant disclosures to help you make sure this responsibility is not conflicting or overlapping with any other ongoing ones I have.
 
 You'll find my vote delegate disclosure, [following the template proposed by Erich Dylus & Sarah Brennan (Open Source Law)](https://github.com/ErichDylus/Open-Source-Law/blob/main/forms/legal/Vote%20Delegate%20Disclosure.md) at [the end of this document](#vote-delegate-disclosure).
-
-![aave-calling-for-vote-delegation-cover-tokenbrice](/img/2021/aave-governance-platform/cover.png)
 
 ## Why me, why now, why Aave?
 

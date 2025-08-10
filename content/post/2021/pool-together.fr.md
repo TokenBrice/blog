@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, POOL, PoolTogether, Loterie, Par
 toc: true
 tocNum: false
 url: pool-together
+image: /img/2021/pool-together/cover.png
 ---
 
 
@@ -15,8 +16,6 @@ La DeFi a permis l’émergence d’un système financier alternatif construit s
 Notre sujet du jour, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) fait lui un pas de plus : il utilise et assemble différents services DeFi pour proposer un “jeu d’argent” d’un type nouveau, qui se veut à la fois plus amusant, mais aussi plus instructif et bien moins dangereux et délétère que sa contrepartie classique.
 
 Je vous propose donc d’explorer ce protocole dans le détail : on commence par son contexte, avant d’analyser son fonctionnement et les différents enjeux qu’il implique. C’est parti !
-
-![tokenbrice-pooltogether-cover](/img/2021/pool-together/cover.png)
 
 ---
 

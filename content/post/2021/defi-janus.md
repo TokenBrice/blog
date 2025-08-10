@@ -7,14 +7,12 @@ tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Liquity, Curve Fina
 toc: true
 tocNum: true
 url: defi-janus
-
+image: /img/2021/defi-janus/defi-janus-cover.png
 ---
 
 Mythology is often used to illustrate DeFi. For example, the Canaanite god Moloch is often mentioned to symbolize coordination issues. Today, I will identify with you a new deity from the DeFi pantheon: Janus.
 
 In this article, we analyze the mechanisms of open governance of DeFi protocols that can lead to the emergence of a new kind of challenge for DeFi, a sworn enemy that I propose to you to embody in the Roman deity Janus.
-
-![defi-janus-cover](/img/2021/defi-janus/defi-janus-cover-en.png)
 
 Much like the two-faced god, **a Janus protocol suffers from a deep ambivalence**: although it can be an unquestionable success in terms of use, it faces serious antagonisms between its various stakeholders who involve the sustainability of the protocol (users, holders, investors, team and extended community).
 

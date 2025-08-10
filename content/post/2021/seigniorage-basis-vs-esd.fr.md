@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, D
 toc: true
 tocNum: false
 url: seigneuriage-basis-vs-esd
+image: /img/2021/seigniorage-basis-vs-esd/cover.png
 ---
 
 Il y a quelques semaines, j'ai partagé mon premier billet sur les stablecoins algorithmiques en soulignant les principales caractéristiques qui rendaient de tels projets intéressants à mes yeux. Dans cet article, nous allons approfondir le sujet, avec une **analyse comparative des deux principaux modèles** : le modèle Basis et le modèle ESD. 
 
 Tous deux sont utilisés avec succès par le projet qui portent leur nom mais aussi par de nombreux forks, plus ou moins pertinents. Alors que le domaine des stablecoins algorithmiques se structure, il semble y avoir un **consensus autour de ces deux approches, désormais utilisés comme modèle** pour lancer rapidement de nouveaux projets essayant diverses modifications, comme l'ancrage du système à une autre monnaie que le dollar, telle que l'or ou l'euro.
-
-![seigniorage-esd-basis-tokenbrice](/img/2021/seigniorage-basis-vs-esd/cover.png)
 
 La pléthore de forks existants autorise aux plus récents de s'inspirer des améliorations existantes ou à venir des systèmes en service, ce qui permet de faire un bond en avant dans l'innovation. Mais avant de plonger dans les arcanes du dernier token élastique en or, il est bon de s'assurer que vous comprenez les modèles sous-jacents. C'est la raison pour laquelle nous sommes ici aujourd'hui.
 

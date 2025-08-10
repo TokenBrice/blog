@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave,
 toc: true
 tocNum: false
 url: marche-monetaire-risque
+image: /img/2021/risk-tranching/cover.gif
 ---
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.
 
 Il y a actuellement trois grands marchés monétaires dans DeFi : Aave, Compound & Cream. Pourtant, tous les services suivants les utilisent, d'une manière ou d'une autre : Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88MPH, Idle Finance, etc. Pour dire les choses simplement - **les marchés monétaires sont l'un des niveaux de base du DeFi**.
-
-![Risk-Tranching-TokenBrice-Cover](/img/2021/risk-tranching/cover.gif)
 
 Les marchés monétaires sont étonnants - à la fois simples et très complexes. Dans cet article, j'essaie de fournir un cadre et quelques indices pour évaluer le risque à différents niveaux.
 

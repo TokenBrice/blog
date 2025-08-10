@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
+image: /img/2021/firp-apwine/pac-man.png
 ---
 
 Yields are like fine wines, the secret lies in the brewing process. As DeFi is developing faster than ever, with now more than $ 50 billion of total value locked across all protocols, **the yield offering is diversifying**.
@@ -16,8 +17,6 @@ Our topic today strikes at the heart of this trend, with a solution offering a p
 ---
 
 ## Money Market = PacMan
-
-![the interest bearing stablecoin pacman-tokenbrice](/img/2021/firp-apwine/pac-man.png "Several abstraction layers are building up on top of money markets - will they soon be part of the native experience?")
 
 Tranching, insurance, and FIRPs are essentially like **abstraction-layers built on top of a money market** to provide additional features:
 1. **🔪 Tranching** ➡ better separation of the different type of risks

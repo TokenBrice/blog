@@ -8,6 +8,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Liquity, C
 toc: true
 tocNum: true
 url: defi-flywheel
+image: /img/2021/defi-flywheel/defi-flywheel-cover.png
 ---
 
 En trois semaines, le protocole Convex a attiré plus de $ 3 milliards de dépôts, tout en devenant la plus grande 🐳 baleine de CRV, aujourd'hui et à priori pour toujours. La chance n'est jamais un facteur négligeable, mais avec une entrée aussi fracassante dans les sommets de la DeFi il faut chercher bien plus loin. En effet, la clef de compréhension de l'ascension fulgurante de Convex c'est la tokenomics, et c'est donc notre sujet du jour !
@@ -19,8 +20,6 @@ L'émergence des programmes d'incitations de liquidité (liquidity mining) l'ann
 En effet, le liquidity mining par lui-même n'attire à priori que des **dépôts mercenaires et opportunistes**. En soit, le liquidity mining est davantage un outil qui sert à faire connaître un projet qu'à sa pérennisation. 
 
 Durer en DeFi, c'est une affaire de tokenomics : c'est-à-dire les mécaniques des tokens natifs des protocoles. **La tokenomics, c'est en quelque sorte le gameplay d'un protocole DeFi**. 
-
-![flywheel-defi-cover](/img/2021/defi-flywheel/defi-flywheel-cover.png)
 
 Vous le savez sans doute, je suis un grand admirateur du modèle CRV. Ça tombe à pic, puisque le jeu autour du token CRV n'a jamais été aussi vif que ces dernières semaines. Certains parlent même de #lockening pour décrire **la course à l'accumulation de VeCRV** à laquelle se livrent Convex, Yearn et StakeDAO.
 

@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Comp
 toc: true
 tocNum: false
 url: marche-monetaire-innovations
+image: /img/2021/money-market-innovations/cover.png
 ---
 
 Les marchés monétaires comme [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) ou [Maker](https://www.defiscan.info/protocols/sky/ethereum) sont au centre de la DeFi. Pour l'utilisateur final, ils remplissent des fonctions similaires à ce qu'offre une banque dans la finance classique : pouvoir emprunter ou rendre productif des actifs en les prêtant à d'autres.
 
 Néanmoins, **l'analogie s'arrête immédiatement à la comparaison fonctionnelle**. En effet, la logique sous-jacente des marchés monétaires n'a rien à voir avec le fonctionnement d'une banque. Les marchés monétaires bénéficient de tous les avantages de la DeFi, et notamment la transparence de toutes les opérations ainsi que son accessibilité.
-
-![money-market-innovations-cover-tokenbrice](/img/2021/money-market-innovations/cover.png)
 
 Lorsqu'un utilisateur emprunte sur Aave, **le service n'a pas besoin de connaître son âge ou son identité**: il suffit que les conditions soient remplies, c'est-à-dire que le collatéral apporté soit suffisant par rapport à la somme empruntée. 
 

@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound
 toc: true
 tocNum: false
 url: money-markets-risk
+image: /img/2021/risk-tranching/cover.gif
 ---
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.
 
 There are three major money markets right now in DeFi: Aave, Compound & Cream. Yet all the following services use them, one way or another: Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88MPH, Idle Finance, etc. To put it simply - **money markets are one of the root-level of DeFi**.
-
-![Risk-Tranching-TokenBrice-Cover](/img/2021/risk-tranching/cover.gif)
 
 Money markets are amazing - simple yet very intricate. In this article, I try to provide a framework and some clues to assess the risk at different levels.
 

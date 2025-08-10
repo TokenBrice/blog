@@ -7,11 +7,10 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Échanges décentralisés, Un
 toc: true
 tocNum: false
 url: dex-echanges-decentralisées-capture-valeur
+image: /img/2021/dex-value-capture/cover-fr.png
 ---
 
 J'ai partagé mon point de vue sur de nombreux protocoles DeFi sur ce blog, mais je me suis récemment rendu compte que je n'étais jamais revenu à l'essentiel : les DEX. C'est précisément ce que nous allons faire aujourd'hui, en abordant le sujet principalement en examinant les mécanismes de capture de la valeur.
-
-![volume-begets-fees-cover](/img/2021/dex-value-capture/cover-fr.png)
 
 Les DEX s'appuyant sur des AMM, comme Uniswap, Curve ou SushiSwap, ont tous connu cette année une croissance énorme, tant en termes de liquidités disponibles que de volume, tout comme les frais qu'ils ont perçus. Pour faire simple : **ces DEX sont maintenant les principaux collecteurs de frais qu'il y a en crypto, juste après le réseau Bitcoin et Ethereum eux-mêmes** :
 

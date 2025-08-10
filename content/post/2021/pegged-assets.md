@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave,
 toc: true
 tocNum: true
 url: ethereum-stable-assets
+image: /img/2021/pegged-assets/money-god-meme.png
 ---
 
 Today, I want to cover an essential topic for Ethereum and other blockchains and often misunderstood: **"stable" assets**, which track the price of a reference asset. Before looking at the different approaches to producing such an asset, we'll first start with a higher level of analysis:
@@ -18,8 +19,6 @@ Today, I want to cover an essential topic for Ethereum and other blockchains and
 Once these foundations are established, we will have all the tools to **figure out the different methods and what is at stake**.. I will conclude with a more detailed analysis of a project that seems to me very relevant and innovative : the RAI of Reflexer Labs
 
 ---
-
-![reflexer-money-god-meme](/img/2021/pegged-assets/money-god-meme.png)
 
 If you are already familiar with the different pegging mechanisms, you can jump [directly to the section on Reflexer](#focus-on-reflexers-rai).
 

@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave,
 toc: true
 tocNum: true
 url: actifs-stables-ethereum
+image: /img/2021/pegged-assets/money-god-meme.png
 ---
 
 Aujourd'hui, je veux traiter un sujet essentiel pour Ethereum et les autres blockchains et souvent mal compris : **les actifs "stables"**, qui suivent le prix d'un actif de référence. Avant d'étudier les différentes approches qui permettent de produire un tel actif, on va d'abord commencer par un niveau d'analyse plus élevé :
@@ -22,8 +23,6 @@ Dans cet article, faute de traduction satisfaisante je vais parler de "pegged-as
 {{< /notice >}}
 
 ---
-
-![reflexer-money-god-meme](/img/2021/pegged-assets/money-god-meme.png)
 
 Si vous connaissez déjà bien les différents mécanismes de pegging, vous pouvez sauter [directement vers la section sur Reflexer](#zoom-sur-le-rai-de-reflexer).
 
