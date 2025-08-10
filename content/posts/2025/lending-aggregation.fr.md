@@ -5,7 +5,7 @@ date: '2025-08-10T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregator, Fluid, Euler]
 url: lending-aggregation
-image: img/2025/lending-aggregation/lending-aggregation-cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/lending-aggregation/aggregration-lending-cover.png
 ---
 
 Quelque chose de grand se passe dans le prêt onchain. Sous la surface, un changement discret est en train de remodeler la façon dont la liquidité se déplace, dont les marchés se connectent et dont les utilisateurs accèdent au rendement. Une vague de nouveaux modèles, d'intégrations et d'étoiles montantes comme Euler et Fluid ont réécrit les règles avec une efficacité et une flexibilité sans précédent. Une nouvelle couche de coordination émerge et pourrait redéfinir le prêt lui-même : aujourd'hui, nous levons le voile sur l'agrégation de prêts.
@@ -77,7 +77,7 @@ C'est essentiellement un gestionnaire de positions d'emprunt faisant deux choses
 
 C'est pour moi **un exemple sauvage d'agrégation de prêts efficace** : Je dépose mon collatéral sur Altitude et j'emprunte ; en arrière-plan, j'ai peut-être utilisé Aave ou Morpho, ou peut-être switché plusieurs fois entre les deux si j'ai tenu la position assez longtemps ; je n'ai même pas besoin de le savoir, je sais juste que j'ai obtenu le meilleur taux.
 
-### Qu'en est-il des Curateurs ?
+## Qu'en est-il des Curateurs ?
 
 L'étincelle récente de personnalisabilité des prêts que nous vivons découle de l'émergence d'un modèle exploité par beaucoup pour **défier la position dominante d'Aave sur les marchés de prêts bluechip**, car à ce stade, il est impossible de défier Aave sur la taille disponible ou la sécurité perçue. Euler ou Morpho sont des constructeurs d'infrastructure autant que des opérateurs de protocoles. Ils fournissent des blocs de construction, exploités par les Curateurs, pour délivrer des expériences de prêts personnalisées et optimisées à des communautés spécifiques.
 

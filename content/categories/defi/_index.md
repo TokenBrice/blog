@@ -4,6 +4,6 @@ description: "Defi Broad Category"
 slug: "DeFi"
 image: "defi.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#0099ff"
     color: "#fff"
 ---

@@ -5,7 +5,7 @@ date: '2025-08-10T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregator, Fluid, Euler]
 url: lending-aggregation
-image: img/2025/lending-aggregation/lending-aggregation-cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/lending-aggregation/aggregration-lending-cover.png
 ---
 
 Something big is happening in onchain lending. Beneath the surface, a quiet shift is reshaping how liquidity moves, how markets connect, and how users access yield. A wave of new models, integrations, and rising stars like Euler and Fluid rewrote the rules with unprecedented efficiency and flexibility. A new layer of coordination is emerging and could redefine lending itself: today, we pull back the curtain on lending aggregation.
@@ -88,7 +88,7 @@ It's essentially a borrowing position manager doing two things:
 It is to me **a wild example of effective lending aggregation**: I deposit my collateral on Altitude and borrow; in the background I might have used Aave or Morpho, or maybe switched several times between the two if I held the position long enough; I don’t even need to know, I just know I got the best rate.
 
 
-### What About Curators?
+## What About Curators?
 
 The recent spark of lending customizability we are experiencing stems from the emergence of a model harnessed by many to **challenge Aave’s dominant position on the bluechip lending markets**, since at this point, it’s impossible to challenge Aave on available size or perceived safety. Euler or Morpho are infrastructure builders as much as protocol operators. They provide building blocks, harnessed by Curators, to deliver customized and optimized lending experiences to specific communities.
 
