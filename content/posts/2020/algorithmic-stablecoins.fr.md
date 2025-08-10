@@ -2,7 +2,7 @@
 title: "L'état et le futur des stablecoins algorithmiques"
 description: "Une analyse de DSD, ESD et Basis Cash pour dresser le portrait-robot de ce qui pourrai bien être le stablecoin de demain."
 date: '2020-12-28T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Stablecoins, Maker, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, sUSD, ESD, DSD, BAC, BAS]
 ---
 

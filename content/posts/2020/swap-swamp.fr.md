@@ -2,7 +2,7 @@
 title: "🐊 Immersion dans la mare aux swaps"
 description: "Des conseils et astuces pour comprendre ce qu'il se passe sous le capot avec les aggrégateurs d'échanges décentralisés et comment les utiliser au mieux."
 date: '2020-11-30T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Pratique]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Swaps, Token Exchange, Swapping Tokens, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 ---
 

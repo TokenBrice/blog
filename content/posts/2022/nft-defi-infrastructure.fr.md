@@ -2,7 +2,7 @@
 title: "NFTfi : repousser les limites de NFTs grâce à la DeFi"
 description: "La DeFi apporte aux projets NFTs des outils pour résoudre leurs principales limites (comme la liquidité) tandis que les NFTs permettent de rendre la DeFi plus fun et digeste : un mariage parfait ?"
 date: '2022-03-29T01:13:50.191Z'
-categories: [🃏 NFT]
+categories: [NFT]
 tags: [DeFi, Ethereum, Finance décentralisée, NFT, Forgotten Wizard, Luchadores, NFTX, Spectre, NTFfi]
 toc: true
 tocNum: false

@@ -2,7 +2,7 @@
 title: "DeFi’s UX Disaster: Curation Could Save Innovation"
 description: "Shining a light on DeFi’s dirty secret: the curation layer crisis - and what can we do to address it."
 date: '2025-03-08T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
 ---

@@ -2,7 +2,7 @@
 title: "Leverage Like a Sir: Polynomial Gains, No Liquidation Pains"
 description: "Exploring a novel protocol offering no funding fee no liquidation leverage with convex returns, and announcing my involvment."
 date: '2025-03-12T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
 url: leverage-sir
 ---

@@ -4,7 +4,7 @@ description: >-
   A practical guide to master the power of focus: aka how to become an expert,
   and have fun on the way.
 date: '2019-04-24T09:44:14.735Z'
-categories: [🔍 Analysis]
+categories: [Analysis]
 tags: [deep work, pomodoro, focus, google search operators]
 ---
 

@@ -2,7 +2,7 @@
 title: "🧭 DeFi Moneygames: Comment comprendre le risque et éviter les pertes ?"
 description: "Un peu de contexte sur les DeFi moneygames (YAM, PASTA, BASED, etc.) pour être en mesure de comprendre les risques encourus par les joueurs et comment les minimiser"
 date: '2020-08-26T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Pratique]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
 ---
 

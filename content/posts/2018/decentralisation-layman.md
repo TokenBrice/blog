@@ -4,7 +4,7 @@ description: >-
   Decentralize everything! But wait, what does it even mean? A decentralization
   overview made to be understandable by anyone.
 date: '2018-07-02T08:31:50.115Z'
-categories: [⛓ Blockchain]
+categories: [Blockchain]
 tags: [decentralisation, vulgarization, blockchain, cryptocurrency, EcoCrypto]
 ---
 

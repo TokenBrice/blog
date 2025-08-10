@@ -4,7 +4,7 @@ description: >-
   How do we go from metal-backed currencies to Bitcoin? It's a journey starting
   with forgetting the fairy tales we've heard about bartering.
 date: '2018-07-18T12:13:32.950Z'
-categories: [⛓ Blockchain]
+categories: [Blockchain]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
 ---
 

@@ -2,7 +2,7 @@
 title: "Subtles nuances with great consequences: a cross analysis of Curve and Velodrome"
 description: "The Velodrome model, inspired by veCRV, achieves superior alignment between the three key participants of a DEX - LPs, tokenholders, and projects needing liquidity. Yet, most of the DeFi space still fails understand why: but not you anon - once you read this post."
 date: '2024-03-21T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 url: crv-vs-velo
 ---

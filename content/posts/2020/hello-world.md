@@ -3,7 +3,7 @@ title: "Hello, World!"
 description: >-
  What this blog is and a sweet & hot take on respecting privacy online
 date: '2020-05-05T14:53:50.191Z'
-categories: [👩‍🔧 Projects]
+categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
 ---
 

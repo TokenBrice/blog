@@ -2,7 +2,7 @@
 title: "Le volume appelle les frais : comment les principaux échanges décentralisés capturent-ils la valeur ?"
 description: "Un regard sur le mécanisme de capture de valeur d'Uniswap, de Sushiswap et de Curve pour mieux comprendre comment la valeur s'accroît pour les détenteurs de leur tokens."
 date: '2021-01-23T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Découverte]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Échanges décentralisés, Uniswap, Sushiswap, Curve, Curve Finance, Balancer, Bancor, CRV, UNI, SUSHI]
 toc: true
 tocNum: false

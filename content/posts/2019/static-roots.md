@@ -3,7 +3,7 @@ title: Static web - back to the roots?
 date: '2019-03-04T09:44:14.735Z'
 description: Exploring the shift back to static site generators to sanitize web development practices
 tags: [web development, static websites, static web, dynamic websites, content, SEO, Markdown]
-categories: [🔍 Analysis, 🕸 Static Web]
+categories: [Analysis]
 canonicalUrl: https://blog.callr.tech/static-web-roots/
 ---
 

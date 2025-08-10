@@ -2,7 +2,7 @@
 title: "The Sovereign Individual in the age of technofeudalism"
 description: "Covid precipitated the march of history by crystallizing several forming trends. We're now witnessing the emergence of a social and political protocol massifying exploitation and anguish - how to extract oneself from it?"
 date: '2021-01-04T01:13:50.191Z'
-categories: [🔍 Analysis]
+categories: [Analysis]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Nation States, Post-Covid]
 ---
 

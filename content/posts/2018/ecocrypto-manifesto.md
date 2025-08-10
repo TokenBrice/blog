@@ -3,7 +3,7 @@ title: EcoCrypto's Manifesto
 description: >-
   EcoCrypto.fr''s manisfesto - The French crypto media true to its ideals and up to the standard of the new world. Come feed your mind.
 date: '2018-07-01T10:36:03.488Z'
-categories: [👩‍🔧 Projects]
+categories: [Projects]
 tags: [EcoCrypto]
 ---
 

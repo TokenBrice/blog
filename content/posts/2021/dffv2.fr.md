@@ -2,7 +2,7 @@
 title: "🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2"
 description: "La communauté DeFi France s'ouvre et devient encore plus horizontale : c'est à vous de jouer désormais !"
 date: '2021-04-27T01:53:50.191Z'
-categories: [🇫🇷 Communauté DeFi France]
+categories: [Projets]
 tags: [DeFi France, Discord, Contributions, Communauté]
 url: defi-france-version-2
 ---

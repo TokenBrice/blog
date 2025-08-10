@@ -2,7 +2,7 @@
 title: "YearnFinance - La DeFi avec pilote automatique ?"
 description: "Il n'aura fallu que quelques jours après la sortie de Yearn Finance V2 pour que cela devienne un des lancements les plus critiques de la DeFi – prenons le temps de comprendre ce qu'il s'est passé et pourquoi c'est important."
 date: '2020-08-11T01:13:50.191Z'
-categories: [🌌 DeFi, 🔮 Découverte]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Prêts, Aave, Compound, BzX, Curve, yVault, Stablecoins, Leveraging, YFI, Yearn, Yearn Finance]
 ---
 

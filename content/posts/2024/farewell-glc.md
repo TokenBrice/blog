@@ -2,7 +2,7 @@
 title: "Farewell to the GHO Liquidity Committee and reflections on the rise of DeFi newspeak"
 description: "I've resigned from the GHO Liquidity Committee - this post explains why and reflect on the core challenges observed in DeFi's governance and committees"
 date: '2024-02-08T01:13:50.191Z'
-categories: [🌌 DeFi]
+categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
 url: farewell-glc
 ---

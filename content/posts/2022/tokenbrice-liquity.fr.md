@@ -2,7 +2,7 @@
 title : "Annonce : Je rejoins Liquity pour soutenir la croissance de la DeFi inarrêtable"
 description : "Où je réfléchis à l'état actuel de la DeFi, et pourquoi j'ai décidé de rejoindre l'équipe de Liquity pour soutenir la développement de l'un des protocoles les plus résilients."
 date: '2022-05-16T01:13:50.191Z'
-categories: [👩‍🔧 Projets]
+categories: [Projets]
 tags: [DeFi, Ethereum, Finance Décentralisée, Liquity]
 toc: false
 tocNum: false

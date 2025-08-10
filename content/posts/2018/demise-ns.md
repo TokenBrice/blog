@@ -4,7 +4,7 @@ description: >-
   How to break down a nation-state? A step by step tutorial and a framework
   proposal to understand the post nation-state world.
 date: '2018-06-30T16:14:38.684Z'
-categories: [🧔 Opinions, 🗺 NaaS]
+categories: [Opinions]
 tags: [NaaS]
 ---
 

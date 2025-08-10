@@ -2,7 +2,7 @@
 title : "Le stablecoin GHO d'Aave peut-il aider le protocole à se développer davantage et à dépasser MakerDAO et DAI ?"
 description : "On examine le design de GHO et anticipe ses principaux défis pour croître ainsi que de la valeur qu'il peut apporter à la DAO d'Aave."
 date: '2022-08-22T01:13:50.191Z'
-catégories : [🌌 DeFi, ⚙ Compréhension]
+catégories : [DeFi, Compréhension]
 tags : [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés monétaires, Aave, GHO, Taux d'intérêt]
 toc : true
 tocNum : true

@@ -3,7 +3,7 @@ title: 'How to host a Python server for a SAP Conversational AI bot using Github
 description: >-
   A step by step tutorial to take your chatbot to the next level
 date: '2017-11-23T13:21:53.376Z'
-categories: [🔧 Tutorials]
+categories: [Tutorial]
 tags: [Chatbot, Python, Cryptos]
 canonicalUrl: https://cai.tools.sap/blog/github-repo-heroku/
 ---

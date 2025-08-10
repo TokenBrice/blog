@@ -3,7 +3,7 @@ title: "🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens i
 "
 description: "On analyse la course à l'accumulation des CRV avec le lancement de Convex pour comprendre le concept de flywheel en DeFi : des protocoles qui évoluent en synergie grâce à leur tokenomics."
 date: '2021-06-08T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Liquity, Curve Finance, CRV, Polygon, Convex, CVX, Yearn Finance, Pickle Finance, Adamant Finance]
 toc: true
 tocNum: true

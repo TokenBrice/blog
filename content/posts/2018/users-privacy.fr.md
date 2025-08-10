@@ -3,7 +3,7 @@ title: Le respect de la vie privée sur internet - l'exception qui devrait être
 description: >-
   Un aperçu des pratiques de traçage des grands sites français et comment s''en protéger. Quelques pistes pour la vie privée de ses utilisateurs sur son site
 date: '2018-07-25T10:54:13.745Z'
-categories: [🔍 Analyse, 🎭 Vie Privée]
+categories: [Analyse, Vie Privée]
 tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
 ---
 

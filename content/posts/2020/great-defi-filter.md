@@ -2,7 +2,7 @@
 title: "A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter"
 description: "Exploring new perspectives to understand better the current barriers to decentralised finance's mainstream adoption and how to overcome them."
 date: '2020-05-08T14:53:50.191Z'
-categories: [🌌 DeFi, 🔮 Discovery]
+categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Adoption]
 ---
 

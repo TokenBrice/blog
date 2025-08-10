@@ -2,7 +2,7 @@
 title: "🤖 Les vaults : stratégies d'investissement DeFi accessibles ?"
 description: "Les vaults permettent d'exploiter des programmes d'incitation à l'apport de liquidité en composant automatiquement et fréquemment les gains obtenus. Examinons les options disponibles et leurs contreparties."
 date: '2020-09-30T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Pratique]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
 ---
 

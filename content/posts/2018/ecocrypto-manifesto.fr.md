@@ -3,7 +3,7 @@ title: Le manifeste d'Ecocrypto.fr
 description: >-
   Le manifeste d''EcoCrypto.fr - la publication crypto française incorruptible, intransigeante et inachetable.
 date: '2018-07-01T10:36:03.488Z'
-categories: [👩‍🔧 Projets]
+categories: [Projets]
 tags: [EcoCrypto]
 ---
 

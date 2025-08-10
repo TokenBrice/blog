@@ -2,7 +2,7 @@
 title: "💦 Pools de Liquidité avec programmes d'incitation - La Tier List" 
 description: "Une liste hiérarchisée qui présente différents **programmes d'incitation au dépôt de liquidité Balancer, Uniswap, et Curve Finance.**"
 date: '2020-07-07T01:13:50.191Z'
-categories: [🌌 DeFi, 💸 Pratique]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Prêts, Apports de liquidités, Actifs synthétiques, Balancer, Curve, Programme d'incitation, Liquidity Mining, Ampleforth]
 toc: true
 tocNum: true

@@ -2,7 +2,7 @@
 title: "Maverick et la transition du Liquidity Mining au Liquidity Shaping"
 description: "La guerre des DEX fait rage, plus compétitive que jamais. A côté des cartels de la licorne, du lama et de l'échelle, un quatrième centre de pouvoir émerge grâce à des caractéristiques sans précédent : une structure de liquidité inégalée associée à un modèle d'incitation immensément plus efficace : **le façonnage de liquidité**."
 date: '2023-07-07T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, DEX, veMAV, Maverick, Liquidity, Liquidity Mining, Gestion de Liquidité, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
 toc: false
 tocNum: false

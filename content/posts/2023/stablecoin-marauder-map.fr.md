@@ -2,7 +2,7 @@
 title: "La carte du Maraudeur des stablecoins"
 description: "Chaque semaine de nouveaux stablecoins émergent : suivre les innovations est devenu une exercice difficile. AMO ? PSM ? DSR ? pegKeeper ? Cet article passe en revue les différents mécanismes qui sous-tendent les stablecoins afin d’en apprécier leur pertinence."
 date: '2023-09-15T01:13:50.191Z'
-categories: [🌌 DeFi, ⚙ Comprendre]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, stablecoins, Actifs stables, Marchés monétaires, Aave, GHO, crvUSD, LUSD, GRAI, Reserve-Backed Stablecoin, fETH, xETH, Taux d’intérêt]
 url: stablecoin-marauder-map
 ---
