@@ -6,8 +6,9 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets, Liquidity Incentives, Liquidity Mining]
 toc: true
 tocNum: false
-image: img/2020/defi-farmer-toolbox/cover.jpeg
 ---
+
+![cover-DeFi-Farmer-Toolbox](/img/2020/defi-farmer-toolbox/cover.jpeg)
 
 Howdy farmer,
 
@@ -46,7 +47,7 @@ Here are the main liquidity mining sources, ordered by the share of tokens avail
 *   Synthetix & other incentives program (like JRT)
 *   Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/): redirect interest earned form your stablecoins on Aave to earn JRT tokens.
 
-![synthetix liquidity mining programs](img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
+![synthetix liquidity mining programs](/img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
 
 ### Adapting the strategy to your budget
 
@@ -104,7 +105,7 @@ In a previous article, I've detailed a strategy built on the Synthetix platform 
 
 
 
-![The Synthetix-Yieldbuger-TokenBrice](img/2020/definancial-services-guide/yieldburger.png)
+![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldburger.png)
 
 
 Alright, enough prep - you are now an advised farmer - congrats! Let's look at the tools used to plant your seed, secure your crops and harvest your yields.
@@ -118,7 +119,7 @@ You can get into liquidity pools “manually”, that is directly on each platfo
 
 If you’re not the most familiar with Ethereum yet, the easiest way for you to partake in this feast would be to use tools:
 
-![Zapper.Fi-zap-in-liquidity-pools](img/2020/defi-farmer-toolbox/zapper-fi.png)
+![Zapper.Fi-zap-in-liquidity-pools](/img/2020/defi-farmer-toolbox/zapper-fi.png)
 
 **Getting in and out of pools**: [Zapper.fi](https://zapper.fi): in the Invest tab, Zapper lets you conveniently get into/out of pools on Balancer, Curve, and Uniswap, from ETH, DAI and a few other tokens.
 
@@ -126,7 +127,7 @@ If you’re not the most familiar with Ethereum yet, the easiest way for you to 
 
 **Spending ETH & stablecoins** - [Monolith](https://monolith.xyz). Now with ParaSwap built-in for swaps and soon an on-ramp to buy ETH/ERC-20 from your bank account!
 
-![monolith](img/2020/defi-farmer-toolbox/monolith.jpeg)
+![monolith](/img/2020/defi-farmer-toolbox/monolith.jpeg)
 
 While we’re at it, here’s a quick tip because I see this way too much. 
 **You should never claim on Compound.** It's costly and your COMP tokens are automatically claimed every time you adjust your position by depositing or withdrawing assets (minimal amount of COMP claimable required).
@@ -138,7 +139,7 @@ Now that we’ve explained  the basics dear organic farmers, it’s time to fina
 
 On top of helping you zap in/out of pools, **[Zapper.fi](https://zapper.fi)** is an amazing all-in-one DeFi position tracker. Here's [the Zapper of the wallet](https://www.zapper.fi/synthetix?address=0x4E60bE84870FE6AE350B563A121042396Abe1eaF) of the legendary farmer [DegenSpartan](https://twitter.com/DegenSpartan) - seems like he took a bite into that juicy yieldburger:
 
-![Zapper.fi - DegenSpartan](img/2020/defi-farmer-toolbox/degen.png)
+![Zapper.fi - DegenSpartan](/img/2020/defi-farmer-toolbox/degen.png)
 
 If you need to look at a wallet from a historical perspective, **[Zerion](https://zerion.co)** is king.
 
@@ -149,7 +150,7 @@ For a more holistic market view, you can check:
 - **[Token Terminal](https://www.tokenterminal.xyz/)** for an overview of the earnings and P/E ratio of DeFi protocols
 - [This **Dune Analytics** dashboard](https://explore.duneanalytics.com/public/dashboards/c87JEtVi2GlyIZHQOR02NsfyJV48eaKEQSiKplJ7) giving you an overview of the volume on DEXes:
 
-![DEX volumes overview](img/2020/defi-farmer-toolbox/DEX.png)
+![DEX volumes overview](/img/2020/defi-farmer-toolbox/DEX.png)
 
 ⛽ You can also use [HAL](https://twitter.com/HAL_team) to create notifications on different situations, like **[when gas prices are below a certain threshold](https://medium.com/@mattiascaricato/get-notified-when-gas-price-is-cheap-%EF%B8%8F-2a157a3d18b9)**.
 

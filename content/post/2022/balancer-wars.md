@@ -7,12 +7,13 @@ tags: [DeFi, Ethereum, Decentralized Finance, Balancer Finance, BAL, Polygon, Au
 toc: true
 tocNum: false
 url: balancer-wars
-image: img/2022/balancer-wars/balancer-wars-cover.png
 ---
 
 Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects. 
 
 Thus, the liquidity-driver tokens quickly became highly sought after by DAOs with constant and usually growing liquidity needs. It led to what we call “races” (or "wars"): a term that refers to the various strategies projects harness to constantly increase their veTokens stash, ideally faster than the other participants of the races, to grow a competitive advantage.
+
+![balancer-wars-cover](/img/2022/balancer-wars/balancer-wars-cover.png)
 
 I’ve covered the CRV tokenomics, the pioneer of the veToken model, and their consequences in this blog extensively:
 
@@ -40,7 +41,7 @@ So with the stage set, let’s dive into today’s matter: Balancer, their BAL r
 
 ## Mapping the Balancer Trinity
 
-![balancer-trinity](img/2022/balancer-wars/balancer-trinity.png)
+![balancer-trinity](/img/2022/balancer-wars/balancer-trinity.png)
 
 While we documented Curve, we watched the ecosystem grow together on this blog. With [Balancer](https://balancer.finance/), I’m covering it extensively for the first time and already looking at a mature ecosystem. Balancer already has “its Convex,” called [Aura Finance](https://aura.finance/). It already controls over 25% of the veBAL (vs >50% of veCRV for Convex). 
 
@@ -52,7 +53,7 @@ For those familiar with UniswapV3 liquidity provisioning, one could say PowerAge
 
 Along with Uniswap and Curve, Balancer has been one of the longest-standing DEX with significant traction today. Indeed, looking at the DEX market from a global perspective, Balancer is scoring fifth place with about 3% of the total volume processed:
 
-![defillama-dex-overview](img/2022/balancer-wars/dex-overview.png)
+![defillama-dex-overview](/img/2022/balancer-wars/dex-overview.png)
 
 _Overview of observed trading volume on main decentralized exchanges from [DeFiLlama](https://defillama.com/dexs)_
 
@@ -89,7 +90,7 @@ Finally, Balancer can adjust the pool weighting distribution as needed through a
 2. So they start with a 98% USDC / 2% Token pool, enabling them to provide liquidity with minimal pairing token requirements.
 3. The pool acts as a token initiation event and price discovery mechanism at the same time. The token starts at a given price, which decreases as time goes on if no one purchases the token.
 
-![balancer-trinity](img/2022/balancer-wars/LBP.png "Evolution of the price of a token during an LBP if there is no purchase")
+![balancer-trinity](/img/2022/balancer-wars/LBP.png "Evolution of the price of a token during an LBP if there is no purchase")
 
 LBPs are designed to enable users interested in the project to purchase tokens fairly over a given period, protecting them against the usual attacks seen on more classical tokens launches (such as MEV bots sniping initial supply).
 
@@ -109,7 +110,7 @@ Like Curve, Balancer has one dominant player of its race which developed a proto
 
 Aura offers efficient farming to holders of Balancer LP tokens, with BAL rewards boosted thanks to the protocol's sizeable veBAL stash and additional AURA incentives. In that regard, it is the same thing as Convex to Curve.
 
-![defiwars-balancer](img/2022/balancer-wars/defiwars-balancer.png)
+![defiwars-balancer](/img/2022/balancer-wars/defiwars-balancer.png)
 
 _Overview of the veBAL liquid wrappers — [courtesy of defiwars.xyz](https://www.defiwars.xyz/wars/balancer)_
 
@@ -127,7 +128,7 @@ Many bribe markets are enabling the purchase of veBAL or vlAURA votes; here are 
 
 To follow the Balancer wars, make sure to harness the amazing data computed by the Llama Airforce:
 
-![llama-airforce-aura](img/2022/balancer-wars/llama-airforce-aura.png)
+![llama-airforce-aura](/img/2022/balancer-wars/llama-airforce-aura.png)
 
 As seen on the graph, the bribing markets took off quickly before finding an equilibrium at around **$0.06 per AURA vote, translating into 1.50x bribes efficiency**: $1 spent bribing the vote results in $1.50 worth of BAL emission added to the targeted pool over the epoch.
 

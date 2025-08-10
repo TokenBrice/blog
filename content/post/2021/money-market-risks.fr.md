@@ -2,21 +2,30 @@
 title: "De l'évaluation du risque sur les marchés monétaires en finance décentralisée"
 description: "L'évaluation du risque dans la DeFi est actuellement à coté de la plaque ; cet article vous montre pourquoi avec une proposition claire pour évaluer les risques des marchés monétaires. La plupart des observations sont également applicables aux protocoles DeFi de manière plus générale."
 date: '2021-02-18T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, DEX, Marchés Monétaires, Aave, Compound, risque DeFi, évaluation du risque, risques marchés monétaires, risque aave, risque compound, risque cream, DeFiScore, CREAM, AAVE, COMP, Oracles, Liquidation, Assurance, Safety Module]
 toc: true
 tocNum: false
 url: marche-monetaire-risque
-image: img/2021/risk-tranching/cover.gif
 ---
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.
 
 Il y a actuellement trois grands marchés monétaires dans DeFi : Aave, Compound & Cream. Pourtant, tous les services suivants les utilisent, d'une manière ou d'une autre : Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88MPH, Idle Finance, etc. Pour dire les choses simplement - **les marchés monétaires sont l'un des niveaux de base du DeFi**.
 
+![Risk-Tranching-TokenBrice-Cover](/img/2021/risk-tranching/cover.gif)
+
 Les marchés monétaires sont étonnants - à la fois simples et très complexes. Dans cet article, j'essaie de fournir un cadre et quelques indices pour évaluer le risque à différents niveaux.
 
-Pour en savoir plus sur la couche de services qui est en train de se construire sur les marchés monétaires, n'hésitez pas à lire mes articles précédents.
+Pour en savoir plus sur la couche de services qui est en train de se construire sur les marchés monétaires, n'hésitez pas à lire mes articles précédents :
+
+1.   Une introduction au tranching via Saffron Finance :
+
+**[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/content/posts/2021/risk-tranching.fr.md)**
+
+2.   Une présentation des protocoles de taux d'intérêt fixes à travers le prisme d'APWine : 
+
+**[🍷 En oenologie comme en DeFi, la patience paie](https://tokenbrice.xyz/content/posts/2021/firp-apwine.fr.md)**
 
 ---
 
@@ -136,7 +145,7 @@ De plus, la liquidation n'est pas un événement soudain ni un tout ou rien. Il 
 
 Ainsi, avec l'USDC en collatéral, par exemple, il y a un écart de 5 % entre les deux - la LTV maximale est de 80 % (*maximum de 8 000 $ empruntés sur un collatéral de 10 000 USDC*), tandis que le seuil de liquidation est de 85 % (*= liquidation si valeur du collateral &lt; 8 500 $*)
 
-![Aave USDC collateral parameters](img/2021/money-market-risks/aave-usdc.png "Les principaux paramètres pour USDC comme colléral sur Aave")
+![Aave USDC collateral parameters](/img/2021/money-market-risks/aave-usdc.png "Les principaux paramètres pour USDC comme colléral sur Aave")
 
 Il donne aux emprunteurs utilisant l'USDC comme collatéral une marge supplémentaire de 5 %, de sorte que même si l'oracle fait état de 0,97 $, aucune liquidation n'aura lieu. La situation est similaire sur les autres marchés monétaires.
 
@@ -175,7 +184,7 @@ Une autre façon de voir les choses est l'inverse : évaluer la "santé" globale
 
 Vous pouvez également examiner la répartition des garanties afin d'évaluer l'exposition de la plateforme. Par exemple, on peut noter que sur Cream, près d'un tiers des dépôts sont des tokens FTT (échange FTX).
 
-![Cream](img/2021/money-market-risks/cream.png "Environ 1/3 des dépôts sur Cream sont constitués d'un seul token, et ce n'est pas celui que vous voudriez ou que vous vous attendriez à trouver ici").
+![Cream](/img/2021/money-market-risks/cream.png "Environ 1/3 des dépôts sur Cream sont constitués d'un seul token, et ce n'est pas celui que vous voudriez ou que vous vous attendriez à trouver ici").
 
 #### Évaluation de la stratégie de gestion des risques sur les collatéraux
 
@@ -199,7 +208,7 @@ La bonne nouvelle, c'est qu'il y en a un ! Aave a été le pionnier dans ce doma
 
 Aave dispose d'environ 2B dans le module de sécurité, dont jusqu'à 30% peuvent être saisis si nécessaire = 600M. Il couvre à la fois les V1 et V2 du protocole. Si les 30% sur la coupure du module de sécurité ne sont pas suffisants, le module de sécurité peut frapper des tokens AAVE supplémentaires. Un tel scénario n'est pris en compte ni par Compound ni par la Cream.
 
-![Aave's Safety Module](img/2021/money-market-risks/aave-safety-module.jpeg "Aperçu du Safety Module Aave")
+![Aave's Safety Module](/img/2021/money-market-risks/aave-safety-module.jpeg "Aperçu du Safety Module Aave")
 
 En plus de l'assurance, les marchés monétaires peuvent aussi avoir des réserves. Compound est ici le pionnier, avec environ 10 millions de dollars de réserves [^compoundreserve]. Aave a également un système de réserve qui a été récemment lancé, mais je l'ai exclu de l'analyse compte tenu du solde limité [^10].
 
@@ -256,7 +265,7 @@ En plus des risques d'échec des smart contracts, veuillez considérer la liste 
 
 La plupart des services d'assurance ne sont pas utiles pour tous ces risques, sauf pour les risques de défaut d'un smart contract. Le marché des autres types de risques commence à peine à se développer grâce à Unslashed Finance qui offre désormais une **couverture du risque de perte de l'ancrage des stablecoins** ou du risque de dépositaire.
 
-![Defiprime insurance](img/2021/money-market-risks/defiprime-insurance.png "Les différentes approches de l'assurance DeFi --- publié 2019 & biaisé mais encore un peu instructif")
+![Defiprime insurance](/img/2021/money-market-risks/defiprime-insurance.png "Les différentes approches de l'assurance DeFi --- publié 2019 & biaisé mais encore un peu instructif")
 
 
 Pour en savoir plus sur les différentes approches de l'assurance DeFi, consultez [cet article de DeFi Rate](https://defiprime.com/comparing-insurance-like-solutions-in-defi). Veuillez garder à l'esprit le **biais massif ici** : il a été écrit il y a plus de deux ans par Hugh Karp, fondateur de Nexus Mutual. Cependant, il est encore suffisamment factuel et perspicace pour vous aider à comprendre les différents modèles.
@@ -322,7 +331,7 @@ Ici encore, assurez-vous d'évaluer la qualité et non la quantité. Il est faci
 
 Je ne veux pas en faire un cas de figure contre Compound, mais là encore, c'est tellement évident. Alors que les financements communautaires de Compound sont assez limités, le programme de subventions vient d'être lancé [^6], son fondateur Robert Leshner est un investisseur en capital-risque actif, avec les fonds Robot Ventures [^7].
 
-![Robovc](img/2021/money-market-risks/robovc.png "RoboVC & ses principaux investissements")
+![Robovc](/img/2021/money-market-risks/robovc.png "RoboVC & ses principaux investissements")
 
 #### Évaluation de la communauté & DAO d'un marché monétaire
 

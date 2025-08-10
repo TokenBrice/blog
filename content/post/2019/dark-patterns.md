@@ -6,8 +6,9 @@ description: >-
 date: '2019-04-15T09:02:04.642Z'
 categories: [Analysis, Privacy]
 tags: [design, engineered addiction, advertising model, data harversting]
-image: img/2019/dark-patterns/cover.jpeg
 ---
+
+![](/img/2019/dark-patterns/cover.jpeg)
 
 Ever scrolled through Facebook for hours despite having other things to do? Or went through a sign up process, clicking “Next”, “Ok”, “Get Started” buttons without reading anything else? Or maybe you’ve been using an app every day for years without knowing anything about its privacy policy? Don’t worry, there is a whole science created to make sure you don’t feel bad or even question this, it bears a name and it’s discussed publicly: dark patterns.
 
@@ -29,13 +30,13 @@ Dark patterns are nothing new. The UX designer Harry Brignull coined it eight ye
 
 **Confirmshaming:** guilting the user into opting into something. The decline option is usually worded so that the user is shamed into compliance: who wants to click a `I am a bad person` action link?
 
-![](img/2019/dark-patterns/adblocker-guilt-trip.png)
+![](/img/2019/dark-patterns/adblocker-guilt-trip.png)
 
 **Hidden costs**: hiding additional costs (such as delivery) until the very last step of the purchase process. By then, the user has committed quite time to the process, and probably already inputted his credit card info. The [confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) might give him the nudge he needs to finish his purchase despite the surprise.
 
 **Trick questions**: framing questions to mislead the users. While reading quickly, the user might think he’s opting-out while he’s actually opting-in. It works even better when used in series alternating opt-in and opt-out like on the example below:
 
-![](img/2019/dark-patterns/trick-q.png)
+![](/img/2019/dark-patterns/trick-q.png)
 
 ### Service-level dark patterns
 
@@ -57,7 +58,7 @@ Gym clubs are among the worst when it comes to canceling subscriptions. On board
 
 Considering the frustration and even anger they generate, one might wonder how dark patterns can be so prevalent? After all, stories like the one told above are detrimental to the brand. The deceived user will not fail to share his disappointment with his friends and online once he freed himself from the trickery. Well, the short answer is that superficially, dark patterns work. If you A/B test an honest, non-deceptive form versus a dark pattern filled one, the second one will certainly land more conversions.
 
-![A basic form of A/B Testing](img/2019/dark-patterns/abtesting.png)
+![A basic form of A/B Testing](/img/2019/dark-patterns/abtesting.png)
 A basic form of A/B Testing
 
 When only the perimeter of their implementation (sign up form, purchase process…) is considered, dark patterns inevitably land more results than an honest approach. The harmful consequences they can unleash are delayed and at the brand level. They only come later on when people are denouncing their practices online.
@@ -90,6 +91,6 @@ Regarding privacy and traceability of the data we share, the decentralized ledge
 *   Reliable and decentralized identity management: [Civic](https://www.civic.com/) or [uPort](https://www.uport.me/)
 *   Financial privacy: [Monero](https://www.getmonero.org/)
 
-![](img/2019/dark-patterns/bat.png)
+![](/img/2019/dark-patterns/bat.png)
 
 Such systems are still under development and far from mainstream adoptions. In the meanwhile, the way we design digital interfaces needs to change: can there be such a thing as bright design? We can at least see how it would look like: transparent, honest, and empowering the users instead of deceiving them.

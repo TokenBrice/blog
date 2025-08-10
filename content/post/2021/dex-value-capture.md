@@ -7,14 +7,15 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Unisw
 toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
-image: img/2021/dex-value-capture/cover.png
 ---
 
 I've shared my perspective on many DeFi protocols on this blog, but recently I realized I've never gone back to the basics: the DEXs. That's precisely what we will do today, tackling the topic mostly by looking at value capture mechanisms.
 
+![volume-begets-fees-cover](/img/2021/dex-value-capture/cover.png)
+
 AMM-based DEXs like Uniswap, Curve or SushiSwap all grew tremendously both in available liquidity and volume this year, and so did the fees they collected. To put it simply: **these DEXs now are the main fee-collectors there are in crypto, right after the Bitcoin and Ethereum network themselves**:
 
-![crypto-fees](img/2021/dex-value-capture/fees.png)
+![crypto-fees](/img/2021/dex-value-capture/fees.png)
 
 It's quite an impressive achievement! So today we'll look at this yummy cake and understand how it's split. What's the different approaches? What is their token used for / how do they establish their incentive model? And then how will the arrival of layer 2 impact all of that?
 
@@ -56,7 +57,7 @@ Since the early days, one of the core changes of SushiSwap was a slight reductio
 
 Since the initial distribution phase, there were several adjustments made but the mechanism is roughly the same. Onsen introduced a rotational reward system onboard relevant new pools. More importantly for the tokenomics, ⅔ of the SUSHI rewards earned through liquidity mining are now vested over a 6 months period.
 
-![sushiswap-onsen](img/2021/dex-value-capture/sushi-onsen.png)
+![sushiswap-onsen](/img/2021/dex-value-capture/sushi-onsen.png)
 
 This vesting reduces the incentives for "mercenary liquidity", especially for liquidity managed by a vault for instance & helps to **make sure that large liquidity providers are also SUSHI holders at all time** (even up to 6 months after they're done farming), better aligning interests.
 
@@ -72,7 +73,7 @@ Curve's model is slightly more complex than the previous but results in an ever 
 
 Since the launch of the CRV token, liquidity providers on Curve have been earning CRV tokens on top of their usual commissions (if they stake). And just like SushiSwap, Curve's introduced a form of value capture at the CRV-token level. 
 
-![Curve pools](img/2021/dex-value-capture/curve-pools.png "Overview of the main pools pools on Curve")
+![Curve pools](/img/2021/dex-value-capture/curve-pools.png "Overview of the main pools pools on Curve")
 
 Yet the model is more intricate so let's discuss each part and see how they interact with one another.
 
@@ -104,7 +105,7 @@ As mentioned earlier, liquidity providers can stake their LP tokens to earn CRV 
 
 To do so, one needs an amount of veCRV proportionate to the $value of the liquidity providing position boosted. The effective cost (in veCRV) to have the maximum boost is not the same for each pool - creating a first layer of incentives/arbitrages games.
 
-![Curve CRV boosting](img/2021/dex-value-capture/crv-boost.png "It takes a different amount of veCRV per $ deposited into a given pool to achieve the maximum boost.")
+![Curve CRV boosting](/img/2021/dex-value-capture/crv-boost.png "It takes a different amount of veCRV per $ deposited into a given pool to achieve the maximum boost.")
 
 It's an interesting mechanism enabling a better alignment of incentive: **large and efficient CRV earners are also significant veCRV holders** (-> locked for 1-4 years) so they have a fair amount of skin in the game. Yet it's just the first & friendliest layer of Curve's meta game. Let's go deeper into the onion.
 
@@ -160,7 +161,7 @@ Last year, we saw the value transacted on AMM explode to the detriment of order-
 
 **Loopring is already delivering live in production an AMM on L2:** a zk-Sync based L2 DEX with various incentives for liquidity providers. Curve has been working with Zk-Sync too, so we can reasonnably expect them to ship a live L2 product this year considering the latest developments with Zk-Sync.
 
-![Loopring V2 Stats](img/2021/dex-value-capture/loopring.png "Overview of the main pools on Loopring V2")
+![Loopring V2 Stats](/img/2021/dex-value-capture/loopring.png "Overview of the main pools on Loopring V2")
 
 On the other hand, Synthetix recently rolled their Optimism L2 mainnet and the force seems strong around a Uniswap x Optimism rollout. Jokingly the other day I was saying: 
 > Synthetix Optimism L2 is Uniswap's testnet. 
@@ -174,7 +175,7 @@ Services that do not already have a token might have an edge here as they can in
 It's going to be fascinating to watch the releases of the different layer 2 and how they impact the protocols usage and tokenomics.
 
 {{< notice note >}}
-![defi-france-live-16](img/2021/dex-value-capture/defi-france-live-16.png)
+![defi-france-live-16](/img/2021/dex-value-capture/defi-france-live-16.png)
 🇫🇷 If you understand spoken French:
 
 We're thrilled to meet 0xMaki to discuss the topic **in French** this Monday on [DeFi France's YouTube](https://www.youtube.com/watch?v=JT8N7-gqTjA)

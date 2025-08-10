@@ -4,6 +4,7 @@ date: '2019-03-04T09:44:14.735Z'
 description: Exploring the shift back to static site generators to sanitize web development practices
 tags: [web development, static websites, static web, dynamic websites, content, SEO, Markdown]
 categories: [Analysis]
+canonicalUrl: https://blog.callr.tech/static-web-roots/
 ---
 
 `This article goes back to the early years of the web to understand why dynamic websites are so prevalent today. Then, we consider what static websites bring in terms of performance, editing speed, and organic results.`
@@ -19,7 +20,7 @@ Behind the MySpace/Facebook antagonism lies on the most critical point of tensio
 1.  **WYSIWYG (What You See Is What You Get)** — As the name suggests, in this paradigm the goal is to have an editor as close as the final rendering. WordPress was one of the most visible early proponent of WYSIWYG, but others joined. The Medium editor (featured below), built using [TinyMCE](https://en.wikipedia.org/wiki/TinyMCE), is now regarded as one of the best WYSIWYG experience available online. 
 2.  **Efficiency First** — WYSIWYG editors are easy to get started with but tend to be either clunky or limited. Ultimately, introducing some form of syntax adds complexity, but it also allows more control over the final rendering of the content. Moreover, since the formatting is enforced with syntax (HTML, CSS, Markdown…), it's no longer dependent on the editor used.
 
-{{< figure src="img/2019/staticweb/mediumeditor.png" alt="Medium Editor" >}}
+{{< figure src="/img/2019/staticweb/mediumeditor.png" alt="Medium Editor" >}}
 
 ## The Dawn of WordPress
 
@@ -48,7 +49,7 @@ Indeed, Markdown is reasonably straightforward, quick to master yet incredibly p
 
 Finally, it might seem, but it's not given: with markdown you can handle text-related features (footnotes, tagging, linking to a section, table of contents, diagrams and charts) at the document-level instead of having to interact with yet another layer. **It dramatically improves the maintainability and portability of your content.**
 
-{{< figure src="img/2019/staticweb/jamstack.png" alt="JAMStack" >}}
+{{< figure src="/img/2019/staticweb/jamstack.png" alt="JAMStack" >}}
 
 ### Version control is not just about code: writers love it too!
 
@@ -69,7 +70,7 @@ So far, we stayed very pragmatic as we addressed static websites' benefits in te
 
 The average website size is now well over 3 MB[^3] (as 2017). **More the size itself, the macro-level issue lies in the trend**. Here is the evolution of the average website page since 2011 for reference[^3]:
 
-{{< figure src="img/2019/staticweb/pagebloat.png" alt="Web performance page bloat" >}}
+{{< figure src="/img/2019/staticweb/pagebloat.png" alt="Web performance page bloat" >}}
 
 To give you a reference for comparison on blog.call.tech, our homepage weights 10 KB and an average page (image included) weights about 400 KB.
 
@@ -103,7 +104,7 @@ We are convinced that static websites will become commonplace shortly. In the me
 
 Hugo was a fit for our tech blog as it helped us streamline the content editing process while achieving impressive organic results:
 
-{{< figure src="img/2019/staticweb/searchconsole.png" alt="Blog.CALLR.tech Organic performance" >}}
+{{< figure src="/img/2019/staticweb/searchconsole.png" alt="Blog.CALLR.tech Organic performance" >}}
 
 Luckily, the offer of static website generators and other related services greatly expanded since the release of Jekyll in 2008. 
 

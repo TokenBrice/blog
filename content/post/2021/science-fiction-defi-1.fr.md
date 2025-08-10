@@ -2,7 +2,7 @@
 title: "Science Fiction DeFi #1 - Le marché d'actions humaines & le Moloch interstellaire 🛸"
 description: "Le début d'une grande aventure : une émission interactive qui allie science-fiction et DeFi pour réfléchir aux enjeux du monde de demain."
 date: '2021-03-11T01:13:50.191Z'
-categories: [Projects]
+categories: [Projets]
 tags: [DeFi, Science Fiction, DeSciFi]
 url: science-fiction-defi-1
 ---
@@ -74,7 +74,7 @@ Comme toujours durant les lives, je serai ravi de partager avec vous une partie 
 
 Pendant que les autres parlent en lambos, ici nous savons bien qu'une DeLorean = 88 lambos. Il y en aura bien sûr à gagner mais aussi d'autres NFTs en guise de récompense exceptionnelle comme ce magnifique veau d'or bitcoin-natif : le Space Bulla.
 
-![Space-Bulla-ManWithNoName](img/2021/scifidefi/space-bulla.gif "Le Space Bulla - ManWithNoName")
+![Space-Bulla-ManWithNoName](/img/2021/scifidefi/space-bulla.gif "Le Space Bulla - ManWithNoName")
 
 J'ai absolument hâte de vous retrouver en compagnie de Manu pour la première. On ne sait pas si l'audience sera au rendez-vous mais une chose est sûre : on se fait déjà plaisir !
 

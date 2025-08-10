@@ -7,7 +7,6 @@ tags: [DeFi, Ethereum, Finance décentralisée, NFT, Forgotten Wizard, Luchadore
 toc: true
 tocNum: false
 url: nftfi-defi-nft
-image: img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 ---
 
 La finance décentralisée a ouvert un monde de possibles : une myriade d’intermédiaires auparavant nécessaires sont désormais surnuméraires. Malgré tout, elle intimide par sa potentielle complexité et sa transdisciplinarité. Outre la dimension technique évidente, la DeFi invoque également des notions issues de disciplines diverses: économie, sciences sociales, “mémétique”, etc.
@@ -16,6 +15,7 @@ Ainsi, depuis des années déjà, les NFTs ont servi de porte d’entrée vers l
 
 Je vous propose donc aujourd’hui de faire converger les deux thèmes principaux de ce blog en un sujet captivant : l’émergence de l’infrastructure DeFi pour les NFTs, ou encore l’arrivée des NFTs/gamification dans la DeFi - c’est une question de perspective.
 
+![nft-defi-infrastructure-tokenbrice](/img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png "Utilisation jointe de DeFi et NFT : création d'un vault pour déveloper la liquidité d'une collection donnée.")
 
 ## DeFi + NFT => NFTfi : un monde de possibles pour vos JPEGs
 
@@ -23,7 +23,7 @@ Les cas d'utilisation à la croisée de la DeFi et des NFTs sont nombreux et en 
 
 Cette infographie est un bon point de départ pour approfondir votre analyse de la NFTfi si cet article éveille votre curiosité :
 
-![nftfi-landscape](img/2022/nft-defi-infrastructure/nftfi-landscape.jpeg "Carte des projets NFTfi (source UnUniFi Protocol)")
+![nftfi-landscape](/img/2022/nft-defi-infrastructure/nftfi-landscape.jpeg "Carte des projets NFTfi (source UnUniFi Protocol)")
 
 On commence par le plus intuitif pour ceux qui sont déjà un peu à jour avec la DeFi : l’arrivée d'une infrastructure financière pour échanger, mais aussi prêter, rendre productif ou encore fractionnaliser des NFTs. Pour attaquer ce vaste sujet, partons de la première couche : l’infrastructure utilisée pour acheter et vendre des NFTs.
 
@@ -47,7 +47,7 @@ On obtient ainsi une situation proche des fournisseurs d’accès internet amér
 
 Commençons donc par regarder les données qui sont éloquentes :
 
-![looksrare-vs-opensea](img/2022/nft-defi-infrastructure/looksrare-vs-opensea.png "Volume observé sur LooksRare et OpenSea")
+![looksrare-vs-opensea](/img/2022/nft-defi-infrastructure/looksrare-vs-opensea.png "Volume observé sur LooksRare et OpenSea")
 
 
 On regarde ici simplement le volume. En termes de nombre d’utilisateurs et de transactions OpenSea domine encore largement. Vous pouvez retrouver toute la donnée sur le super dashboard [d’Hildoby](https://twitter.com/hildobby_) : [LooksRare VS Opensea (Dune Analytics)](https://dune.xyz/hildobby/LooksRare-VS-OpenSea).
@@ -63,12 +63,12 @@ On était nombreux à attendre une alternative crédible, et heureusement elle e
 
 Le protocole possède ainsi déjà près de $13M en ETH+LOOK déployé sur UniswapV3 pour soutenir la liquidité - voici [le wallet de LooksRare](https://debank.com/profile/0xc8c57e4c73c71f72ca0a7e043e5d2d144f98ef13) pour vérifier par vous même. Les frais collectés sur le LP sont utilisés pour… apporter toujours plus de liquidité !
 
-![looksrare-pol](img/2022/nft-defi-infrastructure/looksrare-pol.png)
+![looksrare-pol](/img/2022/nft-defi-infrastructure/looksrare-pol.png)
 
 
 Ce nouveau jeu de règles permet à LooksRare d’être extrêmement compétitif par rapport à Opensea, puisque le frais est 20% plus bas, et que chaque achat/vente est également rémunéré en LOOKS. Le résultat est sans appel : acheteur comme vendeur gagnent tous deux à préférer LooksRare à Opensea.
 
-![looksrare-vs-opensea-cost](img/2022/nft-defi-infrastructure/looksrare-vs-opensea-cost.jpeg "Comparaison des coûts LooksRare vs Opensea")
+![looksrare-vs-opensea-cost](/img/2022/nft-defi-infrastructure/looksrare-vs-opensea-cost.jpeg "Comparaison des coûts LooksRare vs Opensea")
 
 ### La tokénisation expliquée avec la partialisation de NFTs
 
@@ -88,7 +88,7 @@ Ce concept, tout en illustrant les bénéfices de la tokénisation correspond é
 
 Ce modèle, c’est celui de [Spectre.xyz](https://spectre.xyz/litepaper), un service qui permet de gérer la collectivisation et privatisation de NFTs.
 
-![spectre](img/2022/nft-defi-infrastructure/spectre.png)
+![spectre](/img/2022/nft-defi-infrastructure/spectre.png)
 
 
 Outre la possession collective, une telle solution a aussi un intérêt en terme de liquidité : le token obtenu (PUNK) est un ERC20 classique, il est donc bien plus aisé de développer des solutions permettant son achat et sa vente immédiate qu’avec un NFT, qui nécessite la rencontre d’une demande et d’une offre simultanée.
@@ -112,14 +112,14 @@ Outre LooksRare et Opensea précédemment mentionné, il existe d’autres place
 
 Le leader en la matière, c’est probablement [NFTX](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/), mais il y a aussi [NFT20](https://nft20.io/). Cette méthode permet d’obtenir un token ERC20 - par exemple le WIZARD - qui correspond à un claim sur n’importe quel NFT du vault, en l'occurrence n’importe lequel des 215 Forgotten Wizard Cult (NFTs) contenu dans [le vault.](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/)
 
-![nftx-wizard-list](img/2022/nft-defi-infrastructure/nftx-wizard-list.png "Le vault des Forgotten Wizard Cult ur NFTX")
+![nftx-wizard-list](/img/2022/nft-defi-infrastructure/nftx-wizard-list.png "Le vault des Forgotten Wizard Cult ur NFTX")
 
 
 La liquidité sur le token WIZARD peut être développée contre ETH par exemple, permettant ainsi l’achat immédiat de n’importe quel wizard contenu dans le vault. L’inverse est également possible : tout possesseur d’un Forgotten Wizard Cult peut le déposer dans le vault afin d’obtenir 1 WIZARD qu’il pourra ensuite vendre pour de l’ETH.
 
 Et enfin NFTX va même plus loin puisque le token natif de la plateforme ainsi que les frais collectés sont utilisés pour proposer des incitations à deṕoser dans le vault et développer la liquidité. **Les utilisateurs qui** **déposent des NFTs dans le vault sont ainsi éligibles à une rémunération de staking** - et des rendements plus élevés sont possible pour ceux qui déposent + LP : la financiarisation des NFTs est lancée !
 
-![alt_text](img/2022/nft-defi-infrastructure/nftx-wizard.png "Rendements staking (rouge) et LP (violet) sur le token WIZARD")
+![alt_text](/img/2022/nft-defi-infrastructure/nftx-wizard.png "Rendements staking (rouge) et LP (violet) sur le token WIZARD")
 
 
 On se concentre ici sur la liquidité, mais il faut garder en tête que le passage d’un NFT à un ERC-20 vient avec de nombreux autres avantages :
@@ -146,14 +146,14 @@ Pour continuer et finir sur la tokénisation, sachez  qu’elle permet égalemen
 
 Les IdolsNFT ont été vendus initialement via une bonding curve pour un prix entre 0.25 et 0.5 ETH. Tous les ETH collectés durant la vente sont stakés via Lido (StETH). Posséder un Idol vous rend éligible à la part correspondante des rendements. Ici, c’est donc le rendement généré par les StETH qui est tokenisé.
 
-![idols-nft](img/2022/nft-defi-infrastructure/idol-nfts.png)
+![idols-nft](/img/2022/nft-defi-infrastructure/idol-nfts.png)
 
 
 Et le projet va même plus loin ! En effet, il y a aussi un ERC-20 dans l’histoire, le VIRTUE, initialement distribué aux premiers acheteurs. Désormais pour obtenir du VIRTUE, il faut bond des stETH (-> ce qui augmente le capital productif du projet). 
 
 Le VIRTUE correspond à une exposition par proxy sur les IdolsNFT : pour chaque vente d’un NFT Idol, un frais de 7.5% est prélevé et reversé aux stakers de VIRTUE.
 
-![idolnfts-virtue-cycle](img/2022/nft-defi-infrastructure/idol-cycle.png)
+![idolnfts-virtue-cycle](/img/2022/nft-defi-infrastructure/idol-cycle.png)
 
 Ainsi, les Idols, “Gardiens d’Ethereum” utilisent les NFTs pour rendre le staking d’ETH plus fun et interactif. En outre, la capture des frais sur le token VIRTUE permet d’éviter une “capture externe” des frais générés par les échanges de IdolsNFT comme c’est le cas pour les NFTs échangés sur NFTX par exemple. 
 
@@ -175,7 +175,7 @@ Dans cet article, on a déjà mentionné trois plateformes différentes pour ach
 
 Face à cette myriade d’options, les acheteurs n’ont pas forcément le temps, l’envie, l’énergie ou bien encore la connaissance pour explorer toutes leurs options avant de conclure une transaction. La situation est très similaire à l’achat/vente d’un token ERC20 en DeFi : la liquidité est très fragmentée. Logiquement, la solution est donc similaire à celle déployée en DeFi : l'agrégation.
 
-![gem.xyz](img/2022/nft-defi-infrastructure/gem-xyz.png "Gem, l'aggrégateur NFT")
+![gem.xyz](/img/2022/nft-defi-infrastructure/gem-xyz.png "Gem, l'aggrégateur NFT")
 
 
 Il existe ainsi plusieurs services capables de diriger les “ordres” vers différentes places de marché, voire de ŕealiser un “swipe” sur plusieurs plateformes avec une seule transaction : il s’agit de [Genie](https://genie.xyz) et [Gem](https://gem.xyz). 
@@ -203,7 +203,7 @@ Les 🪅 sont des tokens ERC-1155 qui contiennent 1 accessoire pour Luchadores, 
 * Le protocole possède également une trentaine de Luchadores (⇒Yield en LUCHA) acheté avec une partie des profits de la première pinata : l’achat a été effectué en utilisant un agrégateur.
 * Une place de marché est disponible pour les accessoires, avec paiement en LUCHA : une redistribution des frais collectés est également envisageable.
 
-![luchadores](img/2022/nft-defi-infrastructure/luchadores.png)
+![luchadores](/img/2022/nft-defi-infrastructure/luchadores.png)
 
 Le jeu n’est pas encore disponible (Alpha d’ici la fin Mars !), mais les interactions de ce type ne vont que se densifier au fur et à mesure de son développement. Avec l’arrivée du jeu, viendront de nouvelles fonctionnalités : staker ses tokens LUCHA permettra d’obtenir des MASK, un token non-transférable mais nécessaire pour acheter différents objets servant à augmenter la puissance de ses Luchadores.
 
@@ -222,7 +222,7 @@ Dans cet article, on est encore resté sur la partie visible de l’iceberg. À 
 
 [FloorDAO](https://floor.xyz/) c’est en quelque sorte une couche supplémentaire construite sur NFTX. FloorDAO utilise le modèle OlympusDAO mais adapté pour les NFTs. L'objectif est d'assurer un rendement et soutenir la liquidité sur les collections concernées (Punk et Wizard pour l'instant). Comment ? Simple : pour les collections concernées, les possesseurs du token NFTX correspondant (ex WIZARD pour les Forgotten Wizards) ainsi que le LP (WIZARD/ETH) peuvent le bond pour obtenir des tokens FLOOR.
 
-![floordao-bond](img/2022/nft-defi-infrastructure/floordao-bond.png "La pertinence du bonding varie en fonction des besoins de la FloorDAO et de l'evolution du prix de FLOOR.")
+![floordao-bond](/img/2022/nft-defi-infrastructure/floordao-bond.png "La pertinence du bonding varie en fonction des besoins de la FloorDAO et de l'evolution du prix de FLOOR.")
 
 Les tokens et LP collectés sont utilisés par FloorDAO pour produire un rendement (staking NFTX). La communauté (holders de gFLOOR) vote pour décider les prochains actifs à acquérir. Olympus utilise l'inflation de son token de gouvernance pour acquérir des actifs stratégiques commme DAI, LUSD, ou CRV ; FloorDAO fait la même chose mais avec pour cible des tokens NFTX et donc backés par un NFT.   
 

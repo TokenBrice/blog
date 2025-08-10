@@ -6,8 +6,10 @@ description: >-
 date: '2018-04-13T14:23:08.991Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, Cambride Analytica, ad blockers]
-image: img/2018/free-services/cover.jpeg
 ---
+
+![[Image Credit: Pawel Kucynsky](https://www.facebook.com/pawelkuczynskiart/)](/img/2018/free-services/cover.jpeg)
+[Image Credit: Pawel Kucynsky](https://www.facebook.com/pawelkuczynskiart/)
 
 Last month was a strange one. We saw mainstream media questioning [Facebook](https://hackernoon.com/tagged/facebook) and Cambridge Analytica practices after recent concerns over the US election. [The Guardian](https://www.theguardian.com/technology/2018/mar/24/facebook-week-of-shame-data-breach-observer-revelations-zuckerberg-silence) sums it up in one frightening sentence:
 
@@ -22,7 +24,7 @@ While Cambridge Analytica was already [advertising its services on Youtube since
 
 The activity of Cambridge Analytica and its impact over elections have been well covered, [such as in The Guardian’s Cambridge Analytica files](https://www.theguardian.com/news/series/cambridge-analytica-files) or the [NY Times](https://www.nytimes.com/2017/03/06/us/politics/cambridge-analytica.html). Now, even Google will tell you:
 
-![](img/2018/free-services/google.jpeg)
+![](/img/2018/free-services/google.jpeg)
 
 What’s less discussed is how could we even get to this point? Considering the company’s goals and practices, abuses should have been expected and prevented. Let’s broaden the discussion and address the tradeoff made with “free” services instead and the **consequences of this data theft: a loss of political and personal power.**
 
@@ -54,7 +56,7 @@ On mobile, apps and games may have **aggressive data collection practices**, req
 
 On desktop, there are intrusive banner ads and pop-ups all around deteriorating the browsing experience on the web. Worst, there are also much more intrusive practices such as **spywares** (your beloved grandma’s toolbar) **bundled with free softwares**.
 
-![A glimpse in toolbars’ hell](img/2018/free-services/toolbars.jpeg)
+![A glimpse in toolbars’ hell](/img/2018/free-services/toolbars.jpeg)
 A glimpse in toolbars’ hell
 
 If scammy tactics are common for advertisers, brands pay the price for it as automated clicks are hard to distinguish for real ones.

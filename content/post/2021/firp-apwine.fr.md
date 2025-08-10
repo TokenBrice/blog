@@ -2,12 +2,11 @@
 title: "🍷 En oenologie comme en DeFi, la patience paye : introduction aux FIRps avec APWine.FI"
 description: "Une introduction aux protocoles de fixation de rendements (FIRP) au travers du prisme d'APWine pour mieux comprendre ce qu'ils permettent de faire et apportent à DeFi"
 date: '2021-02-11T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Marchés monétaires, Aave, Compound, ApWine, 88MPH, Fixed Interest Rate Protocol, FIRP]
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
-image: img/2021/firp-apwine/pac-man.png
 ---
 
 
@@ -19,7 +18,7 @@ Notre sujet d'aujourd'hui frappe au cœur de cette tendance, avec une solution o
 
 ## Marché monétaire = PacMan
 
-![the interest bearing stablecoin pacman-tokenbrice](img/2021/firp-apwine/pac-man.png "Plusieurs couches d'abstraction s'accumulent sur les marchés monétaires - feront-elles bientôt partie de l'expérience native ?")
+![the interest bearing stablecoin pacman-tokenbrice](/img/2021/firp-apwine/pac-man.png "Plusieurs couches d'abstraction s'accumulent sur les marchés monétaires - feront-elles bientôt partie de l'expérience native ?")
 
 Le tranching (sérialisation de risque), l'assurance et les FIRP agissent tous les trois comme des **couches d'abstraction construites sur un marché monétaire** pour fournir des fonctionnalités supplémentaires :
 1. **🔪 Tranching** ➡ meilleure séparation des différents types de risques
@@ -40,7 +39,7 @@ Avec le DeFi, l'objectif pour la plupart est **de produire des rendements à par
 
 Même si vous êtes super responsable et que vous essayez d'assurer et de protéger davantage vos dépôts, il vous reste un problème important : **le rendement de base produit par l'actif est généralement volatil**, ce qui rend la tarification de l'ensemble (dépôt prêté + assurance + tranching) difficile à comprendre.
 
-![coingecko-crypto-2020-report](img/2021/firp-apwine/coingecko-report.png "CoinGecko a mis en évidence les différentes approches du FIRP comme un sous-ensemble croissant de la DeFi dans leur dernier rapport")
+![coingecko-crypto-2020-report](/img/2021/firp-apwine/coingecko-report.png "CoinGecko a mis en évidence les différentes approches du FIRP comme un sous-ensemble croissant de la DeFi dans leur dernier rapport")
 
 Consultez le [rapport complet ici](https://assets.coingecko.com/reports/2020-Year-End-Report/CoinGecko-2020-Report.pdf).
 
@@ -71,7 +70,7 @@ Cela signifie également différents compromis du côté de la gestion des risqu
 
 L'inverse est vrai pour APWine : puisqu'il est basé sur un marché, aucun décalage ne peut se produire (-> pas de dette protocolaire), mais cela signifie qu'il peut y avoir des problèmes de demande/offre (tels que de fortes remises sur les FYT).
 
-![apwine-deposit-process](img/2021/firp-apwine/apwine.png "Le processus de dépôt sur APWine (source : site officiel)")
+![apwine-deposit-process](/img/2021/firp-apwine/apwine.png "Le processus de dépôt sur APWine (source : site officiel)")
 
 ### APWine : Jour de paie instantané ?
 
@@ -113,7 +112,7 @@ Donc, en plus du droit de gouvernance habituel du protocole, il semble qu'il y a
 
 Le français étant la langue de DeFi, il était temps d'impliquer de bons vignerons dans le processus de brassage des rendements ! Si vous êtes intéressé par le protocole, vous pouvez **[en savoir plus sur la version bêta ici](https://apwine.medium.com/our-beta-is-live-on-the-ethereum-mainnet-3860491a365c)**.
 
-![apwine-deposit-process](img/2021/firp-apwine/defi-france-live-19.png)
+![apwine-deposit-process](/img/2021/firp-apwine/defi-france-live-19.png)
 
 Je vous suivrai de près car je vais avoir **[un chat avec Antoine](https://www.youtube.com/watch?v=Zo0B64swtPI)**, une des personnes impliquées dans APWine la semaine prochaine (en français). Retrouvez-nous Lundi 15 à 17h sur le YouTube pour le direct, ou à tout moment après pour le replay.
 

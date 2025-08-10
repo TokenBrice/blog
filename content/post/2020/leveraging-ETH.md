@@ -6,7 +6,6 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging, Minting DAI]
 toc: true
 tocNum: true
-image: img/2020/leveraging-ETH/leveraging-ETH.png
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session! 
@@ -16,6 +15,8 @@ Indeed, DeFi is heating up and yields are attractive. However, **even crazy liqu
 With this one goal in mind, the most obvious solution was [Maker](http://makerdao.com/). The position can, of course, be achieved using other services; I consider them at the end.
 
 So there you have the base idea: instead of investing directly in ERC20 or stablecoins and putting them to work, you maintain an ETH base, use it to generate DAI and then diversify into your positions. This way, you maintain a healthy ETH exposure - the tradeoff being the additional risk, including liquidation that are discussed below.
+
+![Maker-Leveraging-ETH-overview](/img/2020/leveraging-ETH/leveraging-ETH.png "An overview of the main strategies you can implement using the DAI minted from your ETH vaults.")
 
 ## Re-investing the minted DAI
 
@@ -40,7 +41,7 @@ When it comes to making sure you're not burning yourself on the gas costs, I've 
 1. While interacting with your vaults, you'll find yourself make series of transactions (deposit ETH -> mint DAI -> do something with the DAI). To reduce your gas costs, you can **use [FuruCombo](https://furucombo.app/) to build your series of operations and execute it in one transaction.**
 2. You might find yourself in need of a "flash capital" to close a position somewhere and re-open it somewhere else. If that's the case, an Aave flash loan will be useful. Now for the best part: **flash loans are available on FuruCombo!**
 
-![Collateral swap using Furucombo](img/2020/leveraging-ETH/furucombo.png "ETH -> USDC collateral swap using FuruCombo.")
+![Collateral swap using Furucombo](/img/2020/leveraging-ETH/furucombo.png "ETH -> USDC collateral swap using FuruCombo.")
 
 Keep in mind that in these times of high gas cost, each interaction is costly. To reduce the impact of gas on your strategy, try to minimize the amount of operations you're doing - FuruCombo is simply amazing for that!
 
@@ -61,7 +62,7 @@ Here are my tips and recommendations to make sure this does not happen to you:
 
 **Easy Vault Management**: if you'd like a less stressful approach, you can use [DeFiSaver](https://defisaver.com/) to make sure your vault is automatically kept at a certain ratio with the Save function.
 
-![Automating Maker Vault Management with DeFi Saver](img/2020/leveraging-ETH/defisaver-automation.png "Automation Options on DeFi Saver.")
+![Automating Maker Vault Management with DeFi Saver](/img/2020/leveraging-ETH/defisaver-automation.png "Automation Options on DeFi Saver.")
 
 ### Advanced Vault Management
 
@@ -112,7 +113,7 @@ If you are considering investing in the Curve y pool, I'd recommend going 100% f
 
 Currently it sits ~1.5% over 5000 DAI: that is 1.5% instant profit as you enter the position, quite attractive right?
 
-![Curve DAI Premium](img/2020/leveraging-ETH/curve-dai-premium.png "Positive slippage while entering the y Curve pool full DAI")
+![Curve DAI Premium](/img/2020/leveraging-ETH/curve-dai-premium.png "Positive slippage while entering the y Curve pool full DAI")
 
 Depending on your risk preference and your capital, you might want to time your entry. I was able to harness up to a 3.5% positive bonus entering the ypool, so waiting can be worth it!
 

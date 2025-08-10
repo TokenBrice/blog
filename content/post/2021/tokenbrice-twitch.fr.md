@@ -2,11 +2,10 @@
 title: "TokenBrice, désormais 100% en français et bientôt sur Twitch !"
 description: "/Insérez de la hype et un Brice heureux ici/"
 date: '2021-03-08T01:13:50.191Z'
-categories: [Projects]
+categories: [Projets]
 tags: [DeFi, TokenBric.xyz, DeFi France, Twitch]
 toc: false
 tocNum: false
-image: img/2021/tokenbrice-twitch/francebaiseouais.jpg
 ---
 
 Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'était qu'un début. Assez d'engouement, il est temps de vous parler de ce qui arrive cette semaine et ensuite !
@@ -14,6 +13,9 @@ Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'�
 Alors, qu'est-ce je vous prépare de beau ?
 
 C'est simple : **une présence intensifiée 100 % en français** pour aider encore plus de personnes à saisir ce qui se passe avec la finance décentralisée et réellement comprendre les différents protocoles utilisés.
+
+![francebaiseouais](/img/2021/tokenbrice-twitch/francebaiseouais.jpg)
+<div align = "center">
 
 _Nous devons ce chef d'oeuvre à un Redditeur francophone [/u/Argh3483](https://www.reddit.com/u/Argh3483): un vrai Chad !_
 
@@ -106,4 +108,4 @@ De très nombreuses personnes suivent et contribuent quotidiennement aux discuss
 
 Merci pour votre soutien jusqu'à présent ! **La communauté me donne des ailes, déployons les et volons ensemble... vers l'infini et au-delà !**
 
-![buzz](img/2021/tokenbrice-twitch/buzz.jpg)
+![buzz](/img/2021/tokenbrice-twitch/buzz.jpg)

@@ -2,11 +2,10 @@
 title: "La prochaine étape de mon aventure : un engagement encore plus communautaire"
 description: "Il est temps pour moi de rendre mon tablier de Community Manager de Monolith afin de consacrer une plus grande partie de mon temps à soutenir des efforts à vocation plus communautaire."
 date: '2020-10-15T01:13:50.191Z'
-categories: [Projects]
+categories: [Projets]
 tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
-image: img/2020/next-steps/df1.png
 ---
 
 Je quitte mon poste de responsable de la communauté de Monolith pour consacrer une plus grande partie de mes efforts à la communauté : contenu, rencontres et conseils pour aider à découvrir la finance décentralisée !
@@ -115,7 +114,7 @@ J'ai donc contacté Ryan et j'ai été ravi d'apprendre que cela faisait déjà 
 
 Depuis, BanklessFR s'est développé : nous élargissons l'offre de contenu et explorons différentes manières de pérenniser le projet. Après le premier Gitcoin Grants en septembre, nous venons de publier la [première série NFT BanklessFR](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:43413:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00) pour illustrer un article auquel elle est liée.
 
-[Premier NFT BanklessFR](img/2020/next-steps/imageNFTbanklessfr.gif "BanklessFR First ever NFT, made by Arke")
+[Premier NFT BanklessFR](/img/2020/next-steps/imageNFTbanklessfr.gif "BanklessFR First ever NFT, made by Arke")
 
 
 #### Et ton travail, Brice ?
@@ -132,7 +131,7 @@ L'un de mes objectifs sera de **mettre en lumière la complexité abstraite par 
 
 Voici quelques bribes de mon histoire de crypto ! Puisque vous êtes arrivé jusqu'ici, permettez-moi de partager une dernière chose - une simple illustration démontrant certaines caractéristiques qui font de ParaSwap plus qu'un simple agrégateur - c'est **le** middleware DeFi :
 
-![Qu'est-ce qui rend ParaSwap supérieur à d'autres agrégateurs comme 1InchExchange ?](img/2020/next-steps/paraswap-edge.png "Un exemple de ce qui rend ParaSwap unique.")
+![Qu'est-ce qui rend ParaSwap supérieur à d'autres agrégateurs comme 1InchExchange ?](/img/2020/next-steps/paraswap-edge.png "Un exemple de ce qui rend ParaSwap unique.")
 
 Intrigués ? [Consultez cette article](https://learn2swap.com/l2s/understanding-paraswap/edge) pour mieux comprendre l'avantage unique de ParaSwap et comment vous pouvez l'exploiter pour que DeFi travaille pour vous.
 

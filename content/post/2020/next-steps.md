@@ -6,7 +6,6 @@ categories: [Projects]
 tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
-image: img/2020/next-steps/df1.png
 ---
 
 As I move on with the next chapter of my involvement in the DeFi space, I wanted to take the time to write a rare personal statement to share my story and what's coming next.
@@ -47,7 +46,7 @@ I know it's silly, but Osaka blew my mind. Before it, I felt the energy and ambi
 
 It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/content/learndefi/_index.md): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days! 
 
-![DeFi France DF1](img/2020/next-steps/df1.png "DeFi France's first event, held entirely in French")
+![DeFi France DF1](/img/2020/next-steps/df1.png "DeFi France's first event, held entirely in French")
 
 I think it's precisely then that I've been stuck by a critical thought I needed months to digest, it goes as follows:
 
@@ -116,7 +115,7 @@ So I've reached back to Ryan and was delighted to find out that it was actually 
 BanklessFR has now been growing since: we're expanding the content offering & exploring different ways to turn this into a sustainable project. After the first Gitcoin grant in September, we just released the [first BanklessFR NFT series](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:43413:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00) to illustrate an article it's tied to.
 
 
-![BanklessFR First NFT](img/2020/next-steps/imageNFTbanklessfr.gif "BanklessFR First ever NFT, made by Arke")
+![BanklessFR First NFT](/img/2020/next-steps/imageNFTbanklessfr.gif "BanklessFR First ever NFT, made by Arke")
 
 
 #### What about your job, Brice?
@@ -133,7 +132,7 @@ One of my focus will be to **shine a light on the complexity ParaSwap abstracts 
 
 There you go for some tidbits of my crypto story! Since you've made it this far, allow to share one last thing - a simple illustration demonstrating some features that make ParaSwap more than a mere aggregator - it's **the** DeFi middleware:
 
-![What makes ParaSwap better than other aggregators like 1InchExchange?](img/2020/next-steps/paraswap-edge.png "An example of ParaSwap's added value'")
+![What makes ParaSwap better than other aggregators like 1InchExchange?](/img/2020/next-steps/paraswap-edge.png "An example of ParaSwap's added value'")
 
 Intrigued? [Check this resource](https://learn2swap.com/l2s/understanding-paraswap/edge) to better understand ParaSwap's unique edge and how you can harness it to make DeFi work for you.
 

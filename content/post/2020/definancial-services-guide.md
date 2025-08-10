@@ -6,7 +6,6 @@ categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Synthetic Assets, Liquidation, Gas, Impermanent Lossses, guide]
 toc: true
 tocNum: false
-image: img/2020/definancial-services-guide/cover.jpeg
 ---
 
 Welcome to the new economic paradigm!
@@ -14,6 +13,8 @@ Welcome to the new economic paradigm!
 If you landed here, you probably already have heard about Ethereum and even decentralised finance (DeFi). That's great - today we take it to the next step: how to use DeFi to better your personal finance.
 
 This article walks you through 6 base strategies and their variants that harness the most relevant DeFinancial services. We start with the "set and forget" strategies and progressively move down the stack towards the more complex but also lucrative ones.
+
+![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover.jpeg)
 
 Before we dive into the strategies, I URGE you to read attentively the primer on gas below & as well as the disclaimers. 
 
@@ -34,7 +35,7 @@ Gas costs are paid in gwei, a subunit of ETH (1 gwei =  0.000000001 ETH). Most E
 
 However, as you dive deeper into the arcane of DeFi, you'll find yourself coming back to gas to understand it better and optimise your transaction costs. Indeed, depending on the gas cost you pick (vs network observed one), your transaction will clear quickly, slowly, or not at all. 
 
-![eth-gas-station](img/2020/definancial-services-guide/gas-station.png)
+![eth-gas-station](/img/2020/definancial-services-guide/gas-station.png)
 
 You can [check recommended gas prices on ⛽ EthGasStation](https://ethgasstation.info/),
 
@@ -59,7 +60,7 @@ The "**complexity**" score gives you an idea of how technical and hard the risk 
 
 If you're considering committing capital to a given project, **I URGE YOU** to check the following ressources to learn more on their risk model [DeFiScore](https://app.defiscore.io/) & [DeFiWatch](https://defiwatch.net/).
 
-![defi-score](img/2020/definancial-services-guide/defiscore.png)
+![defi-score](/img/2020/definancial-services-guide/defiscore.png)
 
 ## PASSIVE DEFINANCIAL SERVICES
 
@@ -79,7 +80,7 @@ Some passive investment products involve only stablecoins - these are tokens tra
 
 (1 = lowest, 5 = highest)
 
-![1-stablecoin-yield](img/2020/definancial-services-guide/subh/1-stablecoin-yield.jpeg)
+![1-stablecoin-yield](/img/2020/definancial-services-guide/subh/1-stablecoin-yield.jpeg)
 
 Yield-bearing stablecoins are the gateway drug. 
 
@@ -104,7 +105,7 @@ As said above, there are several services offering stablecoins providing returns
 
 So instead, why not use an Ethereum native service to do that for you in full transparency? [Idle Finance](https://idle.finance/) is the leading solution:
 
-![idle-dai](img/2020/definancial-services-guide/idle-dai.png)
+![idle-dai](/img/2020/definancial-services-guide/idle-dai.png)
 
 ##### 1-B/ Stablecoins Liquidity Providing: Curve Pools
 
@@ -122,7 +123,7 @@ The concept is quite simple, as described in the recap. Since all the profits of
 
 However please rest assured, the addition of PoolTogether in this list is not ideological: **average returns are superior to Compound. **The reason why is quite simple: PoolTogether uses Compound to generate its return (= same APR) + each pool has some "sponsored" ticket - tickets contributing to the interest accrual, but without winning chances.**
 
-![pool-together-sponsored-balances](img/2020/definancial-services-guide/pt-sponsored.png)
+![pool-together-sponsored-balances](/img/2020/definancial-services-guide/pt-sponsored.png)
 
 Finally, with the average APR is higher, please bear in mind that PoolTogether is much less regular - most of the time you'll get nothing, but if you win you get the equivalent of years of interest on your capital. 
 
@@ -137,13 +138,13 @@ Last month, [PoolTogether released the pods](https://medium.com/pooltogether/win
 
 > You own shares of tokenized properties (securities). You earn your share of the rent daily (currently in USDC) + extra earning opportunities (liquidity providing, incentive programs).
 
-![2-realt-tokenised-real-estate](img/2020/definancial-services-guide/subh/2-tokenised-real-estate.jpeg)
+![2-realt-tokenised-real-estate](/img/2020/definancial-services-guide/subh/2-tokenised-real-estate.jpeg)
 
 **[RealT](https://realt.co) is a totally different beast from anything else in that list, at several levels**. Since RealT tokens represents real estate in the real world, the risk profile is also totally different (~~>  less Ethereum risk, more real-word risk).
 
 Before we dive into what makes RealT tokens so interesting, let's make sure we are clear. **RealT tokens are securities - you have to go through a KYC process to be able to purchase them** (whitelist + lease agreement).
 
-![RealT-tokenised-real-estate](img/2020/definancial-services-guide/realt.png)
+![RealT-tokenised-real-estate](/img/2020/definancial-services-guide/realt.png)
 
 It's a bit more work than for interest-bearing stablecoins, but you have several benefits to gain here compared to strategy 1:
 
@@ -160,13 +161,13 @@ It's a bit more work than for interest-bearing stablecoins, but you have several
 
 > You own a "set" representing a stake in an automated trading strategy based on a technical indicator or another trader (social sets) a.k.a. "Holding on autopilot".
 
-![3-tokensets-automated-strategies](img/2020/definancial-services-guide/subh/3-tokensets.jpeg)
+![3-tokensets-automated-strategies](/img/2020/definancial-services-guide/subh/3-tokensets.jpeg)
 
 **[TokenSets](https://www.tokensets.com/) are the holders' best friend**. While the service is definitely not the easiest to understand or the less risky, it currently provides significant utility. Indeed, if you are a long term holder of ETH for instance, TokenSets is one of your best options to grow your ETH stash (against ETH).
 
 Sets are automated trading strategies represented by a token. Each set trades a given pair (ex: ETH/cUSDC) following a pre-set of rebalancing rules triggered by the cross with the set technical indicator.
 
-![Tokensets performance visualised with TokenViz](img/2020/definancial-services-guide/tokenviz.png)
+![Tokensets performance visualised with TokenViz](/img/2020/definancial-services-guide/tokenviz.png)
 Wondering which set to pick? [TokenViz](https://tokenviz.io) provides a neat dashboard to help you chose.
 
 So as a user who is not willing to look at charts all day, TokenSets is an excellent option. Indeed, most people trying to trade tend to lose money. **With the sets, the emotions are out & machines rule.**
@@ -178,13 +179,13 @@ On top of the regular sets following a technical indicator (such as ETH 20 Days 
 
 >This is essentially the ERC-20 version of strategy 1: you own an ERC-20 (non-stable) token producing some form of returns, usually through lending or liquidity providing.
 
-![4-erc20-yields](img/2020/definancial-services-guide/subh/4-erc20-yields.jpeg)
+![4-erc20-yields](/img/2020/definancial-services-guide/subh/4-erc20-yields.jpeg)
 
 Before we explore the more active approaches, allow me to introduce one more passive approach, this time based on ERC20 tokens (not stablecoins.)
 
 Since Aave offers aTokens on up to 15 different ERC-20 tokens, it might be worth for you to keep an eye on them - with a tool like [AaveWatch](https://aavewatch.now.sh/):
 
-![AaveWatch - overview of lending opportunities offered on Aave](img/2020/definancial-services-guide/aavewatch.png)
+![AaveWatch - overview of lending opportunities offered on Aave](/img/2020/definancial-services-guide/aavewatch.png)
 
 Among them, I think the following are the most interesting:
 
@@ -199,7 +200,7 @@ Among them, I think the following are the most interesting:
 
 **Doing nothing is amazing - and when it comes to investing it’s a strategy that can be surprisingly effective**. Being able to stand still and do nothing, even in the middle of a marketstorm is truly an art you would gain to master. However, and it shouldn't come as a surprise for you: the best yield will require effort.
 
-![Doing nothing - the best strategy of them all?](img/2020/definancial-services-guide/nothing.jpg)
+![Doing nothing - the best strategy of them all?](/img/2020/definancial-services-guide/nothing.jpg)
 
 Notice how I didn't say work? Sometimes, the "efforts" can simply be that you accept to stomach a risk others wouldn't, and get paid nicely for it --- **the investor equivalent of a stunt double.**
 
@@ -249,7 +250,7 @@ It’s impossible to give an accurate representation of the potential earning sp
 
 > You start with a stake of SNX (Synthetix token). You stake (lock) them which already generates a neat SNX return but vested for a year (+weekly sUSD non-vested). Thanks to your stake, you can then mint synthetic tokens - that expose yourself for up to 1/8 of the initial SNX value & offer additional earning opportunities.
 
-![5-synthetix](img/2020/definancial-services-guide/subh/5-synthetix.jpeg)
+![5-synthetix](/img/2020/definancial-services-guide/subh/5-synthetix.jpeg)
 
 Before anything else: what I say below is NOT ENOUGH to understand Synthetix+SNX if you are just discovering it. **Do not rush it!** Synthetix is definitely a next step in terms of complexity, here's an overview of all the new things you will have to do:
 
@@ -267,7 +268,7 @@ Since Synthetix is really flexible, allow me to stick to a strategy I've success
 
 Let's not beat around the bush: this is much harder, much more work than 1-4, but the returns are an order of magnitude higher if done right. Your position is also more complex to monitor since you are exposed to several types of assets, getting returns in several kinds of assets too, and the timeline of the returns are not the same either.
 
-![The Synthetix-Yieldbuger-TokenBrice](img/2020/definancial-services-guide/yieldburger.png)
+![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldburger.png)
 *Stake? Steak? Does it matter as long as there is meat on the bone?*
 
 Let's have a look at the base of the yield stack:
@@ -285,7 +286,7 @@ Curious ? Here is a [comprehensive overview to get started with Synthetix](https
 
 > You use a capital equally split into to tokens (ex 50% ETH 50% DAI) to supply a liquidity pool, which generates commissions on the trade you help facilitate.
 
-![6-liquidity-provider](img/2020/definancial-services-guide/subh/6-liquidity-provider.jpeg)
+![6-liquidity-provider](/img/2020/definancial-services-guide/subh/6-liquidity-provider.jpeg)
 
 This is essentially a riskier variant of the strategy 1-B. In this scenario, you are still providing liquidity but this time you move to another kind of pair - the ETH based ones. 
 

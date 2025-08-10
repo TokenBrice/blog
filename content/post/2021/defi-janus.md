@@ -7,12 +7,14 @@ tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Liquity, Curve Fina
 toc: true
 tocNum: true
 url: defi-janus
-image: img/2021/defi-janus/defi-janus-cover-en.png
+
 ---
 
 Mythology is often used to illustrate DeFi. For example, the Canaanite god Moloch is often mentioned to symbolize coordination issues. Today, I will identify with you a new deity from the DeFi pantheon: Janus.
 
 In this article, we analyze the mechanisms of open governance of DeFi protocols that can lead to the emergence of a new kind of challenge for DeFi, a sworn enemy that I propose to you to embody in the Roman deity Janus.
+
+![defi-janus-cover](/img/2021/defi-janus/defi-janus-cover-en.png)
 
 Much like the two-faced god, **a Janus protocol suffers from a deep ambivalence**: although it can be an unquestionable success in terms of use, it faces serious antagonisms between its various stakeholders who involve the sustainability of the protocol (users, holders, investors, team and extended community).
 
@@ -33,7 +35,7 @@ During discussions on different media such as Discord, the community converges o
 
 Most governance systems still operate on the logic of **1 token = 1 vote**, thus assigning the same weight to all token holders regardless of their attitude towards the project or level of commitment by compared to this one.
 
-![influence-governance](img/2021/defi-janus/influence-governance.png)
+![influence-governance](/img/2021/defi-janus/influence-governance.png)
 
 _Measure the influence in the governance of DeFi protocols -[source](https://twitter.com/Lsquaredleland/status/1411031620748943360)_
 
@@ -52,7 +54,7 @@ In addition, the formulation of proposals on governance forums is generally quit
 Finally, governance suffers from a real mass effect: as protocols develop, the amount of information to digest to have an informed vote increases accordingly.
 
 A member of the MakerDAO governance forum estimated his weekly monitoring and participation work to be around 40 hours per week, steadily increasing:
-![maker-governance-overhead](img/2021/defi-janus/maker-governance-overhead.png)
+![maker-governance-overhead](/img/2021/defi-janus/maker-governance-overhead.png)
 
 ### Governance supports
 
@@ -151,7 +153,7 @@ The arrival of Convex has shown that a better structured protocol in terms of to
 
 Thereby, it confronted Yearn with its contradictions and Yearn essentially capitulated by integrating Convex to optimize the performance of its vaults. This now means that **Yearn users pay a fee to Convex and help the protocol accumulate more VeCRV** and thus widen its gap with Yearn - checkmate for Yearn on Curve.
 
-![vecrv-par-dao](img/2021/defi-janus/vecrv-par-dao.png)
+![vecrv-par-dao](/img/2021/defi-janus/vecrv-par-dao.png)
 
 _Overview of the veCRVs owned by the different DAOs - source[Dune Analytics / Banteg](https://duneanalytics.com/banteg/misc)_
 
@@ -165,10 +167,10 @@ Rather than taking the fees charged as an indicator and therefore a measure of s
 
 Finally, and even if it is a more subjective topic, the communication around the project is muddled or even almost disturbing at times, for example [when Yearn is compared](https://thedefiant.io/yearn-revenues-projected-to-surpass-tradfis-fueled-by-thriving-community/) to traditional asset managers like WealthFront or BlackRock - I find that quite unbalanced since Yearn charges similar fees to these structures but operates in a much more dynamic market. In addition, are such companies really relevant models to have in DeFi?
 
-![yearn-comp](img/2021/defi-janus/yearn-comp.png)
+![yearn-comp](/img/2021/defi-janus/yearn-comp.png)
 
 If Yearn compares to asset managers, it may be because the comparison with its DeFi peers is clear:
-![defi-asset-manager](img/2021/defi-janus/defi-asset-manager.jpeg)
+![defi-asset-manager](/img/2021/defi-janus/defi-asset-manager.jpeg)
 
 In addition, where Convex works to allow cvxCRV holders to vote in decisions of the DAO Curve, Yearn is taking control over the voting power associated with CRVs deposited by its users on the yveCRV. The same approach can be observed with the airdrops allocated to VeCRV holders: Yearn grants them to buy CRVs and sponsor their yveCRV vault, while Convex makes them accessible to its depositors.
 
@@ -181,7 +183,7 @@ In just two months of existence, Convex has already surpassed Yearn in terms of 
 Nevertheless **the machine is launched**: Convex already has more than twice as many CRVs as Yearn and accumulates more quickly. And even though Yearn has lots of other protocols, it seems unlikely to me that he will ever be able to compete again on Curve.
 
 On the Marker side, more and more people are starting to point out the absurdity of the current situation on DAI, and the alternatives are gaining ground. In a few weeks and with only ETH as accepted collateral, Liquity has already attracted the equivalent of more than 40% of the total value deposited in MakerDAO:
-![tokenterminal-tvl-maker-liquity](img/2021/defi-janus/tokenterminal-tvl-maker-liquity.png "Comparison of TVL MakerDAO vs Liquity")
+![tokenterminal-tvl-maker-liquity](/img/2021/defi-janus/tokenterminal-tvl-maker-liquity.png "Comparison of TVL MakerDAO vs Liquity")
 
 On Liquity, borrowing costs are much lower, clearer, and distributed directly to LQTY stakers. The service is thus more open and participatory than MakerDAO while being brutally more efficient. Here again, I think a major overhaul of MakerDAO would be necessary for the protocol to regain its relevance and competitiveness.
 

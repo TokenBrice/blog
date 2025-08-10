@@ -7,8 +7,9 @@ tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending
 toc: false
 tocNum: false
 url: joining-liquity
-image: img/2022/tokenbrice-liquity/cover.png
 ---
+
+![cover](/img/2022/tokenbrice-liquity/cover.png)
 
 I've been a little less involved in the DeFi discussion lately  and you might righfully wonder why. First, I needed to slow down and take some time for myself, and the timing could not be better. While I was off, I had the time to reflect on what drew me to DeFi in the first place and how the space has evolved since I started getting involved about four years ago. Watching protocols with massive design flaws blowing up is reassuring, especially to those who anticipated it, but not exactly what I dreamed of when I discovered DeFi.
 

@@ -2,14 +2,15 @@
 title: "L'individu souverain dans l'ère du technoféodalisme"
 description: "Covid a précipité la marche de l’histoire en cristallisant plusieurs tendances latentes. Nous assistons désormais à l’émergence d’un protocole social et politique qui systématise l’exploitation et la misère : comment s’en extraire ?"
 date: '2021-01-04T01:13:50.191Z'
-categories: [Analysis]
+categories: [Analyse]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Nation States, Post-Covid]
-image: img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
 ---
 
 Vous vous souvenez quand on parlait d'un "monde post-covid" ? Il est amusant de voir comment l'expression a rapidement cessé d'être utilisée lorsque les gens ont réalisé que l'ordre social du "nouveau" monde serait aussi absurde et gaspilleur que le précédent.
 
 Pourtant, l'expression a eu le mérite de souligner le rôle de la pandémie qui a tellement mis à mal nos structures sociales qu'elle a entraîné vingt ans de "progrès" réunis en un seul. Je pense qu'aujourd'hui déjà, si nous sommes attentifs et prudents, nous pouvons envisager les prochaines étapes de notre développement sociétal.
+
+![francis-bacon-triptych](/img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg "Triptyque - Francis Bacon (1976)")
 
 ## 🔊 Écoutez cet article en audio, lu par HeyZachy:
 {{< audio "technofeodalisme-fr.mp3" >}}
@@ -24,7 +25,7 @@ Cette idée a été documentée dès la fin des années 60[^1]. Ce qui reste, ce
 
 À l'autre extrémité se trouve **l'individu souverain**, tel que décrit par James Dale Davidson et William Rees-Mogg il y a plus de vingt ans [^2]. Ces individus ont compris la diminution du pouvoir et de l'importance des États et ont développé une forme d'apatridie. 
 
-![livre-individu-souverain](img/2021/technofeudalism-sovereign-individual/sovereign-individual-book.png "The Sovereign Individual - James Dale Davidson et William Rees-Mogg (1997)")
+![livre-individu-souverain](/img/2021/technofeudalism-sovereign-individual/sovereign-individual-book.png "The Sovereign Individual - James Dale Davidson et William Rees-Mogg (1997)")
 
 Ils __traitent les États-nations comme de simples prestataires de services__ (santé, éducation, justice, etc.) et les mettent en concurrence les uns avec les autres. Bien qu'ils soient encore citoyens d'un ou de plusieurs pays, ils n'y sont pas liés et peuvent se déplacer au gré des circonstances.
 
@@ -95,7 +96,7 @@ Alors que les valeurs de notre système politique sont des promesses qui doivent
 
 La DeFi permet donc aux individus de posséder et d'échanger des biens sans avoir besoin d'un intermédiaire - c'était une forme de pièce manquante à la sauvegarde de la souveraineté. Grâce à la DeFi, tout le monde peut accéder à des services financiers d'élite plus résistants que ceux du monde classiques rendus possibles grâce à une mixture de sociétés privés et de cadres juridiques.
 
-![da-vinci-aile](img/2021/technofeudalism-sovereign-individual/da-vinci-aile.jpg "Leonardo Da Vinci - aile volante")
+![da-vinci-aile](/img/2021/technofeudalism-sovereign-individual/da-vinci-aile.jpg "Leonardo Da Vinci - aile volante")
 
 Merci d'avoir lu cet article jusqu'à la fin. Si vous l'avez aimé, vous pouvez :
 - consulter le reste de mon travail publié sur **[ce blog](/)**.

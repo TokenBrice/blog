@@ -4,10 +4,11 @@ description: "On top of being one of the most succesful DeFi protocols, Yearn is
 date: '2020-09-18T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, YFV, YFII, YFL, FARM, Harvest Finance]
-image: img/2020/yearn-waifus/cover.jpg
 ---
 
 Every day a new Yearn fork is popping up: how to keep track with them? There is no simple answer to this dilemma, however, I believe I can **provide you with some clues to help you spot YFI fork with high potential.** To do so, I’ll cover three (+1) YFI forks and try to pinpoint the changes to the secret sauce that made them stick.
+
+![Yearn's Fork Waifus](/img/2020/yearn-waifus/cover.jpg) 
 
 Yearn is more than Yearn.Finance product itself: it became a template to kickstart a project, sometimes called "fair launch". Yearn pioneered the method which stands on three key elements:
 
@@ -41,7 +42,7 @@ So **instead of having a week-only distribution, YFII opted for a longer schedul
 
 On top of this base differentiation, YFII develops an interesting angle with a **strong presence in Asia**: the DFI.Money website was quickly translated into Chinese and soon other languages. There is also a strong **focus on UX** to make the experience as easy as possible to onboard.
 
-![Overview of the DFI.Money Vaults](img/2020/yearn-waifus/dfi-money.png)
+![Overview of the DFI.Money Vaults](/img/2020/yearn-waifus/dfi-money.png)
 
 [You can view the stats here](https://stats.dfi.money/).
 
@@ -57,7 +58,7 @@ YFL is another one of the early forks of YFI. Here, the twist is simple:** LINK 
 
 The initial vision was to create a farming collaborative for LINK holders. YFL was developed by 5 anonymous teams working together and initially released on August 7 2020. 
 
-![YFL LinkSwap](img/2020/yearn-waifus/Linkswap.png)
+![YFL LinkSwap](/img/2020/yearn-waifus/Linkswap.png)
 
 The growth was quick and the plan soon refined! YFLink is [now working on LINKSwap](https://medium.com/@linkswapco/yf-link-ecosystem-linkswap-development-update-44f8413721c9), a community-governed Automated Market Maker (AMM), focusing on safety and value capture for LINK holders. LINKSwap explores novel ideas to increase investors' safety - for instance, the RugLock feature, designed to avoid rug pulls - when the token’s creators drain the liquidity pools, leaving holders with a sizeable bag of worthless coins.
 
@@ -69,7 +70,7 @@ Here, the farming pools were mostly 98% ERC20-token / 2% YFV Balancer pools and 
 
 YFV was one of the first project to provide credible earning opportunities on tokens such as BAL, YFI, BAT, REN, KNC, BTC, WETH, or LINK: it really helped to attract liquidity — there are around $470 M deposited on YFV as I write this.
 
-![YFV Staking Interface](img/2020/yearn-waifus/yfv.png)
+![YFV Staking Interface](/img/2020/yearn-waifus/yfv.png)
 
 YFV's core product, the Governance Vault was just [launched on September 15](https://medium.com/@yfv.finance/roadmap-update-value-contract-governance-vault-e226ad2f909e). YFV Holders can stake their token for several benefits:
 
@@ -91,7 +92,7 @@ While Harvest.Finance is technically not a fork of Yearn, one could say it's a *
 
 The experience on Harvest is quite straightforward, just like with the Yearn's vault. **Users deposit tokens into the strategy of their choice to put them to work**. For instance, they deposit their DAI to get fDAI, DAI currently farming on Swerve.fi.
 
-![Harvest Finance](img/2020/yearn-waifus/harvest-finance.png)
+![Harvest Finance](/img/2020/yearn-waifus/harvest-finance.png)
 
 **Once they own fDAI (or other fTokens), users can stake them to earn FARM - the native token of the platform.** They can also provide liquidity to the fDAI/DAI pair on Uniswap which facilitates the entry and exit of smaller capitals. 
 

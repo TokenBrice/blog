@@ -7,14 +7,15 @@ date: '2019-04-18T15:00:20.293Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, data harversting]
 toc: true
-image: img/2019/attention-economy/cover.jpeg
 ---
+
+![](/img/2019/attention-economy/cover.jpeg)
 
 The attention economy is the idea that we’re switching to or already exploring a new economic paradigm where the individuals’ attention is the limiting factor. Goods and content became more accessible and cheaper to produce, but they are now facing a demand wall: attention is a scarce resource — a person has only so much of it.
 
 **Our mental capabilities are limited and therefore so is the receptiveness of information.** With the multiplication and the diversification of content (books, videos, blog posts, social media, etc.), we observe a paradigm shift. **The limiting factor switched**: we’re running out of captivated eyeballs for all the content that gets produced daily.
 
-![](img/2019/attention-economy/60s.jpeg)
+![](/img/2019/attention-economy/60s.jpeg)
 
 Attention became the new scarce limiting factor.
 
@@ -54,7 +55,7 @@ Let’s talk consider content farms for a minute. Content farms are low-efforts 
 
 A few years ago, the strategy was simple: Google was still somehow easy to game. Publications such as Demand Media amassed a large audience with low-value pieces of content optimized for a specific topic. Back then, the actual time spent on the site after a search was not a profoundly impacting factor of a given website ranking.
 
-![Two famous updates to Google's ranking algorithm](img/2019/attention-economy/google-updates.jpeg)
+![Two famous updates to Google's ranking algorithm](/img/2019/attention-economy/google-updates.jpeg)
 Two famous updates to Google's ranking algorithm
 
 At the beginning of 2011, Google released an update to its ranking algorithm that impacted content farms: [Panda](https://moz.com/learn/seo/google-panda). Its goal was to reduce the prominence of content farms in the search results. It penalized websites based on different triggers such as thin, low quality and duplicate content, or the overall space occupied by ads.
@@ -83,7 +84,7 @@ This affects all form of content: blog posts of course, but even videos and pict
 
 Content optimized to maximize the attention-grabbing and virality potential are plenty and diverse. So far, we talked about articles, yet as seen in the infographics at the beginning of the article, the volume of video content posted and shared is ever increasing.
 
-![A weird, potentially computer-generated kid video on Youtube](img/2019/attention-economy/youtube-kid.jpeg)
+![A weird, potentially computer-generated kid video on Youtube](/img/2019/attention-economy/youtube-kid.jpeg)
 A weird, potentially computer-generated kid video on Youtube
 
 YouTube is currently plagued with [weird kids videos that depict graphical, shocking and stressful content.](https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2) Because of the suggestions and the autoplay, kids using YouTube can stumble upon one of such starting their visit from a innocent cartoon video.

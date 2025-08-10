@@ -7,10 +7,11 @@ tags: [DeFi, Ethereum, Decentralized finance, Badger, BadgerDAO, DIGG, Elastic C
 toc: true
 tocNum: true
 url: badger-digg
-image: img/2021/badger-digg/cover.png/
 ---
 
 Despite launching barely a few weeks ago, BadgerDAO quickly grew into a DeFi powerhouse now **hosting > $1.2B of assets farming**. While I've quickly touched on Badger in previous articles or shows, I think it's about time for a dedicated piece focusing on DIGG but not forgetting about its context.
+
+![badgerdao-story-tkb-cover](/img/2021/badger-digg/cover.png/)
 
 ## A quick intro to Badger DAO
 
@@ -20,7 +21,7 @@ BadgetDAO is a community-driven project with a clear value proposition: to help 
 
 The first layer of this onion is pretty straightforward: Badger offers a Yearn-like service for BTCs on Ethereum: users can deposit tokens representing a position in a Curve BTC pool to earn BADGER & DIGG on top of the native APY.
 
-![badger-sett-overview](img/2021/badger-digg/badger-stats.png/ "Overview of Badger's key metrics with Sett.Vision")
+![badger-sett-overview](/img/2021/badger-digg/badger-stats.png/ "Overview of Badger's key metrics with Sett.Vision")
 
 There are also vaults (called "setts") available for BADGER and DIGG themselves, as well as their respective LP tokens on both Uniswap and SushiSwap.
 
@@ -34,9 +35,9 @@ This value proposition by itself is nothing new and could have been delivered by
 
 Since the start, the community has been put at the center with Badger. It's clearly visible simply by looking at the token distributions[^1]:
 
-![badger-distribution-overview](img/2021/badger-digg/badger-breakdown.png/ "Overview of the BADGER token initial distribution")
+![badger-distribution-overview](/img/2021/badger-digg/badger-breakdown.png/ "Overview of the BADGER token initial distribution")
 
-![digg-distribution-overview](img/2021/badger-digg/digg-breakdown.png/ "Overview of the DIGG token initial distribution")
+![digg-distribution-overview](/img/2021/badger-digg/digg-breakdown.png/ "Overview of the DIGG token initial distribution")
 
 Indeed, the two largest shares of the supply of both tokens were allocated to the liquidity mining program - rewarding active users of the protocol as well as the DAO's treasury tasked with structuring the long-term operations of the protocol and its growth.
 
@@ -48,7 +49,7 @@ On top of the momentum created by the launch and initial distribution, the commu
 
 A total of 6 different NFTs were available and the fist one to collect them was able to claim a neat BADGER bounty. Being a holder or farmer of these NFTs was acknowledged in the initial DIGG distribution & their inclusion to Badger as yield multiplier is being discussed.
 
-![badger-meme-satoshi-nft](img/2021/badger-digg/badger-nft-satoshi.gif/ "One of the 6 Badger x Meme NFTs - Satoshi")
+![badger-meme-satoshi-nft](/img/2021/badger-digg/badger-nft-satoshi.gif/ "One of the 6 Badger x Meme NFTs - Satoshi")
 
 {{< notice tip >}}
 If you are very bullish on a token price short-term wise, it's usually a bad idea to enter a 50/50 liquidity providing position on it. You'll be much better off simply holding your stack and selling it. If you are worried about this scenario unfolding with Badger or DIGG, you can deposit to the BADGER or DIGG only vaults (no risk of impermanent loss).
@@ -68,7 +69,7 @@ DIGG's launch was a highly anticipated event. While from the outside it looks li
 
 After discussion within the community, it was decided to go with a relatively low starting supply (4000) allowing for a **stress test from the start of the rebase mechanism**. The rebases also started from the very beginning - 24h after the launch of the token.
 
-![wen-digg](img/2021/badger-digg/wen-digg.jpeg/ "Wen DIGG meme contest")
+![wen-digg](/img/2021/badger-digg/wen-digg.jpeg/ "Wen DIGG meme contest")
 
 Badger being Badger, the hype machine was of course on point with a "Wen DIGG?" meme contest to make sure everyone was aware. 
 

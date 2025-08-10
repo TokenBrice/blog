@@ -7,7 +7,6 @@ tags: [Collectibles, Tokens Non Fongibles, NFT, Achat de NFT, Marché NFT, Farmi
 toc: true
 tocNum: false
 url: luchadores-nft
-image: img/2021/luchadores-nft/luchadores-cover.png
 ---
 
 Cet article va être plus personnel qu'à mon habitude, mais vu le sujet je ne peux pas faire autrement. On va s'intéresser à un projet NFT dans lequel je suis fortement impliqué : les Luchadores. Ce sont des lutteurs entièrement onchain, bientôt personnages dans un jeu à venir,  lui aussi onchain. 
@@ -15,6 +14,8 @@ Cet article va être plus personnel qu'à mon habitude, mais vu le sujet je ne p
 Plus que le projet lui-même, je vous expliquerai la thèse que je développe à son sujet. Je pense que cette démarche peut vous intéresser et vous aider à développer des convictions personnelles sur d'autres collections.
 
 Dans cet article, je ne détaille pas les mécanismes des Luchadores ou du jeu associé à venir. N'hésitez pas à lire [le whitepaper désormais disponible en français](https://whitepaper.luchadores.io/v/francais/) pour plus d'infos à ce sujet.
+
+![luchadores-cover](/img/2021/luchadores-nft/luchadores-cover.png)
 
 ---
 
@@ -37,7 +38,7 @@ La génération se faisait au prix de 2 LINK (frais nécessaire pour le mécanis
 
 La génération aléatoire vérifiable à donné lieu à quelques faits de "trivia" sur les Luchadores assez amusants :
 
-![luchadores-distribution](img/2021/luchadores-nft/luchadores-distribution.png "Table d'occurence par attributs des Luchadores")
+![luchadores-distribution](/img/2021/luchadores-nft/luchadores-distribution.png "Table d'occurence par attributs des Luchadores")
 
 La distribution de la rareté est une courbe normale : on compte plus de 8000 Luchadores (81,3%) dans le groupe des 3, 2 ou 4 attributs, les plus communs. Plus on s'approche des extrêmes, plus les Luchadores se font rares.
 
@@ -49,7 +50,7 @@ La distribution de la rareté est une courbe normale : on compte plus de 8000 Lu
 * Il y aurait pu avoir un Luchador avec 8 attributs, mais ça n'est pas arrivé. Il n'y en aurait très probablement eu qu'un seul : pas de dieu Lucha donc.
 * Parfois, l'attribut "moustache" tombe sur un Luchador dont la couleur de peau est très proche de celle utilisée pour la moustache, créant ainsi une **[moustache cachée](https://luchadores.io/luchador/8085)**. Ces Luchadores font l'objet d'une attention particulière.
 
-![luchadores-hidden_mustache_difference](img/2021/luchadores-nft/hidden_mustache_difference.png "Une différence subtile mais signifiante")
+![luchadores-hidden_mustache_difference](/img/2021/luchadores-nft/hidden_mustache_difference.png "Une différence subtile mais signifiante")
 
 ### ⛓ L'approche onchain
 
@@ -57,7 +58,7 @@ Outre la génération faite entièrement onchain, le visuel du Luchadores est da
 
 Ça ne s'arrête pas là puisque le jeu à venir, dont on discute juste après, s'appuiera également sur des **mécanismes de génération aléatoire vérifiable**. Ainsi dans l'arène, les coups critiques ou les esquives seront le fruit d'un hasard vérifiable et très dur à manipuler.
 
-![luchadores-art-for-all](img/2021/luchadores-nft/AFA-score.png "ArtForAll permet d'analyser la résilience des NFTS")
+![luchadores-art-for-all](/img/2021/luchadores-nft/AFA-score.png "ArtForAll permet d'analyser la résilience des NFTS")
 
 Je ne suis pas le seul à remarquer cette approche très résiliente, qui a également plu aux Link marines. Les Luchadores sont également le seul projet à 100/100 avec les Avastars sur [ArtForAll, un service qui évalue la résilience de NFTs](https://artforall.io/score?search=).
 
@@ -68,11 +69,11 @@ Ainsi, on pourrait décrire le projet comme "on chain maximaliste" mais ça n'es
 
 Le jeu en lui-même résonne sans doute avec ma fibre nostalgique. En effet, la lutte se fera au **tour par tour**, avec un système d'attributs (stats), compétences passives et compétences à déclenchement.
 
-![luchadores-stats](img/2021/luchadores-nft/luchadores-stats.png "Les attributs seront déterminants dans l'arène")
+![luchadores-stats](/img/2021/luchadores-nft/luchadores-stats.png "Les attributs seront déterminants dans l'arène")
 
 Je vous laisse vous documenter sur l'impact des attributs et des compétences, mais en temps que fan de jeux tour par tour, de stratégies et RPG, je peux vous dire que je suis paré pour le theorycraft 🧙 
 
-![luchadores-arena](img/2021/luchadores-nft/final-lucha-arena.png "Les batailles en équipe sont également envisagées")
+![luchadores-arena](/img/2021/luchadores-nft/final-lucha-arena.png "Les batailles en équipe sont également envisagées")
 
 **Un token associé** (LUCHA) sera gagnable en jeu. Il sera également distribué la première année aux possesseurs de NFT Luchadores. Le token aura plusieurs formes d'utilisations liées au jeu (respect, système de prodiges, rename ?) et peut également être **staké pour gagner des MASK**, un token non-transférable (↪ seulement in-game) utiles pour équiper ses Luchadores.
 
@@ -111,7 +112,7 @@ Ma plus belle prise est le "Batman", un 7 attributs qui sera l'un de mes princip
 
 #### ⭐ Lucha 7 attributs #8956
 
-![luchadores-8956](img/2021/luchadores-nft/luchadores-8956.png "Un Luchador 7 attributs, à gagner dans l'arène")
+![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "Un Luchador 7 attributs, à gagner dans l'arène")
 
 Désormais en possession de 3 Luchadores 7 attributs, **je souhaite en remettre un en jeu**. Celui-ci ne partira pas au plus offrant, non. 
 

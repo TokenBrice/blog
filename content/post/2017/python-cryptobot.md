@@ -5,7 +5,7 @@ description: >-
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python, Cryptos]
-image: img/2017/sato/satodemo.gif
+canonicalUrl: https://cai.tools.sap/blog/python-cryptobot/
 ---
 
 Chatbots have an incredible  potential. Yet, for bots to be efficient, they must integrate and  exchange data with existing services and processes.
@@ -18,6 +18,8 @@ For instance, Sato – the cryptobot we’ll be building today, is able to recog
 
 By the end of this tutorial, we  will have a bot able to fetch data from a third party API depending on  what our users input, and reply to them with the value fetched. Here’s  the end-result of what we’ll build today: a cryptobot aka a chatbot able to fetch any cryptocurrency price.
 
+![cryptobot demo](/img/2017/sato/satodemo.gif)
+
 What you’ll have by the end of this tutorial
 
 In a rush? Here is all you need to build your own:
@@ -27,7 +29,7 @@ In a rush? Here is all you need to build your own:
 
 Need to see it to believe it? That’s wise!
 
-[![chat-on-messenger](img/2017/sato/messenger-button-1.png)](https://www.messenger.com/t/satofolio)Or if you would rather understand how it was made, go through with the tutorial.
+[![chat-on-messenger](/img/2017/sato/messenger-button-1.png)](https://www.messenger.com/t/satofolio)Or if you would rather understand how it was made, go through with the tutorial.
 
 ## **I/ BUILD THE BASE OF YOUR BOT: CHOOSE YOUR PATH**
 
@@ -50,7 +52,7 @@ Today, we’ll focus on the skill fetching the crypto prices, as it requires an 
 
 Firstly, he needs an intent [(@crypto_price](https://cai.tools.sap/ahirice/sato-cryptobot/train/crypto_price?utm_source=blog&utm_campaign=sato)) with diverse expressions and cryptocurrencies mentioned, so he can  efficiently recognize these questions. Here are some of the expressions  used to define the @crypto_price intent:
 
-![cryptobot @crypto_price expressions](img/2017/sato/i-crypto-price.png)
+![cryptobot @crypto_price expressions](/img/2017/sato/i-crypto-price.png)
 
 A sample of the expressions used to define the @crypto_price intent
 
@@ -58,19 +60,19 @@ Secondly, for Sato to be able to recognize all cryptocurrencies, he’ll need th
 
 Thirdly, we’ll need to build a skill which triggers when the @ask_price intent or #crypto_name entity is recognized:
 
-![cryptobot - triggers](img/2017/sato/skill1.png)
+![cryptobot - triggers](/img/2017/sato/skill1.png)
 
 Sato – Cryptobot / crypto_main skill triggers
 
 You can also add #crypto_name as a requirements, to make sure no API called is fired without parameters:
 
-[![Sato - Cryptobot / crypto_main skill requirements](img/2017/sato/cryptomissing.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/cryptomissing.png)
+[![Sato - Cryptobot / crypto_main skill requirements](/img/2017/sato/cryptomissing.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/cryptomissing.png)
 
 Sato – Cryptobot / crypto_main skill requirements
 
 This skill must also call your webhook that we’ll setup below:
 
-[![Sato - Cryptobot / crypto_main skill actions](img/2017/sato/webhookcryotio.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/webhookcryotio.png)
+[![Sato - Cryptobot / crypto_main skill actions](/img/2017/sato/webhookcryotio.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/webhookcryotio.png)
 
 Sato – Cryptobot / crypto_main skill actions
 
@@ -95,7 +97,7 @@ Nathan wrote an exhaustive tutorial on [how to build your first bot with SAP Con
 
 SAP Conversational AI is **collaborative bot platform**, it works pretty much like GitHub. Which means you can [simply fork my bot Sato](https://cai.tools.sap/ahirice/sato-cryptobot/?utm_source=blog&utm_campaign=sato) and start from here. Here’s how:
 
-[![img](img/2017/sato/Recast-AI-ahirice-sato-cryptobot-1024x158.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/Recast-AI-ahirice-sato-cryptobot.png)
+[![img](/img/2017/sato/Recast-AI-ahirice-sato-cryptobot-1024x158.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/Recast-AI-ahirice-sato-cryptobot.png)
 
 Forking a bot on SAP Conversational AI
 
@@ -189,7 +191,7 @@ Let’s get started!
 
 Let’s have a look at the data returned by SAP Conversational AI on a user input. To do so, you click the `CHAT WITH YOUR BOT` button present on all pages, on the bottom-right corner. Then, you can  switch between the conversation and the JSON view by clicking on the  orange information circle as below:
 
-[![img](img/2017/sato/priceOMG.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/priceOMG.png)
+[![img](/img/2017/sato/priceOMG.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/11/priceOMG.png)
 
 Check the JSON of the conversation.
 
@@ -215,11 +217,11 @@ r = requests.get("https://min-api.cryptocompare.com/data/price?fsym="+crypto_nam
 
 Go ahead and print it, but you may be disappointed:
 
-![cryptobot - cryptocompare API response](img/2017/sato/r.png)
+![cryptobot - cryptocompare API response](/img/2017/sato/r.png)
 
 Indeed, if you want to get the values returned by the call, you need to print `r.json()`. The good news is that JSON returned by Cryptocompare is really as simple as it could be:
 
-![cryptobot - JSON from cryptocompare API](img/2017/sato/cryptocompare-json.png)
+![cryptobot - JSON from cryptocompare API](/img/2017/sato/cryptocompare-json.png)
 
 Cryptocompare JSON
 

@@ -7,8 +7,9 @@ date: '2017-10-10T11:16:29.535Z'
 categories: [Tutorial]
 tags: [reddit, online community, astroturfing, advertising]
 toc: true
-image: img/2017/reddit/cover.png
 ---
+
+![](/img/2017/reddit/cover.png)
 
 It’s been a long time since I realized most content and marketing materials focused on the main social networks — Facebook, Twitter, LinkedIn and Instagram, leaving little to no room to the countless other services used around the world.
 
@@ -16,12 +17,12 @@ In my last gig, I explored content promotion and marketing using “alternatives
 
 According to Alexa, Reddit is now the **eighth most visited website in the world**, and the fourth in the US.
 
-![Reddit is the #8 top visited website in the world, [according to Alexa](https://www.alexa.com/siteinfo/reddit.com)](img/2017/reddit/alexa-reddit.jpeg)
+![Reddit is the #8 top visited website in the world, [according to Alexa](https://www.alexa.com/siteinfo/reddit.com)](/img/2017/reddit/alexa-reddit.jpeg)
 Reddit is the #8 top visited website in the world, [according to Alexa](https://www.alexa.com/siteinfo/reddit.com)
 
 What’s even more interesting is the progressive internationalization of Reddit: in its early days, most of the website’s visitors were Americans. Nowadays, even if the **English-speaking world still makes for roughly 3/4 of Reddit**, thriving national communities developed.
 
-![Reddit, a window into the English-speaking world (source: [Alexa](https://www.alexa.com/siteinfo/reddit.com))](img/2017/reddit/alexa-reddit-2.jpeg)
+![Reddit, a window into the English-speaking world (source: [Alexa](https://www.alexa.com/siteinfo/reddit.com))](/img/2017/reddit/alexa-reddit-2.jpeg)
 Reddit, a window into the English-speaking world (source: [Alexa](https://www.alexa.com/siteinfo/reddit.com))
 
 So, massive social platforms such as Reddit emerged over the last few years and while some marketers notice, **most stayed in the old playground**. Worse, a fair share of those who noticed the popularity on Reddit are **aggressively trying to game it for their own benefits**, with bots and other dubious methods.
@@ -51,7 +52,7 @@ To find sizable audience on Reddit, **you must frame your content a certain way.
 *   **Link Post:** they include an URL and a title. On the frontpage, the title will be displayed and if the user clicks it, he’ll get to the page linked.
 *   **Text Post:** they include a title and a body text. **The text itself can include links.** On the frontpage, if a user clicks a text post, he stays on Reddit and sees the body of the post as well as the comments.
 
-![**Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**](img/2017/reddit/fronpage.png)
+![**Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**](/img/2017/reddit/fronpage.png)
 **Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**
 
 #### The link vs text struggle
@@ -78,7 +79,7 @@ Just like any other ad platform, Reddit lets you set different creatives for the
 
 Our first campaign targeted [/r/tech](https://www.reddit.com/r/tech/), [/r/learnprogramming](https://www.reddit.com/r/learnprogramming/), [/r/webdev](https://www.reddit.com/r/webdev/) and [/r/technology](https://www.reddit.com/r/technology/) with our [What’s an API article](https://www.callr.com/blog/what-is-an-api/)? As you can see, targeting was not the smartest: /r/webdev is a community for developers who probably already know what an API is. Here are the results we obtained, with an average CPC at $0.60.
 
-![_Results of the ‘What’s an API?’ Reddit Ads campaign_](img/2017/reddit/ads1.png)
+![_Results of the ‘What’s an API?’ Reddit Ads campaign_](/img/2017/reddit/ads1.png)
 _Results of the ‘What’s an API?’ Reddit Ads campaign_
 
 Despite sub-par targeting, this campaign helped me familiarize myself with the platform. Once Davy’s House Hunter bot article was out, I now it was our time to shine on Reddit Ads. I also quickly realized that 4 creatives was far from enough to reach decent results.
@@ -89,7 +90,7 @@ Shortly after this campaign, Davy published his [House Hunter Bot article](https
 
 Because of the large differences we observed between all the four creatives on our first campaign, we went with **12 different creatives this time**, to progressively weed out the worst performer. On the following screen, 5 creatives with the lowest CTR/highest CPC were already deleted:
 
-![_Results of House Hunter Bot Reddit Ads campaign_](img/2017/reddit/ads2.png)
+![_Results of House Hunter Bot Reddit Ads campaign_](/img/2017/reddit/ads2.png)
 _Results of House Hunter Bot Reddit Ads campaign_
 
 The CPC improved tremendously, sitting at a $0.14 average at the end of the campaign. **It ran for a month and half and suffered from ad-fatigue**: over the first two weeks, the total average CPC was as low as $ 0.10 and CTR > 0.20%.
@@ -100,7 +101,7 @@ On top of the traffic, the campaign landed over 10 business lead and a few newsl
 
 It leads us to our third and latest campaign. Once again, we wanted to bank on an organic success. With the reach of [our Sketch post](https://www.callr.com/blog/how-i-streamlined-my-design-process-with-a-few-nested-symbols-on-sketch/), we decided to give it a try on Reddit as designer communities are dynamic. The targeting was the following: /r/SketchApp, /r/design, /r/web\_design, /r/userexperience, /r/userexperiencedesign, /r/graphic\_design.
 
-![_Results of Sketch Reddit Ads campaign_](img/2017/reddit/ad3s.png)
+![_Results of Sketch Reddit Ads campaign_](/img/2017/reddit/ad3s.png)
 _Results of Sketch Reddit Ads campaign_
 
 While the content did not have the same conversion potential as the House Hunter Bot, it helped us raise awareness in the entrepreneurs and design communities.
@@ -119,7 +120,7 @@ The sheet will help you gauge the activity of any given subreddit but finding th
 
 > “site:reddit.com -reddit.com/r/chatbots chatbot”
 
-![The sidebar of [/r/Design](https://www.reddit.com/r/Design/)](img/2017/reddit/sidebar.png)
+![The sidebar of [/r/Design](https://www.reddit.com/r/Design/)](/img/2017/reddit/sidebar.png)
 The sidebar of [/r/Design](https://www.reddit.com/r/Design/)
 
 *   **Branching out from known subreddits:** this technique is useful to find more subreddits relevant to your niche once you have already found the biggest ones. **Most subreddit include a list of related subreddits in their sidebar, check it!** Keep in mind that each subreddit has its own moderator and might not list related subreddits in the sidebar. See on the left a snapshot of /r/Design Sidebar, listing design related subreddits.
@@ -128,7 +129,7 @@ The sidebar of [/r/Design](https://www.reddit.com/r/Design/)
 
 #### **2\. Reddit’s posts and comments formatting**
 
-![Screenshot of [Dillinger](https://dillinger.io/)](img/2017/reddit/markdown.png)
+![Screenshot of [Dillinger](https://dillinger.io/)](/img/2017/reddit/markdown.png)
 Screenshot of [Dillinger](https://dillinger.io/)
 
 Text posts and comments use a specific Markdown formatting. [The syntax](https://www.reddit.com/wiki/commenting) is straightforward. You can also use a text editor or an online editor. I personally use [Dillinger](https://dillinger.io/) which displays the markdown and the preview side by side, with the words and characters which is basically all I need.
@@ -139,19 +140,19 @@ Just like organic Reddit posts, **promotional posts can be texts or link**. Both
 
 Unlike organic Reddit posts, we’ve seen performing creatives both as link or text post. Below is the preview of how an ad looks like on Reddit. This one is **our top performer for the campaign**, with a **$0.12 CPC and 0.210% CTR.** The text is a slightly edited version of the one used in [the organic reddit post.](https://www.reddit.com/r/learnpython/comments/6bowht/built_my_own_apartment_search_bot_with_python/)
 
-![_Preview of one the creative used for the House Hunter Reddit Ads campaign_](img/2017/reddit/ads4.png)
+![_Preview of one the creative used for the House Hunter Reddit Ads campaign_](/img/2017/reddit/ads4.png)
 _Preview of one the creative used for the House Hunter Reddit Ads campaign_
 
 The ads are displayed on top of the reddit stream, featuring a “Sponsored” mention to state their nature. Here is an example of an ad displayed on the user side:
 
-![_Preview of how a Reddit Ad (DuckDuckGo) looks for a user_](img/2017/reddit/ads-preview.gif)
+![_Preview of how a Reddit Ad (DuckDuckGo) looks for a user_](/img/2017/reddit/ads-preview.gif)
 _Preview of how a Reddit Ad (DuckDuckGo) looks for a user_
 
 #### **4\. What others parameters/targeting options can be set up?**
 
 As you can see below, apart from the subreddits targeting we already presented, you need to decide on a bid (maximum price for 1000 impressions, from $0.20 to $100) and a budget for the campaign. It’s straightforward and **people used to advertise on other platforms will quickly find their marks.** You can also target by interest, exclude specific subreddits, day/time or platforms.
 
-![_Budget, Schedule and Targeting options for the Reddit House Hunter bot campaign_](img/2017/reddit/ads-settings.png)
+![_Budget, Schedule and Targeting options for the Reddit House Hunter bot campaign_](/img/2017/reddit/ads-settings.png)
 _Budget, Schedule and Targeting options for the Reddit House Hunter bot campaign_
 
 #### 5\. Organic Reddit vs Reddit Ads
@@ -180,7 +181,7 @@ In terms of actual behavior on the platform, **it translates into bots, vote man
 
 About two months ago, a post appeared on /r/Gaming, entitled [**“Made my delivery driver’s night by showing him VR for the first time”**](https://www.reddit.com/r/HailCorporate/comments/6qmc68/made_my_delivery_drivers_night_by_showing_him_vr/). It was a picture, displayed below.
 
-![The picture used for MacDonald’s con act on Reddit, to announce the delivery of their burgers on Uber Eats](img/2017/reddit/mc-astro.jpeg)
+![The picture used for MacDonald’s con act on Reddit, to announce the delivery of their burgers on Uber Eats](/img/2017/reddit/mc-astro.jpeg)
 The picture used for MacDonald’s con act on Reddit, to announce the delivery of their burgers on Uber Eats
 
 A lot of things are suspicious, and Reddit was quick to notice. Here are the main flaws:
@@ -196,7 +197,7 @@ While the reactions were unanimous, **the post still reached the frontpage** �
 
 The first comment chains read like an ad script. Are they from real users, bots or fake accounts? Probably an **unhealthy mix of all three**.
 
-![First reactions on MacDonald’s post/ad, screen by /u/SwellandDecay (source: [/r/HailCorporate](https://www.reddit.com/r/HailCorporate/comments/6qmc68/made_my_delivery_drivers_night_by_showing_him_vr/))](img/2017/reddit/mc-astro-comment.png)
+![First reactions on MacDonald’s post/ad, screen by /u/SwellandDecay (source: [/r/HailCorporate](https://www.reddit.com/r/HailCorporate/comments/6qmc68/made_my_delivery_drivers_night_by_showing_him_vr/))](/img/2017/reddit/mc-astro-comment.png)
 First reactions on MacDonald’s post/ad, screen by /u/SwellandDecay (source: [/r/HailCorporate](https://www.reddit.com/r/HailCorporate/comments/6qmc68/made_my_delivery_drivers_night_by_showing_him_vr/))
 
 Essentially, MacDonald’s strategy relied on three things:
@@ -208,7 +209,7 @@ Essentially, MacDonald’s strategy relied on three things:
 
 The combined actions allowed them to have a lot of control over the post and its most visible comments. Yet, even if they managed to reach the frontpage, **the Reddit community was also quick to react**. The comment now at the top of the post is denouncing the ad.
 
-![The first comment (10/07/2017) on the MacDonald’s post](img/2017/reddit/mc-astro-comment2.jpeg)
+![The first comment (10/07/2017) on the MacDonald’s post](/img/2017/reddit/mc-astro-comment2.jpeg)
 The first comment (10/07/2017) on the MacDonald’s post
 
 #### Reddit’s corporate shilling watchdogs
@@ -223,7 +224,7 @@ Either way, the **upvotes he bought at least helped him give hist post the initi
 
 ### Where does Reddit go from here?
 
-![Snoo, Reddit’s mascot](img/2017/reddit/snoo.png)
+![Snoo, Reddit’s mascot](/img/2017/reddit/snoo.png)
 Snoo, Reddit’s mascot
 
 The situation is far from fixed, as a dumb Google search such as “Reddit buy upvotes” gives you countless of options to chose from. I’m sure the admins are working hard to detect and prevent abuses, but considering the scope of the issue and the stakes, it’s gonna take a while.

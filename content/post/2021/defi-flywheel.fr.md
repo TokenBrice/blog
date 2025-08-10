@@ -3,12 +3,11 @@ title: "🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens i
 "
 description: "On analyse la course à l'accumulation des CRV avec le lancement de Convex pour comprendre le concept de flywheel en DeFi : des protocoles qui évoluent en synergie grâce à leur tokenomics."
 date: '2021-06-08T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Liquity, Curve Finance, CRV, Polygon, Convex, CVX, Yearn Finance, Pickle Finance, Adamant Finance]
 toc: true
 tocNum: true
 url: defi-flywheel
-image: img/2021/defi-flywheel/defi-flywheel-cover-en.png
 ---
 
 En trois semaines, le protocole Convex a attiré plus de $ 3 milliards de dépôts, tout en devenant la plus grande 🐳 baleine de CRV, aujourd'hui et à priori pour toujours. La chance n'est jamais un facteur négligeable, mais avec une entrée aussi fracassante dans les sommets de la DeFi il faut chercher bien plus loin. En effet, la clef de compréhension de l'ascension fulgurante de Convex c'est la tokenomics, et c'est donc notre sujet du jour !
@@ -20,6 +19,8 @@ L'émergence des programmes d'incitations de liquidité (liquidity mining) l'ann
 En effet, le liquidity mining par lui-même n'attire à priori que des **dépôts mercenaires et opportunistes**. En soit, le liquidity mining est davantage un outil qui sert à faire connaître un projet qu'à sa pérennisation. 
 
 Durer en DeFi, c'est une affaire de tokenomics : c'est-à-dire les mécaniques des tokens natifs des protocoles. **La tokenomics, c'est en quelque sorte le gameplay d'un protocole DeFi**. 
+
+![flywheel-defi-cover](/img/2021/defi-flywheel/defi-flywheel-cover.png)
 
 Vous le savez sans doute, je suis un grand admirateur du modèle CRV. Ça tombe à pic, puisque le jeu autour du token CRV n'a jamais été aussi vif que ces dernières semaines. Certains parlent même de #lockening pour décrire **la course à l'accumulation de VeCRV** à laquelle se livrent Convex, Yearn et StakeDAO.
 
@@ -62,7 +63,7 @@ Le modèle crée ainsi un chemin intéressant pour les utilisateurs du protocole
 
 Pour aller plus loin tout en français, je vous invite à suivre le [direct-marathon Curve Finance avec Charlie.](https://www.youtube.com/watch?v=G5PbqGtjSDQ) Sinon, [cet article en anglais est aussi utile.](https://stakecapital.substack.com/p/curve-tokenomics-and-first-mover)
 
-![crv-tokenomics](img/2021/defi-flywheel/crv-tokenomics.png "Les bases de la tokenomics CRV")
+![crv-tokenomics](/img/2021/defi-flywheel/crv-tokenomics.png "Les bases de la tokenomics CRV")
 
 Néanmoins, le modèle CRV connait aussi ses limites, la plus évidente étant l'impact des frais de transaction Ethereum : des sommes importantes peuvent être requises pour que le jeu commence à faire du sens.
 
@@ -89,11 +90,11 @@ Néanmoins, l'approche sous-jacente est totalement différente de Yearn et s'ins
 
 Bien comprendre la structure des frais est essentiel pour arriver à saisir ce qu'il s'est passé avec Convex. Le protocole contrôle désormais plus de 32M de VeCRV, soit **presque deux fois le total de Yearn, et ce à peine après trois semaines d'existence**.
 
-![convex-curve-stats](img/2021/defi-flywheel/convex-curve-stats.png "Rendements générés par Convex sur Curve Finance")
+![convex-curve-stats](/img/2021/defi-flywheel/convex-curve-stats.png "Rendements générés par Convex sur Curve Finance")
 
 Convex prélève un frais total de 16% sur l'ensemble des CRV farmés sur le protocole (contre 20/2 sur tous les tokens pour Yearn, ou 30% pour Harvest par exemple). Sur les 16%, 1% sert à couvrir les frais opérationnels comme le coût en gas des collectes.
 
-![convex-synergies-CRV](img/2021/defi-flywheel/convex-synergies-CRV.png "Synergies et capture de valeur Convex / Curve")
+![convex-synergies-CRV](/img/2021/defi-flywheel/convex-synergies-CRV.png "Synergies et capture de valeur Convex / Curve")
 
 Le plus intéressant s'opère au niveau de la redistribution des 15% restants, soit 15% de tous les CRV farmés par Convex (**plus de 400 000 CRV par jour** au rythme actuel). Vous pouvez consulter la [position Curve de Convex via CurveMarketCap par ici.](https://curve.fi/pools?see=0x989aeb4d175e16225e39e87d0d97a3360524ad80) Deux populations de stakers sont éligibles à ce juteux gâteau :
 
@@ -116,7 +117,7 @@ Sauf que… Pickle n'apporte techniquement strictement rien en plus de Yearn, en
 
 En DeFi rien n'est définitif. La situation de Pickle pourrait évoluer, si les tokenomics des protocoles sous-jacents (YFI et SUSHI) évoluent. Les deux protocoles semblent s'orienter vers une réappropriation du modèle VeCRV donc c'est tout à fait possible. Un modèle qui mèle la logique de burn Adamant/Ellipsis et le boosting Curve a même été proposé pour Sushi : **[oSUSHI](https://forum.sushi.com/t/sushinomics-introducing-osushi/4055)**.
 
-![veYFI](img/2021/defi-flywheel/veYFI.png "Exemple d'interface pour le mécanisme de verrouillage/boost YFI (veYFI)")
+![veYFI](/img/2021/defi-flywheel/veYFI.png "Exemple d'interface pour le mécanisme de verrouillage/boost YFI (veYFI)")
 
 
 ### Adamant Finance : 🎡 flywheel sur les LP Polygon ?
@@ -144,7 +145,7 @@ L'équation de base est simple :
 2. Pour se faire, une des options est d'emprunter des stablecoins en utilisant les ETH comme collatéral. Les stablecoins peuvent ainsi produire un rendement supplémentaire.
 3. Pour cette stratégie, Liquity serait **la plateforme de prédilection sans contestation possible**. En effet, le coût d'emprunt y est le plus bas du marché (presque 12x moins cher que Maker sur une année) et les opportunités de rendement sur le stablecoin LUSD ne manquent pas.
 
-![protocole-x-liquity](img/2021/defi-flywheel/protocole-x-liquity.png "Exemple d'un protocole flywheel construit sur Liquity (fictif pour l'instant)")
+![protocole-x-liquity](/img/2021/defi-flywheel/protocole-x-liquity.png "Exemple d'un protocole flywheel construit sur Liquity (fictif pour l'instant)")
 
 L'enjeu sur une telle stratégie mutualisée c'est de **gérer le ratio de collatéralisation** et d'être en mesure de l'équilibrer rapidement si le marché venait à bouger. Là encore, Liquity s'y prête bien puisque la stability pool offre un rendement attractif sur le LUSD tout en permettant de  **mobiliser rapidement les LUSD pour rembourser la dette si besoin**.
 

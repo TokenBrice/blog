@@ -2,12 +2,13 @@
 title: "Les forks de Yearn Finance : présentation de la famille des Waifus"
 description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de nombreux projets qui l'ont forké. Cet article le tour des forks de YFI les plus pertinents."
 date: '2020-09-18T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Curve, yVault, Lending, YFI, Yearn, Yearn Finance, YFV, YFII, YFL, FARM, Harvest Finance]
-image: img/2020/yearn-waifus/cover.jpg
 ---
 
 À chaque jour son nouveau fork de Yearn Finance : comment les suivre ? Il n'y a pas de réponse simple, mais je pense pouvoir **vous fournir quelques éléments pour vous aider à repérer les fork de YFI à fort potentiel**. Pour ce faire, je vais couvrir trois (+1) fork YFI et essayer de mettre le doigt sur ce qui les rend intéressants.
+
+![Yearn's Fork Waifus](/img/2020/yearn-waifus/cover.jpg) 
 
 Yearn est plus que le produit Yearn.Finance lui-même : il est devenu un modèle pour lancer un projet, parfois appelé "lancement équitable". Yearn a été le pionnier de cette méthode qui repose sur trois éléments clés :
 
@@ -41,7 +42,7 @@ Ainsi **au lieu d'avoir une distribution sur une semaine, YFII a opté pour un c
 
 Au-delà de cette différenciation, YFII développe un angle intéressant avec une **forte présence en Asie** : le site DFI.Money a été rapidement traduit en chinois et bientôt dans d'autres langues. Il y a également un fort **focus sur l'interface** pour rendre l'expérience aussi facile que possible à bord.
 
-![Vue d'ensemble des vaults de DFI.Money](img/2020/yearn-waifus/dfi-money.png)
+![Vue d'ensemble des vaults de DFI.Money](/img/2020/yearn-waifus/dfi-money.png)
 
 [Vous pouvez consulter les statistiques ici](https://stats.dfi.money/).
 
@@ -57,7 +58,7 @@ YFL est un autre des premiers forks de YFI. Ici, le changement est simple: **LIN
 
 L'objectif initial était de créer une coopérative d'investissement pour les détenteurs de LINK. YFL a été développé par 5 équipes anonymes travaillant ensemble et a été publié initialement le 7 août 2020. 
 
-![YFL LinkSwap](img/2020/yearn-waifus/Linkswap.png)
+![YFL LinkSwap](/img/2020/yearn-waifus/Linkswap.png)
 
 La croissance a été rapide et le plan s'est rapidement affiné ! [YFLink travaille actuellement sur le LINKSwap](https://medium.com/@linkswapco/yf-link-ecosystem-linkswap-development-update-44f8413721c9), un créateur de marché automatisé (AMM) géré par la communauté, qui se concentre sur la sécurité et l'accumulation de valeur pour les détenteurs de LINK. 
 
@@ -71,7 +72,7 @@ Ici, les pools étaient principalement composées à 98% ERC20-token / 2% de poo
 
 YFV a été l'un des premiers projets à offrir des possibilités de gains crédibles sur des tokens tels que BAL, YFI, BAT, REN, KNC, BTC, WETH ou LINK : cela a vraiment contribué à attirer des liquidités - il y a environ 470 millions de dollars déposés sur YFV au moment où j'écris ces lignes.
 
-![YFV Staking Interface](img/2020/yearn-waifus/yfv.png)
+![YFV Staking Interface](/img/2020/yearn-waifus/yfv.png)
 
 Le produit principal de YFV, la Governance Vault, vient d'être [lancé le 15 septembre](https://medium.com/@yfv.finance/roadmap-update-value-contract-governance-vault-e226ad2f909e). Les détenteurs d'YFV peuvent staker leur token pour plusieurs avantages :
 
@@ -93,7 +94,7 @@ Bien que Harvest.Finance ne soit pas techniquement un fork de Yearn, on pourrait
 
 L'expérience de Harvest est assez simple, tout comme pour les vaults de Yearn. **Les utilisateurs déposent des tokens dans la stratégie de leur choix pour les mettre au travail**. Par exemple, ils déposent leur DAI pour obtenir le fDAI, DAI qui exploite actuellement les retours apportés par Swerve.fi.
 
-![Harvest Finance](img/2020/yearn-waifus/harvest-finance.png)
+![Harvest Finance](/img/2020/yearn-waifus/harvest-finance.png)
 
 **Ils peuvent également fournir des liquidités sur la paire fDAI/DAI sur Uniswap, ce qui facilite l'entrée et la sortie des utilisateurs avec des capitaux plus modestes.**
 

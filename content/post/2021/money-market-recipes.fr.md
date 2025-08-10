@@ -2,12 +2,11 @@
 title: "🌽 Livre de recettes pour les marchés d'actifs DeFi"
 description: "Les marchés d'actifs comme Aave ou Alchemix sont des outils essentiels en DeFi. Cet article explique et illustre quelques stratégies pour tirer parti des différentes options qu'ils offrent."
 date: '2021-04-29T01:13:50.191Z'
-categories: [DeFi, Practical]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Finance décentralisée, Marchés Monétaires, Aave, Curve, Liquity, Mimo Capital, Alchemix, Aave, Polygon, Liquidation]
 toc: true
 tocNum: true
 url: recettes-marches-actifs
-image: img/2021/money-market-recipes/money-market-recipes-cover.png
 ---
 
 Sur ce blog, je discute fréquemment des marchés monétaires ou marchés d'actifs en DeFi. Fondamentalement, ils vous permettent de **prêter et d'emprunter des tokens**. Ces deux actions sont devenues comme **des verbes de la DeFi** : ils sont mobilisés directement ou indirectement dans quasiment toutes les stratégies.
@@ -18,6 +17,8 @@ Ainsi, bien qu'il soit crucial de comprendre les protocoles que vous utilisez et
 2. Comment concrètement les déployer ?
 
 Nous allons donc décortiquer différentes "recettes" pour tirer parti des marchés d'actifs. Prenez ces recettes comme **des inspirations pour développer vos propres stratégies**.
+
+![recettes-marché-d'actif-cover-tokenbrice](/img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png)
 
 {{< notice warning >}}
 Cet article ne constitue pas du conseil en investissement : je ne suis pas habilité à en dispenser. Plutôt que de reproduire mécaniquement les stratégies présentées en exemple, je vous invite surtout à chercher à en comprendre la démarche.
@@ -42,7 +43,7 @@ Ici, le protocole en question c'est [Liquity](https://liquity.org) et la mise en
 
 Soit en s'exposant directement au token LQTY, ce qui est bien sûr plus risqué :
 
-![mm-long-tokenbrice](img/2021/money-market-recipes/mm-long-token-tokenbrice.png "Exposition longue sur Liquity via le token natif LQTY")
+![mm-long-tokenbrice](/img/2021/money-market-recipes/mm-long-token-tokenbrice.png "Exposition longue sur Liquity via le token natif LQTY")
 
 1. Dépôt d'ETH sur [Liquity](https://www.liquity.org/) via un des frontends, ils serviront de collatéral pour la position.
 2. Emprunt de LUSD
@@ -54,7 +55,7 @@ Ou alors de manière plus prudente, avec une stratégie qui revient à utiliser 
 
 ### Exposition essentiellement en stablecoins
 
-![mm-long-token-tokenbrice](img/2021/money-market-recipes/mm-long-tokenbrice.png "Exposition longue sur Liquity via Liquity/Curve")
+![mm-long-token-tokenbrice](/img/2021/money-market-recipes/mm-long-tokenbrice.png "Exposition longue sur Liquity via Liquity/Curve")
 
 1. Dépôt d'ETH sur [Liquity](https://www.liquity.org/) via un des frontends, ils serviront de collatéral pour la position.
 2. Emprunt de LUSD
@@ -82,7 +83,7 @@ Je vous propose donc une stratégie simple pour tirer profit d'Alchemix afin de 
 
 Pour illustrer le concept, je vous propose à nouveau une stratégie simple qui revient à long Alchemix via son token ALCX :
 
-![alchemix-investment-tokenbrice](img/2021/money-market-recipes/alchemix-investment-tokenbrice.png "Investissement financé par de la dette stable sur Alchemix")
+![alchemix-investment-tokenbrice](/img/2021/money-market-recipes/alchemix-investment-tokenbrice.png "Investissement financé par de la dette stable sur Alchemix")
 
 1. Dépôt de DAI en collatéral sur Alchemix. Alchemix le déploie sur Yearn Finance pour produire un rendement.
 2. Emprunt jusqu'à 50% de la valeur initiale déposée en AlUSD, un stablecoin.
@@ -114,7 +115,7 @@ La stratégie consiste à **produire des rendements grâce à l'emprunt de stabl
 
 Pour illustrer la stratégie, je pars de l'hypothèse de générer un rendement à partir d'ETH.
 
-![polygon-aave-curve-eth-farming-tokenbrice](img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice.png "Farming sur Polygon via Aave et Curve en utilisant ETH comme collatéral")
+![polygon-aave-curve-eth-farming-tokenbrice](/img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice.png "Farming sur Polygon via Aave et Curve en utilisant ETH comme collatéral")
 
 1. Dépôt d'ETH en collatéral sur Aave/Polygon (+natif +MATIC)
 2. Emprunt de stablecoins (-APR +MATIC)
@@ -134,7 +135,7 @@ Il est possible de mettre en œuvre cette stratégie en gardant les tokens utili
 
 En DeFi, tout se passe en dollar. Ça fait du sens, tout le monde connaît, mais pour un utilisateur européen cela peut poser un vrai risque. En effet, si votre ambition est de générer de quoi vivre avec la DeFi, alors cela signifie que votre sortie se fera éventuellement en Euro. 
 
-![eur-usd-1y](img/2021/money-market-recipes/eur-usd-1y.png "Évolution du taux de change €/$ sur l'année dernière")
+![eur-usd-1y](/img/2021/money-market-recipes/eur-usd-1y.png "Évolution du taux de change €/$ sur l'année dernière")
 
 Pour un fermier Européen, il peut donc être **intéressant d'avoir une exposition DeFi en € pour éviter ce risque supplémentaire**. Pour l'instant, il n'y a tout simplement aucune option d'emprunt en Euro autre que [Mimo Capital](https://mimo.capital/). 
 
@@ -153,7 +154,7 @@ Pour farmer nativement en Euros, la meilleure option reste encore ce qu'il est p
 *   **🔮 Résultat espéré** : Faire fructifier un capital en Euro-stables
 *   **🃏 Bonus / Facilitateur :** Posséder des VeCRV.
 
-![EURS-farming-tokenbrice](img/2021/money-market-recipes/EURS-farming-tokenbrice.png "Options de farming avec le stablecoin EURS")
+![EURS-farming-tokenbrice](/img/2021/money-market-recipes/EURS-farming-tokenbrice.png "Options de farming avec le stablecoin EURS")
 
 *   La **pool Curve** directement offre un rendement attractif en CRV même lorsqu'il n'est pas boosté.
 *   Pour revendre automatiquement les CRV farmés afin de composer le rendement, un vault est idéal. **[Yearn](https://yearn.finance) propose un vault sur EURS**.

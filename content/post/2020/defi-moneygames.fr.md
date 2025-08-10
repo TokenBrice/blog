@@ -2,12 +2,13 @@
 title: "🧭 DeFi Moneygames: Comment comprendre le risque et éviter les pertes ?"
 description: "Un peu de contexte sur les DeFi moneygames (YAM, PASTA, BASED, etc.) pour être en mesure de comprendre les risques encourus par les joueurs et comment les minimiser"
 date: '2020-08-26T01:13:50.191Z'
-categories: [DeFi, Practical]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
-image: img/2020/defi-moneygames/cover.png
 ---
 
 Les moneygames alimentaires font fureur dans la finance décentralisée. Aujourd'hui, je voulais écrire un petit article pour les mettre en contexte et donner quelques conseils à ceux qui le souhaitent. Je ne porterai pas de jugement moral sur ces projets, je vous laisse le soin de le faire.
+
+![defi-moneygames-cover-tokenbrice](/img/2020/defi-moneygames/cover.png "Bienvenue ! J'espère que vous avez faim.")
 
 Le lancement de Yearn Finance le mois dernier a probablement été l'événement le plus important de l'année pour DeFi. Si vous ne connaissez pas du tout Yearn, je vous recommande de lire mon article sur le sujet pour vous rafraîchir la mémoire - il vous sera utile de mieux comprendre celui-ci : **[YearnFinance - La DeFi avec pilote automatique ?](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md)**
 
@@ -63,7 +64,7 @@ Le risque est réduit au minimum : si vous pouvez comparer le code du contrat de
 
 Au-delà de ce point (SAFU confirmé), le principal risque que vous prenez est que le token que vous gagnez pourrait ne plus avoir de valeur au moment où vous en aurez assez pour vous en débarrasser. Tenez-vous en à des projets raisonnables pour éviter un tel scénario connu sous le nom de "spirale de la mort" - lorsqu'un token-mème entre dans la phase finale de son existence :
 
-![defi-moneygames-PASTA-deathloop](img/2020/defi-moneygames/pasta-deathloop.png "La fin de PASTA a été assez abrupte.")
+![defi-moneygames-PASTA-deathloop](/img/2020/defi-moneygames/pasta-deathloop.png "La fin de PASTA a été assez abrupte.")
 
 
 #### NIVEAU = 2 - POOLS 98%/2% 
@@ -72,7 +73,7 @@ Ces pools sont généralement plus délicates, car elles impliquent de fournir d
 
 Ici, **vous êtes confrontés à un nouveau type de risque : les pertes impermanentes**. Les IL sont plus importantes lorsque les deux actifs impliqués dans le pool évoluent rapidement dans des directions opposées, en termes de prix. Les pools 98/2% ont leur propre catégorie car elles sont un peu plus sûres, bien qu'elles ne soient pas totalement immunisés contre l'IL.
 
-![defi-moneygames-YFV](img/2020/defi-moneygames/yfv.png "YFV est un autre moneygame qui suit ce modèle de pools 98/2")
+![defi-moneygames-YFV](/img/2020/defi-moneygames/yfv.png "YFV est un autre moneygame qui suit ce modèle de pools 98/2")
 
 #### NIVEAU = REK'T - LES "DUMPING" POOLS
 

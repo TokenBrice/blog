@@ -4,10 +4,11 @@ description: >-
   An overview of the main things to watch for in a cryptocurrency project and
   some tricks to spot the red flags before it's too late.
 date: '2018-07-05T10:36:25.787Z'
-categories: [Analysis]
+categories: [Tutorial]
 tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
-image: img/2018/hitchhikerguide/cover.jpeg
 ---
+
+![](/img/2018/hitchhikerguide/cover.jpeg)
 
 Looking to invest in an ICO, or get your hands on some already traded coins? Awesome, welcome aboard! Before you jump in, let me give you some clues to spot shaky projects with examples taken from actual ones. These tips come from my experience (and failures) as well the discussion I had both with friends and the cryptocurrency community.
 
@@ -33,14 +34,14 @@ This is probably the most common, as most people won’t read the technical part
 
 It’s ok for a WP to get quite technical (here is Stellar’s — XLM), but it’s not OK to cover an absence of technical solution with jargon.
 
-![stellar-wp](img/2018/hitchhikerguide/stellar-wp.png)
+![stellar-wp](/img/2018/hitchhikerguide/stellar-wp.png)
 
 #### The Darwin Awards of Whitepapers
 
 Wanna see how does a terrible WP looks like? [Check Narbonne’s](https://narbonne.io/Narbonne.pdf), it’s been 7 months and I can’t find any worse. Out of the 22 pages, ~18 are spitting copy pasta about the future. Most of the paper is very generic, and so many things in it are so off. I had to pick one so here we go, the comparison between Narbonne, Ether**i**um and Wa**w**es. Yes, you read it right, they can’t even spell Ethereum and Waves properly.
 
 
-![narbonne-wp](img/2018/hitchhikerguide/narbonne-wp.png)
+![narbonne-wp](/img/2018/hitchhikerguide/narbonne-wp.png)
 
 So many things need to be debunked in this table, it’s actually a good exercise. Here are a few you do the rest:
 
@@ -85,7 +86,7 @@ Even if the TPS is meaningless, it’s almost expected now. Newcomer investors w
 
 Consider coin A, advertising 1M TPS and coin B advertising 10 TPS. What about the features they support? What about decentralization? What about the team vision? Community support? Simply by looking at the number, I know now that Coin A is bullshit and coin B could be OK.
 
-![nano](img/2018/hitchhikerguide/nano.gif)
+![nano](/img/2018/hitchhikerguide/nano.gif)
 
 **The current state of the art of tech allows for a maximum of ~10 000 TPS (already huge) without excessive centralization.** Any coin promising something higher than this is either:
 
@@ -120,7 +121,7 @@ Even if you’re not a dev, **it’s always insightful to check the GitHub repos
 
 If you are seriously considering investing in an ICO, I urge you to google the most prominent team members. Look at their LinkedIn, their Twitter, their previous companies, etc. If you find inactive profiles, it’s usually a pretty bad sign. You might also find skeletons in the closest, such as one team member who participated in another crypto project that turned out to be a failure or a scam.
 
-![Screenshot for [Banano, a NANO fork](https://banano.co.in/) that doesn’t take itself too seriously](img/2018/hitchhikerguide/team.png))
+![Screenshot for [Banano, a NANO fork](https://banano.co.in/) that doesn’t take itself too seriously](/img/2018/hitchhikerguide/team.png))
 Screenshot for [Banano, a NANO fork](https://banano.co.in/) that doesn’t take itself too seriously
 
 A low quality or frequency social media presence is also a bright orange flag. These guys will have to market their project, acquire users and partners. If they can’t market themselves, it’s already a shaky start.
@@ -133,7 +134,7 @@ The token distribution chart is usually present in every WP. If it’s not, it�
 
 It usually looks like a pie chart. The most transparent projects have two: one for the distribution of the tokens, and one covering how the funds will be spent by team.
 
-![Storm token distribution is pretty good ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))](img/2018/hitchhikerguide/distribution.png)
+![Storm token distribution is pretty good ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))](/img/2018/hitchhikerguide/distribution.png)
 Storm token distribution is pretty good ([source](https://blog.stormtoken.com/token-structure-and-ceo-update-bd055860251e))
 
 It’s ok, even good that the team reserves a share of the token for the development of the project. You have to watch the share allocated to the team: it can range from 10% to 30% for the reasonable projects.

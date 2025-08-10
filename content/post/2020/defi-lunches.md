@@ -29,7 +29,7 @@ But it’s time to check in again. New tools like stablecoins and DeFi protocols
 
 I asked [Brice](https://twitter.com/TokenBrice) to share his story. He’s uses an Ethereum address, a few protocols, and a wallet + visa card combo to get passive DeFi income to pay for his lunches. 
 
-![paying-lunch-with-DAI-from-DeFi](img/2020/bankless-defi-lunches/paying.jpeg)
+![paying-lunch-with-DAI-from-DeFi](/img/2020/bankless-defi-lunches/paying.jpeg)
 
 **(Above—[watch Brice pay for French cheese](https://twitter.com/TokenBrice/status/1225773317598187527?s=20) the bankless way)**
 
@@ -163,7 +163,7 @@ But let’s keep this simple and passive:
 How much in assets values is required for 5 Daily DAI at the below rates?
 
 <div align = "center">
-![earning-table](img/2020/bankless-defi-lunches/earning-table.png)
+![earning-table](/img/2020/bankless-defi-lunches/earning-table.png)
 </div>
 
 #### **Going farther**
@@ -177,7 +177,7 @@ As I blast through the 10 DAI/day, this year, that is if the plan stands, I will
 Wonder how this looks in practice? [See for yourself at tokenbrice.eth.](https://etherscan.io/address/tokenbrice.eth)
 
 <div align = "center">
-![zerion-preview](img/2020/bankless-defi-lunches/wallet.png)
+![zerion-preview](/img/2020/bankless-defi-lunches/wallet.png)
 </div>
 
 *(Above: see Brice’s DAI earnings & spending in real-time—[plug tokenbrice.eth into Zerion](https://app.zerion.io/0x030de46c333dfd602442a103919412a7987d0ac7/lend?utm_campaign=aw&utm_medium=header_button&utm_source=landing))*

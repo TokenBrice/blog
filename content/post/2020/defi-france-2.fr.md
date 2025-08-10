@@ -2,14 +2,15 @@
 title: "DeFi France 2.0 : Engagez-vous !"
 description: "Ce document présente les prochains projets de DeFi France. Motivé ? N'hésitez pas à nous contacter pour vous impliquer."
 date: '2020-08-10T01:53:50.191Z'
-categories: [Projects]
+categories: [Projets]
 tags: [BanklessFR, DeFi France, Live, Meetups]
-image: img/others/defifrance2.jpg
 ---
 
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 
 
 Aujourd'hui, nous avons de plus en plus de monde rejoignant le groupe, avec des niveaux d'expertise et des attentes différents. Il convient donc de structurer notre présence pour la rendre plus accessible.
+
+![defi-france-2](/img/others/defifrance2.jpg)
 
 En ces temps d'emballement sur les marchés, les medias cryptos se montrent de plus en plus cupides, et toujours plus partiaux. La force de DeFi France est sa dimension organique, et nous entendons le démontrer. Nous sommes convaincus que la communauté peut produire des contenus de très haute qualité, dépassant très largement le niveau des publications professionelles françaises.
 
@@ -90,4 +91,4 @@ Cette proposition est plus une promesse personelle, quelque chose qui aurait dû
 
 ### DFP #X - RIEN NE TE PARLE ? SUGGÈRE LE TIEN
 
-![c'est notre projet](img/others/defi-france/projet.gif)
+![c'est notre projet](/img/others/defi-france/projet.gif)

@@ -2,18 +2,18 @@
 title: "Tokens directeurs de liquidité au-delà de Curve : analyse des Balancer Wars"
 description: "Nous examinons les particularités de l'échange décentralisé Balancer ainsi que de son écosystème pour mieux comprendre la dynamique de la course aux BAL."
 date: '2022-11-24T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance, BAL, Polygon, Aura Finance, AURA, PowerPool, CVP, veBAL, vlAURA, Hidden Hand, Warden, Vote Bribing, Liquidity Driver Tokens]
 toc: true
 tocNum: false
 url: balancer-wars
-image: img/2022/balancer-wars/balancer-wars-cover.png
 ---
 
 Les tokens directeurs de liquidité, comme je les appelle, sont une construction émergente et fascinante. En termes simples, ces tokens vous permettent de diriger des incitations (CRV, BAL, etc.) vers la pool de liquidité de votre choix. Pour ce faire, vous devez généralement posséder et verrouiller le token correspondant (veCRV, veBAL, etc.) au sein de leur contrat de gouvernance, ce qui garantit un engagement continu des projets participants.
 
 Ainsi, les tokens directeurs de liquidité sont rapidement devenus très recherchés par les DAO dont les besoins en liquidité sont constants et généralement croissants. Cela a conduit à ce que nous appelons des « courses » ou « guerres »: un terme qui fait référence aux diverses stratégies que les projets exploitent pour augmenter constamment leur réserve de veTokens, idéalement plus rapidement que les autres participants, afin de développer un avantage concurrentiel.
 
+![balancer-wars-cover](/img/2022/balancer-wars/balancer-wars-cover.png)
 
 J'ai largement couvert la tokenomique CRV, le pionnier du modèle ve, et leurs conséquences dans ce blog :
 
@@ -40,7 +40,7 @@ Une fois le décor planté, plongeons dans le sujet du jour : Balancer, la cours
 
 ## Cartographie de la trinité de Balancer
 
-![balancer-trinity](img/2022/balancer-wars/balancer-trinity.png)
+![balancer-trinity](/img/2022/balancer-wars/balancer-trinity.png)
     
 Nous avons regardé ensemble l'écosystème se développer à travers l'exemple de Curve. Pour la première fois, nous allons étudier [Balancer](https://balancer.finance/) et on observe déjà un écosystème mature ! Balancer a déjà "son Convex", appelée [Aura Finance](https://aura.finance/) qui contrôle plus de 25% du veBAL (contre >50% du veCRV pour Convex). 
 
@@ -52,7 +52,7 @@ Pour ceux qui sont familiers avec l'approvisionnement en liquidités d'UniswapV3
 
 Avec Uniswap et Curve, Balancer est l'un des DEX les plus anciens et les plus populaires aujourd'hui. En effet, si on considère le marché DEX d'un point de vue global, Balancer se classe à la cinquième place avec environ 3 % du volume total traité :
 
-![defillama-dex-overview](img/2022/balancer-wars/dex-overview.png)
+![defillama-dex-overview](/img/2022/balancer-wars/dex-overview.png)
 
 _Vue d'ensemble du volume d'échange observé sur les principaux échanges décentralisés de [DeFiLlama](https://defillama.com/dexs)_
 
@@ -89,7 +89,7 @@ Enfin, Balancer peut ajuster la répartition de la pondération des pools selon 
 2. Ils commencent donc avec un pool de 98%USDC/2%Token, ce qui leur permet de fournir des liquidités avec des exigences minimales en matière de token d'appariement.
 3. Le pool agit comme un événement d'initiation de token et un mécanisme de découverte de prix en même temps. Le token démarre à un prix donné, qui diminue au fil du temps si personne n'achète le token.
 
-![balancer-trinity](img/2022/balancer-wars/LBP.png "Evolution du prix d'un token pendant un LBP s'il n'y a pas d'achat")
+![balancer-trinity](/img/2022/balancer-wars/LBP.png "Evolution du prix d'un token pendant un LBP s'il n'y a pas d'achat")
 
 Les LBP sont conçus pour permettre aux utilisateurs intéressés par le projet d'acheter des tokens de manière équitable sur une période donnée, en les protégeant contre les attaques habituelles observées lors de lancements de tokens plus classiques (tels que les bots MEV snipant l'approvisionnement initial).
 
@@ -109,7 +109,7 @@ Comme Curve, Balancer a un joueur dominant de sa course qui a développé un pro
 
 Aura offre un farming efficace aux détenteurs de tokens LP de Balancer, avec des récompenses BAL augmentées grâce à l'importante réserve veBAL du protocole et aux incitations supplémentaires AURA. À cet égard, c'est la même chose que Convex avec Curve.
 
-![defiwars-balancer](img/2022/balancer-wars/defiwars-balancer.png)
+![defiwars-balancer](/img/2022/balancer-wars/defiwars-balancer.png)
 
 _Vue d'ensemble des liquid wrappers veBAL - [merci defiwars.xyz](https://www.defiwars.xyz/wars/balancer)_
 
@@ -127,7 +127,7 @@ De nombreux marchés de bribes permettent l'achat de votes veBAL ou vlAURA ; voi
 
 Pour suivre la guerre des BAL, assurez-vous d'exploiter les données offertes par la Llama Airforce :
 
-![llama-airforce-aura](img/2022/balancer-wars/llama-airforce-aura.png)
+![llama-airforce-aura](/img/2022/balancer-wars/llama-airforce-aura.png)
 
 Comme on peut le voir sur le graphique, le marché des bribes a rapidement décollé avant de trouver un équilibre à environ **0,06$ par vote AURA, ce qui se traduit par une efficacité des bribes de 1,50x** : Un dollar dépensé pour influence le vote permet d'ajouter 1,50 dollar d'émissions de BAL à la pool ciblée au cours de l'époque.
 

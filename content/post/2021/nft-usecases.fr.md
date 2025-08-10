@@ -7,7 +7,6 @@ tags: [Collectibles, Tokens Non Fongibles, NFT, Achat de NFT, Marché NFT, Farmi
 toc: true
 tocNum: true
 url: nft-cas-d'utilisation
-image: img/2021/nft-usecases/88DeLo.png
 ---
 
 Les tokens non-fongibles attirent beaucoup l’attention dernièrement. D'une part, le grand public se gratte la tête quant aux records toujours plus hauts observés sur les ventes phares, désormais couvertes dans la presse généraliste[^beeple]. D'autre part, des artistes encore non initiés aux blockchains réalisent le potentiel qu'offre la **désintermédiation** ainsi que les possibilités offertes par **la nature programmable de cette nouvelle forme d'art**. Entre les deux, se mêle un public varié allant du collectionneur occasionnel au spéculateur aguerri.
@@ -16,7 +15,9 @@ Une chose est sûre : les NFTs ne laissent pas indifférent. En effet, en **alli
 
 Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me concentrer sur **les usages pratiques observés avec ces NFTs.** Nous analyserons donc deux caractéristiques fondamentales des NFTs - **leur dimension communautaire** et leur **capacité à devenir des marqueurs sociaux**. Une fois ces deux dimensions établies, nous pourrons considérer différents cas d'utilisation.
 
-![Moloch](img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
+![Moloch](/img/2021/nft-usecases/88DeLo.png "La DeLorean 88MPH, un NFT au centre d'une petite expérience dont on reparlera plus bas")
+
+Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs. J'ai publié un article en 2018 qui couvrait déjà l'essentiel et je suis toujours en accord avec les éléments présentés dans celui-ci.
 
 {{< notice note >}}
 
@@ -47,7 +48,7 @@ Je teste cette hypothèse avec une œuvre dont j'écris une partie de l'histoire
 
 Il est trop tôt pour tirer des conclusions de cette expérience mais néanmoins les premiers résultats sont encourageants : sur les 22 DeLos, 8 ont été distribuées. La meilleure offre de rachat est actuellement à 0.15 ETH, soit environ 3x le prix d'achat initial (88 DAI) mais aucune des 8 personnes qui ont reçu ce NFT n'a craqué. La Delo est malgré tout toujours échangée : l'une d'entre elles vient d'être vendue pour 0.5 ETH.
 
-![rarible-88-DeLorean](img/2021/nft-usecases/delo-sale.png "La DeLorean 88MPH sur Rarible")
+![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "La DeLorean 88MPH sur Rarible")
 
 Pour eux, certains d'entre eux en tout cas, ce NFT a aussi **une histoire très personnelle**. En effet, il a été le premier objet numérique de ce type possédé par plusieurs des gagnants et le contexte de son acquisition en fait vite un symbole : il a été gagné à la sueur de leur front !
 
@@ -63,13 +64,13 @@ Je ne donne aucune consigne quant à la revente lors des donations de NFT. J'enc
 
 Grâce à la dimension sociale des NFTs, ainsi que leur capacité à incorporer et vérifier leur propre histoire, une autre fonction a émergé pour ceux-ci : ils peuvent **servir de marqueur de statut (social)**. À ce niveau là, je pense qu'utiliser les CryptoPunks en exemple est une évidence.
 
-![Cryptopunk-list](img/2021/nft-usecases/punk-variety-2x.png "Un aperçu de quelques Punks")
+![Cryptopunk-list](/img/2021/nft-usecases/punk-variety-2x.png "Un aperçu de quelques Punks")
 
 Ils comptent parmi les premiers projets de collections NTFs sur Ethereum. Leur originalité réside dans leur **dimension générative** : chaque Punk suit des règles de génération lui allouant divers attributs et caractéristiques plus ou moins rares. Certains Punks sont ainsi devenus quasi légendaires et leur prix également.[^1]
 
 Avec le temps, les CryptoPunks sont devenus un symbole qui va largement au-delà des NFTs. C'est désormais l'une des collections de NFTs les plus échangées sur le marché, et **le prix "floor" (prix le plus faible pour les Punks les moins rares) est autour de 17 ETH** :
 
-![Cryptopunk-stats](img/2021/nft-usecases/punk-stats.png "Les principales métriques autour des Punks (capture le 29 Mars 2021)")
+![Cryptopunk-stats](/img/2021/nft-usecases/punk-stats.png "Les principales métriques autour des Punks (capture le 29 Mars 2021)")
 
 ### Reconnaître la rareté
 
@@ -81,7 +82,7 @@ Ainsi, il y n'a également que 333 (/10 000) Punks avec 1 attribut, ce qui les r
 
 Le gros de la collection est ainsi constitué des Punks "moyens", avec 2 (3560 unités), 3 (4501 unités) ou 4 attributs (1420 unités) : ces trois types de Punks constituent à eux seuls presque 95% de l'ensemble des unités.[^2]
 
-![Cryptopunk-stats](img/2021/nft-usecases/punk-attributes-count.png "Le nombre d'attributs par Punk et leur rareté")
+![Cryptopunk-stats](/img/2021/nft-usecases/punk-attributes-count.png "Le nombre d'attributs par Punk et leur rareté")
 
 Les Punks sont désormais **au centre de tout un écosystème** qui va des intégrations techniques (par exemple le wrapper ERC-721 ou leur intégration dans des index NFTs[^3]) aux intégrations artistiques, comme les PicassoPunk :
 
@@ -104,7 +105,7 @@ Le site le plus couramment utilisé est probablement [OpenSea](https://opensea.i
 
 D'autres services existent, avec des approches plus curatives, comme par exemple [Foundation](https://foundation.app/) qui est sélectif sur ses artistes et où chaque œuvre est un exemplaire unique.
 
-Chaque service vient avec des modalités différentes et des types de NFT parfois différents également : **[ERC-721 ou 1155 expliqué ici](https://tokenbrice.xyz/content/posts/2018/nft.fr.md)**. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
+Chaque service vient avec des modalités différentes et des types de NFT parfois différents également. Les règles qui régissent leurs enchères et le partage de revenus affectent également l'orientation générale de la plateforme. Pour commencer à collectionner avec goût, il est bon de savoir au minimum ce que l'on achète !
 
 ### NFT + Jeux-vidéos, sous toutes leurs formes
 
@@ -114,7 +115,7 @@ L'un des scénarios d'utilisation les plus évidents pour les NFTs, c'est bien s
 
 Sans NFT, un joueur peut se retrouver à se battre des jours dans un jeu en ligne pour obtenir un objet… qui n'est pas vraiment le sien. L'action est parfois si répétitive que le terme "farming" est aussi utilisé par les joueurs pour décrire leur pratique (sens légèrement différent du "farming" des DeFians). 
 
-![meuporg](img/2021/nft-usecases/meuporg.jpg)
+![meuporg](/img/2021/nft-usecases/meuporg.jpg)
 
 Le service du jeu en question peut s'arrêter par exemple (si c'est un jeu en ligne) et bien souvent le joueur ne peut pas échanger son objet librement. Incorporer des NFTs dans les jeux-vidéos permet **l'existence d'une persistance qui n'est pas dépendante de l'éditeur du jeu**.
 
@@ -151,7 +152,7 @@ Meme a désormais plusieurs mois et est devenu un service qui a réussi à dépa
 
 Ainsi, Meme a servi de support à un jeu avec BadgerDAO. En déposant des tokens bBADGER ou UNIv2 BADGER/wBTC, les utilisateurs ont pu farmer 6 NFTs différents relatifs à l'univers du projet. **Le premier joueur qui a assemblé les 6 NFTs différents a pu ouvrir un coffre** (smart contract) et recevoir une belle quantité de tokens BADGER en bonus. En outre, la possession de ces NFTs a servi de facteur bonus sur la distribution (airdrop) du token DIGG. [La seconde partie du jeu NFT de Badger](https://badgerdao.medium.com/badger-x-meme-nft-honeypot-part-ii-diamond-hands-7111d38b5df4) vient de commencer.
 
-D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de [farmer des "tickets"](https://dontbuymeme.com/collections/yop) de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs. 
+D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de farmer des "tickets" de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs. 
 
 88MPH fait quelque chose de similaire **en offrant des NFTs aux plus grands utilisateurs de ses nouveaux produits quelques semaines après leur lancement.** La possession d'un tel NFT serait également un excellent critère pour cibler les utilisateurs les plus pertinents pour tester les nouvelles versions et participer plus activement au développement du projet (pure illustration de ma part, il n'y a pas eu d'annonce officielle en ce sens à ma connaissance).
 

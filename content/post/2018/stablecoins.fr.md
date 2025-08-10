@@ -3,11 +3,11 @@ title: Les stablecoins, une nécessité pour l'adoption à grande échelle des c
 description: >-
   Les stablecoins apportent une réponse à une des inquiétudes les plus récurrentes de la population générale : la volalitié. Oui, mais à quel prix?
 date: '2018-08-22T12:14:52.416Z'
-categories: [Analysis]
+categories: [Analyse]
 tags: [stablecoins, DAI, USDT, USDC, Tether, EcoCrypto]
-image: img/2018/stablecoins/cover.jpeg
 ---
 
+![](/img/2018/stablecoins/cover.jpeg)
 Lorsqu’on parle de cryptos à des non-initiés, la question de la volatilité revient très souvent. Elle sert parfois à balayer l’ensemble du monde des cryptomonnaies et des progrès récents fait en matière de décentralisation sans effort. La volatilité, ça ne touche pas toutes les cryptomonnaies. Il en existe certaines conçues pour êtres stables : on les appelle les « stablecoins ».
 
 Avant d’en venir à ces cryptomonnaies particulières, rappelons quelques éléments utiles pour la compréhension de cet article :
@@ -20,19 +20,19 @@ Bien que l’argument de la volatilité serve souvent d’épouvantail, il nous 
 
 ### Encore en panne la Fiat ?
 
-![Geographical distribution of the query “How to buy bitcoin” using Google Trends](img/2018/stablecoins/buy-bitcoin.png)
+![Geographical distribution of the query “How to buy bitcoin” using Google Trends](/img/2018/stablecoins/buy-bitcoin.png)
 Distribution géographique des recherches « Comment acheter des bitcoins » via Google Trends
 
 Au Ghana, la monnaie nationale (le Cedi – GHS) est passé d’une valeur proche du dollar en 2008 à une vingtaine de cents aujourd’hui. La monnaie nigérienne elle (le Naira – NGN) a perdu la moitié de sa valeur (mesurée face au dollar) en une dizaine d’années.
 
-![The exchange rate of the dollar against the Cedi (left) and Naira (right) over the last ten years. Source: [TradingEconomics](https://tradingeconomics.com/).](img/2018/stablecoins/cedi.png)
+![The exchange rate of the dollar against the Cedi (left) and Naira (right) over the last ten years. Source: [TradingEconomics](https://tradingeconomics.com/).](/img/2018/stablecoins/cedi.png)
 Évolution du taux d'échange du dollar face au Cedi (Ghana) et au Naira (Nigeria) Source: [TradingEconomics](https://tradingeconomics.com/).
 
 10 ans, c’est une échelle temporelle assez courte pour que chaque personne ayant vécu dans ces pays ait vu le changement de ses propres yeux. Cela pourrait expliquer leur appétance pour les cryptomonnaies qui bien que volatile s’avèrent plus fiable que leur monnaie nationale. En réalité, déterminer la valeur d’une monnaie est une question complexe qui ne se résout pas avec une simple mesure de son prix face au dollar. Si le dollar est notre point de référence, alors cela nous amène à l’étape suivante : le dollar est-il stable ?
 
 On pourrait être tenté de dire oui : le dollar n’a pas changé de nature ces cinquante dernières années – un billet de $1 émis en 1968 par exemple serait toujours accepté comme tel aujourd’hui. Mais quid de sa valeur ? En réalité elle change sans arrêt. Est-ce qu’un $1 vaut toujours $1 ? La réponse est tout simplement non : $1 de 1968 équivaut à une valeur supérieure à $7 aujourd’hui.
 
-![Evolution of the buying power of the equivalent a 1968 dollar from this date until now. Source: [TradingEconomics](https://tradingeconomics.com/).](img/2018/stablecoins/inflation.png)
+![Evolution of the buying power of the equivalent a 1968 dollar from this date until now. Source: [TradingEconomics](https://tradingeconomics.com/).](/img/2018/stablecoins/inflation.png)
 Évolution du pouvoir d’achat d’un dollar de 1968 depuis cette date. Source: [TradingEconomics](https://tradingeconomics.com/).
 
 La principale cause de ce rapport est bien sûre l’inflation. C’est un sujet assez complexe pour en faire des thèses, on le laissera donc à d’autres. Maintenant que le contexte est posé, revenons en aux stablecoins.
@@ -45,7 +45,7 @@ Il n’a donc pas une valeur stable : sa valeur est simplement indexée sur cell
 
 La question d’une valeur stable est néanmoins intéressante à considérer. Qu’est-ce que ce serait ? Qu’une unité de la monnaie vaudra toujours une unité (1€ = 1€) ? Le DOGE en a fait sa spécialité !
 
-![The DOGE is a parodical currency created out of a meme which is now taken more and more seriously as cryptocurrencies develop](img/2018/stablecoins/doge.png)
+![The DOGE is a parodical currency created out of a meme which is now taken more and more seriously as cryptocurrencies develop](/img/2018/stablecoins/doge.png)
 Le Dogecoin est une cryptomonnaie parodique qui est prise de plus en plus au sérieux au fur et à mesure du développement des cryptomonnaies
 
 Plus sérieusement, la stabilité d’une monnaie pourrait être définie comme le fait qu’une unité de la monnaie en question donne toujours accès à la même valeur. Cette définition serait plus en phase avec la définition de la monnaie proposé dans [l’article dédié à la monnaie](https://ecocrypto.fr/vulgarisation/mythe-du-troc-monnaie-bitcoin/) :

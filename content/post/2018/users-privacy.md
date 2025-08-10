@@ -6,8 +6,9 @@ description: >-
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis, Privacy]
 tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
-image: img/2018/user-privacy/cover.jpeg
 ---
+
+![](/img/2018/user-privacy/cover.jpeg)
 
 In 2018, respecting your users’ privacy should be easy, right? After the revelations made by Snowden about the NSA practices and all other that followed, web hosting providers and other services changed their practices, right? That’s what we thought — and the illusion didn’t last for long. Today we take you on a little data tour: who’s collecting them, how, and for what?
 
@@ -46,7 +47,7 @@ Here is a little tracker-tour of a selection of the most visited websites in Fra
 
 _Note: The measure was made on July the 18th, on the Homepage of every website. Remember to disable any adblocker or script blocker to see all the trackers on a given website._
 
-![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](img/2018/user-privacy/trackers.png)
+![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](/img/2018/user-privacy/trackers.png)
 Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**
 
 Quite often, the people working on/for these websites don’t even know about the trackers. We reached out to French crypto publications to let them know about their privacy-intrusive practices. All said they were “surprised” to discover how extensive the net was. Some might say they were laughing at our face — you are the judges.
@@ -88,7 +89,7 @@ When we talked about advertising trackers, it was a rapid overview. Allow us to 
 
 When the basics are clearly stated, it’s easy to understand that there is a choice to be made between privacy and online advertising. To optimize the online ads, one must collect more and more data to improve his/her targeting and avoid unnecessary expenses.
 
-![](img/2018/user-privacy/privacy.jpeg)
+![](/img/2018/user-privacy/privacy.jpeg)
 
 Online media and social networks often get quite lyrical about their “fight to protect users’ privacy” — don’t let yourself be fooled. **All the most visited websites are big users of online advertising services and use many trackers: in short, they have no respect for their users’ privacy. Even worse: they are making money out of its violation.**
 
@@ -100,7 +101,7 @@ On of the main interest for webmasters is that all the data collected will be av
 
 One of the problems with the Facebook’s pixel is the same as Google Analytics: since the pixel is now everywhere, Facebook is collecting data right at the source on most of the most visited websites.
 
-![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](img/2018/user-privacy/pixel.png)
+![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](/img/2018/user-privacy/pixel.png)
 An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))
 
 Besides, the pixel allows a specific kind of advertising campaigns called “retargeting”: the term refers to any ad where the targeting is made using the previous behavior of the prospects. A typical retargeting flow using Facebook (Pixel and Ads service) looks like that:
@@ -143,7 +144,7 @@ For Chrome users, we recommend the [Nano Adblocker](https://chrome.google.com/we
 
 Note: Whatever adblocker you chose, don’t forget to enable the EasyList corresponding to your country. Here’s a demo GIF for the French list:
 
-![](img/2018/user-privacy/adblock-fr.gif)
+![](/img/2018/user-privacy/adblock-fr.gif)
 
 You can try your setup by visiting any media website with the adblocker enabled; you’ll see a lot of free space! Insidious ads such as sponsored posts (“native advertising” as professionals call them) are not blocked — beware.
 
@@ -151,7 +152,7 @@ You can try your setup by visiting any media website with the adblocker enabled;
 
 Ads are only the start. Now we need to tackle the trackers. The good news is that there are very extensions to take care of this for you.
 
-![](img/2018/user-privacy/privacy-badger.png)
+![](/img/2018/user-privacy/privacy-badger.png)
 
 Privacy Badger is developed by [the EFF — the Electronic Frontier Foundation](https://www.eff.org/about), a nonprofit that has been defending civil liberties in the digital word for years — it’s not enough to blindly trust them, but it does provide reassurance. You don’t need any specific setting, but you might want to have a look at the trackers list (by clicking on the extension icon) and disable those you don’t need. At the beginning of the article, we mentioned [Ghostery](https://www.ghostery.com/) — it also works quite well, and might be easier to use for some.
 

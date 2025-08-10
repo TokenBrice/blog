@@ -6,8 +6,10 @@ description: >-
 date: '2018-06-30T16:14:38.684Z'
 categories: [Analysis]
 tags: [NaaS]
-image: img/2018/demise-ns/cover.jpeg
 ---
+
+![Welcome to BBLand. Have a seat and enjoy the ride!](/img/2018/demise-ns/cover.jpeg)
+Welcome to BBLand. Have a seat and enjoy the ride!
 
 Whether you believe or not in the idea of “the march of history”, there is an undeniable worldwide trend that is leading to a complete overall of the power structure: **the progressive disengagement of the state from state affairs**.
 
@@ -71,7 +73,7 @@ Going back to BBland for a minute, what’s left of our state? Barely the minima
 
 If you’ve never heard about the Estonian e-residency before, [go have a look](https://e-resident.gov.ee/) you’ll learn a lot. I know most of my dear readers won’t so here is a screenshot from the official website linked above:
 
-![Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)](img/2018/demise-ns/e-residency.png)
+![Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)](/img/2018/demise-ns/e-residency.png)
 Screenshot for the [Estonian e-residency official website](https://e-resident.gov.ee/)
 
 So it seems that there are two essential features offered by the e-residency:

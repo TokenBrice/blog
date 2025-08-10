@@ -3,10 +3,11 @@ title: La nation à la carte, une bonne idée ?
 description: >-
   Introduction au concept de la Nation Comme Service : son origine, ses enjeux et ses conséquences.
 date: '2018-07-11T11:54:20.399Z'
-categories: [Analysis]
-tags: [NaaS, EcoCrypto]
-image: img/2018/naas/cover.jpeg
+categories: [Analyse]
+tags: [Naas]
 ---
+
+![](/img/2018/naas/cover.jpeg)
 
 L’Estonie est l’un des pays pionniers en la matière. Le pays est en train de redéfinir ce qu’être « citoyen » signifie. Depuis le lancement du programme d’e-residency, près de 30 000 citoyens du monde ont bénéficié du statut[^1]. Néanmoins, l’e-Estonie est encore balbutiante : l’objectif pour 2025 est fixé à 10 millions de e-résidents pour un pays qui compte actuellement 1,35 million de citoyens physiques.[^2]
 

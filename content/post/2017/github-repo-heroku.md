@@ -5,7 +5,7 @@ description: >-
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python, Cryptos]
-image: img/2017/sato/satodemo.gif
+canonicalUrl: https://cai.tools.sap/blog/github-repo-heroku/
 ---
 
 In the previous tutorial, we learnt how to host our own server for our bot, so he would be able to **fetch data from third party APIs** and return it to its users. Alas, the Python server made in the last tutorial was **self-hosted**: you had to run it on your own computer, using ngrok to expose one of your ports to the internet. 
@@ -18,6 +18,8 @@ If you closed the terminal running the script, or turned off the computer, the s
 
 Here’s the end-result of what we’ll build today: a cryptobot aka a chatbot able to fetch any cryptocurrency price.
 
+![cryptobot demo](/img/2017/sato/satodemo.gif)
+
 What you’ll have by the end of this tutorial
 
 In a rush? Here is all you need to build your own:
@@ -27,7 +29,7 @@ In a rush? Here is all you need to build your own:
 
 Need to see it to believe it? That’s wise!
 
-[![chat-on-messenger](img/2017/sato/messenger-button-1.png)](https://www.messenger.com/t/satofolio)
+[![chat-on-messenger](/img/2017/sato/messenger-button-1.png)](https://www.messenger.com/t/satofolio)
 
 Or if you would rather understand how it was made, go through with the tutorial.
 
@@ -72,7 +74,7 @@ git config --global user.name "bobby"
 
 You can confirm both by using the same command without any value:
 
-![github repo - git user config](img/2017/sato/gitconfigconfirm.png)
+![github repo - git user config](/img/2017/sato/gitconfigconfirm.png)
 
 Verifying username config on GitHub CLI
 
@@ -82,7 +84,7 @@ Next, we need to open our project directory (locally). There are many ways to do
 
 Using the CLI, you can move between folders with the `cd` command. You can use tab to autocomplete your input in order to speed up the process:
 
-![github repo - Navigating folders using CLI](img/2017/sato/cdtabs.gif)
+![github repo - Navigating folders using CLI](/img/2017/sato/cdtabs.gif)
 
 Navigating folders using CLI
 
@@ -94,7 +96,7 @@ Now that we have our folder, let’s say /git/ for instance, you can add the fil
 
 First, make sure you are in the right directory in your terminal. Here’s where I’m at:
 
-![github repo - Preparing for the push](img/2017/sato/beforegit.jpg)
+![github repo - Preparing for the push](/img/2017/sato/beforegit.jpg)
 
 Preparing for the push
 
@@ -112,13 +114,13 @@ A git push has several stages.  First, you add files to the commit. Then, you co
 
 Here is the whole process in a GIF:
 
-![github repo - GitHub push GIF](img/2017/sato/gitpush.gif)
+![github repo - GitHub push GIF](/img/2017/sato/gitpush.gif)
 
 GitHub push GIF
 
 Success! And here went the first push to our GitHub repo, feels good right?
 
-![img](img/2017/sato/1out5.png)
+![img](/img/2017/sato/1out5.png)
 
 ***Step 1/5 – Hosting the code on a GitHub repo\***
 
@@ -175,7 +177,7 @@ For now, we’ll just use a basic app.json:
 
 Don’t forget to at least **edit the repository key value to match your own GitHub repo**. The rest can stay the same.
 
-![img](img/2017/sato/2out5.png)
+![img](/img/2017/sato/2out5.png)
 
 **Step 2/5 – Adding Heroku required files**
 
@@ -197,7 +199,7 @@ In the first tutorial, we hardcoded the port in our script (`port = "5000"` [lin
 1.  First, to access environment variables in Python, we’ll be using the `os.environ` function . It means we must import os. [line 4 in server.py].
 2.  Then, we need to adapt the line were we define the port: `os.environ["PORT"]` fetch the value of the environment variable named “PORT”: we’re almost there. Since **ports are integers** (=whole number which can be positive, negative or null), we must ensure the port we fetch is indeed one.
 
-![github repo](img/2017/sato/integers.png)
+![github repo](/img/2017/sato/integers.png)
 
 Testing the int() function
 
@@ -225,7 +227,7 @@ Before we move forward with the fifth and last step of the tutorial, **we need t
 
 Once we have the updated and newly created files on our GitHub repo, we are ready to deploy to Heroku.
 
-![img](img/2017/sato/3out5.png)
+![img](/img/2017/sato/3out5.png)
 
 ***Step 3/5 – Adapting the server script for Heroku\***
 
@@ -239,7 +241,7 @@ Now, that we’ve been through the  Git process, it’s time for some good news.
 
 The account creation process on  Heroku as it’s straightforward so we won’t detail it. Once you have you  account, create a new app, and connect to your GitHub account to deploy  it automatically. Just follow the GIF:
 
-![github repo - Deployment options on Heroku](img/2017/sato/herokudeploy.gif)
+![github repo - Deployment options on Heroku](/img/2017/sato/herokudeploy.gif)
 
 Deployment options on Heroku
 
@@ -254,7 +256,7 @@ Once your app is deployed on Heroku, the only thing left to do is to tell SAP Co
 1.  Go on your app on Heroku, on the  settings tab, and scroll down to the Domain and Certificates section.  Under the domain entry, your app endpoint is displayed. Essentially,  it’s your app name (on Heroku) .herokuapp.com. Copy it.
 2.  Now go back on SAP Conversational AI, in settings, and paste your Heroku app URL in the Bot Base URL field.
 
-![img](img/2017/sato/4out5.png)
+![img](/img/2017/sato/4out5.png)
 
 *Step 4/5 – Push deploy the new server on Heroku*
 
@@ -272,9 +274,9 @@ You have two main ways of accessing Heroku’s logs:
 
 You can access the logs in real time with the following command:
 
-[![img](img/2017/sato/commandsato.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/12/commandsato.png)
+[![img](/img/2017/sato/commandsato.png)](https://mk0caiblog1h3pefaf7c.kinstacdn.com/wp-content/uploads/2017/12/commandsato.png)
 
-![img](img/2017/sato/5out5.png)
+![img](/img/2017/sato/5out5.png)
 
 ***Step 5/5 – Running the server script and accessing the logs\***
 
@@ -284,7 +286,7 @@ With access to the logs, we’ll have all we need to debug in case of a faulty s
 
 **TRAILING / IN BOT BASE URL**
 
-![github repo - Common issues, trailing /](img/2017/sato/301.png)
+![github repo - Common issues, trailing /](/img/2017/sato/301.png)
 
 Errors raised by an extra trailing slash
 

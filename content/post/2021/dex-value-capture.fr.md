@@ -2,19 +2,20 @@
 title: "Le volume appelle les frais : comment les principaux échanges décentralisés capturent-ils la valeur ?"
 description: "Un regard sur le mécanisme de capture de valeur d'Uniswap, de Sushiswap et de Curve pour mieux comprendre comment la valeur s'accroît pour les détenteurs de leur tokens."
 date: '2021-01-23T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Échanges décentralisés, Uniswap, Sushiswap, Curve, Curve Finance, Balancer, Bancor, CRV, UNI, SUSHI]
 toc: true
 tocNum: false
 url: dex-echanges-decentralisées-capture-valeur
-image: img/2021/dex-value-capture/cover.png
 ---
 
 J'ai partagé mon point de vue sur de nombreux protocoles DeFi sur ce blog, mais je me suis récemment rendu compte que je n'étais jamais revenu à l'essentiel : les DEX. C'est précisément ce que nous allons faire aujourd'hui, en abordant le sujet principalement en examinant les mécanismes de capture de la valeur.
 
+![volume-begets-fees-cover](/img/2021/dex-value-capture/cover-fr.png)
+
 Les DEX s'appuyant sur des AMM, comme Uniswap, Curve ou SushiSwap, ont tous connu cette année une croissance énorme, tant en termes de liquidités disponibles que de volume, tout comme les frais qu'ils ont perçus. Pour faire simple : **ces DEX sont maintenant les principaux collecteurs de frais qu'il y a en crypto, juste après le réseau Bitcoin et Ethereum eux-mêmes** :
 
-![crypto-fees](img/2021/dex-value-capture/fees.png)
+![crypto-fees](/img/2021/dex-value-capture/fees.png)
 
 C'est une réalisation impressionnante ! Aujourd'hui, nous allons donc examiner ce délicieux gâteau et comprendre comment il est divisé. Quelles sont les différentes approches ? À quoi sert leur token / comment établissent-ils leur modèle d'incitation ? Et ensuite, quel sera l'impact de l'arrivée des layer 2 sur tout cela ?
 
@@ -55,7 +56,7 @@ Depuis les premiers jours, l'un des principaux changements apportés au SushiSwa
 
 Depuis la phase initiale de distribution, plusieurs ajustements ont été apportés mais le mécanisme est à peu près le même. Onsen a introduit un système de récompense par rotation de nouveaux pools pertinents. Plus important encore pour la tokenomique, ⅔ des récompenses SUSHI gagnées par l'exploitation des liquidités sont désormais acquises sur une période de 6 mois (vesting).
 
-![sushiswap-onsen](img/2021/dex-value-capture/sushi-onsen.png)
+![sushiswap-onsen](/img/2021/dex-value-capture/sushi-onsen.png)
 
 Cette évolution réduit les incitations pour la "liquidité mercenaire", en particulier pour les liquidités gérées par des vaults par exemple & permet de **s'assurer que les grands fournisseurs de liquidités sont également détenteurs de SUSHI à tout moment** (même jusqu'à 6 mois après la fin de leur exploitation), ce qui permet de mieux aligner les intérêts.
 
@@ -71,7 +72,7 @@ Le modèle de Curve est légèrement plus complexe que le précédent, mais il p
 
 Depuis le lancement du token CRV, les fournisseurs de liquidité sur Curve gagnent des tokens CRV en plus de leurs commissions habituelles (s'ils stakent). Et tout comme le SushiSwap, Curve a introduit une forme de capture de valeur au niveau du token CRV. 
 
-![Pools de Curve](img/2021/dex-value-capture/curve-pools.png "Aperçu des principaux pools de Curve")
+![Pools de Curve](/img/2021/dex-value-capture/curve-pools.png "Aperçu des principaux pools de Curve")
 
 Mais le modèle est plus complexe, alors discutons de chaque partie et voyons comment elles interagissent les unes avec les autres.
 
@@ -103,7 +104,7 @@ Comme indiqué précédemment, les fournisseurs de liquidités peuvent mettre en
 
 Pour ce faire, il faut un montant de veCRV proportionnel à la valeur en dollars de la position de fourniture de liquidité renforcée. Le coût effectif (en veCRV) pour obtenir le maximum de stimulation n'est pas le même pour chaque pool, ce qui crée une première couche de jeux d'incitation/arbitrage.
 
-![Curve CRV boosting](img/2021/dex-value-capture/crv-boost.png "Il faut un montant différent de veCRV par $ déposé dans un pool donné pour obtenir le boost maximum.")
+![Curve CRV boosting](/img/2021/dex-value-capture/crv-boost.png "Il faut un montant différent de veCRV par $ déposé dans un pool donné pour obtenir le boost maximum.")
 
 C'est un mécanisme intéressant qui permet un meilleur alignement des incitations : **Les personnes qui gagnent  beaucoup de CRV sont également des détenteurs de veCRV importants** (-> bloqués pendant 1 à 4 ans), ce qui permet un bon alignement des intérêts. Pourtant, ce n'est que la première et la plus amicale des couches du méta-jeu de Curve. Allons plus loin dans l'oignon.
 
@@ -159,7 +160,7 @@ L'année dernière, nous avons vu la valeur des transactions sur l'AMM exploser 
 
 **Loopring offre déjà un échange décentralisé en production:** un DEX L2 basé sur zk-Sync avec diverses incitations pour les fournisseurs de liquidité. Curve a également travaillé avec Zk-Sync, nous pouvons donc raisonnablement nous attendre à ce qu'ils livrent un produit L2 en direct cette année compte tenu des derniers développements avec Zk-Sync.
 
-![Loopring V2 Stats](img/2021/dex-value-capture/loopring.png "Les principales pools sur Loopring V2")
+![Loopring V2 Stats](/img/2021/dex-value-capture/loopring.png "Les principales pools sur Loopring V2")
 
 D'autre part, Synthetix a récemment déployé son réseau principal Optimism L2 et la force semble forte autour d'un déploiement Uniswap x Optimism. Je plaisantais l'autre jour en disant 
 > Synthetix Optimism L2 est le testnet d'Uniswap. 
@@ -173,7 +174,7 @@ Les services qui n'ont pas encore de token pourraient avoir un avantage ici car 
 Il sera fascinant d'observer les sorties des différentes couches 2 et leur impact sur l'utilisation des protocoles et la tokenomique.
 
 {{< notice note >}}
-![defi-france-live-16](img/2021/dex-value-capture/defi-france-live-16.png)
+![defi-france-live-16](/img/2021/dex-value-capture/defi-france-live-16.png)
 On ne reçoit pas moins qu'0xMaki, une des principales figures derrière SushiSwap pour discuter du sujet ce lundi sur **👉 [la chaîne YouTube DeFi France](https://www.youtube.com/watch?v=JT8N7-gqTjA).**
 {{< /notice >}}
 

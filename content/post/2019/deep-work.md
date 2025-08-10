@@ -6,8 +6,9 @@ description: >-
 date: '2019-04-24T09:44:14.735Z'
 categories: [Analysis]
 tags: [deep work, pomodoro, focus, google search operators]
-image: img/2019/deep-work/cover.jpeg
 ---
+
+![](/img/2019/deep-work/cover.jpeg)
 
 _Deep Work_, a book published by Cal Newport in 2016 was highly impactful. While Cal’s writing did not bring anything new to the table, it put the spotlight on an idea that was rarely mentioned outside the psychology circles: the “[flow](https://en.wikipedia.org/wiki/Flow_%28psychology%29)” (also known as “being in the zone”).
 
@@ -21,7 +22,7 @@ It's easy to understand why his ideas gained attention not only from productivit
 
 His book touches on other themes related to deep work and its impacts. He addresses the vanity of social media, and the benefits of boredom as well. He also talks about how to **focus **— not a work-related focus but what you decide to focus on as a person — **defines your life and what you make of it**.
 
-![[Deep Work — Cal Newport](http://calnewport.com/books/deep-work/)](img/2019/deep-work/deepwork-book.jpeg)
+![[Deep Work — Cal Newport](http://calnewport.com/books/deep-work/)](/img/2019/deep-work/deepwork-book.jpeg)
 [Deep Work — Cal Newport](http://calnewport.com/books/deep-work/)
 
 Overall, his book is full of interesting insights. If you find value in this article which overlays its key finding and how to put them into practice, I invite you [to read the full book.](http://calnewport.com/books/deep-work/)
@@ -69,7 +70,7 @@ Your setup will probably be different, but you can see a pattern here: reducing 
 
 Once you’re all set, it’s time to work and stay focused. You can use different techniques, but there is one particularly useful to get used to working in a highly focused environment: the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). It’s easy to understand, and supported by [many apps](https://zapier.com/blog/best-pomodoro-apps/) available on all kinds of environment.
 
-![](img/2019/deep-work/pomodoro.png)
+![](/img/2019/deep-work/pomodoro.png)
 
 1.  Decide on the task you will tackle. It must be unambiguous and well defined.
 2.  Work for 25 minutes (a pomodoro), undistracted, on this one thing.
@@ -101,7 +102,7 @@ Primarily, it comes down to curiosity. Remember the “challenging practice” I
 
 It’s not that hard if you know how to search answers for any given problems. It takes minutes [to learn about and master Google search operators](https://bynd.com/news-ideas/google-advanced-search-comprehensive-list-google-search-operators).
 
-![](img/2019/deep-work/search-operators.png)
+![](/img/2019/deep-work/search-operators.png)
 
 It benefits all kind of profiles, as you will become much more efficient in your online searches. It helps you to avoid asking for help when it’s not necessary. Save your requests for situations where you’ve covered the widely accessible basics and are still without answers.
 

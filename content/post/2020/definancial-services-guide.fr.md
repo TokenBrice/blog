@@ -2,11 +2,10 @@
 title: "📖 Comment utiliser les services DeFinanciers à votre avantage ?"
 description: "Un tour d'horizon de différents services financiers décentralisés et les retours que vous pouvez en tirer: 6 stratégies fondamentales, leur variantes, & des astuces pour les utiliser au mieux."
 date: '2020-05-29T10:53:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, Apport de Liquidité, Prêt, Actifs Synthétiques, Immobilier Tokénisé]
 toc: true
 tocNum: false
-image: img/2020/definancial-services-guide/cover.jpeg
 ---
 
 Bienvenue dans le nouveau monde !
@@ -14,6 +13,8 @@ Bienvenue dans le nouveau monde !
 Si vous arrivez ici, c'est que vous avez déjà probablement entendu parler d'Ethereum et de la finance décentralisée. C'est parfait ! Aujourd'hui on passe de la parole aux actes en considérant comment utiliser la DeFi pour améliorer vos finances.
 
 Cet article vous présentera 6 stratégies qui permettent de générer un retour grâce à la DeFi, avec leurs variantes. On commencera par les stratégies de management passif avant d'explorer progressivement celles qui requièrent plus d'intervention et présentent plus de risques mais sont également bien plus lucratives.
+
+![how-to-make-definancial-product-work-for-you-tokenbrice](/img/2020/definancial-services-guide/cover-fr.jpeg)
 
 Avant de commencer, JE VOUS PRIE ET SUPPLIE de lire les avertissements qui vont suivre relatifs à la gestion du gaz et au risque.
 
@@ -32,7 +33,7 @@ Les frais de gaz sont payés en gwei, une sous-unité d'ETH (1 gwei = 0.00000000
 Néanmoins, au fil de votre découverte des arcanes de la DeFi, vous allez vous-même revenir spontanément à la notion de gaz pour mieux la comprendre et éviter de surpayer pour soumettre vos transactions. En effet, en fonction du coût choisi, la validation de votre transaction sera rapide, lente, ou impossible.
 
 
-![eth-gaz-station](img/2020/definancial-services-guide/gas-station.png)
+![eth-gaz-station](/img/2020/definancial-services-guide/gas-station.png)
 
 Vous pouvez utiliser [⛽  EthgasStation pour voir les prix recommandés.](https://ethgasstation.info/),
 Or bien lire [📑 la documentation EthHub](https://docs.ethhub.io/using-ethereum/transactions/)  sur le sujet.
@@ -55,7 +56,7 @@ Nous sommes presque parés pour le décollage, après une dernière salve d'aver
 
 Si l'une des stratégies présentées ci-dessous vous parle, vous pouvez utiliser des services comme [DeFiScore](https://app.defiscore.io/) & [DeFiWatch](https://defiwatch.net/). pour mieux comprendre les risques associés.
 
-![defi-score](img/2020/definancial-services-guide/defiscore.png)
+![defi-score](/img/2020/definancial-services-guide/defiscore.png)
 
 ## SERVICES DEFINANCIERS PASSIFS
 
@@ -72,7 +73,7 @@ Certains produits DeFinanciers d'investissements passifs n'impliquent que des st
 
 (5 étoiles = le plus grand)
 
-![1-stablecoin-yield](img/2020/definancial-services-guide/subh/1-stablecoin-yield.jpeg)
+![1-stablecoin-yield](/img/2020/definancial-services-guide/subh/1-stablecoin-yield.jpeg)
 
 Les stablecoins qui génèrent un retour sont un excellent point de départ.
 
@@ -98,7 +99,7 @@ Alors pourquoi pas utiliser un autre service qui se chargera de le faire pour vo
 
 C'est précisément ce que fait [Idle Finance](https://idle.finance/).
 
-![idle-dai](img/2020/definancial-services-guide/idle-dai.png)
+![idle-dai](/img/2020/definancial-services-guide/idle-dai.png)
 
 ##### Apport de liquidité sur stablecoins : Curve Pools
 
@@ -116,7 +117,7 @@ Le concept est assez simple comme présenté plus haut. Étant donné que les ga
 
 Néanmoins je vous rassure, sa présence sur cette liste n'est pas une question d'idéologie : bien que PoolTogether utilise Compound, les retours sont supérieurs. La raison est simple : il y a des tickets "sponsorisés" : des DAI/USDC qui contribuent au retour du gagnant, mais qui ne correspondent pas à des tickets gagnants.
 
-![pool-together-sponsored-balances](img/2020/definancial-services-guide/pt-sponsored.png)
+![pool-together-sponsored-balances](/img/2020/definancial-services-guide/pt-sponsored.png)
 
 Bien que le taux de retour moyen soit supérieur, PoolTogether reste un jeu de hasard – les gains ne sont pas du tout réguliers : le plus souvent, ils seront de 0. Néanmoins avec de la chance au tirage, vous pouvez également gagner l'équivalent d'années d'intérêt sur votre capital.
 
@@ -131,14 +132,14 @@ Vous pouvez jouer à [PoolTogether directement depuis leur site](https://www.poo
 
 > Vous possédez des parts d'un bien immobilier (security). Chaque jour, votre part du loyer vous est payée en USDC.
 
-![2-realt-tokenised-real-estate](img/2020/definancial-services-guide/subh/2-tokenised-real-estate.jpeg)
+![2-realt-tokenised-real-estate](/img/2020/definancial-services-guide/subh/2-tokenised-real-estate.jpeg)
 
 [RealT](https://realt.co) est réellement unique et différent de toutes les stratégies présentées sur cette liste, à plusieurs niveaux. Étant donné que les jetons RealT représentent des propriétés immobilières, le modèle du risque est aussi totalement changé. (→ moins de risque smart contrat, mais cela implique également de nouveaux risques)
 
 Avant de présenter les autres intérêts de RealT je veux rappeler une chose essentielle. **Les jetons RealT sont des "securities", pour les acheter il faudra prouver votre identité.**
 
 
-![RealT-tokenised-real-estate](img/2020/definancial-services-guide/realt.png)
+![RealT-tokenised-real-estate](/img/2020/definancial-services-guide/realt.png)
 
 C’est donc une stratégie un peu plus contraignante que la première mais vous y gagnez des bénéfices intéressants :
 
@@ -154,13 +155,13 @@ C’est donc une stratégie un peu plus contraignante que la première mais vous
 
 > Vous possédez un "ensemble" représentant un enjeu dans une stratégie de trading automatisée basée sur un indicateur technique ou un autre trader (ensembles sociaux) appelé "Holding on autopilot".
 
-![3-tokensets-automated-strategies](img/2020/definancial-services-guide/subh/3-tokensets.jpeg)
+![3-tokensets-automated-strategies](/img/2020/definancial-services-guide/subh/3-tokensets.jpeg)
 
 Les **[TokenSets](https://www.tokensets.com/) sont le meilleur ami des holdeurs.** Bien que ce service ne soit certainement pas le plus facile à comprendre ni le moins risqué, il offre actuellement une utilité importante. En effet, si vous êtes un détenteur de longue date d'ETH par exemple, TokenSets est l'une de vos meilleures options pour faire fructifier votre réserve d'ETH (contre ETH).
 
 Les sets sont des stratégies de trading automatisées représentées par un token. Chaque set joue sur une paire donnée (ex : ETH/cUSDC) en suivant un ensemble de règles de rééquilibrage déclenchées par le croisement avec l'indicateur technique du set.
 
-![Tokensets performance visualised with TokenViz](img/2020/definancial-services-guide/tokenviz.png)
+![Tokensets performance visualised with TokenViz](/img/2020/definancial-services-guide/tokenviz.png)
 Vous vous demandez quel set choisir ? [TokenViz](https://tokenviz.io) vous propose un tableau de bord présentant différents indicateurs de performance pour vous aider à choisir.
 
 
@@ -172,13 +173,13 @@ En plus des sets réguliers ("robosets") suivant un indicateur technique (comme 
 
 >Il s'agit essentiellement de la version ERC-20 de la stratégie 1 : vous possédez un tokens ERC-20 (non stable) produisant une certaine forme de rendement, généralement par le biais de prêts ou par l'apport de liquidités.
 
-![4-erc20-yields](img/2020/definancial-services-guide/subh/4-erc20-yields.jpeg)
+![4-erc20-yields](/img/2020/definancial-services-guide/subh/4-erc20-yields.jpeg)
 
 Avant d'explorer les approches plus actives, permettez-moi d'introduire une approche plus passive, s'appuyant cette fois-ci sur les **tokens ERC20 (non stables)**.
 
 Comme Aave propose des retours sur un maximum de 15 tokens ERC-20 différents, il pourrait être intéressant pour vous de garder un œil sur eux - avec un outil comme [AaveWatch](https://aavewatch.now.sh/):
 
-![AaveWatch - overview of lending opportunities offered on Aave](img/2020/definancial-services-guide/aavewatch.png)
+![AaveWatch - overview of lending opportunities offered on Aave](/img/2020/definancial-services-guide/aavewatch.png)
 
 Parmi eux, je pense que les suivants sont les plus intéressants :
 
@@ -193,7 +194,7 @@ Parmi eux, je pense que les suivants sont les plus intéressants :
 
 **Ne rien faire est génial - et quand il s'agit d'investir, c'est une stratégie qui peut être étonnamment efficace**. Pouvoir rester stoïque et ne rien faire, même au milieu d'une tourmente sur les marchés c'est vraiment un art qu'il vous serait utile de maîtriser. Cependant, et cela ne devrait pas vous surprendre, les meilleurs rendements exigeront des efforts.
 
-![Doing nothing - the best strategy of them all?](img/2020/definancial-services-guide/nothing.jpg)
+![Doing nothing - the best strategy of them all?](/img/2020/definancial-services-guide/nothing.jpg)
 
 Vous avez remarqué que je n'ai pas dit "travail" ? Parfois, les "efforts" peuvent simplement consister à accepter de supporter un risque que d'autres ne supporteraient pas, et à être bien payé pour cela - **l'équivalent pour l'investisseur d'une doublure.**
 
@@ -243,7 +244,7 @@ Il est impossible de donner une représentation exacte de l'écart de rendement 
 
 > Vous commencez par une mise de SNX (Synthetix token). Vous les mettez en jeu (les verrouillez), ce qui génère déjà un rendement SNX intéressant mais "vested"  pour un an (+ sUSD hebdomadaire non vested). Grâce à votre mise, vous pouvez ensuite générer des tokens synthétiques - qui vous exposent jusqu'à 1/8 de la valeur initiale du SNX et offrent des possibilités de gains supplémentaires.
 
-![5-synthetix](img/2020/definancial-services-guide/subh/5-synthetix.jpeg)
+![5-synthetix](/img/2020/definancial-services-guide/subh/5-synthetix.jpeg)
 
 Avant toute chose : ce que je dis ci-dessous NE SUFFIT PAS pour comprendre Synthetix+SNX si vous venez de découvrir le service. **Ne vous précipitez pas !** Synthetix c'est l'étape suivante en termes de complexité, voici un aperçu de toutes les nouvelles choses que vous aurez à faire 
 
@@ -261,7 +262,7 @@ Puisque Synthetix est vraiment flexible, permettez-moi de m'en tenir à une stra
 
 Ne tournons pas autour du pot : c'est beaucoup plus difficile, beaucoup plus de travail que 1-4, mais les rendements sont d'un ordre de grandeur supérieur si c'est bien fait. Votre position est également plus complexe à surveiller car vous êtes exposé à plusieurs types d'actifs, vous obtenez également des rendements dans plusieurs types d'actifs différents (stables ou non), et le calendrier des retours n'est pas le même non plus.
 
-![The Synthetix-Yieldbuger-TokenBrice](img/2020/definancial-services-guide/yieldkebab.png)
+![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldkebab.png)
 *Burger ou kebab : est-ce vraiment important quand il y a 4 steaks ?*
 
 Examinons la base de la pile de rendement :
@@ -279,7 +280,7 @@ Curieux ? Voici un [aperçu complet pour commencer avec Synthetix (EN)](https://
 
 > Vous utilisez un capital divisé à parts égales en valeur des tokens (ex 50% ETH 50% DAI) pour alimenter un pool de liquidité, qui génère des commissions sur les transactions que vous contribuez à faciliter.
 
-![6-liquidity-provider](img/2020/definancial-services-guide/subh/6-liquidity-provider.jpeg)
+![6-liquidity-provider](/img/2020/definancial-services-guide/subh/6-liquidity-provider.jpeg)
 
 Il s'agit essentiellement d'une variante plus risquée de la stratégie 1-B. Dans ce scénario, vous continuez à fournir des liquidités, mais cette fois-ci, vous passez à un autre type de paires - celles basées sur l'ETH.
 

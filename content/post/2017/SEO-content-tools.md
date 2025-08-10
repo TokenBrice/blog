@@ -7,14 +7,14 @@ date: '2017-10-31T13:21:53.376Z'
 categories: [Tutorial]
 tags: [SEO, content, KW research]
 toc: true
-image: img/2017/seo-tools/cover.png
+image: /img/2017/seo-tools/cover.png
 ---
 
 Knowing the audience is the key to successful content; it’s the key to successful marketing itself. Yet, for a start-up and moreover at an early stage, **it’s damn hard**. I tried a lot of different tools before finding the one I’m happy with.
 
 The theory is known, and well documented online: the [Skycrapper Technique](https://backlinko.com/skyscraper-technique) is now commonplace. Yet, I find that jumping from theory to field tests and implementation is probably the toughest step.
 
-![Explaining SEO - [Source: webconfs.com | Check it out for more SEO-related comics](http://www.webconfs.com/seo-comics.php)](img/2017/seo-tools/explaining-seo.gif)
+![Explaining SEO - [Source: webconfs.com | Check it out for more SEO-related comics](http://www.webconfs.com/seo-comics.php)](/img/2017/seo-tools/explaining-seo.gif)
 Explaining SEO - [Source: webconfs.com | Check it out for more SEO-related comics](http://www.webconfs.com/seo-comics.php)
 
 **I’ll walk your through the basics of exploring an industry using a mix of free and paid tools in order find content ideas and insights to improve your web presence**. To make it less abstract, I’ll use insights gathered with SEMRush on the telecommunications industry, during the March-April 2017 period to demonstrate my case.
@@ -39,7 +39,7 @@ The sheer amount of tools, web-services, chrome extensions and such made for SEO
 
 **The essentials toolbox**
 
-![Checking a blog sitemap (Screaming Frog)](img/2017/seo-tools/screaming-frog.png)
+![Checking a blog sitemap (Screaming Frog)](/img/2017/seo-tools/screaming-frog.png)
 Checking a blog sitemap (Screaming Frog)
 
 *   [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/): It’s a **swiss-army knife tool**, used for anything from finding broken links to checking for duplicate content or analyzing pages titles and meta descriptions. It’s one of the few free tools I find myself using frequently, even when I have access to a premium tool.
@@ -52,21 +52,21 @@ Checking a blog sitemap (Screaming Frog)
 *   [Google Keyword Planner](https://adwords.google.com/home/tools/keyword-planner/) — very useful tool for keyword discovery and CPC/volume estimations. You can also mix and match words to produce new keywords.
 *   [Google Trends](https://trends.google.com/trends/) — easily compare volumes between different keywords, see data on volume such as interest over time, where are the search made, or related topics and queries. + [Google Trends Correlate](https://www.google.com/trends/correlate) — Find keywords correlated to yours. Here are two Google Trends I like to use to showcase the potent of the tool: queries on “running”, “fitness” and “diet” (with the New Year’s Eve impact) and queries on “gift” and “present” (with Christmas’ impact).
 
-![A somehow famous Google Trends: volume on “running”, “fitness” and “diet” reaches its peak just after New Year’s Eve](img/2017/seo-tools/gtrends1.png)
-A somehow famous Google Trends: volume on “running”, “fitness” and “diet” reaches its peak just after New Year’s Eve![A similar dynamics is observed for “gift” and “refund”. “Gift” peaks a week before Christmas while “Refund” peaks mid-February.](img/2017/seo-tools/gtrends2.png)
+![A somehow famous Google Trends: volume on “running”, “fitness” and “diet” reaches its peak just after New Year’s Eve](/img/2017/seo-tools/gtrends1.png)
+A somehow famous Google Trends: volume on “running”, “fitness” and “diet” reaches its peak just after New Year’s Eve![A similar dynamics is observed for “gift” and “refund”. “Gift” peaks a week before Christmas while “Refund” peaks mid-February.](/img/2017/seo-tools/gtrends2.png)
 A similar dynamics is observed for “gift” and “refund”. “Gift” peaks a week before Christmas while “Refund” peaks mid-February.
 
 Google Trends is one of the most basic tool there is, yet it can give you invaluable insights. **Trends are strongly correlated with the real world** and now used for literally anything such as [to estimate prices evolution of cryptocurrencies](https://qz.com/1052656/bitcoin-price-google-trends-can-help-you-figure-where-bitcoins-price-is-headed/), measure volume distribution for similar keywords, or [gauge the efficiency of political communications.](https://searchengineland.com/google-trends-election-hub-offers-deep-dive-search-trends-2016-candidates-political-issues-258784)
 
 Here’s a last one with Hillary vs Trump over the last 9 months of the campaign. Ignoring the massive spike on the Election Day, Trump was consistently generating more volume that Hillary months before the election. **Even if the election was a surprise to most, the data doesn’t lie: it clearly hinted a Trump victory for a long-time before he was elected.**
 
-![Searches about Hillary and Trump, between the 01/01/2016 and the 11/30/2016 (the election was the 8)](img/2017/seo-tools/gtrends3.png)
+![Searches about Hillary and Trump, between the 01/01/2016 and the 11/30/2016 (the election was the 8)](/img/2017/seo-tools/gtrends3.png)
 Searches about Hillary and Trump, between the 01/01/2016 and the 11/30/2016 (the election was the 8)
 
 *   [Ubersuggest ](https://ubersuggest.io/)— Find new keywords with suggestions based on one keyword.
 *   [Keywordin’s Keyword Generator](http://keywordin.com/keyword-generator.php) — Mix and match different words or groups of words together to create more long trend variations of your keywords.
 
-![Level 1/2/3 related keywords for “content promotion” using SEOChat](img/2017/seo-tools/relatedkw.png)
+![Level 1/2/3 related keywords for “content promotion” using SEOChat](/img/2017/seo-tools/relatedkw.png)
 Level 1/2/3 related keywords for “content promotion” using SEOChat
 
 *   [SEOChat Related Keyword](http://tools.seochat.com/tools/related-keywords-tool/#sthash.PVTTGKHQ.HntdXy5H.dpbs) — Find level 1/2/3 (long trend) related keywords based on one given keyword.
@@ -77,17 +77,17 @@ For the sake of this article, I’ll show what kind of insights a premium tool c
 
 SEMRush works as an “SEO search engine”. In the top bar, you can input any domains (yours or competition’s) and get precise metrics on it including backlinks, top keywords, paid vs organic distribution… Here’s how it looks like on a sample domain query (twilio.com):
 
-![Domain overview for twilio.com (SEMRush)](img/2017/seo-tools/domain-overview.png)
+![Domain overview for twilio.com (SEMRush)](/img/2017/seo-tools/domain-overview.png)
 Domain overview for twilio.com (SEMRush)
 
 The **domain overview** include metrics about backlinks, their types, anchors… Every entry is accessible in a dedicated and exportable full report.
 
-![Backclink section of Twilio’s domain overview (SEMRush)](img/img/2017/seo-tools/backlinks.png)
+![Backclink section of Twilio’s domain overview (SEMRush)](/img/img/2017/seo-tools/backlinks.png)
 Backclink section of Twilio’s domain overview (SEMRush)
 
 You can also search keywords. The overview tab will give you data about organic and paid volumes, search results and copies. Two other tabs are dedicated to keywords: phrase match and related keywords. **The amount if data available on any keyword is really vast, this where SEMRush shines; as long as the search volume is sufficient.**
 
-![Keyword overview for “SMS API”: Twilio is clearly dominating for now (SEMRush)](img/2017/seo-tools/keyword-overview.png)
+![Keyword overview for “SMS API”: Twilio is clearly dominating for now (SEMRush)](/img/2017/seo-tools/keyword-overview.png)
 Keyword overview for “SMS API”: Twilio is clearly dominating for now (SEMRush)
 
 Together, the tools provided by SEMRush let you conduct true **surveys of your competitors’ digital activities and estimate the success of their strategies**.
@@ -118,14 +118,14 @@ Considering my limited experience with the tool, I won’t go into too much dept
 
 You can search for topics or keywords and see the most shared (social) content. You can go even further and see, for any given post, **the accounts who shared it allowing you to understand how each post got** its reach. This is also particularly useful is you are publishing similar content: it gives you a list of people potentially interested in sharing it.
 
-![The results of a search on BuzzSumo](img/2017/seo-tools/buzzsumo.jpeg)
+![The results of a search on BuzzSumo](/img/2017/seo-tools/buzzsumo.jpeg)
 The results of a search on BuzzSumo
 
 I set up the BuzzSumo trial in February, to find the top-content addressing VoIP, SIP, and telco APIs. Back then, I recently joined CALLR and was in a reading spree to get a better hang of the main themes to address. Thanks to BuzzSumo, I **compiled a list of the top-performing content** of the industry. I sorted them according to varied factors: topics, quality of content, approach, tone, targeted audience… Then, looking at sharers, I tried to **correlate these factors to the article’s performance**.
 
 BuzzSumo’s main strength is that it’s a **must-have tool if you want to use the** [**skyscraper technique**](http://backlinko.com/skyscraper-technique)**.** It facilitates the process of finding people potentially interested by your content. Indeed, BuzzSumo’s main strength is that it lets you see the list of sharers of a given content.
 
-![Preview of the sharer list feature](img/2017/seo-tools/buzzsumo-sharers.png)
+![Preview of the sharer list feature](/img/2017/seo-tools/buzzsumo-sharers.png)
 Preview of the sharer list feature
 
 **Yet, the metrics it gives you can be hard to interpret**. For instance, in the telco industry I found basic heavily-shared 500–1000 words articles, sometime even just basic product pages from competitors, not particularly qualitative. The gist? Most of these shares are on LinkedIn, and it turns out **a lot of these shares comes from the company’s own employees.** If a 2000+ employees company manage to get them to share their own content, it can really skew the results.

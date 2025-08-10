@@ -2,15 +2,16 @@
 title: "⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance"
 description: "Un guide concis pour suivre la course à l'accumulation CRV par tous les moyens possibles y compris l'achat de vote (bribes), et pour évaluer les stratégies Curve des protocoles DeFi"
 date: '2021-09-28T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Curve Finance, CRV, Polygon, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
 toc: true
 tocNum: true
 url: crv-wars
-image: img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 ---
 
 Depuis les premiers jours de Curve Finance et du lancement du token CRV, on attend, on envisage et on présume sur ce que la guerre des CRV pourrait amener. Désormais, avec le lancement de Convex puis de Bribe.crv et enfin Votium, tout s'accélère : les votes VeCRV, ça s'achète désormais ! Voyons donc comment cela impacte Curve et la DeFi dans son intégralité.
+
+![curve-wars-cover-tokenbrice](/img/2021/crv-wars/curve-wars-cover-tokenbrice.png)
 
 À première vue, la question est plutôt simple et directe :
 
@@ -103,7 +104,7 @@ Le vlCVX a malgré tout un inconvénient : à l'issue des 16 semaines de verroui
 Si vous voulez analyser plus en profondeur les rendements offerts par la délégation de CVX et l'achat de vote associé, n'hésitez pas à [lire cet article (EN)](https://medium.com/@portiadog/convex-finance-1cc6c9c1c733) qui propose des calculs plus détaillés :
 
 
-![bribes-rewards](img/2021/crv-wars/bribes-rewards.png "Estimation du rendement de la délégation de vote Curve via vlCVX")
+![bribes-rewards](/img/2021/crv-wars/bribes-rewards.png "Estimation du rendement de la délégation de vote Curve via vlCVX")
 
 
 ### Bribes : une séparation pas si nette
@@ -126,7 +127,7 @@ VeCRV s'obtient en verrouillant CRV pour une période allant jusqu'à 4 ans. Plu
 C'est pourquoi les vaults construits sur VeCRV opèrent sur une logique de verrouillage perpétuel à 4 ans : afin de préserver une capacité de vote toujours au plus proche du maximum possible, **ils "rafraîchissent" (refresh) le verrouillage fréquemment.**
 
 
-![ecosysteme-vecrv-tokenbrice](img/2021/crv-wars/ecosysteme-vecrv-tokenbrice.png "Aperçu de l'ecosystème construit sur veCRV")
+![ecosysteme-vecrv-tokenbrice](/img/2021/crv-wars/ecosysteme-vecrv-tokenbrice.png "Aperçu de l'ecosystème construit sur veCRV")
 
 
 ### Bribe v0 : incitation directe sur les pools
@@ -189,7 +190,7 @@ En quelques semaines, la pool MIM a ainsi explosé sur Curve, à tous les niveau
 * Ce qui a attiré de la liquidité et du volume, réduisant légèrement le rendement mais augmentant la capacité à booster la pool
 * Grâce à cette dynamique, MIM est désormais la cinquième pool Curve en terme de volume, avec un beau ratio volume/TVL.
 
-![curve-pools](img/2021/crv-wars/crv-pools.png "Aperçu des plus grandes pools sur Curve (volume)")
+![curve-pools](/img/2021/crv-wars/crv-pools.png "Aperçu des plus grandes pools sur Curve (volume)")
 
 En outre, la pool est désormais bien équilibrée et plutôt dense (> $700M liquidité totale).
 
@@ -212,7 +213,7 @@ Bien que les situations soit similaires, il y a des différences de taille :
 2. En outre, sdveCRV a de graves problèmes avec son peg : 1 sdveCRV ~= 0.5 CRV
 
 
-![sdvecrv-peg](img/2021/crv-wars/sdvecrv-peg.png "Échange sdveCRV/CRV")
+![sdvecrv-peg](/img/2021/crv-wars/sdvecrv-peg.png "Échange sdveCRV/CRV")
 
 #### Plan de liquidité sdveCRV : incompréhension totale et échec cuisant
 
@@ -224,7 +225,7 @@ Après avoir créé une pool sdveCRV/CRV anémique via la Curve Factory, un vote
 
 **Inciter les dépôts sur une telle pool serait revenu à envoyer les déposants vers l'abattoir**. En effet, le facteur A (paramètre d'amplification) de la pool est [défini à 200](https://curve.fi/factory/34) --- une valeur correcte pour des actifs qui suivent le même peg, mais délirante si un actif vaut deux fois l'autre. 
 
-![sdvecrv-mim-crv-pools](img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Comparaison pools Curve (factory) sdvecrv et MIM")
+![sdvecrv-mim-crv-pools](/img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Comparaison pools Curve (factory) sdvecrv et MIM")
 
 Pour vous donner une idée, même la pool MIM mentionnée plus haut, absolument massive (7000x la liquidité de la pool sdveCRV) n'a pas encore atteint 200 de A factor (119 actuellement, en augmentation).
 
@@ -248,7 +249,7 @@ Cette situation ne fait que très peu de sens : **Sushi est loin d'être optimal
 
 (Notez ici le A Factor à 50 - alors que cvxCRV tient bien plus son peg que sdveCRV...)
 
-![cvxcrv-pool](img/2021/crv-wars/cvxcrv-pool.png "Pool (factory) cvxCRV/CRV")
+![cvxcrv-pool](/img/2021/crv-wars/cvxcrv-pool.png "Pool (factory) cvxCRV/CRV")
 
 Sans avoir d'incitation de la part de Convex ou Curve, la pool a déjà vu un volume important transiter grâce aux agrégateurs de DEX comme Paraswap. Rapidement, il y a eu un vote pour y ajouter la gauge CRV qui est passé - et cette pool est désormais farmable directement via Convex.
 

@@ -7,7 +7,6 @@ tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Curve, Liquit
 toc: true
 tocNum: true
 url: money-market-recipes
-image: img/2021/money-market-recipes/money-market-recipes-cover.png
 ---
 
 On this blog, I frequently discuss about money markets and assets market in DeFi. Basically, they allow you to **loan and borrow tokens**. These two actions have become like **deFi verbs**: they are used directly or indirectly in almost every strategy.
@@ -19,6 +18,9 @@ So while it is crucial to understand the protocols you are using and especially 
 2. How can they be deployed in practice?
 
 We're going to break down different "recipes" to take advantage of the money markets. Take these recipes as **inspiration to develop your own strategies**.
+
+![money-market-recipes-cover-tokenbrice](/img/2021/money-market-recipes/money-market-recipes-cover.png)
+
 
 {{< notice warning >}}
 
@@ -46,7 +48,7 @@ Here, the concerned protocol is [Liquity](https://liquity.org) and the implement
 
 Either by directly exposing yourself to the LQTY token, which is of course more risky:
 
-![mm-long-tokenbrice](img/2021/money-market-recipes/mm-long-token-tokenbrice-en.png "Long exposure on Liquity via the native token LQTY")
+![mm-long-tokenbrice](/img/2021/money-market-recipes/mm-long-token-tokenbrice-en.png "Long exposure on Liquity via the native token LQTY")
 
 ---
 1. Deposit ETH on [Liquity](https://www.liquity.org/) via one of the frontends, they will serve as collateral for the position.
@@ -60,7 +62,7 @@ Or more conservatively, with a strategy using Liquity to borrow LUSDs and make t
 
 ### Exposure mainly in stablecoins
 
-![mm-long-token-tokenbrice](img/2021/money-market-recipes/mm-long-tokenbrice-en.png "Long exposure to Liquity via Liquity/Curve")
+![mm-long-token-tokenbrice](/img/2021/money-market-recipes/mm-long-tokenbrice-en.png "Long exposure to Liquity via Liquity/Curve")
 
 1. Deposit ETH on [Liquity](https://www.liquity.org/) via one of the frontends, they will serve as collateral for the position.
 2. Borrow LUSD
@@ -90,7 +92,7 @@ Nevertheless, as this strategy is based on stablecoins, it does not - (⚠ oracl
 
 To illustrate the concept, I propose another simple strategy which is equivalent to long Alchemix via its token ALCX :
 
-![alchemix-investment-tokenbrice](img/2021/money-market-recipes/alchemix-investment-tokenbrice-en.png "Investment financed by a stable debt on Alchemix")
+![alchemix-investment-tokenbrice](/img/2021/money-market-recipes/alchemix-investment-tokenbrice-en.png "Investment financed by a stable debt on Alchemix")
 
 1. Deposit DAI as collateral on Alchemix. Alchemix deploys it on Yearn Finance to generate a return.
 2. Borrow up to 50% of the initial value deposited in AlUSD, a stablecoin.
@@ -124,7 +126,7 @@ The strategy is to **produce returns through the borrowing of stablecoins used t
 
 To illustrate this strategy, I start with the assumption of generating a return from ETH.
 
-![polygon-aave-curve-eth-farming-tokenbrice](img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice-en.png "Farming on Polygon via Aave and Curve using ETH as collateral")
+![polygon-aave-curve-eth-farming-tokenbrice](/img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice-en.png "Farming on Polygon via Aave and Curve using ETH as collateral")
 
 1. ETH deposit as collateral on Aave/Polygon (+native +MATIC)
 2. Borrowing stablecoins (-APR +MATIC)
@@ -142,7 +144,7 @@ It is possible to implement this strategy by keeping the tokens used as collater
 
 In DeFi, everything is done in dollars. It makes sense, everyone knows, but for a European user it is a significant additional  risk. Indeed, if your ambition is to generate enough to live on with DeFi, then this means your output will eventually be in Euro.
 
-![eur-usd-1y](img/2021/money-market-recipes/eur-usd-1y.png "Evolution of the €/$ exchange rate over the last year")
+![eur-usd-1y](/img/2021/money-market-recipes/eur-usd-1y.png "Evolution of the €/$ exchange rate over the last year")
 
 For a European farmer, it may therefore be **interesting to have a DeFi exposure in € to avoid this risk**. At the moment, there are simply no Euro borrowing options other than [Mimo Capital](https://mimo.capital/).
 
@@ -161,7 +163,7 @@ To farm natively in Euros, the best option is still what you can do with EURS. S
 * **🔮 Expected result:** Growing a capital in Euro-stable
 * **🃏 Bonus / Enabler:** Owning VeCRVs.
 
-![EURS-farming-tokenbrice](img/2021/money-market-recipes/EURS-farming-tokenbrice-en.png "Farming with the EURS stablecoin")
+![EURS-farming-tokenbrice](/img/2021/money-market-recipes/EURS-farming-tokenbrice-en.png "Farming with the EURS stablecoin")
 
 * The **pool Curve** directly offers an attractive yield in CRV even when it is not boosted.
 * To automatically sell the farmed CRVs to compound the return, a vault is ideal. **[Yearn](https://yearn.finance) offers a vault on EURS**.

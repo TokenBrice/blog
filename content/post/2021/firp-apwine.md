@@ -7,7 +7,6 @@ tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
-image: img/2021/firp-apwine/pac-man.png
 ---
 
 Yields are like fine wines, the secret lies in the brewing process. As DeFi is developing faster than ever, with now more than $ 50 billion of total value locked across all protocols, **the yield offering is diversifying**.
@@ -18,7 +17,7 @@ Our topic today strikes at the heart of this trend, with a solution offering a p
 
 ## Money Market = PacMan
 
-![the interest bearing stablecoin pacman-tokenbrice](img/2021/firp-apwine/pac-man.png "Several abstraction layers are building up on top of money markets - will they soon be part of the native experience?")
+![the interest bearing stablecoin pacman-tokenbrice](/img/2021/firp-apwine/pac-man.png "Several abstraction layers are building up on top of money markets - will they soon be part of the native experience?")
 
 Tranching, insurance, and FIRPs are essentially like **abstraction-layers built on top of a money market** to provide additional features:
 1. **🔪 Tranching** ➡ better separation of the different type of risks
@@ -39,7 +38,7 @@ With DeFi, the goal for most is **to produce yields from a given asset.** Usuall
 
 Even if you're super responsible and try to insure & further protect your deposits, you are left with one sizable issue: **the base return produced by the asset is usually volatile**, making the pricing of the whole package (lended deposit + insurance + tranching) hard to navigate.
 
-![coingecko-crypto-2020-report](img/2021/firp-apwine/coingecko-report.png "CoinGecko highligthed the different approaches to FIRP as a growing subset of DeFi in the last report")
+![coingecko-crypto-2020-report](/img/2021/firp-apwine/coingecko-report.png "CoinGecko highligthed the different approaches to FIRP as a growing subset of DeFi in the last report")
 
 Check the [full report here](https://assets.coingecko.com/reports/2020-Year-End-Report/CoinGecko-2020-Report.pdf).
 
@@ -69,7 +68,7 @@ It also means different tradeoffs on the risk management side. With 88MPH, the y
 
 The opposite is true for APWine: since it's market-based, no mismatch can occur (-> no protocol debt), but it means there can be demand/offer issues (such as heavy discount on FYTs).
 
-![apwine-deposit-process](img/2021/firp-apwine/apwine.png "The deposit process on ApWine explained (source: official website)")
+![apwine-deposit-process](/img/2021/firp-apwine/apwine.png "The deposit process on ApWine explained (source: official website)")
 
 ### APWine: Instant Payday?
 

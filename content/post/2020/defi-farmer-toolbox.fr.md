@@ -2,12 +2,13 @@
 title: "🧰 Trousse à outils du cultivateur DeFi"
 description: "Une liste d'outils et de conseils sélectionnés avec attention pour que vous puissiez tirer parti de la révolution agraire de la DeFi 🌻"
 date: '2020-06-28T01:13:50.191Z'
-categories: [DeFi, Practical]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Prêts, Apports de liquidités, Actifs synthétiques]
 toc: true
 tocNum: false
-image: img/2020/defi-farmer-toolbox/cover.jpeg
 ---
+
+![cover-DeFi-Farmer-Toolbox](/img/2020/defi-farmer-toolbox/cover-fr.jpeg)
 
 Amis agriculteurs,
 
@@ -45,7 +46,7 @@ Voici les principales sources de liquidity mining (apport de liquidité avec inc
 * Programme d'incitation Synthetix & autres (comme JRT)
 * Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/) : redirigez les intérêts gagnés sur vos stablecoins sur Aave pour gagner des jetons JRT. Jarvis a de nombreux autres programmes d'incitations, c'est un bon point de départ.
 
-![Synthetix liquidity mining programs](img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
+![Synthetix liquidity mining programs](/img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
 
 ### Adapter la stratégie à votre budget
 
@@ -99,7 +100,7 @@ Par exemple, vous pouvez tirer parti de l'effet de levier pour maximiser votre r
 
 Dans un article précédent, j'ai détaillé une stratégie s'appuyant sur la plateforme Synthetix qui comprenait une autre forme de levier. Elle a permis d'observer des rendements impressionnants (~200% en réalité) depuis [son introduction il y a 5 semaines](https://tokenbrice.xyz/fr/posts/2020/definancial-services-guide/#5-a-le-synthetixcurve-kebb-alias-the-4-steaks-yieldburger) - principalement en raison d'une appréciation significative du prix du SNX (le prix a doublé), de la plus grande exposition de cette stratégie et du niveau très élevé d'activité sur le pool Curve sUSD.
 
-![The Synthetix-Yieldbuger-TokenBrice](img/2020/definancial-services-guide/yieldkebab.png)
+![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldkebab.png)
 
 
 Bon, assez de préparation - vous êtes maintenant un agriculteur averti - félicitations ! Examinons les outils utilisés pour planter vos semences, sécuriser vos cultures et récolter vos rendements.
@@ -113,7 +114,7 @@ Vous pouvez entrer dans les pools de liquidité "manuellement", c'est-à-dire di
 
 Si vous n'êtes pas encore le plus familier avec Ethereum, la façon la plus simple de participer à ce festin serait d'utiliser des outils :
 
-![Zapper.Fi-zap-in-liquidity-pools](img/2020/defi-farmer-toolbox/zapper-fi.png)
+![Zapper.Fi-zap-in-liquidity-pools](/img/2020/defi-farmer-toolbox/zapper-fi.png)
 
 **Entrer et sortir des pools de liquidité** : [Zapper.fi](https://zapper.fi) : dans l'onglet Invest, Zapper vous permet d'entrer et de sortir facilement des pools sur Balancer, Curve et Uniswap, de l'ETH, DAI et quelques autres jetons.
 
@@ -121,7 +122,7 @@ Si vous n'êtes pas encore le plus familier avec Ethereum, la façon la plus sim
 
 **Spending ETH & stablecoins** - [Monolith](https://monolith.xyz). Maintenant avec ParaSwap intégré pour les swaps et bientôt la possibilité d'acheter de l'ETH/ERC-20 à directement dans l'application !
 
-![monolith](img/2020/defi-farmer-toolbox/monolith.jpeg)
+![monolith](/img/2020/defi-farmer-toolbox/monolith.jpeg)
 
 Pendant que nous y sommes, voici un petit conseil pour la route :
 **Ça ne sert à rien de "Claim" sur Compound** C'est coûteux et vos jetons COMP sont automatiquement réclamés chaque fois que vous ajustez votre position en déposant ou en retirant des actifs (montant minimal de COMP réclamable requis).
@@ -133,7 +134,7 @@ Maintenant que nous avons expliqué les bases, chers agriculteurs biologiques, i
 
 En plus de vous aider à entrer et sortir des pools, [Zapper.fi](https://zapper.fi) est un incroyable système tout-en-un de suivi de position DeFi. Voici [le Zapper du portefeuille](https://www.zapper.fi/synthetix?address=0x4E60bE84870FE6AE350B563A121042396Abe1eaF) du légendaire fermier [DegenSpartan](https://twitter.com/DegenSpartan) - on dirait qu'il a croqué dans le juteux burger :
 
-![Zapper.fi - DegenSpartan](img/2020/defi-farmer-toolbox/degen.png)
+![Zapper.fi - DegenSpartan](/img/2020/defi-farmer-toolbox/degen.png)
 
 Si vous souhaitez obtenir un historique de votre wallet rendez vous sur **[Zerion](https://zerion.io/)**.
 
@@ -144,7 +145,7 @@ Pour une vue plus globale du marché, vous pouvez regarder :
 - **[Token Terminal](https://www.tokenterminal.xyz/)** pour un aperçu des gains et du ratio P/E des protocoles DeFi
 - [Ce tableau de bord **Dune Analytics**](https://explore.duneanalytics.com/public/dashboards/c87JEtVi2GlyIZHQOR02NsfyJV48eaKEQSiKplJ7) vous donne un aperçu du volume sur les DEXes :
 
-![Aperçu des volumes sur les DEX](img/2020/defi-farmer-toolbox/DEX.png)
+![Aperçu des volumes sur les DEX](/img/2020/defi-farmer-toolbox/DEX.png)
 
 ⛽ Vous pouvez également utiliser [HAL](https://twitter.com/HAL_team) pour recevoir des notifications dans certaines situations, comme **[quand les prix du gaz passent sous un certain seuil](https://medium.com/@mattiascaricato/get-notified-when-gas-price-is-cheap-%EF%B8%8F-2a157a3d18b9)**.
 

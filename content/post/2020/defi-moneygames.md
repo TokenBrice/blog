@@ -4,10 +4,11 @@ description: "A quick primer to help players of DeFi food-based moneygames to un
 date: '2020-08-26T01:13:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin, BASED, PASTA, YAM]
-image: img/2020/defi-moneygames/cover.png
 ---
 
 Food-based social moneygames are all the rage in decentralised finance. Today, I wanted to write a quick piece to provide some context on them, as well as some tips for those who want to. I'll not pass moral judgement on such projects, I leave it up to you.
+
+![defi-moneygames-cover-tokenbrice](/img/2020/defi-moneygames/cover.png "Welcome! I hope you're hungry.")
 
 The launch of Yearn Finance last month was probably the most significant event of the year for DeFi. If you are not familiar at all with Yearn, check this intro: **[YearnFinance - DeFi on autopilot?](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md)** - it will be helpful to better understand today's article.
 
@@ -62,7 +63,7 @@ The risk is minimized: if you can compare the staking code with an existing one 
 
 Past this point (SAFU confirmed), the main risk you are taking is that the coin you are farming might be worth little to nothing by the time you have enough to dump. Stick to reasonable projects to avoid such a scenario known as as the "death spiral" - when a meme coin enters the final phase of its existence:
 
-![defi-moneygames-PASTA-deathloop](img/2020/defi-moneygames/pasta-deathloop.png "The end of PASTA was quite abrupt.")
+![defi-moneygames-PASTA-deathloop](/img/2020/defi-moneygames/pasta-deathloop.png "The end of PASTA was quite abrupt.")
 
 
 #### LEVEL = 2 - 98%/2% POOLS
@@ -71,7 +72,7 @@ These pools are usually more tricky, as they involve providing liquidity to a de
 
 Here, **you are facing a new type of risk: impermanent losses.** IL are greatest when the two assets involved in the pool are moving fast in opposite directions, price-wise. 98/2% pools have their own category because they are a bit safer, although they are not fully immune to IL.
 
-![defi-moneygames-YFV](img/2020/defi-moneygames/yfv.png "YFV is another moneygame following the 98/2 pool model")
+![defi-moneygames-YFV](/img/2020/defi-moneygames/yfv.png "YFV is another moneygame following the 98/2 pool model")
 
 #### LEVEL = REK'T - THE DUMPING POOLS
 

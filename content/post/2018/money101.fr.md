@@ -3,10 +3,11 @@ title: Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les in
 description: >-
   Comment comprendre l''évolution de la monnaie jusqu''aux cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
 date: '2018-07-18T12:13:32.950Z'
-categories: [Analysis]
+categories: [Analyse]
 tags: [bitcoin, argent, monnaie blockchain, cryptomonnaie, EcoCrypto]
-image: img/2018/money101/cover.jpeg
 ---
+
+![](/img/2018/money101/cover.jpeg)
 
 <span style="font-weight: 400;">La monnaie est un élément essentiel de nos sociétés : un petit changement dans ses mécanismes sous-jacents peut avoir des répercussions qui dépassent très largement le champ de l’économie. Une meilleure compréhension des mécanismes monétaires permet ainsi de mieux cerner de nombreux sujets connexes allant de l’économie politique aux cryptomonnaies.</span>
 
@@ -35,7 +36,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Étudions ensemble l’exemple qui m’a fait réaliser l’importance de la distinction entre les deux : imaginons que je brûle un billet de 20 francs – aurais-je détruit une quelconque valeur ?</span>
 
-![Thanks to the Joker for helping with the experiment](img/2018/money101/joker.jpeg)
+![Thanks to the Joker for helping with the experiment](/img/2018/money101/joker.jpeg)
 
 <span style="font-weight: 400;">Et bien non, ce que j’ai détruit c’est la possibilité de revendiquer cette valeur : je ne peux pas échanger les cendres de mon billet contre une baguette de pain.</span>
 
@@ -45,7 +46,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Cette compréhension de la distinction entre la réserve de valeur et le bien qui permet de revendiquer une valeur nous permet également de mieux comprendre **l’obsession pour la monnaie circulante**. En effet, la monnaie n’est pas richesse en soit : tant qu’elle n’est pas exercée (dépensée pour d’autres biens), elle ne contribue pas à la richesse. </span>
 
-![](img/2018/money101/fly.gif)
+![](/img/2018/money101/fly.gif)
 
 <span style="font-weight: 400;">Reprenons l’exemple précédent en allant plus loin pour mieux comprendre :</span>
 
@@ -59,7 +60,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Pour finir la déconstruction du mythe de la monnaie comme refuge de valeur, considérons cette troisième et dernière situation : j’émets de la fausse monnaie qui est très bien faite – tout le monde la prend pour vraie. Mettons que j’en distribue à chaque français, sans que l’État ne se rende compte de la supercherie afin de préserver la simplicité de l’exemple.</span>
 
-![](img/2018/money101/print.jpeg)
+![](/img/2018/money101/print.jpeg)
 
 <span style="font-weight: 400;">Dans ce scénario, lorsque les heureux français se mettront à utiliser cette fausse monnaie bien vraisemblable, c’est à dire qu’ils réclameront la valeur à laquelle ces billets leur donnent le droit, ils feront augmenter le PIB de la France et donc sa richesse présumée.</span>
 
@@ -73,7 +74,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Il faut remettre les choses en contexte, on parle d’un monde où la monnaie n’existe pas encore, allons même plus loin : la notion de propriété n’est pas encore réellement définie non plus. Il y avait quand même des échanges bien sûr, mais ils prenaient une forme bien différente de ce que nous envisageons derrière l’idée de troc.</span>
 
-![](img/2018/money101/swap.jpeg)
+![](/img/2018/money101/swap.jpeg)
 
 <span style="font-weight: 400;">Les sociétés agricoles prémodernes étaient très largement **auto-suffisantes**, ainsi les échanges entre les membres d’une même communauté se faisait par des systèmes informels et fondés sur la relation : « l’économie » était donc fondé sur le don et la réciprocité.[^3]
 
@@ -87,7 +88,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Un autre facteur qui peut expliquer la place prise par la fable du passage au troc à la monnaie est tout simplement le prisme de l’historien. La démarche de l’historien se fonde sur les restes retrouvés pour tenter de reconstruire la réalité d’une période donnée. Des pièces, ça se conserve très bien. À l’inverse, des systèmes de dons-contre dons informels ne laissent que peu de traces.[^4]
 
-![Helixism was born when Reddit started to play Pokemon, together ([Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) — [The Origin of Ancient Helixism](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)](img/2018/money101/helixism.gif)
+![Helixism was born when Reddit started to play Pokemon, together ([Twitch Plays Pokemon](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) — [The Origin of Ancient Helixism](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)](/img/2018/money101/helixism.gif)
 *L’Helixisme est une religion née lorsque Reddit s’est mis à jouer à Pokemon, tous ensemble ! ([Twitch Plays Pokemon (Français)](https://fr.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon)) – [Les origines de l’ancien Helixisme (Anglais)](https://www.reddit.com/r/twitchplayspokemon/comments/20cz6i/the_origin_of_ancient_helixism/)*
 
 <span style="font-weight: 400;">Les exemples choisis pour illustrer cette société de troc affaiblissent également la fable : on parle de chèvre contre blé par exemple. Mais dans le cadre d’une société pré moderne autosuffisante, est-ce bien réaliste ? Les échanges qui se faisaient par **le troc concernaient plutôt des biens qui n’étaient pas indispensables à la survie de la communauté**, puisque ceux-ci étaient déjà produits par la communauté elle-même.</span>
@@ -98,7 +99,7 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Seulement c’est oublier un autre rôle crucial des banques dans nos mécanismes monétaires modernes : la création monétaire. Je ne vais pas rentrer dans les détails pour ne pas rendre cet article encore plus compliqué, alors je ne ferai qu’une rapide présentation de ce mécanisme. Cela s’appelle le système de réserves fractionnaires.[^5]
 
-![fractional-reserve](img/2018/money101/fractional-reserve.png)
+![fractional-reserve](/img/2018/money101/fractional-reserve.png)
 
 <span style="font-weight: 400;">En bref et très (trop) rapide cela donne ça – une banque centrale crée une base monétaire qui permet aux banques commerciales d’émettre elle-même de la monnaie au travers de prêts. Lors que Bob vient emprunter 10 000€ à la BNP, la BNP ne tape pas dans ses réserves pour créditer son compte. Elle se contente de changer le chiffre associé au compte de Bob pour inclure les 10 000€ prêtés. La confiance dans le protocole bancaire est maintenue grâce à des systèmes de réserves requises correspondant à une partie de l’argent prêté[^6]. Cela nous amène directement au point suivant. 
 
@@ -106,14 +107,14 @@ image: img/2018/money101/cover.jpeg
 
 <span style="font-weight: 400;">Comme on a pu le voir précédemment, la création monétaire se fait désormais par des banques privées et **la «monnaie » créée n’est qu’un chiffre dans un livre de comptes**. Cela nous amène au dernier mythe de la monnaie, celui selon lequel la monnaie serait devenue des bits, des 0 et 1 quelque part sur un serveur.</span>
 
-![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](img/2018/money101/bricedollar.jpeg)
+![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](/img/2018/money101/bricedollar.jpeg)
 Bientot dans vos wallets
 
 <span style="font-weight: 400;">**En réalité, la nature de la monnaie n’a pas changé**, c’est toujours le bon vieux livre de comptes à la banque qui fait loi. Si ce livre de comptes fait loi, c’est parce qu’il s’inscrit dans un système politique, social et judiciaire qui lui donne son autorité. Qu’il soit modifié par des moyens analogues ou digitaux ne change pas grand-chose.</span>
 
 <span style="font-weight: 400;">Avec la carte bleue, les distributeurs automatiques, les banques en ligne et toutes les autres « innovations », on peut avoir l’impression qu’il y a eu un changement dans le système monétaire. En vérité, c’est toujours essentiellement le même système, avec une monnaie qui répond aux mêmes lois. **L’innovation et le changement se sont fait au niveaux des interfaces pour manipuler et dépenser la monnaie.** </span>
 
-![](img/2018/money101/coins.jpeg)
+![](/img/2018/money101/coins.jpeg)
 *Le Franc Or*
 
 <span style="font-weight: 400;">Il y a eu quelques changements, notamment au niveau des mécanismes de création monétaire qui se sont complexifiés mais pour le reste notre monnaie actuelle suit le même genre de fonctionnement que le Franc-or.[^7] La monnaie n’a pas encore connu de disruption, elle a simplement vu défiler les ravalements de façade.</span>

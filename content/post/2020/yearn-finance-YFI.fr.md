@@ -2,9 +2,8 @@
 title: "YearnFinance - La DeFi avec pilote automatique ?"
 description: "Il n'aura fallu que quelques jours après la sortie de Yearn Finance V2 pour que cela devienne un des lancements les plus critiques de la DeFi – prenons le temps de comprendre ce qu'il s'est passé et pourquoi c'est important."
 date: '2020-08-11T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Prêts, Aave, Compound, BzX, Curve, yVault, Stablecoins, Leveraging, YFI, Yearn, Yearn Finance]
-image: img/2020/yearn-finance-YFI/wifeys.jpg
 ---
 
 Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (prononcé "Waifu") ont ébranlé le monde de la finance décentralisée. En effet, toute la recette était là : Yearn est comme un conseiller automatique, il vous aide à économiser et à faire fructifier un capital - évidemment l'un des cas d'utilisation les plus en vogue. 
@@ -12,6 +11,8 @@ Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (pr
 Plus que le produit lui-même, c'est son fondateur André Cronje qui  a été intrumental pour définir la "culture" Yearn. **Son choix d'ouvrir complètement la gouvernance**, a dynamisé une communauté qui s'est rapidement fédérée autour du projet.
 
 Avec cette article, je veux partager aujourd'hui quelques indications pour comprendre pourquoi Yearn a vu le jour, comment il fonctionne et pourquoi il est important.
+
+![La Famille YFI](/img/2020/yearn-finance-YFI/wifeys.jpg "YFI est open source et a déjà de très nombreux forks")
 
 ## Qu'est-ce que Yearn ?
 
@@ -48,7 +49,7 @@ Le point critique des yVault est que **ils exploitent les synergies de la DeFi p
 
 Chaque vault a une stratégie propre. Voici un graphique explicatif soigné pour expliquer la stratégie du vault yCRV :
 
-![Explication de la stratégie du vault yCRV](img/2020/yearn-finance-YFI/yCRV-vault.png "Explication de la stratégie du vault yCRV")
+![Explication de la stratégie du vault yCRV](/img/2020/yearn-finance-YFI/yCRV-vault.png "Explication de la stratégie du vault yCRV")
 
 Je vous laisse donc creuser le graphique et rejoindre le [Yearn Discord](https://discord.gg/HFK5uea) si vous êtes intéressé.
 
@@ -99,7 +100,7 @@ Dans le cas de DeFi, j'ai hâte de voir le **clash des marques** auquel nous all
 * D'une part, les sociétés "corpo" financées par le capital-risque ont tendance à manquer de personnalité et ont plus de mal à soutenir des communautés organiques dynamiques.
 * D'autre part, **un projet communautaire est une histoire qui s'écrit tous les jours**, et quand il s'agit de la "marque" Yearn, nous la voyons se développer rapidement : le swag est déjà là ! 
 
-![Yearn Finance Swag](img/2020/yearn-finance-YFI/yearn-swag.png "Le swag Yearn n'a mis que quelques jours à arriver !")
+![Yearn Finance Swag](/img/2020/yearn-finance-YFI/yearn-swag.png "Le swag Yearn n'a mis que quelques jours à arriver !")
 
 
 ## Ressentir le Yearn

@@ -2,14 +2,15 @@
 title: "L'état et le futur des stablecoins algorithmiques"
 description: "Une analyse de DSD, ESD et Basis Cash pour dresser le portrait-robot de ce qui pourrai bien être le stablecoin de demain."
 date: '2020-12-28T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Stablecoins, Maker, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, sUSD, ESD, DSD, BAC, BAS]
-image: img/2020/algorithmic-stablecoins/cover.pn
 ---
 
 Depuis début décembre, une nouvelle tendance se dessine dans le DeFi : les stablecoins algorithmiques. Plusieurs projets ont été lancés et ont connu une croissance importante, suscitant encore plus d'intérêt pour ce sous-ensemble de l'espace.
 
 Avant de nous plonger dans ce qu'ils sont et ce qu'ils impliquent, abordons d'abord les marchés envisageables. Les stablecoins sur Ethereum sont massifs : ils circulent autour de 20B USDT, 3.5B USDC & 1B DAI. Comme vous pouvez le constater, la majeure partie du volume est actuellement desservie par des stablecoins nécessitant une certaine forme de confiance, tels que **USDC ou USDT : la société émettrice a le pouvoir de geler les actifs et de manipuler les soldes**.
+
+![DeFi BRRR](/img/2020/algorithmic-stablecoins/cover.png "Bienvenue ! J'espère que vous apprécierez la balade").
 
 Maker a exploré une autre approche avec le DAI qui comporte beaucoup moins de compromis - cependant, l'extensibilité est réduite. En outre, il est difficile de considérer le DAI comme "suffisamment trustless" aujourd'hui alors que 60% des garanties utilisées pour le frapper ne le sont pas (USDC, wBTC, TUSD, etc.)
 
@@ -59,7 +60,7 @@ Comme vous pouvez le voir, à un niveau élevé, ces mécanismes sont simples. I
 
 Cette conception pousse la théorie du jeu et le jeu de mime à un autre niveau :
 
-![DSD Meme](img/2020/algorithmic-stablecoins/dsd-meme.jpeg "Un meme DSD")
+![DSD Meme](/img/2020/algorithmic-stablecoins/dsd-meme.jpeg "Un meme DSD")
 
 ### Phase d'expansion agressive
 
@@ -73,7 +74,7 @@ L'expansion et la contraction sont phasés dans des "epochs". L'epoch de Basis C
 
 En revanche, l'ESD et le DSD ont déjà connu plusieurs cycles d'expansion et de contraction chacun, le protocole fonctionnant comme prévu :
 
-![DSD Market Cap au cours des 7 derniers jours](img/2020/algorithmic-stablecoins/dsd-mktcap.png "DSD Market Cap montre clairement les phases d'expansion/contraction")
+![DSD Market Cap au cours des 7 derniers jours](/img/2020/algorithmic-stablecoins/dsd-mktcap.png "DSD Market Cap montre clairement les phases d'expansion/contraction")
 
 ### Exploiter la composabilité du DeFi
 

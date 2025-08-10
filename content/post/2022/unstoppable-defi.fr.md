@@ -2,17 +2,18 @@
 title: "Dans les coulisses du théâtre de la décentralisation : étude de l’inaltérabilité des protocoles DeFi"
 description: "De la centralisation totale aux protocoles inarrêtables : définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi"
 date: '2022-05-18T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Liquity, LUSD, LQTY, Curve, CRV, Uniswap, UNI, Pooltogether, POOL, Liquity, LUSD, LQTY, TrustlessFI, Chainlink, Oracles]
 toc: true
 tocNum: true
 url: unstoppable-defi
-image: img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 ---
 
 La finance décentralisée a permis l’émergence de protocoles autonomes dont les fonctionnalités sont assurées par des smart contracts parfois immuables, permettant à des individus du monde entier d’utiliser des services financiers tout à la fois souverains, accessibles mais aussi plus efficaces et résilients que ceux disponibles en finance classique. Voilà la belle histoire qu’on raconte aux nouveaux arrivants pour les endormir : la réalité est bien plus nuancée.
 
 Effectivement, il y a bien **une poignée de protocoles qui correspondent à cette réalité,** mais la plupart sont loin d’être à la hauteur. Quand les taureaux sont de sortie, l’intérêt pour la résilience des protocoles est généralement très faible : la seule chose qui importe ce sont les appréciations de prix. Mais les ours ont fait leur grand retour, et avec vient heureusement un regain d’intérêt pour ces sujets.
+
+![unstoppable-defi-tokenbrice-cover](/img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png)
 
 L’implosion récente de l’écosystème Luna et de son stablecoin associé, UST, aura, je l’espère, servi de piqûre de rappel pour certains. C’était hélas une catastrophe **parfaitement évitable**. Le modèle utilisé pour ce stablecoin et ses défauts étaient déjà connus, avec de nombreuses précédentes instances couvertes à l’époque sur ce blog : BAC, MIC, ESD, DSD, etc. (au niveau applicatif sur Ethereum plutôt que protocolaire, mais avec les mêmes problèmes de fond). Tous ont connu la même fin : une spirale interminable qui les amène toujours plus proche du 0 absolu.
 
@@ -81,7 +82,7 @@ Néanmoins, la plupart de ces sites restent hébergés par des **services centra
 
 Pour finir, en matière de résilience du front-end, la palme de l’approche la plus originale, élégante et efficace déployée à ce jour reste sans doute celle du protocole [Liquity](https://www.defiscan.info/protocols/liquity/ethereum). En effet, Liquity n’a pas de site officiel pour son application déployé et géré directement par l’équipe. À la place, l’équipe fournit **un kit pour déployer un front-end** de Liquity, utilisable par tous. Cela permet au projet d’avoir [une myriade de sites différents permettant d’utiliser son service](https://www.liquity.org/frontend), dont certains sont hébergés sur IPFS :
 
-![some-liquity-frontends](img/2022/unstoppable-defi/liquity-frontend.png "Aperçu des différents front-end pour utiliser Liquity (parmi >20)")
+![some-liquity-frontends](/img/2022/unstoppable-defi/liquity-frontend.png "Aperçu des différents front-end pour utiliser Liquity (parmi >20)")
 
 
 #### Risques de sécurité des front-end
@@ -99,7 +100,7 @@ Enfin, il faut également garder en tête la contrepartie qui vient avec l’imm
 
 Ainsi, lorsqu’un protocole inarrêtable doit évoluer, il n’y a qu’un seul chemin possible : déployer une nouvelle version du protocole (avec son nouveau jeu de contrats immuables) et encourager la **migration** de ses utilisateurs vers celle-ci. C’est par exemple ce qu’a fait Uniswap à deux reprises, avec la migration vers la version 2 en Mai 2020[^UNIv2] puis un nouvelle fois un an plus tard avec la sortie de Uniswap v3 en Mai 2021[^UNIv3]. 
 
-![UNIv2-migration-tool](img/2022/unstoppable-defi/UNIv2-migration-tool.png "Outil de migration v1⇒v2 en un clic proposé par Uniswap")
+![UNIv2-migration-tool](/img/2022/unstoppable-defi/UNIv2-migration-tool.png "Outil de migration v1⇒v2 en un clic proposé par Uniswap")
 
 En fonction des différences entre les versions, le protocole peut également proposer un outil pour faciliter la migration comme ce fut le cas pour UNIv1⇒UNIv2, mais impossible pour UNIv2⇒UNIv3 principalement à cause de l’introduction de la concentration de la liquidité.
 
@@ -111,7 +112,7 @@ Pour être exhaustif sur l’analyse coût/bénéfice des contrats immuables, ra
 
 Maintenant que la définition d'inarrêtable avec tout ce qu’elle implique a été détaillée, je vous propose d’en venir directement à l’analyse. Avant de creuser les protocoles pertinents, je vous propose un spectre qui met en lumière différents niveaux de résilience :
 
-![defi-spectre-resilience-tokenbrice](img/2022/unstoppable-defi/resilience-spectrum-fr.png)
+![defi-spectre-resilience-tokenbrice](/img/2022/unstoppable-defi/resilience-spectrum-fr.png)
 
 Détailler des protocoles centralisés ou  “DINO” (Decentralized in Name Only), qui n’ont de décentralisé que le nom, n'est ni très excitant ni intéressant, je vous laisse donc creuser par vous-même. Analysons plutôt des protocoles qui se situent sur la partie la plus palpitante du spectre : à la droite de MakerDAO.
 
@@ -179,7 +180,7 @@ Grâce à cette approche, Liquity est le protocole d’emprunt le plus résilien
 
 [PoolTogether](https://pooltogether.com/) est un protocole fascinant qui explore un concept nouveau : le “sans-perte”. Concrètement, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) est une loterie où le joueur ne prend aucun risque financier sur son apport principal : le jeu s’appuie entièrement sur le rendement que le principal produit, et le redistribue au différents joueurs en fonction de leur chance au tirage.
 
-![pooltogether](img/2022/unstoppable-defi/pooltogether.png "Présentation de la lotterie sans perte PoolTogether")
+![pooltogether](/img/2022/unstoppable-defi/pooltogether.png "Présentation de la lotterie sans perte PoolTogether")
 
 Pour en apprendre plus sur ce protocole, je vous invite une fois de plus à **[lire l’article dédié](https://tokenbrice.xyz/content/posts/2021/pool-together.fr.md)**.
 
@@ -242,4 +243,4 @@ _🙏 Un immense merci à tous les relecteurs et contributeurs qui ont particié
 [^liquity-disclaimer]: Comme vous l’avez sans doute déjà vu, je suis ravi d’avoir [rejoint l’equipe de Liquity très récemment](https://tokenbrice.xyz/content/posts/2022/tokenbrice-liquity.fr.md). Je mentionne Liquity dans cet article car c’est un exemple pertinent et instructif de protocole résilient, indépendamment de mes engagements professionnels.
 [^UNIv3-oracle]: Pour vous faire une idée plus précise, Euler Finance propose [un outil permettant de simuler les attaques d'oracle potentielles lorsqu'un TWAP Uniswap V3 est utilisé](https://oracle.euler.finance/).
 [^trustlessfi-doc]: Comme toujours, l'alpha est pour ceux qui creusent et lisent attentivement les footnotes ainsi que [les documentations](https://trustlessfi.notion.site/Trustless-4be753d947b040a89a46998eca90b2c9).
-[^chainlink-multisig]: ChainLink a partagé plus d'information sur ce multisig [dans leur documentation](https://docs.chain.link/docs/using-chainlink-reference-contracts/#updates-to-proxy-and-aggregator-contracts) et vous pouvez vérifier le contrat **[directement sur EtherScan ici](https://etherscan.io/address/0x21f73d42eb58ba49ddb685dc29d3bf5c0f0373ca#readProxyContract)** ![chainlink-multisig-updated](img/2022/unstoppable-defi/chainlink-multisig-updated.png)
+[^chainlink-multisig]: ChainLink a partagé plus d'information sur ce multisig [dans leur documentation](https://docs.chain.link/docs/using-chainlink-reference-contracts/#updates-to-proxy-and-aggregator-contracts) et vous pouvez vérifier le contrat **[directement sur EtherScan ici](https://etherscan.io/address/0x21f73d42eb58ba49ddb685dc29d3bf5c0f0373ca#readProxyContract)** ![chainlink-multisig-updated](/img/2022/unstoppable-defi/chainlink-multisig-updated.png)

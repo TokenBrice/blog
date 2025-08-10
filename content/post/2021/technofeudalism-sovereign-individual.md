@@ -4,13 +4,13 @@ description: "Covid precipitated the march of history by crystallizing several f
 date: '2021-01-04T01:13:50.191Z'
 categories: [Analysis]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Nation States, Post-Covid]
-image: img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
 ---
 
 Remember when we used to talk of a "post-covid world"? It's funny to see how the expression quickly stopped being used as people realized the social order of the "new" world would be as nonsensical and wasteful as the previous.
 
 Yet, the phrase had the merit to stress the role of the pandemic which brought so much stress on our social structures that it resulted in twenty years of "progress" packed into one. I think that today already if we're attentive and careful, we can envision the next steps of our societal development.
 
+![francis-bacon-triptych](/img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg "Triptych - Francis Bacon (1976)")
 
 ## The two post-covid worlds
 
@@ -22,7 +22,7 @@ This thesis has been documented since the middle of the past century.[^1]. What'
 
 On the other end is the **sovereign individual**, as described by James Dale Davidson and William Rees-Mogg more than twenty years ago.[^2]. Such individuals understood the decreasing power and importance of states and developed a form of statelessness. 
 
-![livre-individu-souverain](img/2021/technofeudalism-sovereign-individual/sovereign-individual-book.png "The Sovereign Individual - James Dale Davidson et William Rees-Mogg (1997)")
+![livre-individu-souverain](/img/2021/technofeudalism-sovereign-individual/sovereign-individual-book.png "The Sovereign Individual - James Dale Davidson et William Rees-Mogg (1997)")
 
 They __treat nation-states like mere service providers__ (health care, education, justice, etc.) and put them in competition with one another. While they are still citizens of one or several countries, they are not tied to them and can move at the moment's notice.
 
@@ -89,7 +89,7 @@ While the values of our political system are promises that must be actively kept
 
 DeFi thus allows individuals to possess and exchange goods without the need for an intermediary - it was a form of missing piece to the safeguarding of sovereignty. Thanks to DeFi, everyone can access elite financial services that are more resilient than those of the conventional world, made possible by a mix of private companies and legal frameworks.
 
-![da-vinci-aile](img/2021/technofeudalism-sovereign-individual/da-vinci-aile.jpg "Leonardo Da Vinci - Flying Wing")
+![da-vinci-aile](/img/2021/technofeudalism-sovereign-individual/da-vinci-aile.jpg "Leonardo Da Vinci - Flying Wing")
 
 Thanks for reading this piece until the end. If you liked it, you can:
 - check the rest of my work published on this blog

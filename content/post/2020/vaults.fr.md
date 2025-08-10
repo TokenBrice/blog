@@ -2,9 +2,8 @@
 title: "🤖 Les vaults : stratégies d'investissement DeFi accessibles ?"
 description: "Les vaults permettent d'exploiter des programmes d'incitation à l'apport de liquidité en composant automatiquement et fréquemment les gains obtenus. Examinons les options disponibles et leurs contreparties."
 date: '2020-09-30T01:13:50.191Z'
-categories: [DeFi, Practical]
+categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Curve, yVault, Yearn, Yearn Finance, YFV, Uniswap, UNI, YFII, FARM, Harvest Finance]
-image: img/2020/vaults/harvest.gif
 ---
 
 À mesure que l'écosystème des services financiers décentralisés sur Ethereum se développe et mûrit, l'offre de services devient plus dense et parfois difficile à comprendre. Si les utilisateurs les plus avertis sur le plan technique peuvent se tenir au courant des dernières sorties et couvrir leurs risques de manière appropriée, les investisseurs moins expérimentés peuvent se sentir largués.
@@ -18,6 +17,13 @@ L'idée de base est simple comme 1, 2, 3 :
 3. **Les frais sont simplifiés** : les déposants ne paient pas les frais de gaz de l'opération des vaults (comme la récolte). Les frais sont généralement facturés à la sortie du vault.
 
 Donc si vous voulez **éviter les maux de tête** liés à la chasse à la dernière ferme, à la gestion du claim des bénéfices que vous gagnez, au moment et à la manière de les réinvestir, sans oublier, bien sûr, de tenir compte des coûts du gaz de toutes ces opérations dans le calcul de vos bénéfices, les vaults sont une alternative crédible.
+
+<div align=""center>
+
+![Harvest Finance GIF](/img/2020/vaults/harvest.gif)
+
+_Harvest Finance propose plusieurs vaults pour simplifier le farming [(source gif)](https://twitter.com/risk22_/status/1307304283415560193?s=20)_
+</div>
 
 Les vaults sont faits pour **abstraire la complexité pour les utilisateurs finaux**.  Vous déposez des tokens et attendez qu'ils élaborent une stratégie pour vous. Voyons donc quelles sont les options disponibles.
 
@@ -49,7 +55,7 @@ En ce qui concerne les vaults, les tokens les plus couramment acceptés en dép�
 
 <div align="center">
 
-![pickle-finance-pjar0](img/2020/vaults/pickle-pjar0.png)
+![pickle-finance-pjar0](/img/2020/vaults/pickle-pjar0.png)
 
 _Infographie détaillant le vault pJar0 de Pickle Finance [source](https://medium.com/@picklefinance/introducing-picklejars-70a311ab65c5)_
 </div>

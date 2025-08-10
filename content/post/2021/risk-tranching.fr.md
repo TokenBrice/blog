@@ -2,16 +2,17 @@
 title: "🗡 Du risque ? Oui, mais juste un doigt"
 description: "Qu'est que la répartition du risque (tranching) et pourquoi est-elle appellée à devenir une **primitive financière essentielle** pour les principaux marchés monétaires de la DeFi comme Aave ou Compound ?"
 date: '2021-01-12T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DeFi, Comprendre]
 tags: [DeFi, Ethereum, Finance Décentralisée, Gestion du risque, Sérialisation du risque, Marchés monétaires, Prêt, Dépôt, Stablecoin, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn Finance, AAVE, SFI, APWineFi]
 toc: true
 url: tranching-risque-defi
-image: img/2021/risk-tranching/cover.gif
 ---
 
 La DeFi s'est considérablement développée au cours de l'année dernière, en partie grâce à l'apparition de produits d'investissement plus accessibles tels que **[les vaults](https://tokenbrice.xyz/content/posts/2020/vaults.fr.md)** de Yearn ou de Harvest. Grâce à leur architecture, ils facilitent la mutualisation des capitaux, ce qui permet des investissements plus petits mais rentables sur les marchés monétaires et d'autres services DeFi comme Curve ou SushiSwap.
 
 C'était une couche nécessaire et très appréciée, et plusieurs améliorations sont encore à apporter pour rationaliser encore plus les choses et augmenter l'efficacité en gaz. Toutefois, je pense que l'essentiel de l'innovation de cette année viendra d'un autre front : la gestion des risques sur les produits de type vault et les marchés monétaires en général.
+
+![Tranching-de-risque-TokenBrice-Cover](/img/2021/risk-tranching/cover.gif)
 
 En effet, plusieurs primitives financières ont été développées pour offrir davantage d'options de ségrégation et de couverture des risques. Il existe désormais des options d'assurance crédibles pour la DeFi, ainsi qu'une nouvelle approche pour mieux répartir le risque entre des acteurs consentants et informés : le tranching.
 
@@ -29,7 +30,7 @@ Si vous me lisez depuis un certain temps, vous avez peut-être vu le terme "prot
 
 Dans un sens, le changement de nomenclature reflète les différentes étapes de l'évolution de ces marchés monétaires. Dans leurs premiers mois d'existence, il y avait **un impératif de liquidité** : il s'agit essentiellement d'une lutte pour atteindre une taille importante, suffisamment grande pour justifier l'intérêt d'autres projets d'intégration au marché monétaire alimentant ainsi une boucle de croissance positive comme nous l'avons vu sur Aave.
 
-![Aave TVL Growth - Debank](img/2021/risk-tranching/aave-debank.png "Aperçu historique de la valeur totale bloquée sur Aave V1 - Debank")
+![Aave TVL Growth - Debank](/img/2021/risk-tranching/aave-debank.png "Aperçu historique de la valeur totale bloquée sur Aave V1 - Debank")
 
 Une fois que la masse critique est atteinte, **le centre d'intérêt peut et doit évoluer**. Pour continuer à se développer, le marché monétaire doit élargir sa gamme de caractéristiques - encore une fois, comme nous avons vu Aave le faire avec les flash loans et les emprunts à APR stables.
 
@@ -65,13 +66,13 @@ Tout cet article a en fait été inspiré par un tweet que j'ai publié et dans 
 2. La tranche **A**, qui fournit la couverture de la tranche AA (et subit donc des pertes en cas de défaillance), mais rapporte un **rendement beaucoup plus favorable**.
 3. Il existe une troisième tranche - la **tranche S**. Cependant, elle rééquilibre simplement les deux autres en fonction des besoins.
 
-![Les différentes tranches disponibles sur Saffron Finance](img/2021/risk-tranching/saffron.png "Les différentes tranches disponibles sur Saffron Finance pour le marché  Compound/DAI")
+![Les différentes tranches disponibles sur Saffron Finance](/img/2021/risk-tranching/saffron.png "Les différentes tranches disponibles sur Saffron Finance pour le marché  Compound/DAI")
 
 Le découpage en tranches se fait sur une base d'_epoch_, actuellement fixée à deux semaines. Ainsi, si vous fournissez la tranche A, par exemple, vous supportez le risque de défaillance de la plate-forme pour la tranche AA pendant une période de deux semaines.
 
 Grâce à l'enthousiasme qui a suivi le lancement, Saffron s'est développé pour atteindre près de 60 millions de dollars d'actifs déposés. Depuis lors, il y a eu un minimum de 15 millions de dollar d'actif déposé à tout moment sur le service.
 
-![Saffron Finance TVL - Debank](img/2021/risk-tranching/saffron-debank.png "Aperçu historique de la valeur totale bloquée sur Saffron Finance - Debank")
+![Saffron Finance TVL - Debank](/img/2021/risk-tranching/saffron-debank.png "Aperçu historique de la valeur totale bloquée sur Saffron Finance - Debank")
 
 {{< notice note >}}
 Sur le graphique, on peut voir des retraits importants : ils sont dus à la logique par _epoch_ de Saffron. À la fin de chaque _epoch_, les déposants doivent retirer leur liquidité et la déposer dans les tranches de la nouvelle _epoch_ pour continuer à générer un rendement.
@@ -121,7 +122,7 @@ Jusqu'à présent, deux projets visent à fournir un rendement fixe sur des prod
 
 Tout comme Saffron, 88mph est une autre couche d'abstraction construite sur les dépôts de Compound, Aave et Harvest. Elle fournit un **rendement fixe pour les déposants**, alors que de l'autre côté du marché, les acheteurs d'obligations à taux variable supportent le risque des fluctuations de rendement du produit d'investissement sous-jacent.
 
-![88mph main interface](img/2021/risk-tranching/88mph.png "Différentes opportunités à rendement stable sur 88mph")
+![88mph main interface](/img/2021/risk-tranching/88mph.png "Différentes opportunités à rendement stable sur 88mph")
 
 ---
 
