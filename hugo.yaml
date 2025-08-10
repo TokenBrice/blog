@@ -40,7 +40,7 @@ pagination:
     pagerSize: 10
 
 permalinks:
-    post: /:slug/
+    post: /p/:slug/
     page: /:slug/
 
 params:
