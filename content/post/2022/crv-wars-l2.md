@@ -7,11 +7,10 @@ tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Polygon, Conve
 toc: true
 tocNum: false
 url: crv-wars-l2
+image: /img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
 ---
 
 The game and the fight around CRV and CVX tokens have changed in scope since my last article describing the original Curve Wars, now almost primitive. The infrastructure around Curve has become much denser with the arrival of Convex of course, but also Votium, Union Llama Airforce, Concentrator, CCRV, Lendflare, Warden, and many other protocols still in development.
-
-![curve-wars-l2-cover-tokenbrice](/img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png)
 
 To assume a strategic position on CRV or CVX, one must now be able to support an investment of several tens of millions of dollars. Thus, the race to accumulate CVX and CRV has become primarily a game for DAOs or whales. More specifically, DAOs seem to prefer CVX to CRV, which represents a more favorable trade-off: 
 

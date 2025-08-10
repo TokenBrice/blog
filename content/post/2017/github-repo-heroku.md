@@ -5,7 +5,7 @@ description: >-
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python, Cryptos]
-canonicalUrl: https://cai.tools.sap/blog/github-repo-heroku/
+image: /img/2017/sato/satodemo.gif
 ---
 
 In the previous tutorial, we learnt how to host our own server for our bot, so he would be able to **fetch data from third party APIs** and return it to its users. Alas, the Python server made in the last tutorial was **self-hosted**: you had to run it on your own computer, using ngrok to expose one of your ports to the internet. 
@@ -17,8 +17,6 @@ If you closed the terminal running the script, or turned off the computer, the s
 ## **Meet SATO, the cryptobot**
 
 Here’s the end-result of what we’ll build today: a cryptobot aka a chatbot able to fetch any cryptocurrency price.
-
-![cryptobot demo](/img/2017/sato/satodemo.gif)
 
 What you’ll have by the end of this tutorial
 

@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance, BAL, Polygon, 
 toc: true
 tocNum: false
 url: balancer-wars
+image: /img/2022/balancer-wars/balancer-wars-cover.png
 ---
 
 Les tokens directeurs de liquidité, comme je les appelle, sont une construction émergente et fascinante. En termes simples, ces tokens vous permettent de diriger des incitations (CRV, BAL, etc.) vers la pool de liquidité de votre choix. Pour ce faire, vous devez généralement posséder et verrouiller le token correspondant (veCRV, veBAL, etc.) au sein de leur contrat de gouvernance, ce qui garantit un engagement continu des projets participants.
 
 Ainsi, les tokens directeurs de liquidité sont rapidement devenus très recherchés par les DAO dont les besoins en liquidité sont constants et généralement croissants. Cela a conduit à ce que nous appelons des « courses » ou « guerres »: un terme qui fait référence aux diverses stratégies que les projets exploitent pour augmenter constamment leur réserve de veTokens, idéalement plus rapidement que les autres participants, afin de développer un avantage concurrentiel.
-
-![balancer-wars-cover](/img/2022/balancer-wars/balancer-wars-cover.png)
 
 J'ai largement couvert la tokenomique CRV, le pionnier du modèle ve, et leurs conséquences dans ce blog :
 

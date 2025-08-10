@@ -5,7 +5,7 @@ description: >-
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python, Cryptos]
-canonicalUrl: https://cai.tools.sap/blog/python-cryptobot/
+image: /img/2017/sato/satodemo.gif
 ---
 
 Chatbots have an incredible  potential. Yet, for bots to be efficient, they must integrate and  exchange data with existing services and processes.
@@ -17,8 +17,6 @@ For instance, Sato – the cryptobot we’ll be building today, is able to recog
 ## **WHAT ARE WE BUILDING TODAY?**
 
 By the end of this tutorial, we  will have a bot able to fetch data from a third party API depending on  what our users input, and reply to them with the value fetched. Here’s  the end-result of what we’ll build today: a cryptobot aka a chatbot able to fetch any cryptocurrency price.
-
-![cryptobot demo](/img/2017/sato/satodemo.gif)
 
 What you’ll have by the end of this tutorial
 

@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money 
 toc: true
 tocNum: true
 url: unstoppable-defi
+image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 ---
 
 Decentralized finance has allowed the emergence of autonomous protocols whose functionalities are ensured by smart contracts that are sometimes immutable. It enables individuals from all over the world to use financial services that are at the same time sovereign, accessible, and more efficient and resilient than those available in traditional finance. It's the lovely story that newcomers are told to lull them to sleep: the reality is much more nuanced.
 
 Indeed, **a handful of protocols fit this reality,** but most are far from being up to par. When the bulls are out, interest in the resilience of the protocols is generally shallow: the only thing that matters is price appreciation. But the bears have made a comeback, and thankfully it means a renewed interest in these topics.
-
-![unstoppable-defi-tokenbrice-cover](/img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png)
 
 The recent implosion of the Luna ecosystem and its associated stablecoin, UST, will hopefully serve as a wake-up call for some. It was, unfortunately, a **perfectly avoidable** disaster. The model used for this stablecoin and its flaws were already known, with many previous instances covered on this blog: BAC, MIC, ESD, DSD, etc. (at the application level on Ethereum rather than the protocol level, but with the same fundamental problems). They all had the same end: an endless spiral that brought them closer to absolute 0.
 

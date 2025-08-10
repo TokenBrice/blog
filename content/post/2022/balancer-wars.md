@@ -7,13 +7,12 @@ tags: [DeFi, Ethereum, Decentralized Finance, Balancer Finance, BAL, Polygon, Au
 toc: true
 tocNum: false
 url: balancer-wars
+image: /img/2022/balancer-wars/balancer-wars-cover.png
 ---
 
 Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects. 
 
 Thus, the liquidity-driver tokens quickly became highly sought after by DAOs with constant and usually growing liquidity needs. It led to what we call “races” (or "wars"): a term that refers to the various strategies projects harness to constantly increase their veTokens stash, ideally faster than the other participants of the races, to grow a competitive advantage.
-
-![balancer-wars-cover](/img/2022/balancer-wars/balancer-wars-cover.png)
 
 I’ve covered the CRV tokenomics, the pioneer of the veToken model, and their consequences in this blog extensively:
 

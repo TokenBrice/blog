@@ -4,7 +4,7 @@ description: "Considering how the core building blocks of Ethereum's decentralis
 date: '2020-12-01T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin, Funding Commons, NFT, BanklessFR]
-image: /img/2020/defi-beyond-finance/cover.png)
+image: /img/2020/defi-beyond-finance/cover.png
 ---
 
 Ethereum's decentralized finance is ready to grow beyond its sandbox: with a dense network of financial primitives, it's now easier than ever to harness DeFi for other ends, such as to replace a predatory relic of our past like the lottery, still insanely popular and detrimental.
