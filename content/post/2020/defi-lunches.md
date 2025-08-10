@@ -5,7 +5,7 @@ description: >-
 date: '2020-03-03T14:53:50.191Z'
 categories: [DeFi, Practical]
 tags: [DeFi, RealT, Compound, DAI]
-canonicalUrl: https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches
+image: /img/2020/bankless-defi-lunches/paying.jpeg
 ---
 
 `This tactic was first published in the Bankless newsletter and written with advice and support from Ryan.` 

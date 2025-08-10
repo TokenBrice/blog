@@ -4,7 +4,7 @@ date: '2019-03-04T09:44:14.735Z'
 description: Exploring the shift back to static site generators to sanitize web development practices
 tags: [web development, static websites, static web, dynamic websites, content, SEO, Markdown]
 categories: [Analysis]
-canonicalUrl: https://blog.callr.tech/static-web-roots/
+image: /img/2019/staticweb/jamstack.png
 ---
 
 `This article goes back to the early years of the web to understand why dynamic websites are so prevalent today. Then, we consider what static websites bring in terms of performance, editing speed, and organic results.`
