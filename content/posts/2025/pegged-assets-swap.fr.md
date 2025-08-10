@@ -5,11 +5,10 @@ date: '2025-07-08T01:13:50.191Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Finance Décentralisée, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Dette Intelligente, Collatéral Intelligent]
 url: pegged-assets-swap
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 ---
 
 Chers lecteurs, cela fait un moment ! Comme vous le savez probablement, la gestion de la liquidité est à la fois ma passion et ma profession. Dans cet article, je souhaite revenir aux fondamentaux et offrir une brève histoire au travers du prisme des swaps d'actifs pegged. En détaillant la structure de liquidité et les plateformes qui soutiennent le mieux ces paires, nous approfondirons notre compréhension des concepts clés qui restent cruciaux. Nous aurons également l'opportunité de parler de Fluid DEX et EulerSwap, les deux lancements les plus intéressants de l'année pour la construction de liquidité, qui méritent définitivement plus d'attention ici.
-
-![pegged-assets-swap-cover](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/pegged-assets-swap/pegged-assets-swap-cover.png)
 
 
 ### Les débuts des swaps d'actifs pegged (2018-2019)
