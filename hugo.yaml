@@ -51,7 +51,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     matomo:
-        url: https://ecocrypto.fr/stats/
+        url: "https://ecocrypto.fr/stats/"
         id: 1
 
     footer:
