@@ -5,6 +5,7 @@ description: >-
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analyse]
 tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
+image: /img/2018/user-privacy/cover.jpeg
 ---
 
 En 2018, respecter la vie privée de ses utilisateurs lorsque l’on lance un site c’est un jeu d’enfant, non ? Avec les révélations de Snowden sur NSA et toutes celles qui ont suivi, les hébergeurs et autres fournisseurs de service ont dû revoir leur pratiques ? C’est ce qu’on croyait nous aussi, et l’illusion est bien vite retombée. C’est parti pour un petit tour des pratiques : qui collecte vos donnés, comment et à quelles fins ?

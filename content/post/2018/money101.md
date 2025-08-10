@@ -6,9 +6,9 @@ description: >-
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
+image: /img/2018/money101/cover.jpeg
 ---
 
-![](/img/2018/money101/cover.jpeg)
 
 Money is a critical element of our modern societies: a slight change in its mechanisms can have a much broader impact than simply affecting the economy. Therefore, a better comprehension of these mechanisms will give you a better grasp on various topics ranging from Political Economy to cryptocurrencies.
 

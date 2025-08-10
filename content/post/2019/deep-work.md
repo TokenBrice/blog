@@ -6,9 +6,8 @@ description: >-
 date: '2019-04-24T09:44:14.735Z'
 categories: [Analysis]
 tags: [deep work, pomodoro, focus, google search operators]
+image: /img/2019/deep-work/cover.jpeg
 ---
-
-![](/img/2019/deep-work/cover.jpeg)
 
 _Deep Work_, a book published by Cal Newport in 2016 was highly impactful. While Cal’s writing did not bring anything new to the table, it put the spotlight on an idea that was rarely mentioned outside the psychology circles: the “[flow](https://en.wikipedia.org/wiki/Flow_%28psychology%29)” (also known as “being in the zone”).
 

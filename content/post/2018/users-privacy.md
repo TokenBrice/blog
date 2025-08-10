@@ -6,9 +6,8 @@ description: >-
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis, Privacy]
 tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
+image: /img/2018/user-privacy/cover.jpeg
 ---
-
-![](/img/2018/user-privacy/cover.jpeg)
 
 In 2018, respecting your users’ privacy should be easy, right? After the revelations made by Snowden about the NSA practices and all other that followed, web hosting providers and other services changed their practices, right? That’s what we thought — and the illusion didn’t last for long. Today we take you on a little data tour: who’s collecting them, how, and for what?
 
