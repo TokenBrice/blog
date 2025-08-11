@@ -4,7 +4,7 @@ description: "Et si l'incitation constante n'était pas la meilleure façon de m
 date: '2025-07-08T01:13:50.191Z'
 categories: [DeFi]
 image: img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
-tags: [DeFi, Ethereum, Finance Décentralisée, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Dette Intelligente, Collatéral Intelligent]
+tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
 url: pegged-assets-swap
 ---
 

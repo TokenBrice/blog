@@ -4,7 +4,7 @@ description: "What if constant incentivization is not the best way to sustain li
 date: '2025-07-08T01:13:50.191Z'
 categories: [DeFi]
 image: img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Smart Debt, Smart Collateral]
+tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
 url: pegged-assets-swap
 ---
 

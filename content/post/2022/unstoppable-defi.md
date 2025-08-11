@@ -3,7 +3,7 @@ title: "Behind the scene of the decentralization theater: a study of the inalter
 description: "From total centralization to unstoppable protocols: a definition and analysis of the spectrum of the different resilience levels of DeFi protocols."
 date: '2022-05-18T01:13:50.191Z'
 categories: [DeFi, Understanding]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, CRV, Uniswap, UNI, Pooltogether, POOL, Liquity, LUSD, LQTY, TrustlessFI, Chainlink, Oracles]
+tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, Pooltogether, Chainlink, Oracles]
 toc: true
 tocNum: true
 url: unstoppable-defi

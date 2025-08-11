@@ -3,7 +3,7 @@ title: "Les tokens non-fongibles (NFTs) : le poids et l'apport de l'histoire vé
 description: "Une balade dans le monde des NFTs pour comprendre l'intérêt de la rareté numérique prouvable et son apport pour des utilisations communautaires ou artistiques."
 date: '2021-03-31T01:13:50.191Z'
 categories: [NFT]
-tags: [Collectibles, Tokens Non Fongibles, NFT, Achat de NFT, Marché NFT, Farming NFT, NFT communautaire, CryptoPunk, NFT et Art]
+tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
 toc: true
 tocNum: true
 url: nft-cas-d'utilisation

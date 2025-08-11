@@ -3,7 +3,7 @@ title: "ve(3,3), the logical next step after veCRV?"
 description: "A deeper look at the Solidly and then later Velodrome model for understanding their improvement on the base Curve / veCRV template."
 date: '2023-04-28T01:13:50.191Z'
 categories: [DeFi, Understanding]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, CRV, Convex, CVX, vlCVX, veCRV, Solidly, Velodrome, ve(3,3), DEX, Decentralized Exchange]
+tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, Convex, veCRV, Solidly, Velodrome, DEX]
 toc: true
 tocNum: false
 url: solidly-velodrome-fork

@@ -3,7 +3,7 @@ title: "Liquity-driver token races beyond Curve: a look at the Balancer Wars"
 description: "Cornering the lay of the land of the Balancer Wars: we look at the DEX specificities to anticipate what's next for the BAL races."
 date: '2022-11-24T01:13:50.191Z'
 categories: [DeFi, Understanding]
-tags: [DeFi, Ethereum, Decentralized Finance, Balancer Finance, BAL, Polygon, Aura Finance, AURA, PowerPool, CVP, veBAL, vlAURA, Hidden Hand, Warden, Vote Bribing, Liquidity Driver Tokens]
+tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
 toc: true
 tocNum: false
 url: balancer-wars

@@ -3,7 +3,7 @@ title: "Comment construire un portefeuille DeFi résistant à l'inflation ?"
 description: "Et si la DeFi, plus que jamais, offrait des réponses sérieuses et crédibles aux enjeux économiques et financiers ? Illustration avec l'inflation gallopante et les divers produits et stratégies qui peuvent être mis en place pour s'en prémunir."
 date: '2022-03-08T01:13:50.191Z'
 categories: [DeFi, Comprendre]
-tags: [DeFi, Ethereum, Finance décentralisée, Stablecoins, Actifs stables, Marchés Monétaires, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin, Yearn Finance, Harvest Finance, Fuse, jFiats, Inflation, Dollar, stagflation, PT, FYT]
+tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin]
 toc: true
 tocNum: false
 url: defi-vs-inflation

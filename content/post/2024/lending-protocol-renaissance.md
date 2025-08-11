@@ -3,7 +3,7 @@ title: "Is this a Lending Protocol Renaissance?"
 description: "New models are being explored both for CDP protocols and money markets, and some protocols are even merging the two into one: is this a lending protocol renaissance?"
 date: '2024-07-01T01:13:50.191Z'
 categories: [DeFi, Understanding]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, Tapioca, Dyad, TAP, USDO, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate, veCRV, veVELO, twTAP]
+tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 ---

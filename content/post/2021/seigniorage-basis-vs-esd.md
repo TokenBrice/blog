@@ -3,7 +3,7 @@ title: "⚖ The tale of two seigniorage models: Basis vs ESD"
 description: "A comparative analysis of the two main seigniorage token models currently explored to produce new types of stablecoins on the Ethereum network."
 date: '2021-01-16T01:13:50.191Z'
 categories: [DeFi, Understanding]
-tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, USDT, USDC, ESD, DSD, BAC, BAS, MithCash, MIC, MIS, DAIQ, ZAI]
+tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
 toc: true
 tocNum: false
 image: /img/2021/seigniorage-basis-vs-esd/cover.png

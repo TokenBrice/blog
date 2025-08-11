@@ -3,7 +3,7 @@ title: "🎲 PoolTogether : L'histoire de la loterie sans perte où tout le mond
 description: "Les jeux d’argents, tous pourris ? Une fois de plus la finance décentralisée permet d’envisager de nouvelles manières de faire - en l'occurence une loterie moins prédatrice et plus ludique : PoolTogether. Cet article explique comment elle marche."
 date: '2021-12-20T01:13:50.191Z'
 categories: [DeFi, Comprendre]
-tags: [DeFi, Ethereum, Finance décentralisée, POOL, PoolTogether, Loterie, Paris sportifs, jeux d'argent]
+tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
 tocNum: false
 url: pool-together
