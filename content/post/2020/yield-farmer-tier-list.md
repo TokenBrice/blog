@@ -3,7 +3,7 @@ title: "💦 The Yield Farmer Tier List"
 description: "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: let's stack!"
 date: '2020-07-07T01:13:50.191Z'
 categories: [DeFi, Practical]
-tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve, Liquidity Incentives, Liquidity Mining, Ampleforth, mUSD]
+tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve]
 toc: true
 tocNum: true
 image: /img/2020/yield-farmer-tier-list/cover.png

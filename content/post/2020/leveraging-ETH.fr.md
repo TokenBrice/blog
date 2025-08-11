@@ -3,7 +3,7 @@ title: "🎚 Ether ou DeFi : Pourquoi choisir ?"
 description: "Il est temps de mettre vos ETH au travail ! Voici des outils et conseils pratiques pour utiliser Maker afin de maintenir une exposition en ETH tout en investissant dans la DeFi."
 date: '2020-08-03T01:13:50.191Z'
 categories: [DeFi, Pratique]
-tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging, Minting DAI]
+tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging]
 toc: true
 tocNum: true
 image: /img/2020/leveraging-ETH/leveraging-ETH-fr.png

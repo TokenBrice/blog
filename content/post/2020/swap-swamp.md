@@ -3,7 +3,7 @@ title: "🐊 Navigating the swap swamps"
 description: "Practical tips and considerations to understand what's happening under the hood while swapping tokens and how to do it efficiently."
 date: '2020-11-30T01:13:50.191Z'
 categories: [DeFi, Practical]
-tags: [DeFi, Ethereum, Swaps, Token Exchange, Swapping Tokens, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
+tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
 ---
 
