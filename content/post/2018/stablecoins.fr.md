@@ -4,7 +4,7 @@ description: >-
   Les stablecoins apportent une réponse à une des inquiétudes les plus récurrentes de la population générale : la volalitié. Oui, mais à quel prix?
 date: '2018-08-22T12:14:52.416Z'
 categories: [Analyse]
-tags: [stablecoins, DAI, USDT, USDC, Tether, EcoCrypto]
+tags: [stablecoins, Tether, EcoCrypto]
 image: /img/2018/stablecoins/cover.jpeg
 ---
 

@@ -5,7 +5,7 @@ description: >-
   telcos — will disintermediation ensue?
 date: '2018-11-28T14:00:52.000Z'
 categories: [Analysis]
-tags: [telco, blockchain, device authentification, mobile data reselling]
+tags: [telco, blockchain]
 canonicalUrl: https://www.callr.com/blog/blockchains-telecommunications/
 image: /img/2018/blockchain-telco/cover.png
 ---

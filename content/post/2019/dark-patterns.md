@@ -5,7 +5,7 @@ description: >-
   That's precisely the goal, among others, of dark patterns.
 date: '2019-04-15T09:02:04.642Z'
 categories: [Analysis, Privacy]
-tags: [design, engineered addiction, advertising model, data harversting]
+tags: [design, advertising model, data harversting]
 image: /img/2019/dark-patterns/cover.jpeg
 ---
 

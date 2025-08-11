@@ -4,7 +4,7 @@ description: >-
   A step by step tutorial to take your chatbot to the next level
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
-tags: [Chatbot, Python, Cryptos]
+tags: [Chatbot, Python]
 image: /img/2017/sato/satodemo.gif
 ---
 

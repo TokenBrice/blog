@@ -5,7 +5,7 @@ description: >-
   flush. A read to put you on tracks to win it back.
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis, Privacy]
-tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
+tags: [facebook, google, ad model, privacy]
 image: /img/2018/user-privacy/cover.jpeg
 ---
 

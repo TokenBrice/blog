@@ -5,7 +5,7 @@ description: >-
   crypto, et des astuces pour repérer les signaux inquiétants.
 date: '2018-07-05T10:36:03.488Z'
 categories: [Tutorial]
-tags: [ICO, scam, Ethereum, Décentralisation, EcoCrypto]
+tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
 image: /img/2018/hitchhikerguide/cover.jpeg
 ---
 

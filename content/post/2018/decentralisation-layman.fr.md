@@ -5,7 +5,7 @@ description: >-
   décentralisation pour Jean Dupont en 12 minutes.
 date: '2018-07-02T08:31:36.389Z'
 categories: [Analyse]
-tags: [décentralisation, vulgarisation, cryptomonnaie, blockchain, EcoCrypto]
+tags: [decentralization, blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 ---
 

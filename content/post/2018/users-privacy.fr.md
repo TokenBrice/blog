@@ -4,7 +4,7 @@ description: >-
   Un aperçu des pratiques de traçage des grands sites français et comment s''en protéger. Quelques pistes pour la vie privée de ses utilisateurs sur son site
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analyse]
-tags: [facebook, google, ad model, privacy, trackers, ecocrypto]
+tags: [facebook, google, ad model, privacy]
 image: /img/2018/user-privacy/cover.jpeg
 ---
 

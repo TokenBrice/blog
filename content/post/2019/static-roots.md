@@ -2,7 +2,7 @@
 title: Static web - back to the roots?
 date: '2019-03-04T09:44:14.735Z'
 description: Exploring the shift back to static site generators to sanitize web development practices
-tags: [web development, static websites, static web, dynamic websites, content, SEO, Markdown]
+tags: [web development, static websites, static web, SEO, Markdown]
 categories: [Analysis]
 image: /img/2019/staticweb/jamstack.png
 ---

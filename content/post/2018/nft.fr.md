@@ -4,7 +4,7 @@ description: >-
   Des concepts complexes rendus accessibles grâce aux carte Pokémon : le future de la tokénisation sur Ethereum, des tokens non fongibles aux ERCs
 date: '2018-08-08T12:56:45.787Z'
 categories: [NFT]
-tags: [Ethereum, NFT, tokens non fongibles, collectibles, ERC721, ERC1155, Enjin, CryptoKitties, EcoCrypto]
+tags: [Ethereum, NFT, non fungible tokens, collectibles, ERC721, ERC1155, EcoCrypto]
 image: /img/2018/nft/cover.png
 ---
 
