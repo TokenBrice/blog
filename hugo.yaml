@@ -44,15 +44,15 @@ permalinks:
     page: /:slug/
 
 params:
+    matomo:
+        url: "https://ecocrypto.fr/stats/"
+        id: 1
+    
     mainSections:
         - post
     featuredImageField: image
     rssFullContent: true
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
-
-    matomo:
-        url: "https://ecocrypto.fr/stats/"
-        id: 1
 
     footer:
         since: 2018
