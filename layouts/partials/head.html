@@ -116,6 +116,7 @@
 
     <!-- SEO -->
 <meta name="google-site-verification" content="GKWWQE1h2XIIBlvWrtGNhmuSUuDwYKxrawGJsfg8Ka4" />
+    {{ partial "matomo.html" . }}
     {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
 {{ else }}
@@ -156,7 +157,6 @@
         {{ partial "third-party/google-adsense-auto.html" . }}
     {{- end }}
 
-    {{ partial "matomo.html" . }}
     {{ partial "custom/head.html" . }}
 
     <script async src="/js/main.js" type="application/javascript"></script>
