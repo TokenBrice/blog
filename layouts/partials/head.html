@@ -114,9 +114,6 @@
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
     {{ end }}
 
-    <!-- MATOMO -->
-    {{ partial "matomo.html" . }}
-
     <!-- SEO -->
 <meta name="google-site-verification" content="GKWWQE1h2XIIBlvWrtGNhmuSUuDwYKxrawGJsfg8Ka4" />
     {{ if .Params.canonicalUrl }}
@@ -163,5 +160,8 @@
 
     <script async src="/js/main.js" type="application/javascript"></script>
 
+    <!-- MATOMO -->
+    {{ partial "matomo-tracking.js" . }}
+    {{- template "_internal/matomo-tracking.js" . -}}
 
 </head>
