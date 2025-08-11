@@ -114,9 +114,11 @@
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType .Permalink $.Site.Title | safeHTML }}
     {{ end }}
 
+    <!-- MATOMO -->
+    {{ partial "matomo.html" . }}
+
     <!-- SEO -->
 <meta name="google-site-verification" content="GKWWQE1h2XIIBlvWrtGNhmuSUuDwYKxrawGJsfg8Ka4" />
-    {{ partial "matomo.html" . }}
     {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
 {{ else }}
