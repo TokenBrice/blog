@@ -156,11 +156,9 @@
         {{ partial "third-party/google-adsense-auto.html" . }}
     {{- end }}
 
+    {{ partial "matomo-tracking" . }}
     {{ partial "custom/head.html" . }}
 
     <script async src="/js/main.js" type="application/javascript"></script>
-
-    <!-- MATOMO -->
-    {{ partial "matomo-tracking" . }}
 
 </head>
