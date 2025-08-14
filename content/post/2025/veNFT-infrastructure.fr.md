@@ -48,6 +48,8 @@ Ce service transforme les veNFT en actifs plus liquides, permettant aux utilisat
 
 ### haiVELO: amélioration de rendement sur veVELO
 
+![haiVELO](/img/2025/veNFT-infrastructure/haiVELO.jpeg)
+
 Certains projets **tirent intelligemment parti des Dromes en offrant un service aux détenteurs de veNFT** ou aux fournisseurs de liquidité. L’un d’eux est [HAI](http://letsgethai.com/earn), avec haiVELO. Pour les utilisateurs, haiVELO fournit un dérivé liquide de veVELO avec une amplification supplémentaire du rendement, puisqu’il peut servir de collatéral pour minter du HAI. Le vote est optimisé pour le rendement, et payé en HAI.
 
 ### Relayers: stratégies OG

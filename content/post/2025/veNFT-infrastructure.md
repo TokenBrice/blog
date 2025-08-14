@@ -48,6 +48,8 @@ This service transforms veNFTs into more liquid assets, enabling users to **acce
 
 ### haiVELO: Enhancing VELO earnings
 
+![haiVELO](/img/2025/veNFT-infrastructure/haiVELO.jpeg)
+
 Some projects are **smartly harnessing the Drome by providing a service to veNFT holders** or liquidity providers. One of these is [HAI](http://letsgethai.com/earn), with haiVELO. For users, haiVELO provides a liquid derivative of veVELO with additional yield amplification, since it can be collateral for minting HAI. It optimizes the voting for yield, paid out in HAI.
 
 ### Relayers: OG strategies
