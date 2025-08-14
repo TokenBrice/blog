@@ -6,7 +6,7 @@ categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
 url: veNFT-infrastructure
-image: img/2025/veNFT-infrastructure/cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/veNFT-infrastructure/cover.png
 ---
 
 The landscape of veNFTs is rapidly evolving, ushering in a new era of decentralized finance where governance power and yield generation are tokenized. As the adoption of the veNFT model grew, **the infrastructure supporting it matured**, harnessing veNFT’s native yield to deliver novel services and automations. 
