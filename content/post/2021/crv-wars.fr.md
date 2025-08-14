@@ -3,7 +3,7 @@ title: "⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacit
 description: "Un guide concis pour suivre la course à l'accumulation CRV par tous les moyens possibles y compris l'achat de vote (bribes), et pour évaluer les stratégies Curve des protocoles DeFi"
 date: '2021-09-28T01:13:50.191Z'
 categories: [DeFi, Comprendre]
-tags: [DeFi, Ethereum, Curve Finance, CRV, Polygon, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv]
+tags: [DeFi, Ethereum, Curve Finance, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
 toc: true
 tocNum: true
 url: crv-wars

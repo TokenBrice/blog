@@ -3,7 +3,7 @@ title: "⚔ Guerre du CRV avancée : analyse des protocoles construits sur Curve
 description: "Votium, Warden, Concentrator, CCRV, Conic, etc. La couche de protocoles impliqués dans les Curve Wars se densifie : je vous propose un tour d'horizon pour mieux comprendre les dynamiques autour des tokens CRV et CVX."
 date: '2022-04-05T01:13:50.191Z'
 categories: [DeFi, Comprendre]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, Convex, CVX, Votium, vlCVX, veCRV, bribe.crv, Conic Finance, Warden, Concentrator]
+tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, Convex, Votium, veCRV, bribe.crv, Conic Finance, Warden, Concentrator]
 toc: true
 tocNum: false
 url: crv-wars-l2

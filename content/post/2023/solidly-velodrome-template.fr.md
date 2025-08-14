@@ -3,7 +3,7 @@ title: "ve(3,3) : l'étape logique après le modèle veCRV?"
 description: "On creuse les modèles de Solidly et Velodrome pour comprendre en quoi les DEX ve(3,3) augmentent le modèle veCRV."
 date: '2023-04-28T01:13:50.191Z'
 categories: [DeFi, Comprendre]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, Convex, veCRV, Solidly, Velodrome, DEX]
+tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
 tocNum: false
 url: solidly-velodrome-fork
