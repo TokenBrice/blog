@@ -1,6 +1,6 @@
 ---
 title: "Turning Locks into Leverage: How Autopilot, 40Acres & haiVELO Evolve veNFTs"
-description: "The development of the veNFT infrastructure layer with Autopilot, 40Acres, and haiVELO: automation, collateral, and gauge vote sinks."
+description: "The development of the veNFT infrastructure layer with Autopilot, 40Acres, and haiVELO: automation, collateral, and yield enhancement."
 date: '2025-08-14T16:06:21.672Z'
 categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
@@ -46,9 +46,9 @@ Beyond autonomous management, innovative financial instruments are being develop
 
 This service transforms veNFTs into more liquid assets, enabling users to **access instant capital while smartly harnessing future yield potential**.
 
-### haiVELO: Enhancing HAI liquidity
+### haiVELO: Enhancing VELO earnings
 
-Some projects are **smartly harnessing the Drome by providing a service to veNFT holders** or liquidity providers. One of these is [HAI](http://letsgethai.com/earn), with haiVELO. For users, haiVELO provides a liquid derivative of veVELO with additional yield amplification, since it can be collateral for minting HAI. For HAI, it translates into more VELO votes to support their pools, such as HAI/KITE, HAI/sUSD, or HAI/LUSD. It’s a win-win situation to scale the project’s liquidity.
+Some projects are **smartly harnessing the Drome by providing a service to veNFT holders** or liquidity providers. One of these is [HAI](http://letsgethai.com/earn), with haiVELO. For users, haiVELO provides a liquid derivative of veVELO with additional yield amplification, since it can be collateral for minting HAI. It optimizes the voting for yield, paid out in HAI.
 
 ### Relayers: OG strategies
 
