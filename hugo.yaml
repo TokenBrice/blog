@@ -47,6 +47,7 @@ params:
     matomo:
         url: "https://ecocrypto.fr/stats/"
         id: 1
+        disableSRI: true
     
     mainSections:
         - post

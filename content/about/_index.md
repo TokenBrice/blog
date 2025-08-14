@@ -100,6 +100,5 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | :---: | :---: | :---: | :---: |
 | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://hey.xyz/u/tokenbrice) |
 
-## Media
 
-{{< custommedia language="en" >}}
+{{< matomo-optout >}}
