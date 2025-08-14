@@ -20,7 +20,7 @@ Let’s zoom in on this historical trivia to understand **the level of waste tha
 USDC/USDT is another story, though, as the two assets are deeply correlated, with a maximum price difference ever seen between them of around 10% during a specific event (the USDC SVB depeg); in regular times, the two have a price difference in the basis point range. However, UNIv2 distributes the liquidity across the entire price range, meaning it allocates an equal amount of liquidity anywhere from 1 USDC = 0.0000000001 USDT to 1 USDC = 10000000000000 USDT. To put it simply: 99.9% of the liquidity in a UNIv2_USDC/USDT will never be utilized. I think it’s clearer on the graph:
 
 
-![liquidity-structures](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/liquidity-structure.png "x*y=k vs StableSwap")
+![liquidity-structures](/img/2025/pegged-assets-swap/liquidity-structure.png "x*y=k vs StableSwap")
 
 
 The only valuable liquidity there (assuming 1 USDC ≃ 1 USDT) is located at the intersection of the two green lines, making up a very minimal share of the entire liquidity distribution curve.
@@ -65,7 +65,7 @@ Picture an average user supplying ETH collateral and borrowing USDC. Does he spe
 
 That is precisely what smart debt does. In a smart debt vault, our borrower borrows a mix of USDC and USDT, which constantly evolves: his debt now serves as liquidity for the USDC/USDT pair. What that means for the borrowers is **reduced borrowing cost, as he now earns trading fees**, potentially enabling him to offset the borrowing interest.
 
-![fluid-smart-debt](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/fluid-smart-debt.png)
+![fluid-smart-debt](img/2025/pegged-assets-swap/fluid-smart-debt.png)
 
 That’s from the borrower’s perspective, but now let’s switch to a protocol mindset. What does this mean for Circle and Tether? Essentially, **liquidity at virtually 0 costs, with no form of incentivization whatsoever.** Nothing really new there for Circle who has been sponsored by the whole ecosystem for years – but for another stablecoin, say a GHO, BOLD, or FRAX, that is huge.
 
@@ -117,7 +117,7 @@ Ekubo’s situation is arguably even worse, as they came only recently to the pa
 
 The problem lies in where the volume comes from: the vast majority (>95%) of it is on a USDC/USDT pair with 0.00005% fees and heavily incentivized. Ekubo is essentially playing a race to the bottom it cannot win because Ekubo cannot sustain extremely low fees in the long term (LPs must eat), while Fluid/Euler can (if borrowers receive even a 0.1% yield on their debt, thanks to smart debt, they are better off than without smart debt and thus happy).
 
-![ekubo-stats](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/ekubo.png "Ekubo Stats, as of July 07 2025")
+![ekubo-stats](/img/2025/pegged-assets-swap/ekubo.png "Ekubo Stats, as of July 07 2025")
 
 With a $2.6M TVL pool, processing ~$130M volume daily for $662 of fees collected daily, incentivized ~8% in EKUBO, they are already fast approaching the limit of what they can do.
 

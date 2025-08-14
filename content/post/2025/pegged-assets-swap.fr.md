@@ -20,7 +20,7 @@ Examinons cette anecdote historique pour comprendre **le niveau de gaspillage at
 USDC/USDT est une autre histoire, car les deux actifs sont fortement corrélés, avec une différence de prix maximale jamais observée d'environ 10 % lors d'un événement spécifique (le dépeg de l'USDC lié à SVB) ; en temps normal, les deux ont une différence de prix de l'ordre des points de base. Cependant, UNIv2 distribue la liquidité sur toute la plage de prix, ce qui signifie qu'il alloue une quantité égale de liquidité partout, de 1 USDC = 0.0000000001 USDT à 1 USDC = 10000000000000 USDT. Pour le dire simplement : 99,9 % de la liquidité dans un UNIv2_USDC/USDT ne sera jamais utilisée. Je pense que c'est plus clair sur le graphique :
 
 
-![liquidity-structures](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/liquidity-structure.png "x*y=k vs StableSwap")
+![liquidity-structures](/img/2025/pegged-assets-swap/liquidity-structure.png "x*y=k vs StableSwap")
 
 
 La seule liquidité utile là-dedans (en supposant 1 USDC ≃ 1 USDT) se trouve à l'intersection des deux lignes vertes, représentant une part très minime de la courbe de distribution de liquidité entière.
@@ -64,7 +64,7 @@ Imaginez un utilisateur moyen fournissant un collatéral ETH et empruntant de l'
 
 C'est précisément ce que fait la dette intelligente. Dans un vault de dette intelligente, notre emprunteur emprunte un mélange d'USDC et d'USDT, qui évolue constamment : sa dette sert désormais de liquidité pour la paire USDC/USDT. Ce que cela signifie pour les emprunteurs, c'est **une réduction des coûts d'emprunt, car ils gagnent maintenant des frais de trading**, ce qui peut potentiellement compenser les intérêts d'emprunt.
 
-![fluid-smart-debt](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/fluid-smart-debt.png)
+![fluid-smart-debt](/img/2025/pegged-assets-swap/fluid-smart-debt.png)
 
 C'est du point de vue de l'emprunteur, mais passons maintenant à la perspective d'un protocole. Qu'est-ce que cela signifie pour Circle et Tether ? Essentiellement, **une liquidité à un coût pratiquement nul, sans aucune forme d'incitation.** Rien de vraiment nouveau pour Circle, qui a été sponsorisé par tout l'écosystème pendant des années – mais pour un autre stablecoin, disons un GHO, BOLD, ou FRAX, c'est énorme.
 
@@ -116,7 +116,7 @@ La situation d'Ekubo est sans doute encore pire, car ils sont arrivés récemmen
 
 Le problème réside dans l'origine du volume : la grande majorité (>95 %) provient d'une paire USDC/USDT avec des frais de 0,00005 % et fortement incitée. Ekubo joue essentiellement une course vers le bas qu'il ne peut pas gagner, car Ekubo ne peut pas maintenir des frais extrêmement bas à long terme (les LP doivent vivre), tandis que Fluid/Euler le peuvent (si les emprunteurs reçoivent même un rendement de 0,1 % sur leur dette grâce à la dette intelligente, ils sont mieux lotis qu'avant et donc satisfaits).
 
-![ekubo-stats](https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/staticimg/2025/pegged-assets-swap/ekubo.png "Statistiques Ekubo, au 07 juillet 2025")
+![ekubo-stats](/img/2025/pegged-assets-swap/ekubo.png "Statistiques Ekubo, au 07 juillet 2025")
 
 Avec un pool de 2,6 M$ de TVL, traitant environ 130 M$ de volume quotidien pour 662 $ de frais collectés, incité à environ 8 % en EKUBO, ils approchent déjà rapidement la limite de ce qu'ils peuvent faire.
 
