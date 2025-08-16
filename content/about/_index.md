@@ -99,6 +99,3 @@ Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed
 | 🐦 Twitter | 🛩 Telegram | 🛩 Announcements | 👾 Farcaster |
 | :---: | :---: | :---: | :---: |
 | [@TokenBrice](https://twitter.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://hey.xyz/u/tokenbrice) |
-
-
-{{< matomo-optout >}}
