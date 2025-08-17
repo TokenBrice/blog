@@ -118,20 +118,28 @@
             glossaryData = {{ index .Site.Data.glossary .Language.Lang | jsonify | safeJS }};
             categories = {{ index .Site.Data.glossary.categories .Language.Lang | jsonify | safeJS }};
             
-            // Build article data from Hugo site pages - simple approach
+            // Build article data from Hugo site pages with better URL matching
             sitePages = {
             {{- range .Site.RegularPages -}}
+                {{- $url := .RelPermalink -}}
                 {{- if .Params.url -}}
-                "/{{ .Params.url }}/": {
-                    url: "{{ .RelPermalink }}",
-                    image: "{{ .Params.image | default "" }}"
-                },
-                {{- else -}}
-                "{{ .RelPermalink }}": {
-                    url: "{{ .RelPermalink }}",
-                    image: "{{ .Params.image | default "" }}"
-                },
+                    {{- $customUrl := printf "/%s/" .Params.url -}}
+                    "{{ $customUrl }}": {
+                        url: "{{ $url }}",
+                        image: "{{ .Params.image | default "" }}",
+                        title: "{{ .Title }}"
+                    },
+                    "{{ $url }}": {
+                        url: "{{ $url }}",
+                        image: "{{ .Params.image | default "" }}",
+                        title: "{{ .Title }}"
+                    },
                 {{- end -}}
+                "{{ $url }}": {
+                    url: "{{ $url }}",
+                    image: "{{ .Params.image | default "" }}",
+                    title: "{{ .Title }}"
+                },
             {{- end -}}
             };
             
@@ -356,7 +364,7 @@
                     </div>
                 </div>` : ''}
                 
-                ${term.related_articles ? `
+                ${false && term.related_articles ? `
                 <div class="term-articles">
                     <h4>${lang === 'fr' ? 'Articles connexes' : 'Related Articles'}</h4>
                     <div class="related-articles-list article-list--compact">
@@ -372,12 +380,14 @@
             '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#39;'
         }[m])) : '';
         
-        // Get image from sitePages lookup
-        const articleImage = getArticleImage(article.url);
+        // Get the correct URL and image from sitePages lookup
+        const pageInfo = getArticleInfo(article.url);
+        const actualUrl = pageInfo ? pageInfo.url : article.url;
+        const articleImage = pageInfo ? pageInfo.image : '';
         
         return `
             <article>
-                <a href="${safeHtml(article.url)}">
+                <a href="${safeHtml(actualUrl)}">
                     <div class="article-details">
                         <h2 class="article-title">${safeHtml(article.title)}</h2>
                         <section class="article-preview">${safeHtml(article.description)}</section>
@@ -451,6 +461,34 @@
         }
         // If no image found in mapping, hide the image container
         return '';
+    }
+    
+    function getArticleInfo(url) {
+        // Try exact match first
+        if (sitePages[url]) {
+            return sitePages[url];
+        }
+        
+        // Try with trailing slash
+        const urlWithSlash = url.endsWith('/') ? url : url + '/';
+        if (sitePages[urlWithSlash]) {
+            return sitePages[urlWithSlash];
+        }
+        
+        // Try without trailing slash
+        const urlWithoutSlash = url.endsWith('/') ? url.slice(0, -1) : url;
+        if (sitePages[urlWithoutSlash]) {
+            return sitePages[urlWithoutSlash];
+        }
+        
+        // Search through all entries to find a match
+        for (const [key, pageInfo] of Object.entries(sitePages)) {
+            if (key.includes(url) || pageInfo.url === url || key === url) {
+                return pageInfo;
+            }
+        }
+        
+        return null;
     }
     
     function handleImageError(img) {
