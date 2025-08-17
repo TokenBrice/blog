@@ -167,6 +167,13 @@
             
             // Initialize everything
             init();
+            
+            // Check for pending category filter
+            if (window.pendingCategoryFilter) {
+                console.log('Processing pending category filter:', window.pendingCategoryFilter);
+                handleCategoryFilter(window.pendingCategoryFilter);
+                delete window.pendingCategoryFilter;
+            }
         } catch (error) {
             console.error('Error initializing glossary:', error);
         }
@@ -512,6 +519,9 @@
         // Scroll to glossary section
         document.getElementById('glossary-app').scrollIntoView({ behavior: 'smooth' });
     }
+    
+    // Expose the function globally so category cards can use it
+    window.handleCategoryFilter = handleCategoryFilter;
     
     function scrollToLetter(letter) {
         const element = document.getElementById(`letter-${letter}`);
