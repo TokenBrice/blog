@@ -1,0 +1,12 @@
+<article class="{{ if .Params.image }}has-image {{ end }}main-article">
+    {{ partial "breadcrumbs" . }}
+    {{ partial "article/components/header" . }}
+
+    {{ partial "article/components/content" . }}
+
+    {{ partial "article/components/footer" . }}
+
+    {{ if or .Params.math .Site.Params.article.math }}
+        {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+</article>

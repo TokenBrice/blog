@@ -1,0 +1,57 @@
+/* Breadcrumb Navigation Styles */
+.breadcrumbs {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--color-contrast-medium);
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child)::after {
+    content: "›";
+    margin: 0 0.5rem;
+    color: var(--color-contrast-low);
+  }
+
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-primary-h);
+    }
+  }
+
+  &.active {
+    color: var(--color-contrast-high);
+    font-weight: 500;
+  }
+}
+
+/* Responsive breadcrumbs */
+@media (max-width: 768px) {
+  .breadcrumb-list {
+    font-size: 0.8rem;
+  }
+  
+  .breadcrumb-item:not(:last-child):not(:first-child) {
+    display: none;
+  }
+  
+  .breadcrumb-item:nth-last-child(2)::before {
+    content: "... › ";
+    color: var(--color-contrast-low);
+  }
+}

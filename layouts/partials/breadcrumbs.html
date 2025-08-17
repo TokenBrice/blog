@@ -1,0 +1,59 @@
+{{- if not .IsHome -}}
+{{- $ancestors := slice -}}
+{{- $current := . -}}
+
+{{- /* Build the breadcrumb trail */ -}}
+{{- range $current.Ancestors.Reverse -}}
+  {{- if not .IsHome -}}
+    {{- $ancestors = $ancestors | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $ancestors -}}
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <ol class="breadcrumb-list">
+    <li class="breadcrumb-item">
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </li>
+    {{- range $ancestors -}}
+    <li class="breadcrumb-item">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{- end -}}
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ .Title }}
+    </li>
+  </ol>
+</nav>
+
+{{- /* JSON-LD structured data for breadcrumbs */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ .Site.Title | jsonify }},
+      "item": {{ .Site.BaseURL | jsonify }}
+    }
+    {{- range $index, $ancestor := $ancestors -}},
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 2 }},
+      "name": {{ $ancestor.Title | jsonify }},
+      "item": {{ $ancestor.Permalink | jsonify }}
+    }
+    {{- end -}},
+    {
+      "@type": "ListItem",
+      "position": {{ add (len $ancestors) 2 }},
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }
+  ]
+}
+</script>
+{{- end -}}
+{{- end -}}

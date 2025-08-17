@@ -1,0 +1,69 @@
+{{- if .IsPage -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | default .Summary | plainify | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ absURL "/img/main/emblem-color-square-150.png" | jsonify }}
+    }
+  },
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  {{- end }}
+  "url": {{ .Permalink | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  },
+  {{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
+  {{- if $image.exists }}
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ absURL $image.permalink | jsonify }}
+  },
+  {{- end }}
+  "keywords": [
+    {{- range $index, $tag := .Params.tags -}}
+      {{- if $index }}, {{ end }}{{ $tag | jsonify }}
+    {{- end -}}
+  ],
+  "articleSection": [
+    {{- range $index, $category := .Params.categories -}}
+      {{- if $index }}, {{ end }}{{ $category | jsonify }}
+    {{- end -}}
+  ],
+  "inLanguage": {{ .Language.Lang | jsonify }}
+}
+</script>
+{{- else if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ .Site.Title | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ .Site.Params.sidebar.subtitle | default .Site.Params.description | jsonify }},
+  "inLanguage": {{ .Language.Lang | jsonify }},
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": {{ printf "%s/search/?q={search_term_string}" .Site.BaseURL | jsonify }}
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{- end -}}
