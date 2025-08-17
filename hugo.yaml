@@ -1,7 +1,7 @@
 baseurl: https://tokenbrice.xyz
 languageCode: en-us
 theme: [hugo-notice, hugo-theme-stack, matomo]
-title: TokenBrice
+title: TokenBrice - Brutally Honest DeFi
 copyright: TokenBrice
 
 # Theme i18n support
@@ -215,17 +215,17 @@ menu:
     social:
         - identifier: X
           name: X
-          url: https:/x.com/tokenbrice
+          url: https://x.com/tokenbrice/
           params:
               icon: brand-x
         - identifier: youtube
           name: Youtube
-          url: https:/x.com/tokenbrice
+          url: https://x.com/tokenbrice/
           params:
               icon: brand-youtube
         - identifier: telegram
           name: telegram
-          url: https:/t.me/tokenbrice_news
+          url: https://t.me/tokenbrice_news/
           params:
               icon: brand-telegram
 
