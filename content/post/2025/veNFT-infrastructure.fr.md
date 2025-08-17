@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, v
 toc: true
 url: veNFT-infrastructure
 image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/veNFT-infrastructure/cover-fr.png
+difficulty: "intermediate"
 ---
 
 Le paysage des veNFT évolue rapidement, inaugurant une nouvelle ère de finance décentralisée où le pouvoir de gouvernance et la génération de rendement sont tokenisés. À mesure que l'adoption du modèle veNFT s'est développée, **l'infrastructure qui le soutient a mûri**, exploitant le rendement natif des veNFT pour offrir de nouveaux services et automatisations. 

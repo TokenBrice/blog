@@ -6,6 +6,7 @@ categories: [DeFi, Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
 url: leverage-sir
 image: img/2025/leverage-sir/leverage-sir-cover.jpg
+difficulty: "advanced"
 ---
 
 Il y a quelques semaines, Sir Trading, une nouveau protocole DeFi fascinant et innovant, a été lancée, et je suis rapidement tombé amoureux. J'ai également décidé de m'impliquer, alors bienvenue dans cet article qui présente Sir Trading, explique ce que j'ai trouvé intéressant dans le modèle et annonce mon implication en tant que conseiller.

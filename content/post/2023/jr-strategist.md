@@ -8,6 +8,7 @@ toc: false
 tocNum: false
 url: jr-strategist
 image: img/2023/jr-strategist/jr-strategist-cover.png
+difficulty: "beginner"
 ---
 
 

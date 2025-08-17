@@ -9,6 +9,7 @@ image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/stati
 toc: true
 draft: false
 type: post
+difficulty: "intermediate"
 ---
 
 Something big is happening in onchain lending. Beneath the surface, a quiet shift is reshaping how liquidity moves, how markets connect, and how users access yield. A wave of new models, integrations, and rising stars like Euler and Fluid rewrote the rules with unprecedented efficiency and flexibility. A new layer of coordination is emerging and could redefine lending itself: today, we pull back the curtain on lending aggregation.

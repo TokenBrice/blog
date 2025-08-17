@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: dex-echanges-decentralisées-capture-valeur
 image: /img/2021/dex-value-capture/cover-fr.png
+difficulty: "intermediate"
 ---
 
 J'ai partagé mon point de vue sur de nombreux protocoles DeFi sur ce blog, mais je me suis récemment rendu compte que je n'étais jamais revenu à l'essentiel : les DEX. C'est précisément ce que nous allons faire aujourd'hui, en abordant le sujet principalement en examinant les mécanismes de capture de la valeur.

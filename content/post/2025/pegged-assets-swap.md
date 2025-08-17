@@ -6,6 +6,7 @@ categories: [DeFi]
 image: img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
 url: pegged-assets-swap
+difficulty: "expert"
 ---
 
 Dear readers, it’s been a while! As you likely know, liquidity management is both my passion and profession. In this article, I aim to revisit the basics and offer a brief history through the lens of pegged asset swaps. As we detail the liquidity structure and venues that best support those pairs, we will gain a deeper understanding of key concepts that remain critical to navigating that space today. We also get the chance to cover Fluid DEX and EulerSwap, the two most interesting releases of the year for liquidity-building who definitely deserved more airtime around here.

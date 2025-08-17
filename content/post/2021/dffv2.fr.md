@@ -6,6 +6,7 @@ categories: [Projets]
 tags: [DeFi France, Discord, Communauté]
 url: defi-france-version-2
 image: /img/2021/dffv2/dffv2-cover.png
+difficulty: "beginner"
 ---
 
 L'heure est venue pour la prochaine ère de DeFi France ! Cet article explicite la vision ainsi que les différents éléments d'un nouveau système déjà disponible sur le Discord DeFi France. Y'a du blé à se faire avec le prochain chapitre de l'aventure DFF, mais pas seulement celui que vous croyez !

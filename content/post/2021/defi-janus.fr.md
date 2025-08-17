@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: defi-janus
 image: /img/2021/defi-janus/defi-janus-cover.png
+difficulty: "intermediate"
 ---
 
 La mythologie est souvent utilisée pour illustrer la DeFi. Par exemple, on évoque souvent le dieu cananéen Moloch pour symboliser les enjeux de coordination. Aujourd'hui, je vais identifier avec vous une nouvelle divinité du panthéon DeFi : Janus.

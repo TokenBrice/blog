@@ -82,6 +82,27 @@
           "active": true
         }
       ]
+    },
+    "difficulty": {
+      "name": "Difficulté",
+      "class": "difficulty",
+      "values": [
+        {
+          "key": "beginner",
+          "name": "🟢 Débutant",
+          "active": true
+        },
+        {
+          "key": "intermediate",
+          "name": "🟡 Intermédiaire",
+          "active": true
+        },
+        {
+          "key": "expert",
+          "name": "🔴 Expert",
+          "active": true
+        }
+      ]
     }
   },
   "en": {
@@ -164,6 +185,27 @@
         {
           "key": "post",
           "name": "📰 Post",
+          "active": true
+        }
+      ]
+    },
+    "difficulty": {
+      "name": "Difficulty",
+      "class": "difficulty",
+      "values": [
+        {
+          "key": "beginner",
+          "name": "🟢 Beginner",
+          "active": true
+        },
+        {
+          "key": "intermediate",
+          "name": "🟡 Intermediate",
+          "active": true
+        },
+        {
+          "key": "expert",
+          "name": "🔴 Expert",
           "active": true
         }
       ]

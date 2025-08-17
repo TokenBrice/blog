@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: defi-vs-inflation
 image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
+difficulty: "beginner"
 ---
 
 

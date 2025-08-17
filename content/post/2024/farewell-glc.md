@@ -5,6 +5,7 @@ date: '2024-02-08T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
 url: farewell-glc
+difficulty: "intermediate"
 ---
 
 I’ve resigned from the GHO Liquidity Committee and would like, in this blog post, to share more context on its adventures and the learning we can draw from it. 

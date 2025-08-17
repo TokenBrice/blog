@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: luchadores-nft
 image: /img/2021/luchadores-nft/luchadores-cover.png
+difficulty: "beginner"
 ---
 
 Cet article va être plus personnel qu'à mon habitude, mais vu le sujet je ne peux pas faire autrement. On va s'intéresser à un projet NFT dans lequel je suis fortement impliqué : les Luchadores. Ce sont des lutteurs entièrement onchain, bientôt personnages dans un jeu à venir,  lui aussi onchain. 

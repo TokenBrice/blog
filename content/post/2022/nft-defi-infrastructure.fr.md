@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: nftfi-defi-nft
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
+difficulty: "beginner"
 ---
 
 La finance décentralisée a ouvert un monde de possibles : une myriade d’intermédiaires auparavant nécessaires sont désormais surnuméraires. Malgré tout, elle intimide par sa potentielle complexité et sa transdisciplinarité. Outre la dimension technique évidente, la DeFi invoque également des notions issues de disciplines diverses: économie, sciences sociales, “mémétique”, etc.

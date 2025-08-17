@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: money-markets-risk
 image: /img/2021/risk-tranching/cover.gif
+difficulty: "expert"
 ---
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.

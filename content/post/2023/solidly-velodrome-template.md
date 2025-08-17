@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: solidly-velodrome-fork
 image: img/2023/solidly-velodrome-template/cover.png
+difficulty: "intermediate"
 ---
 
 Solidly/Velodrome forks have been popping up like mushrooms, especially across the popular layer 2 like Arbitrum or zkSync. Solidly is now the top #3 forked protocol in DeFi and one of the rare cases where the forks (such as Velodrome) are the market leaders. At first glance, it could seem like just another fork hype train, like when we had the Uni/Sushi fork season, Olympus fork season, etc.

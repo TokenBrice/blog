@@ -5,6 +5,7 @@ date: '2021-03-11T01:13:50.191Z'
 categories: [Projets]
 tags: [DeFi, Science Fiction, DeSciFi]
 url: science-fiction-defi-1
+difficulty: "beginner"
 ---
 
 Bonjour à tous et bienvenue dans ce nouvel espace de réflexion !

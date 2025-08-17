@@ -8,6 +8,7 @@ toc: false
 tocNum: false
 url: joining-liquity
 image: /img/2022/tokenbrice-liquity/cover.png
+difficulty: "beginner"
 ---
 
 J'ai été un peu moins impliqué dans la discussion DeFi ces derniers temps et vous pouvez légitimement vous demander pourquoi. Tout d'abord, j'avais besoin de ralentir et de prendre du temps pour moi, et le moment ne pouvait pas être mieux choisi. Pendant mon congé, j'ai eu le temps de réfléchir à ce qui m'a attiré à la DeFi en premier lieu et comment l'espace a évolué depuis que j'ai commencé à m'impliquer il y a environ quatre ans. Voir des protocoles présentant des défauts de conception massifs exploser est rassurant, surtout pour ceux qui l'ont anticipé, mais ce n'est pas exactement ce dont je rêvais lorsque j'ai découvert la DeFi.

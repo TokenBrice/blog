@@ -8,6 +8,7 @@ toc: false
 tocNum: false
 url: maverick-liquidity-shaping
 image: img/2023/liquidity-shaping-maverick/cover.png
+difficulty: "intermediate"
 ---
 
 Cela fait quatre mois que Maverick est sorti, et quelques jours que le jeton MAV a rejoint la mêlée. Pourtant, la plupart des acteurs de la DeFi se demandent encore comment Maverick peut offrir une efficacité du capital 2 à 3 fois supérieure à celle de son principal concurrent, Uniswap. 

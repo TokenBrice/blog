@@ -5,6 +5,7 @@ date: '2021-01-04T01:13:50.191Z'
 categories: [Analysis]
 tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Post-Covid]
 image: /img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
+difficulty: "beginner"
 ---
 
 Remember when we used to talk of a "post-covid world"? It's funny to see how the expression quickly stopped being used as people realized the social order of the "new" world would be as nonsensical and wasteful as the previous.

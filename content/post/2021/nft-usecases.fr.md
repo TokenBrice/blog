@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: nft-cas-d'utilisation
 image: /img/2021/nft-usecases/88DeLo.png
+difficulty: "beginner"
 ---
 
 Les tokens non-fongibles attirent beaucoup l’attention dernièrement. D'une part, le grand public se gratte la tête quant aux records toujours plus hauts observés sur les ventes phares, désormais couvertes dans la presse généraliste[^beeple]. D'autre part, des artistes encore non initiés aux blockchains réalisent le potentiel qu'offre la **désintermédiation** ainsi que les possibilités offertes par **la nature programmable de cette nouvelle forme d'art**. Entre les deux, se mêle un public varié allant du collectionneur occasionnel au spéculateur aguerri.

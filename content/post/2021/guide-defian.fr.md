@@ -8,6 +8,7 @@ url: guide-defian
 toc: true
 tocNum: true
 image: /img/2021/guide-defian/guide-defian-cover.png
+difficulty: "beginner"
 ---
 
 La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi. 

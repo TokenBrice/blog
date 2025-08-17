@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: ethereum-stable-assets
 image: /img/2021/pegged-assets/money-god-meme.png
+difficulty: "intermediate"
 ---
 
 Today, I want to cover an essential topic for Ethereum and other blockchains and often misunderstood: **"stable" assets**, which track the price of a reference asset. Before looking at the different approaches to producing such an asset, we'll first start with a higher level of analysis:

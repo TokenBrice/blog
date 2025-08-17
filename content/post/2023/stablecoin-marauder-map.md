@@ -6,6 +6,7 @@ categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, fETH, xETH, Interest Rate]
 url: stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
+difficulty: "beginner"
 ---
 
 Wild new stablecoins are constantly appearing, and with the multiplication of chains, layers, and viable stablecoin models the trend is not stopping anytime soon. **Navigating the stablecoin landscape is turning into a critical skill for DeFi**.

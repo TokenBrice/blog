@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: solidly-velodrome-fork
 image: img/2023/solidly-velodrome-template/cover.png
+difficulty: "intermediate"
 ---
 
 

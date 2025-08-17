@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
+difficulty: "intermediate"
 ---
 
 Les tokens directeurs de liquidité, comme je les appelle, sont une construction émergente et fascinante. En termes simples, ces tokens vous permettent de diriger des incitations (CRV, BAL, etc.) vers la pool de liquidité de votre choix. Pour ce faire, vous devez généralement posséder et verrouiller le token correspondant (veCRV, veBAL, etc.) au sein de leur contrat de gouvernance, ce qui garantit un engagement continu des projets participants.

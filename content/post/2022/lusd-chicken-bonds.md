@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: lusd-chicken-bonds
 image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
+difficulty: "beginner"
 ---
 
 Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**. 

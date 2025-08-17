@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: nft-usecases
 image: /img/2021/nft-usecases/88DeLo.png
+difficulty: "beginner"
 ---
 
 Non-fungible tokens are attracting a lot of attention lately. On the one hand, the general public is scratching its head about the ever-rising records observed on flagship sales, now covered in the mainstream press[^1]. On the other hand, artists still not initiated to blockchains realize the potential offered by **disintermediation** as well as the possibilities offered by **the programmable nature of this new art form**. In between, a diverse audience ranging from the casual collector to the seasoned speculator.

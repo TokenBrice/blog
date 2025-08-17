@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: maverick-liquidity-shaping
 image: img/2023/liquidity-shaping-maverick/cover.png
+difficulty: "intermediate"
 ---
 
 It's been four months since Maverick is out, and a few days since the MAV token joined the fray. Yet, most of DeFi is still scratching its head regarding how Maverick delivers 2-3x the capital efficiency of its top competitor, Uniswap. 

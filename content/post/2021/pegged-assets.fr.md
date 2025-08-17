@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: actifs-stables-ethereum
 image: /img/2021/pegged-assets/money-god-meme.png
+difficulty: "intermediate"
 ---
 
 Aujourd'hui, je veux traiter un sujet essentiel pour Ethereum et les autres blockchains et souvent mal compris : **les actifs "stables"**, qui suivent le prix d'un actif de référence. Avant d'étudier les différentes approches qui permettent de produire un tel actif, on va d'abord commencer par un niveau d'analyse plus élevé :

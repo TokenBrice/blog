@@ -4,10 +4,12 @@ description: "An introduction to Fixed Interest Rate Protocols (FIRPs) through t
 date: '2021-02-11T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound, ApWine, 88MPH, Fixed Interest Rate Protocol, FIRP]
+difficulty: "intermediate"
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
+difficulty: "intermediate"
 ---
 
 Yields are like fine wines, the secret lies in the brewing process. As DeFi is developing faster than ever, with now more than $ 50 billion of total value locked across all protocols, **the yield offering is diversifying**.

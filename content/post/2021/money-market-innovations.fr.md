@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: marche-monetaire-innovations
 image: /img/2021/money-market-innovations/cover.png
+difficulty: "intermediate"
 ---
 
 Les marchés monétaires comme [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) ou [Maker](https://www.defiscan.info/protocols/sky/ethereum) sont au centre de la DeFi. Pour l'utilisateur final, ils remplissent des fonctions similaires à ce qu'offre une banque dans la finance classique : pouvoir emprunter ou rendre productif des actifs en les prêtant à d'autres.

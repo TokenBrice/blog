@@ -1,0 +1,82 @@
+<div class="article-details">
+    {{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                {{ .LinkTitle }}
+            </a>
+        {{ end }}
+    </header>
+    {{ end }}
+
+    {{/* NEW: Expertise level badge */}}
+    {{ with .Params.difficulty }}
+    <div class="article-difficulty">
+        {{ if eq . "beginner" }}
+            <span class="difficulty-badge difficulty-beginner">🟢 Beginner</span>
+        {{ else if eq . "intermediate" }}
+            <span class="difficulty-badge difficulty-intermediate">🟡 Intermediate</span>
+        {{ else if eq . "expert" }}
+            <span class="difficulty-badge difficulty-expert">🔴 Expert</span>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h2>
+    
+        {{ with .Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+    </div>
+
+    {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showFooter := or $showDate $showReadingTime }}
+    {{ if $showFooter }}
+    <footer class="article-time">
+        {{ if $showDate }}
+            <div>
+                {{ partial "helper/icon" "date" }}
+                <time class="article-time--published">
+                    {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            </div>
+        {{ end }}
+
+        {{ if $showReadingTime }}
+            <div>
+                {{ partial "helper/icon" "clock" }}
+                <time class="article-time--reading">
+                    {{ T "article.readingTime" .ReadingTime }}
+                </time>
+            </div>
+        {{ end }}
+
+        {{/* NEW: Show difficulty in footer too for lists */}}
+        {{ with .Params.difficulty }}
+            <div class="article-difficulty-footer">
+                {{ if eq . "beginner" }}🟢{{ else if eq . "intermediate" }}🟡{{ else if eq . "expert" }}🔴{{ end }}
+                <span class="difficulty-text">{{ . | title }}</span>
+            </div>
+        {{ end }}
+    </footer>
+    {{ end }}
+
+    {{ if .IsTranslated }}
+        <footer class="article-translations">
+            {{ partial "helper/icon" "language" }}
+            <div>
+                {{ range .Translations }}
+                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+                {{ end }}
+            </div>
+        </footer>
+    {{ end }}
+</div>

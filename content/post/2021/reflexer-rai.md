@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: reflexer-rai
 image: /img/2021/reflexer-rai/cover.gif
+difficulty: "intermediate"
 ---
 
 RAI is a strange beast that many people still don't understand or care about, including people who are really knowledgeable about DeFi. So it was time to offer you a rather exhaustive article dedicated to its subject. I've included everything I thought was relevant to understand why an asset like RAI is needed, what it does and how it works.

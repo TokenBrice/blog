@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: badger-digg
 image: /img/2021/badger-digg/cover.png
+difficulty: "beginner"
 ---
 
 Despite launching barely a few weeks ago, BadgerDAO quickly grew into a DeFi powerhouse now **hosting > $1.2B of assets farming**. While I've quickly touched on Badger in previous articles or shows, I think it's about time for a dedicated piece focusing on DIGG but not forgetting about its context.

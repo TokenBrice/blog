@@ -9,6 +9,7 @@ toc: true
 tocNum: true
 url: defi-flywheel
 image: /img/2021/defi-flywheel/defi-flywheel-cover.png
+difficulty: "beginner"
 ---
 
 En trois semaines, le protocole Convex a attiré plus de $ 3 milliards de dépôts, tout en devenant la plus grande 🐳 baleine de CRV, aujourd'hui et à priori pour toujours. La chance n'est jamais un facteur négligeable, mais avec une entrée aussi fracassante dans les sommets de la DeFi il faut chercher bien plus loin. En effet, la clef de compréhension de l'ascension fulgurante de Convex c'est la tokenomics, et c'est donc notre sujet du jour !

@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: pool-together
 image: /img/2021/pool-together/cover.png
+difficulty: "beginner"
 ---
 
 DeFi has enabled the emergence of an alternative financial system built on fundamentally different foundations: transparency, open-source, composability and resistance to censorship. Many use cases have emerged and it is now possible to buy and exchange tokens without a centralized intermediary, but also to lend or borrow and much more!

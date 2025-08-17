@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, Associatio
 url: defi-collective
 image: /img/2023/defi-collective/twitter_banner.png
 toc: false
+difficulty: "beginner"
 ---
 
 

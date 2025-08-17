@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
+difficulty: "intermediate"
 ---
 
 Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects. 

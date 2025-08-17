@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Decentralized Finance, NFT, Forgotten Wizard, Luchadores,
 tocNum: false
 url: nftfi-defi-nft
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
+difficulty: "beginner"
 ---
 
 Decentralized finance has opened up a world of possibilities: a myriad of previously necessary intermediaries are now supernumerary. Nevertheless, it is intimidating because of its potential complexity and interdisciplinary. In addition to the obvious technical dimension, DeFi also invokes concepts from various disciplines: economics, social sciences, "memetics", etc.

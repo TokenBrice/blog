@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: pool-together
 image: /img/2021/pool-together/cover.png
+difficulty: "beginner"
 ---
 
 

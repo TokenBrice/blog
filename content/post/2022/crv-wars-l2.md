@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: crv-wars-l2
 image: /img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
+difficulty: "expert"
 ---
 
 The game and the fight around CRV and CVX tokens have changed in scope since my last article describing the original Curve Wars, now almost primitive. The infrastructure around Curve has become much denser with the arrival of Convex of course, but also Votium, Union Llama Airforce, Concentrator, CCRV, Lendflare, Warden, and many other protocols still in development.

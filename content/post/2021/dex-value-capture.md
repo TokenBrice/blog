@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
 image: /img/2021/dex-value-capture/cover-fr.png
+difficulty: "intermediate"
 ---
 
 I've shared my perspective on many DeFi protocols on this blog, but recently I realized I've never gone back to the basics: the DEXs. That's precisely what we will do today, tackling the topic mostly by looking at value capture mechanisms.

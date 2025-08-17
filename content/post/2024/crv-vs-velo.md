@@ -6,6 +6,7 @@ categories: [DeFi]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 url: crv-vs-velo
 image: img/2024/crv-vs-velo/cover.png
+difficulty: "expert"
 ---
 
 Today, I want to address Velodrome/Aerodrome, a genuine success story in DeFi. I’ve covered DEXes extensively on this blog, especially Curve: this article will compare the two models and explain how Velodrome improved on the veCRV template.

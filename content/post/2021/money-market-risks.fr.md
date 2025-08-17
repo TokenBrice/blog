@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: marche-monetaire-risque
 image: /img/2021/risk-tranching/cover.gif
+difficulty: "expert"
 ---
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.

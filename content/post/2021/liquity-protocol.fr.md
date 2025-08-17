@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 url: liquity-protocol
 image: /img/2021/liquity-protocol/cover.png
+difficulty: "intermediate"
 ---
 
 [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) est un protocole encore unique en son genre : il permet l'emprunt sur ETH et le mint d'un stablecoin (LUSD) sans pour autant nécessiter de gouvernance ce qui le rend "inarrêtable".

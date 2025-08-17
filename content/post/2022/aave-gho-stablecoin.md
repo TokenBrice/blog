@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: aave-gho-stablecoin
 image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
+difficulty: "intermediate"
 ---
 
 A few weeks ago, the concept for the GHO stablecoin was introduced on the Aave Governance Forum and triggered a wave of excitement across DeFi. Indeed, the idea of a decentralized, collateral-backed stablecoin, pegged to USD and native to the Aave DAO makes a lot of sense as a next step for the protocol.

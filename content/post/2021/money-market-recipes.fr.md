@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 url: recettes-marches-actifs
 image: /img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png
+difficulty: "intermediate"
 ---
 
 Sur ce blog, je discute fréquemment des marchés monétaires ou marchés d'actifs en DeFi. Fondamentalement, ils vous permettent de **prêter et d'emprunter des tokens**. Ces deux actions sont devenues comme **des verbes de la DeFi** : ils sont mobilisés directement ou indirectement dans quasiment toutes les stratégies.

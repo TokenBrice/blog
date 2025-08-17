@@ -1,0 +1,98 @@
+/* Expertise Level / Difficulty Badges */
+
+.article-difficulty {
+    margin-bottom: 0.75rem;
+    
+    .difficulty-badge {
+        display: inline-block;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        background-color: var(--card-background);
+        border: 1px solid var(--card-border);
+        color: var(--card-text-color-main);
+        transition: all 0.3s ease;
+        
+        &:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+    
+    .difficulty-beginner {
+        background-color: rgba(34, 197, 94, 0.1);
+        border-color: rgba(34, 197, 94, 0.3);
+        color: #16a34a;
+    }
+    
+    .difficulty-intermediate {
+        background-color: rgba(251, 191, 36, 0.1);
+        border-color: rgba(251, 191, 36, 0.3);
+        color: #ca8a04;
+    }
+    
+    .difficulty-expert {
+        background-color: rgba(239, 68, 68, 0.1);
+        border-color: rgba(239, 68, 68, 0.3);
+        color: #dc2626;
+    }
+}
+
+/* Difficulty in article footer (for article lists) */
+.article-difficulty-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    
+    .difficulty-text {
+        font-size: 0.8rem;
+        color: var(--card-text-color-secondary);
+        text-transform: capitalize;
+    }
+}
+
+/* Inline difficulty badge for archives */
+.article-difficulty-inline {
+    color: var(--card-text-color-secondary);
+    
+    .difficulty-text {
+        font-size: 0.75rem;
+        font-weight: 500;
+        margin-left: 0.25rem;
+        text-transform: capitalize;
+    }
+}
+
+/* Dark mode adjustments */
+[data-scheme="dark"] {
+    .difficulty-beginner {
+        background-color: rgba(34, 197, 94, 0.15);
+        border-color: rgba(34, 197, 94, 0.4);
+        color: #22c55e;
+    }
+    
+    .difficulty-intermediate {
+        background-color: rgba(251, 191, 36, 0.15);
+        border-color: rgba(251, 191, 36, 0.4);
+        color: #fbbf24;
+    }
+    
+    .difficulty-expert {
+        background-color: rgba(239, 68, 68, 0.15);
+        border-color: rgba(239, 68, 68, 0.4);
+        color: #f87171;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .article-difficulty {
+        margin-bottom: 0.5rem;
+        
+        .difficulty-badge {
+            font-size: 0.8rem;
+            padding: 0.2rem 0.4rem;
+        }
+    }
+}
