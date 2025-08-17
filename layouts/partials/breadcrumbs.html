@@ -10,23 +10,7 @@
 {{- end -}}
 
 {{- if $ancestors -}}
-<nav class="breadcrumbs" aria-label="breadcrumb">
-  <ol class="breadcrumb-list">
-    <li class="breadcrumb-item">
-      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    </li>
-    {{- range $ancestors -}}
-    <li class="breadcrumb-item">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{- end -}}
-    <li class="breadcrumb-item active" aria-current="page">
-      {{ .Title }}
-    </li>
-  </ol>
-</nav>
-
-{{- /* JSON-LD structured data for breadcrumbs */ -}}
+{{- /* JSON-LD structured data for breadcrumbs (SEO only, not visible) */ -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
