@@ -5,7 +5,14 @@
   "scripts": {
     "optimize": "node build/optimize.js",
     "build": "webpack --config build/webpack.config.dev.js",
-    "build:production": "webpack --config build/webpack.config.production.js"
+    "build:production": "webpack --config build/webpack.config.production.js",
+    "dev": "webpack --config build/webpack.config.dev.js --watch",
+    "clean": "rm -rf public/* static/js/main.js",
+    "serve": "hugo server --disableFastRender --navigateToChanged",
+    "build:site": "yarn install && yarn build:production && hugo --gc --minify && yarn optimize",
+    "setup": "git submodule update --init --recursive && yarn install",
+    "lint": "eslint src/js --ext .js,.vue",
+    "format": "prettier --write 'src/**/*.{js,vue}'"
   },
   "author": "Sigri Denver <sigri44+github@hotmail.fr>",
   "license": "MIT",

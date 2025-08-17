@@ -12,7 +12,7 @@
             <ul>
                 <li v-for="medium in filteredData">
                     <p>
-                        <a :href="medium.link" target="_blank" ref="noopener">{{ medium.name }}</a>
+                        <a :href="medium.link" target="_blank" rel="noopener noreferrer">{{ medium.name }}</a>
                     </p>
                 </li>
             </ul>
@@ -57,21 +57,28 @@
                 }
             },
             getFilteredData: function () {
-                this.filteredData = media;
-                let filteredDataByfilters = [];
+                // Start with all media
+                let result = [...media];
+                
+                // Apply filters sequentially
                 for (const [key, category] of Object.entries(this.selectedFilters)) {
-                    if (category.length > 0) {
-                        if (key === 'date') {
-                            filteredDataByfilters = this.filteredData.filter(data => category.some(filter => data.date === filter.name));
-                            this.filteredData = filteredDataByfilters;
-                        } else {
-                            if (category.length !== this.filtersList[key].values.length) {
-                                filteredDataByfilters = this.filteredData.filter(data => category.some(filter => data.tags.includes(filter.key.toLowerCase())))
-                                this.filteredData = filteredDataByfilters;
-                            }
-                        }
+                    if (category.length === 0) continue;
+                    
+                    // Skip if all options are selected (no filter effect)
+                    if (category.length === this.filtersList[key]?.values?.length) continue;
+                    
+                    if (key === 'date') {
+                        const selectedDates = category.map(filter => filter.name);
+                        result = result.filter(data => selectedDates.includes(data.date));
+                    } else {
+                        const selectedKeys = category.map(filter => filter.key.toLowerCase());
+                        result = result.filter(data => 
+                            data.tags && selectedKeys.some(key => data.tags.includes(key))
+                        );
                     }
                 }
+                
+                this.filteredData = result;
             },
             getFiltersByLanguage: function () {
                 switch (this.language) {

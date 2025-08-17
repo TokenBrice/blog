@@ -228,6 +228,11 @@ menu:
           url: https://t.me/tokenbrice_news/
           params:
               icon: brand-telegram
+        - identifier: farcaster
+          name: farcaster
+          url: https://hey.xyz/u/tokenbrice
+          params:
+              icon: brand-farcaster
 
 related:
     includeNewer: true
