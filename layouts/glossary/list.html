@@ -1,37 +1,52 @@
+{{ define "body-class" }}
+    article-page
+{{ end }}
+
 {{ define "main" }}
-<article class="main-article" style="color: var(--card-text-color-main); background: var(--body-background);">
-    <header class="article-header" style="color: var(--card-text-color-main);">
-        <div class="article-details">
-            {{ with .Params.categories }}
-                {{ partial "article/components/details" (dict "context" $ "scope" "categories") }}
+    <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+        <header class="article-header">
+            <div class="article-details">
+                {{ with .Params.categories }}
+                    {{ partial "article/components/details" (dict "context" $ "scope" "categories") }}
+                {{ end }}
+                {{ with .Params.tags }}
+                    {{ partial "article/components/details" (dict "context" $ "scope" "tags") }}
+                {{ end }}
+            </div>
+
+            <h1 class="article-title">{{ .Title }}</h1>
+            {{ with .Params.description }}
+                <p class="article-subtitle">{{ . }}</p>
             {{ end }}
-            {{ with .Params.tags }}
-                {{ partial "article/components/details" (dict "context" $ "scope" "tags") }}
-            {{ end }}
-        </div>
+        </header>
 
-        <h1 class="article-title">{{ .Title }}</h1>
-        <p class="article-subtitle">{{ .Description }}</p>
-    </header>
+        <section class="article-content">
+            {{ .Content }}
+            
+            <div id="glossary-app" class="glossary-app">
+                <!-- Quick Navigation -->
+                <div class="alphabet-nav" id="alphabet-container"></div>
 
-    <section class="article-content" style="color: var(--card-text-color-main);">
-        {{ .Content }}
-        
-        <div id="glossary-app" class="glossary-app">
-            <!-- Quick Navigation -->
-            <div class="alphabet-nav" id="alphabet-container"></div>
-
-            <!-- Terms Display -->
-            <div class="terms-wrapper">
-                <div id="terms-list" class="terms-list"></div>
-                <div id="no-results" class="no-results" style="display: none;">
-                    <h3>{{ if eq .Language.Lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
-                    <p>{{ if eq .Language.Lang "fr" }}Sélectionnez une autre catégorie.{{ else }}Try selecting a different category.{{ end }}</p>
+                <!-- Terms Display -->
+                <div class="terms-wrapper">
+                    <div id="terms-list" class="terms-list"></div>
+                    <div id="no-results" class="no-results" style="display: none;">
+                        <h3>{{ if eq .Language.Lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
+                        <p>{{ if eq .Language.Lang "fr" }}Sélectionnez une autre catégorie.{{ else }}Try selecting a different category.{{ end }}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</article>
+        </section>
+        
+        <!-- Add article footer -->
+        {{ partial "article/components/footer" . }}
+    </article>
+    
+    <!-- Add related content section -->
+    {{ partial "article/components/related-content" . }}
+    
+    <!-- Add footer as in other pages -->
+    {{ partialCached "footer/footer" . }}
 
 <!-- FAQ Schema for SEO -->
 <script type="application/ld+json">
@@ -76,12 +91,22 @@
     // Current state
     let currentTerms = [];
     
-    // Initialize when DOM is ready - with delay to avoid theme conflicts
-    document.addEventListener('DOMContentLoaded', function() {
-        // Small delay to let theme's JavaScript initialize first
-        setTimeout(function() {
-            initializeGlossary();
-        }, 100);
+    // Wait for Stack theme to fully initialize
+    function waitForStackTheme() {
+        // Check if Stack theme has initialized
+        if (window.Stack && document.readyState === 'complete') {
+            // Give Stack a moment to finish its initialization
+            setTimeout(initializeGlossary, 100);
+        } else {
+            // Keep checking
+            setTimeout(waitForStackTheme, 100);
+        }
+    }
+    
+    // Start checking for Stack initialization after page load
+    window.addEventListener('load', function() {
+        // Give Stack theme priority to initialize first
+        setTimeout(waitForStackTheme, 200);
     });
     
     function initializeGlossary() {
@@ -93,7 +118,7 @@
             glossaryData = {{ index .Site.Data.glossary .Language.Lang | jsonify | safeJS }};
             categories = {{ index .Site.Data.glossary.categories .Language.Lang | jsonify | safeJS }};
             
-            // Build article data from Hugo site pages
+            // Build article data from Hugo site pages - simple approach
             sitePages = {
             {{- range .Site.RegularPages -}}
                 {{- if .Params.url -}}
@@ -151,46 +176,55 @@
     
     function setupCategoryCardListeners() {
         // Find existing category cards in the page content and make them clickable
-        document.addEventListener('click', (e) => {
-            // Look for clicks on category cards in the content
-            const clickedElement = e.target;
-            
-            // Check if clicked element or its parent is a category card
-            let categoryCard = null;
-            let currentElement = clickedElement;
-            
-            // Traverse up to find a category card (look for elements with category info)
-            while (currentElement && currentElement !== document.body) {
-                // Look for category-related elements based on text content or structure
-                const textContent = currentElement.textContent;
+        // Only add event listener to the glossary content area, not the entire document
+        const glossaryApp = document.getElementById('glossary-app');
+        if (glossaryApp) {
+            glossaryApp.addEventListener('click', (e) => {
+                // Only handle clicks within the glossary app, not navigation elements
+                const clickedElement = e.target;
                 
-                // Map category names to IDs
-                const categoryMap = {
-                    'Yields & Returns': 'yields',
-                    'Rendements et Retours': 'rendements', 
-                    'Risks & Security': 'risks',
-                    'Risques et Sécurité': 'risques',
-                    'Strategies': 'strategies',
-                    'Stratégies': 'stratégies',
-                    'Protocols & Platforms': 'protocols',
-                    'Protocoles et Plateformes': 'protocoles',
-                    'Tokens & Assets': 'tokens',
-                    'Technical Concepts': 'technical',
-                    'Concepts Techniques': 'technique'
-                };
-                
-                // Check if this element represents a category
-                for (const [categoryName, categoryId] of Object.entries(categoryMap)) {
-                    if (textContent && textContent.includes(categoryName)) {
-                        handleCategoryFilter(categoryId);
-                        e.preventDefault();
-                        return;
-                    }
+                // Skip if clicked on navigation elements
+                if (clickedElement.closest('.sidebar, .hamburger, #main-menu, #toggle-menu')) {
+                    return; // Let the theme handle navigation clicks
                 }
                 
-                currentElement = currentElement.parentElement;
-            }
-        });
+                // Check if clicked element or its parent is a category card
+                let currentElement = clickedElement;
+                
+                // Traverse up to find a category card (look for elements with category info)
+                while (currentElement && currentElement !== glossaryApp) {
+                    // Look for category-related elements based on text content or structure
+                    const textContent = currentElement.textContent;
+                    
+                    // Map category names to IDs
+                    const categoryMap = {
+                        'Yields & Returns': 'yields',
+                        'Rendements et Retours': 'rendements', 
+                        'Risks & Security': 'risks',
+                        'Risques et Sécurité': 'risques',
+                        'Strategies': 'strategies',
+                        'Stratégies': 'stratégies',
+                        'Protocols & Platforms': 'protocols',
+                        'Protocoles et Plateformes': 'protocoles',
+                        'Tokens & Assets': 'tokens',
+                        'Technical Concepts': 'technical',
+                        'Concepts Techniques': 'technique'
+                    };
+                    
+                    // Check if this element represents a category
+                    for (const [categoryName, categoryId] of Object.entries(categoryMap)) {
+                        if (textContent && textContent.includes(categoryName)) {
+                            handleCategoryFilter(categoryId);
+                            e.preventDefault();
+                            e.stopPropagation();
+                            return;
+                        }
+                    }
+                    
+                    currentElement = currentElement.parentElement;
+                }
+            });
+        }
     }
     
     
@@ -326,23 +360,34 @@
                 <div class="term-articles">
                     <h4>${lang === 'fr' ? 'Articles connexes' : 'Related Articles'}</h4>
                     <div class="related-articles-list article-list--compact">
-                        ${term.related_articles.map(article => `
-                            <article>
-                                <a href="${safeHtml(article.url)}">
-                                    <div class="article-details">
-                                        <h2 class="article-title">${safeHtml(article.title)}</h2>
-                                        <section class="article-preview">${safeHtml(article.description)}</section>
-                                    </div>
-                                    <div class="article-image">
-                                        <img src="${getArticleImage(article.url)}" loading="lazy" alt="${safeHtml(article.title)}" onerror="handleImageError(this)"/>
-                                    </div>
-                                </a>
-                            </article>
-                        `).join('')}
+                        ${term.related_articles.map(article => renderRelatedArticle(article)).join('')}
                     </div>
                 </div>` : ''}
             </div>
         </div>`;
+    }
+    
+    function renderRelatedArticle(article) {
+        const safeHtml = (str) => str ? str.replace(/[<>&"']/g, (m) => ({
+            '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#39;'
+        }[m])) : '';
+        
+        // Get image from sitePages lookup
+        const articleImage = getArticleImage(article.url);
+        
+        return `
+            <article>
+                <a href="${safeHtml(article.url)}">
+                    <div class="article-details">
+                        <h2 class="article-title">${safeHtml(article.title)}</h2>
+                        <section class="article-preview">${safeHtml(article.description)}</section>
+                    </div>
+                    ${articleImage ? `
+                    <div class="article-image">
+                        <img src="${safeHtml(articleImage)}" loading="lazy" alt="${safeHtml(article.title)}" onerror="handleImageError(this)"/>
+                    </div>` : ''}
+                </a>
+            </article>`;
     }
     
     function getCategoryName(categoryId) {
