@@ -15,7 +15,7 @@ aliases:
 sitemap:
     priority: 0.9
     changefreq: weekly\
-draft: true
+draft: false
 ---
 
 # Glossaire DeFi

@@ -15,16 +15,14 @@ aliases:
 sitemap:
     priority: 0.9
     changefreq: weekly
-draft: true
+draft: false
 ---
 
 # DeFi Glossary
 
-Your comprehensive guide to decentralized finance terminology. This glossary covers essential DeFi concepts, from basic terms like APY to advanced strategies like yield farming.
+Your comprehensive guide to decentralized finance terminology. This glossary covers essential DeFi concepts, from basic terms like APY to advanced strategies like yield farming. Whether you're a DeFi beginner or experienced user, this resource helps you understand the rapidly evolving world of decentralized finance.
 
-Whether you're a DeFi beginner or experienced user, this resource helps you understand the rapidly evolving world of decentralized finance.
-
-{{< glossary-search >}}
+Each item is provided with definition, example, related questions and relevant content.
 
 ## Why This Glossary?
 
@@ -33,6 +31,7 @@ Whether you're a DeFi beginner or experienced user, this resource helps you unde
 - **Practical Examples**: Real-world usage examples for better understanding
 - **Regular Updates**: Continuously updated with new DeFi innovations
 - **Multilingual**: Available in English and French
+- **Forkability**: Open source + easy to fork to translate into other languages 
 
 ## Categories
 

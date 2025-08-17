@@ -17,6 +17,13 @@
             "question": "What is the difference between APR and APY?",
             "answer": "APR shows simple interest while APY includes compounding effects. APY is typically higher and more accurate for DeFi yields."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "How to make DeFinancial products work for you",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "A complete guide to DeFi yield strategies and understanding returns"
+          }
         ]
       },
       {
@@ -34,6 +41,13 @@
           {
             "question": "How can I minimize impermanent loss?",
             "answer": "Choose stable pairs, use concentrated liquidity ranges carefully, or consider single-sided staking instead of providing liquidity to volatile pairs."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "How to make DeFinancial products work for you",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "Understanding LP risks and DeFi yield strategies"
           }
         ]
       },
@@ -53,6 +67,18 @@
             "question": "Is yield farming profitable?",
             "answer": "Yield farming can be profitable but involves significant risks including smart contract vulnerabilities, impermanent loss, and high gas fees. Success requires careful research and risk management."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "The DeFinancial Farming Toolbox",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Complete guide to yield farming strategies, tools and best practices"
+          },
+          {
+            "title": "Vaults: DeFi Investing Streamlined?",
+            "url": "/p/vaults-defi-investing-streamlined/",
+            "description": "Understanding automated yield strategies and vault mechanisms"
+          }
         ]
       },
       {
@@ -71,7 +97,1544 @@
             "question": "How long do liquidity mining programs last?",
             "answer": "Programs vary widely, from weeks to years. Many protocols adjust rewards based on protocol needs and governance decisions."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "The DeFinancial Farming Toolbox",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Understanding liquidity mining programs and reward mechanisms"
+          }
         ]
+      },
+      {
+        "id": "amm",
+        "term": "AMM",
+        "full_term": "Automated Market Maker",
+        "category": "technical",
+        "definition": "An Automated Market Maker (AMM) is a type of decentralized exchange protocol that relies on mathematical formulas to price assets rather than order books. AMMs enable permissionless trading by using liquidity pools where users can swap tokens automatically.",
+        "short_definition": "Decentralized exchange using mathematical formulas for pricing instead of order books",
+        "example": "Uniswap is an AMM where users can swap ETH for USDC directly from liquidity pools without needing a counterparty.",
+        "related_terms": ["liquidity-pool", "slippage", "impermanent-loss", "arbitrage"],
+        "risks": ["Slippage on large trades", "Smart contract vulnerabilities", "Liquidity provider risks"],
+        "tags": ["defi", "dex", "trading", "amm"],
+        "common_questions": [
+          {
+            "question": "How does an AMM determine prices?",
+            "answer": "AMMs use algorithms like x*y=k (constant product) to automatically adjust prices based on supply and demand in liquidity pools."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "How to make DeFinancial products work for you",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "Understanding AMM-based DeFi strategies and automated trading"
+          }
+        ]
+      },
+      {
+        "id": "dao",
+        "term": "DAO",
+        "full_term": "Decentralized Autonomous Organization",
+        "category": "protocols",
+        "definition": "A Decentralized Autonomous Organization (DAO) is a blockchain-based organization governed by smart contracts and token holders rather than traditional management structures. Members vote on proposals using governance tokens to make decisions about the protocol's future.",
+        "short_definition": "Blockchain-based organization governed by token holders and smart contracts",
+        "example": "MakerDAO governs the Maker protocol, where MKR token holders vote on stability fees, collateral types, and other protocol parameters.",
+        "related_terms": ["governance-tokens", "voting", "proposals", "decentralization"],
+        "risks": ["Governance attacks", "Low participation", "Regulatory uncertainty"],
+        "tags": ["defi", "governance", "dao", "decentralization"],
+        "common_questions": [
+          {
+            "question": "How do I participate in DAO governance?",
+            "answer": "Hold governance tokens, stay informed about proposals, and vote on decisions that affect the protocol's future."
+          }
+        ]
+      },
+      {
+        "id": "smart-contract",
+        "term": "Smart Contract",
+        "full_term": "Smart Contract",
+        "category": "technical",
+        "definition": "A smart contract is a self-executing contract with terms directly written into code. In DeFi, smart contracts automatically execute transactions when predetermined conditions are met, eliminating the need for intermediaries.",
+        "short_definition": "Self-executing code that automatically enforces contract terms on blockchain",
+        "example": "A lending protocol's smart contract automatically liquidates undercollateralized positions without human intervention.",
+        "related_terms": ["defi", "ethereum", "automation", "trustless"],
+        "risks": ["Code vulnerabilities", "Audit failures", "Immutability risks"],
+        "tags": ["blockchain", "ethereum", "automation", "code"],
+        "common_questions": [
+          {
+            "question": "Can smart contracts be changed after deployment?",
+            "answer": "Most smart contracts are immutable once deployed, though some include upgrade mechanisms controlled by governance or admin keys."
+          }
+        ]
+      },
+      {
+        "id": "defi",
+        "term": "DeFi",
+        "full_term": "Decentralized Finance",
+        "category": "technical",
+        "definition": "Decentralized Finance (DeFi) refers to a blockchain-based form of finance that recreates and improves traditional financial systems using smart contracts, removing intermediaries like banks and brokers. DeFi applications run on public blockchains and are accessible to anyone.",
+        "short_definition": "Blockchain-based financial system operating without traditional intermediaries",
+        "example": "You can lend USDC on Compound, borrow against ETH on Aave, and swap tokens on Uniswap - all without banks or brokers.",
+        "related_terms": ["smart-contract", "ethereum", "trustless", "permissionless"],
+        "risks": ["Smart contract bugs", "Regulatory changes", "Market volatility"],
+        "tags": ["defi", "blockchain", "finance", "decentralization"],
+        "common_questions": [
+          {
+            "question": "What are the main advantages of DeFi over traditional finance?",
+            "answer": "24/7 accessibility, permissionless access, transparency, programmability, and typically better yields for users."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "How to make DeFinancial products work for you",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "Comprehensive guide to DeFi strategies and financial products"
+          },
+          {
+            "title": "The DeFinancial Farming Toolbox",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Essential tools and strategies for DeFi yield farming"
+          },
+          {
+            "title": "Vaults: DeFi Investing Streamlined?",
+            "url": "/p/vaults-defi-investing-streamlined/",
+            "description": "Understanding automated DeFi investment strategies"
+          }
+        ]
+      },
+      {
+        "id": "stablecoin",
+        "term": "Stablecoin",
+        "full_term": "Stablecoin",
+        "category": "tokens",
+        "definition": "A stablecoin is a cryptocurrency designed to maintain a stable value relative to a reference asset, usually the US Dollar. Stablecoins provide the benefits of crypto (fast, borderless transfers) while minimizing price volatility.",
+        "short_definition": "Cryptocurrency designed to maintain stable value relative to a reference asset",
+        "example": "USDC maintains a $1 value backed by dollar reserves, while DAI is decentralized and backed by crypto collateral.",
+        "related_terms": ["collateral", "peg", "volatility", "reserve"],
+        "risks": ["Depeg risk", "Centralization", "Collateral liquidation"],
+        "tags": ["stablecoin", "usdc", "dai", "peg"],
+        "common_questions": [
+          {
+            "question": "What's the difference between centralized and decentralized stablecoins?",
+            "answer": "Centralized stablecoins like USDC are backed by fiat reserves, while decentralized ones like DAI use crypto collateral and algorithms."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "The Maurauder's Map of Decentralized Stablecoins",
+            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
+            "description": "Comprehensive analysis of decentralized stablecoin mechanisms and designs"
+          },
+          {
+            "title": "Can Aave's GHO stablecoin help the protocol further grow?",
+            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
+            "description": "Deep dive into GHO's design and stablecoin economics"
+          }
+        ]
+      },
+      {
+        "id": "liquidity-pool",
+        "term": "Liquidity Pool",
+        "full_term": "Liquidity Pool",
+        "category": "technical",
+        "definition": "A liquidity pool is a collection of funds locked in a smart contract that enables decentralized trading, lending, and other DeFi functions. Users contribute assets to pools and earn fees from trades or interest from loans.",
+        "short_definition": "Smart contract containing funds that enable decentralized trading and lending",
+        "example": "The ETH/USDC pool on Uniswap contains both ETH and USDC, allowing users to swap between these tokens while LPs earn trading fees.",
+        "related_terms": ["amm", "liquidity-providing", "trading-fees", "impermanent-loss"],
+        "risks": ["Impermanent loss", "Smart contract risk", "Low liquidity periods"],
+        "tags": ["defi", "liquidity", "trading", "pools"],
+        "common_questions": [
+          {
+            "question": "How do liquidity providers earn money?",
+            "answer": "LPs earn trading fees (typically 0.3%) from every swap, plus potential reward tokens from liquidity mining programs."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Advanced liquidity pool management and liquidity shaping strategies"
+          },
+          {
+            "title": "The DeFinancial Farming Toolbox",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Practical guide to using liquidity pools for yield farming"
+          }
+        ]
+      },
+      {
+        "id": "slippage",
+        "term": "Slippage",
+        "full_term": "Slippage",
+        "category": "risks",
+        "definition": "Slippage refers to the difference between the expected price of a trade and the actual executed price. It occurs when there's insufficient liquidity or high volatility, causing the price to move unfavorably during trade execution.",
+        "short_definition": "Difference between expected and actual trade execution price",
+        "example": "You try to buy $10,000 worth of a token at $100, but due to slippage, you end up paying an average of $102 per token.",
+        "related_terms": ["liquidity", "amm", "price-impact", "mev"],
+        "risks": ["Higher costs than expected", "Front-running", "Sandwich attacks"],
+        "tags": ["trading", "amm", "liquidity", "price"],
+        "common_questions": [
+          {
+            "question": "How can I minimize slippage?",
+            "answer": "Trade smaller amounts, use liquid pairs, set appropriate slippage tolerance, or use aggregators that find the best routes."
+          }
+        ]
+      },
+      {
+        "id": "governance-token",
+        "term": "Governance Token",
+        "full_term": "Governance Token",
+        "category": "tokens",
+        "definition": "Governance tokens give holders voting rights on protocol decisions such as parameter changes, upgrades, and treasury management. They represent democratic control over decentralized protocols and often appreciate with protocol success.",
+        "short_definition": "Token that provides voting rights on protocol governance decisions",
+        "example": "UNI token holders can vote on Uniswap protocol upgrades, fee structures, and treasury spending proposals.",
+        "related_terms": ["dao", "voting", "proposals", "token-economics"],
+        "risks": ["Governance attacks", "Token price volatility", "Low participation"],
+        "tags": ["governance", "voting", "dao", "tokens"],
+        "common_questions": [
+          {
+            "question": "Do governance tokens have monetary value?",
+            "answer": "Yes, they trade on markets and derive value from the protocol's success and potential future cash flows or benefits."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "The DeFinancial Farming Toolbox",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Understanding governance tokens as rewards in liquidity mining programs"
+          },
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Advanced governance token models like veMAV and vote-escrow mechanisms"
+          }
+        ]
+      },
+      {
+        "id": "flash-loan",
+        "term": "Flash Loan",
+        "full_term": "Flash Loan",
+        "category": "technical",
+        "definition": "Flash loans are uncollateralized loans that must be borrowed and repaid within the same transaction block. They enable complex DeFi strategies like arbitrage, liquidations, and collateral swaps without requiring initial capital.",
+        "short_definition": "Instant uncollateralized loan that must be repaid in the same transaction",
+        "example": "A trader uses a flash loan to borrow 1000 ETH, arbitrage price differences between exchanges, and repay the loan plus fees - all in one transaction.",
+        "related_terms": ["arbitrage", "liquidation", "mev", "atomic-transaction"],
+        "risks": ["Transaction failure", "High gas costs", "Complex execution"],
+        "tags": ["defi", "loans", "arbitrage", "advanced"],
+        "common_questions": [
+          {
+            "question": "What happens if I can't repay a flash loan?",
+            "answer": "The entire transaction reverts, meaning you get your original funds back but pay gas fees for the failed transaction."
+          }
+        ]
+      },
+      {
+        "id": "ethereum",
+        "term": "Ethereum",
+        "full_term": "Ethereum",
+        "category": "protocols",
+        "definition": "Ethereum is a decentralized, open-source blockchain platform that enables the creation of smart contracts and decentralized applications (dApps). It's the primary blockchain for DeFi applications due to its programmability and established ecosystem.",
+        "short_definition": "Programmable blockchain platform that powers most DeFi applications",
+        "example": "Most DeFi protocols like Uniswap, Aave, and Compound are built on Ethereum's blockchain.",
+        "related_terms": ["smart-contract", "defi", "gas", "erc-20"],
+        "risks": ["High gas fees", "Network congestion", "Scalability limitations"],
+        "tags": ["blockchain", "ethereum", "platform", "smart-contracts"],
+        "common_questions": [
+          {
+            "question": "Why is Ethereum so important for DeFi?",
+            "answer": "Ethereum's programmable smart contracts enable complex financial applications, and it has the largest DeFi ecosystem and liquidity."
+          }
+        ]
+      },
+      {
+        "id": "layer-2",
+        "term": "Layer 2",
+        "full_term": "Layer 2 Scaling Solution",
+        "category": "protocols",
+        "definition": "Layer 2 solutions are secondary frameworks built on top of existing blockchains to improve scalability and reduce costs. They process transactions off the main chain while inheriting its security.",
+        "short_definition": "Scaling solutions built on top of blockchains to reduce fees and increase speed",
+        "example": "Polygon, Arbitrum, and Optimism are Layer 2 solutions that offer cheaper DeFi transactions than Ethereum mainnet.",
+        "related_terms": ["ethereum", "scaling", "rollups", "sidechains"],
+        "risks": ["Centralization risks", "Exit delays", "Technical complexity"],
+        "tags": ["scaling", "layer2", "ethereum", "fees"],
+        "common_questions": [
+          {
+            "question": "Are Layer 2 solutions as secure as Ethereum?",
+            "answer": "They inherit Ethereum's security but may have additional risks depending on their specific implementation and centralization level."
+          }
+        ]
+      },
+      {
+        "id": "bridge",
+        "term": "Bridge",
+        "full_term": "Cross-chain Bridge",
+        "category": "protocols",
+        "definition": "A bridge is a protocol that allows users to transfer assets and data between different blockchains or Layer 2 solutions. Bridges enable interoperability in the multi-chain DeFi ecosystem.",
+        "short_definition": "Protocol enabling asset transfers between different blockchains",
+        "example": "You can use a bridge to move ETH from Ethereum mainnet to Polygon, or USDC from Ethereum to Arbitrum.",
+        "related_terms": ["interoperability", "wrapped-tokens", "layer-2", "multichain"],
+        "risks": ["Smart contract exploits", "Centralization", "Liquidity risks"],
+        "tags": ["bridge", "interoperability", "cross-chain", "transfer"],
+        "common_questions": [
+          {
+            "question": "Are bridges safe to use?",
+            "answer": "Bridges carry risks as they're complex smart contracts. Use well-audited, established bridges and never invest more than you can afford to lose."
+          }
+        ]
+      },
+      {
+        "id": "oracle",
+        "term": "Oracle",
+        "full_term": "Price Oracle",
+        "category": "technical",
+        "definition": "An oracle is a service that provides real-world data to blockchain applications. In DeFi, price oracles supply current asset prices for lending protocols, derivatives, and other applications that need off-chain data.",
+        "short_definition": "Service that provides real-world data like prices to blockchain applications",
+        "example": "Chainlink oracles provide ETH/USD prices to lending protocols to determine collateral values and liquidation thresholds.",
+        "related_terms": ["chainlink", "price-feeds", "liquidation", "collateral"],
+        "risks": ["Oracle manipulation", "Data lag", "Single point of failure"],
+        "tags": ["oracle", "data", "prices", "chainlink"],
+        "common_questions": [
+          {
+            "question": "Why can't smart contracts get price data directly?",
+            "answer": "Blockchains can't access external data by design. Oracles act as bridges to bring real-world information on-chain securely."
+          }
+        ]
+      },
+      {
+        "id": "mev",
+        "term": "MEV",
+        "full_term": "Maximal Extractable Value",
+        "category": "technical",
+        "definition": "MEV refers to the maximum profit that can be extracted by reordering, including, or excluding transactions within a block. This includes front-running, sandwich attacks, and arbitrage opportunities.",
+        "short_definition": "Profit extracted by manipulating transaction ordering in blocks",
+        "example": "A bot sees your large DEX trade, places a buy order before yours and a sell order after, profiting from the price impact you create.",
+        "related_terms": ["front-running", "sandwich-attack", "arbitrage", "flashbots"],
+        "risks": ["Increased trading costs", "Unfair extraction", "Network centralization"],
+        "tags": ["mev", "arbitrage", "front-running", "mining"],
+        "common_questions": [
+          {
+            "question": "How can I protect myself from MEV?",
+            "answer": "Use private mempools, set appropriate slippage tolerance, or use MEV-protected trading interfaces."
+          }
+        ]
+      },
+      {
+        "id": "dex-aggregator",
+        "term": "DEX Aggregator",
+        "full_term": "Decentralized Exchange Aggregator",
+        "category": "protocols",
+        "definition": "A DEX aggregator is a service that sources liquidity from multiple decentralized exchanges to find the best prices and lowest slippage for trades. They optimize routing to minimize trading costs.",
+        "short_definition": "Service that finds the best prices across multiple DEXs for trades",
+        "example": "1inch aggregates prices from Uniswap, SushiSwap, and other DEXs to execute your trade at the best possible rate.",
+        "related_terms": ["uniswap", "sushiswap", "slippage", "routing"],
+        "risks": ["Smart contract risk", "Complexity", "Gas costs"],
+        "tags": ["aggregator", "dex", "trading", "optimization"],
+        "common_questions": [
+          {
+            "question": "Do aggregators always give better prices?",
+            "answer": "Usually yes, but consider gas costs. For small trades, the gas cost of complex routing might outweigh savings."
+          }
+        ]
+      },
+      {
+        "id": "multisig",
+        "term": "Multisig",
+        "full_term": "Multi-Signature Wallet",
+        "category": "technical",
+        "definition": "A multisig wallet requires multiple signatures (keys) to authorize transactions, providing enhanced security over single-key wallets. Commonly used for protocol governance and treasury management.",
+        "short_definition": "Wallet requiring multiple signatures to authorize transactions",
+        "example": "A 3-of-5 multisig requires at least 3 out of 5 designated signers to approve any transaction.",
+        "related_terms": ["security", "governance", "treasury", "keys"],
+        "risks": ["Key loss", "Coordination complexity", "Single points of failure"],
+        "tags": ["security", "multisig", "wallet", "governance"],
+        "common_questions": [
+          {
+            "question": "What happens if multisig signers are unavailable?",
+            "answer": "If you can't reach the minimum threshold, funds become inaccessible. This is why backup plans and trusted signers are crucial."
+          }
+        ]
+      },
+      {
+        "id": "gas",
+        "term": "Gas",
+        "full_term": "Gas Fee",
+        "category": "technical",
+        "definition": "Gas is the unit that measures the computational effort required to execute operations on Ethereum. Users pay gas fees to miners/validators to process their transactions.",
+        "short_definition": "Fee paid to execute transactions on Ethereum blockchain",
+        "example": "A simple ETH transfer might cost 21,000 gas units, while complex DeFi interactions can cost 200,000+ gas units.",
+        "related_terms": ["ethereum", "gwei", "transaction", "miners"],
+        "risks": ["High cost during congestion", "Failed transactions", "Unpredictable pricing"],
+        "tags": ["gas", "fees", "ethereum", "transaction"],
+        "common_questions": [
+          {
+            "question": "Why are gas fees so high sometimes?",
+            "answer": "Gas fees increase with network demand. During busy periods, users compete by paying higher fees to get their transactions processed faster."
+          }
+        ]
+      },
+      {
+        "id": "erc-20",
+        "term": "ERC-20",
+        "full_term": "Ethereum Request for Comment 20",
+        "category": "technical",
+        "definition": "ERC-20 is a technical standard for fungible tokens on the Ethereum blockchain. It defines a common interface that allows tokens to be easily integrated with wallets, exchanges, and other applications.",
+        "short_definition": "Standard for creating fungible tokens on Ethereum",
+        "example": "USDC, DAI, UNI, and most DeFi tokens are ERC-20 tokens that follow this standard.",
+        "related_terms": ["ethereum", "tokens", "standard", "fungible"],
+        "risks": ["Smart contract bugs", "Token-specific risks", "Approval exploits"],
+        "tags": ["erc20", "tokens", "standard", "ethereum"],
+        "common_questions": [
+          {
+            "question": "Can I use ERC-20 tokens on other blockchains?",
+            "answer": "Not directly, but you can bridge them to other chains or use wrapped versions that follow other standards."
+          }
+        ]
+      },
+      {
+        "id": "wrapped-token",
+        "term": "Wrapped Token",
+        "full_term": "Wrapped Token",
+        "category": "tokens",
+        "definition": "A wrapped token represents another cryptocurrency on a different blockchain. It's backed 1:1 by the original asset held in custody, enabling cross-chain functionality.",
+        "short_definition": "Token representing another cryptocurrency on a different blockchain",
+        "example": "WETH (Wrapped ETH) allows ETH to be used in ERC-20 contracts, while WBTC brings Bitcoin functionality to Ethereum.",
+        "related_terms": ["bridge", "cross-chain", "custody", "erc-20"],
+        "risks": ["Custodial risk", "Depeg risk", "Bridge vulnerabilities"],
+        "tags": ["wrapped", "tokens", "cross-chain", "bitcoin"],
+        "common_questions": [
+          {
+            "question": "Is a wrapped token the same as the original?",
+            "answer": "Functionally similar but technically different. They should maintain 1:1 value but carry additional risks from the wrapping mechanism."
+          }
+        ]
+      },
+      {
+        "id": "mempool",
+        "term": "Mempool",
+        "full_term": "Memory Pool",
+        "category": "technical",
+        "definition": "The mempool is a waiting area for unconfirmed transactions on a blockchain network. Transactions sit in the mempool until miners or validators include them in a block.",
+        "short_definition": "Waiting area for unconfirmed blockchain transactions",
+        "example": "When you submit a transaction, it first goes to the mempool where MEV bots can see it before it's included in a block.",
+        "related_terms": ["transaction", "mining", "mev", "gas"],
+        "risks": ["Front-running", "Transaction stuck", "MEV extraction"],
+        "tags": ["mempool", "transactions", "mining", "blockchain"],
+        "common_questions": [
+          {
+            "question": "Why is my transaction stuck in the mempool?",
+            "answer": "Usually due to low gas fees. Miners prioritize higher-fee transactions, so yours waits until network congestion decreases or you increase the fee."
+          }
+        ]
+      },
+      {
+        "id": "validator",
+        "term": "Validator",
+        "full_term": "Network Validator",
+        "category": "technical",
+        "definition": "Validators are network participants who validate transactions and create new blocks in Proof of Stake blockchains. They stake tokens as collateral and earn rewards for honest behavior.",
+        "short_definition": "Network participants who validate transactions in Proof of Stake systems",
+        "example": "Ethereum 2.0 validators stake 32 ETH to participate in consensus and earn staking rewards.",
+        "related_terms": ["staking", "proof-of-stake", "consensus", "ethereum"],
+        "risks": ["Slashing risk", "Technical requirements", "Lock-up periods"],
+        "tags": ["validator", "staking", "consensus", "ethereum"],
+        "common_questions": [
+          {
+            "question": "What is slashing in staking?",
+            "answer": "Slashing is a penalty where validators lose part of their staked tokens for malicious behavior or prolonged downtime."
+          }
+        ]
+      },
+      {
+        "id": "consensus",
+        "term": "Consensus",
+        "full_term": "Consensus Mechanism",
+        "category": "technical",
+        "definition": "A consensus mechanism is the method by which a blockchain network agrees on the validity of transactions and the state of the ledger. Common types include Proof of Work and Proof of Stake.",
+        "short_definition": "Method for blockchain networks to agree on transaction validity",
+        "example": "Bitcoin uses Proof of Work consensus while Ethereum transitioned to Proof of Stake for better energy efficiency.",
+        "related_terms": ["proof-of-stake", "proof-of-work", "mining", "validator"],
+        "risks": ["51% attacks", "Centralization", "Security assumptions"],
+        "tags": ["consensus", "blockchain", "security", "proof-of-stake"],
+        "common_questions": [
+          {
+            "question": "Why did Ethereum switch from Proof of Work to Proof of Stake?",
+            "answer": "For better energy efficiency, improved security, and to enable features like sharding for better scalability."
+          }
+        ]
+      },
+      {
+        "id": "block",
+        "term": "Block",
+        "full_term": "Blockchain Block",
+        "category": "technical",
+        "definition": "A block is a collection of transactions that are bundled together and added to the blockchain. Each block contains a cryptographic hash of the previous block, creating an immutable chain.",
+        "short_definition": "Collection of transactions bundled together on a blockchain",
+        "example": "An Ethereum block contains multiple transactions and is produced approximately every 12 seconds.",
+        "related_terms": ["blockchain", "transaction", "mining", "hash"],
+        "risks": ["Block reorganization", "Confirmation delays", "Network forks"],
+        "tags": ["block", "blockchain", "transactions", "mining"],
+        "common_questions": [
+          {
+            "question": "How many confirmations do I need?",
+            "answer": "For high-value transactions, wait for 6+ confirmations on Ethereum. For smaller amounts, 1-3 confirmations are usually sufficient."
+          }
+        ]
+      },
+      {
+        "id": "apr",
+        "term": "APR",
+        "full_term": "Annual Percentage Rate",
+        "category": "yields",
+        "definition": "Annual Percentage Rate (APR) represents the simple annual interest rate without compounding effects. In DeFi, APR shows the base yield before considering compound interest.",
+        "short_definition": "Simple annual interest rate without compounding effects",
+        "example": "A lending pool offering 10% APR means you earn 10% per year in simple interest.",
+        "related_terms": ["apy", "compound-interest", "yield", "interest"],
+        "risks": ["Inflation eroding real returns", "Protocol risk", "Rate changes"],
+        "tags": ["defi", "yields", "interest", "rates"]
+      },
+      {
+        "id": "lending",
+        "term": "Lending",
+        "full_term": "DeFi Lending",
+        "category": "yields",
+        "definition": "Lending in DeFi allows users to lend their crypto assets to earn interest. Smart contracts automatically manage the lending process, eliminating the need for traditional intermediaries.",
+        "short_definition": "Earning interest by lending crypto assets through smart contracts",
+        "example": "You can lend USDC on Aave to earn interest paid by borrowers who need liquidity.",
+        "related_terms": ["borrowing", "interest", "collateral", "liquidation"],
+        "risks": ["Smart contract risk", "Bad debt", "Interest rate volatility"],
+        "tags": ["defi", "lending", "yield", "interest"]
+      },
+      {
+        "id": "borrowing",
+        "term": "Borrowing",
+        "full_term": "DeFi Borrowing",
+        "category": "yields",
+        "definition": "Borrowing in DeFi allows users to borrow crypto assets by providing collateral. This enables leverage, liquidity access, and various trading strategies without selling existing holdings.",
+        "short_definition": "Obtaining crypto loans by providing collateral to smart contracts",
+        "example": "You can borrow USDC against your ETH collateral on Compound to maintain ETH exposure while accessing liquidity.",
+        "related_terms": ["collateral", "liquidation", "ltv", "interest-rate"],
+        "risks": ["Liquidation risk", "Interest rate increases", "Collateral price drops"],
+        "tags": ["defi", "borrowing", "collateral", "leverage"]
+      },
+      {
+        "id": "collateral",
+        "term": "Collateral",
+        "full_term": "Loan Collateral",
+        "category": "yields",
+        "definition": "Collateral is an asset pledged as security for a loan. In DeFi, users deposit collateral to borrow other assets, with smart contracts automatically managing the collateral and liquidation process.",
+        "short_definition": "Assets deposited as security to back a loan",
+        "example": "To borrow $1000 USDC, you might deposit $1500 worth of ETH as collateral to maintain a safe collateralization ratio.",
+        "related_terms": ["borrowing", "liquidation", "ltv", "over-collateralized"],
+        "risks": ["Price volatility", "Liquidation risk", "Smart contract risk"],
+        "tags": ["defi", "lending", "collateral", "borrowing"]
+      },
+      {
+        "id": "ltv",
+        "term": "LTV",
+        "full_term": "Loan-to-Value Ratio",
+        "category": "yields",
+        "definition": "LTV ratio represents the percentage of collateral value that can be borrowed. A lower LTV means more conservative lending, while higher LTV increases liquidation risk.",
+        "short_definition": "Percentage of collateral value that can be borrowed",
+        "example": "With 75% LTV, you can borrow up to $750 against $1000 of collateral.",
+        "related_terms": ["collateral", "liquidation", "borrowing", "health-factor"],
+        "risks": ["Liquidation risk", "Market volatility", "Sudden LTV changes"],
+        "tags": ["defi", "lending", "borrowing", "ratio"]
+      },
+      {
+        "id": "liquidation",
+        "term": "Liquidation",
+        "full_term": "Collateral Liquidation",
+        "category": "risks",
+        "definition": "Liquidation occurs when a borrower's collateral value falls below the required threshold, triggering automatic sale of collateral to repay the loan and protect lenders.",
+        "short_definition": "Automatic sale of collateral when loan becomes undercollateralized",
+        "example": "If your ETH collateral drops in value and your loan becomes undercollateralized, the protocol will liquidate your ETH to repay the loan.",
+        "related_terms": ["collateral", "ltv", "borrowing", "health-factor"],
+        "risks": ["Loss of collateral", "Liquidation penalties", "Price volatility"],
+        "tags": ["defi", "risks", "liquidation", "collateral"]
+      },
+      {
+        "id": "vault",
+        "term": "Vault",
+        "full_term": "Yield Vault",
+        "category": "strategies",
+        "definition": "A vault is an automated DeFi strategy that pools user funds and deploys them across various protocols to maximize yields. Vaults handle the complexity of yield farming automatically.",
+        "short_definition": "Automated strategy that pools funds to maximize yields across DeFi protocols",
+        "example": "Yearn Finance vaults automatically move your funds between different protocols to find the highest yields.",
+        "related_terms": ["yield-farming", "auto-compounding", "strategy", "pooled-funds"],
+        "risks": ["Strategy risk", "Smart contract risk", "Impermanent loss"],
+        "tags": ["defi", "vaults", "automation", "yield"]
+      },
+      {
+        "id": "staking",
+        "term": "Staking",
+        "full_term": "Cryptocurrency Staking",
+        "category": "yields",
+        "definition": "Staking involves locking tokens to support blockchain operations or protocol functions in exchange for rewards. This includes validator staking and DeFi protocol staking.",
+        "short_definition": "Locking tokens to earn rewards by supporting network or protocol operations",
+        "example": "You can stake ETH to become a validator and earn staking rewards, or stake protocol tokens to earn governance tokens.",
+        "related_terms": ["validator", "rewards", "lock-up", "slashing"],
+        "risks": ["Slashing risk", "Lock-up periods", "Validator performance"],
+        "tags": ["staking", "rewards", "validation", "lock-up"]
+      },
+      {
+        "id": "auto-compounding",
+        "term": "Auto-compounding",
+        "full_term": "Automatic Compounding",
+        "category": "strategies",
+        "definition": "Auto-compounding automatically reinvests earned rewards back into the original investment, maximizing returns through compound interest without manual intervention.",
+        "short_definition": "Automatic reinvestment of rewards to maximize compound returns",
+        "example": "A yield vault auto-compounds by automatically selling earned tokens and buying more of the deposit token to increase your position.",
+        "related_terms": ["compound-interest", "vault", "yield-farming", "reinvestment"],
+        "risks": ["Gas costs eating returns", "Price impact", "Strategy changes"],
+        "tags": ["defi", "compounding", "automation", "yields"]
+      },
+      {
+        "id": "lp-token",
+        "term": "LP Token",
+        "full_term": "Liquidity Provider Token",
+        "category": "tokens",
+        "definition": "LP tokens are issued to liquidity providers as proof of their contribution to a liquidity pool. These tokens represent the provider's share of the pool and can be redeemed for the underlying assets plus earned fees.",
+        "short_definition": "Tokens representing a user's share in a liquidity pool",
+        "example": "When you provide ETH and USDC to a Uniswap pool, you receive ETH-USDC LP tokens that represent your stake in the pool.",
+        "related_terms": ["liquidity-pool", "liquidity-providing", "amm", "impermanent-loss"],
+        "risks": ["Impermanent loss", "Smart contract risk", "Pool-specific risks"],
+        "tags": ["defi", "tokens", "liquidity", "amm"]
+      },
+      {
+        "id": "synthetic-asset",
+        "term": "Synthetic Asset",
+        "full_term": "Synthetic Asset",
+        "category": "tokens",
+        "definition": "Synthetic assets are blockchain-based derivatives that track the price of real-world assets like stocks, commodities, or currencies without requiring ownership of the underlying asset.",
+        "short_definition": "Blockchain tokens that track the price of real-world assets",
+        "example": "Synthetix offers synthetic Tesla stock (sTSLA) that tracks Tesla's price, allowing DeFi users to gain exposure to traditional assets.",
+        "related_terms": ["derivatives", "oracle", "collateral", "price-feeds"],
+        "risks": ["Oracle manipulation", "Collateral liquidation", "Tracking errors"],
+        "tags": ["defi", "synthetic", "derivatives", "assets"]
+      },
+      {
+        "id": "rebase-token",
+        "term": "Rebase Token",
+        "full_term": "Elastic Supply Token",
+        "category": "tokens",
+        "definition": "Rebase tokens automatically adjust their total supply to maintain a target price. The number of tokens you hold changes, but your proportional share of the total supply remains constant.",
+        "short_definition": "Token with elastic supply that adjusts to maintain price stability",
+        "example": "AMPL (Ampleforth) increases or decreases all holders' token balances daily based on price deviation from $1.",
+        "related_terms": ["elastic-supply", "algorithmic", "price-stability", "inflation"],
+        "risks": ["Supply volatility", "Complexity", "Unpredictable returns"],
+        "tags": ["defi", "rebase", "elastic", "algorithmic"]
+      },
+      {
+        "id": "utility-token",
+        "term": "Utility Token",
+        "full_term": "Utility Token",
+        "category": "tokens",
+        "definition": "Utility tokens provide holders with access to specific products, services, or functionalities within a protocol or ecosystem. They're not primarily designed as investments but as functional tools.",
+        "short_definition": "Token providing access to protocol features or services",
+        "example": "BNB is used to pay reduced trading fees on Binance exchange, while LINK is used to pay Chainlink oracle services.",
+        "related_terms": ["governance-token", "protocol", "services", "ecosystem"],
+        "risks": ["Utility demand changes", "Competition", "Protocol changes"],
+        "tags": ["tokens", "utility", "protocol", "services"]
+      },
+      {
+        "id": "nft",
+        "term": "NFT",
+        "full_term": "Non-Fungible Token",
+        "category": "tokens",
+        "definition": "NFTs are unique digital tokens that represent ownership of specific digital or physical items. Unlike fungible tokens, each NFT is distinct and cannot be exchanged on a one-to-one basis.",
+        "short_definition": "Unique digital tokens representing ownership of specific items",
+        "example": "An NFT might represent ownership of digital art, in-game items, or even real estate deeds on the blockchain.",
+        "related_terms": ["erc-721", "digital-ownership", "collectibles", "metadata"],
+        "risks": ["Illiquidity", "Speculative bubbles", "Storage dependencies"],
+        "tags": ["nft", "unique", "ownership", "digital"]
+      },
+      {
+        "id": "erc-721",
+        "term": "ERC-721",
+        "full_term": "Ethereum Request for Comment 721",
+        "category": "technical",
+        "definition": "ERC-721 is the technical standard for non-fungible tokens (NFTs) on Ethereum. It defines how to create unique, indivisible tokens that can represent ownership of digital or physical assets.",
+        "short_definition": "Standard for creating non-fungible tokens on Ethereum",
+        "example": "CryptoKitties and most NFT collections follow the ERC-721 standard to ensure compatibility with wallets and marketplaces.",
+        "related_terms": ["nft", "ethereum", "standard", "unique-tokens"],
+        "risks": ["Standard limitations", "Gas costs", "Compatibility issues"],
+        "tags": ["erc721", "nft", "standard", "ethereum"]
+      },
+      {
+        "id": "token-burn",
+        "term": "Token Burn",
+        "full_term": "Token Burning",
+        "category": "tokens",
+        "definition": "Token burning permanently removes tokens from circulation by sending them to an unrecoverable address. This reduces total supply and can increase the value of remaining tokens.",
+        "short_definition": "Permanent removal of tokens from circulation",
+        "example": "Binance regularly burns BNB tokens to reduce supply, while Ethereum burns ETH through EIP-1559's base fee mechanism.",
+        "related_terms": ["deflationary", "supply", "tokenomics", "value-accrual"],
+        "risks": ["Irreversible action", "Economic assumptions", "Governance decisions"],
+        "tags": ["tokens", "burn", "deflationary", "supply"]
+      },
+      {
+        "id": "tokenomics",
+        "term": "Tokenomics",
+        "full_term": "Token Economics",
+        "category": "tokens",
+        "definition": "Tokenomics refers to the economic design and mechanics of a cryptocurrency token, including supply distribution, inflation/deflation mechanisms, utility, and incentive structures.",
+        "short_definition": "Economic design and mechanics of a cryptocurrency token",
+        "example": "Bitcoin's tokenomics include a fixed 21 million supply cap, halving events every 4 years, and mining rewards as incentives.",
+        "related_terms": ["supply", "inflation", "distribution", "incentives"],
+        "risks": ["Poor design consequences", "Inflation", "Centralization"],
+        "tags": ["tokens", "economics", "design", "incentives"]
+      },
+      {
+        "id": "vesting",
+        "term": "Vesting",
+        "full_term": "Token Vesting",
+        "category": "tokens",
+        "definition": "Vesting is the gradual release of tokens over time according to a predetermined schedule. It prevents immediate selling and aligns long-term interests of team members and investors.",
+        "short_definition": "Gradual release of tokens over time according to a schedule",
+        "example": "Team tokens might vest over 4 years with a 1-year cliff, meaning no tokens are released for the first year, then 25% each year after.",
+        "related_terms": ["cliff", "release-schedule", "alignment", "lock-up"],
+        "risks": ["Selling pressure after vesting", "Team departures", "Schedule changes"],
+        "tags": ["tokens", "vesting", "schedule", "alignment"]
+      },
+      {
+        "id": "airdrop",
+        "term": "Airdrop",
+        "full_term": "Token Airdrop",
+        "category": "tokens",
+        "definition": "An airdrop is the free distribution of tokens to wallet addresses, usually to reward early users, increase adoption, or distribute governance tokens to decentralize control.",
+        "short_definition": "Free distribution of tokens to wallet addresses",
+        "example": "Uniswap airdropped 400 UNI tokens to every wallet that had used the protocol before September 2020.",
+        "related_terms": ["distribution", "governance-tokens", "rewards", "decentralization"],
+        "risks": ["Regulatory concerns", "Selling pressure", "Sybil attacks"],
+        "tags": ["tokens", "airdrop", "distribution", "rewards"]
+      },
+      {
+        "id": "whitelist",
+        "term": "Whitelist",
+        "full_term": "Token Whitelist",
+        "category": "tokens",
+        "definition": "A whitelist is a list of approved addresses that are allowed to participate in token sales, airdrops, or access specific protocol features before public availability.",
+        "short_definition": "List of approved addresses for early access to token events",
+        "example": "Many NFT projects create whitelists for early supporters to mint before the public sale.",
+        "related_terms": ["presale", "early-access", "kyc", "allowlist"],
+        "risks": ["Centralization", "Unfair advantage", "Gaming attempts"],
+        "tags": ["tokens", "whitelist", "access", "presale"]
+      },
+      {
+        "id": "market-cap",
+        "term": "Market Cap",
+        "full_term": "Market Capitalization",
+        "category": "tokens",
+        "definition": "Market capitalization is the total value of a cryptocurrency, calculated by multiplying the current price by the circulating supply. It's used to measure and compare the size of different projects.",
+        "short_definition": "Total value of a cryptocurrency (price × circulating supply)",
+        "example": "If a token trades at $10 with 1 million tokens in circulation, its market cap is $10 million.",
+        "related_terms": ["circulating-supply", "price", "valuation", "ranking"],
+        "risks": ["Manipulation with low supply", "Dilution from new tokens", "Market volatility"],
+        "tags": ["tokens", "valuation", "market-cap", "metrics"]
+      },
+      {
+        "id": "circulating-supply",
+        "term": "Circulating Supply",
+        "full_term": "Circulating Token Supply",
+        "category": "tokens",
+        "definition": "Circulating supply refers to the number of tokens that are publicly available and actively trading in the market, excluding locked, reserved, or burned tokens.",
+        "short_definition": "Number of tokens publicly available and actively trading",
+        "example": "A project might have a total supply of 100 million tokens, but only 60 million in circulating supply due to team locks and reserves.",
+        "related_terms": ["total-supply", "max-supply", "market-cap", "locked-tokens"],
+        "risks": ["Supply inflation", "Unlock events", "Calculation differences"],
+        "tags": ["tokens", "supply", "circulation", "metrics"]
+      },
+      {
+        "id": "total-supply",
+        "term": "Total Supply",
+        "full_term": "Total Token Supply",
+        "category": "tokens",
+        "definition": "Total supply is the amount of tokens that currently exist, including all minted tokens minus any that have been burned. It includes both circulating and locked tokens.",
+        "short_definition": "Total number of tokens that currently exist",
+        "example": "Ethereum's total supply changes constantly as new ETH is minted for staking rewards and burned through transaction fees.",
+        "related_terms": ["circulating-supply", "max-supply", "minting", "burning"],
+        "risks": ["Inflation", "Supply changes", "Burn rate variations"],
+        "tags": ["tokens", "supply", "minting", "total"]
+      },
+      {
+        "id": "max-supply",
+        "term": "Max Supply",
+        "full_term": "Maximum Token Supply",
+        "category": "tokens",
+        "definition": "Maximum supply is the theoretical upper limit of tokens that can ever exist for a cryptocurrency. Once reached, no new tokens can be created.",
+        "short_definition": "Maximum number of tokens that can ever exist",
+        "example": "Bitcoin has a maximum supply of 21 million BTC, while Ethereum currently has no maximum supply limit.",
+        "related_terms": ["total-supply", "scarcity", "deflationary", "hard-cap"],
+        "risks": ["Policy changes", "Fork risks", "Economic assumptions"],
+        "tags": ["tokens", "supply", "maximum", "scarcity"]
+      },
+      {
+        "id": "arbitrage",
+        "term": "Arbitrage",
+        "full_term": "Price Arbitrage",
+        "category": "strategies",
+        "definition": "Arbitrage is the practice of simultaneously buying and selling identical assets on different markets to profit from price differences. In DeFi, bots exploit price gaps between DEXs or CEXs.",
+        "short_definition": "Profiting from price differences of identical assets across markets",
+        "example": "If ETH trades at $2000 on Uniswap and $2005 on SushiSwap, an arbitrageur buys on Uniswap and sells on SushiSwap for $5 profit per ETH.",
+        "related_terms": ["flash-loan", "mev", "price-impact", "dex"],
+        "risks": ["Transaction costs", "Failed execution", "Slippage"],
+        "tags": ["trading", "arbitrage", "profit", "dex"]
+      },
+      {
+        "id": "price-impact",
+        "term": "Price Impact",
+        "full_term": "Price Impact",
+        "category": "technical",
+        "definition": "Price impact measures how much a trade moves the market price of an asset. Large trades in illiquid pools cause significant price impact, leading to unfavorable execution prices.",
+        "short_definition": "How much a trade moves the market price of an asset",
+        "example": "Buying $100,000 worth of a token in a small liquidity pool might cause 5% price impact, meaning you pay 5% more than the starting price.",
+        "related_terms": ["slippage", "liquidity", "amm", "market-depth"],
+        "risks": ["Higher trading costs", "Unfavorable prices", "MEV extraction"],
+        "tags": ["trading", "price", "impact", "liquidity"]
+      },
+      {
+        "id": "sandwich-attack",
+        "term": "Sandwich Attack",
+        "full_term": "Sandwich Attack",
+        "category": "risks",
+        "definition": "A sandwich attack occurs when a malicious actor places transactions before and after a victim's trade to profit from the price movement caused by the victim's transaction.",
+        "short_definition": "MEV attack that surrounds victim's trade with buy/sell orders",
+        "example": "An attacker sees your large buy order, front-runs with their own buy to push price up, then back-runs with a sell order after yours executes.",
+        "related_terms": ["mev", "front-running", "slippage", "mempool"],
+        "risks": ["Increased trading costs", "Unfair extraction", "Poor execution"],
+        "tags": ["mev", "attack", "front-running", "exploitation"]
+      },
+      {
+        "id": "front-running",
+        "term": "Front-running",
+        "full_term": "Transaction Front-running",
+        "category": "risks",
+        "definition": "Front-running occurs when someone observes a pending transaction and places their own transaction with higher gas fees to execute first, profiting from the predictable price movement.",
+        "short_definition": "Executing ahead of another transaction by paying higher gas fees",
+        "example": "A bot sees your DEX trade in the mempool and submits the same trade with higher gas fees to execute first and profit from the price movement.",
+        "related_terms": ["mev", "mempool", "gas", "sandwich-attack"],
+        "risks": ["Lost profits", "Higher costs", "Unfair advantages"],
+        "tags": ["mev", "front-running", "mempool", "gas"]
+      },
+      {
+        "id": "twap",
+        "term": "TWAP",
+        "full_term": "Time-Weighted Average Price",
+        "category": "technical",
+        "definition": "TWAP is the average price of an asset calculated over a specific time period, weighted by time. It's used by oracles and protocols to provide more stable, manipulation-resistant price feeds.",
+        "short_definition": "Average asset price calculated over time to resist manipulation",
+        "example": "Uniswap V2 provides TWAP oracles that average prices over the last hour to prevent flash loan price manipulation attacks.",
+        "related_terms": ["oracle", "price-feeds", "manipulation", "average"],
+        "risks": ["Lagging prices", "Still manipulable over time", "Complexity"],
+        "tags": ["oracle", "twap", "price", "average"]
+      },
+      {
+        "id": "concentrated-liquidity",
+        "term": "Concentrated Liquidity",
+        "full_term": "Concentrated Liquidity",
+        "category": "technical",
+        "definition": "Concentrated liquidity allows liquidity providers to allocate capital within custom price ranges rather than across the entire price curve, increasing capital efficiency and potential returns.",
+        "short_definition": "Providing liquidity within specific price ranges for higher efficiency",
+        "example": "In Uniswap V3, you can provide USDC/USDT liquidity only between $0.99-$1.01, earning more fees per dollar with concentrated exposure.",
+        "related_terms": ["uniswap-v3", "capital-efficiency", "liquidity-providing", "price-range"],
+        "risks": ["Out-of-range positions", "Impermanent loss", "Active management needed"],
+        "tags": ["liquidity", "concentrated", "efficiency", "uniswap"]
+      },
+      {
+        "id": "order-book",
+        "term": "Order Book",
+        "full_term": "Order Book",
+        "category": "technical",
+        "definition": "An order book is a real-time list of buy and sell orders for an asset, organized by price level. It shows market depth and liquidity, common in centralized exchanges but rare in DeFi AMMs.",
+        "short_definition": "Real-time list of buy and sell orders organized by price",
+        "example": "On Coinbase Pro, the ETH/USD order book shows all pending buy orders below current price and sell orders above current price.",
+        "related_terms": ["market-depth", "bid-ask", "centralized-exchange", "amm"],
+        "risks": ["Order manipulation", "Low liquidity gaps", "Centralization"],
+        "tags": ["trading", "order-book", "liquidity", "centralized"]
+      },
+      {
+        "id": "market-depth",
+        "term": "Market Depth",
+        "full_term": "Market Depth",
+        "category": "technical",
+        "definition": "Market depth refers to the market's ability to sustain large orders without significantly impacting price. Deep markets have high liquidity and low price impact for large trades.",
+        "short_definition": "Market's ability to handle large orders without significant price impact",
+        "example": "ETH/USDC has deep market depth on major exchanges, so trading $1M causes minimal price impact, unlike small altcoin pairs.",
+        "related_terms": ["liquidity", "price-impact", "slippage", "volume"],
+        "risks": ["Shallow markets", "High slippage", "Liquidity fragmentation"],
+        "tags": ["trading", "depth", "liquidity", "impact"]
+      },
+      {
+        "id": "bid-ask-spread",
+        "term": "Bid-Ask Spread",
+        "full_term": "Bid-Ask Spread",
+        "category": "technical",
+        "definition": "The bid-ask spread is the difference between the highest price buyers are willing to pay (bid) and the lowest price sellers are willing to accept (ask). Tighter spreads indicate better liquidity.",
+        "short_definition": "Difference between highest buy price and lowest sell price",
+        "example": "If ETH has a $1999 bid and $2001 ask, the spread is $2. AMMs don't have traditional spreads but equivalent concepts exist.",
+        "related_terms": ["order-book", "market-maker", "liquidity", "trading-fees"],
+        "risks": ["Wide spreads increase costs", "Low liquidity", "Market inefficiency"],
+        "tags": ["trading", "spread", "bid", "ask"]
+      },
+      {
+        "id": "volume",
+        "term": "Volume",
+        "full_term": "Trading Volume",
+        "category": "technical",
+        "definition": "Trading volume is the total amount of an asset traded over a specific period. High volume indicates active trading and often better liquidity and price discovery.",
+        "short_definition": "Total amount of an asset traded in a given period",
+        "example": "If $100 million worth of ETH trades in 24 hours across all exchanges, that's the daily trading volume for ETH.",
+        "related_terms": ["liquidity", "market-activity", "price-discovery", "turnover"],
+        "risks": ["Low volume illiquidity", "Wash trading", "Manipulation"],
+        "tags": ["trading", "volume", "activity", "liquidity"]
+      },
+      {
+        "id": "limit-order",
+        "term": "Limit Order",
+        "full_term": "Limit Order",
+        "category": "technical",
+        "definition": "A limit order is an instruction to buy or sell an asset at a specific price or better. It only executes when the market reaches the specified price level.",
+        "short_definition": "Order to trade at a specific price or better",
+        "example": "A limit buy order for ETH at $1950 will only execute if ETH drops to $1950 or below.",
+        "related_terms": ["market-order", "order-book", "execution", "price-level"],
+        "risks": ["No execution guarantee", "Partial fills", "Price gaps"],
+        "tags": ["trading", "orders", "limit", "execution"]
+      },
+      {
+        "id": "market-order",
+        "term": "Market Order",
+        "full_term": "Market Order",
+        "category": "technical",
+        "definition": "A market order is an instruction to buy or sell immediately at the best available current price. It guarantees execution but not the exact price.",
+        "short_definition": "Order to trade immediately at current market price",
+        "example": "A market buy order for 1 ETH will purchase at whatever price sellers are currently offering, regardless of the exact amount.",
+        "related_terms": ["limit-order", "slippage", "execution", "current-price"],
+        "risks": ["Price uncertainty", "Slippage", "Poor execution during volatility"],
+        "tags": ["trading", "orders", "market", "immediate"]
+      },
+      {
+        "id": "stop-loss",
+        "term": "Stop Loss",
+        "full_term": "Stop Loss Order",
+        "category": "strategies",
+        "definition": "A stop loss is an order that automatically sells an asset when its price falls to a predetermined level, limiting potential losses on a position.",
+        "short_definition": "Automatic sell order triggered when price falls to set level",
+        "example": "If you buy ETH at $2000 and set a stop loss at $1800, your position automatically sells if ETH drops to $1800.",
+        "related_terms": ["risk-management", "automated-trading", "loss-limitation", "trigger-price"],
+        "risks": ["False triggers", "Gap downs", "Stop hunting"],
+        "tags": ["trading", "stop-loss", "risk", "automation"]
+      },
+      {
+        "id": "take-profit",
+        "term": "Take Profit",
+        "full_term": "Take Profit Order",
+        "category": "strategies",
+        "definition": "A take profit order automatically sells an asset when its price rises to a predetermined level, securing gains on a profitable position.",
+        "short_definition": "Automatic sell order triggered when price rises to target level",
+        "example": "If you buy ETH at $2000 and set take profit at $2200, your position automatically sells when ETH reaches $2200.",
+        "related_terms": ["profit-taking", "target-price", "automated-trading", "exit-strategy"],
+        "risks": ["Missing further gains", "Premature exit", "Execution delays"],
+        "tags": ["trading", "take-profit", "gains", "automation"]
+      },
+      {
+        "id": "dca",
+        "term": "DCA",
+        "full_term": "Dollar Cost Averaging",
+        "category": "strategies",
+        "definition": "Dollar cost averaging is an investment strategy of regularly purchasing fixed dollar amounts of an asset regardless of price, reducing the impact of volatility over time.",
+        "short_definition": "Regular fixed-dollar purchases regardless of price to reduce volatility impact",
+        "example": "Buying $100 worth of ETH every week regardless of price, accumulating more tokens when cheap and fewer when expensive.",
+        "related_terms": ["cost-basis", "volatility", "accumulation", "systematic-investing"],
+        "risks": ["Missing lump sum opportunities", "Prolonged bear markets", "Transaction costs"],
+        "tags": ["strategy", "dca", "averaging", "systematic"]
+      },
+      {
+        "id": "audit",
+        "term": "Audit",
+        "full_term": "Smart Contract Audit",
+        "category": "risks",
+        "definition": "An audit is a thorough security review of smart contract code by external experts to identify vulnerabilities, bugs, and potential attack vectors before deployment or after updates.",
+        "short_definition": "Security review of smart contract code to identify vulnerabilities",
+        "example": "Before launching, Uniswap V3 underwent multiple audits by firms like Trail of Bits and Consensys Diligence to ensure code security.",
+        "related_terms": ["security", "vulnerabilities", "smart-contract", "code-review"],
+        "risks": ["Audit limitations", "Time-based vulnerabilities", "False security confidence"],
+        "tags": ["security", "audit", "smart-contracts", "review"]
+      },
+      {
+        "id": "rug-pull",
+        "term": "Rug Pull",
+        "full_term": "Rug Pull Scam",
+        "category": "risks",
+        "definition": "A rug pull occurs when developers abandon a project and run away with investors' funds, often by removing liquidity from DEXs or exploiting backdoors in smart contracts.",
+        "short_definition": "Scam where developers abandon project and steal investor funds",
+        "example": "A new DeFi token launches, attracts millions in liquidity, then developers remove all liquidity and disappear, leaving investors with worthless tokens.",
+        "related_terms": ["exit-scam", "honeypot", "liquidity-removal", "fraud"],
+        "risks": ["Total loss of funds", "No legal recourse", "Project abandonment"],
+        "tags": ["scam", "rug-pull", "fraud", "exit"]
+      },
+      {
+        "id": "exit-scam",
+        "term": "Exit Scam",
+        "full_term": "Exit Scam",
+        "category": "risks",
+        "definition": "An exit scam is when project founders disappear with investors' money after raising funds, either through ICOs, presales, or by draining protocol treasuries.",
+        "short_definition": "Founders disappearing with investor money after fundraising",
+        "example": "A project raises $10M through token sales, then founders delete social media accounts and transfer all funds to personal wallets.",
+        "related_terms": ["rug-pull", "fraud", "abandoned-project", "theft"],
+        "risks": ["Complete fund loss", "No recovery options", "Damaged ecosystem trust"],
+        "tags": ["scam", "exit", "fraud", "theft"]
+      },
+      {
+        "id": "honeypot",
+        "term": "Honeypot",
+        "full_term": "Honeypot Contract",
+        "category": "risks",
+        "definition": "A honeypot is a malicious smart contract designed to trap users' funds. It appears to allow profitable interactions but contains hidden mechanisms preventing fund withdrawal.",
+        "short_definition": "Malicious contract that traps user funds with hidden withdrawal restrictions",
+        "example": "A token allows you to buy but has hidden code preventing sells, or a contract appears profitable but reverts all withdrawal attempts.",
+        "related_terms": ["scam", "malicious-contract", "trapped-funds", "deception"],
+        "risks": ["Permanent fund loss", "Hidden restrictions", "Deceptive mechanics"],
+        "tags": ["scam", "honeypot", "trap", "malicious"]
+      },
+      {
+        "id": "exploit",
+        "term": "Exploit",
+        "full_term": "Smart Contract Exploit",
+        "category": "risks",
+        "definition": "An exploit is an attack that takes advantage of vulnerabilities in smart contracts or protocols to steal funds, manipulate prices, or disrupt operations.",
+        "short_definition": "Attack exploiting smart contract vulnerabilities to steal funds or cause damage",
+        "example": "The 2022 Wormhole exploit used a signature verification bug to mint 120,000 ETH illegitimately, draining the bridge's reserves.",
+        "related_terms": ["hack", "vulnerability", "attack", "security-breach"],
+        "risks": ["Fund loss", "Protocol damage", "Market disruption"],
+        "tags": ["exploit", "hack", "vulnerability", "attack"]
+      },
+      {
+        "id": "bug-bounty",
+        "term": "Bug Bounty",
+        "full_term": "Bug Bounty Program",
+        "category": "risks",
+        "definition": "Bug bounty programs reward security researchers for finding and responsibly disclosing vulnerabilities in protocols before they can be exploited maliciously.",
+        "short_definition": "Reward program for finding and reporting security vulnerabilities",
+        "example": "Immunefi hosts bug bounties where researchers can earn up to $1M+ for finding critical vulnerabilities in major DeFi protocols.",
+        "related_terms": ["security", "vulnerability", "white-hat", "responsible-disclosure"],
+        "risks": ["Incomplete coverage", "Delayed fixes", "Public disclosure timing"],
+        "tags": ["security", "bounty", "vulnerability", "reward"]
+      },
+      {
+        "id": "white-hat",
+        "term": "White Hat",
+        "full_term": "White Hat Hacker",
+        "category": "risks",
+        "definition": "White hat hackers are ethical security researchers who identify vulnerabilities in protocols and report them responsibly to help improve security rather than exploit them.",
+        "short_definition": "Ethical hacker who finds vulnerabilities to improve security",
+        "example": "A white hat discovers a critical bug in a lending protocol and reports it privately to the team, potentially saving millions in user funds.",
+        "related_terms": ["bug-bounty", "security-researcher", "ethical-hacking", "responsible-disclosure"],
+        "risks": ["Misunderstood intentions", "Legal complications", "Insufficient rewards"],
+        "tags": ["security", "ethical", "hacker", "researcher"]
+      },
+      {
+        "id": "flash-loan-attack",
+        "term": "Flash Loan Attack",
+        "full_term": "Flash Loan Attack",
+        "category": "risks",
+        "definition": "Flash loan attacks use uncollateralized loans to manipulate DeFi protocols, often involving price manipulation, arbitrage exploitation, or governance attacks within a single transaction.",
+        "short_definition": "Attack using flash loans to manipulate protocols for profit",
+        "example": "An attacker uses flash loans to manipulate an oracle price, borrow against inflated collateral, then repay the flash loan while keeping the stolen funds.",
+        "related_terms": ["flash-loan", "price-manipulation", "oracle-attack", "arbitrage"],
+        "risks": ["Protocol drainage", "Market manipulation", "Cascading failures"],
+        "tags": ["attack", "flash-loan", "manipulation", "exploit"]
+      },
+      {
+        "id": "slashing",
+        "term": "Slashing",
+        "full_term": "Validator Slashing",
+        "category": "risks",
+        "definition": "Slashing is a penalty mechanism in Proof of Stake networks where validators lose part of their staked tokens for malicious behavior, downtime, or protocol violations.",
+        "short_definition": "Penalty where staked tokens are destroyed for validator misbehavior",
+        "example": "An Ethereum validator that goes offline for extended periods or signs conflicting blocks can have part of their 32 ETH stake slashed.",
+        "related_terms": ["validator", "staking", "penalty", "proof-of-stake"],
+        "risks": ["Loss of staked funds", "Reputation damage", "Operational requirements"],
+        "tags": ["staking", "slashing", "penalty", "validator"]
+      },
+      {
+        "id": "phishing",
+        "term": "Phishing",
+        "full_term": "Cryptocurrency Phishing",
+        "category": "risks",
+        "definition": "Phishing attacks trick users into revealing private keys, seed phrases, or approving malicious transactions through fake websites, emails, or social media messages.",
+        "short_definition": "Deceptive attacks to steal private keys or trick users into malicious transactions",
+        "example": "A fake Uniswap website looks identical to the real one but steals your wallet connection details when you try to trade.",
+        "related_terms": ["social-engineering", "fake-website", "private-keys", "wallet-security"],
+        "risks": ["Wallet drainage", "Identity theft", "Unauthorized transactions"],
+        "tags": ["phishing", "scam", "social-engineering", "security"]
+      },
+      {
+        "id": "orderbook",
+        "term": "Order Book",
+        "full_term": "Order Book",
+        "category": "trading",
+        "definition": "An order book is a real-time electronic list of buy and sell orders for an asset, organized by price level. It shows market depth and available liquidity at different price points.",
+        "short_definition": "Real-time list of buy and sell orders organized by price levels",
+        "example": "On a centralized exchange like Coinbase, the ETH/USD order book shows all pending buy orders below current price and sell orders above.",
+        "related_terms": ["market-depth", "bid-ask-spread", "liquidity", "centralized-exchange"],
+        "risks": ["Order manipulation", "Liquidity gaps", "Centralized control"],
+        "tags": ["trading", "orderbook", "liquidity", "centralized"]
+      },
+      {
+        "id": "market-depth",
+        "term": "Market Depth",
+        "full_term": "Market Depth",
+        "category": "trading",
+        "definition": "Market depth refers to the market's ability to sustain large orders without significantly impacting price. Deep markets have substantial liquidity available at various price levels.",
+        "short_definition": "Market's ability to handle large orders without significant price impact",
+        "example": "ETH has deep market depth, so trading $1M causes minimal price impact, unlike small altcoin pairs with shallow depth.",
+        "related_terms": ["liquidity", "price-impact", "slippage", "volume"],
+        "risks": ["Shallow markets", "High slippage", "Liquidity fragmentation"],
+        "tags": ["trading", "depth", "liquidity", "market"]
+      },
+      {
+        "id": "bid-ask-spread",
+        "term": "Bid-Ask Spread",
+        "full_term": "Bid-Ask Spread",
+        "category": "trading",
+        "definition": "The bid-ask spread is the difference between the highest price buyers are willing to pay (bid) and the lowest price sellers are willing to accept (ask). Tighter spreads indicate better liquidity.",
+        "short_definition": "Difference between highest buy price and lowest sell price",
+        "example": "If ETH has a $1999 bid and $2001 ask, the spread is $2. AMMs don't have traditional spreads but have equivalent trading costs.",
+        "related_terms": ["orderbook", "market-maker", "liquidity", "trading-fees"],
+        "risks": ["Wide spreads increase costs", "Low liquidity", "Market inefficiency"],
+        "tags": ["trading", "spread", "bid", "ask"]
+      },
+      {
+        "id": "volume",
+        "term": "Volume",
+        "full_term": "Trading Volume",
+        "category": "trading",
+        "definition": "Trading volume is the total amount of an asset traded over a specific period, usually measured in USD value or number of tokens. High volume indicates active trading and better price discovery.",
+        "short_definition": "Total amount of an asset traded in a given time period",
+        "example": "If $500 million worth of ETH trades across all exchanges in 24 hours, that represents ETH's daily trading volume.",
+        "related_terms": ["liquidity", "market-activity", "price-discovery", "turnover"],
+        "risks": ["Low volume illiquidity", "Wash trading", "Volume manipulation"],
+        "tags": ["trading", "volume", "activity", "liquidity"]
+      },
+      {
+        "id": "limit-order",
+        "term": "Limit Order",
+        "full_term": "Limit Order",
+        "category": "trading",
+        "definition": "A limit order is an instruction to buy or sell an asset at a specific price or better. It provides price certainty but doesn't guarantee execution if the market doesn't reach the specified price.",
+        "short_definition": "Order to trade at a specific price or better",
+        "example": "A limit buy order for ETH at $1950 will only execute if ETH price drops to $1950 or below.",
+        "related_terms": ["market-order", "orderbook", "execution", "price-level"],
+        "risks": ["No execution guarantee", "Partial fills", "Price gaps"],
+        "tags": ["trading", "orders", "limit", "execution"]
+      },
+      {
+        "id": "market-order",
+        "term": "Market Order",
+        "full_term": "Market Order",
+        "category": "trading",
+        "definition": "A market order is an instruction to buy or sell immediately at the best available current price. It guarantees execution but not the exact price, especially in volatile markets.",
+        "short_definition": "Order to trade immediately at current market price",
+        "example": "A market buy order for 1 ETH will purchase at whatever price sellers are currently offering, regardless of the exact amount paid.",
+        "related_terms": ["limit-order", "slippage", "execution", "current-price"],
+        "risks": ["Price uncertainty", "Slippage", "Poor execution during volatility"],
+        "tags": ["trading", "orders", "market", "immediate"]
+      },
+      {
+        "id": "liquidity-provider",
+        "term": "Liquidity Provider",
+        "full_term": "Liquidity Provider (LP)",
+        "category": "trading",
+        "definition": "A liquidity provider supplies assets to trading venues to facilitate trading. In DeFi, LPs deposit token pairs into AMM pools to earn trading fees and rewards.",
+        "short_definition": "Entity that supplies assets to facilitate trading and earn fees",
+        "example": "You become an LP by depositing equal values of ETH and USDC into a Uniswap pool, earning 0.3% of all trading fees.",
+        "related_terms": ["liquidity-pool", "amm", "trading-fees", "impermanent-loss"],
+        "risks": ["Impermanent loss", "Smart contract risk", "Fee rate changes"],
+        "tags": ["trading", "liquidity", "provider", "fees"]
+      },
+      {
+        "id": "swap",
+        "term": "Swap",
+        "full_term": "Token Swap",
+        "category": "trading",
+        "definition": "A swap is the direct exchange of one cryptocurrency for another, typically executed through AMMs or DEX aggregators without requiring order books or counterparties.",
+        "short_definition": "Direct exchange of one cryptocurrency for another",
+        "example": "Swapping 1 ETH for 2,000 USDC on Uniswap using the protocol's automated market maker.",
+        "related_terms": ["amm", "dex", "slippage", "trading-fees"],
+        "risks": ["Slippage", "Failed transactions", "MEV extraction"],
+        "tags": ["trading", "swap", "exchange", "amm"]
+      },
+      {
+        "id": "dex",
+        "term": "DEX",
+        "full_term": "Decentralized Exchange",
+        "category": "trading",
+        "definition": "A decentralized exchange operates without central authority, allowing users to trade cryptocurrencies directly from their wallets through smart contracts and AMMs.",
+        "short_definition": "Exchange operating without central authority using smart contracts",
+        "example": "Uniswap and SushiSwap are popular DEXs where you can trade tokens directly from your wallet without creating accounts.",
+        "related_terms": ["amm", "smart-contract", "liquidity-pool", "permissionless"],
+        "risks": ["Smart contract bugs", "Lower liquidity", "Complex user experience"],
+        "tags": ["trading", "dex", "decentralized", "smart-contract"]
+      },
+      {
+        "id": "cex",
+        "term": "CEX",
+        "full_term": "Centralized Exchange",
+        "category": "trading",
+        "definition": "A centralized exchange is operated by a company that controls user funds and facilitates trading through traditional order books, requiring users to deposit funds and create accounts.",
+        "short_definition": "Company-operated exchange controlling user funds with order books",
+        "example": "Binance, Coinbase, and Kraken are major CEXs where you deposit funds to trade with better liquidity and user experience.",
+        "related_terms": ["orderbook", "custody", "kyc", "liquidity"],
+        "risks": ["Counterparty risk", "Regulatory risk", "Account freezing"],
+        "tags": ["trading", "cex", "centralized", "orderbook"]
+      },
+      {
+        "id": "routing",
+        "term": "Routing",
+        "full_term": "Trade Routing",
+        "category": "trading",
+        "definition": "Routing is the process of finding the most efficient path for a trade across multiple liquidity sources to minimize costs and slippage, often used by DEX aggregators.",
+        "short_definition": "Finding optimal trading paths across multiple liquidity sources",
+        "example": "1inch routes your ETH-to-USDC trade through multiple DEXs and pools to get the best possible price.",
+        "related_terms": ["dex-aggregator", "slippage", "arbitrage", "optimization"],
+        "risks": ["Complex execution", "Higher gas costs", "Routing failures"],
+        "tags": ["trading", "routing", "optimization", "aggregator"]
+      },
+      {
+        "id": "constant-product",
+        "term": "Constant Product",
+        "full_term": "Constant Product Formula",
+        "category": "trading",
+        "definition": "The constant product formula (x*y=k) is the mathematical model used by AMMs like Uniswap to automatically set prices based on token ratios in liquidity pools.",
+        "short_definition": "Mathematical formula (x*y=k) used by AMMs for automatic pricing",
+        "example": "In a ETH/USDC pool, if you buy ETH, the ETH amount decreases and USDC increases, maintaining the constant product while raising ETH's price.",
+        "related_terms": ["amm", "uniswap", "pricing", "liquidity-pool"],
+        "risks": ["Price impact", "Arbitrage opportunities", "Impermanent loss"],
+        "tags": ["trading", "amm", "formula", "pricing"]
+      },
+      {
+        "id": "liquidity-aggregation",
+        "term": "Liquidity Aggregation",
+        "full_term": "Liquidity Aggregation",
+        "category": "trading",
+        "definition": "Liquidity aggregation combines liquidity from multiple sources (DEXs, CEXs, pools) to provide better prices, reduce slippage, and improve trading execution for users.",
+        "short_definition": "Combining liquidity from multiple sources for better trading execution",
+        "example": "Aggregators like 1inch and Paraswap combine liquidity from Uniswap, SushiSwap, Balancer, and other DEXs for optimal trades.",
+        "related_terms": ["dex-aggregator", "routing", "slippage", "optimization"],
+        "risks": ["Complex smart contracts", "Higher gas costs", "Aggregation failures"],
+        "tags": ["trading", "aggregation", "liquidity", "optimization"]
+      },
+      {
+        "id": "price-oracle",
+        "term": "Price Oracle",
+        "full_term": "Price Oracle",
+        "category": "trading",
+        "definition": "Price oracles provide real-time external price data to smart contracts, enabling DeFi protocols to make decisions based on accurate market prices for lending, derivatives, and other applications.",
+        "short_definition": "Service providing real-time price data to smart contracts",
+        "example": "Chainlink price oracles supply ETH/USD prices to MakerDAO for determining collateral values and liquidation thresholds.",
+        "related_terms": ["chainlink", "price-feeds", "external-data", "smart-contracts"],
+        "risks": ["Oracle manipulation", "Data lag", "Price feed failures"],
+        "tags": ["trading", "oracle", "price", "data"]
+      },
+      {
+        "id": "leverage",
+        "term": "Leverage",
+        "full_term": "Financial Leverage",
+        "category": "strategies",
+        "definition": "Leverage allows traders to control larger positions than their capital would normally allow by borrowing funds. In DeFi, leverage amplifies both potential gains and losses through borrowed capital.",
+        "short_definition": "Using borrowed funds to amplify trading position size and potential returns",
+        "example": "With 3x leverage, you can control $3000 worth of ETH with only $1000 of your own capital, amplifying both gains and losses by 3x.",
+        "related_terms": ["margin-trading", "liquidation", "collateral", "borrowing"],
+        "risks": ["Amplified losses", "Liquidation risk", "Interest costs", "Market volatility"],
+        "tags": ["leverage", "trading", "borrowing", "amplification"]
+      },
+      {
+        "id": "margin-trading",
+        "term": "Margin Trading",
+        "full_term": "Margin Trading",
+        "category": "strategies",
+        "definition": "Margin trading involves borrowing funds to trade larger positions than your account balance allows. Traders post collateral and can be liquidated if positions move against them significantly.",
+        "short_definition": "Trading with borrowed funds using collateral to control larger positions",
+        "example": "You deposit $1000 ETH as collateral and borrow $2000 USDC to buy more ETH, creating a leveraged long position that can be liquidated if ETH drops.",
+        "related_terms": ["leverage", "collateral", "liquidation", "maintenance-margin"],
+        "risks": ["Liquidation risk", "Interest payments", "Margin calls", "Enhanced volatility exposure"],
+        "tags": ["margin", "leverage", "trading", "borrowing"]
+      },
+      {
+        "id": "delta-neutral",
+        "term": "Delta Neutral",
+        "full_term": "Delta Neutral Strategy",
+        "category": "strategies",
+        "definition": "A delta neutral strategy aims to eliminate directional price risk by balancing long and short positions so that the portfolio's value doesn't change with small price movements in the underlying asset.",
+        "short_definition": "Strategy that eliminates directional price risk through balanced long/short positions",
+        "example": "Providing ETH/USDC liquidity while shorting ETH with perpetual futures to hedge against ETH price movements, earning fees while minimizing price exposure.",
+        "related_terms": ["hedging", "liquidity-providing", "perpetuals", "market-neutral"],
+        "risks": ["Imperfect hedging", "Funding costs", "Rebalancing needs", "Basis risk"],
+        "tags": ["delta-neutral", "hedging", "advanced", "market-neutral"]
+      },
+      {
+        "id": "perpetuals",
+        "term": "Perpetuals",
+        "full_term": "Perpetual Futures",
+        "category": "strategies",
+        "definition": "Perpetual futures are derivative contracts that track an underlying asset's price without an expiration date. They use funding rates to keep prices aligned with spot markets.",
+        "short_definition": "Derivative contracts that track asset prices without expiration dates",
+        "example": "Trading ETH perpetuals on dYdX allows you to go long or short ETH with leverage, paying or receiving funding rates based on market sentiment.",
+        "related_terms": ["futures", "funding-rate", "derivatives", "leverage"],
+        "risks": ["Funding rate costs", "Liquidation risk", "Basis risk", "Counterparty risk"],
+        "tags": ["perpetuals", "derivatives", "futures", "leverage"]
+      },
+      {
+        "id": "funding-rate",
+        "term": "Funding Rate",
+        "full_term": "Perpetual Funding Rate",
+        "category": "strategies",
+        "definition": "The funding rate is a periodic payment between long and short traders in perpetual futures markets to keep the contract price aligned with the spot price of the underlying asset.",
+        "short_definition": "Periodic payment between perpetual futures traders to maintain price alignment",
+        "example": "If ETH perpetuals trade above spot price, long positions pay short positions a funding fee every 8 hours to incentivize price convergence.",
+        "related_terms": ["perpetuals", "basis", "arbitrage", "price-convergence"],
+        "risks": ["Funding costs", "Rate volatility", "Timing risk", "Strategy impact"],
+        "tags": ["funding-rate", "perpetuals", "derivatives", "payments"]
+      },
+      {
+        "id": "derivatives",
+        "term": "Derivatives",
+        "full_term": "Financial Derivatives",
+        "category": "strategies",
+        "definition": "Derivatives are financial contracts whose value derives from underlying assets like cryptocurrencies, stocks, or commodities. In DeFi, they enable advanced trading strategies and risk management.",
+        "short_definition": "Financial contracts deriving value from underlying assets",
+        "example": "Options on ETH, perpetual futures, and synthetic assets are all derivatives that let you trade price exposure without owning the underlying ETH.",
+        "related_terms": ["options", "futures", "synthetic-assets", "leverage"],
+        "risks": ["Complexity", "Counterparty risk", "Liquidity risk", "Leverage amplification"],
+        "tags": ["derivatives", "advanced", "financial-instruments", "trading"]
+      },
+      {
+        "id": "options",
+        "term": "Options",
+        "full_term": "Options Trading",
+        "category": "strategies",
+        "definition": "Options are derivative contracts that give the holder the right (but not obligation) to buy or sell an asset at a specific price before expiration. They're used for hedging, speculation, and income generation.",
+        "short_definition": "Contracts giving the right to buy/sell assets at specific prices before expiration",
+        "example": "Buying ETH call options for $2500 strike gives you the right to buy ETH at $2500 regardless of market price, while selling covered calls generates income.",
+        "related_terms": ["strike-price", "premium", "expiration", "volatility"],
+        "risks": ["Time decay", "Volatility risk", "Premium loss", "Assignment risk"],
+        "tags": ["options", "derivatives", "hedging", "speculation"]
+      },
+      {
+        "id": "carry-trade",
+        "term": "Carry Trade",
+        "full_term": "Cryptocurrency Carry Trade",
+        "category": "strategies",
+        "definition": "A carry trade involves borrowing low-yield assets to invest in higher-yield assets, profiting from the interest rate differential while exposed to exchange rate risk.",
+        "short_definition": "Borrowing low-yield assets to invest in higher-yield ones for interest differential profit",
+        "example": "Borrowing stablecoins at 3% APR to lend other tokens at 8% APR, earning 5% spread while exposed to the borrowed token's price risk.",
+        "related_terms": ["interest-rate-differential", "borrowing", "lending", "currency-risk"],
+        "risks": ["Currency/token price risk", "Interest rate changes", "Liquidity risk", "Margin calls"],
+        "tags": ["carry-trade", "interest", "arbitrage", "yield"]
+      },
+      {
+        "id": "basis-trading",
+        "term": "Basis Trading",
+        "full_term": "Basis Trading",
+        "category": "strategies",
+        "definition": "Basis trading exploits price differences between spot and futures markets by simultaneously buying one and selling the other, profiting as the basis (price difference) converges to zero at expiration.",
+        "short_definition": "Arbitrage strategy exploiting price differences between spot and futures markets",
+        "example": "If ETH futures trade at $2050 while spot is $2000, buy spot ETH and short futures, profiting $50 per ETH when they converge at expiration.",
+        "related_terms": ["futures", "arbitrage", "convergence", "spread-trading"],
+        "risks": ["Basis risk", "Funding costs", "Liquidity risk", "Execution timing"],
+        "tags": ["basis-trading", "arbitrage", "futures", "spread"]
+      },
+      {
+        "id": "grid-trading",
+        "term": "Grid Trading",
+        "full_term": "Grid Trading Strategy",
+        "category": "strategies",
+        "definition": "Grid trading is an automated strategy that places multiple buy and sell orders at regular price intervals, profiting from market volatility by buying low and selling high within a defined range.",
+        "short_definition": "Automated strategy placing multiple orders at price intervals to profit from volatility",
+        "example": "Setting buy orders every $50 below ETH's current price and sell orders every $50 above, automatically trading the range as price oscillates.",
+        "related_terms": ["range-trading", "automated-trading", "volatility", "rebalancing"],
+        "risks": ["Trend risk", "Range breakout", "High transaction costs", "Capital efficiency"],
+        "tags": ["grid-trading", "automated", "volatility", "range"]
+      },
+      {
+        "id": "proposal",
+        "term": "Proposal",
+        "full_term": "Governance Proposal",
+        "category": "governance",
+        "definition": "A governance proposal is a formal suggestion submitted to a DAO or protocol community for voting. Proposals can include parameter changes, protocol upgrades, treasury spending, or strategic decisions.",
+        "short_definition": "Formal suggestion submitted to DAO community for voting on protocol changes",
+        "example": "A proposal to change Uniswap's trading fee from 0.3% to 0.25% would need to be voted on by UNI token holders before implementation.",
+        "related_terms": ["dao", "voting", "governance-token", "quorum"],
+        "risks": ["Poor decision making", "Low participation", "Governance attacks"],
+        "tags": ["governance", "proposal", "voting", "dao"]
+      },
+      {
+        "id": "quorum",
+        "term": "Quorum",
+        "full_term": "Voting Quorum",
+        "category": "governance",
+        "definition": "Quorum is the minimum number of votes or percentage of total voting power required for a governance proposal to be considered valid and binding.",
+        "short_definition": "Minimum voting participation required for proposal validity",
+        "example": "If a DAO requires 10% quorum and has 100M tokens, at least 10M tokens must participate in voting for the proposal to pass.",
+        "related_terms": ["proposal", "voting", "governance-token", "participation"],
+        "risks": ["Low participation", "Governance gridlock", "Minority rule"],
+        "tags": ["governance", "quorum", "voting", "participation"]
+      },
+      {
+        "id": "timelock",
+        "term": "Timelock",
+        "full_term": "Governance Timelock",
+        "category": "governance",
+        "definition": "A timelock is a mechanism that delays the execution of approved governance proposals, giving the community time to review and potentially exit before changes take effect.",
+        "short_definition": "Delay mechanism between proposal approval and execution for community review",
+        "example": "Compound uses a 2-day timelock, meaning approved proposals wait 48 hours before execution, allowing users time to withdraw if they disagree.",
+        "related_terms": ["proposal", "governance", "security", "exit-opportunity"],
+        "risks": ["Delayed responses to urgent issues", "Coordination complexity", "Emergency situations"],
+        "tags": ["governance", "timelock", "security", "delay"]
+      },
+      {
+        "id": "vote-escrow",
+        "term": "Vote Escrow",
+        "full_term": "Vote Escrow (veToken)",
+        "category": "governance",
+        "definition": "Vote escrow allows users to lock tokens for extended periods to receive enhanced voting power and rewards. Longer lock periods typically provide more voting weight and benefits.",
+        "short_definition": "Locking tokens for extended periods to gain enhanced voting power and rewards",
+        "example": "Curve's veCRV system lets users lock CRV for up to 4 years, with longer locks providing more voting power and higher rewards from protocol fees.",
+        "related_terms": ["governance-token", "voting-power", "lock-up", "incentive-alignment"],
+        "risks": ["Lock-up periods", "Opportunity cost", "Token price volatility"],
+        "tags": ["governance", "vote-escrow", "locking", "voting-power"]
+      },
+      {
+        "id": "delegation",
+        "term": "Delegation",
+        "full_term": "Vote Delegation",
+        "category": "governance",
+        "definition": "Delegation allows token holders to assign their voting power to another party (delegate) who votes on their behalf, enabling more informed participation in governance.",
+        "short_definition": "Assigning voting power to another party to vote on your behalf",
+        "example": "If you hold UNI tokens but don't have time to research every proposal, you can delegate your voting power to a trusted community member or organization.",
+        "related_terms": ["voting-power", "governance-token", "representative", "proxy-voting"],
+        "risks": ["Delegate misalignment", "Centralization of power", "Reduced direct participation"],
+        "tags": ["governance", "delegation", "voting", "proxy"]
+      },
+      {
+        "id": "treasury",
+        "term": "Treasury",
+        "full_term": "DAO Treasury",
+        "category": "governance",
+        "definition": "A treasury is a pool of funds controlled by a DAO or protocol, typically used for development funding, ecosystem growth, partnerships, and community incentives.",
+        "short_definition": "Pool of funds controlled by DAO for development and ecosystem growth",
+        "example": "Uniswap's treasury contains millions in UNI tokens and other assets, used to fund grants, partnerships, and protocol development through governance votes.",
+        "related_terms": ["dao", "governance", "funding", "grants"],
+        "risks": ["Misallocation of funds", "Governance capture", "Treasury depletion"],
+        "tags": ["governance", "treasury", "funding", "dao"]
+      },
+      {
+        "id": "snapshot",
+        "term": "Snapshot",
+        "full_term": "Governance Snapshot",
+        "category": "governance",
+        "definition": "A snapshot is a specific block height at which token holdings are recorded for governance voting, preventing users from buying tokens just to vote and then immediately selling.",
+        "short_definition": "Recording token holdings at specific block height for fair governance voting",
+        "example": "A governance vote announces a snapshot at block 15,000,000, meaning only wallets holding tokens at that block can participate, preventing last-minute vote buying.",
+        "related_terms": ["voting", "governance-token", "block-height", "vote-buying"],
+        "risks": ["Advance notice gaming", "Snapshot timing manipulation", "Exclusion of recent holders"],
+        "tags": ["governance", "snapshot", "voting", "fairness"]
+      },
+      {
+        "id": "governance-attack",
+        "term": "Governance Attack",
+        "full_term": "Governance Attack",
+        "category": "governance",
+        "definition": "A governance attack occurs when malicious actors acquire enough voting power to pass harmful proposals, potentially draining treasuries, changing protocol parameters, or disrupting operations.",
+        "short_definition": "Malicious actors gaining voting control to pass harmful proposals",
+        "example": "An attacker could buy a large amount of governance tokens, propose to transfer all treasury funds to their address, and vote it through if they have majority control.",
+        "related_terms": ["governance-token", "voting-power", "dao", "hostile-takeover"],
+        "risks": ["Treasury drainage", "Protocol disruption", "Loss of decentralization"],
+        "tags": ["governance", "attack", "security", "hostile"]
+      },
+      {
+        "id": "tvl",
+        "term": "TVL",
+        "full_term": "Total Value Locked",
+        "category": "technical",
+        "definition": "Total Value Locked (TVL) measures the total amount of assets deposited and locked in a DeFi protocol or across the entire DeFi ecosystem. It's a key metric for assessing protocol adoption and security.",
+        "short_definition": "Total amount of assets deposited and locked in DeFi protocols",
+        "example": "If Uniswap has $5 billion TVL, it means $5 billion worth of crypto assets are currently locked in Uniswap's liquidity pools.",
+        "related_terms": ["liquidity", "protocol-metrics", "market-cap", "adoption"],
+        "risks": ["TVL manipulation", "Capital flight", "Protocol risk concentration"],
+        "tags": ["tvl", "metrics", "locked", "value"]
+      },
+      {
+        "id": "seed-phrase",
+        "term": "Seed Phrase",
+        "full_term": "Seed Phrase (Recovery Phrase)",
+        "category": "technical",
+        "definition": "A seed phrase is a series of 12 or 24 words that can restore access to your cryptocurrency wallet and all associated private keys. It's the master backup for your entire wallet.",
+        "short_definition": "Series of words that can restore access to your cryptocurrency wallet",
+        "example": "A typical seed phrase looks like 'abandon ability able about above absent absorb abstract absurd abuse access accident' - 12 randomly generated words.",
+        "related_terms": ["private-keys", "wallet", "backup", "security"],
+        "risks": ["Permanent loss if forgotten", "Theft if exposed", "Physical damage to storage"],
+        "tags": ["security", "wallet", "backup", "recovery"]
+      },
+      {
+        "id": "private-key",
+        "term": "Private Key",
+        "full_term": "Private Key",
+        "category": "technical",
+        "definition": "A private key is a secret cryptographic key that gives you control over your cryptocurrency. It's used to sign transactions and prove ownership of funds associated with a specific wallet address.",
+        "short_definition": "Secret cryptographic key that controls your cryptocurrency",
+        "example": "Your private key is like a digital signature - it proves you own the funds at your wallet address and allows you to send transactions.",
+        "related_terms": ["seed-phrase", "wallet", "public-key", "address"],
+        "risks": ["Complete fund loss if stolen", "Irreversible if lost", "No recovery options"],
+        "tags": ["security", "cryptography", "wallet", "keys"]
+      },
+      {
+        "id": "wallet",
+        "term": "Wallet",
+        "full_term": "Cryptocurrency Wallet",
+        "category": "technical",
+        "definition": "A cryptocurrency wallet is a software or hardware tool that stores your private keys and allows you to send, receive, and manage your cryptocurrency. It doesn't actually store coins, but provides access to them on the blockchain.",
+        "short_definition": "Tool for storing private keys and managing cryptocurrency",
+        "example": "MetaMask is a popular browser wallet that lets you interact with DeFi protocols, while Ledger is a hardware wallet for secure offline storage.",
+        "related_terms": ["private-key", "seed-phrase", "address", "metamask"],
+        "risks": ["Loss of access", "Hacking", "User error"],
+        "tags": ["wallet", "security", "storage", "keys"]
+      },
+      {
+        "id": "metamask",
+        "term": "MetaMask",
+        "full_term": "MetaMask",
+        "category": "technical",
+        "definition": "MetaMask is a popular browser extension and mobile wallet that allows users to interact with the Ethereum blockchain and DeFi applications. It manages private keys and facilitates transactions with dApps.",
+        "short_definition": "Popular browser wallet for interacting with Ethereum and DeFi",
+        "example": "You can connect MetaMask to Uniswap to swap tokens, or to Aave to lend your assets, all from your browser.",
+        "related_terms": ["wallet", "ethereum", "dapp", "browser-extension"],
+        "risks": ["Phishing attacks", "Malicious dApps", "Browser vulnerabilities"],
+        "tags": ["metamask", "wallet", "ethereum", "browser"]
+      },
+      {
+        "id": "dapp",
+        "term": "dApp",
+        "full_term": "Decentralized Application",
+        "category": "technical",
+        "definition": "A decentralized application (dApp) is an application that runs on a blockchain network rather than centralized servers. dApps use smart contracts for their backend logic and typically have no single controlling authority.",
+        "short_definition": "Application running on blockchain rather than centralized servers",
+        "example": "Uniswap, Aave, and Compound are popular DeFi dApps that run entirely on Ethereum using smart contracts.",
+        "related_terms": ["smart-contract", "ethereum", "decentralization", "blockchain"],
+        "risks": ["Smart contract bugs", "Frontend attacks", "Governance risks"],
+        "tags": ["dapp", "decentralized", "application", "blockchain"]
+      },
+      {
+        "id": "kyc",
+        "term": "KYC",
+        "full_term": "Know Your Customer",
+        "category": "technical",
+        "definition": "Know Your Customer (KYC) is a regulatory process requiring businesses to verify the identity of their clients. In crypto, some centralized platforms require KYC, while DeFi protocols typically operate without it.",
+        "short_definition": "Regulatory process requiring identity verification of customers",
+        "example": "Centralized exchanges like Coinbase require KYC verification before you can trade, but DEXs like Uniswap allow trading without identity verification.",
+        "related_terms": ["aml", "compliance", "regulation", "centralized-exchange"],
+        "risks": ["Privacy loss", "Data breaches", "Regulatory compliance"],
+        "tags": ["kyc", "compliance", "identity", "regulation"]
       }
     ]
   },
@@ -81,7 +1644,7 @@
         "id": "apy",
         "term": "APY",
         "full_term": "Rendement Annuel en Pourcentage",
-        "category": "rendements",
+        "category": "yields",
         "definition": "Le rendement annuel en pourcentage (APY) représente le taux de rendement réel gagné sur un investissement, en tenant compte de l'effet des intérêts composés. En DeFi, l'APY montre combien vous pouvez gagner annuellement en prêtant, fournissant de la liquidité ou en stakant.",
         "short_definition": "Le rendement annuel d'un investissement incluant les effets des intérêts composés",
         "example": "Un pool de liquidité offrant 15% d'APY signifie que votre investissement initial croîtrait de 15% sur une année avec composition.",
@@ -93,7 +1656,292 @@
             "question": "Quelle est la différence entre APR et APY ?",
             "answer": "L'APR montre les intérêts simples tandis que l'APY inclut les effets de composition. L'APY est généralement plus élevé et plus précis pour les rendements DeFi."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "Guide complet des stratégies de rendement DeFi et compréhension des retours"
+          }
         ]
+      },
+      {
+        "id": "impermanent-loss",
+        "term": "Perte Impermanente",
+        "full_term": "Perte Impermanente",
+        "category": "risks",
+        "definition": "La perte impermanente se produit lorsque vous fournissez de la liquidité aux teneurs de marché automatisés (AMM) et que le ratio de prix de vos tokens déposés change par rapport au moment où vous les avez déposés. La perte est 'impermanente' car elle ne devient permanente que lorsque vous retirez votre liquidité.",
+        "short_definition": "Perte temporaire subie par les fournisseurs de liquidité quand les prix des tokens divergent",
+        "example": "Si vous fournissez de la liquidité ETH/USDC à 1 ETH = 2000$, mais que l'ETH monte à 3000$, vous aurez moins d'ETH et plus d'USDC au retrait, ratant une partie des gains d'ETH.",
+        "related_terms": ["liquidity-providing", "amm", "slippage", "arbitrage"],
+        "risks": ["Risque de divergence de prix", "Coût d'opportunité", "Exposition à la volatilité du marché"],
+        "tags": ["defi", "risques", "liquidité", "amm"],
+        "common_questions": [
+          {
+            "question": "Comment minimiser la perte impermanente ?",
+            "answer": "Choisissez des paires stables, utilisez soigneusement les plages de liquidité concentrée, ou considérez le staking unilatéral au lieu de fournir de la liquidité à des paires volatiles."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
+            "url": "/p/how-to-make-definancial-products-work-for-you/",
+            "description": "Comprendre les risques LP et les stratégies de rendement DeFi"
+          }
+        ]
+      },
+      {
+        "id": "yield-farming",
+        "term": "Yield Farming",
+        "full_term": "Yield Farming",
+        "category": "strategies",
+        "definition": "Le yield farming est la pratique de déplacer des actifs crypto entre différents protocoles DeFi pour maximiser les rendements. Les farmers fournissent typiquement de la liquidité, prêtent des actifs, ou stakent des tokens pour gagner des rendements sous forme d'intérêts, de frais, ou de tokens de récompense.",
+        "short_definition": "Stratégie de maximisation des rendements en déplaçant des actifs entre protocoles DeFi",
+        "example": "Un yield farmer pourrait fournir de la liquidité ETH/USDC sur Uniswap, staker les tokens LP sur une plateforme de récompenses, et utiliser les tokens gagnés dans un autre protocole pour des rendements additionnels.",
+        "related_terms": ["liquidity-mining", "apy", "defi", "staking"],
+        "risks": ["Risque de smart contract", "Perte impermanente", "Volatilité des prix des tokens", "Rug pulls"],
+        "tags": ["defi", "stratégies", "rendements", "farming"],
+        "common_questions": [
+          {
+            "question": "Le yield farming est-il rentable ?",
+            "answer": "Le yield farming peut être rentable mais implique des risques significatifs incluant les vulnérabilités de smart contracts, la perte impermanente, et les frais de gas élevés. Le succès nécessite une recherche minutieuse et une gestion des risques."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🧰 La Boîte à Outils du Farming DeFinancier",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Guide complet des stratégies de yield farming, outils et meilleures pratiques"
+          },
+          {
+            "title": "🤖 Vaults : Investissement DeFi Simplifié ?",
+            "url": "/p/vaults-defi-investing-streamlined/",
+            "description": "Comprendre les stratégies de rendement automatisées et les mécanismes de vaults"
+          }
+        ]
+      },
+      {
+        "id": "liquidity-mining",
+        "term": "Liquidity Mining",
+        "full_term": "Liquidity Mining",
+        "category": "strategies",
+        "definition": "Le liquidity mining est un mécanisme où les utilisateurs fournissent de la liquidité aux échanges décentralisés ou protocoles de prêt en échange de récompenses en tokens. C'est utilisé par les protocoles pour amorcer la liquidité et distribuer des tokens de gouvernance aux utilisateurs.",
+        "short_definition": "Gagner des récompenses en tokens en fournissant de la liquidité aux protocoles DeFi",
+        "example": "Compound distribue des tokens COMP aux utilisateurs qui apportent des actifs à leurs pools de prêt, incitant l'apport de liquidité.",
+        "related_terms": ["yield-farming", "governance-tokens", "liquidity-providing", "incentives"],
+        "risks": ["Volatilité du prix des tokens", "Risque de smart contract", "Changements de programme"],
+        "tags": ["defi", "incitations", "liquidité", "récompenses"],
+        "common_questions": [
+          {
+            "question": "Combien de temps durent les programmes de liquidity mining ?",
+            "answer": "Les programmes varient largement, de quelques semaines à des années. Beaucoup de protocoles ajustent les récompenses selon les besoins du protocole et les décisions de gouvernance."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🧰 La Boîte à Outils du Farming DeFinancier",
+            "url": "/p/the-definancial-farming-toolbox/",
+            "description": "Comprendre les programmes de liquidity mining et les mécanismes de récompense"
+          }
+        ]
+      },
+      {
+        "id": "amm",
+        "term": "AMM",
+        "full_term": "Teneur de Marché Automatisé",
+        "category": "technique",
+        "definition": "Un Teneur de Marché Automatisé (AMM) est un type de protocole d'échange décentralisé qui s'appuie sur des formules mathématiques pour fixer le prix des actifs plutôt que sur des carnets d'ordres. Les AMM permettent le trading sans permission en utilisant des pools de liquidité où les utilisateurs peuvent échanger des tokens automatiquement.",
+        "short_definition": "Échange décentralisé utilisant des formules mathématiques pour la tarification au lieu de carnets d'ordres",
+        "example": "Uniswap est un AMM où les utilisateurs peuvent échanger ETH contre USDC directement depuis les pools de liquidité sans besoin de contrepartie.",
+        "related_terms": ["liquidity-pool", "slippage", "impermanent-loss", "arbitrage"],
+        "risks": ["Slippage sur les gros trades", "Vulnérabilités de smart contract", "Risques pour les fournisseurs de liquidité"],
+        "tags": ["defi", "dex", "trading", "amm"],
+        "common_questions": [
+          {
+            "question": "Comment un AMM détermine-t-il les prix ?",
+            "answer": "Les AMM utilisent des algorithmes comme x*y=k (produit constant) pour ajuster automatiquement les prix basés sur l'offre et la demande dans les pools de liquidité."
+          }
+        ]
+      },
+      {
+        "id": "dao",
+        "term": "DAO",
+        "full_term": "Organisation Autonome Décentralisée",
+        "category": "protocols",
+        "definition": "Une Organisation Autonome Décentralisée (DAO) est une organisation basée sur la blockchain gouvernée par des smart contracts et des détenteurs de tokens plutôt que par des structures de gestion traditionnelles. Les membres votent sur des propositions utilisant des tokens de gouvernance pour prendre des décisions sur l'avenir du protocole.",
+        "short_definition": "Organisation basée blockchain gouvernée par les détenteurs de tokens et smart contracts",
+        "example": "MakerDAO gouverne le protocole Maker, où les détenteurs de tokens MKR votent sur les frais de stabilité, types de collatéral, et autres paramètres du protocole.",
+        "related_terms": ["governance-tokens", "voting", "proposals", "decentralization"],
+        "risks": ["Attaques de gouvernance", "Faible participation", "Incertitude réglementaire"],
+        "tags": ["defi", "gouvernance", "dao", "décentralisation"],
+        "common_questions": [
+          {
+            "question": "Comment participer à la gouvernance d'une DAO ?",
+            "answer": "Détenir des tokens de gouvernance, rester informé des propositions, et voter sur les décisions qui affectent l'avenir du protocole."
+          }
+        ]
+      },
+      {
+        "id": "smart-contract",
+        "term": "Smart Contract",
+        "full_term": "Contrat Intelligent",
+        "category": "technique",
+        "definition": "Un smart contract est un contrat auto-exécutant avec des termes directement écrits en code. En DeFi, les smart contracts exécutent automatiquement les transactions lorsque des conditions prédéterminées sont remplies, éliminant le besoin d'intermédiaires.",
+        "short_definition": "Code auto-exécutant qui fait automatiquement respecter les termes du contrat sur blockchain",
+        "example": "Le smart contract d'un protocole de prêt liquide automatiquement les positions sous-collatéralisées sans intervention humaine.",
+        "related_terms": ["defi", "ethereum", "automation", "trustless"],
+        "risks": ["Vulnérabilités de code", "Échecs d'audit", "Risques d'immutabilité"],
+        "tags": ["blockchain", "ethereum", "automatisation", "code"],
+        "common_questions": [
+          {
+            "question": "Les smart contracts peuvent-ils être changés après déploiement ?",
+            "answer": "La plupart des smart contracts sont immuables une fois déployés, bien que certains incluent des mécanismes de mise à niveau contrôlés par la gouvernance ou des clés admin."
+          }
+        ]
+      },
+      {
+        "id": "defi",
+        "term": "DeFi",
+        "full_term": "Finance Décentralisée",
+        "category": "technique",
+        "definition": "La Finance Décentralisée (DeFi) fait référence à une forme de finance basée sur blockchain qui recrée et améliore les systèmes financiers traditionnels utilisant des smart contracts, supprimant les intermédiaires comme les banques et courtiers. Les applications DeFi fonctionnent sur des blockchains publiques et sont accessibles à tous.",
+        "short_definition": "Système financier basé blockchain opérant sans intermédiaires traditionnels",
+        "example": "Vous pouvez prêter de l'USDC sur Compound, emprunter contre de l'ETH sur Aave, et échanger des tokens sur Uniswap - tout sans banques ni courtiers.",
+        "related_terms": ["smart-contract", "ethereum", "trustless", "permissionless"],
+        "risks": ["Bugs de smart contract", "Changements réglementaires", "Volatilité du marché"],
+        "tags": ["defi", "blockchain", "finance", "décentralisation"],
+        "common_questions": [
+          {
+            "question": "Quels sont les principaux avantages de la DeFi par rapport à la finance traditionnelle ?",
+            "answer": "Accessibilité 24/7, accès sans permission, transparence, programmabilité, et généralement de meilleurs rendements pour les utilisateurs."
+          }
+        ]
+      },
+      {
+        "id": "stablecoin",
+        "term": "Stablecoin",
+        "full_term": "Stablecoin",
+        "category": "tokens",
+        "definition": "Un stablecoin est une cryptomonnaie conçue pour maintenir une valeur stable relative à un actif de référence, généralement le Dollar US. Les stablecoins fournissent les bénéfices des cryptos (transferts rapides, transfrontaliers) tout en minimisant la volatilité des prix.",
+        "short_definition": "Cryptomonnaie conçue pour maintenir une valeur stable relative à un actif de référence",
+        "example": "L'USDC maintient une valeur de 1$ soutenue par des réserves en dollars, tandis que le DAI est décentralisé et soutenu par du collatéral crypto.",
+        "related_terms": ["collateral", "peg", "volatility", "reserve"],
+        "risks": ["Risque de dépeg", "Centralisation", "Liquidation du collatéral"],
+        "tags": ["stablecoin", "usdc", "dai", "peg"],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre stablecoins centralisés et décentralisés ?",
+            "answer": "Les stablecoins centralisés comme l'USDC sont soutenus par des réserves fiat, tandis que les décentralisés comme DAI utilisent du collatéral crypto et des algorithmes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "La Carte du Maraudeur des Stablecoins Décentralisés",
+            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
+            "description": "Analyse complète des mécanismes et designs de stablecoins décentralisés"
+          },
+          {
+            "title": "Le stablecoin GHO d'Aave peut-il aider le protocole à croître ?",
+            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
+            "description": "Plongée profonde dans le design de GHO et l'économie des stablecoins"
+          }
+        ]
+      },
+      {
+        "id": "liquidity-pool",
+        "term": "Pool de Liquidité",
+        "full_term": "Pool de Liquidité",
+        "category": "technique",
+        "definition": "Un pool de liquidité est une collection de fonds verrouillés dans un smart contract qui permet le trading décentralisé, le prêt, et autres fonctions DeFi. Les utilisateurs contribuent des actifs aux pools et gagnent des frais des trades ou intérêts des prêts.",
+        "short_definition": "Smart contract contenant des fonds qui permettent le trading et prêt décentralisés",
+        "example": "Le pool ETH/USDC sur Uniswap contient à la fois ETH et USDC, permettant aux utilisateurs d'échanger entre ces tokens tandis que les LP gagnent des frais de trading.",
+        "related_terms": ["amm", "liquidity-providing", "trading-fees", "impermanent-loss"],
+        "risks": ["Perte impermanente", "Risque de smart contract", "Périodes de faible liquidité"],
+        "tags": ["defi", "liquidité", "trading", "pools"],
+        "common_questions": [
+          {
+            "question": "Comment les fournisseurs de liquidité gagnent-ils de l'argent ?",
+            "answer": "Les LP gagnent des frais de trading (typiquement 0,3%) de chaque échange, plus des tokens de récompense potentiels des programmes de liquidity mining."
+          }
+        ]
+      },
+      {
+        "id": "slippage",
+        "term": "Slippage",
+        "full_term": "Slippage",
+        "category": "risks",
+        "definition": "Le slippage fait référence à la différence entre le prix attendu d'un trade et le prix réellement exécuté. Il se produit quand il y a une liquidité insuffisante ou une haute volatilité, causant un mouvement de prix défavorable pendant l'exécution du trade.",
+        "short_definition": "Différence entre le prix de trade attendu et le prix d'exécution réel",
+        "example": "Vous essayez d'acheter pour 10 000$ d'un token à 100$, mais à cause du slippage, vous finissez par payer une moyenne de 102$ par token.",
+        "related_terms": ["liquidity", "amm", "price-impact", "mev"],
+        "risks": ["Coûts plus élevés qu'attendu", "Front-running", "Attaques sandwich"],
+        "tags": ["trading", "amm", "liquidité", "prix"],
+        "common_questions": [
+          {
+            "question": "Comment minimiser le slippage ?",
+            "answer": "Trader des montants plus petits, utiliser des paires liquides, définir une tolérance de slippage appropriée, ou utiliser des agrégateurs qui trouvent les meilleures routes."
+          }
+        ]
+      },
+      {
+        "id": "governance-token",
+        "term": "Token de Gouvernance",
+        "full_term": "Token de Gouvernance",
+        "category": "tokens",
+        "definition": "Les tokens de gouvernance donnent aux détenteurs des droits de vote sur les décisions de protocole telles que les changements de paramètres, mises à niveau, et gestion de trésorerie. Ils représentent le contrôle démocratique des protocoles décentralisés et s'apprécient souvent avec le succès du protocole.",
+        "short_definition": "Token qui fournit des droits de vote sur les décisions de gouvernance du protocole",
+        "example": "Les détenteurs de tokens UNI peuvent voter sur les mises à niveau du protocole Uniswap, structures de frais, et propositions de dépenses de trésorerie.",
+        "related_terms": ["dao", "voting", "proposals", "token-economics"],
+        "risks": ["Attaques de gouvernance", "Volatilité du prix des tokens", "Faible participation"],
+        "tags": ["gouvernance", "vote", "dao", "tokens"],
+        "common_questions": [
+          {
+            "question": "Les tokens de gouvernance ont-ils une valeur monétaire ?",
+            "answer": "Oui, ils se négocient sur les marchés et tirent leur valeur du succès du protocole et des flux de trésorerie futurs potentiels ou bénéfices."
+          }
+        ]
+      },
+      {
+        "id": "flash-loan",
+        "term": "Flash Loan",
+        "full_term": "Prêt Flash",
+        "category": "technique",
+        "definition": "Les flash loans sont des prêts non-collatéralisés qui doivent être empruntés et remboursés dans le même bloc de transaction. Ils permettent des stratégies DeFi complexes comme l'arbitrage, liquidations, et échanges de collatéral sans nécessiter de capital initial.",
+        "short_definition": "Prêt instantané non-collatéralisé qui doit être remboursé dans la même transaction",
+        "example": "Un trader utilise un flash loan pour emprunter 1000 ETH, arbitrer les différences de prix entre échanges, et rembourser le prêt plus les frais - tout dans une transaction.",
+        "related_terms": ["arbitrage", "liquidation", "mev", "atomic-transaction"],
+        "risks": ["Échec de transaction", "Coûts de gas élevés", "Exécution complexe"],
+        "tags": ["defi", "prêts", "arbitrage", "avancé"],
+        "common_questions": [
+          {
+            "question": "Que se passe-t-il si je ne peux pas rembourser un flash loan ?",
+            "answer": "Toute la transaction s'annule, ce qui signifie que vous récupérez vos fonds originaux mais payez les frais de gas pour la transaction échouée."
+          }
+        ]
+      },
+      {
+        "id": "ethereum",
+        "term": "Ethereum",
+        "full_term": "Ethereum",
+        "category": "protocoles",
+        "definition": "Ethereum est une plateforme blockchain décentralisée et open-source qui permet la création de smart contracts et d'applications décentralisées (dApps). C'est la blockchain principale pour les applications DeFi grâce à sa programmabilité et son écosystème établi.",
+        "short_definition": "Plateforme blockchain programmable qui alimente la plupart des applications DeFi",
+        "example": "La plupart des protocoles DeFi comme Uniswap, Aave, et Compound sont construits sur la blockchain Ethereum.",
+        "related_terms": ["smart-contract", "defi", "gas", "erc-20"],
+        "risks": ["Frais de gas élevés", "Congestion du réseau", "Limitations de scalabilité"],
+        "tags": ["blockchain", "ethereum", "plateforme", "smart-contracts"]
+      },
+      {
+        "id": "apr",
+        "term": "APR",
+        "full_term": "Taux Annuel Effectif",
+        "category": "rendements",
+        "definition": "Le Taux Annuel Effectif (APR) représente le taux d'intérêt annuel simple sans tenir compte de la composition. En DeFi, l'APR montre le rendement de base avant les effets de la composition.",
+        "short_definition": "Taux d'intérêt annuel simple sans effets de composition",
+        "example": "Un pool de prêt offrant 10% APR signifie que vous gagnez 10% par an en intérêts simples.",
+        "related_terms": ["apy", "compound-interest", "yield", "interest"],
+        "risks": ["Inflation du taux réel", "Risque de protocole", "Changements de taux"],
+        "tags": ["defi", "rendements", "intérêts", "taux"]
       }
     ]
   },
@@ -104,7 +1952,9 @@
       {"id": "strategies", "name": "Strategies", "description": "DeFi investment and earning strategies"},
       {"id": "protocols", "name": "Protocols & Platforms", "description": "Major DeFi protocols and platforms"},
       {"id": "tokens", "name": "Tokens & Assets", "description": "Different types of tokens in DeFi"},
-      {"id": "technical", "name": "Technical Concepts", "description": "Technical aspects of DeFi"}
+      {"id": "technical", "name": "Technical Concepts", "description": "Technical aspects of DeFi"},
+      {"id": "trading", "name": "Trading & AMMs", "description": "Trading concepts, exchanges, and automated market makers"},
+      {"id": "governance", "name": "Governance & DAOs", "description": "Decentralized governance, voting, and DAO concepts"}
     ],
     "fr": [
       {"id": "rendements", "name": "Rendements et Retours", "description": "Termes liés aux gains en DeFi"},
@@ -112,7 +1962,8 @@
       {"id": "stratégies", "name": "Stratégies", "description": "Stratégies d'investissement et de gains DeFi"},
       {"id": "protocoles", "name": "Protocoles et Plateformes", "description": "Principaux protocoles et plateformes DeFi"},
       {"id": "tokens", "name": "Tokens et Actifs", "description": "Différents types de tokens en DeFi"},
-      {"id": "technique", "name": "Concepts Techniques", "description": "Aspects techniques de la DeFi"}
+      {"id": "technique", "name": "Concepts Techniques", "description": "Aspects techniques de la DeFi"},
+      {"id": "gouvernance", "name": "Gouvernance et DAOs", "description": "Gouvernance décentralisée, vote, et concepts de DAO"}
     ]
   }
 }

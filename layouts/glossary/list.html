@@ -18,23 +18,6 @@
         {{ .Content }}
         
         <div id="glossary-app" class="glossary-app">
-            <!-- Search and Filter Controls -->
-            <div class="glossary-controls">
-                <div class="search-wrapper">
-                    <input 
-                        type="search" 
-                        id="glossary-search" 
-                        placeholder="{{ if eq .Language.Lang "fr" }}Rechercher dans le glossaire...{{ else }}Search glossary terms...{{ end }}"
-                        class="search-input"
-                    >
-                </div>
-                <div class="filter-wrapper">
-                    <select id="category-filter" class="category-select">
-                        <option value="">{{ if eq .Language.Lang "fr" }}Toutes catégories{{ else }}All Categories{{ end }}</option>
-                    </select>
-                </div>
-            </div>
-
             <!-- Quick Navigation -->
             <div class="alphabet-nav" id="alphabet-container"></div>
 
@@ -43,7 +26,7 @@
                 <div id="terms-list" class="terms-list"></div>
                 <div id="no-results" class="no-results" style="display: none;">
                     <h3>{{ if eq .Language.Lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
-                    <p>{{ if eq .Language.Lang "fr" }}Modifiez votre recherche ou sélectionnez une autre catégorie.{{ else }}Try adjusting your search or selecting a different category.{{ end }}</p>
+                    <p>{{ if eq .Language.Lang "fr" }}Sélectionnez une autre catégorie.{{ else }}Try selecting a different category.{{ end }}</p>
                 </div>
             </div>
         </div>
@@ -85,10 +68,10 @@
     'use strict';
     
     // Data variables
-    let glossaryData, categories, lang;
+    let glossaryData, categories, lang, sitePages;
     
     // DOM elements
-    let searchInput, categoryFilter, termsList, noResults, alphabetContainer;
+    let termsList, noResults, alphabetContainer;
     
     // Current state
     let currentTerms = [];
@@ -103,17 +86,33 @@
             glossaryData = {{ index .Site.Data.glossary .Language.Lang | jsonify | safeJS }};
             categories = {{ index .Site.Data.glossary.categories .Language.Lang | jsonify | safeJS }};
             
+            // Build article data from Hugo site pages
+            sitePages = {
+            {{- range .Site.RegularPages -}}
+                {{- if .Params.url -}}
+                "/{{ .Params.url }}/": {
+                    url: "{{ .RelPermalink }}",
+                    image: "{{ .Params.image | default "" }}"
+                },
+                {{- else -}}
+                "{{ .RelPermalink }}": {
+                    url: "{{ .RelPermalink }}",
+                    image: "{{ .Params.image | default "" }}"
+                },
+                {{- end -}}
+            {{- end -}}
+            };
+            
             console.log('Glossary data loaded:', glossaryData);
             console.log('Categories loaded:', categories);
+            console.log('Site pages loaded:', sitePages);
             
             // Get DOM elements
-            searchInput = document.getElementById('glossary-search');
-            categoryFilter = document.getElementById('category-filter');
             termsList = document.getElementById('terms-list');
             noResults = document.getElementById('no-results');
             alphabetContainer = document.getElementById('alphabet-container');
             
-            if (!searchInput || !categoryFilter || !termsList || !noResults || !alphabetContainer) {
+            if (!termsList || !noResults || !alphabetContainer) {
                 console.error('Required DOM elements not found');
                 return;
             }
@@ -136,23 +135,58 @@
     function init() {
         console.log('Initializing glossary with', currentTerms.length, 'terms');
         
-        populateCategoryFilter();
         createAlphabetNavigation();
         renderTerms(currentTerms);
         
-        // Event listeners
-        searchInput.addEventListener('input', handleSearch);
-        categoryFilter.addEventListener('change', handleCategoryFilter);
+        // Make existing category cards clickable
+        setupCategoryCardListeners();
     }
     
-    function populateCategoryFilter() {
-        categories.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category.id;
-            option.textContent = category.name;
-            categoryFilter.appendChild(option);
+    
+    function setupCategoryCardListeners() {
+        // Find existing category cards in the page content and make them clickable
+        document.addEventListener('click', (e) => {
+            // Look for clicks on category cards in the content
+            const clickedElement = e.target;
+            
+            // Check if clicked element or its parent is a category card
+            let categoryCard = null;
+            let currentElement = clickedElement;
+            
+            // Traverse up to find a category card (look for elements with category info)
+            while (currentElement && currentElement !== document.body) {
+                // Look for category-related elements based on text content or structure
+                const textContent = currentElement.textContent;
+                
+                // Map category names to IDs
+                const categoryMap = {
+                    'Yields & Returns': 'yields',
+                    'Rendements et Retours': 'rendements', 
+                    'Risks & Security': 'risks',
+                    'Risques et Sécurité': 'risques',
+                    'Strategies': 'strategies',
+                    'Stratégies': 'stratégies',
+                    'Protocols & Platforms': 'protocols',
+                    'Protocoles et Plateformes': 'protocoles',
+                    'Tokens & Assets': 'tokens',
+                    'Technical Concepts': 'technical',
+                    'Concepts Techniques': 'technique'
+                };
+                
+                // Check if this element represents a category
+                for (const [categoryName, categoryId] of Object.entries(categoryMap)) {
+                    if (textContent && textContent.includes(categoryName)) {
+                        handleCategoryFilter(categoryId);
+                        e.preventDefault();
+                        return;
+                    }
+                }
+                
+                currentElement = currentElement.parentElement;
+            }
         });
     }
+    
     
     function createAlphabetNavigation() {
         const letters = [...new Set(currentTerms.map(term => term.term.charAt(0).toUpperCase()))].sort();
@@ -227,13 +261,18 @@
         `).join('');
         
         return `
-        <div class="term-card" id="${term.id}">
+        <div class="term-card" id="${term.id}" style="border-left-color: ${getCategoryColor(term.category)}">
             <div class="term-header">
-                <h3 class="term-title">
-                    <span class="term-name">${safeHtml(term.term)}</span>
-                    ${term.full_term !== term.term ? `<span class="full-term">(${safeHtml(term.full_term)})</span>` : ''}
-                </h3>
-                <span class="term-category">${safeHtml(getCategoryName(term.category))}</span>
+                <div class="term-icon" style="background-color: ${getCategoryColor(term.category)}">
+                    ${getCategoryIcon(term.category)}
+                </div>
+                <div class="term-title-group">
+                    <h3 class="term-title">
+                        <span class="term-name">${safeHtml(term.term)}</span>
+                        ${term.full_term !== term.term ? `<span class="full-term">(${safeHtml(term.full_term)})</span>` : ''}
+                    </h3>
+                    <span class="term-category" style="background-color: ${getCategoryColor(term.category)}; color: white;">${safeHtml(getCategoryName(term.category))}</span>
+                </div>
             </div>
             
             <div class="term-body">
@@ -241,26 +280,60 @@
                 
                 ${term.example ? `
                 <div class="term-example">
-                    <strong>${lang === 'fr' ? 'Exemple :' : 'Example:'}</strong>
+                    <div class="example-header">
+                        <span class="example-icon">💡</span>
+                        <strong>${lang === 'fr' ? 'Exemple' : 'Example'}</strong>
+                    </div>
                     <p>${safeHtml(term.example)}</p>
                 </div>` : ''}
                 
-                ${risks ? `
-                <div class="term-risks">
-                    <strong>${lang === 'fr' ? 'Risques à considérer :' : 'Risks to Consider:'}</strong>
-                    <ul>${risks}</ul>
-                </div>` : ''}
-                
-                ${relatedLinks ? `
-                <div class="term-related">
-                    <strong>${lang === 'fr' ? 'Termes liés :' : 'Related Terms:'}</strong>
-                    <p>${relatedLinks}</p>
+                ${(risks || relatedLinks) ? `
+                <div class="term-secondary-info">
+                    ${risks ? `
+                    <div class="term-risks">
+                        <div class="risks-header">
+                            <span class="risks-icon">⚠️</span>
+                            <strong>${lang === 'fr' ? 'Risques à considérer' : 'Risks to Consider'}</strong>
+                        </div>
+                        <ul>${risks}</ul>
+                    </div>` : ''}
+                    
+                    ${relatedLinks ? `
+                    <div class="term-related">
+                        <strong>${lang === 'fr' ? 'Termes liés :' : 'Related Terms:'}</strong>
+                        <p>${relatedLinks}</p>
+                    </div>` : ''}
                 </div>` : ''}
                 
                 ${questions ? `
                 <div class="term-faqs">
-                    <h4>${lang === 'fr' ? 'Questions fréquentes' : 'Common Questions'}</h4>
-                    ${questions}
+                    <div class="faq-header">
+                        <span class="faq-icon">❓</span>
+                        <h4>${lang === 'fr' ? 'Questions fréquentes' : 'Common Questions'}</h4>
+                    </div>
+                    <div class="faq-container">
+                        ${questions}
+                    </div>
+                </div>` : ''}
+                
+                ${term.related_articles ? `
+                <div class="term-articles">
+                    <h4>${lang === 'fr' ? 'Articles connexes' : 'Related Articles'}</h4>
+                    <div class="related-articles-list article-list--compact">
+                        ${term.related_articles.map(article => `
+                            <article>
+                                <a href="${safeHtml(article.url)}">
+                                    <div class="article-details">
+                                        <h2 class="article-title">${safeHtml(article.title)}</h2>
+                                        <section class="article-preview">${safeHtml(article.description)}</section>
+                                    </div>
+                                    <div class="article-image">
+                                        <img src="${getArticleImage(article.url)}" loading="lazy" alt="${safeHtml(article.title)}" onerror="handleImageError(this)"/>
+                                    </div>
+                                </a>
+                            </article>
+                        `).join('')}
+                    </div>
                 </div>` : ''}
             </div>
         </div>`;
@@ -271,21 +344,66 @@
         return category ? category.name : categoryId;
     }
     
-    function handleSearch() {
-        const query = searchInput.value.toLowerCase().trim();
-        const categoryValue = categoryFilter.value;
-        
-        console.log('Searching for:', query, 'in category:', categoryValue);
-        
-        let filteredTerms = glossaryData.terms || [];
-        
-        if (query) {
-            filteredTerms = filteredTerms.filter(term =>
-                (term.term && term.term.toLowerCase().includes(query)) ||
-                (term.definition && term.definition.toLowerCase().includes(query)) ||
-                (term.tags && term.tags.some(tag => tag.toLowerCase().includes(query)))
-            );
+    function getCategoryColor(categoryId) {
+        const colors = {
+            'yields': '#10B981',      // Green - for earning/returns
+            'rendements': '#10B981',  // Green (French)
+            'risks': '#EF4444',       // Red - for risks/security
+            'risques': '#EF4444',     // Red (French)
+            'strategies': '#8B5CF6',  // Purple - for strategies
+            'stratégies': '#8B5CF6',  // Purple (French)
+            'protocols': '#3B82F6',   // Blue - for protocols/platforms
+            'protocoles': '#3B82F6',  // Blue (French)
+            'tokens': '#F59E0B',      // Amber - for tokens/assets
+            'technical': '#6B7280',   // Gray - for technical concepts
+            'technique': '#6B7280',   // Gray (French)
+            'trading': '#06B6D4',     // Cyan - for trading/AMMs
+            'governance': '#EC4899',  // Pink - for governance/DAOs
+            'gouvernance': '#EC4899'  // Pink (French)
+        };
+        return colors[categoryId] || '#6B7280'; // Default to gray
+    }
+    
+    function getCategoryIcon(categoryId) {
+        // Use emoji or text characters for simplicity
+        const icons = {
+            'yields': '💰',     // Money bag for yields/returns
+            'rendements': '💰', // Same for French
+            'risks': '⚠️',      // Warning for risks
+            'risques': '⚠️',    // Same for French
+            'strategies': '🧩', // Puzzle piece for strategies
+            'stratégies': '🧩', // Same for French
+            'protocols': '🔄',  // Arrows for protocols/platforms
+            'protocoles': '🔄', // Same for French
+            'tokens': '🪙',     // Coin for tokens/assets
+            'technical': '⚙️',  // Gear for technical concepts
+            'technique': '⚙️',  // Same for French
+            'trading': '📊',    // Chart for trading/AMMs
+            'governance': '🗳️', // Ballot box for governance/DAOs
+            'gouvernance': '🗳️' // Same for French
+        };
+        return icons[categoryId] || '📄'; // Default to document icon
+    }
+    
+    function getArticleImage(url) {
+        // Use the site pages data built from front matter
+        if (sitePages[url] && sitePages[url].image) {
+            return sitePages[url].image;
         }
+        // If no image found in mapping, hide the image container
+        return '';
+    }
+    
+    function handleImageError(img) {
+        // If the front matter image fails to load, hide the image container
+        img.parentNode.style.display = 'none';
+    }
+    
+    function handleCategoryFilter(categoryValue) {
+        console.log('Filtering by category:', categoryValue);
+        
+        // Filter terms
+        let filteredTerms = glossaryData.terms || [];
         
         if (categoryValue) {
             filteredTerms = filteredTerms.filter(term => term.category === categoryValue);
@@ -293,10 +411,9 @@
         
         currentTerms = filteredTerms;
         renderTerms(filteredTerms);
-    }
-    
-    function handleCategoryFilter() {
-        handleSearch();
+        
+        // Scroll to glossary section
+        document.getElementById('glossary-app').scrollIntoView({ behavior: 'smooth' });
     }
     
     function scrollToLetter(letter) {
@@ -314,47 +431,90 @@
     margin-top: 2rem;
 }
 
-.glossary-controls {
-    display: flex;
-    gap: 1rem;
+/* Category Filter Cards */
+.category-filter-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
     margin-bottom: 2rem;
-    flex-wrap: wrap;
 }
 
-.search-wrapper {
-    flex: 1;
-    min-width: 300px;
-}
-
-.search-input {
-    width: 100%;
-    padding: var(--card-padding);
-    border: 1px solid var(--card-border-color);
-    border-radius: var(--card-border-radius);
+.category-card {
     background: var(--card-background);
-    color: var(--card-text-color-main);
-    font-size: 1rem;
+    border: 2px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    padding: 1.5rem;
+    cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-.search-input:focus {
-    outline: none;
+.category-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-l2);
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px var(--accent-color-darker);
 }
 
-.filter-wrapper {
-    min-width: 200px;
+.category-card.active {
+    border-color: var(--category-accent, var(--accent-color));
+    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.05) 100%);
+    box-shadow: var(--shadow-l2);
 }
 
-.category-select {
-    width: 100%;
-    padding: var(--card-padding);
-    border: 1px solid var(--card-border-color);
-    border-radius: var(--card-border-radius);
-    background: var(--card-background);
+.category-card.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--category-accent, var(--accent-color));
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.category-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--category-accent, var(--accent-color));
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.category-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
     color: var(--card-text-color-main);
-    font-size: 1rem;
+}
+
+.category-description {
+    margin: 0 0 1rem 0;
+    color: var(--card-text-color-secondary);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.category-count {
+    display: inline-block;
+    background: var(--category-accent, var(--accent-color));
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--tag-border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .alphabet-nav {
@@ -422,11 +582,30 @@
 
 .term-header {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1.5rem;
-    flex-wrap: wrap;
-    gap: 1rem;
+    margin-bottom: 1rem;
+    gap: 0.75rem;
+}
+
+.term-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--card-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-l1);
+}
+
+.term-title-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .term-title {
@@ -461,24 +640,120 @@
 }
 
 .term-definition {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1.5rem;
+    line-height: 1.8;
     color: var(--card-text-color-main);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 800;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.08) 100%);
+    border-radius: var(--card-border-radius);
+    border-left: 6px solid var(--accent-color);
+    position: relative;
+    box-shadow: 0 2px 6px rgba(var(--accent-color-rgb), 0.1);
 }
 
-.term-example,
-.term-risks,
+.term-definition::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--accent-color), var(--accent-color-darker));
+    border-radius: 0 2px 2px 0;
+}
+
+/* Example Section - Light blue with lightbulb theme */
+.term-example {
+    margin-bottom: 1rem;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(59, 130, 246, 0.02) 100%);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid #3B82F6;
+}
+
+.example-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.example-icon {
+    font-size: 1.2rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-header strong {
+    color: #3B82F6;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Risks Section - Light yellow/amber with caution theme */
+.term-risks {
+    margin-bottom: 1rem;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.08) 0%, rgba(251, 191, 36, 0.03) 100%);
+    border: 1px solid rgba(251, 191, 36, 0.25);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid #F59E0B;
+}
+
+.risks-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.risks-icon {
+    font-size: 1.2rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.risks-header strong {
+    color: #D97706;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* 2-Column Layout for Secondary Info (Risks + Related Terms) */
+.term-secondary-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Update individual sections to remove bottom margins when in grid */
+.term-secondary-info .term-risks {
+    margin-bottom: 0;
+}
+
+.term-secondary-info .term-related {
+    margin-bottom: 0;
+}
+
+/* Related Terms Section - Keep simpler styling */
 .term-related {
     margin-bottom: 1.5rem;
-    padding: var(--card-padding);
+    padding: 0.875rem;
     background: var(--card-background-selected);
     border-radius: var(--card-border-radius);
     border-left: 4px solid var(--accent-color);
 }
 
-.term-example strong,
-.term-risks strong,
 .term-related strong {
     color: var(--accent-color);
     font-size: 1rem;
@@ -510,23 +785,89 @@
     text-decoration: underline;
 }
 
+/* FAQ Section - Purple/indigo notice-question style */
 .term-faqs {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(139, 92, 246, 0.02) 100%);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid #8B5CF6;
+}
+
+.faq-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #8B5CF6, #7C3AED);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(139, 92, 246, 0.3);
+}
+
+.faq-header h4 {
+    color: #8B5CF6;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(139, 92, 246, 0.15);
+    border-radius: var(--card-border-radius);
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(139, 92, 246, 0.1);
+}
+
+.faq-item:hover {
+    background: rgba(139, 92, 246, 0.05);
+    border-color: rgba(139, 92, 246, 0.25);
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Dark mode for FAQ items */
+[data-scheme="dark"] .faq-item {
+    background: rgba(139, 92, 246, 0.08);
+    border-color: rgba(139, 92, 246, 0.2);
+}
+
+[data-scheme="dark"] .faq-item:hover {
+    background: rgba(139, 92, 246, 0.12);
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+/* Articles section - keep simpler */
+.term-articles {
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--card-separator-color);
 }
 
-.term-faqs h4 {
+.term-articles h4 {
     color: var(--accent-color);
     font-size: 1.2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.faq-item {
-    background: var(--card-background-selected);
-    border-radius: var(--card-border-radius);
-    padding: var(--card-padding);
     margin-bottom: 1rem;
 }
 
@@ -540,6 +881,38 @@
 .faq-answer {
     color: var(--card-text-color-secondary);
     line-height: 1.6;
+    margin: 0;
+}
+
+.article-item {
+    background: var(--card-background-selected);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--accent-color);
+}
+
+.article-item h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.article-item h5 a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.article-item h5 a:hover {
+    color: var(--accent-color-darker);
+    text-decoration: underline;
+}
+
+.article-description {
+    color: var(--card-text-color-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -564,13 +937,9 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .glossary-controls {
-        flex-direction: column;
-    }
-    
-    .search-wrapper,
-    .filter-wrapper {
-        min-width: auto;
+    .category-filter-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
     
     .term-header {
@@ -589,20 +958,29 @@
     .term-name {
         font-size: 1.3rem;
     }
+    
+    /* Stack secondary info sections vertically on mobile */
+    .term-secondary-info {
+        grid-template-columns: 1fr;
+    }
 }
 
-/* Dark mode specific adjustments */
-[data-scheme="dark"] .search-input:focus,
-[data-scheme="dark"] .category-select:focus {
-    box-shadow: 0 0 0 3px rgba(var(--accent-color-rgb), 0.3);
-}
-
-/* Enhanced dark mode support */
-[data-scheme="dark"] .search-input,
-[data-scheme="dark"] .category-select {
+/* Dark mode support for category cards */
+[data-scheme="dark"] .category-card {
     background: var(--card-background);
     border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .category-card.active {
+    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.08) 100%);
+}
+
+[data-scheme="dark"] .category-header h3 {
     color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .category-description {
+    color: var(--card-text-color-secondary);
 }
 
 [data-scheme="dark"] .term-definition,

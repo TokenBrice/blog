@@ -3,7 +3,7 @@
 
 <div class="glossary-categories-overview">
     {{- range $categories -}}
-    <div class="category-card">
+    <div class="category-card" data-category-id="{{ .id }}">
         <h3 class="category-name">{{ .name }}</h3>
         <p class="category-description">{{ .description }}</p>
         <span class="category-count">
@@ -23,37 +23,42 @@
 }
 
 .category-card {
-    background: var(--color-background-secondary);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
+    background: var(--card-background);
+    border: 1px solid var(--card-border-color);
+    border-left: 4px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
     padding: 1.5rem;
     transition: all 0.2s ease;
+    box-shadow: var(--shadow-l1);
 }
 
 .category-card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow-l2);
     transform: translateY(-2px);
 }
 
 .category-name {
     margin: 0 0 0.5rem 0;
-    color: var(--color-primary);
+    color: var(--card-text-color-main);
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .category-description {
     margin: 0 0 1rem 0;
-    color: var(--color-text-secondary);
+    color: var(--card-text-color-secondary);
     line-height: 1.4;
 }
 
 .category-count {
-    background: var(--color-primary);
+    background: var(--accent-color);
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 12px;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 @media (max-width: 768px) {
@@ -62,3 +67,45 @@
     }
 }
 </style>
+
+<script>
+(function() {
+    function getCategoryColor(categoryId) {
+        const colors = {
+            'yields': '#10B981',      // Green - for earning/returns
+            'rendements': '#10B981',  // Green (French)
+            'risks': '#EF4444',       // Red - for risks/security
+            'risques': '#EF4444',     // Red (French)
+            'strategies': '#8B5CF6',  // Purple - for strategies
+            'stratégies': '#8B5CF6',  // Purple (French)
+            'protocols': '#3B82F6',   // Blue - for protocols/platforms
+            'protocoles': '#3B82F6',  // Blue (French)
+            'tokens': '#F59E0B',      // Amber - for tokens/assets
+            'technical': '#6B7280',   // Gray - for technical concepts
+            'technique': '#6B7280',   // Gray (French)
+            'trading': '#06B6D4',     // Cyan - for trading/AMMs
+            'governance': '#EC4899',  // Pink - for governance/DAOs
+            'gouvernance': '#EC4899'  // Pink (French)
+        };
+        return colors[categoryId] || '#6B7280'; // Default to gray
+    }
+    
+    // Apply colors when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        const categoryCards = document.querySelectorAll('.category-card[data-category-id]');
+        categoryCards.forEach(card => {
+            const categoryId = card.getAttribute('data-category-id');
+            const color = getCategoryColor(categoryId);
+            const countSpan = card.querySelector('.category-count');
+            
+            // Apply color to left border
+            card.style.borderLeftColor = color;
+            
+            // Apply color to count badge
+            if (countSpan) {
+                countSpan.style.backgroundColor = color;
+            }
+        });
+    });
+})();
+</script>
