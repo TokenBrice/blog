@@ -5,6 +5,7 @@ date: '2020-08-10T01:53:50.191Z'
 categories: [Projets]
 tags: [BanklessFR, DeFi France, Live, Meetups]
 image: /img/others/defifrance2.jpg
+difficulty: "beginner"
 ---
 
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 

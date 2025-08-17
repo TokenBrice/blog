@@ -5,6 +5,7 @@ date: '2020-08-11T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Lending, Leveraging, Yearn Finance]
 image: /img/2020/yearn-finance-YFI/wifeys.jpg
+difficulty: "beginner"
 ---
 
 A few weeks ago, Yearn v2 release and the launch of the YFI token (pronounced "Waifu") shook decentralised finance. Indeed, the whole recipe was there: Yearn is like a robo advisor, it helps you save and grow a capital - obviously one of the most thought after use cases. 

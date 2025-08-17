@@ -5,6 +5,7 @@ date: '2020-12-28T01:13:50.191Z'
 categories: [DeFi, Understanding]
 tags: [DeFi, Ethereum, Stablecoins, Basis Cash, Empty Set Dollar, sUSD, ESD, DSD, BAC, BAS]
 image: /img/2020/algorithmic-stablecoins/cover.png
+difficulty: "intermediate"
 ---
 
 Since the beginning of December, a new trend has been shaping up in DeFi: algorithmic stablecoins. Several projects launched and saw significant growth, attracting even more interest for this subset of the space.

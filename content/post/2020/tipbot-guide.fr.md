@@ -7,6 +7,7 @@ tags: [Ethereum, Discord, Dons]
 toc: true
 tocNum: false
 image: /img/2020/tipbot/cover.png
+difficulty: "beginner"
 ---
 
 ## A/ Introduction	

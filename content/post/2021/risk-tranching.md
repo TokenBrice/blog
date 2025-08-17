@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Decentralized finance, Risk Management, Risk Tranching, M
 toc: true
 url: risk-tranching-defi
 image: /img/2021/risk-tranching/cover.gif
-difficulty: "intermediate"
+difficulty: "expert"
 ---
 
 DeFi has grown tremendously over the past year, partly thanks to the appearance of more streamlined investment products such as Yearn's or Harvest's **[vaults](https://tokenbrice.xyz/content/posts/2020/vaults.md)**. Thanks to their architecture, they facilitate the mutualization of capital which enables smaller yet profitable investments on money markets and other DeFi services like Curve or SushiSwap.

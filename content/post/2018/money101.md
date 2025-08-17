@@ -7,6 +7,7 @@ date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
 image: /img/2018/money101/cover.jpeg
+difficulty: "beginner"
 ---
 
 

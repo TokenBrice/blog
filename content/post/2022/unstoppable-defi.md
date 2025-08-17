@@ -8,7 +8,7 @@ toc: true
 tocNum: true
 url: unstoppable-defi
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
-difficulty: "intermediate"
+difficulty: "expert"
 ---
 
 Decentralized finance has allowed the emergence of autonomous protocols whose functionalities are ensured by smart contracts that are sometimes immutable. It enables individuals from all over the world to use financial services that are at the same time sovereign, accessible, and more efficient and resilient than those available in traditional finance. It's the lovely story that newcomers are told to lull them to sleep: the reality is much more nuanced.

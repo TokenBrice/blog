@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve]
 toc: true
 tocNum: true
 image: /img/2020/yield-farmer-tier-list/cover.png
+difficulty: "intermediate"
 ---
 
 DeFi is like a layered yield cake. When you first walk through the door, making a deposit on Aave and seeing your balance grow puts you in awe. Shortly thereafter, through your own research or discussions with the community, you realize there is more to it **- there could be icing on the cake too!**

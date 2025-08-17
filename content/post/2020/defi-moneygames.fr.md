@@ -5,6 +5,7 @@ date: '2020-08-26T01:13:50.191Z'
 categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin]
 image: /img/2020/defi-moneygames/cover.png
+difficulty: "intermediate"
 ---
 
 Les moneygames alimentaires font fureur dans la finance décentralisée. Aujourd'hui, je voulais écrire un petit article pour les mettre en contexte et donner quelques conseils à ceux qui le souhaitent. Je ne porterai pas de jugement moral sur ces projets, je vous laisse le soin de le faire.

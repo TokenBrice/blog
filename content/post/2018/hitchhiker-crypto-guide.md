@@ -7,6 +7,7 @@ date: '2018-07-05T10:36:25.787Z'
 categories: [Tutorial]
 tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
 image: /img/2018/hitchhikerguide/cover.jpeg
+difficulty: "beginner"
 ---
 
 Looking to invest in an ICO, or get your hands on some already traded coins? Awesome, welcome aboard! Before you jump in, let me give you some clues to spot shaky projects with examples taken from actual ones. These tips come from my experience (and failures) as well the discussion I had both with friends and the cryptocurrency community.

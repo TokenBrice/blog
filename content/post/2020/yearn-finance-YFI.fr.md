@@ -5,6 +5,7 @@ date: '2020-08-11T01:13:50.191Z'
 categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Lending, Leveraging, Yearn Finance]
 image: /img/2020/yearn-finance-YFI/wifeys.jpg
+difficulty: "beginner"
 ---
 
 Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (prononcé "Waifu") ont ébranlé le monde de la finance décentralisée. En effet, toute la recette était là : Yearn est comme un conseiller automatique, il vous aide à économiser et à faire fructifier un capital - évidemment l'un des cas d'utilisation les plus en vogue. 

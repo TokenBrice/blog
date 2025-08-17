@@ -5,6 +5,7 @@ date: '2020-10-01T10:13:50.191Z'
 categories: [Projets]
 tags: [DeFi, Ethereum, Compound, Yean Finance, Curve, SushiSwap, Uniswap]
 image: /img/others/defi-france/defifranceX.png
+difficulty: "beginner"
 ---
 
 Hier soir nous nous sommes retrouvés la reprise des évènements avec DeFi France X. Avec des invités aux premières lignes de la finance décentralisée, nous avons fait le point sur les évènements impactants des trois derniers mois.

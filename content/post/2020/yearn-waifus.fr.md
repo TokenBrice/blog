@@ -5,6 +5,7 @@ date: '2020-09-18T01:13:50.191Z'
 categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, Harvest Finance]
 image: /img/2020/yearn-waifus/cover.jpg
+difficulty: "intermediate"
 ---
 
 À chaque jour son nouveau fork de Yearn Finance : comment les suivre ? Il n'y a pas de réponse simple, mais je pense pouvoir **vous fournir quelques éléments pour vous aider à repérer les fork de YFI à fort potentiel**. Pour ce faire, je vais couvrir trois (+1) fork YFI et essayer de mettre le doigt sur ce qui les rend intéressants.

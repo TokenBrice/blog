@@ -5,6 +5,7 @@ date: '2020-12-09T01:13:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, SushiSwap]
 image: /img/2020/yearn-merger/y-among-us.gif
+difficulty: "intermediate"
 ---
 
 Yearn Finance has been making headlines lately with the announcement of **several acquisitions** like Pickle Finance or SushiSwap. The Yearn team has joined its development forces with five other DeFi projects already.

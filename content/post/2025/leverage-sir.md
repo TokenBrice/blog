@@ -6,7 +6,7 @@ categories: [DeFi, Projects]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
 image: img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
-difficulty: "advanced"
+difficulty: "intermediate"
 ---
 
 

@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent 
 toc: true
 tocNum: false
 image: /img/2020/definancial-services-guide/cover-fr.jpeg
+difficulty: "expert"
 ---
 
 Bienvenue dans le nouveau monde !

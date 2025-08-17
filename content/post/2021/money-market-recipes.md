@@ -8,7 +8,7 @@ toc: true
 tocNum: true
 url: money-market-recipes
 image: /img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png
-difficulty: "intermediate"
+difficulty: "expert"
 ---
 
 On this blog, I frequently discuss about money markets and assets market in DeFi. Basically, they allow you to **loan and borrow tokens**. These two actions have become like **deFi verbs**: they are used directly or indirectly in almost every strategy.

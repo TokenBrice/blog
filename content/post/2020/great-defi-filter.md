@@ -5,6 +5,7 @@ date: '2020-05-08T14:53:50.191Z'
 categories: [DeFi, Discovery]
 tags: [DeFi, Ethereum, Adoption]
 image: /img/2020/great-defi-filter/cover.png
+difficulty: "beginner"
 ---
 
 In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about privacy."

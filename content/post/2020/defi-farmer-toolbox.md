@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidity Mining]
 toc: true
 tocNum: false
 image: /img/2020/defi-farmer-toolbox/cover-fr.jpeg
+difficulty: "intermediate"
 ---
 
 Howdy farmer,
