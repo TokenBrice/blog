@@ -76,8 +76,15 @@
     // Current state
     let currentTerms = [];
     
-    // Initialize when DOM is ready
+    // Initialize when DOM is ready - with delay to avoid theme conflicts
     document.addEventListener('DOMContentLoaded', function() {
+        // Small delay to let theme's JavaScript initialize first
+        setTimeout(function() {
+            initializeGlossary();
+        }, 100);
+    });
+    
+    function initializeGlossary() {
         try {
             // Load data
             lang = '{{ .Language.Lang }}';
@@ -130,8 +137,7 @@
         } catch (error) {
             console.error('Error initializing glossary:', error);
         }
-    });
-    
+    }
     function init() {
         console.log('Initializing glossary with', currentTerms.length, 'terms');
         
