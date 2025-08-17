@@ -88,6 +88,134 @@
     }
 }
 
+/* Sidebar expertise widget - matches archives widget styling */
+.widget.expertise {
+    .widget-expertise--list {
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        background-color: var(--card-background);
+    }
+    
+    .expertise-level-item {
+        &:not(:last-of-type) {
+            border-bottom: 1.5px solid var(--card-separator-color);
+        }
+        
+        a {
+            display: block;
+            padding: 18px 25px;
+            text-decoration: none;
+            color: inherit;
+            transition: background-color 0.2s ease;
+            
+            &:hover {
+                background-color: var(--card-background-selected);
+                text-decoration: none;
+            }
+        }
+        
+        .expertise-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            
+            .level-name {
+                font-size: 1.4rem;
+                font-weight: bold;
+                color: var(--card-text-color-main);
+            }
+            
+            .count {
+                font-size: 1.4rem;
+                color: var(--card-text-color-tertiary);
+                font-weight: normal;
+            }
+        }
+        
+        .expertise-bar {
+            height: 4px;
+            background-color: var(--card-separator-color);
+            border-radius: 2px;
+            overflow: hidden;
+            
+            .bar-fill {
+                height: 100%;
+                border-radius: 2px;
+                transition: width 0.3s ease;
+                
+                &.beginner {
+                    background-color: #22c55e;
+                }
+                
+                &.intermediate {
+                    background-color: #fbbf24;
+                }
+                
+                &.expert {
+                    background-color: #f87171;
+                }
+            }
+        }
+    }
+}
+
+/* Dark mode adjustments for expertise widget */
+[data-scheme="dark"] {
+    .widget.expertise {
+        .expertise-bar {
+            .bar-fill {
+                &.beginner {
+                    background-color: #16a34a;
+                }
+                
+                &.intermediate {
+                    background-color: #ca8a04;
+                }
+                
+                &.expert {
+                    background-color: #dc2626;
+                }
+            }
+        }
+    }
+}
+
+/* Difficulty pages styling */
+.difficulty-page-header {
+    margin-bottom: 2rem;
+    
+    .section-title {
+        color: var(--body-text-color);
+        margin-bottom: 1rem;
+    }
+    
+    .difficulty-page-description {
+        color: var(--card-text-color-secondary);
+        font-size: 1.75rem; /* Match .article-subtitle */
+        line-height: 1.5;
+        font-weight: normal;
+        
+        p {
+            margin: 0;
+        }
+    }
+}
+
+/* Dark mode fixes for difficulty pages */
+[data-scheme="dark"] {
+    .difficulty-page-header {
+        .section-title {
+            color: var(--body-text-color);
+        }
+        
+        .difficulty-page-description {
+            color: var(--body-text-color);
+            opacity: 0.9;
+        }
+    }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .article-difficulty {
@@ -96,6 +224,28 @@
         .difficulty-badge {
             font-size: 0.8rem;
             padding: 0.2rem 0.4rem;
+        }
+    }
+    
+    .widget.expertise {
+        .difficulty-badge {
+            font-size: 0.8rem;
+            padding: 0.2rem 0.4rem;
+        }
+    }
+    
+    .difficulty-page-header {
+        .difficulty-page-description {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* Large screen adjustments */
+@media (min-width: 1024px) {
+    .difficulty-page-header {
+        .difficulty-page-description {
+            font-size: 2rem; /* Match .article-subtitle on xl screens */
         }
     }
 }

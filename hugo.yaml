@@ -170,6 +170,7 @@ params:
             - type: archives
               params:
                   limit: 5
+            - type: expertise
             - type: categories
               params:
                   limit: 10

@@ -1,0 +1,69 @@
+{{- $context := .Context -}}
+<section class="widget expertise">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "tag" }}
+    </div>
+    <h2 class="widget-title section-title">
+        {{ if eq $context.Site.Language.Lang "fr" }}
+            Niveau d'expertise
+        {{ else }}
+            Expertise Level
+        {{ end }}
+    </h2>
+
+    {{- $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections -}}
+    {{- $beginnerCount := len (where $pages "Params.difficulty" "beginner") -}}
+    {{- $intermediateCount := len (where $pages "Params.difficulty" "intermediate") -}}
+    {{- $expertCount := len (where $pages "Params.difficulty" "expert") -}}
+    {{- $totalCount := add $beginnerCount (add $intermediateCount $expertCount) -}}
+    
+    <div class="widget-expertise--list">
+        {{ if gt $beginnerCount 0 }}
+            <div class="expertise-level-item">
+                <a href="{{ "/difficulty/beginner/" | relLangURL }}">
+                    <div class="expertise-header">
+                        <span class="level-name">
+                            🟢 {{ if eq $context.Site.Language.Lang "fr" }}Débutant{{ else }}Beginner{{ end }}
+                        </span>
+                        <span class="count">{{ $beginnerCount }}</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="bar-fill beginner" style="width: {{ div (mul $beginnerCount 100.0) $totalCount }}%"></div>
+                    </div>
+                </a>
+            </div>
+        {{ end }}
+        
+        {{ if gt $intermediateCount 0 }}
+            <div class="expertise-level-item">
+                <a href="{{ "/difficulty/intermediate/" | relLangURL }}">
+                    <div class="expertise-header">
+                        <span class="level-name">
+                            🟡 {{ if eq $context.Site.Language.Lang "fr" }}Intermédiaire{{ else }}Intermediate{{ end }}
+                        </span>
+                        <span class="count">{{ $intermediateCount }}</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="bar-fill intermediate" style="width: {{ div (mul $intermediateCount 100.0) $totalCount }}%"></div>
+                    </div>
+                </a>
+            </div>
+        {{ end }}
+        
+        {{ if gt $expertCount 0 }}
+            <div class="expertise-level-item">
+                <a href="{{ "/difficulty/expert/" | relLangURL }}">
+                    <div class="expertise-header">
+                        <span class="level-name">
+                            🔴 {{ if eq $context.Site.Language.Lang "fr" }}Expert{{ else }}Expert{{ end }}
+                        </span>
+                        <span class="count">{{ $expertCount }}</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="bar-fill expert" style="width: {{ div (mul $expertCount 100.0) $totalCount }}%"></div>
+                    </div>
+                </a>
+            </div>
+        {{ end }}
+    </div>
+</section>
