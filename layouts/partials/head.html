@@ -115,6 +115,8 @@
     {{ end }}
 
     <!-- SEO -->
+    <!-- Hreflang for multilingual SEO -->
+    {{- partial "head/hreflang.html" . -}}
 <meta name="google-site-verification" content="GKWWQE1h2XIIBlvWrtGNhmuSUuDwYKxrawGJsfg8Ka4" />
     {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
@@ -158,7 +160,8 @@
 
     {{ partial "custom/head.html" . }}
     {{- partial "head/jsonld.html" . -}}
+    {{- partial "head/organization-schema.html" . -}}
 
-    <script async src="/js/main.js" type="application/javascript"></script> 
+    <script async src="/js/main.js" type="application/javascript"></script>
 
 </head>

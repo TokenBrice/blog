@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Optimize crawling for important pages
+Allow: /p/
+Allow: /categories/
+Allow: /tags/
+Allow: /en/
+Allow: /fr/
+
+# Prevent crawling of search and admin pages if they exist
+Disallow: /search
+Disallow: /admin
+
+# Reference sitemaps for both languages
+Sitemap: https://tokenbrice.xyz/sitemap.xml
+Sitemap: https://tokenbrice.xyz/en/sitemap.xml  
+Sitemap: https://tokenbrice.xyz/fr/sitemap.xml
+
+# Crawl delay (optional - be gentle with server resources)
+Crawl-delay: 1
