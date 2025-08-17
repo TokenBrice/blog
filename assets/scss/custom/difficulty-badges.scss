@@ -46,7 +46,8 @@
     gap: 0.25rem;
     
     .difficulty-text {
-        font-size: 0.8rem;
+        font-size: inherit; /* Match parent font size instead of hardcoded */
+        font-weight: inherit;
         color: var(--card-text-color-secondary);
         text-transform: capitalize;
     }
@@ -55,12 +56,14 @@
 /* Inline difficulty badge for archives */
 .article-difficulty-inline {
     color: var(--card-text-color-secondary);
+    font-size: inherit; /* Match the time element font size */
     
     .difficulty-text {
-        font-size: 0.75rem;
-        font-weight: 500;
+        font-size: inherit; /* Match parent font size */
+        font-weight: inherit; /* Match parent font weight */
         margin-left: 0.25rem;
         text-transform: capitalize;
+        color: var(--card-text-color-secondary);
     }
 }
 

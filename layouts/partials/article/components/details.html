@@ -9,18 +9,6 @@
     </header>
     {{ end }}
 
-    {{/* NEW: Expertise level badge */}}
-    {{ with .Params.difficulty }}
-    <div class="article-difficulty">
-        {{ if eq . "beginner" }}
-            <span class="difficulty-badge difficulty-beginner">🟢 Beginner</span>
-        {{ else if eq . "intermediate" }}
-            <span class="difficulty-badge difficulty-intermediate">🟡 Intermediate</span>
-        {{ else if eq . "expert" }}
-            <span class="difficulty-badge difficulty-expert">🔴 Expert</span>
-        {{ end }}
-    </div>
-    {{ end }}
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
