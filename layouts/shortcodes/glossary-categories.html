@@ -1,0 +1,64 @@
+{{- $lang := .Page.Language.Lang -}}
+{{- $categories := index .Site.Data.glossary.categories $lang -}}
+
+<div class="glossary-categories-overview">
+    {{- range $categories -}}
+    <div class="category-card">
+        <h3 class="category-name">{{ .name }}</h3>
+        <p class="category-description">{{ .description }}</p>
+        <span class="category-count">
+            {{- $termCount := len (where (index $.Site.Data.glossary $lang).terms "category" .id) -}}
+            {{ if eq $lang "fr" }}{{ $termCount }} terme{{ if ne $termCount 1 }}s{{ end }}{{ else }}{{ $termCount }} term{{ if ne $termCount 1 }}s{{ end }}{{ end }}
+        </span>
+    </div>
+    {{- end -}}
+</div>
+
+<style>
+.glossary-categories-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.category-card {
+    background: var(--color-background-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.category-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.category-name {
+    margin: 0 0 0.5rem 0;
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.category-description {
+    margin: 0 0 1rem 0;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+.category-count {
+    background: var(--color-primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .glossary-categories-overview {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

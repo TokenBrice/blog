@@ -1,0 +1,118 @@
+{
+  "en": {
+    "terms": [
+      {
+        "id": "apy",
+        "term": "APY",
+        "full_term": "Annual Percentage Yield",
+        "category": "yields",
+        "definition": "Annual Percentage Yield (APY) represents the real rate of return earned on an investment, taking into account the effect of compounding interest. In DeFi, APY shows how much you can earn annually from lending, liquidity providing, or staking.",
+        "short_definition": "The annual return on investment including compound interest effects",
+        "example": "A liquidity pool offering 15% APY means your initial investment would grow by 15% over a year with compounding.",
+        "related_terms": ["apr", "yield-farming", "liquidity-mining", "compound-interest"],
+        "risks": ["Impermanent loss for LP tokens", "Smart contract risk", "Protocol risk"],
+        "tags": ["defi", "yields", "interest", "returns"],
+        "common_questions": [
+          {
+            "question": "What is the difference between APR and APY?",
+            "answer": "APR shows simple interest while APY includes compounding effects. APY is typically higher and more accurate for DeFi yields."
+          }
+        ]
+      },
+      {
+        "id": "impermanent-loss",
+        "term": "Impermanent Loss",
+        "full_term": "Impermanent Loss",
+        "category": "risks",
+        "definition": "Impermanent loss occurs when providing liquidity to automated market makers (AMMs) and the price ratio of your deposited tokens changes compared to when you deposited them. The loss is 'impermanent' because it only becomes permanent when you withdraw your liquidity.",
+        "short_definition": "Temporary loss experienced by liquidity providers when token prices diverge",
+        "example": "If you provide ETH/USDC liquidity at 1 ETH = $2000, but ETH rises to $3000, you'll have less ETH and more USDC when you withdraw, missing some of ETH's gains.",
+        "related_terms": ["liquidity-providing", "amm", "slippage", "arbitrage"],
+        "risks": ["Price divergence risk", "Opportunity cost", "Market volatility exposure"],
+        "tags": ["defi", "risks", "liquidity-providing", "amm"],
+        "common_questions": [
+          {
+            "question": "How can I minimize impermanent loss?",
+            "answer": "Choose stable pairs, use concentrated liquidity ranges carefully, or consider single-sided staking instead of providing liquidity to volatile pairs."
+          }
+        ]
+      },
+      {
+        "id": "yield-farming",
+        "term": "Yield Farming",
+        "full_term": "Yield Farming",
+        "category": "strategies", 
+        "definition": "Yield farming is the practice of moving crypto assets between different DeFi protocols to maximize returns. Farmers typically provide liquidity, lend assets, or stake tokens to earn yields in the form of interest, fees, or reward tokens.",
+        "short_definition": "Strategy of maximizing returns by moving assets between DeFi protocols",
+        "example": "A yield farmer might provide ETH/USDC liquidity on Uniswap, stake the LP tokens on a rewards platform, and use the earned tokens in another protocol for additional yields.",
+        "related_terms": ["liquidity-mining", "apy", "defi", "staking"],
+        "risks": ["Smart contract risk", "Impermanent loss", "Token price volatility", "Rug pulls"],
+        "tags": ["defi", "strategies", "yields", "farming"],
+        "common_questions": [
+          {
+            "question": "Is yield farming profitable?",
+            "answer": "Yield farming can be profitable but involves significant risks including smart contract vulnerabilities, impermanent loss, and high gas fees. Success requires careful research and risk management."
+          }
+        ]
+      },
+      {
+        "id": "liquidity-mining",
+        "term": "Liquidity Mining",
+        "full_term": "Liquidity Mining",
+        "category": "strategies",
+        "definition": "Liquidity mining is a mechanism where users provide liquidity to decentralized exchanges or lending protocols in exchange for token rewards. It's used by protocols to bootstrap liquidity and distribute governance tokens to users.",
+        "short_definition": "Earning token rewards by providing liquidity to DeFi protocols",
+        "example": "Compound distributes COMP tokens to users who supply assets to their lending pools, incentivizing liquidity provision.",
+        "related_terms": ["yield-farming", "governance-tokens", "liquidity-providing", "incentives"],
+        "risks": ["Token price volatility", "Smart contract risk", "Program changes"],
+        "tags": ["defi", "incentives", "liquidity", "rewards"],
+        "common_questions": [
+          {
+            "question": "How long do liquidity mining programs last?",
+            "answer": "Programs vary widely, from weeks to years. Many protocols adjust rewards based on protocol needs and governance decisions."
+          }
+        ]
+      }
+    ]
+  },
+  "fr": {
+    "terms": [
+      {
+        "id": "apy",
+        "term": "APY",
+        "full_term": "Rendement Annuel en Pourcentage",
+        "category": "rendements",
+        "definition": "Le rendement annuel en pourcentage (APY) représente le taux de rendement réel gagné sur un investissement, en tenant compte de l'effet des intérêts composés. En DeFi, l'APY montre combien vous pouvez gagner annuellement en prêtant, fournissant de la liquidité ou en stakant.",
+        "short_definition": "Le rendement annuel d'un investissement incluant les effets des intérêts composés",
+        "example": "Un pool de liquidité offrant 15% d'APY signifie que votre investissement initial croîtrait de 15% sur une année avec composition.",
+        "related_terms": ["apr", "yield-farming", "liquidity-mining", "compound-interest"],
+        "risks": ["Perte impermanente pour les tokens LP", "Risque de smart contract", "Risque de protocole"],
+        "tags": ["defi", "rendements", "intérêts", "retours"],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre APR et APY ?",
+            "answer": "L'APR montre les intérêts simples tandis que l'APY inclut les effets de composition. L'APY est généralement plus élevé et plus précis pour les rendements DeFi."
+          }
+        ]
+      }
+    ]
+  },
+  "categories": {
+    "en": [
+      {"id": "yields", "name": "Yields & Returns", "description": "Terms related to earning returns in DeFi"},
+      {"id": "risks", "name": "Risks & Security", "description": "Understanding DeFi risks and mitigation strategies"},
+      {"id": "strategies", "name": "Strategies", "description": "DeFi investment and earning strategies"},
+      {"id": "protocols", "name": "Protocols & Platforms", "description": "Major DeFi protocols and platforms"},
+      {"id": "tokens", "name": "Tokens & Assets", "description": "Different types of tokens in DeFi"},
+      {"id": "technical", "name": "Technical Concepts", "description": "Technical aspects of DeFi"}
+    ],
+    "fr": [
+      {"id": "rendements", "name": "Rendements et Retours", "description": "Termes liés aux gains en DeFi"},
+      {"id": "risques", "name": "Risques et Sécurité", "description": "Comprendre les risques DeFi et les stratégies d'atténuation"},
+      {"id": "stratégies", "name": "Stratégies", "description": "Stratégies d'investissement et de gains DeFi"},
+      {"id": "protocoles", "name": "Protocoles et Plateformes", "description": "Principaux protocoles et plateformes DeFi"},
+      {"id": "tokens", "name": "Tokens et Actifs", "description": "Différents types de tokens en DeFi"},
+      {"id": "technique", "name": "Concepts Techniques", "description": "Aspects techniques de la DeFi"}
+    ]
+  }
+}

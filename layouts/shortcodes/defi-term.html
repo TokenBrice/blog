@@ -1,0 +1,23 @@
+{{- $termId := .Get 0 -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $customText := .Get "text" -}}
+{{- $glossaryData := index .Site.Data.glossary $lang -}}
+{{- $term := index (where $glossaryData.terms "id" $termId) 0 -}}
+
+{{- if $term -}}
+  {{- $linkText := $customText | default $term.term -}}
+  {{- $glossaryPath := "/glossary/" -}}
+  {{- if eq $lang "fr" -}}
+    {{- $glossaryPath = "/fr/glossary/" -}}
+  {{- end -}}
+  
+  <a href="{{ $glossaryPath }}#{{ $termId }}" 
+     class="glossary-term-link" 
+     title="{{ $term.short_definition }}"
+     data-term-id="{{ $termId }}"
+     data-definition="{{ $term.short_definition | htmlEscape }}"
+     rel="noopener">{{ $linkText }}</a>
+{{- else -}}
+  {{- $fallbackText := $customText | default $termId -}}
+  <span class="glossary-term-missing" title="Term '{{ $termId }}' not found in glossary">{{ $fallbackText }}</span>
+{{- end -}}

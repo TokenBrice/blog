@@ -1,0 +1,648 @@
+{{ define "main" }}
+<article class="main-article" style="color: var(--card-text-color-main); background: var(--body-background);">
+    <header class="article-header" style="color: var(--card-text-color-main);">
+        <div class="article-details">
+            {{ with .Params.categories }}
+                {{ partial "article/components/details" (dict "context" $ "scope" "categories") }}
+            {{ end }}
+            {{ with .Params.tags }}
+                {{ partial "article/components/details" (dict "context" $ "scope" "tags") }}
+            {{ end }}
+        </div>
+
+        <h1 class="article-title">{{ .Title }}</h1>
+        <p class="article-subtitle">{{ .Description }}</p>
+    </header>
+
+    <section class="article-content" style="color: var(--card-text-color-main);">
+        {{ .Content }}
+        
+        <div id="glossary-app" class="glossary-app">
+            <!-- Search and Filter Controls -->
+            <div class="glossary-controls">
+                <div class="search-wrapper">
+                    <input 
+                        type="search" 
+                        id="glossary-search" 
+                        placeholder="{{ if eq .Language.Lang "fr" }}Rechercher dans le glossaire...{{ else }}Search glossary terms...{{ end }}"
+                        class="search-input"
+                    >
+                </div>
+                <div class="filter-wrapper">
+                    <select id="category-filter" class="category-select">
+                        <option value="">{{ if eq .Language.Lang "fr" }}Toutes catégories{{ else }}All Categories{{ end }}</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Quick Navigation -->
+            <div class="alphabet-nav" id="alphabet-container"></div>
+
+            <!-- Terms Display -->
+            <div class="terms-wrapper">
+                <div id="terms-list" class="terms-list"></div>
+                <div id="no-results" class="no-results" style="display: none;">
+                    <h3>{{ if eq .Language.Lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
+                    <p>{{ if eq .Language.Lang "fr" }}Modifiez votre recherche ou sélectionnez une autre catégorie.{{ else }}Try adjusting your search or selecting a different category.{{ end }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+
+<!-- FAQ Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "url": "{{ .Permalink }}",
+  "mainEntity": [
+    {{- $lang := .Language.Lang -}}
+    {{- $glossaryData := index .Site.Data.glossary $lang -}}
+    {{- $terms := $glossaryData.terms -}}
+    {{- range $index, $term := $terms -}}
+      {{- range $qIndex, $qa := $term.common_questions -}}
+        {{- if or (gt $index 0) (gt $qIndex 0) }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $qa.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $qa.answer | jsonify }}
+          }
+        }
+      {{- end -}}
+    {{- end -}}
+  ]
+}
+</script>
+
+<!-- Glossary JavaScript -->
+<script>
+(function() {
+    'use strict';
+    
+    // Data variables
+    let glossaryData, categories, lang;
+    
+    // DOM elements
+    let searchInput, categoryFilter, termsList, noResults, alphabetContainer;
+    
+    // Current state
+    let currentTerms = [];
+    
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        try {
+            // Load data
+            lang = '{{ .Language.Lang }}';
+            
+            // Hugo data injection (already as JavaScript objects)
+            glossaryData = {{ index .Site.Data.glossary .Language.Lang | jsonify | safeJS }};
+            categories = {{ index .Site.Data.glossary.categories .Language.Lang | jsonify | safeJS }};
+            
+            console.log('Glossary data loaded:', glossaryData);
+            console.log('Categories loaded:', categories);
+            
+            // Get DOM elements
+            searchInput = document.getElementById('glossary-search');
+            categoryFilter = document.getElementById('category-filter');
+            termsList = document.getElementById('terms-list');
+            noResults = document.getElementById('no-results');
+            alphabetContainer = document.getElementById('alphabet-container');
+            
+            if (!searchInput || !categoryFilter || !termsList || !noResults || !alphabetContainer) {
+                console.error('Required DOM elements not found');
+                return;
+            }
+            
+            // Initialize current terms
+            currentTerms = glossaryData.terms || [];
+            
+            if (currentTerms.length === 0) {
+                console.error('No terms found in glossary data');
+                return;
+            }
+            
+            // Initialize everything
+            init();
+        } catch (error) {
+            console.error('Error initializing glossary:', error);
+        }
+    });
+    
+    function init() {
+        console.log('Initializing glossary with', currentTerms.length, 'terms');
+        
+        populateCategoryFilter();
+        createAlphabetNavigation();
+        renderTerms(currentTerms);
+        
+        // Event listeners
+        searchInput.addEventListener('input', handleSearch);
+        categoryFilter.addEventListener('change', handleCategoryFilter);
+    }
+    
+    function populateCategoryFilter() {
+        categories.forEach(category => {
+            const option = document.createElement('option');
+            option.value = category.id;
+            option.textContent = category.name;
+            categoryFilter.appendChild(option);
+        });
+    }
+    
+    function createAlphabetNavigation() {
+        const letters = [...new Set(currentTerms.map(term => term.term.charAt(0).toUpperCase()))].sort();
+        
+        // Clear existing buttons
+        alphabetContainer.innerHTML = '';
+        
+        letters.forEach(letter => {
+            const link = document.createElement('button');
+            link.textContent = letter;
+            link.className = 'alphabet-link';
+            link.onclick = () => scrollToLetter(letter);
+            alphabetContainer.appendChild(link);
+        });
+    }
+    
+    function renderTerms(terms) {
+        console.log('Rendering', terms.length, 'terms');
+        
+        if (terms.length === 0) {
+            termsList.style.display = 'none';
+            noResults.style.display = 'block';
+            return;
+        }
+        
+        termsList.style.display = 'block';
+        noResults.style.display = 'none';
+        
+        // Group terms by first letter
+        const groupedTerms = {};
+        terms.forEach(term => {
+            const letter = term.term.charAt(0).toUpperCase();
+            if (!groupedTerms[letter]) groupedTerms[letter] = [];
+            groupedTerms[letter].push(term);
+        });
+        
+        // Render grouped terms
+        let html = '';
+        Object.keys(groupedTerms).sort().forEach(letter => {
+            html += `<div class="letter-section" id="letter-${letter}">`;
+            html += `<h2 class="letter-heading">${letter}</h2>`;
+            
+            groupedTerms[letter].forEach(term => {
+                html += renderTerm(term);
+            });
+            
+            html += '</div>';
+        });
+        
+        termsList.innerHTML = html;
+        
+        // Update alphabet navigation for filtered results
+        createAlphabetNavigation();
+    }
+    
+    function renderTerm(term) {
+        const safeHtml = (str) => str ? str.replace(/[<>&"']/g, (m) => ({
+            '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#39;'
+        }[m])) : '';
+        
+        const relatedLinks = (term.related_terms || []).map(relatedId => {
+            const relatedTerm = currentTerms.find(t => t.id === relatedId);
+            return relatedTerm ? `<a href="#${relatedId}" class="related-link">${safeHtml(relatedTerm.term)}</a>` : '';
+        }).filter(Boolean).join(', ');
+        
+        const risks = (term.risks || []).map(risk => `<li>${safeHtml(risk)}</li>`).join('');
+        const questions = (term.common_questions || []).map(qa => `
+            <div class="faq-item">
+                <h5 class="faq-question">${safeHtml(qa.question)}</h5>
+                <p class="faq-answer">${safeHtml(qa.answer)}</p>
+            </div>
+        `).join('');
+        
+        return `
+        <div class="term-card" id="${term.id}">
+            <div class="term-header">
+                <h3 class="term-title">
+                    <span class="term-name">${safeHtml(term.term)}</span>
+                    ${term.full_term !== term.term ? `<span class="full-term">(${safeHtml(term.full_term)})</span>` : ''}
+                </h3>
+                <span class="term-category">${safeHtml(getCategoryName(term.category))}</span>
+            </div>
+            
+            <div class="term-body">
+                <p class="term-definition">${safeHtml(term.definition)}</p>
+                
+                ${term.example ? `
+                <div class="term-example">
+                    <strong>${lang === 'fr' ? 'Exemple :' : 'Example:'}</strong>
+                    <p>${safeHtml(term.example)}</p>
+                </div>` : ''}
+                
+                ${risks ? `
+                <div class="term-risks">
+                    <strong>${lang === 'fr' ? 'Risques à considérer :' : 'Risks to Consider:'}</strong>
+                    <ul>${risks}</ul>
+                </div>` : ''}
+                
+                ${relatedLinks ? `
+                <div class="term-related">
+                    <strong>${lang === 'fr' ? 'Termes liés :' : 'Related Terms:'}</strong>
+                    <p>${relatedLinks}</p>
+                </div>` : ''}
+                
+                ${questions ? `
+                <div class="term-faqs">
+                    <h4>${lang === 'fr' ? 'Questions fréquentes' : 'Common Questions'}</h4>
+                    ${questions}
+                </div>` : ''}
+            </div>
+        </div>`;
+    }
+    
+    function getCategoryName(categoryId) {
+        const category = categories.find(cat => cat.id === categoryId);
+        return category ? category.name : categoryId;
+    }
+    
+    function handleSearch() {
+        const query = searchInput.value.toLowerCase().trim();
+        const categoryValue = categoryFilter.value;
+        
+        console.log('Searching for:', query, 'in category:', categoryValue);
+        
+        let filteredTerms = glossaryData.terms || [];
+        
+        if (query) {
+            filteredTerms = filteredTerms.filter(term =>
+                (term.term && term.term.toLowerCase().includes(query)) ||
+                (term.definition && term.definition.toLowerCase().includes(query)) ||
+                (term.tags && term.tags.some(tag => tag.toLowerCase().includes(query)))
+            );
+        }
+        
+        if (categoryValue) {
+            filteredTerms = filteredTerms.filter(term => term.category === categoryValue);
+        }
+        
+        currentTerms = filteredTerms;
+        renderTerms(filteredTerms);
+    }
+    
+    function handleCategoryFilter() {
+        handleSearch();
+    }
+    
+    function scrollToLetter(letter) {
+        const element = document.getElementById(`letter-${letter}`);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+})();
+</script>
+
+<style>
+/* Glossary App Styles - Stack Theme Compatible */
+.glossary-app {
+    margin-top: 2rem;
+}
+
+.glossary-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.search-wrapper {
+    flex: 1;
+    min-width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: var(--card-padding);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px var(--accent-color-darker);
+}
+
+.filter-wrapper {
+    min-width: 200px;
+}
+
+.category-select {
+    width: 100%;
+    padding: var(--card-padding);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+    font-size: 1rem;
+}
+
+.alphabet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: var(--card-padding);
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    border: 1px solid var(--card-border-color);
+    align-items: center;
+}
+
+.alphabet-link {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--tag-border-radius);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.alphabet-link:hover {
+    background: var(--accent-color-darker);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-l1);
+}
+
+.letter-section {
+    margin-bottom: 3rem;
+}
+
+.letter-heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+    position: sticky;
+    top: 0;
+    background: var(--body-background);
+    z-index: 10;
+}
+
+.term-card {
+    background: var(--card-background);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-l1);
+}
+
+.term-card:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color-lighter);
+}
+
+.term-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.term-title {
+    margin: 0;
+    flex: 1;
+}
+
+.term-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--card-text-color-main);
+    margin: 0;
+}
+
+.full-term {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--card-text-color-secondary);
+    margin-top: 0.25rem;
+}
+
+.term-category {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    padding: 0.5rem 1rem;
+    border-radius: var(--tag-border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.term-definition {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--card-text-color-main);
+    margin-bottom: 1.5rem;
+}
+
+.term-example,
+.term-risks,
+.term-related {
+    margin-bottom: 1.5rem;
+    padding: var(--card-padding);
+    background: var(--card-background-selected);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid var(--accent-color);
+}
+
+.term-example strong,
+.term-risks strong,
+.term-related strong {
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.term-risks ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: var(--card-text-color-main);
+}
+
+.term-risks li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.related-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.related-link:hover {
+    color: var(--accent-color-darker);
+    text-decoration: underline;
+}
+
+.term-faqs {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-separator-color);
+}
+
+.term-faqs h4 {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    background: var(--card-background-selected);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    font-weight: 700;
+    color: var(--card-text-color-main);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.faq-answer {
+    color: var(--card-text-color-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem var(--card-padding);
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    border: 1px solid var(--card-border-color);
+}
+
+.no-results h3 {
+    color: var(--card-text-color-main);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.no-results p {
+    color: var(--card-text-color-secondary);
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .glossary-controls {
+        flex-direction: column;
+    }
+    
+    .search-wrapper,
+    .filter-wrapper {
+        min-width: auto;
+    }
+    
+    .term-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .alphabet-nav {
+        justify-content: center;
+    }
+    
+    .letter-heading {
+        font-size: 2rem;
+    }
+    
+    .term-name {
+        font-size: 1.3rem;
+    }
+}
+
+/* Dark mode specific adjustments */
+[data-scheme="dark"] .search-input:focus,
+[data-scheme="dark"] .category-select:focus {
+    box-shadow: 0 0 0 3px rgba(var(--accent-color-rgb), 0.3);
+}
+
+/* Enhanced dark mode support */
+[data-scheme="dark"] .search-input,
+[data-scheme="dark"] .category-select {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-definition,
+[data-scheme="dark"] .term-example p,
+[data-scheme="dark"] .term-related p,
+[data-scheme="dark"] .faq-answer {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-risks li {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .letter-heading {
+    background: var(--body-background);
+    color: var(--accent-color);
+}
+
+/* Fix any remaining text color issues in dark mode */
+[data-scheme="dark"] .glossary-app * {
+    /* Inherit proper colors from theme */
+}
+
+[data-scheme="dark"] .term-card {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-name {
+    color: var(--card-text-color-main) !important;
+}
+
+[data-scheme="dark"] .full-term {
+    color: var(--card-text-color-secondary) !important;
+}
+
+[data-scheme="dark"] .faq-question {
+    color: var(--card-text-color-main) !important;
+}
+</style>
+
+{{ end }}
