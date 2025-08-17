@@ -14,17 +14,13 @@ aliases:
     - /termes/
 sitemap:
     priority: 0.9
-    changefreq: weekly\
+    changefreq: weekly
 draft: false
 ---
 
 # Glossaire DeFi
 
-Votre guide complet de la terminologie de la finance décentralisée. Ce glossaire couvre les concepts essentiels de la DeFi, des termes de base comme l'APY aux stratégies avancées comme le yield farming.
-
-Que vous soyez débutant en DeFi ou utilisateur expérimenté, cette ressource vous aide à comprendre le monde en évolution rapide de la finance décentralisée.
-
-{{< glossary-search >}}
+Votre guide complet de la terminologie de la finance décentralisée. Ce glossaire couvre les concepts essentiels de la DeFi, des termes de base comme l'APY aux stratégies avancées comme le yield farming. Que vous soyez débutant en DeFi ou utilisateur expérimenté, cette ressource vous aide à comprendre le monde en évolution rapide de la finance décentralisée.
 
 ## Pourquoi ce Glossaire ?
 

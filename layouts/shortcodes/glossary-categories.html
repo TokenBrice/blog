@@ -85,7 +85,15 @@
             'technique': '#6B7280',   // Gray (French)
             'trading': '#06B6D4',     // Cyan - for trading/AMMs
             'governance': '#EC4899',  // Pink - for governance/DAOs
-            'gouvernance': '#EC4899'  // Pink (French)
+            'gouvernance': '#EC4899', // Pink (French)
+            // Additional unique colors for overlapping categories
+            'defi-protocols': '#3B82F6',      // Keep blue for DeFi Protocols
+            'trading-amms': '#06B6D4',        // Keep cyan for Trading & AMMs
+            'governance-daos': '#EC4899',     // Keep pink for Governance & DAOs
+            'technical-concepts': '#6366F1',  // Indigo - distinct from gray
+            'lending-borrowing': '#059669',   // Emerald - distinct from green
+            'stablecoins': '#F97316',         // Orange - distinct from amber
+            'yield-farming': '#10B981'        // Green - same as yields
         };
         return colors[categoryId] || '#6B7280'; // Default to gray
     }
