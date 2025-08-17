@@ -4,12 +4,17 @@
 <div class="glossary-categories-overview">
     {{- range $categories -}}
     <div class="category-card clickable-category" data-category-id="{{ .id }}" role="button" tabindex="0" title="{{ if eq $lang "fr" }}Cliquer pour filtrer par catégorie{{ else }}Click to filter by category{{ end }}">
-        <h3 class="category-name">{{ .name }}</h3>
+        <div class="category-header">
+            <div class="category-icon" data-category-id="{{ .id }}"></div>
+            <div class="category-title-group">
+                <h3 class="category-name">{{ .name }}</h3>
+                <span class="category-count">
+                    {{- $termCount := len (where (index $.Site.Data.glossary $lang).terms "category" .id) -}}
+                    {{ if eq $lang "fr" }}{{ $termCount }} terme{{ if ne $termCount 1 }}s{{ end }}{{ else }}{{ $termCount }} term{{ if ne $termCount 1 }}s{{ end }}{{ end }}
+                </span>
+            </div>
+        </div>
         <p class="category-description">{{ .description }}</p>
-        <span class="category-count">
-            {{- $termCount := len (where (index $.Site.Data.glossary $lang).terms "category" .id) -}}
-            {{ if eq $lang "fr" }}{{ $termCount }} terme{{ if ne $termCount 1 }}s{{ end }}{{ else }}{{ $termCount }} term{{ if ne $termCount 1 }}s{{ end }}{{ end }}
-        </span>
     </div>
     {{- end -}}
 </div>
@@ -52,28 +57,64 @@
     outline-offset: 2px;
 }
 
+.category-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    background: rgba(var(--category-color-rgb, 59, 130, 246), 0.08);
+}
+
+.category-card:hover .category-icon {
+    background: rgba(var(--category-color-rgb, 59, 130, 246), 0.15);
+    transform: scale(1.05);
+}
+
+.category-title-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .category-name {
-    margin: 0 0 0.5rem 0;
+    margin: 0;
     color: var(--card-text-color-main);
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .category-description {
-    margin: 0 0 1rem 0;
+    margin: 0;
     color: var(--card-text-color-secondary);
     line-height: 1.4;
+    font-size: 0.9rem;
 }
 
 .category-count {
-    background: var(--accent-color);
+    background: var(--category-color, var(--accent-color));
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    align-self: flex-start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px) {
@@ -113,6 +154,35 @@
         return colors[categoryId] || '#6B7280'; // Default to gray
     }
     
+    function hexToRgb(hex) {
+        const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? {
+            r: parseInt(result[1], 16),
+            g: parseInt(result[2], 16),
+            b: parseInt(result[3], 16)
+        } : null;
+    }
+    
+    function getCategoryIcon(categoryId) {
+        const icons = {
+            'yields': '💰',       // Money bag for yields/returns
+            'rendements': '💰',   // Same for French
+            'risks': '🛡️',       // Shield for risks/security  
+            'risques': '🛡️',     // Same for French
+            'strategies': '🎯',   // Target for strategies
+            'stratégies': '🎯',   // Same for French
+            'protocols': '🔗',    // Chain link for protocols/platforms
+            'protocoles': '🔗',   // Same for French
+            'tokens': '🪙',       // Coin for tokens/assets
+            'technical': '⚙️',    // Gear for technical concepts
+            'technique': '⚙️',    // Same for French
+            'trading': '📈',      // Chart trending up for trading/AMMs
+            'governance': '🗳️',   // Ballot box for governance/DAOs
+            'gouvernance': '🗳️'   // Same for French
+        };
+        return icons[categoryId] || '📄'; // Default to document icon
+    }
+    
     function handleCategoryClick(categoryId) {
         // Check if we're on the glossary page and the filtering function exists
         if (typeof window.handleCategoryFilter === 'function') {
@@ -128,13 +198,15 @@
         }
     }
     
-    // Apply colors and click handlers when DOM is ready
+    // Apply colors, icons and click handlers when DOM is ready
     document.addEventListener('DOMContentLoaded', function() {
         const categoryCards = document.querySelectorAll('.category-card[data-category-id]');
         categoryCards.forEach(card => {
             const categoryId = card.getAttribute('data-category-id');
             const color = getCategoryColor(categoryId);
+            const icon = getCategoryIcon(categoryId);
             const countSpan = card.querySelector('.category-count');
+            const iconElement = card.querySelector('.category-icon');
             
             // Apply color to left border
             card.style.borderLeftColor = color;
@@ -142,6 +214,22 @@
             // Apply color to count badge
             if (countSpan) {
                 countSpan.style.backgroundColor = color;
+            }
+            
+            // Convert hex to RGB for background
+            const rgb = hexToRgb(color);
+            if (rgb) {
+                card.style.setProperty('--category-color-rgb', `${rgb.r}, ${rgb.g}, ${rgb.b}`);
+            }
+            
+            // Set CSS custom properties for icon styling
+            card.style.setProperty('--category-color', color);
+            card.style.setProperty('--category-color-dark', color + 'dd'); // Add some transparency
+            
+            // Add icon to icon element
+            if (iconElement) {
+                iconElement.textContent = icon;
+                iconElement.style.color = color;
             }
             
             // Add click handler
