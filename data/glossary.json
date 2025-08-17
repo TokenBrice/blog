@@ -5156,9 +5156,19 @@
         ],
         "related_articles": [
           {
-            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
-            "url": "/p/how-to-make-definancial-products-work-for-you/",
-            "description": "Guide complet des stratégies de rendement DeFi et compréhension des retours"
+            "title": "🧰 La Boîte à Outils du Farming DeFinancier",
+            "url": "/defi-farmer-toolbox/",
+            "description": "Un guide d'auto-stop du liquidity mining curant conseils et outils pour vous aider à tirer le meilleur parti de la révolution agraire DeFi 🌻"
+          },
+          {
+            "title": "🍷 Les rendements sont comme les vins fins, le secret réside dans le processus de brassage",
+            "url": "/fixed-interest-rate-protocol-firp-apwine/",
+            "description": "Une introduction aux Protocoles de Taux d'Intérêt Fixe (FIRP) à travers le prisme d'APWine pour mieux comprendre ce qu'ils permettent et apportent à DeFi."
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
           }
         ]
       },
@@ -5195,16 +5205,26 @@
         ],
         "related_articles": [
           {
-            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
-            "url": "/p/how-to-make-definancial-products-work-for-you/",
-            "description": "Comprendre les risques LP et les stratégies de rendement DeFi"
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "🗿 Reflexer Labs (RAI) : le Quoi, Comment et Pourquoi",
+            "url": "/reflexer-rai/",
+            "description": "Le RAI de Reflexer est un nouveau type d'actif encore unique en DeFi. Il est également basé sur un système avec un schéma de dé-gouvernance. Alors regardons comment rester à l'abri des risques associés aux monnaies fiat, à la centralisation et à la confiance grâce au design de RAI !"
+          },
+          {
+            "title": "NFTfi : NFT rencontre DeFi, liquidité et effet de levier s'ensuivent",
+            "url": "/nftfi-defi-nft/",
+            "description": "DeFi offre aux projets NFT des outils pour résoudre leurs principales limitations (comme la liquidité) tandis que les NFT permettent de rendre DeFi plus amusant et digeste : un appariement parfait ?"
           }
         ]
       },
       {
         "id": "yield-farming",
         "term": "Yield Farming",
-        "full_term": "Yield Farming",
+        "full_term": "Agriculture de Rendement",
         "category": "strategies",
         "definition": "Le yield farming est la pratique de déplacer des actifs crypto entre différents protocoles DeFi pour maximiser les rendements. Les farmers fournissent typiquement de la liquidité, prêtent des actifs, ou stakent des tokens pour gagner des rendements sous forme d'intérêts, de frais, ou de tokens de récompense.",
         "short_definition": "Stratégie de maximisation des rendements en déplaçant des actifs entre protocoles DeFi",
@@ -5236,20 +5256,25 @@
         "related_articles": [
           {
             "title": "🧰 La Boîte à Outils du Farming DeFinancier",
-            "url": "/p/the-definancial-farming-toolbox/",
-            "description": "Guide complet des stratégies de yield farming, outils et meilleures pratiques"
+            "url": "/defi-farmer-toolbox/",
+            "description": "Un guide d'auto-stop du liquidity mining curant conseils et outils pour vous aider à tirer le meilleur parti de la révolution agraire DeFi 🌻"
           },
           {
-            "title": "🤖 Vaults : Investissement DeFi Simplifié ?",
-            "url": "/p/vaults-defi-investing-streamlined/",
-            "description": "Comprendre les stratégies de rendement automatisées et les mécanismes de vaults"
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
           }
         ]
       },
       {
         "id": "liquidity-mining",
         "term": "Liquidity Mining",
-        "full_term": "Liquidity Mining",
+        "full_term": "Minage de Liquidité",
         "category": "strategies",
         "definition": "Le liquidity mining est un mécanisme où les utilisateurs fournissent de la liquidité aux échanges décentralisés ou protocoles de prêt en échange de récompenses en tokens. C'est utilisé par les protocoles pour amorcer la liquidité et distribuer des tokens de gouvernance aux utilisateurs.",
         "short_definition": "Gagner des récompenses en tokens en fournissant de la liquidité aux protocoles DeFi",
@@ -5279,9 +5304,19 @@
         ],
         "related_articles": [
           {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
             "title": "🧰 La Boîte à Outils du Farming DeFinancier",
-            "url": "/p/the-definancial-farming-toolbox/",
-            "description": "Comprendre les programmes de liquidity mining et les mécanismes de récompense"
+            "url": "/defi-farmer-toolbox/",
+            "description": "Un guide d'auto-stop du liquidity mining curant conseils et outils pour vous aider à tirer le meilleur parti de la révolution agraire DeFi 🌻"
+          },
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
           }
         ]
       },
@@ -5289,7 +5324,7 @@
         "id": "amm",
         "term": "AMM",
         "full_term": "Teneur de Marché Automatisé",
-        "category": "technique",
+        "category": "technical",
         "definition": "Un Teneur de Marché Automatisé (AMM) est un type de protocole d'échange décentralisé qui s'appuie sur des formules mathématiques pour fixer le prix des actifs plutôt que sur des carnets d'ordres. Les AMM permettent le trading sans permission en utilisant des pools de liquidité où les utilisateurs peuvent échanger des tokens automatiquement.",
         "short_definition": "Échange décentralisé utilisant des formules mathématiques pour la tarification au lieu de carnets d'ordres",
         "example": "Uniswap est un AMM où les utilisateurs peuvent échanger ETH contre USDC directement depuis les pools de liquidité sans besoin de contrepartie.",
@@ -5314,6 +5349,23 @@
           {
             "question": "Comment un AMM détermine-t-il les prix ?",
             "answer": "Les AMM utilisent des algorithmes comme x*y=k (produit constant) pour ajuster automatiquement les prix basés sur l'offre et la demande dans les pools de liquidité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Courses de tokens axées sur la liquidité au-delà de Curve : un regard sur les Guerres Balancer",
+            "url": "/balancer-wars/",
+            "description": "Cerner l'état des lieux des Guerres Balancer : nous examinons les spécificités du DEX pour anticiper ce qui attend les courses BAL."
+          },
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
           }
         ]
       },
@@ -5347,13 +5399,30 @@
             "question": "Comment participer à la gouvernance d'une DAO ?",
             "answer": "Détenir des tokens de gouvernance, rester informé des propositions, et voter sur les décisions qui affectent l'avenir du protocole."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "L'histoire de BadgerDAO : une intro à travers DIGG",
+            "url": "/badger-digg/",
+            "description": "Badger se situe à l'avant-garde de deux thèmes très tendance : DeFi et BTC sur Ethereum. Creusons pour mieux comprendre à quoi ressemble le plan de fin de partie."
+          },
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "Le stablecoin GHO d'Aave peut-il aider le protocole à croître davantage et dépasser MakerDAO et DAI ?",
+            "url": "/aave-gho-stablecoin/",
+            "description": "Examen du design de GHO et anticipation de ses défis clés pour croître ainsi que la valeur qu'il peut apporter à l'Aave DAO."
+          }
         ]
       },
       {
         "id": "smart-contract",
         "term": "Smart Contract",
         "full_term": "Contrat Intelligent",
-        "category": "technique",
+        "category": "technical",
         "definition": "Un smart contract est un contrat auto-exécutant avec des termes directement écrits en code. En DeFi, les smart contracts exécutent automatiquement les transactions lorsque des conditions prédéterminées sont remplies, éliminant le besoin d'intermédiaires.",
         "short_definition": "Code auto-exécutant qui fait automatiquement respecter les termes du contrat sur blockchain",
         "example": "Le smart contract d'un protocole de prêt liquide automatiquement les positions sous-collatéralisées sans intervention humaine.",
@@ -5379,13 +5448,30 @@
             "question": "Les smart contracts peuvent-ils être changés après déploiement ?",
             "answer": "La plupart des smart contracts sont immuables une fois déployés, bien que certains incluent des mécanismes de mise à niveau contrôlés par la gouvernance ou des clés admin."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          },
+          {
+            "title": "Un pas de plus vers travailler pour et répondre à la communauté Ethereum et DeFi",
+            "url": "/next-steps/",
+            "description": "Je démissionne en tant que Community Manager de Monolith pour consacrer plus de mon équipe aux efforts communautaires : contenu, meetups et conseils pour les gens !"
+          },
+          {
+            "title": "DeFi est une boîte à outils qui s'étend au-delà de la finance",
+            "url": "/defi-beyond-finance/",
+            "description": "Considérer comment les blocs de construction centraux de la finance décentralisée d'Ethereum peuvent être exploités avec succès pour s'attaquer à d'autres cas d'usage."
+          }
         ]
       },
       {
         "id": "defi",
         "term": "DeFi",
         "full_term": "Finance Décentralisée",
-        "category": "technique",
+        "category": "technical",
         "definition": "La Finance Décentralisée (DeFi) fait référence à une forme de finance basée sur blockchain qui recrée et améliore les systèmes financiers traditionnels utilisant des smart contracts, supprimant les intermédiaires comme les banques et courtiers. Les applications DeFi fonctionnent sur des blockchains publiques et sont accessibles à tous.",
         "short_definition": "Système financier basé blockchain opérant sans intermédiaires traditionnels",
         "example": "Vous pouvez prêter de l'USDC sur Compound, emprunter contre de l'ETH sur Aave, et échanger des tokens sur Uniswap - tout sans banques ni courtiers.",
@@ -5411,12 +5497,29 @@
             "question": "Quels sont les principaux avantages de la DeFi par rapport à la finance traditionnelle ?",
             "answer": "Accessibilité 24/7, accès sans permission, transparence, programmabilité, et généralement de meilleurs rendements pour les utilisateurs."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
+            "url": "/definancial-services-guide/",
+            "description": "Un aperçu équilibré des services de finance décentralisée que vous pouvez utiliser pour faire travailler votre ETH pour vous - 6 stratégies de base, leurs variantes, et ce qu'il faut surveiller lors de leur mise en œuvre."
+          },
+          {
+            "title": "Janus : le nouvel ennemi juré des protocoles DeFi ?",
+            "url": "/defi-janus/",
+            "description": "Au sein de la finance décentralisée, véritable laboratoire à ciel ouvert, les enjeux de gouvernance sont complexes et souvent contradictoires. Dans cet article, j'examine les antagonismes potentiels entre les différentes parties prenantes d'un protocole donné."
+          },
+          {
+            "title": "Présentation de ma prochaine étape : contribuer à un cerveau collectif DeFi orienté pour soutenir une DeFi sans confiance et inarrêtable : The DeFi Collective",
+            "url": "/defi-collective/",
+            "description": "Il est temps de mettre mes cinq années en DeFi au meilleur usage : un soutien sans entraves pour les biens publics"
+          }
         ]
       },
       {
         "id": "stablecoin",
         "term": "Stablecoin",
-        "full_term": "Stablecoin",
+        "full_term": "Monnaie Stable",
         "category": "tokens",
         "definition": "Un stablecoin est une cryptomonnaie conçue pour maintenir une valeur stable relative à un actif de référence, généralement le Dollar US. Les stablecoins fournissent les bénéfices des cryptos (transferts rapides, transfrontaliers) tout en minimisant la volatilité des prix.",
         "short_definition": "Cryptomonnaie conçue pour maintenir une valeur stable relative à un actif de référence",
@@ -5447,21 +5550,26 @@
         "related_articles": [
           {
             "title": "La Carte du Maraudeur des Stablecoins Décentralisés",
-            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
-            "description": "Analyse complète des mécanismes et designs de stablecoins décentralisés"
+            "url": "/stablecoin-marauder-map/",
+            "description": "De nouveaux stables se lancent chaque semaine, donc suivre les innovations pertinentes est difficile. AMO ? PSM ? DSR ? pegKeeper ? Cet article examine les différents mécanismes exploités par les projets de stablecoin et évalue leur pertinence."
           },
           {
-            "title": "Le stablecoin GHO d'Aave peut-il aider le protocole à croître ?",
-            "url": "/p/the-state-future-of-algorithmic-stablecoins/",
-            "description": "Plongée profonde dans le design de GHO et l'économie des stablecoins"
+            "title": "Le stablecoin GHO d'Aave peut-il aider le protocole à croître davantage et dépasser MakerDAO et DAI ?",
+            "url": "/aave-gho-stablecoin/",
+            "description": "Examen du design de GHO et anticipation de ses défis clés pour croître ainsi que la valeur qu'il peut apporter à l'Aave DAO."
+          },
+          {
+            "title": "L'état et l'avenir des stablecoins algorithmiques",
+            "url": "/algorithmic-stablecoins/",
+            "description": "En regardant ESD, DSD et Basis Cash pour établir une maquette des stablecoins algorithmiques et le défi qu'ils s'attaquent."
           }
         ]
       },
       {
         "id": "liquidity-pool",
         "term": "Pool de Liquidité",
-        "full_term": "Pool de Liquidité",
-        "category": "technique",
+        "full_term": "Réserve de Liquidité",
+        "category": "technical",
         "definition": "Un pool de liquidité est une collection de fonds verrouillés dans un smart contract qui permet le trading décentralisé, le prêt, et autres fonctions DeFi. Les utilisateurs contribuent des actifs aux pools et gagnent des frais des trades ou intérêts des prêts.",
         "short_definition": "Smart contract contenant des fonds qui permettent le trading et prêt décentralisés",
         "example": "Le pool ETH/USDC sur Uniswap contient à la fois ETH et USDC, permettant aux utilisateurs d'échanger entre ces tokens tandis que les LP gagnent des frais de trading.",
@@ -5487,16 +5595,33 @@
             "question": "Comment les fournisseurs de liquidité gagnent-ils de l'argent ?",
             "answer": "Les LP gagnent des frais de trading (typiquement 0,3%) de chaque échange, plus des tokens de récompense potentiels des programmes de liquidity mining."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Courses de tokens axées sur la liquidité au-delà de Curve : un regard sur les Guerres Balancer",
+            "url": "/balancer-wars/",
+            "description": "Cerner l'état des lieux des Guerres Balancer : nous examinons les spécificités du DEX pour anticiper ce qui attend les courses BAL."
+          }
         ]
       },
       {
         "id": "slippage",
         "term": "Slippage",
-        "full_term": "Slippage",
+        "full_term": "Glissement de Prix",
         "category": "risks",
-        "definition": "Le slippage fait référence à la différence entre le prix attendu d'un trade et le prix réellement exécuté. Il se produit quand il y a une liquidité insuffisante ou une haute volatilité, causant un mouvement de prix défavorable pendant l'exécution du trade.",
-        "short_definition": "Différence entre le prix de trade attendu et le prix d'exécution réel",
-        "example": "Vous essayez d'acheter pour 10 000$ d'un token à 100$, mais à cause du slippage, vous finissez par payer une moyenne de 102$ par token.",
+        "definition": "Le slippage fait référence à la différence entre le prix attendu d'une transaction et le prix d'exécution réel. Il se produit lorsqu'il y a une liquidité insuffisante ou une forte volatilité, causant un mouvement défavorable du prix pendant l'exécution de la transaction.",
+        "short_definition": "Différence entre le prix attendu et le prix d'exécution réel d'une transaction",
+        "example": "Vous essayez d'acheter pour 10 000$ d'un token à 100$, mais à cause du slippage, vous finissez par payer en moyenne 102$ par token.",
         "related_terms": [
           "liquidity",
           "amm",
@@ -5504,7 +5629,7 @@
           "mev"
         ],
         "risks": [
-          "Coûts plus élevés qu'attendu",
+          "Coûts plus élevés que prévu",
           "Front-running",
           "Attaques sandwich"
         ],
@@ -5517,18 +5642,30 @@
         "common_questions": [
           {
             "question": "Comment minimiser le slippage ?",
-            "answer": "Trader des montants plus petits, utiliser des paires liquides, définir une tolérance de slippage appropriée, ou utiliser des agrégateurs qui trouvent les meilleures routes."
+            "answer": "Tradez des montants plus petits, utilisez des paires liquides, définissez une tolérance de slippage appropriée, ou utilisez des agrégateurs qui trouvent les meilleures routes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "🐊 Naviguer les marécages d'échange",
+            "url": "/swap-swamp/",
+            "description": "Conseils pratiques et considérations pour comprendre ce qui se passe sous le capot lors de l'échange de tokens et comment le faire efficacement."
           }
         ]
       },
       {
         "id": "governance-token",
         "term": "Token de Gouvernance",
-        "full_term": "Token de Gouvernance",
+        "full_term": "Jeton de Gouvernance",
         "category": "tokens",
-        "definition": "Les tokens de gouvernance donnent aux détenteurs des droits de vote sur les décisions de protocole telles que les changements de paramètres, mises à niveau, et gestion de trésorerie. Ils représentent le contrôle démocratique des protocoles décentralisés et s'apprécient souvent avec le succès du protocole.",
+        "definition": "Les tokens de gouvernance donnent aux détenteurs des droits de vote sur les décisions du protocole comme les changements de paramètres, les mises à niveau, et la gestion du trésor. Ils représentent un contrôle démocratique sur les protocoles décentralisés et s'apprécient souvent avec le succès du protocole.",
         "short_definition": "Token qui fournit des droits de vote sur les décisions de gouvernance du protocole",
-        "example": "Les détenteurs de tokens UNI peuvent voter sur les mises à niveau du protocole Uniswap, structures de frais, et propositions de dépenses de trésorerie.",
+        "example": "Les détenteurs de tokens UNI peuvent voter sur les mises à niveau du protocole Uniswap, les structures de frais, et les propositions de dépenses du trésor.",
         "related_terms": [
           "dao",
           "voting",
@@ -5537,7 +5674,7 @@
         ],
         "risks": [
           "Attaques de gouvernance",
-          "Volatilité du prix des tokens",
+          "Volatilité du prix du token",
           "Faible participation"
         ],
         "tags": [
@@ -5549,18 +5686,25 @@
         "common_questions": [
           {
             "question": "Les tokens de gouvernance ont-ils une valeur monétaire ?",
-            "answer": "Oui, ils se négocient sur les marchés et tirent leur valeur du succès du protocole et des flux de trésorerie futurs potentiels ou bénéfices."
+            "answer": "Oui, ils se négocient sur les marchés et tirent leur valeur du succès du protocole et des flux de trésorerie futurs potentiels ou avantages."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ Guerre CRV avancée : analyse des protocoles construits au-dessus de Curve et Convex",
+            "url": "/crv-wars-l2/",
+            "description": "Votium, Warden, Concentrator, CCRV, Conic, etc. La couche de protocoles impliqués dans les Guerres Curve devient plus dense : j'offre une visite pour mieux comprendre les dynamiques autour des tokens CRV et CVX."
           }
         ]
       },
       {
         "id": "flash-loan",
         "term": "Flash Loan",
-        "full_term": "Prêt Flash",
-        "category": "technique",
-        "definition": "Les flash loans sont des prêts non-collatéralisés qui doivent être empruntés et remboursés dans le même bloc de transaction. Ils permettent des stratégies DeFi complexes comme l'arbitrage, liquidations, et échanges de collatéral sans nécessiter de capital initial.",
-        "short_definition": "Prêt instantané non-collatéralisé qui doit être remboursé dans la même transaction",
-        "example": "Un trader utilise un flash loan pour emprunter 1000 ETH, arbitrer les différences de prix entre échanges, et rembourser le prêt plus les frais - tout dans une transaction.",
+        "full_term": "Prêt Éclair",
+        "category": "technical",
+        "definition": "Les flash loans sont des prêts sans collatéral qui doivent être empruntés et remboursés dans le même bloc de transaction. Ils permettent des stratégies DeFi complexes comme l'arbitrage, les liquidations, et les échanges de collatéral sans nécessiter de capital initial.",
+        "short_definition": "Prêt instantané sans collatéral qui doit être remboursé dans la même transaction",
+        "example": "Un trader utilise un flash loan pour emprunter 1000 ETH, faire de l'arbitrage sur les différences de prix entre échanges, et rembourser le prêt plus les frais - tout en une transaction.",
         "related_terms": [
           "arbitrage",
           "liquidation",
@@ -5583,16 +5727,23 @@
             "question": "Que se passe-t-il si je ne peux pas rembourser un flash loan ?",
             "answer": "Toute la transaction s'annule, ce qui signifie que vous récupérez vos fonds originaux mais payez les frais de gas pour la transaction échouée."
           }
+        ],
+        "related_articles": [
+          {
+            "title": "Comprendre les innovations des marchés monétaires pour envisager leur avenir",
+            "url": "/money-market-innovations/",
+            "description": "Quelles sont les prochaines étapes pour les marchés monétaires ? Nous abordons différents thèmes avec un projet emblématique : réappropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
+          }
         ]
       },
       {
         "id": "ethereum",
         "term": "Ethereum",
         "full_term": "Ethereum",
-        "category": "protocoles",
+        "category": "protocols",
         "definition": "Ethereum est une plateforme blockchain décentralisée et open-source qui permet la création de smart contracts et d'applications décentralisées (dApps). C'est la blockchain principale pour les applications DeFi grâce à sa programmabilité et son écosystème établi.",
         "short_definition": "Plateforme blockchain programmable qui alimente la plupart des applications DeFi",
-        "example": "La plupart des protocoles DeFi comme Uniswap, Aave, et Compound sont construits sur la blockchain Ethereum.",
+        "example": "La plupart des protocoles DeFi comme Uniswap, Aave et Compound sont construits sur la blockchain Ethereum.",
         "related_terms": [
           "smart-contract",
           "defi",
@@ -5609,16 +5760,671 @@
           "ethereum",
           "plateforme",
           "smart-contracts"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi Ethereum est-il si important pour la DeFi ?",
+            "answer": "Les smart contracts programmables d'Ethereum permettent des applications financières complexes, et il a le plus grand écosystème DeFi et liquidité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "DeFi est une boîte à outils qui s'étend au-delà de la finance",
+            "url": "/defi-beyond-finance/",
+            "description": "Considérer comment les blocs de construction centraux de la finance décentralisée d'Ethereum peuvent être exploités avec succès pour s'attaquer à d'autres cas d'usage."
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          }
+        ]
+      },
+      {
+        "id": "layer-2",
+        "term": "Layer 2",
+        "full_term": "Solution de Mise à l'Échelle Layer 2",
+        "category": "protocols",
+        "definition": "Les solutions Layer 2 sont des frameworks secondaires construits au-dessus de blockchains existantes pour améliorer la scalabilité et réduire les coûts. Elles traitent les transactions hors de la chaîne principale tout en héritant de sa sécurité.",
+        "short_definition": "Solutions de mise à l'échelle construites sur les blockchains pour réduire les frais et augmenter la vitesse",
+        "example": "Polygon, Arbitrum et Optimism sont des solutions Layer 2 qui offrent des transactions DeFi moins chères que le mainnet Ethereum.",
+        "related_terms": [
+          "ethereum",
+          "scaling",
+          "rollups",
+          "sidechains"
+        ],
+        "risks": [
+          "Risques de centralisation",
+          "Délais de sortie",
+          "Complexité technique"
+        ],
+        "tags": [
+          "mise-à-l'échelle",
+          "layer2",
+          "ethereum",
+          "frais"
+        ],
+        "common_questions": [
+          {
+            "question": "Les solutions Layer 2 sont-elles aussi sécurisées qu'Ethereum ?",
+            "answer": "Elles héritent de la sécurité d'Ethereum mais peuvent avoir des risques additionnels selon leur implémentation spécifique et niveau de centralisation."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "L'histoire de BadgerDAO : une intro à travers DIGG",
+            "url": "/badger-digg/",
+            "description": "Badger se situe à l'avant-garde de deux thèmes très tendance : DeFi et BTC sur Ethereum. Creusons pour mieux comprendre à quoi ressemble le plan de fin de partie."
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          },
+          {
+            "title": "DeFi est une boîte à outils qui s'étend au-delà de la finance",
+            "url": "/defi-beyond-finance/",
+            "description": "Considérer comment les blocs de construction centraux de la finance décentralisée d'Ethereum peuvent être exploités avec succès pour s'attaquer à d'autres cas d'usage."
+          }
+        ]
+      },
+      {
+        "id": "bridge",
+        "term": "Bridge",
+        "full_term": "Pont Inter-Chaînes",
+        "category": "protocols",
+        "definition": "Un bridge est un protocole qui permet aux utilisateurs de transférer des actifs et données entre différentes blockchains ou solutions Layer 2. Les bridges permettent l'interopérabilité dans l'écosystème DeFi multi-chaînes.",
+        "short_definition": "Protocole permettant le transfert d'actifs entre différentes blockchains",
+        "example": "Vous pouvez utiliser un bridge pour déplacer de l'ETH du mainnet Ethereum vers Polygon, ou de l'USDC d'Ethereum vers Arbitrum.",
+        "related_terms": [
+          "interoperability",
+          "wrapped-tokens",
+          "layer-2",
+          "multichain"
+        ],
+        "risks": [
+          "Exploits de smart contract",
+          "Centralisation",
+          "Risques de liquidité"
+        ],
+        "tags": [
+          "bridge",
+          "interopérabilité",
+          "inter-chaînes",
+          "transfert"
+        ],
+        "common_questions": [
+          {
+            "question": "Les bridges sont-ils sûrs à utiliser ?",
+            "answer": "Les bridges portent des risques car ce sont des smart contracts complexes. Utilisez des bridges bien audités et établis et n'investissez jamais plus que ce que vous pouvez vous permettre de perdre."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Facebook X Cambridge Analytica : le coût caché des services gratuits",
+            "url": "/hidden-cost-free-services/",
+            "description": "Cambridge Analytica est l'arbre qui cache la forêt. Avec les données que Facebook a amassées, vient le pouvoir d'influencer la vie politique."
+          },
+          {
+            "title": "🍷 Les rendements sont comme les vins fins, le secret réside dans le processus de brassage",
+            "url": "/fixed-interest-rate-protocol-firp-apwine/",
+            "description": "Une introduction aux Protocoles de Taux d'Intérêt Fixe (FIRP) à travers le prisme d'APWine pour mieux comprendre ce qu'ils permettent et apportent à DeFi."
+          },
+          {
+            "title": "Évaluer le risque en finance décentralisée : un manuel pour les marchés monétaires",
+            "url": "/money-markets-risk/",
+            "description": "La notation des risques DeFi est cassée ; cet article vous montre pourquoi avec une répartition claire de la façon d'évaluer les risques des marchés monétaires ; la plupart des observations sont également applicables aux protocoles DeFi plus largement."
+          }
+        ]
+      },
+      {
+        "id": "oracle",
+        "term": "Oracle",
+        "full_term": "Oracle de Prix",
+        "category": "technical",
+        "definition": "Un oracle est un service qui fournit des données du monde réel aux applications blockchain. En DeFi, les oracles de prix fournissent les prix d'actifs actuels pour les protocoles de prêt, dérivés, et autres applications qui ont besoin de données hors-chaîne.",
+        "short_definition": "Service fournissant des données du monde réel comme les prix aux applications blockchain",
+        "example": "Les oracles Chainlink fournissent les prix ETH/USD aux protocoles de prêt pour déterminer les valeurs de collatéral et seuils de liquidation.",
+        "related_terms": [
+          "chainlink",
+          "price-feeds",
+          "liquidation",
+          "collateral"
+        ],
+        "risks": [
+          "Manipulation d'oracle",
+          "Latence de données",
+          "Point de défaillance unique"
+        ],
+        "tags": [
+          "oracle",
+          "données",
+          "prix",
+          "chainlink"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi les smart contracts ne peuvent-ils pas obtenir directement les données de prix ?",
+            "answer": "Les blockchains ne peuvent pas accéder aux données externes par conception. Les oracles agissent comme des ponts pour amener les informations du monde réel sur la chaîne de manière sécurisée."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Derrière la scène du théâtre de décentralisation : une étude de l'inaltérabilité des protocoles DeFi",
+            "url": "/unstoppable-defi/",
+            "description": "De la centralisation totale aux protocoles inarrêtables : une définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi."
+          },
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "Évaluer le risque en finance décentralisée : un manuel pour les marchés monétaires",
+            "url": "/money-markets-risk/",
+            "description": "La notation des risques DeFi est cassée ; cet article vous montre pourquoi avec une répartition claire de la façon d'évaluer les risques des marchés monétaires ; la plupart des observations sont également applicables aux protocoles DeFi plus largement."
+          }
+        ]
+      },
+      {
+        "id": "mev",
+        "term": "MEV",
+        "full_term": "Valeur Extractible Maximale",
+        "category": "technical",
+        "definition": "MEV fait référence au profit maximum qui peut être extrait en réorganisant, incluant, ou excluant des transactions dans un bloc. Cela inclut le front-running, les attaques sandwich, et les opportunités d'arbitrage.",
+        "short_definition": "Profit extrait en manipulant l'ordre des transactions dans les blocs",
+        "example": "Un bot voit votre gros trade DEX, place un ordre d'achat avant le vôtre et un ordre de vente après, profitant de l'impact de prix que vous créez.",
+        "related_terms": [
+          "front-running",
+          "sandwich-attack",
+          "arbitrage",
+          "flashbots"
+        ],
+        "risks": [
+          "Coûts de trading augmentés",
+          "Extraction injuste",
+          "Centralisation du réseau"
+        ],
+        "tags": [
+          "mev",
+          "arbitrage",
+          "front-running",
+          "mining"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment me protéger du MEV ?",
+            "answer": "Utilisez des mempools privés, définissez une tolérance de slippage appropriée, ou utilisez des interfaces de trading protégées contre le MEV."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          },
+          {
+            "title": "La Carte du Maraudeur des Stablecoins Décentralisés",
+            "url": "/stablecoin-marauder-map/",
+            "description": "De nouveaux stables se lancent chaque semaine, donc suivre les innovations pertinentes est difficile. AMO ? PSM ? DSR ? pegKeeper ? Cet article examine les différents mécanismes exploités par les projets de stablecoin et évalue leur pertinence."
+          }
+        ]
+      },
+      {
+        "id": "dex-aggregator",
+        "term": "Agrégateur DEX",
+        "full_term": "Agrégateur d'Échange Décentralisé",
+        "category": "protocols",
+        "definition": "Un agrégateur DEX est un service qui source la liquidité de multiples échanges décentralisés pour trouver les meilleurs prix et le plus faible slippage pour les trades. Ils optimisent le routage pour minimiser les coûts de trading.",
+        "short_definition": "Service qui trouve les meilleurs prix à travers plusieurs DEX pour les trades",
+        "example": "1inch agrège les prix d'Uniswap, SushiSwap, et autres DEX pour exécuter votre trade au meilleur taux possible.",
+        "related_terms": [
+          "uniswap",
+          "sushiswap",
+          "slippage",
+          "routing"
+        ],
+        "risks": [
+          "Risque de smart contract",
+          "Complexité",
+          "Coûts de gas"
+        ],
+        "tags": [
+          "agrégateur",
+          "dex",
+          "trading",
+          "optimisation"
+        ],
+        "common_questions": [
+          {
+            "question": "Les agrégateurs donnent-ils toujours de meilleurs prix ?",
+            "answer": "Généralement oui, mais considérez les coûts de gas. Pour les petits trades, le coût de gas du routage complexe pourrait dépasser les économies."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Le volume engendre des frais : comment les principaux échanges décentralisés capturent-ils la valeur ?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "Un regard sur les mécanismes de capture de valeur d'Uniswap, Sushiswap et Curve pour mieux comprendre comment la valeur s'accumule pour les détenteurs de tokens."
+          },
+          {
+            "title": "🐊 Naviguer les marécages d'échange",
+            "url": "/swap-swamp/",
+            "description": "Conseils pratiques et considérations pour comprendre ce qui se passe sous le capot lors de l'échange de tokens et comment le faire efficacement."
+          },
+          {
+            "title": "🍷 Les rendements sont comme les vins fins, le secret réside dans le processus de brassage",
+            "url": "/fixed-interest-rate-protocol-firp-apwine/",
+            "description": "Une introduction aux Protocoles de Taux d'Intérêt Fixe (FIRP) à travers le prisme d'APWine pour mieux comprendre ce qu'ils permettent et apportent à DeFi."
+          }
+        ]
+      },
+      {
+        "id": "multisig",
+        "term": "Multisig",
+        "full_term": "Portefeuille Multi-Signatures",
+        "category": "technical",
+        "definition": "Un portefeuille multisig nécessite plusieurs signatures (clés) pour autoriser les transactions, fournissant une sécurité améliorée par rapport aux portefeuilles à clé unique. Couramment utilisé pour la gouvernance de protocole et la gestion de trésorerie.",
+        "short_definition": "Portefeuille nécessitant plusieurs signatures pour autoriser les transactions",
+        "example": "Un multisig 3-sur-5 nécessite au moins 3 des 5 signataires désignés pour approuver toute transaction.",
+        "related_terms": [
+          "security",
+          "governance",
+          "treasury",
+          "keys"
+        ],
+        "risks": [
+          "Perte de clés",
+          "Complexité de coordination",
+          "Points de défaillance uniques"
+        ],
+        "tags": [
+          "sécurité",
+          "multisig",
+          "portefeuille",
+          "gouvernance"
+        ],
+        "common_questions": [
+          {
+            "question": "Que se passe-t-il si les signataires multisig ne sont pas disponibles ?",
+            "answer": "Si vous ne pouvez pas atteindre le seuil minimum, les fonds deviennent inaccessibles. C'est pourquoi des plans de sauvegarde et signataires de confiance sont cruciaux."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "🗿 Reflexer Labs (RAI) : le Quoi, Comment et Pourquoi",
+            "url": "/reflexer-rai/",
+            "description": "Le RAI de Reflexer est un nouveau type d'actif encore unique en DeFi. Il est également basé sur un système avec un schéma de dé-gouvernance. Alors regardons comment rester à l'abri des risques associés aux monnaies fiat, à la centralisation et à la confiance grâce au design de RAI !"
+          },
+          {
+            "title": "Janus : le nouvel ennemi juré des protocoles DeFi ?",
+            "url": "/defi-janus/",
+            "description": "Au sein de la finance décentralisée, véritable laboratoire à ciel ouvert, les enjeux de gouvernance sont complexes et souvent contradictoires. Dans cet article, j'examine les antagonismes potentiels entre les différentes parties prenantes d'un protocole donné."
+          }
+        ]
+      },
+      {
+        "id": "gas",
+        "term": "Gas",
+        "full_term": "Frais de Gas",
+        "category": "technical",
+        "definition": "Le gas est l'unité qui mesure l'effort computationnel nécessaire pour exécuter des opérations sur Ethereum. Les utilisateurs paient des frais de gas aux mineurs/validateurs pour traiter leurs transactions.",
+        "short_definition": "Frais payés pour exécuter des transactions sur la blockchain Ethereum",
+        "example": "Un simple transfert d'ETH pourrait coûter 21 000 unités de gas, tandis que les interactions DeFi complexes peuvent coûter plus de 200 000 unités de gas.",
+        "related_terms": [
+          "ethereum",
+          "gwei",
+          "transaction",
+          "miners"
+        ],
+        "risks": [
+          "Coût élevé pendant la congestion",
+          "Transactions échouées",
+          "Tarification imprévisible"
+        ],
+        "tags": [
+          "gas",
+          "frais",
+          "ethereum",
+          "transaction"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi les frais de gas sont-ils parfois si élevés ?",
+            "answer": "Les frais de gas augmentent avec la demande du réseau. Pendant les périodes chargées, les utilisateurs rivalisent en payant des frais plus élevés pour que leurs transactions soient traitées plus rapidement."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          },
+          {
+            "title": "⚖ Le conte de deux modèles de seigneuriage : Basis vs ESD",
+            "url": "/seigniorage-basis-vs-esd/",
+            "description": "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de stablecoins sur le réseau Ethereum."
+          },
+          {
+            "title": "Le volume engendre des frais : comment les principaux échanges décentralisés capturent-ils la valeur ?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "Un regard sur les mécanismes de capture de valeur d'Uniswap, Sushiswap et Curve pour mieux comprendre comment la valeur s'accumule pour les détenteurs de tokens."
+          }
+        ]
+      },
+      {
+        "id": "erc-20",
+        "term": "ERC-20",
+        "full_term": "Ethereum Request for Comment 20",
+        "category": "technical",
+        "definition": "ERC-20 est un standard technique pour les tokens fongibles sur la blockchain Ethereum. Il définit une interface commune qui permet aux tokens d'être facilement intégrés avec les portefeuilles, échanges, et autres applications.",
+        "short_definition": "Standard pour créer des tokens fongibles sur Ethereum",
+        "example": "USDC, DAI, UNI, et la plupart des tokens DeFi sont des tokens ERC-20 qui suivent ce standard.",
+        "related_terms": [
+          "ethereum",
+          "tokens",
+          "standard",
+          "fungible"
+        ],
+        "risks": [
+          "Bugs de smart contract",
+          "Risques spécifiques aux tokens",
+          "Exploits d'approbation"
+        ],
+        "tags": [
+          "erc20",
+          "tokens",
+          "standard",
+          "ethereum"
+        ],
+        "common_questions": [
+          {
+            "question": "Puis-je utiliser les tokens ERC-20 sur d'autres blockchains ?",
+            "answer": "Pas directement, mais vous pouvez les bridge vers d'autres chaînes ou utiliser des versions wrappées qui suivent d'autres standards."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Les tokens non-fongibles expliqués avec Tortank et Dracaufeu",
+            "url": "/nft/",
+            "description": "Des concepts complexes rendus accessibles grâce aux cartes Pokémon : l'avenir de la tokenisation sur Ethereum - des tokens non-fongibles aux ERC."
+          },
+          {
+            "title": "Les tokens non-fongibles (NFT) : le poids et la contribution de l'histoire vérifiable",
+            "url": "/nft-usecases/",
+            "description": "Une promenade dans le monde des NFT pour comprendre la valeur de la rareté numérique prouvable et sa contribution aux usages communautaires ou artistiques."
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          }
+        ]
+      },
+      {
+        "id": "wrapped-token",
+        "term": "Token Wrappé",
+        "full_term": "Jeton Enveloppé",
+        "category": "tokens",
+        "definition": "Un token wrappé représente une autre cryptomonnaie sur une blockchain différente. Il est soutenu 1:1 par l'actif original détenu en custody, permettant la fonctionnalité inter-chaînes.",
+        "short_definition": "Token représentant une autre cryptomonnaie sur une blockchain différente",
+        "example": "WETH (Wrapped ETH) permet à l'ETH d'être utilisé dans les contrats ERC-20, tandis que WBTC apporte la fonctionnalité Bitcoin à Ethereum.",
+        "related_terms": [
+          "bridge",
+          "cross-chain",
+          "custody",
+          "erc-20"
+        ],
+        "risks": [
+          "Risque de custody",
+          "Risque de dépeg",
+          "Vulnérabilités de bridge"
+        ],
+        "tags": [
+          "wrappé",
+          "tokens",
+          "inter-chaînes",
+          "bitcoin"
+        ],
+        "common_questions": [
+          {
+            "question": "Un token wrappé est-il identique à l'original ?",
+            "answer": "Fonctionnellement similaire mais techniquement différent. Ils devraient maintenir une valeur 1:1 mais portent des risques additionnels du mécanisme de wrapping."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Courses de tokens axées sur la liquidité au-delà de Curve : un regard sur les Guerres Balancer",
+            "url": "/balancer-wars/",
+            "description": "Cerner l'état des lieux des Guerres Balancer : nous examinons les spécificités du DEX pour anticiper ce qui attend les courses BAL."
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          }
+        ]
+      },
+      {
+        "id": "mempool",
+        "term": "Mempool",
+        "full_term": "Pool de Mémoire",
+        "category": "technical",
+        "definition": "Le mempool est une zone d'attente pour les transactions non confirmées sur un réseau blockchain. Les transactions restent dans le mempool jusqu'à ce que les mineurs ou validateurs les incluent dans un bloc.",
+        "short_definition": "Zone d'attente pour les transactions blockchain non confirmées",
+        "example": "Quand vous soumettez une transaction, elle va d'abord au mempool où les bots MEV peuvent la voir avant qu'elle soit incluse dans un bloc.",
+        "related_terms": [
+          "transaction",
+          "mining",
+          "mev",
+          "gas"
+        ],
+        "risks": [
+          "Front-running",
+          "Transaction bloquée",
+          "Extraction MEV"
+        ],
+        "tags": [
+          "mempool",
+          "transactions",
+          "mining",
+          "blockchain"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi ma transaction est-elle bloquée dans le mempool ?",
+            "answer": "Généralement à cause de frais de gas trop bas. Les mineurs priorisent les transactions avec des frais plus élevés, donc la vôtre attend jusqu'à ce que la congestion du réseau diminue ou que vous augmentiez les frais."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "🧰 La Boîte à Outils du Farming DeFinancier",
+            "url": "/defi-farmer-toolbox/",
+            "description": "Un guide d'auto-stop du liquidity mining curant conseils et outils pour vous aider à tirer le meilleur parti de la révolution agraire DeFi 🌻"
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          }
+        ]
+      },
+      {
+        "id": "validator",
+        "term": "Validateur",
+        "full_term": "Validateur de Réseau",
+        "category": "technical",
+        "definition": "Les validateurs sont des participants du réseau qui valident les transactions et créent de nouveaux blocs dans les blockchains Proof of Stake. Ils stakent des tokens comme collatéral et gagnent des récompenses pour un comportement honnête.",
+        "short_definition": "Participants du réseau qui valident les transactions dans les systèmes Proof of Stake",
+        "example": "Les validateurs Ethereum 2.0 stakent 32 ETH pour participer au consensus et gagner des récompenses de staking.",
+        "related_terms": [
+          "staking",
+          "proof-of-stake",
+          "consensus",
+          "ethereum"
+        ],
+        "risks": [
+          "Risque de slashing",
+          "Exigences techniques",
+          "Périodes de verrouillage"
+        ],
+        "tags": [
+          "validateur",
+          "staking",
+          "consensus",
+          "ethereum"
+        ],
+        "common_questions": [
+          {
+            "question": "Qu'est-ce que le slashing dans le staking ?",
+            "answer": "Le slashing est une pénalité où les validateurs perdent une partie de leurs tokens stakés pour comportement malveillant ou temps d'arrêt prolongé."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          },
+          {
+            "title": "⚖ Le conte de deux modèles de seigneuriage : Basis vs ESD",
+            "url": "/seigniorage-basis-vs-esd/",
+            "description": "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de stablecoins sur le réseau Ethereum."
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          }
+        ]
+      },
+      {
+        "id": "consensus",
+        "term": "Consensus",
+        "full_term": "Mécanisme de Consensus",
+        "category": "technical",
+        "definition": "Un mécanisme de consensus est la méthode par laquelle un réseau blockchain s'accorde sur la validité des transactions et l'état du registre. Les types courants incluent Proof of Work et Proof of Stake.",
+        "short_definition": "Méthode pour que les réseaux blockchain s'accordent sur la validité des transactions",
+        "example": "Bitcoin utilise le consensus Proof of Work tandis qu'Ethereum a transitionné vers Proof of Stake pour une meilleure efficacité énergétique.",
+        "related_terms": [
+          "proof-of-stake",
+          "proof-of-work",
+          "mining",
+          "validator"
+        ],
+        "risks": [
+          "Attaques 51%",
+          "Centralisation",
+          "Hypothèses de sécurité"
+        ],
+        "tags": [
+          "consensus",
+          "blockchain",
+          "sécurité",
+          "proof-of-stake"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi Ethereum est-il passé de Proof of Work à Proof of Stake ?",
+            "answer": "Pour une meilleure efficacité énergétique, une sécurité améliorée, et pour activer des fonctionnalités comme le sharding pour une meilleure scalabilité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          }
+        ]
+      },
+      {
+        "id": "block",
+        "term": "Bloc",
+        "full_term": "Bloc de Blockchain",
+        "category": "technical",
+        "definition": "Un bloc est une collection de transactions qui sont regroupées et ajoutées à la blockchain. Chaque bloc contient un hash cryptographique du bloc précédent, créant une chaîne immuable.",
+        "short_definition": "Collection de transactions regroupées ensemble sur une blockchain",
+        "example": "Un bloc Ethereum contient plusieurs transactions et est produit approximativement toutes les 12 secondes.",
+        "related_terms": [
+          "blockchain",
+          "transaction",
+          "mining",
+          "hash"
+        ],
+        "risks": [
+          "Réorganisation de blocs",
+          "Délais de confirmation",
+          "Forks du réseau"
+        ],
+        "tags": [
+          "bloc",
+          "blockchain",
+          "transactions",
+          "mining"
+        ],
+        "common_questions": [
+          {
+            "question": "Combien de confirmations ai-je besoin ?",
+            "answer": "Pour les transactions de haute valeur, attendez 6+ confirmations sur Ethereum. Pour les montants plus petits, 1-3 confirmations sont généralement suffisantes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Les blockchains rencontrent les télécommunications : opportunité, risque, ou nécessité ?",
+            "url": "/blockchain-telco/",
+            "description": "Que peuvent apporter les blockchains à l'industrie des télécommunications. Blockchains rencontrent télécoms — la désintermédiation s'ensuivra-t-elle ?"
+          },
+          {
+            "title": "Pourquoi le technocentrisme tue-t-il les blockchains ?",
+            "url": "/technocentrism/",
+            "description": "Les blockchains sont l'avenir, assurons-nous qu'elles vivent selon ses standards : les gens de demain sont divers et inclusifs, alors pourquoi ne le pouvons-nous pas ?"
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          }
         ]
       },
       {
         "id": "apr",
         "term": "APR",
-        "full_term": "Taux Annuel Effectif",
-        "category": "rendements",
-        "definition": "Le Taux Annuel Effectif (APR) représente le taux d'intérêt annuel simple sans tenir compte de la composition. En DeFi, l'APR montre le rendement de base avant les effets de la composition.",
+        "full_term": "Taux de Pourcentage Annuel",
+        "category": "yields",
+        "definition": "Le Taux de Pourcentage Annuel (APR) représente le taux d'intérêt annuel simple sans effets de composition. En DeFi, l'APR montre le rendement de base avant de considérer les intérêts composés.",
         "short_definition": "Taux d'intérêt annuel simple sans effets de composition",
-        "example": "Un pool de prêt offrant 10% APR signifie que vous gagnez 10% par an en intérêts simples.",
+        "example": "Un pool de prêt offrant 10% d'APR signifie que vous gagnez 10% par an en intérêts simples.",
         "related_terms": [
           "apy",
           "compound-interest",
@@ -5626,7 +6432,7 @@
           "interest"
         ],
         "risks": [
-          "Inflation du taux réel",
+          "Inflation érodant les rendements réels",
           "Risque de protocole",
           "Changements de taux"
         ],
@@ -5635,6 +6441,1702 @@
           "rendements",
           "intérêts",
           "taux"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre APR et APY ?",
+            "answer": "L'APR montre les intérêts simples tandis que l'APY inclut les effets de composition. L'APY est généralement plus élevé et plus précis pour les rendements DeFi."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🍷 Les rendements sont comme les vins fins, le secret réside dans le processus de brassage",
+            "url": "/fixed-interest-rate-protocol-firp-apwine/",
+            "description": "Une introduction aux Protocoles de Taux d'Intérêt Fixe (FIRP) à travers le prisme d'APWine pour mieux comprendre ce qu'ils permettent et apportent à DeFi."
+          },
+          {
+            "title": "🎚 Exposition ETH ou rendements DeFi : pourquoi choisir ?",
+            "url": "/leveraging-ETH/",
+            "description": "Une perspective pratique regardant Maker comme solution pour maintenir une exposition ETH tout en fournissant du capital supplémentaire pour exploiter les rendements DeFi."
+          },
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          }
+        ]
+      },
+      {
+        "id": "lending",
+        "term": "Prêt",
+        "full_term": "Prêt DeFi",
+        "category": "yields",
+        "definition": "Le prêt en DeFi permet aux utilisateurs de prêter leurs actifs crypto pour gagner des intérêts. Les smart contracts gèrent automatiquement le processus de prêt, éliminant le besoin d'intermédiaires traditionnels.",
+        "short_definition": "Gagner des intérêts en prêtant des actifs crypto via smart contracts",
+        "example": "Vous pouvez prêter de l'USDC sur Aave pour gagner des intérêts payés par les emprunteurs qui ont besoin de liquidité.",
+        "related_terms": [
+          "borrowing",
+          "interest",
+          "collateral",
+          "liquidation"
+        ],
+        "risks": [
+          "Risque de smart contract",
+          "Créances douteuses",
+          "Volatilité des taux d'intérêt"
+        ],
+        "tags": [
+          "defi",
+          "prêt",
+          "rendement",
+          "intérêt"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment les taux d'intérêt sont-ils déterminés en DeFi ?",
+            "answer": "Les taux sont généralement déterminés algorithmiquement basés sur l'offre et la demande - plus la demande d'emprunt est élevée par rapport à l'offre, plus les taux sont élevés."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "Le Cycle d'Agrégation Continue, Maintenant avec le Prêt",
+            "url": "/lending-aggregation/",
+            "description": "Le véritable avantage n'est pas de trouver le taux ; c'est de posséder les rails qui les connectent tous."
+          },
+          {
+            "title": "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant",
+            "url": "/liquity-protocol/",
+            "description": "Liquity est le premier service d'emprunt qui fonctionne sans besoin de gouvernance, tout en étant à faible coût et hautement efficace. J'explique le protocole pour comprendre comment il innove et ce qu'il apporte à DeFi."
+          }
+        ]
+      },
+      {
+        "id": "borrowing",
+        "term": "Emprunt",
+        "full_term": "Emprunt DeFi",
+        "category": "yields",
+        "definition": "L'emprunt en DeFi permet aux utilisateurs d'emprunter des actifs crypto en fournissant du collatéral. Cela permet l'effet de levier, l'accès à la liquidité, et diverses stratégies de trading sans vendre les avoirs existants.",
+        "short_definition": "Obtenir des prêts crypto en fournissant du collatéral aux smart contracts",
+        "example": "Vous pouvez emprunter de l'USDC contre votre collatéral ETH sur Compound pour maintenir l'exposition ETH tout en accédant à la liquidité.",
+        "related_terms": [
+          "collateral",
+          "liquidation",
+          "ltv",
+          "interest-rate"
+        ],
+        "risks": [
+          "Risque de liquidation",
+          "Augmentation des taux d'intérêt",
+          "Chute du prix du collatéral"
+        ],
+        "tags": [
+          "defi",
+          "emprunt",
+          "collatéral",
+          "levier"
+        ],
+        "common_questions": [
+          {
+            "question": "Que se passe-t-il si je ne peux pas rembourser mon prêt DeFi ?",
+            "answer": "Si votre ratio de collatéral tombe en dessous du seuil requis, votre collatéral sera automatiquement liquidé pour rembourser le prêt. Il n'y a pas de poursuites comme avec les prêts traditionnels."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant",
+            "url": "/liquity-protocol/",
+            "description": "Liquity est le premier service d'emprunt qui fonctionne sans besoin de gouvernance, tout en étant à faible coût et hautement efficace. J'explique le protocole pour comprendre comment il innove et ce qu'il apporte à DeFi."
+          },
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          }
+        ]
+      },
+      {
+        "id": "collateral",
+        "term": "Collatéral",
+        "full_term": "Collatéral de Prêt",
+        "category": "yields",
+        "definition": "Le collatéral est un actif mis en gage comme garantie pour un prêt. En DeFi, les utilisateurs déposent du collatéral pour emprunter d'autres actifs, avec les smart contracts gérant automatiquement le collatéral et le processus de liquidation.",
+        "short_definition": "Actifs déposés comme garantie pour soutenir un prêt",
+        "example": "Pour emprunter 1000$ d'USDC, vous pourriez déposer 1500$ d'ETH comme collatéral pour maintenir un ratio de collatéralisation sûr.",
+        "related_terms": [
+          "borrowing",
+          "liquidation",
+          "ltv",
+          "over-collateralized"
+        ],
+        "risks": [
+          "Volatilité des prix",
+          "Risque de liquidation",
+          "Risque de smart contract"
+        ],
+        "tags": [
+          "defi",
+          "prêt",
+          "collatéral",
+          "emprunt"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi ai-je besoin de plus de collatéral que ce que j'emprunte ?",
+            "answer": "La sur-collatéralisation protège les prêteurs contre la volatilité des prix crypto. Si votre collatéral baisse en valeur, il y a encore suffisamment de valeur pour couvrir le prêt."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          },
+          {
+            "title": "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant",
+            "url": "/liquity-protocol/",
+            "description": "Liquity est le premier service d'emprunt qui fonctionne sans besoin de gouvernance, tout en étant à faible coût et hautement efficace. J'explique le protocole pour comprendre comment il innove et ce qu'il apporte à DeFi."
+          },
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          }
+        ]
+      },
+      {
+        "id": "ltv",
+        "term": "LTV",
+        "full_term": "Ratio Prêt-sur-Valeur",
+        "category": "yields",
+        "definition": "Le ratio LTV représente le pourcentage de la valeur du collatéral qui peut être emprunté. Un LTV plus bas signifie un prêt plus conservateur, tandis qu'un LTV plus élevé augmente le risque de liquidation.",
+        "short_definition": "Pourcentage de la valeur du collatéral qui peut être emprunté",
+        "example": "Avec un LTV de 75%, vous pouvez emprunter jusqu'à 750$ contre 1000$ de collatéral.",
+        "related_terms": [
+          "collateral",
+          "liquidation",
+          "borrowing",
+          "health-factor"
+        ],
+        "risks": [
+          "Risque de liquidation",
+          "Volatilité du marché",
+          "Changements soudains de LTV"
+        ],
+        "tags": [
+          "defi",
+          "prêt",
+          "emprunt",
+          "ratio"
+        ],
+        "common_questions": [
+          {
+            "question": "Quel est un LTV sûr pour éviter la liquidation ?",
+            "answer": "Généralement, rester en dessous de 60-70% du LTV maximum est considéré comme sûr, laissant une marge pour la volatilité des prix avant d'atteindre le seuil de liquidation."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant",
+            "url": "/liquity-protocol/",
+            "description": "Liquity est le premier service d'emprunt qui fonctionne sans besoin de gouvernance, tout en étant à faible coût et hautement efficace. J'explique le protocole pour comprendre comment il innove et ce qu'il apporte à DeFi."
+          },
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
+            "url": "/definancial-services-guide/",
+            "description": "Un aperçu équilibré des services de finance décentralisée que vous pouvez utiliser pour faire travailler votre ETH pour vous - 6 stratégies de base, leurs variantes, et ce qu'il faut surveiller lors de leur mise en œuvre."
+          }
+        ]
+      },
+      {
+        "id": "liquidation",
+        "term": "Liquidation",
+        "full_term": "Liquidation de Collatéral",
+        "category": "risks",
+        "definition": "La liquidation se produit lorsque la valeur du collatéral d'un emprunteur tombe en dessous du seuil requis, déclenchant la vente automatique du collatéral pour rembourser le prêt et protéger les prêteurs.",
+        "short_definition": "Vente automatique du collatéral quand le prêt devient sous-collatéralisé",
+        "example": "Si votre collatéral ETH baisse en valeur et que votre prêt devient sous-collatéralisé, le protocole liquidera votre ETH pour rembourser le prêt.",
+        "related_terms": [
+          "collateral",
+          "ltv",
+          "borrowing",
+          "health-factor"
+        ],
+        "risks": [
+          "Perte de collatéral",
+          "Pénalités de liquidation",
+          "Volatilité des prix"
+        ],
+        "tags": [
+          "defi",
+          "risques",
+          "liquidation",
+          "collatéral"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment éviter la liquidation ?",
+            "answer": "Maintenez un ratio de collatéral élevé, surveillez votre facteur de santé, ajoutez du collatéral ou remboursez une partie du prêt si vous approchez du seuil de liquidation."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "Comprendre les innovations des marchés monétaires pour envisager leur avenir",
+            "url": "/money-market-innovations/",
+            "description": "Quelles sont les prochaines étapes pour les marchés monétaires ? Nous abordons différents thèmes avec un projet emblématique : réappropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
+          },
+          {
+            "title": "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant",
+            "url": "/liquity-protocol/",
+            "description": "Liquity est le premier service d'emprunt qui fonctionne sans besoin de gouvernance, tout en étant à faible coût et hautement efficace. J'explique le protocole pour comprendre comment il innove et ce qu'il apporte à DeFi."
+          }
+        ]
+      },
+      {
+        "id": "vault",
+        "term": "Vault",
+        "full_term": "Coffre de Rendement",
+        "category": "strategies",
+        "definition": "Un vault est une stratégie DeFi automatisée qui met en commun les fonds des utilisateurs et les déploie à travers divers protocoles pour maximiser les rendements. Les vaults gèrent automatiquement la complexité du yield farming.",
+        "short_definition": "Stratégie automatisée qui met en commun les fonds pour maximiser les rendements à travers les protocoles DeFi",
+        "example": "Les vaults Yearn Finance déplacent automatiquement vos fonds entre différents protocoles pour trouver les rendements les plus élevés.",
+        "related_terms": [
+          "yield-farming",
+          "auto-compounding",
+          "strategy",
+          "pooled-funds"
+        ],
+        "risks": [
+          "Risque de stratégie",
+          "Risque de smart contract",
+          "Perte impermanente"
+        ],
+        "tags": [
+          "defi",
+          "vaults",
+          "automatisation",
+          "rendement"
+        ],
+        "common_questions": [
+          {
+            "question": "Les vaults sont-ils sûrs ?",
+            "answer": "Les vaults portent les risques des protocoles sous-jacents qu'ils utilisent, plus les risques de leur propre smart contract et stratégie. Recherchez toujours les audits et l'historique avant d'investir."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🤖 Vaults : Investissement DeFi Rationalisé ?",
+            "url": "/vaults/",
+            "description": "Les vaults permettent des investissements DeFi faciles avec une gestion rationalisée de la position pour les utilisateurs finaux. Quelles sont les options et leurs compromis ?"
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "Cafés gratuits ☕, grâce à DeFi",
+            "url": "/defi-free-coffees/",
+            "description": "Grâce à la Finance Décentralisée, de nombreuses nouvelles opportunités émergent pour générer un revenu passif. Je partage quelques indices pour vous aider à commencer."
+          }
+        ]
+      },
+      {
+        "id": "staking",
+        "term": "Staking",
+        "full_term": "Mise en Jeu de Cryptomonnaie",
+        "category": "yields",
+        "definition": "Le staking implique de verrouiller des tokens pour soutenir les opérations blockchain ou les fonctions de protocole en échange de récompenses. Cela inclut le staking de validateur et le staking de protocole DeFi.",
+        "short_definition": "Verrouiller des tokens pour gagner des récompenses en soutenant les opérations de réseau ou protocole",
+        "example": "Vous pouvez staker de l'ETH pour devenir validateur et gagner des récompenses de staking, ou staker des tokens de protocole pour gagner des tokens de gouvernance.",
+        "related_terms": [
+          "validator",
+          "rewards",
+          "lock-up",
+          "slashing"
+        ],
+        "risks": [
+          "Risque de slashing",
+          "Périodes de verrouillage",
+          "Performance du validateur"
+        ],
+        "tags": [
+          "staking",
+          "récompenses",
+          "validation",
+          "verrouillage"
+        ],
+        "common_questions": [
+          {
+            "question": "Puis-je perdre mes tokens stakés ?",
+            "answer": "Oui, dans les systèmes Proof of Stake, les comportements malveillants ou les temps d'arrêt prolongés peuvent résulter en 'slashing' - une pénalité où vous perdez une partie de vos tokens stakés."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🎚 Exposition ETH ou rendements DeFi : pourquoi choisir ?",
+            "url": "/leveraging-ETH/",
+            "description": "Une perspective pratique regardant Maker comme solution pour maintenir une exposition ETH tout en fournissant du capital supplémentaire pour exploiter les rendements DeFi."
+          },
+          {
+            "title": "⚔ Guerres CRV : comprendre la course à l'accumulation de pouvoir pour influencer le protocole Curve Finance",
+            "url": "/crv-wars/",
+            "description": "Un guide concis pour suivre la course à l'accumulation CRV par tous les moyens possibles incluant l'achat de votes (Bribes) et évaluer les stratégies Curve des protocoles DeFi"
+          },
+          {
+            "title": "Janus : le nouvel ennemi juré des protocoles DeFi ?",
+            "url": "/defi-janus/",
+            "description": "Au sein de la finance décentralisée, véritable laboratoire à ciel ouvert, les enjeux de gouvernance sont complexes et souvent contradictoires. Dans cet article, j'examine les antagonismes potentiels entre les différentes parties prenantes d'un protocole donné."
+          }
+        ]
+      },
+      {
+        "id": "auto-compounding",
+        "term": "Auto-composition",
+        "full_term": "Composition Automatique",
+        "category": "strategies",
+        "definition": "L'auto-composition réinvestit automatiquement les récompenses gagnées dans l'investissement original, maximisant les rendements grâce aux intérêts composés sans intervention manuelle.",
+        "short_definition": "Réinvestissement automatique des récompenses pour maximiser les rendements composés",
+        "example": "Un vault de rendement fait de l'auto-composition en vendant automatiquement les tokens gagnés et en achetant plus du token de dépôt pour augmenter votre position.",
+        "related_terms": [
+          "compound-interest",
+          "vault",
+          "yield-farming",
+          "reinvestment"
+        ],
+        "risks": [
+          "Coûts de gas rongeant les rendements",
+          "Impact de prix",
+          "Changements de stratégie"
+        ],
+        "tags": [
+          "defi",
+          "composition",
+          "automatisation",
+          "rendements"
+        ],
+        "common_questions": [
+          {
+            "question": "L'auto-composition en vaut-elle toujours la peine ?",
+            "answer": "Cela dépend de la fréquence de composition, des coûts de gas, et de la taille de votre position. Pour les petites positions, les frais de gas peuvent dépasser les bénéfices de la composition fréquente."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🤖 Vaults : Investissement DeFi Rationalisé ?",
+            "url": "/vaults/",
+            "description": "Les vaults permettent des investissements DeFi faciles avec une gestion rationalisée de la position pour les utilisateurs finaux. Quelles sont les options et leurs compromis ?"
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "Cafés gratuits ☕, grâce à DeFi",
+            "url": "/defi-free-coffees/",
+            "description": "Grâce à la Finance Décentralisée, de nombreuses nouvelles opportunités émergent pour générer un revenu passif. Je partage quelques indices pour vous aider à commencer."
+          }
+        ]
+      },
+      {
+        "id": "swap",
+        "term": "Swap",
+        "full_term": "Échange de Tokens",
+        "category": "trading",
+        "definition": "Un swap est l'échange direct d'une cryptomonnaie pour une autre, typiquement exécuté via des AMM ou agrégateurs DEX sans nécessiter de carnets d'ordres ou de contreparties.",
+        "short_definition": "Échange direct d'une cryptomonnaie pour une autre",
+        "example": "Échanger 1 ETH contre 2 000 USDC sur Uniswap en utilisant le teneur de marché automatisé du protocole.",
+        "related_terms": [
+          "amm",
+          "dex",
+          "slippage",
+          "trading-fees"
+        ],
+        "risks": [
+          "Slippage",
+          "Transactions échouées",
+          "Extraction MEV"
+        ],
+        "tags": [
+          "trading",
+          "swap",
+          "échange",
+          "amm"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre un swap et un trade traditionnel ?",
+            "answer": "Les swaps utilisent des pools de liquidité et des formules mathématiques pour déterminer les prix, tandis que le trading traditionnel utilise des carnets d'ordres avec des acheteurs et vendeurs."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🐊 Naviguer les marécages d'échange",
+            "url": "/swap-swamp/",
+            "description": "Conseils pratiques et considérations pour comprendre ce qui se passe sous le capot lors de l'échange de tokens et comment le faire efficacement."
+          },
+          {
+            "title": "Les Guerres des Swaps d'Actifs Peggés",
+            "url": "/pegged-assets-swap/",
+            "description": "Et si l'incitation constante n'était pas la meilleure façon de maintenir la liquidité, particulièrement pour les actifs peggés ? Explorer l'impact de la liquidité basée sur la dette pour les swaps d'actifs peggés."
+          },
+          {
+            "title": "Le volume engendre des frais : comment les principaux échanges décentralisés capturent-ils la valeur ?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "Un regard sur les mécanismes de capture de valeur d'Uniswap, Sushiswap et Curve pour mieux comprendre comment la valeur s'accumule pour les détenteurs de tokens."
+          }
+        ]
+      },
+      {
+        "id": "dex",
+        "term": "DEX",
+        "full_term": "Échange Décentralisé",
+        "category": "trading",
+        "definition": "Un échange décentralisé fonctionne sans autorité centrale, permettant aux utilisateurs de trader des cryptomonnaies directement depuis leurs portefeuilles via des smart contracts et AMM.",
+        "short_definition": "Échange fonctionnant sans autorité centrale utilisant des smart contracts",
+        "example": "Uniswap et SushiSwap sont des DEX populaires où vous pouvez trader des tokens directement depuis votre portefeuille sans créer de comptes.",
+        "related_terms": [
+          "amm",
+          "smart-contract",
+          "liquidity-pool",
+          "permissionless"
+        ],
+        "risks": [
+          "Bugs de smart contract",
+          "Liquidité plus faible",
+          "Expérience utilisateur complexe"
+        ],
+        "tags": [
+          "trading",
+          "dex",
+          "décentralisé",
+          "smart-contract"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi utiliser un DEX plutôt qu'un échange centralisé ?",
+            "answer": "Les DEX offrent une garde de fonds personnelle, pas de KYC, résistance à la censure, et contrôle total de vos actifs, mais avec moins de liquidité et une interface plus complexe."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Nuances subtiles aux conséquences importantes : une analyse croisée de Curve et Velodrome",
+            "url": "/crv-vs-velo/",
+            "description": "Le modèle Velodrome, inspiré par veCRV, atteint un alignement supérieur entre les trois participants clés d'un DEX - LPs, détenteurs de tokens, et projets ayant besoin de liquidité. Pourtant, la plupart de l'espace DeFi échoue encore à comprendre pourquoi : mais pas vous anon - une fois que vous lisez ce post."
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          }
+        ]
+      },
+      {
+        "id": "cex",
+        "term": "CEX",
+        "full_term": "Échange Centralisé",
+        "category": "trading",
+        "definition": "Un échange centralisé est opéré par une entreprise qui contrôle les fonds des utilisateurs et facilite le trading via des carnets d'ordres traditionnels, nécessitant que les utilisateurs déposent des fonds et créent des comptes.",
+        "short_definition": "Échange opéré par une entreprise contrôlant les fonds utilisateurs avec carnets d'ordres",
+        "example": "Binance, Coinbase et Kraken sont des CEX majeurs où vous déposez des fonds pour trader avec une meilleure liquidité et expérience utilisateur.",
+        "related_terms": [
+          "orderbook",
+          "custody",
+          "kyc",
+          "liquidity"
+        ],
+        "risks": [
+          "Risque de contrepartie",
+          "Risque réglementaire",
+          "Gel de compte"
+        ],
+        "tags": [
+          "trading",
+          "cex",
+          "centralisé",
+          "carnet-ordres"
+        ],
+        "common_questions": [
+          {
+            "question": "Quand utiliser un CEX plutôt qu'un DEX ?",
+            "answer": "Les CEX offrent plus de liquidité, interfaces plus simples, support client, et rampes fiat, mais nécessitent confiance, KYC, et renonciation au contrôle des fonds."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Chicken Bonds : une usine d'éclosion alimentée par NFT pour battre le problème de l'œuf et de la poule de liquidité DeFi",
+            "url": "/lusd-chicken-bonds/",
+            "description": "Comment une nouvelle expérience pionnier de NFT dynamiques évoluant basés sur les interactions de l'utilisateur peut-elle aider Liquity à faire croître la liquidité de LUSD et réduire la prime du stablecoin ?"
+          }
+        ]
+      },
+      {
+        "id": "price-impact",
+        "term": "Impact de Prix",
+        "full_term": "Impact sur le Prix",
+        "category": "trading",
+        "definition": "L'impact de prix mesure à quel point une transaction déplace le prix de marché d'un actif. Les gros trades dans des pools illiquides causent un impact de prix significatif, menant à des prix d'exécution défavorables.",
+        "short_definition": "Combien une transaction déplace le prix de marché d'un actif",
+        "example": "Acheter 100 000$ d'un token dans un petit pool de liquidité pourrait causer 5% d'impact de prix, signifiant que vous payez 5% de plus que le prix de départ.",
+        "related_terms": [
+          "slippage",
+          "liquidity",
+          "amm",
+          "market-depth"
+        ],
+        "risks": [
+          "Coûts de trading plus élevés",
+          "Prix défavorables",
+          "Extraction MEV"
+        ],
+        "tags": [
+          "trading",
+          "prix",
+          "impact",
+          "liquidité"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment réduire l'impact de prix ?",
+            "answer": "Divisez les gros trades en plus petits, utilisez des pools plus liquides, ou utilisez des agrégateurs qui répartissent votre ordre sur plusieurs sources de liquidité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "Chicken Bonds : une usine d'éclosion alimentée par NFT pour battre le problème de l'œuf et de la poule de liquidité DeFi",
+            "url": "/lusd-chicken-bonds/",
+            "description": "Comment une nouvelle expérience pionnier de NFT dynamiques évoluant basés sur les interactions de l'utilisateur peut-elle aider Liquity à faire croître la liquidité de LUSD et réduire la prime du stablecoin ?"
+          }
+        ]
+      },
+      {
+        "id": "arbitrage",
+        "term": "Arbitrage",
+        "full_term": "Arbitrage de Prix",
+        "category": "trading",
+        "definition": "L'arbitrage est la pratique d'acheter et vendre simultanément des actifs identiques sur différents marchés pour profiter des différences de prix. En DeFi, les bots exploitent les écarts de prix entre DEX ou CEX.",
+        "short_definition": "Profiter des différences de prix d'actifs identiques sur différents marchés",
+        "example": "Si l'ETH se trade à 2000$ sur Uniswap et 2005$ sur SushiSwap, un arbitrageur achète sur Uniswap et vend sur SushiSwap pour 5$ de profit par ETH.",
+        "related_terms": [
+          "flash-loan",
+          "mev",
+          "price-impact",
+          "dex"
+        ],
+        "risks": [
+          "Coûts de transaction",
+          "Échec d'exécution",
+          "Slippage"
+        ],
+        "tags": [
+          "trading",
+          "arbitrage",
+          "profit",
+          "dex"
+        ],
+        "common_questions": [
+          {
+            "question": "L'arbitrage est-il rentable pour les utilisateurs individuels ?",
+            "answer": "Difficile pour les particuliers car les bots automatisés sont plus rapides, et les frais de gas peuvent dépasser les profits sur les petites opportunités d'arbitrage."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          },
+          {
+            "title": "🐊 Naviguer les marécages d'échange",
+            "url": "/swap-swamp/",
+            "description": "Conseils pratiques et considérations pour comprendre ce qui se passe sous le capot lors de l'échange de tokens et comment le faire efficacement."
+          }
+        ]
+      },
+      {
+        "id": "routing",
+        "term": "Routage",
+        "full_term": "Routage de Trade",
+        "category": "trading",
+        "definition": "Le routage est le processus de trouver le chemin le plus efficace pour une transaction à travers plusieurs sources de liquidité pour minimiser les coûts et le slippage, souvent utilisé par les agrégateurs DEX.",
+        "short_definition": "Trouver des chemins de trading optimaux à travers plusieurs sources de liquidité",
+        "example": "1inch route votre trade ETH-vers-USDC à travers plusieurs DEX et pools pour obtenir le meilleur prix possible.",
+        "related_terms": [
+          "dex-aggregator",
+          "slippage",
+          "arbitrage",
+          "optimization"
+        ],
+        "risks": [
+          "Exécution complexe",
+          "Coûts de gas plus élevés",
+          "Échecs de routage"
+        ],
+        "tags": [
+          "trading",
+          "routage",
+          "optimisation",
+          "agrégateur"
+        ],
+        "common_questions": [
+          {
+            "question": "Le routage complexe en vaut-il toujours la peine ?",
+            "answer": "Cela dépend de la taille du trade et des frais de gas. Pour les petits trades, les économies de prix peuvent être dépassées par les frais de gas supplémentaires du routage complexe."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "Nuances subtiles aux conséquences importantes : une analyse croisée de Curve et Velodrome",
+            "url": "/crv-vs-velo/",
+            "description": "Le modèle Velodrome, inspiré par veCRV, atteint un alignement supérieur entre les trois participants clés d'un DEX - LPs, détenteurs de tokens, et projets ayant besoin de liquidité. Pourtant, la plupart de l'espace DeFi échoue encore à comprendre pourquoi : mais pas vous anon - une fois que vous lisez ce post."
+          }
+        ]
+      },
+      {
+        "id": "liquidity-provider",
+        "term": "Fournisseur de Liquidité",
+        "full_term": "Fournisseur de Liquidité (LP)",
+        "category": "trading",
+        "definition": "Un fournisseur de liquidité apporte des actifs aux lieux de trading pour faciliter les échanges. En DeFi, les LP déposent des paires de tokens dans les pools AMM pour gagner des frais de trading et des récompenses.",
+        "short_definition": "Entité qui fournit des actifs pour faciliter le trading et gagner des frais",
+        "example": "Vous devenez un LP en déposant des valeurs égales d'ETH et d'USDC dans un pool Uniswap, gagnant 0,3% de tous les frais de trading.",
+        "related_terms": [
+          "liquidity-pool",
+          "amm",
+          "trading-fees",
+          "impermanent-loss"
+        ],
+        "risks": [
+          "Perte impermanente",
+          "Risque de smart contract",
+          "Changements de taux de frais"
+        ],
+        "tags": [
+          "trading",
+          "liquidité",
+          "fournisseur",
+          "frais"
+        ],
+        "common_questions": [
+          {
+            "question": "Combien gagne un fournisseur de liquidité ?",
+            "answer": "Les gains dépendent du volume de trading, des frais du pool (généralement 0,3%), de votre part du pool, et des éventuels tokens de récompense des programmes d'incitation."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "Annonce : TokenBrice 🤝 Maverick",
+            "url": "/maverick-x-tokenbrice/",
+            "description": "Je soutiens l'équipe Maverick en tant que conseiller, aidant avec la stratégie de croissance, la tokenomics, et le BD."
+          }
+        ]
+      },
+      {
+        "id": "constant-product",
+        "term": "Produit Constant",
+        "full_term": "Formule de Produit Constant",
+        "category": "trading",
+        "definition": "La formule de produit constant (x*y=k) est le modèle mathématique utilisé par les AMM comme Uniswap pour fixer automatiquement les prix basés sur les ratios de tokens dans les pools de liquidité.",
+        "short_definition": "Formule mathématique (x*y=k) utilisée par les AMM pour la tarification automatique",
+        "example": "Dans un pool ETH/USDC, si vous achetez de l'ETH, la quantité d'ETH diminue et l'USDC augmente, maintenant le produit constant tout en augmentant le prix de l'ETH.",
+        "related_terms": [
+          "amm",
+          "uniswap",
+          "pricing",
+          "liquidity-pool"
+        ],
+        "risks": [
+          "Impact de prix",
+          "Opportunités d'arbitrage",
+          "Perte impermanente"
+        ],
+        "tags": [
+          "trading",
+          "amm",
+          "formule",
+          "tarification"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi utiliser la formule x*y=k ?",
+            "answer": "Elle garantit qu'il y a toujours de la liquidité disponible à n'importe quel prix, le prix augmente automatiquement quand un actif devient rare, et elle est simple à implémenter et comprendre."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Le volume engendre des frais : comment les principaux échanges décentralisés capturent-ils la valeur ?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "Un regard sur les mécanismes de capture de valeur d'Uniswap, Sushiswap et Curve pour mieux comprendre comment la valeur s'accumule pour les détenteurs de tokens."
+          },
+          {
+            "title": "💦 La Liste de Niveaux du Yield Farmer",
+            "url": "/yield-farmer-tier-list/",
+            "description": "Une liste structurée de **pools de liquidité incentivés sur Balancer Labs, Curve Finance et Uniswap**, classés par leur potentiel de gain de rendement : empilons !"
+          },
+          {
+            "title": "Les Guerres des Swaps d'Actifs Peggés",
+            "url": "/pegged-assets-swap/",
+            "description": "Et si l'incitation constante n'était pas la meilleure façon de maintenir la liquidité, particulièrement pour les actifs peggés ? Explorer l'impact de la liquidité basée sur la dette pour les swaps d'actifs peggés."
+          }
+        ]
+      },
+      {
+        "id": "leverage",
+        "term": "Effet de Levier",
+        "full_term": "Effet de Levier Financier",
+        "category": "trading",
+        "definition": "L'effet de levier permet aux traders de contrôler des positions plus importantes que leur capital ne le permettrait normalement en empruntant des fonds. En DeFi, l'effet de levier amplifie à la fois les gains et les pertes potentiels grâce au capital emprunté.",
+        "short_definition": "Utiliser des fonds empruntés pour amplifier la taille des positions de trading et les rendements potentiels",
+        "example": "Avec un effet de levier 3x, vous pouvez contrôler 3000$ d'ETH avec seulement 1000$ de votre propre capital, amplifiant les gains et pertes par 3.",
+        "related_terms": [
+          "margin-trading",
+          "liquidation",
+          "collateral",
+          "borrowing"
+        ],
+        "risks": [
+          "Pertes amplifiées",
+          "Risque de liquidation",
+          "Coûts d'intérêt",
+          "Volatilité du marché"
+        ],
+        "tags": [
+          "effet-de-levier",
+          "trading",
+          "emprunt",
+          "amplification"
+        ],
+        "common_questions": [
+          {
+            "question": "Quel niveau d'effet de levier est sûr pour un débutant ?",
+            "answer": "Les débutants devraient commencer avec un faible effet de levier (2x maximum) ou éviter complètement jusqu'à bien comprendre les risques. Un effet de levier élevé peut liquider rapidement les positions."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          },
+          {
+            "title": "NFTfi : NFT rencontre DeFi, liquidité et effet de levier s'ensuivent",
+            "url": "/nftfi-defi-nft/",
+            "description": "DeFi offre aux projets NFT des outils pour résoudre leurs principales limitations (comme la liquidité) tandis que les NFT permettent de rendre DeFi plus amusant et digeste : un appariement parfait ?"
+          }
+        ]
+      },
+      {
+        "id": "margin-trading",
+        "term": "Trading sur Marge",
+        "full_term": "Négociation sur Marge",
+        "category": "trading",
+        "definition": "Le trading sur marge implique d'emprunter des fonds pour trader des positions plus importantes que le solde de votre compte ne le permet. Les traders fournissent du collatéral et peuvent être liquidés si les positions évoluent significativement contre eux.",
+        "short_definition": "Trader avec des fonds empruntés en utilisant du collatéral pour contrôler des positions plus importantes",
+        "example": "Vous déposez 1000$ d'ETH comme collatéral et empruntez 2000$ d'USDC pour acheter plus d'ETH, créant une position longue avec effet de levier qui peut être liquidée si l'ETH baisse.",
+        "related_terms": [
+          "leverage",
+          "collateral",
+          "liquidation",
+          "maintenance-margin"
+        ],
+        "risks": [
+          "Risque de liquidation",
+          "Paiements d'intérêts",
+          "Appels de marge",
+          "Exposition à la volatilité renforcée"
+        ],
+        "tags": [
+          "marge",
+          "effet-de-levier",
+          "trading",
+          "emprunt"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre trading sur marge et trading au comptant ?",
+            "answer": "Le trading au comptant utilise uniquement vos propres fonds, tandis que le trading sur marge utilise des fonds empruntés pour amplifier les positions, augmentant à la fois les profits et risques potentiels."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          }
+        ]
+      },
+      {
+        "id": "perpetuals",
+        "term": "Perpétuels",
+        "full_term": "Contrats à Terme Perpétuels",
+        "category": "trading",
+        "definition": "Les contrats à terme perpétuels sont des contrats dérivés qui suivent le prix d'un actif sous-jacent sans date d'expiration. Ils utilisent des taux de financement pour maintenir l'alignement des prix avec les marchés au comptant.",
+        "short_definition": "Contrats dérivés qui suivent les prix d'actifs sans dates d'expiration",
+        "example": "Trader des perpétuels ETH sur dYdX vous permet d'aller long ou short sur l'ETH avec effet de levier, payant ou recevant des taux de financement basés sur le sentiment du marché.",
+        "related_terms": [
+          "futures",
+          "funding-rate",
+          "derivatives",
+          "leverage"
+        ],
+        "risks": [
+          "Coûts de taux de financement",
+          "Risque de liquidation",
+          "Risque de base",
+          "Risque de contrepartie"
+        ],
+        "tags": [
+          "perpétuels",
+          "dérivés",
+          "contrats-à-terme",
+          "effet-de-levier"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre perpétuels et contrats à terme traditionnels ?",
+            "answer": "Les perpétuels n'ont pas de date d'expiration et utilisent des taux de financement pour maintenir l'alignement des prix, tandis que les contrats à terme traditionnels ont des dates d'expiration fixes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          }
+        ]
+      },
+      {
+        "id": "funding-rate",
+        "term": "Taux de Financement",
+        "full_term": "Taux de Financement Perpétuel",
+        "category": "trading",
+        "definition": "Le taux de financement est un paiement périodique entre traders longs et shorts dans les marchés de contrats à terme perpétuels pour maintenir l'alignement du prix du contrat avec le prix au comptant de l'actif sous-jacent.",
+        "short_definition": "Paiement périodique entre traders de contrats à terme perpétuels pour maintenir l'alignement des prix",
+        "example": "Si les perpétuels ETH se tradent au-dessus du prix au comptant, les positions longues paient les positions courtes des frais de financement toutes les 8 heures pour inciter la convergence des prix.",
+        "related_terms": [
+          "perpetuals",
+          "basis",
+          "arbitrage",
+          "price-convergence"
+        ],
+        "risks": [
+          "Coûts de financement",
+          "Volatilité du taux",
+          "Risque de timing",
+          "Impact sur la stratégie"
+        ],
+        "tags": [
+          "taux-de-financement",
+          "perpétuels",
+          "dérivés",
+          "paiements"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment sont calculés les taux de financement ?",
+            "answer": "Les taux de financement sont généralement basés sur la différence entre le prix perpétuel et le prix au comptant, plus un taux d'intérêt. Ils s'ajustent pour maintenir l'équilibre entre positions longues et courtes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚖ Le conte de deux modèles de seigneuriage : Basis vs ESD",
+            "url": "/seigniorage-basis-vs-esd/",
+            "description": "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de stablecoins sur le réseau Ethereum."
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "L'état et l'avenir des stablecoins algorithmiques",
+            "url": "/algorithmic-stablecoins/",
+            "description": "En regardant ESD, DSD et Basis Cash pour établir une maquette des stablecoins algorithmiques et le défi qu'ils s'attaquent."
+          }
+        ]
+      },
+      {
+        "id": "delta-neutral",
+        "term": "Delta Neutre",
+        "full_term": "Stratégie Delta Neutre",
+        "category": "trading",
+        "definition": "Une stratégie delta neutre vise à éliminer le risque de prix directionnel en équilibrant les positions longues et courtes de sorte que la valeur du portefeuille ne change pas avec les petits mouvements de prix de l'actif sous-jacent.",
+        "short_definition": "Stratégie qui élimine le risque de prix directionnel grâce à des positions longues/courtes équilibrées",
+        "example": "Fournir de la liquidité ETH/USDC tout en shortant l'ETH avec des contrats à terme perpétuels pour se couvrir contre les mouvements de prix ETH, gagnant des frais tout en minimisant l'exposition aux prix.",
+        "related_terms": [
+          "hedging",
+          "liquidity-providing",
+          "perpetuals",
+          "market-neutral"
+        ],
+        "risks": [
+          "Couverture imparfaite",
+          "Coûts de financement",
+          "Besoins de rééquilibrage",
+          "Risque de base"
+        ],
+        "tags": [
+          "delta-neutre",
+          "couverture",
+          "avancé",
+          "marché-neutre"
+        ],
+        "common_questions": [
+          {
+            "question": "Une stratégie delta neutre est-elle vraiment sans risque ?",
+            "answer": "Non, elle élimine le risque directionnel mais reste exposée aux risques de volatilité, de base, de financement, et nécessite un rééquilibrage actif pour maintenir la neutralité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "Cafés gratuits ☕, grâce à DeFi",
+            "url": "/defi-free-coffees/",
+            "description": "Grâce à la Finance Décentralisée, de nombreuses nouvelles opportunités émergent pour générer un revenu passif. Je partage quelques indices pour vous aider à commencer."
+          },
+          {
+            "title": "🎚 Exposition ETH ou rendements DeFi : pourquoi choisir ?",
+            "url": "/leveraging-ETH/",
+            "description": "Une perspective pratique regardant Maker comme solution pour maintenir une exposition ETH tout en fournissant du capital supplémentaire pour exploiter les rendements DeFi."
+          }
+        ]
+      },
+      {
+        "id": "derivatives",
+        "term": "Dérivés",
+        "full_term": "Dérivés Financiers",
+        "category": "trading",
+        "definition": "Les dérivés sont des contrats financiers dont la valeur dérive d'actifs sous-jacents comme les cryptomonnaies, actions, ou matières premières. En DeFi, ils permettent des stratégies de trading avancées et la gestion des risques.",
+        "short_definition": "Contrats financiers tirant leur valeur d'actifs sous-jacents",
+        "example": "Les options sur ETH, contrats à terme perpétuels, et actifs synthétiques sont tous des dérivés qui vous permettent de trader l'exposition aux prix sans posséder l'ETH sous-jacent.",
+        "related_terms": [
+          "options",
+          "futures",
+          "synthetic-assets",
+          "leverage"
+        ],
+        "risks": [
+          "Complexité",
+          "Risque de contrepartie",
+          "Risque de liquidité",
+          "Amplification de l'effet de levier"
+        ],
+        "tags": [
+          "dérivés",
+          "avancé",
+          "instruments-financiers",
+          "trading"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi utiliser des dérivés plutôt que trader l'actif directement ?",
+            "answer": "Les dérivés offrent effet de levier, couverture, accès à des actifs difficiles à détenir directement, et stratégies complexes comme le shorting ou la neutralité au marché."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage Like a Sir: Gains Polynomiaux, Pas de Douleurs de Liquidation",
+            "url": "/leverage-sir/",
+            "description": "Explorer un protocole novateur offrant un effet de levier sans frais de financement et sans liquidation avec des rendements convexes, et annoncer mon implication."
+          },
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          }
+        ]
+      },
+      {
+        "id": "options",
+        "term": "Options",
+        "full_term": "Trading d'Options",
+        "category": "trading",
+        "definition": "Les options sont des contrats dérivés qui donnent au détenteur le droit (mais non l'obligation) d'acheter ou vendre un actif à un prix spécifique avant expiration. Elles sont utilisées pour la couverture, la spéculation, et la génération de revenus.",
+        "short_definition": "Contrats donnant le droit d'acheter/vendre des actifs à des prix spécifiques avant expiration",
+        "example": "Acheter des options d'achat ETH pour un strike de 2500$ vous donne le droit d'acheter de l'ETH à 2500$ peu importe le prix du marché, tandis que vendre des calls couverts génère des revenus.",
+        "related_terms": [
+          "strike-price",
+          "premium",
+          "expiration",
+          "volatility"
+        ],
+        "risks": [
+          "Décomposition temporelle",
+          "Risque de volatilité",
+          "Perte de prime",
+          "Risque d'assignation"
+        ],
+        "tags": [
+          "options",
+          "dérivés",
+          "couverture",
+          "spéculation"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre options d'achat et de vente ?",
+            "answer": "Les options d'achat (calls) donnent le droit d'acheter un actif, permettant de profiter de la hausse des prix. Les options de vente (puts) donnent le droit de vendre, permettant de profiter de la baisse ou de se couvrir."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🌽 Livre de cuisine des marchés monétaires Defi",
+            "url": "/money-market-recipes/",
+            "description": "Les marchés monétaires comme Aave ou Alchemix sont essentiels en DeFi. Cet article explique et illustre certaines stratégies pour tirer parti des différentes options qu'ils offrent."
+          },
+          {
+            "title": "🤖 Vaults : Investissement DeFi Rationalisé ?",
+            "url": "/vaults/",
+            "description": "Les vaults permettent des investissements DeFi faciles avec une gestion rationalisée de la position pour les utilisateurs finaux. Quelles sont les options et leurs compromis ?"
+          },
+          {
+            "title": "Chicken Bonds : une usine d'éclosion alimentée par NFT pour battre le problème de l'œuf et de la poule de liquidité DeFi",
+            "url": "/lusd-chicken-bonds/",
+            "description": "Comment une nouvelle expérience pionnier de NFT dynamiques évoluant basés sur les interactions de l'utilisateur peut-elle aider Liquity à faire croître la liquidité de LUSD et réduire la prime du stablecoin ?"
+          }
+        ]
+      },
+      {
+        "id": "synthetic-assets",
+        "term": "Actifs Synthétiques",
+        "full_term": "Actifs Synthétiques",
+        "category": "trading",
+        "definition": "Les actifs synthétiques sont des dérivés basés blockchain qui suivent le prix d'actifs du monde réel comme les actions, matières premières, ou devises sans nécessiter la possession de l'actif sous-jacent.",
+        "short_definition": "Tokens blockchain qui suivent le prix d'actifs du monde réel",
+        "example": "Synthetix offre des actions Tesla synthétiques (sTSLA) qui suivent le prix de Tesla, permettant aux utilisateurs DeFi d'obtenir une exposition aux actifs traditionnels.",
+        "related_terms": [
+          "derivatives",
+          "oracle",
+          "collateral",
+          "price-feeds"
+        ],
+        "risks": [
+          "Manipulation d'oracle",
+          "Liquidation du collatéral",
+          "Erreurs de suivi"
+        ],
+        "tags": [
+          "dérivés",
+          "synthétiques",
+          "actifs",
+          "suivi-de-prix"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment les actifs synthétiques maintiennent-ils leur peg aux prix réels ?",
+            "answer": "Ils utilisent des oracles de prix pour les données en temps réel et des mécanismes d'arbitrage pour maintenir l'alignement des prix. Le collatéral soutient la valeur et les liquidations maintiennent la stabilité."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Derrière la scène du théâtre de décentralisation : une étude de l'inaltérabilité des protocoles DeFi",
+            "url": "/unstoppable-defi/",
+            "description": "De la centralisation totale aux protocoles inarrêtables : une définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi."
+          },
+          {
+            "title": "📖 Comment faire fonctionner les produits DeFinanciers pour vous",
+            "url": "/definancial-services-guide/",
+            "description": "Un aperçu équilibré des services de finance décentralisée que vous pouvez utiliser pour faire travailler votre ETH pour vous - 6 stratégies de base, leurs variantes, et ce qu'il faut surveiller lors de leur mise en œuvre."
+          },
+          {
+            "title": "La Carte du Maraudeur des Stablecoins Décentralisés",
+            "url": "/stablecoin-marauder-map/",
+            "description": "De nouveaux stables se lancent chaque semaine, donc suivre les innovations pertinentes est difficile. AMO ? PSM ? DSR ? pegKeeper ? Cet article examine les différents mécanismes exploités par les projets de stablecoin et évalue leur pertinence."
+          }
+        ]
+      },
+      {
+        "id": "proposal",
+        "term": "Proposition",
+        "full_term": "Proposition de Gouvernance",
+        "category": "governance",
+        "definition": "Une proposition de gouvernance est une suggestion formelle soumise à une communauté DAO ou protocole pour vote. Les propositions peuvent inclure des changements de paramètres, des mises à niveau de protocole, des dépenses de trésorerie, ou des décisions stratégiques.",
+        "short_definition": "Suggestion formelle soumise à la communauté DAO pour vote sur les changements de protocole",
+        "example": "Une proposition pour changer les frais de trading d'Uniswap de 0,3% à 0,25% devrait être votée par les détenteurs de tokens UNI avant implémentation.",
+        "related_terms": [
+          "dao",
+          "voting",
+          "governance-token",
+          "quorum"
+        ],
+        "risks": [
+          "Mauvaise prise de décision",
+          "Faible participation",
+          "Attaques de gouvernance"
+        ],
+        "tags": [
+          "gouvernance",
+          "proposition",
+          "vote",
+          "dao"
+        ],
+        "common_questions": [
+          {
+            "question": "Qui peut soumettre une proposition de gouvernance ?",
+            "answer": "Cela varie selon les protocoles, mais généralement les détenteurs de tokens de gouvernance ayant un certain seuil minimum, ou des délégués reconnus peuvent soumettre des propositions."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "L'histoire de BadgerDAO : une intro à travers DIGG",
+            "url": "/badger-digg/",
+            "description": "Badger se situe à l'avant-garde de deux thèmes très tendance : DeFi et BTC sur Ethereum. Creusons pour mieux comprendre à quoi ressemble le plan de fin de partie."
+          },
+          {
+            "title": "Le stablecoin GHO d'Aave peut-il aider le protocole à croître davantage et dépasser MakerDAO et DAI ?",
+            "url": "/aave-gho-stablecoin/",
+            "description": "Examen du design de GHO et anticipation de ses défis clés pour croître ainsi que la valeur qu'il peut apporter à l'Aave DAO."
+          },
+          {
+            "title": "La Disparition des États-Nations : Présentation de la Nation en tant que Service (NaaS)",
+            "url": "/demise-ns/",
+            "description": "Comment démanteler un État-nation ? Un tutoriel étape par étape et une proposition de cadre pour comprendre le monde post-État-nation."
+          }
+        ]
+      },
+      {
+        "id": "quorum",
+        "term": "Quorum",
+        "full_term": "Quorum de Vote",
+        "category": "governance",
+        "definition": "Le quorum est le nombre minimum de votes ou pourcentage de pouvoir de vote total requis pour qu'une proposition de gouvernance soit considérée comme valide et contraignante.",
+        "short_definition": "Participation minimale au vote requise pour la validité d'une proposition",
+        "example": "Si une DAO nécessite un quorum de 10% et possède 100M de tokens, au moins 10M de tokens doivent participer au vote pour que la proposition passe.",
+        "related_terms": [
+          "proposal",
+          "voting",
+          "governance-token",
+          "participation"
+        ],
+        "risks": [
+          "Faible participation",
+          "Blocage de gouvernance",
+          "Règle de minorité"
+        ],
+        "tags": [
+          "gouvernance",
+          "quorum",
+          "vote",
+          "participation"
+        ],
+        "common_questions": [
+          {
+            "question": "Que se passe-t-il si le quorum n'est pas atteint ?",
+            "answer": "La proposition est généralement rejetée ou reportée, même si elle a une majorité de votes favorables parmi les participants. Certains protocoles permettent des votes de suivi."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          }
+        ]
+      },
+      {
+        "id": "delegation",
+        "term": "Délégation",
+        "full_term": "Délégation de Vote",
+        "category": "governance",
+        "definition": "La délégation permet aux détenteurs de tokens d'assigner leur pouvoir de vote à une autre partie (délégué) qui vote en leur nom, permettant une participation plus informée à la gouvernance.",
+        "short_definition": "Assigner le pouvoir de vote à une autre partie pour qu'elle vote en votre nom",
+        "example": "Si vous détenez des tokens UNI mais n'avez pas le temps de rechercher chaque proposition, vous pouvez déléguer votre pouvoir de vote à un membre de la communauté ou organisation de confiance.",
+        "related_terms": [
+          "voting-power",
+          "governance-token",
+          "representative",
+          "proxy-voting"
+        ],
+        "risks": [
+          "Désalignement du délégué",
+          "Centralisation du pouvoir",
+          "Participation directe réduite"
+        ],
+        "tags": [
+          "gouvernance",
+          "délégation",
+          "vote",
+          "procuration"
+        ],
+        "common_questions": [
+          {
+            "question": "Puis-je changer mon délégué à tout moment ?",
+            "answer": "Généralement oui, la plupart des systèmes de gouvernance permettent de changer de délégué ou de reprendre son pouvoir de vote à tout moment avant les votes."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          }
+        ]
+      },
+      {
+        "id": "treasury",
+        "term": "Trésorerie",
+        "full_term": "Trésorerie DAO",
+        "category": "governance",
+        "definition": "Une trésorerie est un pool de fonds contrôlé par une DAO ou protocole, typiquement utilisé pour le financement du développement, la croissance de l'écosystème, les partenariats, et les incitations communautaires.",
+        "short_definition": "Pool de fonds contrôlé par DAO pour le développement et la croissance de l'écosystème",
+        "example": "La trésorerie d'Uniswap contient des millions en tokens UNI et autres actifs, utilisés pour financer des subventions, partenariats, et développement de protocole via des votes de gouvernance.",
+        "related_terms": [
+          "dao",
+          "governance",
+          "funding",
+          "grants"
+        ],
+        "risks": [
+          "Mauvaise allocation des fonds",
+          "Capture de gouvernance",
+          "Épuisement de la trésorerie"
+        ],
+        "tags": [
+          "gouvernance",
+          "trésorerie",
+          "financement",
+          "dao"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment les fonds de trésorerie sont-ils gérés ?",
+            "answer": "Via des votes de gouvernance où les détenteurs de tokens décident des allocations, généralement avec des processus de proposition, discussion, et vote formel."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "L'histoire de BadgerDAO : une intro à travers DIGG",
+            "url": "/badger-digg/",
+            "description": "Badger se situe à l'avant-garde de deux thèmes très tendance : DeFi et BTC sur Ethereum. Creusons pour mieux comprendre à quoi ressemble le plan de fin de partie."
+          },
+          {
+            "title": "Janus : le nouvel ennemi juré des protocoles DeFi ?",
+            "url": "/defi-janus/",
+            "description": "Au sein de la finance décentralisée, véritable laboratoire à ciel ouvert, les enjeux de gouvernance sont complexes et souvent contradictoires. Dans cet article, j'examine les antagonismes potentiels entre les différentes parties prenantes d'un protocole donné."
+          }
+        ]
+      },
+      {
+        "id": "vote-escrow",
+        "term": "Vote Escrow",
+        "full_term": "Vote Escrow (veToken)",
+        "category": "governance",
+        "definition": "Vote escrow permet aux utilisateurs de verrouiller des tokens pour des périodes étendues afin de recevoir un pouvoir de vote amélioré et des récompenses. Des périodes de verrouillage plus longues fournissent typiquement plus de poids de vote et de bénéfices.",
+        "short_definition": "Verrouiller des tokens pour des périodes étendues pour gagner un pouvoir de vote et des récompenses améliorés",
+        "example": "Le système veCRV de Curve permet aux utilisateurs de verrouiller CRV jusqu'à 4 ans, avec des verrouillages plus longs fournissant plus de pouvoir de vote et des récompenses plus élevées des frais de protocole.",
+        "related_terms": [
+          "governance-token",
+          "voting-power",
+          "lock-up",
+          "incentive-alignment"
+        ],
+        "risks": [
+          "Périodes de verrouillage",
+          "Coût d'opportunité",
+          "Volatilité du prix des tokens"
+        ],
+        "tags": [
+          "gouvernance",
+          "vote-escrow",
+          "verrouillage",
+          "pouvoir-de-vote"
+        ],
+        "common_questions": [
+          {
+            "question": "Que se passe-t-il si je veux débloquer mes tokens plus tôt ?",
+            "answer": "La plupart des systèmes ve ne permettent pas de déblocage anticipé. Vous devez attendre la fin de la période de verrouillage, bien que certains protocoles offrent des marchés secondaires pour les positions verrouillées."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ Guerre CRV avancée : analyse des protocoles construits au-dessus de Curve et Convex",
+            "url": "/crv-wars-l2/",
+            "description": "Votium, Warden, Concentrator, CCRV, Conic, etc. La couche de protocoles impliqués dans les Guerres Curve devient plus dense : j'offre une visite pour mieux comprendre les dynamiques autour des tokens CRV et CVX."
+          },
+          {
+            "title": "Transformer les Verrous en Levier : Comment Autopilot, 40Acres et haiVELO Font Évoluer les veNFTs",
+            "url": "/veNFT-infrastructure/",
+            "description": "Le développement de la couche d'infrastructure veNFT avec Autopilot, 40Acres, et haiVELO : automatisation, collatéral, et amélioration des rendements."
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          }
+        ]
+      },
+      {
+        "id": "snapshot",
+        "term": "Snapshot",
+        "full_term": "Instantané de Gouvernance",
+        "category": "governance",
+        "definition": "Un snapshot est une hauteur de bloc spécifique à laquelle les détentions de tokens sont enregistrées pour le vote de gouvernance, empêchant les utilisateurs d'acheter des tokens juste pour voter puis de les vendre immédiatement.",
+        "short_definition": "Enregistrement des détentions de tokens à une hauteur de bloc spécifique pour un vote de gouvernance équitable",
+        "example": "Un vote de gouvernance annonce un snapshot au bloc 15 000 000, signifiant que seuls les portefeuilles détenant des tokens à ce bloc peuvent participer, empêchant l'achat de votes de dernière minute.",
+        "related_terms": [
+          "voting",
+          "governance-token",
+          "block-height",
+          "vote-buying"
+        ],
+        "risks": [
+          "Gaming de notification avancée",
+          "Manipulation du timing de snapshot",
+          "Exclusion des détenteurs récents"
+        ],
+        "tags": [
+          "gouvernance",
+          "snapshot",
+          "vote",
+          "équité"
+        ],
+        "common_questions": [
+          {
+            "question": "Combien de temps avant le vote le snapshot est-il pris ?",
+            "answer": "Cela varie selon les protocoles, mais généralement quelques jours à une semaine avant le début du vote pour permettre la préparation tout en empêchant les manipulations de dernière minute."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ Guerres CRV : comprendre la course à l'accumulation de pouvoir pour influencer le protocole Curve Finance",
+            "url": "/crv-wars/",
+            "description": "Un guide concis pour suivre la course à l'accumulation CRV par tous les moyens possibles incluant l'achat de votes (Bribes) et évaluer les stratégies Curve des protocoles DeFi"
+          },
+          {
+            "title": "Appel à votre soutien pour garder la gouvernance d'Aave communautaire",
+            "url": "/aave-governance-program/",
+            "description": "Il est temps pour moi de m'impliquer davantage dans la gouvernance d'un protocole décentralisé pour maintenir les valeurs de base de DeFi : aujourd'hui, j'appelle à vos délégations de vote dans la gouvernance d'Aave."
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          }
+        ]
+      },
+      {
+        "id": "tvl",
+        "term": "TVL",
+        "full_term": "Valeur Totale Verrouillée",
+        "category": "protocols",
+        "definition": "La Valeur Totale Verrouillée (TVL) mesure le montant total d'actifs déposés et verrouillés dans un protocole DeFi ou à travers l'écosystème DeFi entier. C'est une métrique clé pour évaluer l'adoption et la sécurité du protocole.",
+        "short_definition": "Montant total d'actifs déposés et verrouillés dans les protocoles DeFi",
+        "example": "Si Uniswap a 5 milliards$ de TVL, cela signifie que pour 5 milliards$ d'actifs crypto sont actuellement verrouillés dans les pools de liquidité d'Uniswap.",
+        "related_terms": [
+          "liquidity",
+          "protocol-metrics",
+          "market-cap",
+          "adoption"
+        ],
+        "risks": [
+          "Manipulation de TVL",
+          "Fuite de capitaux",
+          "Concentration de risque de protocole"
+        ],
+        "tags": [
+          "tvl",
+          "métriques",
+          "verrouillé",
+          "valeur"
+        ],
+        "common_questions": [
+          {
+            "question": "Une TVL plus élevée signifie-t-elle qu'un protocole est plus sûr ?",
+            "answer": "Pas nécessairement. Bien qu'une TVL élevée indique la confiance et l'adoption, elle peut aussi créer des cibles plus importantes pour les attaquants et ne garantit pas la sécurité du code."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Rester en Avance sur la Courbe : le passage du Liquidity Mining au Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "La guerre des DEX fait rage, plus compétitive que jamais. À côté des cartels licorne, lama et écaille, un quatrième centre émerge grâce à des fonctionnalités sans précédent : des structures de liquidité inégalées associées à des modèles d'incitation immensément plus efficaces : **le liquidity shaping**. Sera-ce suffisant pour que Maverick l'emporte ?"
+          },
+          {
+            "title": "Chicken Bonds : une usine d'éclosion alimentée par NFT pour battre le problème de l'œuf et de la poule de liquidité DeFi",
+            "url": "/lusd-chicken-bonds/",
+            "description": "Comment une nouvelle expérience pionnier de NFT dynamiques évoluant basés sur les interactions de l'utilisateur peut-elle aider Liquity à faire croître la liquidité de LUSD et réduire la prime du stablecoin ?"
+          },
+          {
+            "title": "Adieux au Comité de Liquidité GHO et réflexions sur la montée de la novlangue DeFi",
+            "url": "/farewell-glc/",
+            "description": "J'ai démissionné du Comité de Liquidité GHO - ce post explique pourquoi et réfléchit sur les défis centraux observés dans la gouvernance et les comités DeFi"
+          }
+        ]
+      },
+      {
+        "id": "dapp",
+        "term": "dApp",
+        "full_term": "Application Décentralisée",
+        "category": "protocols",
+        "definition": "Une application décentralisée (dApp) est une application qui fonctionne sur un réseau blockchain plutôt que sur des serveurs centralisés. Les dApps utilisent des smart contracts pour leur logique backend et n'ont typiquement aucune autorité de contrôle unique.",
+        "short_definition": "Application fonctionnant sur blockchain plutôt que sur des serveurs centralisés",
+        "example": "Uniswap, Aave et Compound sont des dApps DeFi populaires qui fonctionnent entièrement sur Ethereum utilisant des smart contracts.",
+        "related_terms": [
+          "smart-contract",
+          "ethereum",
+          "decentralization",
+          "blockchain"
+        ],
+        "risks": [
+          "Bugs de smart contract",
+          "Attaques frontend",
+          "Risques de gouvernance"
+        ],
+        "tags": [
+          "dapp",
+          "décentralisé",
+          "application",
+          "blockchain"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre une dApp et une app traditionnelle ?",
+            "answer": "Les dApps fonctionnent sur blockchain avec des smart contracts, sont généralement open-source, résistantes à la censure, et n'ont pas de contrôle centralisé, contrairement aux apps traditionnelles."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Derrière la scène du théâtre de décentralisation : une étude de l'inaltérabilité des protocoles DeFi",
+            "url": "/unstoppable-defi/",
+            "description": "De la centralisation totale aux protocoles inarrêtables : une définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi."
+          },
+          {
+            "title": "Pourquoi la décentralisation compte ? Un aperçu de 12 min pour le profane",
+            "url": "/decentralisation-layman/",
+            "description": "Décentralisons tout ! Mais attendez, qu'est-ce que ça veut dire ? Un aperçu de la décentralisation fait pour être compréhensible par tous."
+          },
+          {
+            "title": "Explorer les actifs stables sur Ethereum : approches et fin de partie",
+            "url": "/ethereum-stable-assets/",
+            "description": "La quête de stabilité sur Ethereum : un aperçu des différentes approches de stabilisation et d'indexation d'actifs pour comprendre leurs enjeux."
+          }
+        ]
+      },
+      {
+        "id": "wallet",
+        "term": "Portefeuille",
+        "full_term": "Portefeuille de Cryptomonnaie",
+        "category": "protocols",
+        "definition": "Un portefeuille de cryptomonnaie est un outil logiciel ou matériel qui stocke vos clés privées et vous permet d'envoyer, recevoir, et gérer votre cryptomonnaie. Il ne stocke pas réellement les pièces, mais fournit l'accès à celles-ci sur la blockchain.",
+        "short_definition": "Outil pour stocker les clés privées et gérer la cryptomonnaie",
+        "example": "MetaMask est un portefeuille navigateur populaire qui vous permet d'interagir avec les protocoles DeFi, tandis que Ledger est un portefeuille matériel pour le stockage hors ligne sécurisé.",
+        "related_terms": [
+          "private-key",
+          "seed-phrase",
+          "address",
+          "metamask"
+        ],
+        "risks": [
+          "Perte d'accès",
+          "Piratage",
+          "Erreur utilisateur"
+        ],
+        "tags": [
+          "portefeuille",
+          "sécurité",
+          "stockage",
+          "clés"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle est la différence entre un portefeuille chaud et froid ?",
+            "answer": "Les portefeuilles chauds sont connectés à internet (comme MetaMask) pour faciliter les transactions, tandis que les portefeuilles froids (comme Ledger) stockent les clés hors ligne pour une sécurité maximale."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          },
+          {
+            "title": "La Carte du Maraudeur des Stablecoins Décentralisés",
+            "url": "/stablecoin-marauder-map/",
+            "description": "De nouveaux stables se lancent chaque semaine, donc suivre les innovations pertinentes est difficile. AMO ? PSM ? DSR ? pegKeeper ? Cet article examine les différents mécanismes exploités par les projets de stablecoin et évalue leur pertinence."
+          }
+        ]
+      },
+      {
+        "id": "kyc",
+        "term": "KYC",
+        "full_term": "Connaître Votre Client",
+        "category": "protocols",
+        "definition": "Connaître Votre Client (KYC) est un processus réglementaire nécessitant aux entreprises de vérifier l'identité de leurs clients. En crypto, certaines plateformes centralisées exigent le KYC, tandis que les protocoles DeFi fonctionnent typiquement sans.",
+        "short_definition": "Processus réglementaire nécessitant la vérification d'identité des clients",
+        "example": "Les échanges centralisés comme Coinbase exigent une vérification KYC avant que vous puissiez trader, mais les DEX comme Uniswap permettent le trading sans vérification d'identité.",
+        "related_terms": [
+          "aml",
+          "compliance",
+          "regulation",
+          "centralized-exchange"
+        ],
+        "risks": [
+          "Perte de confidentialité",
+          "Violations de données",
+          "Conformité réglementaire"
+        ],
+        "tags": [
+          "kyc",
+          "conformité",
+          "identité",
+          "réglementation"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi certains protocoles DeFi n'exigent-ils pas de KYC ?",
+            "answer": "Les protocoles DeFi décentralisés fonctionnent via des smart contracts sans entité centrale pour collecter ou vérifier les informations d'identité, préservant la pseudonymité des utilisateurs."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Le volume engendre des frais : comment les principaux échanges décentralisés capturent-ils la valeur ?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "Un regard sur les mécanismes de capture de valeur d'Uniswap, Sushiswap et Curve pour mieux comprendre comment la valeur s'accumule pour les détenteurs de tokens."
+          },
+          {
+            "title": "S'agit-il d'une Renaissance des Protocoles de Prêt ?",
+            "url": "/lending-protocol-renaissance/",
+            "description": "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un : s'agit-il d'une renaissance des protocoles de prêt ?"
+          },
+          {
+            "title": "ve(3,3), la prochaine étape logique après veCRV ?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Un regard plus approfondi sur le modèle Solidly puis plus tard Velodrome pour comprendre leur amélioration sur le modèle de base Curve / veCRV."
+          }
         ]
       }
     ]
@@ -5684,22 +8186,22 @@
     ],
     "fr": [
       {
-        "id": "rendements",
+        "id": "yields",
         "name": "Rendements et Retours",
         "description": "Termes liés aux gains en DeFi"
       },
       {
-        "id": "risques",
+        "id": "risks",
         "name": "Risques et Sécurité",
         "description": "Comprendre les risques DeFi et les stratégies d'atténuation"
       },
       {
-        "id": "stratégies",
+        "id": "strategies",
         "name": "Stratégies",
         "description": "Stratégies d'investissement et de gains DeFi"
       },
       {
-        "id": "protocoles",
+        "id": "protocols",
         "name": "Protocoles et Plateformes",
         "description": "Principaux protocoles et plateformes DeFi"
       },
@@ -5709,12 +8211,17 @@
         "description": "Différents types de tokens en DeFi"
       },
       {
-        "id": "technique",
+        "id": "technical",
         "name": "Concepts Techniques",
         "description": "Aspects techniques de la DeFi"
       },
       {
-        "id": "gouvernance",
+        "id": "trading",
+        "name": "Trading et AMMs",
+        "description": "Concepts de trading, échanges, et teneurs de marché automatisés"
+      },
+      {
+        "id": "governance",
         "name": "Gouvernance et DAOs",
         "description": "Gouvernance décentralisée, vote, et concepts de DAO"
       }
