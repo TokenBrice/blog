@@ -1,7 +1,6 @@
 ---
 title: 'The Chatbot Masquerade: Crafting a personality with NLP and grammar'
-description: >-
-  Has the chatbot hype peaked? Despite massive investments from leading messaging platforms such as Messenger Facebook, Telegram, or Slack, **are chatbots living up to their promise?**
+description: Has the chatbot hype peaked? Despite massive investments from leading messaging platforms such as Messenger Facebook, Telegram, or Slack, **are chatbots living up to their promise?
 date: '2017-08-02T12:43:42.920Z'
 categories: [Analysis]
 toc: true

@@ -6,7 +6,7 @@ categories: [Practical, Stablecoin, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent Lossses]
 toc: true
 tocNum: false
-image: /img/2020/definancial-services-guide/cover-fr.jpeg
+image: /img/2020/definancial-services-guide/cover.jpeg
 difficulty: "expert"
 url: definancial-guide
 ---

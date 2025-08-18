@@ -4,7 +4,7 @@ description: "Exploring a novel protocol offering no funding fee no liquidation 
 date: '2025-03-12T01:13:50.191Z'
 categories: [Projects, Lending, Yield]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
-image: img/2025/leverage-sir/leverage-sir-cover.jpg
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
 difficulty: "intermediate"
 ---

@@ -3,7 +3,7 @@ title: "The Pegged Asset Swap Wars"
 description: "What if constant incentivization is not the best way to sustain liquidity, particularly for pegged assets? Exploring the impact of debt-driven liquidity for pegged assets swap."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
-image: img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
 url: pegged-assets-swap
 difficulty: "expert"

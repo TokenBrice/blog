@@ -454,7 +454,7 @@
         "id": "liquidity-pool",
         "term": "Liquidity Pool",
         "full_term": "Liquidity Pool",
-        "category": "technical",
+        "category": "AMM",
         "definition": "A liquidity pool is a collection of funds locked in a smart contract that enables decentralized trading, lending, and other DeFi functions. Users contribute assets to pools and earn fees from trades or interest from loans.",
         "short_definition": "Smart contract containing funds that enable decentralized trading and lending",
         "example": "The ETH/USDC pool on Uniswap contains both ETH and USDC, allowing users to swap between these tokens while LPs earn trading fees.",
@@ -503,7 +503,7 @@
         "id": "slippage",
         "term": "Slippage",
         "full_term": "Slippage",
-        "category": "risks",
+        "category": "AMM",
         "definition": "Slippage refers to the difference between the expected price of a trade and the actual executed price. It occurs when there's insufficient liquidity or high volatility, causing the price to move unfavorably during trade execution.",
         "short_definition": "Difference between expected and actual trade execution price",
         "example": "You try to buy $10,000 worth of a token at $100, but due to slippage, you end up paying an average of $102 per token.",
@@ -527,7 +527,7 @@
         "common_questions": [
           {
             "question": "How can I minimize slippage?",
-            "answer": "Trade smaller amounts, use liquid pairs, set appropriate slippage tolerance, or use aggregators that find the best routes."
+            "answer": "Trade smaller amounts, use liquid pairs, set appropriate slippage tolerance, or **use aggregators** that find the best routes."
           }
         ],
         "related_articles": [
@@ -535,16 +535,6 @@
             "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
             "url": "/maverick-liquidity-shaping/",
             "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
-          },
-          {
-            "title": "Farewell to the GHO Liquidity Committee and reflections on the rise of DeFi newspeak",
-            "url": "/farewell-glc/",
-            "description": "I've resigned from the GHO Liquidity Committee - this post explains why and reflect on the core challenges observed in DeFi's governance and committees"
-          },
-          {
-            "title": "Chicken Bonds: an NFT-powered hatching factory to beat DeFi’s liquidity chicken and egg problem",
-            "url": "/lusd-chicken-bonds/",
-            "description": "How can a new experiment pioneering dynamic NFTs evolving based on the user's interactions help Liquity grow LUSD's liquidity and reduce the stablecoin premium?"
           }
         ]
       },
@@ -575,7 +565,7 @@
         ],
         "common_questions": [
           {
-            "question": "Do governance tokens have monetary value?",
+            "question": "Do worthless governance tokens have monetary value?",
             "answer": "Yes, they trade on markets and derive value from the protocol's success and potential future cash flows or benefits."
           }
         ],
@@ -674,7 +664,7 @@
         "common_questions": [
           {
             "question": "Why is Ethereum so important for DeFi?",
-            "answer": "Ethereum's programmable smart contracts enable complex financial applications, and it has the largest DeFi ecosystem and liquidity."
+            "answer": "Ethereum is the most widely adopted smart contract platform, as well as a maximally decentralized network with a unique history (PoW=>PoS transition)."
           }
         ],
         "related_articles": [
@@ -772,15 +762,10 @@
         "common_questions": [
           {
             "question": "Are bridges safe to use?",
-            "answer": "Bridges carry risks as they're complex smart contracts. Use well-audited, established bridges and never invest more than you can afford to lose."
+            "answer": "Bridges carry risks as they're complex smart contracts. Just like with DEXes, the safer is to use an aggregator like Jumper to minimize slippage risk and optimize routing."
           }
         ],
         "related_articles": [
-          {
-            "title": "Facebook X Cambridge Analytica : the hidden cost of free services",
-            "url": "/hidden-cost-free-services/",
-            "description": "Cambridge Analytica is the tree hiding the forest. With the data Facebook amassed, comes the power to influence the political life."
-          },
           {
             "title": "🍷 Yields are like fine wines, the secret lies in the brewing process",
             "url": "/fixed-interest-rate-protocol-firp-apwine/",
@@ -973,19 +958,9 @@
         ],
         "related_articles": [
           {
-            "title": "Calling for your support to keep Aave's governance community-driven",
-            "url": "/aave-governance-program/",
-            "description": "It's time for me to get more involved in the governance of a decentralized protocol to uphold DeFi's grassroots values: today, I'm calling for your vote delegations in Aave's governance."
-          },
-          {
-            "title": "🗿 Reflexer Labs (RAI) : the What, How and Why",
-            "url": "/reflexer-rai/",
-            "description": "Reflexer's RAI is a new type of asset still unique in DeFi. It is also based on a system with a de-governance scheme. So let's look at how to stay safe from the risks associated with fiat currencies, centralization and trust thanks to RAI's design!"
-          },
-          {
-            "title": "Janus: the new sworn enemy of DeFi protocols?",
-            "url": "/defi-janus/",
-            "description": "Within decentralized finance, a veritable open-air laboratory, governance issues are complex and often contradictory. In this article, I examine the potential antagonisms between the various stakeholders of a given protocol."
+            "title": "Making the most of Gnosis Safe: toolbox & tips",
+            "url": "https://deficollective.org/blog/safe-toolbox/",
+            "description": "A practical article detailling solutions available to Safe users to streamline their operations."
           }
         ]
       },
@@ -1094,7 +1069,7 @@
         "category": "tokens",
         "definition": "A wrapped token represents another cryptocurrency on a different blockchain. It's backed 1:1 by the original asset held in custody, enabling cross-chain functionality.",
         "short_definition": "Token representing another cryptocurrency on a different blockchain",
-        "example": "WETH (Wrapped ETH) allows ETH to be used in ERC-20 contracts, while WBTC brings Bitcoin functionality to Ethereum.",
+        "example": "Ethereum, the network, existed before the ERC-20 token standard was establishd, thus ETH the token is not ERC-20 compliant. wETH is an ERC-20 compliant representation of ETH, enabling smart contracts to handle it like a regular ERC-20 token.",
         "related_terms": [
           "bridge",
           "cross-chain",
@@ -1115,25 +1090,10 @@
         "common_questions": [
           {
             "question": "Is a wrapped token the same as the original?",
-            "answer": "Functionally similar but technically different. They should maintain 1:1 value but carry additional risks from the wrapping mechanism."
+            "answer": "Functionally similar but technically different. They should maintain 1:1 value but carry additional risks from the wrapping mechanism. Wrapping mechanism can vary, the ideal is immutable contracts like for wETH."
           }
         ],
         "related_articles": [
-          {
-            "title": "Liquity-driver token races beyond Curve: a look at the Balancer Wars",
-            "url": "/balancer-wars/",
-            "description": "Cornering the lay of the land of the Balancer Wars: we look at the DEX specificities to anticipate what's next for the BAL races."
-          },
-          {
-            "title": "Is this a Lending Protocol Renaissance?",
-            "url": "/lending-protocol-renaissance/",
-            "description": "New models are being explored both for CDP protocols and money markets, and some protocols are even merging the two into one: is this a lending protocol renaissance?"
-          },
-          {
-            "title": "ve(3,3), the logical next step after veCRV?",
-            "url": "/solidly-velodrome-fork/",
-            "description": "A deeper look at the Solidly and then later Velodrome model for understanding their improvement on the base Curve / veCRV template."
-          }
         ]
       },
       {
