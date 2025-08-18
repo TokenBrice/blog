@@ -203,6 +203,11 @@
                     return; // Let the theme handle navigation clicks
                 }
                 
+                // IMPORTANT: Skip if clicked on article links - let them work normally
+                if (clickedElement.closest('.related-articles-list a, .related-articles-list article')) {
+                    return; // Let article links work normally
+                }
+                
                 // Check if clicked element or its parent is a category card
                 let currentElement = clickedElement;
                 
@@ -371,11 +376,11 @@
                     </div>
                 </div>` : ''}
                 
-                ${false && term.related_articles ? `
+                ${term.related_articles && term.related_articles.length > 0 ? `
                 <div class="term-articles">
                     <h4>${lang === 'fr' ? 'Articles connexes' : 'Related Articles'}</h4>
                     <div class="related-articles-list article-list--compact">
-                        ${term.related_articles.map(article => renderRelatedArticle(article)).join('')}
+                        ${term.related_articles.slice(0, 3).map(article => renderRelatedArticle(article)).join('')}
                     </div>
                 </div>` : ''}
             </div>
@@ -488,9 +493,9 @@
             return sitePages[urlWithoutSlash];
         }
         
-        // Search through all entries to find a match
+        // Search through all entries to find a match by key or URL
         for (const [key, pageInfo] of Object.entries(sitePages)) {
-            if (key.includes(url) || pageInfo.url === url || key === url) {
+            if (key.includes(url.replace(/\//g, '')) || pageInfo.url === url || key === url) {
                 return pageInfo;
             }
         }
@@ -1127,6 +1132,115 @@
 
 [data-scheme="dark"] .faq-question {
     color: var(--card-text-color-main) !important;
+}
+
+/* Related Articles Styling */
+.related-articles-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.related-articles-list article {
+    background: var(--card-background-selected);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-l1);
+}
+
+.related-articles-list article:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color-lighter);
+}
+
+.related-articles-list article a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.related-articles-list .article-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.related-articles-list .article-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.related-articles-list .article-preview {
+    font-size: 0.875rem;
+    color: var(--card-text-color-secondary);
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.related-articles-list .article-image {
+    flex-shrink: 0;
+    width: 80px;
+    height: 60px;
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    background: var(--card-background);
+}
+
+.related-articles-list .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.related-articles-list article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+/* Dark mode support for related articles */
+[data-scheme="dark"] .related-articles-list article {
+    background: var(--card-background-selected);
+    border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-title {
+    color: var(--accent-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-preview {
+    color: var(--card-text-color-secondary);
+}
+
+/* Responsive design for related articles */
+@media (max-width: 768px) {
+    .related-articles-list .article-image {
+        width: 60px;
+        height: 45px;
+    }
+    
+    .related-articles-list .article-title {
+        font-size: 0.9rem;
+    }
+    
+    .related-articles-list .article-preview {
+        font-size: 0.8rem;
+    }
 }
 </style>
 

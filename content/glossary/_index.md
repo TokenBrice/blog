@@ -39,4 +39,4 @@ Each item is provided with definition, example, related questions and relevant c
 
 ---
 
-*This glossary is maintained by TokenBrice and regularly updated to reflect the latest DeFi developments. Have a term to suggest? [Get in touch](/about).*
+*This glossary is maintained and regularly updated to reflect the latest DeFi developments. Have a term to suggest? [Get in touch](/about).*

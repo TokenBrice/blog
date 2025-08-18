@@ -36,4 +36,4 @@ Votre guide complet de la terminologie de la finance décentralisée. Ce glossai
 
 ---
 
-*Ce glossaire est maintenu par TokenBrice et régulièrement mis à jour pour refléter les derniers développements DeFi. Vous avez un terme à suggérer ? [Contactez-moi](/fr/about).*
+*Ce glossaire est maintenu et régulièrement mis à jour pour refléter les derniers développements DeFi. Vous avez un terme à suggérer ? [Contactez-moi](/fr/about).*
