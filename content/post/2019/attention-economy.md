@@ -8,6 +8,7 @@ categories: [Analysis, Privacy]
 tags: [advertising model, data harversting]
 toc: true
 image: /img/2019/attention-economy/cover.jpeg
+url: attention-economy
 ---
 
 The attention economy is the idea that we’re switching to or already exploring a new economic paradigm where the individuals’ attention is the limiting factor. Goods and content became more accessible and cheaper to produce, but they are now facing a demand wall: attention is a scarce resource — a person has only so much of it.

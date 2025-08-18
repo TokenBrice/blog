@@ -6,6 +6,7 @@ categories: [DeFi, Découverte]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin]
 image: /img/2020/defi-beyond-finance/cover.png
 difficulty: "beginner"
+url: defi-beyond-finance
 ---
 
 La finance décentralisée d'Ethereum est prête à se développer au-delà de son bac à sable : avec un réseau dense de primitifs financiers, il est maintenant plus facile que jamais d'exploiter la DeFi à d'autres fins, par exemple pour remplacer une relique prédatrice de notre passé comme la loterie, toujours follement populaire et préjudiciable.

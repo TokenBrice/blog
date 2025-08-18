@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 image: /img/2020/tipbot/cover.png
 difficulty: "beginner"
+url: tipbot-guide
 ---
 
 ## A/ Introduction	

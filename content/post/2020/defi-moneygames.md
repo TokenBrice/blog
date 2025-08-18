@@ -6,6 +6,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin]
 image: /img/2020/defi-moneygames/cover.png
 difficulty: "intermediate"
+url: defi-moneygames
 ---
 
 Food-based social moneygames are all the rage in decentralised finance. Today, I wanted to write a quick piece to provide some context on them, as well as some tips for those who want to. I'll not pass moral judgement on such projects, I leave it up to you.

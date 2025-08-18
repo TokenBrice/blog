@@ -6,6 +6,7 @@ date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python]
 image: /img/2017/sato/satodemo.gif
+url: github-repo-heroku
 ---
 
 In the previous tutorial, we learnt how to host our own server for our bot, so he would be able to **fetch data from third party APIs** and return it to its users. Alas, the Python server made in the last tutorial was **self-hosted**: you had to run it on your own computer, using ngrok to expose one of your ports to the internet. 

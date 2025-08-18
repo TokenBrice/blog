@@ -7,6 +7,7 @@ categories: [Analyse]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
 image: /img/2018/money101/cover.jpeg
 difficulty: "beginner"
+url: money101
 ---
 
 <span style="font-weight: 400;">La monnaie est un élément essentiel de nos sociétés : un petit changement dans ses mécanismes sous-jacents peut avoir des répercussions qui dépassent très largement le champ de l’économie. Une meilleure compréhension des mécanismes monétaires permet ainsi de mieux cerner de nombreux sujets connexes allant de l’économie politique aux cryptomonnaies.</span>

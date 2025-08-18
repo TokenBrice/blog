@@ -8,6 +8,7 @@ categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
 image: /img/2018/money101/cover.jpeg
 difficulty: "beginner"
+url: money101
 ---
 
 

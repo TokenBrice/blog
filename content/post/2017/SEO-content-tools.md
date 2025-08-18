@@ -8,6 +8,7 @@ categories: [Tutorial]
 tags: [SEO, content, KW research]
 toc: true
 image: /img/2017/seo-tools/cover.png
+url: seo-content-tools
 ---
 
 Knowing the audience is the key to successful content; it’s the key to successful marketing itself. Yet, for a start-up and moreover at an early stage, **it’s damn hard**. I tried a lot of different tools before finding the one I’m happy with.

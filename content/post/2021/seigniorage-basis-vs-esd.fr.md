@@ -9,6 +9,7 @@ tocNum: false
 url: seigneuriage-basis-vs-esd
 image: /img/2021/seigniorage-basis-vs-esd/cover.png
 difficulty: "intermediate"
+url: seigniorage-basis-esd
 ---
 
 Il y a quelques semaines, j'ai partagé mon premier billet sur les stablecoins algorithmiques en soulignant les principales caractéristiques qui rendaient de tels projets intéressants à mes yeux. Dans cet article, nous allons approfondir le sujet, avec une **analyse comparative des deux principaux modèles** : le modèle Basis et le modèle ESD. 

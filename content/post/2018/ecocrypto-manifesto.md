@@ -5,6 +5,7 @@ description: >-
 date: '2018-07-01T10:36:03.488Z'
 categories: [Projects]
 tags: [EcoCrypto]
+url: ecocrypto-manifesto
 ---
 
 Welcome on Ecocrypto, the incorruptible French publication soon to become a reference. EcoCrypto was created to provide an answer the lack of honest and qualitative content in the French crypto ecosystem.

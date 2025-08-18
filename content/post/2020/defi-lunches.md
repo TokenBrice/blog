@@ -7,6 +7,7 @@ categories: [DeFi, Practical]
 tags: [DeFi, RealT, Compound, DAI]
 image: /img/2020/bankless-defi-lunches/paying.jpeg
 difficulty: "beginner"
+url: defi-lunches
 ---
 
 `This tactic was first published in the Bankless newsletter and written with advice and support from Ryan.` 

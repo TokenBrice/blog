@@ -8,5 +8,6 @@ toc: false
 tocNum: false
 image: /img/2021/tokenbrice-twitch/troll-en.png
 difficulty: "beginner"
+url: tokenbrice-twitch-fr
 ---
 

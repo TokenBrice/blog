@@ -8,6 +8,7 @@ toc: true
 tocNum: true
 image: /img/2020/leveraging-ETH/leveraging-ETH-fr.png
 difficulty: "intermediate"
+url: leveraging-eth
 ---
 
 Alors qu'Ether le géant semble se réveiller, vous envisagez peut-être vos **options pour recentrer votre exposition sur l'ETH**. C'est précisément ce que j'ai examiné et exécuté ces derniers temps, et c'est le moment de partager mes retours et conseils ! 

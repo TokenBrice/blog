@@ -7,6 +7,7 @@ categories: [NFT]
 tags: [Ethereum, NFT, non fungible tokens, collectibles, ERC721, ERC1155, EcoCrypto]
 image: /img/2018/nft/cover.png
 difficulty: "beginner"
+url: nft
 ---
 
 

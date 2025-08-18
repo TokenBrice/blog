@@ -7,6 +7,7 @@ tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
 image: /img/others/defifrance.png
+url: next-steps
 ---
 
 Je quitte mon poste de responsable de la communauté de Monolith pour consacrer une plus grande partie de mes efforts à la communauté : contenu, rencontres et conseils pour aider à découvrir la finance décentralisée !

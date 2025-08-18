@@ -6,6 +6,7 @@ date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python]
 image: /img/2017/sato/satodemo.gif
+url: sato-python-cryptobot
 ---
 
 Chatbots have an incredible  potential. Yet, for bots to be efficient, they must integrate and  exchange data with existing services and processes.

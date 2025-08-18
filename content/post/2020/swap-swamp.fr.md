@@ -6,6 +6,7 @@ categories: [DeFi, Pratique]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
 difficulty: "beginner"
+url: swap-swamp
 ---
 
 L'échange de tokens est-il aussi facile que ça ? Ne vous laissez pas tromper par l'apparente simplicité : oui, il existe des interfaces accessibles où vous choisissez un token, un montant, et appuyez sur un bouton pour échanger. Mais sans une compréhension de base de la DeFi, vous risquez de faire des erreurs évitables.  Il devient de plus en plus critique de savoir **ce qui se passe sous le capot pour en tirer parti**. 

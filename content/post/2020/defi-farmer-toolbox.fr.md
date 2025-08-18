@@ -8,6 +8,7 @@ toc: true
 tocNum: false
 image: /img/2020/defi-farmer-toolbox/cover-fr.jpeg
 difficulty: "intermediate"
+url: defi-farmer-toolbox
 ---
 
 Amis agriculteurs,

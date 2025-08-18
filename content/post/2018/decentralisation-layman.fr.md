@@ -8,6 +8,7 @@ categories: [Analyse]
 tags: [decentralization, blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 difficulty: "beginner"
+url: decentralization-layman
 ---
 
 Bien que le grand public entende parler de plus en plus de blockchain et cryptomonnaies, les fondements politiques et philosophiques ne sont encore discutés pour l’instant qu’au sein de communautés de passionnés. Je pense que la décentralisation apporte avec elle **un changement de paradigme qui mérite bien plus de couverture médiatique que le cours du bitcoin.**
