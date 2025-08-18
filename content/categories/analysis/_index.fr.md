@@ -1,6 +1,6 @@
 ---
 title: "Analyses"
-description: "Non Fungibles Tokens"
+description: "Analyses de marché approfondies, évaluations de protocoles et de l'écosystème DeFi"
 slug: "analysis"
 image: "analysis.jpg"
 style:

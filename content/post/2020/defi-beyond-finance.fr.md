@@ -2,7 +2,7 @@
 title: "La DeFi, au delà de la finance"
 description: "Une analyse des principes fondamentaux de la DeFi qui souligne les options ouvertes dans d'autres domaines comme l'art ou le financement des biens communs."
 date: '2020-12-01T01:13:50.191Z'
-categories: [DeFi, Découverte]
+categories: [Thesis]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin]
 image: /img/2020/defi-beyond-finance/cover.png
 difficulty: "beginner"

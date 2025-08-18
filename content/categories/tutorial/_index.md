@@ -1,9 +1,9 @@
 ---
 title: "Tutorial"
-description: "Non Fungibles Tokens"
+description: "Step-by-step guides and educational content for navigating DeFi protocols"
 slug: "tutorial"
 image: "tutorial.jpg"
 style:
-    background: "#2a9d8f"
+    background: "#f59e0b"
     color: "#fff"
 ---

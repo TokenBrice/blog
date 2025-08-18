@@ -2,7 +2,7 @@
 title: "Les guerres des swaps sur les actifs pegged"
 description: "Et si l'incitation constante n'était pas la meilleure façon de maintenir la liquidité, en particulier pour les actifs pegged ? Dans cet article, j'explore l'impact de la liquidité alimentée par la dette pour les swaps d'actifs pegged."
 date: '2025-07-08T01:13:50.191Z'
-categories: [DeFi]
+categories: [DEX]
 image: img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
 url: pegged-assets-swap

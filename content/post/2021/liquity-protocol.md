@@ -2,7 +2,7 @@
 title: "⚖️ Liquity: an unstoppable, efficient and innovative borrowing service"
 description: "Liquity is the first borrowing service that operates without the need for governance, while being low cost and highly efficient. I explain the protocol to understand how it innovates and what it brings to DeFi."
 date: '2021-12-02T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false

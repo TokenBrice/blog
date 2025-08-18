@@ -2,7 +2,7 @@
 title: "How to build an inflation-proof DeFi portfolio?"
 description: "What if DeFi, more than ever, offered serious and credible answers to economic and financial issues? Example with the galloping inflation and the various products and strategies DeFi offers to guard against it."
 date: '2022-03-09T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin]
 toc: true
 tocNum: false

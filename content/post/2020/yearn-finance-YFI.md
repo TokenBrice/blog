@@ -2,7 +2,7 @@
 title: "YearnFinance - DeFi on autopilot?"
 description: "Yearn Finance V2 is just a few weeks old, yet it is already one of the most influential releases of the year for DeFi - let’s unpack what happened, and why it matters."
 date: '2020-08-11T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [Yield]
 tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Lending, Leveraging, Yearn Finance]
 image: /img/2020/yearn-finance-YFI/wifeys.jpg
 difficulty: "beginner"

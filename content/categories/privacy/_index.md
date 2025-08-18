@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-description: "Non Fungibles Tokens"
+description: "Privacy-preserving technologies, anonymous transactions, and confidentiality in DeFi"
 slug: "privacy"
 image: "privacy.jpg"
 style:

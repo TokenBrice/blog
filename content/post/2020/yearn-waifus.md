@@ -2,7 +2,7 @@
 title: "Yearn Finance's Forks: The State of the Waifus Family"
 description: "On top of being one of the most succesful DeFi protocols, Yearn is also forked alot. Today, we have a look at the top YFI forks and what made them stick!"
 date: '2020-09-18T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, Harvest Finance]
 image: /img/2020/yearn-waifus/cover.jpg
 difficulty: "intermediate"

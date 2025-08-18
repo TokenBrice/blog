@@ -2,7 +2,7 @@
 title: "Volume begets fees: how are the main decentralized exchanges capturing value?"
 description: "A look at Uniswap's, Sushiswap's and Curve's value capture mechanism to better understand how value accrues for token holders."
 date: '2021-01-23T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [DEX]
 tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false

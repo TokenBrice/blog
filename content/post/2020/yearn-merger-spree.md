@@ -2,7 +2,7 @@
 title: "Yearn Finance's Merger Spree"
 description: "Yearn has joined forces with several DeFi projects. What does it mean for its ecosystem?"
 date: '2020-12-09T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, SushiSwap]
 image: /img/2020/yearn-merger/y-among-us.gif
 difficulty: "intermediate"

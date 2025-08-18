@@ -2,7 +2,7 @@
 title: "🎲 PoolTogether: The story of the no-loss lottery where everyone wins"
 description: "Gambling, all rotten? Once again, decentralized finance allows us to consider new ways of doing things - in this case a less predatory and more fun lottery: PoolTogether. This article explains how it works."
 date: '2021-12-20T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
 tocNum: false

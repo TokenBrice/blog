@@ -2,7 +2,7 @@
 title: "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping"
 description: "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
 date: '2023-07-07T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [DEX]
 tags: [DeFi, Ethereum, Decentralized Finance, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
 toc: true
 tocNum: true

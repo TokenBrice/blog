@@ -2,7 +2,7 @@
 title: "🎚 ETH exposure or DeFi yields: why choose?"
 description: "A pratical perspetive looking at Maker as a solution to maintain an ETH exposure while providing extra capital to harness DeFi yields."
 date: '2020-08-03T01:13:50.191Z'
-categories: [DeFi, Practical]
+categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Lending, Maker, Lending, Leveraging]
 toc: true
 tocNum: true

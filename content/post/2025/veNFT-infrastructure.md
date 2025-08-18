@@ -2,7 +2,7 @@
 title: "Turning Locks into Leverage: How Autopilot, 40Acres & haiVELO Evolve veNFTs"
 description: "The development of the veNFT infrastructure layer with Autopilot, 40Acres, and haiVELO: automation, collateral, and yield enhancement."
 date: '2025-08-14T16:06:21.672Z'
-categories: [DeFi]
+categories: [Lending, Yield, DEX]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
 url: veNFT-infrastructure

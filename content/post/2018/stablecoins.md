@@ -4,7 +4,7 @@ description: >-
   Stablecoins provide an answer to one of the main concern of the general
   audience with cryptos: volatility. But it comes with a cost.
 date: '2018-08-22T12:14:52.416Z'
-categories: [Analysis]
+categories: [Stablecoin]
 tags: [stablecoins, Tether, EcoCrypto]
 image: /img/2018/stablecoins/cover.jpeg
 difficulty: "beginner"

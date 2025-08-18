@@ -1,6 +1,6 @@
 ---
 title: "Vie Privée"
-description: "Non Fungibles Tokens"
+description: "Technologies préservant la vie privée, transactions anonymes et confidentialité en DeFi"
 slug: "privacy"
 image: "privacy.jpg"
 style:

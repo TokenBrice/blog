@@ -3,7 +3,7 @@ title: How DeFi can pay for your lunches
 description: >-
  How I live on DeFi & generate passive income to pay for my daily expenses.
 date: '2020-03-03T14:53:50.191Z'
-categories: [DeFi, Practical]
+categories: [Practical]
 tags: [DeFi, RealT, Compound, DAI]
 image: /img/2020/bankless-defi-lunches/paying.jpeg
 difficulty: "beginner"

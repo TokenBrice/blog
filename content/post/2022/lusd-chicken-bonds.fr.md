@@ -2,7 +2,7 @@
 title: "Chicken Bonds : synergie DeFi x NFT pour résoudre le problème de l'oeuf et de la poule de la ĺiquidité en finance décentralisée"
 description: "Comment une expérimentation impliquant des NFTs dynamiques évoluants en fonction des interactions des utilisateurs avec un protocole DeFi peut aider Liquity à accroître la liquidité du LUSD ?"
 date: '2022-10-17T01:13:50.191Z'
-catégories : [DeFi, Compréhension]
+catégories : [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 toc: true
 tocNum: true

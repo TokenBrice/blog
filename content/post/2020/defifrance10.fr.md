@@ -2,7 +2,7 @@
 title: "DeFi France X : De la ferme à la mine" 
 description: "Retour sur l'évènement DeFi France X : le programme, la vidéo et les slides."
 date: '2020-10-01T10:13:50.191Z'
-categories: [Projets]
+categories: [Projects]
 tags: [DeFi, Ethereum, Compound, Yean Finance, Curve, SushiSwap, Uniswap]
 image: /img/others/defi-france/defifranceX.png
 difficulty: "beginner"

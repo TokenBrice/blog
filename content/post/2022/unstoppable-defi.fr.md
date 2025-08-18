@@ -2,7 +2,7 @@
 title: "Dans les coulisses du théâtre de la décentralisation : étude de l’inaltérabilité des protocoles DeFi"
 description: "De la centralisation totale aux protocoles inarrêtables : définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi"
 date: '2022-05-18T01:13:50.191Z'
-categories: [DeFi, Comprendre]
+categories: [Analysis]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, Pooltogether, Chainlink, Oracles]
 toc: true
 tocNum: true

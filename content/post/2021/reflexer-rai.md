@@ -2,7 +2,7 @@
 title: "🗿 Reflexer Labs (RAI) : the What, How and Why"
 description: "Reflexer's RAI is a new type of asset still unique in DeFi. It is also based on a system with a de-governance scheme. So let's look at how to stay safe from the risks associated with fiat currencies, centralization and trust thanks to RAI's design!"
 date: '2021-09-17T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
 tocNum: false

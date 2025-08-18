@@ -2,7 +2,7 @@
 title: "Est-ce une Renaissance du Lending ?"
 description: "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un seul : est-ce une renaissance des protocoles de prêt ?"
 date: '2024-07-01T01:13:50.191Z'
-categories: [DeFi, Understanding]
+categories: [Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png

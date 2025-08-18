@@ -2,7 +2,7 @@
 title: "DeFi is a toolbox reaching beyond finance"
 description: "Considering how the core building blocks of Ethereum's decentralised finance can be successfully harnessed to tackle other use cases."
 date: '2020-12-01T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [Thesis]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin]
 image: /img/2020/defi-beyond-finance/cover.png
 difficulty: "beginner"

@@ -2,7 +2,7 @@
 title: "Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?"
 description: "La quête de stabilité sur Ethereum : aperçu des différentes approches de stabilisation et indexation d'actifs pour en comprendre leurs enjeux."
 date: '2021-03-23T01:13:50.191Z'
-categories: [DeFi, Comprendre]
+categories: [Stablecoin, Lending, Yield]
 tags: [DeFi, Ethereum, Finance décentralisée, DEX, Aave, Compound, Reflexer, Stablecoin, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
 toc: true
 tocNum: true

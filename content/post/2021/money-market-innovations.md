@@ -2,7 +2,7 @@
 title: "Understanding innovations in money markets to envision their future"
 description: "What are the next steps for money markets? We're tackling different themes with an emblematic project: re-appropriation of liquidations with Bprotocol, loans that pay back over time with Alchemix, and much more!"
 date: '2021-04-19T01:13:50.191Z'
-categories: [DeFi, Discovery]
+categories: [Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
 toc: true
 tocNum: false

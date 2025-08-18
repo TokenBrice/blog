@@ -2,7 +2,7 @@
 title: "Tokens directeurs de liquidité au-delà de Curve : analyse des Balancer Wars"
 description: "Nous examinons les particularités de l'échange décentralisé Balancer ainsi que de son écosystème pour mieux comprendre la dynamique de la course aux BAL."
 date: '2022-11-24T01:13:50.191Z'
-categories: [DeFi, Comprendre]
+categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
 toc: true
 tocNum: false

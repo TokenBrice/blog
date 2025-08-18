@@ -2,7 +2,7 @@
 title: "Les fusions de Yearn Finance"
 description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi. Qu'est-ce que cela signifie pour l'ecosystème Yearn Finance ?"
 date: '2020-12-09T01:13:50.191Z'
-categories: [DeFi, Découverte]
+categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, SushiSwap]
 image: /img/2020/yearn-merger/y-among-us.gif
 difficulty: "intermediate"

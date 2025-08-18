@@ -2,7 +2,7 @@
 title: "Calling for your support to keep Aave's governance community-driven"
 description: "It's time for me to get more involved in the governance of a decentralized protocol to uphold DeFi's grassroots values: today, I'm calling for your vote delegations in Aave's governance."
 date: '2021-07-27T01:13:50.191Z'
-categories: [DeFi]
+categories: [Project]
 tags: [DeFi, Ethereum, Decentralized finance, Aave, Governance, Delegation]
 url: aave-governance-program
 image: /img/2021/aave-governance-platform/cover.png
