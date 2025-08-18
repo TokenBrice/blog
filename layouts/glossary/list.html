@@ -1247,13 +1247,17 @@
     border-radius: var(--card-border-radius);
     overflow: hidden;
     background: var(--card-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .related-articles-list .article-image img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    border-radius: var(--card-border-radius);
 }
 
 .related-articles-list article:hover .article-image img {

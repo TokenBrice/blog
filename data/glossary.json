@@ -28,6 +28,10 @@
         ],
         "common_questions": [
           {
+            "question": "Where is the yield coming from?",
+            "answer": "If you cannot answer this question precisely, you are likely to be the source of yield."
+          },
+          {
             "question": "What is the difference between APR and APY?",
             "answer": "APR shows simple interest while APY includes compounding effects. APY is typically higher and more accurate for DeFi yields."
           }
@@ -40,13 +44,13 @@
           },
           {
             "title": "🍷 Yields are like fine wines, the secret lies in the brewing process",
-            "url": "/fixed-interest-rate-protocol-firp-apwine/",
+            "url": "http://localhost:1313/definancial-guide/",
             "description": "An introduction to Fixed Interest Rate Protocols (FIRPs) through the lense of APWine to better understand what they enable and bring to DeFi."
           },
           {
-            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
-            "url": "/maverick-liquidity-shaping/",
-            "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
+            "title": "📖 How to make DeFinancial products work for you",
+            "url": "/definancial-guide/",
+            "description": "A balanced overview of decentralised finance services you can use to make your ETH work for you - 6 base strategies, their variants, & what to watch for while implementing them."
           }
         ]
       },
@@ -77,6 +81,10 @@
         ],
         "common_questions": [
           {
+            "question": "Why impermanent? It it a loss or not?",
+            "answer": "Technically, you haven't lost anything until your terminate your LP position, since that even with sizable IL, if the price recover, IL turns into IG."
+          },
+          {
             "question": "How can I minimize impermanent loss?",
             "answer": "Choose stable pairs, use concentrated liquidity ranges carefully, or consider single-sided staking instead of providing liquidity to volatile pairs."
           }
@@ -88,9 +96,9 @@
             "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
           },
           {
-            "title": "🗿 Reflexer Labs (RAI) : the What, How and Why",
-            "url": "/reflexer-rai/",
-            "description": "Reflexer's RAI is a new type of asset still unique in DeFi. It is also based on a system with a de-governance scheme. So let's look at how to stay safe from the risks associated with fiat currencies, centralization and trust thanks to RAI's design!"
+            "title": "Subtles nuances with great consequences: a cross analysis of Curve and Velodrome",
+            "url": "/crv-vs-velo/",
+            "description": "The Velodrome model, inspired by veCRV, achieves superior alignment between the three key participants of a DEX - LPs, tokenholders, and projects needing liquidity. Yet, most of the DeFi space still fails understand why: but not you anon - once you read this post."
           },
           {
             "title": "NFTfi: NFT meets DeFi, liquidity and leverage ensue",
@@ -104,8 +112,8 @@
         "term": "Yield Farming",
         "full_term": "Yield Farming",
         "category": "strategies",
-        "definition": "Yield farming is the practice of moving crypto assets between different DeFi protocols to maximize returns. Farmers typically provide liquidity, lend assets, or stake tokens to earn yields in the form of interest, fees, or reward tokens.",
-        "short_definition": "Strategy of maximizing returns by moving assets between DeFi protocols",
+        "definition": "Yield farming is the practice of maximizing yield on a given asset, usually by staking sources. Farmers typically provide liquidity, lend assets, or (re)stake tokens to earn yields in the form of interest, fees, or reward tokens.",
+        "short_definition": "Strategy of maximizing returns by harnessing several DeFi protocols",
         "example": "A yield farmer might provide ETH/USDC liquidity on Uniswap, stake the LP tokens on a rewards platform, and use the earned tokens in another protocol for additional yields.",
         "related_terms": [
           "liquidity-mining",
@@ -143,9 +151,9 @@
             "description": "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: let's stack!"
           },
           {
-            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
-            "url": "/maverick-liquidity-shaping/",
-            "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
+            "title": "How to build an inflation-proof DeFi portfolio?",
+            "url": "/defi-vs-inflation/",
+            "description": "What if DeFi, more than ever, offered serious and credible answers to economic and financial issues? Example with the galloping inflation and the various products and strategies DeFi offers to guard against it."
           }
         ]
       },
@@ -154,7 +162,7 @@
         "term": "Liquidity Mining",
         "full_term": "Liquidity Mining",
         "category": "strategies",
-        "definition": "Liquidity mining is a mechanism where users provide liquidity to decentralized exchanges or lending protocols in exchange for token rewards. It's used by protocols to bootstrap liquidity and distribute governance tokens to users.",
+        "definition": "Liquidity mining is a mechanism where users provide liquidity to a protocol in exchange for token rewards. It's used by protocols to bootstrap liquidity and distribute governance tokens to users. It is a distribution mechanism for the governance token of a protocol.",
         "short_definition": "Earning token rewards by providing liquidity to DeFi protocols",
         "example": "Compound distributes COMP tokens to users who supply assets to their lending pools, incentivizing liquidity provision.",
         "related_terms": [
@@ -181,11 +189,6 @@
           }
         ],
         "related_articles": [
-          {
-            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
-            "url": "/maverick-liquidity-shaping/",
-            "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
-          },
           {
             "title": "🧰 The DeFinancial Farming Toolbox",
             "url": "/defi-farmer-toolbox/",
@@ -236,14 +239,14 @@
             "description": "Cornering the lay of the land of the Balancer Wars: we look at the DEX specificities to anticipate what's next for the BAL races."
           },
           {
-            "title": "💦 The Yield Farmer Tier List",
-            "url": "/yield-farmer-tier-list/",
-            "description": "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: let's stack!"
+            "title": "⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol",
+            "url": "/crv-wars/",
+            "description": "A concise guide to tracking the CRV accumulation race by any means possible including vote buying (Bribes) and evaluating the Curve strategies of DeFi protocols"
           },
           {
-            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
-            "url": "/maverick-liquidity-shaping/",
-            "description": "The DEX war rages on, more competitive than ever. Next to the unicorn, llama and scale cartels, a fourth center is emerging thanks to unprecedented features: umatched liquidity structures paired with an immensely more efficient incentivization models: **liquidity shaping**. Will it be enough for Maverick to prevail?"
+            "title": "ve(3,3), the logical next step after veCRV?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "A deeper look at the Solidly and then later Velodrome model for understanding their improvement on the base Curve / veCRV template."
           }
         ]
       },
@@ -273,6 +276,10 @@
           "decentralization"
         ],
         "common_questions": [
+          {
+            "question": "Are DAO an ideal of democracy?",
+            "answer": "Quite the opposite, it is a pure ploutocracy. In most DAOS, 1 token = 1 vote, which leads to a massive concentration of influence into the hands of team members, investors, advisors and early users."
+          },
           {
             "question": "How do I participate in DAO governance?",
             "answer": "Hold governance tokens, stay informed about proposals, and vote on decisions that affect the protocol's future."
