@@ -14,8 +14,8 @@ Le paysage des veNFT évolue rapidement, inaugurant une nouvelle ère de finance
 
 Dans cet article, je souhaite mettre en avant quelques‑uns d'entre eux:  **[Autopilot](https://theautopilot.xyz/), [40Acres](https://www.40acres.finance/) & [haiVELO](https://www.letsgethai.com/)**. Vous pouvez vous référer à mes articles précédents si vous n'êtes pas déjà familier avec le modèle veNFT:
 
-* [ve(3,3), l'étape logique suivante après veCRV?](https://tokenbrice.xyz/solidly-velodrome-fork/)
-* [Des nuances subtiles aux grandes conséquences: une analyse croisée de Curve et Velodrome](https://tokenbrice.xyz/crv-vs-velo/)
+* [ve(3,3), l'étape logique suivante après veCRV?](https://tokenbrice.xyz/fr/solidly-velodrome-fork/)
+* [Des nuances subtiles aux grandes conséquences: une analyse croisée de Curve et Velodrome](https://tokenbrice.xyz/fr/crv-vs-velo/)
 
 ## Les veNFT ont supplanté les verrous
 
