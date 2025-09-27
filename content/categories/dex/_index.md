@@ -1,6 +1,6 @@
 ---
 title: "DEX"
-description: "To explore DEX liquidity structures, incentie models and more"
+description: "To explore DEX liquidity structures, incentive models and more"
 slug: "DEX"
 image: "dex.jpg"
 style:
