@@ -68,7 +68,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: /img/main/tokenbrice-avatar-150.png
+            src: /img/main/anthereum-knight-150.png
 
 
     article:
