@@ -35,6 +35,13 @@ While I remain in control of the investment decisions since the goal is to show 
 | [arena.tokenbrice.eth](https://debank.com/profile/0x76213d91155091F79954394FCD874684cCbC05c5) | Link to the DeBank of the wallet used for this show  |
 | [All-In-One Tracking Sheet](https://docs.google.com/spreadsheets/d/1Kbt4McG9sf-okc85M8K8cILIIKkuCiMAlbKwEtR7Kis/edit?usp=sharing) | The sheets used to money invested, performance, gas costs, and anything else relevant  |
 
+### List of Episodes
+
+| Episode | Airing Date | Core Themes |
+| :---: | :---: | :---: |
+| [#01](https://www.youtube.com/watch?v=0wT-VU8PPbQ) | 16/10/2025 | Gas Management, Position Tracking, InfoFi, USDC yield on Base, Sir
+
+
 ## Spotlight
 
 <div align = center>
