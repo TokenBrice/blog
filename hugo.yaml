@@ -39,6 +39,22 @@ services:
 pagination:
     pagerSize: 10
 
+outputs:
+    home:
+        - HTML
+        - RSS
+    page:
+        - HTML
+    section:
+        - HTML
+        - RSS
+    taxonomy:
+        - HTML
+        - RSS
+    term:
+        - HTML
+        - RSS
+
 permalinks:
     post: /p/:slug/
     page: /:slug/
