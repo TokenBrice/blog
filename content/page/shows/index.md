@@ -33,7 +33,7 @@ While I remain in control of the investment decisions since the goal is to show 
 | Resource & Link | Context |
 | :---: | :---: |
 | [arena.tokenbrice.eth](https://debank.com/profile/0x76213d91155091F79954394FCD874684cCbC05c5) | Link to the DeBank of the wallet used for this show  |
-| [All-In-One Tracking dSheet](https://sheets.fileverse.io/0x0cc3a7f572280810a260e90a5901088277662821/0#key=3cqocoWczVFav8lYq1Xo4N4WBWhKQgyd65cobiFHIWhAve0GGH1qRxOR5mFjC0zW) | The sheets used to money invested, performance, gas costs, and anything else relevant  |
+| [All-In-One Tracking dSheet](https://sheets.fileverse.io/0x0cc3a7f572280810a260e90a5901088277662821/0#key=3cqocoWczVFav8lYq1Xo4N4WBWhKQgyd65cobiFHIWhAve0GGH1qRxOR5mFjC0zW) | The sheets used to track money invested, performance, gas costs, and anything else relevant  |
 
 ### List of Episodes
 
