@@ -17,7 +17,7 @@
   "author": "Sigri Denver <sigri44+github@hotmail.fr>",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.6.4",
     "hash-files": "^1.1.1",
     "image-optimizer": "^0.4.0-pre2",
     "img-loader": "^3.0.1",
