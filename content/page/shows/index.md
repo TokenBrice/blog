@@ -33,13 +33,16 @@ While I remain in control of the investment decisions since the goal is to show 
 | Resource & Link | Context |
 | :---: | :---: |
 | [arena.tokenbrice.eth](https://debank.com/profile/0x76213d91155091F79954394FCD874684cCbC05c5) | Link to the DeBank of the wallet used for this show  |
-| [All-In-One Tracking dSheet](https://sheets.fileverse.io/0x0cc3a7f572280810a260e90a5901088277662821/0#key=3cqocoWczVFav8lYq1Xo4N4WBWhKQgyd65cobiFHIWhAve0GGH1qRxOR5mFjC0zW | The sheets used to track money invested, performance, gas costs, and anything else relevant  |
+| [All-In-One Tracking dSheet](https://sheets.fileverse.io/0x0cc3a7f572280810a260e90a5901088277662821/0#key=3cqocoWczVFav8lYq1Xo4N4WBWhKQgyd65cobiFHIWhAve0GGH1qRxOR5mFjC0zW) | The sheets used to track money invested, performance, gas costs, and anything else relevant  |
 
 ### List of Episodes
 
 | Episode | Airing Date | Core Themes |
 | :---: | :---: | :---: |
 | [#01](https://www.youtube.com/watch?v=0wT-VU8PPbQ) | 16/10/2025 | Gas Management, Position Tracking, InfoFi, USDC yield on Base, Sir
+| [#02](https://www.youtube.com/watch?v=zuh6U1S1i5w) | 30/10/2025 | Stablecoin deployment: Avantis, Glider and MegaETH
+| [#03](https://www.youtube.com/watch?v=6tbgqEyQgcg) | 13/11/2025 | 1 month report & veAERO special
+
 
 
 ## Spotlight
