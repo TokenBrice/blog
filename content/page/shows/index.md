@@ -50,11 +50,13 @@ With [Digital Duniya](https://www.youtube.com/@Digital%E0%A4%A6%E0%A5%81%E0%A4%A
 
 ### Episodes Overview
 
-| Episode | Airing Date | Core Themes |
+| Episode | Airing Date | Highlights |
 | :---: | :---: | :---: |
 | [#01: How Uniswap Accidentally Rewired Modern Finance](https://www.youtube.com/watch?v=QoBQCsElvas) | 08/11/2025 | Constant product AMMs, SushiSwap vampire attack, license in DeFi
 | [#02: Uniswap V3 & V4 Guide: How Liquidity on Ethereum Evolved](https://www.youtube.com/watch?v=SgGusl9obJM) | 24/11/2025 | Concentrated Liquidity, LP professionalization, Hooks
 | [#03: Curve Finance: StableSwap, veCRV, Convex](https://www.youtube.com/watch?v=3VeGP2_2LzA) | 28/11/2025 | Token-Enforced Property Rights, veCRV model, Curve ecosystem
+| [#04: Aerodrome MetaDEX Explained: The New Liquidity Engine of DeFi](https://www.youtube.com/watch?v=V3xqXmBSHp0&pp=0gcJCSkKAYcqIYzv) | 05/12/2025 | MetaDEX model history, Velodrome early successes, Aerodrome scaling, V3
+| [#05: How Fluid Uses YOUR Debt as Liquidity](https://www.youtube.com/watch?v=eLocntcGWUk) | 12/12/2025 | Smart Debt explained, Fluid x correlated pairs, Fluid V2
 
 
 ## Spotlight
