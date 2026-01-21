@@ -22,7 +22,7 @@
     "image-optimizer": "^0.4.0-pre2",
     "img-loader": "^3.0.1",
     "lodash": "^4.17.4",
-    "sharp": "^0.17.1",
+    "sharp": "^0.30.5",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
     "vue-multiselect": "^2.1.6"
