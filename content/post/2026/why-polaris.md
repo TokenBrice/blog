@@ -5,7 +5,7 @@ date: '2026-01-27T01:13:50.191Z'
 categories: [Projects, Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Stablecoin]
 url: why-polaris
-image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2026/why-polaris/why-polaris-cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2026/why-polaris/why-polaris-cover.jpg
 toc: false
 draft: false
 type: post
