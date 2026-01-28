@@ -103,7 +103,7 @@ More details soon. For now, understand that the architecture serves the philosop
 
 ## The Call
 
-Polaris isn't live. You are early. For now, the best place to learn about [Polaris is the website](https://polarisfinance.io) and the most eager can already join [our Telegram announcement channel](t.me/polaris_ann). 
+Polaris isn't live. You are early. For now, the best place to learn about [Polaris is the website](https://polarisfinance.io) and the most eager can already join [our Telegram announcement channel](https://t.me/polaris_ann). 
 
 I've spent years writing about DeFi, analyzing protocols, watching the compromises accumulate, and the promises evaporate. If you've seen stablecoins abandon their foundations and felt something was wrong, you understand why we're here. If you believe that decentralization is a property of architecture, not marketing, you understand what we're building.
 
