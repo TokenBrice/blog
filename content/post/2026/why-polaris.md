@@ -37,7 +37,7 @@ The Pigeon never learned to fly.
 
 Ethena launched USDe with a compelling narrative: a stablecoin generating yield from the basis trade. Delta-neutral positions across spot and perpetual markets. The pitch was clean, and made accessible to all a trade that used to be much more demanding and complex to implement.
 
-Then, market conditions changed. After October 10 2024, basis trade yields compressed. The spread that funded USDe's returns narrowed to levels that couldn't sustain the promised yield. Ethena had a problem. USDe quietly shifted the yield source and began sourcing returns from tokenized T-bills, using pyUSD. The onchain, crypto-native yield engine became yet another T-bill wrapper.
+Then, market conditions changed. After October 10 2025, basis trade yields compressed. The spread that funded USDe's returns narrowed to levels that couldn't sustain the promised yield. Ethena had a problem. USDe quietly shifted the yield source and began sourcing returns from tokenized T-bills, using pyUSD. The onchain, crypto-native yield engine became yet another T-bill wrapper.
 
 Yet most USDe holders did not realize. Go around and ask people where they think USDe's yield is coming from, and they still reply almost automatically, "basis trade". And they were right ~6 months or more ago when they deposited into it, but they're now holding exposure to tokenized treasuries. The black box changed its contents, the label stayed the same, and very few realized what happened.
 
