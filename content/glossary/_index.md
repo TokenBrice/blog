@@ -33,10 +33,6 @@ Each item is provided with definition, example, related questions and relevant c
 - **Multilingual**: Available in English and French
 - **Forkability**: Open source + easy to fork to translate into other languages 
 
-## Categories
-
-{{< glossary-categories >}}
-
 ---
 
 *This glossary is maintained and regularly updated to reflect the latest DeFi developments. Have a term to suggest? [Get in touch](/about).*

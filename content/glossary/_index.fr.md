@@ -30,10 +30,6 @@ Votre guide complet de la terminologie de la finance décentralisée. Ce glossai
 - **Mises à jour régulières** : Continuellement mis à jour avec les nouvelles innovations DeFi
 - **Multilingue** : Disponible en français et anglais
 
-## Catégories
-
-{{< glossary-categories >}}
-
 ---
 
 *Ce glossaire est maintenu et régulièrement mis à jour pour refléter les derniers développements DeFi. Vous avez un terme à suggérer ? [Contactez-moi](/fr/about).*

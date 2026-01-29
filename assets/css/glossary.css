@@ -14,119 +14,139 @@
     line-height: 1.6;
 }
 
-/* Glossary App Styles - Stack Theme Compatible */
+/* Glossary App Styles */
 .glossary-app {
     margin-top: 2rem;
 }
 
-/* Category Filter Cards */
-.category-filter-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.category-card {
-    background: var(--card-background);
-    border: 2px solid var(--card-border-color);
-    border-radius: var(--card-border-radius);
-    padding: 1.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.category-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-l2);
-    border-color: var(--accent-color);
-}
-
-.category-card.active {
-    border-color: var(--category-accent, var(--accent-color));
-    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.05) 100%);
-    box-shadow: var(--shadow-l2);
-}
-
-.category-card.active::before {
-    content: '';
-    position: absolute;
+/* =============================================
+   GLOSSARY CONTROLS BAR (Search + Pills)
+   ============================================= */
+.glossary-controls {
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--category-accent, var(--accent-color));
+    z-index: 20;
+    background: rgba(var(--body-background-rgb, 255,255,255), 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 1rem var(--card-padding, 1.5rem);
+    margin: 0 calc(-1 * var(--card-padding, 1.5rem));
+    border-bottom: 1px solid var(--card-border-color);
 }
 
-.category-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+/* Search Input */
+.glossary-search-wrap {
+    position: relative;
     margin-bottom: 0.75rem;
 }
 
-.category-icon {
-    font-size: 1.5rem;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--category-accent, var(--accent-color));
-    border-radius: 50%;
-    flex-shrink: 0;
-}
-
-.category-header h3 {
-    margin: 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--card-text-color-main);
-}
-
-.category-description {
-    margin: 0 0 1rem 0;
+.glossary-search-wrap .search-icon {
+    position: absolute;
+    left: 0.875rem;
+    top: 50%;
+    transform: translateY(-50%);
     color: var(--card-text-color-secondary);
-    font-size: 0.9rem;
-    line-height: 1.4;
+    pointer-events: none;
 }
 
-.category-count {
-    display: inline-block;
-    background: var(--category-accent, var(--accent-color));
-    color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: var(--tag-border-radius);
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+.glossary-search {
+    width: 100%;
+    padding: 1rem 1.25rem 1rem 3rem;
+    border: 1.5px solid var(--card-border-color);
+    border-radius: var(--tag-border-radius, 8px);
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+    font-size: 1.3rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.alphabet-nav {
+.glossary-search:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(var(--accent-color-rgb, 66,133,244), 0.15);
+}
+
+.glossary-search::placeholder {
+    color: var(--card-text-color-secondary);
+    opacity: 0.7;
+}
+
+/* Category Pills */
+.category-pills {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 2rem;
-    padding: var(--card-padding);
+    margin-bottom: 0.5rem;
+}
+
+.category-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.15rem;
+    border-radius: 999px;
+    border: 1.5px solid var(--pill-color, var(--card-border-color));
+    background: transparent;
+    color: var(--card-text-color-main);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.category-pill:hover {
+    background: rgba(var(--accent-color-rgb, 66,133,244), 0.08);
+}
+
+.category-pill.active {
+    background: var(--pill-color, var(--accent-color));
+    color: white;
+    border-color: var(--pill-color, var(--accent-color));
+}
+
+.pill-count {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.glossary-result-count {
+    font-size: 1.2rem;
+    color: var(--card-text-color-secondary);
+    font-weight: 500;
+}
+
+/* =============================================
+   ALPHABET NAVIGATION
+   ============================================= */
+.alphabet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 1.5rem;
+    padding: 0.75rem var(--card-padding, 1.5rem);
     background: var(--card-background);
     border-radius: var(--card-border-radius);
     border: 1px solid var(--card-border-color);
     align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 120px; /* Below controls bar */
+    z-index: 15;
 }
 
 .alphabet-link {
     background: var(--accent-color);
     color: var(--accent-color-text);
     border: none;
-    padding: 0.5rem 0.75rem;
+    padding: 0.45rem 0.7rem;
     border-radius: var(--tag-border-radius);
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 600;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
+    min-width: 32px;
+    text-align: center;
 }
 
 .alphabet-link:hover {
@@ -135,34 +155,161 @@
     box-shadow: var(--shadow-l1);
 }
 
+.alphabet-link.active {
+    transform: scale(1.15);
+    box-shadow: var(--shadow-l2);
+    background: var(--accent-color-darker, var(--accent-color));
+}
+
+/* =============================================
+   LETTER SECTIONS
+   ============================================= */
 .letter-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .letter-heading {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 900;
     color: var(--accent-color);
-    margin-bottom: 2rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.6rem;
     border-bottom: 2px solid var(--accent-color);
-    position: sticky;
-    top: 0;
     background: var(--body-background);
     z-index: 10;
 }
 
-.term-card {
+/* =============================================
+   COMPACT TERM CARDS (Hub Page)
+   ============================================= */
+.compact-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-border-color);
+    border-left: 3px solid var(--term-accent, var(--card-border-color));
+    border-radius: var(--card-border-radius);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-l1);
+    position: relative;
+}
+
+.compact-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-l2);
+    border-left-width: 5px;
+    border-color: var(--term-accent, var(--accent-color-lighter));
+}
+
+.compact-card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.compact-card-icon svg,
+.term-icon svg {
+    width: 60%;
+    height: 60%;
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.term-category-badge svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.compact-card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.compact-card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.compact-term-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--card-text-color-main);
+}
+
+.compact-full-term {
+    font-size: 1.2rem;
+    color: var(--card-text-color-secondary);
+    font-weight: 400;
+}
+
+.compact-definition {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.65;
+    color: var(--card-text-color-secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.compact-badge {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    align-self: center;
+}
+
+/* =============================================
+   FULL TERM CARDS (Individual Term Pages only)
+   ============================================= */
+.glossary-term-page .term-card {
     background: var(--card-background);
     border: 1px solid var(--card-border-color);
     border-radius: var(--card-border-radius);
-    padding: 0; /* Reset padding since we have specific sections */
+    padding: 0;
     margin-bottom: 2rem;
     transition: all 0.3s ease;
     box-shadow: var(--shadow-l1);
     position: relative;
     border-left: 4px solid var(--card-border-color);
     overflow: hidden;
+}
+
+.glossary-term-page .term-card:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color-lighter);
 }
 
 .term-category-header {
@@ -173,12 +320,6 @@
     text-align: left;
     margin: 0;
     border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
-}
-
-.term-card:hover {
-    box-shadow: var(--shadow-l2);
-    transform: translateY(-2px);
-    border-color: var(--accent-color-lighter);
 }
 
 .term-header {
@@ -203,7 +344,7 @@
     font-weight: bold;
     flex-shrink: 0;
     box-shadow: var(--shadow-l1);
-    margin-left: -4px; /* Align with the left border */
+    margin-left: -4px;
 }
 
 .term-title-group {
@@ -212,7 +353,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.25rem;
-    min-height: 48px; /* Match icon height */
+    min-height: 48px;
 }
 
 .term-title {
@@ -291,7 +432,7 @@
     line-height: 1;
 }
 
-/* Example Section - Light blue with lightbulb theme */
+/* Example Section */
 .term-example {
     margin-bottom: 1rem;
     padding: 0.875rem;
@@ -323,7 +464,7 @@
     font-weight: 600;
 }
 
-/* Risks Section - Light yellow/amber with caution theme */
+/* Risks Section */
 .term-risks {
     margin-bottom: 1rem;
     padding: 0.875rem;
@@ -355,7 +496,7 @@
     font-weight: 600;
 }
 
-/* 2-Column Layout for Secondary Info (Risks + Related Terms) */
+/* 2-Column Layout for Secondary Info */
 .term-secondary-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -363,7 +504,6 @@
     margin-bottom: 1rem;
 }
 
-/* Update individual sections to remove bottom margins when in grid */
 .term-secondary-info .term-risks {
     margin-bottom: 0;
 }
@@ -372,7 +512,7 @@
     margin-bottom: 0;
 }
 
-/* Related Terms Section - Keep simpler styling */
+/* Related Terms Section */
 .term-related {
     margin-bottom: 1.5rem;
     padding: 0.875rem;
@@ -412,7 +552,7 @@
     text-decoration: underline;
 }
 
-/* FAQ Section - Purple/indigo notice-question style */
+/* FAQ Section */
 .term-faqs {
     margin-top: 2rem;
     padding: 1.5rem;
@@ -465,7 +605,6 @@
     transform: translateY(-1px);
 }
 
-/* Dark mode for FAQ items */
 [data-scheme="dark"] .faq-item {
     background: transparent;
 }
@@ -474,7 +613,7 @@
     background: rgba(139, 92, 246, 0.08);
 }
 
-/* Articles section - keep simpler */
+/* Articles section */
 .term-articles {
     margin-top: 2rem;
     padding-top: 1.5rem;
@@ -550,93 +689,6 @@
 .no-results p {
     color: var(--card-text-color-secondary);
     font-size: 1rem;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .category-filter-cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .term-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .alphabet-nav {
-        justify-content: center;
-    }
-
-    .letter-heading {
-        font-size: 2rem;
-    }
-
-    .term-name {
-        font-size: 1.3rem;
-    }
-
-    /* Stack secondary info sections vertically on mobile */
-    .term-secondary-info {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Dark mode support for category cards */
-[data-scheme="dark"] .category-card {
-    background: var(--card-background);
-    border-color: var(--card-border-color);
-}
-
-[data-scheme="dark"] .category-card.active {
-    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.08) 100%);
-}
-
-[data-scheme="dark"] .category-header h3 {
-    color: var(--card-text-color-main);
-}
-
-[data-scheme="dark"] .category-description {
-    color: var(--card-text-color-secondary);
-}
-
-[data-scheme="dark"] .term-definition,
-[data-scheme="dark"] .term-example p,
-[data-scheme="dark"] .term-related p,
-[data-scheme="dark"] .faq-answer {
-    color: var(--card-text-color-main);
-}
-
-[data-scheme="dark"] .term-risks li {
-    color: var(--card-text-color-main);
-}
-
-[data-scheme="dark"] .letter-heading {
-    background: var(--body-background);
-    color: var(--accent-color);
-}
-
-/* Fix any remaining text color issues in dark mode */
-[data-scheme="dark"] .glossary-app * {
-    /* Inherit proper colors from theme */
-}
-
-[data-scheme="dark"] .term-card {
-    background: var(--card-background);
-    border-color: var(--card-border-color);
-    color: var(--card-text-color-main);
-}
-
-[data-scheme="dark"] .term-name {
-    color: var(--card-text-color-main) !important;
-}
-
-[data-scheme="dark"] .full-term {
-    color: var(--card-text-color-secondary) !important;
-}
-
-[data-scheme="dark"] .faq-question {
-    color: var(--card-text-color-main) !important;
 }
 
 /* Related Articles Styling */
@@ -722,22 +774,81 @@
     transform: scale(1.05);
 }
 
-/* Dark mode support for related articles */
-[data-scheme="dark"] .related-articles-list article {
-    background: var(--card-background-selected);
-    border-color: var(--card-border-color);
-}
-
-[data-scheme="dark"] .related-articles-list .article-title {
-    color: var(--accent-color);
-}
-
-[data-scheme="dark"] .related-articles-list .article-preview {
-    color: var(--card-text-color-secondary);
-}
-
-/* Responsive design for related articles */
+/* =============================================
+   RESPONSIVE DESIGN
+   ============================================= */
 @media (max-width: 768px) {
+    .glossary-controls {
+        padding: 0.75rem 1rem;
+        margin: 0 -1rem;
+    }
+
+    .category-pills {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-bottom: 0.25rem;
+    }
+
+    .category-pills::-webkit-scrollbar {
+        display: none;
+    }
+
+    .compact-badge {
+        display: none;
+    }
+
+    .compact-card {
+        padding: 1rem 1.15rem;
+        gap: 1rem;
+    }
+
+    .compact-card-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .compact-term-name {
+        font-size: 1.45rem;
+    }
+
+    .compact-full-term {
+        font-size: 1.1rem;
+    }
+
+    .compact-definition {
+        font-size: 1.15rem;
+    }
+
+    .alphabet-nav {
+        gap: 0.25rem;
+    }
+
+    .alphabet-link {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.85rem;
+        min-width: 26px;
+    }
+
+    .letter-heading {
+        font-size: 1.85rem;
+    }
+
+    .term-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .term-name {
+        font-size: 1.3rem;
+    }
+
+    .term-secondary-info {
+        grid-template-columns: 1fr;
+    }
+
     .related-articles-list .article-image {
         width: 60px;
         height: 45px;
@@ -750,4 +861,85 @@
     .related-articles-list .article-preview {
         font-size: 0.8rem;
     }
+}
+
+/* =============================================
+   DARK MODE
+   ============================================= */
+[data-scheme="dark"] .glossary-controls {
+    background: rgba(var(--body-background-rgb, 30,30,30), 0.85);
+}
+
+[data-scheme="dark"] .glossary-search {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .category-pill {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .category-pill.active {
+    color: white;
+}
+
+[data-scheme="dark"] .compact-card {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .compact-term-name {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .compact-definition {
+    color: var(--card-text-color-secondary);
+}
+
+[data-scheme="dark"] .glossary-term-page .term-card {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-name {
+    color: var(--card-text-color-main) !important;
+}
+
+[data-scheme="dark"] .full-term {
+    color: var(--card-text-color-secondary) !important;
+}
+
+[data-scheme="dark"] .faq-question {
+    color: var(--card-text-color-main) !important;
+}
+
+[data-scheme="dark"] .term-definition,
+[data-scheme="dark"] .term-example p,
+[data-scheme="dark"] .term-related p,
+[data-scheme="dark"] .faq-answer {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-risks li {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .letter-heading {
+    background: var(--body-background);
+    color: var(--accent-color);
+}
+
+[data-scheme="dark"] .related-articles-list article {
+    background: var(--card-background-selected);
+    border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-title {
+    color: var(--accent-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-preview {
+    color: var(--card-text-color-secondary);
 }

@@ -1,0 +1,36 @@
+{{- $term := .term -}}
+{{- $lang := .lang -}}
+{{- $categoryColor := partial "glossary/category-color.html" $term.category -}}
+{{- $categoryIcon := partial "glossary/category-icon.html" $term.category -}}
+
+{{- /* Language-aware glossary base path */ -}}
+{{- $glossaryBase := "/glossary/" -}}
+{{- if eq $lang "fr" -}}
+    {{- $glossaryBase = "/fr/glossary/" -}}
+{{- end -}}
+
+{{- /* Resolve category name */ -}}
+{{- $site := .site -}}
+{{- $categories := index $site.Data.glossary.categories $lang -}}
+{{- $categoryName := $term.category -}}
+{{- range $categories -}}
+    {{- if eq .id $term.category -}}
+        {{- $categoryName = .name -}}
+    {{- end -}}
+{{- end -}}
+
+<a href="{{ $glossaryBase }}{{ $term.id }}/" class="compact-card" data-category="{{ $term.category }}" data-term-id="{{ $term.id }}" style="--term-accent: {{ $categoryColor }}">
+    <div class="compact-card-icon" style="background-color: {{ $categoryColor }}">
+        {{ partial "glossary/term-icon.html" (dict "termId" $term.id "fallback" $categoryIcon) }}
+    </div>
+    <div class="compact-card-body">
+        <div class="compact-card-header">
+            <span class="compact-term-name">{{ $term.term }}</span>
+            {{- if ne $term.full_term $term.term }}
+            <span class="compact-full-term">{{ $term.full_term }}</span>
+            {{- end }}
+        </div>
+        <p class="compact-definition">{{ $term.short_definition }}</p>
+    </div>
+    <span class="compact-badge" style="background-color: {{ $categoryColor }}">{{ $categoryName }}</span>
+</a>

@@ -3,6 +3,11 @@
 {{ end }}
 
 {{ define "main" }}
+    {{- $lang := .Language.Lang -}}
+    {{- $glossaryData := index .Site.Data.glossary $lang -}}
+    {{- $terms := $glossaryData.terms -}}
+    {{- $categories := index .Site.Data.glossary.categories $lang -}}
+
     <article class="{{ if .Params.image }}has-image {{ end }}main-article">
         <header class="article-header">
             <div class="article-details">
@@ -22,94 +27,97 @@
 
         <section class="article-content">
             {{ .Content }}
-            
-            <div id="glossary-app" class="glossary-app">
-                <!-- Quick Navigation -->
-                <div class="alphabet-nav" id="alphabet-container"></div>
 
-                <!-- Terms Display -->
+            <div id="glossary-app" class="glossary-app">
+                <!-- Controls Bar: Search + Category Pills -->
+                <div class="glossary-controls" id="glossary-controls">
+                    <div class="glossary-search-wrap">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="search" id="glossary-search" class="glossary-search" placeholder="{{ if eq $lang "fr" }}Rechercher un terme…{{ else }}Search terms…{{ end }}" autocomplete="off" />
+                    </div>
+                    <div class="category-pills" id="category-pills">
+                        <button class="category-pill active" data-category="" style="--pill-color: var(--accent-color)">{{ if eq $lang "fr" }}Tous{{ else }}All{{ end }} <span class="pill-count">{{ len $terms }}</span></button>
+                        {{- range $categories }}
+                        {{- $color := partial "glossary/category-color.html" .id -}}
+                        <button class="category-pill" data-category="{{ .id }}" style="--pill-color: {{ $color }}">
+                            {{ partial "glossary/category-icon.html" .id }} {{ .name }}
+                        </button>
+                        {{- end }}
+                    </div>
+                    <div class="glossary-result-count"><span id="result-count">{{ len $terms }}</span> {{ if eq $lang "fr" }}termes{{ else }}terms{{ end }}</div>
+                </div>
+
+                <!-- Alphabet Navigation (server-rendered) -->
+                {{- $letters := slice -}}
+                {{- range $terms -}}
+                    {{- $letter := upper (substr .term 0 1) -}}
+                    {{- if not (in $letters $letter) -}}
+                        {{- $letters = $letters | append $letter -}}
+                    {{- end -}}
+                {{- end -}}
+                {{- $letters = sort $letters -}}
+                <div class="alphabet-nav" id="alphabet-container">
+                    {{- range $letters }}
+                    <button class="alphabet-link" data-letter="{{ . }}" onclick="document.getElementById('letter-{{ . }}').scrollIntoView({behavior:'smooth',block:'start'})">{{ . }}</button>
+                    {{- end }}
+                </div>
+
+                <!-- Terms Display (server-rendered, compact cards) -->
                 <div class="terms-wrapper">
-                    <div id="terms-list" class="terms-list"></div>
+                    <div id="terms-list" class="terms-list">
+                        {{- /* Group terms by first letter */ -}}
+                        {{- range $letter := $letters -}}
+                            <div class="letter-section" id="letter-{{ $letter }}">
+                                <h2 class="letter-heading">{{ $letter }}</h2>
+                                {{- range $terms -}}
+                                    {{- if eq (upper (substr .term 0 1)) $letter -}}
+                                        {{ partial "glossary/term-card-compact.html" (dict "term" . "lang" $lang "site" $.Site) }}
+                                    {{- end -}}
+                                {{- end -}}
+                            </div>
+                        {{- end -}}
+                    </div>
                     <div id="no-results" class="no-results" style="display: none;">
-                        <h3>{{ if eq .Language.Lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
-                        <p>{{ if eq .Language.Lang "fr" }}Sélectionnez une autre catégorie.{{ else }}Try selecting a different category.{{ end }}</p>
+                        <h3>{{ if eq $lang "fr" }}Aucun terme trouvé{{ else }}No terms found{{ end }}</h3>
+                        <p>{{ if eq $lang "fr" }}Essayez une autre recherche ou catégorie.{{ else }}Try a different search or category.{{ end }}</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!-- Add article footer -->
         {{ partial "article/components/footer" . }}
     </article>
-    
+
     <!-- Add related content section -->
     {{ partial "article/components/related-content" . }}
-    
+
     <!-- Add footer as in other pages -->
     {{ partialCached "footer/footer" . }}
 
-<!-- FAQ Schema for SEO -->
+<!-- DefinedTermSet Schema for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
+  "@type": "DefinedTermSet",
   "name": "{{ .Title }}",
   "description": "{{ .Description }}",
   "url": "{{ .Permalink }}",
-  "mainEntity": [
-    {{- $lang := .Language.Lang -}}
-    {{- $glossaryData := index .Site.Data.glossary $lang -}}
-    {{- $terms := $glossaryData.terms -}}
+  "hasDefinedTerm": [
     {{- range $index, $term := $terms -}}
-      {{- range $qIndex, $qa := $term.common_questions -}}
-        {{- if or (gt $index 0) (gt $qIndex 0) }},{{ end }}
-        {
-          "@type": "Question",
-          "name": {{ $qa.question | jsonify }},
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": {{ $qa.answer | jsonify }}
-          }
-        }
-      {{- end -}}
+      {{- if gt $index 0 }},{{ end }}
+      {
+        "@type": "DefinedTerm",
+        "name": {{ $term.term | jsonify }},
+        "description": {{ $term.short_definition | jsonify }},
+        "url": "{{ $.Permalink }}{{ $term.id }}/"
+      }
     {{- end -}}
   ]
 }
 </script>
 
-<!-- Glossary Data Injection (Hugo template variables) -->
-<script>
-window.glossaryConfig = {
-    lang: '{{ .Language.Lang }}',
-    glossaryData: {{ index .Site.Data.glossary .Language.Lang | jsonify | safeJS }},
-    categories: {{ index .Site.Data.glossary.categories .Language.Lang | jsonify | safeJS }},
-    sitePages: {
-    {{- range .Site.RegularPages -}}
-        {{- $url := .RelPermalink -}}
-        {{- if .Params.url -}}
-            {{- $customUrl := printf "/%s/" .Params.url -}}
-            "{{ $customUrl }}": {
-                url: "{{ $url }}",
-                image: "{{ .Params.image | default "" }}",
-                title: "{{ .Title }}"
-            },
-            "{{ $url }}": {
-                url: "{{ $url }}",
-                image: "{{ .Params.image | default "" }}",
-                title: "{{ .Title }}"
-            },
-        {{- end -}}
-        "{{ $url }}": {
-            url: "{{ $url }}",
-            image: "{{ .Params.image | default "" }}",
-            title: "{{ .Title }}"
-        },
-    {{- end -}}
-    }
-};
-</script>
-
-<!-- Glossary JavaScript (external, minified, fingerprinted) -->
+<!-- Glossary JavaScript (progressive enhancement for filtering) -->
 {{ $glossaryJS := resources.Get "js/glossary.js" | minify | fingerprint }}
 <script src="{{ $glossaryJS.Permalink }}" defer></script>
 

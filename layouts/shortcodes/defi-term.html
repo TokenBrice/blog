@@ -10,9 +10,9 @@
   {{- if eq $lang "fr" -}}
     {{- $glossaryPath = "/fr/glossary/" -}}
   {{- end -}}
-  
-  <a href="{{ $glossaryPath }}#{{ $termId }}" 
-     class="glossary-term-link" 
+
+  <a href="{{ $glossaryPath }}{{ $termId }}/"
+     class="glossary-term-link"
      title="{{ $term.short_definition }}"
      data-term-id="{{ $termId }}"
      data-definition="{{ $term.short_definition | htmlEscape }}"

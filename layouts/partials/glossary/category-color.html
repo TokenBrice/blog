@@ -1,0 +1,25 @@
+{{- $categoryId := . -}}
+{{- $colors := dict
+    "yields" "#10B981"
+    "rendements" "#10B981"
+    "risks" "#EF4444"
+    "risques" "#EF4444"
+    "strategies" "#8B5CF6"
+    "stratégies" "#8B5CF6"
+    "protocols" "#3B82F6"
+    "protocoles" "#3B82F6"
+    "tokens" "#F59E0B"
+    "technical" "#6B7280"
+    "technique" "#6B7280"
+    "trading" "#06B6D4"
+    "governance" "#EC4899"
+    "gouvernance" "#EC4899"
+    "defi-protocols" "#3B82F6"
+    "trading-amms" "#06B6D4"
+    "governance-daos" "#EC4899"
+    "technical-concepts" "#6366F1"
+    "lending-borrowing" "#059669"
+    "stablecoins" "#F97316"
+    "yield-farming" "#10B981"
+-}}
+{{- index $colors $categoryId | default "#6B7280" -}}

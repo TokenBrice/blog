@@ -1,0 +1,262 @@
+{{ define "body-class" }}
+    article-page glossary-term-page
+{{ end }}
+
+{{ define "main" }}
+    {{- $lang := .Language.Lang -}}
+    {{- $glossaryId := .Params.glossary_id -}}
+    {{- $glossaryData := index .Site.Data.glossary $lang -}}
+    {{- $allTerms := $glossaryData.terms -}}
+    {{- $categories := index .Site.Data.glossary.categories $lang -}}
+
+    {{- /* Find the term */ -}}
+    {{- $term := false -}}
+    {{- $termIndex := 0 -}}
+    {{- range $i, $t := $allTerms -}}
+        {{- if eq $t.id $glossaryId -}}
+            {{- $term = $t -}}
+            {{- $termIndex = $i -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* Compute prev/next terms */ -}}
+    {{- $prevTerm := false -}}
+    {{- $nextTerm := false -}}
+    {{- $totalTerms := len $allTerms -}}
+    {{- if gt $termIndex 0 -}}
+        {{- $prevTerm = index $allTerms (sub $termIndex 1) -}}
+    {{- end -}}
+    {{- if lt (add $termIndex 1) $totalTerms -}}
+        {{- $nextTerm = index $allTerms (add $termIndex 1) -}}
+    {{- end -}}
+
+    {{- /* Resolve category info */ -}}
+    {{- $categoryColor := partial "glossary/category-color.html" ($term.category | default "") -}}
+    {{- $categoryIcon := partial "glossary/category-icon.html" ($term.category | default "") -}}
+    {{- $categoryName := $term.category -}}
+    {{- range $categories -}}
+        {{- if eq .id $term.category -}}
+            {{- $categoryName = .name -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* Glossary list page URL */ -}}
+    {{- $glossaryUrl := "/glossary/" -}}
+    {{- if eq $lang "fr" -}}
+        {{- $glossaryUrl = "/fr/glossary/" -}}
+    {{- end -}}
+    {{- $glossaryTitle := "DeFi Glossary" -}}
+    {{- if eq $lang "fr" -}}
+        {{- $glossaryTitle = "Glossaire DeFi" -}}
+    {{- end -}}
+
+    <article class="main-article glossary-single-term" style="border-top: 4px solid {{ $categoryColor }}">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="Breadcrumb" class="glossary-breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <ol>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="{{ if eq $lang "fr" }}/fr/{{ else }}/{{ end }}"><span itemprop="name">{{ if eq $lang "fr" }}Accueil{{ else }}Home{{ end }}</span></a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="{{ $glossaryUrl }}"><span itemprop="name">{{ $glossaryTitle }}</span></a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">{{ $term.term }}</span>
+                    <meta itemprop="position" content="3" />
+                </li>
+            </ol>
+        </nav>
+
+        <header class="article-header" style="padding-left: var(--card-padding, 1.5rem); padding-right: var(--card-padding, 1.5rem);">
+            <div class="term-category-badge" style="background-color: {{ $categoryColor }}; color: white;">
+                {{ partial "glossary/term-icon.html" (dict "termId" $glossaryId "fallback" $categoryIcon) }} {{ upper $categoryName }}
+            </div>
+            <h1 class="article-title">
+                {{ $term.term }}
+                {{- if ne $term.full_term $term.term }}
+                <span class="full-term-subtitle">({{ $term.full_term }})</span>
+                {{- end }}
+            </h1>
+        </header>
+
+        <div class="glossary-term-content" style="padding: 0 var(--card-padding, 1.5rem) var(--card-padding, 1.5rem);">
+            <!-- Definition -->
+            <section>
+                <h2>{{ if eq $lang "fr" }}Définition{{ else }}Definition{{ end }}</h2>
+                <p class="term-definition">{{ $term.definition }}</p>
+            </section>
+
+            <!-- Example -->
+            {{- with $term.example }}
+            <section>
+                <h2>{{ if eq $lang "fr" }}Exemple{{ else }}Example{{ end }}</h2>
+                <div class="term-example">
+                    <div class="example-header">
+                        <span class="example-icon">💡</span>
+                        <strong>{{ if eq $lang "fr" }}Exemple{{ else }}Example{{ end }}</strong>
+                    </div>
+                    <p>{{ . }}</p>
+                </div>
+            </section>
+            {{- end }}
+
+            <!-- Risks -->
+            {{- if gt (len (default (slice) $term.risks)) 0 }}
+            <section>
+                <h2>{{ if eq $lang "fr" }}Risques à considérer{{ else }}Risks to Consider{{ end }}</h2>
+                <div class="term-risks">
+                    <div class="risks-header">
+                        <span class="risks-icon">⚠️</span>
+                        <strong>{{ if eq $lang "fr" }}Risques{{ else }}Risks{{ end }}</strong>
+                    </div>
+                    <ul>
+                        {{- range $term.risks }}
+                        <li>{{ . }}</li>
+                        {{- end }}
+                    </ul>
+                </div>
+            </section>
+            {{- end }}
+
+            <!-- Common Questions -->
+            {{- if gt (len (default (slice) $term.common_questions)) 0 }}
+            <section>
+                <h2>{{ if eq $lang "fr" }}Questions fréquentes{{ else }}Common Questions{{ end }}</h2>
+                {{- range $term.common_questions }}
+                <details class="glossary-faq-detail">
+                    <summary><h3>{{ .question }}</h3></summary>
+                    <p>{{ .answer }}</p>
+                </details>
+                {{- end }}
+            </section>
+            {{- end }}
+
+            <!-- Related Terms -->
+            {{- if gt (len (default (slice) $term.related_terms)) 0 }}
+            <section>
+                <h2>{{ if eq $lang "fr" }}Termes liés{{ else }}Related Terms{{ end }}</h2>
+                <ul class="glossary-related-terms-list">
+                    {{- range $term.related_terms -}}
+                        {{- $relatedId := . -}}
+                        {{- range $allTerms -}}
+                            {{- if eq .id $relatedId }}
+                    <li><a href="{{ $glossaryUrl }}{{ $relatedId }}/">{{ .term }}{{ if ne .full_term .term }} ({{ .full_term }}){{ end }}</a></li>
+                            {{- end -}}
+                        {{- end -}}
+                    {{- end }}
+                </ul>
+            </section>
+            {{- end }}
+
+            <!-- Related Articles -->
+            {{- if gt (len (default (slice) $term.related_articles)) 0 }}
+            <section>
+                <h2>{{ if eq $lang "fr" }}Articles connexes{{ else }}Related Articles{{ end }}</h2>
+                <div class="related-articles-list article-list--compact">
+                    {{- range first 3 $term.related_articles }}
+                    {{- $articleUrl := .url -}}
+                    {{- $articleTitle := .title -}}
+                    {{- $articleDesc := .description -}}
+                    {{- $articleImage := "" -}}
+                    {{- $resolvedUrl := $articleUrl -}}
+                    {{- $page := partial "glossary/resolve-page.html" (dict "url" $articleUrl "site" $.Site) -}}
+                    {{- if $page -}}
+                        {{- $resolvedUrl = $page.RelPermalink -}}
+                        {{- with $page.Params.image -}}
+                            {{- $articleImage = . -}}
+                        {{- end -}}
+                    {{- end -}}
+                    <article>
+                        <a href="{{ $resolvedUrl }}">
+                            <div class="article-details">
+                                <h2 class="article-title">{{ $articleTitle }}</h2>
+                                <section class="article-preview">{{ $articleDesc }}</section>
+                            </div>
+                            {{- with $articleImage }}
+                            <div class="article-image">
+                                <img src="{{ . }}" loading="lazy" alt="{{ $articleTitle }}"/>
+                            </div>
+                            {{- end }}
+                        </a>
+                    </article>
+                    {{- end }}
+                </div>
+            </section>
+            {{- end }}
+
+            <!-- Prev/Next Navigation -->
+            <nav class="glossary-prev-next">
+                <div class="prev-next-left">
+                    {{- if $prevTerm }}
+                    <a href="{{ $glossaryUrl }}{{ $prevTerm.id }}/">
+                        <span class="prev-next-label">{{ if eq $lang "fr" }}Précédent{{ else }}Previous{{ end }}</span>
+                        <span class="prev-next-term">← {{ $prevTerm.term }}</span>
+                    </a>
+                    {{- end }}
+                </div>
+                <div class="prev-next-center">
+                    <a href="{{ $glossaryUrl }}">{{ $glossaryTitle }}</a>
+                </div>
+                <div class="prev-next-right">
+                    {{- if $nextTerm }}
+                    <a href="{{ $glossaryUrl }}{{ $nextTerm.id }}/">
+                        <span class="prev-next-label">{{ if eq $lang "fr" }}Suivant{{ else }}Next{{ end }}</span>
+                        <span class="prev-next-term">{{ $nextTerm.term }} →</span>
+                    </a>
+                    {{- end }}
+                </div>
+            </nav>
+        </div>
+    </article>
+
+    <!-- Add footer as in other pages -->
+    {{ partialCached "footer/footer" . }}
+
+<!-- DefinedTerm Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": {{ $term.term | jsonify }},
+  "description": {{ $term.definition | jsonify }},
+  "url": "{{ .Permalink }}",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "{{ $glossaryTitle }}",
+    "url": "{{ $glossaryUrl | absURL }}"
+  }
+}
+</script>
+
+{{- /* FAQPage schema only for terms with common_questions */ -}}
+{{- if gt (len (default (slice) $term.common_questions)) 0 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $qi, $qa := $term.common_questions -}}
+      {{- if gt $qi 0 }},{{ end }}
+      {
+        "@type": "Question",
+        "name": {{ $qa.question | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ $qa.answer | jsonify }}
+        }
+      }
+    {{- end -}}
+  ]
+}
+</script>
+{{- end }}
+
+<!-- Glossary CSS -->
+{{ $glossaryCSS := resources.Get "css/glossary.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $glossaryCSS.Permalink }}">
+{{ $termCSS := resources.Get "css/glossary-term.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $termCSS.Permalink }}">
+
+{{ end }}

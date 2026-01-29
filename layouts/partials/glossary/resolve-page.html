@@ -1,0 +1,38 @@
+{{- /* resolve-page.html: Reliably resolves a page by URL
+     Input: dict "url" <string> "site" <site>
+     Output: the resolved Page or false
+     Handles: localhost prefixes, missing slashes, GetPage vs permalink scan
+*/ -}}
+{{- $url := .url -}}
+{{- $site := .site -}}
+{{- $result := false -}}
+
+{{- /* Step 1: Strip localhost prefix if present */ -}}
+{{- if findRE `^https?://localhost` $url -}}
+    {{- $url = replaceRE `^https?://localhost(:\d+)?` "" $url -}}
+{{- end -}}
+
+{{- /* Step 2: Ensure leading slash */ -}}
+{{- if not (hasPrefix $url "/") -}}
+    {{- $url = printf "/%s" $url -}}
+{{- end -}}
+
+{{- /* Step 3: Ensure trailing slash */ -}}
+{{- if not (hasSuffix $url "/") -}}
+    {{- $url = printf "%s/" $url -}}
+{{- end -}}
+
+{{- /* Step 4: Try GetPage first */ -}}
+{{- $page := $site.GetPage $url -}}
+{{- if $page -}}
+    {{- $result = $page -}}
+{{- else -}}
+    {{- /* Step 5: Fallback - scan RegularPages by RelPermalink */ -}}
+    {{- range $site.RegularPages -}}
+        {{- if eq .RelPermalink $url -}}
+            {{- $result = . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

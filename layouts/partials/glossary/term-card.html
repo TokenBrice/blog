@@ -1,0 +1,144 @@
+{{- $term := .term -}}
+{{- $lang := .lang -}}
+{{- $allTerms := .allTerms -}}
+{{- $site := .site -}}
+{{- $categoryColor := partial "glossary/category-color.html" $term.category -}}
+{{- $categoryIcon := partial "glossary/category-icon.html" $term.category -}}
+
+{{- /* Language-aware glossary base path */ -}}
+{{- $glossaryBase := "/glossary/" -}}
+{{- if eq $lang "fr" -}}
+    {{- $glossaryBase = "/fr/glossary/" -}}
+{{- end -}}
+
+{{- /* Resolve category name */ -}}
+{{- $categories := index $site.Data.glossary.categories $lang -}}
+{{- $categoryName := $term.category -}}
+{{- range $categories -}}
+    {{- if eq .id $term.category -}}
+        {{- $categoryName = .name -}}
+    {{- end -}}
+{{- end -}}
+
+<div class="term-card" id="{{ $term.id }}" data-category="{{ $term.category }}" data-term-id="{{ $term.id }}" style="border-left-color: {{ $categoryColor }}">
+    <div class="term-category-header" style="background-color: {{ $categoryColor }}; color: white;">
+        {{ upper $categoryName }}
+    </div>
+    <div class="term-header">
+        <div class="term-icon" style="background-color: {{ $categoryColor }}">
+            {{ partial "glossary/term-icon.html" (dict "termId" $term.id "fallback" $categoryIcon) }}
+        </div>
+        <div class="term-title-group">
+            <h3 class="term-title">
+                <span class="term-name">{{ $term.term }}</span>
+                {{- if ne $term.full_term $term.term }}
+                <span class="full-term">({{ $term.full_term }})</span>
+                {{- end }}
+            </h3>
+        </div>
+    </div>
+
+    <div class="term-body" style="padding: 0 var(--card-padding) var(--card-padding);">
+        <p class="term-definition">{{ $term.definition }}</p>
+
+        {{- with $term.example }}
+        <div class="term-example">
+            <div class="example-header">
+                <span class="example-icon">💡</span>
+                <strong>{{ if eq $lang "fr" }}Exemple{{ else }}Example{{ end }}</strong>
+            </div>
+            <p>{{ . }}</p>
+        </div>
+        {{- end }}
+
+        {{- $hasRisks := gt (len (default (slice) $term.risks)) 0 -}}
+        {{- $hasRelated := gt (len (default (slice) $term.related_terms)) 0 -}}
+        {{- if or $hasRisks $hasRelated }}
+        <div class="term-secondary-info">
+            {{- if $hasRisks }}
+            <div class="term-risks">
+                <div class="risks-header">
+                    <span class="risks-icon">⚠️</span>
+                    <strong>{{ if eq $lang "fr" }}Risques à considérer{{ else }}Risks to Consider{{ end }}</strong>
+                </div>
+                <ul>
+                    {{- range $term.risks }}
+                    <li>{{ . }}</li>
+                    {{- end }}
+                </ul>
+            </div>
+            {{- end }}
+
+            {{- if $hasRelated }}
+            <div class="term-related">
+                <strong>{{ if eq $lang "fr" }}Termes liés :{{ else }}Related Terms:{{ end }}</strong>
+                <p>
+                    {{- $relatedLinks := slice -}}
+                    {{- range $term.related_terms -}}
+                        {{- $relatedId := . -}}
+                        {{- range $allTerms -}}
+                            {{- if eq .id $relatedId -}}
+                                {{- $relatedLinks = $relatedLinks | append (printf `<a href="%s%s/" class="related-link">%s</a>` $glossaryBase $relatedId .term) -}}
+                            {{- end -}}
+                        {{- end -}}
+                    {{- end -}}
+                    {{ delimit $relatedLinks ", " }}
+                </p>
+            </div>
+            {{- end }}
+        </div>
+        {{- end }}
+
+        {{- if gt (len (default (slice) $term.common_questions)) 0 }}
+        <div class="term-faqs">
+            <div class="faq-header">
+                <span class="faq-icon">❓</span>
+                <h4>{{ if eq $lang "fr" }}Questions fréquentes{{ else }}Common Questions{{ end }}</h4>
+            </div>
+            <div class="faq-container">
+                {{- range $term.common_questions }}
+                <div class="faq-item">
+                    <h5 class="faq-question">{{ .question }}</h5>
+                    <p class="faq-answer">{{ .answer }}</p>
+                </div>
+                {{- end }}
+            </div>
+        </div>
+        {{- end }}
+
+        {{- if gt (len (default (slice) $term.related_articles)) 0 }}
+        <div class="term-articles">
+            <h4>{{ if eq $lang "fr" }}Articles connexes{{ else }}Related Articles{{ end }}</h4>
+            <div class="related-articles-list article-list--compact">
+                {{- range first 3 $term.related_articles }}
+                {{- $articleUrl := .url -}}
+                {{- $articleTitle := .title -}}
+                {{- $articleDesc := .description -}}
+                {{- $articleImage := "" -}}
+                {{- $resolvedUrl := $articleUrl -}}
+                {{- $page := partial "glossary/resolve-page.html" (dict "url" $articleUrl "site" $site) -}}
+                {{- if $page -}}
+                    {{- $resolvedUrl = $page.RelPermalink -}}
+                    {{- with $page.Params.image -}}
+                        {{- $articleImage = . -}}
+                    {{- end -}}
+                {{- end -}}
+                <article>
+                    <a href="{{ $resolvedUrl }}">
+                        <div class="article-details">
+                            <h2 class="article-title">{{ $articleTitle }}</h2>
+                            <section class="article-preview">{{ $articleDesc }}</section>
+                        </div>
+                        {{- with $articleImage }}
+                        <div class="article-image">
+                            <img src="{{ . }}" loading="lazy" alt="{{ $articleTitle }}"/>
+                        </div>
+                        {{- end }}
+                    </a>
+                </article>
+                {{- end }}
+            </div>
+        </div>
+        {{- end }}
+    </div>
+</div>

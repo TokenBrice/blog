@@ -1,0 +1,18 @@
+{{- $categoryId := . -}}
+{{- $icons := dict
+    "yields" "💰"
+    "rendements" "💰"
+    "risks" "⚠️"
+    "risques" "⚠️"
+    "strategies" "🧩"
+    "stratégies" "🧩"
+    "protocols" "🔄"
+    "protocoles" "🔄"
+    "tokens" "🪙"
+    "technical" "⚙️"
+    "technique" "⚙️"
+    "trading" "📊"
+    "governance" "🗳️"
+    "gouvernance" "🗳️"
+-}}
+{{- index $icons $categoryId | default "📄" -}}

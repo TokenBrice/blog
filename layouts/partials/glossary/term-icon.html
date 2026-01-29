@@ -1,0 +1,9 @@
+{{- $termId := .termId -}}
+{{- $fallback := .fallback | default "📄" -}}
+{{- $iconPath := printf "icons/glossary/%s.svg" $termId -}}
+{{- $iconFile := resources.GetMatch $iconPath -}}
+{{- if $iconFile -}}
+    {{- $iconFile.Content | safeHTML -}}
+{{- else -}}
+    {{- $fallback -}}
+{{- end -}}
