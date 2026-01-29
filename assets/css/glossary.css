@@ -1,0 +1,753 @@
+/* Glossary Page Header Padding Fix */
+.main-article .article-header {
+    padding-left: var(--card-padding, 1.5rem);
+    padding-right: var(--card-padding, 1.5rem);
+    margin-bottom: 2rem;
+}
+
+.main-article .article-title {
+    margin-bottom: 1rem;
+}
+
+.main-article .article-subtitle {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Glossary App Styles - Stack Theme Compatible */
+.glossary-app {
+    margin-top: 2rem;
+}
+
+/* Category Filter Cards */
+.category-filter-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.category-card {
+    background: var(--card-background);
+    border: 2px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.category-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-l2);
+    border-color: var(--accent-color);
+}
+
+.category-card.active {
+    border-color: var(--category-accent, var(--accent-color));
+    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.05) 100%);
+    box-shadow: var(--shadow-l2);
+}
+
+.category-card.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--category-accent, var(--accent-color));
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.category-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--category-accent, var(--accent-color));
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.category-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--card-text-color-main);
+}
+
+.category-description {
+    margin: 0 0 1rem 0;
+    color: var(--card-text-color-secondary);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.category-count {
+    display: inline-block;
+    background: var(--category-accent, var(--accent-color));
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--tag-border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.alphabet-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: var(--card-padding);
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    border: 1px solid var(--card-border-color);
+    align-items: center;
+}
+
+.alphabet-link {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--tag-border-radius);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.alphabet-link:hover {
+    background: var(--accent-color-darker);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-l1);
+}
+
+.letter-section {
+    margin-bottom: 3rem;
+}
+
+.letter-heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+    position: sticky;
+    top: 0;
+    background: var(--body-background);
+    z-index: 10;
+}
+
+.term-card {
+    background: var(--card-background);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    padding: 0; /* Reset padding since we have specific sections */
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-l1);
+    position: relative;
+    border-left: 4px solid var(--card-border-color);
+    overflow: hidden;
+}
+
+.term-category-header {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+    border-radius: var(--card-border-radius) var(--card-border-radius) 0 0;
+}
+
+.term-card:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color-lighter);
+}
+
+.term-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.75rem;
+    position: relative;
+    padding: var(--card-padding);
+    padding-bottom: 0;
+}
+
+.term-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--card-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-l1);
+    margin-left: -4px; /* Align with the left border */
+}
+
+.term-title-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    min-height: 48px; /* Match icon height */
+}
+
+.term-title {
+    margin: 0;
+    flex: 1;
+}
+
+.term-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--card-text-color-main);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.full-term {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--card-text-color-secondary);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.term-category {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    padding: 0.5rem 1rem;
+    border-radius: var(--tag-border-radius);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.term-definition {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: var(--card-text-color-main);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg,
+        rgba(var(--accent-color-rgb), 0.08) 0%,
+        rgba(var(--accent-color-rgb), 0.03) 100%);
+    border: 1px solid rgba(var(--accent-color-rgb), 0.15);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid var(--accent-color);
+    position: relative;
+    box-shadow: 0 2px 12px rgba(var(--accent-color-rgb), 0.12);
+}
+
+.term-definition::before {
+    content: '\201C';
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    font-size: 3rem;
+    color: var(--accent-color);
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.term-definition::after {
+    content: '\201D';
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+    font-size: 3rem;
+    color: var(--accent-color);
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Example Section - Light blue with lightbulb theme */
+.term-example {
+    margin-bottom: 1rem;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(59, 130, 246, 0.02) 100%);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid #3B82F6;
+}
+
+.example-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.example-icon {
+    font-size: 1.2rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-header strong {
+    color: #3B82F6;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Risks Section - Light yellow/amber with caution theme */
+.term-risks {
+    margin-bottom: 1rem;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.08) 0%, rgba(251, 191, 36, 0.03) 100%);
+    border: 1px solid rgba(251, 191, 36, 0.25);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid #F59E0B;
+}
+
+.risks-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.risks-icon {
+    font-size: 1.2rem;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.risks-header strong {
+    color: #D97706;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* 2-Column Layout for Secondary Info (Risks + Related Terms) */
+.term-secondary-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Update individual sections to remove bottom margins when in grid */
+.term-secondary-info .term-risks {
+    margin-bottom: 0;
+}
+
+.term-secondary-info .term-related {
+    margin-bottom: 0;
+}
+
+/* Related Terms Section - Keep simpler styling */
+.term-related {
+    margin-bottom: 1.5rem;
+    padding: 0.875rem;
+    background: var(--card-background-selected);
+    border-radius: var(--card-border-radius);
+    border-left: 4px solid var(--accent-color);
+}
+
+.term-related strong {
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.term-risks ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: var(--card-text-color-main);
+}
+
+.term-risks li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.related-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.related-link:hover {
+    color: var(--accent-color-darker);
+    text-decoration: underline;
+}
+
+/* FAQ Section - Purple/indigo notice-question style */
+.term-faqs {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(139, 92, 246, 0.02) 100%);
+    border-radius: var(--card-border-radius);
+}
+
+.faq-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8B5CF6;
+    background: none;
+}
+
+.faq-header h4 {
+    color: #8B5CF6;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq-item {
+    background: transparent;
+    border: none;
+    border-radius: var(--card-border-radius);
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    background: rgba(var(--accent-color-rgb), 0.08);
+    transform: translateY(-1px);
+}
+
+/* Dark mode for FAQ items */
+[data-scheme="dark"] .faq-item {
+    background: transparent;
+}
+
+[data-scheme="dark"] .faq-item:hover {
+    background: rgba(139, 92, 246, 0.08);
+}
+
+/* Articles section - keep simpler */
+.term-articles {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--card-separator-color);
+}
+
+.term-articles h4 {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    font-weight: 700;
+    color: var(--card-text-color-main);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.faq-answer {
+    color: var(--card-text-color-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.article-item {
+    background: var(--card-background-selected);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin-bottom: 1rem;
+    border-left: 3px solid var(--accent-color);
+}
+
+.article-item h5 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.article-item h5 a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.article-item h5 a:hover {
+    color: var(--accent-color-darker);
+    text-decoration: underline;
+}
+
+.article-description {
+    color: var(--card-text-color-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem var(--card-padding);
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    border: 1px solid var(--card-border-color);
+}
+
+.no-results h3 {
+    color: var(--card-text-color-main);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.no-results p {
+    color: var(--card-text-color-secondary);
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .category-filter-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .term-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .alphabet-nav {
+        justify-content: center;
+    }
+
+    .letter-heading {
+        font-size: 2rem;
+    }
+
+    .term-name {
+        font-size: 1.3rem;
+    }
+
+    /* Stack secondary info sections vertically on mobile */
+    .term-secondary-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Dark mode support for category cards */
+[data-scheme="dark"] .category-card {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .category-card.active {
+    background: linear-gradient(135deg, var(--card-background-selected) 0%, rgba(var(--accent-color-rgb), 0.08) 100%);
+}
+
+[data-scheme="dark"] .category-header h3 {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .category-description {
+    color: var(--card-text-color-secondary);
+}
+
+[data-scheme="dark"] .term-definition,
+[data-scheme="dark"] .term-example p,
+[data-scheme="dark"] .term-related p,
+[data-scheme="dark"] .faq-answer {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-risks li {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .letter-heading {
+    background: var(--body-background);
+    color: var(--accent-color);
+}
+
+/* Fix any remaining text color issues in dark mode */
+[data-scheme="dark"] .glossary-app * {
+    /* Inherit proper colors from theme */
+}
+
+[data-scheme="dark"] .term-card {
+    background: var(--card-background);
+    border-color: var(--card-border-color);
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .term-name {
+    color: var(--card-text-color-main) !important;
+}
+
+[data-scheme="dark"] .full-term {
+    color: var(--card-text-color-secondary) !important;
+}
+
+[data-scheme="dark"] .faq-question {
+    color: var(--card-text-color-main) !important;
+}
+
+/* Related Articles Styling */
+.related-articles-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.related-articles-list article {
+    background: var(--card-background-selected);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-l1);
+}
+
+.related-articles-list article:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color-lighter);
+}
+
+.related-articles-list article a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.related-articles-list .article-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.related-articles-list .article-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.related-articles-list .article-preview {
+    font-size: 0.875rem;
+    color: var(--card-text-color-secondary);
+    line-height: 1.4;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.related-articles-list .article-image {
+    flex-shrink: 0;
+    width: 80px;
+    height: 60px;
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    background: var(--card-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.related-articles-list .article-image img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: var(--card-border-radius);
+}
+
+.related-articles-list article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+/* Dark mode support for related articles */
+[data-scheme="dark"] .related-articles-list article {
+    background: var(--card-background-selected);
+    border-color: var(--card-border-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-title {
+    color: var(--accent-color);
+}
+
+[data-scheme="dark"] .related-articles-list .article-preview {
+    color: var(--card-text-color-secondary);
+}
+
+/* Responsive design for related articles */
+@media (max-width: 768px) {
+    .related-articles-list .article-image {
+        width: 60px;
+        height: 45px;
+    }
+
+    .related-articles-list .article-title {
+        font-size: 0.9rem;
+    }
+
+    .related-articles-list .article-preview {
+        font-size: 0.8rem;
+    }
+}

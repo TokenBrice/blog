@@ -9,7 +9,6 @@ toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
-difficulty: "intermediate"
 ---
 
 Yields are like fine wines, the secret lies in the brewing process. As DeFi is developing faster than ever, with now more than $ 50 billion of total value locked across all protocols, **the yield offering is diversifying**.

@@ -14,8 +14,3 @@ Disallow: /admin
 
 # Reference sitemaps for both languages
 Sitemap: https://tokenbrice.xyz/sitemap.xml
-Sitemap: https://tokenbrice.xyz/en/sitemap.xml  
-Sitemap: https://tokenbrice.xyz/fr/sitemap.xml
-
-# Crawl delay (optional - be gentle with server resources)
-Crawl-delay: 1

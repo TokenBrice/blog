@@ -40,6 +40,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
+| ![polaris-logo](img/others/polaris-emblem.png) | [🌟 Polaris](https://polarisfinance.io) | Self-scaling stablecoin operating system. Uncorrelated, scalable returns without T-Bills, without CEXs, without compromises. | Founder |
 | ![defiscan-logo](img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | A decentralization assesment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
 | ![the-defi-collective-logo](img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols <br> **[📢 Announcement](https://tokenbrice.xyz/posts/2023/defi-collective.md)** | Boardmember & Treasury Management |
 | ![TokenBrice-Logo](img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | With this blog and my live shows, I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together.| Host/Author |

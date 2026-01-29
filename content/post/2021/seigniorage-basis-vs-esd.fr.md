@@ -6,7 +6,6 @@ categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
 toc: true
 tocNum: false
-url: seigneuriage-basis-vs-esd
 image: /img/2021/seigniorage-basis-vs-esd/cover.png
 difficulty: "intermediate"
 url: seigniorage-basis-esd

@@ -162,7 +162,15 @@
             b: parseInt(result[3], 16)
         } : null;
     }
-    
+
+    function shouldUseDarkText(hexColor) {
+        const rgb = hexToRgb(hexColor);
+        if (!rgb) return false;
+        // WCAG relative luminance formula
+        const luminance = (0.299 * rgb.r + 0.587 * rgb.g + 0.114 * rgb.b) / 255;
+        return luminance > 0.5;
+    }
+
     function getCategoryIcon(categoryId) {
         const icons = {
             'yields': `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20m5-5l-5 5-5-5"/></svg>`, // Arrow up-down for yields/returns
@@ -214,6 +222,7 @@
             // Apply color to count badge
             if (countSpan) {
                 countSpan.style.backgroundColor = color;
+                countSpan.style.color = shouldUseDarkText(color) ? '#1a1a1a' : '#ffffff';
             }
             
             // Convert hex to RGB for background

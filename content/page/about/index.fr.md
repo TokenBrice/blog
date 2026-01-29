@@ -42,6 +42,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 
 | Logo | Projet  | Description | Rôle  |
 | :---: |:---: | :---: | :---: |
+| ![polaris-logo](img/others/polaris-emblem.png) | [🔍 Polaris](https://polarisfinance.io) | Self-scaling stablecoin operating system. Uncorrelated, scalable returns without T-Bills, without CEXs, without compromises. | Founder |
 | ![defiscan-logo](img/others/defiscan.png) | [🔍 DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
 | ![the-defi-collective-logo](img/others/symbol_tdc_color.png) | [⛓️ The DeFi Collective](https://deficollective.org) | ssociation suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles  [![📢 Annonce](https://tokenbrice.xyz/posts/2023/defi-collective.fr.md) | Membre du conseil & Gestion de trésorerie |
 | ![TokenBrice-Logo](img/main/emblem-color-square-250.png) | [🌌 TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes émissions en direct, j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |                        |

@@ -31,7 +31,7 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: ""
     # GA Tracking ID
     googleAnalytics:
         id:
@@ -80,7 +80,7 @@ params:
 
     sidebar:
         emoji: 🐜
-        subtitle: TEST
+        subtitle: Brutally Honest DeFi
         avatar:
             enabled: true
             local: false
@@ -237,7 +237,7 @@ menu:
               icon: brand-x
         - identifier: youtube
           name: Youtube
-          url: https://x.com/tokenbrice/
+          url: https://youtube.com/@Token_Brice
           params:
               icon: brand-youtube
         - identifier: telegram
@@ -247,7 +247,7 @@ menu:
               icon: brand-telegram
         - identifier: farcaster
           name: farcaster
-          url: https://hey.xyz/u/tokenbrice
+          url: https://warpcast.com/tokenbrice
           params:
               icon: brand-farcaster
 

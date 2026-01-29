@@ -1,0 +1,25 @@
+<style>
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: var(--accent-color-text, #fff);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0 0 var(--card-border-radius) 0;
+}
+.skip-to-content:focus {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+</style>
