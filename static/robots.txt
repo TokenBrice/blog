@@ -1,13 +1,6 @@
 User-agent: *
 Allow: /
 
-# Optimize crawling for important pages
-Allow: /p/
-Allow: /categories/
-Allow: /tags/
-Allow: /en/
-Allow: /fr/
-
 # Prevent crawling of search and admin pages if they exist
 Disallow: /search
 Disallow: /admin

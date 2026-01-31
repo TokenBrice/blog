@@ -219,12 +219,12 @@
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": {{ $term.term | jsonify }},
-  "description": {{ $term.definition | jsonify }},
+  "name": "{{ $term.term | safeJS }}",
+  "description": "{{ $term.definition | safeJS }}",
   "url": "{{ .Permalink }}",
   "inDefinedTermSet": {
     "@type": "DefinedTermSet",
-    "name": "{{ $glossaryTitle }}",
+    "name": "{{ $glossaryTitle | safeJS }}",
     "url": "{{ $glossaryUrl | absURL }}"
   }
 }
@@ -241,10 +241,10 @@
       {{- if gt $qi 0 }},{{ end }}
       {
         "@type": "Question",
-        "name": {{ $qa.question | jsonify }},
+        "name": "{{ $qa.question | safeJS }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": {{ $qa.answer | jsonify }}
+          "text": "{{ $qa.answer | safeJS }}"
         }
       }
     {{- end -}}

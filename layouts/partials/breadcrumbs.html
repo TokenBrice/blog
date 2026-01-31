@@ -10,7 +10,6 @@
 {{- end -}}
 
 {{- if $ancestors -}}
-{{- /* JSON-LD structured data for breadcrumbs (SEO only, not visible) */ -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -19,30 +18,30 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": {{ .Site.Title | jsonify }},
+      "name": "{{ .Site.Title | safeJS }}",
       "item": {
         "@type": "Thing",
-        "@id": {{ .Site.BaseURL | jsonify }}
+        "@id": "{{ .Site.BaseURL }}"
       }
     }
     {{- range $index, $ancestor := $ancestors -}},
     {
       "@type": "ListItem",
       "position": {{ add $index 2 }},
-      "name": {{ $ancestor.Title | jsonify }},
+      "name": "{{ $ancestor.Title | safeJS }}",
       "item": {
         "@type": "Thing",
-        "@id": {{ $ancestor.Permalink | jsonify }}
+        "@id": "{{ $ancestor.Permalink }}"
       }
     }
     {{- end -}},
     {
       "@type": "ListItem",
       "position": {{ add (len $ancestors) 2 }},
-      "name": {{ .Title | jsonify }},
+      "name": "{{ .Title | safeJS }}",
       "item": {
         "@type": "Thing",
-        "@id": {{ .Permalink | jsonify }}
+        "@id": "{{ .Permalink }}"
       }
     }
   ]

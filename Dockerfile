@@ -1,4 +1,4 @@
-FROM hugomods/hugo:0.140.2
+FROM hugomods/hugo:0.148.2
 
 WORKDIR /src
 

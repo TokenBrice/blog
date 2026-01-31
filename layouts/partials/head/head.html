@@ -18,8 +18,7 @@
 {{- partial "head/script.html" . -}}
 
 <!-- Open Graph & Twitter Cards -->
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
+{{ partial "head/opengraph/include.html" . }}
 
 <!-- Hreflang for multilingual SEO -->
 {{- partial "head/hreflang.html" . -}}
@@ -39,5 +38,4 @@
     <link rel="shortcut icon" href="{{ . | relURL }}" />
 {{ end }}
 
-{{- template "_internal/google_analytics.html" . -}}
 {{- partial "head/custom.html" . -}}

@@ -1,62 +1,43 @@
-{{- if .IsPage -}}
+{{- if and .IsPage (ne .Type "glossary") -}}
+{{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
+{{- $desc := .Description | default (.Summary | plainify) -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ .Description | default .Summary | plainify | jsonify }},
+  "headline": "{{ .Title | safeJS }}",
+  "description": "{{ $desc | safeJS }}",
   "author": {
     "@type": "Person",
-    "name": {{ .Site.Title | jsonify }},
-    "url": {{ .Site.BaseURL | jsonify }}
+    "name": "{{ .Site.Title | safeJS }}",
+    "url": "{{ .Site.BaseURL }}"
   },
   "publisher": {
     "@type": "Organization",
-    "name": {{ .Site.Title | jsonify }},
+    "name": "{{ .Site.Title | safeJS }}",
     "logo": {
       "@type": "ImageObject",
-      "url": {{ absURL "/img/main/emblem-color-square-150.png" | jsonify }}
+      "url": "{{ absURL "/img/main/emblem-color-square-150.png" }}"
     }
   },
-  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   {{- if not .Lastmod.IsZero }}
-  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   {{- end }}
-  "url": {{ .Permalink | jsonify }},
+  "url": "{{ .Permalink }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": "{{ .Permalink }}"
   },
-  {{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
   {{- if $image.exists }}
   "image": {
     "@type": "ImageObject",
-    "url": {{ absURL $image.permalink | jsonify }}
+    "url": "{{ absURL $image.permalink }}"
   },
   {{- end }}
-  "keywords": [
-    {{- with .Params.tags -}}
-      {{- if reflect.IsSlice . -}}
-        {{- range $index, $tag := . -}}
-          {{- if $index }}, {{ end }}{{ $tag | jsonify }}
-        {{- end -}}
-      {{- else -}}
-        {{ . | jsonify }}
-      {{- end -}}
-    {{- end -}}
-  ],
-  "articleSection": [
-    {{- with .Params.categories -}}
-      {{- if reflect.IsSlice . -}}
-        {{- range $index, $category := . -}}
-          {{- if $index }}, {{ end }}{{ $category | jsonify }}
-        {{- end -}}
-      {{- else -}}
-        {{ . | jsonify }}
-      {{- end -}}
-    {{- end -}}
-  ],
-  "inLanguage": {{ .Language.Lang | jsonify }}
+  "keywords": {{ with .Params.tags }}{{ if reflect.IsSlice . }}{{ . | jsonify | safeJS }}{{ else }}{{ slice . | jsonify | safeJS }}{{ end }}{{ else }}[]{{ end }},
+  "articleSection": {{ with .Params.categories }}{{ if reflect.IsSlice . }}{{ . | jsonify | safeJS }}{{ else }}{{ slice . | jsonify | safeJS }}{{ end }}{{ else }}[]{{ end }},
+  "inLanguage": "{{ .Language.Lang }}"
 }
 </script>
 {{- else if .IsHome -}}
@@ -64,15 +45,15 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ .Site.Title | jsonify }},
-  "url": {{ .Site.BaseURL | jsonify }},
-  "description": {{ .Site.Params.sidebar.subtitle | default .Site.Params.description | jsonify }},
-  "inLanguage": {{ .Language.Lang | jsonify }},
+  "name": "{{ .Site.Title | safeJS }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.sidebar.subtitle | default .Site.Params.description | safeJS }}",
+  "inLanguage": "{{ .Language.Lang }}",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": {{ printf "%s/search/?q={search_term_string}" .Site.BaseURL | jsonify }}
+      "urlTemplate": "{{ .Site.BaseURL }}/search/?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }
