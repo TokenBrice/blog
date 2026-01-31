@@ -3933,6 +3933,892 @@
           "regulation"
         ],
         "related_articles": []
+      },
+      {
+        "id": "gauge",
+        "term": "Gauge",
+        "full_term": "Gauge (Voting)",
+        "category": "trading",
+        "definition": "A gauge is a smart contract mechanism used in protocols like Curve and Velodrome that directs token emissions to specific liquidity pools. Token holders (usually veToken holders) vote on gauges to determine how rewards are distributed across pools. Gauge voting is central to the ve(3,3) tokenomics model and is the primary battleground in the so-called 'Curve Wars.'",
+        "short_definition": "Voting mechanism that directs token emissions to specific liquidity pools",
+        "example": "veCRV holders vote on Curve gauges every week to direct CRV emissions to their preferred pools, incentivizing liquidity where it's most needed.",
+        "related_terms": [
+          "vote-escrow",
+          "bribes",
+          "ve-3-3",
+          "liquidity-mining"
+        ],
+        "risks": [
+          "Vote buying via bribes",
+          "Centralization of voting power",
+          "Emission dilution"
+        ],
+        "tags": [
+          "defi",
+          "governance",
+          "emissions",
+          "amm"
+        ],
+        "common_questions": [
+          {
+            "question": "Why do gauges matter?",
+            "answer": "Gauges determine where token rewards flow. Controlling gauge votes means controlling liquidity incentives, which is why protocols compete aggressively for voting power."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol",
+            "url": "/crv-wars/",
+            "description": "The battle for gauge control on Curve Finance."
+          },
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "Comparing gauge voting on Curve vs Velodrome."
+          },
+          {
+            "title": "🎡 The DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "How gauge voting feeds into DeFi flywheel mechanics."
+          }
+        ]
+      },
+      {
+        "id": "bribes",
+        "term": "Bribes",
+        "full_term": "Bribes / Vote Incentives",
+        "category": "trading",
+        "definition": "Bribes (or vote incentives) are token rewards offered to veToken holders in exchange for directing their gauge votes toward specific liquidity pools. Protocols or projects pay bribes to attract emissions to their pools, creating a secondary market for voting power. Platforms like Votium (for Curve) and dedicated bribe markets on Velodrome facilitate this process.",
+        "short_definition": "Token rewards paid to voters for directing gauge emissions to specific pools",
+        "example": "A new stablecoin project deposits $100k in bribes on Votium to attract veCRV votes toward its pool, ensuring deep liquidity for its token.",
+        "related_terms": [
+          "gauge",
+          "vote-escrow",
+          "ve-3-3",
+          "liquidity-mining"
+        ],
+        "risks": [
+          "Bribe ROI uncertainty",
+          "Mercenary capital",
+          "Governance capture"
+        ],
+        "tags": [
+          "defi",
+          "governance",
+          "incentives",
+          "amm"
+        ],
+        "common_questions": [
+          {
+            "question": "Are bribes legal/legitimate?",
+            "answer": "In DeFi, 'bribes' are a standard and transparent mechanism. The term is provocative but the practice is simply paying for voting power to direct emissions — fully on-chain and auditable."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol",
+            "url": "/crv-wars/",
+            "description": "Bribes as a weapon in the CRV Wars."
+          },
+          {
+            "title": "⚔ CRV Wars on Layer 2",
+            "url": "/crv-wars-l2/",
+            "description": "Bribe dynamics extending to L2 gauge voting."
+          },
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "Comparing bribe markets on Curve vs Velodrome."
+          }
+        ]
+      },
+      {
+        "id": "capital-efficiency",
+        "term": "Capital Efficiency",
+        "full_term": "Capital Efficiency",
+        "category": "trading",
+        "definition": "Capital efficiency measures how effectively a protocol uses deposited capital to generate returns or facilitate trading. Higher capital efficiency means less capital is needed to achieve the same result. In AMMs, concentrated liquidity (Uniswap v3) and liquidity shaping (Maverick) improve capital efficiency by focusing liquidity where trades actually happen instead of spreading it across all prices.",
+        "short_definition": "How effectively a protocol uses deposited capital to generate results",
+        "example": "Uniswap v3's concentrated liquidity can provide the same trading depth as Uniswap v2 with up to 4000x less capital, dramatically improving capital efficiency.",
+        "related_terms": [
+          "concentrated-liquidity",
+          "liquidity-shaping",
+          "amm",
+          "liquidity-pool"
+        ],
+        "risks": [
+          "Higher impermanent loss with concentration",
+          "Increased complexity",
+          "Active management required"
+        ],
+        "tags": [
+          "defi",
+          "amm",
+          "liquidity",
+          "efficiency"
+        ],
+        "common_questions": [
+          {
+            "question": "Is higher capital efficiency always better?",
+            "answer": "Not necessarily. Higher capital efficiency often comes with increased complexity, active management requirements, and amplified impermanent loss. The trade-off depends on the user's strategy and risk tolerance."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "How Maverick improves capital efficiency through liquidity shaping."
+          },
+          {
+            "title": "💦 The Yield Farmer Tier List",
+            "url": "/yieldfarmer-tierlist/",
+            "description": "Capital efficiency as a factor in farming strategy selection."
+          }
+        ]
+      },
+      {
+        "id": "liquidity-shaping",
+        "term": "Liquidity Shaping",
+        "full_term": "Liquidity Shaping",
+        "category": "trading",
+        "definition": "Liquidity shaping is an evolution of concentrated liquidity where liquidity providers can define custom distribution patterns for their capital across price ranges. Pioneered by Maverick Protocol, it allows LPs to automatically shift their liquidity as prices move, maintaining optimal capital efficiency without manual rebalancing.",
+        "short_definition": "Custom liquidity distribution patterns that automatically adjust with price movements",
+        "example": "On Maverick, an LP can choose a 'Mode Right' shape that follows ETH's price upward, keeping liquidity concentrated around the current price without manual adjustment.",
+        "related_terms": [
+          "concentrated-liquidity",
+          "capital-efficiency",
+          "amm",
+          "impermanent-loss"
+        ],
+        "risks": [
+          "Novel mechanism risk",
+          "Smart contract risk",
+          "Liquidity mode selection complexity"
+        ],
+        "tags": [
+          "defi",
+          "amm",
+          "liquidity",
+          "innovation"
+        ],
+        "common_questions": [
+          {
+            "question": "How is liquidity shaping different from concentrated liquidity?",
+            "answer": "Concentrated liquidity (Uniswap v3) requires manual range selection and rebalancing. Liquidity shaping (Maverick) adds automatic directional movement modes that shift your liquidity with the price."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "Deep dive into Maverick's liquidity shaping innovation."
+          }
+        ]
+      },
+      {
+        "id": "composability",
+        "term": "Composability",
+        "full_term": "Composability",
+        "category": "technical",
+        "definition": "Composability is the ability for DeFi protocols to interact and build upon each other seamlessly, often called 'money legos.' Because smart contracts are open and permissionless, any protocol can integrate with any other, creating complex financial products by combining simple building blocks. This is a defining feature of DeFi that traditional finance lacks.",
+        "short_definition": "The ability for DeFi protocols to seamlessly integrate and build upon each other",
+        "example": "A user can deposit ETH into Lido (getting stETH), use stETH as collateral on Aave (borrowing USDC), then provide USDC liquidity on Curve — three protocols composed together.",
+        "related_terms": [
+          "smart-contract",
+          "defi",
+          "flash-loan",
+          "lending"
+        ],
+        "risks": [
+          "Cascading failures across protocols",
+          "Dependency risk",
+          "Complexity risk"
+        ],
+        "tags": [
+          "defi",
+          "technical",
+          "money-legos",
+          "integration"
+        ],
+        "common_questions": [
+          {
+            "question": "Why is composability important?",
+            "answer": "Composability allows developers to build on existing protocols rather than starting from scratch, accelerating innovation. Users benefit from increasingly sophisticated strategies built from simple, audited components."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "DeFi is a toolbox reaching beyond finance",
+            "url": "/defi-beyond-finance/",
+            "description": "DeFi's composability enabling use cases beyond finance."
+          },
+          {
+            "title": "🎰 PoolTogether: the no-loss lottery",
+            "url": "/pool-together/",
+            "description": "Example of composability — combining yield and lottery mechanics."
+          }
+        ]
+      },
+      {
+        "id": "rollup",
+        "term": "Rollup",
+        "full_term": "Rollup",
+        "category": "technical",
+        "definition": "A rollup is a Layer 2 scaling solution that executes transactions off the main Ethereum chain but posts transaction data back to Layer 1 for security. There are two main types: Optimistic Rollups (Optimism, Arbitrum) assume transactions are valid unless challenged, while ZK-Rollups (zkSync, StarkNet) use zero-knowledge proofs to verify transactions mathematically.",
+        "short_definition": "Layer 2 scaling solution that executes transactions off-chain while posting data to Layer 1",
+        "example": "Arbitrum is an Optimistic Rollup that processes transactions at a fraction of Ethereum mainnet gas costs while inheriting Ethereum's security guarantees.",
+        "related_terms": [
+          "layer-2",
+          "ethereum",
+          "gas",
+          "bridge"
+        ],
+        "risks": [
+          "Bridge risk when moving assets",
+          "Sequencer centralization",
+          "Withdrawal delays (Optimistic)"
+        ],
+        "tags": [
+          "scaling",
+          "layer-2",
+          "ethereum",
+          "technical"
+        ],
+        "common_questions": [
+          {
+            "question": "What's the difference between Optimistic and ZK rollups?",
+            "answer": "Optimistic Rollups assume validity and allow fraud proofs within a challenge period (typically 7 days). ZK-Rollups prove validity mathematically with zero-knowledge proofs, enabling faster finality but with more complex technology."
+          }
+        ],
+        "related_articles": []
+      },
+      {
+        "id": "ve-3-3",
+        "term": "ve(3,3)",
+        "full_term": "ve(3,3)",
+        "category": "technical",
+        "definition": "ve(3,3) is a tokenomics model combining Curve's vote-escrow (ve) mechanism with OlympusDAO's (3,3) game theory. Pioneered by Andre Cronje's Solidly and refined by Velodrome, it aligns incentives by letting veToken holders vote on gauge emissions and earn fees from the pools they vote for. The (3,3) element encourages cooperative behavior — everyone benefits most when participants lock tokens rather than sell.",
+        "short_definition": "Tokenomics model combining vote-escrow locking with (3,3) cooperative game theory",
+        "example": "Velodrome on Optimism uses ve(3,3): VELO holders lock tokens as veVELO, vote on gauges to direct emissions, and earn 100% of trading fees from pools they vote for.",
+        "related_terms": [
+          "vote-escrow",
+          "gauge",
+          "bribes",
+          "venft"
+        ],
+        "risks": [
+          "Ponzinomics criticism",
+          "Emission sustainability",
+          "Governance capture"
+        ],
+        "tags": [
+          "tokenomics",
+          "governance",
+          "defi",
+          "ve-model"
+        ],
+        "common_questions": [
+          {
+            "question": "Is ve(3,3) sustainable long-term?",
+            "answer": "The sustainability depends on the protocol generating real trading fees that justify emissions. Velodrome has shown the model can work when the DEX achieves sufficient volume, but many Solidly forks failed due to insufficient organic demand."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "Comparing Curve's ve model with Velodrome's ve(3,3)."
+          },
+          {
+            "title": "Solidly and its Velodrome Fork",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Origins of ve(3,3) with Solidly and Velodrome's refinement."
+          },
+          {
+            "title": "veNFT Infrastructure",
+            "url": "/veNFT-infrastructure/",
+            "description": "The NFT layer built on ve(3,3) mechanics."
+          }
+        ]
+      },
+      {
+        "id": "venft",
+        "term": "veNFT",
+        "full_term": "veNFT (Vote-Escrowed NFT)",
+        "category": "technical",
+        "definition": "A veNFT is an NFT that represents a vote-escrowed token position. Unlike traditional veTokens (which are non-transferable), veNFTs make locked positions tradeable by wrapping them as NFTs. This allows users to exit locked positions on secondary markets and enables new infrastructure like veNFT lending, splitting, and merging.",
+        "short_definition": "NFT representing a vote-escrowed token position, making locked positions tradeable",
+        "example": "On Velodrome, locking VELO creates a veVELO NFT. This NFT can be traded on secondary markets, letting buyers acquire voting power without waiting through the lock period.",
+        "related_terms": [
+          "vote-escrow",
+          "ve-3-3",
+          "nft",
+          "gauge"
+        ],
+        "risks": [
+          "veNFT price discount vs underlying",
+          "Smart contract risk",
+          "Liquidity risk on secondary markets"
+        ],
+        "tags": [
+          "governance",
+          "nft",
+          "vote-escrow",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Why wrap veTokens as NFTs?",
+            "answer": "Traditional veTokens are locked and non-transferable, which creates capital inefficiency. veNFTs solve this by making positions tradeable, composable, and usable as collateral — while preserving the voting and earning mechanics."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "veNFT Infrastructure",
+            "url": "/veNFT-infrastructure/",
+            "description": "Deep dive into the veNFT ecosystem and infrastructure."
+          }
+        ]
+      },
+      {
+        "id": "health-factor",
+        "term": "Health Factor",
+        "full_term": "Health Factor",
+        "category": "risks",
+        "definition": "Health factor is a numerical indicator of the safety of a lending position, representing the ratio between collateral value and borrowed value adjusted by liquidation thresholds. A health factor above 1 means the position is safe; below 1 means it can be liquidated. The higher the health factor, the safer the position but the lower the capital efficiency.",
+        "short_definition": "Numerical indicator of a lending position's safety relative to liquidation threshold",
+        "example": "With a health factor of 1.5, your position has a 50% safety buffer before liquidation. If your collateral drops in value or your debt increases, the health factor falls toward 1.",
+        "related_terms": [
+          "liquidation",
+          "ltv",
+          "collateral",
+          "lending"
+        ],
+        "risks": [
+          "Rapid health factor drops during volatility",
+          "Liquidation cascade risk",
+          "Oracle delay risk"
+        ],
+        "tags": [
+          "lending",
+          "risks",
+          "liquidation",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "What's a safe health factor?",
+            "answer": "It depends on the asset volatility. For volatile assets, a health factor of 2+ is recommended. For stablecoins, 1.5 may suffice. Always monitor during market turbulence."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Understanding risk metrics in lending protocols."
+          },
+          {
+            "title": "Leverage with SIR Protocol",
+            "url": "/leverage-sir/",
+            "description": "Health factor in the context of leveraged positions."
+          }
+        ]
+      },
+      {
+        "id": "liquidation-cascade",
+        "term": "Liquidation Cascade",
+        "full_term": "Liquidation Cascade",
+        "category": "risks",
+        "definition": "A liquidation cascade occurs when a series of liquidations trigger further price drops, which cause more positions to become undercollateralized, triggering yet more liquidations in a self-reinforcing downward spiral. This systemic risk is one of the most dangerous events in DeFi lending, often resulting in significant losses across the ecosystem.",
+        "short_definition": "Chain reaction of liquidations where each one triggers further price drops and more liquidations",
+        "example": "During the May 2021 crash, ETH dropping 30% triggered massive Aave and Compound liquidations, which dumped more ETH on markets, pushing prices lower and liquidating even more positions.",
+        "related_terms": [
+          "liquidation",
+          "health-factor",
+          "collateral",
+          "lending"
+        ],
+        "risks": [
+          "Systemic protocol failure",
+          "Bad debt accumulation",
+          "Oracle failures under stress"
+        ],
+        "tags": [
+          "risks",
+          "lending",
+          "systemic",
+          "liquidation"
+        ],
+        "common_questions": [
+          {
+            "question": "How can protocols prevent liquidation cascades?",
+            "answer": "Through conservative LTV ratios, gradual liquidation mechanisms (like Liquity's stability pool), circuit breakers, and diversified oracle sources. Users can protect themselves by maintaining high health factors."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Systemic risk analysis in DeFi lending."
+          },
+          {
+            "title": "🧭 DeFi Moneygames: Assessing risk and avoiding wreckage",
+            "url": "/defi-moneygames/",
+            "description": "Cascading risks in DeFi strategies."
+          }
+        ]
+      },
+      {
+        "id": "depeg",
+        "term": "Depeg",
+        "full_term": "Depeg",
+        "category": "risks",
+        "definition": "A depeg occurs when a stablecoin or pegged asset loses its intended price peg (typically $1 for USD stablecoins). Depegs can be temporary (market-driven) or permanent (fundamental failure). Causes include bank runs, collateral crises, oracle failures, or loss of confidence. The severity ranges from minor fluctuations to total collapse (e.g., UST/LUNA).",
+        "short_definition": "When a stablecoin or pegged asset loses its intended price peg",
+        "example": "USDC briefly depegged to $0.87 in March 2023 when Silicon Valley Bank (holding $3.3B of Circle's reserves) collapsed, before recovering after government intervention.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "oracle",
+          "liquidation"
+        ],
+        "risks": [
+          "Cascading depegs across DeFi",
+          "Liquidity pool imbalance",
+          "Collateral value collapse"
+        ],
+        "tags": [
+          "stablecoin",
+          "risks",
+          "peg",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Are all depegs dangerous?",
+            "answer": "No. Minor temporary depegs (e.g., 0.5% deviation) are normal and usually corrected by arbitrageurs. Sustained depegs exceeding 2-5% signal deeper problems and warrant caution."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗺 The Stablecoin Marauder Map",
+            "url": "/stablecoin-marauder-map/",
+            "description": "Mapping stablecoin mechanisms and risks including depeg scenarios."
+          },
+          {
+            "title": "Why Polaris?",
+            "url": "/why-polaris/",
+            "description": "Stablecoin design addressing depeg risks."
+          }
+        ]
+      },
+      {
+        "id": "liquid-staking",
+        "term": "Liquid Staking",
+        "full_term": "Liquid Staking",
+        "category": "strategies",
+        "definition": "Liquid staking allows users to stake their tokens (e.g., ETH) and receive a liquid derivative token (e.g., stETH, rETH) in return. This derivative can be used across DeFi while the underlying asset earns staking rewards. It solves the capital inefficiency of traditional staking where assets are locked and unusable.",
+        "short_definition": "Staking tokens while receiving a liquid derivative usable in DeFi",
+        "example": "Staking 10 ETH through Lido gives you 10 stETH, which earns staking rewards (~3-5% APR) while being usable as collateral on Aave or liquidity on Curve.",
+        "related_terms": [
+          "staking",
+          "restaking",
+          "composability",
+          "collateral"
+        ],
+        "risks": [
+          "Derivative depeg from underlying",
+          "Smart contract risk",
+          "Validator slashing risk"
+        ],
+        "tags": [
+          "staking",
+          "defi",
+          "ethereum",
+          "strategies"
+        ],
+        "common_questions": [
+          {
+            "question": "Is liquid staking safe?",
+            "answer": "Liquid staking adds smart contract risk on top of regular staking risk. Major protocols like Lido and Rocket Pool are battle-tested, but the derivative token can temporarily depeg from ETH during market stress."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "The Pegged Asset Swap Wars",
+            "url": "/pegged-assets-swap/",
+            "description": "Liquid staking derivatives in the context of pegged asset exchanges."
+          },
+          {
+            "title": "Leverage with SIR Protocol",
+            "url": "/leverage-sir/",
+            "description": "Using liquid staking tokens for leveraged strategies."
+          }
+        ]
+      },
+      {
+        "id": "restaking",
+        "term": "Restaking",
+        "full_term": "Restaking",
+        "category": "strategies",
+        "definition": "Restaking is the practice of using already-staked assets (like stETH) to provide security to additional protocols or services. Pioneered by EigenLayer, restaking allows Ethereum validators to opt-in to secure other networks or services, earning additional rewards on top of base staking yields. This creates a shared security model but introduces additional slashing risks.",
+        "short_definition": "Using already-staked assets to secure additional protocols for extra yield",
+        "example": "An ETH staker deposits stETH into EigenLayer to restake, earning base ETH staking rewards plus additional rewards from securing oracle networks and bridges.",
+        "related_terms": [
+          "liquid-staking",
+          "staking",
+          "slashing",
+          "composability"
+        ],
+        "risks": [
+          "Additional slashing conditions",
+          "Smart contract risk stacking",
+          "Systemic risk from shared security"
+        ],
+        "tags": [
+          "staking",
+          "defi",
+          "security",
+          "yields"
+        ],
+        "common_questions": [
+          {
+            "question": "What are the risks of restaking?",
+            "answer": "Restaking stacks risks: you face base staking risks plus additional slashing conditions from each service you secure. If a secured service has a bug or is attacked, your restaked assets could be slashed."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage with SIR Protocol",
+            "url": "/leverage-sir/",
+            "description": "Restaking in the context of leveraged yield strategies."
+          }
+        ]
+      },
+      {
+        "id": "seigniorage",
+        "term": "Seigniorage",
+        "full_term": "Seigniorage",
+        "category": "tokens",
+        "definition": "In crypto, seigniorage refers to the profit a stablecoin protocol makes from issuing tokens that cost less to create than their face value. Algorithmic stablecoins use seigniorage mechanics: when demand increases, new tokens are minted (generating seigniorage profit), and when demand decreases, tokens are burned or bonds are issued to contract supply. This model has historically been fragile.",
+        "short_definition": "Profit from issuing stablecoins that cost less to create than their face value",
+        "example": "Basis Cash and Empty Set Dollar used seigniorage models: when the stablecoin traded above $1, new tokens were minted and distributed to holders, but both ultimately failed to maintain their pegs.",
+        "related_terms": [
+          "stablecoin",
+          "depeg",
+          "tokenomics",
+          "emission"
+        ],
+        "risks": [
+          "Death spiral risk",
+          "Peg instability",
+          "Reflexivity / bank run dynamics"
+        ],
+        "tags": [
+          "stablecoin",
+          "tokenomics",
+          "algorithmic",
+          "tokens"
+        ],
+        "common_questions": [
+          {
+            "question": "Why have seigniorage stablecoins failed?",
+            "answer": "Most seigniorage stablecoins (ESD, Basis Cash, UST) failed because the mechanism to contract supply during downturns was too weak. Once confidence breaks, the death spiral makes recovery nearly impossible."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Understanding Seigniorage: Basis Cash & ESD",
+            "url": "/seigniorage-basis-esd/",
+            "description": "Deep analysis of seigniorage stablecoin mechanics and failures."
+          }
+        ]
+      },
+      {
+        "id": "overcollateralization",
+        "term": "Overcollateralization",
+        "full_term": "Overcollateralization",
+        "category": "tokens",
+        "definition": "Overcollateralization means locking up more value in collateral than the amount borrowed or minted. This buffer protects lenders and stablecoin holders against price drops in the collateral asset. For example, MakerDAO requires at least 150% collateral to mint DAI, meaning you need $150 of ETH to mint $100 of DAI. It's the foundation of most DeFi lending and decentralized stablecoins.",
+        "short_definition": "Locking more collateral value than the amount borrowed as a safety buffer",
+        "example": "To borrow 1000 LUSD on Liquity, you must deposit at least $1100 worth of ETH (110% minimum collateralization ratio), though most users maintain 150%+ for safety.",
+        "related_terms": [
+          "collateral",
+          "ltv",
+          "liquidation",
+          "cdp"
+        ],
+        "risks": [
+          "Capital inefficiency",
+          "Liquidation risk if collateral drops",
+          "Opportunity cost of locked capital"
+        ],
+        "tags": [
+          "lending",
+          "stablecoin",
+          "collateral",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Why not use 1:1 collateralization?",
+            "answer": "Crypto assets are volatile. If collateral drops in value to less than the loan, the protocol accumulates bad debt. Overcollateralization provides a buffer to liquidate positions before they become underwater."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Liquity Protocol",
+            "url": "/liquity-protocol/",
+            "description": "Overcollateralization in Liquity's stablecoin design."
+          },
+          {
+            "title": "Aave GHO Stablecoin",
+            "url": "/aave-gho-stablecoin/",
+            "description": "GHO's overcollateralized minting mechanism."
+          },
+          {
+            "title": "The Lending Protocol Renaissance",
+            "url": "/lending-protocol-renaissance/",
+            "description": "Evolution of overcollateralization models in lending."
+          }
+        ]
+      },
+      {
+        "id": "emission",
+        "term": "Emission",
+        "full_term": "Emission (Token)",
+        "category": "yields",
+        "definition": "Token emission refers to the rate and schedule at which new tokens are created and distributed by a protocol. Emissions are typically used to incentivize liquidity providers, stakers, or other protocol participants. The emission schedule (how many tokens are released over time) is a critical factor in tokenomics — too high causes inflation and selling pressure, too low fails to attract liquidity.",
+        "short_definition": "The rate and schedule at which new tokens are created and distributed",
+        "example": "Curve emits CRV tokens to liquidity providers based on gauge weights. The emission rate decreases over time following a pre-set schedule, reducing inflation gradually.",
+        "related_terms": [
+          "liquidity-mining",
+          "gauge",
+          "tokenomics",
+          "flywheel"
+        ],
+        "risks": [
+          "Inflationary selling pressure",
+          "Unsustainable APY projections",
+          "Mercenary capital"
+        ],
+        "tags": [
+          "tokenomics",
+          "yields",
+          "incentives",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Are emissions sustainable?",
+            "answer": "Emissions are only sustainable if the protocol generates enough real value (fees, revenue) to justify the token distribution. Protocols that rely purely on emissions without organic revenue eventually face a death spiral."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "Comparing emission models on Curve vs Velodrome."
+          },
+          {
+            "title": "🎡 The DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "How emissions feed into flywheel dynamics."
+          },
+          {
+            "title": "⚔ CRV Wars",
+            "url": "/crv-wars/",
+            "description": "The battle to control CRV emissions."
+          }
+        ]
+      },
+      {
+        "id": "protocol-owned-liquidity",
+        "term": "Protocol-Owned Liquidity",
+        "full_term": "Protocol-Owned Liquidity (POL)",
+        "category": "governance",
+        "definition": "Protocol-Owned Liquidity (POL) is liquidity that belongs to the protocol's treasury rather than being rented from external liquidity providers through emissions. Instead of paying ongoing incentives to attract liquidity, protocols acquire their own LP positions. This was popularized by OlympusDAO's bonding mechanism and has become a key treasury management strategy.",
+        "short_definition": "Liquidity owned by the protocol's treasury rather than rented from external LPs",
+        "example": "Instead of paying $1M/month in emissions to attract liquidity, a protocol uses bonding to acquire its own LP tokens, building permanent liquidity that doesn't disappear when incentives end.",
+        "related_terms": [
+          "liquidity-mining",
+          "dao",
+          "flywheel",
+          "emission"
+        ],
+        "risks": [
+          "IL on treasury LP positions",
+          "Capital allocation risk",
+          "Bonding mechanism complexity"
+        ],
+        "tags": [
+          "governance",
+          "treasury",
+          "liquidity",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Why is POL better than rented liquidity?",
+            "answer": "Rented liquidity leaves when incentives stop. POL is permanent — the protocol doesn't need to continuously pay emissions to maintain trading depth. It also generates trading fees for the treasury."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "POL strategies in the context of AMM wars."
+          },
+          {
+            "title": "Farewell GLC",
+            "url": "/farewell-glc/",
+            "description": "Protocol-owned liquidity in DAO treasury management."
+          }
+        ]
+      },
+      {
+        "id": "flywheel",
+        "term": "Flywheel",
+        "full_term": "Flywheel",
+        "category": "governance",
+        "definition": "A DeFi flywheel is a self-reinforcing cycle where each component of a protocol's design amplifies the others, creating a virtuous loop of growth. Typically: more liquidity → better trades → more fees → more token value → more locking → more governance power → directed emissions → more liquidity. When a flywheel spins well, the protocol grows organically; when it breaks, it can reverse into a death spiral.",
+        "short_definition": "Self-reinforcing cycle where protocol components amplify each other's growth",
+        "example": "Velodrome's flywheel: traders generate fees → veVELO holders earn fees by voting → more VELO gets locked → emissions attract more liquidity → more traders → more fees.",
+        "related_terms": [
+          "ve-3-3",
+          "gauge",
+          "emission",
+          "protocol-owned-liquidity"
+        ],
+        "risks": [
+          "Death spiral when flywheel reverses",
+          "Dependency on continuous growth",
+          "External shock vulnerability"
+        ],
+        "tags": [
+          "tokenomics",
+          "governance",
+          "growth",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "What breaks a flywheel?",
+            "answer": "A flywheel can break when any component weakens: a market crash reduces fees, emissions become unsustainable, governance power concentrates, or a competitor offers better incentives. The same reinforcing dynamics that drive growth can accelerate decline."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🎡 The DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "Deep dive into flywheel mechanics in DeFi."
+          },
+          {
+            "title": "DeFi Janus",
+            "url": "/defi-janus/",
+            "description": "The two faces of DeFi flywheels — growth and decline."
+          }
+        ]
+      },
+      {
+        "id": "money-market",
+        "term": "Money Market",
+        "full_term": "Money Market",
+        "category": "protocols",
+        "definition": "In DeFi, a money market is a protocol that facilitates lending and borrowing of crypto assets through smart contracts. Lenders deposit assets into pools and earn interest, while borrowers provide collateral and pay interest to access funds. Major money markets include Aave, Compound, and Morpho. They are foundational DeFi primitives that enable leverage, hedging, and yield generation.",
+        "short_definition": "Protocol facilitating decentralized lending and borrowing of crypto assets",
+        "example": "On Aave, you deposit 10 ETH as collateral and borrow 5000 USDC at variable interest. The ETH earns deposit interest while you pay borrowing interest on the USDC.",
+        "related_terms": [
+          "lending",
+          "borrowing",
+          "collateral",
+          "health-factor"
+        ],
+        "risks": [
+          "Smart contract risk",
+          "Liquidation risk",
+          "Interest rate volatility",
+          "Oracle manipulation"
+        ],
+        "tags": [
+          "lending",
+          "protocols",
+          "defi",
+          "borrowing"
+        ],
+        "common_questions": [
+          {
+            "question": "How do DeFi money markets differ from traditional ones?",
+            "answer": "DeFi money markets are permissionless, non-custodial, and operate 24/7 via smart contracts. Interest rates adjust algorithmically based on supply/demand. Anyone can lend or borrow without approval."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Understanding risk in DeFi money markets."
+          },
+          {
+            "title": "Money Market Recipes",
+            "url": "/money-market-recipes/",
+            "description": "Strategies for using money markets effectively."
+          },
+          {
+            "title": "Money Market Innovations",
+            "url": "/money-market-innovations/",
+            "description": "Evolution and new designs in DeFi lending."
+          }
+        ]
+      },
+      {
+        "id": "cdp",
+        "term": "CDP",
+        "full_term": "CDP (Collateralized Debt Position)",
+        "category": "protocols",
+        "definition": "A Collateralized Debt Position (CDP) is a smart contract where a user deposits collateral to mint or borrow stablecoins. Popularized by MakerDAO (deposit ETH, mint DAI), CDPs are the backbone of decentralized stablecoins and on-chain lending. The position must remain overcollateralized or it gets liquidated. CDPs enable leverage, stablecoin minting, and capital-efficient borrowing.",
+        "short_definition": "Smart contract where collateral is deposited to mint or borrow stablecoins",
+        "example": "On MakerDAO, you open a CDP by depositing $3000 of ETH and minting 1500 DAI (200% collateralization). If ETH drops and your ratio falls below 150%, your position is liquidated.",
+        "related_terms": [
+          "overcollateralization",
+          "liquidation",
+          "stablecoin",
+          "money-market"
+        ],
+        "risks": [
+          "Liquidation risk",
+          "Collateral volatility",
+          "Smart contract risk",
+          "Stability fee changes"
+        ],
+        "tags": [
+          "lending",
+          "stablecoin",
+          "protocols",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "What's the difference between a CDP and a regular loan?",
+            "answer": "A CDP lets you mint new stablecoins against your collateral, while a regular DeFi loan borrows existing assets from a lending pool. CDPs create new supply; lending pools redistribute existing supply."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Liquity Protocol",
+            "url": "/liquity-protocol/",
+            "description": "CDP mechanics in Liquity's stablecoin system."
+          },
+          {
+            "title": "🗺 The Stablecoin Marauder Map",
+            "url": "/stablecoin-marauder-map/",
+            "description": "CDPs in the broader stablecoin landscape."
+          },
+          {
+            "title": "The Lending Protocol Renaissance",
+            "url": "/lending-protocol-renaissance/",
+            "description": "Evolution of CDP designs in modern lending."
+          }
+        ]
       }
     ]
   },
@@ -6072,39 +6958,6 @@
         "related_articles": []
       },
       {
-        "id": "synthetic-assets",
-        "term": "Actifs Synthétiques",
-        "full_term": "Actifs Synthétiques",
-        "category": "trading",
-        "definition": "Les actifs synthétiques sont des dérivés basés blockchain qui suivent le prix d'actifs du monde réel comme les actions, matières premières, ou devises sans nécessiter la possession de l'actif sous-jacent.",
-        "short_definition": "Tokens blockchain qui suivent le prix d'actifs du monde réel",
-        "example": "Synthetix offre des actions Tesla synthétiques (sTSLA) qui suivent le prix de Tesla, permettant aux utilisateurs DeFi d'obtenir une exposition aux actifs traditionnels.",
-        "related_terms": [
-          "derivatives",
-          "oracle",
-          "collateral",
-          "price-feeds"
-        ],
-        "risks": [
-          "Manipulation d'oracle",
-          "Liquidation du collatéral",
-          "Erreurs de suivi"
-        ],
-        "tags": [
-          "dérivés",
-          "synthétiques",
-          "actifs",
-          "suivi-de-prix"
-        ],
-        "common_questions": [
-          {
-            "question": "Comment les actifs synthétiques maintiennent-ils leur peg aux prix réels ?",
-            "answer": "Ils utilisent des oracles de prix pour les données en temps réel et des mécanismes d'arbitrage pour maintenir l'alignement des prix. Le collatéral soutient la valeur et les liquidations maintiennent la stabilité."
-          }
-        ],
-        "related_articles": []
-      },
-      {
         "id": "proposal",
         "term": "Proposition",
         "full_term": "Proposition de Gouvernance",
@@ -6499,6 +7352,2431 @@
             "answer": "Les protocoles DeFi décentralisés fonctionnent via des smart contracts sans entité centrale pour collecter ou vérifier les informations d'identité, préservant la pseudonymité des utilisateurs."
           }
         ],
+        "related_articles": []
+      },
+      {
+        "id": "gauge",
+        "term": "Gauge",
+        "full_term": "Gauge (Vote)",
+        "category": "trading",
+        "definition": "Un gauge est un mécanisme de smart contract utilisé dans des protocoles comme Curve et Velodrome qui dirige les émissions de tokens vers des pools de liquidité spécifiques. Les détenteurs de tokens (généralement des veTokens) votent sur les gauges pour déterminer comment les récompenses sont distribuées entre les pools. Le vote des gauges est central au modèle tokenomique ve(3,3) et constitue le champ de bataille principal des 'Curve Wars'.",
+        "short_definition": "Mécanisme de vote qui dirige les émissions de tokens vers des pools de liquidité spécifiques",
+        "example": "Les détenteurs de veCRV votent chaque semaine sur les gauges Curve pour diriger les émissions de CRV vers leurs pools préférés.",
+        "related_terms": [
+          "vote-escrow",
+          "bribes",
+          "ve-3-3",
+          "liquidity-mining"
+        ],
+        "risks": [
+          "Achat de votes via les bribes",
+          "Centralisation du pouvoir de vote",
+          "Dilution des émissions"
+        ],
+        "tags": [
+          "defi",
+          "gouvernance",
+          "émissions",
+          "amm"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi les gauges sont-ils importants ?",
+            "answer": "Les gauges déterminent où les récompenses en tokens sont dirigées. Contrôler les votes des gauges signifie contrôler les incitations à la liquidité, c'est pourquoi les protocoles se battent agressivement pour le pouvoir de vote."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol",
+            "url": "/crv-wars/",
+            "description": "La bataille pour le contrôle des gauges sur Curve Finance."
+          }
+        ]
+      },
+      {
+        "id": "bribes",
+        "term": "Bribes",
+        "full_term": "Bribes / Incitations au Vote",
+        "category": "trading",
+        "definition": "Les bribes (ou incitations au vote) sont des récompenses en tokens offertes aux détenteurs de veTokens en échange de la direction de leurs votes de gauge vers des pools de liquidité spécifiques. Les protocoles ou projets paient des bribes pour attirer les émissions vers leurs pools, créant un marché secondaire pour le pouvoir de vote.",
+        "short_definition": "Récompenses en tokens payées aux votants pour diriger les émissions vers des pools spécifiques",
+        "example": "Un nouveau projet de stablecoin dépose 100k$ en bribes sur Votium pour attirer les votes veCRV vers son pool, assurant une liquidité profonde pour son token.",
+        "related_terms": [
+          "gauge",
+          "vote-escrow",
+          "ve-3-3",
+          "liquidity-mining"
+        ],
+        "risks": [
+          "Incertitude sur le ROI des bribes",
+          "Capital mercenaire",
+          "Capture de la gouvernance"
+        ],
+        "tags": [
+          "defi",
+          "gouvernance",
+          "incitations",
+          "amm"
+        ],
+        "common_questions": [
+          {
+            "question": "Les bribes sont-ils légitimes ?",
+            "answer": "En DeFi, les 'bribes' sont un mécanisme standard et transparent. Le terme est provocateur mais la pratique consiste simplement à payer pour le pouvoir de vote afin de diriger les émissions — entièrement on-chain et auditable."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "⚔ CRV Wars",
+            "url": "/crv-wars/",
+            "description": "Les bribes comme arme dans les CRV Wars."
+          }
+        ]
+      },
+      {
+        "id": "capital-efficiency",
+        "term": "Efficacité du Capital",
+        "full_term": "Efficacité du Capital",
+        "category": "trading",
+        "definition": "L'efficacité du capital mesure l'efficacité avec laquelle un protocole utilise le capital déposé pour générer des rendements ou faciliter les échanges. Une meilleure efficacité signifie que moins de capital est nécessaire pour le même résultat. Dans les AMMs, la liquidité concentrée (Uniswap v3) et le liquidity shaping (Maverick) améliorent l'efficacité du capital.",
+        "short_definition": "Efficacité avec laquelle un protocole utilise le capital déposé",
+        "example": "La liquidité concentrée d'Uniswap v3 peut offrir la même profondeur de trading qu'Uniswap v2 avec jusqu'à 4000x moins de capital.",
+        "related_terms": [
+          "concentrated-liquidity",
+          "liquidity-shaping",
+          "amm",
+          "liquidity-pool"
+        ],
+        "risks": [
+          "Perte impermanente amplifiée",
+          "Complexité accrue",
+          "Gestion active requise"
+        ],
+        "tags": [
+          "defi",
+          "amm",
+          "liquidité",
+          "efficacité"
+        ],
+        "common_questions": [
+          {
+            "question": "Une meilleure efficacité du capital est-elle toujours souhaitable ?",
+            "answer": "Pas nécessairement. Une efficacité du capital plus élevée s'accompagne souvent d'une complexité accrue et d'une perte impermanente amplifiée."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "Comment Maverick améliore l'efficacité du capital."
+          }
+        ]
+      },
+      {
+        "id": "liquidity-shaping",
+        "term": "Liquidity Shaping",
+        "full_term": "Liquidity Shaping",
+        "category": "trading",
+        "definition": "Le liquidity shaping est une évolution de la liquidité concentrée où les fournisseurs de liquidité peuvent définir des schémas de distribution personnalisés pour leur capital sur les plages de prix. Pionnier par Maverick Protocol, il permet aux LPs de déplacer automatiquement leur liquidité avec les mouvements de prix.",
+        "short_definition": "Schémas de distribution de liquidité personnalisés qui s'ajustent automatiquement avec les prix",
+        "example": "Sur Maverick, un LP peut choisir un mode 'Mode Right' qui suit le prix de l'ETH à la hausse, gardant la liquidité concentrée autour du prix actuel sans ajustement manuel.",
+        "related_terms": [
+          "concentrated-liquidity",
+          "capital-efficiency",
+          "amm",
+          "impermanent-loss"
+        ],
+        "risks": [
+          "Risque de nouveau mécanisme",
+          "Risque de smart contract",
+          "Complexité de sélection du mode"
+        ],
+        "tags": [
+          "defi",
+          "amm",
+          "liquidité",
+          "innovation"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle différence entre liquidity shaping et liquidité concentrée ?",
+            "answer": "La liquidité concentrée (Uniswap v3) nécessite une sélection et un rééquilibrage manuels. Le liquidity shaping (Maverick) ajoute des modes directionnels automatiques qui déplacent la liquidité avec le prix."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "Plongée dans l'innovation du liquidity shaping de Maverick."
+          }
+        ]
+      },
+      {
+        "id": "composability",
+        "term": "Composabilité",
+        "full_term": "Composabilité",
+        "category": "technical",
+        "definition": "La composabilité est la capacité des protocoles DeFi à interagir et à se construire les uns sur les autres de manière transparente, souvent appelée 'money legos'. Comme les smart contracts sont ouverts et sans permission, tout protocole peut s'intégrer avec n'importe quel autre, créant des produits financiers complexes en combinant des briques simples.",
+        "short_definition": "Capacité des protocoles DeFi à s'intégrer et se construire les uns sur les autres",
+        "example": "Un utilisateur peut déposer de l'ETH dans Lido (obtenant du stETH), utiliser le stETH comme collatéral sur Aave (empruntant des USDC), puis fournir de la liquidité USDC sur Curve — trois protocoles composés ensemble.",
+        "related_terms": [
+          "smart-contract",
+          "defi",
+          "flash-loan",
+          "lending"
+        ],
+        "risks": [
+          "Défaillances en cascade entre protocoles",
+          "Risque de dépendance",
+          "Risque de complexité"
+        ],
+        "tags": [
+          "defi",
+          "technique",
+          "money-legos",
+          "intégration"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi la composabilité est-elle importante ?",
+            "answer": "La composabilité permet aux développeurs de construire sur des protocoles existants plutôt que de repartir de zéro, accélérant l'innovation."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "DeFi is a toolbox reaching beyond finance",
+            "url": "/defi-beyond-finance/",
+            "description": "La composabilité de la DeFi au-delà de la finance."
+          }
+        ]
+      },
+      {
+        "id": "rollup",
+        "term": "Rollup",
+        "full_term": "Rollup",
+        "category": "technical",
+        "definition": "Un rollup est une solution de scalabilité Layer 2 qui exécute les transactions hors de la chaîne principale Ethereum mais publie les données de transaction sur le Layer 1 pour la sécurité. Il existe deux types principaux : les Optimistic Rollups (Optimism, Arbitrum) et les ZK-Rollups (zkSync, StarkNet) qui utilisent des preuves à connaissance nulle.",
+        "short_definition": "Solution de scalabilité Layer 2 qui exécute les transactions hors chaîne tout en publiant les données sur le Layer 1",
+        "example": "Arbitrum est un Optimistic Rollup qui traite les transactions à une fraction du coût du gas d'Ethereum mainnet tout en héritant des garanties de sécurité d'Ethereum.",
+        "related_terms": [
+          "layer-2",
+          "ethereum",
+          "gas",
+          "bridge"
+        ],
+        "risks": [
+          "Risque de bridge lors du transfert d'actifs",
+          "Centralisation du séquenceur",
+          "Délais de retrait (Optimistic)"
+        ],
+        "tags": [
+          "scalabilité",
+          "layer-2",
+          "ethereum",
+          "technique"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle différence entre Optimistic et ZK rollups ?",
+            "answer": "Les Optimistic Rollups supposent la validité et permettent des preuves de fraude pendant une période de contestation. Les ZK-Rollups prouvent la validité mathématiquement avec des preuves à connaissance nulle."
+          }
+        ],
+        "related_articles": []
+      },
+      {
+        "id": "ve-3-3",
+        "term": "ve(3,3)",
+        "full_term": "ve(3,3)",
+        "category": "technical",
+        "definition": "ve(3,3) est un modèle tokenomique combinant le mécanisme vote-escrow (ve) de Curve avec la théorie des jeux (3,3) d'OlympusDAO. Pionnier par Solidly d'Andre Cronje et affiné par Velodrome, il aligne les incitations en permettant aux détenteurs de veTokens de voter sur les émissions des gauges et de gagner les frais des pools pour lesquels ils votent.",
+        "short_definition": "Modèle tokenomique combinant le verrouillage vote-escrow avec la théorie des jeux coopérative (3,3)",
+        "example": "Velodrome sur Optimism utilise ve(3,3) : les détenteurs de VELO verrouillent leurs tokens en veVELO, votent sur les gauges et gagnent 100% des frais de trading des pools pour lesquels ils votent.",
+        "related_terms": [
+          "vote-escrow",
+          "gauge",
+          "bribes",
+          "venft"
+        ],
+        "risks": [
+          "Critique de ponzinomics",
+          "Durabilité des émissions",
+          "Capture de la gouvernance"
+        ],
+        "tags": [
+          "tokenomique",
+          "gouvernance",
+          "defi",
+          "modèle-ve"
+        ],
+        "common_questions": [
+          {
+            "question": "Le ve(3,3) est-il durable à long terme ?",
+            "answer": "La durabilité dépend de la capacité du protocole à générer des frais de trading réels qui justifient les émissions."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗡 CRV vs VELO Wars",
+            "url": "/crv-vs-velo/",
+            "description": "Comparaison du modèle ve de Curve avec le ve(3,3) de Velodrome."
+          }
+        ]
+      },
+      {
+        "id": "venft",
+        "term": "veNFT",
+        "full_term": "veNFT (NFT Vote-Escrow)",
+        "category": "technical",
+        "definition": "Un veNFT est un NFT qui représente une position de token vote-escrow. Contrairement aux veTokens traditionnels (non-transférables), les veNFTs rendent les positions verrouillées échangeables en les enveloppant sous forme de NFTs. Cela permet aux utilisateurs de sortir de positions verrouillées sur les marchés secondaires.",
+        "short_definition": "NFT représentant une position de token vote-escrow, rendant les positions verrouillées échangeables",
+        "example": "Sur Velodrome, verrouiller des VELO crée un veVELO NFT. Ce NFT peut être échangé sur les marchés secondaires.",
+        "related_terms": [
+          "vote-escrow",
+          "ve-3-3",
+          "nft",
+          "gauge"
+        ],
+        "risks": [
+          "Décote du prix du veNFT par rapport au sous-jacent",
+          "Risque de smart contract",
+          "Risque de liquidité sur les marchés secondaires"
+        ],
+        "tags": [
+          "gouvernance",
+          "nft",
+          "vote-escrow",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi envelopper les veTokens en NFTs ?",
+            "answer": "Les veTokens traditionnels sont verrouillés et non-transférables, ce qui crée une inefficacité du capital. Les veNFTs résolvent cela en rendant les positions échangeables, composables et utilisables comme collatéral."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "veNFT Infrastructure",
+            "url": "/veNFT-infrastructure/",
+            "description": "Plongée dans l'écosystème et l'infrastructure veNFT."
+          }
+        ]
+      },
+      {
+        "id": "health-factor",
+        "term": "Facteur de Santé",
+        "full_term": "Facteur de Santé",
+        "category": "risks",
+        "definition": "Le facteur de santé est un indicateur numérique de la sécurité d'une position de prêt, représentant le ratio entre la valeur du collatéral et la valeur empruntée ajusté par les seuils de liquidation. Au-dessus de 1, la position est sûre ; en dessous de 1, elle peut être liquidée.",
+        "short_definition": "Indicateur numérique de la sécurité d'une position de prêt par rapport au seuil de liquidation",
+        "example": "Avec un facteur de santé de 1.5, votre position a une marge de sécurité de 50% avant liquidation.",
+        "related_terms": [
+          "liquidation",
+          "ltv",
+          "collateral",
+          "lending"
+        ],
+        "risks": [
+          "Chute rapide pendant la volatilité",
+          "Risque de cascade de liquidations",
+          "Risque de délai d'oracle"
+        ],
+        "tags": [
+          "prêt",
+          "risques",
+          "liquidation",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Quel est un facteur de santé sûr ?",
+            "answer": "Cela dépend de la volatilité de l'actif. Pour les actifs volatils, un facteur de 2+ est recommandé. Pour les stablecoins, 1.5 peut suffire."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Comprendre les métriques de risque dans les protocoles de prêt."
+          }
+        ]
+      },
+      {
+        "id": "liquidation-cascade",
+        "term": "Cascade de Liquidations",
+        "full_term": "Cascade de Liquidations",
+        "category": "risks",
+        "definition": "Une cascade de liquidations se produit lorsqu'une série de liquidations déclenche des baisses de prix supplémentaires, qui provoquent la sous-collatéralisation de plus de positions, déclenchant encore plus de liquidations dans une spirale descendante auto-renforcée.",
+        "short_definition": "Réaction en chaîne de liquidations où chacune provoque des baisses de prix et d'autres liquidations",
+        "example": "Lors du crash de mai 2021, la chute de 30% de l'ETH a déclenché des liquidations massives sur Aave et Compound, qui ont vendu plus d'ETH, faisant baisser les prix encore plus.",
+        "related_terms": [
+          "liquidation",
+          "health-factor",
+          "collateral",
+          "lending"
+        ],
+        "risks": [
+          "Défaillance systémique du protocole",
+          "Accumulation de dette non couverte",
+          "Défaillance des oracles sous stress"
+        ],
+        "tags": [
+          "risques",
+          "prêt",
+          "systémique",
+          "liquidation"
+        ],
+        "common_questions": [
+          {
+            "question": "Comment les protocoles peuvent-ils prévenir les cascades de liquidations ?",
+            "answer": "Par des ratios LTV conservateurs, des mécanismes de liquidation graduelle, des disjoncteurs et des sources d'oracles diversifiées."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Analyse du risque systémique dans le prêt DeFi."
+          }
+        ]
+      },
+      {
+        "id": "depeg",
+        "term": "Depeg",
+        "full_term": "Depeg",
+        "category": "risks",
+        "definition": "Un depeg se produit lorsqu'un stablecoin ou un actif indexé perd son ancrage de prix prévu (typiquement 1$ pour les stablecoins USD). Les causes incluent les bank runs, les crises de collatéral, les défaillances d'oracle ou la perte de confiance. La gravité va de fluctuations mineures à l'effondrement total (ex: UST/LUNA).",
+        "short_definition": "Quand un stablecoin ou actif indexé perd son ancrage de prix prévu",
+        "example": "L'USDC a brièvement décroché à 0,87$ en mars 2023 lorsque Silicon Valley Bank (détenant 3,3 milliards$ des réserves de Circle) s'est effondrée.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "oracle",
+          "liquidation"
+        ],
+        "risks": [
+          "Depegs en cascade à travers la DeFi",
+          "Déséquilibre des pools de liquidité",
+          "Effondrement de la valeur du collatéral"
+        ],
+        "tags": [
+          "stablecoin",
+          "risques",
+          "ancrage",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Tous les depegs sont-ils dangereux ?",
+            "answer": "Non. Les depegs temporaires mineurs (ex: déviation de 0,5%) sont normaux et corrigés par les arbitrageurs. Les depegs soutenus dépassant 2-5% signalent des problèmes plus profonds."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗺 The Stablecoin Marauder Map",
+            "url": "/stablecoin-marauder-map/",
+            "description": "Cartographie des mécanismes et risques des stablecoins."
+          }
+        ]
+      },
+      {
+        "id": "liquid-staking",
+        "term": "Staking Liquide",
+        "full_term": "Staking Liquide",
+        "category": "strategies",
+        "definition": "Le staking liquide permet aux utilisateurs de staker leurs tokens (ex: ETH) et de recevoir un token dérivé liquide (ex: stETH, rETH) en retour. Ce dérivé peut être utilisé à travers la DeFi pendant que l'actif sous-jacent génère des récompenses de staking.",
+        "short_definition": "Staker des tokens tout en recevant un dérivé liquide utilisable en DeFi",
+        "example": "Staker 10 ETH via Lido donne 10 stETH, qui génère des récompenses de staking (~3-5% APR) tout en étant utilisable comme collatéral sur Aave.",
+        "related_terms": [
+          "staking",
+          "restaking",
+          "composability",
+          "collateral"
+        ],
+        "risks": [
+          "Depeg du dérivé par rapport au sous-jacent",
+          "Risque de smart contract",
+          "Risque de slashing du validateur"
+        ],
+        "tags": [
+          "staking",
+          "defi",
+          "ethereum",
+          "stratégies"
+        ],
+        "common_questions": [
+          {
+            "question": "Le staking liquide est-il sûr ?",
+            "answer": "Le staking liquide ajoute un risque de smart contract en plus du risque de staking classique. Les protocoles majeurs comme Lido et Rocket Pool sont éprouvés, mais le token dérivé peut temporairement décrocher."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "The Pegged Asset Swap Wars",
+            "url": "/pegged-assets-swap/",
+            "description": "Les dérivés de staking liquide dans le contexte des échanges d'actifs indexés."
+          }
+        ]
+      },
+      {
+        "id": "restaking",
+        "term": "Restaking",
+        "full_term": "Restaking",
+        "category": "strategies",
+        "definition": "Le restaking est la pratique d'utiliser des actifs déjà stakés (comme le stETH) pour fournir de la sécurité à des protocoles ou services supplémentaires. Pionnier par EigenLayer, le restaking permet aux validateurs Ethereum de sécuriser d'autres réseaux, gagnant des récompenses supplémentaires mais introduisant des risques de slashing additionnels.",
+        "short_definition": "Utiliser des actifs déjà stakés pour sécuriser des protocoles supplémentaires et gagner un rendement additionnel",
+        "example": "Un staker ETH dépose du stETH dans EigenLayer pour restaker, gagnant les récompenses de staking ETH de base plus des récompenses supplémentaires.",
+        "related_terms": [
+          "liquid-staking",
+          "staking",
+          "slashing",
+          "composability"
+        ],
+        "risks": [
+          "Conditions de slashing supplémentaires",
+          "Empilement des risques de smart contract",
+          "Risque systémique de la sécurité partagée"
+        ],
+        "tags": [
+          "staking",
+          "defi",
+          "sécurité",
+          "rendements"
+        ],
+        "common_questions": [
+          {
+            "question": "Quels sont les risques du restaking ?",
+            "answer": "Le restaking empile les risques : vous faites face aux risques de staking de base plus des conditions de slashing supplémentaires de chaque service que vous sécurisez."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Leverage with SIR Protocol",
+            "url": "/leverage-sir/",
+            "description": "Le restaking dans le contexte des stratégies de rendement avec levier."
+          }
+        ]
+      },
+      {
+        "id": "seigniorage",
+        "term": "Seigneuriage",
+        "full_term": "Seigneuriage",
+        "category": "tokens",
+        "definition": "En crypto, le seigneuriage désigne le profit qu'un protocole de stablecoin réalise en émettant des tokens qui coûtent moins à créer que leur valeur faciale. Les stablecoins algorithmiques utilisent des mécanismes de seigneuriage : quand la demande augmente, de nouveaux tokens sont mintés, et quand elle diminue, des tokens sont brûlés.",
+        "short_definition": "Profit tiré de l'émission de stablecoins qui coûtent moins à créer que leur valeur faciale",
+        "example": "Basis Cash et Empty Set Dollar utilisaient des modèles de seigneuriage : quand le stablecoin s'échangeait au-dessus de 1$, de nouveaux tokens étaient mintés, mais les deux ont échoué à maintenir leur ancrage.",
+        "related_terms": [
+          "stablecoin",
+          "depeg",
+          "tokenomics",
+          "emission"
+        ],
+        "risks": [
+          "Risque de spirale mortelle",
+          "Instabilité de l'ancrage",
+          "Dynamiques de bank run"
+        ],
+        "tags": [
+          "stablecoin",
+          "tokenomique",
+          "algorithmique",
+          "tokens"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi les stablecoins à seigneuriage ont-ils échoué ?",
+            "answer": "La plupart ont échoué car le mécanisme de contraction de l'offre était trop faible. Une fois la confiance rompue, la spirale mortelle rend la récupération quasi impossible."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Understanding Seigniorage: Basis Cash & ESD",
+            "url": "/seigniorage-basis-esd/",
+            "description": "Analyse des mécanismes de seigneuriage et de leurs échecs."
+          }
+        ]
+      },
+      {
+        "id": "overcollateralization",
+        "term": "Surcollatéralisation",
+        "full_term": "Surcollatéralisation",
+        "category": "tokens",
+        "definition": "La surcollatéralisation signifie verrouiller plus de valeur en collatéral que le montant emprunté ou minté. Ce tampon protège les prêteurs et les détenteurs de stablecoins contre les baisses de prix de l'actif collatéral. C'est le fondement de la plupart des protocoles de prêt DeFi et des stablecoins décentralisés.",
+        "short_definition": "Verrouiller plus de valeur en collatéral que le montant emprunté comme tampon de sécurité",
+        "example": "Pour emprunter 1000 LUSD sur Liquity, vous devez déposer au moins 1100$ d'ETH (ratio de collatéralisation minimum de 110%).",
+        "related_terms": [
+          "collateral",
+          "ltv",
+          "liquidation",
+          "cdp"
+        ],
+        "risks": [
+          "Inefficacité du capital",
+          "Risque de liquidation si le collatéral baisse",
+          "Coût d'opportunité du capital verrouillé"
+        ],
+        "tags": [
+          "prêt",
+          "stablecoin",
+          "collatéral",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi ne pas utiliser une collatéralisation 1:1 ?",
+            "answer": "Les actifs crypto sont volatils. Si le collatéral baisse en dessous du prêt, le protocole accumule de la dette non couverte. La surcollatéralisation fournit un tampon pour liquider avant que cela n'arrive."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Liquity Protocol",
+            "url": "/liquity-protocol/",
+            "description": "La surcollatéralisation dans le design du stablecoin Liquity."
+          }
+        ]
+      },
+      {
+        "id": "emission",
+        "term": "Émission",
+        "full_term": "Émission (Token)",
+        "category": "yields",
+        "definition": "L'émission de tokens désigne le rythme et le calendrier auxquels de nouveaux tokens sont créés et distribués par un protocole. Les émissions sont utilisées pour inciter les fournisseurs de liquidité, les stakers ou d'autres participants. Le calendrier d'émission est un facteur critique de la tokenomique.",
+        "short_definition": "Rythme et calendrier auxquels de nouveaux tokens sont créés et distribués",
+        "example": "Curve émet des tokens CRV aux fournisseurs de liquidité selon les poids des gauges. Le taux d'émission diminue progressivement selon un calendrier prédéfini.",
+        "related_terms": [
+          "liquidity-mining",
+          "gauge",
+          "tokenomics",
+          "flywheel"
+        ],
+        "risks": [
+          "Pression vendeuse inflationniste",
+          "Projections d'APY non durables",
+          "Capital mercenaire"
+        ],
+        "tags": [
+          "tokenomique",
+          "rendements",
+          "incitations",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Les émissions sont-elles durables ?",
+            "answer": "Les émissions ne sont durables que si le protocole génère suffisamment de valeur réelle (frais, revenus) pour justifier la distribution de tokens."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🎡 The DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "Comment les émissions alimentent les dynamiques de flywheel."
+          }
+        ]
+      },
+      {
+        "id": "protocol-owned-liquidity",
+        "term": "Liquidité Possédée par le Protocole",
+        "full_term": "Liquidité Possédée par le Protocole (POL)",
+        "category": "governance",
+        "definition": "La Liquidité Possédée par le Protocole (POL) est de la liquidité qui appartient à la trésorerie du protocole plutôt que d'être louée à des fournisseurs de liquidité externes via des émissions. Au lieu de payer des incitations continues, les protocoles acquièrent leurs propres positions LP.",
+        "short_definition": "Liquidité détenue par la trésorerie du protocole plutôt que louée à des LPs externes",
+        "example": "Au lieu de payer 1M$/mois en émissions pour attirer de la liquidité, un protocole utilise le bonding pour acquérir ses propres tokens LP, construisant une liquidité permanente.",
+        "related_terms": [
+          "liquidity-mining",
+          "dao",
+          "flywheel",
+          "emission"
+        ],
+        "risks": [
+          "Perte impermanente sur les positions LP de la trésorerie",
+          "Risque d'allocation du capital",
+          "Complexité du mécanisme de bonding"
+        ],
+        "tags": [
+          "gouvernance",
+          "trésorerie",
+          "liquidité",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Pourquoi la POL est-elle meilleure que la liquidité louée ?",
+            "answer": "La liquidité louée part quand les incitations s'arrêtent. La POL est permanente — le protocole n'a pas besoin de payer continuellement des émissions. Elle génère aussi des frais de trading pour la trésorerie."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Farewell GLC",
+            "url": "/farewell-glc/",
+            "description": "La liquidité possédée par le protocole dans la gestion de trésorerie DAO."
+          }
+        ]
+      },
+      {
+        "id": "flywheel",
+        "term": "Flywheel",
+        "full_term": "Flywheel",
+        "category": "governance",
+        "definition": "Un flywheel DeFi est un cycle auto-renforcé où chaque composant du design d'un protocole amplifie les autres, créant une boucle vertueuse de croissance. Typiquement : plus de liquidité → meilleurs trades → plus de frais → plus de valeur du token → plus de verrouillage → plus de pouvoir de gouvernance → émissions dirigées → plus de liquidité.",
+        "short_definition": "Cycle auto-renforcé où les composants du protocole amplifient mutuellement leur croissance",
+        "example": "Le flywheel de Velodrome : les traders génèrent des frais → les détenteurs de veVELO gagnent les frais en votant → plus de VELO est verrouillé → les émissions attirent plus de liquidité → plus de traders.",
+        "related_terms": [
+          "ve-3-3",
+          "gauge",
+          "emission",
+          "protocol-owned-liquidity"
+        ],
+        "risks": [
+          "Spirale mortelle quand le flywheel s'inverse",
+          "Dépendance à la croissance continue",
+          "Vulnérabilité aux chocs externes"
+        ],
+        "tags": [
+          "tokenomique",
+          "gouvernance",
+          "croissance",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Qu'est-ce qui brise un flywheel ?",
+            "answer": "Un flywheel peut se briser quand n'importe quel composant faiblit : un crash du marché réduit les frais, les émissions deviennent non durables, ou un concurrent offre de meilleures incitations."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🎡 The DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "Plongée dans les mécaniques de flywheel en DeFi."
+          }
+        ]
+      },
+      {
+        "id": "money-market",
+        "term": "Marché Monétaire",
+        "full_term": "Marché Monétaire",
+        "category": "protocols",
+        "definition": "En DeFi, un marché monétaire est un protocole qui facilite le prêt et l'emprunt d'actifs crypto via des smart contracts. Les prêteurs déposent des actifs dans des pools et gagnent des intérêts, tandis que les emprunteurs fournissent du collatéral et paient des intérêts. Les principaux marchés monétaires incluent Aave, Compound et Morpho.",
+        "short_definition": "Protocole facilitant le prêt et l'emprunt décentralisés d'actifs crypto",
+        "example": "Sur Aave, vous déposez 10 ETH comme collatéral et empruntez 5000 USDC à taux variable.",
+        "related_terms": [
+          "lending",
+          "borrowing",
+          "collateral",
+          "health-factor"
+        ],
+        "risks": [
+          "Risque de smart contract",
+          "Risque de liquidation",
+          "Volatilité des taux d'intérêt",
+          "Manipulation d'oracle"
+        ],
+        "tags": [
+          "prêt",
+          "protocoles",
+          "defi",
+          "emprunt"
+        ],
+        "common_questions": [
+          {
+            "question": "En quoi les marchés monétaires DeFi diffèrent-ils des traditionnels ?",
+            "answer": "Les marchés monétaires DeFi sont sans permission, non-custodiaux et fonctionnent 24/7 via des smart contracts. Les taux s'ajustent algorithmiquement selon l'offre et la demande."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "Money Markets Risk",
+            "url": "/money-markets-risk/",
+            "description": "Comprendre le risque dans les marchés monétaires DeFi."
+          }
+        ]
+      },
+      {
+        "id": "cdp",
+        "term": "CDP",
+        "full_term": "CDP (Position de Dette Collatéralisée)",
+        "category": "protocols",
+        "definition": "Une Position de Dette Collatéralisée (CDP) est un smart contract où un utilisateur dépose du collatéral pour minter ou emprunter des stablecoins. Popularisé par MakerDAO (déposer de l'ETH, minter du DAI), les CDPs sont l'épine dorsale des stablecoins décentralisés et du prêt on-chain.",
+        "short_definition": "Smart contract où du collatéral est déposé pour minter ou emprunter des stablecoins",
+        "example": "Sur MakerDAO, vous ouvrez un CDP en déposant 3000$ d'ETH et en mintant 1500 DAI (collatéralisation de 200%). Si l'ETH chute et votre ratio passe sous 150%, votre position est liquidée.",
+        "related_terms": [
+          "overcollateralization",
+          "liquidation",
+          "stablecoin",
+          "money-market"
+        ],
+        "risks": [
+          "Risque de liquidation",
+          "Volatilité du collatéral",
+          "Risque de smart contract",
+          "Changements de frais de stabilité"
+        ],
+        "tags": [
+          "prêt",
+          "stablecoin",
+          "protocoles",
+          "defi"
+        ],
+        "common_questions": [
+          {
+            "question": "Quelle différence entre un CDP et un prêt classique ?",
+            "answer": "Un CDP permet de minter de nouveaux stablecoins contre votre collatéral, tandis qu'un prêt DeFi classique emprunte des actifs existants d'un pool. Les CDPs créent de la nouvelle offre ; les pools de prêt redistribuent l'offre existante."
+          }
+        ],
+        "related_articles": [
+          {
+            "title": "🗺 The Stablecoin Marauder Map",
+            "url": "/stablecoin-marauder-map/",
+            "description": "Les CDPs dans le paysage plus large des stablecoins."
+          }
+        ]
+      },
+      {
+        "id": "lp-token",
+        "term": "Token LP",
+        "full_term": "Token de Fournisseur de Liquidité",
+        "category": "tokens",
+        "definition": "Un token LP est reçu en échange de la fourniture de liquidité à un pool. Il représente votre part du pool et peut être échangé pour récupérer vos actifs déposés plus les frais accumulés. Les tokens LP peuvent aussi être stakés dans des farms pour des récompenses supplémentaires.",
+        "short_definition": "Token représentant la part d'un utilisateur dans un pool de liquidité",
+        "example": "En fournissant 1 ETH et 2000 USDC à un pool Uniswap, vous recevez des tokens LP ETH/USDC représentant votre part du pool.",
+        "related_terms": [
+          "liquidity-pool",
+          "liquidity-providing",
+          "amm",
+          "impermanent-loss"
+        ],
+        "risks": [
+          "Impermanent loss",
+          "Smart contract risk",
+          "Pool-specific risks"
+        ],
+        "tags": [
+          "tokens",
+          "lp",
+          "liquidité",
+          "pool"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "🤖 Vaults: DeFi Investing Streamlined?",
+            "url": "/vaults/",
+            "description": "LP tokens as vault deposits and tokenized strategies."
+          }
+        ]
+      },
+      {
+        "id": "synthetic-asset",
+        "term": "Actif Synthétique",
+        "full_term": "Actif Synthétique",
+        "category": "tokens",
+        "definition": "Un actif synthétique est un token blockchain qui réplique la valeur d'un actif du monde réel (actions, matières premières, devises) sans nécessiter la détention de l'actif sous-jacent. Ils utilisent des oracles de prix et du collatéral pour maintenir leur ancrage.",
+        "short_definition": "Token blockchain qui suit le prix d'un actif du monde réel",
+        "example": "sETH de Synthetix suit le prix de l'ETH, sTSLA suit le cours de l'action Tesla, permettant une exposition sans détenir directement ces actifs.",
+        "related_terms": [
+          "derivatives",
+          "oracle",
+          "collateral",
+          "price-feeds"
+        ],
+        "risks": [
+          "Oracle manipulation",
+          "Collateral liquidation",
+          "Tracking errors"
+        ],
+        "tags": [
+          "synthétique",
+          "actif",
+          "dérivé",
+          "tokens"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Exploring stable assets on Ethereum: approaches & endgame",
+            "url": "/ethereum-stable-assets/",
+            "description": "Pegged/synthetic assets on Ethereum."
+          }
+        ]
+      },
+      {
+        "id": "rebase-token",
+        "term": "Token Rebase",
+        "full_term": "Token à Offre Élastique",
+        "category": "tokens",
+        "definition": "Un token rebase (ou à offre élastique) ajuste automatiquement son offre en circulation pour cibler un prix spécifique. Quand le prix est au-dessus de la cible, de nouveaux tokens sont mintés ; quand il est en dessous, les tokens sont brûlés ou contractés.",
+        "short_definition": "Token avec une offre élastique qui s'ajuste pour maintenir la stabilité du prix",
+        "example": "Ampleforth (AMPL) ajuste quotidiennement l'offre de chaque portefeuille : si le prix est au-dessus de 1$, les soldes augmentent ; en dessous, ils diminuent.",
+        "related_terms": [
+          "elastic-supply",
+          "algorithmic",
+          "price-stability",
+          "inflation"
+        ],
+        "risks": [
+          "Supply volatility",
+          "Complexity",
+          "Unpredictable returns"
+        ],
+        "tags": [
+          "rebase",
+          "élastique",
+          "offre",
+          "tokens"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "The state & future of algorithmic stablecoins",
+            "url": "/algorithmic-stablecoins/",
+            "description": "Rebase mechanisms in ESD, DSD: expansion/contraction."
+          },
+          {
+            "title": "⚖ The tale of two seigniorage models: Basis vs ESD",
+            "url": "/seigniorage-basis-esd/",
+            "description": "Elastic currency models and rebases."
+          },
+          {
+            "title": "ve(3,3), the logical next step after veCRV?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "Anti-dilutive rebases for veSOLID holders."
+          }
+        ]
+      },
+      {
+        "id": "utility-token",
+        "term": "Token Utilitaire",
+        "full_term": "Token Utilitaire",
+        "category": "tokens",
+        "definition": "Un token utilitaire est un token qui donne accès aux fonctionnalités, services ou produits d'un protocole spécifique. Contrairement aux tokens de gouvernance qui confèrent un pouvoir de vote, les tokens utilitaires servent de 'carburant' pour utiliser le protocole.",
+        "short_definition": "Token donnant accès aux fonctionnalités ou services d'un protocole",
+        "example": "Le LINK de Chainlink est un token utilitaire : il est utilisé pour payer les services d'oracle et récompenser les opérateurs de nœuds.",
+        "related_terms": [
+          "governance-token",
+          "protocol",
+          "services",
+          "ecosystem"
+        ],
+        "risks": [
+          "Utility demand changes",
+          "Competition",
+          "Protocol changes"
+        ],
+        "tags": [
+          "tokens",
+          "utilitaire",
+          "accès",
+          "protocole"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "nft",
+        "term": "NFT",
+        "full_term": "Token Non-Fongible",
+        "category": "tokens",
+        "definition": "Un NFT (Non-Fungible Token) est un token numérique unique qui représente la propriété d'un élément spécifique — art, musique, objets de jeu, etc. Contrairement aux tokens fongibles comme ETH, chaque NFT est unique et non interchangeable.",
+        "short_definition": "Token numérique unique représentant la propriété d'un élément spécifique",
+        "example": "Un artiste crée un NFT de son œuvre sur Ethereum. L'acheteur possède le token unique prouvant la propriété de cette œuvre numérique.",
+        "related_terms": [
+          "erc-721",
+          "digital-ownership",
+          "collectibles",
+          "metadata"
+        ],
+        "risks": [
+          "Illiquidity",
+          "Speculative bubbles",
+          "Storage dependencies"
+        ],
+        "tags": [
+          "nft",
+          "non-fongible",
+          "propriété",
+          "tokens"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Non-fungible tokens explained with Blastoise and Charizard",
+            "url": "/nft/",
+            "description": "Core NFT explainer."
+          },
+          {
+            "title": "Non-fungible tokens (NFTs): the weight and contribution of ascertainable history",
+            "url": "/nft-usecases/",
+            "description": "NFT use cases and provable scarcity."
+          },
+          {
+            "title": "NFTfi: NFT meets DeFi, liquidity and leverage ensue",
+            "url": "/nftfi-defi-nft/",
+            "description": "NFT meets DeFi infrastructure."
+          }
+        ]
+      },
+      {
+        "id": "erc-721",
+        "term": "ERC-721",
+        "full_term": "Ethereum Request for Comment 721",
+        "category": "technical",
+        "definition": "ERC-721 est le standard technique pour les tokens non-fongibles (NFTs) sur Ethereum. Il définit comment créer des tokens uniques qui ne sont pas interchangeables, contrairement aux tokens ERC-20 fongibles. Chaque token ERC-721 a un identifiant unique.",
+        "short_definition": "Standard pour la création de tokens non-fongibles sur Ethereum",
+        "example": "Un CryptoPunk est un token ERC-721 : chaque punk est unique et non interchangeable avec un autre.",
+        "related_terms": [
+          "nft",
+          "ethereum",
+          "standard",
+          "unique-tokens"
+        ],
+        "risks": [
+          "Standard limitations",
+          "Gas costs",
+          "Compatibility issues"
+        ],
+        "tags": [
+          "erc721",
+          "nft",
+          "standard",
+          "ethereum"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Non-fungible tokens explained with Blastoise and Charizard",
+            "url": "/nft/",
+            "description": "Explains ERC-721 as the NFT standard."
+          }
+        ]
+      },
+      {
+        "id": "token-burn",
+        "term": "Destruction de Tokens",
+        "full_term": "Destruction de Tokens (Burn)",
+        "category": "tokens",
+        "definition": "La destruction de tokens (burning) consiste à envoyer des tokens vers une adresse inaccessible, les retirant définitivement de la circulation. C'est un mécanisme déflationniste utilisé pour réduire l'offre et potentiellement augmenter la valeur des tokens restants.",
+        "short_definition": "Suppression permanente de tokens de la circulation",
+        "example": "Ethereum brûle une partie des frais de gas depuis l'EIP-1559, réduisant progressivement l'offre d'ETH en circulation.",
+        "related_terms": [
+          "deflationary",
+          "supply",
+          "tokenomics",
+          "value-accrual"
+        ],
+        "risks": [
+          "Irreversible action",
+          "Economic assumptions",
+          "Governance decisions"
+        ],
+        "tags": [
+          "tokens",
+          "burn",
+          "déflationniste",
+          "offre"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "tokenomics",
+        "term": "Tokenomique",
+        "full_term": "Économie du Token",
+        "category": "tokens",
+        "definition": "La tokenomique (tokenomics) désigne le design économique et les mécaniques d'un token : offre totale, distribution, émissions, mécanismes de burn, utilité, gouvernance et incitations. C'est un facteur crucial dans l'évaluation d'un projet crypto.",
+        "short_definition": "Design économique et mécanique d'un token de cryptomonnaie",
+        "example": "La tokenomique de CRV inclut : émissions décroissantes sur 4 ans, verrouillage pour le vote (veCRV), distribution aux LPs, et burn des frais.",
+        "related_terms": [
+          "supply",
+          "inflation",
+          "distribution",
+          "incentives"
+        ],
+        "risks": [
+          "Poor design consequences",
+          "Inflation",
+          "Centralization"
+        ],
+        "tags": [
+          "tokenomique",
+          "économie",
+          "design",
+          "tokens"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Volume begets fees: how are the main decentralized exchanges capturing value?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "UNI, SUSHI, CRV tokenomics compared."
+          },
+          {
+            "title": "🎡 DeFi Flywheel",
+            "url": "/defi-flywheel/",
+            "description": "CRV/CVX flywheel tokenomics."
+          },
+          {
+            "title": "ve(3,3), the logical next step after veCRV?",
+            "url": "/solidly-velodrome-fork/",
+            "description": "ve(3,3) tokenomics design."
+          }
+        ]
+      },
+      {
+        "id": "vesting",
+        "term": "Vesting",
+        "full_term": "Vesting de Tokens",
+        "category": "tokens",
+        "definition": "Le vesting est la libération progressive de tokens dans le temps selon un calendrier prédéfini. Il empêche les détenteurs (équipe, investisseurs) de vendre immédiatement tous leurs tokens, alignant leurs intérêts avec le succès à long terme du projet.",
+        "short_definition": "Libération progressive de tokens dans le temps selon un calendrier",
+        "example": "L'équipe d'un projet reçoit des tokens avec un vesting de 4 ans et un cliff de 1 an : aucun token pendant 12 mois, puis libération mensuelle pendant 3 ans.",
+        "related_terms": [
+          "cliff",
+          "release-schedule",
+          "alignment",
+          "lock-up"
+        ],
+        "risks": [
+          "Selling pressure after vesting",
+          "Team departures",
+          "Schedule changes"
+        ],
+        "tags": [
+          "tokens",
+          "vesting",
+          "distribution",
+          "calendrier"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Volume begets fees: how are the main decentralized exchanges capturing value?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "SushiSwap 6-month vesting on rewards."
+          }
+        ]
+      },
+      {
+        "id": "airdrop",
+        "term": "Airdrop",
+        "full_term": "Airdrop de Tokens",
+        "category": "tokens",
+        "definition": "Un airdrop est la distribution gratuite de tokens à des adresses de portefeuilles, généralement pour récompenser les utilisateurs précoces, inciter à l'utilisation du protocole ou distribuer des tokens de gouvernance. Les airdrops sont devenus un outil marketing clé et un mécanisme de distribution en DeFi.",
+        "short_definition": "Distribution gratuite de tokens à des adresses de portefeuilles",
+        "example": "Uniswap a distribué 400 UNI à chaque portefeuille ayant utilisé le protocole avant septembre 2020, d'une valeur de milliers de dollars au sommet.",
+        "related_terms": [
+          "distribution",
+          "governance-tokens",
+          "rewards",
+          "decentralization"
+        ],
+        "risks": [
+          "Regulatory concerns",
+          "Selling pressure",
+          "Sybil attacks"
+        ],
+        "tags": [
+          "tokens",
+          "airdrop",
+          "distribution",
+          "récompenses"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "whitelist",
+        "term": "Liste Blanche",
+        "full_term": "Liste Blanche de Tokens",
+        "category": "tokens",
+        "definition": "Une liste blanche (whitelist) est une liste d'adresses de portefeuilles approuvées pour participer à des événements exclusifs comme des ventes de tokens, des mints de NFTs ou des airdrops. L'inscription se fait souvent via des activités communautaires.",
+        "short_definition": "Liste d'adresses approuvées pour un accès anticipé aux événements de tokens",
+        "example": "Pour être sur la whitelist d'un mint de NFTs, les utilisateurs doivent être actifs sur le Discord du projet et remplir certains critères.",
+        "related_terms": [
+          "presale",
+          "early-access",
+          "kyc",
+          "allowlist"
+        ],
+        "risks": [
+          "Centralization",
+          "Unfair advantage",
+          "Gaming attempts"
+        ],
+        "tags": [
+          "tokens",
+          "whitelist",
+          "accès",
+          "exclusif"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "market-cap",
+        "term": "Capitalisation Boursière",
+        "full_term": "Capitalisation Boursière",
+        "category": "tokens",
+        "definition": "La capitalisation boursière (market cap) est la valeur totale d'une cryptomonnaie, calculée en multipliant le prix actuel par l'offre en circulation. C'est la métrique la plus courante pour comparer la taille relative des cryptomonnaies.",
+        "short_definition": "Valeur totale d'une cryptomonnaie (prix × offre en circulation)",
+        "example": "Si ETH est à 2000$ avec 120 millions d'ETH en circulation, la capitalisation boursière est de 240 milliards de dollars.",
+        "related_terms": [
+          "circulating-supply",
+          "price",
+          "valuation",
+          "ranking"
+        ],
+        "risks": [
+          "Manipulation with low supply",
+          "Dilution from new tokens",
+          "Market volatility"
+        ],
+        "tags": [
+          "tokens",
+          "capitalisation",
+          "marché",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "circulating-supply",
+        "term": "Offre en Circulation",
+        "full_term": "Offre de Tokens en Circulation",
+        "category": "tokens",
+        "definition": "L'offre en circulation désigne le nombre de tokens publiquement disponibles et activement échangés sur le marché. Elle exclut les tokens verrouillés, en vesting ou brûlés. C'est la métrique utilisée pour calculer la capitalisation boursière.",
+        "short_definition": "Nombre de tokens publiquement disponibles et activement échangés",
+        "example": "Si un token a une offre totale de 1 milliard mais 600 millions en circulation, la capitalisation boursière est calculée sur les 600 millions.",
+        "related_terms": [
+          "total-supply",
+          "max-supply",
+          "market-cap",
+          "locked-tokens"
+        ],
+        "risks": [
+          "Supply inflation",
+          "Unlock events",
+          "Calculation differences"
+        ],
+        "tags": [
+          "tokens",
+          "offre",
+          "circulation",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "total-supply",
+        "term": "Offre Totale",
+        "full_term": "Offre Totale de Tokens",
+        "category": "tokens",
+        "definition": "L'offre totale est le nombre total de tokens qui existent actuellement, incluant les tokens en circulation et ceux verrouillés ou en vesting. Elle exclut les tokens brûlés mais inclut ceux non encore distribués.",
+        "short_definition": "Nombre total de tokens qui existent actuellement",
+        "example": "Un token avec 1 milliard d'offre totale peut avoir seulement 300 millions en circulation, le reste étant en vesting pour l'équipe et les investisseurs.",
+        "related_terms": [
+          "circulating-supply",
+          "max-supply",
+          "minting",
+          "burning"
+        ],
+        "risks": [
+          "Inflation",
+          "Supply changes",
+          "Burn rate variations"
+        ],
+        "tags": [
+          "tokens",
+          "offre",
+          "totale",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "max-supply",
+        "term": "Offre Maximale",
+        "full_term": "Offre Maximale de Tokens",
+        "category": "tokens",
+        "definition": "L'offre maximale est le nombre maximum de tokens qui pourront jamais exister pour une cryptomonnaie donnée. Contrairement à l'offre totale, elle représente un plafond absolu qui ne peut être dépassé. Tous les tokens n'ont pas d'offre maximale.",
+        "short_definition": "Nombre maximum de tokens pouvant exister",
+        "example": "Bitcoin a une offre maximale de 21 millions de BTC. ETH n'a pas d'offre maximale fixe, bien que l'EIP-1559 le rende potentiellement déflationniste.",
+        "related_terms": [
+          "total-supply",
+          "scarcity",
+          "deflationary",
+          "hard-cap"
+        ],
+        "risks": [
+          "Policy changes",
+          "Fork risks",
+          "Economic assumptions"
+        ],
+        "tags": [
+          "tokens",
+          "offre",
+          "maximum",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "sandwich-attack",
+        "term": "Attaque Sandwich",
+        "full_term": "Attaque Sandwich",
+        "category": "risks",
+        "definition": "Une attaque sandwich est une forme de MEV où un attaquant place un ordre d'achat avant et un ordre de vente après la transaction d'une victime. Cela fait monter le prix avant le swap de la victime (qui achète plus cher) et l'attaquant vend ensuite à profit.",
+        "short_definition": "Attaque MEV qui encadre le trade d'une victime avec des ordres d'achat/vente",
+        "example": "Un bot détecte un gros swap ETH/USDC, achète de l'ETH juste avant (faisant monter le prix), la victime achète à un prix plus élevé, puis le bot vend immédiatement après.",
+        "related_terms": [
+          "mev",
+          "front-running",
+          "slippage",
+          "mempool"
+        ],
+        "risks": [
+          "Increased trading costs",
+          "Unfair extraction",
+          "Poor execution"
+        ],
+        "tags": [
+          "mev",
+          "sandwich",
+          "attaque",
+          "risques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "front-running",
+        "term": "Front-running",
+        "full_term": "Front-running de Transaction",
+        "category": "risks",
+        "definition": "Le front-running consiste à exécuter une transaction avant une autre en payant des frais de gas plus élevés. En DeFi, les bots surveillent le mempool pour détecter les grosses transactions et les devancer pour en tirer profit, une forme de MEV.",
+        "short_definition": "Exécuter une transaction avant une autre en payant des frais de gas plus élevés",
+        "example": "Un bot détecte un gros achat d'ETH en attente dans le mempool, achète de l'ETH avant cette transaction (faisant monter le prix), puis vend après pour un profit.",
+        "related_terms": [
+          "mev",
+          "mempool",
+          "gas",
+          "sandwich-attack"
+        ],
+        "risks": [
+          "Lost profits",
+          "Higher costs",
+          "Unfair advantages"
+        ],
+        "tags": [
+          "mev",
+          "front-running",
+          "gas",
+          "attaque"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "twap",
+        "term": "TWAP",
+        "full_term": "Prix Moyen Pondéré dans le Temps",
+        "category": "technical",
+        "definition": "Le TWAP (Time-Weighted Average Price) est le prix moyen d'un actif calculé sur une période définie. Il est utilisé par les oracles de prix pour résister aux manipulations instantanées et par les traders pour exécuter de gros ordres sans impact de prix.",
+        "short_definition": "Prix moyen d'un actif calculé sur une période pour résister à la manipulation",
+        "example": "Un oracle TWAP calcule le prix moyen de l'ETH sur les 30 dernières minutes, rendant la manipulation par flash loan pratiquement impossible.",
+        "related_terms": [
+          "oracle",
+          "price-feeds",
+          "manipulation",
+          "average"
+        ],
+        "risks": [
+          "Lagging prices",
+          "Still manipulable over time",
+          "Complexity"
+        ],
+        "tags": [
+          "technique",
+          "twap",
+          "oracle",
+          "prix"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "The state & future of algorithmic stablecoins",
+            "url": "/algorithmic-stablecoins/",
+            "description": "TWAP used in expansion/contraction decisions."
+          }
+        ]
+      },
+      {
+        "id": "concentrated-liquidity",
+        "term": "Liquidité Concentrée",
+        "full_term": "Liquidité Concentrée",
+        "category": "technical",
+        "definition": "La liquidité concentrée permet aux fournisseurs de liquidité d'allouer leur capital dans des plages de prix personnalisées plutôt que de le répartir sur toute la courbe de prix. Introduite par Uniswap v3, elle améliore l'efficacité du capital mais nécessite une gestion active.",
+        "short_definition": "Fournir de la liquidité dans des plages de prix spécifiques pour une meilleure efficacité",
+        "example": "Au lieu de fournir de la liquidité ETH/USDC sur toute la plage de prix, un LP concentre sa liquidité entre 1800$ et 2200$.",
+        "related_terms": [
+          "uniswap-v3",
+          "capital-efficiency",
+          "liquidity-providing",
+          "price-range"
+        ],
+        "risks": [
+          "Out-of-range positions",
+          "Impermanent loss",
+          "Active management needed"
+        ],
+        "tags": [
+          "liquidité",
+          "concentrée",
+          "efficacité",
+          "uniswap"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Staying Ahead of the Curve: the shift from Liquidity Mining to Liquidity Shaping",
+            "url": "/maverick-liquidity-shaping/",
+            "description": "Deep dive into concentrated liquidity: Maverick modes vs UNIv3."
+          },
+          {
+            "title": "The Pegged Asset Swap Wars",
+            "url": "/pegged-assets-swap/",
+            "description": "Historical progression from UNIv2 to StableSwap to UNIv3 concentrated liquidity."
+          }
+        ]
+      },
+      {
+        "id": "order-book",
+        "term": "Carnet d'Ordres",
+        "full_term": "Carnet d'Ordres",
+        "category": "technical",
+        "definition": "Un carnet d'ordres est une liste en temps réel de tous les ordres d'achat et de vente pour un actif, organisés par niveau de prix. C'est le mécanisme de trading utilisé par les échanges centralisés et certains DEX on-chain.",
+        "short_definition": "Liste en temps réel des ordres d'achat et de vente organisés par prix",
+        "example": "Le carnet d'ordres d'ETH/USDC montre les offres d'achat à 1999$, 1998$, etc. et les demandes de vente à 2001$, 2002$, etc.",
+        "related_terms": [
+          "market-depth",
+          "bid-ask",
+          "centralized-exchange",
+          "amm"
+        ],
+        "risks": [
+          "Order manipulation",
+          "Low liquidity gaps",
+          "Centralization"
+        ],
+        "tags": [
+          "carnet-ordres",
+          "trading",
+          "prix",
+          "technique"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "market-depth",
+        "term": "Profondeur de Marché",
+        "full_term": "Profondeur de Marché",
+        "category": "technical",
+        "definition": "La profondeur de marché mesure la capacité d'un marché à absorber de gros ordres d'achat ou de vente sans provoquer de mouvement de prix significatif. Un marché profond a beaucoup d'ordres à chaque niveau de prix.",
+        "short_definition": "Capacité du marché à absorber de gros ordres sans impact significatif sur le prix",
+        "example": "Un marché avec 10M$ d'ordres d'achat dans un range de 1% est plus profond qu'un marché avec seulement 100k$.",
+        "related_terms": [
+          "liquidity",
+          "price-impact",
+          "slippage",
+          "volume"
+        ],
+        "risks": [
+          "Shallow markets",
+          "High slippage",
+          "Liquidity fragmentation"
+        ],
+        "tags": [
+          "trading",
+          "profondeur",
+          "liquidité",
+          "marché"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "bid-ask-spread",
+        "term": "Écart Achat-Vente",
+        "full_term": "Écart Achat-Vente",
+        "category": "technical",
+        "definition": "L'écart achat-vente (bid-ask spread) est la différence entre le prix le plus élevé que les acheteurs sont prêts à payer et le prix le plus bas que les vendeurs acceptent. Un spread étroit indique un marché liquide ; un spread large signale une faible liquidité.",
+        "short_definition": "Différence entre le prix d'achat le plus élevé et le prix de vente le plus bas",
+        "example": "Si l'offre la plus élevée pour ETH est 2000$ et la demande la plus basse est 2002$, le spread est de 2$.",
+        "related_terms": [
+          "order-book",
+          "market-maker",
+          "liquidity",
+          "trading-fees"
+        ],
+        "risks": [
+          "Wide spreads increase costs",
+          "Low liquidity",
+          "Market inefficiency"
+        ],
+        "tags": [
+          "trading",
+          "spread",
+          "achat",
+          "vente"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "volume",
+        "term": "Volume",
+        "full_term": "Volume de Trading",
+        "category": "technical",
+        "definition": "Le volume de trading représente le montant total d'un actif échangé sur une période donnée (généralement 24h). Un volume élevé indique un marché actif et liquide ; un faible volume peut signaler un désintérêt ou une faible liquidité.",
+        "short_definition": "Montant total d'un actif échangé sur une période donnée",
+        "example": "Un DEX avec 500M$ de volume quotidien est plus actif et généralement plus liquide qu'un DEX avec 5M$ de volume.",
+        "related_terms": [
+          "liquidity",
+          "market-activity",
+          "price-discovery",
+          "turnover"
+        ],
+        "risks": [
+          "Low volume illiquidity",
+          "Wash trading",
+          "Manipulation"
+        ],
+        "tags": [
+          "trading",
+          "volume",
+          "liquidité",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "limit-order",
+        "term": "Ordre à Cours Limité",
+        "full_term": "Ordre à Cours Limité",
+        "category": "technical",
+        "definition": "Un ordre à cours limité est une instruction d'acheter ou vendre un actif à un prix spécifique ou meilleur. Contrairement aux ordres au marché qui s'exécutent immédiatement, les ordres limités attendent que le prix cible soit atteint.",
+        "short_definition": "Ordre d'échange à un prix spécifique ou meilleur",
+        "example": "Placer un ordre limité d'achat de 1 ETH à 1800$ : l'ordre ne s'exécute que si le prix descend à 1800$ ou moins.",
+        "related_terms": [
+          "market-order",
+          "order-book",
+          "execution",
+          "price-level"
+        ],
+        "risks": [
+          "No execution guarantee",
+          "Partial fills",
+          "Price gaps"
+        ],
+        "tags": [
+          "trading",
+          "ordre",
+          "limite",
+          "prix"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "market-order",
+        "term": "Ordre au Marché",
+        "full_term": "Ordre au Marché",
+        "category": "technical",
+        "definition": "Un ordre au marché est une instruction d'acheter ou vendre un actif immédiatement au meilleur prix disponible. Il garantit l'exécution mais pas le prix, ce qui peut entraîner du slippage sur les marchés peu liquides.",
+        "short_definition": "Ordre d'échange immédiat au prix actuel du marché",
+        "example": "Passer un ordre au marché pour acheter 10 ETH s'exécute immédiatement au prix actuel, mais avec du slippage si la liquidité est faible.",
+        "related_terms": [
+          "limit-order",
+          "slippage",
+          "execution",
+          "current-price"
+        ],
+        "risks": [
+          "Price uncertainty",
+          "Slippage",
+          "Poor execution during volatility"
+        ],
+        "tags": [
+          "trading",
+          "ordre",
+          "marché",
+          "exécution"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "stop-loss",
+        "term": "Stop Loss",
+        "full_term": "Ordre Stop Loss",
+        "category": "strategies",
+        "definition": "Un ordre stop loss est une instruction de vendre automatiquement un actif quand son prix tombe à un niveau prédéfini, limitant les pertes potentielles. En DeFi, les stop loss peuvent être implémentés via des protocoles comme Gelato Network.",
+        "short_definition": "Ordre de vente automatique déclenché quand le prix tombe à un niveau défini",
+        "example": "Placer un stop loss sur ETH à 1800$ quand le prix actuel est 2000$ : si ETH descend à 1800$, la vente s'exécute automatiquement.",
+        "related_terms": [
+          "risk-management",
+          "automated-trading",
+          "loss-limitation",
+          "trigger-price"
+        ],
+        "risks": [
+          "False triggers",
+          "Gap downs",
+          "Stop hunting"
+        ],
+        "tags": [
+          "trading",
+          "stop-loss",
+          "risques",
+          "automatisation"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "take-profit",
+        "term": "Take Profit",
+        "full_term": "Ordre Take Profit",
+        "category": "strategies",
+        "definition": "Un ordre take profit est une instruction de vendre automatiquement un actif quand son prix atteint un objectif de profit prédéfini. Il permet de sécuriser les gains sans surveiller le marché en continu.",
+        "short_definition": "Ordre de vente automatique déclenché quand le prix atteint un objectif à la hausse",
+        "example": "Placer un take profit sur ETH à 2500$ quand le prix actuel est 2000$ : si ETH monte à 2500$, la vente s'exécute automatiquement, sécurisant 25% de gain.",
+        "related_terms": [
+          "profit-taking",
+          "target-price",
+          "automated-trading",
+          "exit-strategy"
+        ],
+        "risks": [
+          "Missing further gains",
+          "Premature exit",
+          "Execution delays"
+        ],
+        "tags": [
+          "trading",
+          "take-profit",
+          "automatisation",
+          "profits"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "dca",
+        "term": "DCA",
+        "full_term": "Investissement Programmé (Dollar Cost Averaging)",
+        "category": "strategies",
+        "definition": "Le DCA (Dollar Cost Averaging) est une stratégie d'investissement consistant à acheter régulièrement un montant fixe d'un actif, quel que soit son prix. Cela lisse le prix d'achat moyen et réduit l'impact de la volatilité.",
+        "short_definition": "Achats réguliers à montant fixe indépendamment du prix pour réduire l'impact de la volatilité",
+        "example": "Acheter 100$ d'ETH chaque semaine pendant un an, accumulant plus d'ETH quand les prix sont bas et moins quand ils sont hauts.",
+        "related_terms": [
+          "cost-basis",
+          "volatility",
+          "accumulation",
+          "systematic-investing"
+        ],
+        "risks": [
+          "Missing lump sum opportunities",
+          "Prolonged bear markets",
+          "Transaction costs"
+        ],
+        "tags": [
+          "stratégie",
+          "dca",
+          "moyenne",
+          "systématique"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "audit",
+        "term": "Audit",
+        "full_term": "Audit de Smart Contract",
+        "category": "risks",
+        "definition": "Un audit est une revue de sécurité approfondie du code de smart contract par des experts externes pour identifier les vulnérabilités, les bugs et les vecteurs d'attaque potentiels avant le déploiement. Les audits ne garantissent pas la sécurité mais réduisent significativement les risques.",
+        "short_definition": "Revue de sécurité du code de smart contract pour identifier les vulnérabilités",
+        "example": "Avant son lancement, Aave a fait auditer ses smart contracts par plusieurs firmes comme Trail of Bits et OpenZeppelin.",
+        "related_terms": [
+          "security",
+          "vulnerabilities",
+          "smart-contract",
+          "code-review"
+        ],
+        "risks": [
+          "Audit limitations",
+          "Time-based vulnerabilities",
+          "False security confidence"
+        ],
+        "tags": [
+          "sécurité",
+          "audit",
+          "smart-contracts",
+          "revue"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "rug-pull",
+        "term": "Rug Pull",
+        "full_term": "Rug Pull",
+        "category": "risks",
+        "definition": "Un rug pull est une arnaque où les développeurs d'un projet retirent soudainement toute la liquidité ou s'enfuient avec les fonds des investisseurs. Cela peut se faire en retirant la liquidité d'un DEX, en utilisant des fonctions admin cachées, ou en vendant massivement des tokens.",
+        "short_definition": "Arnaque où les développeurs abandonnent le projet et volent les fonds des investisseurs",
+        "example": "Les développeurs créent un token, attirent de la liquidité, puis retirent tout l'ETH du pool de liquidité, rendant le token sans valeur.",
+        "related_terms": [
+          "exit-scam",
+          "honeypot",
+          "liquidity-removal",
+          "fraud"
+        ],
+        "risks": [
+          "Total loss of funds",
+          "No legal recourse",
+          "Project abandonment"
+        ],
+        "tags": [
+          "arnaque",
+          "rug-pull",
+          "fraude",
+          "risques"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "The Hitchhiker's Guide to Crypto Bullshit",
+            "url": "/crypto-hitchhiker-guide/",
+            "description": "How to spot shitcoins/scams."
+          }
+        ]
+      },
+      {
+        "id": "exit-scam",
+        "term": "Exit Scam",
+        "full_term": "Exit Scam",
+        "category": "risks",
+        "definition": "Un exit scam se produit quand les fondateurs d'un projet disparaissent avec les fonds des investisseurs après avoir levé des capitaux via une vente de tokens, une IDO ou un pool de liquidité. C'est l'un des risques les plus courants dans les projets crypto non vérifiés.",
+        "short_definition": "Disparition des fondateurs avec l'argent des investisseurs après la levée de fonds",
+        "example": "Les fondateurs d'un projet lèvent 10 millions$ via une vente de tokens, puis disparaissent en retirant toute la liquidité, laissant les tokens sans valeur.",
+        "related_terms": [
+          "rug-pull",
+          "fraud",
+          "abandoned-project",
+          "theft"
+        ],
+        "risks": [
+          "Complete fund loss",
+          "No recovery options",
+          "Damaged ecosystem trust"
+        ],
+        "tags": [
+          "arnaque",
+          "exit-scam",
+          "fraude",
+          "risques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "honeypot",
+        "term": "Honeypot",
+        "full_term": "Contrat Honeypot",
+        "category": "risks",
+        "definition": "Un honeypot est un contrat malveillant qui semble offrir des opportunités attractives mais contient du code caché empêchant les utilisateurs de retirer leurs fonds. Le contrat peut permettre les achats mais bloquer les ventes.",
+        "short_definition": "Contrat malveillant qui piège les fonds avec des restrictions de retrait cachées",
+        "example": "Un token semble échangeable sur un DEX, mais le smart contract contient du code qui empêche toute vente — seul le créateur peut vendre.",
+        "related_terms": [
+          "scam",
+          "malicious-contract",
+          "trapped-funds",
+          "deception"
+        ],
+        "risks": [
+          "Permanent fund loss",
+          "Hidden restrictions",
+          "Deceptive mechanics"
+        ],
+        "tags": [
+          "arnaque",
+          "honeypot",
+          "malveillant",
+          "risques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "exploit",
+        "term": "Exploit",
+        "full_term": "Exploit de Smart Contract",
+        "category": "risks",
+        "definition": "Un exploit est une attaque qui tire parti des vulnérabilités dans le code des smart contracts pour voler des fonds ou causer des dommages. Les exploits peuvent cibler des erreurs logiques, des vulnérabilités de réentrance, des manipulations d'oracle ou des failles de contrôle d'accès.",
+        "short_definition": "Attaque exploitant les vulnérabilités des smart contracts pour voler des fonds",
+        "example": "Le hack de The DAO en 2016 a exploité une vulnérabilité de réentrance pour drainer 60 millions de dollars d'ETH.",
+        "related_terms": [
+          "hack",
+          "vulnerability",
+          "attack",
+          "security-breach"
+        ],
+        "risks": [
+          "Fund loss",
+          "Protocol damage",
+          "Market disruption"
+        ],
+        "tags": [
+          "sécurité",
+          "exploit",
+          "vulnérabilité",
+          "attaque"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "bug-bounty",
+        "term": "Bug Bounty",
+        "full_term": "Programme de Bug Bounty",
+        "category": "risks",
+        "definition": "Les programmes de bug bounty récompensent les chercheurs en sécurité qui trouvent et signalent de manière responsable les vulnérabilités dans le code des protocoles. Les récompenses peuvent aller de quelques milliers à plusieurs millions de dollars selon la gravité.",
+        "short_definition": "Programme de récompenses pour la découverte et le signalement de vulnérabilités de sécurité",
+        "example": "Immunefi héberge des programmes de bug bounty DeFi avec des récompenses allant jusqu'à 10 millions de dollars pour les vulnérabilités critiques.",
+        "related_terms": [
+          "security",
+          "vulnerability",
+          "white-hat",
+          "responsible-disclosure"
+        ],
+        "risks": [
+          "Incomplete coverage",
+          "Delayed fixes",
+          "Public disclosure timing"
+        ],
+        "tags": [
+          "sécurité",
+          "bounty",
+          "vulnérabilité",
+          "récompense"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "white-hat",
+        "term": "White Hat",
+        "full_term": "Hacker White Hat",
+        "category": "risks",
+        "definition": "Un white hat (chapeau blanc) est un hacker éthique qui identifie et signale les vulnérabilités de sécurité de manière responsable pour aider les protocoles à se protéger. Les white hats participent souvent aux programmes de bug bounty.",
+        "short_definition": "Hacker éthique qui trouve des vulnérabilités pour améliorer la sécurité",
+        "example": "Un white hat découvre une vulnérabilité critique dans un protocole DeFi, signale le bug à l'équipe via le programme de bug bounty et reçoit une récompense de 500k$.",
+        "related_terms": [
+          "bug-bounty",
+          "security-researcher",
+          "ethical-hacking",
+          "responsible-disclosure"
+        ],
+        "risks": [
+          "Misunderstood intentions",
+          "Legal complications",
+          "Insufficient rewards"
+        ],
+        "tags": [
+          "sécurité",
+          "white-hat",
+          "éthique",
+          "hacker"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "flash-loan-attack",
+        "term": "Attaque par Flash Loan",
+        "full_term": "Attaque par Flash Loan",
+        "category": "risks",
+        "definition": "Une attaque par flash loan utilise des prêts instantanés sans collatéral pour manipuler des protocoles DeFi. L'attaquant emprunte une grande quantité, manipule les prix ou exploite une vulnérabilité, et rembourse le prêt dans la même transaction.",
+        "short_definition": "Attaque utilisant des flash loans pour manipuler des protocoles à des fins de profit",
+        "example": "Un attaquant emprunte 100M$ via un flash loan, manipule le prix d'un oracle, liquide des positions à profit, et rembourse le prêt, le tout en une seule transaction.",
+        "related_terms": [
+          "flash-loan",
+          "price-manipulation",
+          "oracle-attack",
+          "arbitrage"
+        ],
+        "risks": [
+          "Protocol drainage",
+          "Market manipulation",
+          "Cascading failures"
+        ],
+        "tags": [
+          "sécurité",
+          "flash-loan",
+          "attaque",
+          "manipulation"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "slashing",
+        "term": "Slashing",
+        "full_term": "Slashing de Validateur",
+        "category": "risks",
+        "definition": "Le slashing est un mécanisme de pénalité dans les réseaux Proof of Stake où une partie des tokens stakés d'un validateur est détruite s'il se comporte mal (double signature, temps d'arrêt prolongé). Il incite les validateurs à agir honnêtement.",
+        "short_definition": "Pénalité où les tokens stakés sont détruits pour mauvais comportement du validateur",
+        "example": "Un validateur Ethereum qui signe deux blocs contradictoires peut perdre jusqu'à 1 ETH en slashing, plus être éjecté du réseau.",
+        "related_terms": [
+          "validator",
+          "staking",
+          "penalty",
+          "proof-of-stake"
+        ],
+        "risks": [
+          "Loss of staked funds",
+          "Reputation damage",
+          "Operational requirements"
+        ],
+        "tags": [
+          "staking",
+          "slashing",
+          "validateur",
+          "pénalité"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "phishing",
+        "term": "Hameçonnage",
+        "full_term": "Hameçonnage Crypto",
+        "category": "risks",
+        "definition": "L'hameçonnage (phishing) en crypto vise à tromper les utilisateurs pour qu'ils révèlent leurs clés privées, seed phrases, ou signent des transactions malveillantes. Les attaques utilisent de faux sites web, emails ou messages imitant des projets légitimes.",
+        "short_definition": "Attaques trompeuses pour voler des clés privées ou pousser vers des transactions malveillantes",
+        "example": "Un faux site imitant MetaMask demande votre seed phrase pour 'restaurer' votre portefeuille, volant ainsi tous vos fonds.",
+        "related_terms": [
+          "social-engineering",
+          "fake-website",
+          "private-keys",
+          "wallet-security"
+        ],
+        "risks": [
+          "Wallet drainage",
+          "Identity theft",
+          "Unauthorized transactions"
+        ],
+        "tags": [
+          "sécurité",
+          "hameçonnage",
+          "arnaque",
+          "risques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "orderbook",
+        "term": "Carnet d'Ordres",
+        "full_term": "Carnet d'Ordres",
+        "category": "trading",
+        "definition": "Un carnet d'ordres est une liste en temps réel de tous les ordres d'achat et de vente pour un actif, organisés par niveau de prix. Il affiche la profondeur du marché et permet aux traders de voir l'offre et la demande à chaque prix.",
+        "short_definition": "Liste en temps réel des ordres d'achat et de vente organisés par niveaux de prix",
+        "example": "Un DEX avec carnet d'ordres on-chain comme dYdX affiche les ordres d'achat et de vente comme un échange traditionnel.",
+        "related_terms": [
+          "market-depth",
+          "bid-ask-spread",
+          "liquidity",
+          "centralized-exchange"
+        ],
+        "risks": [
+          "Order manipulation",
+          "Liquidity gaps",
+          "Centralized control"
+        ],
+        "tags": [
+          "trading",
+          "carnet-ordres",
+          "prix",
+          "marché"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "market-depth",
+        "term": "Profondeur de Marché",
+        "full_term": "Profondeur de Marché",
+        "category": "trading",
+        "definition": "La profondeur de marché mesure la capacité d'un marché à absorber de gros ordres d'achat ou de vente sans provoquer de mouvement de prix significatif. Un marché profond a beaucoup d'ordres à chaque niveau de prix.",
+        "short_definition": "Capacité du marché à absorber de gros ordres sans impact significatif sur le prix",
+        "example": "Un marché avec 10M$ d'ordres d'achat dans un range de 1% est plus profond qu'un marché avec seulement 100k$.",
+        "related_terms": [
+          "liquidity",
+          "price-impact",
+          "slippage",
+          "volume"
+        ],
+        "risks": [
+          "Shallow markets",
+          "High slippage",
+          "Liquidity fragmentation"
+        ],
+        "tags": [
+          "trading",
+          "profondeur",
+          "liquidité",
+          "marché"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "bid-ask-spread",
+        "term": "Écart Achat-Vente",
+        "full_term": "Écart Achat-Vente",
+        "category": "trading",
+        "definition": "L'écart achat-vente (bid-ask spread) est la différence entre le prix le plus élevé que les acheteurs sont prêts à payer et le prix le plus bas que les vendeurs acceptent. Un spread étroit indique un marché liquide ; un spread large signale une faible liquidité.",
+        "short_definition": "Différence entre le prix d'achat le plus élevé et le prix de vente le plus bas",
+        "example": "Si l'offre la plus élevée pour ETH est 2000$ et la demande la plus basse est 2002$, le spread est de 2$.",
+        "related_terms": [
+          "orderbook",
+          "market-maker",
+          "liquidity",
+          "trading-fees"
+        ],
+        "risks": [
+          "Wide spreads increase costs",
+          "Low liquidity",
+          "Market inefficiency"
+        ],
+        "tags": [
+          "trading",
+          "spread",
+          "achat",
+          "vente"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "volume",
+        "term": "Volume",
+        "full_term": "Volume de Trading",
+        "category": "trading",
+        "definition": "Le volume de trading représente le montant total d'un actif échangé sur une période donnée (généralement 24h). Un volume élevé indique un marché actif et liquide ; un faible volume peut signaler un désintérêt ou une faible liquidité.",
+        "short_definition": "Montant total d'un actif échangé sur une période donnée",
+        "example": "Un DEX avec 500M$ de volume quotidien est plus actif et généralement plus liquide qu'un DEX avec 5M$ de volume.",
+        "related_terms": [
+          "liquidity",
+          "market-activity",
+          "price-discovery",
+          "turnover"
+        ],
+        "risks": [
+          "Low volume illiquidity",
+          "Wash trading",
+          "Volume manipulation"
+        ],
+        "tags": [
+          "trading",
+          "volume",
+          "liquidité",
+          "métriques"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "limit-order",
+        "term": "Ordre à Cours Limité",
+        "full_term": "Ordre à Cours Limité",
+        "category": "trading",
+        "definition": "Un ordre à cours limité est une instruction d'acheter ou vendre un actif à un prix spécifique ou meilleur. Contrairement aux ordres au marché qui s'exécutent immédiatement, les ordres limités attendent que le prix cible soit atteint.",
+        "short_definition": "Ordre d'échange à un prix spécifique ou meilleur",
+        "example": "Placer un ordre limité d'achat de 1 ETH à 1800$ : l'ordre ne s'exécute que si le prix descend à 1800$ ou moins.",
+        "related_terms": [
+          "market-order",
+          "orderbook",
+          "execution",
+          "price-level"
+        ],
+        "risks": [
+          "No execution guarantee",
+          "Partial fills",
+          "Price gaps"
+        ],
+        "tags": [
+          "trading",
+          "ordre",
+          "limite",
+          "prix"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "market-order",
+        "term": "Ordre au Marché",
+        "full_term": "Ordre au Marché",
+        "category": "trading",
+        "definition": "Un ordre au marché est une instruction d'acheter ou vendre un actif immédiatement au meilleur prix disponible. Il garantit l'exécution mais pas le prix, ce qui peut entraîner du slippage sur les marchés peu liquides.",
+        "short_definition": "Ordre d'échange immédiat au prix actuel du marché",
+        "example": "Passer un ordre au marché pour acheter 10 ETH s'exécute immédiatement au prix actuel, mais avec du slippage si la liquidité est faible.",
+        "related_terms": [
+          "limit-order",
+          "slippage",
+          "execution",
+          "current-price"
+        ],
+        "risks": [
+          "Price uncertainty",
+          "Slippage",
+          "Poor execution during volatility"
+        ],
+        "tags": [
+          "trading",
+          "ordre",
+          "marché",
+          "exécution"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "liquidity-aggregation",
+        "term": "Agrégation de Liquidité",
+        "full_term": "Agrégation de Liquidité",
+        "category": "trading",
+        "definition": "L'agrégation de liquidité consiste à combiner la liquidité de plusieurs DEX et sources pour offrir les meilleurs prix d'exécution. Les agrégateurs comme 1inch ou Paraswap divisent les ordres entre plusieurs protocoles pour minimiser le slippage.",
+        "short_definition": "Combinaison de liquidité de plusieurs sources pour une meilleure exécution",
+        "example": "Un swap de 100 ETH via 1inch est divisé entre Uniswap, Curve et SushiSwap pour obtenir le meilleur prix global.",
+        "related_terms": [
+          "dex-aggregator",
+          "routing",
+          "slippage",
+          "optimization"
+        ],
+        "risks": [
+          "Complex smart contracts",
+          "Higher gas costs",
+          "Aggregation failures"
+        ],
+        "tags": [
+          "trading",
+          "agrégation",
+          "liquidité",
+          "dex"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "The Cycle of Aggregation Spins On, Now with Lending",
+            "url": "/lending-aggregation/",
+            "description": "Core article on aggregation cycles."
+          },
+          {
+            "title": "🐊 Navigating the swap swamps",
+            "url": "/swap-swamp/",
+            "description": "DEX aggregation in practice."
+          }
+        ]
+      },
+      {
+        "id": "price-oracle",
+        "term": "Oracle de Prix",
+        "full_term": "Oracle de Prix",
+        "category": "trading",
+        "definition": "Un oracle de prix est un service qui fournit des données de prix en temps réel aux smart contracts. Les oracles sont essentiels pour les protocoles DeFi qui ont besoin de prix fiables pour les liquidations, les swaps et les calculs de collatéral. Chainlink est le plus utilisé.",
+        "short_definition": "Service fournissant des données de prix en temps réel aux smart contracts",
+        "example": "Aave utilise les oracles Chainlink pour obtenir le prix de l'ETH afin de déterminer si les positions doivent être liquidées.",
+        "related_terms": [
+          "chainlink",
+          "price-feeds",
+          "external-data",
+          "smart-contracts"
+        ],
+        "risks": [
+          "Oracle manipulation",
+          "Data lag",
+          "Price feed failures"
+        ],
+        "tags": [
+          "oracle",
+          "prix",
+          "données",
+          "technique"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Behind the scene of the decentralization theater",
+            "url": "/unstoppable-defi/",
+            "description": "ChainLink oracle risk analysis."
+          },
+          {
+            "title": "Assessing risk in decentralized finance: a handbook for money markets",
+            "url": "/money-markets-risk/",
+            "description": "Oracle dimension in risk assessment."
+          }
+        ]
+      },
+      {
+        "id": "carry-trade",
+        "term": "Carry Trade",
+        "full_term": "Carry Trade Crypto",
+        "category": "strategies",
+        "definition": "Un carry trade consiste à emprunter des actifs à faible rendement pour investir dans des actifs à rendement plus élevé, profitant du différentiel d'intérêt. En crypto, cela peut impliquer d'emprunter des stablecoins à bas taux pour farmer des rendements plus élevés.",
+        "short_definition": "Emprunter des actifs à faible rendement pour investir dans des actifs à rendement plus élevé",
+        "example": "Emprunter des USDC à 3% sur Aave pour déposer dans un pool offrant 10% APY, capturant le différentiel de 7%.",
+        "related_terms": [
+          "interest-rate-differential",
+          "borrowing",
+          "lending",
+          "currency-risk"
+        ],
+        "risks": [
+          "Currency/token price risk",
+          "Interest rate changes",
+          "Liquidity risk",
+          "Margin calls"
+        ],
+        "tags": [
+          "carry-trade",
+          "intérêt",
+          "arbitrage",
+          "rendement"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "basis-trading",
+        "term": "Basis Trading",
+        "full_term": "Basis Trading",
+        "category": "strategies",
+        "definition": "Le basis trading exploite les différences de prix entre les marchés spot et futures en achetant ou vendant simultanément sur les deux marchés. En crypto, cela implique souvent d'acheter du spot et de vendre des contrats à terme en profit du premium.",
+        "short_definition": "Stratégie d'arbitrage exploitant les différences de prix entre marchés spot et futures",
+        "example": "Acheter 1 ETH à 2000$ sur le marché spot tout en vendant un contrat future ETH à 2050$, capturant le spread de 50$ comme profit.",
+        "related_terms": [
+          "futures",
+          "arbitrage",
+          "convergence",
+          "spread-trading"
+        ],
+        "risks": [
+          "Basis risk",
+          "Funding costs",
+          "Liquidity risk",
+          "Execution timing"
+        ],
+        "tags": [
+          "basis-trading",
+          "arbitrage",
+          "futures",
+          "spread"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Why Polaris? The Stablecoin we needed to build",
+            "url": "/why-polaris/",
+            "description": "Explains basis trading as Ethena/USDe's yield source and its limitations."
+          }
+        ]
+      },
+      {
+        "id": "grid-trading",
+        "term": "Grid Trading",
+        "full_term": "Stratégie de Grid Trading",
+        "category": "strategies",
+        "definition": "Le grid trading est une stratégie automatisée qui place des ordres d'achat et de vente à intervalles de prix prédéfinis, créant une grille d'ordres. Le bot achète bas et vend haut dans les plages définies, profitant de la volatilité latérale.",
+        "short_definition": "Stratégie automatisée plaçant plusieurs ordres à intervalles de prix pour profiter de la volatilité",
+        "example": "Un bot de grid trading place des ordres d'achat tous les 50$ sous le prix actuel de l'ETH et des ordres de vente tous les 50$ au-dessus, capturant les fluctuations.",
+        "related_terms": [
+          "range-trading",
+          "automated-trading",
+          "volatility",
+          "rebalancing"
+        ],
+        "risks": [
+          "Trend risk",
+          "Range breakout",
+          "High transaction costs",
+          "Capital efficiency"
+        ],
+        "tags": [
+          "grid-trading",
+          "automatisation",
+          "volatilité",
+          "stratégie"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "timelock",
+        "term": "Timelock",
+        "full_term": "Timelock de Gouvernance",
+        "category": "governance",
+        "definition": "Un timelock est un mécanisme de sécurité qui impose un délai entre le moment où une proposition de gouvernance est approuvée et le moment où elle est exécutée. Ce délai permet à la communauté de réagir et potentiellement de s'opposer à des changements nuisibles.",
+        "short_definition": "Mécanisme de délai entre l'approbation d'une proposition et son exécution",
+        "example": "Un protocole avec un timelock de 48h : après qu'une proposition est votée, les utilisateurs ont 48h pour retirer leurs fonds s'ils désapprouvent les changements.",
+        "related_terms": [
+          "proposal",
+          "governance",
+          "security",
+          "exit-opportunity"
+        ],
+        "risks": [
+          "Delayed responses to urgent issues",
+          "Coordination complexity",
+          "Emergency situations"
+        ],
+        "tags": [
+          "gouvernance",
+          "timelock",
+          "sécurité",
+          "délai"
+        ],
+        "common_questions": [],
+        "related_articles": [
+          {
+            "title": "Behind the scene of the decentralization theater",
+            "url": "/unstoppable-defi/",
+            "description": "Timelock analysis and admin key risks."
+          },
+          {
+            "title": "Volume begets fees: how are the main decentralized exchanges capturing value?",
+            "url": "/decentralized-exchange-value-capture/",
+            "description": "CRV timelock: 1-4 year lock for veCRV."
+          }
+        ]
+      },
+      {
+        "id": "governance-attack",
+        "term": "Attaque de Gouvernance",
+        "full_term": "Attaque de Gouvernance",
+        "category": "governance",
+        "definition": "Une attaque de gouvernance se produit quand des acteurs malveillants acquièrent suffisamment de pouvoir de vote pour faire passer des propositions nuisibles. Cela peut impliquer d'acheter des tokens, d'utiliser des flash loans pour voter, ou de corrompre les votants.",
+        "short_definition": "Acteurs malveillants prenant le contrôle du vote pour faire passer des propositions nuisibles",
+        "example": "Un attaquant acquiert suffisamment de tokens de gouvernance pour voter le transfert de la trésorerie du protocole vers son propre portefeuille.",
+        "related_terms": [
+          "governance-token",
+          "voting-power",
+          "dao",
+          "hostile-takeover"
+        ],
+        "risks": [
+          "Treasury drainage",
+          "Protocol disruption",
+          "Loss of decentralization"
+        ],
+        "tags": [
+          "gouvernance",
+          "attaque",
+          "vote",
+          "sécurité"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "seed-phrase",
+        "term": "Phrase de Récupération",
+        "full_term": "Phrase de Récupération (Seed Phrase)",
+        "category": "technical",
+        "definition": "Une seed phrase (phrase de récupération) est une série de 12 ou 24 mots qui peut restaurer l'accès à votre portefeuille crypto. Elle représente votre clé privée sous forme lisible et ne doit jamais être partagée ou stockée en ligne.",
+        "short_definition": "Série de mots permettant de restaurer l'accès à votre portefeuille crypto",
+        "example": "Lors de la création d'un portefeuille MetaMask, vous recevez 12 mots à noter sur papier. Ces mots permettent de restaurer votre portefeuille sur n'importe quel appareil.",
+        "related_terms": [
+          "private-keys",
+          "wallet",
+          "backup",
+          "security"
+        ],
+        "risks": [
+          "Permanent loss if forgotten",
+          "Theft if exposed",
+          "Physical damage to storage"
+        ],
+        "tags": [
+          "sécurité",
+          "seed-phrase",
+          "récupération",
+          "portefeuille"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "private-key",
+        "term": "Clé Privée",
+        "full_term": "Clé Privée",
+        "category": "technical",
+        "definition": "Une clé privée est un nombre secret cryptographique qui prouve la propriété et permet de contrôler une adresse blockchain. Quiconque possède la clé privée peut signer des transactions et déplacer les fonds. Elle ne doit jamais être partagée.",
+        "short_definition": "Clé cryptographique secrète qui contrôle votre cryptomonnaie",
+        "example": "Votre clé privée est comme le mot de passe ultime de votre portefeuille. Si quelqu'un l'obtient, il peut transférer tous vos fonds.",
+        "related_terms": [
+          "seed-phrase",
+          "wallet",
+          "public-key",
+          "address"
+        ],
+        "risks": [
+          "Complete fund loss if stolen",
+          "Irreversible if lost",
+          "No recovery options"
+        ],
+        "tags": [
+          "sécurité",
+          "clé-privée",
+          "cryptographie",
+          "portefeuille"
+        ],
+        "common_questions": [],
+        "related_articles": []
+      },
+      {
+        "id": "metamask",
+        "term": "MetaMask",
+        "full_term": "MetaMask",
+        "category": "technical",
+        "definition": "MetaMask est un portefeuille crypto sous forme d'extension de navigateur qui permet d'interagir avec les applications Ethereum et DeFi. C'est le portefeuille le plus utilisé pour se connecter aux dApps, signer des transactions et gérer des tokens.",
+        "short_definition": "Portefeuille navigateur populaire pour interagir avec Ethereum et la DeFi",
+        "example": "Pour utiliser Uniswap, vous connectez votre portefeuille MetaMask au site, approuvez les tokens et signez la transaction de swap.",
+        "related_terms": [
+          "wallet",
+          "ethereum",
+          "dapp",
+          "browser-extension"
+        ],
+        "risks": [
+          "Phishing attacks",
+          "Malicious dApps",
+          "Browser vulnerabilities"
+        ],
+        "tags": [
+          "portefeuille",
+          "metamask",
+          "ethereum",
+          "dapp"
+        ],
+        "common_questions": [],
         "related_articles": []
       }
     ]

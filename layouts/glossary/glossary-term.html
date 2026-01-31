@@ -165,7 +165,11 @@
                     {{- if $page -}}
                         {{- $resolvedUrl = $page.RelPermalink -}}
                         {{- with $page.Params.image -}}
-                            {{- $articleImage = . -}}
+                            {{- $img := . -}}
+                            {{- if and (not (hasPrefix $img "/")) (not (hasPrefix $img "http")) -}}
+                                {{- $img = printf "/%s" $img -}}
+                            {{- end -}}
+                            {{- $articleImage = $img -}}
                         {{- end -}}
                     {{- end -}}
                     <article>
