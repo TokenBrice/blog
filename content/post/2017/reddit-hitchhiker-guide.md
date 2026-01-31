@@ -9,6 +9,7 @@ tags: [reddit astroturfing, advertising]
 toc: true
 image: /img/2017/reddit/cover.png
 url: reddit-hitchhiker-guide
+difficulty: "beginner"
 ---
 
 It’s been a long time since I realized most content and marketing materials focused on the main social networks — Facebook, Twitter, LinkedIn and Instagram, leaving little to no room to the countless other services used around the world.

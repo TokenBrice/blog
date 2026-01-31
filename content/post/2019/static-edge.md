@@ -5,6 +5,7 @@ description: Go static to dramatically improve performance, indexation, and rend
 tags: [web development, static websites, static web, Jekyll, Hugo, Netlify]
 categories: [Analysis]
 url: static-edge
+difficulty: "beginner"
 ---
 
 `This article is the second of a series which examines the technical reasons behind the renewed interest for static websites, from both a content writer and a developer perspective.

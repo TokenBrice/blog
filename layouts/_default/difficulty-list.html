@@ -8,6 +8,18 @@
         {{ end }}
     </header>
 
+    <nav class="difficulty-nav">
+        {{ $levels := slice "beginner" "intermediate" "expert" }}
+        {{ $labels := dict "beginner" (T "difficultyBeginner") "intermediate" (T "difficultyIntermediate") "expert" (T "difficultyExpert") }}
+        {{ range $levels }}
+            {{ $active := eq . $.Params.difficulty_filter }}
+            <a href="{{ printf "/difficulty/%s/" . | relLangURL }}" class="difficulty-nav-item{{ if $active }} active{{ end }} difficulty-nav--{{ . }}">
+                <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
+                {{ index $labels . }}
+            </a>
+        {{ end }}
+    </nav>
+
     {{ $difficultyFilter := .Params.difficulty_filter }}
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where $pages "Params.hidden" "!=" true }}
@@ -26,7 +38,7 @@
         </div>
         {{ end }}
     {{ else }}
-        <p>No {{ $difficultyFilter }} articles found yet.</p>
+        <p>{{ T "difficultyNoArticles" }}</p>
     {{ end }}
 
     {{ partialCached "footer/footer" . }}

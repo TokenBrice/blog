@@ -1,5 +1,5 @@
 ---
-title: "🟡 Intermediate Articles"
+title: "Intermediate Articles"
 description: "Articles for those with basic DeFi understanding - some prior knowledge helpful"
 layout: "difficulty-list"
 difficulty_filter: "intermediate"

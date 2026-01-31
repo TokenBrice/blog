@@ -6,6 +6,7 @@ date: '2018-07-01T10:36:03.488Z'
 categories: [Projects]
 tags: [EcoCrypto]
 url: ecocrypto-manifesto
+difficulty: "beginner"
 ---
 
 `EcoCrypto est une initiative que j'ai lancé en 2018 pour établir un media qualitatif et transparent pour parler de crypto-monnaies. Trop ambitieux peut-être, trop idéaliste sans doute, l'aventure n'a duré que quelques articles que vous retrouverez désormais ici.`

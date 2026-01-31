@@ -50,7 +50,7 @@
         {{/* NEW: Show difficulty in footer too for lists */}}
         {{ with .Params.difficulty }}
             <div class="article-difficulty-footer">
-                {{ if eq . "beginner" }}🟢{{ else if eq . "intermediate" }}🟡{{ else if eq . "expert" }}🔴{{ end }}
+                <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
                 <span class="difficulty-text">{{ . | title }}</span>
             </div>
         {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "🔴 Expert Articles"
+title: "Expert Articles"
 description: "Advanced articles for DeFi experts - deep protocol knowledge assumed"
 layout: "difficulty-list"
 difficulty_filter: "expert"

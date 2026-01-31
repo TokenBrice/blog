@@ -8,6 +8,7 @@ categories: [Analysis, Privacy]
 tags: [advertising model, privacy, data harvesting]
 image: /img/2018/ad-model/cover.jpeg
 url: advertising-model
+difficulty: "beginner"
 ---
 
 In a [previous article](https://medium.com/@BBerdah/facebook-x-cambridge-analytica-the-hidden-cost-of-free-services-3f5724e80baf), we raised many issues about the advertising model and free online services in general. **They all fall within the spectrum of hidden cost, something society, we, eventually pay for.** From recurring annoyances to a loss of political power, the range of consequences of data concentration for political and social influence is wide. **Behind all of these “free” offers, compromises are made**.

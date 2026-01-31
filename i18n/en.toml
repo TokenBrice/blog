@@ -63,6 +63,24 @@ other = "New Update Available"
 other = "Refresh"
 
 
+# Difficulty / Expertise
+
+[difficultyWidgetTitle]
+other = "Expertise Level"
+
+[difficultyBeginner]
+other = "Beginner"
+
+[difficultyIntermediate]
+other = "Intermediate"
+
+[difficultyExpert]
+other = "Expert"
+
+[difficultyNoArticles]
+other = "No articles found yet."
+
+
 # Socials
 
 [twitter]

@@ -1,41 +1,40 @@
-/* Expertise Level / Difficulty Badges */
+/* Expertise Level / Difficulty System */
 
-.article-difficulty {
-    margin-bottom: 0.75rem;
-    
-    .difficulty-badge {
-        display: inline-block;
-        padding: 0.25rem 0.5rem;
-        font-size: 0.85rem;
-        font-weight: 600;
-        border-radius: 1rem;
-        background-color: var(--card-background);
-        border: 1px solid var(--card-border);
-        color: var(--card-text-color-main);
-        transition: all 0.3s ease;
-        
-        &:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* CSS dots - cross-platform colored circles */
+.difficulty-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 0.25rem;
+
+    &--beginner {
+        background-color: #22c55e;
+    }
+
+    &--intermediate {
+        background-color: #fbbf24;
+    }
+
+    &--expert {
+        background-color: #f87171;
+    }
+}
+
+[data-scheme="dark"] {
+    .difficulty-dot {
+        &--beginner {
+            background-color: #16a34a;
         }
-    }
-    
-    .difficulty-beginner {
-        background-color: rgba(34, 197, 94, 0.1);
-        border-color: rgba(34, 197, 94, 0.3);
-        color: #16a34a;
-    }
-    
-    .difficulty-intermediate {
-        background-color: rgba(251, 191, 36, 0.1);
-        border-color: rgba(251, 191, 36, 0.3);
-        color: #ca8a04;
-    }
-    
-    .difficulty-expert {
-        background-color: rgba(239, 68, 68, 0.1);
-        border-color: rgba(239, 68, 68, 0.3);
-        color: #dc2626;
+
+        &--intermediate {
+            background-color: #ca8a04;
+        }
+
+        &--expert {
+            background-color: #dc2626;
+        }
     }
 }
 
@@ -44,9 +43,9 @@
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    
+
     .difficulty-text {
-        font-size: inherit; /* Match parent font size instead of hardcoded */
+        font-size: inherit;
         font-weight: inherit;
         color: var(--card-text-color-secondary);
         text-transform: capitalize;
@@ -56,35 +55,14 @@
 /* Inline difficulty badge for archives */
 .article-difficulty-inline {
     color: var(--card-text-color-secondary);
-    font-size: inherit; /* Match the time element font size */
-    
+    font-size: inherit;
+
     .difficulty-text {
-        font-size: inherit; /* Match parent font size */
-        font-weight: inherit; /* Match parent font weight */
+        font-size: inherit;
+        font-weight: inherit;
         margin-left: 0.25rem;
         text-transform: capitalize;
         color: var(--card-text-color-secondary);
-    }
-}
-
-/* Dark mode adjustments */
-[data-scheme="dark"] {
-    .difficulty-beginner {
-        background-color: rgba(34, 197, 94, 0.15);
-        border-color: rgba(34, 197, 94, 0.4);
-        color: #22c55e;
-    }
-    
-    .difficulty-intermediate {
-        background-color: rgba(251, 191, 36, 0.15);
-        border-color: rgba(251, 191, 36, 0.4);
-        color: #fbbf24;
-    }
-    
-    .difficulty-expert {
-        background-color: rgba(239, 68, 68, 0.15);
-        border-color: rgba(239, 68, 68, 0.4);
-        color: #f87171;
     }
 }
 
@@ -95,63 +73,63 @@
         box-shadow: var(--shadow-l1);
         background-color: var(--card-background);
     }
-    
+
     .expertise-level-item {
         &:not(:last-of-type) {
             border-bottom: 1.5px solid var(--card-separator-color);
         }
-        
+
         a {
             display: block;
             padding: 18px 25px;
             text-decoration: none;
             color: inherit;
             transition: background-color 0.2s ease;
-            
+
             &:hover {
                 background-color: var(--card-background-selected);
                 text-decoration: none;
             }
         }
-        
+
         .expertise-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 8px;
-            
+
             .level-name {
                 font-size: 1.4rem;
                 font-weight: bold;
                 color: var(--card-text-color-main);
             }
-            
+
             .count {
                 font-size: 1.4rem;
                 color: var(--card-text-color-tertiary);
                 font-weight: normal;
             }
         }
-        
+
         .expertise-bar {
             height: 4px;
             background-color: var(--card-separator-color);
             border-radius: 2px;
             overflow: hidden;
-            
+
             .bar-fill {
                 height: 100%;
                 border-radius: 2px;
                 transition: width 0.3s ease;
-                
+
                 &.beginner {
                     background-color: #22c55e;
                 }
-                
+
                 &.intermediate {
                     background-color: #fbbf24;
                 }
-                
+
                 &.expert {
                     background-color: #f87171;
                 }
@@ -168,11 +146,11 @@
                 &.beginner {
                     background-color: #16a34a;
                 }
-                
+
                 &.intermediate {
                     background-color: #ca8a04;
                 }
-                
+
                 &.expert {
                     background-color: #dc2626;
                 }
@@ -181,21 +159,87 @@
     }
 }
 
+/* Difficulty filter page nav tabs */
+.difficulty-nav {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.difficulty-nav-item {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--card-text-color-secondary);
+    background-color: var(--card-background);
+    border: 1.5px solid var(--card-separator-color);
+    transition: all 0.2s ease;
+
+    &:hover {
+        text-decoration: none;
+        background-color: var(--card-background-selected);
+    }
+
+    &.active {
+        font-weight: 700;
+        color: var(--card-text-color-main);
+    }
+
+    &.active.difficulty-nav--beginner {
+        border-color: #22c55e;
+        background-color: rgba(34, 197, 94, 0.08);
+    }
+
+    &.active.difficulty-nav--intermediate {
+        border-color: #fbbf24;
+        background-color: rgba(251, 191, 36, 0.08);
+    }
+
+    &.active.difficulty-nav--expert {
+        border-color: #f87171;
+        background-color: rgba(239, 68, 68, 0.08);
+    }
+}
+
+[data-scheme="dark"] {
+    .difficulty-nav-item {
+        &.active.difficulty-nav--beginner {
+            border-color: #16a34a;
+            background-color: rgba(34, 197, 94, 0.12);
+        }
+
+        &.active.difficulty-nav--intermediate {
+            border-color: #ca8a04;
+            background-color: rgba(251, 191, 36, 0.12);
+        }
+
+        &.active.difficulty-nav--expert {
+            border-color: #dc2626;
+            background-color: rgba(239, 68, 68, 0.12);
+        }
+    }
+}
+
 /* Difficulty pages styling */
 .difficulty-page-header {
     margin-bottom: 2rem;
-    
+
     .section-title {
         color: var(--body-text-color);
         margin-bottom: 1rem;
     }
-    
+
     .difficulty-page-description {
         color: var(--card-text-color-secondary);
-        font-size: 1.75rem; /* Match .article-subtitle */
+        font-size: 1.75rem;
         line-height: 1.5;
         font-weight: normal;
-        
+
         p {
             margin: 0;
         }
@@ -208,7 +252,7 @@
         .section-title {
             color: var(--body-text-color);
         }
-        
+
         .difficulty-page-description {
             color: var(--body-text-color);
             opacity: 0.9;
@@ -218,26 +262,15 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .article-difficulty {
-        margin-bottom: 0.5rem;
-        
-        .difficulty-badge {
-            font-size: 0.8rem;
-            padding: 0.2rem 0.4rem;
-        }
-    }
-    
-    .widget.expertise {
-        .difficulty-badge {
-            font-size: 0.8rem;
-            padding: 0.2rem 0.4rem;
-        }
-    }
-    
     .difficulty-page-header {
         .difficulty-page-description {
             font-size: 1.5rem;
         }
+    }
+
+    .difficulty-nav-item {
+        font-size: 1.3rem;
+        padding: 0.4rem 0.8rem;
     }
 }
 
@@ -245,7 +278,7 @@
 @media (min-width: 1024px) {
     .difficulty-page-header {
         .difficulty-page-description {
-            font-size: 2rem; /* Match .article-subtitle on xl screens */
+            font-size: 2rem;
         }
     }
 }

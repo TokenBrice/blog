@@ -6,7 +6,7 @@ categories: [Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
-difficulty: "intermédiaire"
+difficulty: "intermediate"
 ---
 
 Au cours des derniers mois, nous avons vu une avalanche de protocoles de prêt novateurs et excitants arriver sur le marché, tels que Morpho, DYAD, Fluid ou Tapioca ; encore plus sont attendus dans les mois à venir, comme Liquity V2 (Bold) ou Euler V2. Tous sont innovants, dans l'arène, essayant des choses au point que je me demande si nous ne vivons pas une renaissance des protocoles de prêt après quelques années à ressasser les mêmes concepts.

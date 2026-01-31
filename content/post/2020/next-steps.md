@@ -8,6 +8,7 @@ toc: false
 tocNum: false
 image: /img/others/defifrance.png
 url: next-steps
+difficulty: "beginner"
 ---
 
 As I move on with the next chapter of my involvement in the DeFi space, I wanted to take the time to write a rare personal statement to share my story and what's coming next.

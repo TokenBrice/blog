@@ -7,6 +7,7 @@ categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
 image: /img/2020/hello-world/infrastructure-fr.png
 url: hello-world
+difficulty: "beginner"
 ---
 
 Bienvenue dans mon humble domaine,

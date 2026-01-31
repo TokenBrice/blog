@@ -11,7 +11,7 @@
                 {{/* NEW: Show difficulty badge right after date */}}
                 {{ with .Params.difficulty }}
                     <span class="article-difficulty-inline">
-                        &nbsp;&bull;&nbsp;{{ if eq . "beginner" }}🟢{{ else if eq . "intermediate" }}🟡{{ else if eq . "expert" }}🔴{{ end }}
+                        &nbsp;&bull;&nbsp;<span class="difficulty-dot difficulty-dot--{{ . }}"></span>
                         <span class="difficulty-text">{{ . | title }}</span>
                     </span>
                 {{ end }}

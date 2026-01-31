@@ -8,6 +8,7 @@ categories: [Analysis, Privacy]
 tags: [advertising model, ad blockers]
 image: /img/2018/free-services/cover.jpeg
 url: hidden-cost-free-services
+difficulty: "beginner"
 ---
 
 Last month was a strange one. We saw mainstream media questioning [Facebook](https://hackernoon.com/tagged/facebook) and Cambridge Analytica practices after recent concerns over the US election. [The Guardian](https://www.theguardian.com/technology/2018/mar/24/facebook-week-of-shame-data-breach-observer-revelations-zuckerberg-silence) sums it up in one frightening sentence:

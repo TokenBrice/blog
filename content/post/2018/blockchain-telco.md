@@ -9,6 +9,7 @@ tags: [telco, blockchain]
 canonicalUrl: https://www.callr.com/blog/blockchains-telecommunications/
 image: /img/2018/blockchain-telco/cover.png
 url: blockchain-telco
+difficulty: "intermediate"
 ---
 
 _Can the telecom industry benefit from blockchains and decentralized ledger technologies?_

@@ -8,6 +8,7 @@ categories: [Analysis, Privacy]
 tags: [design, advertising model, data harversting]
 image: /img/2019/dark-patterns/cover.jpeg
 url: dark-patterns
+difficulty: "beginner"
 ---
 
 Ever scrolled through Facebook for hours despite having other things to do? Or went through a sign up process, clicking “Next”, “Ok”, “Get Started” buttons without reading anything else? Or maybe you’ve been using an app every day for years without knowing anything about its privacy policy? Don’t worry, there is a whole science created to make sure you don’t feel bad or even question this, it bears a name and it’s discussed publicly: dark patterns.

@@ -6,6 +6,7 @@ tags: [web development, static websites, static web, SEO, Markdown]
 categories: [Analysis]
 image: /img/2019/staticweb/jamstack.png
 url: static-roots
+difficulty: "beginner"
 ---
 
 `This article goes back to the early years of the web to understand why dynamic websites are so prevalent today. Then, we consider what static websites bring in terms of performance, editing speed, and organic results.`

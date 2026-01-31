@@ -63,6 +63,24 @@ other = "Mise à jour"
 other = "Rafraîchir"
 
 
+# Difficulty / Expertise
+
+[difficultyWidgetTitle]
+other = "Niveau d'expertise"
+
+[difficultyBeginner]
+other = "Débutant"
+
+[difficultyIntermediate]
+other = "Intermédiaire"
+
+[difficultyExpert]
+other = "Expert"
+
+[difficultyNoArticles]
+other = "Aucun article trouvé pour le moment."
+
+
 # Socials
 
 [twitter]

@@ -7,9 +7,10 @@ categories: [Analyse]
 tags: [Naas, ecocrypto]
 image: /img/2018/naas/cover.jpeg
 url: naas
+difficulty: "intermediate"
 ---
 
-L’Estonie est l’un des pays pionniers en la matière. Le pays est en train de redéfinir ce qu’être « citoyen » signifie. Depuis le lancement du programme d’e-residency, près de 30 000 citoyens du monde ont bénéficié du statut[^1]. Néanmoins, l’e-Estonie est encore balbutiante : l’objectif pour 2025 est fixé à 10 millions de e-résidents pour un pays qui compte actuellement 1,35 million de citoyens physiques.[^2]
+L'Estonie est l'un des pays pionniers en la matière. Le pays est en train de redéfinir ce qu’être « citoyen » signifie. Depuis le lancement du programme d’e-residency, près de 30 000 citoyens du monde ont bénéficié du statut[^1]. Néanmoins, l’e-Estonie est encore balbutiante : l’objectif pour 2025 est fixé à 10 millions de e-résidents pour un pays qui compte actuellement 1,35 million de citoyens physiques.[^2]
 
 Au fil de l’article, lorsque nous détaillerons ce que la notion de Nation comme un service (NCS / NaaS – Nation as a Service) implique, vous remarquerez que les services qu’elle propose existent déjà dans des pays normaux. En effet, la NCS se construit sur l’existant, mais elle va tellement plus loin que les nations habituelles que la nation elle-même devient autre chose.
 

@@ -8,6 +8,7 @@ categories: [Analysis]
 tags: [NaaS]
 image: /img/2018/demise-ns/cover.jpeg
 url: demise-ns
+difficulty: "beginner"
 ---
 
 Whether you believe or not in the idea of “the march of history”, there is an undeniable worldwide trend that is leading to a complete overall of the power structure: **the progressive disengagement of the state from state affairs**.
