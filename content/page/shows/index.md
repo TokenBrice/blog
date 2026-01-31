@@ -43,6 +43,8 @@ While I remain in control of the investment decisions since the goal is to show 
 | [#02](https://www.youtube.com/watch?v=zuh6U1S1i5w) | 30/10/2025 | Stablecoin deployment: Avantis, Glider and MegaETH
 | [#03](https://www.youtube.com/watch?v=6tbgqEyQgcg) | 13/11/2025 | 1 month report & veAERO special
 | [#04](https://www.youtube.com/watch?v=NHz6pq2pAik) | 27/11/2025 | Trezor Model T Live Testing
+| [#05](https://www.youtube.com/watch?v=y7EQ956tRmg) | 11/12/2025 | Reflect Live Testing
+| [#06](https://www.youtube.com/watch?v=22aykw-dx54) | 09/01/2026 | Mastering the stablefarming
 
 ## The Origins of DeFi, with Digital Duniya
 
@@ -57,6 +59,9 @@ With [Digital Duniya](https://www.youtube.com/@Digital%E0%A4%A6%E0%A5%81%E0%A4%A
 | [#03: Curve Finance: StableSwap, veCRV, Convex](https://www.youtube.com/watch?v=3VeGP2_2LzA) | 28/11/2025 | Token-Enforced Property Rights, veCRV model, Curve ecosystem
 | [#04: Aerodrome MetaDEX Explained: The New Liquidity Engine of DeFi](https://www.youtube.com/watch?v=V3xqXmBSHp0&pp=0gcJCSkKAYcqIYzv) | 05/12/2025 | MetaDEX model history, Velodrome early successes, Aerodrome scaling, V3
 | [#05: How Fluid Uses YOUR Debt as Liquidity](https://www.youtube.com/watch?v=eLocntcGWUk) | 12/12/2025 | Smart Debt explained, Fluid x correlated pairs, Fluid V2
+| [#06: Yearn Finance Explained: The DeFi Protocol That Changed Yield Forever](https://www.youtube.com/watch?v=K1W_gcXT_Kk) | 18/12/2025 | Yearn vaults, ERC-4626, Katana rebirth, veYFI governance
+| [#07: Aave vs Compound — How DeFi Lending Was Born](https://www.youtube.com/watch?v=VHdHHfDYHAk) | 26/12/2025 | ETHLend to Aave, Compound liquidity mining, looping strategies, money markets
+| [#08: MakerDAO: The Story of DAI & a Missed Opportunity](https://www.youtube.com/watch?v=XjDSYe7YUls) | 05/01/2026 | DAI origins, decentralized stablecoin vision, MakerDAO evolution
 
 
 ## Spotlight
