@@ -45,6 +45,7 @@ While I remain in control of the investment decisions since the goal is to show 
 | [#04](https://www.youtube.com/watch?v=NHz6pq2pAik) | 27/11/2025 | Trezor Model T Live Testing
 | [#05](https://www.youtube.com/watch?v=y7EQ956tRmg) | 11/12/2025 | Reflect Live Testing
 | [#06](https://www.youtube.com/watch?v=22aykw-dx54) | 09/01/2026 | Mastering the stablefarming
+| [#07](https://www.youtube.com/watch?v=-LdnPZP70RE) | 06/02/2026 | Using Claude for DeFi research: how to setup an adversarial DeFi researcher Claude, from A to Z
 
 ## The Origins of DeFi, with Digital Duniya
 
