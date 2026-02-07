@@ -29,7 +29,7 @@ This claude instance was designed live, so watch the video for the full context,
 
 ![information hierarchy](img/2026/defi-bullshit-detector/information-hierarchy.png)
 
-The bot was runned live on thGold, with specific instructions to also explore thBILL, another product using the same infrastructure, considering thGold recency. Several red-flag findings were discovered, including [a condemnation for fraud and misappropriation of company funds](https://irblaw.com.sg/learning-centre/mustaq-ahmad-v-ayaz-ahmed-and-others-2024-sghca-17/) of the founder and main stakeholder of one of the five counterparties involved in the infrastructure. [The full report is accessible here](https://github.com/TokenBrice/blog/blob/master/static/others/defi-bullshit-detector/theo-thgold.md).
+We ran the bot live on thGold, with specific instructions to also explore thBILL, another product using the same infrastructure, considering thGold recency. Several red-flag findings were discovered, including [a condemnation for fraud and misappropriation of company funds](https://irblaw.com.sg/learning-centre/mustaq-ahmad-v-ayaz-ahmed-and-others-2024-sghca-17/) of the founder and main stakeholder of one of the five counterparties involved in the infrastructure. [The full report is accessible here](https://github.com/TokenBrice/blog/blob/master/static/others/defi-bullshit-detector/theo-thgold.md).
 
 Since then, I have ran the bot on two other projects, and it benefited from the Opus 4.5 ⇒ 4.6 update leading to even more insightful results:
 
