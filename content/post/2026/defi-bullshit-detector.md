@@ -5,7 +5,7 @@ date: '2026-02-07T01:13:50.191Z'
 categories: [Thesis]
 tags: [DeFi, Ethereum, Decentralized Finance]
 url: defi-bullshit-detector
-image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static//img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
+image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"
@@ -26,6 +26,8 @@ Considering the relevance and quality of the finding, I figured I would document
 ## What kind of results to expect?
 
 This claude instance was designed live, so watch the video for the full context, but the short story is that he has been instructed to be maximally adversarial, never take the word from team members and official websites at face value, and trust the observable onchain reality above anything else. He puts a particular focus on the team members and their previous involvements. He established itself this information hierarchy, that provides a good summary of how this Claude instance thinks:
+
+![information hierarchy](img/2026/defi-bullshit-detector/information-hierarchy.png)
 
 The bot was runned live on thGold, with specific instructions to also explore thBILL, another product using the same infrastructure, considering thGold recency. Several red-flag findings were discovered, including [a condemnation for fraud and misappropriation of company funds](https://irblaw.com.sg/learning-centre/mustaq-ahmad-v-ayaz-ahmed-and-others-2024-sghca-17/) of the founder and main stakeholder of one of the five counterparties involved in the infrastructure. [The full report is accessible here](https://github.com/TokenBrice/blog/blob/master/static/others/defi-bullshit-detector/theo-thgold.md).
 

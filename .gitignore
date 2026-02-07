@@ -2,3 +2,4 @@ node_modules
 .idea
 public
 yarn-error.log
+themes/matomo
