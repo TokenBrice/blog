@@ -101,7 +101,7 @@ The most commonly used site is probably [OpenSea](https://opensea.io/), which al
 
 Other services exist, with more curatorial approaches, such as [Foundation](https://foundation.app/) which is **selective about its artists and where each work is a unique copy.**
 
-Each service comes with different modalities and sometimes different NFT types as well: **[ERC-721 or 1155 explained here](https://tokenbrice.xyz/content/posts/2018/nft.md)**. The rules that govern their auctions and revenue sharing also affect the overall direction of the platform. To start collecting with taste, it's good to know at least what you're buying!
+Each service comes with different modalities and sometimes different NFT types as well: **[ERC-721 or 1155 explained here](https://tokenbrice.xyz/nft/)**. The rules that govern their auctions and revenue sharing also affect the overall direction of the platform. To start collecting with taste, it's good to know at least what you're buying!
 
 ### NFTs + Video games, in all forms
 

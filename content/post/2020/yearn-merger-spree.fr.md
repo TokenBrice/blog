@@ -21,9 +21,9 @@ Pour arriver aux derniers événements - la vague de fusions -, examinons d'abor
 
 ### Lancement, waifus et l'écosystème
 
-En juin dernier, le lancement du token de Yearn a été un moment unique, initiant ce que l'on appelle désormais un "lancement équitable". Essentiellement, le token **YFI a été distribué pendant une semaine aux utilisateurs** qui ont effectué des dépôts dans plusieurs pools liés aux produits de Yearn. N'hésitez pas à consulter **[mon premier article sur Yearn](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md)** pour en savoir plus sur ce moment.
+En juin dernier, le lancement du token de Yearn a été un moment unique, initiant ce que l'on appelle désormais un "lancement équitable". Essentiellement, le token **YFI a été distribué pendant une semaine aux utilisateurs** qui ont effectué des dépôts dans plusieurs pools liés aux produits de Yearn. N'hésitez pas à consulter **[mon premier article sur Yearn](https://tokenbrice.xyz/fr/yearn-finance/)** pour en savoir plus sur ce moment.
 
-Cela s'est traduit par une sensibilisation croissante au projet, une appréciation rapide du prix du token et a incité des utilisateurs actifs de la DeFi  à contribuer à Yearn par le biais des discussions du DAO. Le lancement a été si réussi qu'il est devenu un modèle reproduit avec plus ou moins de succès par de nombreux autres projets : **[les waifus (fork de Yearn)](https://tokenbrice.xyz/content/posts/2020/yearn-waifus.fr.md)**.
+Cela s'est traduit par une sensibilisation croissante au projet, une appréciation rapide du prix du token et a incité des utilisateurs actifs de la DeFi  à contribuer à Yearn par le biais des discussions du DAO. Le lancement a été si réussi qu'il est devenu un modèle reproduit avec plus ou moins de succès par de nombreux autres projets : **[les waifus (fork de Yearn)](https://tokenbrice.xyz/fr/yearn-finance-forks/)**.
 
 Au départ, Yearn se concentrait sur ses propres produits, les principaux étant les vaults permettant un déploiement simplifié de stratégies d'investissement. Les vaults ont également évolué au-delà de Yearn pour devenir un produit proposé par de nombreux services de DeFi.
 

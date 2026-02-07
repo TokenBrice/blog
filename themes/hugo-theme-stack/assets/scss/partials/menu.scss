@@ -30,7 +30,7 @@
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-    background-color: #000;
+    background-color: var(--card-text-color-main);
 }
 
 .hamburger-box {
@@ -115,7 +115,10 @@
         display: none;
     }
 
-    outline: none;
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
 
     &.is-active {
         .hamburger-inner,

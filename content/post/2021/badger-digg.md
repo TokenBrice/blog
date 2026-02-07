@@ -86,7 +86,7 @@ Just like with AMPL, with DIGG all holders (liquidity pool tokens included) are 
 Rebases happen at a set time, for DIGG it's 3pm EST, that's 9 pm for my dear French readers.
 
 {{< notice tip >}}
-Rebase tokens harness mechanisms similar to the ones involved in algorithmic stablecoins / seigniorage tokens, so feel free to read my **[previous post on the topic](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.md)** for more information.
+Rebase tokens harness mechanisms similar to the ones involved in algorithmic stablecoins / seigniorage tokens, so feel free to read my **[previous post on the topic](https://tokenbrice.xyz/seigniorage-basis-esd/)** for more information.
 {{< /notice >}}
 
 For instance, after the first day, the genesis rebase was positive and triggered a production and redistribution of about 12% of the initial supply. Several positive rebases followed and DIGG is still trading above peg.
@@ -117,7 +117,7 @@ This logic is bigger than Badger, as it's observed elsewhere too, we could call 
 
 Moreover, to go back to Badger, moving towards a model like this could mean native & sustained revenue feeds to potentially tie back to Badger. Considering that most of the yields currently come from liquidity mining incentives, that would be quite synergistic to grow out of it.
 
-Considering the **[success of the Curve & CRV model](https://tokenbrice.xyz/content/posts/2021/dex-value-capture.md)**, it makes sense to see more and more protocol adopting elements of it: the gist being giving your holders the options to commit their tokens to participate in governance, tap into the platform revenue streams & boost their own returns obtained by the usage of the service.
+Considering the **[success of the Curve & CRV model](https://tokenbrice.xyz/decentralized-exchange-value-capture/)**, it makes sense to see more and more protocol adopting elements of it: the gist being giving your holders the options to commit their tokens to participate in governance, tap into the platform revenue streams & boost their own returns obtained by the usage of the service.
 
 [^1]: The graphs are coming from [Badger's DAO liquidity mining launch announcement](https://badgerdao.medium.com/badger-dao-liquidity-mining-launch-b2415301bd31#:~:text=Tokens%20distributed%3A%20%24BADGER%20and%20%24,2nd%20product%20of%20the%20DAO.).
 [^2]: **[Meme](https://dontbuymeme.com/collections/badger)** is a distribution mechanism for NFT where users stake a given token (bBADGER in our case) to earn points - pineapples. They can them redeem the pineapples for the NFT of their choice.

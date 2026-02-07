@@ -35,7 +35,11 @@
 {{- end -}}
 
 {{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" href="{{ . | relURL }}" />
+    <link rel="icon" href="{{ . | relURL }}" />
 {{ end }}
+
+<!-- Theme color for mobile browsers -->
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#303030" media="(prefers-color-scheme: dark)">
 
 {{- partial "head/custom.html" . -}}

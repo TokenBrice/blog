@@ -11,7 +11,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  color: var(--color-contrast-medium);
+  color: var(--card-text-color-secondary);
 }
 
 .breadcrumb-item {
@@ -21,21 +21,21 @@
   &:not(:last-child)::after {
     content: "›";
     margin: 0 0.5rem;
-    color: var(--color-contrast-low);
+    color: var(--card-text-color-tertiary);
   }
 
   a {
-    color: var(--color-primary);
+    color: var(--accent-color);
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
-      color: var(--color-primary-h);
+      color: var(--accent-color-darker);
     }
   }
 
   &.active {
-    color: var(--color-contrast-high);
+    color: var(--card-text-color-main);
     font-weight: 500;
   }
 }
@@ -45,13 +45,13 @@
   .breadcrumb-list {
     font-size: 0.8rem;
   }
-  
+
   .breadcrumb-item:not(:last-child):not(:first-child) {
     display: none;
   }
-  
+
   .breadcrumb-item:nth-last-child(2)::before {
     content: "... › ";
-    color: var(--color-contrast-low);
+    color: var(--card-text-color-tertiary);
   }
 }

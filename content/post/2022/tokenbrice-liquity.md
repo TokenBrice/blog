@@ -2,7 +2,7 @@
 title: "Announcement: Joining Liquity to bolster the growth of unstoppable DeFi"
 description: "Where I reflect on the current state of DeFi, and why I decided to join Liquity's team to support the growth of one of DeFi's most resilient protocols."
 date: '2022-05-16T01:13:50.191Z'
-categories: [Projets, Stablecoin, Lending]
+categories: [Projects, Stablecoin, Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
@@ -34,7 +34,7 @@ While the Liquity protocol is just over a year old, the team has already been ac
 What always amazed me is that this feat is delivered without compromising on the protocol's efficiency: Liquity is extremely cost-efficient, and the protocol's design is one of rare elegance. Liquity is **built like mission-critical software**: failure is not an option. I'm glad such a protocol, truthful to the root spirit of DeFi, exists, and I'm thrilled to get the chance to help it grow. 
 
 If you're not familiar yet with what Liquity does and why it matters, feel free this intro:
-**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.md)**
+**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service](https://tokenbrice.xyz/liquity-protocol/)**
 
 ### What will I do?
 

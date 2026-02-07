@@ -209,7 +209,7 @@ Le jeu n’est pas encore disponible (Alpha d’ici la fin Mars !), mais les int
 
 Dès le lancement du jeu, les joueurs gagneront des LUCHA à chaque victoire. En fonction de leur classement, la quantité de LUCHA obtenus augmente : les meilleurs joueurs pourront ainsi dégager des retours intéressants, pour un coût initial très modéré (1 Luchador, potentiellement minté pour ~0.03 ETH). Soyez prêts !
 
-Si vous découvrez les Luchadores avec cet article, n'hésitez pas à lire cette introduction : **[🤼 Vive la lutte libre (et vérifiable onchain)](https://tokenbrice.xyz/content/posts/2021/luchadores-nft.fr.md)**
+Si vous découvrez les Luchadores avec cet article, n'hésitez pas à lire cette introduction : **[🤼 Vive la lutte libre (et vérifiable onchain)](https://tokenbrice.xyz/fr/luchadores-nft/)**
 
 ---
 

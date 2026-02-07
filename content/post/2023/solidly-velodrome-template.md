@@ -21,7 +21,7 @@ Let’s get right to it!
 
 
 {{< notice note >}}
-This article assumes a minimal understanding of decentralized finance and a thorough understanding of the veCRV model. If you need a refresher, check: [⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md")
+This article assumes a minimal understanding of decentralized finance and a thorough understanding of the veCRV model. If you need a refresher, check: [⚔ CRV Wars: understanding the race to accumulate power to influence Curve Finance protocol](https://tokenbrice.xyz/crv-wars/)
 {{< /notice >}}
 
 ## Introduction to ve(3,3) DEXes

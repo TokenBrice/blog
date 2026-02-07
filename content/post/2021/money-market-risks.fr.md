@@ -21,11 +21,11 @@ Pour en savoir plus sur la couche de services qui est en train de se construire 
 
 1.   Une introduction au tranching via Saffron Finance :
 
-**[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/content/posts/2021/risk-tranching.fr.md)**
+**[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/fr/tranching-risque-defi/)**
 
 2.   Une présentation des protocoles de taux d'intérêt fixes à travers le prisme d'APWine : 
 
-**[🍷 En oenologie comme en DeFi, la patience paie](https://tokenbrice.xyz/content/posts/2021/firp-apwine.fr.md)**
+**[🍷 En oenologie comme en DeFi, la patience paie](https://tokenbrice.xyz/fr/fixed-interest-rate-protocol-firp-apwine/)**
 
 ---
 
@@ -325,7 +325,7 @@ Sur un tel sujet, encore une fois, aucune mesure ne vous aidera à elle seule. L
 
 Une autre conséquence d'une communauté saine est **l'appui et l'utilisation généralisés dans tout l'écosystème**, avec de nombreux services et produits construits sur le protocole examiné. Ici, malgré le fait que Compound ait été le premier, Aave est aussi maintenant un choix de premier ordre pour tout nouveau protocole construisant une nouvelle primitive financière.
 
-En effet, les équipes peuvent délibérément favoriser un tel environnement simplement en ayant des membres accessibles et impliqués dans l'espace. En outre, Aave a une initiative de **subventions d'écosystème** [^aavegrants] qui aide à financer des projets construits sur Aave tels qu'[APWine](https://tokenbrice.xyz/content/posts/2021/firp-apwine.fr.md). D'autres initiatives liées à la communauté sont un bon exemple, comme les hackathons, les AMA, les livestreams, etc.
+En effet, les équipes peuvent délibérément favoriser un tel environnement simplement en ayant des membres accessibles et impliqués dans l'espace. En outre, Aave a une initiative de **subventions d'écosystème** [^aavegrants] qui aide à financer des projets construits sur Aave tels qu'[APWine](https://tokenbrice.xyz/fr/fixed-interest-rate-protocol-firp-apwine/). D'autres initiatives liées à la communauté sont un bon exemple, comme les hackathons, les AMA, les livestreams, etc.
 
 Ici encore, assurez-vous d'évaluer la qualité et non la quantité. Il est facile de se précipiter sur toutes les initiatives énumérées ci-dessus. Mais il est beaucoup plus difficile de le faire correctement, d'une manière qui ait un sens pour la communauté et qui la fasse avancer.
 
@@ -386,7 +386,7 @@ Si vous n'êtes pas d'accord avec cette déclaration, **n'hésitez pas à me con
 
 ---
 
-Rappel : ce blog est **[l'un des rares sites web de l'espace à ne pas piller vos données](https://tokenbrice.xyz/content/posts/2020/hello-world.fr.md)** : je n'utilise pas Google Analytics & autres trackers intrusifs.
+Rappel : ce blog est **[l'un des rares sites web de l'espace à ne pas piller vos données](https://tokenbrice.xyz/fr/hello-world/)** : je n'utilise pas Google Analytics & autres trackers intrusifs.
 
 {{< notice tip >}}
 

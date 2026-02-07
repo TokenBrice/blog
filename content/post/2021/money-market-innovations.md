@@ -26,9 +26,9 @@ This may seem basic to a DeFian, but it is a real paradigm shift. In traditional
 ## Discovering money markets
 
 
-We have already talked a lot about money markets on this blog, especially in the article that offers a qualitative methodology to evaluate their risks : **[Assessing risk in decentralized finance: a handbook for money markets](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md)**
+We have already talked a lot about money markets on this blog, especially in the article that offers a qualitative methodology to evaluate their risks : **[Assessing risk in decentralized finance: a handbook for money markets](https://tokenbrice.xyz/money-markets-risk/)**
 
-Or the one about the different services of abstraction and distribution of the inherent risks in money markets: **[Risk? Yes please, but exactly how I like it](https://tokenbrice.xyz/content/posts/2021/risk-tranching.md)**
+Or the one about the different services of abstraction and distribution of the inherent risks in money markets: **[Risk? Yes please, but exactly how I like it](https://tokenbrice.xyz/risk-tranching-defi/)**
 
 However, money markets are constantly evolving, both through their updates and through the contribution of third-party services built on top. In addition, new and more challenging money markets are being launched to cover needs that are still unsatisfied.
 
@@ -44,7 +44,7 @@ Money markets may seem really complex at first glance. The curious are most ofte
 
 Many DeFi users have not yet fully understood the issues at stake here. Many still think that liquidation can be total and sudden. In addition to information and education, tools for managing one's positions help users to feel more confident.
 
-Fortunately, tools that facilitate and automate the management of borrowing positions on money markets have emerged very quickly, such as DeFi Saver. I already talked about it last year in this article **[🎚 ETH exposure or DeFi yields: why choose?](https://tokenbrice.xyz/content/posts/2020/leveraging-ETH.md)**
+Fortunately, tools that facilitate and automate the management of borrowing positions on money markets have emerged very quickly, such as DeFi Saver. I already talked about it last year in this article **[🎚 ETH exposure or DeFi yields: why choose?](https://tokenbrice.xyz/leveraging-eth/)**
 
 DeFiSaver works as a proxy between the user and money markets. It allows new features such as the well-loved "Save": when the position falls below a user-defined collateralization limit, DeFiSaver automatically rebalances the position with a flash loan.
 
@@ -104,7 +104,7 @@ Various parameters in the Reflexer system adjust to **converge the two prices ov
 
 To better understand Reflexer, I recommend you to read my previous article on stable assets:
 
-**[Exploring stable assets on Ethereum: approaches & endgame?](https://tokenbrice.xyz/content/posts/2021/pegged-assets.md)**
+**[Exploring stable assets on Ethereum: approaches & endgame?](https://tokenbrice.xyz/ethereum-stable-assets/)**
 
 ---
 
@@ -175,7 +175,7 @@ I hope you have found this introduction to the latest innovations in the money m
 
 Finally, let me remind you that in addition to functionality, **risk management is the essential element that differentiates each money market**. Before you start spending large sums of money on them, I invite you to familiarize yourself with the associated risks. It's a good thing, I wrote what remains to this day **the most exhaustive and comprehensible synthesis to understand the risks incurred in the money markets**, I invite you to read it:
 
-**[Assessing risk in decentralized finance: a handbook for money markets](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md)**
+**[Assessing risk in decentralized finance: a handbook for money markets](https://tokenbrice.xyz/money-markets-risk/)**
 
 _🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony for proofreading the French version of this article and translating it integrally into English._
 

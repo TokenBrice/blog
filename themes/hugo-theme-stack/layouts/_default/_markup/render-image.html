@@ -19,8 +19,9 @@
 
 		{{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
 			{{- $small := $image.Resize `480x` -}}
+			{{- $medium := $image.Resize `768x` -}}
 			{{- $big := $image.Resize `1024x` -}}
-			{{- $Srcset = printf `%s 480w, %s 1024w` $small.RelPermalink $big.RelPermalink -}}
+			{{- $Srcset = printf `%s 480w, %s 768w, %s 1024w` $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
 		{{- end -}}
 	{{- end -}}
 {{- end -}}
@@ -28,13 +29,14 @@
 <img src="{{ $Permalink }}"
 	{{ with $Width }}width="{{ . }}"{{ end }}
 	{{ with $Height }}height="{{ . }}"{{ end }}
-	{{ with $Srcset }}srcset="{{ . }}"{{ end }}
+	{{ with $Srcset }}srcset="{{ . }}"
+	sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
 	loading="lazy"
 	{{ with $alt }}
 		alt="{{ . }}"
 	{{ end }}
 	{{ if $galleryImage }}
-		class="gallery-image" 
+		class="gallery-image"
 		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
 		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
 	{{ end }}

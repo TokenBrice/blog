@@ -79,7 +79,7 @@ Il y a des frais liés au blog, principalement le temps passé à écrire et à 
 
 **Si vous appréciez mon travail, vous pouvez contribuer au [Gitcoin grants](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr) pour le soutenir.**
 
-Vous pouvez en savoir plus sur l'approche de ce blog dans [cet article détaillant l'infrastructure](https://tokenbrice.xyz/content/posts/2020/hello-world.fr.md).
+Vous pouvez en savoir plus sur l'approche de ce blog dans [cet article détaillant l'infrastructure](https://tokenbrice.xyz/fr/hello-world/).
 
 #### DeFi France
 

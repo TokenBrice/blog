@@ -2,7 +2,7 @@
 title: "Le cycle de l'agrégation tourne, avec le prêt"
 description: "Dans le prêt, le véritable avantage n'est pas de trouver le taux ; c'est de posséder les rails qui les connectent tous."
 date: '2025-08-10T01:13:50.191Z'
-categories: Lending
+categories: [Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregator, Fluid, Euler]
 url: lending-aggregation
 image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/lending-aggregation/aggregration-lending-cover.png

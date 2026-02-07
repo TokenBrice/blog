@@ -65,6 +65,62 @@ other = "Refresh"
 
 # Difficulty / Expertise
 
+# Glossary
+
+[glossarySearch]
+other = "Search terms…"
+
+[glossaryAll]
+other = "All"
+
+[glossaryTerms]
+other = "terms"
+
+[glossaryNoResults]
+other = "No terms found"
+
+[glossaryNoResultsHint]
+other = "Try a different search or category."
+
+[glossaryHome]
+other = "Home"
+
+[glossaryTitle]
+other = "DeFi Glossary"
+
+[glossaryDefinition]
+other = "Definition"
+
+[glossaryExample]
+other = "Example"
+
+[glossaryRisksTitle]
+other = "Risks to Consider"
+
+[glossaryRisks]
+other = "Risks"
+
+[glossaryFaq]
+other = "Common Questions"
+
+[glossaryRelatedTerms]
+other = "Related Terms"
+
+[glossaryRelatedArticles]
+other = "Related Articles"
+
+[glossaryPrevious]
+other = "Previous"
+
+[glossaryNext]
+other = "Next"
+
+[glossaryCategoryFilter]
+other = "Click to filter by category"
+
+
+# Difficulty / Expertise
+
 [difficultyWidgetTitle]
 other = "Expertise Level"
 

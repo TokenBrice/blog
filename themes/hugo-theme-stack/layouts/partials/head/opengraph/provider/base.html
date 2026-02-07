@@ -13,9 +13,15 @@
     {{- end -}}
 '>
 
-{{- with .Params.locale -}}
-    <meta property='og:locale' content='{{ . }}'>
+{{- $locale := .Params.locale -}}
+{{- if not $locale -}}
+    {{- if eq .Language.Lang "fr" -}}
+        {{- $locale = "fr_FR" -}}
+    {{- else -}}
+        {{- $locale = "en_US" -}}
+    {{- end -}}
 {{- end -}}
+<meta property='og:locale' content='{{ $locale }}'>
 
 {{- if .IsPage -}}
     <meta property='article:section' content='{{ .Section | title }}' />
@@ -40,4 +46,8 @@
 {{ $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" }}
 {{- if $image.exists -}}
     <meta property='og:image' content='{{ absURL $image.permalink }}' />
+    {{- if $image.resource -}}
+        <meta property='og:image:width' content='{{ $image.resource.Width }}' />
+        <meta property='og:image:height' content='{{ $image.resource.Height }}' />
+    {{- end -}}
 {{- end -}}

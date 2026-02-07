@@ -41,11 +41,11 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
-        <description>
+        <description>{{ printf "<![CDATA[" | safeHTML }}
             {{- $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
             {{- if $image.exists -}}
-                {{ "<" | html }}img src="{{ $image.permalink | absURL }}" alt="Featured image of post {{ .Title }}" {{ "/>" | html}}
-            {{- end -}}{{ $content }}</description>
+                <img src="{{ $image.permalink | absURL }}" alt="Featured image of post {{ .Title }}" />
+            {{- end -}}{{ $content }}{{ printf "]]>" | safeHTML }}</description>
         </item>
         {{ end }}
     </channel>

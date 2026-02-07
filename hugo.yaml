@@ -11,6 +11,7 @@ DefaultContentLanguage: en
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
+enableGitInfo: true
 
 languages:
     en:
@@ -60,6 +61,9 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
+    author:
+        name: TokenBrice
+        email: tokenbrice@proton.me
     favicon: /favicon.ico
 
     footer:

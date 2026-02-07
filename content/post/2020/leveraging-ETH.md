@@ -24,8 +24,8 @@ So there you have the base idea: instead of investing directly in ERC20 or stabl
 ## Re-investing the minted DAI
 
 The options to re-invest your DAI are pretty much infinite, so I will focus on these that make the most sense - aka the best at harnessing the current DAI premium. Feel free to check my previous publications covering incentivised liquidity pools investment opportunities & the useful tools to harness them:
-1. **[💦 The Yield Farmer Tier List](https://tokenbrice.xyz/content/posts/2020/yield-farmer-tier-list.md)** 
-2. **[🧰 The DeFinancial Farming Toolbox](https://tokenbrice.xyz/content/posts/2020/defi-farmer-toolbox.md)**.
+1. **[💦 The Yield Farmer Tier List](https://tokenbrice.xyz/yieldfarmer-tierlist/)** 
+2. **[🧰 The DeFinancial Farming Toolbox](https://tokenbrice.xyz/defi-farmer-toolbox/)**.
 
 So essentially when it comes to what makes of the DAI, you have several options, here are the broad categories:
 

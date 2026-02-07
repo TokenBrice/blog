@@ -32,7 +32,7 @@ In the early days of Yearn, people were unclear on how to pronounce "YFI". [A di
 Indeed, despite being barely a few months old, **Yearn has already been forked, a lot**. There is now a whole family of wifeys built upon similar premises, each project adjusting different parameters to attempt to better fit their envisioned use case. Many of these forks were unnecessary, however, **several managed to bring something new and exciting to the table** —  the ones we will consider today.
 
 {{< notice note >}}
-This content assumes an understanding of Yearn, to brush up on the topic I'd recommend [**my previous article on Yearn**](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.md).
+This content assumes an understanding of Yearn, to brush up on the topic I'd recommend [**my previous article on Yearn**](https://tokenbrice.xyz/yearn-finance/).
 {{< /notice >}}
 
 ### [DFI.Money (YFII)](http://dfi.money/)

@@ -2,6 +2,13 @@
     article-page glossary-term-page
 {{ end }}
 
+{{ define "head" }}
+{{ $glossaryCSS := resources.Get "css/glossary.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $glossaryCSS.RelPermalink }}">
+{{ $termCSS := resources.Get "css/glossary-term.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $termCSS.RelPermalink }}">
+{{ end }}
+
 {{ define "main" }}
     {{- $lang := .Language.Lang -}}
     {{- $glossaryId := .Params.glossary_id -}}
@@ -45,17 +52,14 @@
     {{- if eq $lang "fr" -}}
         {{- $glossaryUrl = "/fr/glossary/" -}}
     {{- end -}}
-    {{- $glossaryTitle := "DeFi Glossary" -}}
-    {{- if eq $lang "fr" -}}
-        {{- $glossaryTitle = "Glossaire DeFi" -}}
-    {{- end -}}
+    {{- $glossaryTitle := T "glossaryTitle" -}}
 
     <article class="main-article glossary-single-term" style="border-top: 4px solid {{ $categoryColor }}">
         <!-- Breadcrumb Navigation -->
         <nav aria-label="Breadcrumb" class="glossary-breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
             <ol>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a itemprop="item" href="{{ if eq $lang "fr" }}/fr/{{ else }}/{{ end }}"><span itemprop="name">{{ if eq $lang "fr" }}Accueil{{ else }}Home{{ end }}</span></a>
+                    <a itemprop="item" href="{{ if eq $lang "fr" }}/fr/{{ else }}/{{ end }}"><span itemprop="name">{{ T "glossaryHome" }}</span></a>
                     <meta itemprop="position" content="1" />
                 </li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -84,18 +88,18 @@
         <div class="glossary-term-content" style="padding: 0 var(--card-padding, 1.5rem) var(--card-padding, 1.5rem);">
             <!-- Definition -->
             <section>
-                <h2>{{ if eq $lang "fr" }}Définition{{ else }}Definition{{ end }}</h2>
+                <h2>{{ T "glossaryDefinition" }}</h2>
                 <p class="term-definition">{{ $term.definition }}</p>
             </section>
 
             <!-- Example -->
             {{- with $term.example }}
             <section>
-                <h2>{{ if eq $lang "fr" }}Exemple{{ else }}Example{{ end }}</h2>
+                <h2>{{ T "glossaryExample" }}</h2>
                 <div class="term-example">
                     <div class="example-header">
                         <span class="example-icon">💡</span>
-                        <strong>{{ if eq $lang "fr" }}Exemple{{ else }}Example{{ end }}</strong>
+                        <strong>{{ T "glossaryExample" }}</strong>
                     </div>
                     <p>{{ . }}</p>
                 </div>
@@ -105,11 +109,11 @@
             <!-- Risks -->
             {{- if gt (len (default (slice) $term.risks)) 0 }}
             <section>
-                <h2>{{ if eq $lang "fr" }}Risques à considérer{{ else }}Risks to Consider{{ end }}</h2>
+                <h2>{{ T "glossaryRisksTitle" }}</h2>
                 <div class="term-risks">
                     <div class="risks-header">
                         <span class="risks-icon">⚠️</span>
-                        <strong>{{ if eq $lang "fr" }}Risques{{ else }}Risks{{ end }}</strong>
+                        <strong>{{ T "glossaryRisks" }}</strong>
                     </div>
                     <ul>
                         {{- range $term.risks }}
@@ -123,7 +127,7 @@
             <!-- Common Questions -->
             {{- if gt (len (default (slice) $term.common_questions)) 0 }}
             <section>
-                <h2>{{ if eq $lang "fr" }}Questions fréquentes{{ else }}Common Questions{{ end }}</h2>
+                <h2>{{ T "glossaryFaq" }}</h2>
                 {{- range $term.common_questions }}
                 <details class="glossary-faq-detail">
                     <summary><h3>{{ .question }}</h3></summary>
@@ -136,7 +140,7 @@
             <!-- Related Terms -->
             {{- if gt (len (default (slice) $term.related_terms)) 0 }}
             <section>
-                <h2>{{ if eq $lang "fr" }}Termes liés{{ else }}Related Terms{{ end }}</h2>
+                <h2>{{ T "glossaryRelatedTerms" }}</h2>
                 <ul class="glossary-related-terms-list">
                     {{- range $term.related_terms -}}
                         {{- $relatedId := . -}}
@@ -153,7 +157,7 @@
             <!-- Related Articles -->
             {{- if gt (len (default (slice) $term.related_articles)) 0 }}
             <section>
-                <h2>{{ if eq $lang "fr" }}Articles connexes{{ else }}Related Articles{{ end }}</h2>
+                <h2>{{ T "glossaryRelatedArticles" }}</h2>
                 <div class="related-articles-list article-list--compact">
                     {{- range first 3 $term.related_articles }}
                     {{- $articleUrl := .url -}}
@@ -195,7 +199,7 @@
                 <div class="prev-next-left">
                     {{- if $prevTerm }}
                     <a href="{{ $glossaryUrl }}{{ $prevTerm.id }}/">
-                        <span class="prev-next-label">{{ if eq $lang "fr" }}Précédent{{ else }}Previous{{ end }}</span>
+                        <span class="prev-next-label">{{ T "glossaryPrevious" }}</span>
                         <span class="prev-next-term">← {{ $prevTerm.term }}</span>
                     </a>
                     {{- end }}
@@ -206,7 +210,7 @@
                 <div class="prev-next-right">
                     {{- if $nextTerm }}
                     <a href="{{ $glossaryUrl }}{{ $nextTerm.id }}/">
-                        <span class="prev-next-label">{{ if eq $lang "fr" }}Suivant{{ else }}Next{{ end }}</span>
+                        <span class="prev-next-label">{{ T "glossaryNext" }}</span>
                         <span class="prev-next-term">{{ $nextTerm.term }} →</span>
                     </a>
                     {{- end }}
@@ -256,11 +260,5 @@
 }
 </script>
 {{- end }}
-
-<!-- Glossary CSS -->
-{{ $glossaryCSS := resources.Get "css/glossary.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $glossaryCSS.Permalink }}">
-{{ $termCSS := resources.Get "css/glossary-term.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $termCSS.Permalink }}">
 
 {{ end }}

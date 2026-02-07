@@ -23,7 +23,7 @@ Fondamentalement, un échange décentralisé peut innover à deux niveaux :
 1. **La structure de liquidité** : les options offertes aux fournisseurs de liquidité pour concevoir l'activité d'approvisionnement qui correspond le mieux à leur thèse.
 2. Et / ou **le modèle d'incitation** : les outils et les modalités permettant aux DAO et aux projets d'encourager des structures de liquidité personnalisées ou non.
 
-La plupart des nouveaux DEX qui sortent recyclent une infrastructure existante et se concentrent sur l'innovation dans une seule dimension - généralement le modèle d'incitation - comme on l'a vu récemment avec la vague de forks Solidly/Velodrome - **[ve(3,3), la prochaine étape logique après veCRV ?](https://tokenbrice.xyz//content/posts/2023/solidly-velodrome-template.fr.md)**. 
+La plupart des nouveaux DEX qui sortent recyclent une infrastructure existante et se concentrent sur l'innovation dans une seule dimension - généralement le modèle d'incitation - comme on l'a vu récemment avec la vague de forks Solidly/Velodrome - **[ve(3,3), la prochaine étape logique après veCRV ?](https://tokenbrice.xyz/fr/solidly-velodrome-fork/)**. 
 
 Il y a cependant quelques moments critiques dans l'industrie où un nouveau DEX est sorti et a apporté **une innovation critique sur les deux fronts :**
 
@@ -158,7 +158,7 @@ Lancé il y a quelques semaines, le token MAV a été distribué aux premiers fo
 
 En tant que lecteurs de ce blog, j'imagine que vous êtes largement familiarisés avec le modèle veCRV et ses implications. Si ce n'est pas le cas, vous avez de la lecture :
 
-**[⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)**.
+**[⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/fr/crv-wars/)**.
 
 ### veMAV & Liquidity Directing Voting (façonnage des liquidités par le vote)
 
@@ -215,7 +215,7 @@ Du côté des projets, **il est absolument nécessaire que les gestionnaires de 
 {{< notice note >}}
 Info : Au cas où vous auriez manqué la nouvelle, je conseille l'équipe de Maverick depuis l'année dernière.
 
-**[Annonce : TokenBrice 🤝 Maverick](https://tokenbrice.xyz//content/posts/2023/maverickxtokenbrice.fr.md)** 
+**[Annonce : TokenBrice 🤝 Maverick](https://tokenbrice.xyz/fr/maverick-x-tokenbrice/)** 
 {{< /notice >}}
 
 Il sera intéressant de voir comment se dérouleront les prochains mois de la guerre des DEX ; Maverick étant déjà régulièrement dans le top 5 des DEX Ethereum par volume traité, je pense qu'il n'est pas exagéré de l'envisager dans le top 3 d'ici la fin de l'année, au plus tard lorsque les jauges veMAV seront publiées.

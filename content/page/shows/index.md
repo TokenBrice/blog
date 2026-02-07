@@ -7,7 +7,7 @@ lastmod: '2025-10-16'
 toc: false
 menu:
     main: 
-        weight: -90
+        weight: -80
         params:
             icon: rss
 readingTime: false

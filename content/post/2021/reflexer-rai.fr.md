@@ -24,8 +24,8 @@ Le contexte pour bien comprendre RAI est assez dense, mais la bonne nouvelle c'e
 
 
 
-1. [Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?](https://tokenbrice.xyz/content/posts/2021/pegged-assets.fr.md)
-2. [Comprendre les innovations sur les marchés monétaires pour envisager leur avenir](https://tokenbrice.xyz/content/posts/2021/money-market-innovations.fr.md)
+1. [Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?](https://tokenbrice.xyz/fr/actifs-stables-ethereum/)
+2. [Comprendre les innovations sur les marchés monétaires pour envisager leur avenir](https://tokenbrice.xyz/fr/marche-monetaire-innovations/)
 
 Si vous n'avez pas le temps d'explorer le concept approfondi avec les articles proposés au-dessus, voici les deux points essentiels à retenir pour bien comprendre la suite :
 
@@ -114,7 +114,7 @@ Une fois ça saisi, je me permets de rappeler que le système par lui-même ne p
 
 Voyons ça concrètement en pratique.
 
-On retrouve ici une logique qui rappelle les [stablecoins algorithmiques](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.fr.md), bien que le produit final du système soit totalement différent.
+On retrouve ici une logique qui rappelle les [stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-stablecoins/), bien que le produit final du système soit totalement différent.
 
 
 ### Quand le prix du marché > prix de rédemption
@@ -224,7 +224,7 @@ Après avoir ajouté le support pour RAI il y a déjà quelques semaines, Aave a
 
 ### RAI sur Cream
 
-Cream a été l'un des premiers marchés monétaires à supporter RAI. Il s'agit néanmoins d'un marché monétaire de seconde zone extrêmement risqué et sans valeur ajoutée, voire délétère sur le long terme. Je m'arrête donc là, et [vous invite à lire cet article si vous vous demandez pourquoi](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md).
+Cream a été l'un des premiers marchés monétaires à supporter RAI. Il s'agit néanmoins d'un marché monétaire de seconde zone extrêmement risqué et sans valeur ajoutée, voire délétère sur le long terme. Je m'arrête donc là, et [vous invite à lire cet article si vous vous demandez pourquoi](https://tokenbrice.xyz/fr/marche-monetaire-risque/).
 
 
 ### RAI sur Idle Finance

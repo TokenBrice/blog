@@ -65,6 +65,62 @@ other = "Rafraîchir"
 
 # Difficulty / Expertise
 
+# Glossary
+
+[glossarySearch]
+other = "Rechercher un terme…"
+
+[glossaryAll]
+other = "Tous"
+
+[glossaryTerms]
+other = "termes"
+
+[glossaryNoResults]
+other = "Aucun terme trouvé"
+
+[glossaryNoResultsHint]
+other = "Essayez une autre recherche ou catégorie."
+
+[glossaryHome]
+other = "Accueil"
+
+[glossaryTitle]
+other = "Glossaire DeFi"
+
+[glossaryDefinition]
+other = "Définition"
+
+[glossaryExample]
+other = "Exemple"
+
+[glossaryRisksTitle]
+other = "Risques à considérer"
+
+[glossaryRisks]
+other = "Risques"
+
+[glossaryFaq]
+other = "Questions fréquentes"
+
+[glossaryRelatedTerms]
+other = "Termes liés"
+
+[glossaryRelatedArticles]
+other = "Articles connexes"
+
+[glossaryPrevious]
+other = "Précédent"
+
+[glossaryNext]
+other = "Suivant"
+
+[glossaryCategoryFilter]
+other = "Cliquer pour filtrer par catégorie"
+
+
+# Difficulty / Expertise
+
 [difficultyWidgetTitle]
 other = "Niveau d'expertise"
 

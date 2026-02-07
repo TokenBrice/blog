@@ -2,7 +2,7 @@
 title: "Chicken Bonds: an NFT-powered hatching factory to beat DeFi’s liquidity chicken and egg problem"
 description: "How can a new experiment pioneering dynamic NFTs evolving based on the user's interactions help Liquity grow LUSD's liquidity and reduce the stablecoin premium?"
 date: '2022-10-17T01:13:50.191Z'
-catégories : [Stablecoin, Yield]
+categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 toc: true
 tocNum: true
@@ -132,7 +132,7 @@ As a protocol, Chicken Bonds collect LUSD and deploy them into two potential yie
 
 {{< notice info >}}
 If you are not familiar with how Liquity works yet, you can get up to date with this dedicated article: <br>
-**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.md)**
+**[⚖️ Liquity: an unstoppable, efficient and innovative borrowing service](https://tokenbrice.xyz/liquity-protocol/)**
 {{< /notice >}}
 
 #### Auto compounded
@@ -238,7 +238,7 @@ Using Warden Quest, LQTY tokens are awarded to veCRV and vlCVX voters on the LUS
 
 {{< notice info >}}
 Are you out of the loop with the Curve Wars? Start here: <br>
-**[⚔ CRV wars: the race to accumulate the ability to influence the Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md)**
+**[⚔ CRV wars: the race to accumulate the ability to influence the Curve Finance protocol](https://tokenbrice.xyz/crv-wars/)**
 {{< /notice >}}
 
 ### PowerPool’s LUCY: interest-bearing LUSD LP position

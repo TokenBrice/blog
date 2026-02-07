@@ -26,7 +26,7 @@ However, Convex is not the only project that tried to realize this vision: there
 
 ## CRV or CVX?
 
-I won't go back to the basics of the separation between the two tokens here, that's a matter for an entire article if you're new to the subject: [⚔ CRV wars: understanding the race to accumulate the ability to influence the Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md")
+I won't go back to the basics of the separation between the two tokens here, that's a matter for an entire article if you're new to the subject: [⚔ CRV wars: understanding the race to accumulate the ability to influence the Curve Finance protocol](https://tokenbrice.xyz/crv-wars/)
 
 It should be kept in mind that despite the computable equivalence between CVX and CRV (1vl CVX controls about 4.8 veCRV - [source](https://dune.xyz/Marcov/Convex-Finance)), the two tokens have different tradeoffs as described above. 
 
@@ -63,7 +63,7 @@ In summary, Convex provides access to maximized and liquid CRV token returns thr
 
 Although Convex controls a large amount of vlCVX, the centralization of voting power on gauges is avoided by offering this capability to the highest bidder through Votium (bribes).
 
-Convex is now basic, so I won't detail it further here. My previous article on CRV Warfare went into more depth on the model and the contributions of Convex: [⚔ CRV Warfare: Understanding the race to accumulate the ability to influence Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md")
+Convex is now basic, so I won't detail it further here. My previous article on CRV Warfare went into more depth on the model and the contributions of Convex: [⚔ CRV Warfare: Understanding the race to accumulate the ability to influence Curve Finance protocol](https://tokenbrice.xyz/crv-wars/)
 
 
 ### Warden of Paladin: Curve on steroids?

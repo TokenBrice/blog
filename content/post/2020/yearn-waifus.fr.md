@@ -33,7 +33,7 @@ Dans les premiers temps de Yearn, les gens ne savaient pas très bien comment pr
 En effet, bien qu'il ait à peine quelques mois, **Yearn a déjà été forké, beaucoup**. Il y a maintenant toute une famille de wifeys construite sur une base similaire, chaque projet ajustant différents paramètres pour tenter de mieux s'adapter au cas d'utilisation envisagé. Beaucoup de ces forks étaient inutiles, mais **plusieurs ont réussi à apporter quelque chose de nouveau et d'excitant** - ceux dont nous parlerons aujourd'hui.
 
 {{< notice note >}}
-Ce contenu suppose une bonne compréhension de Yearn, afin d'approfondir le sujet, je recommande la lecture de [**mon précédent article sur Yearn**](https://tokenbrice.xyz/content/posts/2020/yearn-finance-YFI.fr.md).
+Ce contenu suppose une bonne compréhension de Yearn, afin d'approfondir le sujet, je recommande la lecture de [**mon précédent article sur Yearn**](https://tokenbrice.xyz/fr/yearn-finance/).
 {{< /notice >}}
 
 ### [DFI.Money (YFII)](http://dfi.money/)

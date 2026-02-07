@@ -79,7 +79,7 @@ There are still costs incurred with the blog, mostly the time spent writing and 
 
 **If you appreciate my work, you can contribute to the [Gitcoin grant](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr) to support it.**
 
-You can read more about the approach with this blog in [this article detailling the infrastructure](https://tokenbrice.xyz/content/posts/2020/hello-world.md).
+You can read more about the approach with this blog in [this article detailling the infrastructure](https://tokenbrice.xyz/hello-world/).
 
 #### DeFi France
 

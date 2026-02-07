@@ -11,7 +11,7 @@
 .glossary-breadcrumb {
     padding: 1rem var(--card-padding, 1.5rem);
     background: var(--card-background-selected);
-    border-bottom: 1px solid var(--card-border-color);
+    border-bottom: 1px solid var(--card-separator-color);
     font-size: 0.875rem;
 }
 
@@ -144,7 +144,7 @@
     display: inline-block;
     padding: 0.4rem 1rem;
     background: var(--card-background-selected);
-    border: 1px solid var(--card-border-color);
+    border: 1px solid var(--card-separator-color);
     border-radius: var(--tag-border-radius);
     color: var(--accent-color);
     text-decoration: none;
@@ -168,7 +168,7 @@
     gap: 1rem;
     margin-top: 2rem;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--card-border-color);
+    border-top: 1px solid var(--card-separator-color);
     align-items: center;
 }
 

@@ -2,7 +2,7 @@
 title: "Chicken Bonds : synergie DeFi x NFT pour résoudre le problème de l'oeuf et de la poule de la ĺiquidité en finance décentralisée"
 description: "Comment une expérimentation impliquant des NFTs dynamiques évoluants en fonction des interactions des utilisateurs avec un protocole DeFi peut aider Liquity à accroître la liquidité du LUSD ?"
 date: '2022-10-17T01:13:50.191Z'
-catégories : [Stablecoin, Yield]
+categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 toc: true
 tocNum: true
@@ -132,7 +132,7 @@ En tant que protocole, les Chicken Bonds collectent les LUSD et les déploient d
 
 {{< notice info >}}
 Si vous n'êtes pas encore familier avec le fonctionnement de Liquity, vous pouvez vous mettre à jour avec cet article dédié : <br>
-**[⚖️ Liquity : un service d'emprunt imparable, efficace et innovant](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.fr.md)**.
+**[⚖️ Liquity : un service d'emprunt imparable, efficace et innovant](https://tokenbrice.xyz/fr/liquity-protocol/)**.
 {{< /notice >}}
 
 #### Composition des rendements automatique
@@ -240,7 +240,7 @@ En utilisant Warden Quest, des jetons LQTY sont attribués aux votants veCRV et 
 
 {{< notice info >}}
 À la trâine par rapport aux CRV Wars ? Rattrappez votre retard avec cet article : <br>
-**[⚔ CRV wars : la course pour accumuler la capacité d'influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)**.
+**[⚔ CRV wars : la course pour accumuler la capacité d'influencer le protocole Curve Finance](https://tokenbrice.xyz/fr/crv-wars/)**.
 {{< /notice >}}
 
 ### Le LUCY de PowerPool : Stability Pool et apport de liquidité

@@ -2,7 +2,7 @@
 title: "Science Fiction DeFi #1 - Le marché d'actions humaines & le Moloch interstellaire 🛸"
 description: "Le début d'une grande aventure : une émission interactive qui allie science-fiction et DeFi pour réfléchir aux enjeux du monde de demain."
 date: '2021-03-11T01:13:50.191Z'
-categories: [Projets]
+categories: [Projects]
 tags: [DeFi, Science Fiction, DeSciFi]
 url: science-fiction-defi-1
 difficulty: "beginner"

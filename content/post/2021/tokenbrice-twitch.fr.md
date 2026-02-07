@@ -89,7 +89,7 @@ Auparavant j'écrivais mes articles en anglais : je les traduisais par la suite 
 
 Cela devrait engendrer une amélioration de la qualité de mon expression en français qui n'était pas toujours idéale par le passé. Cela me permet de réduire également le temps nécessaire pour produire chaque article. Une très bonne nouvelle. 
 
-Pour vous donner une idée, un article comme celui sur **[l’évaluation du risque des marchés monétaires](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)** c'est environ une dizaine d'heures de travail, en plus de toute ma recherche et connaissances acquises en amont.
+Pour vous donner une idée, un article comme celui sur **[l’évaluation du risque des marchés monétaires](https://tokenbrice.xyz/fr/marche-monetaire-risque/)** c'est environ une dizaine d'heures de travail, en plus de toute ma recherche et connaissances acquises en amont.
 
 
 ### La suite : quand lune ? 🌝

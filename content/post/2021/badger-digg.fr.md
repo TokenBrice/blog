@@ -86,7 +86,7 @@ Tout comme pour l'AMPL, avec DIGG, tous les détenteurs (y compris les tokens de
 Les rebases se font à une heure fixe, pour DIGG c'est 15h EST, c'est 21h pour mes chers lecteurs français.
 
 {{< notice tip >}}
-Les tokens de rebasage exploitent des mécanismes similaires à ceux impliqués dans les stablecoins algorithmiques / tokens de seigneuriage, alors n'hésitez pas à lire mon **[précédent billet sur le sujet](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.fr.md)** pour plus d'informations.
+Les tokens de rebasage exploitent des mécanismes similaires à ceux impliqués dans les stablecoins algorithmiques / tokens de seigneuriage, alors n'hésitez pas à lire mon **[précédent billet sur le sujet](https://tokenbrice.xyz/fr/seigniorage-basis-esd/)** pour plus d'informations.
 {{< /notice >}}
 
 Par exemple, après le premier jour, la rebase de genèse était positive et a déclenché une production et une redistribution d'environ 12% de l'offre initiale. Plusieurs rebases positives ont suivi.
@@ -118,7 +118,7 @@ Cette logique est plus grande que Badger, comme on l'observe ailleurs aussi, on 
 
 De plus, pour revenir à Badger, l'adoption d'un tel modèle pourrait signifier des revenus natifs et durables qui pourraient être liés à au token BADGER ou son sett. Si l'on considère que la plupart des rendements proviennent actuellement d'incitations à l'apport des liquidités, il serait assez synergique d'en tirer parti.
 
-Compte tenu **[du succès du modèle Curve / CRV](https://tokenbrice.xyz/content/posts/2021/dex-value-capture.fr.md)**, il est logique de voir de plus en plus de protocoles en adopter les éléments : l'essentiel étant de donner à vos détenteurs la possibilité d'engager leurs tokens pour participer à la gouvernance, de puiser dans les flux de revenus de la plateforme et d'augmenter leurs propres rendements obtenus par l'utilisation du service.
+Compte tenu **[du succès du modèle Curve / CRV](https://tokenbrice.xyz/fr/dex-echanges-decentralisees-capture-valeur/)**, il est logique de voir de plus en plus de protocoles en adopter les éléments : l'essentiel étant de donner à vos détenteurs la possibilité d'engager leurs tokens pour participer à la gouvernance, de puiser dans les flux de revenus de la plateforme et d'augmenter leurs propres rendements obtenus par l'utilisation du service.
 
 _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/phil_h) & FrenchTony pour leur relecture attentive de l'édition française de cet article et sa traduction en Anglais._
 

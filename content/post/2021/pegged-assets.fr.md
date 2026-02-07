@@ -33,7 +33,7 @@ Le volume d'émission et d'utilisation des pegged-assets (actifs indexés) a exp
 
 Pour se faire, **l'approche utilisé à un haut niveau est la tokénisation** : on représente un actif qui vient d'une autre chaîne / d'un autre monde sur Ethereum, comme par exemple wBTC (correspondant à 1 BTC sur la chaîne Bitcoin) ou encore USDC (correspondant à 1 USD dans le compte en banque de Circle, en très bref).
 
-Cela permet de **répondre à une des inquiétudes les plus communes pour le grand public : [les cryptos sont des actifs volatiles](https://tokenbrice.xyz/content/posts/2018/stablecoins.fr.md)**.
+Cela permet de **répondre à une des inquiétudes les plus communes pour le grand public : [les cryptos sont des actifs volatiles](https://tokenbrice.xyz/fr/stablecoins/)**.
 
 En outre, **l'essor des stablecoins est allé de pair avec l'essor de la DeFi**, pourquoi ? Il y a pour moi de nombreuses raisons dont voici les principales :
 
@@ -42,7 +42,7 @@ En outre, **l'essor des stablecoins est allé de pair avec l'essor de la DeFi**,
 
 ### Pourquoi les emprunts se font essentiellement en stablecoins ?
 
-[Les marchés monétaires](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md) permettent à leur utilisateurs d'emprunter des actifs en utilisant d'autres actifs comme garanties (collatéral). Le cas d'usage le plus fréquent correspond au schéma suivant :
+[Les marchés monétaires](https://tokenbrice.xyz/fr/marche-monetaire-risque/) permettent à leur utilisateurs d'emprunter des actifs en utilisant d'autres actifs comme garanties (collatéral). Le cas d'usage le plus fréquent correspond au schéma suivant :
 
 1. L'utilisateur dépose un actif volatile, comme ETH, wBTC ou encore LINK
 2. Il l'utilise comme collatéral pour **emprunter un actif stable, comme USDC ou DAI**.
@@ -136,7 +136,7 @@ Le plus souvent, le principal paramètre pris en compte est tout simplement **le
 
 Pour plus de contexte sur cette idée de "smart contract banque centrale", vous pouvez lire mon premier article sur les stablecoins algorithmiques :
 
-**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.fr.md)**
+**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-stablecoins/)**
 
 #### Approches algorithmiques
 
@@ -145,7 +145,7 @@ Pour plus de contexte sur cette idée de "smart contract banque centrale", vous 
 
 J'analyse les principales approches pour produire des stablecoins algorithmiques dans un article dédié :
 
-**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.fr.md)**
+**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/fr/seigniorage-basis-esd/)**
 
 Ainsi, des projets comme ESD, DSD, ou encore Basis Cash ont été les pionniers des stablecoins algorithmiques. Néanmoins tous ces systèmes sont aujourd'hui un peu dans une abysse : cela fait **bien longtemps que leur "stablecoin" vaut largement moins d'un dollar**.
 

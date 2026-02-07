@@ -44,8 +44,12 @@
         font-size: 1.8rem;
 
         &:focus {
-            outline: 0;
             box-shadow: var(--shadow-l2);
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: -2px;
         }
     }
 
@@ -62,12 +66,15 @@
         padding: 0 10px;
 
         &:focus {
-            outline: 0;
-
             svg {
                 stroke-width: 2;
                 color: var(--accent-color);
             }
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: -2px;
         }
 
         svg {

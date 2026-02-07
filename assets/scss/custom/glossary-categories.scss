@@ -1,0 +1,103 @@
+/* Glossary Categories Overview Cards */
+.glossary-categories-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.category-card {
+    background: var(--card-background);
+    border: 1px solid var(--card-separator-color);
+    border-left: 4px solid var(--card-separator-color);
+    border-radius: var(--card-border-radius);
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-l1);
+}
+
+.category-card.clickable-category {
+    cursor: pointer;
+    user-select: none;
+}
+
+.category-card:hover {
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
+}
+
+.category-card.clickable-category:hover {
+    border-left-width: 6px;
+}
+
+.category-card:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+.category-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    background: rgba(var(--category-color-rgb, 59, 130, 246), 0.08);
+}
+
+.category-card:hover .category-icon {
+    background: rgba(var(--category-color-rgb, 59, 130, 246), 0.15);
+    transform: scale(1.05);
+}
+
+.category-title-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.category-name {
+    margin: 0;
+    color: var(--card-text-color-main);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.category-description {
+    margin: 0;
+    color: var(--card-text-color-secondary);
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.category-count {
+    background: var(--category-color, var(--accent-color));
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    align-self: flex-start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .glossary-categories-overview {
+        grid-template-columns: 1fr;
+    }
+}

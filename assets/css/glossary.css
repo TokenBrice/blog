@@ -31,7 +31,7 @@
     -webkit-backdrop-filter: blur(8px);
     padding: 1rem var(--card-padding, 1.5rem);
     margin: 0 calc(-1 * var(--card-padding, 1.5rem));
-    border-bottom: 1px solid var(--card-border-color);
+    border-bottom: 1px solid var(--card-separator-color);
 }
 
 /* Search Input */
@@ -52,7 +52,7 @@
 .glossary-search {
     width: 100%;
     padding: 1rem 1.25rem 1rem 3rem;
-    border: 1.5px solid var(--card-border-color);
+    border: 1.5px solid var(--card-separator-color);
     border-radius: var(--tag-border-radius, 8px);
     background: var(--card-background);
     color: var(--card-text-color-main);
@@ -85,7 +85,7 @@
     gap: 0.5rem;
     padding: 0.55rem 1.15rem;
     border-radius: 999px;
-    border: 1.5px solid var(--pill-color, var(--card-border-color));
+    border: 1.5px solid var(--pill-color, var(--card-separator-color));
     background: transparent;
     color: var(--card-text-color-main);
     font-size: 1.1rem;
@@ -127,7 +127,7 @@
     padding: 0.75rem var(--card-padding, 1.5rem);
     background: var(--card-background);
     border-radius: var(--card-border-radius);
-    border: 1px solid var(--card-border-color);
+    border: 1px solid var(--card-separator-color);
     align-items: center;
     justify-content: center;
     position: sticky;
@@ -189,8 +189,8 @@
     padding: 1.25rem 1.5rem;
     margin-bottom: 1rem;
     background: var(--card-background);
-    border: 1px solid var(--card-border-color);
-    border-left: 3px solid var(--term-accent, var(--card-border-color));
+    border: 1px solid var(--card-separator-color);
+    border-left: 3px solid var(--term-accent, var(--card-separator-color));
     border-radius: var(--card-border-radius);
     text-decoration: none;
     color: inherit;
@@ -295,14 +295,14 @@
    ============================================= */
 .glossary-term-page .term-card {
     background: var(--card-background);
-    border: 1px solid var(--card-border-color);
+    border: 1px solid var(--card-separator-color);
     border-radius: var(--card-border-radius);
     padding: 0;
     margin-bottom: 2rem;
     transition: all 0.3s ease;
     box-shadow: var(--shadow-l1);
     position: relative;
-    border-left: 4px solid var(--card-border-color);
+    border-left: 4px solid var(--card-separator-color);
     overflow: hidden;
 }
 
@@ -677,7 +677,7 @@
     padding: 3rem var(--card-padding);
     background: var(--card-background);
     border-radius: var(--card-border-radius);
-    border: 1px solid var(--card-border-color);
+    border: 1px solid var(--card-separator-color);
 }
 
 .no-results h3 {
@@ -699,7 +699,7 @@
 
 .related-articles-list article {
     background: var(--card-background-selected);
-    border: 1px solid var(--card-border-color);
+    border: 1px solid var(--card-separator-color);
     border-radius: var(--card-border-radius);
     overflow: hidden;
     transition: all 0.3s ease;
@@ -872,7 +872,7 @@
 
 [data-scheme="dark"] .glossary-search {
     background: var(--card-background);
-    border-color: var(--card-border-color);
+    border-color: var(--card-separator-color);
     color: var(--card-text-color-main);
 }
 
@@ -886,7 +886,7 @@
 
 [data-scheme="dark"] .compact-card {
     background: var(--card-background);
-    border-color: var(--card-border-color);
+    border-color: var(--card-separator-color);
 }
 
 [data-scheme="dark"] .compact-term-name {
@@ -899,7 +899,7 @@
 
 [data-scheme="dark"] .glossary-term-page .term-card {
     background: var(--card-background);
-    border-color: var(--card-border-color);
+    border-color: var(--card-separator-color);
     color: var(--card-text-color-main);
 }
 
@@ -933,7 +933,7 @@
 
 [data-scheme="dark"] .related-articles-list article {
     background: var(--card-background-selected);
-    border-color: var(--card-border-color);
+    border-color: var(--card-separator-color);
 }
 
 [data-scheme="dark"] .related-articles-list .article-title {

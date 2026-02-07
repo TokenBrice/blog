@@ -193,6 +193,6 @@ Finally, all four projects are supported in both [Zapper](https://zapper.fi/) an
 
 ### 4.1. Additional Resources
 
-- To learn more about the context behind algorithmic stablecoins, feel free to **[read my previous article on the topic](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.md)**. 
+- To learn more about the context behind algorithmic stablecoins, feel free to **[read my previous article on the topic](https://tokenbrice.xyz/algorithmic-stablecoins/)**. 
 - To learn more, French-speaker will enjoy this **[🇫🇷 50 min video explainer of both models](https://www.youtube.com/watch?v=TuenkIZZEq0)** 
 - English speakers can explore further with this extensive research/recap piece published on Derebit: **[Stability, Elasticity, and Reflexivity: A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-stablecoins/)**.

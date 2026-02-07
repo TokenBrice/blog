@@ -22,7 +22,7 @@ Fundamentally, a decentralized exchange can innovate at two levels:
 1. **The liquidity structure**: the options offered to liquidity providers to design the supply activity that best matches their thesis.
 2. And/or **the incentivization model**: the tools and modalities enabling DAOs & projects to incentivize customized or not liquidity structures.
 
-Most new DEX being released recycle an existing infrastructure and focus on innovating on only one dimension - usually the incentivization model - as seen recently with the wave of Solidly/Velodrome forks - **[ve(3,3), the logical next step after veCRV?](https://tokenbrice.xyz/content/posts/2023/solidly-velodrome-template.md** 
+Most new DEX being released recycle an existing infrastructure and focus on innovating on only one dimension - usually the incentivization model - as seen recently with the wave of Solidly/Velodrome forks - **[ve(3,3), the logical next step after veCRV?](https://tokenbrice.xyz/solidly-velodrome-fork/** 
 
 There are, however, a few critical moments in the industry when a new DEX was released and provided **critical innovation on both fronts:**
 
@@ -156,7 +156,7 @@ Released just a few weeks ago, the MAV token has been airdropped to early liquid
 
 As readers of this blog, I imagine you are extensively familiar with the veCRV model and its implications. If not, you've got some reading to do:
 
-**[⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol](https://tokenbrice.xyz/content/posts/2021/crv-wars.md)**
+**[⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol](https://tokenbrice.xyz/crv-wars/)**
 
 ### veMAV & Liquidity Directing Voting (vote-directed liquidity shaping)
 
@@ -213,7 +213,7 @@ On the project side, **it's an absolute necessity for liquidity managers to unde
 {{< notice note >}}
 Disclosure: In case you missed the news, I've been advising the Maverick team since last year.
 
-**[Announcement: TokenBrice 🤝 Maverick](https://tokenbrice.xyz/content/posts/2023/maverickxtokenbrice.md)** 
+**[Announcement: TokenBrice 🤝 Maverick](https://tokenbrice.xyz/maverick-x-tokenbrice/)** 
 {{< /notice >}}
 
 It will be interesting to see how the next few months of the DEX wars will unfold; with Maverick already consistently in the top 5 of Ethereum DEXes by volume processed, I think it's no stretch to envision it breaking into the top 3 by the end of year latest as the veMAV gauges will be released.

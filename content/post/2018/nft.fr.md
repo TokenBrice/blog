@@ -77,7 +77,7 @@ _Étant donné que l'historique des transactions de la plupart des cryptomonnaie
 
 Ce qui va nous intéresser aujourd'hui, ce sont les tokens non fongibles. Il y a eu plusieurs tentatives, dès 2013, pour créer des tokens non fongibles sans trop de succès. Ce qui a changé la donne, c'est un nouveau standard Ethereum, le ERC-721 qui permet la création de «  cryptocollectibles »  (barbarisme tout droit venu de l'anglais). Ce sont des biens uniques ayant leur propres propriétés tout en partagent un standard commun - essentiellement l'équivalent **des cartes Pokémon sur la blockchain.**
 
-**[📑 Cet article explore ce qui est fait avec les NFTs pour des fins communautaires ou artistiques.](https://tokenbrice.xyz/content/posts/2021/nft-usecases.fr.md)**
+**[📑 Cet article explore ce qui est fait avec les NFTs pour des fins communautaires ou artistiques.](https://tokenbrice.xyz/fr/nft-cas-d'utilisation/)**
 
 ### Les débuts avec le standard ERC-721
 

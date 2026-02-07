@@ -29,7 +29,7 @@ The volume of issuance and use of pegged-assets has exploded last year, but befo
 
 To do this, **the method used at a high level is tokenization**: we represent an asset that comes from another chain / world on Ethereum, such as wBTC (corresponding to 1 BTC on the Bitcoin chain) or USDC (corresponding to 1 USD in Circle's bank account).
 
-This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/content/posts/2018/stablecoins.md)**.
+This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/stablecoins/)**.
 
 Also, **the rise of stablecoins has gone hand in hand with the rise of DeFi**, why? According to me, there are many reasons, the main ones being:
 
@@ -38,7 +38,7 @@ Also, **the rise of stablecoins has gone hand in hand with the rise of DeFi**, w
 
 ### Why are borrowings mostly in stablecoins?
 
-[The money markets](https://tokenbrice.xyz/content/posts/2021/money-market-risks.md) allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern. 
+[The money markets](https://tokenbrice.xyz/money-markets-risk/) allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern. 
 
 1. The user deposits a volatile asset, such as ETH, wBTC or LINK
 2. He uses it as collateral to **borrow a stable asset, like USDC or DAI**.
@@ -132,7 +132,7 @@ Most often, the main parameter taken into account is simply **the price of the s
 
 For more background on this "smart contract central bank" idea, you can read my first article on algorithmic stablecoins:
 
-**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/content/posts/2020/algorithmic-stablecoins.md)**
+**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/algorithmic-stablecoins/)**
 
 #### Algorithmic approaches
 
@@ -141,7 +141,7 @@ For more background on this "smart contract central bank" idea, you can read my 
 
 I analyze the main approaches to produce algorithmic stablecoins in a dedicated article :
 
-**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/content/posts/2021/seigniorage-basis-vs-esd.md)**
+**[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/seigniorage-basis-esd/)**
 
 Thus, projects like ESD, DSD, or Basis Cash were the pioneers of algorithmic stablecoins. However, all of these systems are now in a bit of an abyss: **their stablecoins have been worth well under a dollar for a long time**.
 

@@ -2,7 +2,7 @@
 title : "Annonce : Je rejoins Liquity pour soutenir la croissance de la DeFi inarrêtable"
 description : "Où je réfléchis à l'état actuel de la DeFi, et pourquoi j'ai décidé de rejoindre l'équipe de Liquity pour soutenir la développement de l'un des protocoles les plus résilients."
 date: '2022-05-16T01:13:50.191Z'
-categories: [Projets, Stablecoin, Lending]
+categories: [Projects, Stablecoin, Lending]
 tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
@@ -34,7 +34,7 @@ Bien que le protocole Liquity n'ait qu'un peu plus d'un an, l'équipe est  activ
 Ce qui m'a toujours étonné, c'est que cet exploit est réalisé sans compromettre l'efficacité du protocole : Liquity est extrêmement économique pour les emprunteurs, et la conception du protocole est d'une rare élégance. Liquity est **construit comme un logiciel critique** : l'échec n'est pas une option. Je suis heureux qu'un tel protocole, fidèle à l'esprit de base de la DeFi, existe, et je suis ravi d'avoir la chance de l'aider à se développer. 
 
 Si vous ne connaissez pas encore ce que fait Liquity et pourquoi c'est important, n'hésitez pas à lire cette introduction :
-**[⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.fr.md)**.
+**[⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant](https://tokenbrice.xyz/fr/liquity-protocol/)**.
 
 ### Que vais-je faire ?
 

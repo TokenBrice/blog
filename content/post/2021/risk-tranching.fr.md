@@ -10,7 +10,7 @@ image: /img/2021/risk-tranching/cover.gif
 difficulty: "intermediate"
 ---
 
-La DeFi s'est considérablement développée au cours de l'année dernière, en partie grâce à l'apparition de produits d'investissement plus accessibles tels que **[les vaults](https://tokenbrice.xyz/content/posts/2020/vaults.fr.md)** de Yearn ou de Harvest. Grâce à leur architecture, ils facilitent la mutualisation des capitaux, ce qui permet des investissements plus petits mais rentables sur les marchés monétaires et d'autres services DeFi comme Curve ou SushiSwap.
+La DeFi s'est considérablement développée au cours de l'année dernière, en partie grâce à l'apparition de produits d'investissement plus accessibles tels que **[les vaults](https://tokenbrice.xyz/fr/vaults/)** de Yearn ou de Harvest. Grâce à leur architecture, ils facilitent la mutualisation des capitaux, ce qui permet des investissements plus petits mais rentables sur les marchés monétaires et d'autres services DeFi comme Curve ou SushiSwap.
 
 C'était une couche nécessaire et très appréciée, et plusieurs améliorations sont encore à apporter pour rationaliser encore plus les choses et augmenter l'efficacité en gaz. Toutefois, je pense que l'essentiel de l'innovation de cette année viendra d'un autre front : la gestion des risques sur les produits de type vault et les marchés monétaires en général.
 

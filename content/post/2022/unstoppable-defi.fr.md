@@ -20,7 +20,7 @@ L’implosion récente de l’écosystème Luna et de son stablecoin associé, U
 
 Face à cet événement, de nombreux investisseurs ont pris conscience que tous les stablecoins ne se valaient pas et cherchent à se renseigner davantage sur la résilience des nombreux stablecoins disponibles sur le marché ainsi que la robustesse de différents protocoles DeFi en général. Je saisis donc ce moment exceptionnel pour discuter de ce sujet essentiel pour la pérennité de la DeFi qui me passionne depuis longtemps.
 
-En effet, l’année dernière je vous proposais déjà une analyse exhaustive des risques encourus sur les services d’emprunts en DeFi et comment les évaluer. **[Cet article](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md)** est toujours d’actualité et sa lecture est fortement recommandée pour tout investisseur avisé.
+En effet, l’année dernière je vous proposais déjà une analyse exhaustive des risques encourus sur les services d’emprunts en DeFi et comment les évaluer. **[Cet article](https://tokenbrice.xyz/fr/marche-monetaire-risque/)** est toujours d’actualité et sa lecture est fortement recommandée pour tout investisseur avisé.
 
 Trêve d’introduction, venons au fait, en commençant par définir le terme "inarrêtable" et ce qu’il implique concrètement au niveau d’un protocole.
 
@@ -147,8 +147,8 @@ Ici, le cas est donc très simple. S’il y a certes une gouvernance, la bonne n
 
 Tout comme Uniswap, Curve a une gouvernance essentiellement centrée autour de la gestion des émissions du token CRV. Le modèle est néanmoins bien plus raffiné ici, je vous invite à lire mes précédents articles sur le sujet pour mieux le comprendre :
 
-- [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)
-- [⚔ Guerre du CRV avancée : analyse des protocoles construits sur Curve et Convex ](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
+- [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/fr/crv-wars/)
+- [⚔ Guerre du CRV avancée : analyse des protocoles construits sur Curve et Convex ](https://tokenbrice.xyz/fr/crv-wars-l2/)
 
 Contrairement à Uniswap, la participation à la gouvernance de Curve requiert le verrouillage des tokens CRV ( ⇒veCRV) jusqu’à quatre ans pour ceux qui veulent maximiser leur influence. Cela permet ainsi de protéger la gouvernance de différents types d’attaques.
 
@@ -165,7 +165,7 @@ Outre les échanges décentralisés, il y a d’autres types de protocoles qui s
 
 ### Liquity
 
-[Liquity](https://www.liquity.org/) est un projet opiniâtre qui vise à créer le système d’emprunt, ainsi que le stablecoin, le plus résilient tout en maintenant un système efficace économiquement pour les emprunteurs. Je ne vais pas trop m’étendre sur ce protocole ici, je vous invite à **[lire l’article dédié](https://tokenbrice.xyz/content/posts/2021/liquity-protocol.fr.md)**.
+[Liquity](https://www.liquity.org/) est un projet opiniâtre qui vise à créer le système d’emprunt, ainsi que le stablecoin, le plus résilient tout en maintenant un système efficace économiquement pour les emprunteurs. Je ne vais pas trop m’étendre sur ce protocole ici, je vous invite à **[lire l’article dédié](https://tokenbrice.xyz/fr/liquity-protocol/)**.
 
 Concentrons-nous donc sur les points pertinents pour notre sujet du jour :
 
@@ -182,7 +182,7 @@ Grâce à cette approche, Liquity est le protocole d’emprunt le plus résilien
 
 ![pooltogether](/img/2022/unstoppable-defi/pooltogether.png "Présentation de la lotterie sans perte PoolTogether")
 
-Pour en apprendre plus sur ce protocole, je vous invite une fois de plus à **[lire l’article dédié](https://tokenbrice.xyz/content/posts/2021/pool-together.fr.md)**.
+Pour en apprendre plus sur ce protocole, je vous invite une fois de plus à **[lire l’article dédié](https://tokenbrice.xyz/fr/pool-together/)**.
 
 Analysons donc la résilience du protocole. Ici, le principal enjeu est **la source de rendement initiale, qui est externe** :  elle provient de services comme Aave ou Compound, qui ne sont pas totalement inarrêtables. Ainsi, un joueur de PoolTogether assume ce risque sur l’ensemble de son dépôt : le principal ainsi que le rendement généré (avant qu’il soit collecté et redirigé).
 
@@ -214,7 +214,7 @@ J’espère que cet article conséquent pourra servir de référence à tous ceu
 
 Pour approfondir, je vous invite chaudement à lire un article que j’ai publié l’année dernière qui est le parfait complément de celui-ci : il se concentre sur les marchés monétaires et services d’emprunts et vous propose là aussi une méthode d’analyse pour évaluer les différents risques potentiels qu’ils impliquent :
 
-**[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/content/posts/2021/money-market-risks.fr.md")**
+**[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/fr/marche-monetaire-risque/)**
 
 J’imagine qu’une analyse aussi limpide d’un sujet si critique pourrait susciter des émotions plus ou moins positives. Sachez que, comme toujours, mon intention est uniquement **d’informer le plus grand nombre possible de DeFians sur des sujets que j’estime essentiels pour la DeFi en général.** 
 
@@ -240,7 +240,7 @@ _🙏 Un immense merci à tous les relecteurs et contributeurs qui ont particié
 [^veCRV-whitelist]: Il y en a trois à l’heure actuelle : Yearn Finance (yveCRV), Convex (cvxCRV) et StakeDAO (sdCRV).
 [^liquity-oracle-fallback]: Cet article propose [une introduction claire au système de gestion d’oracles sur Liquity](https://www.liquity.org/blog/price-oracles-in-liquity). 
 [^liquity-front-end]: Plus d’informations [sur le modèle technique et d’incitation pour les opérateurs de front-end Liquity](https://www.liquity.org/blog/liquity-runs-on-decentralized-frontends).
-[^liquity-disclaimer]: Comme vous l’avez sans doute déjà vu, je suis ravi d’avoir [rejoint l’equipe de Liquity très récemment](https://tokenbrice.xyz/content/posts/2022/tokenbrice-liquity.fr.md). Je mentionne Liquity dans cet article car c’est un exemple pertinent et instructif de protocole résilient, indépendamment de mes engagements professionnels.
+[^liquity-disclaimer]: Comme vous l’avez sans doute déjà vu, je suis ravi d’avoir [rejoint l’equipe de Liquity très récemment](https://tokenbrice.xyz/fr/joining-liquity/). Je mentionne Liquity dans cet article car c’est un exemple pertinent et instructif de protocole résilient, indépendamment de mes engagements professionnels.
 [^UNIv3-oracle]: Pour vous faire une idée plus précise, Euler Finance propose [un outil permettant de simuler les attaques d'oracle potentielles lorsqu'un TWAP Uniswap V3 est utilisé](https://oracle.euler.finance/).
 [^trustlessfi-doc]: Comme toujours, l'alpha est pour ceux qui creusent et lisent attentivement les footnotes ainsi que [les documentations](https://trustlessfi.notion.site/Trustless-4be753d947b040a89a46998eca90b2c9).
 [^chainlink-multisig]: ChainLink a partagé plus d'information sur ce multisig [dans leur documentation](https://docs.chain.link/docs/using-chainlink-reference-contracts/#updates-to-proxy-and-aggregator-contracts) et vous pouvez vérifier le contrat **[directement sur EtherScan ici](https://etherscan.io/address/0x21f73d42eb58ba49ddb685dc29d3bf5c0f0373ca#readProxyContract)** ![chainlink-multisig-updated](/img/2022/unstoppable-defi/chainlink-multisig-updated.png)

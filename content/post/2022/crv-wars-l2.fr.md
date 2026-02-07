@@ -26,7 +26,7 @@ Malgré tout, Convex n’est pas le seul projet qui a essayé de réaliser cette
 
 ## CRV ou CVX ?
 
-Je ne reviendrai pas sur les bases de la séparation entre les deux tokens ici, c’est l’affaire d’un article entier si vous découvrez le sujet : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/content/posts/2022/crv-wars-l2.fr.md)
+Je ne reviendrai pas sur les bases de la séparation entre les deux tokens ici, c’est l’affaire d’un article entier si vous découvrez le sujet : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/fr/crv-wars-l2/)
 
 Il ne faut pas oublier que malgré l’équivalence calculable entre CVX et CRV (1vl CVX contrôle environ 4.8 veCRV - [source](https://dune.xyz/Marcov/Convex-Finance)), les deux tokens ont des compromis différents comme décrit plus haut. 
 
@@ -63,7 +63,7 @@ En résumé, Convex donne accès aux rendements du token CRV maximisés et liqui
 
 Bien que Convex contrôle une grande quantité de veCRV, la centralisation du pouvoir de vote sur les jauges est évitée en offrant cette capacité au plus offrant grâce à Votium (bribes).
 
-Convex, c’est désormais basique, je ne le détaille donc pas plus ici. Mon précédent article sur la guerre du CRV approfondi sur le modèle et les apports de Convex : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/content/posts/2021/crv-wars.fr.md)
+Convex, c’est désormais basique, je ne le détaille donc pas plus ici. Mon précédent article sur la guerre du CRV approfondi sur le modèle et les apports de Convex : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](https://tokenbrice.xyz/fr/crv-wars/)
 
 
 ### Warden de Paladin : Curve sous stéroides ?

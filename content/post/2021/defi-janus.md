@@ -99,7 +99,7 @@ The problem with Maker is more general and goes back much further. It is a commo
 
 Over 60% of DAI collateral is tokens that require some form of trust like USDC, wBTC or TUSD. The problem has been around for a long time and is not going to be resolved, if ever. I have already discussed this problem on this blog, I refer you to this article
 
-**[Exploring stable assets on Ethereum: approaches & endgame](https://tokenbrice.xyz/content/posts/2021/pegged-assets.md)**
+**[Exploring stable assets on Ethereum: approaches & endgame](https://tokenbrice.xyz/ethereum-stable-assets/)**
 
 ### Abusive user fees
 
@@ -148,7 +148,7 @@ Yearn allows its users to farm different protocols like Curve by automatically m
 
 This is practical for the user, but it also means that ** Yearn systematically sells all the tokens farmed ** by his vaults: we can therefore ask the question of the impact and relevance for the farmed protocol, which is therefore under selling pressure on its native token.
 
-The arrival of Convex has shown that a better structured protocol in terms of tokenomics and specific to Curve can offer a synergistic alternative where the returns are much higher, while avoiding the systematic sale of farmed tokens. I analyze the Convex "flywheel" in this article:**[🎡 DeFi Flywheel : engineering protocol to protocol synergies through tokens](https://tokenbrice.xyz/content/posts/2021/defi-flywheel.md)**
+The arrival of Convex has shown that a better structured protocol in terms of tokenomics and specific to Curve can offer a synergistic alternative where the returns are much higher, while avoiding the systematic sale of farmed tokens. I analyze the Convex "flywheel" in this article:**[🎡 DeFi Flywheel : engineering protocol to protocol synergies through tokens](https://tokenbrice.xyz/defi-flywheel/)**
 
 Thereby, it confronted Yearn with its contradictions and Yearn essentially capitulated by integrating Convex to optimize the performance of its vaults. This now means that **Yearn users pay a fee to Convex and help the protocol accumulate more VeCRV** and thus widen its gap with Yearn - checkmate for Yearn on Curve.
 
