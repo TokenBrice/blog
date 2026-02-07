@@ -4,6 +4,6 @@ description: "Où je développe des concepts transversaux non spécifiques à un
 slug: "Thesis"
 image: "thesis.jpg"
 style:
-    background: "#8b5cf6"
+    background: "#8558ec"
     color: "#fff"
 ---

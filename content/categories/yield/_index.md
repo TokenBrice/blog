@@ -4,6 +4,6 @@ description: "Exploring yield in all flavours: staking, locking, no-loss, fixed,
 slug: "Yield"
 image: "yield.jpg"
 style:
-    background: "#06b6d4"
+    background: "#048196"
     color: "#fff"
 ---

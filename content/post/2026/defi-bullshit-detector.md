@@ -2,10 +2,10 @@
 title: "DeFi Bullshit Detector"
 description: "Setup guide for a Claude instance that trusts onchain data over marketing."
 date: '2026-02-07T01:13:50.191Z'
-categories: [Thesis]
+categories: [Projects]
 tags: [DeFi, Ethereum, Decentralized Finance]
 url: defi-bullshit-detector
-image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
+image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"

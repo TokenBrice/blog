@@ -4,6 +4,6 @@ description: "Discussions relatives aux protocoles de prêt ou d'emprunt type Ma
 slug: "Lending"
 image: "lending.jpg"
 style:
-    background: "#0099ff"
+    background: "#007acc"
     color: "#fff"
 ---

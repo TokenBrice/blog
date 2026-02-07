@@ -5,7 +5,7 @@ date: '2025-03-08T01:13:50.191Z'
 categories: [Thesis]
 tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
-image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
+image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
 ---
 

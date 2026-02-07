@@ -4,6 +4,6 @@ description: "To discuss protocols enabling borrowing and lending, such as money
 slug: "Lending"
 image: "lending.jpg"
 style:
-    background: "#0099ff"
+    background: "#007acc"
     color: "#fff"
 ---

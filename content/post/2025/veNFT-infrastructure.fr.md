@@ -6,7 +6,7 @@ categories: [Lending, Yield, DEX]
 tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
 url: veNFT-infrastructure
-image: https://raw.githubusercontent.com/TokenBrice/blog/refs/heads/master/static/img/2025/veNFT-infrastructure/cover-fr.png
+image: /img/2025/veNFT-infrastructure/cover-fr.png
 difficulty: "expert"
 ---
 

@@ -4,6 +4,6 @@ description: "Pour traiter des yields dans toutes leurs modalités : staking, lo
 slug: "Yield"
 image: "yield.jpg"
 style:
-    background: "#06b6d4"
+    background: "#048196"
     color: "#fff"
 ---

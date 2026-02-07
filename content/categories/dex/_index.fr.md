@@ -4,6 +4,6 @@ description: "Discussion sur les échanges décentralisés, leur structure de li
 slug: "DEX"
 image: "dex.jpg"
 style:
-    background: "#3b82f6"
+    background: "#3473da"
     color: "#fff"
 ---

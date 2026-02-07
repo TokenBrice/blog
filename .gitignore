@@ -2,4 +2,7 @@ node_modules
 .idea
 public
 yarn-error.log
+lighthouse-reports
+package.json
+package-lock.json
 

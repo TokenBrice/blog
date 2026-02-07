@@ -45,7 +45,7 @@ widget:
             other: Archives
 
         more:
-            other: Autres
+            other: Archives précédentes
 
     tagCloud:
         title:

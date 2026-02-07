@@ -7,5 +7,19 @@
     "build": "hugo --gc --minify"
   },
   "author": "TokenBrice",
-  "license": "CC-BY-NC-SA-4.0"
+  "license": "CC-BY-NC-SA-4.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokenBrice/blog.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TokenBrice/blog/issues"
+  },
+  "homepage": "https://github.com/TokenBrice/blog#readme",
+  "devDependencies": {
+    "lighthouse": "^13.0.1"
+  }
 }
