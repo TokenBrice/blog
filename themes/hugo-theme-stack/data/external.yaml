@@ -5,20 +5,18 @@ Vibrant:
       defer: true
 
 PhotoSwipe:
-    - src: https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js
-      integrity: sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=
+    - src: https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/umd/photoswipe.umd.min.js
+      integrity: sha256-uob9La2zGs2OSIVA/ttQN8WYv4bGOiqATVAlJxr2oyM=
       type: script
       defer: true
 
-    - src: https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js
-      integrity: sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=
+    - src: https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/umd/photoswipe-lightbox.umd.min.js
+      integrity: sha256-5uCD8UkcQtWnG3atS61/a9f9aPGOMV69F0hTeuFNzfQ=
       type: script
       defer: true
 
-    - src: https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css
-      type: style
-
-    - src: https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css
+    - src: https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css
+      integrity: sha256-4SEErg+B6488jYHCMaOO/Ad8fJFjRslmHi1g4n/Ji4k=
       type: style
 
 KaTeX:

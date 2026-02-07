@@ -15,6 +15,26 @@
 /* Import glossary categories card styles */
 @import "custom/glossary-categories";
 
+/* PhotoSwipe v5 caption */
+.pswp__custom-caption {
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 12px;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    max-width: 80%;
+    text-align: center;
+    pointer-events: none;
+
+    &:empty {
+        display: none;
+    }
+}
+
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   *,

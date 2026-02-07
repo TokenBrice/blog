@@ -1,30 +1,27 @@
 declare global {
     interface Window {
         PhotoSwipe: any;
-        PhotoSwipeUI_Default: any
+        PhotoSwipeLightbox: any;
     }
 }
 
 interface PhotoSwipeItem {
-    w: number;
-    h: number;
     src: string;
+    width: number;
+    height: number;
     msrc: string;
-    title?: string;
+    alt?: string;
     el: HTMLElement;
 }
 
 class StackGallery {
-    private galleryUID: number;
     private items: PhotoSwipeItem[] = [];
 
-    constructor(container: HTMLElement, galleryUID = 1) {
-        if (window.PhotoSwipe == undefined || window.PhotoSwipeUI_Default == undefined) {
+    constructor(container: HTMLElement) {
+        if (window.PhotoSwipe == undefined || window.PhotoSwipeLightbox == undefined) {
             console.error("PhotoSwipe lib not loaded.");
             return;
         }
-
-        this.galleryUID = galleryUID;
 
         StackGallery.createGallery(container);
         this.loadItems(container);
@@ -41,15 +38,15 @@ class StackGallery {
                 img = el.querySelector('img');
 
             let aux: PhotoSwipeItem = {
-                w: parseInt(img.getAttribute('width')),
-                h: parseInt(img.getAttribute('height')),
+                width: parseInt(img.getAttribute('width')),
+                height: parseInt(img.getAttribute('height')),
                 src: img.src,
                 msrc: img.getAttribute('data-thumb') || img.src,
                 el: el
             }
 
             if (figcaption) {
-                aux.title = figcaption.innerHTML;
+                aux.alt = figcaption.innerText;
             }
 
             this.items.push(aux);
@@ -138,7 +135,7 @@ class StackGallery {
 
     /**
      * Wrap adjacent figure tags with div.gallery
-     * @param figures 
+     * @param figures
      */
     public static wrap(figures: HTMLElement[]) {
         const galleryContainer = document.createElement('div');
@@ -155,20 +152,40 @@ class StackGallery {
     }
 
     public open(index: number) {
-        const pswp = document.querySelector('.pswp') as HTMLDivElement;
-        const ps = new window.PhotoSwipe(pswp, window.PhotoSwipeUI_Default, this.items, {
-            index: index,
-            galleryUID: this.galleryUID,
-            getThumbBoundsFn: (index) => {
-                const thumbnail = this.items[index].el.getElementsByTagName('img')[0],
-                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect();
-
-                return { x: rect.left, y: rect.top + pageYScroll, w: rect.width };
-            }
+        const lightbox = new window.PhotoSwipeLightbox({
+            dataSource: this.items.map(item => ({
+                src: item.src,
+                width: item.width,
+                height: item.height,
+                msrc: item.msrc,
+                alt: item.alt || '',
+            })),
+            showHideAnimationType: 'zoom',
+            pswpModule: window.PhotoSwipe,
         });
 
-        ps.init();
+        lightbox.addFilter('thumbEl', (_thumbEl: HTMLElement, _data: any, itemIndex: number) => {
+            const el = this.items[itemIndex]?.el;
+            return el ? el.querySelector('img') as HTMLElement : _thumbEl;
+        });
+
+        lightbox.on('uiRegister', () => {
+            lightbox.pswp.ui.registerElement({
+                name: 'custom-caption',
+                order: 9,
+                isButton: false,
+                appendTo: 'root',
+                html: '',
+                onInit: (el: HTMLElement, pswp: any) => {
+                    pswp.on('change', () => {
+                        el.innerHTML = this.items[pswp.currIndex]?.alt || '';
+                    });
+                }
+            });
+        });
+
+        lightbox.init();
+        lightbox.loadAndOpen(index);
     }
 
     private bindClick() {
