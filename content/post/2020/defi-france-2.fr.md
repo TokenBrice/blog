@@ -91,4 +91,7 @@ Cette proposition est plus une promesse personelle, quelque chose qui aurait dû
 
 ### DFP #X - RIEN NE TE PARLE ? SUGGÈRE LE TIEN
 
-![c'est notre projet](/img/others/defi-france/projet.gif)
+<video autoplay loop muted playsinline title="c'est notre projet">
+  <source src="/img/others/defi-france/projet.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/others/defi-france/projet.gif">View GIF</a>
+</video>

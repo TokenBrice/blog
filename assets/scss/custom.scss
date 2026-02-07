@@ -1,5 +1,10 @@
 /* Custom styles for TokenBrice Blog */
 
+/* Improved body text contrast (AAA compliant, 7:1 on white) */
+:root {
+  --body-text-color: #595959;
+}
+
 /* Import existing custom styles */
 @import "glossary-links";
 @import "breadcrumbs";

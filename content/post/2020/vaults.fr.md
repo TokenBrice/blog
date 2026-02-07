@@ -4,7 +4,7 @@ description: "Les vaults permettent d'exploiter des programmes d'incitation à l
 date: '2020-09-30T01:13:50.191Z'
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Yearn Finance, YFV, Uniswap, Harvest Finance]
-image: /img/2020/vaults/harvest.gif
+image: /img/2020/vaults/harvest.png
 difficulty: "beginner"
 url: vaults
 ---

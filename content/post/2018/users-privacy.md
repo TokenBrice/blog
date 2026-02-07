@@ -145,7 +145,10 @@ For Chrome users, we recommend the [Nano Adblocker](https://chrome.google.com/we
 
 Note: Whatever adblocker you chose, don’t forget to enable the EasyList corresponding to your country. Here’s a demo GIF for the French list:
 
-![](/img/2018/user-privacy/adblock-fr.gif)
+<video autoplay loop muted playsinline>
+  <source src="/img/2018/user-privacy/adblock-fr.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/user-privacy/adblock-fr.gif">View GIF</a>
+</video>
 
 You can try your setup by visiting any media website with the adblocker enabled; you’ll see a lot of free space! Insidious ads such as sponsored posts (“native advertising” as professionals call them) are not blocked — beware.
 

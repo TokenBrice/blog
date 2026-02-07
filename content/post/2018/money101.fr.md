@@ -47,7 +47,10 @@ url: money101
 
 <span style="font-weight: 400;">Cette compréhension de la distinction entre la réserve de valeur et le bien qui permet de revendiquer une valeur nous permet également de mieux comprendre **l’obsession pour la monnaie circulante**. En effet, la monnaie n’est pas richesse en soit : tant qu’elle n’est pas exercée (dépensée pour d’autres biens), elle ne contribue pas à la richesse. </span>
 
-![](/img/2018/money101/fly.gif)
+<video autoplay loop muted playsinline>
+  <source src="/img/2018/money101/fly.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/money101/fly.gif">View GIF</a>
+</video>
 
 <span style="font-weight: 400;">Reprenons l’exemple précédent en allant plus loin pour mieux comprendre :</span>
 

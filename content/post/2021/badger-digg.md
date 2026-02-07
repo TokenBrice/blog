@@ -49,7 +49,10 @@ On top of the momentum created by the launch and initial distribution, the commu
 
 A total of 6 different NFTs were available and the fist one to collect them was able to claim a neat BADGER bounty. Being a holder or farmer of these NFTs was acknowledged in the initial DIGG distribution & their inclusion to Badger as yield multiplier is being discussed.
 
-![badger-meme-satoshi-nft](/img/2021/badger-digg/badger-nft-satoshi.gif "One of the 6 Badger x Meme NFTs - Satoshi")
+<video autoplay loop muted playsinline title="One of the 6 Badger x Meme NFTs - Satoshi">
+  <source src="/img/2021/badger-digg/badger-nft-satoshi.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2021/badger-digg/badger-nft-satoshi.gif">View GIF</a>
+</video>
 
 {{< notice tip >}}
 If you are very bullish on a token price short-term wise, it's usually a bad idea to enter a 50/50 liquidity providing position on it. You'll be much better off simply holding your stack and selling it. If you are worried about this scenario unfolding with Badger or DIGG, you can deposit to the BADGER or DIGG only vaults (no risk of impermanent loss).

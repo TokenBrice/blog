@@ -146,7 +146,10 @@ It turns out it’s even more than that! It can be hard to find a relevant compa
 
 Well… yes and no. First, you have to consider how cheap computing power got over the last couple decades. We’re reaching a point where even just $1 spent on AWS represents a tremendous amount of computing power. [This page](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/) presents the evolution of computing over the last 25 years with neat infographics:
 
-![Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](/img/2018/decentralisation-layman/storage.gif)
+<video autoplay loop muted playsinline title="Hard Disks dramatically increased in capacity while becoming more compact.">
+  <source src="/img/2018/decentralisation-layman/storage.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.gif">View GIF</a>
+</video>
 Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 
 And well, we’ve got to ask ourselves: does the comparison even makes sense? It can be useful to understand the current state of our tech, but does it tell us anything else?

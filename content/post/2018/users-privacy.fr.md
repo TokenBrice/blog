@@ -142,7 +142,10 @@ On conseille [Nano AdBlocker](https://chrome.google.com/webstore/detail/nano-adb
 
 Quelque soit votre choix d’AdBlocker, n’oubliez pas d’activer la EasyListFR pour bien tout bloquer. Voici un petit GIF qui montre la manipulation.
 
-![](/img/2018/user-privacy/adblock-fr.gif)
+<video autoplay loop muted playsinline>
+  <source src="/img/2018/user-privacy/adblock-fr.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/user-privacy/adblock-fr.gif">View GIF</a>
+</video>
 
 Pour tester votre installation, on conseille [LeMonde.fr](https://lemonde.fr) – environ la moitié du site devrait avoir disparu – si c’est le cas, c’est que tout marche parfaitement : les pubs sont bloquées ! Il vous restera encore les articles sponsorisés et les éditos à charge, mais ça c’est un autre problème.
 

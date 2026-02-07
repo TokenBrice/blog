@@ -150,7 +150,10 @@ En réalité, c’est même bien pire que ça. C’est dur de trouver une compar
 
 Et bien… pas vraiment. D’abord, il est bon de se rappeler à quel point les calculs sont devenus peu chers lors des dernières décennies. On arrive à un stade ou même 1€ dépensé sur AWS correspond déjà à une puissance phénoménale. [Cette page](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/) propose plusieurs infographies super bien faites pour visualiser l’augmentation des puissances de calcul et stockage.
 
-![La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)](/img/2018/decentralisation-layman/storage.gif)
+<video autoplay loop muted playsinline title="La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible.">
+  <source src="/img/2018/decentralisation-layman/storage.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.gif">View GIF</a>
+</video>
 La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 
 Et puis il faut quand même se poser la question : est-ce que cette comparaison a un sens ? Elle nous aide à mieux cerner l’état encore balbutiant de la technologie, mais c’est à peu prêt tout.

@@ -47,7 +47,10 @@ Well… Simply no! What has been destroyed is my ability to claim the aforementi
 
 Understanding the difference between a store of value and a claim upon value allows us to also understand **the obsession with circulating currency**. Indeed, money is not wealth by itself: as long as the money is not claimed (spent for goods or services), it has no contribution whatsoever to the wealth of the given country.
 
-![](/img/2018/money101/fly.gif)
+<video autoplay loop muted playsinline>
+  <source src="/img/2018/money101/fly.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/money101/fly.gif">View GIF</a>
+</video>
 
 Let’s go back to our previous cash burning experiment to dig deeper: when I burnt my $20 bill, it had no impact on the GDP (Gross Domestic Product) of the USA. Yet, if I start to burn millions of dollars, we might start to see **secondary consequences** affecting the GDP: since there will be less money circulating, there might be less people using it to claim value (a beer, clothes…) and therefore an impact on the real economy of the country.
 

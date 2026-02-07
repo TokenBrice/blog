@@ -104,13 +104,19 @@ Une fois de plus, à l'initiative de Jon ([@OtherBright](https://twitter.com/oth
 
 _Avec [BanklessFR](https://banklessfr.substack.com/) et [The Daily Gwei FR](https://thedailygweifr.substack.com/), nous tentons différentes expériences._
 
-![BanklessFR-NFT](/img/2020/defi-beyond-finance/banklessfr-nft.gif "Le premier NFT BanklessFR produit par Arke")
+<video autoplay loop muted playsinline title="Le premier NFT BanklessFR produit par Arke">
+  <source src="/img/2020/defi-beyond-finance/banklessfr-nft.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2020/defi-beyond-finance/banklessfr-nft.gif">View GIF</a>
+</video>
 
 _Avec [Arke](https://twitter.com/Arke56374430), nous avons commencé par la vente d'un [BanklessFR NFT](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:43413:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00?tab=overview), représentant la newsletter BanklessFR. Cette carte de collection, disponible en 40 exemplaires, a été vendue avec succès à 0,15 ETH pièce. Nous avons partagé les bénéfices avec l'artiste. Nous avons inclus un article qui peut être déverrouillé au moment de l'achat, 24 heures avant les lecteurs qui n'ont pas la carte. Ce modèle de distribution est clairement innovant, mais à mon avis, il doit être développé._
 
 _Notre [deuxième vente](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:64356:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00?tab=overview), différente de la première, toujours pour BanklessFR, a illustré un article, et a offert 10 copies de la carte, à 0,3 ETH l'unité. Elle contenait également un article qui pouvait être débloqué 24 heures à l'avance. Cette dernière fonctionnait beaucoup moins, certainement en raison d'un prix relativement élevé, malgré une rareté 4 fois plus grande._
 
-![TheDailyGwei-FR-NFT](/img/2020/defi-beyond-finance/the-daily-gwei-fr.gif "Un autre NFT proposé à l'occasion de la sortie du Daily Gwei FR")
+<video autoplay loop muted playsinline title="Un autre NFT proposé à l'occasion de la sortie du Daily Gwei FR">
+  <source src="/img/2020/defi-beyond-finance/the-daily-gwei-fr.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2020/defi-beyond-finance/the-daily-gwei-fr.gif">View GIF</a>
+</video>
 
 _La [dernière vente](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:81692:0x83ac01254b0b8e9745492c5e73f5f32a05570a76?tab=overview) concerne le lancement du Daily Gwei FR. Nous avons publié 50 exemplaires d'une carte représentant la newsletter. Nous n'en avons pas encore vendu un seul, 0,05 ETH par carte, 50 cartes disponibles. Nous modifierons cette vente pour poursuivre l'expérience._
 

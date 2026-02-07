@@ -1,0 +1,48 @@
+<header class="article-header">
+    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+    {{ if $image.exists }}
+        <div class="article-image">
+            <a href="{{ .RelPermalink }}">
+                {{ if $image.resource }}
+                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Width := $image.resource.Width -}}
+                    {{- $Height := $image.resource.Height -}}
+                    {{- $Srcset := "" -}}
+
+                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                        {{- $thumbnail := $image.resource.Resize "800x" -}}
+                        {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
+                        {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
+                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Width = $thumbnail.Width -}}
+                        {{- $Height = $thumbnail.Height -}}
+                    {{- end -}}
+
+                    <img src="{{ $Permalink }}"
+                        {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+                        width="{{ $Width }}"
+                        height="{{ $Height }}"
+                        loading="eager"
+                        fetchpriority="high"
+                        alt="Featured image of post {{ .Title }}" />
+                {{ else }}
+                    {{- $permalink := $image.permalink -}}
+                    {{- $ext := path.Ext $permalink | lower -}}
+                    {{- $isConvertible := or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".jpeg") -}}
+                    {{- $isExternal := or (hasPrefix $permalink "http://") (hasPrefix $permalink "https://") -}}
+                    {{- if and $isConvertible (not $isExternal) -}}
+                        {{- $webpSrc := printf "%s.webp" (strings.TrimSuffix $ext $permalink) -}}
+                        <picture>
+                            <source srcset="{{ $webpSrc }}" type="image/webp">
+                            <img src="{{ $permalink }}" loading="eager" fetchpriority="high" alt="Featured image of post {{ .Title }}" />
+                        </picture>
+                    {{- else -}}
+                        <img src="{{ $permalink }}" loading="eager" fetchpriority="high" alt="Featured image of post {{ .Title }}" />
+                    {{- end -}}
+                {{ end }}
+            </a>
+        </div>
+    {{ end }}
+
+    {{ partialCached "article/components/details" . .RelPermalink }}
+</header>

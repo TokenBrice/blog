@@ -49,7 +49,10 @@ En plus de l'élan créé par le lancement et la distribution initiale, la commu
 
 Au total, 6 NFTs différents étaient disponibles et le premier à les collecter pouvait réclamer une prime BADGER. Le fait d'être détenteur ou farmer de ces NFT a été reconnu dans la distribution initiale de DIGG et leur inclusion dans Badger comme multiplicateur de rendement est en cours de discussion.
 
-![un NFT Meme-Badger](/img/2021/badger-digg/badger-nft-satoshi.gif "Un des 6 Badger x Meme NFTs - Satoshi")
+<video autoplay loop muted playsinline title="Un des 6 Badger x Meme NFTs - Satoshi">
+  <source src="/img/2021/badger-digg/badger-nft-satoshi.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2021/badger-digg/badger-nft-satoshi.gif">View GIF</a>
+</video>
 
 {{< notice tip >}}
 Si vous êtes très optimiste sur le prix d'un token à court terme, c'est généralement une mauvaise idée d'entrer dans une position à 50/50 fournissant des liquidités sur celui-ci, surtout si vous vous attendez à ce que l'autre actif de la paire (ETH, stablecoins ou ici wBTC) reste relativement stable sur la même période. Si vous craignez que ce scénario se produise avec Badger ou DIGG, vous pouvez déposer dans les coffres-forts de BADGER ou de DIGG uniquement (pas de risque de perte impermanente).

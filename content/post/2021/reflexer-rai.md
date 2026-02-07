@@ -7,7 +7,7 @@ tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
 tocNum: false
 url: reflexer-rai
-image: /img/2021/reflexer-rai/cover.gif
+image: /img/2021/reflexer-rai/cover.png
 difficulty: "intermediate"
 ---
 

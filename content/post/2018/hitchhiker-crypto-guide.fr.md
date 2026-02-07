@@ -82,7 +82,10 @@ Bien que les TPS ne veulent rien dire, on les voit partout. Les investisseurs no
 
 Imaginez Acoin, qui se targue de supporter 1 million de transactions par seconde tandis que Bcoin n’en supporte que 10. Et la décentralisation dans tout ça ? La vision de l’équipe ? La communauté ? En regardant simplement le chiffre avancé, je sais déjà que Acoin est un shitcoin, tandis que Bcoin pourrait être sérieux.
 
-![nano](/img/2018/hitchhikerguide/nano.gif)
+<video autoplay loop muted playsinline title="nano">
+  <source src="/img/2018/hitchhikerguide/nano.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/hitchhikerguide/nano.gif">View GIF</a>
+</video>
 
 **L’état de l’art actuel permet de supporter ~10 000 TPS pour les projets les plus avancés sans atteindre une centralisation excessive.** Tout coin qui promet plus fait des compromis ou manipule la vérité :
 

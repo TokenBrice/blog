@@ -117,7 +117,10 @@ J'ai donc contacté Ryan et j'ai été ravi d'apprendre que cela faisait déjà 
 
 Depuis, BanklessFR s'est développé : nous élargissons l'offre de contenu et explorons différentes manières de pérenniser le projet. Après le premier Gitcoin Grants en septembre, nous venons de publier la [première série NFT BanklessFR](https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:43413:0x6b40aca108fdb67a781ed4c6810f47f7f3764d00) pour illustrer un article auquel elle est liée.
 
-[Premier NFT BanklessFR](/img/2020/next-steps/imageNFTbanklessfr.gif "BanklessFR First ever NFT, made by Arke")
+<video autoplay loop muted playsinline title="BanklessFR First ever NFT, made by Arke">
+  <source src="/img/2020/next-steps/imageNFTbanklessfr.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2020/next-steps/imageNFTbanklessfr.gif">View GIF</a>
+</video>
 
 
 #### Et ton travail, Brice ?

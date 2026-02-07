@@ -78,7 +78,10 @@ Warden revient ainsi sur le jeu des boosts de LP Curve. Sur Convex, la plupart d
 
 Depuis peu, Warden propose même un calculateur bien pratique pour visualiser la quantité de veCRV nécessaire pour atteindre un multiplicateur donné :
 
-![Warden Calculator](/img/2022/curve-wars-l2/warden-calc.gif "Un calculateur pour estimer l'impact d'une location de boost ve avec Warden")
+<video autoplay loop muted playsinline title="Un calculateur pour estimer l'impact d'une location de boost ve avec Warden">
+  <source src="/img/2022/curve-wars-l2/warden-calc.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2022/curve-wars-l2/warden-calc.gif">View GIF</a>
+</video>
 
 
 Warden est donc une alternative crédible pour les protocoles, DAOs et gros porteurs qui voudraient optimiser leur LP Curve dans une perspective de maximisation des CRV obtenus.

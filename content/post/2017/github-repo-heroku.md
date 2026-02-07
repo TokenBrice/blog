@@ -241,7 +241,10 @@ Now, that we’ve been through the  Git process, it’s time for some good news.
 
 The account creation process on  Heroku as it’s straightforward so we won’t detail it. Once you have you  account, create a new app, and connect to your GitHub account to deploy  it automatically. Just follow the GIF:
 
-![github repo - Deployment options on Heroku](/img/2017/sato/herokudeploy.gif)
+<video autoplay loop muted playsinline title="github repo - Deployment options on Heroku">
+  <source src="/img/2017/sato/herokudeploy.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2017/sato/herokudeploy.gif">View GIF</a>
+</video>
 
 Deployment options on Heroku
 
