@@ -48,6 +48,16 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Generate missing WebP images
+        run: |
+          sudo apt-get install -y -qq webp
+          find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) | while read src; do
+            webp="${src%.*}.webp"
+            if [ ! -f "$webp" ]; then
+              echo "Generating $webp"
+              cwebp -q 80 "$src" -o "$webp"
+            fi
+          done
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
