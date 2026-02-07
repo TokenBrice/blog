@@ -1,0 +1,444 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background hex grid pattern -->
+    <pattern id="hexGrid" x="0" y="0" width="40" height="46" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L40 11.5 L40 34.5 L20 46 L0 34.5 L0 11.5 Z" fill="none" stroke="#1a2744" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="4" height="2" fill="transparent"/>
+      <rect x="0" y="2" width="4" height="2" fill="#000" opacity="0.06"/>
+    </pattern>
+    <!-- CRT glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowStrong" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowText" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowSoft" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <!-- Needle shadow -->
+    <filter id="needleShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <!-- Gauge arc gradient -->
+    <linearGradient id="gaugeGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#88ff00"/>
+    </linearGradient>
+    <linearGradient id="gaugeYellow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ccff00"/>
+      <stop offset="100%" stop-color="#ffaa00"/>
+    </linearGradient>
+    <linearGradient id="gaugeRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6600"/>
+      <stop offset="100%" stop-color="#ff0033"/>
+    </linearGradient>
+    <!-- Radial gradient for gauge face -->
+    <radialGradient id="gaugeFace" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1f2e"/>
+      <stop offset="85%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080b10"/>
+    </radialGradient>
+    <!-- Gauge bezel gradient -->
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3f4a"/>
+      <stop offset="50%" stop-color="#1a1f2a"/>
+      <stop offset="100%" stop-color="#3a3f4a"/>
+    </linearGradient>
+    <!-- Warning light glow -->
+    <radialGradient id="redLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3344" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#ff0022" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#cc0011" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa00" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#ff8800" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#cc6600" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenLightOff" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#114422"/>
+      <stop offset="100%" stop-color="#0a2211"/>
+    </radialGradient>
+    <!-- Panel background gradient -->
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <!-- Vignette -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- === BACKGROUND === -->
+  <rect width="1200" height="630" fill="#0a0e14"/>
+  <rect width="1200" height="630" fill="url(#hexGrid)"/>
+  <rect width="1200" height="630" fill="url(#scanlines)"/>
+
+  <!-- Decorative circuit traces -->
+  <g stroke="#1a3050" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M0 100 H200 L220 120 H350"/>
+    <path d="M0 130 H180 L200 150 H320 L340 130 H400"/>
+    <path d="M1200 100 H1000 L980 120 H850"/>
+    <path d="M1200 130 H1020 L1000 150 H880 L860 130 H800"/>
+    <path d="M0 500 H150 L170 520 H300"/>
+    <path d="M1200 500 H1050 L1030 520 H900"/>
+    <circle cx="350" cy="100" r="3" fill="#1a3050"/>
+    <circle cx="400" cy="130" r="3" fill="#1a3050"/>
+    <circle cx="850" cy="100" r="3" fill="#1a3050"/>
+    <circle cx="800" cy="130" r="3" fill="#1a3050"/>
+    <circle cx="300" cy="500" r="3" fill="#1a3050"/>
+    <circle cx="900" cy="520" r="3" fill="#1a3050"/>
+  </g>
+
+  <!-- === TOP PANEL STRIP === -->
+  <rect x="50" y="20" width="1100" height="55" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+  <!-- Small indicator LEDs top left -->
+  <circle cx="80" cy="47" r="5" fill="url(#redLight)" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.5;1" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="47" r="5" fill="url(#redLight)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="47" r="5" fill="url(#amberLight)" filter="url(#glow)"/>
+  <text x="145" y="52" font-family="'Courier New', monospace" font-size="11" fill="#ff3344" filter="url(#glowText)" letter-spacing="1">
+    ALERT ACTIVE
+  </text>
+
+  <!-- Title -->
+  <text x="600" y="38" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#556677" letter-spacing="3" text-transform="uppercase">
+    PROTOCOL ANALYSIS SYSTEM v2.6
+  </text>
+  <text x="600" y="60" text-anchor="middle" font-family="'Arial Black', 'Impact', sans-serif" font-size="24" fill="#ff3344" filter="url(#glowText)" font-weight="bold" letter-spacing="4">
+    DeFi BULLSHIT DETECTOR
+  </text>
+
+  <!-- Top right status -->
+  <text x="1120" y="42" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#33ff88" filter="url(#glowText)">
+    CLAUDE AI
+  </text>
+  <text x="1120" y="58" text-anchor="end" font-family="'Courier New', monospace" font-size="10" fill="#445566">
+    ONCHAIN MODE
+  </text>
+
+  <!-- === MAIN GAUGE (CENTER) === -->
+  <g transform="translate(600, 340)">
+    <!-- Gauge outer ring / bezel -->
+    <circle cx="0" cy="0" r="195" fill="url(#bezel)" stroke="#2a3040" stroke-width="2"/>
+    <circle cx="0" cy="0" r="185" fill="url(#gaugeFace)" stroke="#1a2030" stroke-width="1"/>
+
+    <!-- Tick marks -->
+    <g stroke-width="2" stroke-linecap="round">
+      <!-- Major ticks every 22.5 degrees from -135 to 135 -->
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#334455" transform="rotate(-135)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#33ff88" transform="rotate(-112.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#33ff88" transform="rotate(-90)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#88ff00" transform="rotate(-67.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ccff00" transform="rotate(-45)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ffcc00" transform="rotate(-22.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ffaa00" transform="rotate(0)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff6600" transform="rotate(22.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff4400" transform="rotate(45)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff2200" transform="rotate(67.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff0033" transform="rotate(90)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff0033" transform="rotate(112.5)"/>
+      <line x1="0" y1="-170" x2="0" y2="-155" stroke="#ff0033" transform="rotate(135)"/>
+    </g>
+    <!-- Minor ticks -->
+    <g stroke="#223344" stroke-width="1">
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-123.75)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-101.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-78.75)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-56.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-33.75)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(-11.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(11.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(33.75)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(56.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(78.75)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(101.25)"/>
+      <line x1="0" y1="-170" x2="0" y2="-162" transform="rotate(123.75)"/>
+    </g>
+
+    <!-- Colored arc segments -->
+    <!-- Green zone: -135 to -67.5 degrees (LEGIT) -->
+    <path d="M -106 -106 A 150 150 0 0 1 -57 -139" fill="none" stroke="#00ff88" stroke-width="12" stroke-linecap="round" opacity="0.7" filter="url(#glowSoft)"/>
+    <!-- Yellow-green zone: -67.5 to -22.5 degrees -->
+    <path d="M -57 -139 A 150 150 0 0 1 38 -145" fill="none" stroke="#aaff00" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+    <!-- Yellow zone: -22.5 to 22.5 degrees (SUSPICIOUS) -->
+    <path d="M 38 -145 A 150 150 0 0 1 131 -75" fill="none" stroke="#ffaa00" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+    <!-- Orange zone: 22.5 to 67.5 degrees -->
+    <path d="M 131 -75 A 150 150 0 0 1 139 -57" fill="none" stroke="#ff6600" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+    <!-- Red zone: 67.5 to 135 degrees (FULL OF BS) -->
+    <path d="M 139 -57 A 150 150 0 0 1 106 106" fill="none" stroke="#ff0033" stroke-width="14" stroke-linecap="round" opacity="0.9" filter="url(#glowSoft)">
+      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Zone labels (positioned at ~r=120, inside the arcs at r=150) -->
+    <text x="-88" y="-80" font-family="'Courier New', monospace" font-size="8" fill="#00ff88" transform="rotate(-25, -88, -80)" filter="url(#glowText)">LEGIT</text>
+    <text x="-18" y="-112" font-family="'Courier New', monospace" font-size="8" fill="#aacc00" text-anchor="middle">MEH</text>
+    <text x="68" y="-100" font-family="'Courier New', monospace" font-size="8" fill="#ffaa00" transform="rotate(12, 68, -100)">SUSPICIOUS</text>
+    <text x="98" y="-40" font-family="'Courier New', monospace" font-size="8" fill="#ff6600" transform="rotate(35, 98, -40)">SKETCHY</text>
+    <text x="55" y="90" font-family="'Courier New', monospace" font-size="9" fill="#ff0033" transform="rotate(50, 55, 90)" filter="url(#glowText)" font-weight="bold">FULL OF BS</text>
+
+    <!-- Center label -->
+    <text x="0" y="-35" text-anchor="middle" font-family="'Arial Black', 'Impact', sans-serif" font-size="16" fill="#aabbcc" letter-spacing="5" font-weight="bold">BS DETECTOR</text>
+    <text x="0" y="-15" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#556677" letter-spacing="2">ONCHAIN TRUTH INDEX</text>
+
+    <!-- Numerical readout -->
+    <rect x="-40" y="5" width="80" height="28" rx="3" fill="#0a0e14" stroke="#ff0033" stroke-width="1"/>
+    <text x="0" y="26" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#ff0033" filter="url(#glowText)" font-weight="bold">
+      94.7
+      <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="0" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-size="8" fill="#ff3344">BS DETECTED</text>
+
+    <!-- THE NEEDLE - pointing to ~110 degrees (deep in red) -->
+    <g transform="rotate(110)" filter="url(#needleShadow)">
+      <polygon points="0,-145 -4,10 0,20 4,10" fill="#ff2200"/>
+      <polygon points="0,-145 -2,0 0,-145 2,0" fill="#ff5544" opacity="0.6"/>
+    </g>
+    <!-- Needle center cap -->
+    <circle cx="0" cy="0" r="10" fill="#1a1f2e" stroke="#3a4050" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#ff2200" filter="url(#glow)"/>
+
+    <!-- Decorative rivets/screws on bezel -->
+    <circle cx="0" cy="-188" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="188" cy="0" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="-188" cy="0" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="0" cy="188" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="133" cy="-133" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="-133" cy="-133" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="133" cy="133" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+    <circle cx="-133" cy="133" r="4" fill="#2a3040" stroke="#3a4050" stroke-width="1"/>
+  </g>
+
+  <!-- === LEFT PANEL: WARNING FLAGS === -->
+  <g transform="translate(50, 95)">
+    <rect x="0" y="0" width="285" height="280" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <rect x="10" y="8" width="265" height="22" rx="2" fill="#111820"/>
+    <text x="142" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#ff6644" letter-spacing="2" filter="url(#glowText)">RED FLAGS</text>
+
+    <!-- Flag items -->
+    <g font-family="'Courier New', monospace" font-size="10">
+      <!-- Flag 1 -->
+      <circle cx="25" cy="52" r="5" fill="url(#redLight)" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="40" y="55" fill="#ff3344" filter="url(#glowText)">ANON TEAM</text>
+      <rect x="170" y="43" width="90" height="16" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="215" y="55" text-anchor="middle" fill="#ff3344" font-size="9">CONFIRMED</text>
+
+      <!-- Flag 2 -->
+      <circle cx="25" cy="80" r="5" fill="url(#redLight)" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="40" y="83" fill="#ff3344" filter="url(#glowText)">NO AUDIT</text>
+      <rect x="170" y="71" width="90" height="16" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="215" y="83" text-anchor="middle" fill="#ff3344" font-size="9">SELF-CERT</text>
+
+      <!-- Flag 3 -->
+      <circle cx="25" cy="108" r="5" fill="url(#redLight)" filter="url(#glow)"/>
+      <text x="40" y="111" fill="#ff3344" filter="url(#glowText)">FAKE TVL</text>
+      <rect x="170" y="99" width="90" height="16" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="215" y="111" text-anchor="middle" fill="#ff6644" font-size="9">RECURSIVE</text>
+
+      <!-- Flag 4 -->
+      <circle cx="25" cy="136" r="5" fill="url(#amberLight)" filter="url(#glow)"/>
+      <text x="40" y="139" fill="#ffaa00">TOKENOMICS</text>
+      <rect x="170" y="127" width="90" height="16" rx="2" fill="#1a0f00" stroke="#332200" stroke-width="0.5"/>
+      <text x="215" y="139" text-anchor="middle" fill="#ffaa00" font-size="9">90% INSIDER</text>
+
+      <!-- Flag 5 -->
+      <circle cx="25" cy="164" r="5" fill="url(#amberLight)" filter="url(#glow)"/>
+      <text x="40" y="167" fill="#ffaa00">GOVERNANCE</text>
+      <rect x="170" y="155" width="90" height="16" rx="2" fill="#1a0f00" stroke="#332200" stroke-width="0.5"/>
+      <text x="215" y="167" text-anchor="middle" fill="#ffaa00" font-size="9">3/5 MULTISIG</text>
+
+      <!-- Flag 6 -->
+      <circle cx="25" cy="192" r="5" fill="url(#redLight)" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="40" y="195" fill="#ff3344" filter="url(#glowText)">YIELD SRC</text>
+      <rect x="170" y="183" width="90" height="16" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="215" y="195" text-anchor="middle" fill="#ff3344" font-size="9">UNDEFINED</text>
+
+      <!-- Flag 7 -->
+      <circle cx="25" cy="220" r="5" fill="url(#greenLightOff)"/>
+      <text x="40" y="223" fill="#334455">TIMELOCK</text>
+      <rect x="170" y="211" width="90" height="16" rx="2" fill="#0a1a0a" stroke="#113311" stroke-width="0.5"/>
+      <text x="215" y="223" text-anchor="middle" fill="#226633" font-size="9">48H</text>
+
+      <!-- Flag 8 -->
+      <circle cx="25" cy="248" r="5" fill="url(#redLight)" filter="url(#glow)"/>
+      <text x="40" y="251" fill="#ff3344" filter="url(#glowText)">MARKETING</text>
+      <rect x="170" y="239" width="90" height="16" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="215" y="251" text-anchor="middle" fill="#ff3344" font-size="9">HYPE &gt; CODE</text>
+    </g>
+  </g>
+
+  <!-- === RIGHT PANEL: PROTOCOL METRICS === -->
+  <g transform="translate(865, 95)">
+    <rect x="0" y="0" width="285" height="280" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <rect x="10" y="8" width="265" height="22" rx="2" fill="#111820"/>
+    <text x="142" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#33aaff" letter-spacing="2" filter="url(#glowText)">PROTOCOL SCAN</text>
+
+    <g font-family="'Courier New', monospace" font-size="10">
+      <!-- Metric 1 -->
+      <text x="15" y="55" fill="#556677">RWA EXPOSURE</text>
+      <rect x="155" y="42" width="115" height="18" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="212" y="56" text-anchor="middle" fill="#ff3344" font-size="12" font-weight="bold" filter="url(#glowText)">97.3%</text>
+
+      <!-- Metric 2 -->
+      <text x="15" y="83" fill="#556677">TEAM DOXXED</text>
+      <rect x="155" y="70" width="115" height="18" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="212" y="84" text-anchor="middle" fill="#ff3344" font-size="12" font-weight="bold" filter="url(#glowText)">NO</text>
+
+      <!-- Metric 3 -->
+      <text x="15" y="111" fill="#556677">AUDIT STATUS</text>
+      <rect x="155" y="98" width="115" height="18" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="212" y="112" text-anchor="middle" fill="#ff6644" font-size="10" filter="url(#glowText)">SELF-CERTIFIED</text>
+
+      <!-- Metric 4 -->
+      <text x="15" y="139" fill="#556677">TVL (REAL)</text>
+      <rect x="155" y="126" width="115" height="18" rx="2" fill="#1a0f00" stroke="#332200" stroke-width="0.5"/>
+      <text x="212" y="140" text-anchor="middle" fill="#ffaa00" font-size="12" font-weight="bold">$2.1M</text>
+
+      <!-- Metric 5 -->
+      <text x="15" y="167" fill="#556677">TVL (CLAIMED)</text>
+      <rect x="155" y="154" width="115" height="18" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="212" y="168" text-anchor="middle" fill="#ff3344" font-size="12" font-weight="bold">$847M</text>
+
+      <!-- Metric 6 -->
+      <text x="15" y="195" fill="#556677">YIELD APY</text>
+      <rect x="155" y="182" width="115" height="18" rx="2" fill="#1a0a0a" stroke="#331111" stroke-width="0.5"/>
+      <text x="212" y="196" text-anchor="middle" fill="#ff3344" font-size="11" font-weight="bold" filter="url(#glowText)">42,069%</text>
+
+      <!-- Metric 7 -->
+      <text x="15" y="223" fill="#556677">CONTRACT</text>
+      <rect x="155" y="210" width="115" height="18" rx="2" fill="#0a1a0a" stroke="#113311" stroke-width="0.5"/>
+      <text x="212" y="224" text-anchor="middle" fill="#33ff88" font-size="10">VERIFIED</text>
+
+      <!-- Metric 8 -->
+      <text x="15" y="251" fill="#556677">CHAIN MATCH</text>
+      <rect x="155" y="238" width="115" height="18" rx="2" fill="#1a0f00" stroke="#332200" stroke-width="0.5"/>
+      <text x="212" y="252" text-anchor="middle" fill="#ffaa00" font-size="10">MISMATCH</text>
+    </g>
+  </g>
+
+  <!-- === BOTTOM PANEL === -->
+  <rect x="50" y="550" width="1100" height="60" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+
+  <!-- Bottom left: scrolling analysis text -->
+  <text x="75" y="570" font-family="'Courier New', monospace" font-size="9" fill="#33ff88" filter="url(#glowText)" opacity="0.8">
+    &gt; ANALYSIS: Marketing claims diverge from on-chain reality by 403x
+  </text>
+  <text x="75" y="585" font-family="'Courier New', monospace" font-size="9" fill="#33ff88" filter="url(#glowText)" opacity="0.6">
+    &gt; WARNING: Yield source unidentifiable -- likely recursive or ponzi-derived
+  </text>
+  <text x="75" y="600" font-family="'Courier New', monospace" font-size="9" fill="#ff3344" filter="url(#glowText)">
+    &gt; VERDICT: DO NOT APE. Repeat: DO NOT APE.
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Bottom right: trust indicator -->
+  <g transform="translate(1020, 565)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="8" fill="#445566">TRUST SOURCE</text>
+    <rect x="-10" y="5" width="120" height="22" rx="2" fill="#0a1a0a" stroke="#00ff88" stroke-width="1"/>
+    <text x="50" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#00ff88" filter="url(#glowText)" font-weight="bold">ONCHAIN ONLY</text>
+  </g>
+
+  <!-- === LEFT SIDE MINI GAUGES === -->
+  <!-- Mini gauge 1: Token Distribution -->
+  <g transform="translate(130, 430)">
+    <rect x="-60" y="-45" width="120" height="80" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#556677" letter-spacing="1">DECENTRALIZATION</text>
+    <!-- Simple bar gauge -->
+    <rect x="-45" y="-18" width="90" height="10" rx="2" fill="#111820"/>
+    <rect x="-45" y="-18" width="12" height="10" rx="2" fill="#ff0033" filter="url(#glow)"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#ff3344" filter="url(#glowText)" font-weight="bold">8%</text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#ff3344">CRITICAL</text>
+  </g>
+
+  <!-- Mini gauge 2: Code Quality -->
+  <g transform="translate(290, 430)">
+    <rect x="-60" y="-45" width="120" height="80" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#556677" letter-spacing="1">CODE QUALITY</text>
+    <rect x="-45" y="-18" width="90" height="10" rx="2" fill="#111820"/>
+    <rect x="-45" y="-18" width="38" height="10" rx="2" fill="#ffaa00"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#ffaa00" font-weight="bold">41%</text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#ffaa00">POOR</text>
+  </g>
+
+  <!-- === RIGHT SIDE MINI GAUGES === -->
+  <!-- Mini gauge 3: Liquidity Depth -->
+  <g transform="translate(910, 430)">
+    <rect x="-60" y="-45" width="120" height="80" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#556677" letter-spacing="1">LIQ. DEPTH</text>
+    <rect x="-45" y="-18" width="90" height="10" rx="2" fill="#111820"/>
+    <rect x="-45" y="-18" width="18" height="10" rx="2" fill="#ff4400" filter="url(#glow)"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#ff4400" filter="url(#glowText)" font-weight="bold">16%</text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#ff4400">SHALLOW</text>
+  </g>
+
+  <!-- Mini gauge 4: Rug Risk -->
+  <g transform="translate(1070, 430)">
+    <rect x="-60" y="-45" width="120" height="80" rx="4" fill="#0d1219" stroke="#1a2744" stroke-width="1"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#556677" letter-spacing="1">RUG RISK</text>
+    <rect x="-45" y="-18" width="90" height="10" rx="2" fill="#111820"/>
+    <rect x="-45" y="-18" width="83" height="10" rx="2" fill="#ff0033" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.6;1" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="8" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#ff0033" filter="url(#glowText)" font-weight="bold">91%</text>
+    <text x="0" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="7" fill="#ff0033" font-weight="bold">EXTREME</text>
+  </g>
+
+  <!-- === DECORATIVE WARNING TRIANGLES === -->
+  <!-- Left warning -->
+  <g transform="translate(50, 530)" filter="url(#glow)">
+    <polygon points="15,0 30,26 0,26" fill="none" stroke="#ff3344" stroke-width="1.5">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <text x="15" y="21" text-anchor="middle" font-family="'Arial', sans-serif" font-size="16" fill="#ff3344" font-weight="bold">!</text>
+  </g>
+  <!-- Right warning -->
+  <g transform="translate(1120, 530)" filter="url(#glow)">
+    <polygon points="15,0 30,26 0,26" fill="none" stroke="#ff3344" stroke-width="1.5">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <text x="15" y="21" text-anchor="middle" font-family="'Arial', sans-serif" font-size="16" fill="#ff3344" font-weight="bold">!</text>
+  </g>
+
+  <!-- Mid warning indicators flanking gauge -->
+  <g transform="translate(370, 290)" filter="url(#glow)">
+    <polygon points="10,0 20,17 0,17" fill="none" stroke="#ffaa00" stroke-width="1.2"/>
+    <text x="10" y="14" text-anchor="middle" font-family="'Arial', sans-serif" font-size="11" fill="#ffaa00" font-weight="bold">!</text>
+  </g>
+  <g transform="translate(810, 290)" filter="url(#glow)">
+    <polygon points="10,0 20,17 0,17" fill="none" stroke="#ffaa00" stroke-width="1.2"/>
+    <text x="10" y="14" text-anchor="middle" font-family="'Arial', sans-serif" font-size="11" fill="#ffaa00" font-weight="bold">!</text>
+  </g>
+
+  <!-- === CORNER BRACKETS (framing) === -->
+  <g stroke="#1a2744" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M60 85 L50 85 L50 95"/>
+    <path d="M1140 85 L1150 85 L1150 95"/>
+    <path d="M60 545 L50 545 L50 535"/>
+    <path d="M1140 545 L1150 545 L1150 535"/>
+  </g>
+
+  <!-- Vignette overlay -->
+  <rect width="1200" height="630" fill="url(#vignette)"/>
+</svg>
