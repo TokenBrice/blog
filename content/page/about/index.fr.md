@@ -55,7 +55,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 | :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
 | <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
-| | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
+| <img src="/img/others/defifrance-logo.png" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
 
 ### Engagements Précédents
 
