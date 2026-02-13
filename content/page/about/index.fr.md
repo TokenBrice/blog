@@ -41,19 +41,26 @@ Si vous avez vu des stablecoins abandonner leurs fondations et senti que quelque
 
 Je travaille à développer l'écosystème de la finance décentralisée Ethereum tout en veillant à ce qu'il reste aligné sur ses valeurs fondamentales de sans confiance, accessibilité, résilience et sans permission.
 
-### Projets
+### Projets Principaux
 
 | Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
+| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polarisfinance.io) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Fondateur |
 | <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
+
+### Quêtes Secondaires
+
+| Logo | Projet | Description | Rôle |
+| :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
-| <img src="/img/others/leverage-sir.jpg" width="80"> | [Leverage Sir](https://www.sir.trading/) | Pas de liquidation, pas de frais continus, levier polynomial constant. **[Leverage comme un Sir](https://tokenbrice.xyz/fr/leverage-sir/)** | Conseil DeFi & BD |
-| <img src="/img/others/luchadores.png" width="80"> | [Luchadores](https://luchadores.io) | Collection NFT 100% onchain (SVG + ChainLink VRF) avec un modèle de jeu stratégique autobattler Fight 2 Earn. **[La thèse Luchadores](https://tokenbrice.xyz/fr/luchadores-nft/)** | Baleine alpha & Conseil DeFi |
+| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
+| | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
 
 ### Engagements Précédents
 
-- **[DeFi France](https://docs.defi-france.org)** — Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion.
+- **[Luchadores](https://luchadores.io)** — Baleine alpha & Conseil DeFi pour une collection NFT 100% onchain (SVG + ChainLink VRF) avec un modèle de jeu stratégique autobattler Fight 2 Earn. **[La thèse Luchadores](https://tokenbrice.xyz/fr/luchadores-nft/)**
+- **[Leverage Sir](https://www.sir.trading/)** — Conseil DeFi & BD pour un protocole de levier sans liquidation, sans frais continus, à levier polynomial constant. **[Leverage comme un Sir](https://tokenbrice.xyz/fr/leverage-sir/)**
 - **GHO Liquidity Committee** — Rejoint à la demande de la communauté en octobre 2023 pour aider au repeg de GHO et optimiser sa stratégie de liquidité. Départ en février 2024. **[Adieu](https://tokenbrice.xyz/farewell-glc/)**
 - **[Liquity](https://www.liquity.org/)** — Ingénieur de liquidité pendant plus de 18 mois, contribuant à la croissance d'un des protocoles de prêt les plus résilients de la DeFi. **[Annonce](https://tokenbrice.xyz/fr/tokenbrice-liquity/)**
 - **[ParaSwap](https://paraswap.io)** — Aide au lancement de la DAO et aux premières contributions.

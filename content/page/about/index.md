@@ -41,19 +41,26 @@ If you've seen stablecoins abandon their foundations and felt something was wron
 
 I'm working to grow the Ethereum decentralized finance ecosystem while ensuring it remains aligned with its core values of trustless, accessibility, resilience and permissionlessness.
 
-### Projects
+### Main Projects
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
+| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polarisfinance.io) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Founder |
 | <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
+
+### Side Quests
+
+| Logo | Project | Description | Role |
+| :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
-| <img src="/img/others/leverage-sir.jpg" width="80"> | [Leverage Sir](https://www.sir.trading/) | No liquidation, no ongoing fees, constant polynomial leverage. **[Leverage Like a Sir](https://tokenbrice.xyz/leverage-sir/)** | DeFi & BD Advisory |
-| <img src="/img/others/luchadores.png" width="80"> | [Luchadores](https://luchadores.io) | NFT 100% onchain collection (SVG + ChainLink VRF) with a Fight 2 Earn model autobattler strategic game. **[The Luchadores Thesis](https://tokenbrice.xyz/luchadores-nft/)** | Alpha whale & DeFi advisory |
+| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 119+ stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. | Creator |
+| | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
 
 ### Previous Engagements
 
-- **[DeFi France](https://docs.defi-france.org)** — Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups.
+- **[Luchadores](https://luchadores.io)** — Alpha whale & DeFi advisory for a 100% onchain NFT collection (SVG + ChainLink VRF) with a Fight 2 Earn autobattler strategic game. **[The Luchadores Thesis](https://tokenbrice.xyz/luchadores-nft/)**
+- **[Leverage Sir](https://www.sir.trading/)** — DeFi & BD Advisory for a no-liquidation, no-ongoing-fees, constant polynomial leverage protocol. **[Leverage Like a Sir](https://tokenbrice.xyz/leverage-sir/)**
 - **GHO Liquidity Committee** — Joined at the community's request in October 2023 to help repeg GHO and optimize its liquidity strategy. Stepped down in February 2024. **[Farewell](https://tokenbrice.xyz/farewell-glc/)**
 - **[Liquity](https://www.liquity.org/)** — Liquidity Engineer for 18+ months, contributing to the growth of one of DeFi's most resilient lending protocols. **[Announcement](https://tokenbrice.xyz/tokenbrice-liquity/)**
 - **[ParaSwap](https://paraswap.io)** — Helped launch the DAO and kickstart initial contributions.
