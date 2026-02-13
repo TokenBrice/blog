@@ -14,7 +14,7 @@ menu:
         params:
             icon: user
 readingTime: false
-image: /img/others/all-hail-ants.jpeg
+image: /img/others/star-sky-mountain.png
 ---
 
 This blog covers in-depth DeFi protocol analyses, liquidity strategies, and live onchain experiments — check out the [shows](/shows/) to see DeFi in action.

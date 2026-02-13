@@ -14,7 +14,7 @@ menu:
         params:
             icon: user
 readingTime: false
-image: /img/others/all-hail-ants.jpeg
+image: /img/others/star-sky-mountain.png
 ---
 
 Ce blog propose des analyses approfondies de protocoles DeFi, des stratégies de liquidité et des expériences onchain en direct — consultez les [émissions](/shows/) pour voir la DeFi en action.
