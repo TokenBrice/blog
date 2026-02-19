@@ -46,6 +46,7 @@ While I remain in control of the investment decisions since the goal is to show 
 | [#05](https://www.youtube.com/watch?v=y7EQ956tRmg) | 11/12/2025 | Reflect Live Testing
 | [#06](https://www.youtube.com/watch?v=22aykw-dx54) | 09/01/2026 | Mastering the stablefarming
 | [#07](https://www.youtube.com/watch?v=-LdnPZP70RE) | 06/02/2026 | Using Claude for DeFi research: how to setup an adversarial DeFi researcher Claude, from A to Z
+| [#08](https://www.youtube.com/watch?v=ljNuYLvXYm0) | 19/02/2026 | Pharos.watch, building DeFi tools
 
 ## The Origins of DeFi, with Digital Duniya
 
