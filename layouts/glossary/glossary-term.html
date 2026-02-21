@@ -5,8 +5,8 @@
 {{ define "head" }}
 {{ $glossarySCSS := resources.Get "scss/glossary.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $glossarySCSS.RelPermalink }}" integrity="{{ $glossarySCSS.Data.Integrity }}" crossorigin="anonymous">
-{{ $termCSS := resources.Get "css/glossary-term.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $termCSS.RelPermalink }}">
+{{ $termSCSS := resources.Get "scss/glossary-term.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $termSCSS.RelPermalink }}" integrity="{{ $termSCSS.Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
 
 {{ define "main" }}

@@ -58,8 +58,8 @@
 }
 
 .glossary-term-missing {
-  color: #e74c3c;
-  border-bottom: 1px dotted #e74c3c;
+  color: var(--error-color);
+  border-bottom: 1px dotted var(--error-color);
   cursor: help;
 }
 

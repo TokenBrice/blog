@@ -1,5 +1,13 @@
 /* Expertise Level / Difficulty System */
 
+// Difficulty color palette
+$difficulty-beginner: #22c55e;
+$difficulty-beginner-dark: #16a34a;
+$difficulty-intermediate: #fbbf24;
+$difficulty-intermediate-dark: #ca8a04;
+$difficulty-expert: #f87171;
+$difficulty-expert-dark: #dc2626;
+
 /* CSS dots - cross-platform colored circles */
 .difficulty-dot {
     display: inline-block;
@@ -10,30 +18,30 @@
     margin-right: 0.25rem;
 
     &--beginner {
-        background-color: #22c55e;
+        background-color: $difficulty-beginner;
     }
 
     &--intermediate {
-        background-color: #fbbf24;
+        background-color: $difficulty-intermediate;
     }
 
     &--expert {
-        background-color: #f87171;
+        background-color: $difficulty-expert;
     }
 }
 
 [data-scheme="dark"] {
     .difficulty-dot {
         &--beginner {
-            background-color: #16a34a;
+            background-color: $difficulty-beginner-dark;
         }
 
         &--intermediate {
-            background-color: #ca8a04;
+            background-color: $difficulty-intermediate-dark;
         }
 
         &--expert {
-            background-color: #dc2626;
+            background-color: $difficulty-expert-dark;
         }
     }
 }
@@ -123,15 +131,15 @@
                 transition: width 0.3s ease;
 
                 &.beginner {
-                    background-color: #22c55e;
+                    background-color: $difficulty-beginner;
                 }
 
                 &.intermediate {
-                    background-color: #fbbf24;
+                    background-color: $difficulty-intermediate;
                 }
 
                 &.expert {
-                    background-color: #f87171;
+                    background-color: $difficulty-expert;
                 }
             }
         }
@@ -144,15 +152,15 @@
         .expertise-bar {
             .bar-fill {
                 &.beginner {
-                    background-color: #16a34a;
+                    background-color: $difficulty-beginner-dark;
                 }
 
                 &.intermediate {
-                    background-color: #ca8a04;
+                    background-color: $difficulty-intermediate-dark;
                 }
 
                 &.expert {
-                    background-color: #dc2626;
+                    background-color: $difficulty-expert-dark;
                 }
             }
         }
@@ -191,36 +199,36 @@
     }
 
     &.active.difficulty-nav--beginner {
-        border-color: #22c55e;
-        background-color: rgba(34, 197, 94, 0.08);
+        border-color: $difficulty-beginner;
+        background-color: rgba($difficulty-beginner, 0.08);
     }
 
     &.active.difficulty-nav--intermediate {
-        border-color: #fbbf24;
-        background-color: rgba(251, 191, 36, 0.08);
+        border-color: $difficulty-intermediate;
+        background-color: rgba($difficulty-intermediate, 0.08);
     }
 
     &.active.difficulty-nav--expert {
-        border-color: #f87171;
-        background-color: rgba(239, 68, 68, 0.08);
+        border-color: $difficulty-expert;
+        background-color: rgba($difficulty-expert, 0.08);
     }
 }
 
 [data-scheme="dark"] {
     .difficulty-nav-item {
         &.active.difficulty-nav--beginner {
-            border-color: #16a34a;
-            background-color: rgba(34, 197, 94, 0.12);
+            border-color: $difficulty-beginner-dark;
+            background-color: rgba($difficulty-beginner, 0.12);
         }
 
         &.active.difficulty-nav--intermediate {
-            border-color: #ca8a04;
-            background-color: rgba(251, 191, 36, 0.12);
+            border-color: $difficulty-intermediate-dark;
+            background-color: rgba($difficulty-intermediate, 0.12);
         }
 
         &.active.difficulty-nav--expert {
-            border-color: #dc2626;
-            background-color: rgba(239, 68, 68, 0.12);
+            border-color: $difficulty-expert-dark;
+            background-color: rgba($difficulty-expert, 0.12);
         }
     }
 }
