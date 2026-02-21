@@ -3,8 +3,8 @@
 {{ end }}
 
 {{ define "head" }}
-{{ $glossaryCSS := resources.Get "css/glossary.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $glossaryCSS.RelPermalink }}">
+{{ $glossarySCSS := resources.Get "scss/glossary.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $glossarySCSS.RelPermalink }}" integrity="{{ $glossarySCSS.Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
 
 {{ define "main" }}
