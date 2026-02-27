@@ -4,6 +4,10 @@
 :root {
   --body-text-color: #595959;
   --error-color: #e74c3c;
+  --code-text-color: #546e7a;
+  --shadow-l3: 0px 14px 28px rgba(0, 0, 0, 0.06),
+               0px 4px 10px rgba(0, 0, 0, 0.04),
+               0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
 /* Import existing custom styles */
@@ -34,6 +38,186 @@
     &:empty {
         display: none;
     }
+}
+
+/* WCAG AA fix: yellow tag background needs dark text (11.5:1 on #ffb900) */
+.article-list article:nth-child(5n+4) .article-category a {
+  color: #1a1a1a;
+}
+
+/* Dark mode contrast fixes */
+[data-scheme="dark"] {
+  --card-text-color-tertiary: rgba(255, 255, 255, 0.65);
+  --code-text-color: #90a4ae;
+  --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.12),
+               0px 0px 2px rgba(0, 0, 0, 0.16),
+               0px 0px 1px rgba(0, 0, 0, 0.12);
+  --shadow-l2: 0px 10px 20px rgba(0, 0, 0, 0.14),
+               0px 2px 6px rgba(0, 0, 0, 0.12),
+               0px 0px 1px rgba(0, 0, 0, 0.10);
+  --shadow-l3: 0px 14px 28px rgba(0, 0, 0, 0.18),
+               0px 4px 10px rgba(0, 0, 0, 0.14),
+               0px 0px 1px rgba(0, 0, 0, 0.10);
+}
+
+/* Typography: heading line-heights and vertical rhythm */
+.article-content {
+  h1 { line-height: 1.2; margin: 2em 0 0.75em; }
+  h2 { line-height: 1.25; margin: 1.75em 0 0.6em; }
+  h3 { line-height: 1.3; margin: 1.5em 0 0.5em; }
+  h4, h5, h6 { line-height: 1.35; margin: 1.25em 0 0.5em; }
+
+  > h1:first-child,
+  > h2:first-child,
+  > h3:first-child {
+    margin-top: 0.5em;
+  }
+}
+
+/* Interaction polish: article card hover lift */
+.article-list article {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Compact list: subtle background highlight on hover */
+.article-list--compact article > a {
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--card-background-selected);
+  }
+}
+
+/* Pagination hover/focus states */
+.pagination .page-link {
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover:not(.current):not(.dots) {
+    background-color: var(--card-background-selected);
+    color: var(--card-text-color-main);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+  }
+}
+
+/* Category tag: 0.5s → 0.2s (0.5s feels sluggish) */
+.article-category a,
+.article-tags a {
+  transition: background-color 0.2s ease;
+}
+
+/* Social icons: add hover transition */
+.menu-social a {
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    transition: stroke 0.2s ease;
+  }
+}
+
+/* Global focus-visible for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Tag cloud links: add focus-visible */
+.tagCloud-tags a:focus-visible {
+  box-shadow: var(--shadow-l2);
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Dark mode toggle: ensure visible focus ring */
+#dark-mode-toggle:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Spacing: normalize to 8px-based scale */
+.article-content th,
+.article-content td {
+  padding: 8px 12px;
+}
+
+.article-details {
+  gap: 16px;
+}
+
+.article-time,
+.article-translations {
+  gap: 16px;
+
+  & > div {
+    gap: 16px;
+  }
+}
+
+footer.site-footer::before {
+  margin-bottom: 24px;
+}
+
+/* Inline code: slightly more visible padding */
+.article-content code {
+  padding: 2px 6px;
+  font-size: 0.88em;
+}
+
+/* Blockquote: accent color left border */
+.article-content blockquote {
+  border-inline-start-color: var(--accent-color);
+}
+
+/* Copy code button: keyboard accessible */
+.article-content .copyCodeButton:focus-visible {
+  opacity: 1;
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Selection color matches brand */
+::selection {
+  background-color: var(--accent-color);
+  color: var(--accent-color-text);
+}
+
+/* Print: hide non-essential elements */
+@media print {
+  .left-sidebar,
+  .right-sidebar,
+  .pagination,
+  .article-footer .article-tags,
+  .related-content,
+  #toggle-menu {
+    display: none !important;
+  }
+
+  .main-container {
+    max-width: 100% !important;
+  }
+
+  .main-article {
+    box-shadow: none !important;
+  }
 }
 
 /* Reduced motion support */
