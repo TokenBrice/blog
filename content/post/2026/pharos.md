@@ -191,3 +191,5 @@ If you interact with stablecoins in any capacity — trading, lending, providing
 Pharos will keep expanding its coverage and refining its models. If you want to contribute, the repo is open. If you spot issues or have feedback, there's a feedback form on the site.
 
 Stablecoins won the adoption race. It's time the information infrastructure catches up.
+
+PS: A one-week content production (using Pharos data) and feedback submission contest is running, with 3000 BOLD to win in total. [Take part](https://x.com/PharosWatch/status/2032107485629202921)
