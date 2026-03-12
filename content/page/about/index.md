@@ -54,7 +54,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
-| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 119+ stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. | Creator |
+| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 156 stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
 | <img src="/img/others/defifrance-logo.png" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
 
 ### Previous Engagements
