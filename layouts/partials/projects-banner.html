@@ -18,13 +18,20 @@
                         <img class="projects-banner__emblem"
                              src="{{ .emblem | relURL }}"
                              alt="{{ .name }}"
-                             width="64" height="64"
+                             width="80" height="80"
                              loading="lazy">
                     </picture>
                     <div class="projects-banner__text">
                         <h3 class="projects-banner__name">{{ .name }}</h3>
                         <p class="projects-banner__tagline">{{ $tagline }}</p>
                     </div>
+                    <svg class="projects-banner__arrow"
+                         viewBox="0 0 24 24" width="14" height="14"
+                         fill="none" stroke="currentColor"
+                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         aria-hidden="true" focusable="false">
+                        <path d="M7 17L17 7M9 7h8v8"/>
+                    </svg>
                 </a>
             </li>
             {{- end }}
