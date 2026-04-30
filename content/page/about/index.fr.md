@@ -5,7 +5,7 @@ description: Utilisateur actif de DeFi engagé dans le mouvement grassroots pour
 aliases:
   - about-us
   - contact
-license: CC BY-NC-ND
+license: CC BY-NC-SA 4.0
 lastmod: '2026-01-31'
 toc: false
 menu:
