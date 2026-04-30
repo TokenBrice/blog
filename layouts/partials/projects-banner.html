@@ -1,0 +1,29 @@
+{{- with $.Site.Data.projects.projects -}}
+{{- $lang := $.Page.Language.Lang -}}
+<section class="projects-banner" aria-label="{{ T "projectsBannerLabel" }}">
+    <div class="projects-banner__band">
+        <ul class="projects-banner__cards">
+            {{- range . }}
+            {{- $tagline := index .tagline $lang | default (index .tagline "en") -}}
+            <li class="projects-banner__card">
+                <a class="projects-banner__link"
+                   href="{{ .url }}"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="{{ T "projectsBannerLabel" }}: {{ .name }} — {{ $tagline }}">
+                    <img class="projects-banner__emblem"
+                         src="{{ .emblem | absURL }}"
+                         alt="{{ .name }}"
+                         width="64" height="64"
+                         loading="lazy">
+                    <div class="projects-banner__text">
+                        <h3 class="projects-banner__name">{{ .name }}</h3>
+                        <p class="projects-banner__tagline">{{ $tagline }}</p>
+                    </div>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</section>
+{{- end -}}
