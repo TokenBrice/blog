@@ -42,3 +42,6 @@ pids
 
 # Lighthouse reports
 lighthouse-reports/
+
+# Brainstorming session artifacts
+.superpowers/
