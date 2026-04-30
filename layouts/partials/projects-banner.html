@@ -1,11 +1,21 @@
-{{- with $.Site.Data.projects.projects -}}
-{{- $lang := $.Page.Language.Lang -}}
-<section class="projects-banner" aria-label="{{ T "projectsBannerLabel" }}">
+{{- $context := . -}}
+{{- $variant := "default" -}}
+{{- if reflect.IsMap . -}}
+    {{- $context = .Context -}}
+    {{- $variant = .Variant | default "default" -}}
+{{- end -}}
+{{- with site.Data.projects.projects -}}
+{{- $lang := $context.Page.Language.Lang -}}
+<section class="projects-banner projects-banner--{{ $variant }}" aria-label="{{ T "projectsBannerLabel" }}">
     <div class="projects-banner__band">
+        <div class="projects-banner__intro" aria-hidden="true">
+            <span class="projects-banner__kicker">{{ T "projectsBannerLabel" }}</span>
+            <span class="projects-banner__rule"></span>
+        </div>
         <ul class="projects-banner__cards">
             {{- range . }}
             {{- $tagline := index .tagline $lang | default (index .tagline "en") -}}
-            <li class="projects-banner__card">
+            <li class="projects-banner__card projects-banner__card--{{ .id }}">
                 <a class="projects-banner__link"
                    href="{{ .url }}"
                    target="_blank"

@@ -4,7 +4,7 @@
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $pag := .Paginate ($filtered) }}
 
-    {{ partial "projects-banner.html" . }}
+    {{ partial "projects-banner.html" (dict "Context" . "Variant" "home") }}
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}

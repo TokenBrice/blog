@@ -4,7 +4,7 @@
 
     {{ partial "article/components/content" . }}
 
-    {{ partial "projects-banner.html" . }}
+    {{ partial "projects-banner.html" (dict "Context" . "Variant" "article") }}
 
     {{ partial "article/components/footer" . }}
 
