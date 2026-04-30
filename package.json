@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/TokenBrice/blog#readme",
   "devDependencies": {
-    "lighthouse": "^13.0.1"
+    "lighthouse": "^13.1.0"
+  },
+  "overrides": {
+    "lodash-es": "^4.18.1",
+    "minimatch": "^9.0.7"
+  },
+  "resolutions": {
+    "lodash-es": "^4.18.1",
+    "minimatch": "^9.0.7"
   }
 }
