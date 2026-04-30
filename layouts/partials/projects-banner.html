@@ -11,11 +11,16 @@
                    target="_blank"
                    rel="noopener"
                    aria-label="{{ T "projectsBannerLabel" }}: {{ .name }} — {{ $tagline }}">
-                    <img class="projects-banner__emblem"
-                         src="{{ .emblem | absURL }}"
-                         alt="{{ .name }}"
-                         width="64" height="64"
-                         loading="lazy">
+                    <picture class="projects-banner__picture">
+                        {{- with .emblem_webp }}
+                        <source srcset="{{ . | relURL }}" type="image/webp">
+                        {{- end }}
+                        <img class="projects-banner__emblem"
+                             src="{{ .emblem | relURL }}"
+                             alt="{{ .name }}"
+                             width="64" height="64"
+                             loading="lazy">
+                    </picture>
                     <div class="projects-banner__text">
                         <h3 class="projects-banner__name">{{ .name }}</h3>
                         <p class="projects-banner__tagline">{{ $tagline }}</p>

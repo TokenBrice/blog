@@ -2,14 +2,16 @@ projects:
   - id: pharos
     name: Pharos
     url: https://pharos.watch
-    emblem: img/projects/pharos/emblem.png
+    emblem: img/others/pharos.png
+    emblem_webp: img/others/pharos.webp
     tagline:
       en: Stablecoin analytics dashboard
       fr: Tableau de bord d'analyse des stablecoins
   - id: polaris
     name: Polaris
     url: https://polarisfinance.io
-    emblem: img/projects/polaris/emblem.svg
+    emblem: img/others/polaris-emblem.png
+    emblem_webp: img/others/polaris-emblem.webp
     tagline:
       en: Self-scaling stablecoin OS
       fr: OS stablecoin auto-évolutif

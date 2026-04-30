@@ -50,6 +50,10 @@
         }
     }
 
+    &__picture {
+        display: contents;
+    }
+
     &__emblem {
         flex-shrink: 0;
         width: 64px;
