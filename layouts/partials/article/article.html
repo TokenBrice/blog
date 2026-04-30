@@ -4,6 +4,8 @@
 
     {{ partial "article/components/content" . }}
 
+    {{ partial "projects-banner.html" . }}
+
     {{ partial "article/components/footer" . }}
 
     {{ if or .Params.math .Site.Params.article.math }}
