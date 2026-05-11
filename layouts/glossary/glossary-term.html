@@ -154,37 +154,107 @@
             </section>
             {{- end }}
 
-            <!-- Related Articles -->
+            <!-- Build term-specific related article candidates when structured links are missing -->
+            {{- $maxRelated := 3 -}}
+            {{- $relatedArticleItems := slice -}}
+
             {{- if gt (len (default (slice) $term.related_articles)) 0 }}
-            <section>
-                <h2>{{ T "glossaryRelatedArticles" }}</h2>
-                <div class="related-articles-list article-list--compact">
-                    {{- range first 3 $term.related_articles }}
+                {{- range first $maxRelated $term.related_articles }}
                     {{- $articleUrl := .url -}}
-                    {{- $articleTitle := .title -}}
-                    {{- $articleDesc := .description -}}
-                    {{- $articleImage := "" -}}
                     {{- $resolvedUrl := $articleUrl -}}
+                    {{- $articleTitle := .title | default "Related article" -}}
+                    {{- $articleDesc := .description | default "" -}}
+                    {{- $articleImage := "" -}}
+                    {{- $articleImageW := 120 -}}
+                    {{- $articleImageH := 120 -}}
+
                     {{- $page := partial "glossary/resolve-page.html" (dict "url" $articleUrl "site" $.Site) -}}
                     {{- if $page -}}
                         {{- $resolvedUrl = $page.RelPermalink -}}
-                        {{- with $page.Params.image -}}
-                            {{- $img := . -}}
-                            {{- if and (not (hasPrefix $img "/")) (not (hasPrefix $img "http")) -}}
-                                {{- $img = printf "/%s" $img -}}
+                        {{- $articleTitle = $page.Title | default $articleTitle -}}
+                        {{- $articleDesc = $page.Summary | default $page.Description | default $articleDesc | plainify -}}
+                        {{- $relatedImage := partial "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" -}}
+                        {{- if $relatedImage.exists }}
+                            {{- $articleImage = $relatedImage.permalink -}}
+                            {{- if $relatedImage.resource }}
+                                {{- $relatedThumb := $relatedImage.resource.Fill "120x120" -}}
+                                {{- $articleImage = $relatedThumb.RelPermalink -}}
+                                {{- $articleImageW = $relatedThumb.Width -}}
+                                {{- $articleImageH = $relatedThumb.Height -}}
                             {{- end -}}
-                            {{- $articleImage = $img -}}
                         {{- end -}}
+                    {{- end }}
+
+                    {{- if ne $resolvedUrl "" }}
+                        {{- $relatedArticleItems = $relatedArticleItems | append (dict
+                            "url" $resolvedUrl
+                            "title" $articleTitle
+                            "description" $articleDesc
+                            "image" $articleImage
+                            "imageW" $articleImageW
+                            "imageH" $articleImageH
+                        ) }}
+                    {{- end }}
+                {{- end }}
+            {{- else if gt (len (default (slice) $term.tags)) 0 }}
+                {{- $taggedCandidates := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                {{- $taggedCandidates = where $taggedCandidates "Params.hidden" "!=" true -}}
+                {{- $tagSet := $term.tags -}}
+                {{- range first 20 $taggedCandidates }}
+                    {{- $candidate := . -}}
+                    {{- $hasTagMatch := false -}}
+                    {{- $candidateTags := default (slice) $candidate.Params.tags -}}
+                    {{- range $tagSet }}
+                        {{- if in $candidateTags . }}
+                            {{- $hasTagMatch = true -}}
+                        {{- end }}
+                    {{- end }}
+                    {{- if and $hasTagMatch (ne $candidate.RelPermalink $.RelPermalink) }}
+                        {{- $articleTitle := $candidate.Title | default "Related article" -}}
+                        {{- $articleDesc := $candidate.Summary | default $candidate.Description | default "" | plainify -}}
+                        {{- $articleImage := "" -}}
+                        {{- $articleImageW := 120 -}}
+                        {{- $articleImageH := 120 -}}
+                        {{- $relatedImage := partial "helper/image" (dict "Context" $candidate "Type" "articleList") $candidate.RelPermalink "articleList" -}}
+                        {{- if $relatedImage.exists }}
+                            {{- $articleImage = $relatedImage.permalink -}}
+                            {{- if $relatedImage.resource }}
+                                {{- $relatedThumb := $relatedImage.resource.Fill "120x120" -}}
+                                {{- $articleImage = $relatedThumb.RelPermalink -}}
+                                {{- $articleImageW = $relatedThumb.Width -}}
+                                {{- $articleImageH = $relatedThumb.Height -}}
+                            {{- end -}}
+                        {{- end -}}
+                        {{- $relatedArticleItems = $relatedArticleItems | append (dict
+                            "url" $candidate.RelPermalink
+                            "title" $articleTitle
+                            "description" $articleDesc
+                            "image" $articleImage
+                            "imageW" $articleImageW
+                            "imageH" $articleImageH
+                        ) }}
                     {{- end -}}
+                {{- end }}
+                {{- $relatedArticleItems = $relatedArticleItems | first $maxRelated -}}
+            {{- end }}
+
+            {{- if gt (len $relatedArticleItems) 0 }}
+            <section>
+                <h2>{{ T "glossaryRelatedArticles" }}</h2>
+                <div class="related-articles-list article-list--compact">
+                    {{- range $relatedArticleItems }}
                     <article>
-                        <a href="{{ $resolvedUrl }}">
+                        <a href="{{ .url }}">
                             <div class="article-details">
-                                <h2 class="article-title">{{ $articleTitle }}</h2>
-                                <section class="article-preview">{{ $articleDesc }}</section>
+                                <h2 class="article-title">{{ .title }}</h2>
+                                {{- with .description }}
+                                <section class="article-preview">{{ . }}</section>
+                                {{- end }}
                             </div>
-                            {{- with $articleImage }}
+                            {{- $articleImage := .image }}
+                            {{- if ne $articleImage "" }}
                             <div class="article-image">
-                                <img src="{{ . }}" loading="lazy" alt="{{ $articleTitle }}"/>
+                                <img src="{{ $articleImage }}" width="{{ .imageW }}" height="{{ .imageH }}" loading="lazy" alt="{{ .title }}"/>
                             </div>
                             {{- end }}
                         </a>
@@ -237,28 +307,5 @@
   }
 }
 </script>
-
-{{- /* FAQPage schema only for terms with common_questions */ -}}
-{{- if gt (len (default (slice) $term.common_questions)) 0 }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {{- range $qi, $qa := $term.common_questions -}}
-      {{- if gt $qi 0 }},{{ end }}
-      {
-        "@type": "Question",
-        "name": "{{ $qa.question | safeJS }}",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "{{ $qa.answer | safeJS }}"
-        }
-      }
-    {{- end -}}
-  ]
-}
-</script>
-{{- end }}
 
 {{ end }}
