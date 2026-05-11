@@ -40,9 +40,27 @@
     }
 }
 
-/* WCAG AA fix: yellow tag background needs dark text (11.5:1 on #ffb900) */
-.article-list article:nth-child(5n+4) .article-category a {
-  color: #1a1a1a;
+/* WCAG AA fixes: force readable badge text for light category backgrounds */
+.article-category a[style*="#10B981" i],
+.article-category a[style*="#F59E0B" i],
+.article-category a[style*="#F97316" i],
+.term-category-badge[style*="#10B981" i],
+.term-category-badge[style*="#F59E0B" i],
+.term-category-badge[style*="#F97316" i] {
+  color: #111827;
+}
+
+/* Improve category/readability contrast */
+.article-category a:not([style]),
+.term-category-badge:not([style]),
+.term-category-badge a:not([style]) {
+  color: #1f2937;
+}
+
+.article-content a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* Dark mode contrast fixes */
@@ -58,6 +76,10 @@
   --shadow-l3: 0px 14px 28px rgba(0, 0, 0, 0.18),
                0px 4px 10px rgba(0, 0, 0, 0.14),
                0px 0px 1px rgba(0, 0, 0, 0.10);
+}
+
+[data-scheme="dark"] .article-content a {
+  color: #93c5fd;
 }
 
 /* Typography: heading line-heights and vertical rhythm */

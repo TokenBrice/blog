@@ -20,7 +20,7 @@
                    href="{{ .url }}"
                    target="_blank"
                    rel="noopener"
-                   aria-label="{{ T "projectsBannerLabel" }}: {{ .name }} — {{ $tagline }}">
+                   aria-label="{{ .name }} — {{ $tagline }} ({{ T "projectsBannerLabel" }})">
                     <picture class="projects-banner__picture">
                         {{- with .emblem_webp }}
                         <source srcset="{{ . | relURL }}" type="image/webp">
