@@ -32,6 +32,12 @@ languages:
 pagination:
     pagerSize: 10
 
+# Keep localized sitemaps explicit and avoid mixed-root interpretation across locales.
+sitemap:
+    filename: sitemap.xml
+    changefreq: monthly
+    priority: 0.5
+
 outputs:
     home:
         - HTML
@@ -121,8 +127,8 @@ params:
     defaultImage:
         opengraph:
             enabled: true
-            local: false
-            src:
+            local: true
+            src: img/main/og-default-1200x630.png
 
     colorScheme:
         # Display toggle

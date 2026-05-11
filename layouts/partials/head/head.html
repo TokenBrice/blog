@@ -1,11 +1,24 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-{{- $description := partialCached "data/description" . .RelPermalink -}}
-<meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
-{{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+    {{- $description := partialCached "data/description" . .RelPermalink -}}
+    <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
+    {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+    {{- $isNoIndex := false -}}
+    {{- if or
+        (eq .Kind "term")
+        (eq .Kind "taxonomy")
+        (eq .Type "search")
+        (hasPrefix .RelPermalink "/search/")
+        (hasPrefix .RelPermalink "/fr/search/")
+        (strings.Contains .RelPermalink "/page/") -}}
+        {{- $isNoIndex = true -}}
+    {{- end }}
+    {{- if $isNoIndex }}
+    <meta name="robots" content="noindex,follow">
+    {{- end }}
 
-{{- $title := partial "data/title" . -}}
+    {{- $title := partial "data/title" . -}}
 <title>{{ $title }}</title>
 
 {{ if .Params.canonicalUrl -}}

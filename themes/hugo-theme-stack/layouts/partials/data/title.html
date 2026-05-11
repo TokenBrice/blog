@@ -2,7 +2,7 @@
 {{- $siteTitle := .Site.Title -}}
 
 {{- if .IsHome -}}
-    <!-- Homepage, and it's pagination -->
+    {{/* Homepage, and it's pagination */}}
 
     <!-- Build paginator -->
     {{ $pages := where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
@@ -11,28 +11,36 @@
     {{ $pag := .Paginate ($filtered) }}
 
     {{ if .Paginator.HasPrev }}
-        <!-- Paginated. Append page number to title -->
-        {{ $title = printf "%s - %s" .Paginator $siteTitle }}
+        {{/* Paginated. Append page number to title */}}
+        {{ $title = printf "%s | %s" .Paginator $siteTitle }}
     {{ else }}
-        {{ $title = $siteTitle}}
+        {{ $title = $siteTitle }}
     {{ end }}
+
 {{- else if eq .Kind "term" -}}
-    <!-- Taxonomy page -->
+    {{/* Taxonomy term page */}}
 
-    <!-- Build paginator -->
-    {{ $notHidden := where .Pages "Params.hidden" "!=" true }}
-    {{ $pag := .Paginate ($notHidden) }}
+    {{/* {TAXONOMY_TYPE}: {TAXONOMY_TERM} */}}
+    {{ $title = printf "%s: %s" (title .Data.Singular) $title }}
 
-    <!-- {TAXONOMY_TYPE}: {TAXONOMY_TERM} -->
-    {{ $title = slice (title .Data.Singular) ": " $title }}
+    {{ $title = printf "%s | %s" $title $siteTitle }}
 
-    {{ if .Paginator.HasPrev }}
-        <!-- Add page number-->
-        {{ $title = $title | append " - " .Paginator }}
-    {{ end }} 
+{{- else if eq .Kind "taxonomy" -}}
+    {{/* Taxonomy listing page */}}
+    {{ $title = .Title }}
+    {{ $title = printf "%s | %s" $title $siteTitle }}
 
-    {{ $title = $title | append " - " $siteTitle }}
-    {{ $title = delimit $title "" }}
+{{- else if and (eq .Type "glossary") (eq .Kind "section") -}}
+    {{/* Glossary listing */}}
+    {{ $title = printf "%s | %s" $title $siteTitle }}
+
+{{- else if and (eq .Type "glossary") (eq .Kind "page") -}}
+    {{/* Glossary term page */}}
+    {{ $title = printf "%s | %s | %s" $title (T "glossaryTitle") $siteTitle }}
+
+{{- else if ne $title $siteTitle -}}
+    {{/* Default content pages */}}
+    {{ $title = printf "%s | %s" $title $siteTitle }}
 {{- end -}}
 
 {{ return $title }}
