@@ -26,7 +26,7 @@
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
 
-                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Fill "120x120" -}}
                         {{- $Permalink = $thumbnail.RelPermalink -}}
                         {{- $Width = $thumbnail.Width -}}
@@ -39,7 +39,11 @@
                         alt="{{ .Title }}"
                         loading="lazy">
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    <img src="{{ $image.permalink }}"
+                        width="120"
+                        height="120"
+                        loading="lazy"
+                        alt="Featured image of post {{ .Title }}" />
                 {{ end }}
             </div>
         {{ end }}

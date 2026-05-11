@@ -1,7 +1,14 @@
 <div class="article-details">
-    {{ if .Params.categories }}
+{{- $context := . -}}
+{{- $isSummary := false -}}
+{{- if reflect.IsMap . -}}
+    {{- $context = .context -}}
+    {{- $scope := .scope | default "" -}}
+    {{- $isSummary = or (.isSummary | default false) (eq $scope "categories") (eq $scope "tags") -}}
+{{- end }}
+    {{ if $context.Params.categories }}
     <header class="article-category">
-        {{ range (.GetTerms "categories") }}
+        {{ range ($context.GetTerms "categories") }}
             <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
                 {{ .LinkTitle }}
             </a>
@@ -11,21 +18,35 @@
 
 
     <div class="article-title-wrapper">
+        {{- if $isSummary }}
+        <h2 class="article-title">
+            <a href="{{ $context.RelPermalink }}">
+                {{- $context.Title -}}
+            </a>
+        </h2>
+        {{- else }}
         <h1 class="article-title">
-            <a href="{{ .RelPermalink }}">
-                {{- .Title -}}
+            <a href="{{ $context.RelPermalink }}">
+                {{- $context.Title -}}
             </a>
         </h1>
+        {{- end }}
     
-        {{ with .Params.description }}
-        <h3 class="article-subtitle">
+        {{ with $context.Params.description }}
+        {{ if $isSummary }}
+        <p class="article-subtitle">
             {{ . }}
-        </h3>
+        </p>
+        {{- else }}
+        <p class="article-subtitle">
+            {{ . }}
+        </p>
+        {{- end }}
         {{ end }}
     </div>
 
-    {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
-    {{ $showDate := not .Date.IsZero }}
+    {{ $showReadingTime := $context.Params.readingTime | default ($context.Site.Params.article.readingTime) }}
+    {{ $showDate := not $context.Date.IsZero }}
     {{ $showFooter := or $showDate $showReadingTime }}
     {{ if $showFooter }}
     <footer class="article-time">
@@ -33,7 +54,7 @@
             <div>
                 {{ partial "helper/icon" "date" }}
                 <time class="article-time--published">
-                    {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                    {{- $context.Date | time.Format (or $context.Site.Params.dateFormat.published "Jan 02, 2006") -}}
                 </time>
             </div>
         {{ end }}
@@ -42,13 +63,13 @@
             <div>
                 {{ partial "helper/icon" "clock" }}
                 <time class="article-time--reading">
-                    {{ T "article.readingTime" .ReadingTime }}
+                    {{ T "article.readingTime" $context.ReadingTime }}
                 </time>
             </div>
         {{ end }}
 
         {{/* NEW: Show difficulty in footer too for lists */}}
-        {{ with .Params.difficulty }}
+        {{ with $context.Params.difficulty }}
             <div class="article-difficulty-footer">
                 <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
                 <span class="difficulty-text">{{ . | title }}</span>
@@ -57,11 +78,11 @@
     </footer>
     {{ end }}
 
-    {{ if .IsTranslated }}
+    {{ if $context.IsTranslated }}
         <footer class="article-translations">
             {{ partial "helper/icon" "language" }}
             <div>
-                {{ range .Translations }}
+                {{ range $context.Translations }}
                     <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
                 {{ end }}
             </div>

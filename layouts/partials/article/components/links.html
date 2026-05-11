@@ -1,0 +1,46 @@
+<div class="article-list--compact links">
+    {{- $page := . -}}
+    {{- range $i, $link := .Params.links }}
+        <article>
+            <a href="{{ $link.website }}" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">
+                        {{- $link.title -}}
+                    </h2>
+                    <footer class="article-time">
+                        {{ with $link.description }}
+                            {{ . }}
+                        {{ else }}
+                            {{ $link.website }}
+                        {{ end }}
+                    </footer>
+                </div>
+
+                {{- with $link.image }}
+                    {{- $permalink := . -}}
+                    {{- $imageWidth := 120 -}}
+                    {{- $imageHeight := 120 -}}
+                    {{- if $resource := $page.Resources.GetMatch (printf "%s" (. | safeURL)) }}
+                        {{- $permalink = $resource.RelPermalink -}}
+                        {{- $imageWidth = $resource.Width -}}
+                        {{- $imageHeight = $resource.Height -}}
+                        {{- if (default true $page.Site.Params.imageProcessing.cover.enabled) }}
+                            {{- $thumbnail := $resource.Fill "120x120" -}}
+                            {{- $permalink = $thumbnail.RelPermalink -}}
+                            {{- $imageWidth = $thumbnail.Width -}}
+                            {{- $imageHeight = $thumbnail.Height -}}
+                        {{- end -}}
+                    {{- end }}
+                    <div class="article-image">
+                        <img src="{{ $permalink }}"
+                            width="{{ $imageWidth }}"
+                            height="{{ $imageHeight }}"
+                            loading="lazy"
+                            alt="{{ $link.title | plainify }}"
+                        >
+                    </div>
+                {{- end }}
+            </a>
+        </article>
+    {{- end }}
+</div>

@@ -38,7 +38,11 @@
                             loading="lazy"
                             alt="{{ .Title }}">
                     {{ else }}
-                        <img src="{{ $image.permalink }}" loading="lazy" alt="{{ .Title }}" />
+                        <img src="{{ $image.permalink }}"
+                            width="1200"
+                            height="675"
+                            loading="lazy"
+                            alt="{{ .Title }}" />
                     {{ end }}
                 </div>
             {{ end }}

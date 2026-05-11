@@ -1,15 +1,21 @@
 <header class="article-header">
-    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+{{- $context := . -}}
+{{- $isSummary := false -}}
+{{- if reflect.IsMap . -}}
+    {{- $context = .context -}}
+    {{- $isSummary = .isSummary | default false -}}
+{{- end }}
+    {{- $image := partialCached "helper/image" (dict "Context" $context "Type" "article") $context.RelPermalink "article" -}}
     {{ if $image.exists }}
         <div class="article-image">
-            <a href="{{ .RelPermalink }}">
+            <a href="{{ $context.RelPermalink }}">
                 {{ if $image.resource }}
                     {{- $Permalink := $image.resource.RelPermalink -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
 
-                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                    {{- if (default true $context.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Resize "800x" -}}
                         {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
                         {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
@@ -18,13 +24,13 @@
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
 
-                    <img src="{{ $Permalink }}"
-                        {{ with $Srcset }}srcset="{{ . }}"{{ end }}
-                        width="{{ $Width }}"
-                        height="{{ $Height }}"
-                        loading="eager"
-                        fetchpriority="high"
-                        alt="Featured image of post {{ .Title }}" />
+                        <img src="{{ $Permalink }}"
+                            {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+                            width="{{ $Width }}"
+                            height="{{ $Height }}"
+                            loading="eager"
+                            fetchpriority="high"
+                            alt="Featured image of post {{ $context.Title }}" />
                 {{ else }}
                     {{- $permalink := $image.permalink -}}
                     {{- $ext := path.Ext $permalink | lower -}}
@@ -32,17 +38,38 @@
                     {{- $isExternal := or (hasPrefix $permalink "http://") (hasPrefix $permalink "https://") -}}
                     {{- if and $isConvertible (not $isExternal) -}}
                         {{- $webpSrc := printf "%s.webp" (strings.TrimSuffix $ext $permalink) -}}
-                        <picture>
-                            <source srcset="{{ $webpSrc }}" type="image/webp">
-                            <img src="{{ $permalink }}" loading="eager" fetchpriority="high" alt="Featured image of post {{ .Title }}" />
-                        </picture>
+                        {{- $webpPath := printf "static%s" $webpSrc -}}
+                        {{- $useWebP := fileExists $webpPath -}}
+                        {{- if $useWebP }}
+                            <picture>
+                                <source srcset="{{ $webpSrc }}" type="image/webp">
+                                    <img src="{{ $permalink }}"
+                                        width="1200"
+                                        height="675"
+                                        loading="eager"
+                                        fetchpriority="high"
+                                        alt="Featured image of post {{ $context.Title }}" />
+                            </picture>
+                        {{- else }}
+                            <img src="{{ $permalink }}"
+                                width="1200"
+                                height="675"
+                                loading="eager"
+                                fetchpriority="high"
+                                alt="Featured image of post {{ $context.Title }}" />
+                        {{- end }}
                     {{- else -}}
-                        <img src="{{ $permalink }}" loading="eager" fetchpriority="high" alt="Featured image of post {{ .Title }}" />
+                        <img src="{{ $permalink }}"
+                            width="1200"
+                            height="675"
+                            loading="eager"
+                            fetchpriority="high"
+                            alt="Featured image of post {{ $context.Title }}" />
                     {{- end -}}
                 {{ end }}
             </a>
         </div>
     {{ end }}
 
-    {{ partialCached "article/components/details" . .RelPermalink }}
+    {{ partialCached "article/components/details" (dict "context" $context "isSummary" $isSummary) (printf "%s|summary=%t" $context.RelPermalink $isSummary) }}
 </header>
