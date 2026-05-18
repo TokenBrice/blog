@@ -1,6 +1,6 @@
 ---
 title: "Intermediate Articles"
-description: "Articles for those with basic DeFi understanding - some prior knowledge helpful"
+description: "Intermediate DeFi articles for readers who know the basics and want deeper protocol, strategy, and risk analysis."
 layout: "difficulty-list"
 difficulty_filter: "intermediate"
 ---

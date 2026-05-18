@@ -1,6 +1,6 @@
 ---
 title: "Tutoriel"
-description: "Guides étape par étape et contenu éducatif pour naviguer les protocoles DeFi"
+description: "Tutoriels DeFi pas a pas pour comprendre les protocoles, strategies, outils et workflows utiles au quotidien."
 slug: "tutorial"
 image: "tutorial.jpg"
 style:

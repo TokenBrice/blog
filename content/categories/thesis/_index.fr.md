@@ -1,6 +1,6 @@
 ---
 title: "Thesis"
-description: "Où je développe des concepts transversaux non spécifiques à un protocole."
+description: "Theses longues sur la DeFi: design de protocoles, gouvernance, liquidite, risques, decentralisation et trajectoire du secteur."
 slug: "Thesis"
 image: "thesis.jpg"
 style:

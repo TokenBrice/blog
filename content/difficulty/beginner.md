@@ -1,6 +1,6 @@
 ---
 title: "Beginner Articles"
-description: "Articles suitable for those new to DeFi - no prior knowledge required"
+description: "Beginner-friendly DeFi articles that explain core concepts, tools, and risks without assuming deep protocol knowledge."
 layout: "difficulty-list"
 difficulty_filter: "beginner"
 ---

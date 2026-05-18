@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "To discuss projects I'm involved with in DeFi"
+description: "Projects, tools, public goods, and protocols I build or support in DeFi, with context on goals, tradeoffs, and usage."
 slug: "Projects"
 image: "projects.jpg"
 style:

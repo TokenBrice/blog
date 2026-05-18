@@ -1,6 +1,6 @@
 ---
 title: "Thesis"
-description: "To develop key tranversal ideas not tied to a given protocol"
+description: "Long-form DeFi theses on protocol design, governance, liquidity, risk, decentralization, and where the ecosystem is heading."
 slug: "Thesis"
 image: "thesis.jpg"
 style:
