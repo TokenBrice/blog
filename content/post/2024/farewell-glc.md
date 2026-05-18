@@ -3,12 +3,13 @@ title: "Farewell to the GHO Liquidity Committee and reflections on the rise of D
 description: "I've resigned from the GHO Liquidity Committee - this post explains why and reflect on the core challenges observed in DeFi's governance and committees"
 date: '2024-02-08T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
+tags: [DeFi, Ethereum, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
+image: /img/2024/farewell-glc/gov-typing.png
 url: farewell-glc
 difficulty: "intermediate"
 ---
 
-I’ve resigned from the GHO Liquidity Committee and would like, in this blog post, to share more context on its adventures and the learning we can draw from it. 
+I’ve resigned from the GHO Liquidity Committee and would like, in this blog post, to share more context on its adventures and the learning we can draw from it.
 
 * [Onchain message from tokenbrice.eth](https://etherscan.io/verifySig/35543)
 * [Signer removal transaction](https://etherscan.io/tx/0x39760c8cd33beba102cbcb6a3c50489a24b1a50d8290de7c42c09845cf814dba)
@@ -33,7 +34,7 @@ Let’s illustrate: regarding liquidity, the word on the street is that Curve is
 So what’s happening there? Quite a few things, and it’s not the main course on today’s menu, just the appetizer, so I’ll go over this quickly:
 
 1. **Most projects have no one internally competent with liquidity**, so they often do random wastes like these. Many prominent DeFi projects recognized for the liquidity games are big spenders but not exactly savvy.
-2. **The Curve Wars have been a meme for a while**: there have been no genuine new entrants in these wars for ages – simply because it’s not worth it financially for most players, especially those without ties to the Curve ecosystem. Moreover, the liquidity structures available on Curve (stableswap and V2) are suboptimal compared to Uniswap or Maverick for many very common types of DeFi tokens – LSDs, LRTs, loosely pegged stablecoins, and liquid wrappers. You can confidently mark any protocol outputting a token of this type building liquidity primarily on Curve as inapt in liquidity management.
+2. **The Curve Wars have been a meme for a while**: there have been no genuine new entrants in these wars for ages – simply because it’s not worth it financially for most players, especially those without ties to the Curve ecosystem. Moreover, the liquidity structures available on Curve (stableswap and V2) are suboptimal compared to Uniswap or Maverick for many very common types of DeFi tokens – LSDs, LRTs, loosely pegged Stablecoins, and liquid wrappers. You can confidently mark any protocol outputting a token of this type building liquidity primarily on Curve as inapt in liquidity management.
 3. What you are left with are **“insider protocols,”** teams building on top of the Curve ecosystem who usually own sizeable veCRV/vlCVX positions, allowing them to recoup a large share of their bribes (1. Own veCRV/vlCVX ⇒ 2. Post a bribe ⇒ 3. Vote on the pool you just bribed ⇒ 4. Collect and repeat next round). This tactic manipulates public perception into thinking that real money is being spent on these Curve wars. Some of these now insiders are originally external protocols, such as Inverse or Alchemix, which decided to kiss the llama ring for the better and the worse.
 
 Don’t take my word for it; simply look at the top spenders: Frax, Convex, Alchemix, CLever (Aladin), Prisma, Conic, Inverse, etc. **To make it easy to visualize, here are the top spenders of the last round, ranked by amount spent, with the insider protocols highlighted in red**:
@@ -42,7 +43,7 @@ Don’t take my word for it; simply look at the top spenders: Frax, Convex, Alch
 ![curve-bribes](img/2024/farewell-glc/top-bribers.png "Top bribes in Votium CRV epoch 62")
 
 
-Enough with Curve, llamas already hate me; I just wanted to highlight the example of Curve, “the king of liquidity,” being a poorly efficient venue to build and sustain liquidity. Curve, “maker or breaker of stablecoins,” as the DEX with arguably subpar liquidity structures for most stablecoin pools: **Newspeak arrived in DeFi, and public perception/words used are often entirely at odds with the onchain observable reality**. Sadly, a similar pattern has been observed with the GHO Liquidity Committee, today's topic, so let’s get to it.
+Enough with Curve, llamas already hate me; I just wanted to highlight the example of Curve, “the king of liquidity,” being a poorly efficient venue to build and sustain liquidity. Curve, “maker or breaker of Stablecoins,” as the DEX with arguably subpar liquidity structures for most stablecoin pools: **Newspeak arrived in DeFi, and public perception/words used are often entirely at odds with the onchain observable reality**. Sadly, a similar pattern has been observed with the GHO Liquidity Committee, today's topic, so let’s get to it.
 
 
 ## The case of the GHO Liquidity Committee
@@ -75,7 +76,7 @@ Example: Mobilizing the CRV of the committee as sdCRV, a subpar option at the te
 ⇒ The scope of any appointed committee must be clearly defined – and the committee should be able and willing to challenge decisions previously enacted by governance on its matter of expertise.
 {{< /notice >}}
 
-### What “professionalism” means in DeFi newspeak 
+### What “professionalism” means in DeFi newspeak
 
 Participants in groups such as the GHO Liquidity Committee are expected to be “professionals” — you, dear readers, and I would understand by that: master of their topic, accurate, always trying to serve the committee's purpose, and available for their mission.
 
@@ -88,7 +89,7 @@ But we’re misplaced, as in DeFi newspeak, “professionalism” has an entirel
 * Demonstrate, by their onchain initiatives and the communication they share in private groups, an approximate, if not missing, understanding of the topic of their expertise.
 
 {{< notice note >}}
-⇒ Participants in governance should learn how to place their trust better. Thanks to their existing platforms, the most publicly visible figures are usually selected when committees are elected. 
+⇒ Participants in governance should learn how to place their trust better. Thanks to their existing platforms, the most publicly visible figures are usually selected when committees are elected.
 {{< /notice >}}
 
 My presence in this committee was an oddity that emerged out of necessity, as governance knew that a deep understanding of liquidity shaping, especially Maverick, was needed to give the GLC the best chances of success. Many actual experts hanging around governance forums and Discords remain powerless despite their knowledge and good intentions simply because they are not well-known figures in DeFi.

@@ -2,8 +2,11 @@
 title: "Les forks de Yearn Finance : présentation de la famille des Waifus"
 description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de nombreux projets qui l'ont forké. Cet article le tour des forks de YFI les plus pertinents."
 date: '2020-09-18T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, Harvest Finance]
+tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
+series: yearn
+series_order: 3
 image: /img/2020/yearn-waifus/cover.jpg
 difficulty: "intermediate"
 url: yearn-finance-forks
@@ -16,12 +19,12 @@ Yearn est plus que le produit Yearn.Finance lui-même : il est devenu un modèle
 
 1. **Distribution via liquidity mining** : la distribution initiale du token de la plateforme (ex : YFI) se fait par le biais de liquidity mining. Les supporters peuvent staker des tokens comme yCRV pour gagner le token de gouvernance de la nouvelle platforme.
 2. **Développement communautaire** : les décisions concernant le développement du projet sont prises par la communauté des détenteurs de tokens, par le biais de votes informels et formels (on chain).
-3. **Stratégies d'investissement tokénisées (Vaults)** : les projets inspirés par Yearn tentent généralement de reproduire cette caractéristique essentielle de Yearn - ils proposent des stratégies d'investissement tokenisées. Les vaults sont essentiels pour le succès à long terme du projet après la phase initiale d'extraction des liquidités. 
+3. **Stratégies d'investissement tokénisées (Vaults)** : les projets inspirés par Yearn tentent généralement de reproduire cette caractéristique essentielle de Yearn - ils proposent des stratégies d'investissement tokenisées. Les vaults sont essentiels pour le succès à long terme du projet après la phase initiale d'extraction des liquidités.
 
 {{< notice tip >}}
 Le terme "Vault" est utilisé pour couvrir deux réalités très différentes :
 1. **"Les vault simples"**, où des tokens sont déposés pour produire un rendement. (Pas de levier)
-2. **"Les Delegated Vaults "**, où une fois les tokens déposés, ils sont utilisés comme garantie (grâce à la délégation de crédit) pour emprunter des stablecoins qui sont ensuite utilisés pour produire un rendement.
+2. **"Les Delegated Vaults "**, où une fois les tokens déposés, ils sont utilisés comme garantie (grâce à la délégation de crédit) pour emprunter des Stablecoins qui sont ensuite utilisés pour produire un rendement.
 
 Les vaults délégués sont beaucoup plus complexes à développer et à mettre en œuvre, tandis que les vaults basiques peuvent être développés plus rapidement.
 {{< /notice >}}
@@ -48,7 +51,7 @@ Au-delà de cette différenciation, YFII développe un angle intéressant avec u
 
 [Vous pouvez consulter les statistiques ici](https://stats.dfi.money/).
 
-Le 14 septembre, [DFI.Money a lancé la version 2 de ses vaults](https://twitter.com/DfiMoney/status/1305339433638531072?s=20), qui accepte l'ETH, l'USDC, l'USDT, le DAI, le TUSD, le BUSD, le HBTC et l'yCRV. Au moment de la rédaction de ce document, un total de 70 millions de dollars a été déposé dans les vaults de DFI. 
+Le 14 septembre, [DFI.Money a lancé la version 2 de ses vaults](https://twitter.com/DfiMoney/status/1305339433638531072?s=20), qui accepte l'ETH, l'USDC, l'USDT, le DAI, le TUSD, le BUSD, le HBTC et l'yCRV. Au moment de la rédaction de ce document, un total de 70 millions de dollars a été déposé dans les vaults de DFI.
 
 {{< notice info >}}
 Cet article n'est pas un aperçu exhaustif des forks de YFI. Il existe d'autres forks de Yearn avec des changements minimes qui ne sont pas couverts dans cet article, comme le YFFI.
@@ -58,11 +61,11 @@ Cet article n'est pas un aperçu exhaustif des forks de YFI. Il existe d'autres 
 
 YFL est un autre des premiers forks de YFI. Ici, le changement est simple: **LINK a été utilisé comme le token de base du système** - celui à déposer pour la phase initiale d'extraction des liquidités. La structure des pools  était similaire à celle de YFI/YFII, mais avec LINK/aLINK.
 
-L'objectif initial était de créer une coopérative d'investissement pour les détenteurs de LINK. YFL a été développé par 5 équipes anonymes travaillant ensemble et a été publié initialement le 7 août 2020. 
+L'objectif initial était de créer une coopérative d'investissement pour les détenteurs de LINK. YFL a été développé par 5 équipes anonymes travaillant ensemble et a été publié initialement le 7 août 2020.
 
 ![YFL LinkSwap](/img/2020/yearn-waifus/Linkswap.png)
 
-La croissance a été rapide et le plan s'est rapidement affiné ! [YFLink travaille actuellement sur le LINKSwap](https://medium.com/@linkswapco/yf-link-ecosystem-linkswap-development-update-44f8413721c9), un créateur de marché automatisé (AMM) géré par la communauté, qui se concentre sur la sécurité et l'accumulation de valeur pour les détenteurs de LINK. 
+La croissance a été rapide et le plan s'est rapidement affiné ! [YFLink travaille actuellement sur le LINKSwap](https://medium.com/@linkswapco/yf-link-ecosystem-linkswap-development-update-44f8413721c9), un créateur de marché automatisé (AMM) géré par la communauté, qui se concentre sur la sécurité et l'accumulation de valeur pour les détenteurs de LINK.
 
 LINKSwap explore de nouvelles idées pour accroître la sécurité des investisseurs - par exemple, la fonction RugLock, conçue pour éviter les "Rug Pull"" - lorsque les créateurs du token vident les réserves de liquidités, laissant les détenteurs avec des beaucoup des tokens qui ne valent plus rien.
 
@@ -70,7 +73,7 @@ LINKSwap explore de nouvelles idées pour accroître la sécurité des investiss
 
 YFValue ajoute plusieurs autres éléments, dans le même but de fournir un service facilitant l'investissement dans la DeFi et le rendant plus accessible.
 
-Ici, les pools étaient principalement composées à 98% ERC20-token / 2% de pools YFV Balancer et le calendrier des émissions est beaucoup plus long (5 à 20 semaines) - il est toujours en cours alors que [YFV a été lancé mi-août.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) Il existe également une "seed pool" acceptant les stablecoins.
+Ici, les pools étaient principalement composées à 98% ERC20-token / 2% de pools YFV Balancer et le calendrier des émissions est beaucoup plus long (5 à 20 semaines) - il est toujours en cours alors que [YFV a été lancé mi-août.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) Il existe également une "seed pool" acceptant les Stablecoins.
 
 YFV a été l'un des premiers projets à offrir des possibilités de gains crédibles sur des tokens tels que BAL, YFI, BAT, REN, KNC, BTC, WETH ou LINK : cela a vraiment contribué à attirer des liquidités - il y a environ 470 millions de dollars déposés sur YFV au moment où j'écris ces lignes.
 
@@ -84,7 +87,7 @@ Le produit principal de YFV, la Governance Vault, vient d'être [lancé le 15 se
 4. Les tokens YFV gagnés grâce à la stratégie mise en œuvre avec les fonds du Governance Vault.
 5. Les tokens d'YFV ont été obtenus en rachetant YFV avec 6,8 % des bénéfices réalisés avec les autres vaults.
 
-YFV est un projet très ambitieux. Les vaults (wETH, wBTC, renBTC) sont attendus sous peu. En plus des fermes et de la structure de gouvernance existantes, l'équipe travaille à la transition vers une collaboration AMM appelée Value Liquid. 
+YFV est un projet très ambitieux. Les vaults (wETH, wBTC, renBTC) sont attendus sous peu. En plus des fermes et de la structure de gouvernance existantes, l'équipe travaille à la transition vers une collaboration AMM appelée Value Liquid.
 
 {{< notice note >}}
 YFValue est en train de passer à VALUE (token) et Value Liquid (nom du service). Vous trouverez [plus d'informations sur ce changement de marque et cette transition ici](https://medium.com/@yfv.finance/faq-yfv-and-value-migration-af3a5a5c2190).

@@ -1,33 +1,33 @@
 ---
 title: Respecting Users Privacy - The oddity that must become a standard
 description: >-
-  Where did our online privacy go? It disappeared down the Google-Apple-Facebook
+  Where did our online Privacy go? It disappeared down the Google-Apple-Facebook
   flush. A read to put you on tracks to win it back.
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis, Privacy]
-tags: [facebook, google, ad model, privacy]
-image: /img/2018/user-privacy/cover.jpeg
-url: users-privacy
+tags: [facebook, google, ad model, Privacy]
+image: /img/2018/user-Privacy/cover.jpeg
+url: users-Privacy
 difficulty: "beginner"
 ---
 
-In 2018, respecting your users’ privacy should be easy, right? After the revelations made by Snowden about the NSA practices and all other that followed, web hosting providers and other services changed their practices, right? That’s what we thought — and the illusion didn’t last for long. Today we take you on a little data tour: who’s collecting them, how, and for what?
+In 2018, respecting your users’ Privacy should be easy, right? After the revelations made by Snowden about the NSA practices and all other that followed, web hosting providers and other services changed their practices, right? That’s what we thought — and the illusion didn’t last for long. Today we take you on a little data tour: who’s collecting them, how, and for what?
 
 ### SETTING UP THE CONTEXT
 
 You might know it; else we recommend you to read the manifesto — we recently launched a publication, EcoCrypto, that respects its users and their attention.
 
-Regarding their attention, that’s our issue. However, when it comes to respecting our users’ privacy, it’s much bigger than us: we must double check each third party service we use to ensure they’re not abusing our (and your) trust.
+Regarding their attention, that’s our issue. However, when it comes to respecting our users’ Privacy, it’s much bigger than us: we must double check each third party service we use to ensure they’re not abusing our (and your) trust.
 
-When we published the [manifesto](https://ecocrypto.fr/manifeste/), we realized **how little people knew about the systematized data harvest that happens online**. We decided to write an article to provide a comprehensive overview of the main tracking solution currently enforced pretty much everywhere on the web. At the end of the article, we propose two sets of recommendations. The first one is for everyone: the very basics on how to protect your privacy online. The second one is specific to webmasters: how to respect your users’ privacy.
+When we published the [manifesto](https://EcoCrypto.fr/manifeste/), we realized **how little people knew about the systematized data harvest that happens online**. We decided to write an article to provide a comprehensive overview of the main tracking solution currently enforced pretty much everywhere on the web. At the end of the article, we propose two sets of recommendations. The first one is for everyone: the very basics on how to protect your Privacy online. The second one is specific to webmasters: how to respect your users’ Privacy.
 
 ### THE TRACKER MANIA
 
-> **Each additional tracker is one more guest at the feast held on our privacy.**
+> **Each additional tracker is one more guest at the feast held on our Privacy.**
 
 Let’s start with the basics: what’s a tracker? Essentially, it’s a small script one can place on his/her website — it allows the different services used to collect data on the visitors, therefore enabling new services for the webmaster.
 
-A tracker is like a snitch for a third party — **each additional tracker is one more guest at the feast held on our privacy.**
+A tracker is like a snitch for a third party — **each additional tracker is one more guest at the feast held on our Privacy.**
 
 ### A SMALL DOZEN OF TRACKERS, THE MINIMUM?
 
@@ -48,15 +48,15 @@ Here is a little tracker-tour of a selection of the most visited websites in Fra
 
 _Note: The measure was made on July the 18th, on the Homepage of every website. Remember to disable any adblocker or script blocker to see all the trackers on a given website._
 
-![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](/img/2018/user-privacy/trackers.png)
+![Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**](/img/2018/user-Privacy/trackers.png)
 Elle.fr \[Weekly women magazine\] — **53 trackers**; Liberation.fr \[Daily newspaper\] — **40 trackers**
 
-Quite often, the people working on/for these websites don’t even know about the trackers. We reached out to French crypto publications to let them know about their privacy-intrusive practices. All said they were “surprised” to discover how extensive the net was. Some might say they were laughing at our face — you are the judges.
+Quite often, the people working on/for these websites don’t even know about the trackers. We reached out to French crypto publications to let them know about their Privacy-intrusive practices. All said they were “surprised” to discover how extensive the net was. Some might say they were laughing at our face — you are the judges.
 
 From this little visit to the horror gallery we can conclude two things:
 
-1.  The owners/webmasters of 99% of internet websites are apparently not even thinking about respecting their user privacy.
-2.  The users of these websites don’t know about the tracking and its consequences. Therefore, they don’t ask/push for practices that would be both cleaner and more respectful of their privacy.
+1.  The owners/webmasters of 99% of internet websites are apparently not even thinking about respecting their user Privacy.
+2.  The users of these websites don’t know about the tracking and its consequences. Therefore, they don’t ask/push for practices that would be both cleaner and more respectful of their Privacy.
 
 If there is any change coming up, it will come from the users: we need to be demanding and uncompromising. To do so, one must know what one is fighting against — let’s start a quick tour of some of the shadiest practices taking place in the online tracking world.
 
@@ -88,11 +88,11 @@ When we talked about advertising trackers, it was a rapid overview. Allow us to 
 *   All actions are not equal — a click can come from someone completely outside your main target or on the contrary from the potentially perfect customer
 *   Online advertising campaigns can be adjusted in real time and at any time.
 
-When the basics are clearly stated, it’s easy to understand that there is a choice to be made between privacy and online advertising. To optimize the online ads, one must collect more and more data to improve his/her targeting and avoid unnecessary expenses.
+When the basics are clearly stated, it’s easy to understand that there is a choice to be made between Privacy and online advertising. To optimize the online ads, one must collect more and more data to improve his/her targeting and avoid unnecessary expenses.
 
-![](/img/2018/user-privacy/privacy.jpeg)
+![](/img/2018/user-Privacy/Privacy.jpeg)
 
-Online media and social networks often get quite lyrical about their “fight to protect users’ privacy” — don’t let yourself be fooled. **All the most visited websites are big users of online advertising services and use many trackers: in short, they have no respect for their users’ privacy. Even worse: they are making money out of its violation.**
+Online media and social networks often get quite lyrical about their “fight to protect users’ Privacy” — don’t let yourself be fooled. **All the most visited websites are big users of online advertising services and use many trackers: in short, they have no respect for their users’ Privacy. Even worse: they are making money out of its violation.**
 
 ### THE SPY-PIXEL
 
@@ -102,7 +102,7 @@ On of the main interest for webmasters is that all the data collected will be av
 
 One of the problems with the Facebook’s pixel is the same as Google Analytics: since the pixel is now everywhere, Facebook is collecting data right at the source on most of the most visited websites.
 
-![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](/img/2018/user-privacy/pixel.png)
+![An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))](/img/2018/user-Privacy/pixel.png)
 An example of a retargeting scenario using Facebook (source: [Lyfe Marketing](https://www.lyfemarketing.com/spa-owners-facebook-customers/facebook-retargeting-example/))
 
 Besides, the pixel allows a specific kind of advertising campaigns called “retargeting”: the term refers to any ad where the targeting is made using the previous behavior of the prospects. A typical retargeting flow using Facebook (Pixel and Ads service) looks like that:
@@ -113,7 +113,7 @@ Besides, the pixel allows a specific kind of advertising campaigns called “ret
 
 ### THE LITTLE GIFTS DISCOVERED BY THE WAY
 
-Before we delve into our recommendations, let us examine a concrete example that tells a lot about the challenge it became to respect the privacy of your website users online.
+Before we delve into our recommendations, let us examine a concrete example that tells a lot about the challenge it became to respect the Privacy of your website users online.
 
 Ever heard of WordPress? It’s a framework (~engine) allowing you to create blogs and websites easily — this is what we use on EcoCrypto… for now.
 
@@ -123,19 +123,19 @@ Even better, users can go on gravatar.com, create their account and set their pr
 
 Except that the reality behind the gimmick is quite ugly. Gravatar uses the email to match its user with his/her profile picture. It means that **by default, anyone commenting on a Wordpress sees his/her email getting a free round-trip to Gravatar’s servers.** With the round trip, Gravatar can build a list of the users of every WordPress installation — still looking for that sweet custom profile pic?
 
-Many alternatives exist, and they can be set up in a few clicks, but since Gravatar is enabled on all installations, it’s still widely used. **The default installation, combined with the widespread ignorance of the practice allows Auttomatic (Gravatar’s developers) to stuff itself with the emails of its users unknowingly collected over the years.** _To go further, here’s_ [_an interesting read on Gravatar’s privacy issues._](https://meta.stackexchange.com/questions/44717/is-gravatar-a-privacy-risk)
+Many alternatives exist, and they can be set up in a few clicks, but since Gravatar is enabled on all installations, it’s still widely used. **The default installation, combined with the widespread ignorance of the practice allows Auttomatic (Gravatar’s developers) to stuff itself with the emails of its users unknowingly collected over the years.** _To go further, here’s_ [_an interesting read on Gravatar’s Privacy issues._](https://meta.stackexchange.com/questions/44717/is-gravatar-a-Privacy-risk)
 
-This kind of scenario repeats itself over and over again when it comes to privacy. Everyone agrees with and supports the concept, yet only a few really look into it. On the business side, the “respecting your users’ privacy” theme is nothing else than a potential communication topic: it’s rarely enforced at the software level.
+This kind of scenario repeats itself over and over again when it comes to Privacy. Everyone agrees with and supports the concept, yet only a few really look into it. On the business side, the “respecting your users’ Privacy” theme is nothing else than a potential communication topic: it’s rarely enforced at the software level.
 
 ### SO, WHAT CAN WE DO?
 
 We tried to stay concise and not delve too much into the technical details — we’ve omitted many practices, this article is not exhaustive at all. Dozens, probably hundreds of different tricks and mechanisms exist to track and spy on users online. Some are much more insidious and harder to counter than others, such as [fingerprinting.](https://panopticlick.eff.org/)
 
-What inspired this article is the surprisingly hard journey to set up a simple blog that respects its readers’ privacy. **We’ve left this topic to the experts, and because of that we are reaching a situation where violating the privacy is now the norm — and those who want to respect it struggle.** All of this happening while Apple, Google, Facebook and others are painting themselves as “privacy champion” in front of the general audience, while they are the first to systemize the very end of the idea of privacy. We should fight back, or maybe we should have ten years ago already? It’s never too late!
+What inspired this article is the surprisingly hard journey to set up a simple blog that respects its readers’ Privacy. **We’ve left this topic to the experts, and because of that we are reaching a situation where violating the Privacy is now the norm — and those who want to respect it struggle.** All of this happening while Apple, Google, Facebook and others are painting themselves as “Privacy champion” in front of the general audience, while they are the first to systemize the very end of the idea of Privacy. We should fight back, or maybe we should have ten years ago already? It’s never too late!
 
 ### TOOLBOX: THE BARE MINIMUM TO PROTECT YOUR PRIVACY
 
-The good news (there is one!) is that protecting your privacy necessitates that you block all the ads — as well as the script that detects if you have an adblocker or not. Stealth has a bright side!
+The good news (there is one!) is that protecting your Privacy necessitates that you block all the ads — as well as the script that detects if you have an adblocker or not. Stealth has a bright side!
 
 What follows is the bare minimum setup, you must go much further to be really covered, if ever possible:
 
@@ -146,8 +146,8 @@ For Chrome users, we recommend the [Nano Adblocker](https://chrome.google.com/we
 Note: Whatever adblocker you chose, don’t forget to enable the EasyList corresponding to your country. Here’s a demo GIF for the French list:
 
 <video autoplay loop muted playsinline>
-  <source src="/img/2018/user-privacy/adblock-fr.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/user-privacy/adblock-fr.gif">View GIF</a>
+  <source src="/img/2018/user-Privacy/adblock-fr.mp4" type="video/mp4">
+  Your browser does not support video. <a href="/img/2018/user-Privacy/adblock-fr.gif">View GIF</a>
 </video>
 
 You can try your setup by visiting any media website with the adblocker enabled; you’ll see a lot of free space! Insidious ads such as sponsored posts (“native advertising” as professionals call them) are not blocked — beware.
@@ -156,7 +156,7 @@ You can try your setup by visiting any media website with the adblocker enabled;
 
 Ads are only the start. Now we need to tackle the trackers. The good news is that there are very extensions to take care of this for you.
 
-![](/img/2018/user-privacy/privacy-badger.png)
+![](/img/2018/user-Privacy/Privacy-badger.png)
 
 Privacy Badger is developed by [the EFF — the Electronic Frontier Foundation](https://www.eff.org/about), a nonprofit that has been defending civil liberties in the digital word for years — it’s not enough to blindly trust them, but it does provide reassurance. You don’t need any specific setting, but you might want to have a look at the trackers list (by clicking on the extension icon) and disable those you don’t need. At the beginning of the article, we mentioned [Ghostery](https://www.ghostery.com/) — it also works quite well, and might be easier to use for some.
 
@@ -166,7 +166,7 @@ When you visit a website that uses HTTPS, the exchanges between your browser and
 
 #### ADDITIONAL NOTES ON PRIVACY TOOLS
 
-If you want to be even safer, use [Firefox](https://www.mozilla.org/fr/firefox/) instead of **Google** Chrome. If you’re looking for sensitive stuff online, [use TOR at least, it’s super easy to set up](https://www.torproject.org/projects/torbrowser.html.en). Finally, if you want to be a little safer, look for more sensitive stuff, or leak critical information please check [TAILS — an operating system (Linux based) made for privacy](https://tails.boum.org/). Before going to the dark side of the web, READ and document yourself.
+If you want to be even safer, use [Firefox](https://www.mozilla.org/fr/firefox/) instead of **Google** Chrome. If you’re looking for sensitive stuff online, [use TOR at least, it’s super easy to set up](https://www.torproject.org/projects/torbrowser.html.en). Finally, if you want to be a little safer, look for more sensitive stuff, or leak critical information please check [TAILS — an operating system (Linux based) made for Privacy](https://tails.boum.org/). Before going to the dark side of the web, READ and document yourself.
 
 To keep the article short-ish, we limited ourselves to three tools. **To really cover your digital steps, you’ll have to go much further.**
 
@@ -182,9 +182,9 @@ Depending on your hosting provider, setting up Matomo might be more or less acce
 
 The other actions you can undertake will depend on the services and framework you use. Rather than a list of tools, let us suggest a methodology:
 
-1.  **Third-party services minimization**: reduce to the very minimum the number of third-party services you use. Each new service is a potential risk both for your website [security](https://hackernoon.com/tagged/security) and for your users’ privacy. Even a decent, honest service can go rogue in a flash, and it won’t warn you about it.
+1.  **Third-party services minimization**: reduce to the very minimum the number of third-party services you use. Each new service is a potential risk both for your website [security](https://hackernoon.com/tagged/security) and for your users’ Privacy. Even a decent, honest service can go rogue in a flash, and it won’t warn you about it.
 2.  **Investigate any third-party service you do implement**: despite 1/, you’ll have to use some third-party services. Look into the developers of these services, their other products, the reviews. There might even be other people who audited their code and talked about it. Use open-source services whenever it’s possible.
-3.  **Forget about online advertising** on the main services (Social media, Google…) — you can’t reach cost-efficiency on these services without violating your users’ privacy.
-4.  **Ask for help!** More and more people are getting “privacy-fluent” and would be [happy to help](https://www.eff.org/) a well-intentioned webmaster to establish a decent setup.
+3.  **Forget about online advertising** on the main services (Social media, Google…) — you can’t reach cost-efficiency on these services without violating your users’ Privacy.
+4.  **Ask for help!** More and more people are getting “Privacy-fluent” and would be [happy to help](https://www.eff.org/) a well-intentioned webmaster to establish a decent setup.
 
-This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.
+This article is the translation of an original (French) [EcoCrypto.fr](https://EcoCrypto.fr) story.

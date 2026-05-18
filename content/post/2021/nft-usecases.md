@@ -1,7 +1,8 @@
 ---
-title: "Non-fungible tokens (NFTs): the weight and contribution of ascertainable history " 
+title: "Non-fungible tokens (NFTs): the weight and contribution of ascertainable history "
 description: "A walk through the world of NFTs to understand the value of provable digital scarcity and its contribution to community or artistic uses."
 date: '2021-04-09T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [NFT]
 tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
 toc: true
@@ -23,7 +24,7 @@ I'm not going to explain the basic features offered by NFTs. I published an arti
 
 Non-fungible tokens are like a new type of lego used to represent families of assets that share common attributes. They are extremely relevant for community-based uses or in video games but **NFTs offer much more**.
 
-{{< /notice >}} 
+{{< /notice >}}
 
 For example in DeFi, an inter-asset exchange on Curve involves a "receipt" NFT and more recently Uniswap is considering NFT tokens to represent liquidity provider positions (and their many parameters) for V3.
 
@@ -37,17 +38,17 @@ To understand collectibles and NFTs, I think it is essential to understand their
 
 I am convinced that at a primordial level NFTs are a direct response to a very human tendency: **we are all collectors**, in one way or another. Items usually collected require **trust in the issuer to be certain of rarity** (e.g. Pokemon card). NFTs allow assets with provable numerical rarity, which completely changes the parameters of the equation.
 
-Henceforth, **each work of art can become famous and its entire history is accessible to all and tamper-proof**. Where in classical art, only the history of the most famous pieces is told (by secondary sources), with NFTs each piece get the same treatment: its creation as well as each purchase or transfer are recorded on a public blockchain. They can be consulted (and verified) by everyone.
+Henceforth, **each work of art can become famous and its entire history is accessible to all and tamper-proof**. Where in classical art, only the history of the most famous pieces is told (by secondary sources), with NFTs each piece get the same treatment: its creation as well as each purchase or transfer are recorded on a public Blockchain. They can be consulted (and verified) by everyone.
 
 ### The weight of ascertainable history
 
 The story behind a work of art has always been an integral part of it. But with its incorporation directly into the object, without intermediation and therefore without the need to have a third person to tell it, we go to a much more interesting level. My views are still young on the subject, but I am convinced that **with this new tamper-proof interface to access the history of the object, comes a revaluation of it**.
 
-I'm testing this hypothesis with a artwork of which I write part of the history, **[the famous DeLorean 88MPH](https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:111850)**. By acquiring a quarter of the circulating total, that is progressively distributed to DeFi France / TokenBrice contributors, I simultaneously articulate these two overarching theses about NFTs: this iconic car becomes both a community tool and a social marker. It shows the belonging to a group, while allowing to prove one's involvement in it.
+I'm testing this hypothesis with a artwork of which I write part of the history, **[the famous DeLorean 88mph](https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:111850)**. By acquiring a quarter of the circulating total, that is progressively distributed to DeFi France / TokenBrice contributors, I simultaneously articulate these two overarching theses about NFTs: this iconic car becomes both a community tool and a social marker. It shows the belonging to a group, while allowing to prove one's involvement in it.
 
 It is too early to draw conclusions from this experiment but nevertheless the first results are encouraging: out of the 22 DeLos, 8 have been distributed. The best buyback offer is currently at 0.15 ETH, which is about 3x the initial purchase price (88 DAI) but none of the 8 people who received this NFT gave in. The Delo is still being traded though: one of them was just sold for 0.5 ETH.
 
-![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "The DeLorean 88MPH on Rarible")
+![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "The DeLorean 88mph on Rarible")
 
 For them, some of them at least, this NFT also has **a very personal story**. Indeed, it was the first digital object of its kind owned by several of the winners and the context of its acquisition quickly makes it a symbol: it was earned trough their hard work
 
@@ -95,7 +96,7 @@ The analysis of CryptoPunks allows us to understand many fundamental things to a
 
 ### Creation and sales services
 
-The easiest way to acquire your first NFTs is still to buy them. This is **far from being the only method,** as we will see below, but before that, let's have a quick look at **the main platforms and their modalities.** 
+The easiest way to acquire your first NFTs is still to buy them. This is **far from being the only method,** as we will see below, but before that, let's have a quick look at **the main platforms and their modalities.**
 
 The most commonly used site is probably [OpenSea](https://opensea.io/), which allows direct sales or auctions. [Rarible](https://rarible.com/) is another easily accessible and potentially more optimized option for creators to emerge. It is sometimes described as **the "Etsy" of NFTs.**
 
@@ -107,7 +108,7 @@ Each service comes with different modalities and sometimes different NFT types a
 
 One of the most obvious use cases for NFTs is of course video games. Almost everyone understands this immediately once the issue of provable digital scarcity is well understood.
 
-### A new level of persistence 
+### A new level of persistence
 
 Without NFT, a player can find himself fighting for days in an online game to get an item... that is not actualy his. It is sometimes so repetitive that the term "farming" is also used by players to describe their practice (a slightly different meaning from the DeFians' "farming").
 
@@ -151,7 +152,7 @@ For example, Meme was used to support a game with BadgerDAO. By depositing bBADG
 
 Other services use Meme with a similar approach : the YOP platform proposes to farm "tickets" of different rarities. They will potentially allow **access before the general public, once the service is available.** Here we find the community dimension of NFTs.
 
-88MPH is doing something similar **by offering NFTs to the biggest users of its new products a few weeks after their launch**. Holding such an NFT would also be an excellent criterion to target the most relevant users to test the new versions and participate more actively in the development of the project (purely an illustration on my part, there has been no official announcement in this sense to my knowledge).
+88mph is doing something similar **by offering NFTs to the biggest users of its new products a few weeks after their launch**. Holding such an NFT would also be an excellent criterion to target the most relevant users to test the new versions and participate more actively in the development of the project (purely an illustration on my part, there has been no official announcement in this sense to my knowledge).
 
 
 ---
@@ -202,7 +203,7 @@ I hope you enjoyed this introduction and learned something new. NFTs have been a
 **The footnotes help you to deepen different topics mentioned in the article:**
 
 [^1]: The artiste Beeple sold his artwork "Everydays : The First 5 000" for approximately $69M. Mainstream medias like [TheVerge](https://www.theverge.com/2021/3/11/22325054/beeple-christies-nft-sale-cost-everydays-69-million), le [NYTimes](https://www.nytimes.com/2021/03/11/arts/design/nft-auction-christies-beeple.html) or [Bloomberg](https://www.bloomberg.com/news/articles/2021-03-11/beeple-everydays-nft-sells-at-art-auction-for-60-million-paid-in-ether) covered the event.
-[^2]: [This article](https://www.artnome.com/news/2019/4/08/autoglyphs-generative-art-born-on-the-blockchain) will help you learn more about CryptoPunks and the approach of the team behind (LarvaLabs).
+[^2]: [This article](https://www.artnome.com/news/2019/4/08/autoglyphs-generative-art-born-on-the-Blockchain) will help you learn more about CryptoPunks and the approach of the team behind (LarvaLabs).
 [^3]: You can find the CryptoPunks types and all their attributes [here]( https://www.larvalabs.com/cryptopunks/attributes)
 [^4]: [NFTX](https://blog.nftx.org/cryptopunks-single-index-funds-now-also-on-sushiswap/) is one of pioneers in this field.
 [^5]: Just like in classic DeFi, several tools exist to follow your farming and the situation on the pools. The farm overview is very useful on [NiftyRank](https://niftyrank.com/meme-farms).

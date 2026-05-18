@@ -53,7 +53,7 @@ Pendant que j'y suis, laissez-moi aborder un autre mythe récurrent : **il n'est
 
 Avant de conclure, parlons de l'autre côté, celui des développeurs. L'expérience utilisateur des Dapps est évidemment un problème important - mais pourquoi en est-il ainsi ?
 
-Je pense qu'en tant qu'industrie, nous sommes encore assez timides vis-à-vis de nos utilisateurs. Nous voyons sans cesse des projets développés dans une tour d'ivoire, avant d'être révélés à une foule présumée par des créateurs encore naïfs, pleins d'espoir et de rêves voues à disparaître. 
+Je pense qu'en tant qu'industrie, nous sommes encore assez timides vis-à-vis de nos utilisateurs. Nous voyons sans cesse des projets développés dans une tour d'ivoire, avant d'être révélés à une foule présumée par des créateurs encore naïfs, pleins d'espoir et de rêves voues à disparaître.
 
 Si vous pensiez que la technologie était suffisante par elle-même, désolé : ce n'est que le début.
 

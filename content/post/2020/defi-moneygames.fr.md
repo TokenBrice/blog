@@ -2,6 +2,7 @@
 title: "🧭 DeFi Moneygames: Comment comprendre le risque et éviter les pertes ?"
 description: "Un peu de contexte sur les DeFi moneygames (YAM, PASTA, BASED, etc.) pour être en mesure de comprendre les risques encourus par les joueurs et comment les minimiser"
 date: '2020-08-26T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin]
 image: /img/2020/defi-moneygames/cover.png
@@ -54,7 +55,7 @@ Commençons par les rappels : **n'oubliez pas de prendre en compte les pris en g
 
 **Deuxièmement, n'achetez jamais un token d'un moneygame**. L'achat d'un tel token comporte un risque incroyable : vous êtes contre une armée de personnes qui les gagnent gratuitement et qui peuvent être impatientes de les vendre.
 
-Enfin, soyons un peu plus pratiques en examinant des exemples réels pour expliciter le scénario de risque de chaque type de pool : 
+Enfin, soyons un peu plus pratiques en examinant des exemples réels pour expliciter le scénario de risque de chaque type de pool :
 
 
 #### NIVEAU = 1 - STAKING BASIQUE - OK SI LE CODE EST SAFU
@@ -68,7 +69,7 @@ Au-delà de ce point (SAFU confirmé), le principal risque que vous prenez est q
 ![defi-moneygames-PASTA-deathloop](/img/2020/defi-moneygames/pasta-deathloop.png "La fin de PASTA a été assez abrupte.")
 
 
-#### NIVEAU = 2 - POOLS 98%/2% 
+#### NIVEAU = 2 - POOLS 98%/2%
 
 Ces pools sont généralement plus délicates, car elles impliquent de fournir des liquidités à sur un échange décentralisée. Souvent, elles sont fortement orientées vers un token solide et réputé : par exemple, le pool YFLink 98% aLINK / 2% YFL.
 
@@ -80,7 +81,7 @@ Ici, **vous êtes confrontés à un nouveau type de risque : les pertes imperman
 
 Ces pools sont les plus dangereuses. Je conseille à tous ceux qui ont besoin de conseils de les éviter tout simplement - le jeu est trop risqué pour être joué. Le pool PASTA yyCRV / PASTA Uniswap est un bon exemple de pourquoi.
 
-Disons-le comme ceci : si certains peuvent cultiver des PASTA essentiellement gratuitement en verrouillant quelques tokens DeFi - pourquoi ne pas les utiliser pour acquérir des yyCRV, la machine à faire de l'argent la plus puissante de l'industrie ? C'est précisément ce qui s'est passé. 
+Disons-le comme ceci : si certains peuvent cultiver des PASTA essentiellement gratuitement en verrouillant quelques tokens DeFi - pourquoi ne pas les utiliser pour acquérir des yyCRV, la machine à faire de l'argent la plus puissante de l'industrie ? C'est précisément ce qui s'est passé.
 
 Dès que le pool d'incitation a été lancé, les agriculteurs de PASTA ont fait un gros dumping pour réclamer ces précieux jetons yyCRV mis en vente. Pourquoi ne l'auraient-ils pas fait ? Le prix du PASTA a chuté d'environ 1 à 0,04 dollar, détruisant tout profit réalisé par ceux qui s'étaient engagés dans les pools, en plus de la perte de leur précieux yyCRV.
 
@@ -92,7 +93,7 @@ Qu'est-ce qui fait qu'un pool est considéré comme un pool de dumping ? **Perme
 
 Ne me croyez pas, je ne suis qu'un simple agriculteur - suivez une légende comme [DegenSpartan] (https://twitter.com/DegenSpartan/status/1296619171984232448?s=20) - il est assez gentil pour annoncer publiquement ses dumps (peu de temps) après qu'elles aient commencé.
 
-Bonne chance, et souvenez-vous d'une chose si vous venez de rejoindre l'espace : les moneygames se jouent contre d'autres utilisateurs expérimentés ayant potentiellement des années d'expérience en matière de crypto. 
+Bonne chance, et souvenez-vous d'une chose si vous venez de rejoindre l'espace : les moneygames se jouent contre d'autres utilisateurs expérimentés ayant potentiellement des années d'expérience en matière de crypto.
 
 {{< notice note >}}
 La plupart sont des jeux à somme nulle : aucune valeur n'est créée, c'est juste un mécanisme complexe de transfert de valeur à 3 ou 4 niveaux.
@@ -103,7 +104,7 @@ La plupart sont des jeux à somme nulle : aucune valeur n'est créée, c'est jus
 ---
 
 {{< notice info >}}
-Je ne suis pas un conseiller en investissement, quel que soit leur nature : vous prenez vos propres décisions. Je n'ai aucune formation classique et ne possède aucune certification reconnue en la matière. Je partage simplement mon expérience personnelle avec pour but de vous aider à mieux comprendre la finance décentralisée. 
+Je ne suis pas un conseiller en investissement, quel que soit leur nature : vous prenez vos propres décisions. Je n'ai aucune formation classique et ne possède aucune certification reconnue en la matière. Je partage simplement mon expérience personnelle avec pour but de vous aider à mieux comprendre la finance décentralisée.
 
 **Je ne suis pas responsable de <u>VOS DÉCISIONS D'INVESTISSEMENT</u>**, ni de leurs résultats. La phrase précédente s'applique tout aussi bien pour des lambos que votre potentielle banqueroute.
 {{< /notice >}}

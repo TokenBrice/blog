@@ -3,7 +3,7 @@ title: "DeFi’s UX Disaster: Curation Could Save Innovation"
 description: "Shining a light on DeFi’s dirty secret: the curation layer crisis - and what can we do to address it."
 date: '2025-03-08T01:13:50.191Z'
 categories: [Thesis]
-tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
+tags: [DeFi, Ethereum, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
@@ -30,18 +30,18 @@ This is a pretty dense flow involving:
 * USDC (application)
 * Jumper (application + curation), powered by Li.FI (infrastructure).
 
-Doing this “manually” would represent a hefty sequence of operations: 
+Doing this “manually” would represent a hefty sequence of operations:
 
 
 
 1. Approve wBTC on exchange
-2. Swap wBTC to USDC on mainnet 
+2. Swap wBTC to USDC on mainnet
 3. Approve USDC on bridge
 4. Bridge USDC from mainnet to optimism
 5. Approve USDC on Aave/Optimism
 6. Deposit USDC on Aave/Optimism
 
-Hurray! Here’s for the application layer working its magic! But I’d like to focus on another even more critical dimension here - the curation dimension of Jumper: 
+Hurray! Here’s for the application layer working its magic! But I’d like to focus on another even more critical dimension here - the curation dimension of Jumper:
 
 Jumper auto-detected the tokens I had in my wallet as soon as I connected, allowing me to find my wBTC quickly. It found two potential bridges and “recommended” one by placing it first (because it has the best returns). It found the respective token contracts and protocol I needed. It also provided me with an interface to execute all this without worrying if I was about to send my tokens to a scammer — that might not seem much to you or me, but to a normie, that is close to everything.
 
@@ -72,14 +72,14 @@ Curation can include various endeavours:
 
 ## The Curation Layer: DeFi’s Achilles’ Heel
 
-If you are unconvinced about the urgent need for a better curation layer, I beg you to onboard your mom to DeFi, explain the basics of a wallet, send her some ETH, and watch her scratch her head. 
+If you are unconvinced about the urgent need for a better curation layer, I beg you to onboard your mom to DeFi, explain the basics of a wallet, send her some ETH, and watch her scratch her head.
 
 Wanna swap? Sure, we have 200 DEXes, 20 aggregators, aggregators of aggregators, and also those new bridge aggregators that now handle swap, ah and let’s not forget the intent-based protocols; by the way, do you know you can also indirectly swap by supplying a UNIv3 pool? So which one is it gonna be? Oh, you heard of Uniswap? Right, let’s try this. No, Mom, don’t click that first link on the search results; it’s not the real Uniswap. “But it’s written Uniswap”...
 
 
 ### Curation is the missing piece to mass onboarding
 
-**What was the biggest helper when onboarding people? It’s not Aave, Eigen, or the latest shiny chains like Bera or Abstract. It was simple, straightforward, and easy to use tools such as DeBank or Jumper.** On top of the utility, both also act as a mini curation layer: DeBank helps users know their positions and provides them with a safe and verified link to the protocol frontends. 
+**What was the biggest helper when onboarding people? It’s not Aave, Eigen, or the latest shiny chains like Bera or Abstract. It was simple, straightforward, and easy to use tools such as DeBank or Jumper.** On top of the utility, both also act as a mini curation layer: DeBank helps users know their positions and provides them with a safe and verified link to the protocol frontends.
 
 Jumper essentially made bridging something a normie can handle. Before Jumper, they needed to know about the various bridges available for a given route, safely find their website and not a phising copy of it sitting at the top of the associated query thanks to Google Ads; and if their token was just a little bit “exotic”, they also needed to be familiar with the contract address find, copy and paste flow. All of this was abstracted in a simple and safe-to-use UI, making DeFi newcomers immensely more comfortable with the multichain world. I’ve witnessed it firsthand with my trainees; there was a before and an after Jumper in how much they could accomplish independently without worrying.
 
@@ -90,7 +90,7 @@ While both DeBank and Jumper have curating components, it’s not their primary 
 
 For the lazy readers, I’ll give it straight: **the DeFi staples failed us** – that is, the top protocols, institutions, and other well-funded actors of the space.
 
-**Think about those prominent protocols like Aave, Uniswap, or Maker and their associated DAOs: have you ever seen them fund something remotely close to a DeFi public good?** Think about the big layer 2 or layer 1 foundations; do you see them entertaining such endeavours? The closest we got was maybe with Uniswap and the DeFi Education Fund, but it has limitations; its scope is mainly lobbying for regulations, and there remain [unaddressed concerns about its funding and transparency](https://gov.uniswap.org/t/demand-for-transparency-from-defi-education-fund/13299). 
+**Think about those prominent protocols like Aave, Uniswap, or Maker and their associated DAOs: have you ever seen them fund something remotely close to a DeFi public good?** Think about the big layer 2 or layer 1 foundations; do you see them entertaining such endeavours? The closest we got was maybe with Uniswap and the DeFi Education Fund, but it has limitations; its scope is mainly lobbying for regulations, and there remain [unaddressed concerns about its funding and transparency](https://gov.uniswap.org/t/demand-for-transparency-from-defi-education-fund/13299).
 
 The only exception here would be that DeFiLlama was initially funded by ex-Curve team members. However, it was done at a personal level, not in the name of Curve Finance: still, **it is worthy of praise, as it shows genuine concern for the overall good of the space**, and not just Curve’s success — an endeavour usually direly lacking in DeFi, and the main driver behind our current predicament.
 

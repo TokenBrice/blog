@@ -3,7 +3,7 @@ title: "The Cycle of Aggregation Spins On, Now with Lending"
 description: "The real edge isn’t in finding the rate; it’s in owning the rails that connect them all."
 date: '2025-08-10T01:13:50.191Z'
 categories: [Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Lending, Aggregation, Fluid, Euler]
+tags: [DeFi, Ethereum, Lending, Aggregation, Fluid, Euler]
 url: lending-aggregation
 image: /img/2025/lending-aggregation/aggregration-lending-cover.png
 toc: true
@@ -18,9 +18,9 @@ Something big is happening in onchain lending. Beneath the surface, a quiet shif
 
 I’ve seen a similar scenario unfold on the DEX side, with the rise of Uniswap, followed by competition from Sushi, aggregators, and the arrival of UNIv3. The core concepts required to analyze both transitions are similar, and I’ll explain them in this article.
 
-The first thing to note is that it’s a pattern, in which I see four moments: 
+The first thing to note is that it’s a pattern, in which I see four moments:
 
-1. **Vertical Inception**: First, a new vertical is discovered. 
+1. **Vertical Inception**: First, a new vertical is discovered.
 2. **Product Proliferation**: As more teams enter the vertical, the number of options available to users increases, leading to a situation of offer saturation.
 3. **Aggregation**: Aggregators emerge as they deliver tangible value to users (better price, faster, safer, etc.) compared to the underlying site-per-site experience.
 4. **Offer-Side Customization**: With aggregators now commonplace, the market is ripe for greater customizability of the offer side, which aggregators can now process and distribute to users.
@@ -82,12 +82,12 @@ Thus, while DeFiSaver is not a protocol per se, it does deliver more options bor
 
 The next and last step is, of course, to aggregate several protocols themselves. While this idea is commonplace for yield with Yearn and its vaults, it’s rarer in lending. Here, a prime example is [Altitude](https://app.altitude.fi/?referrer=tokenbrice):
 
-It's essentially a borrowing position manager doing two things: 
+It's essentially a borrowing position manager doing two things:
 
 
 
 1. Refinances between protocols to optimize borrowing costs (Aave or Morpho)
-2. Deploying the overcollateralized capital to generate yield used to auto-repay the debt (on Curve, Pendle, or Morpho) 
+2. Deploying the overcollateralized capital to generate yield used to auto-repay the debt (on Curve, Pendle, or Morpho)
 
 It is to me **a wild example of effective lending aggregation**: I deposit my collateral on Altitude and borrow; in the background I might have used Aave or Morpho, or maybe switched several times between the two if I held the position long enough; I don’t even need to know, I just know I got the best rate.
 

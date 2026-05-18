@@ -2,8 +2,9 @@
 title: "ve(3,3) : l'étape logique après le modèle veCRV?"
 description: "On creuse les modèles de Solidly et Velodrome pour comprendre en quoi les DEX ve(3,3) augmentent le modèle veCRV."
 date: '2023-04-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
+tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
 tocNum: false
 url: solidly-velodrome-fork
@@ -21,7 +22,7 @@ Cet article se penchera donc sur les modèles Solidly et Velodrome afin de compr
 C'est parti !
 
 {{< notice note >}}
-Cet article suppose une compréhension minimale de la finance décentralisée et une compréhension approfondie du modèle veCRV. Si vous avez besoin d'une remise à niveau, consultez : [⚔ CRV Wars : comprendre la course à l'accumulation de CRV pour influencer le protocole Curve Finance](https://tokenbrice.xyz"/content/posts/2021/crv-wars.fr.md).
+Cet article suppose une compréhension minimale de la finance décentralisée et une compréhension approfondie du modèle veCRV. Si vous avez besoin d'une remise à niveau, consultez : [⚔ CRV Wars : comprendre la course à l'accumulation de CRV pour influencer le protocole Curve Finance](https://tokenbrice.xyz/fr/crv-wars/).
 {{< /notice >}}
 
 ## Introduction aux DEX ve(3,3)
@@ -75,13 +76,13 @@ La TVL a disparu aussi rapidement qu'elle est apparue, et Solidly est entré dan
 
 ## Les améliorations apportées par Velodrome au modèle Solidly
 
-[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) a exploité le modèle de Solidly et a résolu le problème des émissions en mettant en place une **validation pour les jauges**, ce qui permet d'éviter la situation où les récompenses sont attribuées à des jetons inventés, comme c'est le cas sur Solidly. 
+[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) a exploité le modèle de Solidly et a résolu le problème des émissions en mettant en place une **validation pour les jauges**, ce qui permet d'éviter la situation où les récompenses sont attribuées à des jetons inventés, comme c'est le cas sur Solidly.
 
 Velodrome est allé bien au-delà d'un simple fork et a mis en œuvre d'autres améliorations, notamment un modèle d'émissions plus durable et la **suppression de la fonction LP boost**, ce qui signifie qu'il n'y a pas de traitement préférentiel pour les détenteurs de veVELO en termes de rendement. Cela simplifie également l'expérience pour les nouveaux LP qui pourraient être déconcertés par la gamme de rendement que l'on voit sur les DEX avec la fonction LP boost.
 
 Au-delà des caractéristiques techniques, une grande partie du succès de Velodrome est due à **l'exécution et au soin apporté par l'équipe aux stratégies de développement commercial**, une partie essentielle du modèle ve(3,3). Construit sur Optimism, Velodrome a trouvé son PMF comme la source de liquidité de la chaîne. Grâce à son modèle, le maintien de la liquidité sur Velodrome est beaucoup plus rentable pour les projets que, par exemple, sur Uniswap.
 
-Comme Solidly, **Velodrome a airdrop plusieurs protocoles avec un NFT veVELO,** sans conditions, ce qui a énormément aidé à attirer l'activité initiale de vote et d'incitation. Le protocole a trouvé une bonne place, principalement auprès d'autres protocoles émettant des stablecoins ou des dérivés d'enjeux liquides ETH :
+Comme Solidly, **Velodrome a airdrop plusieurs protocoles avec un NFT veVELO,** sans conditions, ce qui a énormément aidé à attirer l'activité initiale de vote et d'incitation. Le protocole a trouvé une bonne place, principalement auprès d'autres protocoles émettant des Stablecoins ou des dérivés d'enjeux liquides ETH :
 
 ![defiwars-velodrome](img/2023/solidly-velodrome-template/defiwars-velodrome.png "DeFiwars.xyz - veVELO ownership overview")
 
@@ -116,4 +117,4 @@ J'espère que cet article vous a aidé à comprendre les avantages des modèles 
 * **L'importance des capacités humaines/commerciales de l'équipe** | ve(3,3), tout comme Curve, sont des protocoles pour des protocoles. Le professionnalisme de l'équipe et sa capacité à établir des priorités et à mettre en œuvre le développement commercial sont des facteurs de réussite importants pour le DEX à long terme.
 * **L'importance des bons partenaires**| Même si le BD est bien fait, un DEX ve(3,3) donné n'est bon que dans la mesure où ses meilleurs coureurs le sont. Oui, vous voulez qu'ils postent des incitations de vote, qu'ils apportent de la liquidité, qu'ils votent et qu'ils fassent connaître le marché, mais pas seulement. La qualité des liquidités acheminées vers le DEX est également importante (rapport volume/TVL & nature de la liquidité).
 * **LP Boost et conséquences** | Si un ve(3,3) implémente le LP boost, il appelle des protocoles de type Convex. Le succès du ve(3,3) dépendra de l'ampleur et de la qualité des résultats obtenus par les protocoles Convex-like construits dessus. Pour suivre les statistiques clés des différents wrappers et des principaux détenteurs de jetons ve, consultez - [DeFiWars](https://www.defiwars.xyz/wars).
-* **Impact de l'arrivée des liquidités concentrées** | Bien que ve(3,3) soit une innovation significative pour la couche d'incitation du DEX, il exploite actuellement des structures de liquidité basique. Une bonne adéquation entre le modèle d'incitation ve(3,3) et une structure de liquidité efficace de type UNIv3 permettra d'améliorer encore l'efficacité de la flywheel. 
+* **Impact de l'arrivée des liquidités concentrées** | Bien que ve(3,3) soit une innovation significative pour la couche d'incitation du DEX, il exploite actuellement des structures de liquidité basique. Une bonne adéquation entre le modèle d'incitation ve(3,3) et une structure de liquidité efficace de type UNIv3 permettra d'améliorer encore l'efficacité de la flywheel.

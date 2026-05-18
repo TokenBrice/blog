@@ -1,9 +1,10 @@
 ---
 title: "🤖 Les vaults : stratégies d'investissement DeFi accessibles ?"
-description: "Les vaults permettent d'exploiter des programmes d'incitation à l'apport de liquidité en composant automatiquement et fréquemment les gains obtenus. Examinons les options disponibles et leurs contreparties."
+description: "Guide des vaults DeFi pour composer automatiquement les rendements, comprendre les options disponibles et evaluer les risques."
 date: '2020-09-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Yearn Finance, YFV, Uniswap, Harvest Finance]
+tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
 difficulty: "beginner"
 url: vaults
@@ -11,7 +12,7 @@ url: vaults
 
 À mesure que l'écosystème des services financiers décentralisés sur Ethereum se développe et mûrit, l'offre de services devient plus dense et parfois difficile à comprendre. Si les utilisateurs les plus avertis sur le plan technique peuvent se tenir au courant des dernières sorties et couvrir leurs risques de manière appropriée, les investisseurs moins expérimentés peuvent se sentir largués.
 
-Heureusement, il existe des services DeFi adaptés à la diversité des investisseurs qui explorent cet espace. Yearn Finance a été la première plateforme à lancer un type de produits d'investissement passif : les vaults. 
+Heureusement, il existe des services DeFi adaptés à la diversité des investisseurs qui explorent cet espace. Yearn Finance a été la première plateforme à lancer un type de produits d'investissement passif : les vaults.
 
 L'idée de base est simple comme 1, 2, 3 :
 
@@ -29,9 +30,9 @@ Cet article va droit au but et met en évidence les différents vaults disponibl
 
 ## Le plus simple : les vaults basiques
 
-Les vaults utilisent le token que vous déposez (DAI par exemple) pour mettre en place une stratégie donnée, produire un rendement et le réinvestir automatiquement. 
+Les vaults utilisent le token que vous déposez (DAI par exemple) pour mettre en place une stratégie donnée, produire un rendement et le réinvestir automatiquement.
 
-Le pionnier est bien sûr Yearn avec la vaults yCRV, mais plusieurs options sont maintenant disponibles ou en cours de déploiement. Cet article donne un aperçu structuré des principales possibilités offertes par les vaults. 
+Le pionnier est bien sûr Yearn avec la vaults yCRV, mais plusieurs options sont maintenant disponibles ou en cours de déploiement. Cet article donne un aperçu structuré des principales possibilités offertes par les vaults.
 
 Ici, vous déposez un token donné pour en gagner davantage au fil du temps, et éventuellement une récompense supplémentaire. Les tokens que vous fournissez ne sont pas utilisés pour fournir des liquidités sur des échanges décentralisés, **de sorte qu'il n'y a pas d'exposition à des pertes impermanentes**.
 
@@ -39,15 +40,15 @@ Cependant, **comme de plus en plus de produits de type vaults sont mis sur le ma
 
 Vous trouverez ci-dessous des tableaux résumant les principaux vaults que je connais, avec les tokens qu'ils acceptent, le service qu'ils exploitent et la manière dont le retour est libellé.
 
-La mention "retours composés" signifie que la stratégie génère un retour fréquemment vendu pour le token de base apporté - cette opération est parfois appelée "récolte" (harvest). 
+La mention "retours composés" signifie que la stratégie génère un retour fréquemment vendu pour le token de base apporté - cette opération est parfois appelée "récolte" (harvest).
 
 {{< notice tip >}}
 La fréquence de la récolte est importante car elle influencera le facteur de composabilité de la position globale, ainsi que le niveau de risque pris sur le prix du token farmé.
 {{< /notice >}}
 
-### Vaults Stablecoins & BTC 
+### Vaults Stablecoins & BTC
 
-En ce qui concerne les vaults, les tokens les plus couramment acceptés en dépôt sont les stablecoins. Ces vaults déploieront votre capital sur le pool Curve Finance pour gagner des tokens CRV, généralement le pool Y. Des projets plus récents, tels que Pickle Finance, permettent également d'exploiter le pool Curve sUSD.
+En ce qui concerne les vaults, les tokens les plus couramment acceptés en dépôt sont les Stablecoins. Ces vaults déploieront votre capital sur le pool Curve Finance pour gagner des tokens CRV, généralement le pool Y. Des projets plus récents, tels que Pickle Finance, permettent également d'exploiter le pool Curve sUSD.
 
 <div align="center">
 
@@ -79,9 +80,9 @@ Avec Harvest.Finance, vous pouvez déposer directement le wBTC ou le renBTC, ou 
 
 ### Vaults ETH
 
-Les vaults sur BTC et stablecoins sont intéressants mais peut-être aimeriez-vous conserver une exposition au prix de l'ETH ? 
+Les vaults sur BTC et Stablecoins sont intéressants mais peut-être aimeriez-vous conserver une exposition au prix de l'ETH ?
 
-Vous pouvez obtenir un tel résultat par vous-même en tirant parti de votre ETH. Vous les utiliserez comme collateral pour générer ou emprunter des stablecoins / WBTC qui sont ensuite déployés pour produire un rendement supérieur à votre coût d'emprunt : voici un article que j'ai écrit et qui fournit des conseils et des outils pour tirer efficacement parti de l'ETH - [**🎚 ETH ou DeFi : pourquoi choisir?**](https://tokenbrice.xyz/fr/leveraging-eth/)
+Vous pouvez obtenir un tel résultat par vous-même en tirant parti de votre ETH. Vous les utiliserez comme collateral pour générer ou emprunter des Stablecoins / WBTC qui sont ensuite déployés pour produire un rendement supérieur à votre coût d'emprunt : voici un article que j'ai écrit et qui fournit des conseils et des outils pour tirer efficacement parti de l'ETH - [**🎚 ETH ou DeFi : pourquoi choisir?**](https://tokenbrice.xyz/fr/leveraging-eth/)
 
 
 Toutefois, avec une telle position, vous pouvez être exposé à des liquidations si le prix de l'ETH devait baisser.
@@ -131,7 +132,7 @@ En effet, peu après le lancement d'Uniswap, plusieurs services ont commencé à
 |  YFV | ETH/USDC, ETH/wBTC | Retour UNI composé + VALUE |
 
 {{< notice note >}}
-Cette liste n'est pas exhaustive. Seuls les vaults sont inclus - des services qui réinvestissent automatiquement les bénéfices pour vous. 
+Cette liste n'est pas exhaustive. Seuls les vaults sont inclus - des services qui réinvestissent automatiquement les bénéfices pour vous.
 {{< /notice >}}
 
 

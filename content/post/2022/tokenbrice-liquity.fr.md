@@ -1,9 +1,10 @@
 ---
+description: "Pourquoi j ai rejoint Liquity pour contribuer a un protocole DeFi resilient, et ce que cette decision dit de mon analyse du secteur."
 title : "Annonce : Je rejoins Liquity pour soutenir la croissance de la DeFi inarrêtable"
-description : "Où je réfléchis à l'état actuel de la DeFi, et pourquoi j'ai décidé de rejoindre l'équipe de Liquity pour soutenir la développement de l'un des protocoles les plus résilients."
 date: '2022-05-16T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects, Stablecoin, Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
+tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
 url: joining-liquity
@@ -19,7 +20,7 @@ Il me semble que la DeFi s'est perdue en route. La finance traditionnelle s'est 
 
 Les développements de cette dernière année au sein de la DeFi ont été très similaires à l'avarice de TradFi : en termes de construction d'un système financier résilient et souverain accessible à tous, presque rien n'a été réalisé. Au lieu de cela, la plupart des sorties n'ont rien été d'autre qu'une énième saveur de ponzinomics pour soutenir la cupidité des singes pendant quelques semaines jusqu'à ce qu'ils passent à la prochaine ferme.
 
-Je reste convaincu que ce dont **nous avons besoin sur le long terme, ce sont des systèmes capables de résister aux attaques (potentiellement coordonnées) des États, du crime organisé et des baleines**. La plupart des protocoles actuels disponibles dans la DeFi ne tiendraient pas un jour face à des attaques structurées d'une ampleur significative. 
+Je reste convaincu que ce dont **nous avons besoin sur le long terme, ce sont des systèmes capables de résister aux attaques (potentiellement coordonnées) des États, du crime organisé et des baleines**. La plupart des protocoles actuels disponibles dans la DeFi ne tiendraient pas un jour face à des attaques structurées d'une ampleur significative.
 
 Une grande partie des protocoles "DeFi" sont vulnérables à la bonne vieille attaque "wrench attack" parce qu'ils reposent sur des multisigs : identifier, localiser et menacer une douzaine d'individus n'est pas une tâche ardue, surtout lorsque des milliards sont en jeu. Les attaques économiques peuvent également affecter sérieusement une autre part importante des protocoles DeFi, surtout si elles sont perpétrées par un acteur prêt à perdre de l'argent dans le processus. Enfin, les attaques de gouvernance sont si courantes qu'il n'est même plus excitant de les couvrir. Ce n'est pas la DeFi pour laquelle je me suis engagé.
 
@@ -27,11 +28,11 @@ J'ai construit une plateforme et mis en lumière des projets qui ont apporté qu
 
 #### Annonce : TokenBrice x Liquity
 
-J'ai le plaisir d'annoncer que j'ai rejoint [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) en tant que responsable du marketing pour soutenir la croissance du protocole, en me concentrant principalement sur un projet qui n'a pas encore été annoncé. 
+J'ai le plaisir d'annoncer que j'ai rejoint [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) en tant que responsable du marketing pour soutenir la croissance du protocole, en me concentrant principalement sur un projet qui n'a pas encore été annoncé.
 
-Bien que le protocole Liquity n'ait qu'un peu plus d'un an, l'équipe est  active et construit depuis bien plus longtemps. Ce qui a été réalisé est vraiment unique, remarquable et nécessaire. Liquity est le **premier et toujours le seul service de prêt disponible en DeFi qui est inarrêtable** & de même, LUSD est le seul stablecoin capable de résister à toutes sortes de censures. 
+Bien que le protocole Liquity n'ait qu'un peu plus d'un an, l'équipe est  active et construit depuis bien plus longtemps. Ce qui a été réalisé est vraiment unique, remarquable et nécessaire. Liquity est le **premier et toujours le seul service de prêt disponible en DeFi qui est inarrêtable** & de même, LUSD est le seul stablecoin capable de résister à toutes sortes de censures.
 
-Ce qui m'a toujours étonné, c'est que cet exploit est réalisé sans compromettre l'efficacité du protocole : Liquity est extrêmement économique pour les emprunteurs, et la conception du protocole est d'une rare élégance. Liquity est **construit comme un logiciel critique** : l'échec n'est pas une option. Je suis heureux qu'un tel protocole, fidèle à l'esprit de base de la DeFi, existe, et je suis ravi d'avoir la chance de l'aider à se développer. 
+Ce qui m'a toujours étonné, c'est que cet exploit est réalisé sans compromettre l'efficacité du protocole : Liquity est extrêmement économique pour les emprunteurs, et la conception du protocole est d'une rare élégance. Liquity est **construit comme un logiciel critique** : l'échec n'est pas une option. Je suis heureux qu'un tel protocole, fidèle à l'esprit de base de la DeFi, existe, et je suis ravi d'avoir la chance de l'aider à se développer.
 
 Si vous ne connaissez pas encore ce que fait Liquity et pourquoi c'est important, n'hésitez pas à lire cette introduction :
 **[⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant](https://tokenbrice.xyz/fr/liquity-protocol/)**.

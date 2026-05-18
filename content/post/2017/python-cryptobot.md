@@ -12,7 +12,7 @@ difficulty: "intermediate"
 
 Chatbots have an incredible  potential. Yet, for bots to be efficient, they must integrate and  exchange data with existing services and processes.
 
-**The ability to fetch data from external API allows for more complex use case that a simple Q and A logic**. Moreover, this ability combined with NLP offers even more opportunities. 
+**The ability to fetch data from external API allows for more complex use case that a simple Q and A logic**. Moreover, this ability combined with NLP offers even more opportunities.
 
 For instance, Sato – the cryptobot we’ll be building today, is able to recognize all  cryptocurrencies, even those not even listed yet. I won’t have to do anything for him to be able to process queries on  crypto appearing even years from now, because Sato, deep-down,  understood what a cryptocurrency symbol is  (after being fed with thousands of them).
 
@@ -33,7 +33,7 @@ Need to see it to believe it? That’s wise!
 
 ## **I/ BUILD THE BASE OF YOUR BOT: CHOOSE YOUR PATH**
 
-The goal today is to build bot able to recognize a question about pricing on any cryptocurrency. Let your imagination flow, **it could be really anything there is involving data available on third party APIs**. 
+The goal today is to build bot able to recognize a question about pricing on any cryptocurrency. Let your imagination flow, **it could be really anything there is involving data available on third party APIs**.
 
 Before we dive in the tutorial, let me give you some information on how Sato works.
 
@@ -80,9 +80,9 @@ Don’t forget to add a memory reset after the webhook trigger, it’s required 
 
 Finally, we’ll test our bot  straight in Messenger, so you’ll need to create a page and an app and  connect it. Everything is documented in the `CONNECT` tab and in [the getting started tutorial](https://cai.tools.sap/blog/build-your-first-bot-with-sap-conversational-ai/?utm_source=blog&utm_campaign=sato).
 
-To keep it concise**, this tutorial will not detail the creation of a bot**. We’ll start from a functioning bot already. 
+To keep it concise**, this tutorial will not detail the creation of a bot**. We’ll start from a functioning bot already.
 
-To meet me there, you have two options: 
+To meet me there, you have two options:
 
 -   Option A: build your own bot (who doesn’t have to be a cryptobot)
 -   Option B: fork Sato and start from here.
@@ -110,28 +110,28 @@ On the [bot builder](https://cai.tools.sap), go to the `CODE` tab to find an exa
 Here’s the base code for Python:
 
 ```
-from flask import Flask, request, jsonify 
-import json 
+from flask import Flask, request, jsonify
+import json
 
-app = Flask(__name__) 
-port = '5000' 
+app = Flask(__name__)
+port = '5000'
 
-@app.route('/', methods=['POST']) 
-def index(): 
-  print(json.loads(request.get_data())) 
-  return jsonify( 
-    status=200, 
-    replies=[{ 
-      'type': 'text', 
-      'content': 'Roger that', 
+@app.route('/', methods=['POST'])
+def index():
+  print(json.loads(request.get_data()))
+  return jsonify(
+    status=200,
+    replies=[{
+      'type': 'text',
+      'content': 'Roger that',
     }]
-  ) 
- 
-@app.route('/errors', methods=['POST']) 
-def errors(): 
-  print(json.loads(request.get_data())) 
-  return jsonify(status=200) 
- 
+  )
+
+@app.route('/errors', methods=['POST'])
+def errors():
+  print(json.loads(request.get_data()))
+  return jsonify(status=200)
+
 app.run(port=port)
 ```
 
@@ -152,15 +152,15 @@ pip install requests
 
 Now that we have the base server,  let’s make it run and test it. It will allow us to be more incremental  in the process so the debugging (if any) is simplified.
 
-To expose our local server to the internet, we’ll need ngrok. 
+To expose our local server to the internet, we’ll need ngrok.
 
 *Note: If you are using Windows like me, there is awesome package manager – [Chocolatey](https://chocolatey.org/) which works pretty much like apt-get on UNIX. With it, you’ll be able to install ngrok in one line `choco install ngrok_portable`. Moreover, Chocolatey adds ngrok to your PATH, allowing you to start ngrok from any terminal simply by typing `ngrok`.*
 
 Now is the time to start our server and test it, this implies:
 
 1.  Set a webhook trigger in your bot (detailed in step 1)
-2.  Run your python script, 
-3.  Expose port 5000 to the internet with ngrok: `ngrok http 5000`, 
+2.  Run your python script,
+3.  Expose port 5000 to the internet with ngrok: `ngrok http 5000`,
 4.  Copy the forwarding URL form ngrok and past it as your bot base URL on SAP Conversational AI
 
 ## **IV/ PREPARING THE EXTERNAL API CALL**
@@ -195,7 +195,7 @@ Let’s have a look at the data returned by SAP Conversational AI on a user inpu
 
 Check the JSON of the conversation.
 
- 
+
 
 Here, our symbol is accessible with `['conversation']['memory']['crypto']['raw']`. Since the value and the raw and identical in this case, you can use either.
 
@@ -232,11 +232,11 @@ Great! Now, we just have one last step to figure out: returning the prices to th
 Now, it’s time to finish our base  server code upgrade: we need to edit the replies returned to include our freshly fetched data. To do so, we’ll edit the message returned by our  server code:
 
 ```
-return jsonify( 
-    status=200, 
-    replies=[{ 
-      'type': 'text', 
-      'content': 'Roger that', 
+return jsonify(
+    status=200,
+    replies=[{
+      'type': 'text',
+      'content': 'Roger that',
     }],
 ```
 
@@ -289,8 +289,8 @@ app.run(port=port)
 
 With our new server completed, we now have all the pieces of our puzzle. Let’s assemble it:
 
-1.  Run your python script, 
-2.  Expose port 5000 to the internet with ngrok: `ngrok http 5000`, 
+1.  Run your python script,
+2.  Expose port 5000 to the internet with ngrok: `ngrok http 5000`,
 3.  Copy the forwarding URL form ngrok and past it as your bot base URL on SAP Conversational AI
 
 Now that you have the basics to build a bot able to fetch third party data, what’s gonna be? You show us!

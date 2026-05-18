@@ -3,14 +3,14 @@ title: "Gestion automatisée et collatéral : comment Autopilot, 40Acres et haiV
 description: "Le développement de la couche d’infrastructure des veNFTs avec Autopilot, 40Acres et haiVELO: automatisation et collatéralisation."
 date: '2025-08-14T16:06:21.672Z'
 categories: [Lending, Yield, DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
+tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
 url: veNFT-infrastructure
 image: /img/2025/veNFT-infrastructure/cover-fr.png
 difficulty: "expert"
 ---
 
-Le paysage des veNFT évolue rapidement, inaugurant une nouvelle ère de finance décentralisée où le pouvoir de gouvernance et la génération de rendement sont tokenisés. À mesure que l'adoption du modèle veNFT s'est développée, **l'infrastructure qui le soutient a mûri**, exploitant le rendement natif des veNFT pour offrir de nouveaux services et automatisations. 
+Le paysage des veNFT évolue rapidement, inaugurant une nouvelle ère de finance décentralisée où le pouvoir de gouvernance et la génération de rendement sont tokenisés. À mesure que l'adoption du modèle veNFT s'est développée, **l'infrastructure qui le soutient a mûri**, exploitant le rendement natif des veNFT pour offrir de nouveaux services et automatisations.
 
 Dans cet article, je souhaite mettre en avant quelques‑uns d'entre eux:  **[Autopilot](https://theautopilot.xyz/), [40Acres](https://www.40acres.finance/) & [haiVELO](https://www.letsgethai.com/)**. Vous pouvez vous référer à mes articles précédents si vous n'êtes pas déjà familier avec le modèle veNFT:
 
@@ -63,13 +63,13 @@ Les projets peuvent construire sur leurs relais, par exemple en attribuant des r
 
 ## Projets x Infrastructure
 
-Pour illustrer comment cette couche d’infrastructure supplémentaire impacte les projets impliqués dans l’écosystème, laissez‑moi discuter des Luchadores et en particulier de leur stratégie veAERO. **Deux ensembles de veAERO** sont gérés pour fournir un équilibre de rendement, d'utilité et de croissance. **Le premier, déposé dans Autopilot**, procure un flux constant de stablecoins pour le paiement des dépenses. Un **second veAERO déposé dans le relais El Volador Luchador** soutient les rendements des pools LUCHA sur Aerodrome, que le trésor alimente également à hauteur d’environ 200000$. La stratégie est **entièrement automatisée** grâce à Autopilot et ne nécessite que la définition de la stratégie de vote du relayer.
+Pour illustrer comment cette couche d’infrastructure supplémentaire impacte les projets impliqués dans l’écosystème, laissez‑moi discuter des Luchadores et en particulier de leur stratégie veAERO. **Deux ensembles de veAERO** sont gérés pour fournir un équilibre de rendement, d'utilité et de croissance. **Le premier, déposé dans Autopilot**, procure un flux constant de Stablecoins pour le paiement des dépenses. Un **second veAERO déposé dans le relais El Volador Luchador** soutient les rendements des pools LUCHA sur Aerodrome, que le trésor alimente également à hauteur d’environ 200000$. La stratégie est **entièrement automatisée** grâce à Autopilot et ne nécessite que la définition de la stratégie de vote du relayer.
 
 ![Luchadores AERO Strategy](/img/2025/veNFT-infrastructure/luchadores-strategy-fr.png)
 
-En plus de **couvrir les salaires de deux membres clés (~2000$ par mois)**, la gestion efficace de la position offre **des leviers de croissance soutenue pour le projet**, ce qui lui a permis de constituer une réserve d’environ 13000$ en ETH et en stablecoins, **tout en maintenant 400000$ de liquidité pour son jeton**. Le projet contrôle maintenant un total d’environ 223000 veAERO, dont la valeur nominale équivaut presque à l’ensemble de la capitalisation de marché de LUCHA.
+En plus de **couvrir les salaires de deux membres clés (~2000$ par mois)**, la gestion efficace de la position offre **des leviers de croissance soutenue pour le projet**, ce qui lui a permis de constituer une réserve d’environ 13000$ en ETH et en Stablecoins, **tout en maintenant 400000$ de liquidité pour son jeton**. Le projet contrôle maintenant un total d’environ 223000 veAERO, dont la valeur nominale équivaut presque à l’ensemble de la capitalisation de marché de LUCHA.
 
-L’intégration des veNFT dans des produits plus avancés est fascinante à observer. Comme ils incluent un rendement solide de 25–30% lorsqu’ils sont correctement optimisés, ils offrent de nombreuses options allant des prêts auto‑remboursables à une source de rendement en stablecoins entièrement automatisée. De telles innovations accroissent l’accessibilité et l’efficacité du capital, tout en favorisant la croissance d’un écosystème. 40Acres compte désormais plus de 40M$ de dépôts, tandis qu’Autopilot gère 5,8M de veAERO, soit environ 8M$.
+L’intégration des veNFT dans des produits plus avancés est fascinante à observer. Comme ils incluent un rendement solide de 25–30% lorsqu’ils sont correctement optimisés, ils offrent de nombreuses options allant des prêts auto‑remboursables à une source de rendement en Stablecoins entièrement automatisée. De telles innovations accroissent l’accessibilité et l’efficacité du capital, tout en favorisant la croissance d’un écosystème. 40Acres compte désormais plus de 40M$ de dépôts, tandis qu’Autopilot gère 5,8M de veAERO, soit environ 8M$.
 
 ## PS: N'oublions pas la comptabilité
 

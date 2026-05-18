@@ -20,7 +20,7 @@ About 36 months ago, I finally read the Ethereum whitepaper after hovering aroun
 
 I was still working in a non-crypto related tech startup back then but quickly I found myself spending 6 to 10 hours a day reading on the space, meeting and chatting with many people that shared my interest. Shortly after, I started contributing to various projects.
 
-Back in July 2018, **I realized it was time to grab the bull by the horns and break my way into the space** - I was not going to work for yet another tech startup. I started what I wished could be a collaborative media back then: EcoCrypto. It was a bit of the precursor to this blog, and you can [find the articles re-published here](https://tokenbrice.xyz/tags/ecocrypto/).
+Back in July 2018, **I realized it was time to grab the bull by the horns and break my way into the space** - I was not going to work for yet another tech startup. I started what I wished could be a collaborative media back then: EcoCrypto. It was a bit of the precursor to this blog, and you can [find the articles re-published here](https://tokenbrice.xyz/tags/EcoCrypto/).
 
 
 ### EcoCrypto: The Precursor?
@@ -32,7 +32,7 @@ Despite the moderate audience, EcoCrypto taught me a lot about the space. To bee
 
 ### Going Pro
 
-Feeling more confident about my understanding of the space and my capabilities to handle marketing-related tasks for a crypto project, I started applying to selected companies, and went through the interview processes. 
+Feeling more confident about my understanding of the space and my capabilities to handle marketing-related tasks for a crypto project, I started applying to selected companies, and went through the interview processes.
 
 I exchanged with a few prominent actors of the space, but I was **quickly turned off by their internal culture & inertia**: all my life, I've worked in startups so I've got little patience for corporate-induced BS. Around the same time, I found Monolith (TokenCard back then) and started discussing with the team about the community manager role.
 
@@ -47,7 +47,7 @@ I've learned so much in that role! What I loved the most about it is that I was 
 
 I know it's silly, but Osaka blew my mind. Before it, I felt the energy and ambition of the space. Going there, I **saw** it personally, and it was something else. It bolstered my confidence in the impact Ethereum could have on the world.
 
-It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/content/learndefi/_index.md): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days! 
+It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/content/learndefi/_index.md): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days!
 
 ![DeFi France DF1](/img/2020/next-steps/df1.png "DeFi France's first event, held entirely in French")
 
@@ -58,7 +58,7 @@ I think it's precisely then that I've been stuck by a critical thought I needed 
 
 ### Community Involvement in DeFi
 
-It took me a while, but now is the time to finally follow through with the thought. As I transition out of my role with Monolith, **I'd like to use this extra time to do more community-driven work**. 
+It took me a while, but now is the time to finally follow through with the thought. As I transition out of my role with Monolith, **I'd like to use this extra time to do more community-driven work**.
 
 Luckily for me, time was all I needed and there is plenty of work to do! Indeed, within a year, DeFi France grew tremendously to become the most active DeFi grassroots group in Europe with now close to 2 000 FR-speaking members on Telegram.
 
@@ -71,11 +71,11 @@ I write a lot of content about DeFi for different companies but sometimes I want
 
 My ideals? Quite simple: I think that **delivering an honest media is extremely difficult if profits must be made, so how about we get them out of the equation?**
 
-So on this blog, I refuse all sponsored posts or promotional activities. All articles are written because I want to do so. I've also taken extra care to make this blog as privacy-preserving as possible: the cool news with a free blog without ads is that I would have no use of your data anyway, so let's not collect any (but your anonymised IP for article stats). 
+So on this blog, I refuse all sponsored posts or promotional activities. All articles are written because I want to do so. I've also taken extra care to make this blog as Privacy-preserving as possible: the cool news with a free blog without ads is that I would have no use of your data anyway, so let's not collect any (but your anonymised IP for article stats).
 
 Finally, I use an infrastructure where the content lives in a public GitHub repository: for the non-geek **it means that every single change made on tokenbrice.xyz is documented publicly.** There is no flip-flopping here. **[Don't trust, verify.](https://github.com/TokenBrice/blog/commits/master)**
 
-There are still costs incurred with the blog, mostly the time spent writing and researching as well the occasional illustrations when I feel like my PPT cover graphics are not enough to do the article justice. Yet, I'm not counting the hours with this blog, I enjoy updating it. 
+There are still costs incurred with the blog, mostly the time spent writing and researching as well the occasional illustrations when I feel like my PPT cover graphics are not enough to do the article justice. Yet, I'm not counting the hours with this blog, I enjoy updating it.
 
 **If you appreciate my work, you can contribute to the [Gitcoin grant](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr) to support it.**
 
@@ -85,7 +85,7 @@ You can read more about the approach with this blog in [this article detailling 
 
 Quickly after the creation of DeFi France, we realized something powerful was happening. With minimal effort, the group was growing fast and the energy in there was amazing (and still is!). Finally, I think we've got a sense of what the growth of an "organic community" felt like.
 
-Several things helped this work, one of the main one being the language: DeFi is so confusing already, so why not discuss it in our native language to make it easier? In the early discussion we could tell **the excitement of chatting about the topic in French**! As it turned out, there were plenty of Frenchmen in the DeFi space already, all we needed was one place to gather and meet. 
+Several things helped this work, one of the main one being the language: DeFi is so confusing already, so why not discuss it in our native language to make it easier? In the early discussion we could tell **the excitement of chatting about the topic in French**! As it turned out, there were plenty of Frenchmen in the DeFi space already, all we needed was one place to gather and meet.
 
 On top of the language component, the other key to the success of DeFi France lies in its community. The Telegram group and the monthly meetups are incredibly successful at one critical thing: to **ensure that the amazing French builders of the DeFi space were accessible to anyone**, even to someone with no presence in the space. Every month, there is a hangout where you can come, learn from people committed in the space, and meet people (now remote: fucking covid).
 
@@ -107,7 +107,7 @@ The project started a few months ago and is going well on its way! We crossed th
 
 #### BanklessFR
 
-I put BanklessFR right before the last, because I don't want to steal the show here. Credits where they are due: **BanklessFR only exists because of the sustained hard work of Jon who is the editorial director and the main translator**. 
+I put BanklessFR right before the last, because I don't want to steal the show here. Credits where they are due: **BanklessFR only exists because of the sustained hard work of Jon who is the editorial director and the main translator**.
 
 Back to BanklessFR's story: I've reached out to Ryan one day to tell him about my bankless-first life (I've barely touched a non-DeFi financial product in my whole life) and surprise! he was keen - it translated into an article: [How DeFi Can Pay For Your Lunches?](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches)
 

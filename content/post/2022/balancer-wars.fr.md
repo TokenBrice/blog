@@ -2,8 +2,11 @@
 title: "Tokens directeurs de liquidité au-delà de Curve : analyse des Balancer Wars"
 description: "Nous examinons les particularités de l'échange décentralisé Balancer ainsi que de son écosystème pour mieux comprendre la dynamique de la course aux BAL."
 date: '2022-11-24T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
+series: crv-wars
+series_order: 4
 toc: true
 tocNum: false
 url: balancer-wars
@@ -41,8 +44,8 @@ Une fois le décor planté, plongeons dans le sujet du jour : Balancer, la cours
 ## Cartographie de la trinité de Balancer
 
 ![balancer-trinity](/img/2022/balancer-wars/balancer-trinity.png)
-    
-Nous avons regardé ensemble l'écosystème se développer à travers l'exemple de Curve. Pour la première fois, nous allons étudier [Balancer](https://balancer.finance/) et on observe déjà un écosystème mature ! Balancer a déjà "son Convex", appelée [Aura Finance](https://aura.finance/) qui contrôle plus de 25% du veBAL (contre >50% du veCRV pour Convex). 
+
+Nous avons regardé ensemble l'écosystème se développer à travers l'exemple de Curve. Pour la première fois, nous allons étudier [Balancer](https://balancer.finance/) et on observe déjà un écosystème mature ! Balancer a déjà "son Convex", appelée [Aura Finance](https://aura.finance/) qui contrôle plus de 25% du veBAL (contre >50% du veCRV pour Convex).
 
 Cependant, l'infrastructure de base de Balancer nécessite un troisième composant : un réseau d'automatisation nécessaire pour permettre le type de pools le plus avancé. À ce stade, on ne sait toujours pas qui mène cette course, c'est pourquoi j'ai utilisé l'un de leurs participants les plus importants - [PowerPool](https://powerpool.finance/) et son réseau de PowerAgents - pour jouer le rôle.
 
@@ -66,7 +69,7 @@ La première version de Balancer a été lancée en mars 2020, et de nombreuses 
 
 Balancer est encore, à ce jour, l'un des seuls DEX à offrir un tel éventail de structures de pool. En effet, une pool Balancer peut être composé de **n'importe quel nombre d'actifs allant de deux à huit**, alors que la plupart des autres DEX ne supportent que les paires, donc deux actifs à la fois.
 
-Il permet de nouveaux types de pools, tels que : 
+Il permet de nouveaux types de pools, tels que :
 
 * Des pools de trois actifs, comme le pool wBTC/USDC/wETH similaire au pool TriCrypto de Curve, ou pour diversifier les paires d'un token donné, comme la pool OHM/ETH/DAI.
 * Ou même pools avec six-huit actifs qui commencent à agir comme des indices de token autant que des pools de liquidité, comme le pool YFI/wBTC/COMP/wETH/UNI/CHZ/LINK.
@@ -131,7 +134,7 @@ Pour suivre la guerre des BAL, assurez-vous d'exploiter les données offertes pa
 
 Comme on peut le voir sur le graphique, le marché des bribes a rapidement décollé avant de trouver un équilibre à environ **0,06$ par vote AURA, ce qui se traduit par une efficacité des bribes de 1,50x** : Un dollar dépensé pour influence le vote permet d'ajouter 1,50 dollar d'émissions de BAL à la pool ciblée au cours de l'époque.
 
-Ce chiffre est plus faible pour Curve, environ 1,25x pour les bakchichs sur le vlCVX de Convex. C'est logique puisque les courses Curve sont beaucoup plus anciennes. 
+Ce chiffre est plus faible pour Curve, environ 1,25x pour les bakchichs sur le vlCVX de Convex. C'est logique puisque les courses Curve sont beaucoup plus anciennes.
 
 ## Quelles sont les prochaines étapes pour Balancer ?
 
@@ -154,14 +157,14 @@ D'autres collaborations sont attendues, car [Aave a récemment acquis des tokens
 
 ### Balancer : le foyer des LSDs ?
 
-Enfin, si l'on considère la pool actuelle la plus importante en termes de TVL sur Balancer, une tendance claire se dessine : les liquid staking derivatives, tels que le rETH de Rocket Pool ou le stETH de Lido. Les deux ont des pools importants correctement incités sur le réseau principal de Balancer. 
+Enfin, si l'on considère la pool actuelle la plus importante en termes de TVL sur Balancer, une tendance claire se dessine : les liquid staking derivatives, tels que le rETH de Rocket Pool ou le stETH de Lido. Les deux ont des pools importants correctement incités sur le réseau principal de Balancer.
 
 Si vous n'avez jamais entendu parlé des Liquid Staking Derivatives, je vous renvoie vers un meetup DeFi France : **[DFF Lyon #1 - Perspectives sur les Liquid Staking Derivatives](https://www.youtube.com/watch?v=_eXm9VQh5HY)**
 
 {{< youtube _eXm9VQh5HY >}}
 
 
-La pool wstETH/wETH de Lido a même dépassé la pool 80BAL/20wETH et est devenue la première pool du DEX avec $200M TVL. De même, stMATIC/wMATIC est la première pool de Balancer/Polygon, suivi de MATICX/wMATIC, un autre dérivé liquide de MATIC staké. Sur Arbitrum, la troisième et dernière chaîne où Balancer est actif, là encore, la pool wstETH/wETH est en tête du classement. 
+La pool wstETH/wETH de Lido a même dépassé la pool 80BAL/20wETH et est devenue la première pool du DEX avec $200M TVL. De même, stMATIC/wMATIC est la première pool de Balancer/Polygon, suivi de MATICX/wMATIC, un autre dérivé liquide de MATIC staké. Sur Arbitrum, la troisième et dernière chaîne où Balancer est actif, là encore, la pool wstETH/wETH est en tête du classement.
 
 ## Conclusion
 
@@ -171,7 +174,7 @@ Si vous souhaitez prendre part aux guerres de Balancer, assurez-vous d'exploiter
 2. [DeFiwars - Balancer](https://www.defiwars.xyz/wars/balancer)
 3. [Dune Analytics](https://dune.com/balancerlabs/balancer-pools)
 
-J'espère que cet article vous a fourni des informations utiles sur les tokens directeurs de liquidité, mais je voulais ajouter une dernière dimension : il semble qu'une **sous-catégorie** de tokens directeurs de liquidité soit en train d'émerger - **les tokens directeurs de liquidité d'emprunt**. 
+J'espère que cet article vous a fourni des informations utiles sur les tokens directeurs de liquidité, mais je voulais ajouter une dernière dimension : il semble qu'une **sous-catégorie** de tokens directeurs de liquidité soit en train d'émerger - **les tokens directeurs de liquidité d'emprunt**.
 
 Leur fonctionnement est très similaire, mais au lieu de permettre à leurs détenteurs de diriger les incitations vers des pools de liquidité, ils leur permettent de **diriger des incitatations vers des marchés de prêt choisis**. Ainsi, au final, ils atteignent un objectif différent par un moyen similaire : le contrôle d'un grand nombre de ces tokens directeurs de liquidité d'emprunt, comme le EUL d'[Euler Finance](https://euler.finance/), permet de maintenir une liquidité importante sur les marchés monétaires.
 

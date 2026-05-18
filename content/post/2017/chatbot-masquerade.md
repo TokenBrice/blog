@@ -1,6 +1,6 @@
 ---
 title: 'The Chatbot Masquerade: Crafting a personality with NLP and grammar'
-description: Has the chatbot hype peaked? Despite massive investments from leading messaging platforms such as Messenger Facebook, Telegram, or Slack, **are chatbots living up to their promise?
+description: "A critical look at chatbot hype, messaging-platform investments, and whether early bots were actually useful enough for users."
 date: '2017-08-02T12:43:42.920Z'
 categories: [Analysis]
 toc: true
@@ -248,7 +248,7 @@ This article was first published May the 31st 2017 on [CALLR’s blog](https://w
 
 ## Chatbots’ role and challenges — a quick exchange with [Brett Scott](https://howwegettonext.com/@Suitpossum)
 
-While I was researching this article, I had the chance to have a quick exchange with Brett Scott about chatbots’ perceived roles and their current limitations. I figured it would be a good way to wrap this one up, as **we discuss some themes addressed by this article and explore a few others that are related**. Thanks again Brett for the quality insights!   
+While I was researching this article, I had the chance to have a quick exchange with Brett Scott about chatbots’ perceived roles and their current limitations. I figured it would be a good way to wrap this one up, as **we discuss some themes addressed by this article and explore a few others that are related**. Thanks again Brett for the quality insights!
 Here is the transcript:
 
 > _Do brands crave chatbots because they are looking at automating certain positions (support, customer relations, etc.) previously handled by real, human workers?_

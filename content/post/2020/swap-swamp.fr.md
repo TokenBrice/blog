@@ -2,6 +2,7 @@
 title: "🐊 Immersion dans la mare aux swaps"
 description: "Des conseils et astuces pour comprendre ce qu'il se passe sous le capot avec les aggrégateurs d'échanges décentralisés et comment les utiliser au mieux."
 date: '2020-11-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
@@ -9,9 +10,9 @@ difficulty: "beginner"
 url: swap-swamp
 ---
 
-L'échange de tokens est-il aussi facile que ça ? Ne vous laissez pas tromper par l'apparente simplicité : oui, il existe des interfaces accessibles où vous choisissez un token, un montant, et appuyez sur un bouton pour échanger. Mais sans une compréhension de base de la DeFi, vous risquez de faire des erreurs évitables.  Il devient de plus en plus critique de savoir **ce qui se passe sous le capot pour en tirer parti**. 
+L'échange de tokens est-il aussi facile que ça ? Ne vous laissez pas tromper par l'apparente simplicité : oui, il existe des interfaces accessibles où vous choisissez un token, un montant, et appuyez sur un bouton pour échanger. Mais sans une compréhension de base de la DeFi, vous risquez de faire des erreurs évitables.  Il devient de plus en plus critique de savoir **ce qui se passe sous le capot pour en tirer parti**.
 
-C'est pourquoi, dans cet article, je souhaite discuter rapidement des échanges de tokens, en mettant l'accent sur quelques conseils et considérations qui vous aideront à réduire l'impact global des coûts du gaz sur vos échanges. 
+C'est pourquoi, dans cet article, je souhaite discuter rapidement des échanges de tokens, en mettant l'accent sur quelques conseils et considérations qui vous aideront à réduire l'impact global des coûts du gaz sur vos échanges.
 
 ### Le diable est dans les détails
 
@@ -21,7 +22,7 @@ Lorsqu'il s'agit d'échanger des tokens, **vérifiez les détails** ! Si la plup
 L'estimation est-elle fiable ?
 {{< /notice >}}
 
-C'est une véritable jungle ! Certains services assument le pire scénario, tandis que d'autres sont plus optimistes. Cela signifie que sur certains services, vous pouvez parfois battre le taux affiché, alors que d'autres ne le permettent pas. Uniswap a opté pour une approche intéressante, avec un tarif de base couplé à un "minimum reçu". 
+C'est une véritable jungle ! Certains services assument le pire scénario, tandis que d'autres sont plus optimistes. Cela signifie que sur certains services, vous pouvez parfois battre le taux affiché, alors que d'autres ne le permettent pas. Uniswap a opté pour une approche intéressante, avec un tarif de base couplé à un "minimum reçu".
 
 ParaSwap fonctionne actuellement sur la base d'une hypothèse du pire scénario : les fluctuations de taux et les diverses optimisations peuvent entraîner une agréable surprise.
 
@@ -29,7 +30,7 @@ ParaSwap fonctionne actuellement sur la base d'une hypothèse du pire scénario 
 Qu'en est-il du coût en gaz ?
 {{< /notice >}}
 
-Le **rendement du gaz** de l'agrégateur que vous utilisez peut varier considérablement selon la situation. Il y a deux principaux types d'interactions : les agrégateurs effectuent des échanges (potentiellement groupés) et les interactions avec des contrats intelligents, comme avec Aave pour déposer des USDC pour aUSDC. 
+Le **rendement du gaz** de l'agrégateur que vous utilisez peut varier considérablement selon la situation. Il y a deux principaux types d'interactions : les agrégateurs effectuent des échanges (potentiellement groupés) et les interactions avec des contrats intelligents, comme avec Aave pour déposer des USDC pour aUSDC.
 
 Ces dernières peuvent avoir un impact maximal sur les coûts du gaz si elles ne sont pas correctement optimisées. Exploiter correctement la capacité des **agrégateurs à regrouper plusieurs interactions en une seule transaction** peut vous aider à réduire l'impact des prix du gaz sur leurs stratégies.
 
@@ -41,7 +42,7 @@ De plus, les coûts du gaz peuvent être calculés différemment selon les servi
 Quel est votre plan ?
 {{< /notice >}}
 
-Il est essentiel de considérer l'ensemble de la situation tout en calculant les coûts du gaz. Comparer les coûts du gaz de deux transactions une à une n'a guère de sens si l'une des transactions est en fait une série d'opérations alors que l'autre ne l'est pas. 
+Il est essentiel de considérer l'ensemble de la situation tout en calculant les coûts du gaz. Comparer les coûts du gaz de deux transactions une à une n'a guère de sens si l'une des transactions est en fait une série d'opérations alors que l'autre ne l'est pas.
 
 ![Paraswap-Aave-IdleFinance](/img/2020/swap-swamps/paraswap-aave-idle.png "ParaSwap peut regrouper un retrait de Idle Finance, un swap et un dépôt sur Aave en une seule transaction")
 

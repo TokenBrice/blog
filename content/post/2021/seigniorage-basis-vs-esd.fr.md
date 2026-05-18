@@ -1,9 +1,12 @@
 ---
 title: "⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD"
-description: "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de stablecoins sur le réseau Ethereum"
+description: "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de Stablecoins sur le réseau Ethereum"
 date: '2021-01-16T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
+series: stablecoin-arc
+series_order: 3
 toc: true
 tocNum: false
 image: /img/2021/seigniorage-basis-vs-esd/cover.png
@@ -11,9 +14,9 @@ difficulty: "intermediate"
 url: seigniorage-basis-esd
 ---
 
-Il y a quelques semaines, j'ai partagé mon premier billet sur les stablecoins algorithmiques en soulignant les principales caractéristiques qui rendaient de tels projets intéressants à mes yeux. Dans cet article, nous allons approfondir le sujet, avec une **analyse comparative des deux principaux modèles** : le modèle Basis et le modèle ESD. 
+Il y a quelques semaines, j'ai partagé mon premier billet sur les Stablecoins algorithmiques en soulignant les principales caractéristiques qui rendaient de tels projets intéressants à mes yeux. Dans cet article, nous allons approfondir le sujet, avec une **analyse comparative des deux principaux modèles** : le modèle Basis et le modèle ESD.
 
-Tous deux sont utilisés avec succès par le projet qui portent leur nom mais aussi par de nombreux forks, plus ou moins pertinents. Alors que le domaine des stablecoins algorithmiques se structure, il semble y avoir un **consensus autour de ces deux approches, désormais utilisés comme modèle** pour lancer rapidement de nouveaux projets essayant diverses modifications, comme l'ancrage du système à une autre monnaie que le dollar, telle que l'or ou l'euro.
+Tous deux sont utilisés avec succès par le projet qui portent leur nom mais aussi par de nombreux forks, plus ou moins pertinents. Alors que le domaine des Stablecoins algorithmiques se structure, il semble y avoir un **consensus autour de ces deux approches, désormais utilisés comme modèle** pour lancer rapidement de nouveaux projets essayant diverses modifications, comme l'ancrage du système à une autre monnaie que le dollar, telle que l'or ou l'euro.
 
 La pléthore de forks existants autorise aux plus récents de s'inspirer des améliorations existantes ou à venir des systèmes en service, ce qui permet de faire un bond en avant dans l'innovation. Mais avant de plonger dans les arcanes du dernier token élastique en or, il est bon de s'assurer que vous comprenez les modèles sous-jacents. C'est la raison pour laquelle nous sommes ici aujourd'hui.
 
@@ -76,14 +79,14 @@ Remarque : pendant les phases d'expansion, vous pouvez laisser les BAC s'accumul
 
 #### 2.4. ESD - DAO ⭐⭐⭐⭐
 
-* Entrée : Stage ESD -> Bound ESD 
+* Entrée : Stage ESD -> Bound ESD
 * Récompense : aucune transaction requise
-* Sortie : Unstage ESD -> (attendre 15 epochs) -> Unbond ESD 
+* Sortie : Unstage ESD -> (attendre 15 epochs) -> Unbond ESD
 
 Note : Pendant les phases d'expansion, les récompenses produites par le DAO sont automatiquement composées (= bounded) sans qu'une action soit requise de la part de l'utilisateur final.
 
 ---
-## 3. Analyse algorithmique comparative des stablecoins : Basis vs ESD
+## 3. Analyse algorithmique comparative des Stablecoins : Basis vs ESD
 
 Vous trouverez l'essentiel de mon analyse dans le tableau suivant. Si vous connaissez bien les deux projets, cela devrait suffire, sinon vous pouvez lire les explications pour chaque avantage et inconvénient sous le tableau.
 
@@ -130,7 +133,7 @@ Les récompenses du modèle de base sont distribuées par le biais d'un **contra
 
 #### 3.2.1. La part a une faible utilité lorsque BAC&lt;1
 
-La principale faiblesse, et de loin la plus importante à ce jour, de la mise en œuvre actuelle du modèle Basis est la **faible utilité de la part**. Dans les phases d'expansion, son prix s'apprécie généralement en raison du BAC nouvellement frappé auquel il donne accès. 
+La principale faiblesse, et de loin la plus importante à ce jour, de la mise en œuvre actuelle du modèle Basis est la **faible utilité de la part**. Dans les phases d'expansion, son prix s'apprécie généralement en raison du BAC nouvellement frappé auquel il donne accès.
 
 Cependant, l'utilité du BAS est faible dans les phases de contraction, à l'exception de son pouvoir de gouvernance. En phase de contraction, la seule option de gain potentiel est de s'engager dans le pool BAS/DAI pour des BAS supplémentaires, mais c'est un jeu très risqué avec une action de prix BAS baissière (contraction).
 
@@ -156,11 +159,11 @@ Dans l'ensemble, le système d'ESD fonctionne sur une **période trois fois plus
 
 #### 3.4.1. Complexité globale du système
 
-En raison des vérouillages, stage, boundi et autres limites supplémentaires nécessaires pour mettre en œuvre la fonctionnalité de partage directement au niveau des stablecoins, les systèmes basés sur l'ESD ont tendance à être plus **complexes à appréhender**, en particulier pour les nouveaux arrivants. 
+En raison des vérouillages, stage, boundi et autres limites supplémentaires nécessaires pour mettre en œuvre la fonctionnalité de partage directement au niveau des Stablecoins, les systèmes basés sur l'ESD ont tendance à être plus **complexes à appréhender**, en particulier pour les nouveaux arrivants.
 
 On peut même le constater dans les mèmes, où les joueurs ESD/DSD aiment se mimer avec un haut coefficient intellectuel. L'expiration des coupons rend le système de stabilisation extrêmement peu convivial pour les nouveaux arrivants, ce qui n'est pas nécessairement une mauvaise chose en soi, mais voyez le point suivant.
 
-#### 3.4.2. Incitation plus faible des coupons	
+#### 3.4.2. Incitation plus faible des coupons
 
 Les coupons ESD ont une date d'expiration, ce qui transforme le système des coupons en un peu de roulette russe. En raison de cette conception, il existe de sérieux risques de perdre tout le capital engagé en brûlant l'ESD pour les coupons, même si le système ESD se maintient à long terme. En effet, une fois que l'ESD est transformée en coupon, le propriétaire dispose de **90 epochs (~30 jours) pour les réclamer avant leur expiration.**
 
@@ -178,7 +181,7 @@ Lors de la dernière phase d'expansion, la période autour de l'epoch 396 était
 
 ## 4. La boîte à outils Algostable
 
-Avant de vous laisser partir, voici un rapide aperçu des principaux outils utiles au suivi et à la gestion des positions pour les quatre projets. Nous avons de la chance ! Il existe des outils communautaires supers conçus pour vous aider à suivre les stablecoins algorithmiques. 
+Avant de vous laisser partir, voici un rapide aperçu des principaux outils utiles au suivi et à la gestion des positions pour les quatre projets. Nous avons de la chance ! Il existe des outils communautaires supers conçus pour vous aider à suivre les Stablecoins algorithmiques.
 
 {{< notice tip >}}
 **[Vfat en particulier](https://vfat.tools/)** a été très réactif en mettant à jour ses outils de suivi et de gestion pour les projets les plus récents. Il inclut même un **[aperçu des tokens de seigneuriage](https://vfat.tools/seigniorage/)** maintenant :
@@ -188,7 +191,7 @@ Avant de vous laisser partir, voici un rapide aperçu des principaux outils util
 
 * Pour l'ESD, votre tableau de bord principal est [ESDTools](https://esd.tools/)
 * Pour DSD, [DSDTools](https://dsd.tools/).
-* Pour Basis Cash, **[BCTools](https://bc.tools/)**. 
+* Pour Basis Cash, **[BCTools](https://bc.tools/)**.
 
 Vous pouvez utiliser [ce tableau de bord pour suivre la sortie des ESD et DSD nouvellement frappés](https://duneanalytics.com/tongnk/esd_1).
 
@@ -196,9 +199,9 @@ Enfin, les quatre projets sont supportés par [Zapper](https://zapper.fi/) et [D
 
 ### 4.1. Ressources supplémentaires
 
-- Pour en savoir plus sur le contexte des stablecoins algorithmiques, n'hésitez pas à **[lire mon précédent article sur le sujet](https://tokenbrice.xyz/fr/algorithmic-stablecoins/)**. 
-- Pour en savoir plus, les francophones apprécieront cette **[🇫🇷 vidéo de 50 min expliquant les deux modèles](https://www.youtube.com/watch?v=TuenkIZZEq0)** 
-- Si vous lisez l'Anglais, cet article publié sur Derebit vaut la lecture : **[Stabilité, élasticité et réflexivité : A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-stablecoins/)**.
+- Pour en savoir plus sur le contexte des Stablecoins algorithmiques, n'hésitez pas à **[lire mon précédent article sur le sujet](https://tokenbrice.xyz/fr/algorithmic-Stablecoins/)**.
+- Pour en savoir plus, les francophones apprécieront cette **[🇫🇷 vidéo de 50 min expliquant les deux modèles](https://www.youtube.com/watch?v=TuenkIZZEq0)**
+- Si vous lisez l'Anglais, cet article publié sur Derebit vaut la lecture : **[Stabilité, élasticité et réflexivité : A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-Stablecoins/)**.
 
 {{< notice tip >}}
 

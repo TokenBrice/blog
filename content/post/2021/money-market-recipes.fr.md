@@ -1,9 +1,12 @@
 ---
 title: "🌽 Livre de recettes pour les marchés d'actifs DeFi"
-description: "Les marchés d'actifs comme Aave ou Alchemix sont des outils essentiels en DeFi. Cet article explique et illustre quelques stratégies pour tirer parti des différentes options qu'ils offrent."
+description: "Strategies concretes pour utiliser les marches monetaires DeFi comme Aave et Alchemix, avec leurs opportunites et risques."
 date: '2021-04-29T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Curve, Liquity, Alchemix, Aave, Liquidation]
+tags: [DeFi, Ethereum, Money Markets, Aave, Curve, Liquity, Alchemix, Liquidation]
+series: money-markets
+series_order: 2
 toc: true
 tocNum: true
 url: recettes-marches-actifs
@@ -28,11 +31,11 @@ Cet article ne constitue pas du conseil en investissement : je ne suis pas habil
 
 ## Pari avec effet de levier sur un marché d'actif via le marché d'actif lui même
 
-Les marchés d'actifs ont tous un token associé, par exemple le token AAVE pour Aave. Il sert généralement pour la gouvernance du protocole et permet parfois également de capturer une partie de la valeur que celui-ci génère. Avec cette stratégie, on va donc **utiliser un marché d'actif pour emprunter des actifs qui serviront ensuite à s'exposer au token natif de la plateforme désirée**. 
+Les marchés d'actifs ont tous un token associé, par exemple le token AAVE pour Aave. Il sert généralement pour la gouvernance du protocole et permet parfois également de capturer une partie de la valeur que celui-ci génère. Avec cette stratégie, on va donc **utiliser un marché d'actif pour emprunter des actifs qui serviront ensuite à s'exposer au token natif de la plateforme désirée**.
 
 *   **⚙ Condition :** Optimisme sur l'avenir d'un marché d'actif donné. Il dispose d'un token natif qui dans ce scénario devrait s'apprécier parallèlement à la croissance du marché d'actifs sur moyen/long terme.
 *   **📅 Horizon temporel :** 3 - 24 mois. ~3 mois est un minimum recommandé pour que les frais en gas et les coûts d'emprunt n'impactent pas trop les retours de la stratégie.
-*   **🔮 Résultat espéré** : le token acquis s'apprécie ce qui permet de rembourser la dette (+intérêts éventuels) à terme en revendant une partie de la position initiale. Une fois la dette remboursée, une partie des tokens acquis peut être conservée. 
+*   **🔮 Résultat espéré** : le token acquis s'apprécie ce qui permet de rembourser la dette (+intérêts éventuels) à terme en revendant une partie de la position initiale. Une fois la dette remboursée, une partie des tokens acquis peut être conservée.
 *   **🃏 Bonus / Facilitateur :** Si le token en question peut produire un rendement (par ex AAVE dans le Safety Module), cela permettra de rembourser la dette encore plus rapidement ou d'accumuler "gratuitement" du token en question si le scénario d'appréciation de son prix se vérifie.
 
 Bien que cette stratégie soit assez basique, il s'agit d'une de mes préférées. Je vous proposais récemment sur Twitter un exemple de sa mise en pratique que nous détaillerons ici :
@@ -53,7 +56,7 @@ Soit en s'exposant directement au token LQTY, ce qui est bien sûr plus risqué 
 
 Ou alors de manière plus prudente, avec une stratégie qui revient à utiliser Liquity pour emprunter des LUSD et les rendre productifs :
 
-### Exposition essentiellement en stablecoins
+### Exposition essentiellement en Stablecoins
 
 ![mm-long-token-tokenbrice](/img/2021/money-market-recipes/mm-long-tokenbrice.png "Exposition longue sur Liquity via Liquity/Curve")
 
@@ -72,7 +75,7 @@ Yearn Finance propose également un vault LUSD qui gère automatiquement la posi
 
 L'arrivée d'Alchemix a ouvert de nouvelles perspectives en termes de stratégie. Sur Alchemix, la dette se rembourse toute seule avec le temps. En effet, **le collatéral utilisé (yDAI) est un stablecoin qui produit un rendement (via Yearn)**. Ainsi avec les conditions actuelles l'emprunt est auto-remboursé en trois ans.
 
-Je vous propose donc une stratégie simple pour tirer profit d'Alchemix afin de réaliser un profit. Le principal inconvénient est que **seulement la moitié de la quantité de DAI placées initialement dans Alchemix peut être empruntée en AlUSD** puis investie. Néanmoins comme cette stratégie s'appuie sur stablecoins, elle ne comporte - à priori (⚠ oracles) pas de risque de prix et ne nécessite donc pas de suivi quotidien.
+Je vous propose donc une stratégie simple pour tirer profit d'Alchemix afin de réaliser un profit. Le principal inconvénient est que **seulement la moitié de la quantité de DAI placées initialement dans Alchemix peut être empruntée en AlUSD** puis investie. Néanmoins comme cette stratégie s'appuie sur Stablecoins, elle ne comporte - à priori (⚠ oracles) pas de risque de prix et ne nécessite donc pas de suivi quotidien.
 
 *   **⚙ Condition :** Des DAI qui seront bloqués pendant ~3ans. Seulement la moitié de la somme déposée est mobilisable.
 *   **📅 Horizon temporel :** ~3 ans (dépend du taux de retour DAI sur Yearn)
@@ -100,15 +103,15 @@ Je suis arrivé à la DeFi il y a plusieurs années avec une ambition simple : j
 1. Aave a lancé **un programme de liquidity mining** payé en StkAave[^aaveLMmainnet] sur le mainnet.
 2. Aave est accessible sur la **sidechain Polygon** où les frais minimes permettent de déployer des stratégies DeFi de manière efficace même avec des petits capitaux. Il y a là aussi un programme de liquidity mining, en MATIC.[^aaveLMmatic]
 
-Pour que cette stratégie soit la plus accessible possible, on va développer l'exemple sur la sidechain Polygon. Elle est donc possible en utilisant n'importe lequel des tokens supportés en collatéral sur le marché Aave/Polygon : MATIC, AAVE, wETH, wBTC, USDC, et DAI. 
+Pour que cette stratégie soit la plus accessible possible, on va développer l'exemple sur la sidechain Polygon. Elle est donc possible en utilisant n'importe lequel des tokens supportés en collatéral sur le marché Aave/Polygon : MATIC, AAVE, wETH, wBTC, USDC, et DAI.
 
 ### Conditions d'implémentation
 
-La stratégie consiste à **produire des rendements grâce à l'emprunt de stablecoins utilisés pour apporter de la liquidité sur le service d'échange Curve**. Grâce au programme de liquidity mining sur Aave, chaque étape du processus est potentiellement lucrative au moins en MATIC.
+La stratégie consiste à **produire des rendements grâce à l'emprunt de Stablecoins utilisés pour apporter de la liquidité sur le service d'échange Curve**. Grâce au programme de liquidity mining sur Aave, chaque étape du processus est potentiellement lucrative au moins en MATIC.
 
 *   **⚙ Condition :** Avoir des tokens acceptés commes collatéral sur Aave, et les ramener sur Polygon par exemple en utilisant [le bridge POS](https://wallet.matic.network/bridge/).
 *   **📅 Horizon temporel :** Court / moyen terme.
-*   **🔮 Résultat espéré** : Rendements en MATIC, stablecoins et ETH.
+*   **🔮 Résultat espéré** : Rendements en MATIC, Stablecoins et ETH.
 *   **🃏 Bonus / Facilitateur : /**. Prospectif : mining CRV & effet de levier potentiel quand les tokens LP Curve Polygon sont acceptés en collatéral sur Aave.
 
 ### Mettre des ETH au travail sur Polygon
@@ -118,26 +121,26 @@ Pour illustrer la stratégie, je pars de l'hypothèse de générer un rendement 
 ![polygon-aave-curve-eth-farming-tokenbrice](/img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice.png "Farming sur Polygon via Aave et Curve en utilisant ETH comme collatéral")
 
 1. Dépôt d'ETH en collatéral sur Aave/Polygon (+natif +MATIC)
-2. Emprunt de stablecoins (-APR +MATIC)
-3. Dépôt et staking des stablecoins sur Curve/Polygon (+natif +MATIC)
+2. Emprunt de Stablecoins (-APR +MATIC)
+3. Dépôt et staking des Stablecoins sur Curve/Polygon (+natif +MATIC)
 
 À noter que les tokens LP Curve Polygon sont considérés pour un ajout potentiel comme collatéral sur le marché Aave. On peut aussi s'attendre à un potentiel en CRV sur les positions LP sur Polygon si la DAO le décide.
 
 Pour approfondir sur Aave, **[je vous propose un live marathon récemment réalisé avec plusieurs membres de l'équipe](https://www.twitch.tv/videos/994454624)**.
 
 {{< notice note >}}
-Il est possible de mettre en œuvre cette stratégie en gardant les tokens utilisés comme collatéraux sur le L1 Aave afin de bénéficier du mining de StkAAVE. Il faudra migrer les stablecoins empruntés du réseau Ethereum vers Polygon en utilisant par exemple [le bridge POS de Matic](https://wallet.matic.network/bridge/).
+Il est possible de mettre en œuvre cette stratégie en gardant les tokens utilisés comme collatéraux sur le L1 Aave afin de bénéficier du mining de StkAAVE. Il faudra migrer les Stablecoins empruntés du réseau Ethereum vers Polygon en utilisant par exemple [le bridge POS de Matic](https://wallet.matic.network/bridge/).
 {{< /notice >}}
 
 ---
 
 ## Se prémunir contre le risque sur le prix du $ : farming en €
 
-En DeFi, tout se passe en dollar. Ça fait du sens, tout le monde connaît, mais pour un utilisateur européen cela peut poser un vrai risque. En effet, si votre ambition est de générer de quoi vivre avec la DeFi, alors cela signifie que votre sortie se fera éventuellement en Euro. 
+En DeFi, tout se passe en dollar. Ça fait du sens, tout le monde connaît, mais pour un utilisateur européen cela peut poser un vrai risque. En effet, si votre ambition est de générer de quoi vivre avec la DeFi, alors cela signifie que votre sortie se fera éventuellement en Euro.
 
 ![eur-usd-1y](/img/2021/money-market-recipes/eur-usd-1y.png "Évolution du taux de change €/$ sur l'année dernière")
 
-Pour un fermier Européen, il peut donc être **intéressant d'avoir une exposition DeFi en € pour éviter ce risque supplémentaire**. Pour l'instant, il n'y a tout simplement aucune option d'emprunt en Euro autre que [Mimo Capital](https://mimo.capital/). 
+Pour un fermier Européen, il peut donc être **intéressant d'avoir une exposition DeFi en € pour éviter ce risque supplémentaire**. Pour l'instant, il n'y a tout simplement aucune option d'emprunt en Euro autre que [Mimo Capital](https://mimo.capital/).
 
 Le service vous permet d'emprunter des PAR depuis ETH, wBTC ou USDC. Le token de gouvernance MIMO est également distribué aux possesseurs de vaults actifs ainsi qu'aux apporteurs de liquidité sur les pools Balancer PAR/ETH et PAR/USDC.
 
@@ -170,7 +173,7 @@ _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com
 
 ## Ensemble, le 🌾 Blé foisonne
 
-La DeFi, ça marche encore mieux en communauté ! Pour aller plus loin dans votre découverte, **[rejoignez le Discord DeFi France](https://discord.gg/3bWZcK2)**. Vous pourrez échanger avec plus de 1500 DeFians francophones de différentes expériences et horizons. 
+La DeFi, ça marche encore mieux en communauté ! Pour aller plus loin dans votre découverte, **[rejoignez le Discord DeFi France](https://discord.gg/3bWZcK2)**. Vous pourrez échanger avec plus de 1500 DeFians francophones de différentes expériences et horizons.
 
 En outre, les contributions sont désormais reconnues - en 🌾 Blé ! La gouvernance de la communauté se décentralise, c'est un excellent moment pour s'impliquer.
 

@@ -1,6 +1,6 @@
 ---
 title: "TokenBrice, désormais 100% en français et bientôt sur Twitch !"
-description: "/Insérez de la hype et un Brice heureux ici/"
+description: "Annonce courte autour des lives TokenBrice, des streams et des experiences communautaires de recherche et education DeFi."
 date: '2021-03-08T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, TokenBrice.xyz, DeFi France, Twitch]
@@ -28,7 +28,7 @@ En outre, j'ai également préparé un budget en DAI — issu de mon farming DeF
 
 ### Le programme sur Twitch
 
-Sur Twitch, j'envisage deux à quatre émissions par semaine : 
+Sur Twitch, j'envisage deux à quatre émissions par semaine :
 
 #### 💸 Live DeFi
 
@@ -38,7 +38,7 @@ Chaque Mardi à 19h | La première sera similaire à ce qui est fait actuellemen
 
 Le samedi soir, à 21h | La seconde émission partira un peu plus dans l'espace puisqu'on fera **de la science-fiction DeFi** : avec plusieurs invités, nous partirons de situations fictives liées aux thématiques de la DeFi pour considérer ce que le monde de demain pourrait être. Cela nous aidera à élever la réflexion et aborder la thématique de la DeFi avec l'appui de disciplines tierces.
 
-Enfin, la troisième émission n'est pas encore totalement déterminée : elle dépendra de votre intérêt. 
+Enfin, la troisième émission n'est pas encore totalement déterminée : elle dépendra de votre intérêt.
 
 #### 🔍 Cash Investigation Communautaire DeFi
 
@@ -87,7 +87,7 @@ Je continuerai de produire des contenus sur mon blog de qualité équivalente au
 
 Auparavant j'écrivais mes articles en anglais : je les traduisais par la suite en français, j'ai décidé d'inverser le processus : ils seront désormais écrits en français et traduits éventuellement en anglais par des membres de la communauté.
 
-Cela devrait engendrer une amélioration de la qualité de mon expression en français qui n'était pas toujours idéale par le passé. Cela me permet de réduire également le temps nécessaire pour produire chaque article. Une très bonne nouvelle. 
+Cela devrait engendrer une amélioration de la qualité de mon expression en français qui n'était pas toujours idéale par le passé. Cela me permet de réduire également le temps nécessaire pour produire chaque article. Une très bonne nouvelle.
 
 Pour vous donner une idée, un article comme celui sur **[l’évaluation du risque des marchés monétaires](https://tokenbrice.xyz/fr/marche-monetaire-risque/)** c'est environ une dizaine d'heures de travail, en plus de toute ma recherche et connaissances acquises en amont.
 
@@ -98,7 +98,7 @@ Ce sera la prochaine étape **d'une grande aventure entièrement en français**.
 
 Outre la compréhension technique des protocoles, je souhaite **élargir la réflexion** afférente à la finance décentralisée comme vous avez pu le constater avec le programme initial des émissions.
 
-Enfin, je souhaite également **ouvrir le stream au plus grand nombre** : je vais recevoir différentes personnes qui ont émergé au sein de la communauté DeFi France pour coanimer les lives avec moi. 
+Enfin, je souhaite également **ouvrir le stream au plus grand nombre** : je vais recevoir différentes personnes qui ont émergé au sein de la communauté DeFi France pour coanimer les lives avec moi.
 
 De très nombreuses personnes suivent et contribuent quotidiennement aux discussions, il est temps de les mettre en lumière.
 

@@ -1,9 +1,12 @@
 ---
 title: "⚔ Guerre du CRV avancée : analyse des protocoles construits sur Curve et Convex "
-description: "Votium, Warden, Concentrator, CCRV, Conic, etc. La couche de protocoles impliqués dans les Curve Wars se densifie : je vous propose un tour d'horizon pour mieux comprendre les dynamiques autour des tokens CRV et CVX."
+description: "Tour d horizon de Votium, Warden, Concentrator, Conic et des nouvelles dynamiques autour des tokens CRV et CVX."
 date: '2022-04-05T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, Convex, Votium, veCRV, bribe.crv, Conic Finance, Warden, Concentrator]
+tags: [DeFi, Ethereum, Curve, Convex, Votium, veCRV, bribe.crv, Conic Finance, Warden, Concentrator]
+series: crv-wars
+series_order: 2
 toc: true
 tocNum: false
 url: crv-wars-l2
@@ -13,7 +16,7 @@ difficulty: "expert"
 
 Le jeu et la lutte autour des tokens CRV et CVX ont changé d’ampleur depuis mon dernier article qui décrivait les Curve Wars des origines, désormais presque primitives. L’infrastructure autour de Curve s’est grandement densifiée avec l’arrivée de Convex bien sûr, mais aussi Votium, l’Union Llama Airforce, Concentrator, CCRV, Lendflare, Warden, et de nombreux autres protocoles encore en développement.
 
-Pour assumer une position stratégique sur CRV ou CVX, il faut désormais pouvoir supporter un investissement de plusieurs dizaines de millions de dollars. Ainsi, la course à l’accumulation de CVX et CRV est devenue avant tout un jeu pour DAOs ou pour les whales. Plus spécifiquement, les DAOs semblent préférer CVX au CRV, qui représente un compromis plus favorable : 
+Pour assumer une position stratégique sur CRV ou CVX, il faut désormais pouvoir supporter un investissement de plusieurs dizaines de millions de dollars. Ainsi, la course à l’accumulation de CVX et CRV est devenue avant tout un jeu pour DAOs ou pour les whales. Plus spécifiquement, les DAOs semblent préférer CVX au CRV, qui représente un compromis plus favorable :
 
 1. **Boosts LP Curve** : capacité de développer sa liquidité via les votes sur les jauges Curve
 2. **Rendements** : 4-5% en cvxCRV + potentiel rendement des bribes si capacité non utilisée (ou que le protocole bribe également)
@@ -28,9 +31,9 @@ Malgré tout, Convex n’est pas le seul projet qui a essayé de réaliser cette
 
 Je ne reviendrai pas sur les bases de la séparation entre les deux tokens ici, c’est l’affaire d’un article entier si vous découvrez le sujet : [⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance](2. [⚔ Guerres CRV avancées : analyse des protocoles construits au dessus de Curve et Convex](https://tokenbrice.xyz/fr/crv-wars-l2/)
 
-Il ne faut pas oublier que malgré l’équivalence calculable entre CVX et CRV (1vl CVX contrôle environ 4.8 veCRV - [source](https://dune.xyz/Marcov/Convex-Finance)), les deux tokens ont des compromis différents comme décrit plus haut. 
+Il ne faut pas oublier que malgré l’équivalence calculable entre CVX et CRV (1vl CVX contrôle environ 4.8 veCRV - [source](https://dune.xyz/Marcov/Convex-Finance)), les deux tokens ont des compromis différents comme décrit plus haut.
 
-L’équilibre entre CRV et CVX a tendance à se maintenir, malgré des oscillations fréquentes : dernièrement, le pendule semble plus aller du côté de CVX. Néanmoins je pense qu’il reste de la place pour d’autres approches qui partent de la source (CRV) et elles commencent à émerger. 
+L’équilibre entre CRV et CVX a tendance à se maintenir, malgré des oscillations fréquentes : dernièrement, le pendule semble plus aller du côté de CVX. Néanmoins je pense qu’il reste de la place pour d’autres approches qui partent de la source (CRV) et elles commencent à émerger.
 
 [Warden](https://app.warden.vote/) de Paladin propose ainsi un protocole qui aide les apporteurs de liquidité sur Curve à maximiser leurs rendements et peut être atteindre le désirable bonus 2.5x grâce à de l’emprunt de la capacité de boosts des tokens veCRV (apportés par d’autres) payés directement en CRV.
 
@@ -42,9 +45,9 @@ C’est pourquoi cet article se propose de faire le point sur la guerre des CRV 
 ## Layer 2 fonctionnels de Curve
 
 {{< notice note >}}
-Dans cet article, je vais parler de “L2 fonctionnel”, ou tout simplement L2 de Curve ou Convex. C’est une image pour décrire cette tendance à la démultiplication des supports pour interagir avec Curve/Convex. 
+Dans cet article, je vais parler de “L2 fonctionnel”, ou tout simplement L2 de Curve ou Convex. C’est une image pour décrire cette tendance à la démultiplication des supports pour interagir avec Curve/Convex.
 
-Prenez garde à ne pas confondre le terme avec les “vrais L2” / L2 de scaling : le terme dans son sens originel pour décrire une nouvelle chaîne qui hérite de la sécurité de sa parente tout en permettant un débit de transactions plus important et des coûts plus modérés. 
+Prenez garde à ne pas confondre le terme avec les “vrais L2” / L2 de scaling : le terme dans son sens originel pour décrire une nouvelle chaîne qui hérite de la sécurité de sa parente tout en permettant un débit de transactions plus important et des coûts plus modérés.
 {{< /notice >}}
 
 On commence donc par les **L2 “fonctionnels”** de Curve, puis ceux de Convex (lui-même L2 de Curve), ensuite les services d’emprunt permettant de saisir avec effet de levier les nombreuses sources de rendement offertes par l’ensemble de l'écosystème Curve et on finira avec les protocoles-whales de CRV/CVX.
@@ -100,7 +103,7 @@ Via snapshot, ils peuvent mobiliser leur puissance de vote directement sur la ja
 
 ![Votium bribes](/img/2022/curve-wars-l2/votium-bribes.png "Plus de $15M de bribes sont payées chaque deux semaine pour influencer le jeu des jauges Curve.")
 
-Grâce à la quantité impressionnante de veCRV contrôlés par Convex, Votium a rapidement émergé comme **un outil essentiel pour établir et pérenniser une présence sur Curve** : un bribe conséquent sur Votium permet de rendre rapidement une pool Curve très attractive. 
+Grâce à la quantité impressionnante de veCRV contrôlés par Convex, Votium a rapidement émergé comme **un outil essentiel pour établir et pérenniser une présence sur Curve** : un bribe conséquent sur Votium permet de rendre rapidement une pool Curve très attractive.
 
 On détaille plus bas l’exemple de Frax Finance qui propose environ $5-7M de bribes à chaque round ; cela permet de maintenir des rendements attractifs sur la pool Frax/3CRV conséquente malgré la dilution massive (la pool contient presque $3B d’actifs), et ce sans émettre de leur propre token (FXS) pour du liquidity mining.
 
@@ -158,11 +161,11 @@ Une des limites actuelles de Convex (ou feature pour certains) c’est que malgr
 2. Création de la pool Curve 3CRV : CRV, cvxCRV et cCRV
 3. Bribes sur la pool 3CRV pour l’aider à se développer.
 
-Le mécanisme se lancera grâce à une allocation initiale de 1M CRV (fournie par Congruent DAO). Cela permettra d’airdrop 1M cCRV (via bribes) sur les premières semaines d’existence du token afin de l’aider à se lancer rapidement. 
+Le mécanisme se lancera grâce à une allocation initiale de 1M CRV (fournie par Congruent DAO). Cela permettra d’airdrop 1M cCRV (via bribes) sur les premières semaines d’existence du token afin de l’aider à se lancer rapidement.
 
 Si le plan de lancement semble assez solide, la pérennisation du mécanisme semble encore incertaine. L’ajout de frais pourrait permettre au protocole CCRV de posséder sa propre liquidité (et donc rendement en CRV, CVX et 3 pool) ce qui pourrait alimenter les bribes tout en réduisant leur coût effectif sur le long terme.
 
-cCRV n’est pas encore lancé mais se veut être une **nouvelle optimisation de la flywheel Curve/Convex**. Point intéressant, cCRV est développé par [Congruent](https://congruent.fi/), une DAO qui développe des produits de “Governance as a Service” (GaaS).  
+cCRV n’est pas encore lancé mais se veut être une **nouvelle optimisation de la flywheel Curve/Convex**. Point intéressant, cCRV est développé par [Congruent](https://congruent.fi/), une DAO qui développe des produits de “Governance as a Service” (GaaS).
 
 
 ### Bent : le Convex de Convex ?
@@ -251,7 +254,7 @@ Le protocole est encore en plein déploiement, bien que la fonctionnalité d’e
 
 ### Curvance (CVE) 🚧
 
-Curvance s’attaque au même problème mais avec une approche différente. Ici le protocole ne s’intéresse pas aux LP Curve comme collatéral, mais plutôt aux “wrapped assets” en général comme cvxCRV, bveCVX (Badger) ou yvBOOST (Yearn). Pour permettre l’emprunt de stablecoins avec ces actifs comme collatéral, ils envisagent d’isoler le risque en s’appuyant sur des pools Fuse.
+Curvance s’attaque au même problème mais avec une approche différente. Ici le protocole ne s’intéresse pas aux LP Curve comme collatéral, mais plutôt aux “wrapped assets” en général comme cvxCRV, bveCVX (Badger) ou yvBOOST (Yearn). Pour permettre l’emprunt de Stablecoins avec ces actifs comme collatéral, ils envisagent d’isoler le risque en s’appuyant sur des pools Fuse.
 
 Là encore, le token CVE sera distribué aux apporteurs de liquidité et un système de type veCVE est envisagé avec une nouvelle subtilité : encore un wrap, une version liquide du veCVE, le cveCVE qui donne accès au rendement du veCVE mais délègue les capacités de gouvernance à la DAO. Ici encore, des boosts, des jauges, et même potentiellement des bribes sont envisagés
 
@@ -275,7 +278,7 @@ Frax développe depuis longtemps une stratégie pertinente qui vise à dominer l
 
 Frax est connu pour être également le projet le plus agressif avec les bribes et c’est fréquemment Frax qui propose le plus gros bribe de Votium pour sa pool FRAX/3crv. Au dernier round (14), le bribe de Frax représentait environ **40% de la valeur totale de toutes les bribes** payées à ce round ($6.5M / $16.2).
 
-Si Frax peut se permettre d’être aussi agressif, c’est que leur position vlCVX permet de réduire le coût effectif de ces bribes : grâce à ses propres votes, le protocole est en mesure de [récupérer](https://etherscan.io/tx/0x090777069299e6e292363c6131b5cc5b463d598a7f89d3c7207148c0497587f8) une partie non négligeable des FXS utilisés à chaque round. 
+Si Frax peut se permettre d’être aussi agressif, c’est que leur position vlCVX permet de réduire le coût effectif de ces bribes : grâce à ses propres votes, le protocole est en mesure de [récupérer](https://etherscan.io/tx/0x090777069299e6e292363c6131b5cc5b463d598a7f89d3c7207148c0497587f8) une partie non négligeable des FXS utilisés à chaque round.
 
 Avec cette stratégie, la pool FRAX/3CRV est en mesure de **maintenir un taux d’émission de CRV presque cinq fois plus élevé que la 3pool, pour une liquidité totale similaire** (3pool : $3.3B, FRAX : $2.7B).
 
@@ -298,7 +301,7 @@ Plutôt que d’acquérir sa position en CVX, Badger est en mesure de l’obteni
 
 Je me suis concentré sur deux projets qui développent deux stratégies bien distinctes pour accumuler des CVX et peser dans les Curve Wars. Comme vous pouvez le voir sur le graphique plus haut, il y en a de nombreuses autres.
 
-Quand un protocole développe une position conséquente sur CVX (disons >300K CVX), il bénéficie d’avantages directs pour son/ses tokens, notamment au niveau de la liquidité. Néanmoins ça ne s’arrête pas là : les grands possesseurs de CVX sont dans une position stratégique et vont être également courtisés très prochainement pour différents partenariats. 
+Quand un protocole développe une position conséquente sur CVX (disons >300K CVX), il bénéficie d’avantages directs pour son/ses tokens, notamment au niveau de la liquidité. Néanmoins ça ne s’arrête pas là : les grands possesseurs de CVX sont dans une position stratégique et vont être également courtisés très prochainement pour différents partenariats.
 
 
 On voit déjà la mécanique à l'œuvre, avec la discussion autour d’une potentielle 4pool (USDC/USDT/FRAX/UST), rendue possible grâce au cumul des influences de Frax, Luna, Redacted et Olympus. Les protocoles-whales CVX deviennent ainsi des interfaces pour les Curve Wars, reste à voir qui saura leur faire la meilleure offre.

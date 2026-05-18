@@ -91,4 +91,4 @@ This article was written to be nothing more than an analysis giving you a framew
 
 Yet, I think the ongoing shift I described in this article will have tremendous consequences, many of which are not yet envisioned. I still can’t really figure how to feel about this, I jump from curiosity to anger, or from fascination to despair. What about you?
 
-This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.
+This article is the translation of an original (French) [EcoCrypto.fr](https://EcoCrypto.fr) story.

@@ -1,10 +1,10 @@
 ---
-title: La nation à la carte, une bonne idée ? 
+title: La nation à la carte, une bonne idée ?
 description: >-
   Introduction au concept de la Nation Comme Service : son origine, ses enjeux et ses conséquences.
 date: '2018-07-11T11:54:20.399Z'
 categories: [Analysis]
-tags: [Naas, ecocrypto]
+tags: [NaaS, EcoCrypto]
 image: /img/2018/naas/cover.jpeg
 url: naas
 difficulty: "intermediate"
@@ -46,7 +46,7 @@ L’idée est toute jeune, elle a émergé ces dernières années. Ce qui pourra
 
 Ces concepts peuvent être un peu dur à envisager dans la pratique. Permettez moi de vous emmener en e-Estonie où Kaspar Korjus (responsable du programme d’e-résidence) nous montre ce que ça implique dans le vie de tous les jours,[avec la naissance de son fils Ruufus](https://medium.com/e-residency-blog/what-is-a-nation-children-born-today-will-grow-up-with-a-radically-different-answer-b31f14403c3c) :
 
-[Traduction personnelle de Kaspar qui s’exprime en Anglais dans l’article] 
+[Traduction personnelle de Kaspar qui s’exprime en Anglais dans l’article]
 
 > Cette information [le nom, le sexe, la date de naissance et l’identité des parents, enregistrée dès la naissance par le médecin à l’hopital] est très utile dès le début car différents services gouvernementaux en ont besoin pour mieux nous [les parents] servir : planifier dès la naissance les bilans de santé, allouer les congés parentaux ou encore prévoir le nécessaire pour assurer la garde de l’enfant. Dans la plupart des pays, cet épisode serait un calvaire pour les parents mais en Estonie l’information s’échange librement entre les différents services et agences gouvernementales, dans le cadre d’un système d’échange d’information sécurisé et décentralisé baptisé la X-road.
 

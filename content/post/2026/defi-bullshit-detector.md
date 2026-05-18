@@ -1,9 +1,9 @@
 ---
 title: "DeFi Bullshit Detector"
-description: "Setup guide for a Claude instance that trusts onchain data over marketing."
+description: "Setup guide for a Claude-based DeFi research assistant that checks onchain reality, team history, and risks before trusting protocol marketing."
 date: '2026-02-07T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized Finance]
+tags: [DeFi, Ethereum]
 url: defi-bullshit-detector
 image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
@@ -17,9 +17,9 @@ In 1h15, we were able to setup a new Claude instance from scratch, have it write
 
 All of this happened live and was recorded:
 
- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi <a href="https://t.co/wDlVUOb2LJ">https://t.co/wDlVUOb2LJ</a></p>&mdash; tokenbrice.eth (🐛,🔍)           
+ <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi <a href="https://t.co/wDlVUOb2LJ">https://t.co/wDlVUOb2LJ</a></p>&mdash; tokenbrice.eth (🐛,🔍)
   (@TokenBrice) <a href="https://twitter.com/TokenBrice/status/2019411494228881549?ref_src=twsrc%5Etfw">February 5, 2026</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>           
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Considering the relevance and quality of the finding, I figured I would document this setup further with a blog article to enable anyone curious to replicate locally, and conduct research on any protocol they want.
 
@@ -335,7 +335,7 @@ python3 tools/defillama.py hacks --name "<query>"
 python3 tools/defillama.py treasury <protocol>
 
 # Stablecoins overview
-python3 tools/defillama.py stablecoins
+python3 tools/defillama.py Stablecoins
 
 # Chain TVL rankings
 python3 tools/defillama.py chains

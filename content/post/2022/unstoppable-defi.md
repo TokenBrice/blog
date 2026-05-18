@@ -2,8 +2,9 @@
 title: "Behind the scene of the decentralization theater: a study of the inalterability of DeFi protocols"
 description: "From total centralization to unstoppable protocols: a definition and analysis of the spectrum of the different resilience levels of DeFi protocols."
 date: '2022-05-18T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Analysis]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, Pooltogether, Chainlink, Oracles]
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, PoolTogether, Chainlink, Oracles]
 toc: true
 tocNum: true
 url: unstoppable-defi
@@ -17,7 +18,7 @@ Indeed, **a handful of protocols fit this reality,** but most are far from being
 
 The recent implosion of the Luna ecosystem and its associated stablecoin, UST, will hopefully serve as a wake-up call for some. It was, unfortunately, a **perfectly avoidable** disaster. The model used for this stablecoin and its flaws were already known, with many previous instances covered on this blog: BAC, MIC, ESD, DSD, etc. (at the application level on Ethereum rather than the protocol level, but with the same fundamental problems). They all had the same end: an endless spiral that brought them closer to absolute 0.
 
-In the face of this event, many investors have become aware that not all stablecoins are created equal and seek to learn more about the resilience of the many stablecoins available on the market and the robustness of different DeFi protocols in general. Therefore, I'm seizing this exceptional moment to discuss this essential topic for the sustainability of DeFi; it has been a passion of mine for a long time.
+In the face of this event, many investors have become aware that not all Stablecoins are created equal and seek to learn more about the resilience of the many Stablecoins available on the market and the robustness of different DeFi protocols in general. Therefore, I'm seizing this exceptional moment to discuss this essential topic for the sustainability of DeFi; it has been a passion of mine for a long time.
 
 Indeed, last year I already proposed to you an exhaustive analysis of the risks incurred on the borrowing services in DeFi and how to evaluate them. **[This article](https://tokenbrice.xyz/money-markets-risk/)** is still relevant and a highly recommended read for any informed investor.
 
@@ -90,9 +91,9 @@ The attack vector is linked to the service's domain name manager (GoDaddy). Othe
 
 Unstoppable protocols cannot cover all use cases. Indeed, depending on the complexity of a protocol, it is sometimes impossible to avoid any dependency on another protocol that is itself at least partially censurable.
 
-Finally, one must keep in mind the counterpart that comes with the immutability of the smart contracts of unstoppable protocols: **an update of these is technically impossible**. 
+Finally, one must keep in mind the counterpart that comes with the immutability of the smart contracts of unstoppable protocols: **an update of these is technically impossible**.
 
-Thus, when an unstoppable protocol needs to evolve, there is only one possible path: deploy a new version of the protocol (with its new set of immutable contracts) and encourage the **migration** of its users to it. This is, for example, what Uniswap has done twice, with the migration to version 2 in May 2020 [^UNIv2] and then again one year later with the release of Uniswap v3 in May 2021 [^UNIv3]. 
+Thus, when an unstoppable protocol needs to evolve, there is only one possible path: deploy a new version of the protocol (with its new set of immutable contracts) and encourage the **migration** of its users to it. This is, for example, what Uniswap has done twice, with the migration to version 2 in May 2020 [^UNIv2] and then again one year later with the release of Uniswap v3 in May 2021 [^UNIv3].
 
 ![UNIv2-migration-tool](/img/2022/unstoppable-defi/UNIv2-migration-tool.png "One-click v1⇒v2 migration tool offered by Uniswap")
 
@@ -126,14 +127,14 @@ Please note that DEXs relying on an Automated Market Maker such as Uniswap or Cu
 Finally, even if the contracts are immutable, the risk is not zero for the liquidity providers who assume all the risks related to the tokens involved in the pair. The general rule here is similar to that of the composability chain: **a given LP position is as risky as its most dangerous token**.
 
 {{< notice note >}}
-The front-end issue for DEX is less critical since many access points exist. The most competent users go through a decentralized exchange aggregator, like [ParaSwap](https://paraswap.io). 
+The front-end issue for DEX is less critical since many access points exist. The most competent users go through a decentralized exchange aggregator, like [ParaSwap](https://paraswap.io).
 {{< /notice >}}
 
 ### Uniswap
 
 The contracts core functions are completely immutable on [Uniswap](https://uniswap.org/) v1, v2 and v3. The [Uniswap V2](https://www.defiscan.info/protocols/uniswap-v2/ethereum) release markededthe introduction of an administrative fee the governance can decided to turn on[^UNI-fee-switch] (= to the protocol), as already seen on Curve.
 
-Here, the case is straightforward. If there is indeed a governance, the good news (less for UNI holders) is that what it can do is very limited. **No seizure or migration of funds is possible**. Apart from the fee, it manages matters such as deploying Uniswap on a new chain, adding a new tier of fees (1bps for stablecoins), or using the protocol's treasury [^UNI-treasury], for example, to fund liquidity mining campaigns or to distribute UNI to friendly people who ask for it, without any limit or accounting [^UNI5].
+Here, the case is straightforward. If there is indeed a governance, the good news (less for UNI holders) is that what it can do is very limited. **No seizure or migration of funds is possible**. Apart from the fee, it manages matters such as deploying Uniswap on a new chain, adding a new tier of fees (1bps for Stablecoins), or using the protocol's treasury [^UNI-treasury], for example, to fund liquidity mining campaigns or to distribute UNI to friendly people who ask for it, without any limit or accounting [^UNI5].
 
 ### Curve Finance
 
@@ -146,7 +147,7 @@ Like Uniswap, Curve's governance is centered around the management of CRV token 
 
 Unlike Uniswap, participation in Curve's governance requires locking CRV tokens ( ⇒veCRV) for up to four years for those who want to maximize their influence. Thus, it protects the governance from different types of attacks.
 
-Finally, the governance also manages a whitelist of smart contracts authorized to interact with the veCRV contract [^veCRV-whitelist]: such decisions are consequential for liquidity providers on Curve and CRV owners in the long run. 
+Finally, the governance also manages a whitelist of smart contracts authorized to interact with the veCRV contract [^veCRV-whitelist]: such decisions are consequential for liquidity providers on Curve and CRV owners in the long run.
 
 {{< notice note >}}
 Curve's governance is one of the most fascinating to follow in DeFi. To help it make more informed decisions, [a newsletter offering risk assesments of the various protocols that require a gauge](https://substack.com/profile/66151946-crypto-risk-assessments) has been set up. I highly recommend reading it; it's an excellent source for perfecting one's understanding of risk in DeFi.
@@ -208,7 +209,7 @@ To go deeper, I warmly invite you to read an article I published last year, whic
 
 **[Assessing risk in decentralized finance: a handbook for money markets](https://tokenbrice.xyz/money-markets-risk/)**
 
-I imagine that such a precise analysis of such a critical subject could arouse more or less positive emotions. Please know that, as always, my intention is only **to inform as many DeFians as possible on matters that I consider essential for DeFi in general.** 
+I imagine that such a precise analysis of such a critical subject could arouse more or less positive emotions. Please know that, as always, my intention is only **to inform as many DeFians as possible on matters that I consider essential for DeFi in general.**
 
 My educational and pedagogical actions in DeFi have no other purpose than maximizing the resilience and relevance of decentralized finance over the long term. I hope that developers or promoters of protocols to the left of my suggested resilience spectrum will also understand and recognize this mandate.
 
@@ -230,7 +231,7 @@ _🙏 A huge thank you to all the proofreaders and contributors who participated
 [^UNI-treasury]: Entirely in UNI token, this treasury is quite volatile. Nevertheless, more than 227M UNI is still available today, or about $1.1B. [OpenOrgs](https://openorgs.info/)
 [^UNI5]: This is the infamous 005 "DeFi Education Fund" vote; read [the related topic on the governance forum](https://gov.uniswap.org/t/governance-proposal-005-defi-education-fund/12963) for more context.
 [^veCRV-whitelist]: There are three at present: Yearn Finance (yveCRV), Convex (cvxCRV) and StakeDAO (sdCRV).
-[^liquity-oracle-fallback]: This article provides [a clear introduction to the oracle management system on Liquity](https://www.liquity.org/blog/price-oracles-in-liquity). 
+[^liquity-oracle-fallback]: This article provides [a clear introduction to the oracle management system on Liquity](https://www.liquity.org/blog/price-oracles-in-liquity).
 [^liquity-front-end]: More information [on the technical and incentive model for Liquity front-end operators](https://www.liquity.org/blog/liquity-runs-on-decentralized-frontends).
 [^liquity-disclaimer]: As you've probably already seen, I'm thrilled to have [joined the Liquity team very recently](https://tokenbrice.xyz/joining-liquity/). I mention Liquity in this article because it is a relevant and instructive example of resilient protocol, independent of my professional commitments.
 [^UNIv3-oracle]: To get a more precise idea on this topic, check this tool from Euler Finance, enabling you to [simulate potential Uni v3 TWAP oracle attacks](https://oracle.euler.finance/).

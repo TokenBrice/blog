@@ -5,13 +5,13 @@ description: >-
   overview made to be understandable by anyone.
 date: '2018-07-02T08:31:50.115Z'
 categories: [Analysis]
-tags: [decentralization, blockchain, EcoCrypto]
+tags: [decentralization, Blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 difficulty: "beginner"
 url: decentralization-layman
 ---
 
-While the general public is hearing more and more about [blockchain](https://hackernoon.com/tagged/blockchain) and cryptocurrencies, the philosophical and political underlying of decentralization are still kept mostly within the community. **Decentralization is bringing a paradigm shift that deserves more coverage than price action in my book**.
+While the general public is hearing more and more about [Blockchain](https://hackernoon.com/tagged/Blockchain) and cryptocurrencies, the philosophical and political underlying of decentralization are still kept mostly within the community. **Decentralization is bringing a paradigm shift that deserves more coverage than price action in my book**.
 
 A few months ago, I realized that I didn’t really understood decentralization. I got the high-level concept, but I failed to connect all the dots and **understand the social and political ramifications of it.** Since then, I’ve done my homework and now it’s time to give back my humble understanding of it.
 
@@ -50,8 +50,8 @@ It might seem obvious to some, but it’s an important fact: **Decentralization 
 
 Before we dive in, here is an interesting infographic giving you an overview of the centralization of major industries:
 
-![Thanks to Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
-Thanks to Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
+![Thanks to Lillian Wei, [Source](https://hackernoon.com/Blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
+Thanks to Lillian Wei, [Source](https://hackernoon.com/Blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
 
 Now that you get the spectrum of decentralization, the second thing to understand is the **different dimensions of decentralization.**
 
@@ -190,7 +190,7 @@ The idea behind collusion resistance is to make it hard for one subgroup of the 
 
 ### Conclusion
 
-Decentralization is a high level concept that is essential to understand blockchain and other decentralized ledgers. If you want to explore further, you can look at videos of founders of the major project explaining their vision to get a better idea of what a decentralized system enable:
+Decentralization is a high level concept that is essential to understand Blockchain and other decentralized ledgers. If you want to explore further, you can look at videos of founders of the major project explaining their vision to get a better idea of what a decentralized system enable:
 
 *   [Here is Vitalik Buterin explaining what ETH is for the layman. \[03:51\]](https://www.youtube.com/watch?v=0lJDy5wvwaU)
 *   [Charles Hoskinson explaining the Cardano team approach and what Cardano is trying to achieve. \[1:02:49\]](https://www.youtube.com/watch?v=_BnBmBZPvS8)
@@ -198,4 +198,4 @@ Decentralization is a high level concept that is essential to understand blockch
 
 You might have missed the internet revolution, but you’re in luck for this one: it’s barely beginning! **Now is the time to get knowledgeable about it so you can recognize and harness opportunities as they emerge**.
 
-I hope this article helped you get a better understanding of the paradigm shift offered by the newfound ability to develop decentralized protocols at scale, thanks to blockchain. and other decentralized protocols.
+I hope this article helped you get a better understanding of the paradigm shift offered by the newfound ability to develop decentralized protocols at scale, thanks to Blockchain. and other decentralized protocols.

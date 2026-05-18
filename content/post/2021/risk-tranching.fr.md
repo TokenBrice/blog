@@ -1,9 +1,10 @@
 ---
 title: "🗡 Du risque ? Oui, mais juste un doigt"
-description: "Qu'est que la répartition du risque (tranching) et pourquoi est-elle appellée à devenir une **primitive financière essentielle** pour les principaux marchés monétaires de la DeFi comme Aave ou Compound ?"
+description: "Introduction au tranching du risque, a son role dans les marches monetaires DeFi et a son importance pour Aave et Compound."
 date: '2021-01-12T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Decentralized finance, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn Finance, APWineFi]
+tags: [DeFi, Ethereum, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn, APWineFi]
 toc: true
 url: tranching-risque-defi
 image: /img/2021/risk-tranching/cover.gif
@@ -42,11 +43,11 @@ Mais aujourd'hui, je souhaite axer cet article sur un concept de gestion des ris
 
 ## Tranching : reprendriez-vous une autre tranche de risque ?
 
-Commençons par **la "modification du risque" la plus simple qui soit : le tranching**. L'idée ici est assez simple : les différentes couches de risque prises par le déposant d'un marché monétaire donné sont réparties en tranches, c'est-à-dire séparées les unes des autres. 
+Commençons par **la "modification du risque" la plus simple qui soit : le tranching**. L'idée ici est assez simple : les différentes couches de risque prises par le déposant d'un marché monétaire donné sont réparties en tranches, c'est-à-dire séparées les unes des autres.
 
 Chaque déposant peut choisir l'exposition qu'il préfère. Il permet, par exemple, à un dégénéré confiant de **supporter tous les niveaux de risque disponibles pour maximiser son rendement** tandis qu'une baleine plus conservatrice pourrait **réduire son périmètre de risque** en s'exposant au seul risque technique.
 
-C'est l'idée de base, mais n'oublions pas que nous parlons ici de finance décentralisée, donc la **composabilité est la clé**. Ce qui rend le tranching si passionnant, c'est son avenir en tant que **primitive financière** - un élément de base que d'autres applications et projets peuvent utiliser pour fournir de nouveaux services. 
+C'est l'idée de base, mais n'oublions pas que nous parlons ici de finance décentralisée, donc la **composabilité est la clé**. Ce qui rend le tranching si passionnant, c'est son avenir en tant que **primitive financière** - un élément de base que d'autres applications et projets peuvent utiliser pour fournir de nouveaux services.
 
 Nous explorerons plus en profondeur ce que le tranching en tant que primitive financière implique juste après avoir examiné comment il fonctionne actuellement dans la pratique, et nous examinerons également le contexte plus large de la couverture des risques et de la fixation du taux d'APY.
 
@@ -96,7 +97,7 @@ Jusqu'à présent, nous nous sommes concentrés sur le seul risque lié au produ
 Par ailleurs, pour bien comprendre le contexte général, n'oublions pas qu'il existe plusieurs "approches temporelles" distinctes du risque :
 
 * En utilisant une approche telle que le tranching, vous pouvez être **proactif**, en répartissant le risque **a priori** entre les participants qui comprennent leur exposition.
-* Cela peut également aller de pair avec des approches plus **réactives**, comme l'assurance - un système prévoyant un paiement **a posteriori** en cas de défaillance. 
+* Cela peut également aller de pair avec des approches plus **réactives**, comme l'assurance - un système prévoyant un paiement **a posteriori** en cas de défaillance.
 
 Les marchés de l'assurance sont un autre sujet fascinant en soi, aussi nous nous en tiendrons à cette simple mention pour l'instant et revenons à nos rendements.
 
@@ -112,7 +113,7 @@ Comme on le disait, les rendements des différents produits disponibles dans la 
 
 Pour résoudre ce problème, une autre couche de services méta-financiers est en train d'émerger - la proposition de valeur de base en tant qu'investisseur est assez simple : ils offrent un **un rendement stable sur les investissements des déposants**. Il s'agit essentiellement d'une autre saveur d'"assurance" : vous obtiendrez globalement un rendement un peu plus faible, mais il est prévisible. C'est très similaire à un prêt à intérêt stable sur Aave (par opposition à un taux variable).
 
-Le côté acheteur de ces services est très intéressant : imaginez-le **comme un marché de prédiction, pour le rendement des vaults ou des marchés monétaires**. Les acheteurs déposent des actifs et parient sur le rendement moyen attendu : plus leur prédiction est proche, meilleur est leur rendement. 
+Le côté acheteur de ces services est très intéressant : imaginez-le **comme un marché de prédiction, pour le rendement des vaults ou des marchés monétaires**. Les acheteurs déposent des actifs et parient sur le rendement moyen attendu : plus leur prédiction est proche, meilleur est leur rendement.
 
 Je ne pense pas que le côté acheteur se généralisera de sitôt, mais il constitue **l'épine dorsale d'une primitive financière utile** pour fournir des services mieux adaptés à tout type d'investisseur.
 
@@ -149,7 +150,7 @@ Il est insensé d'envisager les différentes étapes de l'évolution du DAI dont
 
 aFIXEDAPYDAI_PEGINSURED : notre nouveau maître de la monnaie ? Le vrai nom sera bien plus accrocheur, soyez-en sûrs !
 
-Êtes-vous prêt à assister **à l'avenir de l'argent qui se déroule méthodiquement sous vos yeux alors que vos avoirs reçoivent des mises à jour logicielles** ? 
+Êtes-vous prêt à assister **à l'avenir de l'argent qui se déroule méthodiquement sous vos yeux alors que vos avoirs reçoivent des mises à jour logicielles** ?
 
 Pour ma part, je ne peux pas attendre : je me prépare depuis trois ans.
 

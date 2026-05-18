@@ -5,7 +5,7 @@ description: >-
   with forgetting the fairy tales we've heard about bartering.
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
-tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
+tags: [bitcoin, currency, money, cryptocurrency, Blockchain, EcoCrypto]
 image: /img/2018/money101/cover.jpeg
 difficulty: "beginner"
 url: money101
@@ -135,7 +135,7 @@ You might think it’s not much to hold the whole monetary system afloat; don’
 
 _Fiat currencies are intrinsically useless objects that serves a medium of exchanges. They only have value because a government maintain and guarantee it._
 
-Cypherpunk experimented with digital currencies and eventually lead us to the Bitcoin introduced by Satoshi. With Bitcoin, **the trust in the monetary institutions is no longer required** (“trustless”). Indeed, in short the idea is as follows: instead of trusting the banks and other institutions to maintain the ledger, why not make that ledger public (=blockchain) and rely on our peers instead? This system also requires the use of cryptography and mechanisms to reach a consensus on the public ledger (so there is only one), but that will be covered in another article.
+Cypherpunk experimented with digital currencies and eventually lead us to the Bitcoin introduced by Satoshi. With Bitcoin, **the trust in the monetary institutions is no longer required** (“trustless”). Indeed, in short the idea is as follows: instead of trusting the banks and other institutions to maintain the ledger, why not make that ledger public (=Blockchain) and rely on our peers instead? This system also requires the use of cryptography and mechanisms to reach a consensus on the public ledger (so there is only one), but that will be covered in another article.
 
 #### Alter the innate propriety of money
 
@@ -156,11 +156,11 @@ It means that all the mechanisms we talked about and many more will be implement
 ![Soon in your wallets: the Brice paper e-Dollar coin pegged on sand](/img/2018/money101/bricedollar.jpeg)
 Soon in your wallets: the Brice paper e-Dollar coin pegged on sand
 
-Beyond what blockchain can offer, maybe here lies the most valuable contribution of Satoshi. **By creating Bitcoin, he paved the way and reminded the whole world that minting money isn’t reserved to states** — it’s the business of regular people too: you, me, us, and even your computer illiterate grandma should have a say.
+Beyond what Blockchain can offer, maybe here lies the most valuable contribution of Satoshi. **By creating Bitcoin, he paved the way and reminded the whole world that minting money isn’t reserved to states** — it’s the business of regular people too: you, me, us, and even your computer illiterate grandma should have a say.
 
 Like all changes, it sounds scary but if you think twice about it, it makes so much sense: **who better than the future users themselves could design the currency the most fitted to their needs?**
 
-This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.
+This article is the translation of an original (French) [EcoCrypto.fr](https://EcoCrypto.fr) story.
 
 #### SOURCES: TO DIG DEEPER
 

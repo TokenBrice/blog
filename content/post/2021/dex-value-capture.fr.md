@@ -2,8 +2,9 @@
 title: "Le volume appelle les frais : comment les principaux échanges décentralisés capturent-ils la valeur ?"
 description: "Un regard sur le mécanisme de capture de valeur d'Uniswap, de Sushiswap et de Curve pour mieux comprendre comment la valeur s'accroît pour les détenteurs de leur tokens."
 date: '2021-01-23T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
+tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false
 url: dex-echanges-decentralisées-capture-valeur
@@ -25,7 +26,7 @@ C'est une réalisation impressionnante ! Aujourd'hui, nous allons donc examiner 
 
 Avec toutes les discussions autour des teneurs de marché automatisés (AMM) ces derniers temps, je voulais, comme d'habitude, prendre du recul et examiner l'état actuel du marché, la position des principaux acteurs et ce qui va suivre.
 
-Nous discuterons des AMM, mais je laisserai à d'autres le soin de régler les détails techniques des bonding curves. Nous aborderons plutôt le sujet sous l'angle de la saisie de la valeur et de la tokenomique. 
+Nous discuterons des AMM, mais je laisserai à d'autres le soin de régler les détails techniques des bonding curves. Nous aborderons plutôt le sujet sous l'angle de la saisie de la valeur et de la tokenomique.
 
 **L'essor et le développement des AMM a fondamentalement changé le marché**. Avant leur domination, les approches basées sur le carnet d'ordres étaient encore largement utilisées. L'un des principaux mérites des AMM est de changer la logique du service, car il devient **peer to contract** : il n'y a pas besoin d'un ordre correspondant de l'autre côté, grâce à la bonding curve, il y en a toujours un (dans les limites de liquidité et de slippage).
 
@@ -44,7 +45,7 @@ Au fil des différentes itérations et versions des principaux DEX, leurs mécan
 
 ### Uniswap : Le besoin de liquidité
 
-En effet, dans les premiers jours de l'AMM, la principale préoccupation était la liquidité - encore très rare à l'époque : Uniswap n'avait pas de token et n'en avait pas besoin pour être le pionnier du front de l'AMM. L'infrastructure initiale et toujours actuelle de distribution des commissions répond à cette exigence : une commission de **30 bps (0,3 %) est prélevée sur chaque transaction et distribuée aux fournisseurs de liquidité**. 
+En effet, dans les premiers jours de l'AMM, la principale préoccupation était la liquidité - encore très rare à l'époque : Uniswap n'avait pas de token et n'en avait pas besoin pour être le pionnier du front de l'AMM. L'infrastructure initiale et toujours actuelle de distribution des commissions répond à cette exigence : une commission de **30 bps (0,3 %) est prélevée sur chaque transaction et distribuée aux fournisseurs de liquidité**.
 
 C'était la solution idéale pour commencer, car vous avez un problème de liquidité : une liquidité suffisante permettra de réaliser des swaps sans trop de slippage, d'augmenter le volume (s'il y a un besoin pour le token/marché donné) et donc les revenus pour les LP.
 
@@ -70,7 +71,7 @@ Les améliorations apportées par Sushi sont pertinentes, mais à mes yeux, le v
 
 Le modèle de Curve est légèrement plus complexe que le précédent, mais il permet un alignement toujours meilleur des incitations entre les utilisateurs de la plate-forme et les détenteurs de tokens. Voyons comment.
 
-Depuis le lancement du token CRV, les fournisseurs de liquidité sur Curve gagnent des tokens CRV en plus de leurs commissions habituelles (s'ils stakent). Et tout comme le SushiSwap, Curve a introduit une forme de capture de valeur au niveau du token CRV. 
+Depuis le lancement du token CRV, les fournisseurs de liquidité sur Curve gagnent des tokens CRV en plus de leurs commissions habituelles (s'ils stakent). Et tout comme le SushiSwap, Curve a introduit une forme de capture de valeur au niveau du token CRV.
 
 ![Pools de Curve](/img/2021/dex-value-capture/curve-pools.png "Aperçu des principaux pools de Curve")
 
@@ -138,13 +139,13 @@ Alors que 1&2 est ce qui intéresse le plus les utilisateurs finaux, **les point
 
 ### 6/ Prochaines étapes pour Curve
 
-Enfin, nous devons considérer une dernière dimension de Curve, car ce n'est pas n'importe quel DEX. En effet, dès le départ, Curve s'est spécialisé dans les **échanges d'actifs indexés** (pegged assets) et a été optimisé pour cela. L'échange a commencé avec les stablecoins uniquement, mais nous avons maintenant aussi des représentations de BTC et d'ETH. 
+Enfin, nous devons considérer une dernière dimension de Curve, car ce n'est pas n'importe quel DEX. En effet, dès le départ, Curve s'est spécialisé dans les **échanges d'actifs indexés** (pegged assets) et a été optimisé pour cela. L'échange a commencé avec les Stablecoins uniquement, mais nous avons maintenant aussi des représentations de BTC et d'ETH.
 
 Grâce à l'augmentation des liquidités disponibles, Curve exploite maintenant les synergies de DeFi (avec Synthetix) pour proposer des swaps entre les différents actifs pegged disponibles sur Curve, tels que DAI -> wBTC ou USDT -> EURS.
 
 C'est une innovation significative car cela ouvre des marchés actuellement peu ou pas couverts ailleurs (EURS) et permet de minimiser le slippage pour les grandes transactions.
 
-Pour rester concis, les bondings curve d'Uniswap et de Sushiswap sont bien adaptées pour **supporter de nombreux swaps de petite ou moyenne taille, en particulier sur les grands pools** avec un faible glissement. Cependant, elles sont moins optimales pour les gros ordres car le slippage augmente proportionnellement à la part de liquidité du pool requise par la transaction. 
+Pour rester concis, les bondings curve d'Uniswap et de Sushiswap sont bien adaptées pour **supporter de nombreux swaps de petite ou moyenne taille, en particulier sur les grands pools** avec un faible glissement. Cependant, elles sont moins optimales pour les gros ordres car le slippage augmente proportionnellement à la part de liquidité du pool requise par la transaction.
 
 {{< notice note >}}
 Un service comme **[ParaSwap](https://paraswap.io)** vous aide à simplifier ce processus et à optimiser votre échange.
@@ -156,14 +157,14 @@ Un service comme **[ParaSwap](https://paraswap.io)** vous aide à simplifier ce 
 
 Pour conclure cet article, n'oublions pas le prochain changement tectonique pour l'espace Ethereum : la disponibilité croissante des layers 2.
 
-L'année dernière, nous avons vu la valeur des transactions sur l'AMM exploser au détriment des approches basées sur le carnet d'ordres. Les AMM ont rationalisé l'ensemble de l'expérience et se sont révélées très utiles pour le layer 1, de sorte que nous pouvons raisonnablement espérer qu'ils ouvrent la voie aux échanges décentralisés sur L2 aussi. 
+L'année dernière, nous avons vu la valeur des transactions sur l'AMM exploser au détriment des approches basées sur le carnet d'ordres. Les AMM ont rationalisé l'ensemble de l'expérience et se sont révélées très utiles pour le layer 1, de sorte que nous pouvons raisonnablement espérer qu'ils ouvrent la voie aux échanges décentralisés sur L2 aussi.
 
 **Loopring offre déjà un échange décentralisé en production:** un DEX L2 basé sur zk-Sync avec diverses incitations pour les fournisseurs de liquidité. Curve a également travaillé avec Zk-Sync, nous pouvons donc raisonnablement nous attendre à ce qu'ils livrent un produit L2 en direct cette année compte tenu des derniers développements avec Zk-Sync.
 
 ![Loopring V2 Stats](/img/2021/dex-value-capture/loopring.png "Les principales pools sur Loopring V2")
 
-D'autre part, Synthetix a récemment déployé son réseau principal Optimism L2 et la force semble forte autour d'un déploiement Uniswap x Optimism. Je plaisantais l'autre jour en disant 
-> Synthetix Optimism L2 est le testnet d'Uniswap. 
+D'autre part, Synthetix a récemment déployé son réseau principal Optimism L2 et la force semble forte autour d'un déploiement Uniswap x Optimism. Je plaisantais l'autre jour en disant
+> Synthetix Optimism L2 est le testnet d'Uniswap.
 
 Il ne serait pas surprenant de voir l'implémentation du L2 d'Uniswap se déployer d'ici quelques semaines ou quelques mois.
 

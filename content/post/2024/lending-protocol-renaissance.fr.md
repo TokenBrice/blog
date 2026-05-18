@@ -1,9 +1,9 @@
 ---
 title: "Est-ce une Renaissance du Lending ?"
-description: "De nouveaux modèles sont explorés à la fois pour les protocoles CDP et les marchés monétaires, et certains protocoles fusionnent même les deux en un seul : est-ce une renaissance des protocoles de prêt ?"
+description: "Tour des nouveaux modeles de pret DeFi, des CDP aux money markets, et des protocoles qui cherchent a fusionner les deux."
 date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
+tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
@@ -86,9 +86,9 @@ D'un autre côté, les marchés monétaires tendent à être plus flexibles. Gr�
 
 Dyad est un protocole CDP qui implémente plusieurs idées novatrices, comme délivrer un emprunt gratuit à ses utilisateurs, qui doivent posséder un NFT pour participer (Note). Il sert également de couche de coordination de base du protocole. Je vous invite à [lire la documentation](https://dyad.gitbook.io/dyad-docs-v2/) pour vous familiariser davantage avec lui. Concentrons-nous aujourd'hui sur l'approche novatrice de Dyad pour gérer un sujet clé pour les protocoles CDP : la sur-collatéralisation.
 
-{{< notice info >}} Pour les stablecoins, on parle de collatéral endogène vs exogène. Pour le savoir rapidement, posez-vous cette question : si le stablecoin échoue, le collatéral échoue-t-il aussi ? Si oui, votre collatéral est endogène (ex : mes bien-aimés & défunts [stablecoins basés sur seigniorage](https://tokenbrice.xyz/posts/2021/seigniorage-basis-vs-esd/)) ; si non, il est exogène (ex : ETH pour Liquity). {{< /notice >}}
+{{< notice info >}} Pour les Stablecoins, on parle de collatéral endogène vs exogène. Pour le savoir rapidement, posez-vous cette question : si le stablecoin échoue, le collatéral échoue-t-il aussi ? Si oui, votre collatéral est endogène (ex : mes bien-aimés & défunts [Stablecoins basés sur seigniorage](https://tokenbrice.xyz/seigniorage-basis-esd/)) ; si non, il est exogène (ex : ETH pour Liquity). {{< /notice >}}
 
-Les stablecoins utilisant un collatéral endogène ou aucun collatéral peuvent scaler rapidement, comme vu avec ESD, Basis Cash, ou Terra/UST. Cependant, ils peuvent et généralement explosent encore plus vite. Pour cette raison, utiliser un collatéral endogène est considéré comme une pratique risquée – digne d'un Red Flag / F instantané sur l'agence de notation de stablecoins [Bluechip](https://bluechip.org/).
+Les Stablecoins utilisant un collatéral endogène ou aucun collatéral peuvent scaler rapidement, comme vu avec ESD, Basis Cash, ou Terra/UST. Cependant, ils peuvent et généralement explosent encore plus vite. Pour cette raison, utiliser un collatéral endogène est considéré comme une pratique risquée – digne d'un Red Flag / F instantané sur l'agence de notation de Stablecoins [Bluechip](https://bluechip.org/).
 
 
 ![1-endogenous-collateral-bluechip](img/2024/lending-protocol-renaissance/1-endogenous-collateral-bluechip.png "Red Flags sur Bluechip")
@@ -104,7 +104,7 @@ Lancé à la fin de l'année, le protocole a vu une croissance douce et réguli�
 
 ## Liquity v2 – Le taux de base de la DeFi
 
-Le LUSD de Liquity reste l'un des stablecoins décentralisés les plus réussis sur le mainnet, donc quand la v2 a été annoncée, elle a attiré beaucoup d'attention. Après avoir recherché une approche novatrice utilisant un modèle de réserve, l'équipe a pivoté vers un protocole CDP, grandissant des leçons de la première itération. La v2 est attendue pour la fin de l'année.
+Le LUSD de Liquity reste l'un des Stablecoins décentralisés les plus réussis sur le mainnet, donc quand la v2 a été annoncée, elle a attiré beaucoup d'attention. Après avoir recherché une approche novatrice utilisant un modèle de réserve, l'équipe a pivoté vers un protocole CDP, grandissant des leçons de la première itération. La v2 est attendue pour la fin de l'année.
 
 Aujourd'hui, je veux me concentrer sur un aspect en particulier, la gestion des taux d'intérêt.
 
@@ -267,7 +267,7 @@ L'innovation principale réside dans la flexibilité et la couche supplémentair
 
 ![4-twTAP](img/2024/lending-protocol-renaissance/4-twTAP.png "Aperçu de twTAP")
 
-Libéré pour la première fois avec un ajustement dynamique, le twAML a été rencontré avec une dégénérescence excessive et a rapidement dépassé les quatre ans. Ainsi, l'équipe est retournée au travail et a changé l'ajustement en basé sur époque. La nouvelle itération est attendue dans les semaines à venir, un autre développement à surveiller pour les amateurs de stablecoins et de tokens verrouillés.
+Libéré pour la première fois avec un ajustement dynamique, le twAML a été rencontré avec une dégénérescence excessive et a rapidement dépassé les quatre ans. Ainsi, l'équipe est retournée au travail et a changé l'ajustement en basé sur époque. La nouvelle itération est attendue dans les semaines à venir, un autre développement à surveiller pour les amateurs de Stablecoins et de tokens verrouillés.
 
 Tapioca est un protocole assez costaud, deux ans de travail. J'ai à peine effleuré la surface ici, car il y a beaucoup d'autres composants dignes de commentaire :
 

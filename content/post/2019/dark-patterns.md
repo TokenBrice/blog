@@ -11,7 +11,7 @@ url: dark-patterns
 difficulty: "beginner"
 ---
 
-Ever scrolled through Facebook for hours despite having other things to do? Or went through a sign up process, clicking “Next”, “Ok”, “Get Started” buttons without reading anything else? Or maybe you’ve been using an app every day for years without knowing anything about its privacy policy? Don’t worry, there is a whole science created to make sure you don’t feel bad or even question this, it bears a name and it’s discussed publicly: dark patterns.
+Ever scrolled through Facebook for hours despite having other things to do? Or went through a sign up process, clicking “Next”, “Ok”, “Get Started” buttons without reading anything else? Or maybe you’ve been using an app every day for years without knowing anything about its Privacy policy? Don’t worry, there is a whole science created to make sure you don’t feel bad or even question this, it bears a name and it’s discussed publicly: dark patterns.
 
 Dark design practices are very diverse in nature, but they all share a common attribute: **nudging the users to accept, do, or share something they wouldn’t have if the information were presented to them in a non-ambiguous fashion**. It’s essentially deception and dishonesty by design.
 
@@ -44,10 +44,10 @@ Dark patterns are nothing new. The UX designer Harry Brignull coined it eight ye
 The playbook is quite extensive yet not exhaustive; you can check out the other ones [here](https://darkpatterns.org/types-of-dark-pattern). Besides the software and the apps themselves, dark patterns are found all thorough products and services, from the sign up to the account deletion process. Privacy policies and terms and conditions are the dark patterns magnets. Different methods are used to make them easy to accept, hard if not impossible to truly understand and even harder (if even possible) to refuse:
 
 *   Privacy-intrusive options enabled by default
-*   Obscuring the more privacy-friendly settings
+*   Obscuring the more Privacy-friendly settings
 *   Threats of loss of functionality or deletion of the user account if specific settings are not chosen
 *   Pop-ups compelling users to make certain choices, while essential information is omitted or downplayed
-*   Inability to use the app or register if the privacy policy is refused (“take it or leave it” approach)
+*   Inability to use the app or register if the Privacy policy is refused (“take it or leave it” approach)
 
 ### Dark patterns, beyond the apps
 
@@ -69,28 +69,28 @@ When only the perimeter of their implementation (sign up form, purchase process�
 Outside of a simple risk/benefit analysis at the scale of the brand, dark patterns behind widespread are now one of the main contributing factors of massive issues, at a societal level:
 
 *   **Users are being hooked to apps**: the dark patterns are engineered to [encourage users to form addictive habits](https://www.nirandfar.com/2012/03/want-to-hook-your-users-drive-them-crazy.html) to the apps they interact with. These apps use diverse techniques such as abusive notifications (“We haven’t seen you in a while!”), or feeds implementing a variable schedule of rewards.
-*   **Personal data are collected at an unprecedented pace and scale**, and privacy is getting harder and harder to achieve. Free apps and social network harvest data and share them with a vast network of data brokers who profit from trading people’s personal information. In 2015, data brokering was already a $200 billion industry. This activity is lawful, but the users are mostly unaware of it or its extent thanks to misleading interfaces — this pattern bears the name of Facebook’s founder: [Privacy Zuckering](https://darkpatterns.org/types-of-dark-pattern/privacy-zuckering).
+*   **Personal data are collected at an unprecedented pace and scale**, and Privacy is getting harder and harder to achieve. Free apps and social network harvest data and share them with a vast network of data brokers who profit from trading people’s personal information. In 2015, data brokering was already a $200 billion industry. This activity is lawful, but the users are mostly unaware of it or its extent thanks to misleading interfaces — this pattern bears the name of Facebook’s founder: [Privacy Zuckering](https://darkpatterns.org/types-of-dark-pattern/Privacy-zuckering).
 *   The data collected makes it possible to target ads and communication so precisely that we reach a point where [free will is put back into question](https://hackernoon.com/facebook-x-cambridge-analytica-the-hidden-cost-of-free-services-3f5724e80baf).
 
-The consequences of dark design and other privacy-intrusive practices are already there, and their effect will be felt for years to come.
+The consequences of dark design and other Privacy-intrusive practices are already there, and their effect will be felt for years to come.
 
 ### How to reclaim our digital lives?
 
-Individuals concerned about privacy are forced to work at well, an individual level so far. They look into the software they use and prefer open-source whenever it’s possible. They double check every piece of hardware they get and quite often have to disable several features (Wifi, Bluetooth…) to not compromise their privacy. To learn more about how to protect your privacy online, you can check the resources from the [Electronic Frontier Foundation.](https://www.eff.org/)
+Individuals concerned about Privacy are forced to work at well, an individual level so far. They look into the software they use and prefer open-source whenever it’s possible. They double check every piece of hardware they get and quite often have to disable several features (Wifi, Bluetooth…) to not compromise their Privacy. To learn more about how to protect your Privacy online, you can check the resources from the [Electronic Frontier Foundation.](https://www.eff.org/)
 
-Alas, at a societal level the answers are lackluster if not inexistent. The laws are still very lax, and many of the patterns described before are still lawful. There were many talks about GDPR this year, but despite being more restrictive than previous regulations, it has [many exemptions](https://researchsupport.admin.ox.ac.uk/policy/data/exemptions) and is overall insufficient to protect individual consumers against privacy-intrusive companies like Google or Facebook.
+Alas, at a societal level the answers are lackluster if not inexistent. The laws are still very lax, and many of the patterns described before are still lawful. There were many talks about GDPR this year, but despite being more restrictive than previous regulations, it has [many exemptions](https://researchsupport.admin.ox.ac.uk/policy/data/exemptions) and is overall insufficient to protect individual consumers against Privacy-intrusive companies like Google or Facebook.
 
-So what are we left with? In situations where privacy is an absolute necessity, some tools are available, yet they have a steep learning curve as they do not share the friendly UX of their privacy-intrusive counterpart. Individuals who are unfamiliar with such solutions have no other option than going analog if they are not willing to [train themselves](https://ssd.eff.org/en).
+So what are we left with? In situations where Privacy is an absolute necessity, some tools are available, yet they have a steep learning curve as they do not share the friendly UX of their Privacy-intrusive counterpart. Individuals who are unfamiliar with such solutions have no other option than going analog if they are not willing to [train themselves](https://ssd.eff.org/en).
 
 ### Can tech fight tech’s abuses?
 
 Since the laws won’t suffice to ensure individuals’ protection, some people are looking for solutions to trigger an ethical revolution in the tech space itself. It means that we’ll need not only new tools but a complete overall of the internet business models.
 
-Regarding privacy and traceability of the data we share, the decentralized ledgers such as blockchain-based systems might provide a credible solution. They offer interesting features to regain control over our digital lives, such as censorship and attack resistance, or fault tolerance. Different projects are emerging to solve the several problems we currently face:
+Regarding Privacy and traceability of the data we share, the decentralized ledgers such as Blockchain-based systems might provide a credible solution. They offer interesting features to regain control over our digital lives, such as censorship and attack resistance, or fault tolerance. Different projects are emerging to solve the several problems we currently face:
 
-*   Ethical advertising and privacy protection: [Brave](https://brave.com/)
+*   Ethical advertising and Privacy protection: [Brave](https://brave.com/)
 *   Reliable and decentralized identity management: [Civic](https://www.civic.com/) or [uPort](https://www.uport.me/)
-*   Financial privacy: [Monero](https://www.getmonero.org/)
+*   Financial Privacy: [Monero](https://www.getmonero.org/)
 
 ![](/img/2019/dark-patterns/bat.png)
 

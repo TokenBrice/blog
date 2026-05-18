@@ -1,12 +1,15 @@
 ---
-title : "Le stablecoin GHO d'Aave peut-il aider le protocole à se développer davantage et à dépasser MakerDAO et DAI ?"
-description : "On examine le design de GHO et anticipe ses principaux défis pour croître ainsi que de la valeur qu'il peut apporter à la DAO d'Aave."
+title: "Le stablecoin GHO d'Aave peut-il aider le protocole à se développer davantage et à dépasser MakerDAO et DAI ?"
+description: "On examine le design de GHO et anticipe ses principaux défis pour croître ainsi que de la valeur qu'il peut apporter à la DAO d'Aave."
 date: '2022-08-22T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
-toc : true
-tocNum : true
-url : aave-gho-stablecoin
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
+series: stablecoin-arc
+series_order: 4
+toc: true
+tocNum: true
+url: aave-gho-stablecoin
 image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 difficulty: "intermediate"
 ---
@@ -34,7 +37,7 @@ En ce qui concerne la dénomination, il est également intéressant de voir qu'A
 
 ### Taux d'intérêt et remise stkAAVE
 
-Le modèle de taux d'intérêt pour GHO est actuellement son composant le plus décevant, car le post initial envisageait un taux d'intérêt directement déterminé par la DAO d'Aave, tout comme cela fonctionne sur Maker. Cependant, cela serait inefficace et ajouterait une charge inutile à la gouvernance. 
+Le modèle de taux d'intérêt pour GHO est actuellement son composant le plus décevant, car le post initial envisageait un taux d'intérêt directement déterminé par la DAO d'Aave, tout comme cela fonctionne sur Maker. Cependant, cela serait inefficace et ajouterait une charge inutile à la gouvernance.
 
 Les réactions de la communauté dicteront la direction à prendre. Néanmoins, j'espère sincèrement pour Aave que le choix final se portera sur un modèle où le taux d'intérêt est déterminé algorithmiquement par les conditions du marché, tout comme pour les autres jetons sur Aave où l'offre et la demande sur le pool dictent le taux d'intérêt.
 
@@ -187,7 +190,7 @@ Il y a également des mentions explicites de positions sous-collatéralisées ba
 
 Le GHO est présenté comme un stablecoin décentralisé par l'équipe d'Aave, avec même quelques mentions de résistance à la censure. Cependant, elles ne sont jamais directement associée à GHO :
 
-> L'utilisation des stablecoins ne fera que croître à mesure que les crypto-monnaies s'intègrent davantage à une base d'utilisateurs moins crypto-natifs. Les stablecoins décentralisés fournissent une monnaie libellée en fiat résistante à la censure sur la blockchain. Voici GHO, une monnaie stable multi-collatérale décentralisée, entièrement garantie et native du protocole Aave.
+> L'utilisation des Stablecoins ne fera que croître à mesure que les crypto-monnaies s'intègrent davantage à une base d'utilisateurs moins crypto-natifs. Les Stablecoins décentralisés fournissent une monnaie libellée en fiat résistante à la censure sur la Blockchain. Voici GHO, une monnaie stable multi-collatérale décentralisée, entièrement garantie et native du protocole Aave.
 
 À moins que j'aie mal compris la conception, GHO sera **aussi "décentralisé" que DAI et aura une faible résistance à la censure** en raison de la composition de son collatéral. En effet, en supposant que tous les aTokens qui peuvent actuellement être utilisés comme collatéral pour emprunter sur Aave seront également utilisables pour emprunter GHO, la composition du collatéral de GHO sera dominée par des tokens censurables tels que USDC :
 
@@ -197,7 +200,7 @@ Le GHO est présenté comme un stablecoin décentralisé par l'équipe d'Aave, a
 
 Source : [DeFiLlama](https://defillama.com/protocol/aave-v2)
 
-En effet, si l'on exclut les stETH utilisés comme collatéral pour emprunter des ETH et s'exposer avec levier aux rendements du staking, l'USDC est le principal collatéral utilisé sur Aave, avec un autre token nécessitant de la confiance (wBTC) non loin derrière. **La composition du collatéral serait néanmoins bien meilleure que celle de DAI**, qui est soutenu à plus de 50 % par des USDC purs. 
+En effet, si l'on exclut les stETH utilisés comme collatéral pour emprunter des ETH et s'exposer avec levier aux rendements du staking, l'USDC est le principal collatéral utilisé sur Aave, avec un autre token nécessitant de la confiance (wBTC) non loin derrière. **La composition du collatéral serait néanmoins bien meilleure que celle de DAI**, qui est soutenu à plus de 50 % par des USDC purs.
 
 ![dai-collateral](/img/2022/aave-gho-stablecoin/dai-collateral.png "Plus de 75% du collatéral de DAI est désormais constituté de tokens censorables")
 
@@ -214,7 +217,7 @@ En effet, l'interaction entre le protocole Aave et GHO est tout à fait passionn
 
 aGHO serait un collatéral fascinant sur Aave, mais il pourrait également créer des risques réflexifs importants s'il est autorisé à emprunter GHO. Ainsi, **Je m'attends à ce que l'aGHO soit empêché de frapper des GHO** afin d'éviter une collatéralisation réflexive comme nous le voyons actuellement sur DAI.
 
-Néanmoins, cela permettrait de créer des boucles d'arbitrage de stablecoin intéressantes, comme aUSDC > Mint GHO > aGHO > Emprunt d'un autre stablecoin. Avec l'eMode, cela ferait de Aave & GHO un protocole très efficace pour l'arbitrage de stablecoins. De plus, le taux d'intérêt du GHO deviendrait une sorte de "taux d'intérêt de base des stablecoins" et pourrait aider à contrôler le taux d'intérêt d'autres stablecoins comme l'USDC.
+Néanmoins, cela permettrait de créer des boucles d'arbitrage de stablecoin intéressantes, comme aUSDC > Mint GHO > aGHO > Emprunt d'un autre stablecoin. Avec l'eMode, cela ferait de Aave & GHO un protocole très efficace pour l'arbitrage de Stablecoins. De plus, le taux d'intérêt du GHO deviendrait une sorte de "taux d'intérêt de base des Stablecoins" et pourrait aider à contrôler le taux d'intérêt d'autres Stablecoins comme l'USDC.
 
 
 ### Stratégie de liquidité du GHO
@@ -225,7 +228,7 @@ Une autre partie critique et essentielle de la conception de tout stablecoin est
 ![aaveDAO-treasury](/img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "État actuel de la trésorerie d'Aave avec ~615K CRV")
 Source : [Rapport sur la trésorerie d'Aave](https://governance.aave.com/t/aave-treasury-report/5575/37) (juillet 2022)
 
-Tout comme Frax s'éloigne actuellement de USDT et DAI et tente d'établir la Frax Basepool (FRAX/USDC) comme paire de base sur Curve pour d'autres stablecoins, nous pourrions envisager un mouvement similaire de la part d'Aave. De plus, de nombreux projets actuellement exposés à l'USDC et au DAI cherchent à diversifier leurs liquidités. GHO pourrait arriver au bon moment pour permettre à DeFi d'être moins dépendante de l'USDC.
+Tout comme Frax s'éloigne actuellement de USDT et DAI et tente d'établir la Frax Basepool (FRAX/USDC) comme paire de base sur Curve pour d'autres Stablecoins, nous pourrions envisager un mouvement similaire de la part d'Aave. De plus, de nombreux projets actuellement exposés à l'USDC et au DAI cherchent à diversifier leurs liquidités. GHO pourrait arriver au bon moment pour permettre à DeFi d'être moins dépendante de l'USDC.
 
 Cependant, alors que Frax contrôle un pouvoir de gouvernance et de vote important dans les Curve Wars, ce n'est pas le cas pour la DAO Aave. Les soldes actuels de la trésorerie CRV/CVX seront clairement insuffisants pour inciter les pools à atteindre le milliard de dollars, ce qui pourrait pousser la DAO Aave à envisager l'acquisition de plus de tokens CRV/CVX. Avec les revenus importants que la DAO percevra du taux d'intérêt de GHO, elle devrait avoir suffisamment de moyens pour soutenir une liquidité appropriée, quelle que soit la capitalisation de GHO.
 
@@ -236,7 +239,7 @@ En plus des incitations du protocole de base (comme le taux d'intérêt d'emprun
 
 ## Conclusion
 
-J'espère que cet article vous a permis de mieux comprendre les enjeux de la guerre des stablecoins. La fin de l'année sera intéressante, avec la sortie du GHO qui approche et le stablecoin de Curve, également surcollatéralisé, dont la sortie a été annoncée avant la fin de cette année. La multiplication des stablecoins est une prochaine étape naturelle pour DeFi, car la plupart des protocoles établis voient leur conception converger :
+J'espère que cet article vous a permis de mieux comprendre les enjeux de la guerre des Stablecoins. La fin de l'année sera intéressante, avec la sortie du GHO qui approche et le stablecoin de Curve, également surcollatéralisé, dont la sortie a été annoncée avant la fin de cette année. La multiplication des Stablecoins est une prochaine étape naturelle pour DeFi, car la plupart des protocoles établis voient leur conception converger :
 
 
 

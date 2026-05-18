@@ -114,6 +114,6 @@ So where do we go from here? Since Estonia is the most startupy of all the start
 
 #### Final notes
 
-My faithful readers know my strong interest for cryptocurrencies and decentralization, I kept myself in check all along the article so allow me to drift of a little bit now. I see many synergies between the NaaS concept and the blockchain: identity verification, taxes, contracts… Yet despite the synergies, a NaaS is a very centralized institution. I’m puzzled. Could one really help the other?
+My faithful readers know my strong interest for cryptocurrencies and decentralization, I kept myself in check all along the article so allow me to drift of a little bit now. I see many synergies between the NaaS concept and the Blockchain: identity verification, taxes, contracts… Yet despite the synergies, a NaaS is a very centralized institution. I’m puzzled. Could one really help the other?
 
 Before I give you your attention back (I privatized it a while ago, it’s mine now, remember?), help me to answer this question: Should I cut the crap and start an ICO to raise capital for the first fully private NaaS? I could be the rattiest rat!

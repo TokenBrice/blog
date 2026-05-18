@@ -2,6 +2,7 @@
 title: "🐊 Navigating the swap swamps"
 description: "Practical tips and considerations to understand what's happening under the hood while swapping tokens and how to do it efficiently."
 date: '2020-11-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
@@ -9,9 +10,9 @@ difficulty: "beginner"
 url: swap-swamp
 ---
 
-Is swapping tokens easy as A, B, C? Don't let yourself be fooled by the apparent simplicity: yes, there are easy to use interfaces where you pick an input, an amount, and press a button to trade. Yet, without a basic understanding of DeFi, you might find yourself falling for avoidable mistakes.  As DeFi is increasingly made more broadly accessible, knowing **what's happening under the hood is essential to make the most of it**. 
+Is swapping tokens easy as A, B, C? Don't let yourself be fooled by the apparent simplicity: yes, there are easy to use interfaces where you pick an input, an amount, and press a button to trade. Yet, without a basic understanding of DeFi, you might find yourself falling for avoidable mistakes.  As DeFi is increasingly made more broadly accessible, knowing **what's happening under the hood is essential to make the most of it**.
 
-So with this piece, I want to quickly discuss token swaps, focusing on a few tips and considerations to help you reduce the overall impact of gas costs on your trading. 
+So with this piece, I want to quickly discuss token swaps, focusing on a few tips and considerations to help you reduce the overall impact of gas costs on your trading.
 
 ### Reading the fine print before hitting the "Swap" button!
 
@@ -21,7 +22,7 @@ When it comes to swapping tokens, **beware of the fine prints**! While most care
 Is the pre-trade estimate reliable?
 {{< /notice >}}
 
-It's a true jungle! Some services display the worst-case scenario, while others are more optimistic. Meaning that on some services, you can sometimes beat the rate displayed, while others won't allow it. Uniswap opted for an interesting approach, with a base rate paired with a "minimum received". 
+It's a true jungle! Some services display the worst-case scenario, while others are more optimistic. Meaning that on some services, you can sometimes beat the rate displayed, while others won't allow it. Uniswap opted for an interesting approach, with a base rate paired with a "minimum received".
 
 ParaSwap currently works with a worst-case scenario assumption: rate fluctuations and various optimizations can result in a pleasant surprise.
 
@@ -29,7 +30,7 @@ ParaSwap currently works with a worst-case scenario assumption: rate fluctuation
 What about the gas cost?
 {{< /notice >}}
 
-The **gas efficiency** of the aggregator you use can significantly vary depending on the situation. There are two main types of interactions aggregators perform swaps (potentially bundled) and interactions with smart contracts, such as with Aave's to deposit USDC for aUSDC. 
+The **gas efficiency** of the aggregator you use can significantly vary depending on the situation. There are two main types of interactions aggregators perform swaps (potentially bundled) and interactions with smart contracts, such as with Aave's to deposit USDC for aUSDC.
 
 The latter can have the greatest impact on gas costs if they are not correctly optimized. Properly harnessing **aggregators’ ability to wrap several interactions in one transaction** can help you reduce the impact of gas prices on their strategies.
 
@@ -41,7 +42,7 @@ Moreover, gas costs can be computed differently by different services. Some serv
 What's your plan?
 {{< /notice >}}
 
-Considering the whole situation is essential while computing gas costs. Comparing the gas costs of two transactions one to one makes little sense if one of the transactions is actually a series of operations while the other is not. 
+Considering the whole situation is essential while computing gas costs. Comparing the gas costs of two transactions one to one makes little sense if one of the transactions is actually a series of operations while the other is not.
 
 ![Paraswap-Aave-IdleFinance](/img/2020/swap-swamps/paraswap-aave-idle.png "ParaSwap can wrap a withdrawal from Idle Finance, a swap, and a deposit on Aave in a single transaction")
 

@@ -2,8 +2,9 @@
 title: "BadgerDAO's story: an intro through DIGG"
 description: "Badger sits at the forefront of two highly trendy themes: DeFi & BTC on Ethereum. Let's digg in to better understand what the end game plan looks like."
 date: '2021-01-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Decentralized finance, Badger, BadgerDAO, DIGG]
+tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
 tocNum: true
 url: badger-digg
@@ -15,7 +16,7 @@ Despite launching barely a few weeks ago, BadgerDAO quickly grew into a DeFi pow
 
 ## A quick intro to Badger DAO
 
-BadgetDAO is a community-driven project with a clear value proposition: to help **build the infrastructure needed to relay BTC into DeFi**. This core vision manifests through all their products, all centered around representations of Bitcoin on Ethereum like wBTC or sBTC and the native tokens - BADGER and now DIGG. 
+BadgetDAO is a community-driven project with a clear value proposition: to help **build the infrastructure needed to relay BTC into DeFi**. This core vision manifests through all their products, all centered around representations of Bitcoin on Ethereum like wBTC or sBTC and the native tokens - BADGER and now DIGG.
 
 ### Clear value proposition: BTC on Ethereum optimizer
 
@@ -29,7 +30,7 @@ There are also vaults (called "setts") available for BADGER and DIGG themselves,
 Setts function like the Yearn vaults, inspired by the aTokens design on Aave: initially when the vault is launched, the correspondence between the base asset and the vault token is 1:1. As the vault accrues additional tokens through its harvests, the vault token increasingly represents more and more of the underlying asset.
 {{< /notice >}}
 
-This value proposition by itself is nothing new and could have been delivered by Yearn directly. What makes Badger special is **how the team approaches building the product and the whole underlying vision behind it.** 
+This value proposition by itself is nothing new and could have been delivered by Yearn directly. What makes Badger special is **how the team approaches building the product and the whole underlying vision behind it.**
 
 ### Community-focus
 
@@ -62,9 +63,9 @@ If you are very bullish on a token price short-term wise, it's usually a bad ide
 
 ## Are you DIGGing it yet?
 
-DIGG is the second major step of Badger's DAO project: a new type of representation of BTC living on the Ethereum blockchain. Unlike wBTC or renBTC, DIGG is not backed by a fixed supply of BTCs. Instead, it uses the rebase mechanism initiated by Ampleforth to attempt to eventually deliver an asset keeping track of BTC's price.
+DIGG is the second major step of Badger's DAO project: a new type of representation of BTC living on the Ethereum Blockchain. Unlike wBTC or renBTC, DIGG is not backed by a fixed supply of BTCs. Instead, it uses the rebase mechanism initiated by Ampleforth to attempt to eventually deliver an asset keeping track of BTC's price.
 
-Before we dive into how DIGG works, let's quickly discuss the pre and post-launch. 
+Before we dive into how DIGG works, let's quickly discuss the pre and post-launch.
 
 ### Wen DIGG?
 
@@ -74,7 +75,7 @@ After discussion within the community, it was decided to go with a relatively lo
 
 ![wen-digg](/img/2021/badger-digg/wen-digg.jpeg "Wen DIGG meme contest")
 
-Badger being Badger, the hype machine was of course on point with a "Wen DIGG?" meme contest to make sure everyone was aware. 
+Badger being Badger, the hype machine was of course on point with a "Wen DIGG?" meme contest to make sure everyone was aware.
 
 So without further ado, let's dive into the meat of it: the rebases.
 
@@ -89,7 +90,7 @@ Just like with AMPL, with DIGG all holders (liquidity pool tokens included) are 
 Rebases happen at a set time, for DIGG it's 3pm EST, that's 9 pm for my dear French readers.
 
 {{< notice tip >}}
-Rebase tokens harness mechanisms similar to the ones involved in algorithmic stablecoins / seigniorage tokens, so feel free to read my **[previous post on the topic](https://tokenbrice.xyz/seigniorage-basis-esd/)** for more information.
+Rebase tokens harness mechanisms similar to the ones involved in algorithmic Stablecoins / seigniorage tokens, so feel free to read my **[previous post on the topic](https://tokenbrice.xyz/seigniorage-basis-esd/)** for more information.
 {{< /notice >}}
 
 For instance, after the first day, the genesis rebase was positive and triggered a production and redistribution of about 12% of the initial supply. Several positive rebases followed and DIGG is still trading above peg.

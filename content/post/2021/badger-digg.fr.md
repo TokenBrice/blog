@@ -1,9 +1,10 @@
 ---
 title: "L'histoire de BadgerDAO : une intro via DIGG"
-description: "BadgerDAO se trouve en première ligne sur deux thèmes très tendance : le gestion d'actifs en DeFi (vaults/setts) & BTC sur Ethereum. Voyons donc qu'implique le projet et quel est son plan."
+description: "Analyse de BadgerDAO, de ses vaults, de DIGG et de sa position entre gestion d actifs DeFi et Bitcoin sur Ethereum."
 date: '2021-01-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Decentralized finance, Badger, BadgerDAO, DIGG]
+tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
 tocNum: true
 url: badger-digg
@@ -15,7 +16,7 @@ Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidem
 
 ## Une introduction à Badger DAO
 
-BadgetDAO est un projet communautaire avec une proposition de valeur claire : aider **à construire l'infrastructure nécessaire pour relayer BTC dans la DeFi**. Cette vision fondamentale se manifeste à travers tous leurs produits, tous centrés autour de représentations de Bitcoin sur Ethereum comme wBTC ou sBTC et les tokens natifs - BADGER et maintenant DIGG. 
+BadgetDAO est un projet communautaire avec une proposition de valeur claire : aider **à construire l'infrastructure nécessaire pour relayer BTC dans la DeFi**. Cette vision fondamentale se manifeste à travers tous leurs produits, tous centrés autour de représentations de Bitcoin sur Ethereum comme wBTC ou sBTC et les tokens natifs - BADGER et maintenant DIGG.
 
 ### Proposition de valeur claire : Optimisation de BTC sur Ethereum
 
@@ -29,7 +30,7 @@ Il existe également des vaults (appelés "setts") pour BADGER et DIGG eux-même
 Les vaults comme ceux de Yearn sont inspirés du design des aTokens sur Aave : au départ, lorsque le coffre est lancé, la correspondance entre l'actif de base et le token du vault est de 1:1. Au fur et à mesure que le vault accumule des tokens supplémentaires grâce à ses récoltes, son token représente de plus en plus l'actif sous-jacent.
 {{< /notice >}}
 
-Cette proposition de valeur n'est pas nouvelle en soi et aurait pu être fournie directement par Yearn. Ce qui rend Badger spécial, c'est **la façon dont l'équipe aborde la construction du produit et toute la vision sous-jacente derrière celui-ci.** 
+Cette proposition de valeur n'est pas nouvelle en soi et aurait pu être fournie directement par Yearn. Ce qui rend Badger spécial, c'est **la façon dont l'équipe aborde la construction du produit et toute la vision sous-jacente derrière celui-ci.**
 
 ### Une approche communautaire
 
@@ -55,16 +56,16 @@ Au total, 6 NFTs différents étaient disponibles et le premier à les collecter
 </video>
 
 {{< notice tip >}}
-Si vous êtes très optimiste sur le prix d'un token à court terme, c'est généralement une mauvaise idée d'entrer dans une position à 50/50 fournissant des liquidités sur celui-ci, surtout si vous vous attendez à ce que l'autre actif de la paire (ETH, stablecoins ou ici wBTC) reste relativement stable sur la même période. Si vous craignez que ce scénario se produise avec Badger ou DIGG, vous pouvez déposer dans les coffres-forts de BADGER ou de DIGG uniquement (pas de risque de perte impermanente).
+Si vous êtes très optimiste sur le prix d'un token à court terme, c'est généralement une mauvaise idée d'entrer dans une position à 50/50 fournissant des liquidités sur celui-ci, surtout si vous vous attendez à ce que l'autre actif de la paire (ETH, Stablecoins ou ici wBTC) reste relativement stable sur la même période. Si vous craignez que ce scénario se produise avec Badger ou DIGG, vous pouvez déposer dans les coffres-forts de BADGER ou de DIGG uniquement (pas de risque de perte impermanente).
 {{< /notice >}}
 
 ---
 
 ## Alors, on DIGG ?
 
-DIGG est la deuxième grande étape du projet DAO de Badger : un nouveau type de représentation de BTC vivant sur la blockchain Ethereum. Contrairement à la wBTC ou à la renBTC, **DIGG n'est pas soutenu par stock de BTC**. Il utilise plutôt le mécanisme de rebase initié par Ampleforth pour tenter de livrer à terme un actif qui suit le prix de BTC.
+DIGG est la deuxième grande étape du projet DAO de Badger : un nouveau type de représentation de BTC vivant sur la Blockchain Ethereum. Contrairement à la wBTC ou à la renBTC, **DIGG n'est pas soutenu par stock de BTC**. Il utilise plutôt le mécanisme de rebase initié par Ampleforth pour tenter de livrer à terme un actif qui suit le prix de BTC.
 
-Avant de nous plonger dans le fonctionnement de DIGG, parlons rapidement du pré et post-lancement. 
+Avant de nous plonger dans le fonctionnement de DIGG, parlons rapidement du pré et post-lancement.
 
 ### Wen DIGG ?
 
@@ -74,7 +75,7 @@ Après discussion au sein de la communauté, il a été décidé de partir avec 
 
 ![wen-digg](/img/2021/badger-digg/wen-digg.jpeg "Wen DIGG meme contest")
 
-Badger étant Badger, la machine à hype était bien sûr au point avec un concours de mèmes "Wen DIGG ?" pour s'assurer que tout le monde soit au courant. 
+Badger étant Badger, la machine à hype était bien sûr au point avec un concours de mèmes "Wen DIGG ?" pour s'assurer que tout le monde soit au courant.
 
 Alors sans plus attendre, plongeons dans le vif du sujet : les rebases.
 
@@ -89,7 +90,7 @@ Tout comme pour l'AMPL, avec DIGG, tous les détenteurs (y compris les tokens de
 Les rebases se font à une heure fixe, pour DIGG c'est 15h EST, c'est 21h pour mes chers lecteurs français.
 
 {{< notice tip >}}
-Les tokens de rebasage exploitent des mécanismes similaires à ceux impliqués dans les stablecoins algorithmiques / tokens de seigneuriage, alors n'hésitez pas à lire mon **[précédent billet sur le sujet](https://tokenbrice.xyz/fr/seigniorage-basis-esd/)** pour plus d'informations.
+Les tokens de rebasage exploitent des mécanismes similaires à ceux impliqués dans les Stablecoins algorithmiques / tokens de seigneuriage, alors n'hésitez pas à lire mon **[précédent billet sur le sujet](https://tokenbrice.xyz/fr/seigniorage-basis-esd/)** pour plus d'informations.
 {{< /notice >}}
 
 Par exemple, après le premier jour, la rebase de genèse était positive et a déclenché une production et une redistribution d'environ 12% de l'offre initiale. Plusieurs rebases positives ont suivi.
@@ -115,7 +116,7 @@ Sur ce point, j'aimerais attirer votre attention sur le bDIGG en particulier. Bi
 
 La fin du jeu pour Badger serait comme celle que j'ai décrite précédemment, avec un écosystème complet autour du CLAW ou quel que soit son nom.[^3] Badger deviendrait de plus en plus un service de type Synthetix où les détenteurs se verraient proposer différentes options de participation plus ou moins active à l'écosystème, avec les récompenses appropriées.
 
-Comme les services comme Badger intègrent des éléments du marché monétaire tels que l'emprunt, ils **augmentent l'efficacité du capital pour leurs utilisateurs**. Ce qui était autrefois une représentation de la BTC produisant 20 % d'APY est maintenant le même + vous pouvez emprunter une partie de sa valeur en stablecoins pour augmenter encore le rendement, si cela correspond à votre appétit pour le risque.
+Comme les services comme Badger intègrent des éléments du marché monétaire tels que l'emprunt, ils **augmentent l'efficacité du capital pour leurs utilisateurs**. Ce qui était autrefois une représentation de la BTC produisant 20 % d'APY est maintenant le même + vous pouvez emprunter une partie de sa valeur en Stablecoins pour augmenter encore le rendement, si cela correspond à votre appétit pour le risque.
 
 Cette logique est plus grande que Badger, comme on l'observe ailleurs aussi, on pourrait l'appeler la **"plateformisation de DeFi**". Yearn met en place une approche similaire avec l'Iron Bank, où certains services pourront emprunter avec une garantie insuffisante, ce qui créera un fossé d'efficacité du capital pour les chanceux éligibles.
 

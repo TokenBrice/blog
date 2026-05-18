@@ -1,9 +1,12 @@
 ---
 title: "⚖ The tale of two seigniorage models: Basis vs ESD"
-description: "A comparative analysis of the two main seigniorage token models currently explored to produce new types of stablecoins on the Ethereum network."
+description: "A comparative analysis of the two main seigniorage token models currently explored to produce new types of Stablecoins on the Ethereum network."
 date: '2021-01-16T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
+series: stablecoin-arc
+series_order: 3
 toc: true
 tocNum: false
 image: /img/2021/seigniorage-basis-vs-esd/cover.png
@@ -11,7 +14,7 @@ difficulty: "intermediate"
 url: seigniorage-basis-esd
 ---
 
-A few weeks ago, I shared my first post on algorithmic stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model. 
+A few weeks ago, I shared my first post on algorithmic Stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model.
 
 Both are successfully used by the projects bearing their names but also a sizable trail of forks, more or less relevant. As the field of algorithmic stablecoin grows, there seems to be a **consensus around these two models, now used as a template** to quickstart newer projects trying various alterations, such as pegging the system to another currency other than the dollar, like gold or the euro.
 
@@ -159,7 +162,7 @@ Overall, the ESD system operates on a **timeframe three times shorter than Basis
 
 Because of the additional lockups, staging, and bounding required to implement the share functionality directly at the stablecoin level, ESD-based systems tend to be more **complex to apprehend**, especially for newcomers. You can even see it in the memes, where ESD/DSD players love to meme themselves as high-IQ masterminds. The coupon expiration makes the stabilization system extremely unfriendly for newcomers, which is not necessarily a bad thing per se, but see the next point.
 
-#### 3.4.2. Weaker coupon incentive	
+#### 3.4.2. Weaker coupon incentive
 
 ESD coupons have an expiration date, turning the coupon system into a bit of Russian roulette. Because of this design, there are serious risks of losing all the capital committed while burning ESD for coupons, even if the ESD system sustains itself in the long run. Indeed, once ESD is burnt into coupon, the owner has **90 epochs (~30 days) to redeem them before they expire.**
 
@@ -175,7 +178,7 @@ During the last expansion phase, the period around epoch 396 was famous and scar
 
 ## 4. The Algostable Toolbox
 
-Before I let you go, here's a quick overview of the main tools useful to monitor and manage positions for all four projects. We're lucky! There are some amazing community-build tools made to help you track algorithmic stablecoins. 
+Before I let you go, here's a quick overview of the main tools useful to monitor and manage positions for all four projects. We're lucky! There are some amazing community-build tools made to help you track algorithmic Stablecoins.
 
 {{< notice tip >}}
 **[Vfat in particular](https://vfat.tools/)** has been super reactive updating his tracking and management tools for the newer projects. It even includes a **[seigniorage tokens overview](https://vfat.tools/seigniorage/)** now:
@@ -185,7 +188,7 @@ Before I let you go, here's a quick overview of the main tools useful to monitor
 
 *   For ESD, your main dashboard is [ESDTools](https://esd.tools/)
 *   For DSD, [DSDTools](https://dsd.tools/).
-*   For Basis Cash, **[BCTools](https://bc.tools/)**. 
+*   For Basis Cash, **[BCTools](https://bc.tools/)**.
 
 You can use [this dashboard to track the release of newly minted ESD and DSD](https://duneanalytics.com/tongnk/esd_1).
 
@@ -193,6 +196,6 @@ Finally, all four projects are supported in both [Zapper](https://zapper.fi/) an
 
 ### 4.1. Additional Resources
 
-- To learn more about the context behind algorithmic stablecoins, feel free to **[read my previous article on the topic](https://tokenbrice.xyz/algorithmic-stablecoins/)**. 
-- To learn more, French-speaker will enjoy this **[🇫🇷 50 min video explainer of both models](https://www.youtube.com/watch?v=TuenkIZZEq0)** 
-- English speakers can explore further with this extensive research/recap piece published on Derebit: **[Stability, Elasticity, and Reflexivity: A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-stablecoins/)**.
+- To learn more about the context behind algorithmic Stablecoins, feel free to **[read my previous article on the topic](https://tokenbrice.xyz/algorithmic-Stablecoins/)**.
+- To learn more, French-speaker will enjoy this **[🇫🇷 50 min video explainer of both models](https://www.youtube.com/watch?v=TuenkIZZEq0)**
+- English speakers can explore further with this extensive research/recap piece published on Derebit: **[Stability, Elasticity, and Reflexivity: A Deep Dive into Algorithmic Stablecoins](https://insights.deribit.com/market-research/stability-elasticity-and-reflexivity-a-deep-dive-into-algorithmic-Stablecoins/)**.

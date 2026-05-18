@@ -1,9 +1,12 @@
 ---
 title: "Chicken Bonds : synergie DeFi x NFT pour résoudre le problème de l'oeuf et de la poule de la ĺiquidité en finance décentralisée"
-description: "Comment une expérimentation impliquant des NFTs dynamiques évoluants en fonction des interactions des utilisateurs avec un protocole DeFi peut aider Liquity à accroître la liquidité du LUSD ?"
+description: "Comment les Chicken Bonds de Liquity utilisent des NFT dynamiques pour soutenir la liquidite du LUSD et aligner les utilisateurs."
 date: '2022-10-17T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Yield]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
+series: stablecoin-arc
+series_order: 5
 toc: true
 tocNum: true
 url: lusd-chicken-bonds
@@ -11,7 +14,7 @@ image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 difficulty: "beginner"
 ---
 
-Liquity a récemment publié les LUSD Chicken Bonds, une **expérience de théorie des jeux fusionnant des éléments DeFi et NFT pour accroître la liquidité du LUSD et réduire sa prime de prix**. 
+Liquity a récemment publié les LUSD Chicken Bonds, une **expérience de théorie des jeux fusionnant des éléments DeFi et NFT pour accroître la liquidité du LUSD et réduire sa prime de prix**.
 
 Bien que les Chicken Bonds s'appuient sur des protocoles existants, tels que Yearn, b.protocol, ou Curve, ils mettent également en place de nouveaux mécanismes, dont les deux principaux sont les suivants :
 
@@ -26,7 +29,7 @@ Ce billet détaille le fonctionnement et les résultats attendus des [LUSD Chick
 
 L'une des dimensions les plus mal comprises du modèle de Liquity est le **mécanisme d'ancrage du LUSD**. En effet, alors que le LUSD présente de fortes garanties (hard peg) que le LUSD>1,00$ (rachat) et &lt;$1,10 (ratio de collatéralisation minimal de 110%), entre les deux, l'équilibre repose davantage sur un **jeu d'incitations (soft peg)**.
 
-Dans le sillage de [la répression de l'OFAC sur Tornado Cash](https://blog.chainalysis.com/reports/tornado-cash-sanctions-challenges/) en août, il y a eu une **augmentation de la demande** de monnaies stables résistantes à la censure. Pourtant, l'appétit pour l'effet de levier est faible en raison de la détérioration des conditions du marché. Ainsi, si la demande de LUSD est élevée, une part importante de ses adeptes l'achète à un prix élevé sur les marchés au lieu de le frapper en utilisant leur ETH comme garantie. 
+Dans le sillage de [la répression de l'OFAC sur Tornado Cash](https://blog.chainalysis.com/reports/tornado-cash-sanctions-challenges/) en août, il y a eu une **augmentation de la demande** de monnaies stables résistantes à la censure. Pourtant, l'appétit pour l'effet de levier est faible en raison de la détérioration des conditions du marché. Ainsi, si la demande de LUSD est élevée, une part importante de ses adeptes l'achète à un prix élevé sur les marchés au lieu de le frapper en utilisant leur ETH comme garantie.
 
 Ces deux facteurs ont convergé au cours des derniers mois, conduisant à une **prime soutenue** pour le LUSD, qui se négocie souvent dans une fourchette de 1,02 à 1,04 dollar. Je ne m'étendrai pas trop sur ce sujet ici, car il a déjà été abordé sur le blog de Liquity : **[The Premium of Resiliency](https://www.liquity.org/blog/the-premium-of-resiliency)**. Cependant, discutons de **l'impact de la prime sur les utilisateurs de Liquity** car il a des conséquences réelles.
 
@@ -40,7 +43,7 @@ L'impact d'une prime de prix sur les emprunteurs **peut être positif ou négati
 Il convient de noter que les emprunteurs qui préservent une exposition à 100% au LUSD ne subissent aucune conséquence des fluctuations de son cours puisqu'ils n'ont pas besoin de le racheter lors du remboursement de leur dette.
 {{< /notice >}}
 
-Cependant, le fait que le LUSD fluctue peut également profiter aux utilisateurs avertis qui peuvent arbitrer les écarts : 
+Cependant, le fait que le LUSD fluctue peut également profiter aux utilisateurs avertis qui peuvent arbitrer les écarts :
 
 1. **Marge bénéficiaire** | Plus le LUSD dépasse 1 $, plus il est rentable d'effectuer une opération d'arbitrage sur son peg : à 1,01 $, le short du peg rapporte 0,01 $ par LUSD en cas de succès. À 1,09 $, les profits passent à 0,09 $ par LUSD.
 2. Plus le LUSD s'éloigne de 1,00 $ et plus il se rapproche de 1,10 $, plus il est **probable** que les arbitragistes du peg l'emportent sur les acheteurs de LUSD et poussent ainsi le prix à la baisse.
@@ -57,18 +60,18 @@ Ainsi, les fluctuations du LUSD dans la fourchette 1,00-1,10 ajoutent **une couc
 
 Pour résoudre le problème de liquidité du LUSD, l'équipe Liquity a travaillé sur un **nouveau protocole**, d'abord testé avec le LUSD : les Chicken Bonds. En cas de succès, le modèle sera étendu à une instance de LQTY. Dans une dernière étape, le modèle généralisé pourrait être rendu prêt à être exploité par n'importe quelle DAO avec la Chicken Bond Factory.
 
-Mardi dernier, [les LUSD Chicken Bonds ont été mis en ligne](https://www.chickenbonds.org/blog-posts/chicken-bonds-is-live), offrant **une nouvelle proposition fusionnant les éléments de DeFi et NFTs fournissant des opportunités de rendement optimisées aux détenteurs de LUSD**. Elle alimentera également la croissance de la liquidité du LUSD sur le pool de la courbe LUSD/3CRV. 
+Mardi dernier, [les LUSD Chicken Bonds ont été mis en ligne](https://www.chickenbonds.org/blog-posts/chicken-bonds-is-live), offrant **une nouvelle proposition fusionnant les éléments de DeFi et NFTs fournissant des opportunités de rendement optimisées aux détenteurs de LUSD**. Elle alimentera également la croissance de la liquidité du LUSD sur le pool de la courbe LUSD/3CRV.
 
-Il y a deux protagonistes qui interagissent avec les Chicken Bonds : 
+Il y a deux protagonistes qui interagissent avec les Chicken Bonds :
 
-1. **Les déposants (utilisateurs)** bénéficient d'une expérience gamifiée offrant **des rendements amplifiés et auto-composés sur les LUSD**. 
-2. **Le déployeur (protocole)** met en place un **mécanisme permettant la croissance soutenue et la capture de la liquidité sur son token** tout en engageant activement ses détenteurs.[^deployer].  
+1. **Les déposants (utilisateurs)** bénéficient d'une expérience gamifiée offrant **des rendements amplifiés et auto-composés sur les LUSD**.
+2. **Le déployeur (protocole)** met en place un **mécanisme permettant la croissance soutenue et la capture de la liquidité sur son token** tout en engageant activement ses détenteurs.[^deployer].
 
 ### Alors, que sont exactement les Chicken Bonds ?
 
 En conséquence, les Chicken Bonds remplissent la fonction de différents types de produits selon la perspective. **Pour les utilisateurs, les Chicken Bonds agissent comme un optimiseur de rendement amélioré**. Les bonds leur permettent de maximiser leurs rendements sur les LUSD en optimisant la fréquence de composition et en amplifiant les rendements existants. De leur point de vue, ils pourraient comparer l'utilité des Chicken Bonds à celle déjà fournie par un protocole comme Yearn, sans l'élément NFT. Il maximise et rationalise les activités de production de rendement sur LUSD.
 
-Du point de vue du déployeur (protocole), les Chicken Bonds sont une **solution rentable pour développer la liquidité disponible sur leur token**. Des solutions alternatives pour atteindre un objectif similaire incluraient l'extraction de liquidité, une solution de capture de POL comme Olympus Pro, l'acquisition de jetons de conducteur de liquidité(CRV, BAL, VELO, etc.), ou les bribes des votes des propriétaires de jetons conducteurs de liquidité[^liquidity-driver-tokens]. 
+Du point de vue du déployeur (protocole), les Chicken Bonds sont une **solution rentable pour développer la liquidité disponible sur leur token**. Des solutions alternatives pour atteindre un objectif similaire incluraient l'extraction de liquidité, une solution de capture de POL comme Olympus Pro, l'acquisition de jetons de conducteur de liquidité(CRV, BAL, VELO, etc.), ou les bribes des votes des propriétaires de jetons conducteurs de liquidité[^liquidity-driver-tokens].
 
 ![chicken-egg](/img/2022/lusd-chicken-bonds/chicken-egg.png)
 
@@ -85,8 +88,8 @@ Pour expliquer le modèle des LUSD Chicken Bonds, passons au point de vue du dé
   Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.gif">View GIF</a>
 </video>
 
-**Pour créer un bond, un utilisateur dépose des LUSD. En échange, il reçoit un 🥚 Œuf NFT représentant son dépôt**. Le NFT contient la créance sur le LUSD cautionné sous-jacent et peut être vendu ou transféré. A partir de là, l'utilisateur dispose de deux options mutuellement exclusives qui transformeront également son NFT : 
-- 🐔 Chicken In 
+**Pour créer un bond, un utilisateur dépose des LUSD. En échange, il reçoit un 🥚 Œuf NFT représentant son dépôt**. Le NFT contient la créance sur le LUSD cautionné sous-jacent et peut être vendu ou transféré. A partir de là, l'utilisateur dispose de deux options mutuellement exclusives qui transformeront également son NFT :
+- 🐔 Chicken In
 - ou 🐣 Chicken Out.
 
 Les NFTs d'œuf ont quatre attributs : une carte, un œuf et un arrière-plan déterminés aléatoirement, ainsi qu'une taille d'œuf adaptée au montant de LUSD déposé.
@@ -112,7 +115,7 @@ La collection NFT exploite également des mécanismes intéressants, comme l'**a
 
 ![egg-variants-overview](/img/2022/lusd-chicken-bonds/egg-variants-overview.png "Aperçu des œufs existants sur x2y2")
 
-Tous les NFTs font partie de la même collection et peuvent être échangés sur les sites habituels, tels que [LooksRare](https://looksrare.org/collections/0xa8384862219188a8f03c144953Cf21fc124029Ee/) ou [X2Y2](https://x2y2.io/collection/lusd-chicken-bonds-nfts/items). Chicken Bonds est une collection de NFT générative autant qu'un protocole DeFi : les deux sont intrinsèquement liés. L'art et le script de génération initial ont été réalisés par l'artiste NFT [Luchador](https://luchadores.io), créateur du jeu éponyme. 
+Tous les NFTs font partie de la même collection et peuvent être échangés sur les sites habituels, tels que [LooksRare](https://looksrare.org/collections/0xa8384862219188a8f03c144953Cf21fc124029Ee/) ou [X2Y2](https://x2y2.io/collection/lusd-chicken-bonds-nfts/items). Chicken Bonds est une collection de NFT générative autant qu'un protocole DeFi : les deux sont intrinsèquement liés. L'art et le script de génération initial ont été réalisés par l'artiste NFT [Luchador](https://luchadores.io), créateur du jeu éponyme.
 
 {{< notice info >}}
 Pour une explication du prix de tous les attributs et modificateurs pris en compte, lisez l'article consacré aux NFT sur le blog de Chicken Bonds :<br>
@@ -145,7 +148,7 @@ Si vous n'êtes pas encore familier avec le fonctionnement de Liquity, vous pouv
 
 Au lieu de se brancher directement sur les sources de rendement, des solutions middleware sont utilisées pour offrir divers avantages.
 
-1. Les dépôts dans le Liquity Stability Pool sont gérés à l'aide du **[B.Protocol vault](https://bprotocol.org/)**, qui gère la récolte et la composition fréquentes des ETH et LQTY obtenus en LUSD. 
+1. Les dépôts dans le Liquity Stability Pool sont gérés à l'aide du **[B.Protocol vault](https://bprotocol.org/)**, qui gère la récolte et la composition fréquentes des ETH et LQTY obtenus en LUSD.
 2. Pour la pool Curve, le **[vault Yearn](https://yearn.finance/#/vault/0x5fA5B62c8AF877CB37031e0a3B2f34A78e3C56A6)** est utilisé pour optimiser les rendements obtenus en exploitant Convex.
 
 Jusqu'ici, tout va bien : des solutions directes à des problèmes simples. Pourtant, l'amplification du rendement, l'une des plus grandes prouesses des Chicken Bonds, est un peu plus délicate.
@@ -170,7 +173,7 @@ Le **rendement produit par les buckets Pending et Permanent est redirigé vers l
 
 ![lusd-cb-user-timeline](/img/2022/lusd-chicken-bonds/lusd-cb-user-timeline-fr.png "Chronologie centrée sur l'utilisateur des Chicken Bonds LUSD")
 
-### Période d'amorçage et prochaines étapes 
+### Période d'amorçage et prochaines étapes
 
 Les Chicken Bonds LUSD sont en ligne depuis le mardi 4 octobre 2022. Pendant les deux premières semaines du système, jusqu'au 19 octobre, il est toujours dans la **période d'amorçage** : Les Chicken Ins ne sont pas possibles, ce qui signifie que l'offre de bLUSD est toujours égale à 0. Cela signifie que tous les LUSD sont dans le Pending Bucket, sauf le rendement déjà produit qui est redirigé vers le Reserve Bucket.
 
@@ -230,7 +233,7 @@ En fonction de l'équilibre du pool bLUSD/LUSD-3CRV, son approvisionnement unila
 - S'il y a trop de LUSD-3CRV dans le pool, fournir du bLUSD rééquilibre le pool et entraîne une prime.
 - S'il y a trop de bLUSD dans le pool, l'apport de LUSD entraînera une **double prime** car les pools bLUSD/LUSD-3CRV et LUSD/3CRV sont rééquilibrées dans le processus.
 
-Pour en savoir plus sur le bLUSD/LUSD-3CRV, consultez l'article dédié sur le blog Chicken Bonds [**Game of Chickens!** The end of the bootstrap period and what it means for bLUSD](https://www.chickenbonds.org/blog-posts/game-of-chickens-the-end-of-the-bootstrap-period-and-what-it-means-for-blusd). 
+Pour en savoir plus sur le bLUSD/LUSD-3CRV, consultez l'article dédié sur le blog Chicken Bonds [**Game of Chickens!** The end of the bootstrap period and what it means for bLUSD](https://www.chickenbonds.org/blog-posts/game-of-chickens-the-end-of-the-bootstrap-period-and-what-it-means-for-blusd).
 
 ## Solutions supplémentaires pour accroître la liquidité du LUSD
 
@@ -241,7 +244,7 @@ Les Chicken Bonds sont les principales initiatives en cours visant à accroître
 
 La trésorerie de Liquity est entrée dans la guerre du CRV il y a plusieurs mois, en acquérant et en verrouillant des jetons CRV pour soutenir la jauge bLUSD/LUSD-3CRV. Pour maximiser l'impact des LUSD Chicken Bonds, **une campagne de bribes** est également synchronisée avec la sortie pour augmenter l'APY CRV des déposants de la pool LUSD/3CRV.
 
-En utilisant Warden Quest, des jetons LQTY sont attribués aux votants veCRV et vlCVX sur la jauge LUSD/3CRV. La campagne de bribe a permis d'obtenir **5M de votes veCRV (\~1% du total des votes)**, ce qui a conduit à une forte augmentation de l'APY, l'amenant à la parité avec un dépôt de base dans la Stability Pool. 
+En utilisant Warden Quest, des jetons LQTY sont attribués aux votants veCRV et vlCVX sur la jauge LUSD/3CRV. La campagne de bribe a permis d'obtenir **5M de votes veCRV (\~1% du total des votes)**, ce qui a conduit à une forte augmentation de l'APY, l'amenant à la parité avec un dépôt de base dans la Stability Pool.
 
 
 {{< notice info >}}
@@ -314,6 +317,6 @@ Pour approfondir avec un format vidéo plus interactif, n'hésitez pas à rattra
 Pour suivre ce qui se passe avec les Chicken Bonds, vous trouverez des statistiques dans l'interface utilisateur du front-end que vous utilisez. Par ailleurs, un membre de la communauté a créé un outil d'analyse [Chicken Bonds Dune Analytics](https://dune.com/nemoventures/chicken-bonds) qui vous sera utile. Pour de plus amples discussions, vous pouvez [rejoindre le Discord Liquity](https://discord.gg/WQMEcgHBpc), où une toute nouvelle section est consacrée aux Chicken Bonds.
 
 [^deployer]: Pour l'instant, Liquity est le seul "déployeur". Ce concept gagnera en pertinence avec la version généralisée des Chicken Bonds, où d'autres protocoles peuvent exploiter le modèle au profit de leurs jetons.
-[^liquidity-driver-tokens]: Les jetons conducteur de liquidité permettent des incitations directes à des paires de liquidité ou de prêt sélectionnés, généralement par le biais d'un système de verrouillage. Ils permettent aux projets qui les verrouillent de diriger des incitations vers les pools de leur choix pour attirer des apporteurs de liquidité. 
+[^liquidity-driver-tokens]: Les jetons conducteur de liquidité permettent des incitations directes à des paires de liquidité ou de prêt sélectionnés, généralement par le biais d'un système de verrouillage. Ils permettent aux projets qui les verrouillent de diriger des incitations vers les pools de leur choix pour attirer des apporteurs de liquidité.
 [^ve-CRV-NFT-attribut-bribe]: Pour autant que je sache, c'est la première fois que ce type d'influence a été tenté sur les électeurs de Curve (ou tout autre détenteur de jetons DeFi) : Les bribes basés sur les attributs NFT ; nous voilà !
 [^blusd-lusd3pool]: La pool est [déjà en ligne](https://curve.fi/factory-crypto/134) mais ne peut être alimentée avant la fin de la période d'amorçage.

@@ -3,14 +3,14 @@ title: "Turning Locks into Leverage: How Autopilot, 40Acres & haiVELO Evolve veN
 description: "The development of the veNFT infrastructure layer with Autopilot, 40Acres, and haiVELO: automation, collateral, and yield enhancement."
 date: '2025-08-14T16:06:21.672Z'
 categories: [Lending, Yield, DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
+tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
 url: veNFT-infrastructure
 image: /img/2025/veNFT-infrastructure/cover.png
 difficulty: "expert"
 ---
 
-The landscape of veNFTs is rapidly evolving, ushering in a new era of decentralized finance where governance power and yield generation are tokenized. As the adoption of the veNFT model grew, **the infrastructure supporting it matured**, harnessing veNFT’s native yield to deliver novel services and automations. 
+The landscape of veNFTs is rapidly evolving, ushering in a new era of decentralized finance where governance power and yield generation are tokenized. As the adoption of the veNFT model grew, **the infrastructure supporting it matured**, harnessing veNFT’s native yield to deliver novel services and automations.
 
 In this article I want to spotlight a few of these:  **[Autopilot](https://theautopilot.xyz/), [40Acres](https://www.40acres.finance/) & [haiVELO](https://www.letsgethai.com/)**. You can refer to my previous articles if you are not already familiar with the veNFT model:
 
@@ -35,7 +35,7 @@ Autopilot offers an autonomous solution for managing veAERO positions, enabling 
 
 Once a user deposits his veNFT, he can essentially do nothing and let the USDC accrue, to claim at his convenience. This type of service significantly **lowers the barrier to entry** for users who want to benefit from veNFTs but lack the time or expertise for active management.
 
-The website is clear, and the UI provides a rewards and rebase breakdown for every epoch, facilitating accounting for projects or DAOs looking to harness Autopilot as well. 
+The website is clear, and the UI provides a rewards and rebase breakdown for every epoch, facilitating accounting for projects or DAOs looking to harness Autopilot as well.
 
 ### 40Acres: Self-Repaying Loans with veNFT Collateral
 
@@ -63,12 +63,12 @@ Projects can build on top of their relays, for instance, by allocating rewards t
 
 ## Projects x Infrastructure
 
-To illustrate how this additional infrastructure layer impacts projects involved in the ecosystem, let me discuss the Luchadores and particularly their veAERO strategy. **Two sets of veAERO** are managed to provide a balance of yield, utility, and growth. **The first, deposited into Autopilot**, provides a constant stream of stablecoins for the payment of expenses. A **second veAERO deposited into El Volador Luchador relay** supports the yields on LUCHA pools on Aerodrome, which the treasury also seeds with approximately $200k. The strategy is **fully automated** thanks to Autopilot and only requires defining the relayer voting strategy.
+To illustrate how this additional infrastructure layer impacts projects involved in the ecosystem, let me discuss the Luchadores and particularly their veAERO strategy. **Two sets of veAERO** are managed to provide a balance of yield, utility, and growth. **The first, deposited into Autopilot**, provides a constant stream of Stablecoins for the payment of expenses. A **second veAERO deposited into El Volador Luchador relay** supports the yields on LUCHA pools on Aerodrome, which the treasury also seeds with approximately $200k. The strategy is **fully automated** thanks to Autopilot and only requires defining the relayer voting strategy.
 
 
 ![Luchadores AERO Strategy](/img/2025/veNFT-infrastructure/luchadores-strategy.png)
 
-On top of **covering two core members' salaries (~$2000/month)**, the effective management of the position provides **sustained growth levers to the project**, which enabled it to build a ~$13k reserve in ETH and stablecoins, **while sustaining $400k worth of liquidity for its token**. The project now controls a total of ~223k veAERO, at face value worth almost as much as LUCHA’s whole market cap.
+On top of **covering two core members' salaries (~$2000/month)**, the effective management of the position provides **sustained growth levers to the project**, which enabled it to build a ~$13k reserve in ETH and Stablecoins, **while sustaining $400k worth of liquidity for its token**. The project now controls a total of ~223k veAERO, at face value worth almost as much as LUCHA’s whole market cap.
 
 The integration of veNFT into more advanced products is fascinating to witness. As they come built-in with a solid 25-30% yield while properly optimized, they offer a lot of options ranging from self-repaying loans to a fully automated stablecoin yield source. Such innovations deliver increased accessibility and capital efficiency, while fostering the growth of an ecosystem. 40Acres now has over $40M of deposits, while Autopilot manages 5.8M veAERO, approximately $8M.
 

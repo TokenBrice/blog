@@ -1,9 +1,10 @@
 ---
 title: "Maverick et la transition du Liquidity Mining au Liquidity Shaping"
-description: "La guerre des DEX fait rage, plus compétitive que jamais. A côté des cartels de la licorne, du lama et de l'échelle, un quatrième centre de pouvoir émerge grâce à des caractéristiques sans précédent : une structure de liquidité inégalée associée à un modèle d'incitation immensément plus efficace : **le façonnage de liquidité**."
+description: "Comment Maverick introduit le liquidity shaping comme nouveau centre de pouvoir DEX avec structures de liquidite et incentives efficaces."
 date: '2023-07-07T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
+tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
 toc: false
 tocNum: false
 url: maverick-liquidity-shaping
@@ -11,19 +12,19 @@ image: img/2023/liquidity-shaping-maverick/cover.png
 difficulty: "expert"
 ---
 
-Cela fait quatre mois que Maverick est sorti, et quelques jours que le jeton MAV a rejoint la mêlée. Pourtant, la plupart des acteurs de la DeFi se demandent encore comment Maverick peut offrir une efficacité du capital 2 à 3 fois supérieure à celle de son principal concurrent, Uniswap. 
+Cela fait quatre mois que Maverick est sorti, et quelques jours que le jeton MAV a rejoint la mêlée. Pourtant, la plupart des acteurs de la DeFi se demandent encore comment Maverick peut offrir une efficacité du capital 2 à 3 fois supérieure à celle de son principal concurrent, Uniswap.
 
 Le moment était donc venu de plonger dans les innovations apportées par le modèle et le nouveau paradigme qu'il favorise en matière de gestion des liquidités : **le liquidity shaping** (le façonnage de liquidité).
 
 
 ## Innovations sur DEX ? Plutôt des outils permettant aux LP de s'exprimer
 
-Fondamentalement, un échange décentralisé peut innover à deux niveaux : 
+Fondamentalement, un échange décentralisé peut innover à deux niveaux :
 
 1. **La structure de liquidité** : les options offertes aux fournisseurs de liquidité pour concevoir l'activité d'approvisionnement qui correspond le mieux à leur thèse.
 2. Et / ou **le modèle d'incitation** : les outils et les modalités permettant aux DAO et aux projets d'encourager des structures de liquidité personnalisées ou non.
 
-La plupart des nouveaux DEX qui sortent recyclent une infrastructure existante et se concentrent sur l'innovation dans une seule dimension - généralement le modèle d'incitation - comme on l'a vu récemment avec la vague de forks Solidly/Velodrome - **[ve(3,3), la prochaine étape logique après veCRV ?](https://tokenbrice.xyz/fr/solidly-velodrome-fork/)**. 
+La plupart des nouveaux DEX qui sortent recyclent une infrastructure existante et se concentrent sur l'innovation dans une seule dimension - généralement le modèle d'incitation - comme on l'a vu récemment avec la vague de forks Solidly/Velodrome - **[ve(3,3), la prochaine étape logique après veCRV ?](https://tokenbrice.xyz/fr/solidly-velodrome-fork/)**.
 
 Il y a cependant quelques moments critiques dans l'industrie où un nouveau DEX est sorti et a apporté **une innovation critique sur les deux fronts :**
 
@@ -76,7 +77,7 @@ L'expressivité offerte aux LP sur Maverick est virtuellement infinie. Je m'atte
 
 En supposant que le projet de stablecoin contrôle une certaine liquidité, il pourrait la fournir de manière très expressive en cas de besoin pour restreindre la fourchette de prix. Voici une structure de liquidité "buy wall"(mur d'achat) sur le LUSD : toute la liquidité de ce LP est fournie sur un seul tick, le premier où le LUSD vaut moins de 1,00 USDC.
 
-![mav-buy-wall.png](img/2023/liquidity-shaping-maverick/mav-buy-wall.png "Une structure de liquidité de mur d'achat de stablecoins sur Maverick")
+![mav-buy-wall.png](img/2023/liquidity-shaping-maverick/mav-buy-wall.png "Une structure de liquidité de mur d'achat de Stablecoins sur Maverick")
 
 Avec un prix actuel >1,00 USDC, cette LP est approvisionnée à 100% en USDC et agit comme une réserve d'achat : si le prix du LUSD baisse, la LP sera rééquilibrée. Ces positions sont prometteuses, car elles peuvent exercer une pression à l'achat et à la vente, ce qui permet de mieux contraindre les actifs de référence dans des fourchettes plus étroites, ce qui réduit considérablement le coût de l'incitation à la liquidité.
 
@@ -131,9 +132,9 @@ En ce qui concerne la couche d'incitation, des gains considérables peuvent êtr
 
 => J'opterais pour deux pools conjointes afin de couvrir au mieux cette paire sur le plan de l'incitation : **Tout d'abord, un LP statique sur dix bins** centré sur le prix actuel - cela permet au prix de s'exprimer avec suffisamment de liquidité et cette structure est déjà >100x plus efficace que le pool Curve V2 existant.
 
-==> Pour enfoncer le clou, nous pouvons **ajouter une pool gauche-droite d'un seul tick au prix pour maximiser l'efficacité de la liquidité**. 
+==> Pour enfoncer le clou, nous pouvons **ajouter une pool gauche-droite d'un seul tick au prix pour maximiser l'efficacité de la liquidité**.
 
-Les détails de cet exemple vous aident à comprendre que si vous amenez ce pool à Maverick, l'effet composé de la structure de liquidité supérieure avec un modèle d'incitation beaucoup plus efficace conduit à des résultats d'une ligue différente. 
+Les détails de cet exemple vous aident à comprendre que si vous amenez ce pool à Maverick, l'effet composé de la structure de liquidité supérieure avec un modèle d'incitation beaucoup plus efficace conduit à des résultats d'une ligue différente.
 
 ![curve-cvxcrv-crv.png](img/2023/liquidity-shaping-maverick/curve-cvxcrv-crv.png "Le pool cvxCRV/CRV sur Curve")
 
@@ -144,7 +145,7 @@ Il y a actuellement 54 millions de dollars de TVL dans le pool cvxCRV/CRV de Cur
 
 ### Proto Liquidity Shaping avec Bunni ?
 
-J'espère qu'à ce stade, vous avez une meilleure idée de la raison pour laquelle le façonnage de liquidité est véritablement révolutionnaire, car il permettra un autre saut d'ordre de grandeur en ce qui concerne l'efficacité des structures de liquidité et des modèles d'incitation. 
+J'espère qu'à ce stade, vous avez une meilleure idée de la raison pour laquelle le façonnage de liquidité est véritablement révolutionnaire, car il permettra un autre saut d'ordre de grandeur en ce qui concerne l'efficacité des structures de liquidité et des modèles d'incitation.
 
 Il existe des itérations antérieures, moins complètes, d'un tel concept, fournies par les gestionnaires de liquidité construit au-dessus d'UniswapV3 qui permettent l'incitation sur une gamme personnalisée, par exemple, des récompenses pour LUSD/USDC LP, mais seulement pour la gamme LUSD = 0,999 USDC à LUSD = 1,01 USDC. [Bunni](https://bunni.pro/) est un bon exemple de ce type de services.
 
@@ -152,7 +153,7 @@ Ces services pourraient être qualifiés de "proto liquidity shaping", car ils p
 
 ## MAV TOKEN
 
-Avec des perspectives claires sur la nouvelle structure des pools, le modèle d'incitation et leurs conséquences, nous sommes maintenant prêts à ajouter la dernière pièce du puzzle, une pièce qui vous est probablement plus familière, mais ici aussi, il y a des différences clés : le token MAV. 
+Avec des perspectives claires sur la nouvelle structure des pools, le modèle d'incitation et leurs conséquences, nous sommes maintenant prêts à ajouter la dernière pièce du puzzle, une pièce qui vous est probablement plus familière, mais ici aussi, il y a des différences clés : le token MAV.
 
 Lancé il y a quelques semaines, le token MAV a été distribué aux premiers fournisseurs de liquidités et aux utilisateurs du protocole. Cette distribution n'est que **la première d'une longue série**, et d'autres sont prévues, pour les LPs, mais aussi pour les protocoles qui exploitent Maverick ou s'appuient sur lui. Pour plus de détails sur la distribution prévue, consultez l'article [Maverick Ecosystem Incentive Program](https://medium.com/maverick-protocol/maverick-ecosystem-incentive-program-95cf76dbfa5e).
 
@@ -164,7 +165,7 @@ En tant que lecteurs de ce blog, j'imagine que vous êtes largement familiarisé
 
 ![vemav](img/2023/liquidity-shaping-maverick/vemav.png)
 
-Le lancement du jeton MAV est séquentiel, actuellement en phase 1, où les utilisateurs peuvent réclamer leur drop, LP MAV, ou le verrouiller pour obtenir veMAV. **La phase 2 introduira le Liquidity Directing Voting de Maverick et marquera le véritable début de la guerre du MAV**. 
+Le lancement du jeton MAV est séquentiel, actuellement en phase 1, où les utilisateurs peuvent réclamer leur drop, LP MAV, ou le verrouiller pour obtenir veMAV. **La phase 2 introduira le Liquidity Directing Voting de Maverick et marquera le véritable début de la guerre du MAV**.
 
 La principale différence ici est, bien sûr, l'expressivité permise par Maverick qui aura également un impact sur les tokenomics : contrairement à veCRV ou veBAL, où les projets allouent des liquidités à un pool entier, ici, avec Maverick, **les protocoles seront en mesure de cibler leur pouvoir de vote sur une partie spécifique de la distribution de l'AMM**. Vous trouverez plus d'informations sur veMAV ici : [Introducing Maverick Protocol's Voting-Escrow Model](https://medium.com/maverick-protocol/introducing-maverick-protocols-voting-escrow-model-c29a60120339).
 
@@ -192,9 +193,9 @@ Maverick est actuellement en ligne sur le mainnet, zkSync et BSC. Il est intére
 
 ![zksync-dex-tvl.png](img/2023/liquidity-shaping-maverick/zksync-dex-tvl.png "Aperçu du TVL attiré par les principaux DEX sur zkSync (DeFiLlama)")
 
-Sur le réseau principal, Maverick trouve son audience sur les paires ETH-LSDs (wstETH, swETH, etc.) et les stablecoins. La structure de liquidité efficace de Maverick est très compétitive par rapport à Curve, Uniswap et Balancer.
+Sur le réseau principal, Maverick trouve son audience sur les paires ETH-LSDs (wstETH, swETH, etc.) et les Stablecoins. La structure de liquidité efficace de Maverick est très compétitive par rapport à Curve, Uniswap et Balancer.
 
-En ce qui concerne les jetons volatils, les LPs sont encore un peu timides, tout comme il a fallu quelques mois pour que les gens s'habituent à la nouveauté apportée par Uniswap V3. Il est intéressant de noter que les LPs expérimentent davantage sur zkSync, en particulier sur des paires telles que ETH/USDC, grâce à la baisse des coûts du gas, ce qui conduit à une efficacité globale du capital encore plus importante que sur le mainnet, voici les statistiques pour aujourd'hui (06 juillet 2023) : 
+En ce qui concerne les jetons volatils, les LPs sont encore un peu timides, tout comme il a fallu quelques mois pour que les gens s'habituent à la nouveauté apportée par Uniswap V3. Il est intéressant de noter que les LPs expérimentent davantage sur zkSync, en particulier sur des paires telles que ETH/USDC, grâce à la baisse des coûts du gas, ce qui conduit à une efficacité globale du capital encore plus importante que sur le mainnet, voici les statistiques pour aujourd'hui (06 juillet 2023) :
 
 - Uniswap V3 - réseau principal : 0.23
 - Maverick - réseau principal : 0.3
@@ -215,7 +216,7 @@ Du côté des projets, **il est absolument nécessaire que les gestionnaires de 
 {{< notice note >}}
 Info : Au cas où vous auriez manqué la nouvelle, je conseille l'équipe de Maverick depuis l'année dernière.
 
-**[Annonce : TokenBrice 🤝 Maverick](https://tokenbrice.xyz/fr/maverick-x-tokenbrice/)** 
+**[Annonce : TokenBrice 🤝 Maverick](https://tokenbrice.xyz/fr/maverick-x-tokenbrice/)**
 {{< /notice >}}
 
 Il sera intéressant de voir comment se dérouleront les prochains mois de la guerre des DEX ; Maverick étant déjà régulièrement dans le top 5 des DEX Ethereum par volume traité, je pense qu'il n'est pas exagéré de l'envisager dans le top 3 d'ici la fin de l'année, au plus tard lorsque les jauges veMAV seront publiées.

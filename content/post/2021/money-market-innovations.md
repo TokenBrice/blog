@@ -1,9 +1,12 @@
 ---
 title: "Understanding innovations in money markets to envision their future"
-description: "What are the next steps for money markets? We're tackling different themes with an emblematic project: re-appropriation of liquidations with Bprotocol, loans that pay back over time with Alchemix, and much more!"
+description: "A tour of money-market innovation through B.Protocol, Alchemix, fixed-rate experiments, liquidations, and new lending designs."
 date: '2021-04-19T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
+tags: [DeFi, Ethereum, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
+series: money-markets
+series_order: 3
 toc: true
 tocNum: false
 url: money-market-innovations
@@ -17,7 +20,7 @@ Nevertheless, **the analogy stops immediately at this functional comparison**. I
 
 When a user borrows on Aave, **the protocol does not need to know his age or identity**: validate all conditions is enough ! It means that you just have to put enough collateral.
 
-In the same way, a user who deposits stablecoins on Aave to generate a return by lending them to others does not trust anyone: he can check at any time which amounts are borrowed by each address to **ensure the solvency of the entire system.**
+In the same way, a user who deposits Stablecoins on Aave to generate a return by lending them to others does not trust anyone: he can check at any time which amounts are borrowed by each address to **ensure the solvency of the entire system.**
 
 This may seem basic to a DeFian, but it is a real paradigm shift. In traditional finance, we have no choice but to trust a third party (auditor, rating agency, etc.) to obtain this kind of information - with the reliability that we know.
 
@@ -86,7 +89,7 @@ This is precisely what a project like Mimo Capital is looking for, as it propose
 
 ![Mimo-Capital-PAR](/img/2021/money-market-innovations/mimo-capital-par.png "The main metrics for PAR, from the official website.")
 
-Mimo is not coming up in an empty market as Euro stablecoins are beginning to emerge. In addition to Mimo's PAR, there is the EURS stablecoin which follows a centralized model: each EURS in circulation is backed by a Euro fiat owned by the issuer. Thus, **yield opportunities are starting to emerge via Euro exposures**, for example the sEUR/EURS pool on Curve also accessible via vaults on StakeDAO or Harvest Finance.
+Mimo is not coming up in an empty market as Euro Stablecoins are beginning to emerge. In addition to Mimo's PAR, there is the EURS stablecoin which follows a centralized model: each EURS in circulation is backed by a Euro fiat owned by the issuer. Thus, **yield opportunities are starting to emerge via Euro exposures**, for example the sEUR/EURS pool on Curve also accessible via vaults on StakeDAO or Harvest Finance.
 
 The arrival of **a protocol like Mimo allows European investors to consider a circuit with the Euro as the reference currency**. Using their ETH or wBTC as collateral, they can borrow PAR (stablecoin €) and make it productive via, for now, two liquidity pools on Balancer, but eventually, probably more.
 
@@ -114,7 +117,7 @@ So far, we have considered innovations built on the existing core money markets 
 
 I therefore propose to consider two final projects that bring real fundamental changes.
 
-## Alchemix: productive assets as collateral? 
+## Alchemix: productive assets as collateral?
 
 I couldn't start this section with another project than Alchemix! The idea of this project is as simple as powerful:
 

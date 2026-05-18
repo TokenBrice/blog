@@ -19,7 +19,7 @@ Both are social networks, yet creating a page on MySpace required a basic unders
 
 Behind the MySpace/Facebook antagonism lies on the most critical point of tension on the internet - **how to interact with the content we edit?** There are mostly two ways to look at this:
 
-1.  **WYSIWYG (What You See Is What You Get)** — As the name suggests, in this paradigm the goal is to have an editor as close as the final rendering. WordPress was one of the most visible early proponent of WYSIWYG, but others joined. The Medium editor (featured below), built using [TinyMCE](https://en.wikipedia.org/wiki/TinyMCE), is now regarded as one of the best WYSIWYG experience available online. 
+1.  **WYSIWYG (What You See Is What You Get)** — As the name suggests, in this paradigm the goal is to have an editor as close as the final rendering. WordPress was one of the most visible early proponent of WYSIWYG, but others joined. The Medium editor (featured below), built using [TinyMCE](https://en.wikipedia.org/wiki/TinyMCE), is now regarded as one of the best WYSIWYG experience available online.
 2.  **Efficiency First** — WYSIWYG editors are easy to get started with but tend to be either clunky or limited. Ultimately, introducing some form of syntax adds complexity, but it also allows more control over the final rendering of the content. Moreover, since the formatting is enforced with syntax (HTML, CSS, Markdown…), it's no longer dependent on the editor used.
 
 {{< figure src="/img/2019/staticweb/mediumeditor.png" alt="Medium Editor" >}}
@@ -37,15 +37,15 @@ Success does not mean relevance. Indeed, power users are leaving WordPress in dr
 
 ## Make It Static!
 
-Back when WordPress was released in 2003, the competition was unconvincing. However, this was 15 years ago. In the meanwhile, we saw exciting **tools and frameworks emerge both to format written content and to host and render it for the end-user.** It's the development of both, hand in hand, that paved the way for the static web. 
+Back when WordPress was released in 2003, the competition was unconvincing. However, this was 15 years ago. In the meanwhile, we saw exciting **tools and frameworks emerge both to format written content and to host and render it for the end-user.** It's the development of both, hand in hand, that paved the way for the static web.
 
 Let's start with editing, focusing on Markdown.
 
 ### The Rise of Markdown
 
-While WordPress was getting fatter and fatter, alternatives developed both to host website and format content. 
+While WordPress was getting fatter and fatter, alternatives developed both to host website and format content.
 
-For the content, new lightweight markup languages like Markdown offer a credible alternative even for a non-technical profile. Markdown's promise is simple: take an hour to [master the cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to cut down formatting time to virtually 0. 
+For the content, new lightweight markup languages like Markdown offer a credible alternative even for a non-technical profile. Markdown's promise is simple: take an hour to [master the cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to cut down formatting time to virtually 0.
 
 Indeed, Markdown is reasonably straightforward, quick to master yet incredibly potent. A writer using a markdown editor and some shortcuts can write and format its content at the same time. On top of that, Markdown offers many exporting options (HTML, PDF, LaTex, Doc…) and ensures that your formatting stays consistent whatever the end format is.
 
@@ -96,7 +96,7 @@ What's the impact? Neil Patel, a well-known figure in the SEO community, produce
 
 So let's skim the fat. Do we need this many scripts? How could having a dynamic engine continuously regenerating the same static content have become the standard of the Internet? Is this really this hard to implement proper handling of images (resizing, compression, load order) in 2019?
 
->   How could having a dynamic engine continuously regenerating the same static content have become the standard of the Internet? 
+>   How could having a dynamic engine continuously regenerating the same static content have become the standard of the Internet?
 >
 >   -   Florent Chauveau
 
@@ -108,7 +108,7 @@ Hugo was a fit for our tech blog as it helped us streamline the content editing 
 
 {{< figure src="/img/2019/staticweb/searchconsole.png" alt="Blog.CALLR.tech Organic performance" >}}
 
-Luckily, the offer of static website generators and other related services greatly expanded since the release of Jekyll in 2008. 
+Luckily, the offer of static website generators and other related services greatly expanded since the release of Jekyll in 2008.
 
 If you are considering a static engine for your next website, please check our [follow-up article covering the main frameworks and tools you can use as well some tips and best practices to develop killer static websites.]({{< relref "static-edge.md" >}})
 

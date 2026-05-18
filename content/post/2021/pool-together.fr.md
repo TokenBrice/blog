@@ -1,7 +1,8 @@
 ---
 title: "🎲 PoolTogether : L'histoire de la loterie sans perte où tout le monde (y) gagne"
-description: "Les jeux d’argents, tous pourris ? Une fois de plus la finance décentralisée permet d’envisager de nouvelles manières de faire - en l'occurence une loterie moins prédatrice et plus ludique : PoolTogether. Cet article explique comment elle marche."
+description: "Comment PoolTogether utilise la DeFi pour repenser la loterie sous forme d epargne ludique et moins predatrice."
 date: '2021-12-20T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -84,7 +85,7 @@ Si on veut être très précis, le seul coût de Pool Together est le “opportu
 
 Deux versions de PoolTogether sont en ligne : v3 et v4. Le concept reste le même mais l’infrastructure a grandement évolué. Alors avant de voir ce que la v4 a apporté, commençons par la v3 toujours pertinente et [accessible ici](https://app.pooltogether.com/).
 
-Cette mise à jour a été lancée [en Octobre 2020](https://defirate.com/pooltogether-v3/) peu avant [le token POOL](https://medium.com/pooltogether/introducing-pool-23b09f36db48), en Février 2021. Elle apporte de nombreuses améliorations à l’infrastructure de PoolTogether. 
+Cette mise à jour a été lancée [en Octobre 2020](https://defirate.com/pooltogether-v3/) peu avant [le token POOL](https://medium.com/pooltogether/introducing-pool-23b09f36db48), en Février 2021. Elle apporte de nombreuses améliorations à l’infrastructure de PoolTogether.
 
 
 ### Sponsoring Pools et Reserve Factor
@@ -124,7 +125,7 @@ On va bien détailler ce point car il est crucial, PoolTogether a été pionnier
 
 #### L’approche basique : réplication
 
-La plupart des projets se contentent de **répliquer leur service sur toutes les chaînes** : c’est le cas de Sushi par exemple présent sur plus de dix chaînes, mais aussi Pool Together v3 comme décrit plus haut. 
+La plupart des projets se contentent de **répliquer leur service sur toutes les chaînes** : c’est le cas de Sushi par exemple présent sur plus de dix chaînes, mais aussi Pool Together v3 comme décrit plus haut.
 
 Cette approche a le mérite de la simplicité et permet l’accès au service sur toutes les chaînes couvertes - mais elle aboutit à **la fragmentation de la liquidité** ce qui peut rendre ce service moins qualitatif sur les “petites chaînes". Ainsi les joueurs PT v3 Polygon USDC, désormais peu nombreux, jouent pour un prix hebdomadaire de $69. De l’autre coté les joueurs PT v4 USDC se partagent un prix journalier de plus de $100 000.
 
@@ -152,7 +153,7 @@ En réalité, le nombre de joueurs gagnants est plus faible car il est possible 
 
 Cette distribution permet ainsi de récompenser fréquemment les joueurs qui utilisent PoolTogether dans une logique d’épargne tout en préservant l’esprit du jeu :
 
-1. Une chance décente (en fonction de la taille du dépôt) d’avoir de petits gains (prix $10 et $100) 
+1. Une chance décente (en fonction de la taille du dépôt) d’avoir de petits gains (prix $10 et $100)
 2. & faible probabilité d’avoir un gain massif : le jackpot de $2500.
 
 Au-delà du modèle de prix, c’est toute l’expérience autour de l’allocation des prix qui a été revue avec la v4. La gouvernance a d’ailleurs continué a itéré et récemment voté une refonte de la structure des prix : [PTIP-47: Prize Adjustments](https://gov.pooltogether.com/t/ptip-47-prize-adjustments/1752).
@@ -165,7 +166,7 @@ De nombreux paramètres et détails ont été ajustés pour rendre l’expérien
 
 Tout d’abord, les gains passent dans une **logique de claim**, là où avant ils arrivaient directement dans le wallet. Pour les joueurs, cela rend les gains plus simples à comprendre et quantifier. En outre, ils sont désormais payés en PTaUSDC, le ticket de loterie PoolTogether v4 et sont donc **composés automatiquement** : gagner augmente vos chances de gagner, avec un simple claim !
 
-![comparaison-pt-vs-epargne](/img/2021/pool-together/comparaison.png "Pooltogether vs l'épargne")
+![comparaison-pt-vs-epargne](/img/2021/pool-together/comparaison.png "PoolTogether vs l'épargne")
 
 **Les joueurs ont 60 jours pour réclamer leur récompense**, ce qui garantit une forme de suivi et d’engagement, mais permet également une interaction avec le protocole quasiment totalement passive pour ceux qui le souhaitent : dépôt > tous les 59j : claim > retrait quand désiré.
 
@@ -204,12 +205,12 @@ Je qualifie parfois PoolTogether de “protocole le plus fun de toute la DeFi”
 La gouvernance de PoolTogether, avec ses décisions, travaille à définir ce qu’est le “fun optimal”, avec des questions très concrètes, comme le nombre de prix ou leur distribution. Avec le lancement de la v4, le nombre de prix a grandement augmenté ce qui permet à plus de joueurs de gagner : plus de la moitié des wallets uniques qui jouent à PTv4 ont gagné au moins une fois :
 
 
-C’est un bon début, mais il est sans doute possible d’affiner encore plus le modèle pour réjouir toujours plus de joueurs en promouvant l’épargne long terme positivement. 
+C’est un bon début, mais il est sans doute possible d’affiner encore plus le modèle pour réjouir toujours plus de joueurs en promouvant l’épargne long terme positivement.
 
 
 ## 🤗 PT Ensemble TokenBrice Live
 
-Je vous quitte sur une offre difficile à refuser : et **si on jouait à PoolTogether ensemble** ? Les règles sont simples : j’ai effectué un dépôt PoolTogether v4 Polygon avec mon wallet public tokenbrice.eth. Toutes les 2 semaines je collecte les récompenses : la moitié repart dans le pot, l’autre moitié est gagnée en giveway par un membre de l’audience Twitch. 
+Je vous quitte sur une offre difficile à refuser : et **si on jouait à PoolTogether ensemble** ? Les règles sont simples : j’ai effectué un dépôt PoolTogether v4 Polygon avec mon wallet public tokenbrice.eth. Toutes les 2 semaines je collecte les récompenses : la moitié repart dans le pot, l’autre moitié est gagnée en giveway par un membre de l’audience Twitch.
 
 Le gagnant reçoit directement des PTaUSDC dans son wallet qu’il n’a plus qu’à activer pour lui aussi jouer de son côté : **le cercle vertueux sans fin de la loterie sans perte** !
 
@@ -217,7 +218,7 @@ Le gagnant reçoit directement des PTaUSDC dans son wallet qu’il n’a plus qu
 
 ---
 
-Si vous m’avez lu jusqu’ici, vous reprendrez bien un peu d’alpha ? 
+Si vous m’avez lu jusqu’ici, vous reprendrez bien un peu d’alpha ?
 
 **La logique sans perte de PoolTogether s’exporte au-delà de la loterie / épargne**. De nombreux mécanismes sociaux et jeux autour de l’argent peuvent être concernés : paris sportifs, marchés prédictifs, assurance, etc. La famille sans perte sera grande, et PoolTogether connaît déjà un premier cousin qui s’attaque aux prédictions markets : [EntropyFi](https://docs.entropyfi.com/user-guide/game-explained).
 
@@ -227,7 +228,7 @@ Pour aller plus loin, regardez le Marathon Pool Together avec Pierrick :
 
 ---
 
-Faites vos jeux, 
+Faites vos jeux,
 - 🎲 rien ne va plus [logique archaïque]
 - (🎲,🎲) tout ira bien [web3]
 

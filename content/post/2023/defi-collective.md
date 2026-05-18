@@ -2,8 +2,9 @@
 title: "Introducing my next step: contributing to a DeFi mastermind geared to support trustless and unstoppable DeFi: The DeFi Collective"
 description: "It's time to put my five years in DeFi to the best use: unfettered support for the public goods"
 date: '2023-10-16T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, Association, DeFi Collective]
+tags: [DeFi, Ethereum, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
 image: /img/2023/defi-collective/twitter_banner.png
 toc: false
@@ -68,8 +69,8 @@ Indeed, the Collective controls sizable liquidity-driving positions, including v
 
 Liquidity management and support is a critical area of expertise for the Collective that I will champion, along with governance-related activities to increase the adoption of the tokens from the supported protocols across the broader DeFi ecosystem. However, the DeFi Collective is an adventure much bigger than myself, and I am blessed with the support of two equally critical founding board members – Nils Bundi and Florian Prantl, who deliver on their expertise in their respective areas:
 
-- [Nils Bundis](https://www.linkedin.com/in/nils-bundi-6246b998/) is a DeFi protocol architect and developer with a background in financial engineering. As an experienced DeFi builder, he knows the challenges of building “truly decentralized” protocols. Apart from the technical depth, Nils will also support the Collective with his expertise in the operational requirements, ensuring secure and trusted DeFi services. 
-- [Floria Prantl](https://twitter.com/floowp_) is a lawyer and policy specialist with a background in advising DeFi and CeFi projects, navigating the legal and regulatory pitfalls in setting up and expanding their services. He also brings valuable experience advocating with authorities for progressive and balanced regulations. At the Collective, he particularly lends his expertise to operational compliance, offering guidance to supported protocols and contributing to the Collective's self-policing, networking, and other vital initiatives.  
+- [Nils Bundis](https://www.linkedin.com/in/nils-bundi-6246b998/) is a DeFi protocol architect and developer with a background in financial engineering. As an experienced DeFi builder, he knows the challenges of building “truly decentralized” protocols. Apart from the technical depth, Nils will also support the Collective with his expertise in the operational requirements, ensuring secure and trusted DeFi services.
+- [Floria Prantl](https://twitter.com/floowp_) is a lawyer and policy specialist with a background in advising DeFi and CeFi projects, navigating the legal and regulatory pitfalls in setting up and expanding their services. He also brings valuable experience advocating with authorities for progressive and balanced regulations. At the Collective, he particularly lends his expertise to operational compliance, offering guidance to supported protocols and contributing to the Collective's self-policing, networking, and other vital initiatives.
 
 Their skills and knowledge will help the Collective to conduct research, establish and promote self-policing guidelines, and entertain any other relevant activities deemed necessary to deliver on **its vision of supporting the existing resilient and DeFi-aligned protocols and foster an ecosystem where protocol builders have increased incentives to walk the path of sturdiness, immutability, and resilience**.
 

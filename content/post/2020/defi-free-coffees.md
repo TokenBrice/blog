@@ -4,6 +4,7 @@ description: >-
   Thanks to Decentralised Finance, many new opportunities emerge to generate a
   passive income. I'm sharing some clues to help you start.
 date: '2020-02-20T14:53:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical]
 tags: [DeFi, RealT, Compound, DAI]
 image: /img/2020/freecoffees/cover.png

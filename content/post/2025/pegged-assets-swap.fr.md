@@ -1,10 +1,12 @@
 ---
 title: "Les guerres des swaps sur les actifs pegged"
-description: "Et si l'incitation constante n'était pas la meilleure façon de maintenir la liquidité, en particulier pour les actifs pegged ? Dans cet article, j'explore l'impact de la liquidité alimentée par la dette pour les swaps d'actifs pegged."
+description: "Analyse de la liquidite alimentee par la dette pour les swaps d actifs pegged, au-dela des incentives permanentes."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
+series: pegged-assets
+series_order: 2
 url: pegged-assets-swap
 difficulty: "expert"
 ---
@@ -31,7 +33,7 @@ D'un autre côté, notez la distribution de liquidité StableSwap, affichée en 
 
 ## La révolution StableSwap pour les swaps d'actifs pegged (2020)
 
-Une fois que StableSwap fut disponible, la liquidité des stablecoins a rapidement migré vers cette solution, car elle était significativement plus efficace (on parle d'améliorations >100x en efficacité par rapport à UNIv2). C'était **la première instance en direct de liquidité concentrée vue sur le mainnet, avant UNIv3**. Les deux sont difficiles à comparer, car UNIv3 est beaucoup plus flexible, tandis que Curve-StableSwap est plus spécialisé ; cependant, il faut rendre à César ce qui est à César. En plus de l'efficacité accrue, Curve a fourni un modèle d'incitation - veCRV+émissions CRV, qui a été [couvert plusieurs fois sur ce blog déjà](https://tokenbrice.xyz/crv-wars/).
+Une fois que StableSwap fut disponible, la liquidité des Stablecoins a rapidement migré vers cette solution, car elle était significativement plus efficace (on parle d'améliorations >100x en efficacité par rapport à UNIv2). C'était **la première instance en direct de liquidité concentrée vue sur le mainnet, avant UNIv3**. Les deux sont difficiles à comparer, car UNIv3 est beaucoup plus flexible, tandis que Curve-StableSwap est plus spécialisé ; cependant, il faut rendre à César ce qui est à César. En plus de l'efficacité accrue, Curve a fourni un modèle d'incitation - veCRV+émissions CRV, qui a été [couvert plusieurs fois sur ce blog déjà](https://tokenbrice.xyz/crv-wars/).
 
 Les incitations sont critiques pour les paires d'actifs pegged, car elles ont des caractéristiques spécifiques :
 
@@ -86,7 +88,7 @@ Vous ne le voyez pas encore ? Rappelez-vous ce qui suit :
 
 Maintenant, pour vous donner une image précise de tout le paysage des swaps d'actifs pegged, je dois mentionner un autre projet pas encore en ligne, mais prometteur : [0xOrb](https://orbswap.org/). La promesse est simple : **StableSwap, mais avec n actifs, n pouvant aller jusqu'à 1000**.
 
-Ainsi, pour les stablecoins, vous pourriez imaginer un méga-pool bien approvisionné en USDC et USDT, qui ensuite intègre des stablecoins « alternatifs » et leur offre une grande liquidité contre les majors. L'approche a du mérite pour la longue traîne des actifs pegged, mais je ne vois pas de tels pools dominer le volume principal (USDC<>USDT ou cbBTC<>wBTC).
+Ainsi, pour les Stablecoins, vous pourriez imaginer un méga-pool bien approvisionné en USDC et USDT, qui ensuite intègre des Stablecoins « alternatifs » et leur offre une grande liquidité contre les majors. L'approche a du mérite pour la longue traîne des actifs pegged, mais je ne vois pas de tels pools dominer le volume principal (USDC<>USDT ou cbBTC<>wBTC).
 
 En plus de cela, de tels pools pourraient être inter-chaînes, bien que je pense que l'avantage ici est absolument marginal, voire **défavorable** (⇒ augmente les risques et la complexité de l'infrastructure sans avantages), **puisque l'USDC et l'USDT sont de plus en plus transférables 1:1 rapidement entre les chaînes grâce à des produits comme [CCTP](https://www.circle.com/cross-chain-transfer-protocol)**.
 
@@ -100,7 +102,7 @@ Les DEX qui génèrent la majeure partie de leur volume et de leurs frais grâce
 
 ### Curve : fin de partie à moins de changements majeurs
 
-Les swaps d'actifs pegged restent cruciaux pour Curve, toujours considéré comme le foyer de la liquidité des stablecoins. En effet, il y a eu des tentatives pour capturer du volume volatile avec CryptoSwap, mais cela s'est avéré infructueux.
+Les swaps d'actifs pegged restent cruciaux pour Curve, toujours considéré comme le foyer de la liquidité des Stablecoins. En effet, il y a eu des tentatives pour capturer du volume volatile avec CryptoSwap, mais cela s'est avéré infructueux.
 
 Avec l'arrivée de Fluid et EulerSwap, je pense que Curve est le DEX qui a le plus à perdre, et je ne le vois pas maintenir un volume important (ils ont déjà été éjectés du top 10 il y a un moment) à moins que des changements significatifs ne se produisent :
 

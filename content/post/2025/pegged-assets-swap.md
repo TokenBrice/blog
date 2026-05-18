@@ -1,10 +1,12 @@
 ---
 title: "The Pegged Asset Swap Wars"
-description: "What if constant incentivization is not the best way to sustain liquidity, particularly for pegged assets? Exploring the impact of debt-driven liquidity for pegged assets swap."
+description: "A look at debt-driven liquidity for pegged asset swaps, and why constant incentives may not be the best way to sustain deep stable liquidity."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
+series: pegged-assets
+series_order: 2
 url: pegged-assets-swap
 difficulty: "expert"
 ---
@@ -52,7 +54,7 @@ However, the customizable concentration delivered tangible benefits, especially 
 
 
 
-* wstETH/ETH (correlated, but wstETH is up-only against ETH), 
+* wstETH/ETH (correlated, but wstETH is up-only against ETH),
 * LUSD/USDC (correlated, but LUSD can slightly over/under-peg)
 
 In such cases, **UNIv3 concentrated liquidity enabled LPs to replicate a distribution similar in efficiency to Curve’s Stableswap but adjusted to the tokens' price action particularities**, and it translated once again into massive efficiency gains. However, the final unlock (as of the current industry state) was only to come years later with the arrival of Fluid DEX and EulerSwap.
@@ -89,7 +91,7 @@ Not seeing it yet? Remember the following:
 
 Now, to give you an accurate picture of the whole pegged asset swap landscape, I must mention another project not live yet, but promising: [0xOrb](https://orbswap.org/). The promise is simple: **stableswap, but with n assets, n being able to go up to 1000**.
 
-So for instance, for stablecoin, you could picture a mega-pool well supplied in USDC and USDT, that then proceed to onboard “alternative” stablecoins and offer them great liquidity against the majors. The approach has merits for the long-tail of pegged assets, but I don’t see such pools dominating the core volume (USDC&lt;>USDT or cbBTC&lt;>wBTC).
+So for instance, for stablecoin, you could picture a mega-pool well supplied in USDC and USDT, that then proceed to onboard “alternative” Stablecoins and offer them great liquidity against the majors. The approach has merits for the long-tail of pegged assets, but I don’t see such pools dominating the core volume (USDC&lt;>USDT or cbBTC&lt;>wBTC).
 
 On top of that, such pools could be cross-chain, although I think the benefit here is absolutely marginal if not **detrimental** (⇒ increases the risks and complexity of the infra for no benefits), **since USDC and USDT are increasingly bridgable 1:1 fast between chains thanks to product like [CCTP](https://www.circle.com/cross-chain-transfer-protocol)**.
 

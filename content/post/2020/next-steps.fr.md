@@ -1,6 +1,6 @@
 ---
 title: "La prochaine étape de mon aventure : un engagement encore plus communautaire"
-description: "Il est temps pour moi de rendre mon tablier de Community Manager de Monolith afin de consacrer une plus grande partie de mon temps à soutenir des efforts à vocation plus communautaire."
+description: "Pourquoi je quitte mon role de community manager chez Monolith pour consacrer plus de temps aux initiatives communautaires DeFi."
 date: '2020-10-15T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
@@ -20,9 +20,9 @@ Alors que je passe au chapitre suivant de mon implication dans l'espace DeFi, je
 
 Il y a environ 36 mois, j'ai finalement lu le whitepaper d'Ethereum après avoir survolé l'espace de la crypto pendant un certain temps et j'ai été instantanément accroché. À l'époque, mes préoccupations étaient très éloignées de la finance décentralisée : j'ai vu dans Ethereum la première solution crédible pour une coordination à grache échelle, c'est-à-dire la première épée capable de tuer la bête Moloch [^1].
 
-À l'époque, je travaillais encore dans une start-up tech sans rapport avec la blockchain, mais je me suis vite retrouvé à passer 6 à 10 heures par jour à me renseigner, à rencontrer et à discuter avec de nombreuses personnes qui partageaient mes intérêts. Peu de temps après, j'ai commencé à contribuer à divers projets.
+À l'époque, je travaillais encore dans une start-up tech sans rapport avec la Blockchain, mais je me suis vite retrouvé à passer 6 à 10 heures par jour à me renseigner, à rencontrer et à discuter avec de nombreuses personnes qui partageaient mes intérêts. Peu de temps après, j'ai commencé à contribuer à divers projets.
 
-En juillet 2018, **j'ai réalisé qu'il était temps de prendre le taureau par les cornes et de me frayer un chemin dans l'espace** - je n'allais pas travailler pour une énième autre startup tech. J'ai commencé ce que j'envisageais être un média collaboratif à l'époque : EcoCrypto. C'était un peu le précurseur de ce blog, et vous pouvez [trouver les articles réédités ici](https://tokenbrice.xyz/fr/tags/ecocrypto/).
+En juillet 2018, **j'ai réalisé qu'il était temps de prendre le taureau par les cornes et de me frayer un chemin dans l'espace** - je n'allais pas travailler pour une énième autre startup tech. J'ai commencé ce que j'envisageais être un média collaboratif à l'époque : EcoCrypto. C'était un peu le précurseur de ce blog, et vous pouvez [trouver les articles réédités ici](https://tokenbrice.xyz/fr/tags/EcoCrypto/).
 
 ### EcoCrypto : Le précurseur ?
 
@@ -33,13 +33,13 @@ Malgré l'audience modeste, EcoCrypto m'a beaucoup appris. Pour me renforcer et 
 
 ### Devenir pro
 
-Me sentant plus confiant dans ma compréhension de l'espace et dans mes capacités à gérer des tâches liées au marketing pour un projet de crypto, j'ai commencé à postuler auprès d'entreprises sélectionnées et j'ai passé des entretiens. 
+Me sentant plus confiant dans ma compréhension de l'espace et dans mes capacités à gérer des tâches liées au marketing pour un projet de crypto, j'ai commencé à postuler auprès d'entreprises sélectionnées et j'ai passé des entretiens.
 
 J'ai échangé avec quelques acteurs importants de l'espace, mais j'ai été **déçu par leur culture interne et leur inertie** : toute ma vie, j'ai travaillé dans des startups, donc je n'ai pas beaucoup de patience pour ces jeux-là. A peu près au même moment, j'ai trouvé Monolith (TokenCard à l'époque) et j'ai commencé à discuter avec l'équipe du rôle de community manager.
 
 J'étais enthousiasmé par le produit et ses ambitions, en particulier son aspect centré sur l'utilisateur. Jusqu'alors, j'ai travaillé avec des produits assez éloignés des gens ordinaires. À l'inverse, avec Monolith **je pouvais avoir une vision à long terme où même mes parents utilisaient le produit auquel je contribuais** (et [c'est arrivé](https://twitter.com/TokenBrice/status/1290979491561472000)) !
 
-Malgré ma maigre expérience professionnelle dans le domaine de la blockchain (ce n'était pas vraiment banal en 2018), Monolith a pris un pari sur moi et j'ai commencé en avril 2018 en tant que Community Manager.
+Malgré ma maigre expérience professionnelle dans le domaine de la Blockchain (ce n'était pas vraiment banal en 2018), Monolith a pris un pari sur moi et j'ai commencé en avril 2018 en tant que Community Manager.
 
 ### Communautés >> Marques
 
@@ -47,7 +47,7 @@ J'ai tellement appris dans ce rôle ! Ce que j'ai le plus aimé, c'est que j'ét
 
 Je sais que c'est idiot, mais Osaka m'a époustouflé. Avant cela, je ressentais l'énergie et l'ambition de l'espace. En y allant, je l'ai vu personnellement, et c'était autre chose. Cela a renforcé ma confiance dans l'impact qu'Ethereum pourrait avoir sur le monde.
 
-C'est aussi à cette époque que j'ai rencontré [Mounir](https://twitter.com/mounibec) et [Arthur](https://twitter.com/arthurmicoulet), et ensemble nous avons créé DeFi France : la participation à notre premier événement nous a époustouflés, avec 90 personnes dans la salle pour un événement organisé en quelques jours ! 
+C'est aussi à cette époque que j'ai rencontré [Mounir](https://twitter.com/mounibec) et [Arthur](https://twitter.com/arthurmicoulet), et ensemble nous avons créé DeFi France : la participation à notre premier événement nous a époustouflés, avec 90 personnes dans la salle pour un événement organisé en quelques jours !
 
 {{< youtube 6rgt-bygKNo >}}
 
@@ -59,7 +59,7 @@ Je pense que c'est précisément à ce moment-là que j'ai été frappé par une
 
 ### Participation de la communauté à DeFi
 
-Cela m'a pris un certain temps, mais il est maintenant temps de poursuivre enfin cette réflexion. Alors que je quitte mon rôle au sein de Monolith, **j'aimerais utiliser ce temps supplémentaire pour faire un travail plus axé sur la communauté**. 
+Cela m'a pris un certain temps, mais il est maintenant temps de poursuivre enfin cette réflexion. Alors que je quitte mon rôle au sein de Monolith, **j'aimerais utiliser ce temps supplémentaire pour faire un travail plus axé sur la communauté**.
 
 Heureusement pour moi, le temps était tout ce dont j'avais besoin et il y a beaucoup de travail à faire ! En effet, en un an, DeFi France s'est considérablement développé pour devenir le groupe de base DeFi le plus actif en Europe avec maintenant près de 2 000 membres parlant français sur Telegram.
 
@@ -71,11 +71,11 @@ J'écris beaucoup de contenu sur DeFi pour différentes entreprises, mais parfoi
 
 Mes idéaux ? Assez simples : Je pense que **fournir un média honnête est extrêmement difficile s'il faut faire des profits, alors pourquoi ne pas les sortir de l'équation ?**
 
-Donc, sur ce blog, je refuse tous les messages sponsorisés ou les activités promotionnelles. Tous les articles sont écrits parce que je veux le faire. J'ai également pris un soin tout particulier à rendre ce blog aussi respectueux de la vie privée que possible : la bonne nouvelle, avec un blog gratuit sans publicité, c'est que je n'aurais de toute façon aucune utilisation de vos données, alors n'en recueillons pas (mais votre IP anonymisée pour les statistiques des articles). 
+Donc, sur ce blog, je refuse tous les messages sponsorisés ou les activités promotionnelles. Tous les articles sont écrits parce que je veux le faire. J'ai également pris un soin tout particulier à rendre ce blog aussi respectueux de la vie privée que possible : la bonne nouvelle, avec un blog gratuit sans publicité, c'est que je n'aurais de toute façon aucune utilisation de vos données, alors n'en recueillons pas (mais votre IP anonymisée pour les statistiques des articles).
 
 Enfin, j'utilise une infrastructure où le contenu vit dans un dépôt public GitHub : pour les non-geek, **cela signifie que chaque changement effectué sur tokenbrice.xyz est [documenté publiquement ici](https://github.com/TokenBrice/blog/commits/master)**.
 
-Il y a des frais liés au blog, principalement le temps passé à écrire et à faire des recherches, ainsi que les illustrations occasionnelles lorsque j'ai l'impression que mes graphiques de couverture PPT ne suffisent pas à rendre justice à l'article. Pourtant, je ne compte pas les heures passées avec ce blog, j'aime le mettre à jour. 
+Il y a des frais liés au blog, principalement le temps passé à écrire et à faire des recherches, ainsi que les illustrations occasionnelles lorsque j'ai l'impression que mes graphiques de couverture PPT ne suffisent pas à rendre justice à l'article. Pourtant, je ne compte pas les heures passées avec ce blog, j'aime le mettre à jour.
 
 **Si vous appréciez mon travail, vous pouvez contribuer au [Gitcoin grants](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr) pour le soutenir.**
 
@@ -85,7 +85,7 @@ Vous pouvez en savoir plus sur l'approche de ce blog dans [cet article détailla
 
 Peu après la création de DeFi France, nous avons réalisé que quelque chose d'important était en train d'arriver. Avec un minimum d'efforts, le groupe grandissait rapidement et l'énergie qui s'y trouvait était incroyable (et l'est toujours !). Enfin, je pense que nous avons eu une idée de ce que la croissance d'une "communauté organique" nous a fait ressentir.
 
-Plusieurs choses ont aidé ce travail, l'une des principales étant la langue : Le DeFi est déjà tellement confuse, alors pourquoi ne pas en parler dans notre langue maternelle pour faciliter les choses ? Au début de la discussion, nous avons pu constater **l'excitation de discuter du sujet en français** ! Il s'est avéré qu'il y avait déjà beaucoup de Français dans l'espace DeFi, tout ce dont nous avions besoin était un endroit pour se rassembler et se rencontrer. 
+Plusieurs choses ont aidé ce travail, l'une des principales étant la langue : Le DeFi est déjà tellement confuse, alors pourquoi ne pas en parler dans notre langue maternelle pour faciliter les choses ? Au début de la discussion, nous avons pu constater **l'excitation de discuter du sujet en français** ! Il s'est avéré qu'il y avait déjà beaucoup de Français dans l'espace DeFi, tout ce dont nous avions besoin était un endroit pour se rassembler et se rencontrer.
 
 En plus de la composante linguistique, l'autre clé du succès de DeFi France réside dans sa communauté. Le groupe Telegram et les réunions mensuelles ont un succès incroyable sur un point essentiel : **assurer que les incroyables contributeurs français de l'espace DeFi restent accessibles à tout le monde**, même à quelqu'un qui n'est pas présent dans l'espace. Chaque mois, il y a un lieu de rencontre où l'on peut venir, apprendre des gens engagés dans l'espace, et rencontrer des gens (maintenant à distance : putain de covid).
 
@@ -107,7 +107,7 @@ Le projet a démarré il y a quelques mois et avance bien ! Nous avons franchi l
 
 #### BanklessFR
 
-J'ai mis BanklessFR juste en avant dernier, parce que je ne veux pas voler la vedette ici. Commerçons pas attribuer : **BanklessFR n'existe que grâce au travail précis et soutenu de Jon qui est le directeur de la rédaction et le principal traducteur.** 
+J'ai mis BanklessFR juste en avant dernier, parce que je ne veux pas voler la vedette ici. Commerçons pas attribuer : **BanklessFR n'existe que grâce au travail précis et soutenu de Jon qui est le directeur de la rédaction et le principal traducteur.**
 
 Retour à l'histoire de BanklessFR : J'ai pris contact avec Ryan un jour pour lui parler de ma vie bankless (j'ai à peine touché à un produit financier non-DeFi de toute ma vie) et surprise ! il était enthousiaste - cela s'est traduit par un article : [Comment DeFi peut payer vos déjeuners](https://bankless.substack.com/p/how-defi-can-pay-for-your-lunches)
 

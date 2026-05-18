@@ -1,10 +1,11 @@
 ---
 title: "🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens interposés
 "
-description: "On analyse la course à l'accumulation des CRV avec le lancement de Convex pour comprendre le concept de flywheel en DeFi : des protocoles qui évoluent en synergie grâce à leur tokenomics."
+description: "Analyse de Convex, CRV et des flywheels DeFi pour comprendre comment tokenomics et protocoles peuvent se renforcer mutuellement."
 date: '2021-06-08T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX, Yield]
-tags: [DeFi, Ethereum, DeFi, Money Markets, Liquity, Curve Finance, CRV, Polygon, Convex, CVX, Yearn Finance]
+tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, Polygon, Convex, CVX, Yearn]
 toc: true
 tocNum: true
 url: defi-flywheel
@@ -18,9 +19,9 @@ En DeFi, outre les caractéristiques techniques il faut aussi être fin sociolog
 
 L'émergence des programmes d'incitations de liquidité (liquidity mining) l'année dernière a démontré qu'un jeu de règles approprié peut mettre des quantités colossales de capital en mouvement. La question est désormais de savoir le faire à bon escient, c'est-à-dire en étant conscient des enjeux **sur le long terme.**
 
-En effet, le liquidity mining par lui-même n'attire à priori que des **dépôts mercenaires et opportunistes**. En soit, le liquidity mining est davantage un outil qui sert à faire connaître un projet qu'à sa pérennisation. 
+En effet, le liquidity mining par lui-même n'attire à priori que des **dépôts mercenaires et opportunistes**. En soit, le liquidity mining est davantage un outil qui sert à faire connaître un projet qu'à sa pérennisation.
 
-Durer en DeFi, c'est une affaire de tokenomics : c'est-à-dire les mécaniques des tokens natifs des protocoles. **La tokenomics, c'est en quelque sorte le gameplay d'un protocole DeFi**. 
+Durer en DeFi, c'est une affaire de tokenomics : c'est-à-dire les mécaniques des tokens natifs des protocoles. **La tokenomics, c'est en quelque sorte le gameplay d'un protocole DeFi**.
 
 Vous le savez sans doute, je suis un grand admirateur du modèle CRV. Ça tombe à pic, puisque le jeu autour du token CRV n'a jamais été aussi vif que ces dernières semaines. Certains parlent même de #lockening pour décrire **la course à l'accumulation de VeCRV** à laquelle se livrent Convex, Yearn et StakeDAO.
 
@@ -142,7 +143,7 @@ Je vous propose donc de finir avec une flywheel théorique maison. À ma connais
 L'équation de base est simple :
 
 1. Il y a une forte demande pour des **produits "passifs ETH"** - des produits qui développent des stratégies sur ETH en vue d'accumuler des ETH.
-2. Pour se faire, une des options est d'emprunter des stablecoins en utilisant les ETH comme collatéral. Les stablecoins peuvent ainsi produire un rendement supplémentaire.
+2. Pour se faire, une des options est d'emprunter des Stablecoins en utilisant les ETH comme collatéral. Les Stablecoins peuvent ainsi produire un rendement supplémentaire.
 3. Pour cette stratégie, Liquity serait **la plateforme de prédilection sans contestation possible**. En effet, le coût d'emprunt y est le plus bas du marché (presque 12x moins cher que Maker sur une année) et les opportunités de rendement sur le stablecoin LUSD ne manquent pas.
 
 ![protocole-x-liquity](/img/2021/defi-flywheel/protocole-x-liquity.png "Exemple d'un protocole flywheel construit sur Liquity (fictif pour l'instant)")
@@ -153,7 +154,7 @@ Le protocole X en question proposerait ainsi **un produit passif de rendement su
 
 Des engagements longue durée permettent également de **développer une stratégie sur les LQTY farmés par les LUSD.** Ainsi en engageant des ETH pendant un an dans le protocole par exemple, l'utilisateur accumulera un droit sur une portion des LQTY farmés par l'ensemble du protocole, et donc un droit, à vie, aux LUSD et ETH qu'ils génèrent. La synergie du protocole avec Liquity ainsi que les rendements long-terme sont maximisés si le protocole X ne vend aucun LQTY, comme c'est le cas dans le concept proposé ci-dessus.
 
-J'espère que cet article vous aidera à mieux comprendre ce qu'il s'est joué avec Convex, Yearn et Curve ces dernières semaines et utiliser les leçons tirées de cet épisode pour identifier les prochaines opportunités similaires. 
+J'espère que cet article vous aidera à mieux comprendre ce qu'il s'est joué avec Convex, Yearn et Curve ces dernières semaines et utiliser les leçons tirées de cet épisode pour identifier les prochaines opportunités similaires.
 
 Ce qui est chouette avec les différents mécanismes d'incitation, c'est qu'ils précèdent l'action. En game theory, il n'y a pas de certitudes, mais certains comportements sont quasiment mécaniques - pour qui comprend réellement les incitations et leurs enjeux. C'est à vous de jouer !
 

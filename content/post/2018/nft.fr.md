@@ -69,13 +69,13 @@ Pour ceux qui étaient trop jeunes ou vieux pour les cartes Pokémons, c'est le 
 
 ### La fongibilité version crypto
 
-La plupart des cryptos que vous connaissez à l'heure actuelle sont considérées fongibles (⬇️ voir plus bas) : un Bitcoin en vaut un autre et les deux sont interchangeables. Idem pour Ethereum et tout ce que vous trouverez sur Coinmarketcap.  
+La plupart des cryptos que vous connaissez à l'heure actuelle sont considérées fongibles (⬇️ voir plus bas) : un Bitcoin en vaut un autre et les deux sont interchangeables. Idem pour Ethereum et tout ce que vous trouverez sur Coinmarketcap.
 
 
 _Étant donné que l'historique des transactions de la plupart des cryptomonnaies est publique, celles qui ont été impliquées dans des activités illégales sont parfois repérées et bloquées sur les services d'échange. Ainsi, avoir un historique de transaction publique rend la fongibilité totale impossible. Les seules monnaies totalement fongibles sont celles se concentrent sur la protection de la vie privée, comme Monero où l'historique des transactions est secret._
 
 
-Ce qui va nous intéresser aujourd'hui, ce sont les tokens non fongibles. Il y a eu plusieurs tentatives, dès 2013, pour créer des tokens non fongibles sans trop de succès. Ce qui a changé la donne, c'est un nouveau standard Ethereum, le ERC-721 qui permet la création de «  cryptocollectibles »  (barbarisme tout droit venu de l'anglais). Ce sont des biens uniques ayant leur propres propriétés tout en partagent un standard commun - essentiellement l'équivalent **des cartes Pokémon sur la blockchain.**
+Ce qui va nous intéresser aujourd'hui, ce sont les tokens non fongibles. Il y a eu plusieurs tentatives, dès 2013, pour créer des tokens non fongibles sans trop de succès. Ce qui a changé la donne, c'est un nouveau standard Ethereum, le ERC-721 qui permet la création de «  cryptocollectibles »  (barbarisme tout droit venu de l'anglais). Ce sont des biens uniques ayant leur propres propriétés tout en partagent un standard commun - essentiellement l'équivalent **des cartes Pokémon sur la Blockchain.**
 
 **[📑 Cet article explore ce qui est fait avec les NFTs pour des fins communautaires ou artistiques.](https://tokenbrice.xyz/fr/nft-cas-d'utilisation/)**
 
@@ -169,12 +169,12 @@ Les biens non fongibles sont en plein essor, et Ethereum mène la charge. Le mie
 Gods Unchained
 
 *   [Gods Unchained ](https://godsunchained.com/): On a utilisé les jeux de cartes pour introduire le concept de non fongibilité plus haut, on les retrouve logiquement ici. GodsUnchained est l'un des plus connus et s'appuie sur le standard ERC-721. Les bénéfices par rapport aux jeux de carte classiques (comme Hearthstone) sont nombreux : immutabilité des cartes après la phase de beta (fini les nerfs surprises), transparence quant à la rareté de chaque type de carte, traçabilité des possesseurs précédents de chaque carte... L'accent est mis sur l'eSport avec un premier championnat du monde début 2019.
-*   [Decentraland ](https://decentraland.org/): Imaginez Minecraft, en réalité virtuelle, avec des mécanismes basés sur la blockchain pour gérer les titres de propriété : bienvenue dans le futur ! Une fois possesseur d'une parcelle, libre aux utilisateurs d'y créer/développer l'expérience de leur choix (grâce au SDK) ; ils pourront ensuite en contrôler l'accès à leur guise, et donc le faire payer s'ils le souhaitent. Decentraland est une expérience humaine et sociale à l'échelle mondiale. Elle sera assurément pleine de surprises !
+*   [Decentraland ](https://decentraland.org/): Imaginez Minecraft, en réalité virtuelle, avec des mécanismes basés sur la Blockchain pour gérer les titres de propriété : bienvenue dans le futur ! Une fois possesseur d'une parcelle, libre aux utilisateurs d'y créer/développer l'expérience de leur choix (grâce au SDK) ; ils pourront ensuite en contrôler l'accès à leur guise, et donc le faire payer s'ils le souhaitent. Decentraland est une expérience humaine et sociale à l'échelle mondiale. Elle sera assurément pleine de surprises !
 
 ![A creature of Augmentors](/img/2018/nft/augmentors.png)
 Une créature dans Augmentors
 
-*   [Augmentors](https://www.augmentorsgame.com/) : On parlait de Pokémons en début d'article, mais quid de Pokémo GO ? Augmentors jeu combine réalité augmentée et blockchain pour proposer un jeu où les NFTs permettent à chacun de posséder réellement ses créatures et de les échanger à sa guise.
+*   [Augmentors](https://www.augmentorsgame.com/) : On parlait de Pokémons en début d'article, mais quid de Pokémo GO ? Augmentors jeu combine réalité augmentée et Blockchain pour proposer un jeu où les NFTs permettent à chacun de posséder réellement ses créatures et de les échanger à sa guise.
 
 Il pourrait être tentant de sous-estimer les NFTs, de les voir comme un truc pour gamins ou barbus collectionneur de cartes. Néanmoins c'est tout l'inverse : les CryptoKitties l'ont montré, les NFTs comptent parmi les meilleurs chevaux de Troie pour faire rentrer la décentralisation dans les mœurs de la population générale.
 

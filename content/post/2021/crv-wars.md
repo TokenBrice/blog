@@ -2,8 +2,11 @@
 title: "⚔ CRV wars: understanding the race to accumulate power to influence Curve Finance protocol"
 description: "A concise guide to tracking the CRV accumulation race by any means possible including vote buying (Bribes) and evaluating the Curve strategies of DeFi protocols"
 date: '2021-09-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Curve Finance, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
+tags: [DeFi, Ethereum, Curve, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
+series: crv-wars
+series_order: 1
 toc: true
 tocNum: true
 url: crv-wars
@@ -208,7 +211,7 @@ Nevertheless, the team clearly did not take the time to analyze the situation an
 
 After creating an anemic sdveCRV/CRV pool via the Curve Factory, a vote was taken to add the gauge control (= CRV incentives). Not only was [the vote overwhelmingly rejected](https://dao.curve.fi/vote/ownership/83) but also **the sdveCRV pool is set up in an aberrant and absolutely dangerous way for depositors.**
 
-Indeed, the factor A (amplification parameter) of the pool is [set to 200](https://curve.fi/factory/34) --- a correct value for assets that follow the same peg, but **delusional if one asset is worth twice the other**. 
+Indeed, the factor A (amplification parameter) of the pool is [set to 200](https://curve.fi/factory/34) --- a correct value for assets that follow the same peg, but **delusional if one asset is worth twice the other**.
 
 ![sdvecrv-mim-crv-pools](/img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Curve pools (factory) sdvecrv and MIM comparison")
 
@@ -216,7 +219,7 @@ To give you an idea, even the aforementioned absolutely massive MIM pool (7000x 
 
 Thus, not only did Stake fail to solve its liquidity problem on sdveCRV, but **such a course of events clearly raises the question of the Stake team's understanding of the intricacies of Curve/Convex**.
 
-To get sdveCRV back to peg and develop its liquidity, they will need a lot of effort, in order: 
+To get sdveCRV back to peg and develop its liquidity, they will need a lot of effort, in order:
 
 * Review the pool parameters
 * Direct incentives in SDT on the pool?
@@ -235,11 +238,11 @@ This situation does not really make sense: **Sushi is far from optimal for optim
 
 Without any incentive from Convex or Curve, the pool has already seen significant volume flow through DEX aggregators like Paraswap. Soon, there was a vote to add the CRV gauge which passed - and this pool is now farmable directly through Convex.
 
-The pool remains slightly unbalanced (there is so much to do with CRVs, which are becoming increasingly rare...) but it already brings a competitive alternative to the SLP cvxCRV/CRV pool with still a fraction of its liquidity. 
+The pool remains slightly unbalanced (there is so much to do with CRVs, which are becoming increasingly rare...) but it already brings a competitive alternative to the SLP cvxCRV/CRV pool with still a fraction of its liquidity.
 
 ## Conclusion
 
-I hope this article has helped you grasp the intricacies of the extended veCRV ecosystem and their implications for the CRV battle. 
+I hope this article has helped you grasp the intricacies of the extended veCRV ecosystem and their implications for the CRV battle.
 
 Before concluding, I would like to remind you that as usual the alpha is in the nooks and crannies. If you have understood this article, feel free to export the liquidity strategy analysis to other projects: I am sure it will be instructive!
 

@@ -9,7 +9,7 @@ difficulty: "beginner"
 url: dff-meetup-2
 ---
 
-DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien. 
+DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien.
 
 Aujourd'hui, nous avons de plus en plus de monde rejoignant le groupe, avec des niveaux d'expertise et des attentes différents. Il convient donc de structurer notre présence pour la rendre plus accessible.
 En ces temps d'emballement sur les marchés, les medias cryptos se montrent de plus en plus cupides, et toujours plus partiaux. La force de DeFi France est sa dimension organique, et nous entendons le démontrer. Nous sommes convaincus que la communauté peut produire des contenus de très haute qualité, dépassant très largement le niveau des publications professionelles françaises.
@@ -18,7 +18,7 @@ En ces temps d'emballement sur les marchés, les medias cryptos se montrent de p
 
 DeFi France 2.0 est donc une charge militante ! De notre coté, on vous promet une chose : on se mobilise, on rameute et on va occuper le terrain. Nous allons impliquer beaucoup plus de personnes, densifier et diversifier notre offre. Le but du plan 2.0 est de faire émerger de nouveaux visages au sein de DeFi France pour se renouveler.
 
-Quand à vous - comme toujours vous êtes la clef du succès de toute notre aventure : 
+Quand à vous - comme toujours vous êtes la clef du succès de toute notre aventure :
 
 ### Comment contribuer ?
 
@@ -86,7 +86,7 @@ Les meetups continuent et évoluent. On pensait marquer un grand coup pour le re
 
 **_Étendre/migrer la page [DeFi France](https://tokenbrice.xyz/fr/defifrance/) existante pour inclure toutes les initiatives et faciliter 1/ la prise en main pour les nouveaux, 2/ suivre les évents + productions pour les habitués_**
 
-Cette proposition est plus une promesse personelle, quelque chose qui aurait dû être fait depuis longtemps. 
+Cette proposition est plus une promesse personelle, quelque chose qui aurait dû être fait depuis longtemps.
 
 
 ### DFP #X - RIEN NE TE PARLE ? SUGGÈRE LE TIEN

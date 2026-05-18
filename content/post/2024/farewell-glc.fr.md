@@ -3,7 +3,8 @@ title: "Adieu au GHO Liquidity Committee et réflexions sur l'essor du novlangue
 description: "J'ai démissionné du GHO Liquidity Committee - cet article explique pourquoi et réfléchit sur les défis principaux observés dans la gouvernance et les comités DeFi"
 date: '2024-02-08T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
+tags: [DeFi, Ethereum, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
+image: /img/2024/farewell-glc/gov-typing.png
 url: farewell-glc
 difficulty: "intermediate"
 ---
@@ -32,14 +33,14 @@ Illustrons : en matière de liquidité, le mot dans la rue est que Curve est le 
 Alors, que se passe-t-il là ? Pas mal de choses, et ce n'est pas le plat principal du menu d'aujourd'hui, juste l'entrée, donc je vais passer rapidement là-dessus :
 
 1. **La plupart des projets n'ont personne en interne compétent en liquidité**, donc ils font souvent des gaspillages aléatoires comme ceux-ci. De nombreux projets DeFi proéminents reconnus pour les jeux de liquidité sont de gros dépensiers mais pas exactement astucieux.
-2. **Les Curve Wars sont un meme depuis un moment** : il n'y a pas eu de véritables nouveaux entrants dans ces guerres depuis des lustres – simplement parce que ce n'est pas rentable financièrement pour la plupart des joueurs, surtout ceux sans liens avec l'écosystème Curve. De plus, les structures de liquidité disponibles sur Curve (stableswap et V2) sont sous-optimales par rapport à Uniswap ou Maverick pour de nombreux types très courants de tokens DeFi – LSDs, LRTs, stablecoins loosely peggés, et wrappers liquides. Vous pouvez marquer en toute confiance tout protocole produisant un token de ce type construisant sa liquidité principalement sur Curve comme inapte en gestion de liquidité.
+2. **Les Curve Wars sont un meme depuis un moment** : il n'y a pas eu de véritables nouveaux entrants dans ces guerres depuis des lustres – simplement parce que ce n'est pas rentable financièrement pour la plupart des joueurs, surtout ceux sans liens avec l'écosystème Curve. De plus, les structures de liquidité disponibles sur Curve (stableswap et V2) sont sous-optimales par rapport à Uniswap ou Maverick pour de nombreux types très courants de tokens DeFi – LSDs, LRTs, Stablecoins loosely peggés, et wrappers liquides. Vous pouvez marquer en toute confiance tout protocole produisant un token de ce type construisant sa liquidité principalement sur Curve comme inapte en gestion de liquidité.
 3. Ce qui reste sont des **« protocoles insiders »**, des équipes construisant sur l'écosystème Curve qui possèdent généralement des positions veCRV/vlCVX importantes, leur permettant de récupérer une grande part de leurs pots-de-vin (1. Posséder veCRV/vlCVX ⇒ 2. Poster un pot-de-vin ⇒ 3. Voter sur le pool que vous venez de corrompre ⇒ 4. Collecter et répéter au round suivant). Cette tactique manipule la perception publique en faisant croire que de l'argent réel est dépensé dans ces guerres Curve. Certains de ces insiders sont à l'origine des protocoles externes, comme Inverse ou Alchemix, qui ont décidé d'embrasser l'anneau du lama pour le meilleur et pour le pire.
 
 Ne me croyez pas sur parole ; regardez simplement les top dépensiers : Frax, Convex, Alchemix, CLever (Aladin), Prisma, Conic, Inverse, etc. **Pour faciliter la visualisation, voici les top dépensiers du dernier round, classés par montant dépensé, avec les protocoles insiders surlignés en rouge** :
 
 ![curve-bribes](img/2024/farewell-glc/top-bribers.png "Top pots-de-vin dans l'époque Votium CRV 62")
 
-Assez avec Curve, les lamas me détestent déjà ; je voulais juste souligner l'exemple de Curve, « le roi de la liquidité », étant un lieu peu efficace pour construire et maintenir la liquidité. Curve, « faiseur ou briseur de stablecoins », en tant que DEX avec des structures de liquidité sous-optimales pour la plupart des pools de stablecoins : **Le novlangue est arrivé en DeFi, et la perception publique/les mots utilisés sont souvent complètement en désaccord avec la réalité observable onchain**. Malheureusement, un pattern similaire a été observé avec le GHO Liquidity Committee, le sujet d'aujourd'hui, donc passons-y.
+Assez avec Curve, les lamas me détestent déjà ; je voulais juste souligner l'exemple de Curve, « le roi de la liquidité », étant un lieu peu efficace pour construire et maintenir la liquidité. Curve, « faiseur ou briseur de Stablecoins », en tant que DEX avec des structures de liquidité sous-optimales pour la plupart des pools de Stablecoins : **Le novlangue est arrivé en DeFi, et la perception publique/les mots utilisés sont souvent complètement en désaccord avec la réalité observable onchain**. Malheureusement, un pattern similaire a été observé avec le GHO Liquidity Committee, le sujet d'aujourd'hui, donc passons-y.
 
 ## Le cas du GHO Liquidity Committee
 

@@ -5,7 +5,8 @@ description: >-
 date: '2018-07-01T10:36:03.488Z'
 categories: [Projects]
 tags: [EcoCrypto]
-url: ecocrypto-manifesto
+image: /img/2020/next-steps/ecocrypto-logo.png
+url: EcoCrypto-manifesto
 difficulty: "beginner"
 ---
 
@@ -36,7 +37,7 @@ Youngsters and oldsters alike from all around the world finally have the chance 
 
 #### Centralized and Proprietary Services Minimization
 
-We will avoid using proprietary and centralized services as much as possible. Ultimately, our goal is using none. We won’t be using Google Analytics for obvious reasons. We won’t implement that freakin’ Facebook pixel or any other tracking pixel. To still have exploitable stats on our website, we implemented [Matomo (ex Piwit)](https://matomo.org/), the self-hosted open analytics solution. We will always prefer an open-source solution if available. The blog is currently powered by WordPress and hosted on SiteGround for its first year. Feel free to reach out if you can figure a more privacy-conscious solution covering our needs.
+We will avoid using proprietary and centralized services as much as possible. Ultimately, our goal is using none. We won’t be using Google Analytics for obvious reasons. We won’t implement that freakin’ Facebook pixel or any other tracking pixel. To still have exploitable stats on our website, we implemented [Matomo (ex Piwit)](https://matomo.org/), the self-hosted open analytics solution. We will always prefer an open-source solution if available. The blog is currently powered by WordPress and hosted on SiteGround for its first year. Feel free to reach out if you can figure a more Privacy-conscious solution covering our needs.
 
 #### No sympathy for the devils
 
@@ -44,11 +45,11 @@ While EcoCrypto will need awareness at first, we don’t want compromise with ou
 
 #### Writers Privacy
 
-Disclosing your identity is not a requirement to become a writer. Simply send us an email at <redaction@ecocrypto.fr> from a disposable email address. As long as the content is sound and follows the principles stated in this document, we really don’t give a fuck about your name.
+Disclosing your identity is not a requirement to become a writer. Simply send us an email at <redaction@EcoCrypto.fr> from a disposable email address. As long as the content is sound and follows the principles stated in this document, we really don’t give a fuck about your name.
 
 #### Manifesto’s Accountability
 
-If any change is made to this document, the previous versions will be kept online and accessible. You will be able to find [all the editions of the manifesto here](https://ecocrypto.fr/manifeste/), as well as a changelog detailing the main changes and their motivations. Feel free to suggest any solution that could allow us to prove the untempering of the manifesto and that wouldn’t require you to trust us.
+If any change is made to this document, the previous versions will be kept online and accessible. You will be able to find [all the editions of the manifesto here](https://EcoCrypto.fr/manifeste/), as well as a changelog detailing the main changes and their motivations. Feel free to suggest any solution that could allow us to prove the untempering of the manifesto and that wouldn’t require you to trust us.
 
 #### Our articles are meant to spread
 

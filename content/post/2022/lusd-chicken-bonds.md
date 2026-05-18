@@ -2,8 +2,11 @@
 title: "Chicken Bonds: an NFT-powered hatching factory to beat DeFi’s liquidity chicken and egg problem"
 description: "How can a new experiment pioneering dynamic NFTs evolving based on the user's interactions help Liquity grow LUSD's liquidity and reduce the stablecoin premium?"
 date: '2022-10-17T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Yield]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
+series: stablecoin-arc
+series_order: 5
 toc: true
 tocNum: true
 url: lusd-chicken-bonds
@@ -11,7 +14,7 @@ image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 difficulty: "beginner"
 ---
 
-Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**. 
+Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**.
 
 Although Chicken Bonds are building on top of existing protocols, such as Yearn, b.protocol, or Curve, it also instigates novel mechanisms, the two leading ones being:
 
@@ -26,7 +29,7 @@ This post explores how [LUSD Chicken Bonds](https://chickenbonds.org) work and w
 
 One of the most misunderstood dimensions of Liquity’s model is **LUSD pegging mechanisms**. Indeed, while LUSD has strong guarantees (hard peg) than LUSD>$1.00 (redemption) and &lt;$1.10 (110% minimal collateralization ratio), in between the equilibrium is more based on a **game of incentives (soft peg)**.
 
-In the wake of [OFAC’s crackdown on Tornado Cash](https://blog.chainalysis.com/reports/tornado-cash-sanctions-challenges/) back in August, there has been an **increased demand** for censorship-resistant stablecoins. Yet, the **appetite for leverage is low** because of the deteriorated market conditions. Thus, will the demand for LUSD is high, a significant share of its adopters purchase it at a premium on the markets instead of minting it by leveraging their ETH. 
+In the wake of [OFAC’s crackdown on Tornado Cash](https://blog.chainalysis.com/reports/tornado-cash-sanctions-challenges/) back in August, there has been an **increased demand** for censorship-resistant Stablecoins. Yet, the **appetite for leverage is low** because of the deteriorated market conditions. Thus, will the demand for LUSD is high, a significant share of its adopters purchase it at a premium on the markets instead of minting it by leveraging their ETH.
 
 Both factors have converged over the last few months, leading to a **sustained price premium** for LUSD, often trading in the $1.02 to $1.04 range. I won’t expand too deeply into this topic here, as it has already been covered on Liquity’s blog: **[The Premium of Resiliency](https://www.liquity.org/blog/the-premium-of-resiliency)**. However, let’s discuss **the impact of the premium on Liquity users** since it has real consequences.
 
@@ -40,7 +43,7 @@ The impact of a price premium on borrowers **can be positive or negative**, depe
 It is worth noting that borrowers who preserve a 100% LUSD exposure do not suffer any consequence from its price fluctuations since they do not need to buy it back when repaying their debt.
 {{< /notice >}}
 
-However, having LUSD fluctuates can also benefit informed users that can arbitrage the discrepancies: 
+However, having LUSD fluctuates can also benefit informed users that can arbitrage the discrepancies:
 
 1. **Profit margin** | The more LUSD goes over $1, the more profitable it is to take an arbitrage trade on its peg: at $1.01, shorting the peg returns $0.01 per LUSD if successful. At $1.09, the profits jump to $0.09 per LUSD.
 2. **Likelihood of profits being realized** | The farther away LUSD strands from $1.00, and the closer it gets to $1.10, the more likely it is for peg arbitrageurs to outweigh LUSD buyers and thus push the price downward.
@@ -57,18 +60,18 @@ Thus, LUSD’s fluctuations in the $1.00-1.10 range add **an additional layer of
 
 To solve LUSD’s liquidity challenge, the Liquity team worked on a **brand new protocol**, first tried out with LUSD: Chicken Bonds. If successful, the model will be generalized with an LQTY instance. As a final step, the generalized model could be made ready to be harnessed by any DAO with the Chicken Bond Factory.
 
-Last Tuesday, [the LUSD Chicken Bonds were released](https://www.chickenbonds.org/blog-posts/chicken-bonds-is-live), offering **a novel proposition merging DeFi and NFTs' elements providing optimized yield-producing opportunities to LUSD holders**. It will also fuel the growth of LUSD’s liquidity on the LUSD/3CRV Curve pool. 
+Last Tuesday, [the LUSD Chicken Bonds were released](https://www.chickenbonds.org/blog-posts/chicken-bonds-is-live), offering **a novel proposition merging DeFi and NFTs' elements providing optimized yield-producing opportunities to LUSD holders**. It will also fuel the growth of LUSD’s liquidity on the LUSD/3CRV Curve pool.
 
-There are two protagonists interacting with Chicken Bonds: 
+There are two protagonists interacting with Chicken Bonds:
 
-1. **The depositors (users)** enjoy a gamified experience delivering **amplified and auto-compounded yields on LUSD**. 
-2. **The deployer (protocol)** sets up an **engine enabling the sustained growth and capture of liquidity on its token** while actively engaging its holders.[^deployer]  
+1. **The depositors (users)** enjoy a gamified experience delivering **amplified and auto-compounded yields on LUSD**.
+2. **The deployer (protocol)** sets up an **engine enabling the sustained growth and capture of liquidity on its token** while actively engaging its holders.[^deployer]
 
 ### So, what exactly are Chicken Bonds?
 
 As a consequence, Chicken Bonds fulfill the function of different types of products depending on the perspective. **For users, Chicken Bonds act like an NFT-enhanced yield optimizer**. Bonding enables them to maximize their returns on LUSD by optimizing the compounding frequency and amplifying the existing yields. From their perspective, they could compare the utility of Chicken Bonds to the one already delivered by a protocol like Yearn, lacking the NFT element. It maximizes and streamlines yield-producing activities on LUSD.
 
-From the deployer (protocol) perspective, Chicken Bonds are a **cost-effective solution to develop the available liquidity on their token**. Alternative solutions to achieve a similar goal would include liquidity mining, POL-capture solution like Olympus Pro, acquiring liquidity-driver tokens (CRV, BAL, VELO, etc.)[^liquidity-driver-tokens], or bribing liquidity-driver token owner votes. 
+From the deployer (protocol) perspective, Chicken Bonds are a **cost-effective solution to develop the available liquidity on their token**. Alternative solutions to achieve a similar goal would include liquidity mining, POL-capture solution like Olympus Pro, acquiring liquidity-driver tokens (CRV, BAL, VELO, etc.)[^liquidity-driver-tokens], or bribing liquidity-driver token owner votes.
 
 ![chicken-egg](/img/2022/lusd-chicken-bonds/chicken-egg.png)
 
@@ -85,8 +88,8 @@ To explain the model of LUSD Chicken Bonds, let’s jump to the depositor perspe
   Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.gif">View GIF</a>
 </video>
 
-**To create a bond, a user deposits LUSD. In exchange, he receives an 🥚 Egg NFT representing his deposit**. The NFT contains the claim on the underlying bonded LUSD and can be sold or transferred. From thereon, the user has two mutually exclusive options that will transform his NFT too: 
-- 🐔 Chicken In 
+**To create a bond, a user deposits LUSD. In exchange, he receives an 🥚 Egg NFT representing his deposit**. The NFT contains the claim on the underlying bonded LUSD and can be sold or transferred. From thereon, the user has two mutually exclusive options that will transform his NFT too:
+- 🐔 Chicken In
 - or 🐣 Chicken Out.
 
 The Egg NFTs have four attributes: a card, egg, and background colors rolled randomly, and an egg-size scaling with the deposited LUSD amount.
@@ -112,7 +115,7 @@ The NFT collection also harnesses interesting mechanisms, such as the **affinity
 
 ![egg-variants-overview](/img/2022/lusd-chicken-bonds/egg-variants-overview.png "Overview of existing eggs on x2y2")
 
-All NFTs are part of the same collection and can be traded on the usual venues, such as [LooksRare](https://looksrare.org/collections/0xa8384862219188a8f03c144953Cf21fc124029Ee/) or [X2Y2](https://x2y2.io/collection/lusd-chicken-bonds-nfts/items). Chicken Bonds is a generative NFT collection as much as a DeFi protocol: both are intrinsically tied together. The art and initial generation script were made by the NFT artist [Luchador](https://luchadores.io), creator of the eponym game. 
+All NFTs are part of the same collection and can be traded on the usual venues, such as [LooksRare](https://looksrare.org/collections/0xa8384862219188a8f03c144953Cf21fc124029Ee/) or [X2Y2](https://x2y2.io/collection/lusd-chicken-bonds-nfts/items). Chicken Bonds is a generative NFT collection as much as a DeFi protocol: both are intrinsically tied together. The art and initial generation script were made by the NFT artist [Luchador](https://luchadores.io), creator of the eponym game.
 
 {{< notice info >}}
 For an explainer of all the attributes and modifiers taken into account, read the article dedicated to the NFTs on the Chicken Bonds blog:<br>
@@ -145,7 +148,7 @@ If you are not familiar with how Liquity works yet, you can get up to date with 
 
 Instead of plugging into the yield sources directly, middleware solutions are used to provide various benefits.
 
-1. Deposits into the Liquity Stability Pool are managed using the **[B.Protocol vault](https://bprotocol.org/)**, which handles the frequent harvesting and compounding of ETH and LQTY obtained into LUSD. 
+1. Deposits into the Liquity Stability Pool are managed using the **[B.Protocol vault](https://bprotocol.org/)**, which handles the frequent harvesting and compounding of ETH and LQTY obtained into LUSD.
 2. For the Curve Pool, the **[Yearn vault](https://yearn.finance/#/vault/0x5fA5B62c8AF877CB37031e0a3B2f34A78e3C56A6)** is used to optimize the yields obtained by harnessing Convex.
 
 So far, so good: streamlined solutions to simple problems. Yet, the yield amplification, one of the biggest feats of the Chicken Bonds, is a bit trickier.
@@ -170,7 +173,7 @@ The **yield produced by the Pending and Permanent buckets is redirected to the R
 
 ![lusd-cb-user-timeline](/img/2022/lusd-chicken-bonds/lusd-cb-user-timeline.png "Bonder-centric timeline of LUSD Chicken Bonds")
 
-### Bootstrap period & next steps 
+### Bootstrap period & next steps
 
 LUSD Chicken Bonds have been live since Tuesday, October 4, 2022. During the first two weeks of the system, until Oct 19, it’s still in the **bootstrap period**: Chicken Ins are not possible, which means the supply of bLUSD is still 0. It means that all the LUSD are in the Pending Bucket, except the yield already produced that is being redirected to the Reserve Bucket.
 
@@ -224,13 +227,13 @@ This liquidity structure ensures that **50% of the deposits made into the bLUSD 
 
 As the Chicken Bonds mature, the bLUSD/LUSD-3CRV pool could get its own gauge, securing additional CRV (and potentially CVX) rewards on top of the existing ones.
 
-This model was chosen over a bLUSD/LUSD pool which would have required a sizeable amount of LUSD without contributing to LUSD’s liquidity against other stablecoins. The main downside of the chosen model is that it makes the deposit and withdrawal interactions more complex for liquidity providers. However, this concern will be lifted with **zaps enabling the supply and withdrawal from LUSD and bLUSD directly**.
+This model was chosen over a bLUSD/LUSD pool which would have required a sizeable amount of LUSD without contributing to LUSD’s liquidity against other Stablecoins. The main downside of the chosen model is that it makes the deposit and withdrawal interactions more complex for liquidity providers. However, this concern will be lifted with **zaps enabling the supply and withdrawal from LUSD and bLUSD directly**.
 
 Depending on the bLUSD/LUSD-3CRV pool equilibrium, supplying it single-sided with either LUSD or bLUSD can result in a premium:
 - If there is too much LUSD-3CRV in the pool, providing bLUSD rebalances the pool and results in a premium.
 - If there is too much bLUSD in the pool, then supplying it with LUSD will result in a **double premium** as both the bLUSD/LUSD-3CRV and LUSD/3CRV pools are rebalanced in the process.
 
-Learn more about the bLUSD/LUSD-3CRV in the dedicated article on the Chicken Bonds blog [**Game of Chickens!** The end of the bootstrap period and what it means for bLUSD](https://www.chickenbonds.org/blog-posts/game-of-chickens-the-end-of-the-bootstrap-period-and-what-it-means-for-blusd) 
+Learn more about the bLUSD/LUSD-3CRV in the dedicated article on the Chicken Bonds blog [**Game of Chickens!** The end of the bootstrap period and what it means for bLUSD](https://www.chickenbonds.org/blog-posts/game-of-chickens-the-end-of-the-bootstrap-period-and-what-it-means-for-blusd)
 
 ## Additional solutions to grow LUSD’s liquidity
 
@@ -240,7 +243,7 @@ Chicken Bonds are the main ongoing initiatives attempting to grow LUSD’s liqui
 
 The Liquity treasury entered the Curve Wars months ago, acquiring and locking CRV tokens to support the bLUSD/LUSD-3CRV gauge. To maximize the impact of the LUSD Chicken Bonds, **a bribing campaign** is also synchronized with the release to increase the CRV APY of LUSD/3CRV pool depositors.
 
-Using Warden Quest, LQTY tokens are awarded to veCRV and vlCVX voters on the LUSD/3CRV CRV gauge. The bribing campaign secured **5M veCRV votes (\~1% of total votes)**, which led to a sharp increase in the APY, bringing it to parity with a basic Stability Pool deposit. 
+Using Warden Quest, LQTY tokens are awarded to veCRV and vlCVX voters on the LUSD/3CRV CRV gauge. The bribing campaign secured **5M veCRV votes (\~1% of total votes)**, which led to a sharp increase in the APY, bringing it to parity with a basic Stability Pool deposit.
 
 {{< notice info >}}
 Are you out of the loop with the Curve Wars? Start here: <br>
@@ -267,7 +270,7 @@ Thus, the LUCY pool should be interesting to grow LUSD’s available liquidity, 
 
 1. The **swap fees APR**, collected on exchanges involving the pool’s tokens.
 2. The **base yield** on each pool token (Aave’s yield for USDC/USDT/DAI, Stability Pool’s yields for LUSD)
-3. [If a BAL gauge is obtained] the **LP token BAL staking APY**, which can be further increased with gauge votes and bribing campaigns. 
+3. [If a BAL gauge is obtained] the **LP token BAL staking APY**, which can be further increased with gauge votes and bribing campaigns.
 
 This novel pool will mark the arrival of LUSD on Balancer, diversifying its liquidity source further, as the main venues to trade LUSD are currently Curve, Uniswap, and Velodrome on Optimism.
 
@@ -306,6 +309,6 @@ I hope this article piqued your curiosity about Chicken Bonds and LUSD. If that�
 To keep track of what is happening with the Chicken Bonds, you'll find stats in the UI of the front-end you use. Else, a community member has made a neat [Chicken Bonds Dune Analytics](https://dune.com/nemoventures/chicken-bonds) that will be helpful. For further discussion, you can [join the Liquity Discord](https://discord.gg/WQMEcgHBpc), where a brand new section is dedicated to Chicken Bonds.
 
 [^deployer]: Right now, Liquity is the only "deployer." This concept will gain relevance with the Generalized version of the Chicken Bonds, where other protocols can harness the model to benefit their tokens.
-[^liquidity-driver-tokens]: Liquidity driver tokens enable direct incentives to selected liquidity or lending pairs, usually through a locking system. They allow projects which lock them to direct emissions to pools of their choosing to attract liquidity. 
+[^liquidity-driver-tokens]: Liquidity driver tokens enable direct incentives to selected liquidity or lending pairs, usually through a locking system. They allow projects which lock them to direct emissions to pools of their choosing to attract liquidity.
 [^ve-CRV-NFT-attribute-bribe]: As far as I know, this is the first time this kind of bribery has been attempted on Curve voters (or any other DeFi token holders): NFT-attribute-based bribes; here we come!
 [^blusd-lusd3pool]: The pool is [already live](https://curve.fi/factory-crypto/134) but cannot be supplied before the end of the bootstrap period.

@@ -1,7 +1,8 @@
 ---
 title: "🗿 Pourquoi, comment et qu'est-ce que le RAI ?"
-description: "Le RAI de Reflexer est un nouveau type d'actif encore unique en DeFi. Il s'appuie également sur un système avec un plan de dégouvernance. Voyons donc comment s'extraire tout à la fois des risques liés aux monnaies fiduciaires, à la centralisation et à la confiance."
+description: "Analyse de RAI, de Reflexer et de la de-governance pour reduire les risques de monnaie fiat, centralisation et confiance."
 date: '2021-09-01T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -35,9 +36,9 @@ Si vous n'avez pas le temps d'explorer le concept approfondi avec les articles p
 
 ### Le piège du wUSDC
 
-J'utilise le terme "wrapped USDC" (wUSDC) pour expliciter une situation fréquente dans les stablecoins alternatifs : il permet de décrire de manière concise et appropriée **les solutions qui utilisent essentiellement USDC comme collatéral**, un stablecoin de confiance garanti par un organisme central (Circle).
+J'utilise le terme "wrapped USDC" (wUSDC) pour expliciter une situation fréquente dans les Stablecoins alternatifs : il permet de décrire de manière concise et appropriée **les solutions qui utilisent essentiellement USDC comme collatéral**, un stablecoin de confiance garanti par un organisme central (Circle).
 
-Dans une situation telle, inutile d'aller plus loin, même pas besoin d'analyser les détails du système : puisque leur collatéral principal peut être gelé ou saisi, **les stablecoins produits de cette manière ne peuvent pas être considérés comme décentralisés ou trustless.** 
+Dans une situation telle, inutile d'aller plus loin, même pas besoin d'analyser les détails du système : puisque leur collatéral principal peut être gelé ou saisi, **les Stablecoins produits de cette manière ne peuvent pas être considérés comme décentralisés ou trustless.**
 
 Cette famille connaît étonnamment de nombreux adeptes, les principaux étant Maker et Frax.
 
@@ -51,7 +52,7 @@ Avec [Maker (DAI)](https://www.defiscan.info/protocols/sky/ethereum), **environ 
 
 Note : le PSM est un module qui permet d'éviter les envolées de prix sur le DAI au-dessus du dollar. Les DAI mintés par le PSM le sont donc de manière automatique lorsque cela est nécessaire.
 
-La première version de Maker, avant la mise à jour Multi Collateral DAI ([MCD - 18/11/2019](https://medium.com/@MakerDAO/update-the-road-to-multi-collateral-dai-2d4c48092270)) utilisait uniquement ETH comme collatéral et présentait ainsi des garanties bien plus crédibles. Ça n'est plus du tout le cas aujourd'hui. 
+La première version de Maker, avant la mise à jour Multi Collateral DAI ([MCD - 18/11/2019](https://medium.com/@MakerDAO/update-the-road-to-multi-collateral-dai-2d4c48092270)) utilisait uniquement ETH comme collatéral et présentait ainsi des garanties bien plus crédibles. Ça n'est plus du tout le cas aujourd'hui.
 
 🙏 Je remercie néanmoins chaleureusement l'équipe MakerDAO pour leurs très nombreuses contributions à l'écosystème - le modèle Maker MCD est même utilisé comme base par Reflexer !
 
@@ -68,7 +69,7 @@ Frax tout comme DAI développent une myriade d'approches intéressantes, mais co
 
 ### Existe-t-il des alternatives pertinentes à RAI?
 
-À ce jour, RAI est un actif unique sans alternative comparable. Cependant il existe des systèmes qui partagent certaines caractéristiques avec RAI, comme **l'utilisation exclusive d'ETH comme collatéral**. 
+À ce jour, RAI est un actif unique sans alternative comparable. Cependant il existe des systèmes qui partagent certaines caractéristiques avec RAI, comme **l'utilisation exclusive d'ETH comme collatéral**.
 
 Ainsi, si vous êtes prêts à vous exposer au dollar, Liquity propose une alternative très pertinente qui a également **le mérite d'être totalement inarrêtable** (ce qui n'est pas encore le cas de RAI) : les contrats n'ont aucune fonction administrative, exactement comme Uniswap V1/V2. Il reste cependant bien sûr les oracles (nécessaires pour un service d'emprunt) et les risques associés.
 
@@ -114,7 +115,7 @@ Une fois ça saisi, je me permets de rappeler que le système par lui-même ne p
 
 Voyons ça concrètement en pratique.
 
-On retrouve ici une logique qui rappelle les [stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-stablecoins/), bien que le produit final du système soit totalement différent.
+On retrouve ici une logique qui rappelle les [Stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-Stablecoins/), bien que le produit final du système soit totalement différent.
 
 
 ### Quand le prix du marché > prix de rédemption
@@ -132,12 +133,12 @@ On commence par cette situation car elle est plus simple à comprendre à mon av
 
 Cette situation est d'autant plus intéressante pour ceux qui ont déjà des safes avec de la capacité disponible : ils s'épargnent une étape du scénario présenté plus haut.
 
-Dans ce scénario, il y a donc une incitation à minter du RAI (->augmentation du supply) et à le revendre sur le marché (->pression baissière) qui permettent de progressivement réduire le prix sur le marché, le faisant ainsi converger vers le prix de rédemption. 
+Dans ce scénario, il y a donc une incitation à minter du RAI (->augmentation du supply) et à le revendre sur le marché (->pression baissière) qui permettent de progressivement réduire le prix sur le marché, le faisant ainsi converger vers le prix de rédemption.
 
 
 ### Quand le prix du marché &lt; prix de rédemption
 
-Dans le cas inverse, le taux de rédemption devient positif, ce qui a pour effet de rendre plus coûteuse la dette déjà existante. Les utilisateurs avec des safes actifs ont ainsi intérêt à rembourser leur dette, ce qui a pour effet de réduire le supply de RAI disponible. 
+Dans le cas inverse, le taux de rédemption devient positif, ce qui a pour effet de rendre plus coûteuse la dette déjà existante. Les utilisateurs avec des safes actifs ont ainsi intérêt à rembourser leur dette, ce qui a pour effet de réduire le supply de RAI disponible.
 
 ![marcheinfredemption](/img/2021/reflexer-rai/marcheinfredemption.png)
 
@@ -155,11 +156,11 @@ Ce taux impacte moins directement les simples possesseurs de RAI, surtout s'ils 
 
 
 
-1. La demande en DAI correspond à (une partie de) la demande pour des stablecoins.
-2. Néanmoins, les DAI sont créés en leverageant de l'ETH, ils dépendent donc du besoin/appétit pour du levier sur ETH, une donnée indépendante de la demande pour des stablecoins qui dépend surtout des conditions générales du marchés (bear ou bull et autres).
+1. La demande en DAI correspond à (une partie de) la demande pour des Stablecoins.
+2. Néanmoins, les DAI sont créés en leverageant de l'ETH, ils dépendent donc du besoin/appétit pour du levier sur ETH, une donnée indépendante de la demande pour des Stablecoins qui dépend surtout des conditions générales du marchés (bear ou bull et autres).
 3. Si la demande est plus forte que l'offre, sur Maker, il n'y a aucun ajustement dynamique. Il faut attendre un vote de la gouvernance (et les délais qui vont avec) afin d'abaisser le Stability Fee. Et c'est pareil dans l'autre sens (offre trop importante).
 
-Ainsi, **l'équilibre entre le côté offre et demande de l'équation est presque impossible à maintenir**, ce qui explique pourquoi le DAI pré-MCD pouvait se retrouver souvent au-dessus de son peg. Maker a résolu ce problème en ajoutant de nombreux types de collatéraux, dont des stablecoins non trustless puis le PSM qui minte automatiquement des DAI depuis USDC quand nécessaire. La solution proposée par Reflexer (ajustement dynamique du taux de rédemption) a le mérite de **résoudre le problème au niveau du système lui-même**, ce qui permet de garder ETH comme seul collatéral.
+Ainsi, **l'équilibre entre le côté offre et demande de l'équation est presque impossible à maintenir**, ce qui explique pourquoi le DAI pré-MCD pouvait se retrouver souvent au-dessus de son peg. Maker a résolu ce problème en ajoutant de nombreux types de collatéraux, dont des Stablecoins non trustless puis le PSM qui minte automatiquement des DAI depuis USDC quand nécessaire. La solution proposée par Reflexer (ajustement dynamique du taux de rédemption) a le mérite de **résoudre le problème au niveau du système lui-même**, ce qui permet de garder ETH comme seul collatéral.
 
 
 ## FLX et le plan “dégouvernance" de RAI
@@ -188,9 +189,9 @@ Maintenant que les bases sont posées sur FLX, discutons un peu plus de ses enje
 
 Le système Reflexer a pour vocation à être "governance-minimized". Cela a commencé dès sa mise en place, puisque des décisions qui chez Maker sont prises par la gouvernance (Stability Fee des vaults) sont automatisées chez Reflexer (PID controller).
 
-La vision est tout simplement d'automatiser tout ce qui peut l'être à terme, une fois le système mature, et de donner les clefs des sous-systèmes qui ne peuvent pas l'être à la communauté des holders de FLX. 
+La vision est tout simplement d'automatiser tout ce qui peut l'être à terme, une fois le système mature, et de donner les clefs des sous-systèmes qui ne peuvent pas l'être à la communauté des holders de FLX.
 
-L'équipe s'est ainsi fixée trois paliers principaux relatifs à cet objectif [détaillés dans l'article de présentation du FLX](https://medium.com/reflexer-labs/introducing-flx-20755214a465). Chaque palier est adossé à une date : 
+L'équipe s'est ainsi fixée trois paliers principaux relatifs à cet objectif [détaillés dans l'article de présentation du FLX](https://medium.com/reflexer-labs/introducing-flx-20755214a465). Chaque palier est adossé à une date :
 
 
 
@@ -217,7 +218,7 @@ RAI est pour l'instant disponible dans 3 pools d'actifs proposants différents n
 
 ### RAI sur Aave
 
-Après avoir ajouté le support pour RAI il y a déjà quelques semaines, Aave a récemment alloué une enveloppe (très modérée) de StkAAVE pour incentiver les emprunts et dépôts sur RAI. Il aura fallu mettre la lumière sur l' une des contradictions principales de la plateforme : Aave est un marché monétaire décentralisé qui utilise (encore) la grande majorité de son budget pour inciter les emprunts/dépôts sur des stablecoins qui ne le sont pas du tout (USDC et USDT).
+Après avoir ajouté le support pour RAI il y a déjà quelques semaines, Aave a récemment alloué une enveloppe (très modérée) de StkAAVE pour incentiver les emprunts et dépôts sur RAI. Il aura fallu mettre la lumière sur l' une des contradictions principales de la plateforme : Aave est un marché monétaire décentralisé qui utilise (encore) la grande majorité de son budget pour inciter les emprunts/dépôts sur des Stablecoins qui ne le sont pas du tout (USDC et USDT).
 
 À noter : pour l'instant **le max LTV de RAI est de 0 : RAI ne peut donc pas servir de collatéral sur Aave**. Pas de discrimination ici, c'est assez standard de la part d'Aave - il s'agit de la procédure "classique" et prudente lors de l'ajout d'un nouveau type de collatéral. La gouvernance peut voter pour augmenter cette valeur.
 

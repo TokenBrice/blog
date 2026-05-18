@@ -4,7 +4,7 @@ description: >-
   Comment comprendre l''évolution de la monnaie jusqu''aux cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
-tags: [bitcoin, currency, money, cryptocurrency, blockchain, ecocrypto]
+tags: [bitcoin, currency, money, cryptocurrency, Blockchain, EcoCrypto]
 image: /img/2018/money101/cover.jpeg
 difficulty: "beginner"
 url: money101
@@ -21,9 +21,9 @@ url: money101
 <span style="font-weight: 400;">Lorsqu’on entend parler de monnaie, on a souvent le droit à une petite fable sympathique et facile à comprendre, qui semblerait presque être « logique » ; elle ressemble à ça :</span>
 
 > <span style="font-weight: 400;">Au début, on avait du troc : mes poulets contre ton blé par exemple. Puis, comme ce système était inefficace, on avait besoin d’un mode d’échange plus standardisé : un bien qui servirait de réserve de valeur. Les métaux précieux étaient les candidats parfaits, les voilà devenue pièces – une forme de monnaie.</span>
-> 
+>
 > <span style="font-weight: 400;">Seulement plus tard la monnaie a évolué pour devenir du papier – toujours un refuge de valeur, mais l’origine de la valeur a changé : là où la pièce d’or tire sa valeur de l’or qui la compose, le billet nécessite une institution qui l’émet et lui «donne » sa valeur en la garantissant d’une manière ou d’une autre.</span>
-> 
+>
 > <span style="font-weight: 400;">Enfin à l’ère d’internet, la monnaie aurait évolué une fois de plus pour devenir « digitale », ce n’est désormais plus que des 0 et des 1 dans un serveur quelque part et ça transite par fibre optique.</span>
 
 <span style="font-weight: 400;">Il faut prendre le temps de déconstruire cette charmante petite histoire qui nous semble pleine de bon sens point par point :</span>
@@ -105,7 +105,7 @@ url: money101
 
 ![fractional-reserve](/img/2018/money101/fractional-reserve.png)
 
-<span style="font-weight: 400;">En bref et très (trop) rapide cela donne ça – une banque centrale crée une base monétaire qui permet aux banques commerciales d’émettre elle-même de la monnaie au travers de prêts. Lors que Bob vient emprunter 10 000€ à la BNP, la BNP ne tape pas dans ses réserves pour créditer son compte. Elle se contente de changer le chiffre associé au compte de Bob pour inclure les 10 000€ prêtés. La confiance dans le protocole bancaire est maintenue grâce à des systèmes de réserves requises correspondant à une partie de l’argent prêté[^6]. Cela nous amène directement au point suivant. 
+<span style="font-weight: 400;">En bref et très (trop) rapide cela donne ça – une banque centrale crée une base monétaire qui permet aux banques commerciales d’émettre elle-même de la monnaie au travers de prêts. Lors que Bob vient emprunter 10 000€ à la BNP, la BNP ne tape pas dans ses réserves pour créditer son compte. Elle se contente de changer le chiffre associé au compte de Bob pour inclure les 10 000€ prêtés. La confiance dans le protocole bancaire est maintenue grâce à des systèmes de réserves requises correspondant à une partie de l’argent prêté[^6]. Cela nous amène directement au point suivant.
 
 ### Le mythe du digital : un livre de comptes sur un serveur reste un livre de comptes
 
@@ -137,7 +137,7 @@ Bientot dans vos wallets
 
 <span style="font-weight: 400;">Cela peut nous sembler un peu léger mais rassurons-nous : nous ne sommes pas les seuls à le penser. Le mouvement des cypherpunks, actifs dès le début des années 80 avait déjà le même sentiment.[^8]
 
-<span style="font-weight: 400;">C’est également ce qui nous a amené au Bitcoin : le système proposé par Satoshi, la blockchain, répond à ce problème – **elle enlève du système la nécessité de faire confiance à des institutions**. En bref l’idée est la suivante : plutôt que de faire confiance à quelques banques pour maintenir les livres des comptes, pourquoi ne pas s’appuyer directement sur nos pairs pour maintenir un livre des comptes publics (=la blockchain) ? Cela implique également des systèmes de chiffrement ainsi que des mécanismes pour atteindre un consensus (afin de maintenir une unique version du livre de comptes), mais ce sera l’objet d’un prochain article.</span>
+<span style="font-weight: 400;">C’est également ce qui nous a amené au Bitcoin : le système proposé par Satoshi, la Blockchain, répond à ce problème – **elle enlève du système la nécessité de faire confiance à des institutions**. En bref l’idée est la suivante : plutôt que de faire confiance à quelques banques pour maintenir les livres des comptes, pourquoi ne pas s’appuyer directement sur nos pairs pour maintenir un livre des comptes publics (=la Blockchain) ? Cela implique également des systèmes de chiffrement ainsi que des mécanismes pour atteindre un consensus (afin de maintenir une unique version du livre de comptes), mais ce sera l’objet d’un prochain article.</span>
 
 #### <span style="font-weight: 400;">Modifier les propriétés mêmes de la monnaie</span>
 
@@ -153,7 +153,7 @@ Bientot dans vos wallets
 
 <span style="font-weight: 400;">J’espère que cet article vous aura apporté une compréhension plus précise des mécanismes monétaires mais surtout une envie de les creuser ! **L’innovation monétaire n’a pas encore vraiment eu lieu**. La bonne nouvelle, c’est qu’avec l’arrivée des cryptomonnaies, il est désormais bien plus aisé de créer de nouvelles monnaies – pratiquement n’importe qui peut le faire, et c’est une très bonne nouvelle ! Cela veut dire que tous les mécanismes alternatifs que nous avons décrits ainsi que bien d’autres encore vont pouvoir être mis en place et testés à grande échelle. Ils le sont déjà : on compte déjà plus de 1500 monnaies différentes qui s’échangent en ligne, et facilement une autre dizaine de milliers plus locales ou confidentielles, développées à des fins privées ou simplement pour expérimenter. Convaincus, vous voulez battre votre propre monnaie ? Voici un petit [guide pour s’initier sans avoir besoin de savoir coder.](https://cryptofr.com/topic/2142/vf-construire-avec-ethereum-1-faire-votre-propre-crypto-monnaie-sans-une-ligne-de-code)</span>
 
-<span style="font-weight: 400;">Au delà de l’apport de la blockchain, on touche peut être là du doigt la plus grande contribution de Satoshi. **En créant le Bitcoin, il a ouvert la voie et a prouvé que créer une nouvelle monnaie n’était pas seulement l’affaire des banques ou des états** : c’est l’affaire des gens normaux – vous, moi, nous, et même votre grand-mère qui n’a toujours pas abandonné son matra. Comme tout changement, cela peut faire peur, mais en y réfléchissant un peu cela prend tout son sens : **qui mieux que les futurs utilisateurs eux-mêmes pourraient concevoir la monnaie la plus adaptée à leurs besoin** ?</span>
+<span style="font-weight: 400;">Au delà de l’apport de la Blockchain, on touche peut être là du doigt la plus grande contribution de Satoshi. **En créant le Bitcoin, il a ouvert la voie et a prouvé que créer une nouvelle monnaie n’était pas seulement l’affaire des banques ou des états** : c’est l’affaire des gens normaux – vous, moi, nous, et même votre grand-mère qui n’a toujours pas abandonné son matra. Comme tout changement, cela peut faire peur, mais en y réfléchissant un peu cela prend tout son sens : **qui mieux que les futurs utilisateurs eux-mêmes pourraient concevoir la monnaie la plus adaptée à leurs besoin** ?</span>
 
 {{< notice tip >}}
 

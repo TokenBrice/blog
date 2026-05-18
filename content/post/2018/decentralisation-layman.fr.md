@@ -5,13 +5,13 @@ description: >-
   décentralisation pour Jean Dupont en 12 minutes.
 date: '2018-07-02T08:31:36.389Z'
 categories: [Analysis]
-tags: [decentralization, blockchain, EcoCrypto]
+tags: [decentralization, Blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 difficulty: "beginner"
 url: decentralization-layman
 ---
 
-Bien que le grand public entende parler de plus en plus de blockchain et cryptomonnaies, les fondements politiques et philosophiques ne sont encore discutés pour l’instant qu’au sein de communautés de passionnés. Je pense que la décentralisation apporte avec elle **un changement de paradigme qui mérite bien plus de couverture médiatique que le cours du bitcoin.**
+Bien que le grand public entende parler de plus en plus de Blockchain et cryptomonnaies, les fondements politiques et philosophiques ne sont encore discutés pour l’instant qu’au sein de communautés de passionnés. Je pense que la décentralisation apporte avec elle **un changement de paradigme qui mérite bien plus de couverture médiatique que le cours du bitcoin.**
 
 Il y a quelques mois, j’ai réalisé que je n’avais pas tout compris à la décentralisation. J’avais cerné la base du concept, mais je n’arrivais pas à envisager **les ramifications sociales et politiques** de celui-ci. Alors j’ai fait mes recherches et il est désormais temps de partager ce que j’en ai compris.
 
@@ -50,8 +50,8 @@ C’est un évidence pour certain, mais c’est un fait à rappeler : la décen
 
 Avant de commencer, voici une infographie intéressante qui vous donne un aperçu du degré de centralisation de différentes industries :
 
-![Merci à Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
-Merci à Lillian Wei, [Source](https://hackernoon.com/blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
+![Merci à Lillian Wei, [Source](https://hackernoon.com/Blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)](/img/2018/decentralisation-layman/industry-landscape.png)
+Merci à Lillian Wei, [Source](https://hackernoon.com/Blockchain-governance-how-decentralized-do-we-need-to-be-799a7988ce84)
 
 Maintenant, on peut passer à la seconde notion indispensable pour bien comprendre notre enjeu : **les différentes dimensions de la décentralisation**.
 
@@ -138,7 +138,7 @@ Overview of the main AWS datacenters location. Source: [AWS](https://aws.amazon
 
 ### DES EFFORTS QUI EN VALENT LA PEINE ?
 
-Maintenant qu’on est au point sur les trois dimensions de la décentralisation, vous vous demandez peut être pourquoi se casser la tête avec tout ça ? C’est vrai que les systèmes décentralisés ont tendance à être complexes et plus difficiles à gérer que des systèmes classiques : ils ont plein d’éléments différents qui les composent, une transparence qui n’est pas un devoir ou un vœu pieud mais un état de fait (blockchain publique), et les grandes décisions nécessitent un consensus.
+Maintenant qu’on est au point sur les trois dimensions de la décentralisation, vous vous demandez peut être pourquoi se casser la tête avec tout ça ? C’est vrai que les systèmes décentralisés ont tendance à être complexes et plus difficiles à gérer que des systèmes classiques : ils ont plein d’éléments différents qui les composent, une transparence qui n’est pas un devoir ou un vœu pieud mais un état de fait (Blockchain publique), et les grandes décisions nécessitent un consensus.
 
 #### Des systèmes efficaces pour faire des calculs ?
 
@@ -194,7 +194,7 @@ L’idée de la résistance à la collusion est d’empêcher un sous-groupe du 
 
 ### Conclusion
 
-La décentralisation est un concept de haut-niveau, mais il est indispensable à cerner pour comprendre l’intérêt de la blockchain. Maintenant que vous êtes des pros, je vous invite à aller plus loin en vous intéressant aux projets décentralisés qui sont en plein développement pour mieux comprendre ce que cela permet de faire :
+La décentralisation est un concept de haut-niveau, mais il est indispensable à cerner pour comprendre l’intérêt de la Blockchain. Maintenant que vous êtes des pros, je vous invite à aller plus loin en vous intéressant aux projets décentralisés qui sont en plein développement pour mieux comprendre ce que cela permet de faire :
 
 *   [Blockchain, gouvernance et énergie?](https://www.youtube.com/watch?v=3FJAhWBPhO4) : Un fascinant échange entre un profil plutôt technique — Remy Bourganel de Brickchain et une personne tout simplement épatante par sa connaissance des dimensions juridiques du sujet couplée à une très bonne compréhension de la technique — Primavera De Filippi. 1h40 à écouter et réécouter!
 *   [Toute la chaine ThinkerView](https://www.youtube.com/channel/UCQgWpmt02UtJkyO32HGUASQ), ça ne traite pas forcément de crypto, mais ça va vous permettre de mieux comprendre tous les domaines que la crypto peut transformer: politique, légal, sécurité, données… Les gars font un travail monstre, n’hésitez pas à leur faire savoir s’ils vous apportent quelque chose.
@@ -206,7 +206,7 @@ _Les contenus cryptos qualitatifs en Français se font rare. Si vous connaissez 
 
 Vous avez peut être raté le virage de l’internet mais cette fois-ci vous arrivez au bon moment : on commence à peine ! **C’est maintenant qu’il faut se renseigner, lire et devenir expert sur le sujet afin d’être à même de reconnaître et saisir les opportunités lorsqu’elles se présenteront.**
 
-J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentralisés à grande échelle.
+J’espère que cet article aura contribué à votre compréhension du changement de paradigme apporté par la Blockchain et les autres livres de compte (ledgers) décentralisés : la possibilité de développer des protocoles décentralisés à grande échelle.
 
 {{< notice tip >}}
 

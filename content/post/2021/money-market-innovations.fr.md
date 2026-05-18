@@ -1,9 +1,12 @@
 ---
 title: "Comprendre les innovations sur les marchés monétaires pour envisager leur avenir"
-description: "Quelles sont les prochaines étapes pour les marchés monétaires ? On aborde différent thèmes avec un projet emblématique : ré-appropriation des liquidations avec Bprotocol, prêts qui se remboursent avec le temps avec Alchemix, et bien plus !"
+description: "Tour des innovations des marches monetaires DeFi: B.Protocol, Alchemix, taux fixes, liquidations et nouveaux designs de pret."
 date: '2021-04-14T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
+tags: [DeFi, Ethereum, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
+series: money-markets
+series_order: 3
 toc: true
 tocNum: false
 url: marche-monetaire-innovations
@@ -15,15 +18,15 @@ Les marchés monétaires comme [Aave](https://www.defiscan.info/protocols/aave/e
 
 Néanmoins, **l'analogie s'arrête immédiatement à la comparaison fonctionnelle**. En effet, la logique sous-jacente des marchés monétaires n'a rien à voir avec le fonctionnement d'une banque. Les marchés monétaires bénéficient de tous les avantages de la DeFi, et notamment la transparence de toutes les opérations ainsi que son accessibilité.
 
-Lorsqu'un utilisateur emprunte sur Aave, **le service n'a pas besoin de connaître son âge ou son identité**: il suffit que les conditions soient remplies, c'est-à-dire que le collatéral apporté soit suffisant par rapport à la somme empruntée. 
+Lorsqu'un utilisateur emprunte sur Aave, **le service n'a pas besoin de connaître son âge ou son identité**: il suffit que les conditions soient remplies, c'est-à-dire que le collatéral apporté soit suffisant par rapport à la somme empruntée.
 
-De la même manière, un utilisateur qui dépose des stablecoins sur Aave pour produire un rendement en les prêtant à d'autres ne fait confiance à personne : il peut vérifier à tout moment quelles adresses empruntent quels montants et **s'assurer ainsi de la solvabilité du système tout entier**. 
+De la même manière, un utilisateur qui dépose des Stablecoins sur Aave pour produire un rendement en les prêtant à d'autres ne fait confiance à personne : il peut vérifier à tout moment quelles adresses empruntent quels montants et **s'assurer ainsi de la solvabilité du système tout entier**.
 
 Cela peut sembler basique pour un DeFian, mais c'est un véritable changement de paradigme. Dans la finance classique, on n'a d'autres choix que de faire confiance à un tiers (auditeur, agence de notation, etc.) pour obtenir cette information - avec le biais qu'on lui connaît.
 
 ---
 
-## Découvrir les marchés monétaires 
+## Découvrir les marchés monétaires
 
 On a déjà beaucoup parlé de marchés monétaires sur ce blog, notamment avec l'article qui propose une méthodologie qualitative pour évaluer leurs risques : **[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/fr/marche-monetaire-risque/)**
 
@@ -74,11 +77,11 @@ L’idée, simple à un haut niveau, est malgré tout très rassurante pour les 
 
 MakerDAO est sans doute le marché monétaire le plus connu, c'est aussi un cas assez particulier. En effet, MakerDAO remplit une fonction double : oui, le service permet l'emprunt tout comme Aave ou Compound, néanmoins **personne ne vous prête quoi que ce soit quand vous empruntez sur Maker - les emprunteurs frappent directement une monnaie (DAI) qui correspond à leur dette.**
 
-Ainsi, tout en permettant l'emprunt, MakerDAO produit également un actif stable, le DAI, indexé sur le dollar. Bien que le DAI ait ses limites, il reste moins centralisé et nécessite moins de confiance que des modèles de stablecoins comme USDC. C'est bien pour cela que le modèle de Maker a été maintes fois repris pour servir de nouvelles fins.
+Ainsi, tout en permettant l'emprunt, MakerDAO produit également un actif stable, le DAI, indexé sur le dollar. Bien que le DAI ait ses limites, il reste moins centralisé et nécessite moins de confiance que des modèles de Stablecoins comme USDC. C'est bien pour cela que le modèle de Maker a été maintes fois repris pour servir de nouvelles fins.
 
 ### Mimo Capital : à bas le dollar, place à l'euro !
 
-Jusqu'à présent, le dollar était la monnaie fiduciaire de référence pour la DeFi. Quasiment tous les projets de stablecoins visent à produire un actif qui suit la valeur du dollar. En outre, c'est également la valeur en dollar des actifs volatils qui est considérée par les systèmes d'emprunt pour déterminer le ratio de collatéralisation, aussi bien sur Maker que Compound ou Aave.
+Jusqu'à présent, le dollar était la monnaie fiduciaire de référence pour la DeFi. Quasiment tous les projets de Stablecoins visent à produire un actif qui suit la valeur du dollar. En outre, c'est également la valeur en dollar des actifs volatils qui est considérée par les systèmes d'emprunt pour déterminer le ratio de collatéralisation, aussi bien sur Maker que Compound ou Aave.
 
 Le dollar étant la monnaie fiat la plus courante et la mieux connue, cela faisait du sens pour commencer mais il est également grand temps d'aller au delà pour répondre aux besoins de tout type d'utilisateur et rendre la DeFi plus accessible.
 
@@ -86,7 +89,7 @@ C'est précisément ce que recherche un projet comme Mimo Capital qui propose **
 
 ![Mimo-Capital-PAR](/img/2021/money-market-innovations/mimo-capital-par.png "Les principales métriques pour PAR, issues du site officiel.")
 
-Mimo n'arrive pas sur une page blanche puisque les stablecoins en Euros commencent à émerger. Outre le PAR de Mimo, il existe l'EURS un stablecoin qui suit un modèle centralisé : chaque EURS en circulation est garanti par un Euro fiat possédé par l'émetteur. Ainsi, **les opportunités de rendement commencent à émerger via des expositions en euros**, avec par exemple la pool sEUR/EURS sur Curve également accessible via des vaults sur StakeDAO ou Harvest Finance par exemple.
+Mimo n'arrive pas sur une page blanche puisque les Stablecoins en Euros commencent à émerger. Outre le PAR de Mimo, il existe l'EURS un stablecoin qui suit un modèle centralisé : chaque EURS en circulation est garanti par un Euro fiat possédé par l'émetteur. Ainsi, **les opportunités de rendement commencent à émerger via des expositions en euros**, avec par exemple la pool sEUR/EURS sur Curve également accessible via des vaults sur StakeDAO ou Harvest Finance par exemple.
 
 L'arrivée d'**un système comme Mimo permet aux investisseurs européens d'envisager un circuit dont la devise de référence serait l'Euro**. En utilisant leur ETH ou wBTC comme collatéral, ils peuvent emprunter du PAR (stablecoin €) et le rendre productif via, pour l'instant, deux pools de liquidité sur Balancer, mais à terme, sans doute plus.
 
@@ -100,7 +103,7 @@ Ici, il n'y a pas de prix de référence. Le prix du RAI (actif produit par les 
 
 ![prix du reflexer RAI](/img/2021/money-market-innovations/raiprice.png "Évolution du prix du RAI depuis son lancement")
 
-Différents paramètres du système Reflexer s'ajustent pour **faire converger les deux prix à terme, ou en tout cas les maintenir dans une fourchette étroite**. Bien que cette approche soit bien plus ardue à prendre en main pour l'utilisateur, elle est totalement dissociée de toute corrélation avec le dollar (ou tout autre monnaie fiduciaire), ce qui a de la valeur en soi. 
+Différents paramètres du système Reflexer s'ajustent pour **faire converger les deux prix à terme, ou en tout cas les maintenir dans une fourchette étroite**. Bien que cette approche soit bien plus ardue à prendre en main pour l'utilisateur, elle est totalement dissociée de toute corrélation avec le dollar (ou tout autre monnaie fiduciaire), ce qui a de la valeur en soi.
 
 Pour mieux comprendre Reflexer, je vous invite à consulter mon précédent article sur les actifs à vocation stable :
 
@@ -110,12 +113,12 @@ Pour mieux comprendre Reflexer, je vous invite à consulter mon précédent arti
 
 ## Nouvelle génération de marchés monétaires
 
-Jusqu'à présent, nous avons considéré des innovations construites sur les marchés monétaires principaux existants ou s'inspirant directement de leurs modèles. Il existe également toute une jeune nouvelle vague de marchés monétaires qui explorent des approches différentes. 
+Jusqu'à présent, nous avons considéré des innovations construites sur les marchés monétaires principaux existants ou s'inspirant directement de leurs modèles. Il existe également toute une jeune nouvelle vague de marchés monétaires qui explorent des approches différentes.
 
 Je vous propose donc de considérer deux derniers projets qui apportent de véritables changements fondamentaux.
 
 
-### Alchemix : actifs productifs en collatéral ? 
+### Alchemix : actifs productifs en collatéral ?
 
 Je ne pouvais pas commencer cette section par un projet autre que Alchemix ! L'idée de ce projet est aussi simple que puissante :
 
@@ -127,7 +130,7 @@ Je ne pouvais pas commencer cette section par un projet autre que Alchemix ! L'i
 
 Alchemix s'est lancé en acceptant le yDAI (DAI déposé sur Yearn Finance) comme collatéral. Les déposants peuvent emprunter **jusqu'à 50% de la valeur de leur yDAI en AlUSD**, un autre stablecoin dollar. Leur collatéral n'est pas à risque, et l'emprunt se rembourse tout seul grâce aux intérêts générés par le yDAI : il faut compter environ 3 ans avec le taux de rendement actuel.
 
-Alchemix est très vite devenu un service très prisé, notamment pour **procéder à des achats conséquents sans pour autant dépenser de crypto**, ce n'est qu'une affaire de patience. Prenons un exemple. 
+Alchemix est très vite devenu un service très prisé, notamment pour **procéder à des achats conséquents sans pour autant dépenser de crypto**, ce n'est qu'une affaire de patience. Prenons un exemple.
 
 Voici Bob, un fermier DeFi qui a bien travaillé : il souhaite désormais profiter des fruits de son labeur. Il veut mobiliser $50 000 pour s'acheter une voiture. Plutôt que de prélever directement $50 000 sur ses actifs, Bob peut aboutir au même résultat sans rien dépenser grâce à Alchemix :
 
@@ -158,7 +161,7 @@ Liquity innove également du côté des frais puisque **les emprunts se font san
 
 Sur Liquity au contraire, il n'y a pas de stability fee. À la place, les utilisateurs paient **un frais unique et immédiat lors de l'emprunt**. Ce frais dépend du "base rate" qui est gouverné par le protocole directement. Il est actuellement à 0.5%.
 
-Sur Liquity, ceux qui déposent des ETH pour frapper des LUSD peuvent ensuite les déployer dans la Stability Pool (LUSD) ou la paire LUSD/ETH pour une rémunération en LQTY – le token natif du service.[^LQTY] Les LQTY peuvent ensuite être stakés pour **obtenir une part des LUSD payés au protocole lors de la contraction d'un prêt** ainsi que les frais de rédemption (ETH ↔ LUSD). 
+Sur Liquity, ceux qui déposent des ETH pour frapper des LUSD peuvent ensuite les déployer dans la Stability Pool (LUSD) ou la paire LUSD/ETH pour une rémunération en LQTY – le token natif du service.[^LQTY] Les LQTY peuvent ensuite être stakés pour **obtenir une part des LUSD payés au protocole lors de la contraction d'un prêt** ainsi que les frais de rédemption (ETH ↔ LUSD).
 
 {{< notice note >}}
 Liquity est une plateforme dite " governance mimized"  — LQTY n'est donc pas un token de gouvernance.
@@ -172,7 +175,7 @@ Enfin, Liquity innove également en termes de décentralisation puisque **l'inte
 
 J'espère que cette découverte des dernières innovations sur les marchés monétaires aura été instructive pour vous. Je suis ravi de voir l'offre se développer et se densifier pour couvrir des besoins toujours plus variés. Les marchés monétaires sont des éléments essentiels de la DeFi, avec la croissance de l'espace ils sont appelés à devenir de plus en plus prépondérants.
 
-Pour finir, permettez moi de vous rappeler qu'outre les fonctionnalités, **la gestion du risque est l'élément essentiel qui différencie les différents marchés monétaires**. Avant de commencer à déployer des sommes conséquentes sur ceux-ci, je vous invite à vous familiariser avec les risques associés. Ça tombe bien, j'ai écrit ce qui reste à ce jour **la synthèse la plus exhaustive et compréhensible pour comprendre les risques encourus au niveau des marchés monétaires**, je vous invite à la lire : 
+Pour finir, permettez moi de vous rappeler qu'outre les fonctionnalités, **la gestion du risque est l'élément essentiel qui différencie les différents marchés monétaires**. Avant de commencer à déployer des sommes conséquentes sur ceux-ci, je vous invite à vous familiariser avec les risques associés. Ça tombe bien, j'ai écrit ce qui reste à ce jour **la synthèse la plus exhaustive et compréhensible pour comprendre les risques encourus au niveau des marchés monétaires**, je vous invite à la lire :
 
 **[De l'évaluation du risque sur les marchés monétaires en finance décentralisée](https://tokenbrice.xyz/fr/marche-monetaire-risque/)**
 

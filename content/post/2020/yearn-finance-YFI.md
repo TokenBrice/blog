@@ -2,14 +2,17 @@
 title: "YearnFinance - DeFi on autopilot?"
 description: "Yearn Finance V2 is just a few weeks old, yet it is already one of the most influential releases of the year for DeFi - let’s unpack what happened, and why it matters."
 date: '2020-08-11T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Lending, Leveraging, Yearn Finance]
+tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Leveraging, Yearn]
+series: yearn
+series_order: 1
 image: /img/2020/yearn-finance-YFI/wifeys.jpg
 difficulty: "beginner"
 url: yearn-finance
 ---
 
-A few weeks ago, Yearn v2 release and the launch of the YFI token (pronounced "Waifu") shook decentralised finance. Indeed, the whole recipe was there: Yearn is like a robo advisor, it helps you save and grow a capital - obviously one of the most thought after use cases. 
+A few weeks ago, Yearn v2 release and the launch of the YFI token (pronounced "Waifu") shook decentralised finance. Indeed, the whole recipe was there: Yearn is like a robo advisor, it helps you save and grow a capital - obviously one of the most thought after use cases.
 
 More than the product itself, core to defining what Yearn became was its founder Andre Cronje, **his choice of fully opening the governance**, and the amazing community that soon federated around the project.
 
@@ -18,9 +21,9 @@ With this piece today, I want to share some pointers to understand why Yearn cam
 
 ## What is Yearn?
 
-The first version of Yearn started with a simple promise: it **helped you get the best lending rate available at any time on a given stablecoin**. Indeed as there were more and more options to lend stablecoins (Compound, Aave, dYdX, etc.), yield optimization quickly became essential.
+The first version of Yearn started with a simple promise: it **helped you get the best lending rate available at any time on a given stablecoin**. Indeed as there were more and more options to lend Stablecoins (Compound, Aave, dYdX, etc.), yield optimization quickly became essential.
 
-Yearn v2 already brought a new product to the market, the yVaults: they go beyond yield optimization (rebalancing stablecoins between several lending platforms) to provide more returns. Let’s see how this work: 
+Yearn v2 already brought a new product to the market, the yVaults: they go beyond yield optimization (rebalancing Stablecoins between several lending platforms) to provide more returns. Let’s see how this work:
 
 ### End-User Perspective: Deposit, Wait, Money go Up
 
@@ -45,7 +48,7 @@ yVaults are amazing because **they abstract an immense amount of complexity for 
 
 1. LINK are deposited on Aave (Credit Delegation) and used as collateral to open positions. The positions are maintained within a safe range using an safety mechanism (funded on the returns).
 2. Stablecoins are borrowed and put to work to provide a return. The latest strategy farms the mUSD/USDC MTA Balancer Pool.
-3. Any actual returns of the farming portion of the position (stablecoins earned above the debt) are sold for LINK, increasing the effective returns of the whole position.
+3. Any actual returns of the farming portion of the position (Stablecoins earned above the debt) are sold for LINK, increasing the effective returns of the whole position.
 
 The gist of yVaults is that **they harness DeFi synergies to provide yields on autopilot.** They are designed to be flexible with their capital allocation - so that it can easily be re-allocated to follow a different strategy with better yields.
 
@@ -60,20 +63,20 @@ Explaining this one would be another article by itself, so I'll let you dig the 
 
 Yearn is DeFi on steroids, and made possible by developments that occurred over the last year. Yearn is harnessing synergies between several "DeFi legos". Without going too deep in, here are the key ones:
 
-1. **Aave recently launched the Credit Delegation feature**, enabling a contract to open a position on your behalf. This feature was necessary for the yVaults to function as they do now, as they enable the first part of most strategies - getting leverage.[^2] 
+1. **Aave recently launched the Credit Delegation feature**, enabling a contract to open a position on your behalf. This feature was necessary for the yVaults to function as they do now, as they enable the first part of most strategies - getting leverage.[^2]
 2. DEX & Automated Market Makers - especially **Curve.fi**, an obvious dependency for the yCRV Vault.
-3. The overall **dynamism of the stablecoins markets**, thanks to new entrants such as mStable or the COMP token release. 
+3. The overall **dynamism of the Stablecoins markets**, thanks to new entrants such as mStable or the COMP token release.
 
 Yearn is the perfect example of DeFi composability![^3]
 
 
 ### Building as little as possible & assembling legos
 
-Why am I focusing on this? Because as someone working in the DeFi space for two years, I can tell you that the biggest operational mistake I see ALL THE TIME - is simple: **teams re-building the wheel - reinventing what already exists and working**.  
+Why am I focusing on this? Because as someone working in the DeFi space for two years, I can tell you that the biggest operational mistake I see ALL THE TIME - is simple: **teams re-building the wheel - reinventing what already exists and working**.
 
 I think DeFi projects (like most startups) would gain immensely from actively trying to reduce the scope of work they undertake - here are two amazing questions that should be asked more often:
 
-1. "What is the unique value delivered by our product?" & 
+1. "What is the unique value delivered by our product?" &
 2. "What do we need to deliver it? Can we harness existing solutions to achieve this?"
 
 Yearn's structural design demonstrates a keen eye to identify high-potential DeFi projects and harness their synergies. In short, by **assembling several DeFi legos together in an unprecedented way**, Andre efficiently delivered a brand new use case if not a new subset of the whole industry.
@@ -96,12 +99,12 @@ While I regard and value an open governance process as a net positive, at least 
 
 ### DeFi/Web3 -> Communities Hegemonize Brands
 
-You might not be on board yet, but for me, building and growing communities - that’s essentially my life. In the years I've been doing it, I found no secret sauce yet I **uncovered an obvious truth: communities >>> brands**. 
+You might not be on board yet, but for me, building and growing communities - that’s essentially my life. In the years I've been doing it, I found no secret sauce yet I **uncovered an obvious truth: communities >>> brands**.
 
-In the case of DeFi, I can't wait to see the **clash of brands** we're about to witness: 
+In the case of DeFi, I can't wait to see the **clash of brands** we're about to witness:
 
 *   On the one hand, VC-funded brand-companies tend to lack personality and have a harder time bolstering dynamic organic communities.
-*   On the other hand, a community-driven project is **a story writing itself every day.** And when it comes to Yearn's brand, we see it growing fast: the swag is already there! 
+*   On the other hand, a community-driven project is **a story writing itself every day.** And when it comes to Yearn's brand, we see it growing fast: the swag is already there!
 
 ![Yearn Finance Swag](/img/2020/yearn-finance-YFI/yearn-swag.png "Yearn swag was quick to arrive")
 
@@ -110,7 +113,7 @@ In the case of DeFi, I can't wait to see the **clash of brands** we're about to 
 
 Yearn is so much more than yVaults! I focused this explainer on them for clarity, but there are several other Yearn products being developed. Without diving too much in, here some promising ones:
 
-*   **[yBorrow](https://yborrow.finance/)** - a generalised credit delegation interface using Aave. What makes it amazing is the synergy with the vaults, it will enable anyone to access vaults like yCRV from an ERC-20 token they like. 
+*   **[yBorrow](https://yborrow.finance/)** - a generalised credit delegation interface using Aave. What makes it amazing is the synergy with the vaults, it will enable anyone to access vaults like yCRV from an ERC-20 token they like.
 *   ySwap: a novel automated market maker
 *   A mysterious leveraged stablecoin-farming solution
 
@@ -137,12 +140,12 @@ It's already starting! I'm following closely [YFLink](https://medium.com/yflink/
 I can't wait to the Yearn and its family grow!
 
 {{< notice warning >}}
-Yearn vaults are novel DeFi products integrating many others meaning the failure risks are compounded. I am not a financial advisor - you make your own decision. 
+Yearn vaults are novel DeFi products integrating many others meaning the failure risks are compounded. I am not a financial advisor - you make your own decision.
 
 **I am NOT responsible for <u>YOUR INVESTMENT DECISIONS</u>**, may they bring you Lambos or bankruptcy.
 {{< /notice >}}
 
 [^2]: [Here's Stani (Aave's CEO) giving you a rundown of why this is big!](https://twitter.com/StaniKulechov/status/1280500969986498561?s=20)
-[^3]: Andre himself is [the first to acknowledge](https://twitter.com/AndreCronjeTech/status/1290845154430025731?s=20) what made Yearn possible and the importance of composability. 
-[^4]: The protocol governance now lies in the hands of YFI holder. The access to the main contracts are held by a multi-sig, [Andre doesn't have a key](https://twitter.com/AndreCronjeTech/status/1285427748761198594?s=20). 
+[^3]: Andre himself is [the first to acknowledge](https://twitter.com/AndreCronjeTech/status/1290845154430025731?s=20) what made Yearn possible and the importance of composability.
+[^4]: The protocol governance now lies in the hands of YFI holder. The access to the main contracts are held by a multi-sig, [Andre doesn't have a key](https://twitter.com/AndreCronjeTech/status/1285427748761198594?s=20).
 [^5]: ["If you do clone /and you are welcome to/, please change a few things so we get new data from the experiment. Repeating the same experiment isn't fun."](https://twitter.com/AndreCronjeTech/status/1289959986190147585?s=20)

@@ -1,9 +1,12 @@
 ---
 title: "Assessing risk in decentralized finance: a handbook for money markets"
-description: "DeFi risk scoring is broken; this article shows you why with a clear breakdown of how to assess the risks of money markets; most of the observations are also applicable to DeFi protocols more broadly."
+description: "A practical framework for assessing DeFi money-market risks, with lessons that apply to protocol risk analysis more broadly."
 date: '2021-02-18T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Analysis, Lending]
-tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, AAVE, COMP, Oracles, Liquidation, Insurance, Safety Module]
+tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, COMP, Oracles, Liquidation, Insurance, Safety Module]
+series: money-markets
+series_order: 1
 toc: true
 tocNum: false
 url: money-markets-risk
@@ -13,17 +16,17 @@ difficulty: "expert"
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.
 
-There are three major money markets right now in DeFi: Aave, Compound & Cream. Yet all the following services use them, one way or another: Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88MPH, Idle Finance, etc. To put it simply - **money markets are one of the root-level of DeFi**.
+There are three major money markets right now in DeFi: Aave, Compound & Cream. Yet all the following services use them, one way or another: Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88mph, Idle Finance, etc. To put it simply - **money markets are one of the root-level of DeFi**.
 
 Money markets are amazing - simple yet very intricate. In this article, I try to provide a framework and some clues to assess the risk at different levels.
 
 To dive more into the service layer currently being built on top of money markets, feel free to read my previous articles:
 
-1.   An introduction to tranching focusing on Saffron Finance: 
+1.   An introduction to tranching focusing on Saffron Finance:
 
 **[🗡 Risk? Yes please, but exactly how I like it](https://tokenbrice.xyz/risk-tranching-defi/)**
 
-2.   A presentation of fixed interest rate protocols through the lense of APWine: 
+2.   A presentation of fixed interest rate protocols through the lense of APWine:
 
 **[🍷 Yields are like fine wines, the secret lies in the brewing process](https://tokenbrice.xyz/fixed-interest-rate-protocol-firp-apwine/)**
 
@@ -67,7 +70,7 @@ So what we have today is essentially a comprehensive framework you can use to as
 {{< notice warning >}}
 **Necessary Disclaimer: This is not investment advice.**
 
-Almost no one is qualified to assess risks in DeFi: even "institutions" doing it like the DeFiscore are way off. 
+Almost no one is qualified to assess risks in DeFi: even "institutions" doing it like the DeFiscore are way off.
 
 This content is intended to help you better understand and appreciate the risk **<span style="text-decoration:underline;">by yourself</span>**, the most reliable way to do so.
 {{< /notice >}}
@@ -161,7 +164,7 @@ So here are some questions to ask yourself to assess the liquidation mechanisms:
 *   What are the liquidation fees?
 
 {{< notice info >}}
-There's another massive subtopic here: the **liquidations do not happen magically** - they are triggered by other users. So the incentives need to be on point there too so that liquidations do happen when needed and promptly. This topic is even more complex now in an age of high gas costs (liquidation profits vs gas costs of the tx). Skipping it for digestibility. 
+There's another massive subtopic here: the **liquidations do not happen magically** - they are triggered by other users. So the incentives need to be on point there too so that liquidations do happen when needed and promptly. This topic is even more complex now in an age of high gas costs (liquidation profits vs gas costs of the tx). Skipping it for digestibility.
 {{< /notice >}}
 
 ---
@@ -170,11 +173,11 @@ There's another massive subtopic here: the **liquidations do not happen magicall
 
 Alright, now that we have a money market getting reliable prices and liquidating when needed, we can start looking at the tokens accepted as collateral and what is the process.
 
-Assessing a token's health and overall safety is **one of the most complex tasks nowadays in DeFi** because figuring out the whole ecosystem around a token can be tricky. 
+Assessing a token's health and overall safety is **one of the most complex tasks nowadays in DeFi** because figuring out the whole ecosystem around a token can be tricky.
 
 Take the SNX token, for instance, a major ERC-20 token. It's usable as collateral on Aave, but with quite a low maximum loan to value ratio (to be raised soon?) at 15%. Other ERC-20 tokens like LINK are in the 60-75% range.
 
-Without diving too much into the details, this has to do with what you can do with each token and **SNX usage as collateral on the Synthetix platform**. 
+Without diving too much into the details, this has to do with what you can do with each token and **SNX usage as collateral on the Synthetix platform**.
 
 <span style="text-decoration:underline;">Aave's risk parameters are conservative enough to essentially "front-run" Synthetix itself in the chain of liquidations if a black swan event was to happen </span>on Synthetix. It seems wise: a money market should not want to take higher exposition on a given token than the native platform itself.
 
@@ -202,7 +205,7 @@ I won't expand more on this topic since Aave's risk documentation is very well d
 
 Even if the risk is known at every level, **insurance is never an option and never supernumerary**. The first layer of defense is of course the platform-level if there is any compensation module.
 
-The good news is that there is! Aave pioneered the field & even Compound has a reserve now. The second good news is that assessing the usefulness of this module is dead simple: it's a simple ratio between the total $ value of the borrows made on the money market and the total $ that can be mobilized by the safety module. 
+The good news is that there is! Aave pioneered the field & even Compound has a reserve now. The second good news is that assessing the usefulness of this module is dead simple: it's a simple ratio between the total $ value of the borrows made on the money market and the total $ that can be mobilized by the safety module.
 
 Aave has roughly 2B in the Safety Module, of which up to 30% can be seized if needed = 600M. It covers both the V1 & V2 of the protocol. If the 30% on the slashing of the Safety Module is not sufficient, the safety module can mint additional AAVE tokens. Such a scenario is accounted for by neither Compound nor Cream.
 
@@ -214,7 +217,7 @@ So looking at the available numbers, here are our quick maths:
 `Safety Ratio = USD value of insurance / Total borrow on the money market`
 
 1. **🛡 Aave =  53%** | $1.765 B (600M can be mobilized) in the Safety Module for $1.1B borrowed accross V1+V2 ($572M V1, $437M V2)
-2. **🕯 Compound = 0.24%** | $4.3B borrowed on a $10M safety capital. 
+2. **🕯 Compound = 0.24%** | $4.3B borrowed on a $10M safety capital.
 3. **💀 Cream = 0%** | As far as I know, Cream has no or highly limited (low amounts) native insurance module.
 
 ℹ Note: While Compound currently has no safety module, the team/DAO is currently sitting on a large COMP reserve that could be used to that end[^compoundCOMPstosk]. The maths were done on Feb 17 2021.
@@ -250,16 +253,16 @@ It creates a false sense of security many are falling for, just like the period 
 I'm careful when I talk about "90M of abusive liquidations because of faulty oracles" but to be explicit - it affected negatively potentially any DAI borrower back then that might have gotten liquidated wrongly - losing a part of their deposit with **no recourse and no compensation** since Compound operated as intended (smart-contract wise).
 {{< /notice >}}
 
-On top of risks of smart contract failures, please consider the following list of non-exhaustive other risks that can result in a loss of fund: 
+On top of risks of smart contract failures, please consider the following list of non-exhaustive other risks that can result in a loss of fund:
 
-1. Failure or manipulation of an oracle, 
-2. An issue with the smart contract of a token used collateral (such as infinite mint), 
-3. A stablecoin used as collateral or borrowing asset on the market lose its peg 
+1. Failure or manipulation of an oracle,
+2. An issue with the smart contract of a token used collateral (such as infinite mint),
+3. A stablecoin used as collateral or borrowing asset on the market lose its peg
 4. The device or wallet of the admin of a not-so-decentralized service is compromised
 5. Issues or delays with liquidations, meaning the money market can potentially no longer meet its collateralization requirements
 6. etc.
 
-Most insurance services are unhelpful with all these risks but for the risks of smart contract failures. The market for other types of risk is barely getting started thanks to Unslashed Finance now providing **coverage for the risk of stablecoins losing their peg** or custodian risk.
+Most insurance services are unhelpful with all these risks but for the risks of smart contract failures. The market for other types of risk is barely getting started thanks to Unslashed Finance now providing **coverage for the risk of Stablecoins losing their peg** or custodian risk.
 
 ![Defiprime insurance](/img/2021/money-market-risks/defiprime-insurance.png "The different approaches to DeFi insurance --- FROM 2019 & but still somewhat instructive.")
 
@@ -269,7 +272,7 @@ To learn more about the different approaches for DeFi insurance, check [this pie
 
 - __🎯Object__: Smart Contract Failure + stablecoin loss of peg.
 - __💰Utility__: Provides compensation if a failure is observed.
-- __✅Already happened?__: Nexus Mutual, one of the oldest insurance options already paid out on several situations.[^nexusmutual] 
+- __✅Already happened?__: Nexus Mutual, one of the oldest insurance options already paid out on several situations.[^nexusmutual]
 
 So for the topic of extended insurances, you will want to look at services such as [Unslashed Finance](https://www.unslashed.finance/), [Nexus Mutual](https://nexusmutual.io/), or [Cover Protocol](https://www.coverprotocol.com/) and the plans they offer.
 
@@ -286,7 +289,7 @@ We discussed quite a bit about the various tokens used as collateral, but there 
 The maximum Loan to Value (max LTV) dictates the borrowing power of collaterals. A 50% max LTV means one can borrow up to half to the dollar value of the collateral deposited.
 {{< /notice >}}
 
-The very first layer is of course to make sure that there is no fool play: **the money market must be neutral and not favor its own token**. It seems obvious, but it's not a given. Cream allows an excessive 75% max LTV on CREAM, one of the highest of the whole protocol - as high as some stablecoins. Compound itself gives COMP a permissive 60% max LTV while Aave is more conservative at 50%.
+The very first layer is of course to make sure that there is no fool play: **the money market must be neutral and not favor its own token**. It seems obvious, but it's not a given. Cream allows an excessive 75% max LTV on CREAM, one of the highest of the whole protocol - as high as some Stablecoins. Compound itself gives COMP a permissive 60% max LTV while Aave is more conservative at 50%.
 
 {{< notice tip >}}
 If the money market is healthy and the token well designed - people should be bullish on it, meaning some of them use it as collateral to long it - aka depositing AAVE on Aave to long AAVE.
@@ -336,9 +339,9 @@ So here are some questions and clues to help you assess this last yet essential 
 
 **At the DAO-level:**
 
-- How does it work to submit a proposal? 
-- How are they reviewed and improved? 
-- What's the delay between the vote and the execution? 
+- How does it work to submit a proposal?
+- How are they reviewed and improved?
+- What's the delay between the vote and the execution?
 - Any proposal that was ignored or not implemented for a long time?
 
 **Core team members:**
@@ -404,8 +407,8 @@ You can find additional information on each fact, event or figure mentioned in t
 [^covershitcoin]: Cover is an insurance protocol unable to secure their own token contract and liquidity mining program. They got attaked three times already. Here are [some info on the last one](https://coingape.com/cover-becomes-latest-defi-protocol-to-get-exploited-price-crashes-by-77-within-an-hour/).
 [^compoundoracle]: Despite the attack occuring several weeks ago because of their reliance on Coinbase centralized oracles, it seems like [the situation has not been fixed yet](https://twitter.com/ChainLinkGod/status/1362132404484198401?s=20).
 [^aTokenMasterRace]: The case for aTokens' technical superiority could be the topic on an article by itself but here is the gist of it:
-	
+
 	1. **Simpler**: aTokens maintain a 1:1 ratio against the base asset while cTokens have an increasing exchange rate against their base assets.
 	2. **Easier accounting & integrations**: aTokens 1:1 correspondence makes them much easier to interact with - there is no need to fetch any additional data. With Compound, any service interacting with cTokens needs to fetch the corresponding the cToken/BaseToken exchange rate.
-	3. **Dynamic and understandable interest**: both a & c tokens accrue interest dynamically. However, here again, because of aTokens' more elegant and straightforward design, the experience is more fluid with aTokens (deposit, reassured by 1:1 correspondence, number go up) 
-	4. **More potent integrations**: aToken allows for novel use cases, especially if you take into account the other features of Aave. For instance, there is a Yearn vault harnessing aLINK to borrow USDC from users' deposits to farm with them and settle the income for more aLINK. 
+	3. **Dynamic and understandable interest**: both a & c tokens accrue interest dynamically. However, here again, because of aTokens' more elegant and straightforward design, the experience is more fluid with aTokens (deposit, reassured by 1:1 correspondence, number go up)
+	4. **More potent integrations**: aToken allows for novel use cases, especially if you take into account the other features of Aave. For instance, there is a Yearn vault harnessing aLINK to borrow USDC from users' deposits to farm with them and settle the income for more aLINK.

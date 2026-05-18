@@ -1,7 +1,8 @@
 ---
 title: "🗿 Reflexer Labs (RAI) : the What, How and Why"
-description: "Reflexer's RAI is a new type of asset still unique in DeFi. It is also based on a system with a de-governance scheme. So let's look at how to stay safe from the risks associated with fiat currencies, centralization and trust thanks to RAI's design!"
+description: "A deep dive into RAI, Reflexer, de-governance, and how a non-fiat stable asset can reduce trust and centralization risks."
 date: '2021-09-17T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -28,13 +29,13 @@ If you don't have time to explore the concept in depth with the articles propose
 
 1. Currently, **the overwhelming majority of the stablecoin demand is covered by centralized solutions requiring trust**, the most used being USDT (~66 billion) and USDC (~27 billion).
 
-2. Whatever your preferred economic theses, especially in terms of inflation, I think we can easily agree on the need for stable assets that are not correlated to a fiduciary currency (= managed by a state). 
+2. Whatever your preferred economic theses, especially in terms of inflation, I think we can easily agree on the need for stable assets that are not correlated to a fiduciary currency (= managed by a state).
 
 ### The wUSDC trick
 
-I use the term "wrapped USDC" (wUSDC) to describe a situation that is common in alternative stablecoins: it is used to concisely and appropriately describe **solutions that essentially use USDC as collateral**, a trusted stablecoin guaranteed by a central agency (Circle).
+I use the term "wrapped USDC" (wUSDC) to describe a situation that is common in alternative Stablecoins: it is used to concisely and appropriately describe **solutions that essentially use USDC as collateral**, a trusted stablecoin guaranteed by a central agency (Circle).
 
-In such a situation, there is no need to go further, not even to analyze the details of the system: since their main collateral can be frozen or seized, **stablecoins produced** in this way cannot be considered decentralized or trustless.**
+In such a situation, there is no need to go further, not even to analyze the details of the system: since their main collateral can be frozen or seized, **Stablecoins produced** in this way cannot be considered decentralized or trustless.**
 
 This kind of assets has a surprisingly large following, the main ones being Maker and Frax.
 
@@ -61,7 +62,7 @@ Both Frax and DAI are developing a myriad of interesting approaches, but since t
 
 ### Are there relevant alternatives to RAI?
 
-To date, RAI is a unique asset with no comparable alternative. However, there are systems that share certain characteristics with RAI, such as **the exclusive use of ETH as collateral**. 
+To date, RAI is a unique asset with no comparable alternative. However, there are systems that share certain characteristics with RAI, such as **the exclusive use of ETH as collateral**.
 
 So, if you are ready to expose yourself to the dollar, Liquity offers a very relevant alternative which also has **the merit of being totally unstoppable** (which is not yet the case with RAI): the contracts have no administrative function, exactly like Uniswap V1/V2. However, there are still the oracles (necessary for a loan service) and the associated risks.
 
@@ -104,7 +105,7 @@ Once this is understood, let me remind you that the system by itself cannot affe
 
 Let's look at this in practice.
 
-There is a logic here that is reminiscent of [algorithmic stablecoins](https://tokenbrice.xyz/algorithmic-stablecoins/), although the end product of the system is totally different.
+There is a logic here that is reminiscent of [algorithmic Stablecoins](https://tokenbrice.xyz/algorithmic-Stablecoins/), although the end product of the system is totally different.
 
 ### When market price > redemption price
 
@@ -136,11 +137,11 @@ This rate impacts simple RAI owners less directly, especially if they use them t
 
 **Dynamic adjustment of the redemption rate is one of the essential features of Reflexer / RAI**. To better understand why this is critical, let's analyze the situation on Maker pre-MCD:
 
-1. The demand for DAI is (part of) the demand for stablecoins.
-2. However, DAI are created by leveraging ETH, so they depend on the need/appetite for leverage on ETH, which is independent of the demand for stablecoins, which mostly depends on general market conditions (bear or bull and others).
+1. The demand for DAI is (part of) the demand for Stablecoins.
+2. However, DAI are created by leveraging ETH, so they depend on the need/appetite for leverage on ETH, which is independent of the demand for Stablecoins, which mostly depends on general market conditions (bear or bull and others).
 3. If demand is higher than supply, on Maker, there is no dynamic adjustment. You have to wait for a vote of the governance (and the delays that go with it) to lower the Stability Fee. And it's the same in the other direction (too much supply).
 
-Thus, **the balance between the supply and demand side of the equation is almost impossible to maintain**, which is why the pre-MCD DAI could often end up above its peg. Maker solved this problem by adding many types of collateral, including non-trustless stablecoins and then the PSM which automatically mints DAI from USDC when needed. The solution proposed by Reflexer (dynamic adjustment of the redemption rate) has the merit of **solving the problem at the level of the system itself**, which allows to keep ETH as the only collateral.
+Thus, **the balance between the supply and demand side of the equation is almost impossible to maintain**, which is why the pre-MCD DAI could often end up above its peg. Maker solved this problem by adding many types of collateral, including non-trustless Stablecoins and then the PSM which automatically mints DAI from USDC when needed. The solution proposed by Reflexer (dynamic adjustment of the redemption rate) has the merit of **solving the problem at the level of the system itself**, which allows to keep ETH as the only collateral.
 
 ## FLX and RAI's "de-governance" strategy.
 
@@ -165,9 +166,9 @@ Now that we have the basics on FLX, let's discuss its long-term issues a bit mor
 
 The Reflexer system is intended to be "governance-minimized". This has been the case since its inception, since decisions that are made by governance in Maker (Stability Fee of vaults) are automated in Reflexer (PID controller).
 
-The vision is simply to automate everything that can be automated in the long term, once the system is mature, and to give the keys to the subsystems that cannot be automated to the FLX holder community. 
+The vision is simply to automate everything that can be automated in the long term, once the system is mature, and to give the keys to the subsystems that cannot be automated to the FLX holder community.
 
-The team has set three main levels related to this objective [detailed in the FLX presentation article](https://medium.com/reflexer-labs/introducing-flx-20755214a465). Each level is linked to a date: 
+The team has set three main levels related to this objective [detailed in the FLX presentation article](https://medium.com/reflexer-labs/introducing-flx-20755214a465). Each level is linked to a date:
 
 * 14 months after launch - April 17, 2022: minimization of governance on the main subsystems (liquidation, auction and taxation)
 * 18 months after launch - August 17, 2022: minimization of governance on all main contracts, except for the PID controller, oracles and the Savior mechanism.
@@ -189,7 +190,7 @@ RAI is currently available in 3 asset pools with different risk levels and borro
 
 ### RAI on Aave
 
-After adding support for RAI already a few weeks ago, Aave recently allocated a (very moderate) amount of StkAAVE to incentivize borrowing and depositing on RAI. It was necessary to shed light on one of the main contradictions of the platform: Aave is a decentralized money market that (still) uses the vast majority of its budget to encourage borrowing/deposits on stablecoins that are not stablecoins at all (USDC and USDT).
+After adding support for RAI already a few weeks ago, Aave recently allocated a (very moderate) amount of StkAAVE to incentivize borrowing and depositing on RAI. It was necessary to shed light on one of the main contradictions of the platform: Aave is a decentralized money market that (still) uses the vast majority of its budget to encourage borrowing/deposits on Stablecoins that are not Stablecoins at all (USDC and USDT).
 
 Note: for the moment **the max LTV of RAI is 0: RAI cannot be used as collateral on Aave**. No discrimination here, this is pretty standard on Aave's part - this is the "classic" and prudent procedure when adding a new type of collateral. Governance can vote to increase this value.
 

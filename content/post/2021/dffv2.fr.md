@@ -2,6 +2,7 @@
 title: "🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2"
 description: "La communauté DeFi France s'ouvre et devient encore plus horizontale : c'est à vous de jouer désormais !"
 date: '2021-04-27T01:53:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects]
 tags: [DeFi France, Discord, Communauté]
 url: defi-france-version-2
@@ -37,7 +38,7 @@ Si vous n'y êtes pas encore, vous pouvez **[rejoindre le Discord en suivant ce 
 
 {{< /notice >}}
 
-L'enjeu est de reconnaître à leur juste valeur les différentes contributions des membres existants ainsi que de susciter une émulation pour que d'autres fassent de même. Pour cela rien de plus simple : lorsque vous répondez à des messages ou réagissez avec des emojis, l'auteur reçoit désormais un peu de 🌾 Blé. 
+L'enjeu est de reconnaître à leur juste valeur les différentes contributions des membres existants ainsi que de susciter une émulation pour que d'autres fassent de même. Pour cela rien de plus simple : lorsque vous répondez à des messages ou réagissez avec des emojis, l'auteur reçoit désormais un peu de 🌾 Blé.
 
 Ainsi, **le 🌾 Blé s'obtient grâce aux autres** : il est impossible de générer du 🌾 Blé par vous-même, mais les autres peuvent vous en donner avec des messages comme ça par exemple :
 
@@ -49,7 +50,7 @@ Ainsi, **le 🌾 Blé s'obtient grâce aux autres** : il est impossible de gén�
 
 ![déméter](/img/2021/dffv2/déméter.jpg)
 
-Alors concrètement comment ça se passe ? Désormais quand vous rejoignez le Discord, **Déméter notre gentil bot vous accueille**. Il suffit de réagir avec l'emoji-logo de DeFi France (`:dff:`) pour qu'elle puisse vous joindre en message privé afin de vous expliquer le fonctionnement du serveur. 
+Alors concrètement comment ça se passe ? Désormais quand vous rejoignez le Discord, **Déméter notre gentil bot vous accueille**. Il suffit de réagir avec l'emoji-logo de DeFi France (`:dff:`) pour qu'elle puisse vous joindre en message privé afin de vous expliquer le fonctionnement du serveur.
 
 Elle vous demandera également une adresse Ethereum qui sera celle utilisée pour recevoir la 🥖 TGC, le token de gouvernance de DeFi France. Mais avant ça, revenons au Blé !
 
@@ -67,7 +68,7 @@ Cette adresse sera publique donc assurez-vous d'en choisir une qui convient à l
 
 {{< notice note >}}
 
-**Pour l'instant, il n'y pas encore de 🥖 TGC, seulement du 🌾 Blé !** 
+**Pour l'instant, il n'y pas encore de 🥖 TGC, seulement du 🌾 Blé !**
 
 La TGC arrivera d'ici quelques mois pour s'assurer d'une distribution la plus décentralisée possible. Cela permettra également de vous proposer le token TGC et les mécanismes associés directement sur un L2 afin qu'ils soient accessibles à tous.
 
@@ -87,7 +88,7 @@ Par défaut toutes les emojis ont le même poids, mais certaines emojis ont des 
 
 Deux emojis n'ont pas de fonction spécifique mais un point légèrement plus important que les autres vis-à-vis de la distribution de 🌾 Blé, il s'agit de :
 - Notre bien aimé logo, le Coq Intergalactique de DeFi France (`:dff`)
-- La légendaire DeLorean 88MPH (`:delo:`)
+- La légendaire DeLorean 88mph (`:delo:`)
 
 Certains salons bénéficient également d'une pondération plus importante comme le `#panthéon` ou encore `#présentation`.
 
@@ -107,7 +108,7 @@ Si quelque chose n'est pas clair pour vous, **n'hésitez pas à consulter le `#m
 
 Nous sommes ravis de vous accueillir dans ce nouvel environnement : à vous désormais de vous l'approprier ! Il s'agit du premier projet interne à DeFi France à voir le jour, mais de nombreux autres sont en développement, comme le site de DeFi France que nous avons hâte d'introduire ainsi qu'un potentiel jeu communautaire s'appuyant sur des NFTs !
 
-Pour en apprendre plus sur ce nouveau système pour notre Discord, on vous invite chaudement à lire le `#manuel`. 
+Pour en apprendre plus sur ce nouveau système pour notre Discord, on vous invite chaudement à lire le `#manuel`.
 
 📅 On vous retrouvera également ce **Mercredi (28 Avril) à 21h sur le Discord DeFi France** pour un **live audio avec [Nolan](https://twitter.com/NolanVanmoortel)** pour expliquer cette nouvelle étape.
 

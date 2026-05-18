@@ -2,6 +2,7 @@
 title: "🧭 DeFi Moneygames: Assessing risk and avoiding wreckage"
 description: "A quick primer to help players of DeFi food-based moneygames to understand the basic template (go WINE!), assess the risk & save their precious tokens."
 date: '2020-08-26T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin]
 image: /img/2020/defi-moneygames/cover.png
@@ -53,7 +54,7 @@ Enough for the context and the theory - I might dive into the community dimensio
 
 **Secondly, NEVER BUY THE FOOD TOKENS - farm them.** Buying such a token is taking on an incredible amount of risk - you are against an army of people farming them for free who can be eager to dump.
 
-Finally, let's get a bit more practical by looking at real examples to explicit the risk scenario of each farming pool types: 
+Finally, let's get a bit more practical by looking at real examples to explicit the risk scenario of each farming pool types:
 
 
 #### LEVEL = 1 - ERC 20 STAKING POOL - OK IF THE CODE IS SAFU
@@ -79,7 +80,7 @@ Here, **you are facing a new type of risk: impermanent losses.** IL are greatest
 
 These pools are the MOST dangerous. I'd advise anyone needing guidance to simply avoid them - the game is too risky to be played. A great example of why is the PASTA yyCRV / PASTA Uniswap pool.
 
-Let's put it like this: if some can farm PASTA essentially for free by locking some DeFi tokens - why would they not dump them all for yyCRV, the soundest money-making machine of the industry? That is precisely what happened. 
+Let's put it like this: if some can farm PASTA essentially for free by locking some DeFi tokens - why would they not dump them all for yyCRV, the soundest money-making machine of the industry? That is precisely what happened.
 
 As soon as the incentivised pool launched, PASTA farmers dumped heavily to claim those precious yyCRV fools put up for grabs. Why would they not? The price of PASTA tanked from roughly $1 to $0.04, butchering any profit made by those who committed to the pools on top of them losing their precious yyCRV.
 
@@ -91,7 +92,7 @@ So what qualifies a pool as the dumping pool? **Allow me to be super explicit he
 
 Don't trust me, I'm just a simple farmer - follow a legend like [DegenSpartan](https://twitter.com/DegenSpartan/status/1296619171984232448?s=20) - he's nice enough to announce his dumps publicly (shortly) after they started.
 
-Best of luck, and remember one thing if you recently joined the space: the food money games are played against experienced traders with years of crypto experience. 
+Best of luck, and remember one thing if you recently joined the space: the food money games are played against experienced traders with years of crypto experience.
 
 {{< notice note >}}
 Most are 0 sum games: no value is created, it's just a complex 3-4 layers value transfer mechanism.''

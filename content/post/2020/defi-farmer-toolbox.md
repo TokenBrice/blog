@@ -2,6 +2,7 @@
 title: "🧰 The DeFinancial Farming Toolbox"
 description: "A hitchhiker's guide to liquidity mining curating tips & tools to help you make the most of DeFi's agrarian revolution 🌻"
 date: '2020-06-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidity Mining]
 toc: true
@@ -13,11 +14,11 @@ url: defi-farmer-toolbox
 
 Howdy farmer,
 
-If you made it here, we will assume a shared basic understanding of [what yield farming is](https://ethereumprice.org/guides/article/yield-farming/). 
+If you made it here, we will assume a shared basic understanding of [what yield farming is](https://ethereumprice.org/guides/article/yield-farming/).
 
 You might even have tried it by yourself, or heard the [tales from a yield farmer](https://defiweekly.substack.com/p/tales-from-a-yield-farmer): amazing! Today, it’s my turn to share key concepts & a curated list of tools to help you make the most out of it.
 
-If by any chance you landed here without any idea of what [Ethereum](https://ethhub.io/) or **[DeFi](https://tokenbrice.xyz/posts/2020/definancial-services-guide/)** is, please click these links. This is not a guide, I keep it short & sweet with pointers only - Let’s get started! 
+If by any chance you landed here without any idea of what [Ethereum](https://ethhub.io/) or **[DeFi](https://tokenbrice.xyz/definancial-guide/)** is, please click these links. This is not a guide, I keep it short & sweet with pointers only - Let’s get started!
 
 
 ## Organic DeFarming
@@ -39,14 +40,14 @@ We’ll dive deeper into this later, but the overall **high average gas prices a
 
 ### Liquidity Mining Sources
 
-Here are the main liquidity mining sources, ordered by the share of tokens available through liquidity mining: 
+Here are the main liquidity mining sources, ordered by the share of tokens available through liquidity mining:
 
 *   Balancer Labs - [BAL](https://medium.com/balancer-protocol/proposing-balancer-liquidity-mining-cab4503972fa) - 100M total supply, 75M distributed through liquidity mining (75%), since June 1 - includes some externally incentivized pools.
 *   Curve Finance - CRV ??? - there is currently little to no public information available.
 *   Compound Finance - [COMP](https://medium.com/compound-finance/expanding-compound-governance-ce13fcd4fe36) - 10M total supply, ~4.2M through liquidity mining (42%), since June 15
 *   Universal Market Access - [UMA](https://defirate.com/safg/) ~ 35% of the supply through mining (details TBD)
 *   Synthetix & other incentives program (like JRT)
-*   Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/): redirect interest earned form your stablecoins on Aave to earn JRT tokens.
+*   Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/): redirect interest earned form your Stablecoins on Aave to earn JRT tokens.
 
 ![synthetix liquidity mining programs](/img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
 
@@ -91,9 +92,9 @@ So if we look at this position with these assumptions over several time frames, 
 
 *Please note: This simplistic scenario ignores the opportunity cost on ETH price. $5 of gas (=ETH) paid today might be worth $10 a year from now.*
 
-The learning here I wanted to share is that **for such capitals, considering the current gas costs, it will probably be better to stick to a position for months instead of trying to chase the best currently available yield**. Decent profits (~0.81 % /month) starts around the 3-months timeframe. 
+The learning here I wanted to share is that **for such capitals, considering the current gas costs, it will probably be better to stick to a position for months instead of trying to chase the best currently available yield**. Decent profits (~0.81 % /month) starts around the 3-months timeframe.
 
-So, remember Stani the farmer? You need to pick your crops wisely. 
+So, remember Stani the farmer? You need to pick your crops wisely.
 
 
 #### Whale's Playground (> $ 10 000)
@@ -102,7 +103,7 @@ Now if you have more skin in the game and are willing to take more exposure, gas
 
 For instance, you can leverage your Compound exposure to maximize your effective COMP mining (through supply/borrow). It obviously comes with a risk of liquidation. [InstaDapp](https://dsa.instadapp.io/compound) helps you maximize COMP returns by folding your position up to 4x.
 
-In a previous article, I've detailed a strategy built on the Synthetix platform which included another form of small leverage. It observed impressive returns (~200% effectively) since [introduced 5 weeks ago](https://tokenbrice.xyz/posts/2020/definancial-services-guide/#5-a-the-synthetixcurve-yieldstack-aka-the-4-steaks-yieldburger) - mostly due to a significant appreciation of the price of SNX, the largest exposure in this strategy and the very high level of activity on the Curve sUSD pool.
+In a previous article, I've detailed a strategy built on the Synthetix platform which included another form of small leverage. It observed impressive returns (~200% effectively) since [introduced 5 weeks ago](https://tokenbrice.xyz/definancial-guide/#5-a-the-synthetixcurve-yieldstack-aka-the-4-steaks-yieldburger) - mostly due to a significant appreciation of the price of SNX, the largest exposure in this strategy and the very high level of activity on the Curve sUSD pool.
 
 
 
@@ -126,11 +127,11 @@ If you’re not the most familiar with Ethereum yet, the easiest way for you to 
 
 **Buying ETH & using DeFi services** like Aave (gas free on Aave for now!) - [Argent](https://argent.xyz)
 
-**Spending ETH & stablecoins** - [Monolith](https://monolith.xyz). Now with ParaSwap built-in for swaps and soon an on-ramp to buy ETH/ERC-20 from your bank account!
+**Spending ETH & Stablecoins** - [Monolith](https://monolith.xyz). Now with ParaSwap built-in for swaps and soon an on-ramp to buy ETH/ERC-20 from your bank account!
 
 ![monolith](/img/2020/defi-farmer-toolbox/monolith.jpeg)
 
-While we’re at it, here’s a quick tip because I see this way too much. 
+While we’re at it, here’s a quick tip because I see this way too much.
 **You should never claim on Compound.** It's costly and your COMP tokens are automatically claimed every time you adjust your position by depositing or withdrawing assets (minimal amount of COMP claimable required).
 
 
@@ -192,7 +193,7 @@ Finally, it's Gitcoin grant season so please indulge this closure:
 
 You've been in the space for a bit, hopefully even making some profits? How about sharing a small share back, let's say 2 %, to critical infrastructure projects and to support your favourite DeFi services or content producers?
 
-Your contributions are immensely appreciated and can have a great impact, even for just 1 DAI thanks to the CLR matching. So if you liked this piece or my contributions to the DeFi space overall, feel free to have a look at **[my Gitcoin grant](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**. 
+Your contributions are immensely appreciated and can have a great impact, even for just 1 DAI thanks to the CLR matching. So if you liked this piece or my contributions to the DeFi space overall, feel free to have a look at **[my Gitcoin grant](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
 
 It will help me fund more initiatives for the French community & help to go on with content production efforts like this one. Every contribution makes a difference, even 1 DAI (currently matched +5).
 

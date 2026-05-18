@@ -3,7 +3,7 @@ title: "Is this a Lending Protocol Renaissance?"
 description: "New models are being explored both for CDP protocols and money markets, and some protocols are even merging the two into one: is this a lending protocol renaissance?"
 date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
+tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
@@ -16,7 +16,7 @@ Thus, in this article, I’d like to give you a tour of the interesting ideas I�
 
 ## Collateralized Debt Position (CDP) protocols vs Money Market
 
-Let’s dive in, starting with a primer on the differences between CDP protocols (e.g., Maker or Liquity) and money markets (e.g., Aave or Morpho). It will come in handy as we will discuss both in this article and even finish with a project merging the two models into one protocol. 
+Let’s dive in, starting with a primer on the differences between CDP protocols (e.g., Maker or Liquity) and money markets (e.g., Aave or Morpho). It will come in handy as we will discuss both in this article and even finish with a project merging the two models into one protocol.
 
 
 <table>
@@ -88,7 +88,7 @@ On the other hand, money markets tend to be more flexible. Thanks to their struc
 
 Dyad is a CDP protocol that implements several novel ideas, such as delivering free borrowing to its users, who must own an NFT to partake (Note). It also serves as the protocol's base coordination layer. I invite you to [read the documentation](https://dyad.gitbook.io/dyad-docs-v2/) to become more familiar with it. Let’s zoom in on Dyad’s novel approach to handling a key topic for CDP protocols: overcollateralization.
 
-{{< notice info >}} For stablecoins, we talk about endogenous vs exogenous collateral. To quickly tell, ask yourself this question: if the stablecoin fails, does the collateral also fail? If yes, your collateral is endogenous (ex: my beloved & defunct [seigniorage-based stablecoins](https://tokenbrice.xyz/posts/2021/seigniorage-basis-vs-esd/)); if not, it’s exogenous (ex: ETH for Liquity). {{< /notice >}}
+{{< notice info >}} For Stablecoins, we talk about endogenous vs exogenous collateral. To quickly tell, ask yourself this question: if the stablecoin fails, does the collateral also fail? If yes, your collateral is endogenous (ex: my beloved & defunct [seigniorage-based Stablecoins](https://tokenbrice.xyz/seigniorage-basis-esd/)); if not, it’s exogenous (ex: ETH for Liquity). {{< /notice >}}
 
 Stablecoins harnessing endogenous or no collateral can scale quickly, as seen with ESD, Basis Cash, or Terra/UST. However, they can and usually do explode even faster. For this reason, harnessing endogenous collateral is considered a risky practice – worthy of an instant Red Flag / F on the stablecoin rating agency [Bluechip](https://bluechip.org/).
 
@@ -107,7 +107,7 @@ Launched at the end of the year, the protocol has seen gentle and steady growth,
 
 ## Liquity v2 – The base rate of DeFi
 
-Liquity’s LUSD remains one of the most successful genuinely decentralized stablecoins on the mainnet, so when v2 was announced, it gathered a lot of attention. After researching a novel approach harnessing a reserve model, the team pivoted back to a CDP protocol, growing from learning the first iteration. V2 is expected to be released by the end of the year.
+Liquity’s LUSD remains one of the most successful genuinely decentralized Stablecoins on the mainnet, so when v2 was announced, it gathered a lot of attention. After researching a novel approach harnessing a reserve model, the team pivoted back to a CDP protocol, growing from learning the first iteration. V2 is expected to be released by the end of the year.
 
 Today, I want to focus on one, in particular, on interest rate management.
 
@@ -295,4 +295,3 @@ I wanted to cover more protocols, but this article is already beefy, so I’ll k
 I’ll be watching, and so should you.
 
 _Thanks to Gray for the cover image._
-

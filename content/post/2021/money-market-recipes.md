@@ -2,8 +2,11 @@
 title: "🌽 Defi money markets cookbook"
 description: "Money markets like Aave or Alchemix are essential in DeFi. This article explains and illustrates some strategies to take advantage of the different options they offer."
 date: '2021-05-10T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Aave, Curve, Liquity, Alchemix, Aave, Liquidation]
+tags: [DeFi, Ethereum, Money Markets, Aave, Curve, Liquity, Alchemix, Liquidation]
+series: money-markets
+series_order: 2
 toc: true
 tocNum: true
 url: money-market-recipes
@@ -36,7 +39,7 @@ Every money markets have an associated token, for example the AAVE token for Aav
 
 * **⚙ Condition:** Optimism about the future of a given money market. It's native token in this scenario is expected to appreciate in line with the growth of the market over the medium/long term.
 * **📅 Time horizon:** 3 - 24 months. ~3 months is a recommended minimum so that gas fees and borrowing costs don't impact the returns of the strategy too much.
-* **🔮 Expected result**: the acquired token appreciates, which allows to pay back the debt (+ possible interest) at term by reselling part of the initial position. Once the debt is repaid, part of the acquired tokens can be kept. 
+* **🔮 Expected result**: the acquired token appreciates, which allows to pay back the debt (+ possible interest) at term by reselling part of the initial position. Once the debt is repaid, part of the acquired tokens can be kept.
 * **🃏 Bonus / Facilitator:** If the token in question can produce a return (e.g. AAVE in the Safety Module), this will allow the debt to be repaid even faster or to accumulate "free" tokens if the scenario of its price appreciation is verified.
 
 Although this strategy is quite basic, it is one of my favorites. I recently shared with you on Twitter an example of how to put it into practice, which we will detail here:
@@ -60,7 +63,7 @@ Either by directly exposing yourself to the LQTY token, which is of course more 
 
 Or more conservatively, with a strategy using Liquity to borrow LUSDs and make them productive:
 
-### Exposure mainly in stablecoins
+### Exposure mainly in Stablecoins
 
 ![mm-long-token-tokenbrice](/img/2021/money-market-recipes/mm-long-tokenbrice-en.png "Long exposure to Liquity via Liquity/Curve")
 
@@ -81,7 +84,7 @@ Yearn Finance also offers a LUSD vault that automatically manages the position o
 Alchemix arrival has opened up new perspectives in terms of strategy. On Alchemix, the debt repays itself over time. Indeed, **the collateral used (yDAI) is a stablecoin that produces a return (via Yearn)**. Thus with the current conditions the loan is self-repaying in three years.
 
 I suggest a simple strategy to take advantage of Alchemix to make a profit. The main drawback is that **only half of the amount of DAI initially placed in Alchemix can be borrowed in AlUSD** and then invested.
-Nevertheless, as this strategy is based on stablecoins, it does not - (⚠ oracles) - involve any price risk and therefore does not require daily monitoring.
+Nevertheless, as this strategy is based on Stablecoins, it does not - (⚠ oracles) - involve any price risk and therefore does not require daily monitoring.
 
 * **⚙ Condition:** DAI that will be locked in for ~3 years. Only half of the deposited amount is mobilizable.
 * **📅 Time horizon:** ~3 years (depends on DAI return rate on Yearn).
@@ -114,12 +117,12 @@ To make this strategy as accessible as possible, we will develop the example on 
 ### How-to
 
 
-The strategy is to **produce returns through the borrowing of stablecoins used to provide liquidity on the Curve exchange service**. With the liquidity mining program on Aave, every step of the process is potentially lucrative at least in MATIC.
+The strategy is to **produce returns through the borrowing of Stablecoins used to provide liquidity on the Curve exchange service**. With the liquidity mining program on Aave, every step of the process is potentially lucrative at least in MATIC.
 
 
 * **⚙ Condition:** Having tokens accepted as collateral on Aave, and bring them back to Polygon for example using [the POS bridge](https://wallet.matic.network/bridge/).
 * **📅 Time horizon:** Short / medium term.
-* **🔮 Expected outcome:** Returns in MATIC, stablecoins and ETH.
+* **🔮 Expected outcome:** Returns in MATIC, Stablecoins and ETH.
 * **🃏 Bonus / Facilitator:/**. Prospective: mining CRV & potential leverage when LP Curve Polygon tokens are accepted as collateral on Aave.
 
 ### Putting ETH to work on Polygon
@@ -129,13 +132,13 @@ To illustrate this strategy, I start with the assumption of generating a return 
 ![polygon-aave-curve-eth-farming-tokenbrice](/img/2021/money-market-recipes/polygon-aave-curve-eth-farming-tokenbrice-en.png "Farming on Polygon via Aave and Curve using ETH as collateral")
 
 1. ETH deposit as collateral on Aave/Polygon (+native +MATIC)
-2. Borrowing stablecoins (-APR +MATIC)
-3. Deposit and staking of stablecoins on Curve/Polygon (+natif +MATIC)
+2. Borrowing Stablecoins (-APR +MATIC)
+3. Deposit and staking of Stablecoins on Curve/Polygon (+natif +MATIC)
 
 Note that Curve LP Polygon tokens are being considered for potential addition as collateral in the Aave market. We can also expect potential CRV rewards on Polygon LP positions if the DAO decides to do so.
 
 {{< notice note >}}
-It is possible to implement this strategy by keeping the tokens used as collateral on the L1 Aave in order to benefit from the mining of StkAAVE. It will be necessary to migrate the borrowed stablecoins from the Ethereum network to Polygon using for example [Matic's POS bridge](https://wallet.matic.network/bridge/).
+It is possible to implement this strategy by keeping the tokens used as collateral on the L1 Aave in order to benefit from the mining of StkAAVE. It will be necessary to migrate the borrowed Stablecoins from the Ethereum network to Polygon using for example [Matic's POS bridge](https://wallet.matic.network/bridge/).
 {{< /notice >}}
 
 ---

@@ -1,15 +1,16 @@
 ---
 title: "Calling for your support to keep Aave's governance community-driven"
-description: "It's time for me to get more involved in the governance of a decentralized protocol to uphold DeFi's grassroots values: today, I'm calling for your vote delegations in Aave's governance."
+description: "A call for Aave governance delegations and a plan to defend grassroots DeFi values through active protocol governance."
 date: '2021-07-27T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized finance, Aave, Governance, Delegation]
+tags: [DeFi, Ethereum, Aave, Governance, Delegation]
 url: aave-governance-program
 image: /img/2021/aave-governance-platform/cover.png
 difficulty: "beginner"
 ---
 
-Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation in the Aave governance. While calling for delegations and explaining my vision for Aave, I'd also like to set a new standard for DAO delegates. 
+Hello, I'm TokenBrice, and this post is my formal platform to solicit delegation in the Aave governance. While calling for delegations and explaining my vision for Aave, I'd also like to set a new standard for DAO delegates.
 
 You'll find in the post details about my long-term vision for Aave, who I am, why I'm asking for your AAVE vote delegations today, as well as all relevant disclosures to help you make sure this responsibility is not conflicting or overlapping with any other ongoing ones I have.
 
@@ -41,23 +42,23 @@ I'm now calling for delegation to thrive to uphold the following principles in A
 2. Fight to ensure that the Ecosystem Reserve is used in the best long-term interest of the protocol.
 3. Articulate key concepts and ideas voiced by the community to make sure they are answered.
 4. Provide a documented and motivated position for each main issue, with a particular attention given their impact on the protocol's safety and resiliency.
-5. Use, as much as possible, my existing network and presence to document Aave's governance and make it more accessible, particularly to FR-speaking audiences. 
+5. Use, as much as possible, my existing network and presence to document Aave's governance and make it more accessible, particularly to FR-speaking audiences.
 
 ---
 
 ## How to delegate?
 
-You can use Sybil.org to check your voting power on various DAOs and handle delegations. 
+You can use Sybil.org to check your voting power on various DAOs and handle delegations.
 
 ![aave-sybil-delegation](/img/2021/aave-governance-platform/aave-sybil.png)
 
 1. Go on [Sybil.org - Aave](https://sybil.org/#/delegates/aave): once you connect your wallet you'll see your voting power on the right panel
 2. You can self-delegate to use that voting power yourself (default) or delegate it to another wallet.
-3. If you wish to delegate your voting power to me, simply delegate to `tokenbrice.eth` 
+3. If you wish to delegate your voting power to me, simply delegate to `tokenbrice.eth`
 
 ### Following my activity
 
-To follow my contributions to Aave's governance, 
+To follow my contributions to Aave's governance,
 
 - Check my [profile on Sybil.org](https://sybil.org/#/delegates/aave/0xAA7A9d80971E58641442774C373C94AaFee87d66) to view my votes and delegations.
 - Check [my profile on the Aave governance forum](https://governance.aave.com/u/tokenbrice/summary) to follow my comments and proposals.
@@ -75,10 +76,10 @@ On the media I control (this blog), I enforced some basic principles which I thi
 
 * **Privacy-preservation**: the data collection is minimal and done using a self-hosted open-source service (Matomo).
 * **Accessibility**: the website is static & optimized to the best of my ability
-* **Transparency**: the content lives in a github repo, all edits are publicly logged. 
+* **Transparency**: the content lives in a github repo, all edits are publicly logged.
 * **Including transparent funding**: the only source of funding accepted for this activity is the related [gitcoin grants](https://gitcoin.co/grants/811/tokenbrice-evangelizing-defi-in-fr-en).
 
-I see Aave as a protocol here for the decades to come and will fight to make sure the DAO keeps a long-term focus. While the ecosystem reserve are significant, the current burn rate will empty them in a few years, for ~ $50M worth of stablecoins accrued in the protocol reserves (extrapolating the current rate).
+I see Aave as a protocol here for the decades to come and will fight to make sure the DAO keeps a long-term focus. While the ecosystem reserve are significant, the current burn rate will empty them in a few years, for ~ $50M worth of Stablecoins accrued in the protocol reserves (extrapolating the current rate).
 
 While my engagement in Aave governance started with the discussion on the liquidity mining program, I believe several other adjustments are also needed to maximize its long-term resiliency such as updates to the safety module budget and mechanisms, as well as a diversification of the protocol's treasury.
 
@@ -109,7 +110,7 @@ I have instituted policies and procedures with respect to delegations in the int
 
 ### Conflict Disclosure
 
-I currently have economic interest in ParaSwap (part-time contributor), and may engage in the DeFi France community from time to time. I may have direct or indirect economic interests in the various projects, entities, networks, and protocols related to the foregoing, and I also use and hold various other cryptocurrencies, tokens, stablecoins and other digital assets from time to time, including but not limited to ETH, CRV, CVX, LINK, LQTY, BAL, PNK.
+I currently have economic interest in ParaSwap (part-time contributor), and may engage in the DeFi France community from time to time. I may have direct or indirect economic interests in the various projects, entities, networks, and protocols related to the foregoing, and I also use and hold various other cryptocurrencies, tokens, Stablecoins and other digital assets from time to time, including but not limited to ETH, CRV, CVX, LINK, LQTY, BAL, PNK.
 
 Except as disclosed herein, in participating in the governance of Aave, I am not acting on behalf of ParaSwap nor on behalf of any client, nor any voting power delegator, whether or not such delegation was solicited. If my views expressed in governance contexts are interpreted or used in a manner that leads to some injury or detriment, there will be no legal recourse against me as a vote delegate or otherwise, nor will there be any coverage or indemnity from any applicable insurance or similar mechanism.
 

@@ -1,9 +1,9 @@
 ---
 title: "Pharos: Free and Open Research-Grade Stablecoin Intelligence"
-description: "150+ stablecoins tracked, peg monitoring, early warning scores, safety ratings, liquidity analysis, and more: a public good built to fill the stablecoin information vacuum."
+description: "Pharos tracks stablecoin pegs, safety scores, liquidity, early warnings, and systemic risk as a free open-source public good."
 date: '2026-03-12T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, Stablecoin, Analytics, Public Good, Open Source]
+tags: [DeFi, Stablecoins, Analytics, Public Good, Open Source]
 url: pharos
 image: /img/2026/pharos/pharos-cover.png
 toc: true
@@ -14,7 +14,7 @@ difficulty: "intermediate"
 
 Stablecoins are the backbone of crypto. By every metric that matters — volume, users, real-world utility — they're the most successful thing DeFi has produced. Over $300B in circulating supply. Hundreds of billions in daily settlement. The bridge between onchain finance and the rest of the world. And yet, the information infrastructure around them is embarrassingly thin.
 
-Want to know if a stablecoin is safe? Good luck. You can check its price on CoinGecko, maybe find a supply chart on DeFiLlama. For the most popular ones, [Bluechip](https://bluechip.org/) provides excellent economic ratings. But that's about it. **There is no systematic way to monitor peg stability, assess liquidity depth, detect early warning signals, track freeze events, or evaluate risk across the many stablecoins now in circulation.** The information layer is stuck in 2021 while the market has 10x'd in complexity.
+Want to know if a stablecoin is safe? Good luck. You can check its price on CoinGecko, maybe find a supply chart on DeFiLlama. For the most popular ones, [Bluechip](https://bluechip.org/) provides excellent economic ratings. But that's about it. **There is no systematic way to monitor peg stability, assess liquidity depth, detect early warning signals, track freeze events, or evaluate risk across the many Stablecoins now in circulation.** The information layer is stuck in 2021 while the market has 10x'd in complexity.
 
 This matters. When Terra collapsed, people didn't know their stablecoin was at risk until it was too late. When USDC depegged during the SVB crisis, panic spread because nobody had a clear picture of the actual exposure. Every depeg event follows the same pattern: information asymmetry benefits insiders and punishes everyone else.
 
@@ -25,7 +25,7 @@ So I built [Pharos](https://pharos.watch).
 
 ## What Pharos Is
 
-Pharos is a stablecoin analytics dashboard that tracks **156 stablecoins** across 18 peg currencies, multiple backing types, and governance models. It monitors pegs in real time, computes composite risk scores, rates safety across multiple dimensions, tracks DEX liquidity, detects early warning signals, and publishes a daily AI-generated market digest.
+Pharos is a stablecoin analytics dashboard that tracks **156 Stablecoins** across 18 peg currencies, multiple backing types, and governance models. It monitors pegs in real time, computes composite risk scores, rates safety across multiple dimensions, tracks DEX liquidity, detects early warning signals, and publishes a daily AI-generated market digest.
 
 It's entirely [open source](https://github.com/TokenBrice/stablecoin-dashboard). No accounts. No wallet connectivity. No monetization, now or ever. **Pharos is a public good**: free, open, and designed to give everyone the same level of stablecoin intelligence that used to require building your own infrastructure.
 
@@ -34,7 +34,7 @@ If you have read my [previous article on DeFi's curation layer crisis](/defi-ux-
 
 ## Thinking About Stablecoins Properly
 
-Before you can monitor stablecoins intelligently, you need a proper taxonomy. Most dashboards treat stablecoins as a flat list: name, ticker, supply, price. That tells you almost nothing about the actual risk profile.
+Before you can monitor Stablecoins intelligently, you need a proper taxonomy. Most dashboards treat Stablecoins as a flat list: name, ticker, supply, price. That tells you almost nothing about the actual risk profile.
 
 Pharos classifies every stablecoin along three axes:
 
@@ -54,11 +54,11 @@ Stablecoin prices are noisy. A single CEX having a thin order book can produce a
 Pharos uses a **two-stage depeg detection pipeline**:
 
 1. **Stage 1** runs every 15 minutes. It detects price deviations but cross-validates against DEX prices to suppress false alerts caused by thin liquidity or stale data.
-2. **Stage 2** kicks in for large-cap stablecoins (>$1B supply). It requires multi-source confirmation before declaring a depeg event. Crying wolf about USDT costs credibility.
+2. **Stage 2** kicks in for large-cap Stablecoins (>$1B supply). It requires multi-source confirmation before declaring a depeg event. Crying wolf about USDT costs credibility.
 
 On top of detection, every stablecoin gets a **Composite Peg Score (0–100)** that measures stability over time: how long it's been at peg, how many depeg events it's had, the severity of those events. This turns "is it at $1 right now?" into a much more useful question: "how reliably does it stay at $1?"
 
-![Pharos Depeg Tracker showing the DEWS orbital visualization with stablecoins positioned by risk level, 10 active depegs out of 148 tracked, and the Peg Leaderboard ranking coins by composite peg score](/img/2026/pharos/pharos-peg-tracker.png)
+![Pharos Depeg Tracker showing the DEWS orbital visualization with Stablecoins positioned by risk level, 10 active depegs out of 148 tracked, and the Peg Leaderboard ranking coins by composite peg score](/img/2026/pharos/pharos-peg-tracker.png)
 
 
 ## Systemic Risk: The Stability Index
@@ -69,7 +69,7 @@ The **Pharos Stability Index (PSI)** is a composite ecosystem health score (0–
 
 PSI factors in:
 - **Severity**: The impact of current depegs, weighted by market cap — a $50B stablecoin depegging 2% matters more than a $10M one depegging 20%.
-- **Breadth**: How many stablecoins are depegging simultaneously — contagion is what kills.
+- **Breadth**: How many Stablecoins are depegging simultaneously — contagion is what kills.
 - **Stress breadth**: How many coins show elevated stress signals (from DEWS, described below), even if they haven't depegged yet.
 - **Trend**: 7-day total market cap momentum — capital flowing out is a leading indicator.
 
@@ -114,14 +114,14 @@ Scores and indices are useful for monitoring, but sometimes you need a straight 
 
 The result is a **report card** that gives you the full picture, not just a single letter grade. A coin might score A on peg stability but D on decentralization (hello, USDC). The dimensions are visualized as a radar chart so you can compare risk profiles at a glance.
 
-For the 17 stablecoins covered by [Bluechip](https://bluechip.org/), Pharos also surfaces their independent SMIDGE ratings alongside its own: nothing beats a manual analysis like Bluechip does, Pharos' safety score edge lies in its real-time factoring of onchain data and broad coverage.
+For the 17 Stablecoins covered by [Bluechip](https://bluechip.org/), Pharos also surfaces their independent SMIDGE ratings alongside its own: nothing beats a manual analysis like Bluechip does, Pharos' safety score edge lies in its real-time factoring of onchain data and broad coverage.
 
 ![Safety Scores page showing a grade distribution bar and a grid of stablecoin cards, each with a radar chart scoring peg stability, liquidity, resilience, decentralization, and dependency risk](/img/2026/pharos/pharos-safety-scores.png)
 
 
 ## Liquidity, Yields, Freezes, and Flows
 
-Beyond the core risk framework, Pharos tracks four additional dimensions that matter for anyone seriously engaging with stablecoins:
+Beyond the core risk framework, Pharos tracks four additional dimensions that matter for anyone seriously engaging with Stablecoins:
 
 ### DEX Liquidity Scoring
 
@@ -129,15 +129,15 @@ A stablecoin's price means nothing if you can't actually trade it. Pharos comput
 
 ### Yield Intelligence
 
-Pharos tracks **risk-adjusted yields** for 40+ yield-bearing stablecoins and lending opportunities. The **Pharos Yield Score (PYS)** combines yield magnitude with safety rating, consistency, and sustainability. High yield with a low safety grade gets penalized — because 20% APY means nothing if the protocol depegs or gets frozen. Yield sources are resolved from multiple tiers: on-chain exchange rates, DeFiLlama pools, price-derived NAV appreciation, and T-bill proxies. Each coin also gets a set of warning signals (yield spikes, TVL outflows, data staleness) so you can spot trouble before committing capital.
+Pharos tracks **risk-adjusted yields** for 40+ yield-bearing Stablecoins and lending opportunities. The **Pharos Yield Score (PYS)** combines yield magnitude with safety rating, consistency, and sustainability. High yield with a low safety grade gets penalized — because 20% APY means nothing if the protocol depegs or gets frozen. Yield sources are resolved from multiple tiers: on-chain exchange rates, DeFiLlama pools, price-derived NAV appreciation, and T-bill proxies. Each coin also gets a set of warning signals (yield spikes, TVL outflows, data staleness) so you can spot trouble before committing capital.
 
 ### Freeze & Blacklist Tracker
 
-USDC, USDT, EURC, PAXG, and XAUT all have freeze/blacklist capabilities. Pharos tracks these events across 8 chains (Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, BSC, Tron), syncing every 20 minutes. You can see when addresses get frozen, how much was affected, and whether assets were seized. This is one of the most undermonitored aspects of stablecoins: **the power to freeze is the power to confiscate**, and most users have zero visibility into how often it's exercised. You can now monitor censorship in quasi-real time.
+USDC, USDT, EURC, PAXG, and XAUT all have freeze/blacklist capabilities. Pharos tracks these events across 8 chains (Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, BSC, Tron), syncing every 20 minutes. You can see when addresses get frozen, how much was affected, and whether assets were seized. This is one of the most undermonitored aspects of Stablecoins: **the power to freeze is the power to confiscate**, and most users have zero visibility into how often it's exercised. You can now monitor censorship in quasi-real time.
 
 ### Mint/Burn Flow Tracker
 
-Supply changes tell a story. Pharos ingests mint and burn events for 81 stablecoins on Ethereum, bucketed into hourly flows. It computes a **Pressure Shift** metric (how current burn activity compares to the 30-day baseline), a **Bank Run Gauge** (market-cap-weighted composite stress), and a **Flight-to-Quality** detector (when capital moves from risky stablecoins to safe havens). If there's a silent bank run happening, Pharos will surface it.
+Supply changes tell a story. Pharos ingests mint and burn events for 81 Stablecoins on Ethereum, bucketed into hourly flows. It computes a **Pressure Shift** metric (how current burn activity compares to the 30-day baseline), a **Bank Run Gauge** (market-cap-weighted composite stress), and a **Flight-to-Quality** detector (when capital moves from risky Stablecoins to safe havens). If there's a silent bank run happening, Pharos will surface it.
 
 
 ## Tools for Analysis
@@ -146,19 +146,19 @@ Data is only useful if you can act on it. Pharos provides three analysis tools t
 
 ### Comparison Tool
 
-Select up to 5 stablecoins and compare them side-by-side across every dimension: supply, price, peg stability, safety grades, liquidity, DEWS, mint/burn flows. The comparison includes a multi-series chart (supply or price over time) and a radar overlay for safety profiles. You can export the comparison as an image for sharing.
+Select up to 5 Stablecoins and compare them side-by-side across every dimension: supply, price, peg stability, safety grades, liquidity, DEWS, mint/burn flows. The comparison includes a multi-series chart (supply or price over time) and a radar overlay for safety profiles. You can export the comparison as an image for sharing.
 
-![Comparison tool showing 5 gold-backed stablecoins (PAXG, Tether Gold, Kinesis Gold, Matrixdock Gold, DGLD) side-by-side with key metrics, a market cap history chart, and an overlaid radar chart for safety score comparison](/img/2026/pharos/pharos-compare.png)
+![Comparison tool showing 5 gold-backed Stablecoins (PAXG, Tether Gold, Kinesis Gold, Matrixdock Gold, DGLD) side-by-side with key metrics, a market cap history chart, and an overlaid radar chart for safety score comparison](/img/2026/pharos/pharos-compare.png)
 
 ### Dependency Map & Contagion Analysis
 
-This might be Pharos's most unique feature. The **dependency map** visualizes collateral relationships between stablecoins as a force-directed graph. Many stablecoins are backed by other stablecoins (or wrapped versions of them), creating chains of dependency that are invisible unless you map them. The **stress test mode** lets you simulate a failure: select any coin and see which others would be affected, and how badly. If USDC fails, which coins go down with it? Now you can see.
+This might be Pharos's most unique feature. The **dependency map** visualizes collateral relationships between Stablecoins as a force-directed graph. Many Stablecoins are backed by other Stablecoins (or wrapped versions of them), creating chains of dependency that are invisible unless you map them. The **stress test mode** lets you simulate a failure: select any coin and see which others would be affected, and how badly. If USDC fails, which coins go down with it? Now you can see.
 
-![Force-directed dependency map showing collateral relationships between stablecoins on a dark background, with USDT and USDC as the dominant central nodes and dozens of smaller coins connected around them](/img/2026/pharos/pharos-dependency-map.png)
+![Force-directed dependency map showing collateral relationships between Stablecoins on a dark background, with USDT and USDC as the dominant central nodes and dozens of smaller coins connected around them](/img/2026/pharos/pharos-dependency-map.png)
 
 ### The Cemetery
 
-80 stablecoins have already died. Pharos documents them all — name, cause of death, peak market cap, obituary with sources. It's a graveyard that serves as both a historical record and a reminder: **stablecoins fail more often than most people think**, and understanding how they failed is essential context for evaluating the ones still standing.
+80 Stablecoins have already died. Pharos documents them all — name, cause of death, peak market cap, obituary with sources. It's a graveyard that serves as both a historical record and a reminder: **Stablecoins fail more often than most people think**, and understanding how they failed is essential context for evaluating the ones still standing.
 
 
 ## The Daily Digest
@@ -180,7 +180,7 @@ The project is solo-built and self-funded. The tech stack (Next.js frontend, Clo
 
 ## Start Using Pharos
 
-If you interact with stablecoins in any capacity — trading, lending, providing liquidity, building products — Pharos gives you the information layer you've been missing.
+If you interact with Stablecoins in any capacity — trading, lending, providing liquidity, building products — Pharos gives you the information layer you've been missing.
 
 **Explore:** [pharos.watch](https://pharos.watch) — new here? The [onboarding guide](https://pharos.watch/start/) walks you through every feature
 

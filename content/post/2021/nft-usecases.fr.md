@@ -2,6 +2,7 @@
 title: "Les tokens non-fongibles (NFTs) : le poids et l'apport de l'histoire vérifiable "
 description: "Une balade dans le monde des NFTs pour comprendre l'intérêt de la rareté numérique prouvable et son apport pour des utilisations communautaires ou artistiques."
 date: '2021-03-31T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [NFT]
 tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
 toc: true
@@ -13,7 +14,7 @@ difficulty: "beginner"
 
 Les tokens non-fongibles attirent beaucoup l’attention dernièrement. D'une part, le grand public se gratte la tête quant aux records toujours plus hauts observés sur les ventes phares, désormais couvertes dans la presse généraliste[^beeple]. D'autre part, des artistes encore non initiés aux blockchains réalisent le potentiel qu'offre la **désintermédiation** ainsi que les possibilités offertes par **la nature programmable de cette nouvelle forme d'art**. Entre les deux, se mêle un public varié allant du collectionneur occasionnel au spéculateur aguerri.
 
-Une chose est sûre : les NFTs ne laissent pas indifférent. En effet, en **alliant la logique de rareté numérique prouvable à l'art**, les NFTs permettent d'explorer de nouvelles formes d'expression. En outre, la dimension programmable des NFTs ouvre la voie à une exploration à peine entamée de nouvelles formes d'interactivité. 
+Une chose est sûre : les NFTs ne laissent pas indifférent. En effet, en **alliant la logique de rareté numérique prouvable à l'art**, les NFTs permettent d'explorer de nouvelles formes d'expression. En outre, la dimension programmable des NFTs ouvre la voie à une exploration à peine entamée de nouvelles formes d'interactivité.
 
 Aujourd'hui j'aimerais laisser la théorie de côté autant que possible pour me concentrer sur **les usages pratiques observés avec ces NFTs.** Nous analyserons donc deux caractéristiques fondamentales des NFTs - **leur dimension communautaire** et leur **capacité à devenir des marqueurs sociaux**. Une fois ces deux dimensions établies, nous pourrons considérer différents cas d'utilisation.
 
@@ -21,9 +22,9 @@ Je ne reviens pas sur les caractéristiques fondamentales offertes par les NFTs.
 
 {{< notice note >}}
 
-Les tokens non-fongibles sont un comme un nouveau type de lego utilisé pour représenter des familles d'actifs qui partagent des attributs communs. Ils sont extrêmement pertinents pour des usages à dimension communautaire ou dans les jeux-vidéos mais **les NFTs permettent bien plus**. 
+Les tokens non-fongibles sont un comme un nouveau type de lego utilisé pour représenter des familles d'actifs qui partagent des attributs communs. Ils sont extrêmement pertinents pour des usages à dimension communautaire ou dans les jeux-vidéos mais **les NFTs permettent bien plus**.
 
-{{< /notice >}} 
+{{< /notice >}}
 
 Par exemple en DeFi, un échange inter-actifs sur Curve implique un NFT de "reçu" et plus récemment Uniswap envisage des tokens NFTs pour représenter les positions apporteurs de liquidité (et leur nombreux paramètres) pour la V3.
 
@@ -37,18 +38,18 @@ Pour bien comprendre les collectibles et NFTs, je pense qu'il est essentiel de c
 
 Pour ma part, je suis convaincu qu'à un niveau primordial les NFTs s'inscrivent directement en réponse à une tendance très humaine : **nous sommes tous des collectionneurs**, d'une façon ou d'une autre. Les objets habituellement collectés nécessitent de la **confiance en l'émetteur pour être certain de la rareté** (ex: carte Pokémon). Les NFTs permettent l'existence d'actifs dotés d'une rareté numérique prouvable, ce qui change complètement les paramètres de l'équation.
 
-Désormais, **chaque œuvre peut devenir célèbre et l'intégralité de son histoire est accessible à tous et inviolable**. Là où dans l'art classique, seule l'histoire des pièces les plus célèbres est racontée (par des sources secondaires), avec les NFTs chaque pièce est logée à la même enseigne : sa création ainsi que chaque achat ou transfert sont enregistrés sur une blockchain publique. Ils sont consultables (et vérifiables) par tous.
+Désormais, **chaque œuvre peut devenir célèbre et l'intégralité de son histoire est accessible à tous et inviolable**. Là où dans l'art classique, seule l'histoire des pièces les plus célèbres est racontée (par des sources secondaires), avec les NFTs chaque pièce est logée à la même enseigne : sa création ainsi que chaque achat ou transfert sont enregistrés sur une Blockchain publique. Ils sont consultables (et vérifiables) par tous.
 
 
 ### Le poids de l'histoire vérifiable
 
 L'histoire d'une œuvre d'art a toujours été partie intégrante de celle-ci. Mais avec l'incorporation de cette histoire directement dans l'objet, sans intermédiation et donc sans nécessité d'avoir une tierce personne qui la conte, on passe à un niveau largement plus intéressant. Ma réflexion est encore jeune sur le sujet, mais je suis convaincu qu'**avec cette nouvelle interface inviolable pour accéder à l'histoire de l'objet, vient une revalorisation de celle-ci**.
 
-Je teste cette hypothèse avec une œuvre dont j'écris une partie de l'histoire, **[la fameuse DeLorean 88MPH](https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:111850)**. En acquérant un quart du total circulant qui est distribué progressivement aux contributeurs de DeFi France / TokenBrice, j'articule simultanément ces deux thèses primordiales sur les NFTs : cette voiture iconique devient à la fois un outil communautaire et un marqueur social. Elle montre l'appartenance à un groupe, tout en permettant de prouver son implication dans celui-ci.
+Je teste cette hypothèse avec une œuvre dont j'écris une partie de l'histoire, **[la fameuse DeLorean 88mph](https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:111850)**. En acquérant un quart du total circulant qui est distribué progressivement aux contributeurs de DeFi France / TokenBrice, j'articule simultanément ces deux thèses primordiales sur les NFTs : cette voiture iconique devient à la fois un outil communautaire et un marqueur social. Elle montre l'appartenance à un groupe, tout en permettant de prouver son implication dans celui-ci.
 
 Il est trop tôt pour tirer des conclusions de cette expérience mais néanmoins les premiers résultats sont encourageants : sur les 22 DeLos, 8 ont été distribuées. La meilleure offre de rachat est actuellement à 0.15 ETH, soit environ 3x le prix d'achat initial (88 DAI) mais aucune des 8 personnes qui ont reçu ce NFT n'a craqué. La Delo est malgré tout toujours échangée : l'une d'entre elles vient d'être vendue pour 0.5 ETH.
 
-![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "La DeLorean 88MPH sur Rarible")
+![rarible-88-DeLorean](/img/2021/nft-usecases/delo-sale.png "La DeLorean 88mph sur Rarible")
 
 Pour eux, certains d'entre eux en tout cas, ce NFT a aussi **une histoire très personnelle**. En effet, il a été le premier objet numérique de ce type possédé par plusieurs des gagnants et le contexte de son acquisition en fait vite un symbole : il a été gagné à la sueur de leur front !
 
@@ -76,7 +77,7 @@ Avec le temps, les CryptoPunks sont devenus un symbole qui va largement au-delà
 
 Connaître et reconnaître les attributs rares d'un Punk devient à la fois un talent et un code permettant l'accès au groupe. Il y a en tout et pour tout 10 000 Punks. **Chaque Punk a un type plus ou moins rare ainsi que des attributs, entre 0 et 7 (un seul Punk en a 7 ! ).**
 
-Le plus ne fait pas forcément le mieux : la demande pour les Punks avec 0 attribut par exemple est forte grâce à leur rareté : il n'y en a que 8 au total ! 
+Le plus ne fait pas forcément le mieux : la demande pour les Punks avec 0 attribut par exemple est forte grâce à leur rareté : il n'y en a que 8 au total !
 
 Ainsi, il y n'a également que 333 (/10 000) Punks avec 1 attribut, ce qui les rend également assez rares et désirables. De la même manière, les Punks avec 5 (166 unités) ou 6 attributs (11 unités) sont également peu communs.
 
@@ -101,7 +102,7 @@ Pour un tour d'horizon plus exhaustif du monde des NFTs, je vous invite chaudeme
 
 La méthode la plus simple pour acquérir ses premiers NFTs reste encore de les acheter. C'est **loin d'être la seule méthode,** comme nous le verrons plus bas mais avant cela, voyons rapidement les principales plateformes et leur modalités.
 
-Le site le plus couramment utilisé est probablement [OpenSea](https://opensea.io/), qui permet des ventes directes ou aux enchères. [Rarible](https://rarible.com/) est une autre option facilement accessible et potentiellement plus optimisée pour permettre aux créateurs d'émerger. On le décrit parfois comme le “Etsy” des NFTs. 
+Le site le plus couramment utilisé est probablement [OpenSea](https://opensea.io/), qui permet des ventes directes ou aux enchères. [Rarible](https://rarible.com/) est une autre option facilement accessible et potentiellement plus optimisée pour permettre aux créateurs d'émerger. On le décrit parfois comme le “Etsy” des NFTs.
 
 D'autres services existent, avec des approches plus curatives, comme par exemple [Foundation](https://foundation.app/) qui est sélectif sur ses artistes et où chaque œuvre est un exemplaire unique.
 
@@ -113,7 +114,7 @@ L'un des scénarios d'utilisation les plus évidents pour les NFTs, c'est bien s
 
 ### Un nouveau degré de persistance
 
-Sans NFT, un joueur peut se retrouver à se battre des jours dans un jeu en ligne pour obtenir un objet… qui n'est pas vraiment le sien. L'action est parfois si répétitive que le terme "farming" est aussi utilisé par les joueurs pour décrire leur pratique (sens légèrement différent du "farming" des DeFians). 
+Sans NFT, un joueur peut se retrouver à se battre des jours dans un jeu en ligne pour obtenir un objet… qui n'est pas vraiment le sien. L'action est parfois si répétitive que le terme "farming" est aussi utilisé par les joueurs pour décrire leur pratique (sens légèrement différent du "farming" des DeFians).
 
 ![meuporg](/img/2021/nft-usecases/meuporg.jpg)
 
@@ -130,11 +131,11 @@ Certains standards de NFTs, comme le 1155 vont plus loin et permettent l'existen
 
 ### L'apport d'un système d'échange de valeur dans les mondes numériques
 
-La rareté numérique prouvable est un enjeu essentiel depuis le début des premiers mondes en ligne persistant. Tous les jeux qui rencontrent une large audience connaissent aussi un "marché noir" développé et abouti. 
+La rareté numérique prouvable est un enjeu essentiel depuis le début des premiers mondes en ligne persistant. Tous les jeux qui rencontrent une large audience connaissent aussi un "marché noir" développé et abouti.
 
 À **chaque monde numérique son bazar réglé en argent bien réel** : par exemple pour le MMORPG World of Warcraft, une simple recherche google permet d'acheter de l'or ou différents autres services pour accélérer la progression de son personnage grâce à un marché secondaire de prestataires de service.
 
-**Avoir un objet, potentiellement créé par l'éditeur du jeu mais non dépendant de celui-ci pour son existence concrète, c'est absolument nouveau**. Cela ne signifie pas, bien sûr, que chaque objet de chaque jeu connaîtra une deuxième puis une troisième existence dans un support autre que celui de leur première existence, mais c'est désormais une possibilité. 
+**Avoir un objet, potentiellement créé par l'éditeur du jeu mais non dépendant de celui-ci pour son existence concrète, c'est absolument nouveau**. Cela ne signifie pas, bien sûr, que chaque objet de chaque jeu connaîtra une deuxième puis une troisième existence dans un support autre que celui de leur première existence, mais c'est désormais une possibilité.
 
 Imaginez si vous pouviez déployer votre Dracaufeu - celui qui dort dans votre GameBoy depuis plus de 15 ans - dans une arène Pokémon en réalité virtuelle. Il deviendrait un objet numérique, représenté par un NFT en incorporant toute votre histoire avec lui, le rendant également, de fait, unique. Chaque combat ou tournoi pourrait laisser des traces sur l'objet-NFT, comme par exemple un affaiblissement temporaire ou l'apprentissage de nouvelles capacités.
 
@@ -144,7 +145,7 @@ Voici une vision primitive du "endgame" que j'entrevois, à la croisée des jeux
 
 Si les NFTs débarquent dans les jeux, l'inverse se vérifie également : le jeu et les NFTs débarquent également dans la DeFi.
 
-Tout a commencé très simplement, avec une approche que tout DeFian connait bien : **et si on farmait des NFTs plutôt que de les acheter ?** C'est le concept de [Meme](http://dontbuymeme.com/), où l'utilisateur met en jeu des tokens MEME pour obtenir des points (pineapples) servant à obtenir les NFTs désirés. 
+Tout a commencé très simplement, avec une approche que tout DeFian connait bien : **et si on farmait des NFTs plutôt que de les acheter ?** C'est le concept de [Meme](http://dontbuymeme.com/), où l'utilisateur met en jeu des tokens MEME pour obtenir des points (pineapples) servant à obtenir les NFTs désirés.
 
 Il n'y a pas d'autre frais que les coûts en gaz des différentes opérations et potentiellement un frais de minting payé en ETH pour certaines pièces. Malgré tout, de nombreuses pièces sont très désirables et désirées sur le marché secondaire.[^4]
 
@@ -152,9 +153,9 @@ Meme a désormais plusieurs mois et est devenu un service qui a réussi à dépa
 
 Ainsi, Meme a servi de support à un jeu avec BadgerDAO. En déposant des tokens bBADGER ou UNIv2 BADGER/wBTC, les utilisateurs ont pu farmer 6 NFTs différents relatifs à l'univers du projet. **Le premier joueur qui a assemblé les 6 NFTs différents a pu ouvrir un coffre** (smart contract) et recevoir une belle quantité de tokens BADGER en bonus. En outre, la possession de ces NFTs a servi de facteur bonus sur la distribution (airdrop) du token DIGG. [La seconde partie du jeu NFT de Badger](https://badgerdao.medium.com/badger-x-meme-nft-honeypot-part-ii-diamond-hands-7111d38b5df4) vient de commencer.
 
-D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de farmer des "tickets" de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs. 
+D'autres services utilisent Meme avec une approche similaire. Par exemple, la plateforme YOP propose de farmer des "tickets" de différentes raretés. Ils permettront potentiellement **un accès avant le grand public, une fois que le service sera disponible.** On retrouve ainsi la dimension communautaire des NFTs.
 
-88MPH fait quelque chose de similaire **en offrant des NFTs aux plus grands utilisateurs de ses nouveaux produits quelques semaines après leur lancement.** La possession d'un tel NFT serait également un excellent critère pour cibler les utilisateurs les plus pertinents pour tester les nouvelles versions et participer plus activement au développement du projet (pure illustration de ma part, il n'y a pas eu d'annonce officielle en ce sens à ma connaissance).
+88mph fait quelque chose de similaire **en offrant des NFTs aux plus grands utilisateurs de ses nouveaux produits quelques semaines après leur lancement.** La possession d'un tel NFT serait également un excellent critère pour cibler les utilisateurs les plus pertinents pour tester les nouvelles versions et participer plus activement au développement du projet (pure illustration de ma part, il n'y a pas eu d'annonce officielle en ce sens à ma connaissance).
 
 ---
 
@@ -168,7 +169,7 @@ En France, un artiste avec lequel j'ai eu l'occasion d'échanger explore un univ
 
 Outre les habituels personnages, certains ont été empoisonnés, d'autres ont des statuts particuliers et **l'histoire de Cryptonia s'écrit encore tous les jours**. [La première "créature" est désormais en vente](https://twitter.com/CryptoniaOf/status/1376296998169632773?s=20) et donne l'accès à plusieurs personnages empoisonnés.
 
-Les possibilités offertes par les NFTs, grâce à leur nature programmable, sont effectivement infinies. 
+Les possibilités offertes par les NFTs, grâce à leur nature programmable, sont effectivement infinies.
 
 Avant de conclure, considérons donc quelques autres cas d'utilisation encore non abordé dans cet article :
 
@@ -205,7 +206,7 @@ _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com
 
 Les notes de bas de page vous aident à approfondir différents sujets mentionnés dans l’article :
 
-[^1]: [Cet article](https://www.artnome.com/news/2019/4/08/autoglyphs-generative-art-born-on-the-blockchain) vous aidera à en apprendre plus sur les CryptoPunks et la démarche de l'équipe derrière (LarvaLabs).
+[^1]: [Cet article](https://www.artnome.com/news/2019/4/08/autoglyphs-generative-art-born-on-the-Blockchain) vous aidera à en apprendre plus sur les CryptoPunks et la démarche de l'équipe derrière (LarvaLabs).
 [^2]: Retrouvez [les types de Punks ainsi que leurs attributs ici]( https://www.larvalabs.com/cryptopunks/attributes)
 [^3]: [NFTX](https://blog.nftx.org/cryptopunks-single-index-funds-now-also-on-sushiswap/) est l’un des services pionniers en la matière.
 [^4]: Tout comme en DeFi classique, plusieurs outils existent pour suivre votre farming et la situation sur les pools. L'aperçu des fermes est très utile sur [NiftyRank](https://niftyrank.com/meme-farms).

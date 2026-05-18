@@ -2,8 +2,11 @@
 title: "Exploring stable assets on Ethereum: approaches & endgame"
 description: "The quest for stability on Ethereum: an overview of the different approaches to stabilization and asset indexing to understand their issues."
 date: '2021-03-23T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Lending, Yield]
-tags: [DeFi, Ethereum, Finance décentralisée, DEX, Aave, Compound, Reflexer, Stablecoin, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
+tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Aave, Compound, Reflexer, Stablecoins, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
+series: pegged-assets
+series_order: 1
 toc: true
 tocNum: true
 url: ethereum-stable-assets
@@ -23,29 +26,29 @@ Once these foundations are established, we will have all the tools to **figure o
 
 If you are already familiar with the different pegging mechanisms, you can jump [directly to the section on Reflexer](#focus-on-reflexers-rai).
 
-## Assets standardization on the Ethereum's blockchain
+## Assets standardization on the Ethereum's Blockchain
 
 The volume of issuance and use of pegged-assets has exploded last year, but before we look at what they are actually used for, let's understand why. The simplest use case is to produce a stable asset, most often indexed to the dollar.
 
 To do this, **the method used at a high level is tokenization**: we represent an asset that comes from another chain / world on Ethereum, such as wBTC (corresponding to 1 BTC on the Bitcoin chain) or USDC (corresponding to 1 USD in Circle's bank account).
 
-This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/stablecoins/)**.
+This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/Stablecoins/)**.
 
-Also, **the rise of stablecoins has gone hand in hand with the rise of DeFi**, why? According to me, there are many reasons, the main ones being:
+Also, **the rise of Stablecoins has gone hand in hand with the rise of DeFi**, why? According to me, there are many reasons, the main ones being:
 
-1. Borrowings 
+1. Borrowings
 2. Stable assets can be very productive in DeFi
 
-### Why are borrowings mostly in stablecoins?
+### Why are borrowings mostly in Stablecoins?
 
-[The money markets](https://tokenbrice.xyz/money-markets-risk/) allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern. 
+[The money markets](https://tokenbrice.xyz/money-markets-risk/) allow their users to borrow assets using other assets as collateral. The most frequent use case corresponds to the following pattern.
 
 1. The user deposits a volatile asset, such as ETH, wBTC or LINK
 2. He uses it as collateral to **borrow a stable asset, like USDC or DAI**.
 
-Why is this so? To put it simply, few people are fond of the risks associated with price changes. **Borrowing an asset, if you then mobilize it, is like shorting it**. No problem with stablecoins - in theory - but the reality is quite different with a non-stable asset: if the price goes down, good for you: the debt will only be cheaper to repay. 
+Why is this so? To put it simply, few people are fond of the risks associated with price changes. **Borrowing an asset, if you then mobilize it, is like shorting it**. No problem with Stablecoins - in theory - but the reality is quite different with a non-stable asset: if the price goes down, good for you: the debt will only be cheaper to repay.
 
-However, the other way around, the scenario can be frightening since **you can end up with a debt that increases**. Let's say you borrow 1000 UNI when one UNI is worth $20. You sell them for another token, for example stablecoins. So here you are with $20,000 DAI that you mobilize in DeFi for example.
+However, the other way around, the scenario can be frightening since **you can end up with a debt that increases**. Let's say you borrow 1000 UNI when one UNI is worth $20. You sell them for another token, for example Stablecoins. So here you are with $20,000 DAI that you mobilize in DeFi for example.
 
 You hold your debt for several months and now you want to pay it off. Except that one UNI is now worth $30 and you no longer have any: you have to buy some back on the markets to pay off the debt and close the position. **The debt is always paid in the borrowed asset**: you therefore owe 1,000 UNIs at $30 per unit or 30,000 DAI.
 
@@ -55,13 +58,13 @@ I am ignoring the loan interest's here for simplicity's sake. In reality you sho
 
 ### Yield-farming with stable-assets
 
-With the first point understood, the second one makes perfect sense.: **a lot of people are borrowing stablecoins**, so that means that on the other side of the market people are lending them out, for attractive interest rates considering the demand. For example, on Aave, one of the main money markets, there has been **a liquidity crunch in stablecoins** almost since the launch of v2. Depositors enjoy an average annualized return of about 10%.
+With the first point understood, the second one makes perfect sense.: **a lot of people are borrowing Stablecoins**, so that means that on the other side of the market people are lending them out, for attractive interest rates considering the demand. For example, on Aave, one of the main money markets, there has been **a liquidity crunch in Stablecoins** almost since the launch of v2. Depositors enjoy an average annualized return of about 10%.
 
-The situation is quite similar elsewhere with differences due to the specificities of each money market. Nevertheless, the liquidity crisis on stablecoins goes far beyond Aave: it potentially extends to the whole DeFi.
+The situation is quite similar elsewhere with differences due to the specificities of each money market. Nevertheless, the liquidity crisis on Stablecoins goes far beyond Aave: it potentially extends to the whole DeFi.
 
-Indeed, **there is no shortage of opportunities to produce a return with stablecoins**. I'm talking about loans here, but it is also possible to bring liquidity to stablecoin pairs and even combine the two approaches to increase returns with a product like Curve:
+Indeed, **there is no shortage of opportunities to produce a return with Stablecoins**. I'm talking about loans here, but it is also possible to bring liquidity to stablecoin pairs and even combine the two approaches to increase returns with a product like Curve:
 
-![curve-yield-pool](/img/2021/pegged-assets/curve-yield-pool.png "Curve offers many pools that accept productive stablecoins")
+![curve-yield-pool](/img/2021/pegged-assets/curve-yield-pool.png "Curve offers many pools that accept productive Stablecoins")
 
 ### Explosion of the pegged-assets use in 2020
 
@@ -71,11 +74,11 @@ To name but one, let's talk about [Alchemix](https://alchemix.fi/), a new synthe
 
 The user starts by depositing yDAI. He can then **give up his future return** to borrow up to 50% of the deposited value. His loan is **reimbursed automatically thanks to the interest generated by the yDAI**. In addition, since he has access to 50% of the deposited value immediately (borrowed in alUSD), he can put it to work to increase the return of the entire strategy.
 
-This type of product allows for an interesting across time arbitrage and leads to an even greater demand for stablecoins: at the launch of Alchemix, deposits in the yDAI vault took off up to the maximum capacity available for a while.
+This type of product allows for an interesting across time arbitrage and leads to an even greater demand for Stablecoins: at the launch of Alchemix, deposits in the yDAI vault took off up to the maximum capacity available for a while.
 
-I've talked about stablecoins so far, but a similar scenario has played out on other pegged-assets like tokenized BTC on Ethereum.
+I've talked about Stablecoins so far, but a similar scenario has played out on other pegged-assets like tokenized BTC on Ethereum.
 
-![stablecoin-growth-ethereum-messari](/img/2021/pegged-assets/stablecoin-growth.png "Historical perspective on the evolution of the volume of stablecoins issued on the Ethereum network. Source: Messari.")
+![stablecoin-growth-ethereum-messari](/img/2021/pegged-assets/stablecoin-growth.png "Historical perspective on the evolution of the volume of Stablecoins issued on the Ethereum network. Source: Messari.")
 
 With the impressive growth of DeFi, we can only expect the demand for this type of asset to grow ever faster. So let's take a look at the different approaches used to produce them to understand their trade-off.
 
@@ -86,7 +89,7 @@ With the impressive growth of DeFi, we can only expect the demand for this type 
 So far, the vast majority of this demand for stable assets is being addressed with solutions based on a 1:1 match requiring trust. Thus, it is **mostly USDT ($38.5B issued) and USDC ($9.4B) that are leading the way**, well ahead of DAI ($2.7B). The same goes for Bitcoin, without going into detail, all the most used solutions require trust.
 
 {{< notice note >}}
-Pegged-assets" are assets that follow the price of another via a mechanism called "pegging". Therefore, the "peg" is the value that the asset must maintain, for example $1 for stablecoins that follow the dollar.
+Pegged-assets" are assets that follow the price of another via a mechanism called "pegging". Therefore, the "peg" is the value that the asset must maintain, for example $1 for Stablecoins that follow the dollar.
 {{< /notice >}}
 
 A growing variety of approaches are being explored to produce a pegged-asset with less compromise. They are generally grouped into large families that correspond to the main method used to maintain the peg. However, as these approaches develop, the boundaries between them become blurred as several projects explore **hybrid approaches mixing several elements of each**. We will start from the simplest to understand and progressively go to the most complex.
@@ -104,7 +107,7 @@ This approach has already been detailed enough, so I'll move on to the more comp
 
 *   **👎 Disadvantages/Risks:** It will require **always more $ collateral than $ (DAI) produced (over-collateralization)**. Governance risks. Risks at the liquidation level, carried out by third parties. The system is as trustless as its most used collateral. Maker now accepts censorable collateral (wBTC, USDC, etc.) which reintroduces a trust risk into the system.
 
-Long before algorithmic stablecoins, MakerDAO is a pioneer when thinking about how to **produce a stable asset with less trust needed in the system than 1:1 approaches**. Maker is a more complex service because beyond the DAI - the stablecoin issued by the system, it also allows its users to use different assets to borrow (technically mint) DAIs.
+Long before algorithmic Stablecoins, MakerDAO is a pioneer when thinking about how to **produce a stable asset with less trust needed in the system than 1:1 approaches**. Maker is a more complex service because beyond the DAI - the stablecoin issued by the system, it also allows its users to use different assets to borrow (technically mint) DAIs.
 
 In addition, it recreates risks and dangers to maintain the peg of the DAI. Many improvements have been proposed and implemented since the beginning, which allows DAI to be much more stable now than in its early days. Nevertheless, the scaling of DAI has come with additional compromises in terms of trust.
 
@@ -121,7 +124,7 @@ Here, the approaches are more diversified - I group them into two families: the 
 I use the words "central bank" because it evokes the essential concept here: the body that issues money and implements the monetary policy of the system is a smart contract. This allows for great transparency and visibility on the actions related to monetary policy.
 {{< /notice >}}
 
-To understand the systems presented below, you really need to understand this: **the decisions to create or destroy new stablecoins are "taken" by a smart contract** - it alone has this ability to issue (and destroy / burn in some systems) tokens.
+To understand the systems presented below, you really need to understand this: **the decisions to create or destroy new Stablecoins are "taken" by a smart contract** - it alone has this ability to issue (and destroy / burn in some systems) tokens.
 
 When I say that the smart contract takes "decisions", I must explain myself : **to be more precise, one could say that it reacts to the evolution of various measurable parameters**. The decisions of the smart contract are therefore transparent and predictable. A change in the rules governing it is possible but only via a governance vote.
 
@@ -130,20 +133,20 @@ Most often, the main parameter taken into account is simply **the price of the s
 *   If BAC > $1, then the system issues and distributes new BAC to try to bring the price back towards $1.
 *   When BAC < $1 the system destroys BAC to create upward pressure. The destruction is not direct but voluntary: the actors in the system are encouraged to burn their BAC for a coupon (BAB) corresponding to 1 BAC + premium, which they can collect only when BAC has a sustained price above the dollar.
 
-For more background on this "smart contract central bank" idea, you can read my first article on algorithmic stablecoins:
+For more background on this "smart contract central bank" idea, you can read my first article on algorithmic Stablecoins:
 
-**[L'état et le futur des stablecoins algorithmiques](https://tokenbrice.xyz/algorithmic-stablecoins/)**
+**[L'état et le futur des Stablecoins algorithmiques](https://tokenbrice.xyz/algorithmic-Stablecoins/)**
 
 #### Algorithmic approaches
 
 *   **👍 Advantages:** This makes systems without a central trust intermediary possible and thus opens the way to truly trustless pegged-assets. Community governance possible.
 *   **👎 Disadvantages/Risks:** Sustained peg loss or difficulty maintaining peg. Possible governance attack.
 
-I analyze the main approaches to produce algorithmic stablecoins in a dedicated article :
+I analyze the main approaches to produce algorithmic Stablecoins in a dedicated article :
 
 **[⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD](https://tokenbrice.xyz/seigniorage-basis-esd/)**
 
-Thus, projects like ESD, DSD, or Basis Cash were the pioneers of algorithmic stablecoins. However, all of these systems are now in a bit of an abyss: **their stablecoins have been worth well under a dollar for a long time**.
+Thus, projects like ESD, DSD, or Basis Cash were the pioneers of algorithmic Stablecoins. However, all of these systems are now in a bit of an abyss: **their Stablecoins have been worth well under a dollar for a long time**.
 
 ![bac-price-90d](/img/2021/pegged-assets/bac-90days.png "Évolution du prix de BAC sur les trois derniers mois. La situation est similaire sur ESD, DSD & MIC.")
 
@@ -155,9 +158,9 @@ Their users are looking forward to a V2 that will bring stablecoin back to the d
 *   **👍 Advantages:** The best of both worlds?
 *   **👎 Disadvantages / Risks:** A new potentially central and  intermediate point of trust appears in the system. You what happened next...
 
-Given the current limitations of first generation algorithmic stablecoins, another approach has successfully emerged: the hybrid approach.  These are intrinsically algorithmic systems that **include nonetheless a reserve in stablecoin**. (different from the system) used to maintain the peg: [more info here](https://samkazemian.medium.com/frax-v2-algorithmic-market-operations-b84521ed7133).
+Given the current limitations of first generation algorithmic Stablecoins, another approach has successfully emerged: the hybrid approach.  These are intrinsically algorithmic systems that **include nonetheless a reserve in stablecoin**. (different from the system) used to maintain the peg: [more info here](https://samkazemian.medium.com/frax-v2-algorithmic-market-operations-b84521ed7133).
 
-The pioneer in this field is Frax. With Frax, **when FRAX trades above the dollar the system itself sells some to accumulate USDC**. This helps to bring the price down while building up a reserve of stablecoins not exposed to the system itself. Thus, if FRAX is trading **below the dollar, the system can buy FRAX directly** on the market (using its stock of USDC) to bring the price back down to $1.
+The pioneer in this field is Frax. With Frax, **when FRAX trades above the dollar the system itself sells some to accumulate USDC**. This helps to bring the price down while building up a reserve of Stablecoins not exposed to the system itself. Thus, if FRAX is trading **below the dollar, the system can buy FRAX directly** on the market (using its stock of USDC) to bring the price back down to $1.
 
 ![frax-price-90d](/img/2021/pegged-assets/frax-price.png "The FRAX stablecoin has held its peg for several months.")
 
@@ -177,7 +180,7 @@ To finish this article, which I hope will be instructive, I suggest to analyze a
 
 1. **Trustless collateral**: Until now, RAI only accepts ETH as collateral. This means that 100% of the collaterals in the system are not censurable.
 2. **Beyond the dollar**: the asset produced by the system does not follow the dollar (which is not really stable itself). The price of the RAI is determined by a consensus established by the market.
-3. **The Money God** : just like algorithmic stablecoins, the system reacts to different observed parameters. However, just like MakerDAO, here it is the users themselves who directly hit the RAI.
+3. **The Money God** : just like algorithmic Stablecoins, the system reacts to different observed parameters. However, just like MakerDAO, here it is the users themselves who directly hit the RAI.
 4. **Governance** : the token of the Reflexer system (FLX), which will be distributed to the users, is intended to be used to progressively decentralize the governance.
 
 Don't panic if you don't immediately understand why this system is innovative and significant, we will explore each of these points in more detail.

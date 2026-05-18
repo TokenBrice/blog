@@ -1,7 +1,8 @@
 ---
 title: "🎲 PoolTogether: The story of the no-loss lottery where everyone wins"
-description: "Gambling, all rotten? Once again, decentralized finance allows us to consider new ways of doing things - in this case a less predatory and more fun lottery: PoolTogether. This article explains how it works."
+description: "How PoolTogether uses DeFi to redesign lotteries into a less predatory savings game, and what makes the protocol work."
 date: '2021-12-20T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -115,7 +116,7 @@ The v4 is a very important iteration on the base proposed in v3. Here, the exper
 We will detail this point because it is crucial, PoolTogether was a pioneer in this field and it is a dimension that we find on all projects: **the cross-chain strategy**. It aims to offer the same service, whatever the channel used by the user. I'm coming to that, but before I do, let's take the time to understand the classic cross-chain replication approach and its consequences.
 
 #### The basic approach: replication
-Most projects simply **replicate their service on all channels**: this is the case of Sushi for example, which is present on more than ten channels, but also Pool Together v3 as described above. 
+Most projects simply **replicate their service on all channels**: this is the case of Sushi for example, which is present on more than ten channels, but also Pool Together v3 as described above.
 
 This approach has the merit of simplicity and allows access to the service on all covered channels - but it results in **fragmentation of liquidity** which can make this service less qualitative on "small channels". Thus PT v3 Polygon USDC players, now few in number, play for a weekly fee of $69. On the other hand PT v4 USDC players share a daily price of over $100,000.
 
@@ -143,7 +144,7 @@ In reality, the number of winning players is lower because it is possible to win
 
 This distribution allows for frequent rewards for players who use PoolTogether for savings purposes while maintaining the spirit of the game:
 
-1. A decent chance (depending on the size of the deposit) to have small winnings ($10 and $100 prizes) 
+1. A decent chance (depending on the size of the deposit) to have small winnings ($10 and $100 prizes)
 2. A small chance of a massive payout: the $2500 jackpot.
 
 Beyond the prize model, the whole experience around prize allocation has been reviewed with v4. The governance has continued to iterate and recently voted on an overhaul of the prize structure: [PTIP-47: Prize Adjustments](https://gov.pooltogether.com/t/ptip-47-prize-adjustments/1752).
@@ -156,7 +157,7 @@ Many settings and details have been adjusted to make the winning experience more
 
 First of all, the winnings go into a **claim logic**, where before they went directly into the wallet. This makes it easier for players to understand and quantify winnings. In addition, they are now paid out in PTaUSDC, the PoolTogether v4 lottery ticket, and are therefore **automatically compounded**: winning increases your chances of winning, with a simple claim!
 
-![comparison-pt-vs-savings](/img/2021/pool-together/comparaison.png "Pooltogether vs savings")
+![comparison-pt-vs-savings](/img/2021/pool-together/comparaison.png "PoolTogether vs savings")
 
 **Players have 60 days to claim their reward**, which guarantees a form of follow-up and commitment, but also allows an almost totally passive interaction with the protocol for those who wish to do so: deposit > every 59 days: claim > withdrawal when desired.
 
@@ -195,17 +196,17 @@ I sometimes call PoolTogether "the most fun protocol in the whole of DeFi", a tr
 
 PoolTogether governance, with its decisions, works to define what is "optimal fun", with very concrete questions, like the number of prizes or their distribution. With the launch of v4, the number of prizes has greatly increased, allowing more players to win: more than half of the unique wallets playing PTv4 have won at least once:
 
-    
-It's a good start, but there's probably room to refine the model even further to delight more players by positively promoting long-term savings. 
+
+It's a good start, but there's probably room to refine the model even further to delight more players by positively promoting long-term savings.
 
 ---
 
 
-If you've read me this far, would you like some more alpha? 
+If you've read me this far, would you like some more alpha?
 
 **PoolTogether's lossless logic is exported beyond the lottery / savings**. Many social mechanisms and games around money can be involved: sports betting, prediction markets, insurance, etc. The lossless family will be large, and PoolTogether already knows a first cousin that tackles predictions markets: [EntropyFi](https://docs.entropyfi.com/user-guide/game-explained).
 
-Place your bets, 
+Place your bets,
 - 🎲 no more bets ! [archaic logic]
 - (🎲,🎲) and have fun :) [web3]
 

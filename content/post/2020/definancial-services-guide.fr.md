@@ -1,9 +1,10 @@
 ---
 title: "📖 Comment utiliser les services DeFinanciers à votre avantage ?"
-description: "Un tour d'horizon de différents services financiers décentralisés et les retours que vous pouvez en tirer: 6 stratégies fondamentales, leur variantes, & des astuces pour les utiliser au mieux."
+description: "Tour d horizon pratique des services financiers DeFi pour faire travailler ses ETH, avec strategies, variantes et risques."
 date: '2020-05-29T10:53:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Stablecoin, Yield]
-tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent Lossses]
+tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent Loss]
 toc: true
 tocNum: false
 image: /img/2020/definancial-services-guide/cover-fr.jpeg
@@ -65,7 +66,7 @@ _Pour les stratégies 1 à 4, il n'y a aura aucune action requise de votre part,
 
 ### Stratégies sur des actifs stables
 
-Certains produits DeFinanciers d'investissements passifs n'impliquent que des stablecoins — des jetons qui suivent le prix d'une monnaie plus ou moins stable, telle que le dollar. Ces services sont un excellent point de départ : le risque est essentiellement technique (défaut du contrat).
+Certains produits DeFinanciers d'investissements passifs n'impliquent que des Stablecoins — des jetons qui suivent le prix d'une monnaie plus ou moins stable, telle que le dollar. Ces services sont un excellent point de départ : le risque est essentiellement technique (défaut du contrat).
 
 
 #### 1/ Retours sur Stablecoins
@@ -76,7 +77,7 @@ Certains produits DeFinanciers d'investissements passifs n'impliquent que des st
 
 ![1-stablecoin-yield](/img/2020/definancial-services-guide/subh/1-stablecoin-yield.jpeg)
 
-Les stablecoins qui génèrent un retour sont un excellent point de départ.
+Les Stablecoins qui génèrent un retour sont un excellent point de départ.
 
 Ils peuvent apporter un taux de retour décent (jusqu'à 8-9%), sont faciles à utiliser et ne sont pas trop complexes : ils vous permettront de comprendre quelques notions fondamentales avant d'aller plus loin.
 
@@ -92,9 +93,9 @@ Si le concept vous plaît, voici trois variantes qui promettent des retours un p
 
 ##### 1-A/ Optimiser le rendement via réallocation automatique
 
-**RECAP: Vous possédez un actif qui redistribue automatiquement votre capital entre plusieurs stablecoins prêtés afin d'optimiser votre taux de retour.**
+**RECAP: Vous possédez un actif qui redistribue automatiquement votre capital entre plusieurs Stablecoins prêtés afin d'optimiser votre taux de retour.**
 
-Comme on le disait plus haut, il existe désormais plusieurs options pour générer un retour sur un stablecoin. Vous pouvez aller chercher le meilleur taux vous même, mais ils changent sans cesse. 
+Comme on le disait plus haut, il existe désormais plusieurs options pour générer un retour sur un stablecoin. Vous pouvez aller chercher le meilleur taux vous même, mais ils changent sans cesse.
 
 Alors pourquoi pas utiliser un autre service qui se chargera de le faire pour vous en toute transparence ?
 
@@ -102,11 +103,11 @@ C'est précisément ce que fait [Idle Finance](https://idle.finance/).
 
 ![idle-dai](/img/2020/definancial-services-guide/idle-dai.png)
 
-##### Apport de liquidité sur stablecoins : Curve Pools
+##### Apport de liquidité sur Stablecoins : Curve Pools
 
-> Vous possédez plusieurs stablecoins et les mettez à disposition afin de faciliter des échanges sur Curve (liquidity provider). Vos générez une commission sur chaque échange correspondant au pro-rata de votre contribution à la pool.
+> Vous possédez plusieurs Stablecoins et les mettez à disposition afin de faciliter des échanges sur Curve (liquidity provider). Vos générez une commission sur chaque échange correspondant au pro-rata de votre contribution à la pool.
 
-Il y a une section dédiée à ce sujet plus bas, mais il fallait mentionner [Curve](https://curve.fi) ici. En bref, Curve est un service conçu pour optimiser l'échange de stablecoins. Apporter de la liquidité sur Curve est attractif car l'exposition est toujours 100 % en stablecoins (plusieurs) et les retours provenants des commissions sur les échanges (& du prêts) sont décents.
+Il y a une section dédiée à ce sujet plus bas, mais il fallait mentionner [Curve](https://curve.fi) ici. En bref, Curve est un service conçu pour optimiser l'échange de Stablecoins. Apporter de la liquidité sur Curve est attractif car l'exposition est toujours 100 % en Stablecoins (plusieurs) et les retours provenants des commissions sur les échanges (& du prêts) sont décents.
 
 ##### 1-C/ Loterie sans perte : Pool Together
 
@@ -247,9 +248,9 @@ Il est impossible de donner une représentation exacte de l'écart de rendement 
 
 ![5-synthetix](/img/2020/definancial-services-guide/subh/5-synthetix.jpeg)
 
-Avant toute chose : ce que je dis ci-dessous NE SUFFIT PAS pour comprendre Synthetix+SNX si vous venez de découvrir le service. **Ne vous précipitez pas !** Synthetix c'est l'étape suivante en termes de complexité, voici un aperçu de toutes les nouvelles choses que vous aurez à faire 
+Avant toute chose : ce que je dis ci-dessous NE SUFFIT PAS pour comprendre Synthetix+SNX si vous venez de découvrir le service. **Ne vous précipitez pas !** Synthetix c'est l'étape suivante en termes de complexité, voici un aperçu de toutes les nouvelles choses que vous aurez à faire
 
-1.   Avoir un portefeuille sécurisé - **pourez-vous accéder à votre portefeuille dans un an ?**  
+1.   Avoir un portefeuille sécurisé - **pourez-vous accéder à votre portefeuille dans un an ?**
 Les récompenses SNX sont bloquées pendant un an : vous les réclamez aujourd'hui, mais vous ne pouvez les sortir de Mintr (plateforme Synthetix) qu'un an après la date de réclamation.
 2. **Réclamation des récompenses** chaque semaine (SNX bloqué pendant un an + sUSD)
 3. **Surveiller votre ratio de collatéralisation** et ajustez le cas échéant pour pouvoir réclamer vos récompenses
@@ -313,7 +314,7 @@ Et si vous vous demandez quelles pourraient être vos prochaines étapes, voici 
 
 *   Ouvrir des coffres-forts sur [Maker](http://makerdao.com/) ou utiliser [Aave](https://aave.com/)  pour obtenir un effet de levier (⚠ risque de liquidation).
 *   Utiliser des options comme [Opyn](https://opyn.co/) ou un service d'assurance comme [Nexus Mutual](https://nexusmutual.io/)
-*   Les Flash Loans d'[Aave](https://aave.com/) 
+*   Les Flash Loans d'[Aave](https://aave.com/)
 
 J'espère que ce guide vous aura permis de mieux comprendre ce qu'il est possible de faire dès aujourd'hui avec la finance décentralisée. Si vous hésitez à franchir le pas et que vous avez des n'hésitez pas à contacter [la communauté DeFi 🇫🇷 française sur Telegram](https://t.me/defifrance), très active et toujours accueillante.
 

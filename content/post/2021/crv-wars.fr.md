@@ -1,9 +1,12 @@
 ---
 title: "⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance"
-description: "Un guide concis pour suivre la course à l'accumulation CRV par tous les moyens possibles y compris l'achat de vote (bribes), et pour évaluer les stratégies Curve des protocoles DeFi"
+description: "Guide concis des Curve Wars: accumulation de CRV, bribes, strategies de vote et dynamique des protocoles autour de Curve."
 date: '2021-09-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Curve Finance, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
+tags: [DeFi, Ethereum, Curve, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
+series: crv-wars
+series_order: 1
 toc: true
 tocNum: true
 url: crv-wars
@@ -202,7 +205,7 @@ Vous comprenez donc que les projets DeFi qui tirent habilement profit des mécan
 
 ### Exemple croisé : sdveCRV VS cvxCRV
 
-En effet, **je considère désormais la compréhension de Curve et la capacité à influencer efficacement sa gouvernance comme une capacité essentielle et requise dans la plupart des projets DeFi, surtout pour les projets de stablecoins.**
+En effet, **je considère désormais la compréhension de Curve et la capacité à influencer efficacement sa gouvernance comme une capacité essentielle et requise dans la plupart des projets DeFi, surtout pour les projets de Stablecoins.**
 
 Pas besoin de me croire sur parole néanmoins, comparons en pratique deux approches mises en place par des projets avec des enjeux similaires : les stratégies de liquidité sur cvxCRV (de Convex) et sdveCRV (de StakeDAO) - deux abstractions construites sur veCRV.
 
@@ -224,7 +227,7 @@ Néanmoins, l'équipe n'a clairement pas pris le temps d'analyser la situation e
 
 Après avoir créé une pool sdveCRV/CRV anémique via la Curve Factory, un vote a été soumis pour y ajouter la contrôler gauge (= incentives CRV). Non seulement [le vote a été rejeté massivement](https://dao.curve.fi/vote/ownership/83) mais en outre **la pool sdveCRV est paramétrée de façon aberrante et absolument dangereuse pour les déposants.**
 
-**Inciter les dépôts sur une telle pool serait revenu à envoyer les déposants vers l'abattoir**. En effet, le facteur A (paramètre d'amplification) de la pool est [défini à 200](https://curve.fi/factory/34) --- une valeur correcte pour des actifs qui suivent le même peg, mais délirante si un actif vaut deux fois l'autre. 
+**Inciter les dépôts sur une telle pool serait revenu à envoyer les déposants vers l'abattoir**. En effet, le facteur A (paramètre d'amplification) de la pool est [défini à 200](https://curve.fi/factory/34) --- une valeur correcte pour des actifs qui suivent le même peg, mais délirante si un actif vaut deux fois l'autre.
 
 ![sdvecrv-mim-crv-pools](/img/2021/crv-wars/sdvecrv-mim-crv-pools.png "Comparaison pools Curve (factory) sdvecrv et MIM")
 
@@ -254,12 +257,12 @@ Cette situation ne fait que très peu de sens : **Sushi est loin d'être optimal
 
 Sans avoir d'incitation de la part de Convex ou Curve, la pool a déjà vu un volume important transiter grâce aux agrégateurs de DEX comme Paraswap. Rapidement, il y a eu un vote pour y ajouter la gauge CRV qui est passé - et cette pool est désormais farmable directement via Convex.
 
-La pool reste légèrement déséquilibrée (il y a tant à faire avec des CRV, qui deviennent de plus en plus rares…) mais elle apporte déjà une alternative compétitive à la pool SLP cvxCRV/CRV avec encore une fraction de sa liquidité. 
+La pool reste légèrement déséquilibrée (il y a tant à faire avec des CRV, qui deviennent de plus en plus rares…) mais elle apporte déjà une alternative compétitive à la pool SLP cvxCRV/CRV avec encore une fraction de sa liquidité.
 
 
 ## Conclusion
 
-J'espère que cet article vous aura aidé à saisir les subtilités de l'écosystème étendu de veCRV et leurs conséquences sur la bataille des CRV. 
+J'espère que cet article vous aura aidé à saisir les subtilités de l'écosystème étendu de veCRV et leurs conséquences sur la bataille des CRV.
 
 Avant de conclure, je tiens à vous rappeler que comme d'habitude l'alpha se trouve dans les creux. Si vous avez compris cet article, n'hésitez pas à exporter l'analyse de la stratégie de liquidité à d'autres projets : je suis certain qu'elle sera instructive !
 

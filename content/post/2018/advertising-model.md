@@ -5,7 +5,7 @@ description: >-
   anything better to provide free goods and services?
 date: '2018-04-17T14:15:12.590Z'
 categories: [Analysis, Privacy]
-tags: [advertising model, privacy, data harvesting]
+tags: [advertising model, Privacy, data harvesting]
 image: /img/2018/ad-model/cover.jpeg
 url: advertising-model
 difficulty: "beginner"
@@ -100,4 +100,4 @@ Now that we know about Facebook and other online services data collection practi
 
 **Do we keep sacrificing our political power on the altar of convenience, or should we build our own decentralized social network services framework to prevent control and manipulation from hostile parties?**
 
-The blockchain opened a range of new options to build decentralized institutions we can trust. Some solutions are already working. We’ll see radical alternatives emerge over the upcoming years, **it’s up to us to make the best of it.**
+The Blockchain opened a range of new options to build decentralized institutions we can trust. Some solutions are already working. We’ll see radical alternatives emerge over the upcoming years, **it’s up to us to make the best of it.**

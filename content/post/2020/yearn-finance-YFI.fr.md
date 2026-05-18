@@ -1,15 +1,18 @@
 ---
 title: "YearnFinance - La DeFi avec pilote automatique ?"
-description: "Il n'aura fallu que quelques jours après la sortie de Yearn Finance V2 pour que cela devienne un des lancements les plus critiques de la DeFi – prenons le temps de comprendre ce qu'il s'est passé et pourquoi c'est important."
+description: "Retour sur le lancement de Yearn Finance V2, l importance de YFI et les raisons pour lesquelles ce moment a marque la DeFi."
 date: '2020-08-11T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Lending, Leveraging, Yearn Finance]
+tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Leveraging, Yearn]
+series: yearn
+series_order: 1
 image: /img/2020/yearn-finance-YFI/wifeys.jpg
 difficulty: "beginner"
 url: yearn-finance
 ---
 
-Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (prononcé "Waifu") ont ébranlé le monde de la finance décentralisée. En effet, toute la recette était là : Yearn est comme un conseiller automatique, il vous aide à économiser et à faire fructifier un capital - évidemment l'un des cas d'utilisation les plus en vogue. 
+Il y a quelques semaines, la sortie de Yearn v2 et le lancement du jeton YFI (prononcé "Waifu") ont ébranlé le monde de la finance décentralisée. En effet, toute la recette était là : Yearn est comme un conseiller automatique, il vous aide à économiser et à faire fructifier un capital - évidemment l'un des cas d'utilisation les plus en vogue.
 
 Plus que le produit lui-même, c'est son fondateur André Cronje qui  a été intrumental pour définir la "culture" Yearn. **Son choix d'ouvrir complètement la gouvernance**, a dynamisé une communauté qui s'est rapidement fédérée autour du projet.
 
@@ -17,9 +20,9 @@ Avec cette article, je veux partager aujourd'hui quelques indications pour compr
 
 ## Qu'est-ce que Yearn ?
 
-La première version de Yearn a débuté par une simple promesse : elle vous permettait d'obtenir le meilleur taux d'intérêt disponible à tout moment sur un stablecoin donné. En effet, comme il existait de plus en plus d'options pour prêter des stablecoins (Compound, Aave, dYdX, etc.), l'optimisation du rendement est rapidement devenue essentielle.
+La première version de Yearn a débuté par une simple promesse : elle vous permettait d'obtenir le meilleur taux d'intérêt disponible à tout moment sur un stablecoin donné. En effet, comme il existait de plus en plus d'options pour prêter des Stablecoins (Compound, Aave, dYdX, etc.), l'optimisation du rendement est rapidement devenue essentielle.
 
-Yearn v2 a déjà mis sur le marché un nouveau produit, les yVaults : ils vont au-delà de l'optimisation du rendement (rééquilibrage de stablecoins entre plusieurs plateformes de prêt) pour offrir plus de retours. Voyons comment cela fonctionne : 
+Yearn v2 a déjà mis sur le marché un nouveau produit, les yVaults : ils vont au-delà de l'optimisation du rendement (rééquilibrage de Stablecoins entre plusieurs plateformes de prêt) pour offrir plus de retours. Voyons comment cela fonctionne :
 
 ### Perspective de l'utilisateur final : Déposer, attendre, l'argent monte
 
@@ -43,8 +46,8 @@ Note : Les yVaults sont encore très expérimentaux. Assurez-vous que vous savez
 Les yVault sont étonnants parce qu' **ils abstraient une immense complexité pour les utilisateurs,** et le font mieux que la plupart d'entre nous. Pour en revenir au vault yLINK, voici ce qui se passe pour produire les rendements :
 
 1. **Les LINK sont déposés sur Aave** (Délégation de crédit) et utilisés comme garantie pour ouvrir des positions. Les positions sont maintenues dans une fourchette sûre grâce à un mécanisme de sécurité financé sur une fraction des rendements totaux.
-2. **Les stablecoins sont empruntés et mis en œuvre** pour fournir un rendement. La dernière stratégie repose sur le pool Balancer mUSD/USDC MTA.
-3. Tous les rendements réels de la partie stable de la position (les stablecoins gagnés au-dessus de la dette) sont **vendus pour des LINK**, ce qui augmente les rendements effectifs de l'ensemble de la position (-> plus de levier pour emprunter plus).
+2. **Les Stablecoins sont empruntés et mis en œuvre** pour fournir un rendement. La dernière stratégie repose sur le pool Balancer mUSD/USDC MTA.
+3. Tous les rendements réels de la partie stable de la position (les Stablecoins gagnés au-dessus de la dette) sont **vendus pour des LINK**, ce qui augmente les rendements effectifs de l'ensemble de la position (-> plus de levier pour emprunter plus).
 
 Le point critique des yVault est que **ils exploitent les synergies de la DeFi pour fournir des rendements attractifs**. Ils sont conçus pour être flexibles dans l'allocation de leur capital - de sorte qu'ils peuvent facilement être réaffectés pour suivre une stratégie différente avec de meilleurs rendements.
 
@@ -58,16 +61,16 @@ Je vous laisse donc creuser le graphique et rejoindre le [Yearn Discord](https:/
 
 Yearn a dynamité la DeFi. Il faut bien comprendre que Yearn a été rendu possible par les développements survenus au cours de l'année dernière. Yearn exploite les synergies entre plusieurs "DeFi legos". Sans aller trop loin, voici les principaux :
 
-1. **Aave a récemment lancé la fonction de délégation de crédit**, permettant à un smart contract d'emprunter pour le compte d'un autre smart contract. Cette fonctionnalité était nécessaire pour que les yVaults fonctionnent comme ils le font maintenant, car ils permettent la première partie de la plupart des stratégies - obtenir un effet de levier [^2]. 
+1. **Aave a récemment lancé la fonction de délégation de crédit**, permettant à un smart contract d'emprunter pour le compte d'un autre smart contract. Cette fonctionnalité était nécessaire pour que les yVaults fonctionnent comme ils le font maintenant, car ils permettent la première partie de la plupart des stratégies - obtenir un effet de levier [^2].
 2. DEX & Automated Market Makers - en particulier **Curve.fi**, une dépendance évidente pour le vault yCRV.
-3. Le **dynamisme global des marchés des stablecoins**, grâce à de nouveaux entrants tels que mStable ou le lancement du token COMP. 
+3. Le **dynamisme global des marchés des Stablecoins**, grâce à de nouveaux entrants tels que mStable ou le lancement du token COMP.
 
 Yearn est un exemple parfait de la composabilité de DeFi [^3].
 
 
 ### Construire le moins possible et assembler des legos
 
-Pourquoi je me concentre sur ce sujet ? Parce qu'en tant que personne travaillant dans l'espace DeFi depuis deux ans, je peux vous dire que la plus grosse erreur opérationnelle que je vois TOUT LE TEMPS - est simple : **des équipes qui réinventent la roue - en reconstruisant ce qui existe déjà et marche bien**. 
+Pourquoi je me concentre sur ce sujet ? Parce qu'en tant que personne travaillant dans l'espace DeFi depuis deux ans, je peux vous dire que la plus grosse erreur opérationnelle que je vois TOUT LE TEMPS - est simple : **des équipes qui réinventent la roue - en reconstruisant ce qui existe déjà et marche bien**.
 
 Je pense que les projets DeFi (comme la plupart des startups) gagneraient énormément à essayer de réduire activement le périmètre du travail qu'ils entreprennent - voici deux questions efficaces qui devraient être posées plus souvent :
 
@@ -94,12 +97,12 @@ Si je considère et apprécie un processus de gouvernance ouvert comme un net po
 
 ### DeFi/Web3 -> Les Communautés régentent les Marques
 
-Vous n'êtes peut-être pas encore à bord, mais pour moi, construire et développer des communautés - c'est essentiellement ma vie. Au fil des ans, je n'ai pas trouvé de sauce secrète, mais j'ai découvert une vérité évidente : **Communauté >> Marque**. 
+Vous n'êtes peut-être pas encore à bord, mais pour moi, construire et développer des communautés - c'est essentiellement ma vie. Au fil des ans, je n'ai pas trouvé de sauce secrète, mais j'ai découvert une vérité évidente : **Communauté >> Marque**.
 
-Dans le cas de DeFi, j'ai hâte de voir le **clash des marques** auquel nous allons assister : 
+Dans le cas de DeFi, j'ai hâte de voir le **clash des marques** auquel nous allons assister :
 
 * D'une part, les sociétés "corpo" financées par le capital-risque ont tendance à manquer de personnalité et ont plus de mal à soutenir des communautés organiques dynamiques.
-* D'autre part, **un projet communautaire est une histoire qui s'écrit tous les jours**, et quand il s'agit de la "marque" Yearn, nous la voyons se développer rapidement : le swag est déjà là ! 
+* D'autre part, **un projet communautaire est une histoire qui s'écrit tous les jours**, et quand il s'agit de la "marque" Yearn, nous la voyons se développer rapidement : le swag est déjà là !
 
 ![Yearn Finance Swag](/img/2020/yearn-finance-YFI/yearn-swag.png "Le swag Yearn n'a mis que quelques jours à arriver !")
 
@@ -108,9 +111,9 @@ Dans le cas de DeFi, j'ai hâte de voir le **clash des marques** auquel nous all
 
 Yearn est bien plus que les yVaults ! J'ai concentré cet explicatif sur eux pour plus de clarté, mais il y a plusieurs autres produits Yearn en cours de développement. Sans trop s'y attarder, en voici quelques uns qui sont prometteurs :
 
-* **[yBorrow](https://yborrow.finance/)** - une interface de délégation de crédit généralisée utilisant Aave.  Cela permettra à n'importe qui d'accéder à des chambres vaults comme yCRV à partir d'un token ERC-20 de leur choix. 
+* **[yBorrow](https://yborrow.finance/)** - une interface de délégation de crédit généralisée utilisant Aave.  Cela permettra à n'importe qui d'accéder à des chambres vaults comme yCRV à partir d'un token ERC-20 de leur choix.
 * ySwap : un nouveau market maker automatisé
-* Une mystérieuse solution à effet de levier pour optimiser les retours sur stablecoins
+* Une mystérieuse solution à effet de levier pour optimiser les retours sur Stablecoins
 
 
 ### La boîte à outils Yearn
@@ -135,7 +138,7 @@ Certaines communautés font appel à YFI pour créer leur propre système d'inve
 J'ai hâte de voir Yearn grandir !
 
 {{< notice warning >}}
-Les yVaults sont un produit DeFi innovant intégrant de nombreux autres services - les risques de défaillance sont donc multipliés. Je ne suis pas un conseiller financier - vous prenez vos propres décisions. 
+Les yVaults sont un produit DeFi innovant intégrant de nombreux autres services - les risques de défaillance sont donc multipliés. Je ne suis pas un conseiller financier - vous prenez vos propres décisions.
 
 **Je ne suis pas responsable de <u>VOS DÉCISIONS D'INVESTISSEMENT</u>**, ni de leurs résultats. La phrase précédente s'applique tout aussi bien pour des lambos que votre potentielle banqueroute.
 {{< /notice >}}
@@ -152,6 +155,6 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 {{< /notice >}}
 
 [^2]: [Voici Stani (le PDG d'Aave) qui vous explique pourquoi c'est si important](https://twitter.com/StaniKulechov/status/1280500969986498561?s=20)
-[^3]: André lui-même est [le premier à reconnaître](https://twitter.com/AndreCronjeTech/status/1290845154430025731?s=20) ce qui a rendu Yearn possible et l'importance de la composabilité. 
+[^3]: André lui-même est [le premier à reconnaître](https://twitter.com/AndreCronjeTech/status/1290845154430025731?s=20) ce qui a rendu Yearn possible et l'importance de la composabilité.
 [^4]: La gouvernance du protocole est maintenant entre les mains du détenteur de YFI. L'accès aux principaux contrats est détenu par un multi-sign, [André n'a pas de clé](https://twitter.com/AndreCronjeTech/status/1285427748761198594?s=20).
 [^5]: ["Si vous clonez YFI (vous êtes les bienvenues), changez au moins quelques paramètres afin que nous puissions apprendre de l'experience. Répéter la même chose en boucle n'est pas drôle."](https://twitter.com/AndreCronjeTech/status/1289959986190147585?s=20)

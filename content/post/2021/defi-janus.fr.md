@@ -1,9 +1,10 @@
 ---
 title: "Janus : le nouvel ennemi juré des protocoles DeFi ?"
-description: "Au sein de la finance décentralisée, véritable laboratoire à ciel ouvert, les enjeux de gouvernance sont complexes et souvent contradictoires. Dans cet article, j'examine les potentiels antagonismes entre les utilisateurs d'un protocole donné et les possesseurs du token natif."
+description: "Essai sur les tensions de gouvernance DeFi entre utilisateurs, detenteurs de tokens, protocoles et incentives contradictoires."
 date: '2021-07-05T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Thesis]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Liquity, Curve Finance, CRV, MakerDAO, Convex, CVX, Yearn Finance, Uniswap]
+tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, MakerDAO, Convex, CVX, Yearn, Uniswap]
 toc: true
 tocNum: true
 url: defi-janus
@@ -27,9 +28,9 @@ L'émergence de protocoles Janus dans la situation actuelle est due à de nombre
 
 La gouvernance des protocoles DeFi se fait **de manière ouverte et transparente**, en plusieurs étapes.
 
-Au fil des discussions sur différents supports comme Discord, la communauté converge vers différentes idées qui peuvent aboutir à des propositions. Les propositions sont formalisées, généralement sur les forums de gouvernance et amendées avant d'atteindre un **consensus informel**. 
+Au fil des discussions sur différents supports comme Discord, la communauté converge vers différentes idées qui peuvent aboutir à des propositions. Les propositions sont formalisées, généralement sur les forums de gouvernance et amendées avant d'atteindre un **consensus informel**.
 
-Des mécanismes de **signalement** (Snapshot) permettent d'identifier les propositions les plus pertinentes. Elles sont par la suite **soumises au vote des détenteurs des tokens** via le mécanisme de gouvernance principal. 
+Des mécanismes de **signalement** (Snapshot) permettent d'identifier les propositions les plus pertinentes. Elles sont par la suite **soumises au vote des détenteurs des tokens** via le mécanisme de gouvernance principal.
 
 La plupart des systèmes de gouvernance fonctionnent encore sur la logique du **1 token = 1 vote**, attribuant ainsi le même poids à tous les possesseurs de tokens quelque soit leur attitude vis-à-vis du projet ou niveau d'engagement par rapport à celui-ci.
 
@@ -43,9 +44,9 @@ Malgré tout, la **participation est généralement basse**, même lorsque des m
 
 ### Complexité des décisions
 
-Pour évaluer des propositions de gouvernance d'un protocole de finance décentralisée, il faut avoir **une compréhension de tout un ensemble de notions de base relative à Ethereum**, la blockchain et la DeFi.
+Pour évaluer des propositions de gouvernance d'un protocole de finance décentralisée, il faut avoir **une compréhension de tout un ensemble de notions de base relative à Ethereum**, la Blockchain et la DeFi.
 
-À partir de là, il faut idéalement une compréhension approfondie du protocole en question, ainsi que ses **interactions avec les autres protocoles, synergies**, etc. On peut également désormais rajouter à cela toute la complexité additionnelle liée à la multiplication des solutions de scalabilité : sidechains et L2.[^mkrgov] 
+À partir de là, il faut idéalement une compréhension approfondie du protocole en question, ainsi que ses **interactions avec les autres protocoles, synergies**, etc. On peut également désormais rajouter à cela toute la complexité additionnelle liée à la multiplication des solutions de scalabilité : sidechains et L2.[^mkrgov]
 
 En outre, la formulation des propositions sur les forums de gouvernance est généralement assez technique, ce qui **rend leur compréhension** difficile et ouvre la porte aux manipulations.
 
@@ -59,7 +60,7 @@ Un membre du forum de gouvernance MakerDAO a estimé son travail hebdomadaire de
 
 Bien que la gouvernance soit ouverte et transparente, **elle s'appuie encore souvent sur différents services propriétaires et donc administrés,** le plus souvent par l'équipe elle-même. Cela pose de sérieux problèmes.
 
-Ainsi, les discussions relatives à la gouvernance se font généralement sur Discord et sur le forum de gouvernance - les **deux supports sont généralement modérés directement par l'équipe du projet**. 
+Ainsi, les discussions relatives à la gouvernance se font généralement sur Discord et sur le forum de gouvernance - les **deux supports sont généralement modérés directement par l'équipe du projet**.
 
 En outre, l'équipe peut avoir **un contrôle sur les mécanismes de signalement** comme [Snapshot](https://snapshot.org/). Le cumul de toutes ces limitations des systèmes de gouvernance décentralisée peut amener aux situations observées dernièrement, où les possesseurs de tokens ne votent pas dans leurs meilleurs intérêts.
 
@@ -86,11 +87,11 @@ Finalement, la proposition se veut plus large qu'Uniswap puisqu'ils sont officie
 
 ### Transparence ? Peut être. Contrôle ? Non !
 
-Après les réactions aux premières itérations de la proposition, différents mécanismes ont été ajoutés pour apporter plus de transparence sur les agissements du DeFi Education Fund. L'équipe s'est également engagée à implémenter [FailSafe](https://github.com/withtally/safeguard) dès que possible. Cela permettrait à la DAO (holdeurs UNI) de pouvoir exercer un veto sur les transactions réalisées par le multisig. 
+Après les réactions aux premières itérations de la proposition, différents mécanismes ont été ajoutés pour apporter plus de transparence sur les agissements du DeFi Education Fund. L'équipe s'est également engagée à implémenter [FailSafe](https://github.com/withtally/safeguard) dès que possible. Cela permettrait à la DAO (holdeurs UNI) de pouvoir exercer un veto sur les transactions réalisées par le multisig.
 
 Néanmoins à l'heure d'aujourd'hui **le contrôle effectif de la DAO reste limité** : le vote est passé et [les 1M UNI sont désormais alloués](https://etherscan.io/address/0x1C95930Dfc1139381265ce45B5f480F1EFae09A1).
 
-Edit du 17 Juillet : peu après avoir reçu les fonds, le multisig [a déjà vendu la moitié de ceux-ci](https://thedefiant.io/sale-of-usdc-raises-concerns-regarding-newly-formed-defi-education-fund/) pour des stablecoins qui restent encore dans le wallet pour l'instant.
+Edit du 17 Juillet : peu après avoir reçu les fonds, le multisig [a déjà vendu la moitié de ceux-ci](https://thedefiant.io/sale-of-usdc-raises-concerns-regarding-newly-formed-defi-education-fund/) pour des Stablecoins qui restent encore dans le wallet pour l'instant.
 
 Cet épisode correspond pour moi à l'équivalent d'un détournement de fonds publics, sauf qu'ici les fonds proviennent d'une DAO. L'aventure et ses péripéties mettent également en lumière le pouvoir effectif exercé par les différentes parties prenantes du protocole.
 
@@ -98,7 +99,7 @@ Cet épisode correspond pour moi à l'équivalent d'un détournement de fonds pu
 
 Le problème avec Maker est plus général et remonte bien plus loin. C'est un problème courant en DeFi d'alignement d'intérêts divergents de différents participants. En outre, pour répondre rapidement à la demande grandissante pour le DAI, **la multiplication des collatéraux (mise à jour MCD) a grandement impacté la trustlessness et la décentralisation effective de DAI.**
 
-Plus de 60% des garanties du DAI sont des tokens qui nécessitent une forme de confiance comme USDC, wBTC ou TUSD. Le problème existe depuis longtemps et n'est pas prêt de se résoudre, si jamais. J'ai déjà discuté de ce problème sur ce blog, je vous renvoie vers cet article : 
+Plus de 60% des garanties du DAI sont des tokens qui nécessitent une forme de confiance comme USDC, wBTC ou TUSD. Le problème existe depuis longtemps et n'est pas prêt de se résoudre, si jamais. J'ai déjà discuté de ce problème sur ce blog, je vous renvoie vers cet article :
 **[Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?](https://tokenbrice.xyz/fr/actifs-stables-ethereum/)**
 
 ### Des frais d'utilisation abusifs
@@ -120,9 +121,9 @@ Les frais de MakerDAO sont habituellement élevés, même s'ils ont été à zé
 
 La conception même du protocole incite ainsi les possesseurs de MKR à voter pour **extraire les frais maximaux tolérés par les utilisateurs**, et pas un centime de moins. En effet, chaque point de base[^bps] en frais supplémentaire se traduit par plus de MKR brûlés et donc à priori un capital qui s'apprécie pour les possesseurs du token.
 
-Ça peut sembler fabuleux en termes de tokenomics car cela optimise pour le meilleur prix possible sur MKR (théoriquement), mais **cela se fait au détriment des utilisateurs du service** que la plateforme propose - et donc va contre l'intérêt long-terme du protocole. 
+Ça peut sembler fabuleux en termes de tokenomics car cela optimise pour le meilleur prix possible sur MKR (théoriquement), mais **cela se fait au détriment des utilisateurs du service** que la plateforme propose - et donc va contre l'intérêt long-terme du protocole.
 
-Il faut également garder en tête que contrairement à la plupart des protocoles, Maker n'a jamais mis en place de mécanisme pour transformer ses utilisateurs en holdeurs (liquidity mining). Je vois donc difficilement comment Maker peut être compétitif avec une telle structure. 
+Il faut également garder en tête que contrairement à la plupart des protocoles, Maker n'a jamais mis en place de mécanisme pour transformer ses utilisateurs en holdeurs (liquidity mining). Je vois donc difficilement comment Maker peut être compétitif avec une telle structure.
 
 ## Le cas ambigu de Yearn Finance
 
@@ -137,14 +138,14 @@ Le succès de Yearn s'obtient à quel prix ? Encore une fois, essentiellement **
 1. Yearn prend **2% de frais de gestion annuel sur l'ensemble du dépôt**.
 2. Yearn prélève également un frais sur la performance de 20% : 20% de tous les actifs farmés partent vers la trésorerie.[^yearnfrais]
 
-Les premier frais est le plus problématique puisque cela signifie que les frais excessivement gourmands de Yearn amène à des vaults qui… perdent de l'argent ! 
+Les premier frais est le plus problématique puisque cela signifie que les frais excessivement gourmands de Yearn amène à des vaults qui… perdent de l'argent !
 
 En effet, tout vault qui ne réalise pas au minimum 2% de retour annuel sur Yearn finit dans le rouge une fois les frais de gestion prélevés, sans même prendre en compte les frais de performance...
 
 
 ### Coté protocoles : le câlin de la mort de Yearn
 
-Yearn permet à ses utilisateurs de farmer différents protocoles comme Curve en gérant automatiquement la composition de leurs rendements. 
+Yearn permet à ses utilisateurs de farmer différents protocoles comme Curve en gérant automatiquement la composition de leurs rendements.
 
 C'est pratique pour l'utilisateur, mais cela signifie également que **Yearn vend systématiquement tous les tokens farmés** par ses vaults : on peut donc se poser la question de l'impact et de la pertinence pour le protocole farmé, qui subit donc une pression vendeuse sur son token natif.
 
@@ -161,7 +162,7 @@ _Aperçu des veCRV possédés par les différentes DAO - source [Dune Analytics 
 
 Malgré cette situation fondamentale assez inquiétante puisque Yearn propose désormais des **produits essentiellement non compétitifs** (tous les vaults Curve), Yearn se présente comme un des succès incontestables de la DeFi.
 
-En effet, l'équipe semble mesurer le succès du protocole au volume des frais prélevés par celui-ci. L'indicateur est évidemment dangereux puisqu'avec les frais de gestion à 2% annuel, tout dépôt sur Yearn paie systématiquement des frais même si peu ou pas de profit n'est dégagé. 
+En effet, l'équipe semble mesurer le succès du protocole au volume des frais prélevés par celui-ci. L'indicateur est évidemment dangereux puisqu'avec les frais de gestion à 2% annuel, tout dépôt sur Yearn paie systématiquement des frais même si peu ou pas de profit n'est dégagé.
 
 Plutôt que de prendre les frais prélevés comme un indicateur et donc une mesure de succès, le protocole pourrait être optimisé sur la base des profits générés pour les déposants.
 
@@ -179,7 +180,7 @@ En outre, là où Convex travaille à permettre aux holdeurs cvxCRV de voter dan
 
 Maintenant qu'on a posé le décor avec trois Janus, reste la question de leur défendabilité. Tous les trois ont des alternatives crédibles, souvent plus récentes et avec des tokenomics plus équilibrées. Voyons donc comment nos Janus évoluent par rapport à celles-ci.
 
-En à peine deux mois d'existence, Convex a déjà dépassé Yearn en termes de valeur totale des actifs déposés. Pour l'instant, les réactions de Yearn n'ont pas réussi à inverser la tendance, et je pense que **seule une révision profonde du modèle permettra au protocole de rester compétitif sur le long-terme**. 
+En à peine deux mois d'existence, Convex a déjà dépassé Yearn en termes de valeur totale des actifs déposés. Pour l'instant, les réactions de Yearn n'ont pas réussi à inverser la tendance, et je pense que **seule une révision profonde du modèle permettra au protocole de rester compétitif sur le long-terme**.
 
 Néanmoins **la machine est lancée** : Convex possède déjà plus de deux fois plus de CRV que Yearn et en accumule bien plus rapidement. Et même si Yearn farme de nombreux autres protocoles, il me semble improbable qu'il puisse redevenir compétitif sur Curve.
 
@@ -191,7 +192,7 @@ Sur Liquity, les frais d'emprunt sont bien plus bas, plus clairs, et distribués
 
 Enfin pour Uniswap, la concurrence est encore plus vive. Le protocole évolue face à des tokenomics matures comme Curve qui a un mécanisme de partage des revenus du protocoles actif depuis bientôt un an, tandis que rien n'est encore proposé sur UNI.
 
-Sur les trois fronts, je pense que la situation forcera Uniswap, Maker et Yearn à se renouveler. Néanmoins avec le rythme de l'industrie, l'étau se resserre et leurs alternatives plus ouvertes, efficaces et synergiques gagnent rapidement du terrain. 
+Sur les trois fronts, je pense que la situation forcera Uniswap, Maker et Yearn à se renouveler. Néanmoins avec le rythme de l'industrie, l'étau se resserre et leurs alternatives plus ouvertes, efficaces et synergiques gagnent rapidement du terrain.
 
 Alors que les DAO des trois protocoles se sont désynchronisées de leurs utilisateurs, le meilleur intérêt de ceux-ci leur a été rappelé de la manière la plus simple et efficace que l'on connaisse : avec des mouvements de capitaux conséquents. J'ai hâte de voir ce qui arrive ensuite !
 
@@ -199,5 +200,5 @@ _🙏 Un grand merci à HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com
 
 [^mkrgov]: Regardez par exemple [cette pré-proposition prise au hasard sur le forum de gouvernance de MakerDAO](https://forum.makerdao.com/t/mip33-maker-stability-price-module/5943)
 [^yearnfrais]: [Documentation Yearn Finance - Structure des frais](https://docs.yearn.finance/yearn-finance/yvaults/overview#yvault-fee-structure)
-[^makerclientelecaptive]: DAI est encore perçu par beaucoup comme un stablecoin décentralisé qui ne nécessite pas de confiance, bien que ce ne soit plus le cas. Il existe encore peu de stablecoins qui ne s'appuient que sur des collatérals trustless (ETH) et crédiblement décentralisés (ou en voie) : j'en connais deux - le LUSD de Liquity et le RAI de Reflexer.
+[^makerclientelecaptive]: DAI est encore perçu par beaucoup comme un stablecoin décentralisé qui ne nécessite pas de confiance, bien que ce ne soit plus le cas. Il existe encore peu de Stablecoins qui ne s'appuient que sur des collatérals trustless (ETH) et crédiblement décentralisés (ou en voie) : j'en connais deux - le LUSD de Liquity et le RAI de Reflexer.
 [^bps]: Les frais des services financiers sont souvent mesurés en point de base (bps / basis point). Un point de base est un centième de pourcent : 1 bps = 0,01%.

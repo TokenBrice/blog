@@ -1,9 +1,10 @@
 ---
-title: "DeFi France X : De la ferme à la mine" 
+title: "DeFi France X : De la ferme à la mine"
 description: "Retour sur l'évènement DeFi France X : le programme, la vidéo et les slides."
 date: '2020-10-01T10:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects]
-tags: [DeFi, Ethereum, Compound, Yean Finance, Curve, SushiSwap, Uniswap]
+tags: [DeFi, Ethereum, Compound, Yearn Finance, Curve, SushiSwap, Uniswap]
 image: /img/others/defi-france/defifranceX.png
 difficulty: "beginner"
 url: dff-meetup-x
@@ -49,6 +50,6 @@ Tous les meetups sont accessibles sur la **[chaine YouTube DeFi France](https://
 
 Pour revoir cette édition, c'est par ici : **[🎥 DeFi France X : De la ferme à la mine](https://youtu.be/rf6WGKNg_vA?t=331)**
 
-[Les slides sont disponibles en PDF par-là.](/others/defi-franceX.pdf) 
+[Les slides sont disponibles en PDF par-là.](/others/defi-franceX.pdf)
 
 Un grand merci à tous les participants !

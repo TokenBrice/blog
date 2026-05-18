@@ -1,9 +1,10 @@
 ---
 title: "How to build an inflation-proof DeFi portfolio?"
-description: "What if DeFi, more than ever, offered serious and credible answers to economic and financial issues? Example with the galloping inflation and the various products and strategies DeFi offers to guard against it."
+description: "How DeFi strategies and products can respond to inflation, with practical examples and limits for onchain users."
 date: '2022-03-09T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Yield]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX, Stablecoin]
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX]
 toc: true
 tocNum: false
 url: defi-vs-inflation
@@ -12,7 +13,7 @@ difficulty: "beginner"
 ---
 
 
-Inflation is more than ever at the center of discussions and concerns: no one understands much about it, no economist has really anticipated it, but we all have an opinion about it. 
+Inflation is more than ever at the center of discussions and concerns: no one understands much about it, no economist has really anticipated it, but we all have an opinion about it.
 
 Today, we leave economics and politics aside to focus on what matters for your wallet: in decentralized finance, all kinds of protocols are developed, and a good part of them **provide credible and innovative tools to preserve and develop the purchasing power of a portfolio**, even when the macroeconomic context is most uncertain.
 
@@ -20,7 +21,7 @@ I propose to evaluate strategies involving different assets and protocols, all w
 
 ## α/ Tutorial: Understanding the impact of inflation on a crypto portfolio
 
-I won't venture into the details of inflation for fiat currencies here, but the basic concept is known to anyone familiar with cryptocurrencies. 
+I won't venture into the details of inflation for fiat currencies here, but the basic concept is known to anyone familiar with cryptocurrencies.
 
 Before we get into the nitty-gritty, let's start with the term: here is how the INSEE (Institut National de la Statistique et des Études Économiques) defines inflation:
 
@@ -35,7 +36,7 @@ Inflation corresponds to the production of new money, the important thing is not
 
 
 
-1. The central bank of country A issues a large amount of money in order to invest massively in its transport infrastructure and its energy supply (= long-term investments). 
+1. The central bank of country A issues a large amount of money in order to invest massively in its transport infrastructure and its energy supply (= long-term investments).
 
 _Here, inflation can be controlled because the new money issued is used to finance investments that develop the country's economic potential in the long run (-> compensation)._
 
@@ -62,7 +63,7 @@ To compare with crypto, many are concerned about inflation / new token issuance 
 
 
 
-I'm no economist, but I know my shitcoins. The official US inflation figure we are given is 7.5% per year. Like unemployment figures, it's a highly political metric that's hard to really appreciate. 
+I'm no economist, but I know my shitcoins. The official US inflation figure we are given is 7.5% per year. Like unemployment figures, it's a highly political metric that's hard to really appreciate.
 
 The 7.5% figure may seem high, but it is still low when compared to the unprecedented money creation to deal with Covid. So I expect to see this inflation rise further, or else to be sustained over an extended period of a decade.
 
@@ -115,7 +116,7 @@ Here it is at [Frax Finance](https://frax.finance/), the prime rate (x1) is just
 
 The effective return on a position locked in for three years corresponds to about 3 times our minimum target, thus offering a credible protection against the loss of value due to the consequences of inflation, but you still have to be able to assume the three-year commitment.
 
-The example is taken here on DAI, but the situation is similar on the other major stablecoins; for example, here are the FRAX/USDC pools:
+The example is taken here on DAI, but the situation is similar on the other major Stablecoins; for example, here are the FRAX/USDC pools:
 
 ![FRAX/USDC LP opportunities](/img/2022/defi-vs-inflation/frax-usdc.png "LP opportunities on FRAX/USDC")
 
@@ -127,7 +128,7 @@ Convex for Frax is coming (optimizing Frax LP farming via Convex), if you don't 
 
 To beat that famous 10% return on the dollar, there are still many other options. I present you one last one here to help you consider the other possible strategies.
 
-For this one, we rely on [APWine](https://apwine.fi/), a protocol that allows the tokenization of future yields on productive assets. The principle is both simple and complex: depositing an asset on APWine allows to separate its future yield (FYT: Future Yield Token) from the underlying principal (PT: Principal Token). 
+For this one, we rely on [APWine](https://apwine.fi/), a protocol that allows the tokenization of future yields on productive assets. The principle is both simple and complex: depositing an asset on APWine allows to separate its future yield (FYT: Future Yield Token) from the underlying principal (PT: Principal Token).
 
 From there, different strategies are possible, such as immediately selling the future yield (FYT) in order to increase the quantity of the productive principal. Such a tool enables better risk management considering the volatily of yields observed in DeFi
 
@@ -160,29 +161,29 @@ The third winelisting (where the next tokens supported on APWine are decided) ha
 APWine is still a young protocol, but the governance is dynamic. The next step is approaching: as on Curve, it will soon be the veAPW holders (locked APW) that [will decide on emissions](https://gov.apwine.fi/t/apgp-2-enable-gauges-for-apw-rewards/171) for each given vault. A redistribution of the cards is to be expected, plan ahead.
 
 
-## II/ Hedged productive positions with various "alternative" stablecoins
+## II/ Hedged productive positions with various "alternative" Stablecoins
 
-We have stayed for now on the dollar, it's easier to begin with. Although dollar stablecoins are still largely dominant, there are now **many stablecoins based on other fiat currencies** such as EUR, JPY (Japanese Yen), CHF (Swiss Franc), KRW (Korean Won) or even CAD (Canadian Dollar).
+We have stayed for now on the dollar, it's easier to begin with. Although dollar Stablecoins are still largely dominant, there are now **many Stablecoins based on other fiat currencies** such as EUR, JPY (Japanese Yen), CHF (Swiss Franc), KRW (Korean Won) or even CAD (Canadian Dollar).
 
-Besides the few centralized stablecoins (EURS or EURT), this market is mostly covered by protocols that offer to create synthetic stablecoins backed by other stablecoins. This is the case for example with [Jarvis Network](https://jarvis.network/), which uses USDC to collateralize different types of stablecoins: jEUR, jCHF, jKRW, etc.
+Besides the few centralized Stablecoins (EURS or EURT), this market is mostly covered by protocols that offer to create synthetic Stablecoins backed by other Stablecoins. This is the case for example with [Jarvis Network](https://jarvis.network/), which uses USDC to collateralize different types of Stablecoins: jEUR, jCHF, jKRW, etc.
 
 
 ### Single deposit
 
-Yield opportunities with no/low IL for such stablecoins are still quite rare, and usually found on Curve: providing liquidity against other stablecoins based on the same fiat currency, if any.
+Yield opportunities with no/low IL for such Stablecoins are still quite rare, and usually found on Curve: providing liquidity against other Stablecoins based on the same fiat currency, if any.
 
 ![CHF pool on Curve Finance](/img/2022/defi-vs-inflation/curve-chf.png "A CHF pool on Curve Finance")
 
 
-Only a few stablecoins have lucrative single deposit options jEUR, jCHF, jJPY. They are based on the corresponding Curve pools, with additional incentives offered by Jarvis and other projects.
+Only a few Stablecoins have lucrative single deposit options jEUR, jCHF, jJPY. They are based on the corresponding Curve pools, with additional incentives offered by Jarvis and other projects.
 
 Via Jarvis (also available farmed by Harvest), it is also possible to generate a return without IL on jCAD and jJPY.
 
 ### FiatA/FiatB Liquidity Providing
 
-However, there is a slightly different approach, more risky, but also potentially more protective against inflation: providing liquidity on two stablecoins representing two different fiat currencies, for example EURT/3pool (USD) still on Curve.
+However, there is a slightly different approach, more risky, but also potentially more protective against inflation: providing liquidity on two Stablecoins representing two different fiat currencies, for example EURT/3pool (USD) still on Curve.
 
-More interestingly, especially for smaller portfolios, many alternative stablecoins are available on Polygon or Avalanche, with a fairly dense ecosystem.
+More interestingly, especially for smaller portfolios, many alternative Stablecoins are available on Polygon or Avalanche, with a fairly dense ecosystem.
 
 Jarvis offers jCHF-USDC, jEUR-USDC or jCAD-USDC pools with returns above 20%. Tools like [Harvest.Finance](https://harvest.finance/) or [Beefy.Finance](https://beefy.finance/) can also be used to automatically compose the returns obtained:
 
@@ -207,7 +208,7 @@ Again, the addition of tokens voted during winelisting 3 will open new doors wit
 
 ### Forex Borrowing
 
-Finally, if liquidations don't scare you, know that a Fuse pool on Polygon ([Pool7 - Jarvis Forex Market](https://polygon.market.xyz/pool/7)) allows you to use different jFiat as collateral as well as to borrow. 
+Finally, if liquidations don't scare you, know that a Fuse pool on Polygon ([Pool7 - Jarvis Forex Market](https://polygon.market.xyz/pool/7)) allows you to use different jFiat as collateral as well as to borrow.
 
 ![Fuse pool 7](/img/2022/defi-vs-inflation/fuse-pool7.png "Jarvis Forex Market (Fuse/Polygon/Pool7)")
 
@@ -220,12 +221,12 @@ With such a service, almost anything is possible, here are some examples to insp
 * Short GBP via CHF = jCHF in collateral, borrow jGBP then sell and potential loop.
 
 {{< notice tip >}}
-Also note that the productive stablecoins m2CAD and m2JPY are available as collateral while keeping their yield: they can be interesting for more traditional leverage strategies.
+Also note that the productive Stablecoins m2CAD and m2JPY are available as collateral while keeping their yield: they can be interesting for more traditional leverage strategies.
 {{< /notice >}}
 
 ### Finding your balance
 
-More than just one magic position, what I like about Jarvis stablecoins is the ability to **diversify easily into different types of fiat currencies**. Thanks to the low transaction fees on Polygon, it is quite possible to mix several different currencies and positions to make a coherent whole and well protected against its local inflation. 
+More than just one magic position, what I like about Jarvis Stablecoins is the ability to **diversify easily into different types of fiat currencies**. Thanks to the low transaction fees on Polygon, it is quite possible to mix several different currencies and positions to make a coherent whole and well protected against its local inflation.
 
 For example, for a European (= spending €):
 
@@ -236,19 +237,19 @@ For example, for a European (= spending €):
 * 20% in stable productive dollar (e.g. aUSDT APWine strategy)
 * & Diversification: 15% jCHF/USDC + 15% jGBP/USDC
 
-Finally, while we're on the subject of "exotic" stablecoins, you should know that there are also a few that track gold or silver - they can be relevant from this perspective too. For example XAUT (with Pool Curve XAUT/3crv). Gold and silver remain ~~barbaric~~ boomers' relics, personally I see very little interest in them for a competent DeFian.
+Finally, while we're on the subject of "exotic" Stablecoins, you should know that there are also a few that track gold or silver - they can be relevant from this perspective too. For example XAUT (with Pool Curve XAUT/3crv). Gold and silver remain ~~barbaric~~ boomers' relics, personally I see very little interest in them for a competent DeFian.
 
 
-## III/ Inflation resistant stablecoins
+## III/ Inflation resistant Stablecoins
 
-Beating inflation is nice. Hedging it? Even better. But **why not just abstract it**, using products that are naturally resistant to it? There are still very few stablecoins that are not tracking fiat currencies, but the supply is growing rapidly.
+Beating inflation is nice. Hedging it? Even better. But **why not just abstract it**, using products that are naturally resistant to it? There are still very few Stablecoins that are not tracking fiat currencies, but the supply is growing rapidly.
 
 
 ### RAI, the first dollar-free stablecoin
 
 RAI is a strange beast, the very first "unpegged stablecoin." Launched at a value of Pi in USD (3.14) in 2021, it has been moving between 3.02 and 3.06 almost since its launch. Given its recent arrival (just over a year), it's hard to see how RAI will perform in a period of prolonged inflation.
 
-Still, diversifying a portion of your stablecoins into RAI may be an attractive option. In addition, there are different return options available on RAI:
+Still, diversifying a portion of your Stablecoins into RAI may be an attractive option. In addition, there are different return options available on RAI:
 
 
 
@@ -268,8 +269,8 @@ RAI is based on a mechanism inspired by Maker MCD but with many modifications to
 
 ### 🚧 An inflation-resistant stablecoin? The FRAX FPI
 
-The Frax Price Index is a new protocol that should arrive soon within the Frax ecosystem. The goal is to offer a new stablecoin, which would follow the CPI (Consumer Price Index) to protect against inflation. Just like Frax, **the system is based on two tokens**: 
-1. the stable - Frax Price Index (FPI) 
+The Frax Price Index is a new protocol that should arrive soon within the Frax ecosystem. The goal is to offer a new stablecoin, which would follow the CPI (Consumer Price Index) to protect against inflation. Just like Frax, **the system is based on two tokens**:
+1. the stable - Frax Price Index (FPI)
 2. and the governance token - Frax Price Index Share (FPIS).
 
 [Frax documentation](https://docs.frax.finance/frax-price-index/inflation-hedge) offers some information about the upcoming token. **An airdrop of FPIS is planned** for veFXS or cvxFXS holders. Thus, the protocol will be independent of FRAX/FXS, although a value capture mechanism to FXS is planned beyond the initial airdrop.
@@ -283,13 +284,13 @@ Nevertheless, the arrival of the FPI is imminent. Traces of the token [FPIS on E
 
 Alongside Frax's FPI, there is another project I've been following closely, waiting for a long time and holding high hopes for. The high-level concept is very simple: an Abracadabra-like product that would not be a walking security loophole.
 
-Indeed, Abracadabra allows borrowing from various productive collaterals, which makes the service desirable. Nevertheless, the infrastructure is close to a hack and the actions of the team members make Abracadabra a second or third grade money market. 
+Indeed, Abracadabra allows borrowing from various productive collaterals, which makes the service desirable. Nevertheless, the infrastructure is close to a hack and the actions of the team members make Abracadabra a second or third grade money market.
 
 The idea here, with Volt, is to cover the same vertical using a proven infrastructure: the base offered by Reflexer (RAI). Three main changes are expected on this model:
 
 
 
-1. Unlike Reflexer, which only accepts ETH as collateral, Volt will diversify the available options, notably with productive collateral such as wstETH. 
+1. Unlike Reflexer, which only accepts ETH as collateral, Volt will diversify the available options, notably with productive collateral such as wstETH.
 2. The value of VOLT, the system's stablecoin, will be indexed to Frax's FPI. The Reflexer infrastructure will be reused (PID controller adapted)
 3. The Volt team is also working in collaboration with Fuse and Olympus.
 
@@ -307,7 +308,7 @@ There are a few of them, very few. We will detail them one by one, as well as th
 
 ### ETH: the origin and the end
 
-There is of course ETH, which has many different sources of return - just like stablecoins, there is nothing to stop you from diversifying your ETH exposure with several sources of return, for example:
+There is of course ETH, which has many different sources of return - just like Stablecoins, there is nothing to stop you from diversifying your ETH exposure with several sources of return, for example:
 
 
 
@@ -376,7 +377,7 @@ Last tip: the stakers of the FLX/ETH LP in the Reflexer Safety Module are the la
 Think of LOOKS as an option on the NFT market. In fact, LooksRare is the first NFT marketplace that shares revenue. This translates into **an ETH yield for stakers on LOOKS that reached 3 digits sustained during the first few weeks**.
 
 
-![ETH yields on LOOKS staking](/img/2022/defi-vs-inflation/looks-eth-farm.jpeg "Yields of ~69,000 LOOKS staked during the first two weeks of the protocol") 
+![ETH yields on LOOKS staking](/img/2022/defi-vs-inflation/looks-eth-farm.jpeg "Yields of ~69,000 LOOKS staked during the first two weeks of the protocol")
 
 Since then, trading volume has dropped and the ETH yield with it, but **the staking LOOKS is still one of the biggest ETH yields out there**.
 
@@ -394,7 +395,7 @@ For further reading, here are some recommended related articles:
 
 
 
-1. [Understanding the Curve Wars](https://tokenbrice.xyz/crv-wars/) 
+1. [Understanding the Curve Wars](https://tokenbrice.xyz/crv-wars/)
 2. [Understanding the Reflexer RAI model](https://tokenbrice.xyz/reflexer-rai/)
 
 And finally, for the practice, which remains ESSENTIAL, your best bet to warm up is to try with small amounts on inexpensive sidechains/L2:
@@ -407,7 +408,7 @@ And finally, for the practice, which remains ESSENTIAL, your best bet to warm up
 
 
 {{< notice info >}}
-Disclosure: I have invested in APWine pre-sale and I am a big user of the protocol. I am a user and frequent holder of almost all the protocols mentioned in this article. 
+Disclosure: I have invested in APWine pre-sale and I am a big user of the protocol. I am a user and frequent holder of almost all the protocols mentioned in this article.
 
 This article does not constitute investment advice, I'm just sharing my research to help you do yours!
 {{< /notice >}}

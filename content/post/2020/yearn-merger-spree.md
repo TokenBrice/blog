@@ -2,8 +2,11 @@
 title: "Yearn Finance's Merger Spree"
 description: "Yearn has joined forces with several DeFi projects. What does it mean for its ecosystem?"
 date: '2020-12-09T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, SushiSwap]
+tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, SushiSwap]
+series: yearn
+series_order: 2
 image: /img/2020/yearn-merger/y-among-us.gif
 difficulty: "intermediate"
 url: yearn-finance-mergers
@@ -11,7 +14,7 @@ url: yearn-finance-mergers
 
 Yearn Finance has been making headlines lately with the announcement of **several acquisitions** like Pickle Finance or SushiSwap. The Yearn team has joined its development forces with five other DeFi projects already.
 
-To grasp what's happening, we'll look back at the main events since September and how each of the different sub-projects is now working to achieve a shared goal. While Yearn is still relatively new, there are already many chapters to its story. 
+To grasp what's happening, we'll look back at the main events since September and how each of the different sub-projects is now working to achieve a shared goal. While Yearn is still relatively new, there are already many chapters to its story.
 
 So to better understand the latest events - the merger spree, let's first quickly consider the three phases of Yearn's development and how they led to today:
 
@@ -29,7 +32,7 @@ Initially, Yearn was focusing on its own products, the main ones being the vault
 
 The direction was not exactly clear back then. Indeed, there were many products being worked on, such as yBorrow, ySwap, yinsure, or the [Eminence exploit](https://decrypt.co/43292/eminence-finance-exploit-leads-to-degen-soul-searching). However, the core product, the vaults saw little improvement.
 
-During the last few months, the vision for Yearn's development evolved. Instead of an inward-facing plan focused on the ecosystem, the Yearn team started to look outward. At the same moment, Yearn's DAO was structuring its processes and [formalized operations fundings](https://gov.yearn.finance/t/yip-54-formalize-operations-funding/7956). 
+During the last few months, the vision for Yearn's development evolved. Instead of an inward-facing plan focused on the ecosystem, the Yearn team started to look outward. At the same moment, Yearn's DAO was structuring its processes and [formalized operations fundings](https://gov.yearn.finance/t/yip-54-formalize-operations-funding/7956).
 
 It leads to the current merger phase - joining development efforts with other DeFi projects on relevant areas of expertise. Token-wise, nothing is changed, each project keeps its own token and sovereignty over it. So let's have a look at them.
 
@@ -100,7 +103,7 @@ While this merger spree is a **massive increase in Yearn's firepower**, it's als
 
 There are now so many mergers announced that CoinGecko created a category to track them: [🦎YFI Partnerships & Mergers Coins by Market Capitalization](https://www.coingecko.com/en?category_id=yearn-yfi-partnerships-mergers&view=market).
 
-In DeFi, composability is key and Yearn is yet another demonstration of what it can achieve. Indeed, there is one last dimension to stress with these mergers: liquidity. 
+In DeFi, composability is key and Yearn is yet another demonstration of what it can achieve. Indeed, there is one last dimension to stress with these mergers: liquidity.
 
 ![Yearn-Merger-TVL-Overview](/img/2020/yearn-merger/yearn-merger-tvl.png "Overview of the mergers in terms of TVL, expressed in millions of $")
 

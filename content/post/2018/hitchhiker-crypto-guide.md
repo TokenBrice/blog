@@ -5,7 +5,7 @@ description: >-
   some tricks to spot the red flags before it's too late.
 date: '2018-07-05T10:36:25.787Z'
 categories: [Tutorial]
-tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
+tags: [ICO, scam, Ethereum, Decentralization, EcoCrypto]
 image: /img/2018/hitchhikerguide/cover.jpeg
 difficulty: "beginner"
 url: crypto-hitchhiker-guide
@@ -46,7 +46,7 @@ Wanna see how does a terrible WP looks like? [Check Narbonne’s](https://narbon
 
 So many things need to be debunked in this table, it’s actually a good exercise. Here are a few you do the rest:
 
-*   “Bookkeeping at the [blockchain](https://hackernoon.com/tagged/blockchain)”: I’m not even sure what it means, but I think a project like [Request (REQ)](https://request.network/#/) covers this for Ethereum.
+*   “Bookkeeping at the [Blockchain](https://hackernoon.com/tagged/Blockchain)”: I’m not even sure what it means, but I think a project like [Request (REQ)](https://request.network/#/) covers this for Ethereum.
 *   “Mobile Banking”: Hello [OmiseGo](https://omisego.network/)!
 *   “AI, chatbot, voice control”: strictly no use for the project (an infrastructure for banks) but buzzwords so they had to be here!
 
@@ -163,4 +163,4 @@ PS: You have some tricks to spot an unreliable project you haven’t seen in thi
 
 Let me know if you liked this article and [check out my wiki for more content like this.](https://github.com/Ahirice/BCC/wiki) **Don’t forget to clap it** **to help it spread:** you can keep pressing  👏up to 50 claps.
 
-This article is the translation of an original (French) [EcoCrypto.fr](https://ecocrypto.fr) story.
+This article is the translation of an original (French) [EcoCrypto.fr](https://EcoCrypto.fr) story.

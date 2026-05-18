@@ -2,8 +2,9 @@
 title: "Announcement: TokenBrice 🤝 Maverick"
 description: "I am supporting the Maverick team as an advisor, helping with the growth strategy, tokenomics, and BD."
 date: '2023-04-21T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects, DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity]
+tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity]
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
@@ -54,7 +55,7 @@ On Maverick, such a pair can be harnessed optimally by each LP, depending on the
 So far, Maverick has found **a beast of a product/market fit on pools like wstETH/ETH**, often averaging over 100% daily utilization rate. Here’s today, for instance (4/20):
 
 * Curve: TVL = $1.5B, Volume =$34M, Utilization = 2,26%
-* Maverick: TVL = $10.6M, Volume =$10.45M, **Utilization = 98,5%** 
+* Maverick: TVL = $10.6M, Volume =$10.45M, **Utilization = 98,5%**
 
 ![Maverick Top Pools](img/2023/maverickxtokenbrice/mav-pools.png "Top pools on Maverick today (4/20/23)")
 
@@ -65,7 +66,7 @@ Launched just a few weeks ago on the Ethereum mainnet, Maverick is already seein
 
 Maverick was also launched on zkSync, its first L2, a few days ago. As more staple DeFi projects roll out service there, Maverick will have many opportunities to demonstrate the superior efficiency its liquidity designs can offer to LPs.
 
-I’m excited about the next steps: as a DeFi Strategist at Liquity, the release of Maverick felt like early Christmas to me; I think it's just getting started! 
+I’m excited about the next steps: as a DeFi Strategist at Liquity, the release of Maverick felt like early Christmas to me; I think it's just getting started!
 
 I’ll contribute to Maverick as an advisor, meaning that my main focus remains my commitment to immutable protocols, especially Liquity, helping them grow through various onchain and offchain activities. I’m confident Maverick will quickly prove to be a decisive tool in achieving that purpose.
 

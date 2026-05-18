@@ -2,8 +2,9 @@
 title: "ve(3,3), the logical next step after veCRV?"
 description: "A deeper look at the Solidly and then later Velodrome model for understanding their improvement on the base Curve / veCRV template."
 date: '2023-04-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
+tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
 tocNum: false
 url: solidly-velodrome-fork
@@ -76,13 +77,13 @@ The TVL disappeared as quickly as it came, and Solidly became a part of history 
 
 ## Velodrome’s refinements to the Solidly model
 
-[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) harnessed the Solidly model and fixed the issue with emissions by implementing a **whitelist for gauges**, helping to avoid the situation where rewards are allocated to made-up tokens, as seen on Solidly. 
+[Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism) harnessed the Solidly model and fixed the issue with emissions by implementing a **whitelist for gauges**, helping to avoid the situation where rewards are allocated to made-up tokens, as seen on Solidly.
 
 Velodrome went far beyond a mere fork, though, and implemented further improvements; among them were a more sustainable emissions model and **removing the LP boost feature**, meaning there is no preferential treatment for veVELO holders in terms of yield. Velodrome also streamlines the experience for first-time LPs who might be confused with the yield range you see on DEXes with LP boost implemented.
 
 Beyond the technical features, a large part of Velodrome’s success is due to the **team’s execution and care for the business development strategies**, an essential part of the ve(3,3) model. Built on Optimism, Velodrome found its PMF as the chain liquidity layer. Thanks to its model, sustaining liquidity on Velodrome is much more cost-effective for projects than, say, on Uniswap.
 
-Like Solidly, **Velodrome airdropped several protocols with a veVELO NFT,** no strings attached, which helped immensely to attract the initial voting and bribing activity. The protocol found a good fit, mostly with other protocols emitting stablecoins or ETH liquid stake derivatives:
+Like Solidly, **Velodrome airdropped several protocols with a veVELO NFT,** no strings attached, which helped immensely to attract the initial voting and bribing activity. The protocol found a good fit, mostly with other protocols emitting Stablecoins or ETH liquid stake derivatives:
 
 ![defiwars-velodrome](img/2023/solidly-velodrome-template/defiwars-velodrome.png "DeFiwars.xyz - veVELO ownership overview")
 
@@ -116,4 +117,4 @@ I hope this article helped you understand the benefits of the Solidly and Velodr
 * **Importance of Business Development** | ve(3,3), just like Curve, are protocols for protocols. The team's professionalism and ability to efficiently prioritize and executive on BD is a sizable success factor of the DEX over the long term.
 * **Quality of the launch/airdrop/top racers rooster** | Even if BD is done well, a given ve(3,3) DEX is only as good as its top racers. Yes, you want them bribing, voting, and driving awareness, but not only. The quality of the liquidity driven to the DEX also matters (volume/TVL ratio).
 * **LP Boost and its consequences** | If a ve(3,3) implements LP boost, it calls for Convex-like protocols. The success of the ve(3,3) will be impacted by how much and how well its Convex-likes do. To follow the key stats on the various wrappers and main veTokens holders, check - [DeFiWars](https://www.defiwars.xyz/wars).
-* **ve(3,3) + Liquidity Concentration** | While ve(3,3) is a significant innovation for the incentives layer of the DEX, it currently harnesses sub-par liquidity structures. Properly matching the ve(3,3) incentives model with an efficient UNIv3-style liquidity structure will help further improve the effectiveness of the flywheel. 
+* **ve(3,3) + Liquidity Concentration** | While ve(3,3) is a significant innovation for the incentives layer of the DEX, it currently harnesses sub-par liquidity structures. Properly matching the ve(3,3) incentives model with an efficient UNIv3-style liquidity structure will help further improve the effectiveness of the flywheel.

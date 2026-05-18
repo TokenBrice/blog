@@ -1,9 +1,9 @@
 ---
 title: "L'individu souverain dans l'ère du technoféodalisme"
-description: "Covid a précipité la marche de l’histoire en cristallisant plusieurs tendances latentes. Nous assistons désormais à l’émergence d’un protocole social et politique qui systématise l’exploitation et la misère : comment s’en extraire ?"
+description: "Essai sur le technofeodalisme, les changements sociaux post-Covid, l exploitation systemique et les voies d autonomie individuelle."
 date: '2021-01-04T01:13:50.191Z'
 categories: [Analysis]
-tags: [DeFi, Decentralized Finance, Sovereign Individual, NaaS, Nation as a Service, Post-Covid]
+tags: [DeFi, Sovereign Individual, NaaS, Nation as a Service, Post-Covid]
 image: /img/2021/technofeudalism-sovereign-individual/francis-bacon.jpg
 difficulty: "beginner"
 url: technofeudalism-sovereign-individual
@@ -20,11 +20,11 @@ Pourtant, l'expression a eu le mérite de souligner le rôle de la pandémie qui
 
 Pour ma part, j'ai accueilli le monde "post-Covid" à bras ouverts, car il a finalement fait apparaître des changements fondamentaux qui étaient auparavant difficiles à remarquer. Cela peut être effrayant et inquiétant, mais cela a un mérite : la situation actuelle exerce **trop de pression sur le statu quo pour qu'il se maintienne** - il finira par se normaliser d'une manière ou d'une autre.
 
-La fin la plus évidente est l'extrapolation de la situation actuelle : les États deviennent **de plus en plus gourmands en termes de surveillance et de contrôle**, malgré le manque de résultats probants découlant de ces stratégies. Au fur et à mesure que la situation s'aggrave, ils ont tendance à resserrer encore plus leur emprise pour maintenir une apparence fugace d'ordre. La réalité est que les faits n'ont plus d'importance - seule la perception de ceux-ci est prise en compte. 
+La fin la plus évidente est l'extrapolation de la situation actuelle : les États deviennent **de plus en plus gourmands en termes de surveillance et de contrôle**, malgré le manque de résultats probants découlant de ces stratégies. Au fur et à mesure que la situation s'aggrave, ils ont tendance à resserrer encore plus leur emprise pour maintenir une apparence fugace d'ordre. La réalité est que les faits n'ont plus d'importance - seule la perception de ceux-ci est prise en compte.
 
 Cette idée a été documentée dès la fin des années 60[^1]. Ce qui reste, ce sont des citoyens qui ont essentiellement moins de liberté que les serfs du Moyen-Âge, puisqu'ils sont **opprimés par une technostructure éloignée et inaccessible** au lieu d'un seigneur auquel on peut rendre visite et plaider.
 
-À l'autre extrémité se trouve **l'individu souverain**, tel que décrit par James Dale Davidson et William Rees-Mogg il y a plus de vingt ans [^2]. Ces individus ont compris la diminution du pouvoir et de l'importance des États et ont développé une forme d'apatridie. 
+À l'autre extrémité se trouve **l'individu souverain**, tel que décrit par James Dale Davidson et William Rees-Mogg il y a plus de vingt ans [^2]. Ces individus ont compris la diminution du pouvoir et de l'importance des États et ont développé une forme d'apatridie.
 
 ![livre-individu-souverain](/img/2021/technofeudalism-sovereign-individual/sovereign-individual-book.png "The Sovereign Individual - James Dale Davidson et William Rees-Mogg (1997)")
 
@@ -47,7 +47,7 @@ Cette thèse s'appuie sur une précédente : l'érosion progressive du pouvoir e
 Plusieurs phénomènes concomittants conduisent les états-nations à l'obsolescence[^5] :
 
 1.  D'abord le plus évident : **Les États sont à sec** ! En effet, le pouvoir des États est directement indexé sur leur richesse. Pourtant, la plupart des États sont de moins en moins capables de percevoir correctement les impôts qui leur sont dus - et qui constituent leur principale source de subsistance.
-2.  Les États sont **incapables de faire des analyses cohérentes, de dresser des plans à long terme et de les suivre**, et je pense que l'apparition de Covid a dissipé les quelques doutes qui subsistaient chez les sceptiques à ce sujet. Les raisons en sont diverses, notamment les mandats courts, la transformation de notre vie politique en une télé-réalité de bas étage, ou la place qu'a pris le lobbying. 
+2.  Les États sont **incapables de faire des analyses cohérentes, de dresser des plans à long terme et de les suivre**, et je pense que l'apparition de Covid a dissipé les quelques doutes qui subsistaient chez les sceptiques à ce sujet. Les raisons en sont diverses, notamment les mandats courts, la transformation de notre vie politique en une télé-réalité de bas étage, ou la place qu'a pris le lobbying.
 3.  **La justice des États est une farce grotesque**, car certains citoyens riches sont hors de sa portée tandis que ceux qui ont un statut moins élevé en subissent les abus (brutalité policière, racisme systémique, etc.). Pensez aux lanceurs d'alerte si vous avez le moindre doute à ce sujet : **les États modernes se préservent au détriment de tout le reste**, y compris la vie et les droits fondamentaux de leurs citoyens.
 4.  Il n'y a ni responsabilité, ni contrôle, ni équilibre des pouvoirs pour nos États modernes : la boucle de croissance de la structure est maintenant rompue - c'est pourquoi je suis convaincu de leur chute prochaine.
 5.  Enfin et surtout, **les États ont été incapables de comprendre, de calculer et de s'adapter à la réalité numérique** - elle exige une forme de pensée horizontale qui ne peut cohabiter avec leur répartition du pouvoir du haut vers le bas. Nous en avons vu les conséquences désastreuses avec le développement de l'Internet, et nous le constatons une fois de plus avec les technologies de livres de comptes décentralisés (~blockchains).
@@ -64,7 +64,7 @@ Ce qui a grandi en son absence est par contre une **structure sans tête**. Elle
 
 Pour dire les choses simplement, **nos gouvernements ont été "piratés" : ils ont été capturés par des intérêts privés.** Grâce au lobbying, les privilèges administratifs des citoyens ont été supprimés.
 
-La "volonté du peuple" ou "l'opinion publique" n'a plus d'importance puisqu'elle est devenue **une simple mesure à surveiller** sans poids réel dans le jeu. Elle est maintenue à un certain seuil pour que l'illusion démocratique perdure. Parfois, le seuil est atteint et des protestations surgissent. 
+La "volonté du peuple" ou "l'opinion publique" n'a plus d'importance puisqu'elle est devenue **une simple mesure à surveiller** sans poids réel dans le jeu. Elle est maintenue à un certain seuil pour que l'illusion démocratique perdure. Parfois, le seuil est atteint et des protestations surgissent.
 
 L'essentiel, c'est ce qui se passe après : lorsque les citoyens osent enfin demander quoi que ce soit de significatif, au mieux ils sont englués par la pensée dominante et au pire subissent une répression policière sevère tout comme les seigneurs pouvaient envoyer leurs fantassins pour étouffer une émeute sans même se soucier des demandes.
 
@@ -116,7 +116,7 @@ Cet article a éveillé votre curiosité ? Vous êtes tombés au bon endroit —
 
 ## Licences et références
 
-Ce contenu vit sous une licence open-source ([plus d'informations](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)). Vous pouvez le traduire ou le republier, à condition qu'il soit partagé dans les mêmes conditions et que l'attribution à cet article soit incluse. 
+Ce contenu vit sous une licence open-source ([plus d'informations](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)). Vous pouvez le traduire ou le republier, à condition qu'il soit partagé dans les mêmes conditions et que l'attribution à cet article soit incluse.
 
 _Trouvez ci-dessous d'autres ressources supplémentaires pour approfondir les thèses et idées clés mentionnées dans cet article :_
 

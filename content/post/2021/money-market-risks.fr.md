@@ -1,9 +1,12 @@
 ---
 title: "De l'évaluation du risque sur les marchés monétaires en finance décentralisée"
-description: "L'évaluation du risque dans la DeFi est actuellement à coté de la plaque ; cet article vous montre pourquoi avec une proposition claire pour évaluer les risques des marchés monétaires. La plupart des observations sont également applicables aux protocoles DeFi de manière plus générale."
+description: "Cadre pratique pour evaluer les risques des marches monetaires DeFi, avec des lecons applicables aux protocoles plus largement."
 date: '2021-02-18T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Analysis, Lending]
-tags: [DeFi, Ethereum, Decentralized finance, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, AAVE, COMP, Oracles, Liquidation, Insurance, Safety Module]
+tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, COMP, Oracles, Liquidation, Insurance, Safety Module]
+series: money-markets
+series_order: 1
 toc: true
 tocNum: false
 url: marche-monetaire-risque
@@ -13,7 +16,7 @@ difficulty: "expert"
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.
 
-Il y a actuellement trois grands marchés monétaires dans DeFi : Aave, Compound & Cream. Pourtant, tous les services suivants les utilisent, d'une manière ou d'une autre : Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88MPH, Idle Finance, etc. Pour dire les choses simplement - **les marchés monétaires sont l'un des niveaux de base du DeFi**.
+Il y a actuellement trois grands marchés monétaires dans DeFi : Aave, Compound & Cream. Pourtant, tous les services suivants les utilisent, d'une manière ou d'une autre : Yearn Finance, Curve Finance, Alpha Finance, Harvest Finance, DeFiSaver, Saffron, 88mph, Idle Finance, etc. Pour dire les choses simplement - **les marchés monétaires sont l'un des niveaux de base du DeFi**.
 
 Les marchés monétaires sont étonnants - à la fois simples et très complexes. Dans cet article, j'essaie de fournir un cadre et quelques indices pour évaluer le risque à différents niveaux.
 
@@ -23,7 +26,7 @@ Pour en savoir plus sur la couche de services qui est en train de se construire 
 
 **[🗡 Du risque ? Oui, mais juste un doigt](https://tokenbrice.xyz/fr/tranching-risque-defi/)**
 
-2.   Une présentation des protocoles de taux d'intérêt fixes à travers le prisme d'APWine : 
+2.   Une présentation des protocoles de taux d'intérêt fixes à travers le prisme d'APWine :
 
 **[🍷 En oenologie comme en DeFi, la patience paie](https://tokenbrice.xyz/fr/fixed-interest-rate-protocol-firp-apwine/)**
 
@@ -67,7 +70,7 @@ Ce que nous avons aujourd'hui est donc essentiellement un cadre complet que vous
 {{< notice warning >}}
 **Avertissement nécessaire : Ceci n'est pas un conseil d'investissement.**
 
-Presque personne n'est qualifié pour évaluer les risques dans le cadre de la DeFi : même les "institutions" qui le font comme le DeFiscore sont loin de le faire décemment. 
+Presque personne n'est qualifié pour évaluer les risques dans le cadre de la DeFi : même les "institutions" qui le font comme le DeFiscore sont loin de le faire décemment.
 
 Ce contenu est destiné à vous aider à mieux comprendre et apprécier le risque **<span style="text-decoration:underline ;">par vous-même</span>**, le moyen le plus fiable de le faire.
 {{< /notice >}}
@@ -172,11 +175,11 @@ Il y a un autre sous-thème important ici : les **liquidations n'arrivent pas pa
 
 D'accord, maintenant que nous avons un marché monétaire qui obtient des prix fiables et qui liquide quand c'est nécessaire, nous pouvons commencer à examiner les tokens acceptés comme collatéral et la procédure à suivre.
 
-L'évaluation de la santé et de la sécurité globale d'un token est **l'une des tâches les plus complexes de nos jours au sein de DeFi** car il peut être difficile de comprendre l'ensemble de l'écosystème autour d'un token. 
+L'évaluation de la santé et de la sécurité globale d'un token est **l'une des tâches les plus complexes de nos jours au sein de DeFi** car il peut être difficile de comprendre l'ensemble de l'écosystème autour d'un token.
 
 Prenons le token SNX, par exemple, un token ERC-20 important. Il est utilisable comme collatéral sur Aave, mais avec un ratio prêt/valeur maximum assez faible (à relever bientôt ?) à 15 %. D'autres tokens ERC-20 comme LINK sont dans la fourchette de 60-75%.
 
-Sans trop entrer dans les détails, cela concerne ce que vous pouvez faire avec chaque token et l'utilisation de **SNX comme collatéral sur la plateforme Synthetix**. 
+Sans trop entrer dans les détails, cela concerne ce que vous pouvez faire avec chaque token et l'utilisation de **SNX comme collatéral sur la plateforme Synthetix**.
 
 Les paramètres de risque d'Aave sont suffisamment conservateurs pour que Synthetix soit essentiellement "en première ligne" dans la chaîne des liquidations si un événement "cygne noir" devait se produire sur Synthetix. Cela semble sage : un marché monétaire ne devrait pas vouloir s'exposer davantage sur un token donné que sur la plateforme native elle-même.
 
@@ -204,7 +207,7 @@ Je ne m'étendrai pas davantage sur ce sujet, car la documentation d'Aave sur le
 
 Même si le risque est connu à tous les niveaux, **l'assurance n'est jamais une option et n'est jamais de trop**. La première couche de défense est bien sûr le niveau de la plate-forme s'il existe un module de compensation.
 
-La bonne nouvelle, c'est qu'il y en a un ! Aave a été le pionnier dans ce domaine et même Compound a une petite réserve. La deuxième bonne nouvelle est que pour évaluer l'utilité de ce module, c'est très simple : il s'agit d'un simple rapport entre la valeur totale en $ des emprunts effectués sur le marché monétaire et le total des $ pouvant être mobilisés par le module de sécurité. 
+La bonne nouvelle, c'est qu'il y en a un ! Aave a été le pionnier dans ce domaine et même Compound a une petite réserve. La deuxième bonne nouvelle est que pour évaluer l'utilité de ce module, c'est très simple : il s'agit d'un simple rapport entre la valeur totale en $ des emprunts effectués sur le marché monétaire et le total des $ pouvant être mobilisés par le module de sécurité.
 
 Aave dispose d'environ 2B dans le module de sécurité, dont jusqu'à 30% peuvent être saisis si nécessaire = 600M. Il couvre à la fois les V1 et V2 du protocole. Si les 30% sur la coupure du module de sécurité ne sont pas suffisants, le module de sécurité peut frapper des tokens AAVE supplémentaires. Un tel scénario n'est pris en compte ni par Compound ni par la Cream.
 
@@ -217,7 +220,7 @@ Alors, en regardant les chiffres disponibles, voici nos calculs rapides :
 `Ratio de sécurité = Valeur de l'assurance en USD / Total des emprunts sur le marché monétaire`
 
 1. **🛡 Aave = 53%** | 1,765 (30% mobilisable) milliard de dollars dans le module de sécurité pour 1,1 milliard de dollars empruntés à travers V1+V2 (572 millions de dollars V1, 437 millions de dollars V2)
-2. **🕯 Compound = 0,24%** | 4,3 milliards de dollars empruntés sur un capital de sécurité de 10 millions de dollars. 
+2. **🕯 Compound = 0,24%** | 4,3 milliards de dollars empruntés sur un capital de sécurité de 10 millions de dollars.
 3. **💀 Cream = 0 %** | Pour autant que je sache, Cream n'a pas de module d'assurance native ou en a un très limité (faibles montants).
 
 ℹ Note : Bien que Compound n'ait actuellement aucun module de sécurité, l'équipe/DAO est actuellement assise sur une importante réserve de COMP qui pourrait être utilisée à cette fin [^compoundCOMPstosk]. Les calculs ont été effectués le 17 Février 2021.
@@ -254,16 +257,16 @@ Cela crée un faux sentiment de sécurité auquel beaucoup se laissent prendre, 
 Je suis prudent lorsque je parle de "90 millions de liquidations abusives à cause d'oracles défectueux" mais pour être explicite - cela a potentiellement affecté négativement tout emprunteur DAI à l'époque qui aurait pu être liquidé de manière incorrecte - perdant une partie de son dépôt sans **aucun recours et aucune compensation** puisque Compound a fonctionné comme prévu (du point de vue des contrats).
 {{< /notice >}}
 
-En plus des risques d'échec des smart contracts, veuillez considérer la liste suivante d'autres risques non exhaustifs qui peuvent entraîner une perte de fonds : 
+En plus des risques d'échec des smart contracts, veuillez considérer la liste suivante d'autres risques non exhaustifs qui peuvent entraîner une perte de fonds :
 
-1. Échec ou manipulation d'un oracle, 
-2. Un problème avec le contrat intelligent d'un token utilisé en collatéral (par exemple token frappé à l'infini), 
-3. Un stablecoin utilisé comme collatéral ou actif d'emprunt sur le marché perd son ancrage 
+1. Échec ou manipulation d'un oracle,
+2. Un problème avec le contrat intelligent d'un token utilisé en collatéral (par exemple token frappé à l'infini),
+3. Un stablecoin utilisé comme collatéral ou actif d'emprunt sur le marché perd son ancrage
 4. Le dispositif ou le portefeuille de l'administration d'un service pas si décentralisé est compromis
 5. Des problèmes ou des retards dans les liquidations, ce qui signifie que le marché monétaire ne peut potentiellement plus répondre à ses exigences en matière de collatéral
 6. etc.
 
-La plupart des services d'assurance ne sont pas utiles pour tous ces risques, sauf pour les risques de défaut d'un smart contract. Le marché des autres types de risques commence à peine à se développer grâce à Unslashed Finance qui offre désormais une **couverture du risque de perte de l'ancrage des stablecoins** ou du risque de dépositaire.
+La plupart des services d'assurance ne sont pas utiles pour tous ces risques, sauf pour les risques de défaut d'un smart contract. Le marché des autres types de risques commence à peine à se développer grâce à Unslashed Finance qui offre désormais une **couverture du risque de perte de l'ancrage des Stablecoins** ou du risque de dépositaire.
 
 ![Defiprime insurance](/img/2021/money-market-risks/defiprime-insurance.png "Les différentes approches de l'assurance DeFi --- publié 2019 & biaisé mais encore un peu instructif")
 
@@ -272,9 +275,9 @@ Pour en savoir plus sur les différentes approches de l'assurance DeFi, consulte
 
 #### Comprendre les assurances et le risque qu'elles couvrent réellement
 
-- __🎯Objet__ : Échec de contrats intelligents + perte de peg de stablecoins.
+- __🎯Objet__ : Échec de contrats intelligents + perte de peg de Stablecoins.
 - __💰Utilité__ : Fournit une compensation si une défaillance est constatée.
-- __✅C'est déjà arrivé ?__ Nexus Mutual, l'une des plus anciennes options d'assurance a déjà payé dans plusieurs situations de défaut de smart contracts. [^nexusmutual] 
+- __✅C'est déjà arrivé ?__ Nexus Mutual, l'une des plus anciennes options d'assurance a déjà payé dans plusieurs situations de défaut de smart contracts. [^nexusmutual]
 
 Pour ce qui est des assurances étendues, vous voudrez donc examiner des services tels que [Unslashed Finance](https://www.unslashed.finance/), [Nexus Mutual](https://nexusmutual.io/) ou [Cover Protocol](https://www.coverprotocol.com/) et les plans qu'ils proposent.
 
@@ -291,7 +294,7 @@ Nous avons beaucoup discuté des différents tokens utilisés comme collatéraux
 Le ratio prêt/valeur maximum (LTV maximum) détermine le pouvoir d'emprunt des collatéraux. Un prêt à valeur maximale de 50 % signifie que l'on peut emprunter jusqu'à la moitié de la valeur en dollars des collatéraux déposés.
 {{< /notice >}}
 
-La toute première couche est bien sûr de s'assurer qu'il n'y a pas de jeu de dupes : **le marché monétaire doit être neutre et ne pas favoriser son propre token**. 
+La toute première couche est bien sûr de s'assurer qu'il n'y a pas de jeu de dupes : **le marché monétaire doit être neutre et ne pas favoriser son propre token**.
 
 Cela semble évident, mais on est en droit de se poser la question, notamment au vu des ratios prêt/valeur accordés aux tokens de plateforme. Par exemple, Cream autorise une max LTV excessive de 75%  sur CREAM, l'une des plus élevées de tout le protocole. Compound lui-même donne au COMP une LTV max permissive de 60% alors que Aave est plus conservateur à 50%.
 
@@ -343,9 +346,9 @@ Voici donc quelques questions et indices pour vous aider à évaluer cette derni
 
 **Au niveau de la DAO :**
 
-- Comment fonctionne la soumission d'une proposition ? 
-- Comment sont-elles examinées et améliorées ? 
-- Quel est le délai entre le vote et l'exécution ? 
+- Comment fonctionne la soumission d'une proposition ?
+- Comment sont-elles examinées et améliorées ?
+- Quel est le délai entre le vote et l'exécution ?
 - Une proposition qui a été ignorée ou qui n'a pas été mise en œuvre pendant longtemps ?
 
 **Membres de l'équipe principale :**
@@ -424,8 +427,8 @@ Vous pouvez trouver des informations complémentaires sur les fait, événements
 [^covershitcoin]: Cover est un protocole d'assurance incapable de garantir son propre token contract et son programme d'extraction de liquidités. Ils ont déjà été attaqués trois fois. Voici [quelques informations sur la dernière](https://coingape.com/cover-becomes-latest-defi-protocol-to-get-exploited-price-crashes-by-77-within-an-hour/).
 [^compoundoracle]: Malgré l'attaque qui a eu lieu il y a plusieurs semaines en raison de leur dépendance aux oracles centralisés de Coinbase, il semble que [la situation n'a pas encore été corrigée](https://twitter.com/ChainLinkGod/status/1362132404484198401?s=20).
 [^aTokenMasterRace]:Le cas de la supériorité technique des aTokens pourrait être le sujet d'un article à lui seul, mais en voici l'essentiel :
-	
+
 	1. **Simplification** : les aTokens maintiennent un ratio de 1:1 par rapport à l'actif de base tandis que les cTokens ont un taux de change croissant par rapport à leur actif de base.
 	2. **Comptabilité et intégrations plus faciles** : la correspondance 1:1 des aTokens facilite grandement leur intégration - il n'est pas nécessaire d'aller chercher des données supplémentaires. Avec Compound, tout service interagissant avec des cTokens doit rechercher le taux de change cToken / jeton de base correspondant.
-	3. **Intérêts dynamiques et compréhensibles** : les tokens a et c produisent des intérêts de manière dynamique. Cependant, là encore, en raison du design plus élégant et plus simple des aTokens, l'expérience est plus fluide avec les aTokens (dépôt, rassuré par la correspondance 1:1, le nombre augmente) 
-	4. **Intégrations plus puissantes** : aToken permet de nouveaux cas d'utilisation, surtout si vous prenez en compte les autres caractéristiques d'Aave. Par exemple, il existe un vault de Yearn qui utilise aLINK pour emprunter de l'USDC sur les dépôts des utilisateurs afin de farmer avec eux et de régler les revenus pour plus d'aLINK. 
+	3. **Intérêts dynamiques et compréhensibles** : les tokens a et c produisent des intérêts de manière dynamique. Cependant, là encore, en raison du design plus élégant et plus simple des aTokens, l'expérience est plus fluide avec les aTokens (dépôt, rassuré par la correspondance 1:1, le nombre augmente)
+	4. **Intégrations plus puissantes** : aToken permet de nouveaux cas d'utilisation, surtout si vous prenez en compte les autres caractéristiques d'Aave. Par exemple, il existe un vault de Yearn qui utilise aLINK pour emprunter de l'USDC sur les dépôts des utilisateurs afin de farmer avec eux et de régler les revenus pour plus d'aLINK.

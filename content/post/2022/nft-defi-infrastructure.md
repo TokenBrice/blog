@@ -2,8 +2,9 @@
 title: "NFTfi: NFT meets DeFi, liquidity and leverage ensue"
 description: "DeFi offers NFT projects tools to solve their main limitations (like liquidity) while NFTs allow to make DeFi more fun and digestible: a perfect pairing?"
 date: '2022-03-29T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [NFT]
-tags: [DeFi, Ethereum, Decentralized Finance, NFT, Forgotten Wizard, Luchadores, NFTfi]
+tags: [DeFi, Ethereum, NFT, Forgotten Wizard, Luchadores, NFTfi]
 tocNum: false
 url: nftfi-defi-nft
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
@@ -12,7 +13,7 @@ difficulty: "beginner"
 
 Decentralized finance has opened up a world of possibilities: a myriad of previously necessary intermediaries are now supernumerary. Nevertheless, it is intimidating because of its potential complexity and interdisciplinary. In addition to the obvious technical dimension, DeFi also invokes concepts from various disciplines: economics, social sciences, "memetics", etc.
 
-Thus, for years now, NFTs have served as a gateway to the decentralized world, demonstrating the benefits of tokenization and disintermediation to a population still not very fond of DeFi. 
+Thus, for years now, NFTs have served as a gateway to the decentralized world, demonstrating the benefits of tokenization and disintermediation to a population still not very fond of DeFi.
 
 So today I propose to converge the two main themes of this blog into one captivating topic: the emergence of DeFi infrastructure for NFTs, or the arrival of NFTs/gamification in DeFi - it's all about perspective.
 
@@ -37,7 +38,7 @@ Without going into too much detail, OpenSea has many limitations:
 
 
 * A near-weary fee for each exchange - 2.5% - and that is reserved exclusively for the team.
-* A basic lack of respect for the NFT community: violation of their privacy, manipulation, etc.
+* A basic lack of respect for the NFT community: violation of their Privacy, manipulation, etc.
 * A certain disregard for the most community-based NFT projects: the verification mechanisms on OpenSea are not very transparent and do not really depend on the volume. Pitiful projects, but carried by celebrities, have been verified quickly while Luchadores, for example, are still waiting.
 * A lack of investment in its own development: the platform is slow to evolve and does not listen to its users.
 * A 100% business approach: [OpenSea has done 9 fundraisings](https://www.crunchbase.com/organization/opensea/company_financials) so far, and this despite the gargantuan profits they generate via the excessive fees charged: $100M in volume **on 1 day ⇒ $2.5M in the team's pockets** (- operational fees, but still...)
@@ -77,7 +78,7 @@ Let's take the time to explain the concept. Tokenization is the action of creati
 Let's take an example that illustrates the benefits of tokenization - the case of **fractionalizing an NFT**.
 
 1. We start with a specific non-fungible token, CryptoPunk #666 for example.
-2. We lock it in a contract that issues 10 000 PUNK tokens, ERC-20 tokens. 
+2. We lock it in a contract that issues 10 000 PUNK tokens, ERC-20 tokens.
 3. We now have a token that represents 1/10,000 of the original CryptoPunk #666. This token is a classic ERC-20 and therefore easily exchangeable via Uniswap or other (⚠️ Liquidity)
 
 ⇒ Tokenization here allows **collective ownership of a unique asset** (the NFT CryptoPunk #666).
@@ -100,12 +101,12 @@ Besides LooksRare and Opensea mentioned above, there are other marketplaces for 
 
 
 
-1. [MINT] A "vault" (smart contract) specific to a collection is created; users can deposit their NFTs in it. 
+1. [MINT] A "vault" (smart contract) specific to a collection is created; users can deposit their NFTs in it.
 2. When a user deposits an NFT in the vault, its contribution is recognized by the emission of an ERC20 token.
 3. [REDEEM] At any time, the ERC20 token can be exchanged for any NFT in the vault. The ERC20 token is then destroyed.
 
 {{< notice warning >}}
-⚠️ As you can see, the vault assumes that all NFTs are equivalent: so it is better to enter a vault with an NFT among the least rare of the given collection. 
+⚠️ As you can see, the vault assumes that all NFTs are equivalent: so it is better to enter a vault with an NFT among the least rare of the given collection.
 {{< /notice >}}
 
 The leader in this field is probably [NFTX](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/), but there is also [NFT20](https://nft20.io/). This method allows you to get an ERC20 token - for example the WIZARD - that corresponds to a claim on any NFT in the vault, in this case any of the 215 Forgotten Wizard Cult (NFTs) contained in [the vault.](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/)
@@ -124,7 +125,7 @@ The focus here is on liquidity, but keep in mind that switching from an NFT to a
 
 
 1. If the liquidity on the pair is sufficient - then it also becomes **a price source**.
-2. Price source (oracle) + liquidity means... collateral of course! With these two elements, there is nothing to prevent the WIZARD from being considered as **collateral for borrowing** other tokens like stablecoins. This is feasible but much more complex starting directly from the NFT.
+2. Price source (oracle) + liquidity means... collateral of course! With these two elements, there is nothing to prevent the WIZARD from being considered as **collateral for borrowing** other tokens like Stablecoins. This is feasible but much more complex starting directly from the NFT.
 3. Finally, keep in mind that there is no limit to tokenization, as long as there is an interest. We stayed here on single tokenization cases, but **tangled tokenization** scenarios are also possible.
 
 An ERC-20 token that represents a claim on a given Wizard is great. Now imagine that you have the same thing for CryptoPunks, BAYC and so on - this is the case on NFTX. There is nothing to prevent us from considering an additional tokenization step to create an **NFT index** represented by an ERC20 token but which would itself **be exchangeable against the tokens representing the underlying assets:** :
@@ -134,7 +135,7 @@ One could thus imagine the NFT-Bluechip-Index, an ERC-20 token created by lockin
 
 
 1. [With the NFT-Bluechip contract] : burn 1 NFT-Bluechip-Index to get 1 WIZARD + 1 PUNK + 1 BAYC
-2. [Using NFTX contracts/vaults] burn of 1 WIZARD + 1 PUNK + 1 BAYC to retrieve one NFT (of your choice from those in the vault) from each underlying collection. 
+2. [Using NFTX contracts/vaults] burn of 1 WIZARD + 1 PUNK + 1 BAYC to retrieve one NFT (of your choice from those in the vault) from each underlying collection.
 
 
 ### Idol : NTFs to tokenize a DeFi yield
@@ -146,13 +147,13 @@ The IdolsNFT were initially sold via a bonding curve for a price between 0.25 an
 ![idols-nft](/img/2022/nft-defi-infrastructure/idol-nfts.png)
 
 
-And the project goes even further! Indeed, there is also an ERC-20 in the story, the VIRTUE, initially distributed to the first buyers. From now on, to obtain VIRTUE, it is necessary to bond stETH (-> which increases the productive capital of the project). 
+And the project goes even further! Indeed, there is also an ERC-20 in the story, the VIRTUE, initially distributed to the first buyers. From now on, to obtain VIRTUE, it is necessary to bond stETH (-> which increases the productive capital of the project).
 
 The VIRTUE corresponds to a proxy exposure on NFT Idols: for each sale of an NFT Idol, a fee of 7.5% is taken and given to the VIRTUE stakers.
 
 ![idolnfts-virtue-cycle](/img/2022/nft-defi-infrastructure/idol-cycle.png)
 
-Thus, the Idols, "Guardians of Ethereum" use NFTs to make ETH staking more fun and interactive. In addition, the capture of fees on the VIRTUE token allows to avoid an "external capture" of fees generated by IdolsNFT exchanges as it is the case for NFTs exchanged on NFTX for example. 
+Thus, the Idols, "Guardians of Ethereum" use NFTs to make ETH staking more fun and interactive. In addition, the capture of fees on the VIRTUE token allows to avoid an "external capture" of fees generated by IdolsNFT exchanges as it is the case for NFTs exchanged on NFTX for example.
 
 Finally, the large owners of the collection have a clear path to compound their return if their conviction is strong:
 
@@ -173,7 +174,7 @@ Faced with this myriad of options, buyers do not necessarily have the time, incl
 ![gem.xyz](/img/2022/nft-defi-infrastructure/gem-xyz.png "Gem, the NFT aggregator")
 
 
-Thus, there are several services capable of directing "orders" to different marketplaces, or even ŕealising a "swipe" across multiple platforms with a single transaction: these are [Genie](https://genie.xyz) and [Gem](https://gem.xyz). 
+Thus, there are several services capable of directing "orders" to different marketplaces, or even ŕealising a "swipe" across multiple platforms with a single transaction: these are [Genie](https://genie.xyz) and [Gem](https://gem.xyz).
 
 Here again, it is the responsiveness of the team and the composability of the service that will make the difference in the long run: Gem seems to be ahead of the game thanks to its advanced integration of LooksRare (claim LOOKS possible for buyers via Gem).
 
@@ -206,9 +207,9 @@ From the launch of the game, players will earn LUCHA for each victory. Depending
 
 If you discover Luchadores with this article, feel free to read this introduction: **[🤼 Long live free (and verifiable onchain) wrestling](https://tokenbrice.xyz/luchadores-nft/)**
 
-## What next? 
+## What next?
 
-In this article, we have stayed on the visible part of the iceberg. At the crossroads of DeFi and NFTs, there are still many new possible use cases. I propose to make a list with the main services that explore these fields: 
+In this article, we have stayed on the visible part of the iceberg. At the crossroads of DeFi and NFTs, there are still many new possible use cases. I propose to make a list with the main services that explore these fields:
 
 
 ### FloorDAO : NFT x DeFi x DAO
@@ -217,7 +218,7 @@ In this article, we have stayed on the visible part of the iceberg. At the cross
 
 ![floordao-bond](/img/2022/nft-defi-infrastructure/floordao-bond.png "The relevance of the bonding varies according to the needs of the FloorDAO and the evolution of the price of FLOOR.")
 
-The collected tokens and LPs are used by FloorDAO to generate a return (NFTX staking). The community (gFLOOR holders) votes to decide which assets to acquire next. Olympus uses the inflation of its governance token to acquire strategic assets such as DAI, LUSD, or CRV; FloorDAO does the same thing but targets NFTX tokens and therefore backs them with an NFT.   
+The collected tokens and LPs are used by FloorDAO to generate a return (NFTX staking). The community (gFLOOR holders) votes to decide which assets to acquire next. Olympus uses the inflation of its governance token to acquire strategic assets such as DAI, LUSD, or CRV; FloorDAO does the same thing but targets NFTX tokens and therefore backs them with an NFT.
 
 Here again, the protocol owns a share of its own liquidity on FLOOR/ETH (on Uniswap) and the fees generated by the position contribute to the returns of the FloorDAO treasury.
 
@@ -250,7 +251,7 @@ Renting allows for example to borrow an NFT to play a game without having to own
 ---
 
 If you found this peek into the NTFfi landscape insightful, you are now sitting at the crossroads:
-- you can [read my other articles on NFTs here](https://tokenbrice.xyz/categories/nft/) 
+- you can [read my other articles on NFTs here](https://tokenbrice.xyz/categories/nft/)
 - or [explore the depths of DeFi](https://tokenbrice.xyz/categories/defi/)
 
 Enjoy!

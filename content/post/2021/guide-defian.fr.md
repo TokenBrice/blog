@@ -1,6 +1,6 @@
 ---
 title: "🐥 Le guide du DeFian : prise en main des outils communautaires DeFi France"
-description: "DeFi France est la communauté francophone la plus dynamique pour découvrir la finance décentralisée. Cet article détaille le système d'incitation mis en place sur le Discord et comment y participer."
+description: "Guide de la communaute DeFi France, de son systeme d incentives Discord et des manieres de participer efficacement."
 date: '2021-05-17T01:53:50.191Z'
 categories: [Projects]
 tags: [DeFi France, Discord]
@@ -11,7 +11,7 @@ image: /img/2021/guide-defian/guide-defian-cover.png
 difficulty: "beginner"
 ---
 
-La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi. 
+La finance décentralisée peut être intimidante pour ceux qui la découvrent tout juste. Même les personnes ayant déjà utilisé des outils financiers classiques peuvent être dépassées face à la multiplicité des options offertes par la DeFi.
 
 Pour réellement comprendre la finance décentralisée, il faut être en mesure de déconstruire des mythes encore bien ancrés et surtout découvrir et manipuler de nouveaux modèles mentaux. Néanmoins, remettre en cause des notions fondamentales en matière d'économie, d'organisation sociale, de collaboration et bien plus encore est une tâche ardue : **et si on le faisait ensemble** ?
 
@@ -24,9 +24,9 @@ Le rythme de l'industrie est tel qu'il est important de disposer des bonnes info
 Depuis sa création, DeFi France a pour ambition de rendre cet espace plus accessible en proposant une discussion ainsi que des contenus de haute qualité en français. Outre les 10 rendez-vous mensuels organisés avant le covid, plusieurs espaces se sont structurés :
 
 1. Un espace d'échange avec les experts francophones : le groupe initialement sur Telegram, désormais sur Discord : [👉 rejoignez-nous !](https://discord.gg/3bWZcK2)
-2. Différentes initiatives  pour proposer des contenus de qualité en français sur le sujet : [BanklessFR](https://banklessfr.substack.com/), [TheDailyGweiFR](https://thedailygweifr.substack.com/), ce blog, [la chaine youtube DeFi France](https://youtube.com/c/defifrance), etc. 
+2. Différentes initiatives  pour proposer des contenus de qualité en français sur le sujet : [BanklessFR](https://banklessfr.substack.com/), [TheDailyGweiFR](https://thedailygweifr.substack.com/), ce blog, [la chaine youtube DeFi France](https://youtube.com/c/defifrance), etc.
 
-Avec la communauté DeFi France nous avons mis en place un **système unique sur notre serveur (DFF V2) Discord pour reconnaître et mettre en avant les contributions les plus utiles: le 🌾 blé.** 
+Avec la communauté DeFi France nous avons mis en place un **système unique sur notre serveur (DFF V2) Discord pour reconnaître et mettre en avant les contributions les plus utiles: le 🌾 blé.**
 
 Les mécanismes du système DFF v2 sont simples mais permettent **le contrôle direct par la communauté** à plusieurs niveaux : propositions, curation des messages ou même les sanctions potentielles. Ce système est implémenté directement sur le Discord, tous les membres peuvent y interagir avec `@Déméter` notre gentille déesse-bot reine du 🌾 blé.
 
@@ -111,7 +111,7 @@ Avant de détailler les principales emojis-réactions, voici un tableau qui réc
 
 ### La curation des messages : hors-sujet et 💾 sauvegarde
 
-Deux familles d'emojis-actions permettent à la communauté d'organiser et de prioriser directement les messages : 
+Deux familles d'emojis-actions permettent à la communauté d'organiser et de prioriser directement les messages :
 
 1. Tout d'abord, les différents emojis hors-sujet permettent de rediriger un message d'un canal à l'autre.
 2. L'emoji `💾:floppy_disk:` permet quant à elle la sauvegarde des messages les plus pertinents.
@@ -150,11 +150,11 @@ Si tu as lu ce guide jusqu'à présent, merci pour ta patience. Te voilà presqu
 
 Tout d'abord, je t'invite chaudement à visiter le canal stratégies : tu y retrouveras les plus pertinentes dans les messages épinglés. Le canal `#💾-best-of` permet également de suivre aisément les contributions les plus impactantes.
 
-D'autres canaux spécifiques sont également réservés aux membres DeFi France dans la section "votre-histoire" : 
+D'autres canaux spécifiques sont également réservés aux membres DeFi France dans la section "votre-histoire" :
 
-Le canal `#🔮-oracle` permet de suivre votre allocation en 🌾 blé et **participer au système interne de validation (vouch) sur Proof of Humanity**. 
+Le canal `#🔮-oracle` permet de suivre votre allocation en 🌾 blé et **participer au système interne de validation (vouch) sur Proof of Humanity**.
 
-**La communauté DFF joue également communautairement à un jeu de rôle NFT** - Legends of Cryptonia. Les membres peuvent voter pour décider les prochaines étapes de l'aventure dans `#🎲-cryptonia-dff`. 
+**La communauté DFF joue également communautairement à un jeu de rôle NFT** - Legends of Cryptonia. Les membres peuvent voter pour décider les prochaines étapes de l'aventure dans `#🎲-cryptonia-dff`.
 
 Une fonction permet également de tirer au sort des gagnants parmi ceux qui réagissent à un message, avec ou sans pondération en 🌾 blé. Elle a déjà été utilisée pour faire **gagner 2 NFT Cryptonia**.
 

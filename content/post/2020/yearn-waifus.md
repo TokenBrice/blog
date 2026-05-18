@@ -2,8 +2,11 @@
 title: "Yearn Finance's Forks: The State of the Waifus Family"
 description: "On top of being one of the most succesful DeFi protocols, Yearn is also forked alot. Today, we have a look at the top YFI forks and what made them stick!"
 date: '2020-09-18T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, Harvest Finance]
+tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
+series: yearn
+series_order: 3
 image: /img/2020/yearn-waifus/cover.jpg
 difficulty: "intermediate"
 url: yearn-finance-forks
@@ -15,12 +18,12 @@ Yearn is more than Yearn.Finance product itself: it became a template to kicksta
 
 1. **Liquidity Mining Fair Launch**: the initial distribution of the token of the platform (ex: YFI) happens through liquidity mining. Supporters can stake tokens like yCRV to earn the governance token.
 2. **Community-Driven Development**: the decisions regarding the development of the project are taken by the community of token holders, through informal and formal (on-chain) votes.
-3. **Pooled Investment Strategies (Vaults)**: the Yearn-inspired projects usually also try to replicate this core feature of Yearn: they offer tokenised investment strategies. The vaults are essential for the long-term success of the project past the initial liquidity mining phase. 
+3. **Pooled Investment Strategies (Vaults)**: the Yearn-inspired projects usually also try to replicate this core feature of Yearn: they offer tokenised investment strategies. The vaults are essential for the long-term success of the project past the initial liquidity mining phase.
 
 {{< notice tip >}}
 The term "Vault" is used to cover two vastly different reality:
-1. **The "Basic Vault"**, where tokens are collected and stake to produce a yield. The yield produced is frequently settled for stablecoins (no leverage).
-2. **"Delegated Vault"**, where once tokens are deposited, they are used as collateral (thanks to credit delegation) to borrow stablecoins then used to produce a return.
+1. **The "Basic Vault"**, where tokens are collected and stake to produce a yield. The yield produced is frequently settled for Stablecoins (no leverage).
+2. **"Delegated Vault"**, where once tokens are deposited, they are used as collateral (thanks to credit delegation) to borrow Stablecoins then used to produce a return.
 
 Delegated Vaults are much more complex to develop and implement, while basic vaults can be sprung quickly.
 {{< /notice >}}
@@ -47,7 +50,7 @@ On top of this base differentiation, YFII develops an interesting angle with a *
 
 [You can view the stats here](https://stats.dfi.money/).
 
-On September 14, [DFI.Money launched the v2 of their vaults](https://twitter.com/DfiMoney/status/1305339433638531072?s=20), supporting ETH, USDC, USDT, DAI, TUSD, BUSD, HBTC, & yCRV. As this piece was written, there was a total of $70M deposited into DFI's vaults. 
+On September 14, [DFI.Money launched the v2 of their vaults](https://twitter.com/DfiMoney/status/1305339433638531072?s=20), supporting ETH, USDC, USDT, DAI, TUSD, BUSD, HBTC, & yCRV. As this piece was written, there was a total of $70M deposited into DFI's vaults.
 
 {{< notice info >}}
 This article is not an exhaustive overview of YFI forks. There were other forks of Yearn with minimal changes that are not covered, such as YFFI.
@@ -57,7 +60,7 @@ This article is not an exhaustive overview of YFI forks. There were other forks 
 
 YFL is another one of the early forks of YFI. Here, the twist is simple:** LINK was used as the base token of the system** - the one to deposit for the initial liquidity mining phase. The farming pools structure was similar to YFI/YFII, but with LINK/aLINK.
 
-The initial vision was to create a farming collaborative for LINK holders. YFL was developed by 5 anonymous teams working together and initially released on August 7 2020. 
+The initial vision was to create a farming collaborative for LINK holders. YFL was developed by 5 anonymous teams working together and initially released on August 7 2020.
 
 ![YFL LinkSwap](/img/2020/yearn-waifus/Linkswap.png)
 
@@ -67,7 +70,7 @@ The growth was quick and the plan soon refined! YFLink is [now working on LINKSw
 
 YFValue adds several more twists, with a similar goal of providing a service facilitating yieldfarming and making it more accessible.
 
-Here, the farming pools were mostly 98% ERC20-token / 2% YFV Balancer pools and the emission schedule is much longer (5 to 20 weeks) - it's still ongoing while [YFV launched mid-August.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) There is also a "seed pool" accepting stablecoins.
+Here, the farming pools were mostly 98% ERC20-token / 2% YFV Balancer pools and the emission schedule is much longer (5 to 20 weeks) - it's still ongoing while [YFV launched mid-August.](https://medium.com/@yfv.finance/yfv-bringing-true-value-to-yield-farming-bddc4edf889a) There is also a "seed pool" accepting Stablecoins.
 
 YFV was one of the first project to provide credible earning opportunities on tokens such as BAL, YFI, BAT, REN, KNC, BTC, WETH, or LINK: it really helped to attract liquidity — there are around $470 M deposited on YFV as I write this.
 
@@ -81,7 +84,7 @@ YFV's core product, the Governance Vault was just [launched on September 15](htt
 4. YFV tokens earned from the strategy implemented with the Governance vaults funds.
 5. YFV tokens earned from buying back YFV with 6.8% of the profits made with the vaults.
 
-YFV is a highly ambitious project. The vaults (wETH, wBTC, renBTC) are expected shortly. On top of the existing farms and governance structure, the team is working on transitioning to an AMM/farming collaborative called Value Liquid. 
+YFV is a highly ambitious project. The vaults (wETH, wBTC, renBTC) are expected shortly. On top of the existing farms and governance structure, the team is working on transitioning to an AMM/farming collaborative called Value Liquid.
 
 {{< notice note >}}
 YFValue is in the process of transitioning to VALUE (token) and Value Liquid (name of the exchange/service). You’ll find [more information on this rebranding and transition here](https://medium.com/@yfv.finance/faq-yfv-and-value-migration-af3a5a5c2190).
@@ -95,7 +98,7 @@ The experience on Harvest is quite straightforward, just like with the Yearn's v
 
 ![Harvest Finance](/img/2020/yearn-waifus/harvest-finance.png)
 
-**Once they own fDAI (or other fTokens), users can stake them to earn FARM - the native token of the platform.** They can also provide liquidity to the fDAI/DAI pair on Uniswap which facilitates the entry and exit of smaller capitals. 
+**Once they own fDAI (or other fTokens), users can stake them to earn FARM - the native token of the platform.** They can also provide liquidity to the fDAI/DAI pair on Uniswap which facilitates the entry and exit of smaller capitals.
 
 Harvest.Finance launched on September 15 a new vault accepting for wETH. The community is highly active and committed, and it shows in the reactivity of the team: to better the yield, the stablecoin farms (DAI, USDC, USDT) switched from the Curve strategy to Swerve barely 16 hours after [Swerve's](https://swerve.fi/) launch.
 

@@ -1,9 +1,11 @@
 ---
 title: "Subtles nuances with great consequences: a cross analysis of Curve and Velodrome"
-description: "The Velodrome model, inspired by veCRV, achieves superior alignment between the three key participants of a DEX - LPs, tokenholders, and projects needing liquidity. Yet, most of the DeFi space still fails understand why: but not you anon - once you read this post."
+description: "Why the Velodrome model improves veCRV-style alignment between LPs, tokenholders, and projects seeking liquidity."
 date: '2024-03-21T01:13:50.191Z'
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Curve Finance, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
+tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
+series: crv-wars
+series_order: 3
 url: crv-vs-velo
 image: img/2024/crv-vs-velo/cover.png
 difficulty: "expert"
@@ -40,9 +42,9 @@ Curve and Velodrome operate under the same base logic: every week, a given amoun
 
 These emissions are essentially the main cost for the DEX: the price paid to attract and retain liquidity. What matters then is what comes on the other side of the balance sheet – the revenues: in our case, it’s the fees collected.
 
-On Curve, revenues stem from the “admin fees” of each pool, which are usually set at 50%. This means the fees collected on a given pool are split 50/50 between the LP and the DAO/veCRV holders. 
+On Curve, revenues stem from the “admin fees” of each pool, which are usually set at 50%. This means the fees collected on a given pool are split 50/50 between the LP and the DAO/veCRV holders.
 
-![curve-revenues](img/2024/crv-vs-velo/curve-revenues.png "Overview of Curve Revenues: the light blue are admin fees, in yellow fees paid to the LP, and in deep blue revenues stemming from the crvUSD stablecoin - source: curvemonitor.com") 
+![curve-revenues](img/2024/crv-vs-velo/curve-revenues.png "Overview of Curve Revenues: the light blue are admin fees, in yellow fees paid to the LP, and in deep blue revenues stemming from the crvUSD stablecoin - source: curvemonitor.com")
 
 On Velodrome, it's straightforward: liquidity providers get no exposure to the fees collected on the pool they supply; they are incentivized through $VELO emissions only, meaning that the DAO/veVELO holders get 100% of the fees generated on the DEX.
 
@@ -80,12 +82,12 @@ On Curve:
 2. His voting activity is detrimental to Curve as a DEX because he directs emissions where they are unnecessary.
 3. He receives the same amount of 3CRV as a more Curve-aligned voter with an equivalent veCRV bag trying to direct incentives to maximize volume.
 
-Now on Velodrome: 
+Now on Velodrome:
 
 
 
 1. A significant veVELO holder votes for a pool processing a marginal amount of volume compared to its TVL, either to collect a bribe or because he wants to support the tokens involved in the pool.
-2. His voting activity is detrimental to Velodrome as a DEX because he directs emissions where they are unnecessary. 
+2. His voting activity is detrimental to Velodrome as a DEX because he directs emissions where they are unnecessary.
 3. He receives a marginal amount of fees since the pool he is voting for is processing a marginal volume.
 
 The situation is the same in reverse for voting on a high-volume pool that would be of interest to the DEX:
@@ -95,7 +97,7 @@ The situation is the same in reverse for voting on a high-volume pool that would
 * On Curve, this DEX-aligned voter will receive the same amount of 3CRV as anyone holding the same bag.
 * On Velodrome, this DEX-aligned voter will be well rewarded, as he will be a majority voter on a high-volume pair: an ideal situation to maximize fees earned.
 
-On both sides, bribes are paid to voters and can lead to situations where votes are directed to pools that are not optimal in terms of volume processed. However, on Curve, there is no penalty for doing so. On Velodrome, bribers of such pools compete with high-volume pools offering attractive APR to voters, with or without bribes. 
+On both sides, bribes are paid to voters and can lead to situations where votes are directed to pools that are not optimal in terms of volume processed. However, on Curve, there is no penalty for doing so. On Velodrome, bribers of such pools compete with high-volume pools offering attractive APR to voters, with or without bribes.
 
 The same thing, from another angle: on Curve, the cost of bribes depends only on the value of CRV emissions. On Velodrome, the baseline price a project must pay to gather votes depends on the total bribes + fees collected on other pools. This means that high-volume pools push the cost of bribes upward, entertaining yet another flywheel in the flywheel.
 
@@ -119,7 +121,7 @@ To maximize the boost obtained, up to 2.5x maximal, one must:
 
 **Simply put, LP Boost is a rugged game from the get-go**. It is not designed to benefit individual veCRV holders over their LP but to attract meta-protocol, such as Convex, who can achieve 1+2+3 consistently. **The growth of Convex is not a success story; it is by design (Curve’s design)**. If it were not for Convex, another similar protocol would own most of the veCRV supply. We observed similar patterns with other protocols that adopted LP Boost: Balancer has Aura. Convex and Aura control > 50% of the veCRV/veBAL supply.
 
-Velodrome and Aerodrome completely avoid the possibility of a new protocol to gobble up the supply by not having any boosting mechanism. As we’ve seen with Curve, Convex emerged and captured most of the supply; now, all LPs are earning with a boost, and none are benefiting from any disproportionate amount of CRV. The system has converged to everyone earning about the same effective boost, or in Velodrome/Aerodrome’s case, no boost since the future outcome would’ve been LPs earning the same effective boost. The other fact remains that since Convex has a majority of CRV locked, they control the future governance of CRV. 
+Velodrome and Aerodrome completely avoid the possibility of a new protocol to gobble up the supply by not having any boosting mechanism. As we’ve seen with Curve, Convex emerged and captured most of the supply; now, all LPs are earning with a boost, and none are benefiting from any disproportionate amount of CRV. The system has converged to everyone earning about the same effective boost, or in Velodrome/Aerodrome’s case, no boost since the future outcome would’ve been LPs earning the same effective boost. The other fact remains that since Convex has a majority of CRV locked, they control the future governance of CRV.
 
 
 ### B.2/ Consequences of LP Boost
@@ -158,7 +160,7 @@ Velodrome has other neat innovations packed in, such as the still under-apprecia
 
 Exchanges like Curve or Velodrome are a particular product type in the DeFi landscape. In regular business terms, **they could be described as B2B2C: Business to Business to Consumer**. They are B2B because their first customers are other projects – the various protocols looking for liquidity. If they successfully service this market, the projects they onboard to their DEX will do the B2C work for them, as their liquidity pools present opportunities to their respective token holders.
 
-In that regard, I feel like Curve utterly failed. With its pyramid of solutions nested on top of one another, Curve is particularly unfriendly to onboard for projects. They wanna bribe? All right, decide between veCRV or vlCVX bribes on Bribe.crv, Votium, Warden, or StakeDAO. Do they want to manage their own CRV? Fine, just pick between veCRV, aCRV, cvxCRV, sdCRV, vlCVX, uCRV, etc. While this myriad of options might ravish Curve-enthusiasts, it turns, in my perspective, into a negative quality for the B2B side of things. 
+In that regard, I feel like Curve utterly failed. With its pyramid of solutions nested on top of one another, Curve is particularly unfriendly to onboard for projects. They wanna bribe? All right, decide between veCRV or vlCVX bribes on Bribe.crv, Votium, Warden, or StakeDAO. Do they want to manage their own CRV? Fine, just pick between veCRV, aCRV, cvxCRV, sdCRV, vlCVX, uCRV, etc. While this myriad of options might ravish Curve-enthusiasts, it turns, in my perspective, into a negative quality for the B2B side of things.
 
 In contrast, the experience with Velodrome is seamless: one place where everything happens, one option for each – without needing to compare between half a dozen cryptic and sometimes misleading alternatives. Coupled with the previous characteristics of the veCRV games discussed before, especially the LP Boost, it makes the [Curve ecosystem particularly unfriendly to new entrants](https://tokenbrice.xyz/farewell-glc/#the-case-of-the-crv-wars): **who would want to enter a race rigged in favor of the first entrants three years after it began**?
 

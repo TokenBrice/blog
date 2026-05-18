@@ -4,6 +4,7 @@ description: "Le début d'une grande aventure : une émission interactive qui al
 date: '2021-03-11T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Science Fiction, DeSciFi]
+image: /img/main/banner.png
 url: science-fiction-defi-1
 difficulty: "beginner"
 ---
@@ -59,7 +60,7 @@ Pour ma part, je pars directement dans l'espace comme j'aime à le faire pour r�
 
 Les ICOs ont fait de nombreux heureux, mais pas que. Cette dernière histoire de Manu explore l'autre face du phénomène :
 
-> L'histoire commence en 2021, dans le grand nord canadien. Un hangar immense est érigé presque au milieu de nulle part : en s'en rapprochant, une oreille attentive peut reconnaître le ronronnement caractéristique de milliers d'ASICs en plein travail. 
+> L'histoire commence en 2021, dans le grand nord canadien. Un hangar immense est érigé presque au milieu de nulle part : en s'en rapprochant, une oreille attentive peut reconnaître le ronronnement caractéristique de milliers d'ASICs en plein travail.
 
 > Soudainement, une moto surgit suivie rapidement de plusieurs camions imposants. Le gardien du site est rapidement neutralisé tandis que des dizaines d'hommes vêtus de noir surgissent et chargent en grande hâte les camions avec autant de machines que possible.
 

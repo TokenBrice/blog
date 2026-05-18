@@ -1,9 +1,10 @@
 ---
 title: "Hiring a Junior DeFi Strategist to help foster the growth of immutable protocols"
-description: "I'm looking for a part-time DeFi enthusiast to join me on my adventures growing liquidity and utility for key unstoppable tokens. If harnessing the power of unstoppable code is something you like to do on the weekends, this mission is a fit for you."
+description: "A call for a part-time DeFi strategist to help grow liquidity and utility for resilient tokens and protocol ecosystems."
 date: '2023-03-29T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects]
-tags: [DeFi, Ethereum, Decentralized Finance, Liquity, Unstoppable DeFi, Lending]
+tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
 url: jr-strategist
@@ -14,7 +15,7 @@ difficulty: "beginner"
 
 I'm looking for a Junior DeFi Strategist to join me on my daily DeFi adventures, learn and grow. The fundamental missions are governance proposals, liquidity management, business development, and partnerships, but the scope is quite flexible.
 
-This is a unique opportunity for a passionate DeFi curious to jumpstart his/her career in crypto. Be the first hire for a community-led effort to cater governance-minimized and immutable protocols to achieve the mission of DeFi. 
+This is a unique opportunity for a passionate DeFi curious to jumpstart his/her career in crypto. Be the first hire for a community-led effort to cater governance-minimized and immutable protocols to achieve the mission of DeFi.
 
 You'll be working closely with me and learn my tactics to successfully grow liquidity and utility for immutable DeFi projects.
 
@@ -34,14 +35,14 @@ You'll be working closely with me and learn my tactics to successfully grow liqu
 - Well versed in the differences of cvxCRV, yCRV, sdCRV, uCRV, and aCRV
 Solid understanding of the top DeFi protocols and good overview of the promising newcomers
 - You’re already active on various governance forums or DeFi-related Discords.
-- Written and spoken English proficiency. 
+- Written and spoken English proficiency.
 - You can work independently as well as team up with your peers
 
 ### What I can offer
 
 - Exciting part time position (~50%) with a monthly retainer in FIAT (for the beginning)
 - Drive a community-led initiative (more to be announced soon)
-- Be part of a top notch and proven DeFi team 
+- Be part of a top notch and proven DeFi team
 - Work remotely (ideally in Europe or US timezone)
 
 Interested? **[Please apply via this form](https://forms.gle/6qaXgkczuhiaqNTV6)**. I'll get back in touch shortly.

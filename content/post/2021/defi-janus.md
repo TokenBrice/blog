@@ -1,9 +1,10 @@
 ---
 title: "Janus: the new sworn enemy of DeFi protocols?"
-description: "Within decentralized finance, a veritable open-air laboratory, governance issues are complex and often contradictory. In this article, I examine the potential antagonisms between the various stakeholders of a given protocol."
+description: "An essay on DeFi governance tensions between users, tokenholders, protocols, and the incentives that pull them apart."
 date: '2021-07-17T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Thesis]
-tags: [DeFi, Ethereum, Decentralized Finance, Money Markets, Liquity, Curve Finance, CRV, MakerDAO, Convex, CVX, Yearn Finance, Uniswap]
+tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, MakerDAO, Convex, CVX, Yearn, Uniswap]
 toc: true
 tocNum: true
 url: defi-janus
@@ -44,7 +45,7 @@ Still, **participation is generally low**, even when delegation mechanisms are u
 
 ### Complexity of decisions
 
-To evaluate governance proposals for a decentralized finance protocol, one must have **an understanding of a whole set of basics relating to Ethereum**, blockchain and DeFi.
+To evaluate governance proposals for a decentralized finance protocol, one must have **an understanding of a whole set of basics relating to Ethereum**, Blockchain and DeFi.
 
 From there, ideally, you need a thorough understanding of the protocol in question, as well as its **interactions with other protocols, synergies**, etc. We can also now add to this all the additional complexity linked to the multiplication of scalability solutions: sidechains and L2.[^mkrgov]
 
@@ -196,5 +197,5 @@ _🙏 Huge thanks to HHK, Charles, Thomas, Erwan, [PhilH](https://twitter.com/ph
 
 [^mkrgov]: Take a look for example [this pre-proposal taken at random from the MakerDAO governance forum](https://forum.makerdao.com/t/mip33-maker-stability-price-module/5943)
 [^yearnfrais]: [Yearn Finance documentation - Fee structure](https://docs.yearn.finance/yearn-finance/yvaults/overview#yvault-fee-structure)
-[^makerclientelecaptive]: DAI is still seen by many as a decentralized stablecoin that doesn't require trust, although it no longer does. There are still few stablecoins that rely only on trustless (ETH) and credibly decentralized (or on track) collateral: I know of two - Liquity's LUSD and Reflexer's RAI.
+[^makerclientelecaptive]: DAI is still seen by many as a decentralized stablecoin that doesn't require trust, although it no longer does. There are still few Stablecoins that rely only on trustless (ETH) and credibly decentralized (or on track) collateral: I know of two - Liquity's LUSD and Reflexer's RAI.
 [^bps]: Financial services fees are often measured in basis point (bps / basis point). A basis point is one hundredth of a percent: 1 bps = 0.01%.

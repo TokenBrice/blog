@@ -2,8 +2,9 @@
 title: "Volume begets fees: how are the main decentralized exchanges capturing value?"
 description: "A look at Uniswap's, Sushiswap's and Curve's value capture mechanism to better understand how value accrues for token holders."
 date: '2021-01-23T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, Decentralized finance, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
+tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
@@ -25,7 +26,7 @@ It's quite an impressive achievement! So today we'll look at this yummy cake and
 
 With all the discussions around automated market makers (AMMs) lately, I wanted, as usual, to take a step back and consider the current state of the market, the position of the main players and what's coming next.
 
-We'll discuss AMMs but I'll leave the technical details of the bonding curves to others. Instead, we will address the topic from a value capture and tokenomics perspective. 
+We'll discuss AMMs but I'll leave the technical details of the bonding curves to others. Instead, we will address the topic from a value capture and tokenomics perspective.
 
 **The rise and development of AMMs fundamentally changed the market**. Before their dominion, order-book based approaches were still widely used. One of the main merits of AMMs is to change the logic of the service, as it becomes **peer to contract**: there is no need for a matching order on the other side, thanks to the bonding curve, there's always one (within pool liquidity & slippage limits).
 
@@ -45,7 +46,7 @@ Through the different iterations and releases of the main DEXs, their value capt
 
 ### Uniswap: The need for liquidity
 
-Indeed, in the first days of the AMM, the main concern was liquidity - still very scarce back then: Uniswap had no token and no need for it to pioneer the AMM-front. The initial and still current fee distribution infrastructure matches this requirement: a **30 bps fee (0.3%) is taken on every trade and distributed to the liquidity providers**. 
+Indeed, in the first days of the AMM, the main concern was liquidity - still very scarce back then: Uniswap had no token and no need for it to pioneer the AMM-front. The initial and still current fee distribution infrastructure matches this requirement: a **30 bps fee (0.3%) is taken on every trade and distributed to the liquidity providers**.
 
 It was a perfect fit to start as you have a liquidity chicken and egg problem to begin with: sufficient liquidity will enable swaps without too much slippage, driving volume (if there's need for the given token/market) and therefore revenues for LP.
 
@@ -71,7 +72,7 @@ The improvements brought by Sushi are relevant, yet in my eyes the real game-cha
 
 Curve's model is slightly more complex than the previous but results in an ever better alignment of incentives between the platform users and the token holders. Let's see how.
 
-Since the launch of the CRV token, liquidity providers on Curve have been earning CRV tokens on top of their usual commissions (if they stake). And just like SushiSwap, Curve's introduced a form of value capture at the CRV-token level. 
+Since the launch of the CRV token, liquidity providers on Curve have been earning CRV tokens on top of their usual commissions (if they stake). And just like SushiSwap, Curve's introduced a form of value capture at the CRV-token level.
 
 ![Curve pools](/img/2021/dex-value-capture/curve-pools.png "Overview of the main pools pools on Curve")
 
@@ -139,13 +140,13 @@ From here, the possibilities are virtually endless:
 
 ### 6/ Next Steps for Curve
 
-Finally, we have to consider one last dimension on Curve, as it's not just any DEX. Indeed, from the get-go Curve specialized into the **swaps of pegged-assets** and optimized for it. It started with stablecoins only, but we now also have BTC and ETH representations too. 
+Finally, we have to consider one last dimension on Curve, as it's not just any DEX. Indeed, from the get-go Curve specialized into the **swaps of pegged-assets** and optimized for it. It started with Stablecoins only, but we now also have BTC and ETH representations too.
 
 Thanks to the growing available liquidity, the team is now harnessing DeFi synergies (with Synthetix) to offer swaps between the different pegged assets listed on Curve, such as DAI -> wBTC or USDT -> EURS.
 
 It provides incredible value as it covers markets that are currently not broadly available elsewhere (EURS) and enables a minimization of slippage for large trades.
 
-To stay concise, Uniswap and Sushiswap's bonding curves are well suited to **support many small or average swaps, especially on large pools** with a low slippage. However, they are less optimal for large orders as slippage increases in proportion to the share of liquidity of the pool required by the trade. 
+To stay concise, Uniswap and Sushiswap's bonding curves are well suited to **support many small or average swaps, especially on large pools** with a low slippage. However, they are less optimal for large orders as slippage increases in proportion to the share of liquidity of the pool required by the trade.
 
 {{< notice tip >}}
 A service like **[ParaSwap](https://paraswap.io)** helps you streamline this process & optimize your swap further.
@@ -157,14 +158,14 @@ A service like **[ParaSwap](https://paraswap.io)** helps you streamline this pro
 
 To wrap up this article, let's not forget about the upcoming tectonic shift for the Ethereum space: the increasing availability of layer 2.
 
-Last year, we saw the value transacted on AMM explode to the detriment of order-book based approaches. They streamlined the whole experience and made tons of sense for layer 1 so we can reasonably expect them to pave the way for L2 decentralized trading. 
+Last year, we saw the value transacted on AMM explode to the detriment of order-book based approaches. They streamlined the whole experience and made tons of sense for layer 1 so we can reasonably expect them to pave the way for L2 decentralized trading.
 
 **Loopring is already delivering live in production an AMM on L2:** a zk-Sync based L2 DEX with various incentives for liquidity providers. Curve has been working with Zk-Sync too, so we can reasonnably expect them to ship a live L2 product this year considering the latest developments with Zk-Sync.
 
 ![Loopring V2 Stats](/img/2021/dex-value-capture/loopring.png "Overview of the main pools on Loopring V2")
 
-On the other hand, Synthetix recently rolled their Optimism L2 mainnet and the force seems strong around a Uniswap x Optimism rollout. Jokingly the other day I was saying: 
-> Synthetix Optimism L2 is Uniswap's testnet. 
+On the other hand, Synthetix recently rolled their Optimism L2 mainnet and the force seems strong around a Uniswap x Optimism rollout. Jokingly the other day I was saying:
+> Synthetix Optimism L2 is Uniswap's testnet.
 
 It wouldn't be surprising to see Uniswap's L2 implementation rolling out within weeks or months.
 

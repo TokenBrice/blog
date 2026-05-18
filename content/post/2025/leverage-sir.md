@@ -3,7 +3,7 @@ title: "Leverage Like a Sir: Polynomial Gains, No Liquidation Pains"
 description: "Exploring a novel protocol offering no funding fee no liquidation leverage with convex returns, and announcing my involvment."
 date: '2025-03-12T01:13:50.191Z'
 categories: [Projects, Lending, Yield]
-tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Leverage, Immutable Protocol, Lending, Polynomial]
+tags: [DeFi, Ethereum, Leverage, Immutable Protocol, Lending, Polynomial]
 image: /img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
 difficulty: "intermediate"
@@ -214,7 +214,7 @@ Because of its fee structure, **Sir is geared toward leveragers with a long-term
 
 Finally, I’d like to remind you one more time of the main limitation of Sir: the absence of liquidity decay can only be ensured if there is sufficient liquidity to stomach your trade. While it’s pretty **reasonable to assume so for incentivized ^1.25, ^1.5, or even ^2 vaults**, it becomes much less certain for ^5 vaults, even with strong incentives, because of the maths I shared above.
 
-If you’d like more data to understand the impact of polynomial leverage in the context of Sir (=fees included), check [the new calculator on the Sir website](https://app.sir.trading/leverage-calculator). 
+If you’d like more data to understand the impact of polynomial leverage in the context of Sir (=fees included), check [the new calculator on the Sir website](https://app.sir.trading/leverage-calculator).
 
 Note: APE tokens are ERC-20; thus, further composability could be envisioned. It could get interesting as the protocol grows!
 
@@ -315,11 +315,11 @@ Assuming you initially farm with an ETH or wBTC deposit, you have a compounding 
 
 Before you, I’d like to give you more context on my involvement with Sir: I am advising the Sir team to help them with my core topics: growth, tokenomics optimization, and BD. I am compensated for this endeavour, and I am also an APE and TEA holder and, therefore, a SIR farmer – **I am long SIR in all possible ways**.
 
-I discovered Sir somewhat recently (the protocol is still just a few weeks old), but the timing was excellent. As those following me on Twitter probably already know, I have been profoundly disappointed with f(x), where I suffered from an abusive liquidation stemming from infrastructure shortcomings on their end (RPCs). 
+I discovered Sir somewhat recently (the protocol is still just a few weeks old), but the timing was excellent. As those following me on Twitter probably already know, I have been profoundly disappointed with f(x), where I suffered from an abusive liquidation stemming from infrastructure shortcomings on their end (RPCs).
 
 I was, since then, on the hunt for an alternative solution to f(x) and stumbled upon Sir, which delivers some similar features (“real” no liquidation, no funding fees) but also brings welcome additions to the mix, such as the polynomial leverage vs linear: both the protocol and the timing were perfect, so going the extra mile to help it succeed happened very spontaneously.
 
-I do not approach advisory as a collectible to add to my wallet, show in 2 monthly calls, collect the payout, and call it a day. I am on the opposite side, equally maximally committed, involved, and selective with them. 
+I do not approach advisory as a collectible to add to my wallet, show in 2 monthly calls, collect the payout, and call it a day. I am on the opposite side, equally maximally committed, involved, and selective with them.
 
 With Sir, considering the recency of the protocol, my current contributions revolve around raising awareness for the protocol, helping it get well integrated into the ecosystem, and expliciting its benefits to as many people as possible, as done with this article. I harness my extensive DeFi experience, network, and presence to support the team in all relevant ways.
 

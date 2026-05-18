@@ -2,8 +2,11 @@
 title: "Can Aave's GHO stablecoin help the protocol further grow and overtake MakerDAO and DAI?"
 description: "Looking at GHO's design and anticipating its key challenges to grow as well as the value it can deliver to the Aave DAO."
 date: '2022-08-22T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
+tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
+series: stablecoin-arc
+series_order: 4
 toc: true
 tocNum: true
 url: aave-gho-stablecoin
@@ -35,7 +38,7 @@ Regarding the naming, it's also interesting to see Aave not including "USD" in t
 
 ### Interest model and stkAAVE discount
 
-The interest rate model for GHO is currently its most underwhelming component, as the initial post envisioned an interest rate directly determined by the Aave DAO, just like how it works on Maker. However, that would be inefficient and add unnecessary bloat to the governance. 
+The interest rate model for GHO is currently its most underwhelming component, as the initial post envisioned an interest rate directly determined by the Aave DAO, just like how it works on Maker. However, that would be inefficient and add unnecessary bloat to the governance.
 
 The community feedback will dictate where it goes. Still, I genuinely hope for Aave that the final call lands on a model where the interest rate is algorithmically determined by market conditions, just like with other tokens on Aave where the supply/demand on the pool dictates the interest rate.
 
@@ -190,7 +193,7 @@ There are also explicit mentions of undercollateralized positions based on crede
 
 GHO is presented as a decentralized stablecoin by the Aave team, with even some mentions of censorship resistance. However, it's never directly associated with GHO:
 
-> The usage of stablecoins will only continue to grow as cryptoassets become further integrated with a user base that is less crypto-native. Decentralized stablecoins provide censorship-resistant fiat-denominated currency on the blockchain. Introducing, GHO, a decentralized multi-collateral stablecoin that is fully backed and native to the Aave Protocol.
+> The usage of Stablecoins will only continue to grow as cryptoassets become further integrated with a user base that is less crypto-native. Decentralized Stablecoins provide censorship-resistant fiat-denominated currency on the Blockchain. Introducing, GHO, a decentralized multi-collateral stablecoin that is fully backed and native to the Aave Protocol.
 
 Unless I've misunderstood the design, GHO will be **as "decentralized" as DAI and have weak censorship resistance** because of its collateral composition. Indeed, assuming that all aTokens that can be currently used as collateral to borrow on Aave will also be used to borrow GHO, GHO's collateral composition will be mostly made of censorable tokens such as USDC:
 
@@ -200,7 +203,7 @@ Unless I've misunderstood the design, GHO will be **as "decentralized" as DAI an
 
 Source: [DeFiLlama](https://defillama.com/protocol/aave-v2)
 
-Indeed excluding stETH used as collateral to leverage the ETH staking yield (borrowing ETH), USDC is the top collateral used on Aave, with another trusted token (wBTC) not far behind. **Still, the collateral composition would be much better than DAI,** which is >50% backed by pure USDC. 
+Indeed excluding stETH used as collateral to leverage the ETH staking yield (borrowing ETH), USDC is the top collateral used on Aave, with another trusted token (wBTC) not far behind. **Still, the collateral composition would be much better than DAI,** which is >50% backed by pure USDC.
 
 ![dai-collateral](/img/2022/aave-gho-stablecoin/dai-collateral.png "Over 75% of the tokens backing DAI are censorable")
 
@@ -217,7 +220,7 @@ Indeed, the interaction between the Aave protocol and GHO is quite exciting to c
 
 aGHO would be fascinating collateral on Aave, but it could also create significant reflexive risks if allowed to borrow GHO. Thus, **I expect aGHO to be blocked from minting GHO** to prevent reflexive backing like we're currently seeing on DAI.
 
-Still, it would allow for exciting stablecoin arbitrage loops, such as aUSDC > Mint GHO > aGHO > Borrow another stablecoin. With the eMode, this would make Aave & GHO a very effective protocol for stablecoin arbitrage. Besides, the GHO interest rate would become a kind of "base stablecoin interest rate" and maybe help keep the interest rate of other stablecoins like USDC in check.
+Still, it would allow for exciting stablecoin arbitrage loops, such as aUSDC > Mint GHO > aGHO > Borrow another stablecoin. With the eMode, this would make Aave & GHO a very effective protocol for stablecoin arbitrage. Besides, the GHO interest rate would become a kind of "base stablecoin interest rate" and maybe help keep the interest rate of other Stablecoins like USDC in check.
 
 
 ### GHO's Liquidity Strategy
@@ -228,7 +231,7 @@ Another critical and essential part of any stablecoin's design is its liquidity 
 ![aaveDAO-treasury](/img/2022/aave-gho-stablecoin/aaveDAO-treasury.png "Current state of Aave's treasury with ~615K CRV")
 Source: [Aave’s Treasury Report](https://governance.aave.com/t/aave-treasury-report/5575/37) (July 2022)
 
-Just like Frax is currently pivoting away from USDT and DAI and trying to establish the Frax Basepool (FRAX/USDC) as a pairing currency on Curve for other stablecoins, we could envision a similar move from Aave. Moreover, many projects currently exposed to USDC and DAI are looking to diversify their liquidity away from them. GHO might arrive with perfect timing to enable DeFi to be less reliant on USDC.
+Just like Frax is currently pivoting away from USDT and DAI and trying to establish the Frax Basepool (FRAX/USDC) as a pairing currency on Curve for other Stablecoins, we could envision a similar move from Aave. Moreover, many projects currently exposed to USDC and DAI are looking to diversify their liquidity away from them. GHO might arrive with perfect timing to enable DeFi to be less reliant on USDC.
 
 However, while Frax controls sizeable governance and gauge-voting power in the Curve Wars, this is not the case for the Aave DAO. Current treasury CRV/CVX balances will clearly be insufficient to incentivize pools to grow into the billion dollar range, so it could drive the AaveDAO to look into acquiring more liquidity-incentive-driver tokens. With the significant revenues that the DAO will collect from GHO's interest rate, it should have sufficient means to support appropriate liquidity, whatever GHO's market cap ends up being.
 
@@ -238,7 +241,7 @@ Finally, Aave has been historically close to Balancer, with the 80% AAVE / 20% w
 On top of the base protocol incentives (such as the dynamic or DAO-governed borrowing interest rate) and liquidation mechanism, the liquidity strategy is probably one of the most crucial element for a stablecoin since it also has an impact on how well the peg is held.
 
 
-## Parting Words 
+## Parting Words
 
 I hope this article helped you better understand what is at stake in the stablecoin wars. The end of the year will be interesting, with the GHO release approaching and Curve's stablecoin, also overcollateralized, which was hinted to release before the end of this year. The multiplication of stablecoin is a natural next step for DeFi, as most established protocols see their design converge:
 

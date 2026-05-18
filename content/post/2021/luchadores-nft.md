@@ -91,7 +91,7 @@ We are talking here only about "formal" implications. Of course, we must not for
 
 * Nicosz who created a [tool in Python to analyze data related to Luchadores](https://github.com/sznicolas/luchadata).
 * A [dashboard to track key metrics on Luchadores](https://dune.xyz/lokhidor/Luchadores), offered by cnhkp.eth, using Dune Analytics and thanks to Nicosz' help.
-* Or OxMule which has [translated the whitepaper](https://whitepaper.luchadores.io/v/francais/) in a few days. 
+* Or OxMule which has [translated the whitepaper](https://whitepaper.luchadores.io/v/francais/) in a few days.
 * Without forgetting the many collectors and "snipers" of the Discord who animate it every day, like Chainlinkers, one of the first members of the community who won two giveaways in a row on his birthday and became a legend.
 
 ---
@@ -114,7 +114,7 @@ My best catch is the "Batman", a "7 attributes" that will be one of my main figh
 
 ![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "A Luchador 7 attributes, to win in the arena")
 
-Now in possession of 3 Luchadores 7 attributes, **I wish to put one back into play**. This one will not go to the highest bidder... no way. 
+Now in possession of 3 Luchadores 7 attributes, **I wish to put one back into play**. This one will not go to the highest bidder... no way.
 
 **The [Luchador #8956](https://luchadores.io/luchador/8956) will be won in the arena**, so it will go to the most skilled player. Looking forward to sharing more details about the allocation mechanism when the game is available.
 
@@ -140,9 +140,9 @@ Luchadores first traded near the cost of minting, before establishing a second f
 
 So a wrestler... great, but at what price? Don't expect a direct answer from me on that. At this point in time and at this stage of development, it is still a gamble. Nevertheless, the approach is relevant and I think that Luchadores has the potential to enter the NFTs canon, pushing the frontier of interactivity made possible with these digital objects.
 
-Acquiring a Luchadores today means paying about three times minimum the price seen a few weeks ago - and yet it would be a good deal if the current trend continues 🔮 welcome to the world of NFTs, where pricing is a social and highly reflective mechanism. 
+Acquiring a Luchadores today means paying about three times minimum the price seen a few weeks ago - and yet it would be a good deal if the current trend continues 🔮 welcome to the world of NFTs, where pricing is a social and highly reflective mechanism.
 
-So now place your bets, "rien ne va plus" 🎲. 
+So now place your bets, "rien ne va plus" 🎲.
 
 ---
 

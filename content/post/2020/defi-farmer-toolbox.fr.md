@@ -2,6 +2,7 @@
 title: "🧰 Trousse à outils du cultivateur DeFi"
 description: "Une liste d'outils et de conseils sélectionnés avec attention pour que vous puissiez tirer parti de la révolution agraire de la DeFi 🌻"
 date: '2020-06-28T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidity Mining]
 toc: true
@@ -17,7 +18,7 @@ Si vous êtes ici, c'est que nous partageons une compréhension basique de [ce q
 
 Vous avez peut-être même essayé par vous-même, ou entendu les [récits d'un producteur](https://defiweekly.substack.com/p/tales-from-a-yield-farmer) : incroyable ! Aujourd'hui, c'est à mon tour de partager les concepts clés et une liste d'outils pour vous aider à tirer parti de la révolution agraire sur Ethereum.
 
-Si par hasard vous avez atterri ici sans avoir la moindre idée de ce qu'est [Ethereum](https://ethhub.io/) ou **[DeFi]({{< relref "definancial-services-guide.fr.md" >}})**, je vous invite à cliquer sur ces liens. Ceci n'est pas un guide, mais plutôt une sélection d'outils et de conseils. - Commençons ! 
+Si par hasard vous avez atterri ici sans avoir la moindre idée de ce qu'est [Ethereum](https://ethhub.io/) ou **[DeFi]({{< relref "definancial-services-guide.fr.md" >}})**, je vous invite à cliquer sur ces liens. Ceci n'est pas un guide, mais plutôt une sélection d'outils et de conseils. - Commençons !
 
 ## L'agriculture biologique DeFi
 
@@ -38,14 +39,14 @@ Nous y reviendrons plus tard, mais **le prix moyen élevé du gaz vous incite à
 
 ### Sources de "Liquidity Mining"
 
-Voici les principales sources de liquidity mining (apport de liquidité avec incitations supplémentaires), classées selon les jetons disponibles : 
+Voici les principales sources de liquidity mining (apport de liquidité avec incitations supplémentaires), classées selon les jetons disponibles :
 
 * Balancer Labs - [BAL](https://medium.com/balancer-protocol/proposing-balancer-liquidity-mining-cab4503972fa) - 100 millions de jetons au total, dont 75 millions distribués par le liquidity mining (75 %), depuis le 1er juin.
 * Curve Finance - CRV ??? - il n'y a actuellement que peu ou pas d'informations publiques disponibles.
 * Compound Finance - [COMP](https://medium.com/compound-finance/expanding-compound-governance-ce13fcd4fe36) - 10 millions de jetons au total, dont environ 4,2 millions disponibles via le liquidity mining (42%), depuis le 15 juin
 * Universal Market Access - [UMA](https://defirate.com/safg/) ~ 35% de l'approvisionnement par l'exploitation minière (détails à déterminer)
 * Programme d'incitation Synthetix & autres (comme JRT)
-* Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/) : redirigez les intérêts gagnés sur vos stablecoins sur Aave pour gagner des jetons JRT. Jarvis a de nombreux autres programmes d'incitations, c'est un bon point de départ.
+* Jarvis x Aave [Onramp Sponsoring Program](https://sponsoring.jarvis.network/) : redirigez les intérêts gagnés sur vos Stablecoins sur Aave pour gagner des jetons JRT. Jarvis a de nombreux autres programmes d'incitations, c'est un bon point de départ.
 
 ![Synthetix liquidity mining programs](/img/2020/defi-farmer-toolbox/synthetix-liquidity-mining.png)
 
@@ -87,9 +88,9 @@ Donc, si nous examinons cette position avec ces hypothèses sur plusieurs pério
 
 *Remarque : ce scénario simpliste ne tient pas compte du coût d'opportunité sur le prix de l'ETH. 5 $ de gaz (=ETH) payés aujourd'hui pourraient valoir 10 $ d'ici un an.*
 
-L'enseignement que je voulais partager ici est que **pour de tels capitaux, compte tenu des coûts actuels du gaz, il sera probablement préférable de s'en tenir à une position pendant des mois plutôt que d'essayer de courir après le meilleur rendement disponible**. Des bénéfices décents (~0,81 % /mois) commencent à se faire sentir dans un délai de trois mois. 
+L'enseignement que je voulais partager ici est que **pour de tels capitaux, compte tenu des coûts actuels du gaz, il sera probablement préférable de s'en tenir à une position pendant des mois plutôt que d'essayer de courir après le meilleur rendement disponible**. Des bénéfices décents (~0,81 % /mois) commencent à se faire sentir dans un délai de trois mois.
 
-Alors, vous vous souvenez de Stani l'agriculteur ? Vous devez choisir vos cultures avec sagesse. 
+Alors, vous vous souvenez de Stani l'agriculteur ? Vous devez choisir vos cultures avec sagesse.
 
 
 #### Le terrain de jeu de la baleine (> 10 000 $)
@@ -99,7 +100,7 @@ Maintenant, si vous avez plus de capital investi et êtes prêt à vous exposer 
 Par exemple, vous pouvez tirer parti de l'effet de levier pour maximiser votre retour en COMP effectif (par des cycles d'emprunts / dépôts). Cela s'accompagne évidemment d'un risque de liquidation. Ce risque peut être plus restreint si vous utilisez la même cryptomonnaie pour votre collatéral que pour votre emprunt.
 [InstaDapp](https://dsa.instadapp.io/compound) vous aide à maximiser les rendements du COMP en repliant votre position jusqu'à 4x voire plus mais ça reste difficile avec le prix du gaz actuel.
 
-Dans un article précédent, j'ai détaillé une stratégie s'appuyant sur la plateforme Synthetix qui comprenait une autre forme de levier. Elle a permis d'observer des rendements impressionnants (~200% en réalité) depuis [son introduction il y a 5 semaines](https://tokenbrice.xyz/fr/posts/2020/definancial-services-guide/#5-a-le-synthetixcurve-kebb-alias-the-4-steaks-yieldburger) - principalement en raison d'une appréciation significative du prix du SNX (le prix a doublé), de la plus grande exposition de cette stratégie et du niveau très élevé d'activité sur le pool Curve sUSD.
+Dans un article précédent, j'ai détaillé une stratégie s'appuyant sur la plateforme Synthetix qui comprenait une autre forme de levier. Elle a permis d'observer des rendements impressionnants (~200% en réalité) depuis [son introduction il y a 5 semaines](https://tokenbrice.xyz/fr/definancial-guide/#5-a-le-synthetixcurve-kebb-alias-the-4-steaks-yieldburger) - principalement en raison d'une appréciation significative du prix du SNX (le prix a doublé), de la plus grande exposition de cette stratégie et du niveau très élevé d'activité sur le pool Curve sUSD.
 
 ![The Synthetix-Yieldbuger-TokenBrice](/img/2020/definancial-services-guide/yieldkebab.png)
 
@@ -121,7 +122,7 @@ Si vous n'êtes pas encore le plus familier avec Ethereum, la façon la plus sim
 
 **Acheter de l'ETH & utiliser les services DeFi** comme Argent (gaz gratuit sur Argent pour certains protocols de la Defi pour l'instant !) - [Argent](https://argent.xyz)
 
-**Spending ETH & stablecoins** - [Monolith](https://monolith.xyz). Maintenant avec ParaSwap intégré pour les swaps et bientôt la possibilité d'acheter de l'ETH/ERC-20 à directement dans l'application !
+**Spending ETH & Stablecoins** - [Monolith](https://monolith.xyz). Maintenant avec ParaSwap intégré pour les swaps et bientôt la possibilité d'acheter de l'ETH/ERC-20 à directement dans l'application !
 
 ![monolith](/img/2020/defi-farmer-toolbox/monolith.jpeg)
 
@@ -188,7 +189,7 @@ Enfin, c'est la saison des subventions Gitcoin, alors permettez moi cette mentio
 
 Vous suivez le développement d'Ethereum avec passion et attention ? Que diriez-vous de partager une petite part de vos retours, disons 2 %, pour soutenir des projets d'infrastructures essentielles & vos services DeFi ou vos producteurs de contenu préférés ?
 
-Vos contributions sont grandement appréciées et peuvent avoir un réel impact, même 1 DAI grâce à la contrepartie du CLR. Donc si vous avez aimé cet article ou mes contributions à l'espace DeFi en général, n'hésitez pas à jeter un coup d'œil à **[mon grant Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**. 
+Vos contributions sont grandement appréciées et peuvent avoir un réel impact, même 1 DAI grâce à la contrepartie du CLR. Donc si vous avez aimé cet article ou mes contributions à l'espace DeFi en général, n'hésitez pas à jeter un coup d'œil à **[mon grant Gitcoin](https://gitcoin.co/grants/811/tokenbrice-shining-light-on-ethereums-defi-en-fr)**.
 
 Il m'aidera à financer davantage d'initiatives pour la communauté française et à poursuivre des efforts de production de contenu comme celui-ci. Chaque contribution fait la différence, même 1 DAI (actuellement égal à +5).
 

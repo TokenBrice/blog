@@ -2,8 +2,9 @@
 title: "🗡 Risk? Yes please, but exactly how I like it"
 description: "Exploring what risk tranching is and why it's **the next financial primitive** in line to be incorporated into major money markets like Aave or Compound."
 date: '2021-01-12T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Decentralized finance, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn Finance, APWineFi]
+tags: [DeFi, Ethereum, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn, APWineFi]
 toc: true
 url: risk-tranching-defi
 image: /img/2021/risk-tranching/cover.gif
@@ -38,17 +39,17 @@ But today, I want to focus this piece on a risk management concept that hasn't f
 
 ## Tranching: would you like another slice of risk?
 
-To begin, let's start with **the most straightforward "risk alteration" there is - tranching**. The idea here is quite straightforward: the different risk layers taken by the depositor of a given money market are tranched - meaning segregated one from the other. 
+To begin, let's start with **the most straightforward "risk alteration" there is - tranching**. The idea here is quite straightforward: the different risk layers taken by the depositor of a given money market are tranched - meaning segregated one from the other.
 
 Each depositor can choose his preferred exposure. It enables, for instance, a confident degen to **bear all available layers of risk to maximize his APY** while a more conservative whale could **downsize its risk perimeter** by exposing oneself to the technical risk only.
 
-That's the core idea, but let's not forget we're talking about decentralized finance here, so **composability is key**. What makes tranching so exciting is its future as a **financial primitive** - a building block that other apps and projects can use to deliver new services. 
+That's the core idea, but let's not forget we're talking about decentralized finance here, so **composability is key**. What makes tranching so exciting is its future as a **financial primitive** - a building block that other apps and projects can use to deliver new services.
 
 We'll explore more in-depth what tranching as financial primitive entails right after we consider how it currently works in practice, and examine the broader context of risk hedging and APY fixation.
 
 {{< notice note >}}
-If you're new to DeFi or even finance in general, you might wonder why we care so much about these different flavors of risks? 
-You can picture these mechanisms enabling diverse types of risk exposure as building blocks making it possible to **build end-user products fitting all ranges of risk appetite**. 
+If you're new to DeFi or even finance in general, you might wonder why we care so much about these different flavors of risks?
+You can picture these mechanisms enabling diverse types of risk exposure as building blocks making it possible to **build end-user products fitting all ranges of risk appetite**.
 
 I explain why tranching matters more explicitly in the last part of this article where we consider some end-game scenarios for it.
 {{< /notice >}}
@@ -94,7 +95,7 @@ So far, we've focused on the sole risk related to the definancial product itself
 Besides, to fully understand the broader context, let's not forget that there are several distinct "temporal approaches" to risk:
 
 *   Using an approach such as tranching, you can be **proactive**, splitting the risk **beforehand** between participants that understand their exposure.
-*   It can also go hand in hand with more **reactive approaches**, such as insurance - a system providing payout **afterward** in the event of a failure. 
+*   It can also go hand in hand with more **reactive approaches**, such as insurance - a system providing payout **afterward** in the event of a failure.
 
 The insurance markets are another fascinating topic by themselves, so we'll stick to this simple mention for now and go back to our yields.
 
@@ -110,7 +111,7 @@ As we were saying, the APY of the different yield products available in decentra
 
 To address this issue, another layer of meta-financial services is emerging - the base value proposition as an investor is quite simple: they offer a **fixed APY on depositors' investments**. It's essentially another flavor of "insurance": you'll get overall a bit of a lower yield, but it's predictable. It's very similar to a stable-interest loan on Aave (vs variable rate).
 
-The buyer side of such services is super interesting: picture it **like a prediction market, for the yield of a given vault or investment product.** Buyers deposit some assets and place a bet on the expected average yield: the closer their prediction is, the better is the return. 
+The buyer side of such services is super interesting: picture it **like a prediction market, for the yield of a given vault or investment product.** Buyers deposit some assets and place a bet on the expected average yield: the closer their prediction is, the better is the return.
 
 I don't see the buyer side becoming mainstream anytime soon, but it provides the backbone to yet another useful financial primitive useful to provide services more suited to more risk-averse investors.
 
@@ -147,7 +148,7 @@ It's insane to consider the different steps of the evolution of let's say DAI we
 
 aFIXEDAPYDAI_PEGINSURED: our new monetary overlord? The actual name will be way more catchy, rest assured!
 
-Are you ready to witness **the future of money unfolding methodically before your very eyes as your assets receive software updates**? 
+Are you ready to witness **the future of money unfolding methodically before your very eyes as your assets receive software updates**?
 
 I for one cannot wait: I've been prepping for the past three years.
 

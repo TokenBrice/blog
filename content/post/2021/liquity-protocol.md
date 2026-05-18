@@ -1,9 +1,10 @@
 ---
 title: "⚖️ Liquity: an unstoppable, efficient and innovative borrowing service"
-description: "Liquity is the first borrowing service that operates without the need for governance, while being low cost and highly efficient. I explain the protocol to understand how it innovates and what it brings to DeFi."
+description: "A deep dive into Liquity, a governance-free borrowing protocol designed for low-cost, efficient, and resilient DeFi credit."
 date: '2021-12-02T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquity, LUSD, LQTY]
+tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false
 url: liquity-protocol
@@ -25,12 +26,12 @@ I propose an exhaustive tour of the protocol to understand the issues and contri
 
 ### 🏗 Liquity's fundamentals
 
-At a high level, Liquity works in a similar logic to Maker: users create "Troves" where they can deposit ETH in order to borrow stablecoins, LUSD, directly from the protocol.
+At a high level, Liquity works in a similar logic to Maker: users create "Troves" where they can deposit ETH in order to borrow Stablecoins, LUSD, directly from the protocol.
 
 #### Money market or loan service?
 
-Both Liquity and Maker are borrowing services but not money markets. What's the difference? Who is lending to you? 
-1. Either the protocol directly (borrowing service), 
+Both Liquity and Maker are borrowing services but not money markets. What's the difference? Who is lending to you?
+1. Either the protocol directly (borrowing service),
 2. Or other users via a pooling model like Aave or Compound (money market).
 
 The difference is extremely important in terms of the competitiveness of the protocol: **it is almost impossible, even theoretically, to envision a money market offering low stablecoin borrowing costs (&lt;3 or 4% annual) on a sustainable basis**.
@@ -60,14 +61,14 @@ This is why Liquity is **ideal for long term positions**, such borrowing costs a
 #### Stability pool: liquidations backstop
 
 
-While Liquity's model already provides relevant benefits from a user's perspective, its design also explores relevant solutions. 
+While Liquity's model already provides relevant benefits from a user's perspective, its design also explores relevant solutions.
 
 One of the main issues for borrowing services is of course that the protocol remains solvent: there are therefore, if necessary, liquidations to restore the balance. Liquidation of positions requires equity and a certain infrastructure when it is the users who do it directly, as on Marker or Aave. To optimize the process, the idea of a liquidity "backstop" has emerged.
 
-It is about having **a reserve of funds, generally stablecoins that the protocol uses if necessary to manage liquidations**: it is the Stability Pool on Liquity. The users who wish to do so can deposit their LUSD in this pool: they are remunerated in LQTY (which we will detail next).
+It is about having **a reserve of funds, generally Stablecoins that the protocol uses if necessary to manage liquidations**: it is the Stability Pool on Liquity. The users who wish to do so can deposit their LUSD in this pool: they are remunerated in LQTY (which we will detail next).
 
 The funds in the Stability Pool are used when necessary for liquidations. As the system is now quite mature, liquidations tend to happen mostly in case of a sharp drop in the ETH price. A position in the Stability Pool therefore allows one to profit from these juicy liquidations without having the skills or infrastructure to execute them.
- 
+
 The Stability Pool thus offers a rather gas-light and attractive native return option on the LUSD. With a conservative collateralization ratio, it may even be suitable for an almost entirely passive position.
 
 Although the backstop concept is not implemented natively in the other major money markets, [the B.Protocol project](https://www.bprotocol.org/) acts as an abstraction layer offering the equivalent of this service to Maker, Aave and Compound (without the benefits of having it in-house).
@@ -113,7 +114,7 @@ Thus, although the LUSD is holding its peg at $1 relatively well, the fluctuatio
 ![lusd-price](/img/2021/liquity-protocol/lusd-price.png "Price of LUSD over 90 days")
 
 <!--Différentes situations extrêmes au niveau du marché (et donc du protocole) peuvent également amener à envisager un LUSD qui s'écarte plus ou moins durablement du peg. Dans l'ensemble, les mécanismes de stabilisation sont là pour ramener l'équilibre sur le long-terme.-->
- 
+
 Various extreme situations in the market (and therefore in the protocol) can also lead to the possibility of an LUSD that deviates more or less permanently from the peg. On the whole, the stabilization mechanisms are there to bring back the balance in the long term.
 
 #### A "protocol-level" game
@@ -127,13 +128,13 @@ In a way and to use my favorite metaphor of MMORPGs :
 2. **PvP = Player versus Player** and that's not missing even in DeFi!
 3. But the most interesting thing today is **RvR (Realm vs Realm)**. Here again there is fighting between players, but it is **a structured fight by faction**, with objectives to reach. The DeFi equivalent here is of course the CRV game on Curve!
 
-We can see on Liquity some "protocol-level" mechanics that could be similar to RvR in this metaphor, so let's see how they work : 
+We can see on Liquity some "protocol-level" mechanics that could be similar to RvR in this metaphor, so let's see how they work :
 
 ##### Dynamic initiation/redemption rate
 
 First of all, the most basic: fees. I mentioned above that the initiation fee is 0.5%: this is true, but slightly simplified. In reality this rate can vary between 0.5% and 5%: it is the `baseRate` that governs the fee paid on both loans and redemptions.
 
-When Liquity is used heavily, the `baseRate` increases. This is also a defensive mechanism for the protocol, which otherwise could be "emptied" of ETH by arbitrageurs (massive redemption LUSD->ETH). The "decay" rate when the use calms down to come back nicely to 0.5% and I let you go see [the math behind it](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) on the doc for the curious. 
+When Liquity is used heavily, the `baseRate` increases. This is also a defensive mechanism for the protocol, which otherwise could be "emptied" of ETH by arbitrageurs (massive redemption LUSD->ETH). The "decay" rate when the use calms down to come back nicely to 0.5% and I let you go see [the math behind it](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) on the doc for the curious.
 
 {{< notice note >}}
 Since the depositor pays his fees at the time of borrowing on Liquity, the evolution of the rate afterwards has no consequence for him.
@@ -146,7 +147,7 @@ In normal use, **Liquity is the most permissive protocol for leveraging on ETH, 
 
 
 * Maker offers collateralization ratios ranging from 58.8% for ETH-C to 76.9% for ETH-B (min collateral ratio of 130% to 170%)
-* Aave is at 82.5% on ETH 
+* Aave is at 82.5% on ETH
 * Compound at 75%.
 
 
@@ -155,7 +156,7 @@ If the protocol can be so permissive, it is not because it takes more risks, but
 ![recovery-mode](/img/2021/liquity-protocol/recovery-mode.png)
 
 
-The recovery mode is a protocol-level game on Liquity: its triggering depends on the "Total Collateral Ratio" of the protocol: the ratio between the total collateral and the LUSD due. 
+The recovery mode is a protocol-level game on Liquity: its triggering depends on the "Total Collateral Ratio" of the protocol: the ratio between the total collateral and the LUSD due.
 
 When this ratio falls **below 150%, the Recovery Mode is activated to restore the balance**: the minimum collateralization threshold for a trove falls to 110%. Risky users are thus invited to re-collateralize or pay off debt - and/or will be liquidated if necessary when the recovery mode is activated.
 

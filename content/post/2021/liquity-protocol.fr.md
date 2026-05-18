@@ -1,9 +1,10 @@
 ---
 title: "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant"
-description: "Liquity est le premier service d'emprunt qui opère sans avoir besoin de gouvernance, tout en étant peu coûteux et très efficace. J'explique le protocol pour comprendre comment il innove et ce qu'il apporte à la DeFi."
+description: "Analyse de Liquity, protocole d emprunt sans gouvernance, peu couteux et resilient, et de ses apports a la DeFi."
 date: '2021-11-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Stablecoin, Lending]
-tags: [DeFi, Ethereum, Decentralized Finance, Stablecoins, Liquity, LUSD, LQTY]
+tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false
 url: liquity-protocol
@@ -28,18 +29,18 @@ Je vous propose un tour exhaustif du protocole pour en comprendre les enjeux et 
 
 ### 🏗 Les fondamentaux de Liquity
 
-À un haut niveau, Liquity fonctionne dans une logique similaire à Maker: les utilisateurs créent des "Troves" où ils peuvent déposer des ETH afin d'emprunter des stablecoins, les LUSD, directement au protocole.
+À un haut niveau, Liquity fonctionne dans une logique similaire à Maker: les utilisateurs créent des "Troves" où ils peuvent déposer des ETH afin d'emprunter des Stablecoins, les LUSD, directement au protocole.
 
 
 #### Marché monétaire ou service d'emprunt ?
 
-Liquity tout comme Maker sont des services d'emprunt mais pas des marchés monétaires. La différence ? Qui est-ce qui vous prête ? 
-1. Soit le protocole directement (service d’emprunt), 
+Liquity tout comme Maker sont des services d'emprunt mais pas des marchés monétaires. La différence ? Qui est-ce qui vous prête ?
+1. Soit le protocole directement (service d’emprunt),
 2. Ou alors d'autres utilisateurs via un modèle de pooling comme Aave ou Compound (marché monétaire).
 
-La différence est extrêmement importante au niveau de la compétitivité du protocole : **il est quasiment impossible, même théoriquement, d'envisager un marché monétaire proposant des coûts d'emprunts sur les stablecoins bas (&lt;3 % annuel) de manière durable**.
+La différence est extrêmement importante au niveau de la compétitivité du protocole : **il est quasiment impossible, même théoriquement, d'envisager un marché monétaire proposant des coûts d'emprunts sur les Stablecoins bas (&lt;3 % annuel) de manière durable**.
 
-En effet, les marchés monétaires doivent offrir un rendement attractif à leurs déposants en stablecoins, qui disposent de très nombreuses alternatives pour produire du rendement. Ainsi, **si l'efficacité est un objectif essentiel, le modèle du service d'emprunt qui ne nécessite pas de dépôts d’autres utilisateurs est foncièrement plus efficace** - l'utilisateur emprunte directement au protocole à un coût plus faible.
+En effet, les marchés monétaires doivent offrir un rendement attractif à leurs déposants en Stablecoins, qui disposent de très nombreuses alternatives pour produire du rendement. Ainsi, **si l'efficacité est un objectif essentiel, le modèle du service d'emprunt qui ne nécessite pas de dépôts d’autres utilisateurs est foncièrement plus efficace** - l'utilisateur emprunte directement au protocole à un coût plus faible.
 
 Enfin pour conclure, éprouvons la théorie à la dure absurdité de la pratique : ces considérations sont valables pour analyser le design d'un marché monétaire / service d'emprunt. Il existe **des services d'emprunts (à priori donc très efficaces) qui arrivent malgré tout à être coûteux pour les emprunteurs, comme MakerDAO**. Les raisons sont diverses, mais le fait que la DAO décide encore les frais du protocole (de manière potentiellement totalement arbitraire) me semble l'une des principales.
 
@@ -65,15 +66,15 @@ C'est pourquoi Liquity est **idéal pour les positions à long terme**, de tels 
 
 #### Stability pool : réserve de liquidité pour liquidations (backstop)
 
-Si le modèle de Liquity apporte déjà des bénéfices pertinents dans la perspective d'un utilisateur, sa conception explore également des solutions pertinentes. 
+Si le modèle de Liquity apporte déjà des bénéfices pertinents dans la perspective d'un utilisateur, sa conception explore également des solutions pertinentes.
 
 L'un des principaux enjeux pour les services d'emprunts c'est bien sûr que le protocole reste solvable : il y a donc, si nécessaire, des liquidations pour rétablir l'équilibre. Liquider des positions nécessite des fonds propres à disposition et une certaine infrastructure lorsque ce sont les utilisateurs qui le font directement, comme sur Marker ou Aave. Pour optimiser le processus, l'idée d'un "**backstop**" de liquidité a émergé.
 
-Il s'agit d'avoir **une réserve de fonds, généralement des stablecoins que le protocole utilise si nécessaire pour gérer les liquidations** : c'est la Stability Pool sur Liquity. Les utilisateurs qui le souhaitent peuvent déposer leur LUSD dans cette pool : ils sont rémunérés en LQTY (qu'on détaille juste après). 
+Il s'agit d'avoir **une réserve de fonds, généralement des Stablecoins que le protocole utilise si nécessaire pour gérer les liquidations** : c'est la Stability Pool sur Liquity. Les utilisateurs qui le souhaitent peuvent déposer leur LUSD dans cette pool : ils sont rémunérés en LQTY (qu'on détaille juste après).
 
 Les fonds de la Stability Pool sont utilisés lorsque cela est nécessaire pour les liquidations. Le système étant désormais assez mature, les liquidations ont surtout tendance à arriver en cas de forte baisse rapide du prix de l'ETH. Une position dans la stability pool permet donc de profiter de ces juteuses liquidations sans avoir les compétences ou l'infrastructure nécessaire pour les exécuter.
 
- 
+
 
 La Stability Pool offre ainsi une option de rendement native sur le LUSD plutôt légère du point de vue du gas et assez attractive. Avec un ratio de collatéralisation prudent, cela peut même convenir pour une position presque entièrement passive.
 
@@ -110,7 +111,7 @@ Si vous me lisez depuis un bout de temps, cette phrase vous dira sans doute quel
 En l'occurrence, le choix est classique : le flux principal utilisé est [ETH/USD ChainLink](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd), avec un fallback sur Tellor ([plus d'infos](https://docs.liquity.org/faq/stability-pool-and-liquidations#what-oracle-are-you-using-to-determine-the-price-of-eth)). ChainLink est très répandu et robuste, mais il faut être conscient du fait qu'un problème avec le flux ETH/USD ChainLink peut rapidement entraîner des conséquences graves sur Liquity (et à peu prêt toute la DeFi).
 
 
-##### ⚖ Le LUSD contre son peg de $1 
+##### ⚖ Le LUSD contre son peg de $1
 
 LUSD est un stablecoin, c'est super de le minter directement pour pousser le plus possible vers le bas les coûts d'emprunt. Mais quid de la stabilité du LUSD ?
 
@@ -147,7 +148,7 @@ On observe ainsi sur Liquity des mécaniques "protocol-level" qui pourraient s'a
 
 Tout d'abord, le plus basique : les frais. Je vous parlais plus haut d'un frais d'initiation à 0.5% : c'est vrai, mais légèrement simplifié. En réalité ce taux peut évoluer entre 0.5% et 5% : c'est le `baseRate` qui gouverne le frais payé à la fois sur les emprunts et les redemptions.
 
-Lors d'une forte utilisation de Liquity, le `baseRate` augmente. C'est également un mécanisme défensif pour le protocole, qui sans ça, pourrait se faire "vider ses ETH" par des arbitrageurs (redemption massive LUSD->ETH). Le taux "decay" lorsque l'utilisation se calme pour revenir gentiment à 0.5% et je vous laisse aller voir [les maths derrière tout ça](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) sur la doc pour les curieux. 
+Lors d'une forte utilisation de Liquity, le `baseRate` augmente. C'est également un mécanisme défensif pour le protocole, qui sans ça, pourrait se faire "vider ses ETH" par des arbitrageurs (redemption massive LUSD->ETH). Le taux "decay" lorsque l'utilisation se calme pour revenir gentiment à 0.5% et je vous laisse aller voir [les maths derrière tout ça](https://docs.liquity.org/faq/lusd-redemptions#how-is-the-baserate-calculated) sur la doc pour les curieux.
 
 {{< notice note >}}
 Comme le déposant paie ses frais au moment de l'emprunt sur Liquity, l'évolution du taux par la suite n'a pas de conséquence pour lui.
@@ -159,7 +160,7 @@ En utilisation normale, **Liquity est le protocole le plus permissif pour levera
 
 
 * Maker propose des ratios de collatéralisation allant de 58,8% pour ETH-C à 76,9% pour ETH-B (min collateral ratio de 130% à 170%)
-* Aave est à 82.5% sur ETH 
+* Aave est à 82.5% sur ETH
 * Compound à 75%
 
 
@@ -168,7 +169,7 @@ Si le protocole peut être aussi permissif, ce n'est pas parce qu'il prend plus 
 ![recovery-mode](/img/2021/liquity-protocol/recovery-mode.png)
 
 
-Le recovery mode est un jeu protocol-level sur Liquity : son déclenchement dépend du "Total Collateral Ratio" du protocole : le ratio entre l'ensemble des collatéraux et les LUSD dûs. 
+Le recovery mode est un jeu protocol-level sur Liquity : son déclenchement dépend du "Total Collateral Ratio" du protocole : le ratio entre l'ensemble des collatéraux et les LUSD dûs.
 
 Lorsque celui-ci passe **sous la barre des 150%, le Recovery Mode s'enclenche pour rétablir l'équilibre** : le seuil minimal de collatéralisation pour un trove passe à 150%. Les utilisateurs à risques sont ainsi invités à re-collatéraliser ou rembourser de la dette - et/ou seront liquidés si nécessaire lors de la mise en route du recovery.
 
@@ -263,7 +264,7 @@ Pour aller plus loin, y’a pas de secrets :
 
 * [La documentation](https://docs.liquity.org/)
 * [Le discord](https://discord.gg/j7hHaR4G6S)
-* Et pour creuser, je vous propose ce live récent où je discute d’emprunts en DeFi : 
+* Et pour creuser, je vous propose ce live récent où je discute d’emprunts en DeFi :
 
 Have fun !
 

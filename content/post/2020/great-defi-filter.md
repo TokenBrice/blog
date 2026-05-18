@@ -2,6 +2,7 @@
 title: "A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter"
 description: "Exploring new perspectives to understand better the current barriers to decentralised finance's mainstream adoption and how to overcome them."
 date: '2020-05-08T14:53:50.191Z'
+reviewed: 2026-05-19
 categories: [Thesis]
 tags: [DeFi, Ethereum, Adoption]
 image: /img/2020/great-defi-filter/cover.png
@@ -9,7 +10,7 @@ difficulty: "beginner"
 url: great-filter-defi
 ---
 
-In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about privacy."
+In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about Privacy."
 
 Today, as my usual, I'd like to bring to your attention a different perspective.
 
@@ -53,7 +54,7 @@ While I'm at it, let me address another recurring myth: **you don't need to code
 
 Before I wrap this up, let's talk about the second side, the builders. UX of the Dapps is obviously a significant challenge - but why is that so?
 
-I think that as an industry, we're still quite user-shy. We see again and again projects being developed in an Ivory Tower, and then unleashed to the crowds by their creators, full of hope & dreams - ready to be crushed. 
+I think that as an industry, we're still quite user-shy. We see again and again projects being developed in an Ivory Tower, and then unleashed to the crowds by their creators, full of hope & dreams - ready to be crushed.
 
 If you thought the tech by itself was enough - insider tip: it's not.
 

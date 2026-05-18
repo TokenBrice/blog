@@ -2,8 +2,11 @@
 title: "Liquity-driver token races beyond Curve: a look at the Balancer Wars"
 description: "Cornering the lay of the land of the Balancer Wars: we look at the DEX specificities to anticipate what's next for the BAL races."
 date: '2022-11-24T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
+series: crv-wars
+series_order: 4
 toc: true
 tocNum: false
 url: balancer-wars
@@ -11,7 +14,7 @@ image: /img/2022/balancer-wars/balancer-wars-cover.png
 difficulty: "intermediate"
 ---
 
-Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects. 
+Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects.
 
 Thus, the liquidity-driver tokens quickly became highly sought after by DAOs with constant and usually growing liquidity needs. It led to what we call “races” (or "wars"): a term that refers to the various strategies projects harness to constantly increase their veTokens stash, ideally faster than the other participants of the races, to grow a competitive advantage.
 
@@ -41,7 +44,7 @@ So with the stage set, let’s dive into today’s matter: Balancer, their BAL r
 
 ![balancer-trinity](/img/2022/balancer-wars/balancer-trinity.png)
 
-While we documented Curve, we watched the ecosystem grow together on this blog. With [Balancer](https://balancer.finance/), I’m covering it extensively for the first time and already looking at a mature ecosystem. Balancer already has “its Convex,” called [Aura Finance](https://aura.finance/). It already controls over 25% of the veBAL (vs >50% of veCRV for Convex). 
+While we documented Curve, we watched the ecosystem grow together on this blog. With [Balancer](https://balancer.finance/), I’m covering it extensively for the first time and already looking at a mature ecosystem. Balancer already has “its Convex,” called [Aura Finance](https://aura.finance/). It already controls over 25% of the veBAL (vs >50% of veCRV for Convex).
 
 However, the Balancer base infrastructure calls for a third component: an automation network necessary to enable the most advanced type of pools. At this stage, it’s still unclear who is leading this race, so I’ve used one of their most prominent participants – [PowerPool](https://powerpool.finance/) and its PowerAgents network — to play the part.
 
@@ -65,7 +68,7 @@ Balancer's first version launched in March 2020, and many iterations have been s
 
 Balancer is still, to this day, one of the only DEX offering such a wide range of pool structures. Indeed, a Balancer pool can be made of **any number ranging from 2 to 8 assets**, while most other DEX only support pairs, so two assets at once.
 
-It enables novel types of pools, such as: 
+It enables novel types of pools, such as:
 
 * 3 assets pools, such as the wBTC/USDC/wETH pool similar to Curve’s TriCrypto pool, or to diversify the pairing of a given token, like the OHM/ETH/DAI pool.
 * Or even 7-8 asset pools that start acting as token indexes as much as liquidity pools, such as the YFI/wBTC/COMP/wETH/UNI/CHZ/LINK pool.
@@ -130,7 +133,7 @@ To follow the Balancer wars, make sure to harness the amazing data computed by t
 
 As seen on the graph, the bribing markets took off quickly before finding an equilibrium at around **$0.06 per AURA vote, translating into 1.50x bribes efficiency**: $1 spent bribing the vote results in $1.50 worth of BAL emission added to the targeted pool over the epoch.
 
-This figure is lower on the Curve races, around 1.25x for the Convex vlCVX bribing. It’s logical since Curve races are much older. 
+This figure is lower on the Curve races, around 1.25x for the Convex vlCVX bribing. It’s logical since Curve races are much older.
 
 ## What’s next for Balancer?
 
@@ -151,9 +154,9 @@ Further collaborations are anticipated, as [Aave acquired BAL tokens recently](h
 
 ### Balancer: home of the LSDs?
 
-Finally, looking at the current top pool TVL-wise on Balancer, a clear fit is emerging: liquid staked derivatives, such as Rocket Pool’s rETH or Lido’s stETH. Both have sizeable pools properly incentivized on Balancer mainnet. 
+Finally, looking at the current top pool TVL-wise on Balancer, a clear fit is emerging: liquid staked derivatives, such as Rocket Pool’s rETH or Lido’s stETH. Both have sizeable pools properly incentivized on Balancer mainnet.
 
-Lido’s wstETH/wETH pool even flipped the 80BAL/20wETH pool and became the top one of the DEX with $200M TVL. Similarly, stMATIC/wMATIC is the top Balancer/Polygon pool, followed by MATICX/wMATIC, featuring another liquid MATIC staking derivative. On Arbitrum, the third and last chain where Balancer is live, here again, the wstETH/wETH pool tops the chart. 
+Lido’s wstETH/wETH pool even flipped the 80BAL/20wETH pool and became the top one of the DEX with $200M TVL. Similarly, stMATIC/wMATIC is the top Balancer/Polygon pool, followed by MATICX/wMATIC, featuring another liquid MATIC staking derivative. On Arbitrum, the third and last chain where Balancer is live, here again, the wstETH/wETH pool tops the chart.
 
 
 ## Conclusion
@@ -164,7 +167,7 @@ If you’d like to take part in the Balancer Wars, make sure to harness all the 
 2. [DeFiwars - Balancer](https://www.defiwars.xyz/wars/balancer)
 3. [Dune Analytics](https://dune.com/balancerlabs/balancer-pools)
 
-While I hope this article provided you with actionable insights regarding liquidity-driver tokens, I wanted to add another layer: it seems like a **subcategory** of liquidity-driver is emerging – **the lending liquidity-driver token**. 
+While I hope this article provided you with actionable insights regarding liquidity-driver tokens, I wanted to add another layer: it seems like a **subcategory** of liquidity-driver is emerging – **the lending liquidity-driver token**.
 
 They work very similarly, but instead of enabling their holders to direct incentives to liquidity pools, they allow them to **direct incentives to select lending markets**. So, in the end, they accomplish a different goal through a similar mean: controlling a lot of these lending-liquidity-driver tokens, like [Euler Finance’s](https://euler.finance/) EUL, allows for sustaining deep liquidity in lending markets.
 

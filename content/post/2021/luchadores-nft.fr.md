@@ -11,7 +11,7 @@ image: /img/2021/luchadores-nft/luchadores-cover.png
 difficulty: "beginner"
 ---
 
-Cet article va être plus personnel qu'à mon habitude, mais vu le sujet je ne peux pas faire autrement. On va s'intéresser à un projet NFT dans lequel je suis fortement impliqué : les Luchadores. Ce sont des lutteurs entièrement onchain, bientôt personnages dans un jeu à venir,  lui aussi onchain. 
+Cet article va être plus personnel qu'à mon habitude, mais vu le sujet je ne peux pas faire autrement. On va s'intéresser à un projet NFT dans lequel je suis fortement impliqué : les Luchadores. Ce sont des lutteurs entièrement onchain, bientôt personnages dans un jeu à venir,  lui aussi onchain.
 
 Plus que le projet lui-même, je vous expliquerai la thèse que je développe à son sujet. Je pense que cette démarche peut vous intéresser et vous aider à développer des convictions personnelles sur d'autres collections.
 
@@ -71,7 +71,7 @@ Le jeu en lui-même résonne sans doute avec ma fibre nostalgique. En effet, la 
 
 ![luchadores-stats](/img/2021/luchadores-nft/luchadores-stats.png "Les attributs seront déterminants dans l'arène")
 
-Je vous laisse vous documenter sur l'impact des attributs et des compétences, mais en temps que fan de jeux tour par tour, de stratégies et RPG, je peux vous dire que je suis paré pour le theorycraft 🧙 
+Je vous laisse vous documenter sur l'impact des attributs et des compétences, mais en temps que fan de jeux tour par tour, de stratégies et RPG, je peux vous dire que je suis paré pour le theorycraft 🧙
 
 ![luchadores-arena](/img/2021/luchadores-nft/final-lucha-arena.png "Les batailles en équipe sont également envisagées")
 
@@ -90,7 +90,7 @@ On ne parle ici que des implications "formelles". Il ne faut bien sûr pas oubli
 
 * Nicosz qui a créé un [outil en Python pour analyser les données liées aux Luchadores](https://github.com/sznicolas/luchadata).
 * Un [dashboard pour suivre les principales métriques sur les Luchadores](https://dune.xyz/lokhidor/Luchadores), proposé par cnhkp.eth, grâce à Dune Analytics et l'aide de Nicosz.
-* Ou encore OxMule qui a [traduit le whitepaper](https://whitepaper.luchadores.io/v/francais/) en quelques jours. 
+* Ou encore OxMule qui a [traduit le whitepaper](https://whitepaper.luchadores.io/v/francais/) en quelques jours.
 * Sans oublier les nombreux collectionneurs et "snipeurs" du Discord qui l'animent tous les jours, comme Chainlinkers, un des premiers membres de la communauté qui a gagné deux giveaways à la suite le jour de son anniversaire et est entré dans la légende.
 
 ---
@@ -114,7 +114,7 @@ Ma plus belle prise est le "Batman", un 7 attributs qui sera l'un de mes princip
 
 ![luchadores-8956](/img/2021/luchadores-nft/luchadores-8956.png "Un Luchador 7 attributs, à gagner dans l'arène")
 
-Désormais en possession de 3 Luchadores 7 attributs, **je souhaite en remettre un en jeu**. Celui-ci ne partira pas au plus offrant, non. 
+Désormais en possession de 3 Luchadores 7 attributs, **je souhaite en remettre un en jeu**. Celui-ci ne partira pas au plus offrant, non.
 
 **Le [Luchador #8956](https://luchadores.io/luchador/8956) se gagnera dans l'arène**, et ira donc au joueur le plus habile. Hâte de vous partager plus de détails sur le mécanisme d'allocation, lorsque le jeu sera disponible.
 
@@ -141,9 +141,9 @@ Les Luchadores se sont d'abord échangé à proximité du coût de revient du mi
 
 Alors un lutteur oui, mais à quel prix ? Ne vous attendez pas à une réponse directe de ma part là-dessus. À ce jour et à ce stade de développement, cela reste encore un pari. Néanmoins l'approche est pertinente et je pense que les Luchadores ont de quoi entrer dans le canon des NFTs, en repoussant toujours plus la frontière de l'interactivité rendue possible avec ces objets numériques.
 
-Acquérir un Luchadores aujourd'hui implique de payer environ trois fois minimum le prix observé il y a quelques semaines - et pourtant ce serait une bonne affaire si la tendance actuelle continue 🔮 : bienvenue dans le monde des NFTs, où le pricing est un mécanisme social et hautement réflexif. 
+Acquérir un Luchadores aujourd'hui implique de payer environ trois fois minimum le prix observé il y a quelques semaines - et pourtant ce serait une bonne affaire si la tendance actuelle continue 🔮 : bienvenue dans le monde des NFTs, où le pricing est un mécanisme social et hautement réflexif.
 
-Là-dessus, c'est faites vos jeux, rien ne va plus 🎲. 
+Là-dessus, c'est faites vos jeux, rien ne va plus 🎲.
 
 ---
 

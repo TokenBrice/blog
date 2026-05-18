@@ -3,7 +3,7 @@ title: "Le cauchemard UX de la DeFi : comment la curation pourrait sauver l'inno
 description: "Où je révèle le sombre secret de la DeFi : la crise de la couche de curation - et ce que nous pouvons faire pour y remédier."
 date: '2025-03-08T01:13:50.191Z'
 categories: [Thesis]
-tags: [DeFi, Ethereum, Decentralized Finance, DeFi, Public Good, DeFiScan, BlueChip, L2Beat]
+tags: [DeFi, Ethereum, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
@@ -49,7 +49,7 @@ Cette perspective est essentiellement une version simplifiée du [DeFi Stack de 
 
 ![Schar-defi-stack](img/2025/defi-ux-disaster/defi-stack.png)
 
-Les champions de la couche Curation, en plus des outils largement utilisés avec un élément de curation/répertoire tels que [CoinGecko](https://coingecko.com/) (aidant les utilisateurs à valider les contrats de tokens et les URLs des frontends des protocoles), [Jumper](https://jumper.exchange/) ou [Debank](https://debank.com/), sont actuellement des sites web/frameworks fournissant des informations essentielles et vérifiables sur des verticales clés telles que [L2Beat](https://l2beat.com/) (évaluation de la décentralisation des L2), [DeFillama](https://defillama.com/) (données DeFi + répertoire), [Bluechip](https://bluechip.org/) (évaluations économiques des stablecoins), [DeFiSafety](https://www.defisafety.com/) (évaluation des pratiques de développement) ou [DeFiScan](https://defiscan.info/) (évaluation de la décentralisation des protocoles).
+Les champions de la couche Curation, en plus des outils largement utilisés avec un élément de curation/répertoire tels que [CoinGecko](https://coingecko.com/) (aidant les utilisateurs à valider les contrats de tokens et les URLs des frontends des protocoles), [Jumper](https://jumper.exchange/) ou [Debank](https://debank.com/), sont actuellement des sites web/frameworks fournissant des informations essentielles et vérifiables sur des verticales clés telles que [L2Beat](https://l2beat.com/) (évaluation de la décentralisation des L2), [DeFillama](https://defillama.com/) (données DeFi + répertoire), [Bluechip](https://bluechip.org/) (évaluations économiques des Stablecoins), [DeFiSafety](https://www.defisafety.com/) (évaluation des pratiques de développement) ou [DeFiScan](https://defiscan.info/) (évaluation de la décentralisation des protocoles).
 
 La curation peut inclure diverses initiatives :
 

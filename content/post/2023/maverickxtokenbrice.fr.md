@@ -2,8 +2,9 @@
 title: "Annonce : TokenBrice 🤝 Maverick"
 description: "Je supporte l'équipe Maverick en conseillant la stratégie de croissance, la tokénomique"
 date: '2023-04-21T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Projects, DEX]
-tags: [DeFi, Ethereum, Decentralized Finance, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity]
+tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity]
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
@@ -54,7 +55,7 @@ Sur Maverick, une telle paire peut être exploitée de manière optimale par cha
 Jusqu'à présent, Maverick a trouvé **une adéquation produit/marché exceptionnelle sur des pools telles que wstETH/ETH**, avec un taux d'utilisation quotidien moyen de plus de 100 %. Voici par exemple ce qui s'est passé aujourd'hui (20/4) :
 
 * Curve : TVL = $1.5B, Volume =$34M, Utilisation = 2,26%
-* Maverick : TVL = $10.6M, Volume =$10.45M, **Utilisation = 98,5%** 
+* Maverick : TVL = $10.6M, Volume =$10.45M, **Utilisation = 98,5%**
 
 ![Maverick Top Pools](img/2023/maverickxtokenbrice/mav-pools.png "Top pools sur Maverick aujourd'hui (4/20/23)")
 
@@ -64,7 +65,7 @@ Lancé il y a seulement quelques semaines sur le mainnet Ethereum, Maverick enre
 
 Maverick a également été lancé sur zkSync, son premier L2, il y a quelques jours. Au fur et à mesure que d'autres projets DeFi OG y déploieront leurs services, Maverick aura de nombreuses occasions de démontrer l'efficacité supérieure que ses modèles de liquidité peuvent offrir aux LPs.
 
-Je suis très enthousiaste à l'idée des prochaines étapes : en tant que stratège DeFi chez Liquity, la sortie de Maverick m'a fait l'effet d'un Noël anticipé ; je pense que ce n'est qu'un début ! 
+Je suis très enthousiaste à l'idée des prochaines étapes : en tant que stratège DeFi chez Liquity, la sortie de Maverick m'a fait l'effet d'un Noël anticipé ; je pense que ce n'est qu'un début !
 
 Je contribuerai à Maverick en tant que conseiller, ce qui signifie que mon objectif principal reste mon engagement envers les protocoles immuables, en particulier Liquity, en les aidant à se développer par le biais de diverses activités onchain et offchain. Je suis convaincu que Maverick s'avérera rapidement un outil décisif pour atteindre cet objectif.
 

@@ -2,8 +2,9 @@
 title: "🎡 DeFi Flywheel : engineering protocol to protocol synergies through tokens"
 description: "We analyze the race to accumulate CRV with the launch of Convex to understand the flywheel concept in DeFi: protocols that evolve in synergy thanks to their tokenomics."
 date: '2021-06-17T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [DEX, Yield]
-tags: [DeFi, Ethereum, DeFi, Money Markets, Liquity, Curve Finance, CRV, Polygon, Convex, CVX, Yearn Finance]
+tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, Polygon, Convex, CVX, Yearn]
 toc: true
 tocNum: true
 url: defi-flywheel
@@ -17,7 +18,7 @@ In DeFi, besides the technical, you also have to be a fine sociologist, or rathe
 
 The emergence of liquidity mining programs last year showed that the right set of rules can move huge amounts of capital. The question now is how to do it wisely, i.e. with an awareness of what is at stake **in the long run.**
 
-Indeed, liquidity mining by itself only attracts **mercenary and opportunistic deposits**. In fact, liquidity mining is more a tool to make a project known than to perpetuate it. 
+Indeed, liquidity mining by itself only attracts **mercenary and opportunistic deposits**. In fact, liquidity mining is more a tool to make a project known than to perpetuate it.
 
 To last in DeFi, it is a matter of tokenomics: i.e. the mechanics of the native tokens of protocols. **Tokenomics is in a way the gameplay of a DeFi protocol**.
 
@@ -136,7 +137,7 @@ The basic equation is simple:
 
 1. There is a strong demand for "ETH passive" products - products that develop strategies on ETH in order to accumulate ETH.
 
-2. One option is to borrow stablecoins using ETH as collateral. This way, stablecoins can earn an additional return.
+2. One option is to borrow Stablecoins using ETH as collateral. This way, Stablecoins can earn an additional return.
 
 3. For this strategy, Liquity would be **the platform of choice without question**. Indeed, the cost of borrowing is the lowest in the market (almost 12x cheaper than Maker over a year) and there is no shortage of opportunities for yield on the LUSD stablecoin.**
 

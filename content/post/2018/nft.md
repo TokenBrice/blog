@@ -20,7 +20,7 @@ Let’s start by establishing the basics about non-fungible tokens (NFTs from no
 Before we explore NFTs and talk about Pokémons, let’s restate two definitions necessary to understand the rest of the article:
 
 *   **Smart Contracts**: A smart contract is a computer protocol intended to digitally facilitate, verify, or enforce the negotiation or performance of a contract.
-*   **Token**: a token represents a particular tradable asset or a utility that is often found on a blockchain. Each token has specific properties that are defined to match its usage.
+*   **Token**: a token represents a particular tradable asset or a utility that is often found on a Blockchain. Each token has specific properties that are defined to match its usage.
 
 ### SO, what does fungibility even mean?
 
@@ -64,9 +64,9 @@ If you were too young for Pokémon cards, or too old, it’s precisely the same 
 
 Most of the cryptocurrencies you already know such as Bitcoin or Ethereum can be considered fungible (see below ⬇️). One BTC is worth another and two BTC can be exchanged with one another. It’s the same for all cryptocurrencies you could find on Coinmarketcap.
 
-_Since the history of transactions of most cryptocurrencies can be checked on block explorers, some tokens involved in illicit activity are flagged and blocked on exchanges. Therefore, cryptocurrencies with public transaction histories are not truly fungible. Full fungibility is currently achieved by privacy-focused coins such as Monero, because the transaction history is not publicly disclosed._
+_Since the history of transactions of most cryptocurrencies can be checked on block explorers, some tokens involved in illicit activity are flagged and blocked on exchanges. Therefore, cryptocurrencies with public transaction histories are not truly fungible. Full fungibility is currently achieved by Privacy-focused coins such as Monero, because the transaction history is not publicly disclosed._
 
-We won’t address these today, as we focus on non-fungible tokens. There were several attempts, as early as 2013 to create NFTs, but they were mostly unsuccessful. What made a difference was a new Ethereum standard, the ERC-721 which greatly facilitated the creation of “cryptocollectibles.” They are unique goods which share common attributes — the blockchain equivalent of Pokémon cards.
+We won’t address these today, as we focus on non-fungible tokens. There were several attempts, as early as 2013 to create NFTs, but they were mostly unsuccessful. What made a difference was a new Ethereum standard, the ERC-721 which greatly facilitated the creation of “cryptocollectibles.” They are unique goods which share common attributes — the Blockchain equivalent of Pokémon cards.
 
 **[📑 To explore what is being done with NFT, both for community building and artistic purposes, check this article](https://tokenbrice.xyz/nft-usecases/)**.
 
@@ -145,18 +145,18 @@ Non-fungible goods are taking off, and Ethereum is a the forefront of the innova
 Gods Unchained
 
 *   [Gods Unchained](https://godsunchained.com/): We used card games to introduce the concept, it’s only logical to find one here. Gods Unchained is among the most well-known one and uses the ERC-721 standard. The benefits compared to regular card games (such as Hearthstone) are numerous: immutability of the cards after the release (no more surprise nerfs), full transparency of the rarity of each type of cards, traceability of the previous owners of a given card… The team is focusing on eSports, and the first world championship will take place early 2019.
-*   [Decentraland](https://decentraland.org/): Take Minecraft, in virtual reality with blockchain-based mechanisms to handle ownerships: Welcome in today’s Tomorrowland! Once they own a piece of virtual land, users can create/develop the experience of their choosing (thanks to the SDK); they will then be able to control the access to their land and make other users pay for it if they want. Decentraland is a human and social experiment at world scale. It will be seriously insightful!
+*   [Decentraland](https://decentraland.org/): Take Minecraft, in virtual reality with Blockchain-based mechanisms to handle ownerships: Welcome in today’s Tomorrowland! Once they own a piece of virtual land, users can create/develop the experience of their choosing (thanks to the SDK); they will then be able to control the access to their land and make other users pay for it if they want. Decentraland is a human and social experiment at world scale. It will be seriously insightful!
 
 ![A creature of Augmentors](/img/2018/nft/augmentors.png)
 A creature of Augmentors
 
-*   [Augmentors](https://www.augmentorsgame.com/): Since we were talking Pokémon earlier, what about Pokémon GO? Augmentors combined Augmented Reality with blockchain to offer a game where NFTs allow each user to truly own their augmented reality creatures and trade them as they want.
+*   [Augmentors](https://www.augmentorsgame.com/): Since we were talking Pokémon earlier, what about Pokémon GO? Augmentors combined Augmented Reality with Blockchain to offer a game where NFTs allow each user to truly own their augmented reality creatures and trade them as they want.
 
 Dismissing NFTs could be tempting as for now it could appear like something for kids and nerds. Yet, it’s precisely the opposite: as the CryptoKitties have demonstrated it, NFTs are one of the best Trojan horses to drive the mainstream adoption of cryptocurrencies and decentralization-based mechanisms.
 
 With new technologies, the technical development is only the warming up phase. **The real challenge lies with the social and legal acceptance of the tech: on that front, CryptoKitties and other collectibles are precursors.**
 
-This article is the translation of [an original (French) EcoCrypto.fr story.](https://ecocrypto.fr/vulgarisation/tokens-non-fongibles-expliques-par-tortank-et-dracaufeu/)
+This article is the translation of [an original (French) EcoCrypto.fr story.](https://EcoCrypto.fr/vulgarisation/tokens-non-fongibles-expliques-par-tortank-et-dracaufeu/)
 
 #### Sources / Deep Dive
 

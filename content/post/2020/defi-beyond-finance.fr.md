@@ -35,7 +35,7 @@ Prenons donc une minute pour déballer ces valeurs pragmatiques fondamentales :
 
 **Accessibilité** : Pour utiliser un service DeFi, tel qu'un échange ou un système de gestion des actifs, il suffit d'avoir un portefeuille Ethereum et un appareil avec une connexion internet. Sur les services inarrêtables comme Uniswap il n'y a aucun moyen de mettre une adresse sur liste noire pour l'utiliser. Cela présente des avantages évidents pour les populations habituellement discriminées par les opérateurs de services financiers, comme les joueurs, les travailleurs du sexe ou les étrangers.
 
-**Interopérabilité** : Les services DeFi sont comme des blocs de Lego, ils sont open source, ce qui permet de les améliorer et de les développer. Ils permettent des innovations rapides car les nouveaux projets peuvent rapidement apporter de la valeur en assemblant plusieurs services existants de manière nouvelle. Chacun peut vérifier son code et contribuer facilement 
+**Interopérabilité** : Les services DeFi sont comme des blocs de Lego, ils sont open source, ce qui permet de les améliorer et de les développer. Ils permettent des innovations rapides car les nouveaux projets peuvent rapidement apporter de la valeur en assemblant plusieurs services existants de manière nouvelle. Chacun peut vérifier son code et contribuer facilement
 
 **Minimalisme** : Ethereum est un réseau conçu pour la résilience et il a des conséquences intéressantes. Avec une infrastructure hautement redondante où la bande passante et la capacité de stockage sont limitées, les projets réussis sont généralement ceux qui parviennent à réduire ou à éviter une complexité inutile.
 
@@ -69,9 +69,9 @@ L'exemple de la loterie est essentiel pour mieux comprendre les cas d'utilisatio
 
 ### Permettre des biens communs durables : Gitcoin
 
-Pour les projets décentralisés de la DeFi, la communauté est essentielle, comme nous l'avons vu avec [Yearn Finance](https://tokenbrice.xyz/fr/yearn-finance/). En plus de leur rôle de moteur du développement et de la croissance du projet, les communautés fournissent aussi fréquemment des ressources clés, telles que des tableaux de bord, des calculateurs et divers outils pour faciliter le suivi et la gestion des postes, comme [Zapper](https://zapper.fi/), [DeFiSaver](https://defisaver.com/) ou [Zerion](https://zerion.io/). 
+Pour les projets décentralisés de la DeFi, la communauté est essentielle, comme nous l'avons vu avec [Yearn Finance](https://tokenbrice.xyz/fr/yearn-finance/). En plus de leur rôle de moteur du développement et de la croissance du projet, les communautés fournissent aussi fréquemment des ressources clés, telles que des tableaux de bord, des calculateurs et divers outils pour faciliter le suivi et la gestion des postes, comme [Zapper](https://zapper.fi/), [DeFiSaver](https://defisaver.com/) ou [Zerion](https://zerion.io/).
 
-Au niveau macro, les principaux outils utilisés pour suivre la croissance globale du secteur proviennent également de la communauté, comme [DeFiLlama](https://defillama.com/home), [YieldFarmingInfo](https://yieldfarming.info/) ou [YieldFarmingTools](https://yieldfarmingtools.com/). Le développement de ces services est généralement alimenté par les dons de la communauté. 
+Au niveau macro, les principaux outils utilisés pour suivre la croissance globale du secteur proviennent également de la communauté, comme [DeFiLlama](https://defillama.com/home), [YieldFarmingInfo](https://yieldfarming.info/) ou [YieldFarmingTools](https://yieldfarmingtools.com/). Le développement de ces services est généralement alimenté par les dons de la communauté.
 
 Pour faciliter la découverte et le financement de tels projets, il existe une plateforme qui exploite les possibilités offertes par Ethereum pour améliorer le financement des biens publics : [Gitcoin](http://gitcoin.co/). Gitcoin rationalise la création de "Subventions" pour collecter des dons pour des projets et des communautés donnés. Il tire le meilleur parti des attributs fondamentaux d'Ethereum :
 
@@ -85,14 +85,14 @@ Pour faciliter la découverte et le financement de tels projets, il existe une p
 Bien qu'il y ait encore des possibilités d'amélioration - et Gitcoin s'améliore à chaque nouveau tour de table - c'est déjà une partie essentielle de l'infrastructure utilisée pour financer les biens communs sur Ethereum. Il simplifie réellement le processus de collecte des dons pour les projets communautaires. Nous l'utilisons pour la [newsletter BanklessFR](https://gitcoin.co/grants/1274/banklessfr) ainsi que pour d'autres sources, et c'est en partie ce qui nous permet de fournir une newsletter de haute qualité bien que gratuite.
 
 {{< notice info >}}
-Le prochain round des Gitcoin grants commence aujourd'hui et dure jusqu'au 17 Décembre. Il y a désormais des collections pour naviguer les projets plus facilement, alors permettez moi de vous recommander une sélection de **[personnes qui documentent la DeFi dans leur langue locale](https://gitcoin.co/grants/collections?featured=true&collection_id=24)** ainsi que **[le grants pour BanklessFR et le Daily Gwei FR](https://gitcoin.co/grants/1274/banklessfr-the-daily-gwei-fr)**. 
+Le prochain round des Gitcoin grants commence aujourd'hui et dure jusqu'au 17 Décembre. Il y a désormais des collections pour naviguer les projets plus facilement, alors permettez moi de vous recommander une sélection de **[personnes qui documentent la DeFi dans leur langue locale](https://gitcoin.co/grants/collections?featured=true&collection_id=24)** ainsi que **[le grants pour BanklessFR et le Daily Gwei FR](https://gitcoin.co/grants/1274/banklessfr-the-daily-gwei-fr)**.
 {{< /notice >}}
 
 ---
 
 ### Ethereum peut-il aider les marchés de l'art à être plus transparents et équitables ?
 
-Un autre sous-ensemble de l'écosystème d'Ethereum offre depuis peu une valeur incroyable pour la création de communautés : les jetons non fongibles (NFT). Si le terme est un peu effrayant, l'idée de base est en fait assez simple : Les NFT représentent un autre niveau de rareté numérique. 
+Un autre sous-ensemble de l'écosystème d'Ethereum offre depuis peu une valeur incroyable pour la création de communautés : les jetons non fongibles (NFT). Si le terme est un peu effrayant, l'idée de base est en fait assez simple : Les NFT représentent un autre niveau de rareté numérique.
 
 {{< notice note >}}
 Vous trouverez un explicatif détaillé sur les NFTs d'il y a deux ans, toujours d'actualité et accessible pour les nouveaux arrivants : [jetons non fongibles expliqués avec Blastoise et Charizard](https://tokenbrice.xyz/fr/nft/).

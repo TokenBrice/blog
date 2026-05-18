@@ -1,9 +1,9 @@
 ---
 title: "NFTfi : repousser les limites de NFTs grâce à la DeFi"
-description: "La DeFi apporte aux projets NFTs des outils pour résoudre leurs principales limites (comme la liquidité) tandis que les NFTs permettent de rendre la DeFi plus fun et digeste : un mariage parfait ?"
+description: "Comment la DeFi peut apporter liquidite, financement et utilite aux NFT, tandis que les NFT rendent la DeFi plus lisible."
 date: '2022-03-29T01:13:50.191Z'
 categories: [NFT]
-tags: [DeFi, Ethereum, Decentralized Finance, NFT, Forgotten Wizard, Luchadores, NFTfi]
+tags: [DeFi, Ethereum, NFT, Forgotten Wizard, Luchadores, NFTfi]
 toc: true
 tocNum: false
 url: nftfi-defi-nft
@@ -13,7 +13,7 @@ difficulty: "beginner"
 
 La finance décentralisée a ouvert un monde de possibles : une myriade d’intermédiaires auparavant nécessaires sont désormais surnuméraires. Malgré tout, elle intimide par sa potentielle complexité et sa transdisciplinarité. Outre la dimension technique évidente, la DeFi invoque également des notions issues de disciplines diverses: économie, sciences sociales, “mémétique”, etc.
 
-Ainsi, depuis des années déjà, les NFTs ont servi de porte d’entrée vers le monde décentralisé, démontrant les bénéfices de la tokénisation et de la désintermédiation à une population encore peu friande de DeFi. 
+Ainsi, depuis des années déjà, les NFTs ont servi de porte d’entrée vers le monde décentralisé, démontrant les bénéfices de la tokénisation et de la désintermédiation à une population encore peu friande de DeFi.
 
 Je vous propose donc aujourd’hui de faire converger les deux thèmes principaux de ce blog en un sujet captivant : l’émergence de l’infrastructure DeFi pour les NFTs, ou encore l’arrivée des NFTs/gamification dans la DeFi - c’est une question de perspective.
 
@@ -79,7 +79,7 @@ Prenons donc le temps de bien expliquer le concept. Tokéniser, c’est l’acti
 Prenons un exemple qui illustre bien les bénéfices de la tokénisation - le cas de **la fractionalisation d’un NFT**.
 
 1. On part donc d’un token non fongible spécifique, le CryptoPunk #666 par exemple.
-2. On le verrouille dans un contrat qui émet 10 000 PUNK tokens, des tokens ERC-20. 
+2. On le verrouille dans un contrat qui émet 10 000 PUNK tokens, des tokens ERC-20.
 3. On a maintenant un token qui représente 1/10 000 du CryptoPunk #666 original. Ce token est un ERC-20 classique et donc échangeable facilement via Uniswap ou autre (⚠️ Liquidité)
 
 ⇒ La tokénisation permet ici **la possession collective d’un bien unique** (le NFT CryptoPunk #666).
@@ -102,12 +102,12 @@ Outre LooksRare et Opensea précédemment mentionné, il existe d’autres place
 
 
 
-1. [MINT] Un “vault” (smart contract) spécifique à une collection est créé ; les utilisateurs peuvent déposer leur NFTs dans celui-ci. 
+1. [MINT] Un “vault” (smart contract) spécifique à une collection est créé ; les utilisateurs peuvent déposer leur NFTs dans celui-ci.
 2. Lorsqu’un utilisateur dépose un NFT dans le vault, sa contribution est reconnue par l’émission d’un token ERC20.
 3. [REDEEM] À tout moment, le token ERC20 peut être échangé contre n’importe quel NFT du vault. Le token ERC20 est alors détruit.
 
 {{< notice warning >}}
-⚠️ Vous l’aurez compris, le vault assume que tous les NFTs sont équivalents : mieux vaut donc rentrer dans un vault avec un NFT parmi les moins rares de la collection donnée. 
+⚠️ Vous l’aurez compris, le vault assume que tous les NFTs sont équivalents : mieux vaut donc rentrer dans un vault avec un NFT parmi les moins rares de la collection donnée.
 {{< /notice >}}
 
 Le leader en la matière, c’est probablement [NFTX](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/), mais il y a aussi [NFT20](https://nft20.io/). Cette méthode permet d’obtenir un token ERC20 - par exemple le WIZARD - qui correspond à un claim sur n’importe quel NFT du vault, en l'occurrence n’importe lequel des 215 Forgotten Wizard Cult (NFTs) contenu dans [le vault.](https://nftx.io/vault/0x87931e7ad81914e7898d07c68f145fc0a553d8fb/info/)
@@ -127,7 +127,7 @@ On se concentre ici sur la liquidité, mais il faut garder en tête que le passa
 
 
 1. Si la liquidité sur la paire est suffisante - alors elle devient également **une source de prix**.
-2. Qui dit source de prix (oracle) + liquidité dit… collatéral évidemment ! Avec ces deux éléments, rien n’empêche d’envisager le WIZARD comme **collatéral pour emprunter** d’autres tokens comme des stablecoins. C’est faisable mais bien plus complexe en partant directement du NFT.
+2. Qui dit source de prix (oracle) + liquidité dit… collatéral évidemment ! Avec ces deux éléments, rien n’empêche d’envisager le WIZARD comme **collatéral pour emprunter** d’autres tokens comme des Stablecoins. C’est faisable mais bien plus complexe en partant directement du NFT.
 3. Enfin, gardez en tête qu’il n’y a pas de limite à la tokénisation, tant qu’il y a un intérêt. On est resté ici sur des cas de tokénisation unique, mais des **scénarios de tokénisations enchevêtrées** sont également envisageables.
 
 Un token ERC-20 qui représente un claim sur un Wizard donné, c’est top. Maintenant imaginez que vous ayez la même chose pour les CryptoPunks, le BAYC et ainsi de suite - c’est le cas sur NFTX. Rien n’empêche d’envisager une étape de tokénisation supplémentaire pour créer un **index NFT** représenté par un token ERC20 mais qui serait lui meme** échangeable contre les tokens représentants les actifs sous-jacents:** :
@@ -137,7 +137,7 @@ On pourrait ainsi imaginer le NFT-Bluechip-Index, un token ERC-20 créé en verr
 
 
 1. [Avec le contrat NFT-Bluechip] : burn de 1 NFT-Bluechip-Index pour récupérer 1 WIZARD + 1 PUNK + 1 BAYC
-2. [En utilisant les contrats/vaults de NFTX] burn de 1 WIZARD + 1 PUNK + 1 BAYC pour récupérer un NFT (au choix parmi ceux qui sont dans le vault) de chaque collection sous-jacente. 
+2. [En utilisant les contrats/vaults de NFTX] burn de 1 WIZARD + 1 PUNK + 1 BAYC pour récupérer un NFT (au choix parmi ceux qui sont dans le vault) de chaque collection sous-jacente.
 
 
 ### Idol : des NTFs pour tokéniser un rendement DeFi
@@ -149,13 +149,13 @@ Les IdolsNFT ont été vendus initialement via une bonding curve pour un prix en
 ![idols-nft](/img/2022/nft-defi-infrastructure/idol-nfts.png)
 
 
-Et le projet va même plus loin ! En effet, il y a aussi un ERC-20 dans l’histoire, le VIRTUE, initialement distribué aux premiers acheteurs. Désormais pour obtenir du VIRTUE, il faut bond des stETH (-> ce qui augmente le capital productif du projet). 
+Et le projet va même plus loin ! En effet, il y a aussi un ERC-20 dans l’histoire, le VIRTUE, initialement distribué aux premiers acheteurs. Désormais pour obtenir du VIRTUE, il faut bond des stETH (-> ce qui augmente le capital productif du projet).
 
 Le VIRTUE correspond à une exposition par proxy sur les IdolsNFT : pour chaque vente d’un NFT Idol, un frais de 7.5% est prélevé et reversé aux stakers de VIRTUE.
 
 ![idolnfts-virtue-cycle](/img/2022/nft-defi-infrastructure/idol-cycle.png)
 
-Ainsi, les Idols, “Gardiens d’Ethereum” utilisent les NFTs pour rendre le staking d’ETH plus fun et interactif. En outre, la capture des frais sur le token VIRTUE permet d’éviter une “capture externe” des frais générés par les échanges de IdolsNFT comme c’est le cas pour les NFTs échangés sur NFTX par exemple. 
+Ainsi, les Idols, “Gardiens d’Ethereum” utilisent les NFTs pour rendre le staking d’ETH plus fun et interactif. En outre, la capture des frais sur le token VIRTUE permet d’éviter une “capture externe” des frais générés par les échanges de IdolsNFT comme c’est le cas pour les NFTs échangés sur NFTX par exemple.
 
 Enfin, les gros possesseurs de la collection ont un chemin tout tracé pour composer leur rendement si leur conviction est forte :
 
@@ -178,7 +178,7 @@ Face à cette myriade d’options, les acheteurs n’ont pas forcément le temps
 ![gem.xyz](/img/2022/nft-defi-infrastructure/gem-xyz.png "Gem, l'aggrégateur NFT")
 
 
-Il existe ainsi plusieurs services capables de diriger les “ordres” vers différentes places de marché, voire de ŕealiser un “swipe” sur plusieurs plateformes avec une seule transaction : il s’agit de [Genie](https://genie.xyz) et [Gem](https://gem.xyz). 
+Il existe ainsi plusieurs services capables de diriger les “ordres” vers différentes places de marché, voire de ŕealiser un “swipe” sur plusieurs plateformes avec une seule transaction : il s’agit de [Genie](https://genie.xyz) et [Gem](https://gem.xyz).
 
 Là encore, c'est la réactivité de l’équipe et la composabilité du service qui feront la différence sur le long terme : Gem semble avoir pris de l’avance grâce à son intégration avancée de LooksRare (claim LOOKS possible pour les acheteurs via Gem).
 
@@ -213,9 +213,9 @@ Si vous découvrez les Luchadores avec cet article, n'hésitez pas à lire cette
 
 ---
 
-## Et après ? 
+## Et après ?
 
-Dans cet article, on est encore resté sur la partie visible de l’iceberg. À la croisée de la DeFi et des NFTs, il reste quantité de nouveaux cas d’utilisation possibles. Je vous propose d’en faire une liste accompagnée des principaux services qui explorent ces champs : 
+Dans cet article, on est encore resté sur la partie visible de l’iceberg. À la croisée de la DeFi et des NFTs, il reste quantité de nouveaux cas d’utilisation possibles. Je vous propose d’en faire une liste accompagnée des principaux services qui explorent ces champs :
 
 
 ### FloorDAO : NFT x DeFi x DAO
@@ -224,7 +224,7 @@ Dans cet article, on est encore resté sur la partie visible de l’iceberg. À 
 
 ![floordao-bond](/img/2022/nft-defi-infrastructure/floordao-bond.png "La pertinence du bonding varie en fonction des besoins de la FloorDAO et de l'evolution du prix de FLOOR.")
 
-Les tokens et LP collectés sont utilisés par FloorDAO pour produire un rendement (staking NFTX). La communauté (holders de gFLOOR) vote pour décider les prochains actifs à acquérir. Olympus utilise l'inflation de son token de gouvernance pour acquérir des actifs stratégiques commme DAI, LUSD, ou CRV ; FloorDAO fait la même chose mais avec pour cible des tokens NFTX et donc backés par un NFT.   
+Les tokens et LP collectés sont utilisés par FloorDAO pour produire un rendement (staking NFTX). La communauté (holders de gFLOOR) vote pour décider les prochains actifs à acquérir. Olympus utilise l'inflation de son token de gouvernance pour acquérir des actifs stratégiques commme DAI, LUSD, ou CRV ; FloorDAO fait la même chose mais avec pour cible des tokens NFTX et donc backés par un NFT.
 
 Là encore, le protocole possède une part de la liquidité sur FLOOR/ETH (sur Uniswap) et les frais générés par la position contribuent au rendement de la trésorerie.
 

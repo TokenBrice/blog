@@ -2,8 +2,9 @@
 title: "🤖 Vaults: DeFi Investing Streamlined?"
 description: "Vaults enable easy DeFi investments with a streamlined management of the position for the end-users. What are the options and their tradeoffs?"
 date: '2020-09-30T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Yearn Finance, YFV, Uniswap, Harvest Finance]
+tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
 difficulty: "beginner"
 url: vaults
@@ -11,7 +12,7 @@ url: vaults
 
 As the ecosystem of decentralized financial services on Ethereum grows and matures, the service offering is becoming more dense and sometimes hard to understand. While the most technically savvy users can chase the latest releases and hedge their risk appropriately, less-seasoned investors might feel left out.
 
-Luckily, there are DeFi services made to match the diverse set of investors exploring the space. Yearn Finance was the first platform to pioneer a passive-type of investment products: vaults. 
+Luckily, there are DeFi services made to match the diverse set of investors exploring the space. Yearn Finance was the first platform to pioneer a passive-type of investment products: vaults.
 
 The base idea is simple as 1, 2, 3:
 
@@ -32,7 +33,7 @@ This article is straight to the point and highlights the different vaults availa
 
 Vaults use the token you deposit (DAI for instance) to farm a given strategy, produce a return and re-invest it automatically.
 
-The pioneer is of course Yearn with the yCRV vault, but several options are now available or progressively rolling out. This article provides a structured overview of the main earning opportunities enabled by vaults. 
+The pioneer is of course Yearn with the yCRV vault, but several options are now available or progressively rolling out. This article provides a structured overview of the main earning opportunities enabled by vaults.
 
 Here, you deposit a given token to earn more of it over time, and potentially additional reward. The tokens you are supplying are not used to provide liquidity on decentralized exchanges, **so there is no exposure to impermanent losses**.
 
@@ -40,7 +41,7 @@ However, **as more and more vault-types products are being released, you want to
 
 Below you will find tables summarizing the main vaults that I know of, with the tokens they accept, the service they farm, and how the return is denominated.
 
-The mention "returns normalized to the base" means that the strategy generates a return frequently settled for the base token supplied - this operation is sometimes referred to as “harvesting”. 
+The mention "returns normalized to the base" means that the strategy generates a return frequently settled for the base token supplied - this operation is sometimes referred to as “harvesting”.
 
 {{< notice tip >}}
 The frequency of the harvest is important as it will influence the compounding factor of the overall position, as well as level of risk taken on the price of the farmed token.
@@ -48,7 +49,7 @@ The frequency of the harvest is important as it will influence the compounding f
 
 ### Stablecoins & BTC Vaults
 
-When it comes to Vaults, the most common tokens accepted as deposits are stablecoins. Such vaults will deploy your capital on Curve Finance pool to earn CRV tokens, usually the Y pool, . More recent projects, such as Pickle Finance also enables farming from the Curve sUSD pool.
+When it comes to Vaults, the most common tokens accepted as deposits are Stablecoins. Such vaults will deploy your capital on Curve Finance pool to earn CRV tokens, usually the Y pool, . More recent projects, such as Pickle Finance also enables farming from the Curve sUSD pool.
 
 <div align="center">
 
@@ -80,9 +81,9 @@ With Harvest.Finance, you can deposit wBTC or renBTC directly, or the CRVRENWBTC
 
 ### ETH-Based Vaults
 
-BTC & Stablecoins positions are interesting, but maybe you'd like to keep an exposure to the price ETH? 
+BTC & Stablecoins positions are interesting, but maybe you'd like to keep an exposure to the price ETH?
 
-You can achieve such a result by yourself by leveraging your ETH. You'll use them as collateral to mint or borrow stablecoins/wBTC that are then deployed to produce a return superior to your borrowing cost: here's an article I wrote providing tips and tools to leverage ETH efficiently - [**🎚 ETH exposure or DeFi yields: why choose?**](https://tokenbrice.xyz/leveraging-eth/)
+You can achieve such a result by yourself by leveraging your ETH. You'll use them as collateral to mint or borrow Stablecoins/wBTC that are then deployed to produce a return superior to your borrowing cost: here's an article I wrote providing tips and tools to leverage ETH efficiently - [**🎚 ETH exposure or DeFi yields: why choose?**](https://tokenbrice.xyz/leveraging-eth/)
 
 
 However, with such a position, you can be exposed to liquidations if the price of ETH was to drop.
@@ -132,7 +133,7 @@ Indeed, quickly after the launch of Uniswap, several services started offering v
 |  YFV | ETH/USDC, ETH/wBTC | UNI returns normalized to the base + VALUE |
 
 {{< notice note >}}
-This list is not exhaustive. Only vaults are included - services which automatically re-invest the profits for you. 
+This list is not exhaustive. Only vaults are included - services which automatically re-invest the profits for you.
 {{< /notice >}}
 
 

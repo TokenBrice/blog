@@ -1,7 +1,6 @@
 ---
 title: "Hello, World! (FR)"
-description: >-
- Ce qu'est ce blog et un rappel relatif à préservation de la vie privée
+description: "Courte introduction au blog, a son orientation DeFi et aux valeurs de vie privee qui guident la publication sur TokenBrice."
 date: '2020-05-05T14:53:50.191Z'
 categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]

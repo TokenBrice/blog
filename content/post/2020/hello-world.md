@@ -1,7 +1,6 @@
 ---
 title: "Hello, World!"
-description: >-
- What this blog is and a sweet & hot take on respecting privacy online
+description: "A short introduction to this blog, its DeFi focus, and the privacy values that shaped the TokenBrice publishing approach."
 date: '2020-05-05T14:53:50.191Z'
 categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
@@ -10,7 +9,7 @@ url: hello-world
 difficulty: "beginner"
 ---
 
-Welcome to my humble domain, 
+Welcome to my humble domain,
 
 I'm thrilled to take this project live. As often with me, what started as a simple project ended up becoming... something else.
 
@@ -48,9 +47,9 @@ However, please, assume best intentions: trackers and other privacy-intrusive de
 
 > Let's spell it out in case it's not clear enough: there are no valid reasons for someone to ship a privacy-intrusive website nowadays especially if the site is "read-only", like this blog.
 
-Yet there are still too many out there! 
+Yet there are still too many out there!
 
-So **let's call these potentially — ignorant, if not — careless, if not — lazy, if not — not-giving-a-fuck-about-privacy developers out.** 
+So **let's call these potentially — ignorant, if not — careless, if not — lazy, if not — not-giving-a-fuck-about-privacy developers out.**
 
 I can barely touch an HTML file, and I did it — **so if you truly care, quit your bullshit and get to work.**
 

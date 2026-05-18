@@ -11,15 +11,15 @@ url: technocentrism
 difficulty: "intermediate"
 ---
 
-From its very early days, the blockchain industry was a world for geeks. It really made sense at first: I think it was a conjunction of two main factors. First, technical profiles were already deeply involved in promoting the values (autonomy, privacy, trustless cooperation) that blockchains can deliver. Moreover, at the humble beginnings, the roadblocks were technical ones involving “hard science” fields: mathematics, cryptography, game theory, etc.
+From its very early days, the Blockchain industry was a world for geeks. It really made sense at first: I think it was a conjunction of two main factors. First, technical profiles were already deeply involved in promoting the values (autonomy, Privacy, trustless cooperation) that blockchains can deliver. Moreover, at the humble beginnings, the roadblocks were technical ones involving “hard science” fields: mathematics, cryptography, game theory, etc.
 
 However, as the blockchains developed (Bitcoin is 10 years old!), the people involved did not get any more diverse. **Right now everybody is so focused on the tech that the whole industry has a tunnel vision.** Go to meet-up and see it for yourself: it’s only tech talk. Every time you go to one, you’re left scratching your head wondering if we even need such a complex solution to a problem you’re not even sure exists.
 
-I think **that just like any major government institutions, “the blockchain industry” (if that’s even a thing) is already suffering from groupthink and lack of diversity.** The `15-35 years old, tech-focused, guy` description matches 95% of the profiles.
+I think **that just like any major government institutions, “the Blockchain industry” (if that’s even a thing) is already suffering from groupthink and lack of diversity.** The `15-35 years old, tech-focused, guy` description matches 95% of the profiles.
 
 From a high-level design perspective, we know it's simply inefficient at best, if not profoundly detrimental: think about the decisions our `45-75 years old, male with elite education, rich, white` politicians come up with. Diversity is not just a shiny cool thing to add to show you're progressive: it's actually the **biggest success driver of success for any given group, even before education or expertise.**[^1]
 
-We’re direly missing outsiders, people who will look at the systems being designed and ask the “naive” yet hard and insightful questions. I intend to demonstrate that to you with two very simple examples — I’ll explain the concepts I’m referring so you won’t need to be a tech lad or a blockchain-expert to follow my though process.
+We’re direly missing outsiders, people who will look at the systems being designed and ask the “naive” yet hard and insightful questions. I intend to demonstrate that to you with two very simple examples — I’ll explain the concepts I’m referring so you won’t need to be a tech lad or a Blockchain-expert to follow my though process.
 
 #### Proof of Stake — the “humans are rational beings” assumption
 
@@ -41,9 +41,9 @@ Maybe you’ve heard about what we call layer-2 solutions? They are essentially 
 
 The problem is simple: **some layer 2 solutions somehow managed to provide a worse user experience than the base layer**. Here are the restrictions of the Lightning Network, that will never be lifted because they are due to protocol-level decisions:
 
-1.  A channel must be open to receive/send money (aka you must be “online” to send/receive).  
+1.  A channel must be open to receive/send money (aka you must be “online” to send/receive).
      — You don’t have to, on the base layer.
-2.  A channel must be provided with some currency to be opened. **It cannot allow the transit of more currency than what’s in it**. Say you open a channel with 1 BTC, someone sends you 10 BTC — doesn’t matter, you won’t be able to get more than 1 BTC out of it.   
+2.  A channel must be provided with some currency to be opened. **It cannot allow the transit of more currency than what’s in it**. Say you open a channel with 1 BTC, someone sends you 10 BTC — doesn’t matter, you won’t be able to get more than 1 BTC out of it.
     — The base layer knows no limitations to the amounts you can send (as long as you can face the transaction cost) and receive.
 3.  Most of the transactions are settled off-chain (except the state update — the settlement when you close a channel), which means they are low-fee and fast, but you also lose the security and accountability provided by on-chain settlements.
 
@@ -65,14 +65,14 @@ Blockchains are more than just cool technology. **They are protocols to implemen
 6.  We need **philosophers** to consider the fundamental consequences of these changes and anticipate their impacts on how we see the world.
 7.  We need **waiters, taxi drivers, and stewards** to keep a direct channel with every layer of our society, reminding us of its beautiful diversity.
 8.  We need **social workers** to help us design systems adapted to the realities of everyone.
-9.  We need **teachers** to sensitize students as to why privacy, autonomy and decentralization are necessary to be self-sovereign and truly exercise our free will.
+9.  We need **teachers** to sensitize students as to why Privacy, autonomy and decentralization are necessary to be self-sovereign and truly exercise our free will.
 10.  Hell, we even need **public servants** to understand how to jump from the protocol to the actual real-life implementation, with all its frustrations and the nitty-gritty.
 
 Blockchain is the world of tomorrow, let’s make sure it lives by its standards: **the people of tomorrow are diverse and inclusive, so why can’t we be?**
 
 Do you want to give involved in blockchains while not having a technical background? [Feel free to reach out](https://twitter.com/TokenBrice), I’ll do everything I can to help you find your spot because you are a NECESSARY addition. Don’t leave the design of the base protocols of tomorrow to the nerds — they’ll do an awful job at it solely by themselves.
 
-_⚠️ My opinions are solely my own — I’m expressing myself outside any professional quality or relationship. And yes, I mostly fit the blockchain mono-profile of a 15–35yo privileged white dude, except for my education not being science-focused, which is yet another proof of my whole point: we need diversity._
+_⚠️ My opinions are solely my own — I’m expressing myself outside any professional quality or relationship. And yes, I mostly fit the Blockchain mono-profile of a 15–35yo privileged white dude, except for my education not being science-focused, which is yet another proof of my whole point: we need diversity._
 
 [^1]: [Effects of Diversity in Teams and Workgroups: A Qualitative Systematic Review ](http://www.ijbhtnet.com/journals/Vol_7_No_2_June_2017/2.pdf)— Seyhan Güver&Renate Motschni for the _International Journal of Business, Humanities and Technology,_ June 2017_._
 [^2]: [Appealing to Fear: A Meta-Analysis of Fear Appeal Effectiveness and Theories](https://www.apa.org/pubs/journals/releases/bul-a0039729.pdf) —Melanie B. Tannenbaum, Rick S. Zimmerman, Justin Helper, Lindsey Saul and Samantha Jacobs for the _American Psychology Association_, 2015.

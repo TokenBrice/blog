@@ -5,7 +5,8 @@ description: >-
 date: '2018-07-01T10:36:03.488Z'
 categories: [Projects]
 tags: [EcoCrypto]
-url: ecocrypto-manifesto
+image: /img/2020/next-steps/ecocrypto-logo.png
+url: EcoCrypto-manifesto
 difficulty: "beginner"
 ---
 
@@ -45,11 +46,11 @@ Bien qu’EcoCrypto a besoin de se faire connaître, nous sommes intransigeants 
 
 #### Respect de l’anonymat des écrivains
 
-Révéler votre identité n’est pas nécessaire pour publier sur EcoCrypto. Envoyez nous simplement un email depuis une adresse jetable sur <redaction@ecocrypto.fr>. Du moment que le contenu est de qualité et suit les principes présentés dans ce document, on en a vraiment rien à faire de votre nom.
+Révéler votre identité n’est pas nécessaire pour publier sur EcoCrypto. Envoyez nous simplement un email depuis une adresse jetable sur <redaction@EcoCrypto.fr>. Du moment que le contenu est de qualité et suit les principes présentés dans ce document, on en a vraiment rien à faire de votre nom.
 
 #### Traçabilité du manifeste
 
-Si le manifeste devait être mis à jour, toutes les versions précédentes resteront accessible en ligne. [Vous trouverez toutes les versions du manifeste ici](https://ecocrypto.fr/manifeste/) ainsi qu’un historique des versions (changelog) expliquant les principaux changements et leur motivation. N’hésitez pas à nous suggérer toute solution qui nous permettra de vous prouver, sans que vous ayez à nous faire confiance, que le manifeste n’a pas été modifié sans que le changement soit motivé et documenté.
+Si le manifeste devait être mis à jour, toutes les versions précédentes resteront accessible en ligne. [Vous trouverez toutes les versions du manifeste ici](https://EcoCrypto.fr/manifeste/) ainsi qu’un historique des versions (changelog) expliquant les principaux changements et leur motivation. N’hésitez pas à nous suggérer toute solution qui nous permettra de vous prouver, sans que vous ayez à nous faire confiance, que le manifeste n’a pas été modifié sans que le changement soit motivé et documenté.
 
 #### Nos articles sont écrits pour être lus partout
 

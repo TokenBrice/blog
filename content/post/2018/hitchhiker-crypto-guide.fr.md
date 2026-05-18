@@ -5,7 +5,7 @@ description: >-
   crypto, et des astuces pour repérer les signaux inquiétants.
 date: '2018-07-05T10:36:03.488Z'
 categories: [Tutorial]
-tags: [ICO, scam, Ethereum, Decentralisation, EcoCrypto]
+tags: [ICO, scam, Ethereum, Decentralization, EcoCrypto]
 image: /img/2018/hitchhikerguide/cover.jpeg
 difficulty: "beginner"
 url: crypto-hitchhiker-guide
@@ -42,7 +42,7 @@ Vous voulez un exemple du pire des whitepapers ? [Narbonne est un bon candidat]
 
 L’ensemble du tableau est démontable, ce qui en fait un bon exercice. Je vous en donne quelques uns et vous laisse faire la suite :
 
-*   “Bookkeeping at the blockchain” (impossible de traduire cette chose, désolé) — je suppose qu’il parle de traçabilité ? Il y a plein de projets qui s’en chargent sur Ethereum, comme par exemple [Request (REQ)](https://request.network/).
+*   “Bookkeeping at the Blockchain” (impossible de traduire cette chose, désolé) — je suppose qu’il parle de traçabilité ? Il y a plein de projets qui s’en chargent sur Ethereum, comme par exemple [Request (REQ)](https://request.network/).
 *   “Mobile Banking”: un projet comme [OmiseGo](https://omisego.network/) fait déjà ça très bien.
 *   “AI, chatbot, voice control”: aucun intérêt pour le projet, qui est une infrastructure pour des banques. Par contre c’est des beaux buzzwords, ce qui explique sans doute leur présence.
 

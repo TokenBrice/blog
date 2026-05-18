@@ -4,6 +4,7 @@ date: '2019-03-18T09:44:14.735Z'
 description: Go static to dramatically improve performance, indexation, and rendering consistency
 tags: [web development, static websites, static web, Jekyll, Hugo, Netlify]
 categories: [Analysis]
+image: /img/main/banner.png
 url: static-edge
 difficulty: "beginner"
 ---
@@ -82,21 +83,21 @@ Since the release of Jekyll in 2008, the framework adopted by GitHub, static web
 
 Static websites are also a perfect fit for documentation or e-books. Some frameworks were explicitly developed for the purpose, such as [GitBook](https://www.gitbook.com/) or [Docusaurus](https://docusaurus.io/).
 
-{{< figure src="/img/2019/staticweb/gitbook-screen.png" alt="GitBook Preview" title="Preview of a website built with GitBook">}} 
+{{< figure src="/img/2019/staticweb/gitbook-screen.png" alt="GitBook Preview" title="Preview of a website built with GitBook">}}
 
-Finally, if you want to explore all potential options, [check this excellent, exhaustive database](https://www.staticgen.com/) maintained by netlify (more about them below). 
+Finally, if you want to explore all potential options, [check this excellent, exhaustive database](https://www.staticgen.com/) maintained by netlify (more about them below).
 
 ### Content Management System
 
 Once your website is up and running, you might want to implement a content management system so that your editor can easily submit new pieces of content. If you are a developer building a blog for yourself, you probably don't need a CMS. However, they are convenient for those who make sites maintained my non-technical profiles.
 
-{{< figure src="/img/2019/staticweb/forestry-screen.png" alt="forestry CMS" title="Preview of the editor interface on Foresty">}} 
+{{< figure src="/img/2019/staticweb/forestry-screen.png" alt="forestry CMS" title="Preview of the editor interface on Foresty">}}
 
 #### A Git repository, the base CMS
 
-Using a Github (or Gitlab) repo as your CMS comes with many advantages over a traditional CMS, including among others: 
+Using a Github (or Gitlab) repo as your CMS comes with many advantages over a traditional CMS, including among others:
 
--   Version control, 
+-   Version control,
 -   User and permission management,
 -   Branches (staging, pre-prod, prod)
 -   Access to the full files' history.
@@ -129,5 +130,5 @@ However, if you are simply looking for a CI/CD solution and don't need the CMS y
 
 Check this post to see some tips on how we built our own tech blog, using [Hugo, Docker, and GitLab](https://blog.callr.tech/static-blog-hugo-docker-gitlab).
 
-[^1]: Base Rendering of `https://www.nytimes.com/section/health` using `Chrome Version 72.0.3626.121 (64-bit)` {{< figure src="/img/2019/staticweb/nyt-bloated.png" alt="nyt-bloated" title="Preview of the NYT-health section, BLOATED version">}} 
-[^2]: Ad and tracker-filtered rendering of `https://www.nytimes.com/section/health` using`Firefox Version 65.0.1 (64-bit) using uBlock Origin and Privacy Badger` {{< figure src="/img/2019/staticweb/nyt-light.png" alt="nyt-light" title="Preview of the NYT-health section, LIGHT version">}} 
+[^1]: Base Rendering of `https://www.nytimes.com/section/health` using `Chrome Version 72.0.3626.121 (64-bit)` {{< figure src="/img/2019/staticweb/nyt-bloated.png" alt="nyt-bloated" title="Preview of the NYT-health section, BLOATED version">}}
+[^2]: Ad and tracker-filtered rendering of `https://www.nytimes.com/section/health` using`Firefox Version 65.0.1 (64-bit) using uBlock Origin and Privacy Badger` {{< figure src="/img/2019/staticweb/nyt-light.png" alt="nyt-light" title="Preview of the NYT-health section, LIGHT version">}}

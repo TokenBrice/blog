@@ -2,8 +2,11 @@
 title: "Les fusions de Yearn Finance"
 description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi. Qu'est-ce que cela signifie pour l'ecosystème Yearn Finance ?"
 date: '2020-12-09T01:13:50.191Z'
+reviewed: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Yearn Finance, SushiSwap]
+tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, SushiSwap]
+series: yearn
+series_order: 2
 image: /img/2020/yearn-merger/y-among-us.gif
 difficulty: "intermediate"
 url: yearn-finance-mergers
@@ -11,7 +14,7 @@ url: yearn-finance-mergers
 
 L'équipe de Yearn Finance a fait parler d'elle ces derniers temps avec l'annonce de **plusieurs acquisitions** comme Pickle Finance ou SushiSwap. Elle joint ses forces de développement à celles de cinq autres projets de DeFi.
 
-Pour comprendre ce qui se passe, nous allons revenir sur les principaux événements survenus depuis septembre et sur la manière dont chacun des différents sous-projets travaille désormais à la réalisation d'un objectif commun. Bien que Yearn soit encore relativement nouveau, son histoire comporte déjà de nombreux chapitres. 
+Pour comprendre ce qui se passe, nous allons revenir sur les principaux événements survenus depuis septembre et sur la manière dont chacun des différents sous-projets travaille désormais à la réalisation d'un objectif commun. Bien que Yearn soit encore relativement nouveau, son histoire comporte déjà de nombreux chapitres.
 
 Pour arriver aux derniers événements - la vague de fusions -, examinons d'abord rapidement les trois phases du développement de Yearn et la manière dont elles ont abouti à aujourd'hui :
 
@@ -29,7 +32,7 @@ Au départ, Yearn se concentrait sur ses propres produits, les principaux étant
 
 L'orientation n'était pas exactement claire à l'époque. En effet, de nombreux produits étaient en cours d'élaboration, tels que yBorrow, ySwap, yinsure ou [Eminence exploit](https://decrypt.co/43292/eminence-finance-exploit-leads-to-degen-soul-searching). Cependant, le produit de base, les vaults, n'a connu que peu d'améliorations.
 
-Au cours des derniers mois, la vision du développement de Yearn a évolué. Au lieu d'un plan tourné vers l'intérieur et centré sur l'écosystème, l'équipe de Yearn a commencé à se tourner vers l'extérieur. Au même moment, le DAO de Yearn a structuré ses processus et [a formalisé le financement des opérations](https://gov.yearn.finance/t/yip-54-formalize-operations-funding/7956). 
+Au cours des derniers mois, la vision du développement de Yearn a évolué. Au lieu d'un plan tourné vers l'intérieur et centré sur l'écosystème, l'équipe de Yearn a commencé à se tourner vers l'extérieur. Au même moment, le DAO de Yearn a structuré ses processus et [a formalisé le financement des opérations](https://gov.yearn.finance/t/yip-54-formalize-operations-funding/7956).
 
 Cela a conduit à la phase actuelle de fusion, qui consiste à joindre les efforts de développement à d'autres projets dans des domaines d'expertise pertinents. Sur le plan des tokens, rien ne change, chaque projet garde son propre tokens et sa souveraineté sur lui. Voyons donc ce qu'il en est.
 
@@ -98,7 +101,7 @@ Si ces fusions amènent une **augmentation massive de la puissance de feu de Yea
 
 Il y a maintenant tellement de fusions annoncées que CoinGecko a créé une catégorie pour les suivre : [🦎YFI Partnerships & Mergers Coins by Market Capitalization](https://www.coingecko.com/en?category_id=yearn-yfi-partnerships-mergers&view=market).
 
-Pour DeFi, la composabilité est essentielle et Yearn est une autre démonstration de ce qu'elle peut réaliser. En effet, il y a une dernière dimension à souligner avec ces fusions : la liquidité. 
+Pour DeFi, la composabilité est essentielle et Yearn est une autre démonstration de ce qu'elle peut réaliser. En effet, il y a une dernière dimension à souligner avec ces fusions : la liquidité.
 
 ![Yearn-Merger-TVL-Overview](/img/2020/yearn-merger/yearn-merger-tvl.png "Yearn et les acquisitions en termes de valeur totale des actifs déposés (exprimé en  millions de $)")
 
