@@ -1,0 +1,10 @@
+{{/*
+    Auto "Concepts mentioned in this article" partial.
+    Cache-wraps the inner partial so each post is scanned at most once per build.
+    CSS class contract (Zone H styles): .glossary-mentions
+*/}}
+{{- if and .File .File.Path -}}
+    {{- partialCached "article/components/glossary-mentions-inner" . .File.Path .Lastmod.Unix -}}
+{{- else -}}
+    {{- partial "article/components/glossary-mentions-inner" . -}}
+{{- end -}}

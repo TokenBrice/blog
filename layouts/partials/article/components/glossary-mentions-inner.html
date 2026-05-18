@@ -1,0 +1,44 @@
+{{/*
+    Inner partial for glossary-mentions (separated so partialCached has a stable name).
+    Renders <aside class="glossary-mentions"> with up to 10 unique terms matched
+    in .RawContent. Strategy: lowercase content once, strip code, then for each
+    glossary term do a cheap substring check, then confirm a word boundary via
+    findRE (regex only run on the ~few terms that pass the cheap check).
+*/}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $glossary := index .Site.Data.glossary $lang -}}
+{{- if and $glossary $glossary.terms -}}
+    {{- $raw := lower .RawContent -}}
+    {{- $raw = replaceRE "(?s)```.*?```" " " $raw -}}
+    {{- $raw = replaceRE "`[^`]*`" " " $raw -}}
+    {{- $stop := slice "defi" "ethereum" "bitcoin" "usd" "eth" "btc" "token" "tokens" "crypto" "web3" "blockchain" -}}
+    {{- $maxMatches := 10 -}}
+    {{- $matches := slice -}}
+    {{- $seen := dict -}}
+    {{- range $glossary.terms -}}
+        {{- if lt (len $matches) $maxMatches -}}
+            {{- $id := .id -}}
+            {{- $label := .term -}}
+            {{- $needle := lower $label -}}
+            {{- if and (not (in $stop $needle)) (not (index $seen $id)) (in $raw $needle) -}}
+                {{- /* Word-boundary confirm: \b doesn't work well in Go regex with unicode/punct, so emulate it. */ -}}
+                {{- $escaped := $needle | replaceRE "[.+*?()\\[\\]{}|^$\\\\]" "\\${0}" -}}
+                {{- $pattern := printf "(^|[^a-z0-9_])%s($|[^a-z0-9_])" $escaped -}}
+                {{- if findRE $pattern $raw 1 -}}
+                    {{- $matches = $matches | append (dict "id" $id "term" $label) -}}
+                    {{- $seen = merge $seen (dict $id true) -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- if gt (len $matches) 0 -}}
+        <aside class="glossary-mentions" aria-label="{{ T "glossaryMentions" | default "Concepts mentioned in this article" }}">
+            <h3>{{ T "glossaryMentionsTitle" | default "Concepts in this article" }}</h3>
+            <ul>
+                {{- range $matches }}
+                <li><a href="/glossary/{{ .id }}/">{{ .term }}</a></li>
+                {{- end }}
+            </ul>
+        </aside>
+    {{- end -}}
+{{- end -}}

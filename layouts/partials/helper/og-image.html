@@ -1,0 +1,70 @@
+{{- /*
+  helper/og-image
+  Returns a dict {url, width, height} for the Open Graph image.
+  Resolution order:
+    1. Page-bundle resource matching .Params.image — processed via Fill "1200x630 q85" (1200x630).
+    2. .Params.image as a non-bundle static path — returned absolute; real dimensions
+       looked up from site.Data.imageDims when present, else width/height omitted (0).
+    3. .Params.image as an absolute external URL — returned as-is; dimensions unknown (0).
+  4. Site default OG image — dimensions from data/imageDims.json when present.
+  Usage:
+    {{- $og := partial "helper/og-image" . -}}
+    <meta property="og:image" content="{{ $og.url }}" />
+    {{- with $og.width }}<meta property="og:image:width" content="{{ . }}" />{{ end -}}
+    {{- with $og.height }}<meta property="og:image:height" content="{{ . }}" />{{ end -}}
+*/ -}}
+
+{{- $page := . -}}
+{{- $url := "" -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- $defaultSrc := index .Site.Params.defaultImage.opengraph "src" -}}
+{{- $dims := .Site.Data.imageDims -}}
+
+{{- with $page.Params.image -}}
+  {{- $img := . -}}
+  {{- $parsed := urls.Parse $img -}}
+  {{- if or (eq $parsed.Scheme "http") (eq $parsed.Scheme "https") -}}
+    {{- /* External URL — return as-is, dimensions unknown */ -}}
+    {{- $url = $img -}}
+  {{- else -}}
+    {{- $resource := $page.Resources.GetMatch $img -}}
+    {{- if and $resource (ne (path.Ext $img) ".svg") -}}
+      {{- $filled := $resource.Fill "1200x630 q85" -}}
+      {{- $url = $filled.Permalink -}}
+      {{- $width = 1200 -}}
+      {{- $height = 630 -}}
+    {{- else if $resource -}}
+      {{- $url = $resource.Permalink -}}
+      {{- $width = $resource.Width -}}
+      {{- $height = $resource.Height -}}
+    {{- else -}}
+      {{- /* Static path under /static/, e.g. /img/foo.png */ -}}
+      {{- $url = absURL $img -}}
+      {{- /* Look up real dimensions from data/imageDims.json */ -}}
+      {{- $key := $img -}}
+      {{- if not (hasPrefix $key "/") -}}
+        {{- $key = printf "/%s" $key -}}
+      {{- end -}}
+      {{- with index $dims $key -}}
+        {{- $width = .w -}}
+        {{- $height = .h -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $url -}}
+  {{- /* Default OG card. */ -}}
+  {{- $url = absURL $defaultSrc -}}
+  {{- $key := $defaultSrc -}}
+  {{- if not (hasPrefix $key "/") -}}
+    {{- $key = printf "/%s" $key -}}
+  {{- end -}}
+  {{- with index $dims $key -}}
+    {{- $width = .w -}}
+    {{- $height = .h -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "url" $url "width" $width "height" $height) -}}

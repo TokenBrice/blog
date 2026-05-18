@@ -1,0 +1,27 @@
+{{/*
+    Override of themes/hugo-theme-stack/layouts/partials/footer/components/script.html
+    Gates the Vibrant.js external dependency so it only loads on pages that
+    actually render article-list--tile (single posts, section/taxonomy lists,
+    taxonomy archives). All other scripts continue to load sitewide.
+*/}}
+{{- $needsVibrant := false -}}
+{{- if or (and .IsPage (eq .Section "post")) (eq .Section "categories") (eq .Section "tags") (eq .Section "difficulty") (eq .Type "archives") -}}
+    {{- $needsVibrant = true -}}
+{{- else if and .IsNode (in (.Site.Params.mainSections | default (slice "post")) .Section) -}}
+    {{- $needsVibrant = true -}}
+{{- end -}}
+
+{{- if $needsVibrant -}}
+    {{- partial "helper/external" (dict "Context" . "Namespace" "Vibrant") -}}
+{{- end -}}
+
+{{- $opts := dict "minify" hugo.IsProduction -}}
+{{- $script := resources.Get "ts/main.ts" | js.Build $opts | fingerprint -}}
+
+<script type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous" defer></script>
+
+{{- with resources.Get "ts/custom.ts" -}}
+    {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}
+    {{- $customScript := . | js.Build $opts | fingerprint -}}
+    <script type="text/javascript" src="{{ $customScript.RelPermalink }}" integrity="{{ $customScript.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}

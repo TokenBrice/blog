@@ -1,0 +1,18 @@
+<footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+        <img src="/img/main/anthereum-knight-150.png" alt="" width="32" height="32" loading="lazy" decoding="async">
+        <span>{{ T "footerTagline" | default "TokenBrice — Brutally Honest DeFi since 2018" }}</span>
+    </div>
+    <nav class="site-footer__links" aria-label="{{ T "footerNav" | default "Footer navigation" }}">
+        <a href="{{ "/index.xml" | relLangURL }}">RSS</a>
+        <a href="{{ "/guides/" | relLangURL }}">{{ T "menuGuides" | default "Guides" }}</a>
+        <a href="{{ "/glossary/" | relLangURL }}">{{ T "menuGlossary" | default "Glossary" }}</a>
+        <a href="{{ "/shows/" | relLangURL }}">{{ T "menuShows" | default "Shows" }}</a>
+        <a href="{{ "/about/" | relLangURL }}">{{ T "menuAbout" | default "About" }}</a>
+        <a href="https://github.com/tokenbrice/blog" rel="external noopener">GitHub</a>
+    </nav>
+    <div class="site-footer__license">
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license external noopener">CC BY-NC-SA 4.0</a>
+        <span class="site-footer__hugo">Built with Hugo &middot; Theme Stack</span>
+    </div>
+</footer>

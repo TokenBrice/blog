@@ -1,0 +1,10 @@
+{{/*
+    Override of themes/hugo-theme-stack/layouts/partials/article/components/photoswipe.html
+    Only loads PhotoSwipe CSS+JS (~75KB) when the article content actually
+    contains a gallery shortcode/figure. The theme gallery TS targets
+    `figure.gallery-image` and `img.gallery-image`, so the substring
+    "gallery-image" reliably appears whenever PhotoSwipe is needed.
+*/}}
+{{- if or (findRE "class=[\"'][^\"']*gallery-image" .Content) (findRE "class=[\"'][^\"']*gallery" .Content) -}}
+    {{- partial "helper/external" (dict "Context" . "Namespace" "PhotoSwipe") -}}
+{{- end -}}

@@ -1,0 +1,25 @@
+{{/*
+    Series navigation partial.
+    Renders an <ol> of sibling posts in the same series, ordered by
+    Params.series_order. Marks the current page with aria-current="page".
+    CSS class contract (Zone H styles): .series-nav
+*/}}
+{{- with .Params.series -}}
+    {{- $current := $ -}}
+    {{- $siblings := where $.Site.RegularPages "Params.series" . -}}
+    {{- $sortedSiblings := sort $siblings "Params.series_order" -}}
+    {{- if gt (len $sortedSiblings) 1 }}
+    <nav class="series-nav" aria-label="{{ T "seriesNav" | default "Series navigation" }}">
+        <h3>{{ T "seriesPart" | default "Part of series" }}: {{ . }}</h3>
+        <ol>
+        {{- range $sortedSiblings }}
+            <li>
+                <a href="{{ .Permalink }}"{{ if eq .Permalink $current.Permalink }} aria-current="page"{{ end }}>
+                    {{ .Title }}
+                </a>
+            </li>
+        {{- end }}
+        </ol>
+    </nav>
+    {{- end -}}
+{{- end -}}
