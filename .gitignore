@@ -42,6 +42,10 @@ pids
 
 # Lighthouse reports
 lighthouse-reports/
+lighthouse-reports/*.report.html
 
 # Brainstorming session artifacts
 .superpowers/
+
+# Playwright MCP session artifacts
+.playwright-mcp/

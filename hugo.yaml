@@ -128,7 +128,7 @@ params:
         opengraph:
             enabled: true
             local: true
-            src: img/main/og-default-1200x630.png
+            src: img/main/banner.png
 
     colorScheme:
         # Display toggle
@@ -145,7 +145,6 @@ params:
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
-### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main: []
 
@@ -171,6 +170,12 @@ menu:
           params:
               icon: brand-farcaster
 
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+    difficulty: difficulty
+
 related:
     includeNewer: true
     threshold: 60
@@ -178,6 +183,9 @@ related:
     indices:
         - name: categories
           weight: 10
+
+        - name: series
+          weight: 20
 
         - name: tags
           weight: 1

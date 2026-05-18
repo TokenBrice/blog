@@ -1,57 +1,48 @@
-.PHONY: help setup dev build serve clean deploy lint format
+.PHONY: help setup serve build clean typecheck validate webp avif imgdims
 
-# Default target
 help:
 	@echo "Available commands:"
-	@echo "  setup     - Initial project setup (submodules + dependencies)"
-	@echo "  dev       - Start development mode (webpack watch + hugo server)"
-	@echo "  build     - Build production site"
-	@echo "  serve     - Start Hugo development server"
-	@echo "  clean     - Clean build artifacts"
-	@echo "  lint      - Lint JavaScript/Vue files"
-	@echo "  format    - Format code with Prettier"
+	@echo "  setup       - git submodules + npm install"
+	@echo "  serve       - Hugo dev server (localhost:1313)"
+	@echo "  build       - Production build (hugo --gc --minify)"
+	@echo "  typecheck   - TypeScript --noEmit"
+	@echo "  validate    - Validate post front-matter"
+	@echo "  webp        - Generate missing WebP siblings under static/img/"
+	@echo "  avif        - Generate missing AVIF siblings under static/img/"
+	@echo "  imgdims     - Refresh data/imageDims.json"
+	@echo "  clean       - Remove build artifacts"
 
-# Initial setup
 setup:
-	git config --global --add safe.directory /workspace || true
 	git submodule update --init --recursive
-	yarn install
+	npm install
 
-# Development mode
-dev:
-	@echo "Starting development mode..."
-	@echo "Run 'make serve' in another terminal for Hugo server"
-	yarn dev
-
-# Build production site
-build:
-	yarn install
-	yarn build:production
-	hugo --gc --minify
-	yarn optimize
-
-# Start Hugo server
 serve:
 	hugo server --disableFastRender --navigateToChanged
 
-# Clean build artifacts
+build:
+	hugo --gc --minify
+
+typecheck:
+	npm run typecheck
+
+validate:
+	python3 scripts/validate-frontmatter.py
+
+webp:
+	@find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) | while read src; do \
+		out="$${src%.*}.webp"; \
+		[ -f "$$out" ] || cwebp -q 80 "$$src" -o "$$out"; \
+	done
+
+avif:
+	@find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | \
+		while IFS= read -r -d '' f; do \
+			out="$${f%.*}.avif"; \
+			[ -f "$$out" ] || avifenc --min 25 --max 35 --speed 6 "$$f" "$$out" 2>/dev/null || true; \
+		done
+
+imgdims:
+	bash scripts/gen-img-dims.sh
+
 clean:
-	rm -rf public/*
-	rm -f static/js/main.js
-	rm -f .hugo_build.lock
-
-# Lint code
-lint:
-	yarn lint
-
-# Format code
-format:
-	yarn format
-
-# Docker development
-docker-dev:
-	docker-compose up -d --build
-
-# Docker stop
-docker-stop:
-	docker-compose down
+	rm -rf public resources/_gen .hugo_build.lock

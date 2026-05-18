@@ -1,53 +1,69 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
 defaults:
   run:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.148.2
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.148.2'
+          extended: true
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm install
+
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: |
+            resources/_gen
+            ~/.cache/hugo_cache
+          key: hugo-${{ hashFiles('assets/**', 'themes/**', 'hugo.yaml') }}
+          restore-keys: hugo-
+
+      - name: Validate post front-matter
+        run: python3 scripts/validate-frontmatter.py
+
+      - name: TypeScript typecheck
+        run: npm run typecheck
+
       - name: Generate missing WebP images
         run: |
           sudo apt-get install -y -qq webp
@@ -58,19 +74,42 @@ jobs:
               cwebp -q 80 "$src" -o "$webp"
             fi
           done
+
+      - name: Install AVIF encoder
+        run: sudo apt-get install -y libavif-bin || (sudo apt-get update && sudo apt-get install -y libavif-bin)
+
+      - name: Generate missing AVIF siblings
+        run: |
+          find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | \
+          while IFS= read -r -d '' f; do
+            out="${f%.*}.avif"
+            if [[ ! -f "$out" ]]; then
+              avifenc --min 25 --max 35 --speed 6 "$f" "$out" 2>/dev/null || echo "skip: $f"
+            fi
+          done
+
+      - name: Verify ImageMagick and jq installed
+        run: |
+          which identify || sudo apt-get install -y imagemagick
+          which jq || sudo apt-get install -y jq
+
+      - name: Generate image dimensions manifest
+        run: bash scripts/gen-img-dims.sh
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-        run: |
-          hugo \
-            --minify
+        run: hugo --gc --minify
+
+      - name: Build Pagefind search index
+        run: npx -y pagefind@latest --site public --output-subdir _pagefind
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
