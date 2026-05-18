@@ -1,9 +1,9 @@
 ---
 title: Shows
 date: 2025-10-16
-description: "Information and resource about my live shows : Spotlight and In The Arena"
+description: "Live DeFi shows, episode resources, and replay links for In The Arena, Origins of DeFi, and Spotlight."
 license: CC BY-NC-ND
-lastmod: '2025-10-16'
+lastmod: '2026-05-19'
 toc: false
 menu:
     main: 
@@ -15,6 +15,17 @@ image:
 ---
 
 I host live shows in English, relayed on [Twitter](https://x.com/TokenBrice) and [YouTube](https://www.youtube.com/@Token_Brice), to explore DeFi protocols, discuss the latest developments, and show you how to harness DeFi practically.
+
+## Stable Talk with Pharos
+
+Stable Talk with Pharos is a stablecoin-focused show where we discuss stablecoin design, risk, and market structure through the lens of Pharos.
+
+### Episodes Overview
+
+| Episode | Airing Date | Core Themes |
+| :---: | :---: | :---: |
+| [#01: Stable Talks with Pharos - Ep. 1!](https://www.youtube.com/watch?v=yxmDGIdBoPE) | 23/04/2026 | Stablecoins, Pharos, stablecoin market structure |
+| [#02: "Stable or Not?" - Stable Talk with Pharos Ep. 2](https://www.youtube.com/watch?v=Fi7ToZVsI6M) | 06/05/2026 | Stablecoin resilience, risk, and stability |
 
 ## In The Arena
 

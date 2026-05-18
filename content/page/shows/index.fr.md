@@ -1,9 +1,9 @@
 ---
 title: Shows
 date: 2025-10-16
-description: Active DeFi user engaged in the grassroots movement for decentralized finance, in France & across Europe.
+description: "Liens vers les emissions DeFi de TokenBrice en anglais et les anciennes emissions francophones de DeFi France."
 license: CC BY-NC-ND
-lastmod: '2025-10-16'
+lastmod: '2026-05-18'
 toc: false
 menu:
     main: 
@@ -16,4 +16,4 @@ image:
 
 Mes émissions sont désormais en anglais, veuillez vous réferer à la version anglaise de cette page pour plus d'informations.
 
-Mes anciennes émissions, en francais, restent disponibles sur la [chaine YouTube DeFi France](https://www.youtube.com/c/defifrance)
+Mes anciennes émissions, en francais, restent disponibles sur la [chaine YouTube DeFi France](https://www.youtube.com/c/defifrance).
