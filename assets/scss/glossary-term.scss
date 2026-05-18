@@ -1,21 +1,49 @@
-/* Glossary Term Individual Page Styles */
+/* =============================================
+   GLOSSARY TERM PAGE — Editorial Layout
+   ============================================= */
 
+/* Tokens */
+$example-tint: #2F6FEB;
+$risks-tint: #D97706;
+$faq-tint: #7C3AED;
+
+/* Reading rhythm helpers (scoped) */
 .glossary-single-term {
+    --term-accent: var(--accent-color);
+    --reading-max: 760px;
+    --section-gap: 3rem;
+    --section-gap-tight: 2.25rem;
+    --content-padding: clamp(1.25rem, 4vw, 2.5rem);
+    --hairline: var(--card-separator-color);
+
     background: var(--card-background);
     border-radius: var(--card-border-radius);
     box-shadow: var(--shadow-l1);
     overflow: hidden;
+    border-top: 4px solid var(--term-accent);
+
+    /* Reset legacy term-card styles that bleed into this page */
+    .term-definition {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        font-weight: inherit;
+    }
 }
 
-/* Breadcrumb */
-.glossary-breadcrumb {
-    padding: 1rem var(--card-padding, 1.5rem);
-    background: var(--card-background-selected);
-    border-bottom: 1px solid var(--card-separator-color);
-    font-size: 0.875rem;
+/* =============================================
+   BREADCRUMB
+   ============================================= */
+.glossary-single-term .glossary-breadcrumb {
+    padding: 1rem var(--content-padding);
+    background: transparent;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 1.3rem;
 }
 
-.glossary-breadcrumb ol {
+.glossary-single-term .glossary-breadcrumb ol {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -24,228 +52,679 @@
     padding: 0;
 }
 
-.glossary-breadcrumb li {
+.glossary-single-term .glossary-breadcrumb li {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     color: var(--card-text-color-secondary);
+    letter-spacing: 0.01em;
 }
 
-.glossary-breadcrumb li:not(:last-child)::after {
-    content: "\203A";
+.glossary-single-term .glossary-breadcrumb li:not(:last-child)::after {
+    content: "/";
+    color: var(--card-text-color-tertiary, var(--card-text-color-secondary));
+    opacity: 0.5;
+}
+
+.glossary-single-term .glossary-breadcrumb a {
     color: var(--card-text-color-secondary);
-}
-
-.glossary-breadcrumb a {
-    color: var(--accent-color);
     text-decoration: none;
+    transition: color 0.15s ease;
 }
 
-.glossary-breadcrumb a:hover {
-    text-decoration: underline;
+.glossary-single-term .glossary-breadcrumb a:hover {
+    color: var(--term-accent);
 }
 
-/* Category badge */
-.term-category-badge {
+/* =============================================
+   HEADER (Eyebrow + Title + Subtitle + Lede)
+   ============================================= */
+.glossary-single-term .glossary-term-header {
+    padding: clamp(2rem, 5vw, 3rem) var(--content-padding) clamp(1.75rem, 3vw, 2rem);
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--hairline);
+}
+
+.glossary-single-term .term-eyebrow {
+    margin-bottom: 1.1rem;
+}
+
+.glossary-single-term .term-category-badge {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 1rem;
-    border-radius: var(--tag-border-radius);
-    font-size: 0.8rem;
+    gap: 0.6rem;
+    padding: 0.55rem 1.1rem 0.55rem 0.95rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--term-accent) 12%, transparent);
+    color: var(--term-accent);
+    font-size: 1.15rem;
     font-weight: 700;
-    letter-spacing: 0.5px;
-    margin-bottom: 1rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1;
 }
 
-/* Full term subtitle */
-.full-term-subtitle {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: var(--card-text-color-secondary);
-    margin-top: 0.5rem;
+.glossary-single-term .term-category-badge svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex-shrink: 0;
 }
 
-/* Content sections */
-.glossary-term-content section {
-    margin-bottom: 2rem;
-}
-
-.glossary-term-content h2 {
-    font-size: 1.4rem;
+.glossary-single-term .article-title {
+    margin: 0;
+    font-size: clamp(3.6rem, 5.5vw, 5.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
     font-weight: 700;
     color: var(--card-text-color-main);
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--accent-color);
 }
 
-/* FAQ details/summary */
-.glossary-faq-detail {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(139, 92, 246, 0.02) 100%);
-    border-radius: var(--card-border-radius);
-    border: 1px solid rgba(139, 92, 246, 0.15);
+.glossary-single-term .term-full-name {
+    margin: 0.5rem 0 0;
+    font-size: clamp(1.7rem, 2.2vw, 2rem);
+    font-weight: 400;
+    color: var(--card-text-color-secondary);
+    font-style: italic;
+    letter-spacing: 0.005em;
 }
 
-.glossary-faq-detail summary {
+.glossary-single-term .glossary-term-lede {
+    max-width: var(--reading-max);
+    margin: 1.6rem 0 0;
+    color: var(--card-text-color-main);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.55;
+    font-weight: 400;
+    opacity: 0.92;
+}
+
+/* =============================================
+   CONTENT
+   ============================================= */
+.glossary-single-term .glossary-term-content {
+    padding: clamp(2rem, 4vw, 2.75rem) var(--content-padding) clamp(2rem, 4vw, 3rem);
+}
+
+.glossary-single-term .term-section {
+    margin-bottom: var(--section-gap);
+}
+
+/* Two-column pairing for Risks + FAQ */
+.glossary-single-term .term-two-col {
+    margin-bottom: var(--section-gap);
+}
+
+.glossary-single-term .term-two-col--paired {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+    gap: clamp(1.5rem, 4vw, 2.75rem);
+    align-items: start;
+}
+
+.glossary-single-term .term-two-col .term-section {
+    margin-bottom: 0;
+}
+
+.glossary-single-term .term-section:last-of-type {
+    margin-bottom: var(--section-gap-tight);
+}
+
+/* Section titles — no underline; quiet, confident */
+.glossary-single-term .term-section-title {
+    margin: 0 0 1.2rem;
+    padding: 0;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--card-text-color-secondary);
+    position: relative;
+    padding-left: 1.4rem;
+}
+
+.glossary-single-term .term-section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--term-accent);
+}
+
+/* =============================================
+   DEFINITION
+   ============================================= */
+.glossary-single-term .term-section--definition .term-definition {
+    font-size: clamp(1.75rem, 2vw, 1.9rem);
+    line-height: 1.65;
+    color: var(--card-text-color-main);
+    font-weight: 500;
+    margin: 0 0 1.2rem;
+}
+
+.glossary-single-term .term-plain-english {
+    margin: 0;
+    font-size: 1.55rem;
+    line-height: 1.7;
+    color: var(--card-text-color-secondary);
+}
+
+/* =============================================
+   EXAMPLE CALLOUT
+   ============================================= */
+.glossary-single-term .term-callout {
+    margin: 0;
+    padding: 1.2rem 1.5rem 1.2rem 1.4rem;
+    border-left: 3px solid;
+    background: color-mix(in srgb, currentColor 4%, transparent);
+    border-radius: 0 8px 8px 0;
+}
+
+.glossary-single-term .term-callout--example {
+    color: $example-tint;
+    background: color-mix(in srgb, $example-tint 5%, transparent);
+    border-left-color: $example-tint;
+}
+
+.glossary-single-term .term-callout blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.glossary-single-term .term-callout blockquote p {
+    margin: 0;
+    color: var(--card-text-color-main);
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+/* =============================================
+   "IN PRACTICE" — 3-up explainer grid
+   ============================================= */
+.glossary-single-term .term-explainer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.glossary-single-term .term-explainer-card {
+    position: relative;
+    padding: 1.4rem 1.25rem 1.25rem;
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--card-background);
+    transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.glossary-single-term .term-explainer-card:hover {
+    border-color: color-mix(in srgb, var(--term-accent) 35%, var(--hairline));
+    transform: translateY(-1px);
+}
+
+.glossary-single-term .term-explainer-index {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--term-accent) 14%, transparent);
+    color: var(--term-accent);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+}
+
+.glossary-single-term .term-explainer-title {
+    margin: 0 0 0.6rem;
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: var(--card-text-color-main);
+    letter-spacing: -0.005em;
+    font-family: inherit;
+    line-height: 1.25;
+}
+
+.glossary-single-term .term-explainer-card p {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--card-text-color-secondary);
+}
+
+/* =============================================
+   RISKS
+   ============================================= */
+.glossary-single-term .term-risks-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.glossary-single-term .term-risks-list li {
+    position: relative;
+    padding: 1rem 1rem 1rem 2.4rem;
+    color: var(--card-text-color-main);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--hairline);
+}
+
+.glossary-single-term .term-risks-list li:first-child {
+    border-top: 1px solid var(--hairline);
+}
+
+.glossary-single-term .term-risks-list li::before {
+    content: "";
+    position: absolute;
+    left: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: $risks-tint;
+    box-shadow: 0 0 0 4px color-mix(in srgb, #{$risks-tint} 18%, transparent);
+}
+
+/* =============================================
+   FAQ
+   ============================================= */
+.glossary-single-term .term-faq-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-top: 1px solid var(--hairline);
+}
+
+.glossary-single-term .glossary-faq-detail {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--hairline);
+    border-radius: 0;
+    transition: background 0.15s ease;
+}
+
+.glossary-single-term .glossary-faq-detail:hover {
+    background: color-mix(in srgb, var(--term-accent) 3%, transparent);
+}
+
+.glossary-single-term .glossary-faq-detail summary {
     cursor: pointer;
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.05rem 0.5rem 1.05rem 0.25rem;
+    outline: none;
 }
 
-.glossary-faq-detail summary::-webkit-details-marker {
+.glossary-single-term .glossary-faq-detail summary::-webkit-details-marker {
     display: none;
 }
 
-.glossary-faq-detail summary::before {
-    content: "\25B6";
-    font-size: 0.7rem;
-    color: #8B5CF6;
-    transition: transform 0.2s ease;
+.glossary-single-term .glossary-faq-detail summary:focus-visible {
+    box-shadow: 0 0 0 2px var(--term-accent) inset;
+    border-radius: 4px;
+}
+
+.glossary-single-term .glossary-faq-detail .faq-question-text {
+    flex: 1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--card-text-color-main);
+    line-height: 1.45;
+}
+
+.glossary-single-term .glossary-faq-detail .faq-chevron {
+    width: 12px;
+    height: 12px;
+    border-right: 2px solid var(--card-text-color-secondary);
+    border-bottom: 2px solid var(--card-text-color-secondary);
+    transform: rotate(45deg) translate(-2px, -2px);
+    transition: transform 0.2s ease, border-color 0.2s ease;
     flex-shrink: 0;
 }
 
-.glossary-faq-detail[open] summary::before {
-    transform: rotate(90deg);
+.glossary-single-term .glossary-faq-detail[open] .faq-chevron {
+    transform: rotate(-135deg) translate(-2px, -2px);
+    border-color: var(--term-accent);
 }
 
-.glossary-faq-detail summary h3 {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--card-text-color-main);
+.glossary-single-term .glossary-faq-detail[open] .faq-question-text {
+    color: var(--term-accent);
 }
 
-.glossary-faq-detail p {
-    margin: 1rem 0 0 1.2rem;
+.glossary-single-term .faq-answer-body p {
+    margin: 0 0 1.2rem;
+    padding: 0 0.5rem 0 0.25rem;
     color: var(--card-text-color-secondary);
-    line-height: 1.6;
-}
-
-/* Related terms list */
-.glossary-related-terms-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-}
-
-.glossary-related-terms-list li {
-    margin: 0;
-}
-
-.glossary-related-terms-list a {
-    display: inline-block;
-    padding: 0.4rem 1rem;
-    background: var(--card-background-selected);
-    border: 1px solid var(--card-separator-color);
-    border-radius: var(--tag-border-radius);
-    color: var(--accent-color);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-}
-
-.glossary-related-terms-list a:hover {
-    background: var(--accent-color);
-    color: var(--accent-color-text);
-    border-color: var(--accent-color);
+    font-size: 1.55rem;
+    line-height: 1.7;
 }
 
 /* =============================================
-   PREV/NEXT NAVIGATION
+   RELATED TERMS — Refined chips with category dot
    ============================================= */
-.glossary-prev-next {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: 1rem;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--card-separator-color);
-    align-items: center;
+.glossary-single-term .glossary-related-terms-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
 }
 
-.glossary-prev-next a {
+.glossary-single-term .glossary-related-terms-list li {
+    margin: 0;
+}
+
+.glossary-single-term .glossary-related-terms-list a {
+    --related-accent: var(--term-accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.6rem 1.1rem 0.6rem 1rem;
+    background: var(--card-background);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    color: var(--card-text-color-main);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.45rem;
+    line-height: 1.2;
+    transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.glossary-single-term .glossary-related-terms-list a .related-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--related-accent);
+    flex-shrink: 0;
+}
+
+.glossary-single-term .glossary-related-terms-list a:hover {
+    border-color: var(--related-accent);
+    background: color-mix(in srgb, var(--related-accent) 8%, var(--card-background));
+    color: var(--related-accent);
+    transform: translateY(-1px);
+}
+
+/* =============================================
+   RELATED ARTICLES — Magazine-style cards
+   ============================================= */
+.glossary-single-term .related-articles-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.glossary-single-term .related-article-card {
+    background: var(--card-background);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glossary-single-term .related-article-card:hover {
+    border-color: color-mix(in srgb, var(--term-accent) 35%, var(--hairline));
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-l2);
+}
+
+.glossary-single-term .related-article-card a {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: inherit;
-    padding: 0.75rem;
-    border-radius: var(--card-border-radius, 8px);
-    transition: background 0.2s ease;
+    height: 100%;
 }
 
-.glossary-prev-next a:hover {
+.glossary-single-term .related-article-image {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
     background: var(--card-background-selected);
 }
 
-.prev-next-left {
-    text-align: left;
+.glossary-single-term .related-article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
 }
 
-.prev-next-center {
-    text-align: center;
+.glossary-single-term .related-article-card:hover .related-article-image img {
+    transform: scale(1.03);
 }
 
-.prev-next-center a {
-    color: var(--accent-color);
-    font-weight: 600;
-    font-size: 0.95rem;
+.glossary-single-term .related-article-body {
+    padding: 1.1rem 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
 }
 
-.prev-next-right {
-    text-align: right;
-}
-
-.prev-next-label {
-    display: block;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--card-text-color-secondary);
-    margin-bottom: 0.25rem;
-}
-
-.prev-next-term {
-    display: block;
+.glossary-single-term .related-article-title {
+    margin: 0;
+    font-size: 1.65rem;
+    line-height: 1.35;
     font-weight: 700;
-    color: var(--accent-color);
-    font-size: 0.95rem;
+    color: var(--card-text-color-main);
+    letter-spacing: -0.005em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-/* Dark mode */
-[data-scheme="dark"] .glossary-faq-detail {
-    background: rgba(139, 92, 246, 0.08);
-    border-color: rgba(139, 92, 246, 0.2);
+.glossary-single-term .related-article-card:hover .related-article-title {
+    color: var(--term-accent);
 }
 
-[data-scheme="dark"] .glossary-breadcrumb {
-    background: var(--card-background-selected);
+.glossary-single-term .related-article-preview {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.55;
+    color: var(--card-text-color-secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-[data-scheme="dark"] .glossary-prev-next a:hover {
-    background: var(--card-background-selected);
+/* =============================================
+   PREV / NEXT NAVIGATION — Two card layout
+   ============================================= */
+.glossary-single-term .glossary-prev-next {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.85rem;
+    margin-top: var(--section-gap-tight);
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--hairline);
 }
 
-/* Mobile */
+.glossary-single-term .prev-next-cell {
+    min-width: 0;
+}
+
+.glossary-single-term .prev-next-cell a {
+    --link-accent: var(--prev-accent, var(--next-accent, var(--term-accent)));
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.95rem 1.1rem;
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: var(--card-background);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.18s ease, transform 0.18s ease, background 0.18s ease;
+    min-height: 100%;
+}
+
+.glossary-single-term .prev-next-cell a:hover {
+    border-color: var(--link-accent);
+    background: color-mix(in srgb, var(--link-accent) 5%, var(--card-background));
+    transform: translateY(-1px);
+}
+
+.glossary-single-term .prev-next-right a {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.glossary-single-term .prev-next-label {
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--card-text-color-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.glossary-single-term .prev-next-arrow {
+    font-size: 1.4rem;
+    color: var(--link-accent);
+}
+
+.glossary-single-term .prev-next-term {
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: var(--card-text-color-main);
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+}
+
+.glossary-single-term .prev-next-cell a:hover .prev-next-term {
+    color: var(--link-accent);
+}
+
+.glossary-single-term .glossary-index-link {
+    text-align: center;
+    margin-top: 1.1rem;
+}
+
+.glossary-single-term .glossary-index-link a {
+    display: inline-block;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--card-text-color-secondary);
+    text-decoration: none;
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    transition: color 0.15s ease, background 0.15s ease;
+}
+
+.glossary-single-term .glossary-index-link a:hover {
+    color: var(--term-accent);
+    background: color-mix(in srgb, var(--term-accent) 8%, transparent);
+}
+
+/* =============================================
+   DARK MODE
+   ============================================= */
+[data-scheme="dark"] .glossary-single-term .term-category-badge {
+    background: color-mix(in srgb, var(--term-accent) 22%, transparent);
+    color: color-mix(in srgb, var(--term-accent) 85%, white);
+}
+
+[data-scheme="dark"] .glossary-single-term .term-callout--example {
+    background: color-mix(in srgb, $example-tint 12%, transparent);
+}
+
+[data-scheme="dark"] .glossary-single-term .term-callout--example blockquote p {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .glossary-single-term .term-explainer-card {
+    background: color-mix(in srgb, white 3%, var(--card-background));
+}
+
+[data-scheme="dark"] .glossary-single-term .term-explainer-card:hover {
+    background: color-mix(in srgb, white 5%, var(--card-background));
+}
+
+[data-scheme="dark"] .glossary-single-term .term-risks-list li::before {
+    box-shadow: 0 0 0 4px color-mix(in srgb, #{$risks-tint} 24%, transparent);
+}
+
+[data-scheme="dark"] .glossary-single-term .related-article-card {
+    background: color-mix(in srgb, white 3%, var(--card-background));
+}
+
+[data-scheme="dark"] .glossary-single-term .glossary-related-terms-list a {
+    background: color-mix(in srgb, white 4%, var(--card-background));
+}
+
+[data-scheme="dark"] .glossary-single-term .prev-next-cell a {
+    background: color-mix(in srgb, white 3%, var(--card-background));
+}
+
+/* =============================================
+   MOBILE
+   ============================================= */
 @media (max-width: 768px) {
-    .glossary-prev-next {
+    .glossary-single-term .term-two-col--paired {
         grid-template-columns: 1fr;
-        text-align: center;
+        gap: var(--section-gap);
     }
 
-    .prev-next-left,
-    .prev-next-right {
-        text-align: center;
+    .glossary-single-term .term-explainer-grid {
+        grid-template-columns: 1fr;
     }
 
-    .prev-next-center {
-        order: -1;
+    .glossary-single-term .glossary-prev-next {
+        grid-template-columns: 1fr;
+    }
+
+    .glossary-single-term .prev-next-right a {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .glossary-single-term .related-articles-list {
+        grid-template-columns: 1fr;
+    }
+
+    .glossary-single-term .article-title {
+        font-size: clamp(3rem, 8vw, 3.6rem);
+    }
+}
+
+/* Older browsers without color-mix — graceful fallback */
+@supports not (color: color-mix(in srgb, red, blue)) {
+    .glossary-single-term .term-category-badge {
+        background: rgba(0, 0, 0, 0.06);
+        color: var(--term-accent);
+    }
+    .glossary-single-term .term-callout--example {
+        background: rgba($example-tint, 0.06);
+    }
+    .glossary-single-term .term-explainer-index {
+        background: rgba(0, 0, 0, 0.08);
     }
 }

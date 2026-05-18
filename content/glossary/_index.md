@@ -1,6 +1,6 @@
 ---
 title: "DeFi Glossary"
-description: "Comprehensive dictionary of decentralized finance (DeFi) terms, concepts, and strategies. From APY to yield farming - understand DeFi terminology with clear definitions, examples, and risk assessments."
+description: "A DeFi glossary with clear definitions, examples, related articles, and risk notes for protocols, strategies, and market terms."
 date: 2024-01-01
 lastmod: 2024-01-01
 menu:

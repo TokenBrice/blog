@@ -32,37 +32,42 @@ $glossary-faq-color: #8B5CF6;
     position: sticky;
     top: 0;
     z-index: 20;
-    background: rgba(var(--body-background-rgb, 255,255,255), 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding: 1rem var(--card-padding, 1.5rem);
+    background: color-mix(in srgb, var(--card-background) 92%, transparent);
+    backdrop-filter: blur(12px) saturate(140%);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    padding: 1.25rem var(--card-padding, 1.5rem) 1rem;
     margin: 0 calc(-1 * var(--card-padding, 1.5rem));
     border-bottom: 1px solid var(--card-separator-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
 }
 
 /* Search Input */
 .glossary-search-wrap {
     position: relative;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
 }
 
 .glossary-search-wrap .search-icon {
     position: absolute;
-    left: 0.875rem;
+    left: 1rem;
     top: 50%;
     transform: translateY(-50%);
     color: var(--card-text-color-secondary);
     pointer-events: none;
+    width: 18px;
+    height: 18px;
 }
 
 .glossary-search {
     width: 100%;
-    padding: 1rem 1.25rem 1rem 3rem;
-    border: 1.5px solid var(--card-separator-color);
-    border-radius: var(--tag-border-radius, 8px);
+    padding: 0.85rem 1.25rem 0.85rem 2.85rem;
+    border: 1px solid var(--card-separator-color);
+    border-radius: 999px;
     background: var(--card-background);
     color: var(--card-text-color-main);
-    font-size: 1.3rem;
+    font-size: 1.55rem;
     outline: none;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -82,27 +87,41 @@ $glossary-faq-color: #8B5CF6;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 .category-pill {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.55rem 1.15rem;
+    padding: 0.45rem 0.95rem;
     border-radius: 999px;
-    border: 1.5px solid var(--pill-color, var(--card-separator-color));
-    background: transparent;
+    border: 1px solid var(--card-separator-color);
+    background: var(--card-background);
     color: var(--card-text-color-main);
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease, transform 0.18s ease;
     white-space: nowrap;
+    line-height: 1.2;
+}
+
+.category-pill svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: var(--pill-color, currentColor);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex-shrink: 0;
 }
 
 .category-pill:hover {
-    background: rgba(var(--accent-color-rgb, 66,133,244), 0.08);
+    border-color: var(--pill-color, var(--accent-color));
+    background: color-mix(in srgb, var(--pill-color, var(--accent-color)) 8%, var(--card-background));
+    transform: translateY(-1px);
 }
 
 .category-pill.active {
@@ -111,15 +130,27 @@ $glossary-faq-color: #8B5CF6;
     border-color: var(--pill-color, var(--accent-color));
 }
 
+.category-pill.active svg {
+    stroke: white;
+}
+
 .pill-count {
-    font-size: 1rem;
-    opacity: 0.8;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.7;
+    padding: 0 0.15rem;
+}
+
+.category-pill.active .pill-count {
+    opacity: 0.85;
 }
 
 .glossary-result-count {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--card-text-color-secondary);
     font-weight: 500;
+    letter-spacing: 0.01em;
+    margin-top: 0.15rem;
 }
 
 /* =============================================
@@ -128,103 +159,150 @@ $glossary-faq-color: #8B5CF6;
 .alphabet-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem;
-    margin-bottom: 1.5rem;
-    padding: 0.75rem var(--card-padding, 1.5rem);
+    gap: 0.15rem;
+    margin: 1.25rem 0 2rem;
+    padding: 0.5rem 0.65rem;
     background: var(--card-background);
-    border-radius: var(--card-border-radius);
+    border-radius: 999px;
     border: 1px solid var(--card-separator-color);
     align-items: center;
     justify-content: center;
     position: sticky;
-    top: 120px; /* Below controls bar */
+    top: 132px;
     z-index: 15;
+    box-shadow: var(--shadow-l1);
 }
 
 .alphabet-link {
-    background: var(--accent-color);
-    color: var(--accent-color-text);
-    border: none;
-    padding: 0.45rem 0.7rem;
-    border-radius: var(--tag-border-radius);
+    background: transparent;
+    color: var(--card-text-color-secondary);
+    border: 0;
+    padding: 0.35rem 0.55rem;
+    border-radius: 999px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    transition: all 0.2s ease;
-    min-width: 32px;
+    line-height: 1;
+    transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+    min-width: 28px;
     text-align: center;
 }
 
 .alphabet-link:hover {
-    background: var(--accent-color-darker);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-l1);
+    color: var(--accent-color);
+    background: color-mix(in srgb, var(--accent-color) 10%, transparent);
 }
 
-.alphabet-link.active {
-    transform: scale(1.15);
-    box-shadow: var(--shadow-l2);
-    background: var(--accent-color-darker, var(--accent-color));
+.alphabet-link.active,
+.alphabet-link.is-active,
+.alphabet-link[aria-current="location"] {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
 }
 
 /* =============================================
    LETTER SECTIONS
    ============================================= */
 .letter-section {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
+    scroll-margin-top: 200px;
 }
 
+.article-content .letter-heading,
 .letter-heading {
-    font-size: 2.25rem;
-    font-weight: 900;
-    color: var(--accent-color);
-    margin-bottom: 1.25rem;
-    padding-bottom: 0.6rem;
-    border-bottom: 2px solid var(--accent-color);
-    background: var(--body-background);
+    font-family: var(--heading-font-family, "Fraunces", Georgia, serif);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--card-text-color-main);
+    margin: 0 0 1.5rem;
+    padding: 0.25rem 0 0.85rem 1.1rem;
+    border: 0;
+    border-bottom: 1px solid var(--card-separator-color);
+    border-inline-start: 4px solid var(--accent-color);
+    margin-inline-start: 0;
+    background: transparent;
     z-index: 10;
+}
+
+/* 2-column grid for cards on tablet/desktop */
+@media (min-width: 768px) {
+    .letter-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .letter-section .letter-heading {
+        grid-column: 1 / -1;
+    }
+
+    .letter-section .compact-card {
+        margin-bottom: 0;
+    }
 }
 
 /* =============================================
    COMPACT TERM CARDS (Hub Page)
    ============================================= */
+.article-content .compact-card,
 .compact-card {
     display: flex;
     align-items: flex-start;
-    gap: 1.25rem;
-    padding: 1.25rem 1.5rem;
-    margin-bottom: 1rem;
+    gap: 1.1rem;
+    padding: 1.15rem 1.35rem;
+    margin-bottom: 0.85rem;
     background: var(--card-background);
     border: 1px solid var(--card-separator-color);
     border-left: 3px solid var(--term-accent, var(--card-separator-color));
-    border-radius: var(--card-border-radius);
+    border-radius: 10px;
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s ease;
-    box-shadow: var(--shadow-l1);
+    transition: border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    box-shadow: none;
     position: relative;
+    scroll-margin-top: 200px;
 }
 
 .compact-card:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-l2);
-    border-left-width: 5px;
-    border-color: var(--term-accent, var(--accent-color-lighter));
+    border-color: color-mix(in srgb, var(--term-accent, var(--accent-color)) 45%, var(--card-separator-color));
+    border-left-color: var(--term-accent, var(--accent-color));
+    background: color-mix(in srgb, var(--term-accent, var(--accent-color)) 3%, var(--card-background));
 }
 
 .compact-card-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 10px;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 20px;
+    font-size: 17px;
     flex-shrink: 0;
+    background: color-mix(in srgb, var(--term-accent) 12%, transparent);
+    color: var(--term-accent);
+    transition: background 0.18s ease, transform 0.18s ease;
 }
 
-.compact-card-icon svg,
+.compact-card:hover .compact-card-icon {
+    background: color-mix(in srgb, var(--term-accent) 22%, transparent);
+    transform: scale(1.04);
+}
+
+.compact-card-icon svg {
+    width: 55%;
+    height: 55%;
+    fill: none;
+    stroke: var(--term-accent);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
 .term-icon svg {
     width: 60%;
     height: 60%;
@@ -255,27 +333,34 @@ $glossary-faq-color: #8B5CF6;
 .compact-card-header {
     display: flex;
     align-items: baseline;
-    gap: 0.6rem;
-    margin-bottom: 0.4rem;
+    gap: 0.55rem;
+    margin-bottom: 0.35rem;
     flex-wrap: wrap;
 }
 
 .compact-term-name {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: var(--card-text-color-main);
+    letter-spacing: -0.005em;
+    transition: color 0.15s ease;
+}
+
+.compact-card:hover .compact-term-name {
+    color: var(--term-accent);
 }
 
 .compact-full-term {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--card-text-color-secondary);
     font-weight: 400;
+    font-style: italic;
 }
 
 .compact-definition {
     margin: 0;
-    font-size: 1.3rem;
-    line-height: 1.65;
+    font-size: 1.4rem;
+    line-height: 1.55;
     color: var(--card-text-color-secondary);
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -284,16 +369,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .compact-badge {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: white;
-    padding: 0.35rem 0.85rem;
-    border-radius: 999px;
-    white-space: nowrap;
-    flex-shrink: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    align-self: center;
+    display: none; /* removed — left accent + icon already encode category */
 }
 
 /* =============================================
@@ -410,32 +486,6 @@ $glossary-faq-color: #8B5CF6;
     border-left: 4px solid var(--accent-color);
     position: relative;
     box-shadow: 0 2px 12px rgba(var(--accent-color-rgb), 0.12);
-}
-
-.term-definition::before {
-    content: '\201C';
-    position: absolute;
-    top: -5px;
-    left: 15px;
-    font-size: 3rem;
-    color: var(--accent-color);
-    opacity: 0.3;
-    font-family: Georgia, serif;
-    font-weight: bold;
-    line-height: 1;
-}
-
-.term-definition::after {
-    content: '\201D';
-    position: absolute;
-    bottom: -15px;
-    right: 20px;
-    font-size: 3rem;
-    color: var(--accent-color);
-    opacity: 0.3;
-    font-family: Georgia, serif;
-    font-weight: bold;
-    line-height: 1;
 }
 
 /* Example Section */
@@ -892,7 +942,10 @@ $glossary-faq-color: #8B5CF6;
 
 [data-scheme="dark"] .compact-card {
     background: var(--card-background);
-    border-color: var(--card-separator-color);
+    border-top-color: var(--card-separator-color);
+    border-right-color: var(--card-separator-color);
+    border-bottom-color: var(--card-separator-color);
+    /* keep border-left as --term-accent for category color stripe */
 }
 
 [data-scheme="dark"] .compact-term-name {
@@ -920,9 +973,38 @@ $glossary-faq-color: #8B5CF6;
     color: var(--card-text-color-main);
 }
 
+[data-scheme="dark"] .related-articles-list article {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme="dark"] .related-articles-list .article-title {
+    color: var(--card-text-color-main);
+}
+
+[data-scheme="dark"] .related-articles-list .article-preview {
+    color: var(--card-text-color-secondary);
+}
+
+/* Flatten gradient callout backgrounds in dark mode (gradients smudge oddly on dark) */
+[data-scheme="dark"] .term-example {
+    background: rgba(96, 165, 250, 0.08);
+    border-color: rgba(96, 165, 250, 0.28);
+}
+
+[data-scheme="dark"] .term-risks {
+    background: rgba(251, 146, 60, 0.08);
+    border-color: rgba(251, 146, 60, 0.28);
+}
+
+[data-scheme="dark"] .term-faqs {
+    background: rgba(139, 92, 246, 0.06);
+}
+
 [data-scheme="dark"] .letter-heading {
-    background: var(--body-background);
-    color: var(--accent-color);
+    background: transparent;
+    color: var(--card-text-color-main);
+    border-bottom-color: var(--card-separator-color);
 }
 
 [data-scheme="dark"] .related-articles-list article {

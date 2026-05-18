@@ -38,18 +38,18 @@
                 <div class="glossary-controls" id="glossary-controls">
                     <div class="glossary-search-wrap">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                        <input type="search" id="glossary-search" class="glossary-search" placeholder="{{ T "glossarySearch" }}" autocomplete="off" />
+                        <input type="search" id="glossary-search" class="glossary-search" placeholder="{{ T "glossarySearch" }}" aria-label="{{ T "glossarySearch" | default "Search the glossary" }}" autocomplete="off" />
                     </div>
-                    <div class="category-pills" id="category-pills">
-                        <button class="category-pill active" data-category="" style="--pill-color: var(--accent-color)">{{ T "glossaryAll" }} <span class="pill-count">{{ len $terms }}</span></button>
+                    <div class="category-pills" id="category-pills" role="group" aria-label="{{ T "glossaryCategoryFilter" }}">
+                        <button type="button" class="category-pill active" data-category="" aria-pressed="true" style="--pill-color: var(--accent-color)">{{ T "glossaryAll" }} <span class="pill-count">{{ len $terms }}</span></button>
                         {{- range $categories }}
                         {{- $color := partial "glossary/category-color.html" .id -}}
-                        <button class="category-pill" data-category="{{ .id }}" style="--pill-color: {{ $color }}">
+                        <button type="button" class="category-pill" data-category="{{ .id }}" aria-pressed="false" style="--pill-color: {{ $color }}">
                             {{ partial "glossary/category-icon.html" .id }} {{ .name }}
                         </button>
                         {{- end }}
                     </div>
-                    <div class="glossary-result-count"><span id="result-count">{{ len $terms }}</span> {{ T "glossaryTerms" }}</div>
+                    <div class="glossary-result-count" aria-live="polite" aria-atomic="true"><span id="result-count">{{ len $terms }}</span> {{ T "glossaryTerms" }}</div>
                 </div>
 
                 <!-- Alphabet Navigation (server-rendered) -->
@@ -61,9 +61,9 @@
                     {{- end -}}
                 {{- end -}}
                 {{- $letters = sort $letters -}}
-                <div class="alphabet-nav" id="alphabet-container">
+                <div class="alphabet-nav" id="alphabet-container" role="navigation" aria-label="Alphabet">
                     {{- range $letters }}
-                    <button class="alphabet-link" data-letter="{{ . }}" onclick="document.getElementById('letter-{{ . }}').scrollIntoView({behavior:'smooth',block:'start'})">{{ . }}</button>
+                    <button type="button" class="alphabet-link" data-letter="{{ . }}" aria-label="Jump to letter {{ . }}" onclick="document.getElementById('letter-{{ . }}').scrollIntoView({behavior:'smooth',block:'start'})">{{ . }}</button>
                     {{- end }}
                 </div>
 
@@ -98,7 +98,7 @@
     {{ partial "article/components/related-content" . }}
 
     <!-- Add footer as in other pages -->
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer/footer" . .Language.Lang }}
 
 <!-- DefinedTermSet Schema for SEO -->
 <script type="application/ld+json">

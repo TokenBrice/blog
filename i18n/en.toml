@@ -118,6 +118,9 @@ other = "Next"
 [glossaryCategoryFilter]
 other = "Click to filter by category"
 
+[glossaryReadFull]
+other = "Read full definition"
+
 
 # Difficulty / Expertise
 
@@ -245,3 +248,111 @@ other = "9"
 
 [projectsBannerLabel]
 other = "Projects"
+
+
+# Article components
+
+[glossaryMentions]
+other = "Concepts mentioned in this article"
+
+[glossaryMentionsTitle]
+other = "Concepts in this article"
+
+[seriesNav]
+other = "Series navigation"
+
+[seriesPart]
+other = "Part of series"
+
+
+# Zone H: Footer, microcopy, menu, social a11y
+
+[footerTagline]
+other = "TokenBrice — Brutally Honest DeFi since 2018"
+
+[footerNav]
+other = "Footer navigation"
+
+[menuGlossary]
+other = "Glossary"
+
+[menuGuides]
+other = "Guides"
+
+[menuShows]
+other = "Shows"
+
+[menuAbout]
+other = "About"
+
+[menuStartHere]
+other = "Start here"
+
+[menuSubscribe]
+other = "Subscribe"
+
+[toggleColorScheme]
+other = "Toggle color scheme"
+
+[switchLanguage]
+other = "Switch language"
+
+[socialXProfile]
+other = "X profile"
+
+[socialYoutubeChannel]
+other = "YouTube channel"
+
+[socialTelegramChannel]
+other = "Telegram channel"
+
+[socialFarcasterProfile]
+other = "Farcaster profile"
+
+[startHereCta]
+other = "New here? Start with the curated reading path."
+
+[startHereCtaLabel]
+other = "Start here"
+
+[latestShow]
+other = "Latest show"
+
+[allEpisodes]
+other = "All episodes"
+
+[pagination]
+other = "Pagination"
+
+[seeAlso]
+other = "Down the rabbit hole"
+
+[keepReading]
+other = "Keep reading"
+
+
+# Navigation, menu, a11y, 404
+
+[darkMode]
+other = "Dark mode"
+
+[menuCategories]
+other = "All categories"
+
+[menuHome]
+other = "Home"
+
+[previousPage]
+other = "Previous page"
+
+[toggleMenu]
+other = "Toggle menu"
+
+[404Title]
+other = "Lost in the mempool"
+
+[404Message]
+other = "This URL never confirmed. Try one of these instead:"
+
+[404Search]
+other = "Or search for what you wanted:"

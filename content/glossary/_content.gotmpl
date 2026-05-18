@@ -1,0 +1,52 @@
+{{/*
+  Content adapter for the DeFi glossary.
+
+  Runs once per site language (enabled via EnableAllLanguages).
+  Reads site.Data.glossary.<lang>.terms and emits one virtual page per
+  term. The page layout (glossary-term) reads the full term data back
+  out of site.Data.glossary at render time, so this adapter only needs
+  to expose the bare metadata needed for:
+    - URL slug (content path)
+    - <title> and <meta description>
+    - taxonomy (tags)
+    - sitemap priority
+    - the glossary_id param the layout uses to look up the rest
+
+  Replaces scripts/generate-glossary-pages.py.
+*/}}
+
+{{ .EnableAllLanguages }}
+
+{{ $lang := site.Language.Lang }}
+{{ $glossaryData := index site.Data.glossary $lang }}
+{{ if and $glossaryData $glossaryData.terms }}
+  {{ range $glossaryData.terms }}
+    {{ $term := . }}
+    {{ $title := $term.term }}
+    {{ $fullTerm := $term.full_term | default $term.term }}
+    {{ if and $fullTerm (ne $fullTerm $term.term) }}
+      {{ $title = printf "%s (%s)" $term.term $fullTerm }}
+    {{ end }}
+
+    {{ $shortDef := $term.seo_description | default $term.short_definition }}
+    {{ if not $shortDef }}
+      {{ $shortDef = substr ($term.definition | default "") 0 160 }}
+    {{ end }}
+    {{ $pageTitle := $term.seo_title | default $title }}
+
+    {{ $page := dict
+      "path"        $term.id
+      "kind"        "page"
+      "title"       $pageTitle
+      "description" $shortDef
+      "params" (dict
+        "glossary_id"       $term.id
+        "glossary_category" ($term.category | default "")
+        "tags"              ($term.tags | default slice)
+        "sitemap"           (dict "priority" 0.7 "changefreq" "monthly")
+      )
+    }}
+
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}

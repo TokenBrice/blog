@@ -1,94 +1,108 @@
-/* Glossary Term Links */
-.glossary-term-link {
-  color: var(--accent-color);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--accent-color);
+/* Glossary Term Links (popover-based, keyboard + touch accessible) */
+
+/* Inline wrapper keeps the trigger and popover next to each other. */
+.glossary-term-wrap {
+  display: inline;
   position: relative;
+}
+
+/* The clickable trigger. Reset native <button> styling to look like a link. */
+.glossary-term-link {
+  display: inline;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color);
   cursor: help;
-  transition: all 0.2s ease;
-  
-  &:hover {
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
     color: var(--accent-color-darker);
     border-bottom-color: var(--accent-color-darker);
-    text-decoration: none;
+    outline: none;
   }
-  
-  /* Tooltip for definitions */
-  &::after {
-    content: attr(data-definition);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--card-text-color-main);
-    color: var(--card-background);
-    padding: 0.5rem 0.75rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    line-height: 1.3;
-    white-space: normal;
-    width: max-content;
-    max-width: clamp(200px, 80vw, 300px);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s ease;
-    z-index: 1000;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  }
-  
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: calc(100% - 5px);
-    left: 50%;
-    transform: translateX(-50%);
-    border: 5px solid transparent;
-    border-top-color: var(--card-text-color-main);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s ease;
-    z-index: 1001;
-  }
-  
-  &:hover::after,
-  &:hover::before {
-    opacity: 1;
-    visibility: visible;
+
+  &:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 2px;
   }
 }
 
+/* Missing term fallback (no popover available). */
 .glossary-term-missing {
-  color: var(--error-color);
-  border-bottom: 1px dotted var(--error-color);
+  color: var(--error-color, #c62828);
+  border-bottom: 1px dotted var(--error-color, #c62828);
   cursor: help;
 }
 
-/* Mobile optimizations */
-@media (max-width: 768px) {
-  .glossary-term-link::after {
-    position: fixed;
-    bottom: 20px;
-    left: 10px;
-    right: 10px;
-    transform: none;
-    max-width: none;
-    width: auto;
-  }
-  
-  .glossary-term-link::before {
+/* The popover panel. Native browsers handle top-layer rendering;
+   we just style the appearance and reset the UA defaults. */
+.glossary-popover {
+  /* Reset UA defaults */
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--card-separator-color);
+  background: var(--card-background);
+  color: var(--card-text-color-main);
+  border-radius: var(--card-border-radius, 6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  max-width: #{"min(320px, 90vw)"};
+  font-size: 0.95rem;
+  line-height: 1.45;
+
+  /* Hide when not open (browsers without popover support get a graceful fallback). */
+  &:not(:popover-open) {
     display: none;
+  }
+
+  /* When open, allow it to layout naturally inside the top layer. */
+  &:popover-open {
+    display: block;
+  }
+}
+
+.glossary-popover-term {
+  display: block;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 0.35rem;
+}
+
+.glossary-popover-def {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--card-text-color-main);
+}
+
+.glossary-popover-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+    color: var(--accent-color-darker);
   }
 }
 
 /* Dark mode adjustments */
-[data-scheme="dark"] {
-  .glossary-term-link::after {
-    background: var(--card-background);
-    color: var(--card-text-color-main);
-    border: 1px solid var(--card-separator-color);
-  }
-
-  .glossary-term-link::before {
-    border-top-color: var(--card-background);
-  }
+[data-scheme="dark"] .glossary-popover {
+  background: var(--card-background);
+  color: var(--card-text-color-main);
+  border-color: var(--card-separator-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
 }
+
+/* Note on browser support:
+   Browsers without Popover API support won't render :popover-open content;
+   the trigger button becomes a no-op for them. Coverage is ~95%+ across
+   Chrome 114+, Edge 114+, Safari 17+, Firefox 125+. */

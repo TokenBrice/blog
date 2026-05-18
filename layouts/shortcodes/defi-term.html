@@ -10,13 +10,22 @@
   {{- if eq $lang "fr" -}}
     {{- $glossaryPath = "/fr/glossary/" -}}
   {{- end -}}
+  {{- $popoverId := printf "popover-%s-%d" $termId .Ordinal -}}
+  {{- $definition := $term.short_definition | default $term.definition -}}
+  {{- $readFull := T "glossaryReadFull" | default "Read full definition" -}}
 
-  <a href="{{ $glossaryPath }}{{ $termId }}/"
-     class="glossary-term-link"
-     title="{{ $term.short_definition }}"
-     data-term-id="{{ $termId }}"
-     data-definition="{{ $term.short_definition | htmlEscape }}"
-     rel="noopener">{{ $linkText }}</a>
+  <span class="glossary-term-wrap">
+    <button type="button"
+            class="glossary-term-link"
+            popovertarget="{{ $popoverId }}"
+            data-term-id="{{ $termId }}"
+            aria-describedby="{{ $popoverId }}">{{ if .Inner }}{{ .Inner }}{{ else }}{{ $linkText }}{{ end }}</button>
+    <span id="{{ $popoverId }}" popover="auto" class="glossary-popover">
+      <span class="glossary-popover-term">{{ $term.term }}</span>
+      <span class="glossary-popover-def">{{ $definition }}</span>
+      <a class="glossary-popover-link" href="{{ $glossaryPath }}{{ $termId }}/">{{ $readFull }} &rarr;</a>
+    </span>
+  </span>
 {{- else -}}
   {{- $fallbackText := $customText | default $termId -}}
   <span class="glossary-term-missing" title="Term '{{ $termId }}' not found in glossary">{{ $fallbackText }}</span>

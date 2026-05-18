@@ -82,31 +82,56 @@
 
     // Category pill handlers
     if (pillContainer) {
+        // Initialize aria-pressed on all pills
+        pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
+            p.setAttribute('aria-pressed', p.classList.contains('active') ? 'true' : 'false');
+        });
+
         pillContainer.addEventListener('click', function(e) {
             var pill = e.target.closest('.category-pill');
             if (!pill) return;
             pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
                 p.classList.remove('active');
+                p.setAttribute('aria-pressed', 'false');
             });
             pill.classList.add('active');
+            pill.setAttribute('aria-pressed', 'true');
             activeCategory = pill.getAttribute('data-category') || '';
             applyFilters();
         });
     }
 
+    function setActiveAlphabetLetter(letter) {
+        if (!alphabetContainer) return;
+        alphabetContainer.querySelectorAll('.alphabet-link').forEach(function(btn) {
+            var btnLetter = btn.getAttribute('data-letter') || btn.textContent.trim();
+            var isActive = btnLetter === letter;
+            btn.classList.toggle('is-active', isActive);
+            // Keep legacy .active class in sync for back-compat
+            btn.classList.toggle('active', isActive);
+            if (isActive) {
+                btn.setAttribute('aria-current', 'location');
+            } else {
+                btn.removeAttribute('aria-current');
+            }
+        });
+    }
+
     // Alphabet nav scroll tracking with IntersectionObserver
+    // Observe letter sections and highlight the link whose section heading
+    // crosses the viewport top + 100px offset.
     if (alphabetContainer && 'IntersectionObserver' in window) {
+        // Negative top rootMargin pushes the trigger line 100px below the viewport top.
         var observer = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    var letter = entry.target.id.replace('letter-', '');
-                    alphabetContainer.querySelectorAll('.alphabet-link').forEach(function(btn) {
-                        var btnLetter = btn.getAttribute('data-letter') || btn.textContent.trim();
-                        btn.classList.toggle('active', btnLetter === letter);
-                    });
-                }
+            // Pick the topmost intersecting section
+            var visible = entries.filter(function(e) { return e.isIntersecting; });
+            if (!visible.length) return;
+            visible.sort(function(a, b) {
+                return a.boundingClientRect.top - b.boundingClientRect.top;
             });
-        }, { rootMargin: '-20% 0px -70% 0px' });
+            var letter = visible[0].target.id.replace('letter-', '');
+            setActiveAlphabetLetter(letter);
+        }, { rootMargin: '-100px 0px -60% 0px' });
 
         letterSections.forEach(function(section) {
             observer.observe(section);
@@ -121,8 +146,10 @@
         if (targetPill) {
             pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
                 p.classList.remove('active');
+                p.setAttribute('aria-pressed', 'false');
             });
             targetPill.classList.add('active');
+            targetPill.setAttribute('aria-pressed', 'true');
             activeCategory = urlCategory;
             applyFilters();
         }
@@ -133,10 +160,9 @@
         activeCategory = categoryId || '';
         if (pillContainer) {
             pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
-                p.classList.remove('active');
-                if ((p.getAttribute('data-category') || '') === activeCategory) {
-                    p.classList.add('active');
-                }
+                var isMatch = (p.getAttribute('data-category') || '') === activeCategory;
+                p.classList.toggle('active', isMatch);
+                p.setAttribute('aria-pressed', isMatch ? 'true' : 'false');
             });
         }
         applyFilters();

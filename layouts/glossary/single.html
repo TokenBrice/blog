@@ -54,7 +54,7 @@
     {{- end -}}
     {{- $glossaryTitle := T "glossaryTitle" -}}
 
-    <article class="main-article glossary-single-term" style="border-top: 4px solid {{ $categoryColor }}">
+    <article class="main-article glossary-single-term" style="--term-accent: {{ $categoryColor }};">
         <!-- Breadcrumb Navigation -->
         <nav aria-label="Breadcrumb" class="glossary-breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
             <ol>
@@ -73,80 +73,125 @@
             </ol>
         </nav>
 
-        <header class="article-header" style="padding-left: var(--card-padding, 1.5rem); padding-right: var(--card-padding, 1.5rem);">
-            <div class="term-category-badge" style="background-color: {{ $categoryColor }}; color: white;">
-                {{ partial "glossary/term-icon.html" (dict "termId" $glossaryId "fallback" $categoryIcon) }} {{ upper $categoryName }}
+        <header class="article-header glossary-term-header">
+            <div class="term-eyebrow">
+                <span class="term-category-badge">
+                    {{ partial "glossary/term-icon.html" (dict "termId" $glossaryId "fallback" $categoryIcon) }}
+                    <span>{{ $categoryName }}</span>
+                </span>
             </div>
-            <h1 class="article-title">
-                {{ $term.term }}
-                {{- if ne $term.full_term $term.term }}
-                <span class="full-term-subtitle">({{ $term.full_term }})</span>
-                {{- end }}
-            </h1>
+            <h1 class="article-title">{{ $term.term }}</h1>
+            {{- if and $term.full_term (ne $term.full_term $term.term) }}
+            <p class="term-full-name">{{ $term.full_term }}</p>
+            {{- end }}
+            {{- with $term.short_definition }}
+            <p class="glossary-term-lede">{{ . }}</p>
+            {{- end }}
         </header>
 
-        <div class="glossary-term-content" style="padding: 0 var(--card-padding, 1.5rem) var(--card-padding, 1.5rem);">
+        <div class="glossary-term-content">
             <!-- Definition -->
-            <section>
-                <h2>{{ T "glossaryDefinition" }}</h2>
+            <section class="term-section term-section--definition">
+                <h2 class="term-section-title">{{ T "glossaryDefinition" }}</h2>
                 <p class="term-definition">{{ $term.definition }}</p>
+                {{- with $term.plain_english }}
+                <p class="term-plain-english">{{ . }}</p>
+                {{- end }}
             </section>
 
             <!-- Example -->
             {{- with $term.example }}
-            <section>
-                <h2>{{ T "glossaryExample" }}</h2>
-                <div class="term-example">
-                    <div class="example-header">
-                        <span class="example-icon">💡</span>
-                        <strong>{{ T "glossaryExample" }}</strong>
-                    </div>
-                    <p>{{ . }}</p>
+            <section class="term-section term-section--example">
+                <h2 class="term-section-title">{{ T "glossaryExample" }}</h2>
+                <figure class="term-callout term-callout--example">
+                    <blockquote>
+                        <p>{{ . }}</p>
+                    </blockquote>
+                </figure>
+            </section>
+            {{- end }}
+
+            {{- if or $term.how_it_works $term.why_it_matters $term.what_to_check }}
+            <section class="term-section term-section--practice">
+                <div class="term-explainer-grid">
+                    {{- $i := 0 -}}
+                    {{- with $term.how_it_works }}
+                    {{- $i = add $i 1 -}}
+                    <article class="term-explainer-card">
+                        <span class="term-explainer-index">{{ $i }}</span>
+                        <h3 class="term-explainer-title">{{ if eq $lang "fr" }}Comment ça marche{{ else }}How it works{{ end }}</h3>
+                        <p>{{ . }}</p>
+                    </article>
+                    {{- end }}
+                    {{- with $term.why_it_matters }}
+                    {{- $i = add $i 1 -}}
+                    <article class="term-explainer-card">
+                        <span class="term-explainer-index">{{ $i }}</span>
+                        <h3 class="term-explainer-title">{{ if eq $lang "fr" }}Pourquoi c'est important{{ else }}Why it matters{{ end }}</h3>
+                        <p>{{ . }}</p>
+                    </article>
+                    {{- end }}
+                    {{- with $term.what_to_check }}
+                    {{- $i = add $i 1 -}}
+                    <article class="term-explainer-card">
+                        <span class="term-explainer-index">{{ $i }}</span>
+                        <h3 class="term-explainer-title">{{ if eq $lang "fr" }}À vérifier{{ else }}What to check{{ end }}</h3>
+                        <p>{{ . }}</p>
+                    </article>
+                    {{- end }}
                 </div>
             </section>
             {{- end }}
 
-            <!-- Risks -->
-            {{- if gt (len (default (slice) $term.risks)) 0 }}
-            <section>
-                <h2>{{ T "glossaryRisksTitle" }}</h2>
-                <div class="term-risks">
-                    <div class="risks-header">
-                        <span class="risks-icon">⚠️</span>
-                        <strong>{{ T "glossaryRisks" }}</strong>
-                    </div>
-                    <ul>
+            {{- $hasRisks := gt (len (default (slice) $term.risks)) 0 -}}
+            {{- $hasFaq := gt (len (default (slice) $term.common_questions)) 0 -}}
+            {{- if or $hasRisks $hasFaq }}
+            <div class="term-two-col{{ if and $hasRisks $hasFaq }} term-two-col--paired{{ end }}">
+                <!-- Risks -->
+                {{- if $hasRisks }}
+                <section class="term-section term-section--risks">
+                    <h2 class="term-section-title">{{ T "glossaryRisksTitle" }}</h2>
+                    <ul class="term-risks-list">
                         {{- range $term.risks }}
                         <li>{{ . }}</li>
                         {{- end }}
                     </ul>
-                </div>
-            </section>
-            {{- end }}
-
-            <!-- Common Questions -->
-            {{- if gt (len (default (slice) $term.common_questions)) 0 }}
-            <section>
-                <h2>{{ T "glossaryFaq" }}</h2>
-                {{- range $term.common_questions }}
-                <details class="glossary-faq-detail">
-                    <summary><h3>{{ .question }}</h3></summary>
-                    <p>{{ .answer }}</p>
-                </details>
+                </section>
                 {{- end }}
-            </section>
+
+                <!-- Common Questions -->
+                {{- if $hasFaq }}
+                <section class="term-section term-section--faq">
+                    <h2 class="term-section-title">{{ T "glossaryFaq" }}</h2>
+                    <div class="term-faq-stack">
+                    {{- range $term.common_questions }}
+                    <details class="glossary-faq-detail">
+                        <summary>
+                            <span class="faq-question-text">{{ .question }}</span>
+                            <span class="faq-chevron" aria-hidden="true"></span>
+                        </summary>
+                        <div class="faq-answer-body">
+                            <p>{{ .answer }}</p>
+                        </div>
+                    </details>
+                    {{- end }}
+                    </div>
+                </section>
+                {{- end }}
+            </div>
             {{- end }}
 
             <!-- Related Terms -->
             {{- if gt (len (default (slice) $term.related_terms)) 0 }}
-            <section>
-                <h2>{{ T "glossaryRelatedTerms" }}</h2>
+            <section class="term-section term-section--related-terms">
+                <h2 class="term-section-title">{{ T "glossaryRelatedTerms" }}</h2>
                 <ul class="glossary-related-terms-list">
                     {{- range $term.related_terms -}}
                         {{- $relatedId := . -}}
                         {{- range $allTerms -}}
-                            {{- if eq .id $relatedId }}
-                    <li><a href="{{ $glossaryUrl }}{{ $relatedId }}/">{{ .term }}{{ if ne .full_term .term }} ({{ .full_term }}){{ end }}</a></li>
+                            {{- if eq .id $relatedId -}}
+                                {{- $relColor := partial "glossary/category-color.html" (.category | default "") -}}
+                    <li><a href="{{ $glossaryUrl }}{{ $relatedId }}/" style="--related-accent: {{ $relColor }};"><span class="related-dot" aria-hidden="true"></span>{{ .term }}</a></li>
                             {{- end -}}
                         {{- end -}}
                     {{- end }}
@@ -177,7 +222,7 @@
                         {{- if $relatedImage.exists }}
                             {{- $articleImage = $relatedImage.permalink -}}
                             {{- if $relatedImage.resource }}
-                                {{- $relatedThumb := $relatedImage.resource.Fill "120x120" -}}
+                                {{- $relatedThumb := $relatedImage.resource.Fill "240x160" -}}
                                 {{- $articleImage = $relatedThumb.RelPermalink -}}
                                 {{- $articleImageW = $relatedThumb.Width -}}
                                 {{- $articleImageH = $relatedThumb.Height -}}
@@ -219,7 +264,7 @@
                         {{- if $relatedImage.exists }}
                             {{- $articleImage = $relatedImage.permalink -}}
                             {{- if $relatedImage.resource }}
-                                {{- $relatedThumb := $relatedImage.resource.Fill "120x120" -}}
+                                {{- $relatedThumb := $relatedImage.resource.Fill "240x160" -}}
                                 {{- $articleImage = $relatedThumb.RelPermalink -}}
                                 {{- $articleImageW = $relatedThumb.Width -}}
                                 {{- $articleImageH = $relatedThumb.Height -}}
@@ -239,24 +284,24 @@
             {{- end }}
 
             {{- if gt (len $relatedArticleItems) 0 }}
-            <section>
-                <h2>{{ T "glossaryRelatedArticles" }}</h2>
-                <div class="related-articles-list article-list--compact">
+            <section class="term-section term-section--related-articles">
+                <h2 class="term-section-title">{{ T "glossaryRelatedArticles" }}</h2>
+                <div class="related-articles-list">
                     {{- range $relatedArticleItems }}
-                    <article>
+                    <article class="related-article-card">
                         <a href="{{ .url }}">
-                            <div class="article-details">
-                                <h2 class="article-title">{{ .title }}</h2>
-                                {{- with .description }}
-                                <section class="article-preview">{{ . }}</section>
-                                {{- end }}
-                            </div>
                             {{- $articleImage := .image }}
                             {{- if ne $articleImage "" }}
-                            <div class="article-image">
+                            <div class="related-article-image">
                                 <img src="{{ $articleImage }}" width="{{ .imageW }}" height="{{ .imageH }}" loading="lazy" alt="{{ .title }}"/>
                             </div>
                             {{- end }}
+                            <div class="related-article-body">
+                                <h3 class="related-article-title">{{ .title }}</h3>
+                                {{- with .description }}
+                                <p class="related-article-preview">{{ . }}</p>
+                                {{- end }}
+                            </div>
                         </a>
                     </article>
                     {{- end }}
@@ -265,32 +310,40 @@
             {{- end }}
 
             <!-- Prev/Next Navigation -->
-            <nav class="glossary-prev-next">
-                <div class="prev-next-left">
+            <nav class="glossary-prev-next" aria-label="Glossary navigation">
+                <div class="prev-next-cell prev-next-left">
                     {{- if $prevTerm }}
-                    <a href="{{ $glossaryUrl }}{{ $prevTerm.id }}/">
-                        <span class="prev-next-label">{{ T "glossaryPrevious" }}</span>
-                        <span class="prev-next-term">← {{ $prevTerm.term }}</span>
+                    {{- $prevColor := partial "glossary/category-color.html" ($prevTerm.category | default "") }}
+                    <a href="{{ $glossaryUrl }}{{ $prevTerm.id }}/" style="--prev-accent: {{ $prevColor }};">
+                        <span class="prev-next-label">
+                            <span class="prev-next-arrow" aria-hidden="true">&larr;</span>
+                            {{ T "glossaryPrevious" }}
+                        </span>
+                        <span class="prev-next-term">{{ $prevTerm.term }}</span>
                     </a>
                     {{- end }}
                 </div>
-                <div class="prev-next-center">
-                    <a href="{{ $glossaryUrl }}">{{ $glossaryTitle }}</a>
-                </div>
-                <div class="prev-next-right">
+                <div class="prev-next-cell prev-next-right">
                     {{- if $nextTerm }}
-                    <a href="{{ $glossaryUrl }}{{ $nextTerm.id }}/">
-                        <span class="prev-next-label">{{ T "glossaryNext" }}</span>
-                        <span class="prev-next-term">{{ $nextTerm.term }} →</span>
+                    {{- $nextColor := partial "glossary/category-color.html" ($nextTerm.category | default "") }}
+                    <a href="{{ $glossaryUrl }}{{ $nextTerm.id }}/" style="--next-accent: {{ $nextColor }};">
+                        <span class="prev-next-label">
+                            {{ T "glossaryNext" }}
+                            <span class="prev-next-arrow" aria-hidden="true">&rarr;</span>
+                        </span>
+                        <span class="prev-next-term">{{ $nextTerm.term }}</span>
                     </a>
                     {{- end }}
                 </div>
             </nav>
+            <div class="glossary-index-link">
+                <a href="{{ $glossaryUrl }}">{{ $glossaryTitle }}</a>
+            </div>
         </div>
     </article>
 
     <!-- Add footer as in other pages -->
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer/footer" . .Language.Lang }}
 
 <!-- DefinedTerm Schema -->
 <script type="application/ld+json">
@@ -308,4 +361,4 @@
 }
 </script>
 
-{{ end }}
+	{{ end }}

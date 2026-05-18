@@ -118,6 +118,9 @@ other = "Suivant"
 [glossaryCategoryFilter]
 other = "Cliquer pour filtrer par catégorie"
 
+[glossaryReadFull]
+other = "Lire la définition complète"
+
 
 # Difficulty / Expertise
 
@@ -245,3 +248,111 @@ other = "9"
 
 [projectsBannerLabel]
 other = "Projets"
+
+
+# Article components
+
+[glossaryMentions]
+other = "Concepts évoqués dans cet article"
+
+[glossaryMentionsTitle]
+other = "Concepts dans cet article"
+
+[seriesNav]
+other = "Navigation de la série"
+
+[seriesPart]
+other = "Fait partie de la série"
+
+
+# Zone H: Footer, microcopy, menu, social a11y
+
+[footerTagline]
+other = "TokenBrice — DeFi sans détours depuis 2018"
+
+[footerNav]
+other = "Navigation pied de page"
+
+[menuGlossary]
+other = "Glossaire"
+
+[menuGuides]
+other = "Guides"
+
+[menuShows]
+other = "Émissions"
+
+[menuAbout]
+other = "À propos"
+
+[menuStartHere]
+other = "Commencez ici"
+
+[menuSubscribe]
+other = "S'abonner"
+
+[toggleColorScheme]
+other = "Basculer le thème"
+
+[switchLanguage]
+other = "Changer de langue"
+
+[socialXProfile]
+other = "Profil X"
+
+[socialYoutubeChannel]
+other = "Chaîne YouTube"
+
+[socialTelegramChannel]
+other = "Canal Telegram"
+
+[socialFarcasterProfile]
+other = "Profil Farcaster"
+
+[startHereCta]
+other = "Nouveau ici ? Commencez par le parcours de lecture."
+
+[startHereCtaLabel]
+other = "Commencer ici"
+
+[latestShow]
+other = "Dernière émission"
+
+[allEpisodes]
+other = "Tous les épisodes"
+
+[pagination]
+other = "Pagination"
+
+[seeAlso]
+other = "Dans le terrier"
+
+[keepReading]
+other = "Continuer la lecture"
+
+
+# Navigation, menu, a11y, 404
+
+[darkMode]
+other = "Mode sombre"
+
+[menuCategories]
+other = "Toutes les catégories"
+
+[menuHome]
+other = "Accueil"
+
+[previousPage]
+other = "Page précédente"
+
+[toggleMenu]
+other = "Basculer le menu"
+
+[404Title]
+other = "Perdu dans le mempool"
+
+[404Message]
+other = "Cette URL n'a jamais été confirmée. Essaie l'une de celles-ci :"
+
+[404Search]
+other = "Ou cherche ce que tu voulais :"
