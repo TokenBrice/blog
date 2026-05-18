@@ -1,22 +1,5 @@
 User-agent: *
 Allow: /
 
-# Prevent crawling of search and admin pages if they exist
-Disallow: /search
-Disallow: /search/
-Disallow: /fr/search
-Disallow: /fr/search/
-Disallow: /page/
-Disallow: /fr/page/
-Disallow: /tags/*/page/
-Disallow: /fr/tags/*/page/
-Disallow: /tags/*/index.xml
-Disallow: /fr/tags/*/index.xml
-Disallow: /categories/*/page/
-Disallow: /fr/categories/*/page/
-Disallow: /categories/*/index.xml
-Disallow: /fr/categories/*/index.xml
-Disallow: /admin
-
-# Reference sitemap index
+# Reference sitemap
 Sitemap: https://tokenbrice.xyz/sitemap.xml
