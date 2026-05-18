@@ -4,6 +4,7 @@ class StackColorScheme {
     private localStorageKey = 'StackColorScheme';
     private currentScheme: colorScheme;
     private systemPreferScheme: colorScheme;
+    private toggleEl: HTMLElement | null = null;
 
     constructor(toggleEl: HTMLElement) {
         this.bindMatchMedia();
@@ -15,8 +16,11 @@ class StackColorScheme {
 
         this.dispatchEvent(document.documentElement.dataset.scheme as colorScheme);
 
-        if (toggleEl)
+        if (toggleEl) {
+            this.toggleEl = toggleEl;
             this.bindClick(toggleEl);
+            this.syncTogglePressed();
+        }
 
         if (document.body.style.transition == '')
             document.body.style.setProperty('transition', 'background-color .3s ease');
@@ -66,7 +70,13 @@ class StackColorScheme {
             document.documentElement.dataset.scheme = 'light';
         }
 
+        this.syncTogglePressed();
         this.dispatchEvent(document.documentElement.dataset.scheme as colorScheme);
+    }
+
+    private syncTogglePressed() {
+        if (!this.toggleEl) return;
+        this.toggleEl.setAttribute('aria-pressed', this.isDark() ? 'true' : 'false');
     }
 
     private getSavedScheme(): colorScheme {
@@ -84,7 +94,12 @@ class StackColorScheme {
             else {
                 this.systemPreferScheme = 'light';
             }
-            this.setBodyClass();
+            /// Only propagate live OS changes if user hasn't explicitly chosen.
+            if (this.currentScheme === 'auto') {
+                this.setBodyClass();
+            } else {
+                this.syncTogglePressed();
+            }
         });
     }
 }

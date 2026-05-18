@@ -1,14 +1,27 @@
+{{- /* video shortcode — WCAG 2.2.2 safe: emits controls by default. */ -}}
+{{- /* Params: src (required), poster, autoplay, loop, muted, controls, captions. */ -}}
 {{- $src := .Get "src" | default (.Get 0) -}}
+{{- $autoplay := .Get "autoplay" | default "false" -}}
+{{- $loop := .Get "loop" | default "false" -}}
+{{- $muted := .Get "muted" | default "true" -}}
+{{- $controls := .Get "controls" | default "true" -}}
+{{- $captions := .Get "captions" -}}
 <div class="video-wrapper">
     <video
-    controls
-    src="{{- $src -}}"
-    {{ with .Get "poster" }}poster="{{- . -}}"{{ end }}
-    {{ with .Get "autoplay" }}autoplay{{ end }}
-    >
+        src="{{ $src }}"
+        {{ with .Get "poster" }}poster="{{ . }}"{{ end }}
+        {{ if eq $autoplay "true" }}autoplay{{ end }}
+        {{ if eq $loop "true" }}loop{{ end }}
+        {{ if eq $muted "true" }}muted{{ end }}
+        {{ if ne $controls "false" }}controls{{ end }}
+        playsinline
+        preload="metadata">
+        {{- with $captions }}
+        <track kind="captions" src="{{ . }}" srclang="{{ $.Page.Site.Language.Lang }}" default>
+        {{- end }}
         <p>
             Your browser doesn't support HTML5 video. Here is a
-            <a href="{{- $src -}}">link to the video</a> instead.
+            <a href="{{ $src }}">link to the video</a> instead.
         </p>
     </video>
 </div>

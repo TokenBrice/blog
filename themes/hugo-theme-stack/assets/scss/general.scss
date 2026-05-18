@@ -1,3 +1,13 @@
+/* Editorial typography: Inter Tight (body/UI) + Fraunces (headings) */
+:root {
+    --base-font-family: "Inter Tight", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue", sans-serif;
+    --heading-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+body {
+    font-family: var(--base-font-family);
+}
+
 a {
     text-decoration: none;
     color: var(--accent-color);

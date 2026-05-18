@@ -74,10 +74,12 @@ export default function () {
     const toggleMenu = document.getElementById('toggle-menu');
     if (toggleMenu) {
         toggleMenu.addEventListener('click', () => {
-            if (document.getElementById('main-menu').classList.contains('transiting')) return;
+            const mainMenu = document.getElementById('main-menu');
+            if (mainMenu.classList.contains('transiting')) return;
             document.body.classList.toggle('show-menu');
-            slideToggle(document.getElementById('main-menu'), 300);
-            toggleMenu.classList.toggle('is-active');
+            slideToggle(mainMenu, 300);
+            const isOpen = toggleMenu.classList.toggle('is-active');
+            toggleMenu.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
     }
 }

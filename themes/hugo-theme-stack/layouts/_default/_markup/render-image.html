@@ -8,6 +8,14 @@
 {{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
 {{- $galleryImage := false -}}
 
+{{/* Detect external URLs and query-strings — skip manifest lookup for those */}}
+{{- $destStr := printf "%s" .Destination -}}
+{{- $isExternal := or (hasPrefix $destStr "http://") (hasPrefix $destStr "https://") -}}
+{{- $hasQuery := strings.Contains $destStr "?" -}}
+
+{{- $ext := path.Ext .Destination | lower -}}
+{{- $avifSrc := "" -}}
+
 {{- if $image -}}
 	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
 	{{- $Permalink = $image.RelPermalink -}}
@@ -24,20 +32,62 @@
 			{{- $Srcset = printf `%s 480w, %s 768w, %s 1024w` $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
 		{{- end -}}
 	{{- end -}}
+
+	{{/* Derive avif sibling from the bundle resource's RelPermalink (hashed) */}}
+	{{- $bundleExt := path.Ext $image.RelPermalink | lower -}}
+	{{- $candidateAvifBundle := printf "%s.avif" (strings.TrimSuffix $bundleExt $image.RelPermalink) -}}
+	{{- if fileExists (printf "static%s" $candidateAvifBundle) -}}
+		{{- $avifSrc = $candidateAvifBundle | safeURL -}}
+	{{- end -}}
+{{- else -}}
+	{{/* Static path image — try imageDims manifest (skip externals/query-strings) */}}
+	{{- if and (not $isExternal) (not $hasQuery) -}}
+		{{- $lookup := printf "%s" (.Destination | relURL) -}}
+		{{- $dims := index site.Data.imageDims $lookup -}}
+		{{- if $dims -}}
+			{{- $Width = $dims.w -}}
+			{{- $Height = $dims.h -}}
+		{{- end -}}
+	{{- end -}}
+
+	{{/* AVIF sibling lookup for static path (basename swap on Destination) */}}
+	{{- if and (not $isExternal) $ext -}}
+		{{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
+		{{- if fileExists (printf "static%s" $candidateAvif) -}}
+			{{- $avifSrc = $candidateAvif | safeURL -}}
+		{{- end -}}
+	{{- end -}}
 {{- end -}}
 
+{{ if $avifSrc -}}
+<picture>
+	<source srcset="{{ $avifSrc }}" type="image/avif">
+	<img src="{{ $Permalink }}"
+		{{ with $Width }}width="{{ . }}"{{ end }}
+		{{ with $Height }}height="{{ . }}"{{ end }}
+		{{ with $Srcset }}srcset="{{ . }}"
+		sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
+		loading="lazy"
+		alt="{{ $alt }}"
+		{{ if $galleryImage }}
+			class="gallery-image"
+			data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+			data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
+		{{ end }}
+	>
+</picture>
+{{- else -}}
 <img src="{{ $Permalink }}"
 	{{ with $Width }}width="{{ . }}"{{ end }}
 	{{ with $Height }}height="{{ . }}"{{ end }}
 	{{ with $Srcset }}srcset="{{ . }}"
 	sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
 	loading="lazy"
-	{{ with $alt }}
-		alt="{{ . }}"
-	{{ end }}
+	alt="{{ $alt }}"
 	{{ if $galleryImage }}
 		class="gallery-image"
 		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
 		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
 	{{ end }}
 >
+{{- end }}

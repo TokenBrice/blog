@@ -22,7 +22,9 @@ let Stack = {
 
         const articleContent = document.querySelector('.article-content') as HTMLElement;
         if (articleContent) {
-            new StackGallery(articleContent);
+            if (articleContent.querySelector('figure.gallery-image, img.gallery-image, .gallery')) {
+                new StackGallery(articleContent);
+            }
             setupSmoothAnchors();
             setupScrollspy();
         }

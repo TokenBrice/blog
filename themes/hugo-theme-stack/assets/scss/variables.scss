@@ -1,4 +1,5 @@
-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
+// #ffb900 (original) failed WCAG AA (~1.85:1 with white text). Replaced with #806504 (~7.6:1).
+$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #806504, #6b69d6;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
 /*

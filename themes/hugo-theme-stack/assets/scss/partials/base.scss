@@ -1,3 +1,6 @@
+// TODO: font-size: 62.5% silently downsizes user-configured browser default text size.
+// Fixing requires either (a) changing to 100% + rescaling all rem values across theme, or
+// (b) opt-in body override + targeted rescale. See audit-tracker #L4.
 html {
     font-size: 62.5%;
     overflow-y: scroll;
