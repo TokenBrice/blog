@@ -16,6 +16,31 @@
     </header>
     {{ end }}
 
+    {{- /* Kicker row: full-article view only. CSS reorders it above the H1 via flex `order`. */ -}}
+    {{ if not $isSummary }}
+    {{ $showReadingTimeKicker := $context.Params.readingTime | default ($context.Site.Params.article.readingTime) }}
+    {{ $showDateKicker := not $context.Date.IsZero }}
+    {{ if or $showDateKicker $showReadingTimeKicker $context.Params.difficulty }}
+    <div class="article-details--kicker">
+        {{ if $showDateKicker }}
+        <time class="article-details--kicker__date" datetime="{{ $context.Date.Format "2006-01-02" }}">
+            {{- $context.Date | time.Format (or $context.Site.Params.dateFormat.published "Jan 02, 2006") -}}
+        </time>
+        {{ end }}
+        {{ if $showReadingTimeKicker }}
+        <span class="article-details--kicker__reading">
+            {{ T "article.readingTime" $context.ReadingTime }}
+        </span>
+        {{ end }}
+        {{ with $context.Params.difficulty }}
+        <span class="article-details--kicker__difficulty">
+            <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
+            <span class="difficulty-text">{{ . | title }}</span>
+        </span>
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
 
     <div class="article-title-wrapper">
         {{- if $isSummary }}
@@ -47,7 +72,8 @@
 
     {{ $showReadingTime := $context.Params.readingTime | default ($context.Site.Params.article.readingTime) }}
     {{ $showDate := not $context.Date.IsZero }}
-    {{ $showFooter := or $showDate $showReadingTime }}
+    {{/* Footer block duplicates the kicker on single articles; keep it for list/summary cards only. */}}
+    {{ $showFooter := and $isSummary (or $showDate $showReadingTime $context.Params.difficulty $context.IsTranslated) }}
     {{ if $showFooter }}
     <footer class="article-time">
         {{ if $showDate }}
@@ -68,17 +94,27 @@
             </div>
         {{ end }}
 
-        {{/* NEW: Show difficulty in footer too for lists */}}
         {{ with $context.Params.difficulty }}
             <div class="article-difficulty-footer">
                 <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
                 <span class="difficulty-text">{{ . | title }}</span>
             </div>
         {{ end }}
+
+        {{ if $context.IsTranslated }}
+            <div class="article-time--translations">
+                {{ partial "helper/icon" "language" }}
+                <span>
+                    {{ range $context.Translations }}
+                        <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+                    {{ end }}
+                </span>
+            </div>
+        {{ end }}
     </footer>
     {{ end }}
 
-    {{ if $context.IsTranslated }}
+    {{ if and $context.IsTranslated (not $isSummary) }}
         <footer class="article-translations">
             {{ partial "helper/icon" "language" }}
             <div>

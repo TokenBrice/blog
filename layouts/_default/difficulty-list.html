@@ -26,6 +26,33 @@
     {{ $filteredPages := where $notHidden "Params.difficulty" $difficultyFilter }}
 
     {{ if $filteredPages }}
+        {{- /* CollectionPage + ItemList JSON-LD */ -}}
+        {{- $itemPages := first 20 ($filteredPages.ByDate.Reverse) -}}
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "{{ .Title | safeJS }}",
+          "url": "{{ .Permalink }}",
+          "inLanguage": "{{ .Language.Lang }}",
+          "hasPart": {
+            "@type": "ItemList",
+            "numberOfItems": {{ len $filteredPages }},
+            "itemListElement": [
+              {{- range $i, $p := $itemPages -}}
+              {{- if $i -}},{{- end }}
+              {
+                "@type": "ListItem",
+                "position": {{ add $i 1 }},
+                "url": "{{ $p.Permalink }}",
+                "name": "{{ $p.Title | safeJS }}"
+              }
+              {{- end }}
+            ]
+          }
+        }
+        </script>
+
         {{ range $filteredPages.GroupByDate "2006" }}
         {{ $id := lower (replace .Key " " "-") }}
         <div class="archives-group" id="{{ $id }}">
@@ -41,7 +68,7 @@
         <p>{{ T "difficultyNoArticles" }}</p>
     {{ end }}
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer/footer" . .Language.Lang }}
 {{ end }}
 
 {{ define "right-sidebar" }}

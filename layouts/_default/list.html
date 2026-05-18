@@ -1,4 +1,34 @@
 {{ define "main" }}
+    {{- /* CollectionPage + ItemList JSON-LD for section / taxonomy lists */ -}}
+    {{- $listPages := .Pages.ByDate.Reverse -}}
+    {{- $itemPages := first 20 $listPages -}}
+    {{- with $itemPages }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "{{ $.Title | safeJS }}",
+      "url": "{{ $.Permalink }}",
+      "inLanguage": "{{ $.Language.Lang }}",
+      "hasPart": {
+        "@type": "ItemList",
+        "numberOfItems": {{ len $listPages }},
+        "itemListElement": [
+          {{- range $i, $p := . -}}
+          {{- if $i -}},{{- end }}
+          {
+            "@type": "ListItem",
+            "position": {{ add $i 1 }},
+            "url": "{{ $p.Permalink }}",
+            "name": "{{ $p.Title | safeJS }}"
+          }
+          {{- end }}
+        ]
+      }
+    }
+    </script>
+    {{- end }}
+
     <header>
         <h3 class="section-title">
             {{ if eq .Parent (.GetPage "/") }}
@@ -26,7 +56,7 @@
                         {{- $Height := $image.resource.Height -}}
     
                         {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-                            {{- $thumbnail := $image.resource.Fill "120x120" -}}
+                            {{- $thumbnail := $image.resource.Fill "240x135" -}}
                             {{- $Permalink = $thumbnail.RelPermalink -}}
                             {{- $Width = $thumbnail.Width -}}
                             {{- $Height = $thumbnail.Height -}}
@@ -82,7 +112,7 @@
 
     {{- partial "pagination.html" . -}}
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer/footer" . .Language.Lang }}
 {{ end }}
 
 {{ define "right-sidebar" }}

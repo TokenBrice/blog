@@ -6,6 +6,7 @@
     {{- $isSummary = .isSummary | default false -}}
 {{- end }}
     {{- $image := partialCached "helper/image" (dict "Context" $context "Type" "article") $context.RelPermalink "article" -}}
+    {{- $imageAlt := $context.Params.imageAlt | default $context.Params.image_alt | default $context.Title -}}
     {{ if $image.exists }}
         <div class="article-image">
             <a href="{{ $context.RelPermalink }}">
@@ -30,41 +31,69 @@
                             height="{{ $Height }}"
                             loading="eager"
                             fetchpriority="high"
-                            alt="Featured image of post {{ $context.Title }}" />
+	                            alt="{{ $imageAlt }}" />
                 {{ else }}
                     {{- $permalink := $image.permalink -}}
                     {{- $ext := path.Ext $permalink | lower -}}
                     {{- $isConvertible := or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".jpeg") -}}
                     {{- $isExternal := or (hasPrefix $permalink "http://") (hasPrefix $permalink "https://") -}}
+                    {{- $dims := index site.Data.imageDims $permalink -}}
+                    {{- $avifSrc := "" -}}
+                    {{- if and (not $isExternal) $ext -}}
+                        {{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext $permalink) -}}
+                        {{- if fileExists (printf "static%s" $candidateAvif) -}}
+                            {{- $avifSrc = $candidateAvif -}}
+                        {{- end -}}
+                    {{- end -}}
                     {{- if and $isConvertible (not $isExternal) -}}
                         {{- $webpSrc := printf "%s.webp" (strings.TrimSuffix $ext $permalink) -}}
                         {{- $webpPath := printf "static%s" $webpSrc -}}
                         {{- $useWebP := fileExists $webpPath -}}
                         {{- if $useWebP }}
                             <picture>
+                                {{- with $avifSrc }}<source srcset="{{ . }}" type="image/avif">{{ end }}
                                 <source srcset="{{ $webpSrc }}" type="image/webp">
                                     <img src="{{ $permalink }}"
-                                        width="1200"
-                                        height="675"
+                                        {{ if $dims }}width="{{ $dims.w }}" height="{{ $dims.h }}"{{ else }}width="1200" height="675"{{ end }}
                                         loading="eager"
                                         fetchpriority="high"
-                                        alt="Featured image of post {{ $context.Title }}" />
+	                                        alt="{{ $imageAlt }}" />
                             </picture>
                         {{- else }}
+                            {{- if $avifSrc }}
+                            <picture>
+                                <source srcset="{{ $avifSrc }}" type="image/avif">
+                                <img src="{{ $permalink }}"
+                                    {{ if $dims }}width="{{ $dims.w }}" height="{{ $dims.h }}"{{ else }}width="1200" height="675"{{ end }}
+                                    loading="eager"
+                                    fetchpriority="high"
+	                                    alt="{{ $imageAlt }}" />
+                            </picture>
+                            {{- else }}
                             <img src="{{ $permalink }}"
-                                width="1200"
-                                height="675"
+                                {{ if $dims }}width="{{ $dims.w }}" height="{{ $dims.h }}"{{ else }}width="1200" height="675"{{ end }}
                                 loading="eager"
                                 fetchpriority="high"
-                                alt="Featured image of post {{ $context.Title }}" />
+	                                alt="{{ $imageAlt }}" />
+                            {{- end }}
                         {{- end }}
                     {{- else -}}
+                        {{- if $avifSrc }}
+                        <picture>
+                            <source srcset="{{ $avifSrc }}" type="image/avif">
+                            <img src="{{ $permalink }}"
+                                {{ if $dims }}width="{{ $dims.w }}" height="{{ $dims.h }}"{{ else }}width="1200" height="675"{{ end }}
+                                loading="eager"
+                                fetchpriority="high"
+	                                alt="{{ $imageAlt }}" />
+                        </picture>
+                        {{- else }}
                         <img src="{{ $permalink }}"
-                            width="1200"
-                            height="675"
+                            {{ if $dims }}width="{{ $dims.w }}" height="{{ $dims.h }}"{{ else }}width="1200" height="675"{{ end }}
                             loading="eager"
                             fetchpriority="high"
-                            alt="Featured image of post {{ $context.Title }}" />
+	                            alt="{{ $imageAlt }}" />
+                        {{- end }}
                     {{- end -}}
                 {{ end }}
             </a>

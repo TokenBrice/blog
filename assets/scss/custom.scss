@@ -20,6 +20,30 @@
 /* Import glossary categories card styles */
 @import "custom/glossary-categories";
 
+/* Give taxonomy/category headers enough room to show their cover art. */
+.section-card .section-image {
+  flex: 0 0 auto;
+}
+
+.section-card .section-image img {
+  width: 180px;
+  height: 101px;
+  object-fit: cover;
+  border-radius: calc(var(--card-border-radius) - 2px);
+  box-shadow: var(--shadow-l1);
+}
+
+@media (max-width: 640px) {
+  .section-card {
+    align-items: flex-start;
+  }
+
+  .section-card .section-image img {
+    width: 120px;
+    height: 68px;
+  }
+}
+
 /* PhotoSwipe v5 caption */
 .pswp__custom-caption {
     font-size: 14px;
@@ -255,3 +279,294 @@ footer.site-footer::before {
 }
 
 @import "projects-banner";
+
+/* ============================================================
+ * Zone H: Site footer (override)
+ * ============================================================ */
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 1.5rem var(--card-padding, 1.5rem);
+    margin-top: var(--section-separation, 40px);
+    border-top: 1px solid var(--card-separator-color);
+    background: transparent;
+    color: var(--card-text-color-secondary);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: left;
+
+    /* Override theme footer.scss pseudo-element if present */
+    &::before { content: none; }
+
+    a {
+        color: var(--card-text-color-main);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: color 0.2s ease, border-color 0.2s ease;
+
+        &:hover,
+        &:focus-visible {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+    }
+
+    &__brand {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        font-weight: 600;
+        color: var(--card-text-color-main);
+
+        img {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.25rem;
+
+        a {
+            display: inline-block;
+            padding: 0.15rem 0;
+        }
+    }
+
+    &__license {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1rem;
+        font-size: 0.8rem;
+        color: var(--card-text-color-tertiary);
+    }
+
+    &__hugo {
+        opacity: 0.85;
+    }
+}
+
+[data-scheme="dark"] .site-footer {
+    border-top-color: var(--card-separator-color);
+}
+
+/* ============================================================
+ * Zone H: Article extras (kicker, drop-cap, reading progress)
+ * ============================================================ */
+.article-details--kicker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    order: -1;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--card-text-color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+/* Drop-cap: class lives on <article>, paragraphs are nested in .article-content section.
+ * Target the first direct <p> child of .article-content. Guard removed (was too restrictive). */
+.article-content--has-dropcap .article-content > p:first-of-type::first-letter {
+    float: left;
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 5em;
+    line-height: 0.85;
+    padding-right: 0.1em;
+    padding-top: 0.05em;
+    color: var(--accent-color);
+}
+
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--accent-color);
+    transform-origin: left;
+    transform: scaleX(0);
+    z-index: 1000;
+    transition: transform 0.05s linear;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reading-progress { transition: none; }
+}
+
+/* ============================================================
+ * Article footer cards: series nav + glossary mentions
+ * ============================================================ */
+.series-nav,
+.glossary-mentions {
+    margin-top: 2.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-separator-color);
+    border-left: 4px solid var(--accent-color);
+    border-radius: var(--card-border-radius, 6px);
+    box-shadow: var(--shadow-l1);
+
+    > h3 {
+        margin: 0 0 0.9rem;
+        font-family: var(--base-font-family);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: 700;
+        color: var(--accent-color);
+    }
+}
+
+/* Series navigation: counter-styled numbered list */
+.series-nav {
+    ol {
+        counter-reset: series-counter;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+    }
+
+    li {
+        counter-increment: series-counter;
+        display: flex;
+        align-items: baseline;
+        gap: 0.85rem;
+        line-height: 1.45;
+    }
+
+    li::before {
+        content: counter(series-counter);
+        flex-shrink: 0;
+        align-self: center;
+        min-width: 1.65rem;
+        height: 1.65rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.06);
+        color: var(--card-text-color-main);
+        border-radius: 50%;
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    li a {
+        color: var(--card-text-color-main);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    li a:hover,
+    li a:focus-visible {
+        color: var(--accent-color);
+        border-bottom-color: var(--accent-color);
+    }
+
+    /* Current page: highlight badge + bold link */
+    li:has(> a[aria-current="page"])::before,
+    li[aria-current="page"]::before {
+        background: var(--accent-color);
+        color: var(--accent-color-text);
+    }
+
+    li a[aria-current="page"],
+    li[aria-current="page"] a {
+        font-weight: 700;
+        color: var(--accent-color);
+        cursor: default;
+        pointer-events: none;
+        border-bottom-color: transparent;
+    }
+}
+
+/* Glossary mentions: pill cluster */
+.glossary-mentions {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li a {
+        display: inline-block;
+        padding: 0.32rem 0.85rem;
+        background: rgba(0, 0, 0, 0.04);
+        border: 1px solid var(--card-separator-color);
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--card-text-color-main);
+        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+        &:hover,
+        &:focus-visible {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+            color: var(--accent-color-text);
+        }
+    }
+}
+
+/* Dark mode polish for both blocks */
+[data-scheme="dark"] {
+    .series-nav,
+    .glossary-mentions {
+        background: rgba(255, 255, 255, 0.025);
+        border-color: rgba(255, 255, 255, 0.08);
+        box-shadow: none;
+    }
+
+    .series-nav li::before {
+        background: rgba(255, 255, 255, 0.08);
+        color: #f3f4f6;
+    }
+
+    .series-nav li:has(> a[aria-current="page"])::before,
+    .series-nav li[aria-current="page"]::before {
+        background: var(--accent-color);
+        color: var(--accent-color-text);
+    }
+
+    .glossary-mentions li a {
+        background: rgba(255, 255, 255, 0.04);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: #f3f4f6;
+    }
+}
+
+/* ============================================================
+ * Zone H: Widgets (Zone E start-here CTA + latest show)
+ * ============================================================ */
+.widget--start-here-cta {
+    padding: 1rem 1.25rem;
+    background: var(--card-background-selected);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.widget--latest-show {
+    margin-bottom: 1.5rem;
+}

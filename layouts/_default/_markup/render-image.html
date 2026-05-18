@@ -8,15 +8,17 @@
 {{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
 {{- $galleryImage := false -}}
 
-{{/* Determine if we can offer a WebP alternative */}}
+{{/* Detect external URLs and query-strings — skip manifest lookup for those */}}
+{{- $destStr := printf "%s" .Destination -}}
+{{- $isExternal := or (hasPrefix $destStr "http://") (hasPrefix $destStr "https://") -}}
+{{- $hasQuery := strings.Contains $destStr "?" -}}
+
+{{/* Determine if we can offer a WebP/AVIF alternative */}}
 {{- $ext := path.Ext .Destination | lower -}}
 {{- $isConvertible := or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".jpeg") -}}
-{{- $isExternal := or (hasPrefix .Destination "http://") (hasPrefix .Destination "https://") -}}
 {{- $useWebP := and $isConvertible (not $isExternal) -}}
 {{- $webpSrc := "" -}}
-{{- if $useWebP -}}
-	{{- $webpSrc = printf "%s.webp" (strings.TrimSuffix $ext (.Destination | relURL)) | safeURL -}}
-{{- end -}}
+{{- $avifSrc := "" -}}
 
 {{- if $image -}}
 	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
@@ -34,10 +36,38 @@
 			{{- $Srcset = printf `%s 480w, %s 768w, %s 1024w` $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
 		{{- end -}}
 	{{- end -}}
+
+	{{/* Derive webp/avif siblings from the bundle resource's RelPermalink (hashed) */}}
+	{{- $bundleExt := path.Ext $image.RelPermalink | lower -}}
+	{{- if $useWebP -}}
+		{{- $webpSrc = printf "%s.webp" (strings.TrimSuffix $bundleExt $image.RelPermalink) | safeURL -}}
+	{{- end -}}
+{{- else -}}
+	{{/* Static path image — try imageDims manifest (skip externals/query-strings) */}}
+	{{- if and (not $isExternal) (not $hasQuery) -}}
+		{{- $lookup := printf "%s" (.Destination | relURL) -}}
+		{{- $dims := index site.Data.imageDims $lookup -}}
+		{{- if $dims -}}
+			{{- $Width = $dims.w -}}
+			{{- $Height = $dims.h -}}
+		{{- end -}}
+	{{- end -}}
+
+	{{/* Static path: derive webp/avif siblings from the resolved destination URL */}}
+	{{- if $useWebP -}}
+		{{- $webpSrc = printf "%s.webp" (strings.TrimSuffix $ext (.Destination | relURL)) | safeURL -}}
+	{{- end -}}
+	{{- if and (not $isExternal) $ext -}}
+		{{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
+		{{- if fileExists (printf "static%s" $candidateAvif) -}}
+			{{- $avifSrc = $candidateAvif | safeURL -}}
+		{{- end -}}
+	{{- end -}}
 {{- end -}}
 
 {{ if $useWebP -}}
 <picture>
+	{{ with $avifSrc }}<source srcset="{{ . }}" type="image/avif">{{ end }}
 	<source srcset="{{ $webpSrc }}" type="image/webp">
 	<img src="{{ $Permalink }}"
 		{{ with $Width }}width="{{ . }}"{{ end }}
@@ -45,9 +75,24 @@
 		{{ with $Srcset }}srcset="{{ . }}"
 		sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
 		loading="lazy"
-		{{ with $alt }}
-			alt="{{ . }}"
+		alt="{{ $alt }}"
+		{{ if $galleryImage }}
+			class="gallery-image"
+			data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+			data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
 		{{ end }}
+	>
+</picture>
+{{- else if $avifSrc -}}
+<picture>
+	<source srcset="{{ $avifSrc }}" type="image/avif">
+	<img src="{{ $Permalink }}"
+		{{ with $Width }}width="{{ . }}"{{ end }}
+		{{ with $Height }}height="{{ . }}"{{ end }}
+		{{ with $Srcset }}srcset="{{ . }}"
+		sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
+		loading="lazy"
+		alt="{{ $alt }}"
 		{{ if $galleryImage }}
 			class="gallery-image"
 			data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
@@ -62,9 +107,7 @@
 	{{ with $Srcset }}srcset="{{ . }}"
 	sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
 	loading="lazy"
-	{{ with $alt }}
-		alt="{{ . }}"
-	{{ end }}
+	alt="{{ $alt }}"
 	{{ if $galleryImage }}
 		class="gallery-image"
 		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"

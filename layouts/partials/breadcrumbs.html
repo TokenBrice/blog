@@ -1,51 +1,65 @@
+{{- /*
+  BreadcrumbList JSON-LD.
+  Most posts use `url:` overrides (flat /slug/) which collapses .Ancestors and
+  hides the category step. We emit an explicit chain instead:
+    Home -> first category (if any) -> page.
+  For non-post pages with real ancestors, we still emit ancestor chain.
+*/ -}}
 {{- if not .IsHome -}}
-{{- $ancestors := slice -}}
-{{- $current := . -}}
+{{- $items := slice -}}
 
-{{- /* Build the breadcrumb trail */ -}}
-{{- range $current.Ancestors.Reverse -}}
-  {{- if not .IsHome -}}
-    {{- $ancestors = $ancestors | append . -}}
+{{- /* Home */ -}}
+{{- $items = $items | append (dict "name" .Site.Title "url" .Site.BaseURL) -}}
+
+{{- /* Category step for posts: first item in .Params.categories */ -}}
+{{- $usedCategory := false -}}
+{{- if .IsPage -}}
+  {{- with .Params.categories -}}
+    {{- $first := "" -}}
+    {{- if reflect.IsSlice . -}}
+      {{- $first = index . 0 -}}
+    {{- else -}}
+      {{- $first = . -}}
+    {{- end -}}
+    {{- with $first -}}
+      {{- /* Use absLangURL so FR posts get tokenbrice.xyz/fr/categories/X/ */ -}}
+      {{- $catURL := absLangURL (printf "categories/%s/" (. | urlize)) -}}
+      {{- $items = $items | append (dict "name" . "url" $catURL) -}}
+      {{- $usedCategory = true -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- if $ancestors -}}
+{{- /* Otherwise use Ancestors when present (sections, taxonomies, etc.) */ -}}
+{{- if not $usedCategory -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- if not .IsHome -}}
+      {{- $items = $items | append (dict "name" .Title "url" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Current page */ -}}
+{{- $items = $items | append (dict "name" .Title "url" .Permalink) -}}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+    {{- range $index, $item := $items -}}
+    {{- if $index -}},{{- end }}
     {
       "@type": "ListItem",
-      "position": 1,
-      "name": "{{ .Site.Title | safeJS }}",
+      "position": {{ add $index 1 }},
+      "name": "{{ $item.name | safeJS }}",
       "item": {
         "@type": "Thing",
-        "@id": "{{ .Site.BaseURL }}"
+        "@id": "{{ $item.url }}"
       }
     }
-    {{- range $index, $ancestor := $ancestors -}},
-    {
-      "@type": "ListItem",
-      "position": {{ add $index 2 }},
-      "name": "{{ $ancestor.Title | safeJS }}",
-      "item": {
-        "@type": "Thing",
-        "@id": "{{ $ancestor.Permalink }}"
-      }
-    }
-    {{- end -}},
-    {
-      "@type": "ListItem",
-      "position": {{ add (len $ancestors) 2 }},
-      "name": "{{ .Title | safeJS }}",
-      "item": {
-        "@type": "Thing",
-        "@id": "{{ .Permalink }}"
-      }
-    }
+    {{- end }}
   ]
 }
 </script>
-{{- end -}}
 {{- end -}}

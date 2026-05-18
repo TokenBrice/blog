@@ -1,9 +1,40 @@
+{{- /*
+  audio shortcode.
+  Optional named params: title (also accepted as `name`), description,
+  uploadDate, encodingFormat. Missing fields are omitted from the JSON-LD
+  rather than emitted empty.
+*/ -}}
+{{- $src := index .Params 0 -}}
+{{- $name := .Get "name" | default (.Get "title") -}}
+{{- $description := .Get "description" -}}
+{{- $upload := .Get "uploadDate" -}}
+{{- $encoding := .Get "encodingFormat" -}}
+{{- $url := printf "/mp3/%s" $src -}}
 <p align="center">
 
 <audio class="player" controls preload="none">
 
-<source src="/mp3/{{ index .Params 0 }}" type="audio/mp3">
+<source src="{{ $url }}" type="audio/mp3">
 
 </audio>
 
 </p>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AudioObject",
+  "contentUrl": "{{ absURL $url }}"
+  {{- with $name -}},
+  "name": "{{ . | safeJS }}"
+  {{- end -}}
+  {{- with $description -}},
+  "description": "{{ . | safeJS }}"
+  {{- end -}}
+  {{- with $upload -}},
+  "uploadDate": "{{ . }}"
+  {{- end -}}
+  {{- with $encoding -}},
+  "encodingFormat": "{{ . }}"
+  {{- end }}
+}
+</script>
