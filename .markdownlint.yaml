@@ -1,0 +1,12 @@
+# markdownlint config — local-use only (not wired into CI).
+# Install: npm i -g markdownlint-cli
+# Lint:    markdownlint 'content/**/*.md'
+
+default: true
+
+# Hugo shortcodes commonly produce HTML; long lines are content choice.
+MD013: false      # line-length
+MD033: false      # inline HTML
+MD041: false      # first-line H1 (front-matter present)
+MD024:
+  siblings_only: true

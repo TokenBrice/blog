@@ -1,11 +1,11 @@
-## Tokenbrice.xyz, a blog respecting your privacy
+## tokenbrice.xyz, a privacy-respecting DeFi blog
 
-> I made this blog as a callout: I'm no dev, I can barely code, and yet I was able to respect my reader's privacy, to an unprecedented level in the space.
+> Brutally honest DeFi, built on a privacy-respecting stack.
+
+Built with Hugo (Extended, pinned to `0.148.2`) on top of a fork of [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack). Bilingual (EN/FR). Deployed via GitHub Actions to GitHub Pages today; Cloudflare Pages migration is staged in `.github/workflows/hugo.yml` (commented step). Common workflows live in the `Makefile`.
 
 [![Generator is Hugo](https://img.shields.io/badge/Generator%20is-Hugo-ff4088?&logo=hugo)](https://github.com/gohugoio/hugo)
-[![Theme is MemE](https://img.shields.io/badge/Theme%20is-MemE-2a6df4?&logo=meme)](https://github.com/reuixiy/hugo-theme-meme)
 [![Source on GitHub](https://img.shields.io/badge/Source%20on-GitHub-181717?&logo=github)](https://github.com/tokenbrice/blog/)
-[![Hosted on IPFS](https://img.shields.io/badge/Hosted%20on-IPFS-65c2cb?&logo=ipfs)](https://ipfs.io/)
 
 To do so, TokenBrice.xyz relies on **open source frameworks** and solutions such as Hugo (rendering of the blog) or Matomo (privacy-conscious analytics).
 
