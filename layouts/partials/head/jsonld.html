@@ -1,45 +1,147 @@
-{{- if and .IsPage (ne .Type "glossary") -}}
-{{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
+{{- /*
+  JSON-LD structured data.
+  - Post pages: BlogPosting
+  - About page: ProfilePage
+  - Other indexable pages: WebPage
+  - Home: WebSite + SearchAction (query param matches search input name="keyword")
+  Person @id is reused for author + ProfilePage.mainEntity.
+*/ -}}
+
+{{- $authorId := printf "%s#person-tokenbrice" .Site.BaseURL -}}
+{{- $authorSameAs := slice
+    "https://x.com/tokenbrice"
+    "https://www.youtube.com/@Token_Brice"
+    "https://t.me/tokenbrice_news"
+    "https://warpcast.com/tokenbrice"
+    "https://github.com/tokenbrice"
+-}}
+{{- $authorImage := absURL "/img/main/emblem-color-square-150.png" -}}
+{{- $authorUrl := absURL "/about/" -}}
+
+{{- /* difficulty/<level>.md pages render a CollectionPage via difficulty-list.html,
+       so we must not also emit BlogPosting for them. */ -}}
+{{- if and .IsPage (ne .Type "glossary") (ne .Type "difficulty") -}}
+{{- $isAbout := or (eq .RelPermalink "/about/") (eq .RelPermalink "/fr/about/") -}}
+{{- if and (not $isAbout) .File -}}
+  {{- if eq .File.LogicalName "about" -}}
+    {{- $isAbout = true -}}
+  {{- end -}}
+{{- end -}}
+{{- $og := partial "helper/og-image" . -}}
+{{- $ogImage := $og.url -}}
 {{- $desc := .Description | default (.Summary | plainify) -}}
+{{- if $isAbout -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "ProfilePage",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Title | safeJS }}",
+  "description": "{{ $desc | safeJS }}",
+  "inLanguage": "{{ .Language.Lang }}",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "{{ $authorId }}",
+    "name": "TokenBrice",
+    "url": "{{ $authorUrl }}",
+    "image": "{{ $authorImage }}",
+    "jobTitle": "DeFi analyst & educator",
+    "sameAs": {{ $authorSameAs | jsonify | safeJS }}
+  }
+}
+	</script>
+	{{- else if eq .Type "post" -}}
+	<script type="application/ld+json">
+	{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
   "headline": "{{ .Title | safeJS }}",
   "description": "{{ $desc | safeJS }}",
   "author": {
     "@type": "Person",
-    "name": "{{ .Site.Title | safeJS }}",
-    "url": "{{ .Site.BaseURL }}"
+    "@id": "{{ $authorId }}",
+    "name": "TokenBrice",
+    "url": "{{ $authorUrl }}",
+    "image": "{{ $authorImage }}",
+    "jobTitle": "DeFi analyst & educator",
+    "sameAs": {{ $authorSameAs | jsonify | safeJS }}
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ .Site.Title | safeJS }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ absURL "/img/main/emblem-color-square-150.png" }}"
-    }
-  },
+	  "publisher": {
+	    "@type": "Organization",
+	    "name": "{{ .Site.Title | safeJS }}",
+	    "logo": {
+	      "@type": "ImageObject",
+	      "url": "{{ absURL "/img/main/emblem-color-square-250.png" }}",
+	      "width": 250,
+	      "height": 250
+	    }
+	  },
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  {{- if not .Lastmod.IsZero }}
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-  {{- end }}
+	  {{- $reviewed := .Params.reviewed | default .Params.lastReviewed -}}
+	  {{- if $reviewed }}
+	  "dateModified": "{{ time.Format "2006-01-02T15:04:05Z07:00" $reviewed }}",
+	  {{- else if not .Lastmod.IsZero }}
+	  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+	  {{- end }}
   "url": "{{ .Permalink }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
-  {{- if $image.exists }}
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ absURL $image.permalink }}"
-  },
-  {{- end }}
+	  "image": {
+	    "@type": "ImageObject",
+	    "url": "{{ $ogImage }}"
+	    {{- with $og.width }},
+	    "width": {{ . }}{{- end -}}
+	    {{- with $og.height }},
+	    "height": {{ . }}{{- end }}
+	  },
   "keywords": {{ with .Params.tags }}{{ if reflect.IsSlice . }}{{ . | jsonify | safeJS }}{{ else }}{{ slice . | jsonify | safeJS }}{{ end }}{{ else }}[]{{ end }},
   "articleSection": {{ with .Params.categories }}{{ if reflect.IsSlice . }}{{ . | jsonify | safeJS }}{{ else }}{{ slice . | jsonify | safeJS }}{{ end }}{{ else }}[]{{ end }},
   "inLanguage": "{{ .Language.Lang }}"
-}
-</script>
+  {{- if .IsTranslated -}}
+    {{- /*
+      schema.org semantics:
+        translationOfWork = the original work this is a translation of
+        workTranslation   = the translation(s) of this work
+      We treat the EN (default-language) version as the original.
+    */ -}}
+    {{- $self := .Permalink -}}
+    {{- $other := (index .Translations 0).Permalink -}}
+    {{- if eq .Language.Lang .Site.Home.Site.Language.Lang -}}
+      ,
+  "workTranslation": {
+    "@id": "{{ $other }}"
+  }
+    {{- else -}}
+      ,
+  "translationOfWork": {
+    "@id": "{{ $other }}"
+  },
+  "workTranslation": {
+    "@id": "{{ $self }}"
+  }
+    {{- end -}}
+  {{- end }}
+	}
+	</script>
+	{{- else if not (or (eq .Type "search") (hasPrefix .RelPermalink "/search/") (hasPrefix .RelPermalink "/fr/search/")) -}}
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebPage",
+	  "name": "{{ .Title | safeJS }}",
+	  "description": "{{ $desc | safeJS }}",
+	  "url": "{{ .Permalink }}",
+	  "inLanguage": "{{ .Language.Lang }}",
+	  "isPartOf": {
+	    "@type": "WebSite",
+	    "name": "{{ .Site.Title | safeJS }}",
+	    "url": "{{ .Site.BaseURL }}"
+	  }
+	}
+	</script>
+	{{- end -}}
 {{- else if .IsHome -}}
 <script type="application/ld+json">
 {
@@ -53,7 +155,7 @@
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "{{ .Site.BaseURL }}/search/?q={search_term_string}"
+	      "urlTemplate": "{{ printf "%s?keyword={search_term_string}" (absLangURL "search/") | safeJS }}"
     },
     "query-input": "required name=search_term_string"
   }

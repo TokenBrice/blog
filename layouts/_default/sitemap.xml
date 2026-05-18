@@ -1,6 +1,10 @@
 {{- $sitePages := where .Site.RegularPages "Params.hidden" "!=" true -}}
+{{- $categoryTerms := where (where .Site.Pages "Kind" "term") "Section" "categories" -}}
+{{- $seriesTerms := where (where (where .Site.Pages "Kind" "term") "Section" "series") "Params.description" "!=" nil -}}
 {{- $pages := slice .Site.Home }}
 {{- $pages = $pages | append $sitePages -}}
+{{- $pages = $pages | append $categoryTerms -}}
+{{- $pages = $pages | append $seriesTerms -}}
 
 {{- $output := slice }}
 {{- $output = $output | append "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>" -}}
@@ -8,18 +12,22 @@
 {{- range where $pages "RelPermalink" "!=" "" }}
     {{- if and
         (ne .Type "search")
-        (ne .Kind "term")
+        (or (ne .Kind "term") (in (slice "categories" "series") .Section))
         (ne .Kind "taxonomy")
         (not (eq .RelPermalink "/search"))
         (not (hasSuffix .RelPermalink "/search/"))
         (not (strings.Contains .RelPermalink "/page/")) }}
+    {{- $changefreq := "monthly" -}}
+    {{- with .Sitemap.ChangeFreq -}}{{- $changefreq = . -}}{{- end -}}
+    {{- $priority := "0.5" -}}
+    {{- with .Sitemap.Priority -}}{{- $priority = printf "%.1f" . -}}{{- end -}}
     {{- $output = $output | append "    <url>" -}}
     {{- $output = $output | append (printf "      <loc>%s</loc>" .Permalink) -}}
     {{- if not .Lastmod.IsZero }}
     {{- $output = $output | append (printf "      <lastmod>%s</lastmod>" (.Lastmod.Format "2006-01-02T15:04:05-07:00")) -}}
     {{- end }}
-    {{- $output = $output | append "      <changefreq>monthly</changefreq>" -}}
-    {{- $output = $output | append "      <priority>0.5</priority>" -}}
+    {{- $output = $output | append (printf "      <changefreq>%s</changefreq>" $changefreq) -}}
+    {{- $output = $output | append (printf "      <priority>%s</priority>" $priority) -}}
     {{- $output = $output | append "    </url>" -}}
     {{- end }}
 {{- end }}

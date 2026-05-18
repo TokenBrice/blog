@@ -4,21 +4,32 @@
     {{- $description := partialCached "data/description" . .RelPermalink -}}
     <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
     {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+    {{- $title := partial "data/title" . -}}
     {{- $isNoIndex := false -}}
+    {{- /* Noindex term pages except curated category/series hubs with editorial intros. */ -}}
+    {{- $isIndexableTerm := and (eq .Kind "term") (or (eq .Section "categories") (and (eq .Section "series") .Params.description)) -}}
+    {{- $isNonCategoryTerm := and (eq .Kind "term") (not $isIndexableTerm) -}}
+    {{- /* Noindex paginated list pages beyond the first. */ -}}
+    {{- $isPaginated := strings.Contains .RelPermalink "/page/" -}}
+    {{- if .IsNode -}}
+      {{- with .Paginator -}}
+        {{- if gt .PageNumber 1 -}}{{- $isPaginated = true -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $isLowValueSection := and (eq .Kind "section") (in (slice "post" "page") .Section) -}}
     {{- if or
-        (eq .Kind "term")
+        $isNonCategoryTerm
         (eq .Kind "taxonomy")
         (eq .Type "search")
+        $isLowValueSection
         (hasPrefix .RelPermalink "/search/")
         (hasPrefix .RelPermalink "/fr/search/")
-        (strings.Contains .RelPermalink "/page/") -}}
+        $isPaginated -}}
         {{- $isNoIndex = true -}}
     {{- end }}
     {{- if $isNoIndex }}
     <meta name="robots" content="noindex,follow">
     {{- end }}
-
-    {{- $title := partial "data/title" . -}}
 <title>{{ $title }}</title>
 
 {{ if .Params.canonicalUrl -}}

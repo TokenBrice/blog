@@ -1,18 +1,26 @@
-{{- $siteEntries := . -}}
+{{- /*
+  Sitemap index. Lists explicit per-language URL-set files to avoid the
+  self-reference bug where the default-language home Permalink resolves to
+  `/` (because DefaultContentLanguageInSubdir is false), producing
+  `<loc>https://tokenbrice.xyz/sitemap.xml</loc>` -- which is this very file.
 
-{{- $output := slice }}
+  We emit:
+    - https://<baseURL>/en/sitemap.xml  (EN URL-set)
+    - https://<baseURL>/fr/sitemap.xml  (FR URL-set)
+*/ -}}
+{{- $base := strings.TrimRight "/" site.BaseURL -}}
+{{- $output := slice -}}
 {{- $output = $output | append "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>" -}}
 {{- $output = $output | append "<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">" -}}
-{{- range $siteEntries }}
-    {{- $home := .Home }}
-    {{- if ne $home.Permalink "" }}
+{{- range . -}}
+    {{- $lang := .Language.Lang -}}
+    {{- $home := .Home -}}
     {{- $output = $output | append "    <sitemap>" -}}
-    {{- $output = $output | append (printf "        <loc>%ssitemap.xml</loc>" $home.Permalink) -}}
-    {{- if not $home.Lastmod.IsZero }}
-    {{- $output = $output | append (printf "        <lastmod>%s</lastmod>" ($home.Lastmod.Format "2006-01-02T15:04:05-07:00")) -}}
-    {{- end }}
+    {{- $output = $output | append (printf "        <loc>%s/%s/sitemap.xml</loc>" $base $lang) -}}
+    {{- if and $home (not $home.Lastmod.IsZero) -}}
+        {{- $output = $output | append (printf "        <lastmod>%s</lastmod>" ($home.Lastmod.Format "2006-01-02T15:04:05-07:00")) -}}
+    {{- end -}}
     {{- $output = $output | append "    </sitemap>" -}}
-    {{- end }}
-{{- end }}
+{{- end -}}
 {{- $output = $output | append "</sitemapindex>" -}}
-{{- delimit $output "\n" | safeHTML }}
+{{- delimit $output "\n" | safeHTML -}}

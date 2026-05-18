@@ -1,8 +1,7 @@
 {{ define "main" }}
-    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $filtered := ($pages | intersect $notHidden) }}
-    {{ $pag := .Paginate ($filtered) }}
+    {{ $pages := where .Site.RegularPages "Section" "post" }}
+    {{ $notHidden := where $pages "Params.hidden" "!=" true }}
+    {{ $pag := .Paginate $notHidden }}
 
     {{ partial "projects-banner.html" (dict "Context" . "Variant" "home") }}
 

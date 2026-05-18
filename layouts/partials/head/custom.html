@@ -1,11 +1,50 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://ecocrypto.fr; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https://raw.githubusercontent.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://ecocrypto.fr; media-src 'self'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self';">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://ecocrypto.fr; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://raw.githubusercontent.com https://i.ytimg.com; font-src 'self'; connect-src 'self' https://ecocrypto.fr; media-src 'self'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self';">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="dns-prefetch" href="https://ecocrypto.fr">
+
+{{- /* Self-hosted fonts: Inter Tight (body), Fraunces (headings), Lato (legacy fallback). */ -}}
+{{- $interBody := resources.Get "fonts/inter-tight/inter-tight-400-latin.woff2" -}}
+{{- $fraunces := resources.Get "fonts/fraunces/fraunces-700-latin.woff2" -}}
+{{- with $interBody }}<link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/woff2" crossorigin>{{ end }}
+{{- with $fraunces }}<link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/woff2" crossorigin>{{ end }}
+
+{{- $latin := "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD" -}}
+{{- $latinExt := "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF" -}}
+
 <style>
+{{- /* Inter Tight 400/600/700 */ -}}
+{{- range $w := slice 400 600 700 -}}
+  {{- $latinFile := resources.Get (printf "fonts/inter-tight/inter-tight-%d-latin.woff2" $w) -}}
+  {{- $extFile := resources.Get (printf "fonts/inter-tight/inter-tight-%d-latin-ext.woff2" $w) -}}
+  {{- with $latinFile }}
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latin | safeCSS }};}
+  {{- end }}
+  {{- with $extFile }}
+@font-face{font-family:'Inter Tight';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latinExt | safeCSS }};}
+  {{- end }}
+{{- end }}
+{{- /* Fraunces 700 (headings) */ -}}
+{{- $frLatin := resources.Get "fonts/fraunces/fraunces-700-latin.woff2" -}}
+{{- $frExt := resources.Get "fonts/fraunces/fraunces-700-latin-ext.woff2" -}}
+{{- with $frLatin }}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:700;font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latin | safeCSS }};}
+{{- end }}
+{{- with $frExt }}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:700;font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latinExt | safeCSS }};}
+{{- end }}
+{{- /* Lato 400/700/900 (legacy fallback for any leftover usage) */ -}}
+{{- range $w := slice 400 700 900 -}}
+  {{- $latinFile := resources.Get (printf "fonts/lato/lato-%d-latin.woff2" $w) -}}
+  {{- $extFile := resources.Get (printf "fonts/lato/lato-%d-latin-ext.woff2" $w) -}}
+  {{- with $latinFile }}
+@font-face{font-family:'Lato';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latin | safeCSS }};}
+  {{- end }}
+  {{- with $extFile }}
+@font-face{font-family:'Lato';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latinExt | safeCSS }};}
+  {{- end }}
+{{- end }}
+
 .skip-to-content {
     position: absolute;
     left: -9999px;

@@ -1,22 +1,49 @@
 {{- /* layouts/partials/matomo-tracking.html */ -}}
-{{- /* Use hugo.IsServer instead of deprecated Site.IsServer */ -}}
+{{- /* Defers Matomo loader until requestIdleCallback fires (fallback: 2s setTimeout). */ -}}
+{{- /* Preserves SRI + data-attribute contract expected by assets/js/matomo-tracking.js. */ -}}
 {{ if hugo.IsServer }}
   {{ $trackingScript := resources.Get "js/matomo-tracking.js" }}
-  <script
-    data-id="matomo-tracking"
-    data-matomo-tracking-url="{{ $.Site.Params.matomo.url }}"
-    data-matomo-tracking-id="{{ $.Site.Params.matomo.id }}"
-    src="{{ $trackingScript.RelPermalink }}"
-    defer>
+  <script>
+    (function () {
+      function loadMatomo() {
+        var s = document.createElement('script');
+        s.dataset.id = 'matomo-tracking';
+        s.dataset.matomoTrackingUrl = '{{ $.Site.Params.matomo.url | safeJS }}';
+        s.dataset.matomoTrackingId = '{{ printf "%v" $.Site.Params.matomo.id | safeJS }}';
+        s.src = '{{ $trackingScript.RelPermalink | safeJS }}';
+        s.defer = true;
+        document.head.appendChild(s);
+      }
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadMatomo, { timeout: 5000 });
+      } else {
+        setTimeout(loadMatomo, 2000);
+      }
+    })();
   </script>
 {{ else }}
   {{ $trackingScript := resources.Get "js/matomo-tracking.js" | minify | fingerprint }}
-  <script
-    data-id="matomo-tracking"
-    data-matomo-tracking-url="{{ $.Site.Params.matomo.url }}"
-    data-matomo-tracking-id="{{ $.Site.Params.matomo.id }}"
-    src="{{ $trackingScript.RelPermalink }}"
-    {{- if not $.Site.Params.matomo.disableSRI }} integrity="{{ $trackingScript.Data.Integrity }}" crossorigin="anonymous"{{ end }}
-    defer>
+  <script>
+    (function () {
+      function loadMatomo() {
+        var s = document.createElement('script');
+        s.dataset.id = 'matomo-tracking';
+        s.dataset.matomoTrackingUrl = '{{ $.Site.Params.matomo.url | safeJS }}';
+        s.dataset.matomoTrackingId = '{{ printf "%v" $.Site.Params.matomo.id | safeJS }}';
+        s.src = '{{ $trackingScript.RelPermalink | safeJS }}';
+        {{- if not $.Site.Params.matomo.disableSRI }}
+        s.integrity = '{{ $trackingScript.Data.Integrity | safeJS }}';
+        s.crossOrigin = 'anonymous';
+        {{- end }}
+        s.defer = true;
+        document.head.appendChild(s);
+      }
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadMatomo, { timeout: 5000 });
+      } else {
+        setTimeout(loadMatomo, 2000);
+      }
+    })();
   </script>
 {{ end }}
+<noscript><p><img src="{{ $.Site.Params.matomo.url }}piwik.php?idsite={{ $.Site.Params.matomo.id }}&amp;rec=1" style="border:0;" alt=""></p></noscript>

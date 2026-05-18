@@ -9,9 +9,8 @@
 <meta name="twitter:title" {{ printf "content=%q" $title | safeHTMLAttr }}>
 <meta name="twitter:description" {{ printf "content=%q" $description | safeHTMLAttr }}>
 
-{{- $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" -}}
-{{- if $image.exists -}}
-    <meta name="twitter:card" content="{{ default `summary_large_image` .Site.Params.opengraph.twitter.card }}">
-    <meta name="twitter:image" content='{{ absURL $image.permalink }}' />
-    <meta name="twitter:image:alt" {{ printf "content=%q" (default .Title $description) | safeHTMLAttr }} />
-{{- end -}}
+{{- /* Always emit a card + image; helper guarantees a fallback to the default OG image. */ -}}
+{{- $og := partial "helper/og-image" . -}}
+<meta name="twitter:card" content="{{ default `summary_large_image` .Site.Params.opengraph.twitter.card }}">
+<meta name="twitter:image" content="{{ $og.url }}" />
+<meta name="twitter:image:alt" {{ printf "content=%q" (default .Title $description) | safeHTMLAttr }} />

@@ -23,8 +23,16 @@
 {{- end -}}
 <meta property='og:locale' content='{{ $locale }}'>
 
-{{- if .IsPage -}}
-    <meta property='article:section' content='{{ .Section | title }}' />
+{{- if eq .Type "post" -}}
+    {{- $articleSection := .Section | title -}}
+    {{- with .Params.categories -}}
+        {{- if reflect.IsSlice . -}}
+            {{- $articleSection = index . 0 -}}
+        {{- else -}}
+            {{- $articleSection = . -}}
+        {{- end -}}
+    {{- end -}}
+    <meta property='article:section' content='{{ $articleSection }}' />
     {{- range .Params.tags -}}
         <meta property='article:tag' content='{{ . }}' />
     {{- end -}}
@@ -43,12 +51,13 @@
     {{- end -}}
 {{- end -}}
 
-{{ $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" }}
-{{- if $image.exists -}}
-    <meta property='og:image' content='{{ absURL $image.permalink }}' />
-    {{- if $image.resource -}}
-        <meta property='og:image:width' content='{{ $image.resource.Width }}' />
-        <meta property='og:image:height' content='{{ $image.resource.Height }}' />
-    {{- end -}}
-    <meta property='og:image:alt' {{ printf "content=%q" (default .Title $description) | safeHTMLAttr }} />
-{{- end -}}
+{{- /* Always emit og:image; helper falls back to the default OG card. */ -}}
+{{- $og := partial "helper/og-image" . -}}
+<meta property='og:image' content="{{ $og.url }}" />
+{{- with $og.width }}
+<meta property='og:image:width' content='{{ . }}' />
+{{- end }}
+{{- with $og.height }}
+<meta property='og:image:height' content='{{ . }}' />
+{{- end }}
+<meta property='og:image:alt' {{ printf "content=%q" (default .Title $description) | safeHTMLAttr }} />
