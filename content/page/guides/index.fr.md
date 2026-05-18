@@ -10,7 +10,7 @@ readingTime: false
 menu:
     main:
         name: Guides
-        weight: -90
+        weight: -85
         params:
             icon: book
 ---

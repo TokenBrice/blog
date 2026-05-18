@@ -172,6 +172,29 @@
   }
 }
 
+#main-menu {
+  .menu-section {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid var(--card-separator-color);
+
+    > .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding-left: 0;
+    }
+  }
+
+  .menu-section--search {
+    margin-top: -5px;
+  }
+
+  .menu-section--tools {
+    padding-top: 24px;
+  }
+}
+
 /* Global focus-visible for keyboard navigation */
 a:focus-visible,
 button:focus-visible,
