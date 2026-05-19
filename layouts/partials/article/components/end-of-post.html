@@ -1,0 +1,90 @@
+{{/*
+    End-of-post terminal.
+    - 2 most-related posts (Hugo's .Site.RegularPages.Related with the related
+      config in hugo.yaml: category 10, series 20, tag 1).
+    - Follow targets pulled from .Site.Menus.social so hugo.yaml stays the source.
+    - RSS link to the section feed (falls back to site /index.xml).
+    Replaces themes/.../article/components/related-content rendering — caller
+    omits that partial.
+*/}}
+{{- $related := first 2 (where (.Site.RegularPages.Related .) "Params.hidden" "!=" true) -}}
+{{- $social := .Site.Menus.social -}}
+{{- $rssFeed := "/index.xml" | relLangURL -}}
+
+<aside class="end-of-post" aria-labelledby="end-of-post-heading">
+    <h2 id="end-of-post-heading" class="end-of-post__sr-only">{{ T "endOfPostHeading" }}</h2>
+
+    {{- with $related }}
+    <section class="end-of-post__related" aria-labelledby="eop-related-heading">
+        <h3 id="eop-related-heading" class="end-of-post__label">{{ T "endOfPostRelated" }}</h3>
+        <ul class="end-of-post__related-list">
+            {{- range . -}}
+                {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
+                {{- $cat := "" -}}
+                {{- with .GetTerms "categories" -}}{{- $cat = (index . 0).LinkTitle -}}{{- end -}}
+                <li class="end-of-post__related-item">
+                    <a href="{{ .RelPermalink }}" class="end-of-post__related-link">
+                        {{- if $image.exists -}}
+                            <span class="end-of-post__related-thumb" aria-hidden="true">
+                                {{- if $image.resource -}}
+                                    {{- $thumb := $image.resource.Fill "200x130" -}}
+                                    <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="" />
+                                {{- else -}}
+                                    <img src="{{ $image.permalink }}" loading="lazy" alt="" />
+                                {{- end -}}
+                            </span>
+                        {{- end -}}
+                        <span class="end-of-post__related-body">
+                            <span class="end-of-post__related-kicker">
+                                {{- if not .Date.IsZero -}}
+                                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") }}</time>
+                                {{- end -}}
+                                {{- if .ReadingTime -}}
+                                    <span class="end-of-post__related-dot" aria-hidden="true">·</span>
+                                    <span>{{ T "article.readingTime" .ReadingTime }}</span>
+                                {{- end -}}
+                                {{- with $cat -}}
+                                    <span class="end-of-post__related-dot" aria-hidden="true">·</span>
+                                    <span>{{ . }}</span>
+                                {{- end -}}
+                            </span>
+                            <span class="end-of-post__related-title">{{ .Title }}</span>
+                        </span>
+                    </a>
+                </li>
+            {{- end -}}
+        </ul>
+    </section>
+    {{- end }}
+
+    <section class="end-of-post__follow{{ if not $related }} end-of-post__follow--solo{{ end }}" aria-labelledby="eop-follow-heading">
+        <h3 id="eop-follow-heading" class="end-of-post__label">{{ T "endOfPostFollow" }}</h3>
+        <ul class="end-of-post__follow-list">
+            {{- range $social -}}
+                <li>
+                    <a class="end-of-post__follow-link"
+                       href="{{ .URL }}"
+                       {{ if eq (default true .Params.newTab) true }}target="_blank" rel="me noopener"{{ else }}rel="me"{{ end }}
+                       aria-label="{{ .Name }}"
+                       title="{{ .Name }}">
+                        <span class="end-of-post__follow-icon" aria-hidden="true">
+                            {{- partial "helper/icon" (default "link" .Params.Icon) -}}
+                        </span>
+                        <span class="end-of-post__follow-name">{{ .Name }}</span>
+                    </a>
+                </li>
+            {{- end -}}
+            <li>
+                <a class="end-of-post__follow-link end-of-post__follow-link--rss"
+                   href="{{ $rssFeed }}"
+                   aria-label="{{ T "endOfPostRSS" }}"
+                   title="{{ T "endOfPostRSS" }}">
+                    <span class="end-of-post__follow-icon" aria-hidden="true">
+                        {{- partial "helper/icon" "rss" -}}
+                    </span>
+                    <span class="end-of-post__follow-name">{{ T "endOfPostRSS" }}</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>

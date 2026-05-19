@@ -1,0 +1,277 @@
+/* ============================================================
+ * End-of-post terminal
+ * Appears after the long-form body. Two-column composition at md+
+ * (related posts on the left, follow stack on the right); single
+ * column on mobile. Flat at rest, hairline border, 10px radius.
+ * No subscribe-hero gradient, no CTA card, no SaaS.
+ * ============================================================ */
+
+.end-of-post {
+    margin: 3rem var(--card-padding, 1.5rem) 0;
+    padding: 1.75rem 1.75rem 1.5rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-separator-color);
+    border-radius: var(--card-border-radius, 10px);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+
+    @media (min-width: 768px) {
+        grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
+        gap: 2.5rem;
+        padding: 2rem 2.25rem 1.75rem;
+    }
+
+    &__sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    &__label {
+        margin: 0 0 0.95rem;
+        font-family: var(--base-font-family);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent-color);
+    }
+}
+
+/* ----- Related posts ----- */
+.end-of-post__related-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+
+    @media (min-width: 520px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+}
+
+.end-of-post__related-item {
+    margin: 0;
+}
+
+.end-of-post__related-link {
+    display: flex;
+    gap: 0.85rem;
+    align-items: stretch;
+    padding: 0.7rem;
+    border-radius: var(--tag-border-radius, 4px);
+    text-decoration: none;
+    color: inherit;
+    background: transparent;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+        background: var(--card-background-selected);
+        transform: translateY(-1px);
+
+        .end-of-post__related-title {
+            color: var(--accent-color);
+        }
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
+.end-of-post__related-thumb {
+    flex: 0 0 auto;
+    width: 88px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: var(--tag-border-radius, 4px);
+    background: var(--card-background-selected);
+    display: block;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.end-of-post__related-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    gap: 0.25rem;
+}
+
+.end-of-post__related-kicker {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--card-text-color-tertiary);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    align-items: center;
+    line-height: 1.3;
+}
+
+.end-of-post__related-dot {
+    opacity: 0.6;
+}
+
+.end-of-post__related-title {
+    font-family: var(--article-font-family);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--card-text-color-main);
+    transition: color 0.2s ease;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ----- Follow stack ----- */
+.end-of-post__follow {
+    @media (min-width: 768px) {
+        padding-left: 1.75rem;
+        border-left: 1px solid var(--card-separator-color);
+    }
+
+    &--solo {
+        @media (min-width: 768px) {
+            padding-left: 0;
+            border-left: 0;
+        }
+    }
+}
+
+.end-of-post__follow-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.4rem;
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+    }
+}
+
+.end-of-post__follow-link {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.55rem 0.65rem;
+    border-radius: var(--tag-border-radius, 4px);
+    color: var(--card-text-color-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: color 0.18s ease, background-color 0.18s ease;
+
+    &:hover,
+    &:focus-visible {
+        color: var(--accent-color);
+        background: var(--card-background-selected);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
+.end-of-post__follow-icon {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        display: block;
+        /* Brand icons ship with a fixed slate fill — coerce them
+         * to currentColor so hover tinting works uniformly. */
+        fill: currentColor;
+        stroke: currentColor;
+
+        path,
+        circle,
+        rect,
+        polygon {
+            fill: currentColor;
+        }
+    }
+
+    /* RSS icon is stroke-only (tabler) — restore its fill state. */
+    .end-of-post__follow-link--rss & svg {
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+
+        path,
+        circle,
+        rect,
+        polygon {
+            fill: none;
+        }
+    }
+}
+
+.end-of-post__follow-name {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+/* ----- Dark mode ----- */
+[data-scheme="dark"] {
+    .end-of-post {
+        background: rgba(255, 255, 255, 0.025);
+        border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .end-of-post__follow {
+        @media (min-width: 768px) {
+            border-left-color: rgba(255, 255, 255, 0.08);
+        }
+    }
+
+    .end-of-post__related-thumb {
+        background: rgba(255, 255, 255, 0.04);
+    }
+}
+
+/* ----- Reduced motion ----- */
+@media (prefers-reduced-motion: reduce) {
+    .end-of-post__related-link {
+        transition: background-color 0.01ms;
+
+        &:hover,
+        &:focus-visible {
+            transform: none;
+        }
+    }
+}
