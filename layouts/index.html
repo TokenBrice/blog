@@ -3,6 +3,13 @@
     {{ $notHidden := where $pages "Params.hidden" "!=" true }}
     {{ $pag := .Paginate $notHidden }}
 
+    {{- $heroClaim := .Params.heroClaim | default (T "homepageHero") -}}
+    {{- if $heroClaim }}
+    <header class="homepage-hero">
+        <h1 class="homepage-hero__claim">{{ $heroClaim }}</h1>
+    </header>
+    {{- end }}
+
     {{ partial "projects-banner.html" (dict "Context" . "Variant" "home") }}
 
     <section class="article-list">

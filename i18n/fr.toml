@@ -122,6 +122,21 @@ other = "Cliquer pour filtrer par catégorie"
 other = "Lire la définition complète"
 
 
+# Browse widget
+
+[browseWidgetLabel]
+other = "Parcourir les archives"
+
+[browseTabCategories]
+other = "Catégories"
+
+[browseTabArchives]
+other = "Archives"
+
+[browseTabDifficulty]
+other = "Niveau"
+
+
 # Difficulty / Expertise
 
 [difficultyWidgetTitle]
@@ -248,6 +263,9 @@ other = "9"
 
 [projectsBannerLabel]
 other = "Projets"
+
+[projectsBannerProvenance]
+other = "Ce que l'auteur construit aussi. Divulgué parce que vous devez le savoir."
 
 
 # Article components
