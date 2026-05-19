@@ -74,7 +74,7 @@ jobs:
             webp="${src%.*}.webp"
             if [ ! -f "$webp" ]; then
               echo "Generating $webp"
-              cwebp -q 80 "$src" -o "$webp"
+              cwebp -quiet -q 80 "$src" -o "$webp"
             fi
           done
 
@@ -87,7 +87,7 @@ jobs:
           while IFS= read -r -d '' f; do
             out="${f%.*}.avif"
             if [[ ! -f "$out" ]]; then
-              if ! avifenc --min 25 --max 35 --speed 6 "$f" "$out"; then
+              if ! avifenc -q 52 --speed 6 "$f" "$out" >/dev/null; then
                 echo "AVIF generation failed: $f"
                 failed=1
               fi
@@ -106,8 +106,9 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENV: production
           HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify
+        run: hugo --gc --minify --environment production
 
       - name: Validate generated site output
         run: npm run validate:site

@@ -11,7 +11,8 @@
     "validate:frontmatter": "python3 scripts/validate-frontmatter.py",
     "validate:content": "python3 scripts/validate-content-safety.py",
     "validate:site": "python3 scripts/validate-site-output.py",
-    "verify": "npm run validate:frontmatter && npm run validate:content && npm run typecheck && npm run build && npm run validate:site"
+    "push-gate": "bash scripts/push-gate.sh",
+    "verify": "npm run push-gate"
   },
   "author": "TokenBrice",
   "license": "CC-BY-NC-SA-4.0",
