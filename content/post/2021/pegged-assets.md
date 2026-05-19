@@ -135,7 +135,7 @@ Most often, the main parameter taken into account is simply **the price of the s
 
 For more background on this "smart contract central bank" idea, you can read my first article on algorithmic Stablecoins:
 
-**[L'état et le futur des Stablecoins algorithmiques](https://tokenbrice.xyz/algorithmic-Stablecoins/)**
+**[L'état et le futur des Stablecoins algorithmiques](https://tokenbrice.xyz/algorithmic-stablecoins/)**
 
 #### Algorithmic approaches
 

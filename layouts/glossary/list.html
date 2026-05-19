@@ -9,9 +9,9 @@
 
 {{ define "main" }}
     {{- $lang := .Language.Lang -}}
-    {{- $glossaryData := index .Site.Data.glossary $lang -}}
+    {{- $glossaryData := index hugo.Data.glossary $lang -}}
     {{- $terms := $glossaryData.terms -}}
-    {{- $categories := index .Site.Data.glossary.categories $lang -}}
+    {{- $categories := index hugo.Data.glossary.categories $lang -}}
 
     <article class="{{ if .Params.image }}has-image {{ end }}main-article">
         <header class="article-header">

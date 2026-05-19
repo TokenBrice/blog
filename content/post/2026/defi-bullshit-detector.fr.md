@@ -15,11 +15,7 @@ Dans l'Arena cette semaine, j'ai essayé quelque chose de différent : au lieu d
 
 En 1h15, nous avons pu configurer une nouvelle instance Claude depuis zéro, lui faire écrire son fichier `claude.md` avec nos instructions, installer les outils nécessaires pour requêter des données onchain, puis lancer une analyse test sur ThGold qui a retourné de nombreux red flags critiques, dont plusieurs ne semblaient pas avoir été découverts auparavant par d'autres chercheurs.
 
-Tout cela s'est passé en live et a été enregistré :
-
- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi <a href="https://t.co/wDlVUOb2LJ">https://t.co/wDlVUOb2LJ</a></p>&mdash; tokenbrice.eth (🐛,🔍)
-  (@TokenBrice) <a href="https://twitter.com/TokenBrice/status/2019411494228881549?ref_src=twsrc%5Etfw">February 5, 2026</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Tout cela s'est passé en live et a été enregistré : [TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi](https://twitter.com/TokenBrice/status/2019411494228881549).
 
 Vu la pertinence et la qualité des résultats, j'ai pensé documenter cette configuration plus en détail dans un article afin de permettre à tous les curieux de la reproduire localement et de mener des recherches sur le protocole de leur choix.
 

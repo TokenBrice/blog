@@ -12,9 +12,9 @@
 {{ define "main" }}
     {{- $lang := .Language.Lang -}}
     {{- $glossaryId := .Params.glossary_id -}}
-    {{- $glossaryData := index .Site.Data.glossary $lang -}}
+    {{- $glossaryData := index hugo.Data.glossary $lang -}}
     {{- $allTerms := $glossaryData.terms -}}
-    {{- $categories := index .Site.Data.glossary.categories $lang -}}
+    {{- $categories := index hugo.Data.glossary.categories $lang -}}
 
     {{- /* Find the term */ -}}
     {{- $term := false -}}

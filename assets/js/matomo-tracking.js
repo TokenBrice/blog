@@ -27,6 +27,22 @@ function trackSeoEvent(category, action, name) {
   _paq.push(['trackEvent', category, action, name || '']);
 }
 
+function externalHost(href) {
+  try {
+    return new URL(href, window.location.origin).hostname.replace(/^www\./, '');
+  } catch (e) {
+    return 'unknown';
+  }
+}
+
+function searchLengthBucket(value) {
+  var length = value.trim().length;
+  if (length <= 10) return '1-10';
+  if (length <= 30) return '11-30';
+  if (length <= 60) return '31-60';
+  return '61+';
+}
+
 function closestAnchor(target) {
   while (target && target !== document) {
     if (target.tagName === 'A') return target;
@@ -40,16 +56,16 @@ document.addEventListener('click', function (event) {
   if (!link) return;
 
   var href = link.getAttribute('href') || '';
-  var label = (link.textContent || href).trim().slice(0, 120);
+  var label = (link.textContent || '').trim().slice(0, 80);
 
   if (href.indexOf('.xml') !== -1 || href.indexOf('/index.xml') !== -1) {
-    trackSeoEvent('Distribution', 'RSS click', href);
+    trackSeoEvent('Distribution', 'RSS click', 'feed');
   } else if (/t\.me|x\.com|twitter\.com|warpcast\.com|youtube\.com|farcaster/i.test(href)) {
-    trackSeoEvent('Distribution', 'Social click', href);
+    trackSeoEvent('Distribution', 'Social click', externalHost(href));
   } else if (link.hreflang || link.closest('.article-translations')) {
     trackSeoEvent('Navigation', 'Language switch', link.getAttribute('hreflang') || label);
   } else if (/\/(projects|pharos|why-polaris|defi-bullshit-detector)\//i.test(href)) {
-    trackSeoEvent('Content', 'Project click', href);
+    trackSeoEvent('Content', 'Project click', 'internal-project');
   }
 });
 
@@ -58,7 +74,7 @@ document.addEventListener('submit', function (event) {
   if (!form || !/search/i.test(form.getAttribute('action') || form.id || form.className || '')) return;
   var input = form.querySelector('input[type="search"], input[name="keyword"], input[name="q"]');
   if (input && input.value.trim()) {
-    trackSeoEvent('Search', 'Site search', input.value.trim().slice(0, 120));
+    trackSeoEvent('Search', 'Site search', searchLengthBucket(input.value));
   }
 });
 
@@ -66,6 +82,6 @@ document.addEventListener('change', function (event) {
   var input = event.target;
   if (!input || input.tagName !== 'INPUT' || input.type !== 'search') return;
   if (input.value.trim()) {
-    trackSeoEvent('Search', 'Site search', input.value.trim().slice(0, 120));
+    trackSeoEvent('Search', 'Site search', searchLengthBucket(input.value));
   }
 });

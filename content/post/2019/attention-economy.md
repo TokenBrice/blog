@@ -16,7 +16,7 @@ The attention economy is the idea that we’re switching to or already exploring
 
 **Our mental capabilities are limited and therefore so is the receptiveness of information.** With the multiplication and the diversification of content (books, videos, blog posts, social media, etc.), we observe a paradigm shift. **The limiting factor switched**: we’re running out of captivated eyeballs for all the content that gets produced daily.
 
-![](/img/2019/attention-economy/60s.jpeg)
+![image](/img/2019/attention-economy/60s.jpeg)
 
 Attention became the new scarce limiting factor.
 

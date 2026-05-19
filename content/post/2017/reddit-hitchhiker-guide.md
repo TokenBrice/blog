@@ -53,7 +53,7 @@ To find sizable audience on Reddit, **you must frame your content a certain way.
 *   **Link Post:** they include an URL and a title. On the frontpage, the title will be displayed and if the user clicks it, he’ll get to the page linked.
 *   **Text Post:** they include a title and a body text. **The text itself can include links.** On the frontpage, if a user clicks a text post, he stays on Reddit and sees the body of the post as well as the comments.
 
-![**Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**](/img/2017/reddit/fronpage.png)
+![**Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**](/img/2017/reddit/frontpage.png)
 **Screenshot of the frontpage of Reddit, here all posts are link posts. You can tell by the domain displayed in parenthesis after the title. The top post squared in black is an ad.**
 
 #### The link vs text struggle
@@ -102,7 +102,7 @@ On top of the traffic, the campaign landed over 10 business lead and a few newsl
 
 It leads us to our third and latest campaign. Once again, we wanted to bank on an organic success. With the reach of [our Sketch post](https://www.callr.com/blog/how-i-streamlined-my-design-process-with-a-few-nested-symbols-on-sketch/), we decided to give it a try on Reddit as designer communities are dynamic. The targeting was the following: /r/SketchApp, /r/design, /r/web\_design, /r/userexperience, /r/userexperiencedesign, /r/graphic\_design.
 
-![_Results of Sketch Reddit Ads campaign_](/img/2017/reddit/ad3s.png)
+![_Results of Sketch Reddit Ads campaign_](/img/2017/reddit/ads3.png)
 _Results of Sketch Reddit Ads campaign_
 
 While the content did not have the same conversion potential as the House Hunter Bot, it helped us raise awareness in the entrepreneurs and design communities.

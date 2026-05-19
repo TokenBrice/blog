@@ -85,7 +85,7 @@ To explain the model of LUSD Chicken Bonds, let’s jump to the depositor perspe
 
 <video autoplay loop muted playsinline title="An 🥚 Egg NFT, a 🐔 Chicken In NFT and a 🐣 Chicken Out NFT">
   <source src="/img/2022/lusd-chicken-bonds/3chickens-static.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.mp4">View GIF</a>
 </video>
 
 **To create a bond, a user deposits LUSD. In exchange, he receives an 🥚 Egg NFT representing his deposit**. The NFT contains the claim on the underlying bonded LUSD and can be sold or transferred. From thereon, the user has two mutually exclusive options that will transform his NFT too:
@@ -100,7 +100,7 @@ A user can recover the full invested amount at any time during the process. Stil
 
 <video autoplay loop muted playsinline title="Preview of the possible variations">
   <source src="/img/2022/lusd-chicken-bonds/3chickens.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens.mp4">View GIF</a>
 </video>
 
 #### Going deeper into the Chicken Bonds NFT

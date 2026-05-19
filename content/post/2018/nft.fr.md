@@ -39,7 +39,7 @@ Passons tout de suite à des exemples concrets qui sont bien plus parlants que l
 
 Le meilleur exemple que nous connaissons tous, ce sont bien sûr... Les cartes Pokémon ! Tant qu'à faire, prenons celle qui assurait le respect dans la cours de recré : Dracaufeu en personne.
 
-![](/img/2018/nft/charizard.jpeg)
+![image](/img/2018/nft/charizard.jpeg)
 
 Un carte Pokémon c'est :
 
@@ -57,7 +57,7 @@ Chaque carte Pokémon est unique, mais toutes suivent cette typologie.
 
 En effet, considérons la carte de Tortank : il a lui aussi les mêmes 7 attributs décrits plus haut, mais a des valeurs différentes pour chaque.
 
-![](/img/2018/nft/blastoise.jpeg)
+![image](/img/2018/nft/blastoise.jpeg)
 
 C'est la combinaison de tous les attributs qui font l'unicité de la carte. Ainsi, toute carte de type feu à 150PV n'est pas un Dracaufeu, c'est simplement une carte qui partage 2 de ses 7 attributs (type et PV) avec Dracaufeu.
 
@@ -83,13 +83,13 @@ Ce qui va nous intéresser aujourd'hui, ce sont les tokens non fongibles. Il y a
 
 L'exemple le plus célèbre, ce sont les [CryptoKitties](https://www.cryptokitties.co/), des chats virtuels qui ont été les précurseurs du standard mentionné plus haut.
 
-![](/img/2018/nft/cryptokitties.png)
+![image](/img/2018/nft/cryptokitties.png)
 
 Lancé en Octobre, les CryptoKitties ont eu tellement de succès qu'ils ont provoqué une surcharge de l'ensemble du réseau Ethereum pendant plusieurs jours début Décembre, au summum de leur viralité.
 
 Certains matous particulièrement désirables ont atteint des prix délirants, à 5 chiffres (en $) et changé de main plusieurs fois par semaine début Décembre. Face au succès, le standard est passé par toutes les étapes de validation pour être finalisé en juin 2018.
 
-![](/img/2018/nft/ck-price.png)
+![image](/img/2018/nft/ck-price.png)
 
 
 ### Les tokens non fongibles dans le vrai monde

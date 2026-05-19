@@ -2,9 +2,9 @@
   Content adapter for the DeFi glossary.
 
   Runs once per site language (enabled via EnableAllLanguages).
-  Reads site.Data.glossary.<lang>.terms and emits one virtual page per
+  Reads hugo.Data.glossary.<lang>.terms and emits one virtual page per
   term. The page layout (glossary-term) reads the full term data back
-  out of site.Data.glossary at render time, so this adapter only needs
+  out of hugo.Data.glossary at render time, so this adapter only needs
   to expose the bare metadata needed for:
     - URL slug (content path)
     - <title> and <meta description>
@@ -18,7 +18,7 @@
 {{ .EnableAllLanguages }}
 
 {{ $lang := site.Language.Lang }}
-{{ $glossaryData := index site.Data.glossary $lang }}
+{{ $glossaryData := index hugo.Data.glossary $lang }}
 {{ if and $glossaryData $glossaryData.terms }}
   {{ range $glossaryData.terms }}
     {{ $term := . }}

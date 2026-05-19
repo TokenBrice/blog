@@ -1,0 +1,29 @@
+# Self-hosted overrides for theme's external dependencies.
+# Vendored files live in /static/js/ and /static/css/; SRI hashes
+# match the original jsDelivr-served bundles (verified at vendor time).
+# This file fully replaces themes/hugo-theme-stack/data/external.yaml,
+# so any namespaces the theme defines but this site doesn't use
+# (KaTeX, Cactus) must be repeated here if you want them.
+# Only Vibrant + PhotoSwipe are needed by this site; KaTeX is gated
+# by `params.article.math` which is false in hugo.yaml.
+
+Vibrant:
+    - src: /js/vibrant.min.js
+      integrity: sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=
+      type: script
+      defer: true
+
+PhotoSwipe:
+    - src: /js/photoswipe.umd.min.js
+      integrity: sha256-uob9La2zGs2OSIVA/ttQN8WYv4bGOiqATVAlJxr2oyM=
+      type: script
+      defer: true
+
+    - src: /js/photoswipe-lightbox.umd.min.js
+      integrity: sha256-5uCD8UkcQtWnG3atS61/a9f9aPGOMV69F0hTeuFNzfQ=
+      type: script
+      defer: true
+
+    - src: /css/photoswipe.min.css
+      integrity: sha256-4SEErg+B6488jYHCMaOO/Ad8fJFjRslmHi1g4n/Ji4k=
+      type: style

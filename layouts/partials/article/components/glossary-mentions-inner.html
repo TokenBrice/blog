@@ -6,7 +6,7 @@
     findRE (regex only run on the ~few terms that pass the cheap check).
 */}}
 {{- $lang := .Site.Language.Lang -}}
-{{- $glossary := index .Site.Data.glossary $lang -}}
+{{- $glossary := index hugo.Data.glossary $lang -}}
 {{- if and $glossary $glossary.terms -}}
     {{- $raw := lower .RawContent -}}
     {{- $raw = replaceRE "(?s)```.*?```" " " $raw -}}
@@ -36,7 +36,8 @@
             <h3>{{ T "glossaryMentionsTitle" | default "Concepts in this article" }}</h3>
             <ul>
                 {{- range $matches }}
-                <li><a href="/glossary/{{ .id }}/">{{ .term }}</a></li>
+                {{- $href := printf "glossary/%s/" .id | relLangURL -}}
+                <li><a href="{{ $href }}">{{ .term }}</a></li>
                 {{- end }}
             </ul>
         </aside>

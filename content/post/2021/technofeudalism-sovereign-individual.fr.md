@@ -101,7 +101,7 @@ La DeFi permet donc aux individus de posséder et d'échanger des biens sans avo
 
 Merci d'avoir lu cet article jusqu'à la fin. Si vous l'avez aimé, vous pouvez :
 - consulter le reste de mon travail publié sur **[ce blog](/)**.
-- suivez-moi [sur Twitter](https://twitter.com/tokenbrice/) ou [en utilisant le flux RSS](/rss.xml/).
+- suivez-moi [sur Twitter](https://twitter.com/tokenbrice/) ou [en utilisant le flux RSS](/index.xml).
 
 {{< notice tip >}}
 

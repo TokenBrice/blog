@@ -108,7 +108,7 @@
                         {{ partial "helper/icon" "language" }}
                         <select name="language" title="{{ T "switchLanguage" | default "Switch language" }}" aria-label="{{ T "switchLanguage" | default "Switch language" }}" onchange="window.location.href = this.selectedOptions[0].value">
                             {{ range $translations }}
-                                <option value="{{ .Permalink }}" {{ if eq .Language.Lang $currentLanguageCode }}selected{{ end }}>{{ .Language.LanguageName }}</option>
+                                <option value="{{ .Permalink }}" {{ if eq .Language.Lang $currentLanguageCode }}selected{{ end }}>{{ .Language.Label }}</option>
                             {{ end }}
                         </select>
                     </li>

@@ -30,7 +30,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.148.2'
+          hugo-version: '0.161.1'
           extended: true
 
       - name: Install Dart Sass
@@ -47,7 +47,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm ci
 
       - name: Cache Hugo resources
         uses: actions/cache@v4
@@ -59,7 +59,10 @@ jobs:
           restore-keys: hugo-
 
       - name: Validate post front-matter
-        run: python3 scripts/validate-frontmatter.py
+        run: npm run validate:frontmatter
+
+      - name: Validate content safety
+        run: npm run validate:content
 
       - name: TypeScript typecheck
         run: npm run typecheck
@@ -80,13 +83,17 @@ jobs:
 
       - name: Generate missing AVIF siblings
         run: |
-          find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | \
+          failed=0
           while IFS= read -r -d '' f; do
             out="${f%.*}.avif"
             if [[ ! -f "$out" ]]; then
-              avifenc --min 25 --max 35 --speed 6 "$f" "$out" 2>/dev/null || echo "skip: $f"
+              if ! avifenc --min 25 --max 35 --speed 6 "$f" "$out"; then
+                echo "AVIF generation failed: $f"
+                failed=1
+              fi
             fi
-          done
+          done < <(find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0)
+          exit "$failed"
 
       - name: Verify ImageMagick and jq installed
         run: |
@@ -102,8 +109,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: hugo --gc --minify
 
-      - name: Build Pagefind search index
-        run: npx -y pagefind@latest --site public --output-subdir _pagefind
+      - name: Validate generated site output
+        run: npm run validate:site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

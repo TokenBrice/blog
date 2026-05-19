@@ -49,7 +49,7 @@ Understanding the difference between a store of value and a claim upon value all
 
 <video autoplay loop muted playsinline>
   <source src="/img/2018/money101/fly.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/money101/fly.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/money101/fly.mp4">View GIF</a>
 </video>
 
 Let’s go back to our previous cash burning experiment to dig deeper: when I burnt my $20 bill, it had no impact on the GDP (Gross Domestic Product) of the USA. Yet, if I start to burn millions of dollars, we might start to see **secondary consequences** affecting the GDP: since there will be less money circulating, there might be less people using it to claim value (a beer, clothes…) and therefore an impact on the real economy of the country.
@@ -62,7 +62,7 @@ Putting a stop to the flow of money which would have changed hands without that 
 
 To get over with the myth of money as a store of value, let’s consider a third and last scenario. Let’s say I print a very **well done stash of counterfeit money **— everybody take it for the real one. Now I give out those bills to normal American citizens, and for the sake of the simplicity of this example, the FED doesn’t notice.
 
-![](/img/2018/money101/print.jpeg)
+![image](/img/2018/money101/print.jpeg)
 
 In that scenario, the happy citizens who got free real-like yet counterfeit bills will start spending them for goods and services — they will claim what is rightfully theirs because of their ownership of the bills, hence increasing the GDP of the country.
 
@@ -76,7 +76,7 @@ Let’s go back to the first tale about the origin of money presented in the beg
 
 We need to place some context to answer this question. We’re talking about a world where money doesn’t exist yet; hell, the very notion of “property” is even clear yet. **Of course there were exchanges, but the “exchange protocol” was very different that what we picture behind the idea of bartering**.
 
-![](/img/2018/money101/swap.jpeg)
+![image](/img/2018/money101/swap.jpeg)
 
 Premodern agricultural societies were largely self-sufficient: exchanges between the member of a given community followed informal systems based on relationships: the “economy” was powered by gifting and reciprocity.[^3]
 
@@ -109,13 +109,13 @@ Here is a short and (too) quick explanation — a central bank emit a moneta
 
 Now that we are clear on monetary creation — made by bank and nothing more that an input on a ledger — let’s tackle the last myth surrounding money, the one that states that money became 0 and 1, bits stored somewhere on a server.
 
-![](/img/2018/money101/1000xcut.jpeg)
+![image](/img/2018/money101/1000xcut.jpeg)
 
 **In real life, the nature of money hasn’t changed**: the good old bank ledger is still authoritative. Its authority comes from the fact that it doesn’t exist in a vacuum: it draws its authority from the whole **political, societal and judiciary system that surround it**. The way we interact with the ledger (analog or digital) doesn’t reshuffle the decks.
 
 With credit cards, ATMs, online banking and all the others “innovations”, it might seem like our monetary system evolved. In reality, we’re still very close to our first monetary systems and our modern currencies follow pretty much the same rules as the old ones. **Innovations and changes happened mostly at the interface level: how we interact with the ledger.**
 
-![](/img/2018/money101/coins.jpeg)
+![image](/img/2018/money101/coins.jpeg)
 
 Most of the changes happened at the monetary creation level, it used to be much simpler and a state matter but the rest didn’t budge much. Our modern currencies share more with the Gold Franc[^7] - pardon my Frenchness - that we imagine. Disruption has yet to happen on currencies, what we had so far is barely a parade of facelifts.
 

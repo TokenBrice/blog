@@ -31,13 +31,13 @@ Dark patterns are nothing new. The UX designer Harry Brignull coined it eight ye
 
 **Confirmshaming:** guilting the user into opting into something. The decline option is usually worded so that the user is shamed into compliance: who wants to click a `I am a bad person` action link?
 
-![](/img/2019/dark-patterns/adblocker-guilt-trip.png)
+![image](/img/2019/dark-patterns/adblocker-guilt-trip.png)
 
 **Hidden costs**: hiding additional costs (such as delivery) until the very last step of the purchase process. By then, the user has committed quite time to the process, and probably already inputted his credit card info. The [confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias) might give him the nudge he needs to finish his purchase despite the surprise.
 
 **Trick questions**: framing questions to mislead the users. While reading quickly, the user might think he’s opting-out while he’s actually opting-in. It works even better when used in series alternating opt-in and opt-out like on the example below:
 
-![](/img/2019/dark-patterns/trick-q.png)
+![image](/img/2019/dark-patterns/trick-q.png)
 
 ### Service-level dark patterns
 
@@ -92,6 +92,6 @@ Regarding Privacy and traceability of the data we share, the decentralized ledge
 *   Reliable and decentralized identity management: [Civic](https://www.civic.com/) or [uPort](https://www.uport.me/)
 *   Financial Privacy: [Monero](https://www.getmonero.org/)
 
-![](/img/2019/dark-patterns/bat.png)
+![image](/img/2019/dark-patterns/bat.png)
 
 Such systems are still under development and far from mainstream adoptions. In the meanwhile, the way we design digital interfaces needs to change: can there be such a thing as bright design? We can at least see how it would look like: transparent, honest, and empowering the users instead of deceiving them.

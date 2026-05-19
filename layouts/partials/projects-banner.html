@@ -4,7 +4,7 @@
     {{- $context = .Context -}}
     {{- $variant = .Variant | default "default" -}}
 {{- end -}}
-{{- with site.Data.projects.projects -}}
+{{- with hugo.Data.projects.projects -}}
 {{- $lang := $context.Page.Language.Lang -}}
 <section class="projects-banner projects-banner--{{ $variant }}" aria-label="{{ T "projectsBannerLabel" }}">
     <div class="projects-banner__band">

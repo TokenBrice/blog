@@ -12,7 +12,7 @@
 {{- end -}}
 
 {{- /* Resolve category name */ -}}
-{{- $categories := index $site.Data.glossary.categories $lang -}}
+{{- $categories := index hugo.Data.glossary.categories $lang -}}
 {{- $categoryName := $term.category -}}
 {{- range $categories -}}
     {{- if eq .id $term.category -}}

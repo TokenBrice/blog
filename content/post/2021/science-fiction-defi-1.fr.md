@@ -78,7 +78,7 @@ Pendant que les autres parlent en lambos, ici nous savons bien qu'une DeLorean =
 
 <video autoplay loop muted playsinline title="Le Space Bulla - ManWithNoName">
   <source src="/img/2021/scifidefi/space-bulla.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2021/scifidefi/space-bulla.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2021/scifidefi/space-bulla.mp4">View GIF</a>
 </video>
 
 J'ai absolument hâte de vous retrouver en compagnie de Manu pour la première. On ne sait pas si l'audience sera au rendez-vous mais une chose est sûre : on se fait déjà plaisir !

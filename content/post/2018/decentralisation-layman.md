@@ -75,7 +75,7 @@ To know how architecturally decentralized a system is, you can ask these questio
 
 Politics is about power. This dimension address the **decision making process of the system**. The most politically centralized protocol is one where a sole decision maker makes all the shots. At the other end of the spectrum, you’ll have many actors and evenly distributed responsibilities.
 
-![](/img/2018/decentralisation-layman/politics.jpeg)
+![image](/img/2018/decentralisation-layman/politics.jpeg)
 
 In the most politically decentralized systems, the spread between the least influential node and the most influential node is kept to a minimum. The perfectly politically decentralized network would offer the same influence to any node.
 
@@ -148,7 +148,7 @@ Well… yes and no. First, you have to consider how cheap computing power got ov
 
 <video autoplay loop muted playsinline title="Hard Disks dramatically increased in capacity while becoming more compact.">
   <source src="/img/2018/decentralisation-layman/storage.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.mp4">View GIF</a>
 </video>
 Hard Disks dramatically increased in capacity while becoming more compact. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 

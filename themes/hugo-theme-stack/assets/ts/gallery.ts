@@ -19,7 +19,9 @@ class StackGallery {
 
     constructor(container: HTMLElement) {
         if (window.PhotoSwipe == undefined || window.PhotoSwipeLightbox == undefined) {
-            console.error("PhotoSwipe lib not loaded.");
+            // PhotoSwipe is conditionally loaded only on pages with gallery images
+            // (see layouts/partials/article/components/photoswipe.html override).
+            // Silently skip on pages where it wasn't loaded on purpose.
             return;
         }
 

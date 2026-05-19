@@ -84,7 +84,7 @@ Domain overview for twilio.com (SEMRush)
 
 The **domain overview** include metrics about backlinks, their types, anchors… Every entry is accessible in a dedicated and exportable full report.
 
-![Backclink section of Twilio’s domain overview (SEMRush)](/img/img/2017/seo-tools/backlinks.png)
+![Backclink section of Twilio’s domain overview (SEMRush)](/img/2017/seo-tools/backlinks.png)
 Backclink section of Twilio’s domain overview (SEMRush)
 
 You can also search keywords. The overview tab will give you data about organic and paid volumes, search results and copies. Two other tabs are dedicated to keywords: phrase match and related keywords. **The amount if data available on any keyword is really vast, this where SEMRush shines; as long as the search volume is sufficient.**

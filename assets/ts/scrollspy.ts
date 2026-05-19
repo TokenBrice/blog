@@ -1,8 +1,8 @@
 // Implements a scroll spy system for the ToC, displaying the current section with an indicator and scrolling to it when needed.
 
 // Inspired from https://gomakethings.com/debouncing-your-javascript-events/
-function debounced(func: Function) {
-    let timeout;
+function debounced(func: () => void) {
+    let timeout: number | undefined;
     return () => {
         if (timeout) {
             window.cancelAnimationFrame(timeout);
@@ -18,7 +18,9 @@ const navigationQuery = "#TableOfContents li";
 const activeClass = "active-class";
 
 function scrollToTocElement(tocElement: HTMLElement, scrollableNavigation: HTMLElement) {
-    let textHeight = tocElement.querySelector("a").offsetHeight;
+    const link = tocElement.querySelector("a");
+    if (!link) return;
+    let textHeight = link.offsetHeight;
     let scrollTop = tocElement.offsetTop - scrollableNavigation.offsetHeight / 2 + textHeight / 2 - scrollableNavigation.offsetTop;
     if (scrollTop < 0) {
         scrollTop = 0;
@@ -30,10 +32,11 @@ type IdToElementMap = { [key: string]: HTMLElement };
 
 function buildIdToNavigationElementMap(navigation: NodeListOf<Element>): IdToElementMap {
     const sectionLinkRef: IdToElementMap = {};
-    navigation.forEach((navigationElement: HTMLElement) => {
+    navigation.forEach((navigationElement) => {
         const link = navigationElement.querySelector("a");
+        if (!link) return;
         const href = link.getAttribute("href");
-        if (href.startsWith("#")) {
+        if (href && href.startsWith("#") && navigationElement instanceof HTMLElement) {
             sectionLinkRef[href.slice(1)] = navigationElement;
         }
     });
@@ -41,9 +44,15 @@ function buildIdToNavigationElementMap(navigation: NodeListOf<Element>): IdToEle
     return sectionLinkRef;
 }
 
-function computeOffsets(headers: NodeListOf<Element>) {
-    let sectionsOffsets = [];
-    headers.forEach((header: HTMLElement) => { sectionsOffsets.push({ id: header.id, offset: header.offsetTop }) });
+type SectionOffset = { id: string, offset: number };
+
+function computeOffsets(headers: NodeListOf<Element>): SectionOffset[] {
+    let sectionsOffsets: SectionOffset[] = [];
+    headers.forEach((header) => {
+        if (header instanceof HTMLElement) {
+            sectionsOffsets.push({ id: header.id, offset: header.offsetTop });
+        }
+    });
     sectionsOffsets.sort((a, b) => a.offset - b.offset);
     return sectionsOffsets;
 }
@@ -55,11 +64,13 @@ function setupScrollspy() {
         return;
     }
 
-    let scrollableNavigation = document.querySelector(tocQuery) as HTMLElement | undefined;
+    const tocElement = document.querySelector(tocQuery);
+    let scrollableNavigation = tocElement instanceof HTMLElement ? tocElement : undefined;
     if (!scrollableNavigation) {
         console.debug("No toc matched query", tocQuery);
         return;
     }
+    const navigationContainer = scrollableNavigation;
 
     let navigation = document.querySelectorAll(navigationQuery);
     if (!navigation) {
@@ -72,10 +83,10 @@ function setupScrollspy() {
     // We need to avoid scrolling when the user is actively interacting with the ToC. Otherwise, if the user clicks on a link in the ToC,
     // we would scroll their view, which is not optimal usability-wise.
     let tocHovered: boolean = false;
-    scrollableNavigation.addEventListener("mouseenter", debounced(() => tocHovered = true));
-    scrollableNavigation.addEventListener("mouseleave", debounced(() => tocHovered = false));
+    navigationContainer.addEventListener("mouseenter", debounced(() => tocHovered = true));
+    navigationContainer.addEventListener("mouseleave", debounced(() => tocHovered = false));
 
-    let activeSectionLink: Element;
+    let activeSectionLink: HTMLElement | undefined;
 
     let idToNavigationElement: IdToElementMap = buildIdToNavigationElementMap(navigation);
 
@@ -88,7 +99,8 @@ function setupScrollspy() {
         // It is possible for no section to be active, so newActiveSection may be undefined.
         sectionsOffsets.forEach((section) => {
             if (scrollPosition >= section.offset - 20) {
-                newActiveSection = document.getElementById(section.id);
+                const sectionElement = document.getElementById(section.id);
+                newActiveSection = sectionElement || undefined;
             }
         });
 
@@ -110,7 +122,7 @@ function setupScrollspy() {
                 newActiveSectionLink.classList.add(activeClass);
                 if (!tocHovered) {
                     // Scroll so that newActiveSectionLink is in the middle of scrollableNavigation, except when it's from a manual click (hence the tocHovered check)
-                    scrollToTocElement(newActiveSectionLink, scrollableNavigation);
+                    scrollToTocElement(newActiveSectionLink, navigationContainer);
                 }
             }
             activeSectionLink = newActiveSectionLink;

@@ -36,7 +36,7 @@ Some goods are non-fungibles. They are goods which **share common attributes but
 
 The best example of non-fungible goods are… Pokemon cards of course! While we’re at it, let’s pick the one that used to be enough to crown you king of the playground: Charizard himself.
 
-![](/img/2018/nft/charizard.jpeg)
+![image](/img/2018/nft/charizard.jpeg)
 
 A Pokémon card is made of:
 
@@ -52,7 +52,7 @@ Each Pokémon card is unique, but all follow this typology.
 
 Let’s consider Blastoise for instance: he too has the 7 attributes we have already described, but he has different values for each which make him different from Charizard and unique.
 
-![](/img/2018/nft/blastoise.jpeg)
+![image](/img/2018/nft/blastoise.jpeg)
 
 It’s the combination of the value for all the attributes that make the cards’ uniqueness. Hence, a card describing a fire type Pokémon with 150HP is not a Charizard — it is merely a card with 2 attributes equal to those of Charizard, out of 7.
 
@@ -74,11 +74,11 @@ We won’t address these today, as we focus on non-fungible tokens. There were s
 
 [Cryptokitties](https://www.cryptokitties.co/) is what made NFTs known to the general audience — they are virtual kittens which were the precursors of the ERC-721.
 
-![](/img/2018/nft/cryptokitties.png)
+![image](/img/2018/nft/cryptokitties.png)
 
 The project went live in October and took a couple month to reach its peak of virality last December. Cryptokitties were such as success than the whole Ethereum network was clogged for several days by the flood of transactions.
 
-![](/img/2018/nft/ck-price.png)
+![image](/img/2018/nft/ck-price.png)
 
 Specific kittens, the most desirable of the bunch, reached prices in the 5 digits ($) and changed hands several times in a few days early December. Considering the success of the CryptoKitties, the ERC-721 went through the due diligence to get approved and finalized last June.
 

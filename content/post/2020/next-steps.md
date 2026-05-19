@@ -120,7 +120,7 @@ BanklessFR has now been growing since: we're expanding the content offering & ex
 
 <video autoplay loop muted playsinline title="BanklessFR First ever NFT, made by Arke">
   <source src="/img/2020/next-steps/imageNFTbanklessfr.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2020/next-steps/imageNFTbanklessfr.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2020/next-steps/imageNFTbanklessfr.mp4">View GIF</a>
 </video>
 
 

@@ -52,7 +52,7 @@ Au total, 6 NFTs différents étaient disponibles et le premier à les collecter
 
 <video autoplay loop muted playsinline title="Un des 6 Badger x Meme NFTs - Satoshi">
   <source src="/img/2021/badger-digg/badger-nft-satoshi.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2021/badger-digg/badger-nft-satoshi.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2021/badger-digg/badger-nft-satoshi.mp4">View GIF</a>
 </video>
 
 {{< notice tip >}}

@@ -11,7 +11,7 @@
     {{- $isNonCategoryTerm := and (eq .Kind "term") (not $isIndexableTerm) -}}
     {{- /* Noindex paginated list pages beyond the first. */ -}}
     {{- $isPaginated := strings.Contains .RelPermalink "/page/" -}}
-    {{- if .IsNode -}}
+    {{- if and .IsNode (ne .Type "glossary") -}}
       {{- with .Paginator -}}
         {{- if gt .PageNumber 1 -}}{{- $isPaginated = true -}}{{- end -}}
       {{- end -}}

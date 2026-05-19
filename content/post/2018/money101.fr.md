@@ -49,7 +49,7 @@ url: money101
 
 <video autoplay loop muted playsinline>
   <source src="/img/2018/money101/fly.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/money101/fly.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/money101/fly.mp4">View GIF</a>
 </video>
 
 <span style="font-weight: 400;">Reprenons l’exemple précédent en allant plus loin pour mieux comprendre :</span>
@@ -64,7 +64,7 @@ url: money101
 
 <span style="font-weight: 400;">Pour finir la déconstruction du mythe de la monnaie comme refuge de valeur, considérons cette troisième et dernière situation : j’émets de la fausse monnaie qui est très bien faite – tout le monde la prend pour vraie. Mettons que j’en distribue à chaque français, sans que l’État ne se rende compte de la supercherie afin de préserver la simplicité de l’exemple.</span>
 
-![](/img/2018/money101/print.jpeg)
+![image](/img/2018/money101/print.jpeg)
 
 <span style="font-weight: 400;">Dans ce scénario, lorsque les heureux français se mettront à utiliser cette fausse monnaie bien vraisemblable, c’est à dire qu’ils réclameront la valeur à laquelle ces billets leur donnent le droit, ils feront augmenter le PIB de la France et donc sa richesse présumée.</span>
 
@@ -78,7 +78,7 @@ url: money101
 
 <span style="font-weight: 400;">Il faut remettre les choses en contexte, on parle d’un monde où la monnaie n’existe pas encore, allons même plus loin : la notion de propriété n’est pas encore réellement définie non plus. Il y avait quand même des échanges bien sûr, mais ils prenaient une forme bien différente de ce que nous envisageons derrière l’idée de troc.</span>
 
-![](/img/2018/money101/swap.jpeg)
+![image](/img/2018/money101/swap.jpeg)
 
 <span style="font-weight: 400;">Les sociétés agricoles prémodernes étaient très largement **auto-suffisantes**, ainsi les échanges entre les membres d’une même communauté se faisait par des systèmes informels et fondés sur la relation : « l’économie » était donc fondé sur le don et la réciprocité.[^3]
 
@@ -118,7 +118,7 @@ Bientot dans vos wallets
 
 <span style="font-weight: 400;">Avec la carte bleue, les distributeurs automatiques, les banques en ligne et toutes les autres « innovations », on peut avoir l’impression qu’il y a eu un changement dans le système monétaire. En vérité, c’est toujours essentiellement le même système, avec une monnaie qui répond aux mêmes lois. **L’innovation et le changement se sont fait au niveaux des interfaces pour manipuler et dépenser la monnaie.** </span>
 
-![](/img/2018/money101/coins.jpeg)
+![image](/img/2018/money101/coins.jpeg)
 *Le Franc Or*
 
 <span style="font-weight: 400;">Il y a eu quelques changements, notamment au niveau des mécanismes de création monétaire qui se sont complexifiés mais pour le reste notre monnaie actuelle suit le même genre de fonctionnement que le Franc-or.[^7] La monnaie n’a pas encore connu de disruption, elle a simplement vu défiler les ravalements de façade.</span>

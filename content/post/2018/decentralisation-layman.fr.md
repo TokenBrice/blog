@@ -75,7 +75,7 @@ Afin de déterminer à quel point un système est architecturalement décentrali
 
 La politique, c’est une affaire de pouvoir. Cette dimension couvre le système de décision du protocole. Les protocoles les plus centralisés politiquement sont ceux où une personne prend toute les décisions. À l’autre bout du spectre, vous trouverez de nombreux acteurs se partageant des responsabilités équivalentes.
 
-![](/img/2018/decentralisation-layman/politics.jpeg)
+![image](/img/2018/decentralisation-layman/politics.jpeg)
 
 Dans les systèmes les plus politiquement décentralisés, l’écart est minimal entre l’influence de l’acteur le plus important et celui le plus faible. Dans un système avec une décentralisation politique totale, chaque acteur a le même poids.
 
@@ -152,7 +152,7 @@ Et bien… pas vraiment. D’abord, il est bon de se rappeler à quel point les 
 
 <video autoplay loop muted playsinline title="La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible.">
   <source src="/img/2018/decentralisation-layman/storage.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/decentralisation-layman/storage.mp4">View GIF</a>
 </video>
 La capacité des disques durs a grandement augmenté, pour une taille de plus en plus faible. [Source](http://www.visualcapitalist.com/visualizing-trillion-fold-increase-computing-power/)
 

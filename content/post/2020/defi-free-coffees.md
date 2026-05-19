@@ -57,7 +57,7 @@ With the help of these new services, you can:
 
 To keep it simple here, we’re considering only 3 investments strategy matching different risk profiles, using only two different services:
 
-![](/img/2020/freecoffees/5DAI.png)
+![image](/img/2020/freecoffees/5DAI.png)
 
 The **Dai Saving Rate is arguably the safest way to earn a return on your DAI**. The risk is minimal because you’re not lending your money to anyone. To keep it short, you lock your DAI in the Maker system, and the system pays you a premium because you’re helping DAI to maintain its peg.
 
@@ -95,7 +95,7 @@ If you are seriously considering investing amounts close to those presented in t
 
 Ready to make the jump? Deploy your first contract wallet today and order your Visa debit card [with the Monolith app](https://monolith.app.link/ETH-IS-MONEY).
 
-![](/img/2020/freecoffees/card.jpeg)
+![image](/img/2020/freecoffees/card.jpeg)
 
 [🆓 **Get your Monolith card for free** | 🇪🇺 Shipping to 31 countries in Europe | 💸 Spend DAI in a flash with minimal fees | 🔐 Advanced security model | 💱 Built-in DEX Aggregator (soon)](https://monolith.app.link/ETH-IS-MONEY)
 

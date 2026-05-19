@@ -93,5 +93,5 @@ Cette proposition est plus une promesse personelle, quelque chose qui aurait dû
 
 <video autoplay loop muted playsinline title="c'est notre projet">
   <source src="/img/others/defi-france/projet.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/others/defi-france/projet.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/others/defi-france/projet.mp4">View GIF</a>
 </video>

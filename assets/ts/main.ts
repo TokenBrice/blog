@@ -10,9 +10,9 @@ import { getColor } from 'ts/color';
 import menu from 'ts/menu';
 import createElement from 'ts/createElement';
 import StackColorScheme from 'ts/colorScheme';
-import { setupScrollspy } from 'ts/scrollspy';
+import { setupScrollspy } from './scrollspy';
 import { setupSmoothAnchors } from "ts/smoothAnchors";
-import { setupReadingProgress } from 'ts/article-progress';
+import { setupReadingProgress } from './article-progress';
 
 let Stack = {
     init: () => {
@@ -40,12 +40,14 @@ let Stack = {
                     observer.unobserve(entry.target);
 
                     const articles = entry.target.querySelectorAll('article.has-image');
-                    articles.forEach(async articles => {
-                        const image = articles.querySelector('img'),
-                            imageURL = image.src,
+                    articles.forEach(async article => {
+                        const image = article.querySelector('img');
+                        const articleDetails = article.querySelector('.article-details') as HTMLDivElement | null;
+                        if (!image || !articleDetails) return;
+
+                        const imageURL = image.src,
                             key = image.getAttribute('data-key'),
-                            hash = image.getAttribute('data-hash'),
-                            articleDetails: HTMLDivElement = articles.querySelector('.article-details');
+                            hash = image.getAttribute('data-hash');
 
                         const colors = await getColor(key, hash, imageURL);
 

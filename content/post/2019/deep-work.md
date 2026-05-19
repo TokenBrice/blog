@@ -71,7 +71,7 @@ Your setup will probably be different, but you can see a pattern here: reducing 
 
 Once you’re all set, it’s time to work and stay focused. You can use different techniques, but there is one particularly useful to get used to working in a highly focused environment: the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). It’s easy to understand, and supported by [many apps](https://zapier.com/blog/best-pomodoro-apps/) available on all kinds of environment.
 
-![](/img/2019/deep-work/pomodoro.png)
+![image](/img/2019/deep-work/pomodoro.png)
 
 1.  Decide on the task you will tackle. It must be unambiguous and well defined.
 2.  Work for 25 minutes (a pomodoro), undistracted, on this one thing.
@@ -103,7 +103,7 @@ Primarily, it comes down to curiosity. Remember the “challenging practice” I
 
 It’s not that hard if you know how to search answers for any given problems. It takes minutes [to learn about and master Google search operators](https://bynd.com/news-ideas/google-advanced-search-comprehensive-list-google-search-operators).
 
-![](/img/2019/deep-work/search-operators.png)
+![image](/img/2019/deep-work/search-operators.png)
 
 It benefits all kind of profiles, as you will become much more efficient in your online searches. It helps you to avoid asking for help when it’s not necessary. Save your requests for situations where you’ve covered the widely accessible basics and are still without answers.
 

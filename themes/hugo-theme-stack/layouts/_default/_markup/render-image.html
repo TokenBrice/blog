@@ -43,7 +43,7 @@
 	{{/* Static path image — try imageDims manifest (skip externals/query-strings) */}}
 	{{- if and (not $isExternal) (not $hasQuery) -}}
 		{{- $lookup := printf "%s" (.Destination | relURL) -}}
-		{{- $dims := index site.Data.imageDims $lookup -}}
+		{{- $dims := index hugo.Data.imageDims $lookup -}}
 		{{- if $dims -}}
 			{{- $Width = $dims.w -}}
 			{{- $Height = $dims.h -}}

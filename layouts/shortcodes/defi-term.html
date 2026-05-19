@@ -1,7 +1,7 @@
 {{- $termId := .Get 0 -}}
 {{- $lang := .Page.Language.Lang -}}
 {{- $customText := .Get "text" -}}
-{{- $glossaryData := index .Site.Data.glossary $lang -}}
+{{- $glossaryData := index hugo.Data.glossary $lang -}}
 {{- $term := index (where $glossaryData.terms "id" $termId) 0 -}}
 
 {{- if $term -}}

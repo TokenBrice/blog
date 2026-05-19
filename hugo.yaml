@@ -1,5 +1,5 @@
 baseurl: https://tokenbrice.xyz
-languageCode: en
+locale: en
 theme: [hugo-notice, hugo-theme-stack, matomo]
 title: TokenBrice - Brutally Honest DeFi
 copyright: TokenBrice
@@ -13,16 +13,20 @@ DefaultContentLanguage: en
 hasCJKLanguage: false
 enableGitInfo: true
 
+privacy:
+    youtube:
+        privacyEnhanced: true
+
 languages:
     en:
-        languageName: English
+        label: English
         title: "TokenBrice"
         weight: 1
         params:
             sidebar:
                 subtitle: Brutally Honest DeFi
     fr:
-        languageName: Français
+        label: Français
         title: "TokenBrice"
         weight: 2
         params:
@@ -31,6 +35,8 @@ languages:
 
 pagination:
     pagerSize: 10
+
+rssLimit: 25
 
 # Keep localized sitemaps explicit and avoid mixed-root interpretation across locales.
 sitemap:
@@ -49,10 +55,8 @@ outputs:
         - RSS
     taxonomy:
         - HTML
-        - RSS
     term:
         - HTML
-        - RSS
 
 permalinks:
     post: /p/:slug/
@@ -66,7 +70,7 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: true
+    rssFullContent: false
     author:
         name: TokenBrice
         email: tokenbrice@proton.me
@@ -86,7 +90,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: /img/main/anthereum-knight-150.png
+            src: /img/main/anthereum-avatar-150.png
 
 
     article:

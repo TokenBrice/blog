@@ -37,7 +37,7 @@
                     {{- $ext := path.Ext $permalink | lower -}}
                     {{- $isConvertible := or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".jpeg") -}}
                     {{- $isExternal := or (hasPrefix $permalink "http://") (hasPrefix $permalink "https://") -}}
-                    {{- $dims := index site.Data.imageDims $permalink -}}
+                    {{- $dims := index hugo.Data.imageDims $permalink -}}
                     {{- $avifSrc := "" -}}
                     {{- if and (not $isExternal) $ext -}}
                         {{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext $permalink) -}}

@@ -24,7 +24,7 @@ While Cambridge Analytica was already [advertising its services on Youtube since
 
 The activity of Cambridge Analytica and its impact over elections have been well covered, [such as in The Guardian’s Cambridge Analytica files](https://www.theguardian.com/news/series/cambridge-analytica-files) or the [NY Times](https://www.nytimes.com/2017/03/06/us/politics/cambridge-analytica.html). Now, even Google will tell you:
 
-![](/img/2018/free-services/google.jpeg)
+![image](/img/2018/free-services/google.jpeg)
 
 What’s less discussed is how could we even get to this point? Considering the company’s goals and practices, abuses should have been expected and prevented. Let’s broaden the discussion and address the tradeoff made with “free” services instead and the **consequences of this data theft: a loss of political and personal power.**
 

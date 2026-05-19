@@ -15,11 +15,7 @@ In the Arena this week, I tried something different: instead of doing things onc
 
 In 1h15, we were able to setup a new Claude instance from scratch, have it write its claude.md file with our instructions, install the necessary tools to query onchain data, and perform a test analysis on ThGold which returned many critical red flags, several of which were not previously discovered by another researcher as far as I could see.
 
-All of this happened live and was recorded:
-
- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi <a href="https://t.co/wDlVUOb2LJ">https://t.co/wDlVUOb2LJ</a></p>&mdash; tokenbrice.eth (🐛,🔍)
-  (@TokenBrice) <a href="https://twitter.com/TokenBrice/status/2019411494228881549?ref_src=twsrc%5Etfw">February 5, 2026</a></blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+All of this happened live and was recorded: [TokenBrice in The Arena #07: Back in the Arena + Claude x DeFi](https://twitter.com/TokenBrice/status/2019411494228881549).
 
 Considering the relevance and quality of the finding, I figured I would document this setup further with a blog article to enable anyone curious to replicate locally, and conduct research on any protocol they want.
 

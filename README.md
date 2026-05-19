@@ -1,146 +1,78 @@
-## tokenbrice.xyz, a privacy-respecting DeFi blog
+## tokenbrice.xyz
 
-> Brutally honest DeFi, built on a privacy-respecting stack.
+> Brutally honest DeFi, built on a privacy-respecting static stack.
 
-Built with Hugo (Extended, pinned to `0.148.2`) on top of a fork of [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack). Bilingual (EN/FR). Deployed via GitHub Actions to GitHub Pages today; Cloudflare Pages migration is staged in `.github/workflows/hugo.yml` (commented step). Common workflows live in the `Makefile`.
+This repository contains the bilingual EN/FR TokenBrice blog. It is built with Hugo Extended `0.161.1`, a fork of `hugo-theme-stack`, self-hosted assets, and Matomo analytics.
 
 [![Generator is Hugo](https://img.shields.io/badge/Generator%20is-Hugo-ff4088?&logo=hugo)](https://github.com/gohugoio/hugo)
 [![Source on GitHub](https://img.shields.io/badge/Source%20on-GitHub-181717?&logo=github)](https://github.com/tokenbrice/blog/)
 
-To do so, TokenBrice.xyz relies on **open source frameworks** and solutions such as Hugo (rendering of the blog) or Matomo (privacy-conscious analytics).
-
-For those interested, this blog implements **full IP anonymisation, cookies non-propagation** in compliance with the [CNIL guidelines](https://www.cnil.fr/sites/default/files/typo/document/Configuration_piwik.pdf) - an independent French' administrative body acting as a privacy watchdog.
-
-Tokenbrice.xyz is also replicated on [IPFS](https://ipfs.io/). I'm not entirely happy with the infrastructure just yet, but I think it's significant progress compared to most existing websites:
-
-![tokenbrice-xyz-infrastructure-overview](https://github.com/TokenBrice/blog/blob/master/static/img/2020/hello-world/infrastructure.png)
-
-### [More info here](https://tokenbrice.xyz/posts/2020/hello-world/)
-
-### To Build & Run
-
-```sh
-yarn install
-yarn run build  // Build module javascript for page "about" and generate main.js in /static/js
-hugo  // Allow to use main.js in Hugo. Send static/js/main.js in public
-yarn run optimize // Optimize images of public/img
-```
-
 ### Local development
 
 ```sh
-git config --global --add safe.directory /workspace
-git submodule update --init --recursive
-hugo --gc --minify
-hugo server
+make setup
+make serve
 ```
-or
+
+Open `http://localhost:1313`.
+
+Docker is also available:
+
 ```sh
 docker-compose up -d --build
 ```
-and open `http://localhost:1313`
 
-### How to add filters
+### Verification
 
-If you need to add filters, follow the procedure below :
+Use the same checks CI uses before shipping:
 
-Open data/filters.json and add filters and add values for fr and en.
-
-```
-[
- "fr": {
-    "tags": {
-      ...
-      "values" : [
-      ...
-        {
-          "key": "newkey",
-          "name": "French name translation"
-        },
-      ]
-  }
-  "en": {
-      "tags": {
-        ...
-        "values" : [
-        ...
-          {
-            "key": "newkey",
-            "name": "English name translation"
-          },
-        ]
-    }
-]
-    
+```sh
+make verify
 ```
 
-Then add the "newkey" to your data/media.json
+The verification path runs:
 
-```
- {
-    "tags": ["newkey"],
-    "name": "Post Name",
-    "host": "Host name",
-    "link": "link to media",
-    "date": "date"
- },
-```
+- front matter validation
+- content safety validation for raw scripts/iframes and missing image alt text
+- TypeScript typechecking
+- Hugo production build
+- generated-site local reference validation
 
-And finally compile the new main.js using `yarn run build` (local) or `yarn run build:production`
+Individual commands are also available:
 
-
-### How to add a new filter category
-
-A filter is composed of a name, a class and an array of values object.
-
-Edit data/filters.json and add your new filter category
-
-```
-[
- "fr": {
-    "newCategory": {
-      "name": "Nouvelle Catégorie",
-      "class": "categoryClass"
-      "values" : [
-      ...       
-    ]
-  }
-  "en": {
-      "newCategory": {
-        "name": "New Category",
-        "class": "categoryClass"
-        "values" : [
-        ...       
-      ]
-    }
-]
-    
+```sh
+make validate
+make validate-content
+make typecheck
+make build
+make validate-site
 ```
 
-After that you need to add the key of your category add style to src/js/App.vue
+### Assets
 
-```
-export default {
-        data() {
-            return {
-                ...
-                selectedFilters: {
-                   ...
-                   newCategory: [],
-                },
-        },
-        ...
-}
+Static images live under `static/img`. When new static images are added, refresh derived assets and dimensions:
 
-...
-
-<style>
-   ...
-   .categoryClass {
-     cssRules: here
-   } 
-</style>
-
+```sh
+make webp
+make avif
+make imgdims
 ```
 
-Follow by using `yarn run build` and your new category should be visible (clear web browser cache)
+`data/imageDims.json` is used by render hooks to emit image dimensions and reduce layout shift.
+
+### Search
+
+The site uses the theme JSON search index at `/search/index.json` and `/fr/search/index.json`. Pagefind is intentionally not built in CI so there is a single search path.
+
+### Privacy
+
+The client-side Matomo integration disables cookies and avoids sending raw search terms or clicked URLs. Search analytics are bucketed by query length, and social clicks are recorded by host only.
+
+IP anonymization, retention, and opt-out behavior must be enforced in the Matomo server configuration. Keep those settings aligned with the CNIL-friendly privacy claim before changing analytics behavior.
+
+### Content Rules
+
+- Do not add raw `<script>` tags in Markdown content.
+- Raw `<iframe>` embeds must use `youtube-nocookie.com` and include a `title`.
+- Markdown images must include alt text.
+- Prefer shortcodes or layout partials for embeds and structured data.

@@ -7,9 +7,11 @@ categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Basis Cash, Empty Set Dollar, sUSD, ESD, DSD, BAC, BAS]
 series: stablecoin-arc
 series_order: 2
-image: /img/2020/algorithmic-Stablecoins/cover.png
+image: /img/2020/algorithmic-stablecoins/cover.png
 difficulty: "intermediate"
-url: algorithmic-Stablecoins
+url: algorithmic-stablecoins
+aliases:
+  - algorithmic-Stablecoins
 ---
 
 Depuis début décembre, une nouvelle tendance se dessine dans le DeFi : les Stablecoins algorithmiques. Plusieurs projets ont été lancés et ont connu une croissance importante, suscitant encore plus d'intérêt pour ce sous-ensemble de l'espace.
@@ -64,7 +66,7 @@ Comme vous pouvez le voir, à un niveau élevé, ces mécanismes sont simples. I
 
 Cette conception pousse la théorie du jeu et le jeu de mime à un autre niveau :
 
-![DSD Meme](/img/2020/algorithmic-Stablecoins/dsd-meme.jpeg "Un meme DSD")
+![DSD Meme](/img/2020/algorithmic-stablecoins/dsd-meme.jpeg "Un meme DSD")
 
 ### Phase d'expansion agressive
 
@@ -78,7 +80,7 @@ L'expansion et la contraction sont phasés dans des "epochs". L'epoch de Basis C
 
 En revanche, l'ESD et le DSD ont déjà connu plusieurs cycles d'expansion et de contraction chacun, le protocole fonctionnant comme prévu :
 
-![DSD Market Cap au cours des 7 derniers jours](/img/2020/algorithmic-Stablecoins/dsd-mktcap.png "DSD Market Cap montre clairement les phases d'expansion/contraction")
+![DSD Market Cap au cours des 7 derniers jours](/img/2020/algorithmic-stablecoins/dsd-mktcap.png "DSD Market Cap montre clairement les phases d'expansion/contraction")
 
 ### Exploiter la composabilité du DeFi
 

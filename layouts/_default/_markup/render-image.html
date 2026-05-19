@@ -40,13 +40,16 @@
 	{{/* Derive webp/avif siblings from the bundle resource's RelPermalink (hashed) */}}
 	{{- $bundleExt := path.Ext $image.RelPermalink | lower -}}
 	{{- if $useWebP -}}
-		{{- $webpSrc = printf "%s.webp" (strings.TrimSuffix $bundleExt $image.RelPermalink) | safeURL -}}
+		{{- $candidateWebP := printf "%s.webp" (strings.TrimSuffix $bundleExt $image.RelPermalink) -}}
+		{{- if fileExists (printf "static%s" $candidateWebP) -}}
+			{{- $webpSrc = $candidateWebP | safeURL -}}
+		{{- end -}}
 	{{- end -}}
 {{- else -}}
 	{{/* Static path image — try imageDims manifest (skip externals/query-strings) */}}
 	{{- if and (not $isExternal) (not $hasQuery) -}}
 		{{- $lookup := printf "%s" (.Destination | relURL) -}}
-		{{- $dims := index site.Data.imageDims $lookup -}}
+		{{- $dims := index hugo.Data.imageDims $lookup -}}
 		{{- if $dims -}}
 			{{- $Width = $dims.w -}}
 			{{- $Height = $dims.h -}}
@@ -55,7 +58,10 @@
 
 	{{/* Static path: derive webp/avif siblings from the resolved destination URL */}}
 	{{- if $useWebP -}}
-		{{- $webpSrc = printf "%s.webp" (strings.TrimSuffix $ext (.Destination | relURL)) | safeURL -}}
+		{{- $candidateWebP := printf "%s.webp" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
+		{{- if fileExists (printf "static%s" $candidateWebP) -}}
+			{{- $webpSrc = $candidateWebP | safeURL -}}
+		{{- end -}}
 	{{- end -}}
 	{{- if and (not $isExternal) $ext -}}
 		{{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
@@ -65,7 +71,7 @@
 	{{- end -}}
 {{- end -}}
 
-{{ if $useWebP -}}
+{{ if $webpSrc -}}
 <picture>
 	{{ with $avifSrc }}<source srcset="{{ . }}" type="image/avif">{{ end }}
 	<source srcset="{{ $webpSrc }}" type="image/webp">

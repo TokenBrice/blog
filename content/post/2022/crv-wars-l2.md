@@ -83,7 +83,7 @@ Recently, Warden even offers a handy calculator to visualize the amount of veCRV
 
 <video autoplay loop muted playsinline title="A calculator to estimate the impact of a boost ve rental with Warden">
   <source src="/img/2022/curve-wars-l2/warden-calc.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/curve-wars-l2/warden-calc.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/curve-wars-l2/warden-calc.mp4">View GIF</a>
 </video>
 
 

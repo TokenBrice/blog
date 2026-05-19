@@ -89,7 +89,7 @@ Consider coin A, advertising 1M TPS and coin B advertising 10 TPS. What about th
 
 <video autoplay loop muted playsinline title="nano">
   <source src="/img/2018/hitchhikerguide/nano.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/hitchhikerguide/nano.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/hitchhikerguide/nano.mp4">View GIF</a>
 </video>
 
 **The current state of the art of tech allows for a maximum of ~10 000 TPS (already huge) without excessive centralization.** Any coin promising something higher than this is either:

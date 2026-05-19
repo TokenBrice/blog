@@ -84,7 +84,7 @@ Imaginez Acoin, qui se targue de supporter 1 million de transactions par seconde
 
 <video autoplay loop muted playsinline title="nano">
   <source src="/img/2018/hitchhikerguide/nano.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2018/hitchhikerguide/nano.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2018/hitchhikerguide/nano.mp4">View GIF</a>
 </video>
 
 **L’état de l’art actuel permet de supporter ~10 000 TPS pour les projets les plus avancés sans atteindre une centralisation excessive.** Tout coin qui promet plus fait des compromis ou manipule la vérité :

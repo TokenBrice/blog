@@ -207,7 +207,7 @@ It’s safe to expect that **we hold the chatbots** — if they are natural 
 
 Despite the advanced tech behind chatbots, the though-process on their design and “personality” is still at a very early stage. Indeed, **the submissive female persona in still very prevalent in bots**. Moreover, bots who can process and answer queries with audio predominantly adopt a female voice for speech generation. Siri, probably the most famous virtual assistant was released at first with a female voice in 2011. The option to give a male voice to Siri only came two years later.
 
-![](/img/2017/chatbot-masquerade/gender-neutral.png)
+![image](/img/2017/chatbot-masquerade/gender-neutral.png)
 
 Some bot-builders avoid the gender definition issue by crafting gender neutral persona. For instance, Kip, the slackbot discussed earlier use a penguin mascot as its persona.
 

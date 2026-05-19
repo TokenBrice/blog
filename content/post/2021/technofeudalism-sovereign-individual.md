@@ -94,7 +94,7 @@ DeFi thus allows individuals to possess and exchange goods without the need for 
 
 Thanks for reading this piece until the end. If you liked it, you can:
 - check the rest of my work published on this blog
-- follow me [on Twitter](https://twitter.com/tokenbrice/) or [using the RSS feed](/rss.xml/).
+- follow me [on Twitter](https://twitter.com/tokenbrice/) or [using the RSS feed](/index.xml).
 
 ## Licensing & References
 

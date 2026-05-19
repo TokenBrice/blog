@@ -139,7 +139,7 @@ Le plus souvent, le principal paramètre pris en compte est tout simplement **le
 
 Pour plus de contexte sur cette idée de "smart contract banque centrale", vous pouvez lire mon premier article sur les Stablecoins algorithmiques :
 
-**[L'état et le futur des Stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-Stablecoins/)**
+**[L'état et le futur des Stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-stablecoins/)**
 
 #### Approches algorithmiques
 

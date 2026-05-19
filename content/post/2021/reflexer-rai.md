@@ -105,7 +105,7 @@ Once this is understood, let me remind you that the system by itself cannot affe
 
 Let's look at this in practice.
 
-There is a logic here that is reminiscent of [algorithmic Stablecoins](https://tokenbrice.xyz/algorithmic-Stablecoins/), although the end product of the system is totally different.
+There is a logic here that is reminiscent of [algorithmic Stablecoins](https://tokenbrice.xyz/algorithmic-stablecoins/), although the end product of the system is totally different.
 
 ### When market price > redemption price
 

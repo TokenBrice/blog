@@ -14,14 +14,44 @@ jobs:
 
       - uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.148.2'
+          hugo-version: '0.161.1'
           extended: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
 
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Validate source
+        run: npm run validate:frontmatter && npm run validate:content && npm run typecheck
+
+      - name: Install image encoders
+        run: sudo apt-get update && sudo apt-get install -y -qq webp libavif-bin
+
+      - name: Verify ImageMagick and jq installed
+        run: |
+          which identify || sudo apt-get install -y imagemagick
+          which jq || sudo apt-get install -y jq
+
+      - name: Generate missing modern image formats
+        run: |
+          make webp
+          make avif
+
+      - name: Generate image dimensions manifest
+        run: bash scripts/gen-img-dims.sh
+
       - name: Build site
-        run: hugo --gc --minify
+        run: npm run build
+
+      - name: Validate generated site output
+        run: npm run validate:site
 
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v12

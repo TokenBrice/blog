@@ -19,7 +19,7 @@
 {{- $width := 0 -}}
 {{- $height := 0 -}}
 {{- $defaultSrc := index .Site.Params.defaultImage.opengraph "src" -}}
-{{- $dims := .Site.Data.imageDims -}}
+{{- $dims := hugo.Data.imageDims -}}
 
 {{- with $page.Params.image -}}
   {{- $img := . -}}

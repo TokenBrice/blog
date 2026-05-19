@@ -9,8 +9,7 @@
     "skipLibCheck": true,
     "allowJs": true,
     "lib": ["ES2022", "DOM"],
-    "baseUrl": ".",
-    "paths": { "*": ["assets/ts/*", "themes/hugo-theme-stack/assets/ts/*"] }
+    "baseUrl": "."
   },
-  "include": ["assets/ts/**/*", "themes/hugo-theme-stack/assets/ts/**/*"]
+  "include": ["assets/ts/**/*"]
 }

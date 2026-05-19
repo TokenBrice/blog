@@ -115,7 +115,7 @@ Une fois ça saisi, je me permets de rappeler que le système par lui-même ne p
 
 Voyons ça concrètement en pratique.
 
-On retrouve ici une logique qui rappelle les [Stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-Stablecoins/), bien que le produit final du système soit totalement différent.
+On retrouve ici une logique qui rappelle les [Stablecoins algorithmiques](https://tokenbrice.xyz/fr/algorithmic-stablecoins/), bien que le produit final du système soit totalement différent.
 
 
 ### Quand le prix du marché > prix de rédemption

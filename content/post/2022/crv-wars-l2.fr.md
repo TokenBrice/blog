@@ -83,7 +83,7 @@ Depuis peu, Warden propose même un calculateur bien pratique pour visualiser la
 
 <video autoplay loop muted playsinline title="Un calculateur pour estimer l'impact d'une location de boost ve avec Warden">
   <source src="/img/2022/curve-wars-l2/warden-calc.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/curve-wars-l2/warden-calc.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/curve-wars-l2/warden-calc.mp4">View GIF</a>
 </video>
 
 

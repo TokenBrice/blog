@@ -85,7 +85,7 @@ Pour expliquer le modèle des LUSD Chicken Bonds, passons au point de vue du dé
 
 <video autoplay loop muted playsinline title="Un 🥚 Œuf NFT, un 🐔 Chicken In NFT et un 🐣 Chicken Out NFT">
   <source src="/img/2022/lusd-chicken-bonds/3chickens-static.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens-static.mp4">View GIF</a>
 </video>
 
 **Pour créer un bond, un utilisateur dépose des LUSD. En échange, il reçoit un 🥚 Œuf NFT représentant son dépôt**. Le NFT contient la créance sur le LUSD cautionné sous-jacent et peut être vendu ou transféré. A partir de là, l'utilisateur dispose de deux options mutuellement exclusives qui transformeront également son NFT :
@@ -100,7 +100,7 @@ L'utilisateur peut récupérer l'intégralité du montant investi à tout moment
 
 <video autoplay loop muted playsinline title="Aperçu des variations possibles">
   <source src="/img/2022/lusd-chicken-bonds/3chickens.mp4" type="video/mp4">
-  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens.gif">View GIF</a>
+  Your browser does not support video. <a href="/img/2022/lusd-chicken-bonds/3chickens.mp4">View GIF</a>
 </video>
 
 #### Approfondir les liens les bonds et le NFT
