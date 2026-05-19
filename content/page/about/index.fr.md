@@ -47,7 +47,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 | Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 | <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polarisfinance.io) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Fondateur |
-| <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
+| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
 
 ### Quêtes Secondaires
@@ -55,7 +55,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 | Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
-| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
+| <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
 | <img src="/img/others/defifrance-logo.png" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
 
 ### Engagements Précédents

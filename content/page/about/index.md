@@ -46,7 +46,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polarisfinance.io) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Founder |
-| <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
+| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 156 stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
 
 ### Side Quests
@@ -54,7 +54,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
 | <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
-| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 156 stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
+| <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
 | <img src="/img/others/defifrance-logo.png" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
 
 ### Previous Engagements
