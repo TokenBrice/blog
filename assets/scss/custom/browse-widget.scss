@@ -1,0 +1,258 @@
+/* ============================================================
+ * Browse widget — tabbed sidebar (Categories / Archives / Difficulty)
+ *
+ * Pure-CSS tab system using hidden radio inputs + adjacent-sibling
+ * selectors. No JS dependency. Accessible: labels are clickable,
+ * radios are keyboard-focusable, panels are aria-labelled.
+ * ============================================================ */
+
+.widget--browse {
+    border-radius: var(--card-border-radius, 10px);
+    background-color: var(--card-background);
+    box-shadow: var(--shadow-l1);
+    overflow: hidden;
+}
+
+.browse-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Hide the radios visually but keep them keyboard-reachable */
+.browse-tabs__radio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
+
+/* Tab labels — these are the structural labels inside Browse.
+ * Per the brief, uppercase/tracked styling here is acceptable
+ * because the tabs are the structural affordance. */
+.browse-tabs__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px;
+    font-family: var(--base-font-family);
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--card-text-color-secondary);
+    cursor: pointer;
+    border-bottom: 1px solid var(--card-separator-color);
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+        color: var(--card-text-color-main);
+        background-color: var(--card-background-selected);
+    }
+}
+
+/* Panels: hidden by default, the matching radio reveals one. */
+.browse-tabs__panel {
+    grid-column: 1 / -1;
+    display: none;
+    padding: 8px 0;
+}
+
+/* Default checked state — Categories panel visible */
+.browse-tabs__radio:nth-of-type(1):checked ~ .browse-tabs__panel--cats,
+.browse-tabs__radio:nth-of-type(2):checked ~ .browse-tabs__panel--archives,
+.browse-tabs__radio:nth-of-type(3):checked ~ .browse-tabs__panel--difficulty {
+    display: block;
+}
+
+/* Active label state via :checked + label.
+ * Layout order: radio1, label1, radio2, label2, radio3, label3, panels...
+ * Each radio's adjacent sibling is its matching label. */
+.browse-tabs__radio:checked + .browse-tabs__label {
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 11px; /* compensate for the 2px border so labels stay aligned */
+}
+
+/* Keyboard focus on the (visually hidden) radio surfaces a ring
+ * on the adjacent label. */
+.browse-tabs__radio:focus-visible + .browse-tabs__label {
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+}
+
+/* Generic list inside any panel */
+.browse-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li:not(:last-child) {
+        border-bottom: 1px solid var(--card-separator-color);
+    }
+
+    a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 22px;
+        font-size: 1.4rem;
+        color: var(--card-text-color-main);
+        text-decoration: none;
+        transition: background-color 0.15s ease;
+
+        &:hover,
+        &:focus-visible {
+            background-color: var(--card-background-selected);
+        }
+    }
+
+    &__name {
+        font-weight: 600;
+    }
+
+    &__count {
+        color: var(--card-text-color-tertiary);
+        font-size: 1.3rem;
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+/* Difficulty panel: stacked layout with progress bar */
+.browse-list--difficulty {
+    a {
+        display: block;
+        padding: 14px 22px;
+    }
+}
+
+.browse-difficulty__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.browse-difficulty__name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--card-text-color-main);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.browse-difficulty__bar {
+    height: 4px;
+    background-color: var(--card-separator-color);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.browse-difficulty__fill {
+    height: 100%;
+    border-radius: 2px;
+
+    &--beginner {
+        background-color: #22c55e;
+    }
+
+    &--intermediate {
+        background-color: #fbbf24;
+    }
+
+    &--expert {
+        background-color: #f87171;
+    }
+}
+
+[data-scheme="dark"] {
+    .browse-difficulty__fill {
+        &--beginner {
+            background-color: #16a34a;
+        }
+
+        &--intermediate {
+            background-color: #ca8a04;
+        }
+
+        &--expert {
+            background-color: #dc2626;
+        }
+    }
+}
+
+/* ============================================================
+ * Search widget chrome — drop the redundant "Search" label.
+ * The placeholder is the affordance.
+ * ============================================================ */
+.search-form.widget {
+    label {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+        white-space: nowrap;
+    }
+}
+
+/* Hide the giant icon header on Browse widget — labels carry the meaning. */
+.widget--browse > .widget-icon,
+.widget--browse > .widget-title {
+    display: none;
+}
+
+/* ============================================================
+ * Taxonomy index page (e.g. /tags/)
+ * ============================================================ */
+.taxonomy-index {
+    margin-top: 1.5rem;
+}
+
+.taxonomy-index__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    li {
+        display: inline-flex;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 8px;
+        padding: 8px 16px;
+        background: var(--card-background);
+        border-radius: 999px;
+        box-shadow: var(--shadow-l1);
+        color: var(--card-text-color-main);
+        font-size: 1.4rem;
+        text-decoration: none;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+        &:hover,
+        &:focus-visible {
+            box-shadow: var(--shadow-l2);
+            transform: translateY(-1px);
+        }
+    }
+}
+
+.taxonomy-index__count {
+    color: var(--card-text-color-tertiary);
+    font-size: 1.2rem;
+    font-variant-numeric: tabular-nums;
+}

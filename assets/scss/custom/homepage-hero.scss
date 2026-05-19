@@ -1,0 +1,31 @@
+/* ============================================================
+ * Homepage hero claim
+ * The editorial thesis, promoted from the sidebar subtitle to a
+ * first-screen claim above the Projects banner. Not a card.
+ * Just Fraunces on the body bg, capped at the article measure.
+ * ============================================================ */
+.homepage-hero {
+    margin: 12px 0 28px;
+    padding: 0;
+    max-width: 75ch;
+
+    @media (max-width: 767px) {
+        margin: 8px 0 20px;
+    }
+}
+
+.homepage-hero__claim {
+    margin: 0;
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.8rem, 5vw, 4.6rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--card-text-color-main);
+    font-feature-settings: "kern" 1, "liga" 1;
+    text-wrap: balance;
+}
+
+[data-scheme="dark"] .homepage-hero__claim {
+    color: var(--card-text-color-main);
+}

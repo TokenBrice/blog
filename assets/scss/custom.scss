@@ -20,6 +20,12 @@
 /* Import glossary categories card styles */
 @import "custom/glossary-categories";
 
+/* Import homepage hero claim styles */
+@import "custom/homepage-hero";
+
+/* Import sidebar Browse widget (Categories / Archives / Difficulty tabs) */
+@import "custom/browse-widget";
+
 /* Give taxonomy/category headers enough room to show their cover art. */
 .section-card .section-image {
   flex: 0 0 auto;

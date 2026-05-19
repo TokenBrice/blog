@@ -20,7 +20,7 @@ $faq-tint: #7C3AED;
     border-radius: var(--card-border-radius);
     box-shadow: var(--shadow-l1);
     overflow: hidden;
-    border-top: 4px solid var(--term-accent);
+    border: 1px solid var(--hairline);
 
     /* Reset legacy term-card styles that bleed into this page */
     .term-definition {
@@ -223,16 +223,16 @@ $faq-tint: #7C3AED;
    ============================================= */
 .glossary-single-term .term-callout {
     margin: 0;
-    padding: 1.2rem 1.5rem 1.2rem 1.4rem;
-    border-left: 3px solid;
-    background: color-mix(in srgb, currentColor 4%, transparent);
-    border-radius: 0 8px 8px 0;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+    background: color-mix(in srgb, currentColor 6%, transparent);
+    border-radius: 8px;
 }
 
 .glossary-single-term .term-callout--example {
     color: $example-tint;
-    background: color-mix(in srgb, $example-tint 5%, transparent);
-    border-left-color: $example-tint;
+    background: color-mix(in srgb, $example-tint 8%, transparent);
+    border-color: color-mix(in srgb, $example-tint 22%, transparent);
 }
 
 .glossary-single-term .term-callout blockquote {
@@ -393,18 +393,19 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .glossary-faq-detail .faq-chevron {
-    width: 12px;
-    height: 12px;
-    border-right: 2px solid var(--card-text-color-secondary);
-    border-bottom: 2px solid var(--card-text-color-secondary);
-    transform: rotate(45deg) translate(-2px, -2px);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    width: 14px;
+    height: 14px;
+    background: currentColor;
+    color: var(--card-text-color-secondary);
+    mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4 6l4 4 4-4' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat center / contain;
+    -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4 6l4 4 4-4' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat center / contain;
+    transition: transform 0.2s ease, color 0.2s ease;
     flex-shrink: 0;
 }
 
 .glossary-single-term .glossary-faq-detail[open] .faq-chevron {
-    transform: rotate(-135deg) translate(-2px, -2px);
-    border-color: var(--term-accent);
+    transform: rotate(180deg);
+    color: var(--term-accent);
 }
 
 .glossary-single-term .glossary-faq-detail[open] .faq-question-text {
@@ -653,7 +654,8 @@ $faq-tint: #7C3AED;
 }
 
 [data-scheme="dark"] .glossary-single-term .term-callout--example {
-    background: color-mix(in srgb, $example-tint 12%, transparent);
+    background: color-mix(in srgb, $example-tint 14%, transparent);
+    border-color: color-mix(in srgb, $example-tint 35%, transparent);
 }
 
 [data-scheme="dark"] .glossary-single-term .term-callout--example blockquote p {
@@ -722,7 +724,8 @@ $faq-tint: #7C3AED;
         color: var(--term-accent);
     }
     .glossary-single-term .term-callout--example {
-        background: rgba($example-tint, 0.06);
+        background: rgba($example-tint, 0.08);
+        border-color: rgba($example-tint, 0.22);
     }
     .glossary-single-term .term-explainer-index {
         background: rgba(0, 0, 0, 0.08);

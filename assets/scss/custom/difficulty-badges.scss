@@ -128,7 +128,6 @@ $difficulty-expert-dark: #dc2626;
             .bar-fill {
                 height: 100%;
                 border-radius: 2px;
-                transition: width 0.3s ease;
 
                 &.beginner {
                     background-color: $difficulty-beginner;
