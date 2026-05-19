@@ -7,6 +7,8 @@ categories: [Projects]
 tags: [EcoCrypto]
 image: /img/2020/next-steps/ecocrypto-logo.png
 url: EcoCrypto-manifesto
+aliases:
+  - p/EcoCrypto-manifesto
 difficulty: "beginner"
 ---
 

@@ -7,6 +7,8 @@ tags: [BanklessFR, DeFi France, Live, Meetups]
 image: /img/others/defifrance2.jpg
 difficulty: "beginner"
 url: dff-meetup-2
+aliases:
+  - p/dff-meetup-2
 ---
 
 DeFi France est une fabuleuse aventure, et sa force a toujours été sa spontanéité. En Octobre 2019, lorsque le groupe est né, la structure était totalement informelle et cela suffisait bien.

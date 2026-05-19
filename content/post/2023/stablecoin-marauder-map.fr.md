@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crv
 series: stablecoin-arc
 series_order: 6
 url: stablecoin-marauder-map
+aliases:
+  - p/stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 difficulty: "beginner"
 ---

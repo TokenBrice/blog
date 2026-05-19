@@ -10,6 +10,8 @@ series_order: 1
 toc: true
 tocNum: true
 url: crv-wars
+aliases:
+  - p/crv-wars
 image: /img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 difficulty: "intermediate"
 ---

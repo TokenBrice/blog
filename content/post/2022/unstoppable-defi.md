@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD,
 toc: true
 tocNum: true
 url: unstoppable-defi
+aliases:
+  - p/unstoppable-defi
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 difficulty: "expert"
 ---

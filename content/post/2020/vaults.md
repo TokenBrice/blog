@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
 difficulty: "beginner"
 url: vaults
+aliases:
+  - p/vaults
 ---
 
 As the ecosystem of decentralized financial services on Ethereum grows and matures, the service offering is becoming more dense and sometimes hard to understand. While the most technically savvy users can chase the latest releases and hedge their risk appropriately, less-seasoned investors might feel left out.

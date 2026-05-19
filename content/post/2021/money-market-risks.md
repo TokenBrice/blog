@@ -10,6 +10,8 @@ series_order: 1
 toc: true
 tocNum: false
 url: money-markets-risk
+aliases:
+  - p/money-markets-risk
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
 ---

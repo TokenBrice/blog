@@ -5,6 +5,8 @@ date: '2026-02-07T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum]
 url: defi-bullshit-detector
+aliases:
+  - p/defi-bullshit-detector
 image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post

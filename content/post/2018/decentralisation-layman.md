@@ -9,6 +9,8 @@ tags: [decentralization, Blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 difficulty: "beginner"
 url: decentralization-layman
+aliases:
+  - p/decentralization-layman
 ---
 
 While the general public is hearing more and more about [Blockchain](https://hackernoon.com/tagged/Blockchain) and cryptocurrencies, the philosophical and political underlying of decentralization are still kept mostly within the community. **Decentralization is bringing a paradigm shift that deserves more coverage than price action in my book**.

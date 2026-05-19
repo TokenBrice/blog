@@ -10,6 +10,8 @@ tocNum: false
 image: /img/2020/definancial-services-guide/cover-fr.jpeg
 difficulty: "expert"
 url: definancial-guide
+aliases:
+  - p/definancial-guide
 ---
 
 Bienvenue dans le nouveau monde !

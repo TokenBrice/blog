@@ -10,6 +10,8 @@ series_order: 2
 image: /img/2020/yearn-merger/y-among-us.gif
 difficulty: "intermediate"
 url: yearn-finance-mergers
+aliases:
+  - p/yearn-finance-mergers
 ---
 
 Yearn Finance has been making headlines lately with the announcement of **several acquisitions** like Pickle Finance or SushiSwap. The Yearn team has joined its development forces with five other DeFi projects already.

@@ -7,6 +7,8 @@ categories: [Yield]
 tags: [DeFi, Ethereum, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn, APWineFi]
 toc: true
 url: tranching-risque-defi
+aliases:
+  - p/tranching-risque-defi
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "intermediate"
 ---

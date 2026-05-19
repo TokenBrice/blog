@@ -6,6 +6,8 @@ tags: [web development, static websites, static web, SEO, Markdown]
 categories: [Analysis]
 image: /img/2019/staticweb/jamstack.png
 url: static-roots
+aliases:
+  - p/static-roots
 difficulty: "beginner"
 ---
 

@@ -7,6 +7,8 @@ tags: [DeFi, Ethereum, Lending, Stablecoins]
 series: stablecoin-arc
 series_order: 7
 url: why-polaris
+aliases:
+  - p/why-polaris
 image: /img/2026/why-polaris/why-polaris-cover.jpg
 toc: false
 draft: false

@@ -6,6 +6,8 @@ reviewed: 2026-05-19
 categories: [Projects]
 tags: [DeFi France, Discord, Communauté]
 url: defi-france-version-2
+aliases:
+  - p/defi-france-version-2
 image: /img/2021/dffv2/dffv2-cover.png
 difficulty: "beginner"
 ---

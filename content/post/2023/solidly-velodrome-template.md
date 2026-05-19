@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
 tocNum: false
 url: solidly-velodrome-fork
+aliases:
+  - p/solidly-velodrome-fork
 image: img/2023/solidly-velodrome-template/cover.png
 difficulty: "intermediate"
 ---

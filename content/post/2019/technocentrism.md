@@ -8,6 +8,8 @@ categories: [Analysis]
 tags: [Diversity, Proof of Stake, Lightning Network]
 image: /img/2019/technocentrism/cover.jpeg
 url: technocentrism
+aliases:
+  - p/technocentrism
 difficulty: "intermediate"
 ---
 

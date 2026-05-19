@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, APWineFi, 88mph, Fixe
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
+aliases:
+  - p/fixed-interest-rate-protocol-firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
 difficulty: "intermediate"
 ---

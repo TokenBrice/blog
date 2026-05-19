@@ -8,6 +8,8 @@ toc: false
 tocNum: false
 image: /img/others/defifrance.png
 url: next-steps
+aliases:
+  - p/next-steps
 difficulty: "beginner"
 ---
 
@@ -22,7 +24,7 @@ Il y a environ 36 mois, j'ai finalement lu le whitepaper d'Ethereum après avoir
 
 À l'époque, je travaillais encore dans une start-up tech sans rapport avec la Blockchain, mais je me suis vite retrouvé à passer 6 à 10 heures par jour à me renseigner, à rencontrer et à discuter avec de nombreuses personnes qui partageaient mes intérêts. Peu de temps après, j'ai commencé à contribuer à divers projets.
 
-En juillet 2018, **j'ai réalisé qu'il était temps de prendre le taureau par les cornes et de me frayer un chemin dans l'espace** - je n'allais pas travailler pour une énième autre startup tech. J'ai commencé ce que j'envisageais être un média collaboratif à l'époque : EcoCrypto. C'était un peu le précurseur de ce blog, et vous pouvez [trouver les articles réédités ici](https://tokenbrice.xyz/fr/tags/EcoCrypto/).
+En juillet 2018, **j'ai réalisé qu'il était temps de prendre le taureau par les cornes et de me frayer un chemin dans l'espace** - je n'allais pas travailler pour une énième autre startup tech. J'ai commencé ce que j'envisageais être un média collaboratif à l'époque : EcoCrypto. C'était un peu le précurseur de ce blog, et vous pouvez [trouver le manifeste réédité ici](https://tokenbrice.xyz/fr/EcoCrypto-manifesto/).
 
 ### EcoCrypto : Le précurseur ?
 

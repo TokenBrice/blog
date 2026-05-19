@@ -7,6 +7,8 @@ tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 series: crv-wars
 series_order: 3
 url: crv-vs-velo
+aliases:
+  - p/crv-vs-velo
 image: img/2024/crv-vs-velo/cover.png
 difficulty: "expert"
 ---

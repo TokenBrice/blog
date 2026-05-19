@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, C
 toc: true
 tocNum: true
 url: maverick-liquidity-shaping
+aliases:
+  - p/maverick-liquidity-shaping
 image: img/2023/liquidity-shaping-maverick/cover.png
 difficulty: "expert"
 ---

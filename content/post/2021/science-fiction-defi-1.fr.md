@@ -6,6 +6,8 @@ categories: [Projects]
 tags: [DeFi, Science Fiction, DeSciFi]
 image: /img/main/banner.png
 url: science-fiction-defi-1
+aliases:
+  - p/science-fiction-defi-1
 difficulty: "beginner"
 ---
 

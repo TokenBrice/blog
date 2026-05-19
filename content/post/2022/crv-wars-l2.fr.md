@@ -10,6 +10,8 @@ series_order: 2
 toc: true
 tocNum: false
 url: crv-wars-l2
+aliases:
+  - p/crv-wars-l2
 image: /img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
 difficulty: "expert"
 ---

@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: algorithmic-stablecoins
 aliases:
   - algorithmic-Stablecoins
+  - p/algorithmic-stablecoins
 ---
 
 Depuis début décembre, une nouvelle tendance se dessine dans le DeFi : les Stablecoins algorithmiques. Plusieurs projets ont été lancés et ont connu une croissance importante, suscitant encore plus d'intérêt pour ce sous-ensemble de l'espace.

@@ -5,6 +5,8 @@ date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
 tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
 url: lending-protocol-renaissance
+aliases:
+  - p/lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
 ---

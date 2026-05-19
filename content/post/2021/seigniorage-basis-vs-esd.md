@@ -12,6 +12,8 @@ tocNum: false
 image: /img/2021/seigniorage-basis-vs-esd/cover.png
 difficulty: "intermediate"
 url: seigniorage-basis-esd
+aliases:
+  - p/seigniorage-basis-esd
 ---
 
 A few weeks ago, I shared my first post on algorithmic Stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model.

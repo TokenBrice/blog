@@ -5,6 +5,8 @@ date: '2026-03-12T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Stablecoins, Analytics, Public Good, Open Source]
 url: pharos
+aliases:
+  - p/pharos
 image: /img/2026/pharos/pharos-cover.png
 toc: true
 draft: false

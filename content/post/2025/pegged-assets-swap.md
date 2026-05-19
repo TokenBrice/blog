@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo,
 series: pegged-assets
 series_order: 2
 url: pegged-assets-swap
+aliases:
+  - p/pegged-assets-swap
 difficulty: "expert"
 ---
 

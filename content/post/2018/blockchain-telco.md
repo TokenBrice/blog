@@ -9,6 +9,8 @@ tags: [telco, Blockchain]
 canonicalUrl: https://www.callr.com/blog/blockchains-telecommunications/
 image: /img/2018/blockchain-telco/cover.png
 url: Blockchain-telco
+aliases:
+  - p/Blockchain-telco
 difficulty: "intermediate"
 ---
 

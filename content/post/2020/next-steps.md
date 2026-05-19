@@ -8,6 +8,8 @@ toc: false
 tocNum: false
 image: /img/others/defifrance.png
 url: next-steps
+aliases:
+  - p/next-steps
 difficulty: "beginner"
 ---
 
@@ -20,7 +22,7 @@ About 36 months ago, I finally read the Ethereum whitepaper after hovering aroun
 
 I was still working in a non-crypto related tech startup back then but quickly I found myself spending 6 to 10 hours a day reading on the space, meeting and chatting with many people that shared my interest. Shortly after, I started contributing to various projects.
 
-Back in July 2018, **I realized it was time to grab the bull by the horns and break my way into the space** - I was not going to work for yet another tech startup. I started what I wished could be a collaborative media back then: EcoCrypto. It was a bit of the precursor to this blog, and you can [find the articles re-published here](https://tokenbrice.xyz/tags/EcoCrypto/).
+Back in July 2018, **I realized it was time to grab the bull by the horns and break my way into the space** - I was not going to work for yet another tech startup. I started what I wished could be a collaborative media back then: EcoCrypto. It was a bit of the precursor to this blog, and you can [find the manifesto re-published here](https://tokenbrice.xyz/EcoCrypto-manifesto/).
 
 
 ### EcoCrypto: The Precursor?

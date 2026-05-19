@@ -8,6 +8,8 @@ categories: [Analysis, Privacy]
 tags: [design, advertising model, data harversting]
 image: /img/2019/dark-patterns/cover.jpeg
 url: dark-patterns
+aliases:
+  - p/dark-patterns
 difficulty: "beginner"
 ---
 

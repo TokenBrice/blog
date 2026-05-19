@@ -10,6 +10,8 @@ series_order: 5
 toc: true
 tocNum: true
 url: lusd-chicken-bonds
+aliases:
+  - p/lusd-chicken-bonds
 image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 difficulty: "beginner"
 ---

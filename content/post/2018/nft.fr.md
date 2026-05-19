@@ -8,6 +8,8 @@ tags: [Ethereum, NFT, non fungible tokens, collectibles, ERC721, ERC1155, EcoCry
 image: /img/2018/nft/cover.png
 difficulty: "beginner"
 url: nft
+aliases:
+  - p/nft
 ---
 
 

@@ -6,6 +6,8 @@ reviewed: 2026-05-19
 categories: [Projects]
 tags: [DeFi, Ethereum, Aave, Governance, Delegation]
 url: aave-governance-program
+aliases:
+  - p/aave-governance-program
 image: /img/2021/aave-governance-platform/cover.png
 difficulty: "beginner"
 ---

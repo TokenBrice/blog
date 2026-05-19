@@ -10,6 +10,8 @@ series_order: 1
 toc: true
 tocNum: true
 url: actifs-stables-ethereum
+aliases:
+  - p/actifs-stables-ethereum
 image: /img/2021/pegged-assets/money-god-meme.png
 difficulty: "intermediate"
 ---

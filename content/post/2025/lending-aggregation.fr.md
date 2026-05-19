@@ -5,6 +5,8 @@ date: '2025-08-10T01:13:50.191Z'
 categories: [Lending]
 tags: [DeFi, Ethereum, Lending, Aggregator, Fluid, Euler]
 url: lending-aggregation
+aliases:
+  - p/lending-aggregation
 image: /img/2025/lending-aggregation/aggregration-lending-cover.png
 difficulty: "intermediate"
 ---

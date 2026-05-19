@@ -5,6 +5,8 @@ date: '2025-03-12T01:13:50.191Z'
 categories: [Projects, Lending, Yield]
 tags: [DeFi, Ethereum, Leverage, Immutable Protocol, Lending, Polynomial]
 url: leverage-sir
+aliases:
+  - p/leverage-sir
 image: /img/2025/leverage-sir/leverage-sir-cover.jpg
 difficulty: "intermediate"
 ---

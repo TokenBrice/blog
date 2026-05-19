@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, B
 toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
+aliases:
+  - p/decentralized-exchange-value-capture
 image: /img/2021/dex-value-capture/cover-fr.png
 difficulty: "intermediate"
 ---

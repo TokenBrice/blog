@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, C
 toc: false
 tocNum: false
 url: maverick-x-tokenbrice
+aliases:
+  - p/maverick-x-tokenbrice
 image: img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
 difficulty: "intermediate"
 ---

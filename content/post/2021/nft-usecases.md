@@ -8,6 +8,8 @@ tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoP
 toc: true
 tocNum: true
 url: nft-usecases
+aliases:
+  - p/nft-usecases
 image: /img/2021/nft-usecases/88DeLo.png
 difficulty: "beginner"
 ---

@@ -8,6 +8,8 @@ categories: [Analysis]
 tags: [NaaS]
 image: /img/2018/demise-ns/cover.jpeg
 url: demise-ns
+aliases:
+  - p/demise-ns
 difficulty: "beginner"
 ---
 

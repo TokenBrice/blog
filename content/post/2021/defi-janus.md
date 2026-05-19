@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, MakerDAO, Convex, CVX
 toc: true
 tocNum: true
 url: defi-janus
+aliases:
+  - p/defi-janus
 image: /img/2021/defi-janus/defi-janus-cover.png
 difficulty: "intermediate"
 ---

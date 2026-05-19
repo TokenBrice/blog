@@ -5,6 +5,8 @@ date: '2025-03-08T01:13:50.191Z'
 categories: [Thesis]
 tags: [DeFi, Ethereum, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
+aliases:
+  - p/defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
 ---

@@ -8,6 +8,8 @@ categories: [Analysis]
 tags: [deep work, pomodoro, focus]
 image: /img/2019/deep-work/cover.jpeg
 url: deep-work
+aliases:
+  - p/deep-work
 difficulty: "beginner"
 ---
 

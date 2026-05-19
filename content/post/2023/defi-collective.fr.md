@@ -6,6 +6,8 @@ reviewed: 2026-05-19
 categories: [Projects]
 tags: [DeFi, Ethereum, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
+aliases:
+  - p/defi-collective
 image: /img/2023/defi-collective/twitter_banner.png
 toc: false
 difficulty: "beginner"

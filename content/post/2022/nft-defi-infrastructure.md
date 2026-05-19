@@ -7,6 +7,8 @@ categories: [NFT]
 tags: [DeFi, Ethereum, NFT, Forgotten Wizard, Luchadores, NFTfi]
 tocNum: false
 url: nftfi-defi-nft
+aliases:
+  - p/nftfi-defi-nft
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 difficulty: "beginner"
 ---

@@ -9,6 +9,8 @@ tags: [reddit astroturfing, advertising]
 toc: true
 image: /img/2017/reddit/cover.png
 url: reddit-hitchhiker-guide
+aliases:
+  - p/reddit-hitchhiker-guide
 difficulty: "beginner"
 ---
 

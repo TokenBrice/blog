@@ -7,6 +7,8 @@ categories: [Tutorial]
 tags: [Chatbot, Python]
 image: /img/2017/sato/satodemo.gif
 url: sato-python-cryptobot
+aliases:
+  - p/sato-python-cryptobot
 difficulty: "intermediate"
 ---
 

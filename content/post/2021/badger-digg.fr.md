@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
 tocNum: true
 url: badger-digg
+aliases:
+  - p/badger-digg
 image: /img/2021/badger-digg/cover.png
 difficulty: "beginner"
 ---

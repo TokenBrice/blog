@@ -9,6 +9,8 @@ difficulty: "intermediate"
 toc: true
 tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
+aliases:
+  - p/fixed-interest-rate-protocol-firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
 ---
 

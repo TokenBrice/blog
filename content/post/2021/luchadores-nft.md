@@ -7,6 +7,8 @@ tags: [Collectibles, NFT, Achat de NFT, Farming NFT, Chainlink VRF]
 toc: true
 tocNum: false
 url: luchadores-nft
+aliases:
+  - p/luchadores-nft
 image: /img/2021/luchadores-nft/luchadores-cover.png
 difficulty: "beginner"
 ---

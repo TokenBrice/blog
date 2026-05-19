@@ -10,6 +10,8 @@ series_order: 2
 toc: true
 tocNum: true
 url: money-market-recipes
+aliases:
+  - p/money-market-recipes
 image: /img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png
 difficulty: "expert"
 ---

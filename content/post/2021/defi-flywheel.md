@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, Polygon, Convex, CVX,
 toc: true
 tocNum: true
 url: defi-flywheel
+aliases:
+  - p/defi-flywheel
 image: /img/2021/defi-flywheel/defi-flywheel-cover.png
 difficulty: "beginner"
 ---

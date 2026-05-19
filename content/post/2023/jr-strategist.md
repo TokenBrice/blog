@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
 url: jr-strategist
+aliases:
+  - p/jr-strategist
 image: img/2023/jr-strategist/jr-strategist-cover.png
 difficulty: "beginner"
 ---

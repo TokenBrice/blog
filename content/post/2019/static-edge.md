@@ -6,6 +6,8 @@ tags: [web development, static websites, static web, Jekyll, Hugo, Netlify]
 categories: [Analysis]
 image: /img/main/banner.png
 url: static-edge
+aliases:
+  - p/static-edge
 difficulty: "beginner"
 ---
 

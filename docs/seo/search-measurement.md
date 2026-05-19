@@ -5,6 +5,8 @@ Review monthly, and after template or content-architecture releases.
 ## Search Console
 
 - Export clicks, impressions, CTR, and average position by page and query.
+- Save the monthly CSV export outside the repo or under a dated private notes folder, then summarize it with:
+  `python3 scripts/summarize-search-console.py path/to/search-console.csv > path/to/baseline-summary.csv`
 - Group pages by language, page type, and topic cluster: posts, categories, series, glossary terms, pillar pages, and utility pages.
 - Track decay for older DeFi content, especially stablecoins, lending, Curve/veCRV, Aave, Liquity, and yield articles.
 - After structured-data releases, inspect representative URLs and watch rich-result/error reports for Articles and Breadcrumbs.

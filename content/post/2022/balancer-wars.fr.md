@@ -10,6 +10,8 @@ series_order: 4
 toc: true
 tocNum: false
 url: balancer-wars
+aliases:
+  - p/balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
 difficulty: "intermediate"
 ---

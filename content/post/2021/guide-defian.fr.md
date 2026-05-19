@@ -5,6 +5,8 @@ date: '2021-05-17T01:53:50.191Z'
 categories: [Projects]
 tags: [DeFi France, Discord]
 url: guide-defian
+aliases:
+  - p/guide-defian
 toc: true
 tocNum: true
 image: /img/2021/guide-defian/guide-defian-cover.png

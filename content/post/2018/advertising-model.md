@@ -8,6 +8,8 @@ categories: [Analysis, Privacy]
 tags: [advertising model, Privacy, data harvesting]
 image: /img/2018/ad-model/cover.jpeg
 url: advertising-model
+aliases:
+  - p/advertising-model
 difficulty: "beginner"
 ---
 

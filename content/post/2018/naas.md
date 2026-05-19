@@ -8,6 +8,8 @@ categories: [Analysis]
 tags: [NaaS, EcoCrypto]
 image: /img/2018/naas/cover.jpeg
 url: naas
+aliases:
+  - p/naas
 difficulty: "intermediate"
 ---
 

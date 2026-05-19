@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
 tocNum: false
 url: liquity-protocol
+aliases:
+  - p/liquity-protocol
 image: /img/2021/liquity-protocol/cover.png
 difficulty: "intermediate"
 ---

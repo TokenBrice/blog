@@ -10,6 +10,8 @@ series_order: 3
 toc: true
 tocNum: false
 url: marche-monetaire-innovations
+aliases:
+  - p/marche-monetaire-innovations
 image: /img/2021/money-market-innovations/cover.png
 difficulty: "intermediate"
 ---

@@ -10,6 +10,8 @@ tags: [DeFi, RealT, Compound, DAI]
 image: /img/2020/freecoffees/cover.png
 difficulty: "beginner"
 url: defi-free-coffees
+aliases:
+  - p/defi-free-coffees
 ---
 
 _Overview of the passive income-earning opportunities enabled by decentralised finance_

@@ -9,6 +9,8 @@ tags: [advertising model, data harversting]
 toc: true
 image: /img/2019/attention-economy/cover.jpeg
 url: attention-economy
+aliases:
+  - p/attention-economy
 difficulty: "beginner"
 ---
 

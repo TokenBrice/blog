@@ -8,6 +8,8 @@ categories: [Analysis, Privacy]
 tags: [facebook, google, ad model, Privacy]
 image: /img/2018/user-privacy/cover.jpeg
 url: users-Privacy
+aliases:
+  - p/users-Privacy
 difficulty: "beginner"
 ---
 

@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
 tocNum: false
 url: pool-together
+aliases:
+  - p/pool-together
 image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
 ---

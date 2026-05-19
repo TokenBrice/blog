@@ -10,6 +10,8 @@ series_order: 4
 toc: true
 tocNum: true
 url: aave-gho-stablecoin
+aliases:
+  - p/aave-gho-stablecoin
 image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 difficulty: "intermediate"
 ---

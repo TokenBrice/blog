@@ -8,6 +8,8 @@ tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
 tocNum: false
 url: joining-liquity
+aliases:
+  - p/joining-liquity
 image: /img/2022/tokenbrice-liquity/cover.png
 difficulty: "beginner"
 ---

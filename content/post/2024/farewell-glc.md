@@ -6,6 +6,8 @@ categories: [Projects]
 tags: [DeFi, Ethereum, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]
 image: /img/2024/farewell-glc/gov-typing.png
 url: farewell-glc
+aliases:
+  - p/farewell-glc
 difficulty: "intermediate"
 ---
 

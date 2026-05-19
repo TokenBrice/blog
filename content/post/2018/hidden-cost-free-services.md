@@ -8,6 +8,8 @@ categories: [Analysis, Privacy]
 tags: [advertising model, ad blockers]
 image: /img/2018/free-services/cover.jpeg
 url: hidden-cost-free-services
+aliases:
+  - p/hidden-cost-free-services
 difficulty: "beginner"
 ---
 

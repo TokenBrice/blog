@@ -8,6 +8,8 @@ tags: [DeFi, RealT, Compound, DAI]
 image: /img/2020/bankless-defi-lunches/paying.jpeg
 difficulty: "beginner"
 url: defi-lunches
+aliases:
+  - p/defi-lunches
 ---
 
 Go [Bankless](https://bankless.substack.com/about). $12 / mo. Includes [archive access](https://bankless.substack.com/archive?utm_source=menu-dropdown), [Inner Circle](https://bankless.substack.com/p/welcome-to-the-inner-circle-wave) & [Deals](https://bankless.substack.com/p/the-deal-sheet)—[(pay w/ crypto)](

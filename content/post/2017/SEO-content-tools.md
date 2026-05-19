@@ -9,6 +9,8 @@ tags: [SEO, content, KW research]
 toc: true
 image: /img/2017/seo-tools/cover.png
 url: seo-content-tools
+aliases:
+  - p/seo-content-tools
 difficulty: "beginner"
 ---
 

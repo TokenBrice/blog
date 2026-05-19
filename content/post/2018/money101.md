@@ -9,6 +9,8 @@ tags: [bitcoin, currency, money, cryptocurrency, Blockchain, EcoCrypto]
 image: /img/2018/money101/cover.jpeg
 difficulty: "beginner"
 url: money101
+aliases:
+  - p/money101
 ---
 
 

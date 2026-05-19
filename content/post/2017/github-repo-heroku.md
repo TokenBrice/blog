@@ -6,6 +6,8 @@ categories: [Tutorial]
 tags: [Chatbot, Python]
 image: /img/2017/sato/satodemo.gif
 url: github-repo-heroku
+aliases:
+  - p/github-repo-heroku
 difficulty: "intermediate"
 ---
 
