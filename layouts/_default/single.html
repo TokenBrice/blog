@@ -32,7 +32,7 @@
         {{ partial "article/components/links" . }}
     {{ end }}
 
-    {{ partial "article/components/related-content" . }}
+    {{ partial "article/components/end-of-post" . }}
 
     {{ if not (eq .Params.comments false) }}
         {{ partial "comments/include" . }}

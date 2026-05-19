@@ -14,6 +14,7 @@
     var letterSections = termsList.querySelectorAll('.letter-section');
     var activeCategory = '';
     var searchQuery = '';
+    var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     function applyFilters() {
         var visibleCount = 0;
@@ -62,12 +63,20 @@
 
     function updateAlphabetNav() {
         if (!alphabetContainer) return;
-        var buttons = alphabetContainer.querySelectorAll('.alphabet-link');
-        buttons.forEach(function(btn) {
+        var links = alphabetContainer.querySelectorAll('.alphabet-link');
+        links.forEach(function(btn) {
             var letter = btn.getAttribute('data-letter') || btn.textContent.trim();
             var section = document.getElementById('letter-' + letter);
-            if (section) {
-                btn.style.display = section.style.display === 'none' ? 'none' : '';
+            if (!section) return;
+            // Muted (not hidden) when current filter yields no terms for this letter
+            if (section.style.display === 'none') {
+                btn.classList.add('is-empty');
+                btn.setAttribute('aria-disabled', 'true');
+                btn.setAttribute('tabindex', '-1');
+            } else {
+                btn.classList.remove('is-empty');
+                btn.removeAttribute('aria-disabled');
+                btn.removeAttribute('tabindex');
             }
         });
     }
@@ -80,6 +89,47 @@
         });
     }
 
+    function readCategoryFromHash() {
+        var h = (window.location.hash || '').replace(/^#/, '');
+        if (!h) return '';
+        // Support both `#cat=risks` and `#category=risks`
+        var pairs = h.split('&');
+        for (var i = 0; i < pairs.length; i++) {
+            var kv = pairs[i].split('=');
+            if (kv[0] === 'cat' || kv[0] === 'category') {
+                return decodeURIComponent(kv[1] || '');
+            }
+        }
+        return '';
+    }
+
+    function writeCategoryToHash(cat) {
+        var current = window.location.hash || '';
+        var target = cat ? '#cat=' + encodeURIComponent(cat) : '';
+        if (current === target) return;
+        // Avoid scroll-jump by using replaceState rather than assigning location.hash
+        if (window.history && window.history.replaceState) {
+            var url = window.location.pathname + window.location.search + target;
+            window.history.replaceState(null, '', url);
+        } else {
+            window.location.hash = target;
+        }
+    }
+
+    function activatePill(category, opts) {
+        opts = opts || {};
+        activeCategory = category || '';
+        if (pillContainer) {
+            pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
+                var isMatch = (p.getAttribute('data-category') || '') === activeCategory;
+                p.classList.toggle('active', isMatch);
+                p.setAttribute('aria-pressed', isMatch ? 'true' : 'false');
+            });
+        }
+        applyFilters();
+        if (opts.persist !== false) writeCategoryToHash(activeCategory);
+    }
+
     // Category pill handlers
     if (pillContainer) {
         // Initialize aria-pressed on all pills
@@ -90,14 +140,13 @@
         pillContainer.addEventListener('click', function(e) {
             var pill = e.target.closest('.category-pill');
             if (!pill) return;
-            pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
-                p.classList.remove('active');
-                p.setAttribute('aria-pressed', 'false');
-            });
-            pill.classList.add('active');
-            pill.setAttribute('aria-pressed', 'true');
-            activeCategory = pill.getAttribute('data-category') || '';
-            applyFilters();
+            var cat = pill.getAttribute('data-category') || '';
+            // Re-click active non-"All" pill resets to All
+            if (cat && pill.classList.contains('active')) {
+                activatePill('');
+            } else {
+                activatePill(cat);
+            }
         });
     }
 
@@ -117,13 +166,40 @@
         });
     }
 
+    // Alphabet nav: anchor jump with reduced-motion honored
+    if (alphabetContainer) {
+        alphabetContainer.addEventListener('click', function(e) {
+            var link = e.target.closest('.alphabet-link');
+            if (!link) return;
+            // Block jumps to empty letters
+            if (link.classList.contains('is-empty')) {
+                e.preventDefault();
+                return;
+            }
+            var letter = link.getAttribute('data-letter') || link.textContent.trim();
+            var section = document.getElementById('letter-' + letter);
+            if (!section) return;
+            e.preventDefault();
+            var behavior = prefersReducedMotion ? 'auto' : 'smooth';
+            section.scrollIntoView({ behavior: behavior, block: 'start' });
+            setActiveAlphabetLetter(letter);
+            // Update URL fragment without triggering native jump
+            if (window.history && window.history.replaceState) {
+                var hashParts = [];
+                if (activeCategory) hashParts.push('cat=' + encodeURIComponent(activeCategory));
+                hashParts.push('letter-' + letter);
+                // Hash carries either filter or letter target; keep filter if active
+                var newHash = activeCategory
+                    ? '#cat=' + encodeURIComponent(activeCategory)
+                    : '#letter-' + letter;
+                window.history.replaceState(null, '', window.location.pathname + window.location.search + newHash);
+            }
+        });
+    }
+
     // Alphabet nav scroll tracking with IntersectionObserver
-    // Observe letter sections and highlight the link whose section heading
-    // crosses the viewport top + 100px offset.
     if (alphabetContainer && 'IntersectionObserver' in window) {
-        // Negative top rootMargin pushes the trigger line 100px below the viewport top.
         var observer = new IntersectionObserver(function(entries) {
-            // Pick the topmost intersecting section
             var visible = entries.filter(function(e) { return e.isIntersecting; });
             if (!visible.length) return;
             visible.sort(function(a, b) {
@@ -138,34 +214,28 @@
         });
     }
 
-    // URL parameter support: ?category=X
-    var urlParams = new URLSearchParams(window.location.search);
-    var urlCategory = urlParams.get('category');
-    if (urlCategory && pillContainer) {
-        var targetPill = pillContainer.querySelector('[data-category="' + urlCategory + '"]');
-        if (targetPill) {
-            pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
-                p.classList.remove('active');
-                p.setAttribute('aria-pressed', 'false');
-            });
-            targetPill.classList.add('active');
-            targetPill.setAttribute('aria-pressed', 'true');
-            activeCategory = urlCategory;
-            applyFilters();
-        }
+    // Initial state: prefer URL hash, fall back to legacy `?category=` query param
+    var initialCategory = readCategoryFromHash();
+    if (!initialCategory) {
+        var urlParams = new URLSearchParams(window.location.search);
+        var urlCategory = urlParams.get('category');
+        if (urlCategory) initialCategory = urlCategory;
     }
+    if (initialCategory && pillContainer && pillContainer.querySelector('[data-category="' + initialCategory + '"]')) {
+        activatePill(initialCategory, { persist: false });
+    }
+
+    // React to hash changes (back/forward navigation, manual edits)
+    window.addEventListener('hashchange', function() {
+        var cat = readCategoryFromHash();
+        if (cat !== activeCategory) {
+            activatePill(cat, { persist: false });
+        }
+    });
 
     // Backward compat: expose globally for category card shortcode
     window.handleCategoryFilter = function(categoryId) {
-        activeCategory = categoryId || '';
-        if (pillContainer) {
-            pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
-                var isMatch = (p.getAttribute('data-category') || '') === activeCategory;
-                p.classList.toggle('active', isMatch);
-                p.setAttribute('aria-pressed', isMatch ? 'true' : 'false');
-            });
-        }
-        applyFilters();
+        activatePill(categoryId || '');
     };
 
     // Handle pending category filter

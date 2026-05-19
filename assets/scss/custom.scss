@@ -309,6 +309,9 @@ footer.site-footer::before {
 
 @import "projects-banner";
 
+/* End-of-post terminal (related posts + follow + RSS) */
+@import "custom/end-of-post";
+
 /* ============================================================
  * Zone H: Site footer (override)
  * ============================================================ */
