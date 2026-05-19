@@ -1,0 +1,116 @@
+{{- $context := .Context -}}
+{{- $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections -}}
+{{- $notHidden := where $context.Site.RegularPages "Params.hidden" "!=" true -}}
+{{- $filtered := ($pages | intersect $notHidden) -}}
+
+{{- /* Categories sorted by count */ -}}
+{{- $categories := $context.Site.Taxonomies.categories.ByCount -}}
+
+{{- /* Archives grouped by year */ -}}
+{{- $archives := $filtered.GroupByDate "2006" -}}
+{{- $archivesPageQuery := first 1 (where $context.Site.Pages "Layout" "==" "archives") -}}
+{{- $archivesPage := "" -}}
+{{- with $archivesPageQuery -}}{{- $archivesPage = index . 0 -}}{{- end -}}
+
+{{- /* Difficulty counts */ -}}
+{{- $beginnerCount := len (where $pages "Params.difficulty" "beginner") -}}
+{{- $intermediateCount := len (where $pages "Params.difficulty" "intermediate") -}}
+{{- $expertCount := len (where $pages "Params.difficulty" "expert") -}}
+{{- $totalDifficulty := add $beginnerCount (add $intermediateCount $expertCount) -}}
+
+{{- /* Unique ID so multiple browse widgets don't collide */ -}}
+{{- $id := printf "browse-%s" (substr (md5 $context.RelPermalink) 0 6) -}}
+
+<section class="widget widget--browse" aria-label="{{ T `browseWidgetLabel` | default `Browse the archive` }}">
+    <div class="browse-tabs" role="tablist">
+        <input type="radio" id="{{ $id }}-cats" name="{{ $id }}-tab" class="browse-tabs__radio" checked aria-controls="{{ $id }}-cats-panel">
+        <label for="{{ $id }}-cats" class="browse-tabs__label" role="tab">{{ T "browseTabCategories" | default "Categories" }}</label>
+
+        <input type="radio" id="{{ $id }}-archives" name="{{ $id }}-tab" class="browse-tabs__radio" aria-controls="{{ $id }}-archives-panel">
+        <label for="{{ $id }}-archives" class="browse-tabs__label" role="tab">{{ T "browseTabArchives" | default "Archives" }}</label>
+
+        <input type="radio" id="{{ $id }}-difficulty" name="{{ $id }}-tab" class="browse-tabs__radio" aria-controls="{{ $id }}-difficulty-panel">
+        <label for="{{ $id }}-difficulty" class="browse-tabs__label" role="tab">{{ T "browseTabDifficulty" | default "Difficulty" }}</label>
+
+        {{- /* Panels */ -}}
+        <div class="browse-tabs__panel browse-tabs__panel--cats" id="{{ $id }}-cats-panel" role="tabpanel">
+            <ul class="browse-list browse-list--categories">
+                {{ range $categories }}
+                    <li>
+                        <a href="{{ .Page.RelPermalink }}">
+                            <span class="browse-list__name">{{ .Page.Title }}</span>
+                            <span class="browse-list__count">{{ .Count }}</span>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <div class="browse-tabs__panel browse-tabs__panel--archives" id="{{ $id }}-archives-panel" role="tabpanel">
+            <ul class="browse-list browse-list--archives">
+                {{ range $archives }}
+                    {{- $id := lower (replace .Key " " "-") -}}
+                    <li>
+                        <a {{ with $archivesPage }}href="{{ .RelPermalink }}#{{ $id }}"{{ end }}>
+                            <span class="browse-list__name">{{ .Key }}</span>
+                            <span class="browse-list__count">{{ len .Pages }}</span>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <div class="browse-tabs__panel browse-tabs__panel--difficulty" id="{{ $id }}-difficulty-panel" role="tabpanel">
+            <ul class="browse-list browse-list--difficulty">
+                {{ if gt $beginnerCount 0 }}
+                    <li>
+                        <a href="{{ "/difficulty/beginner/" | relLangURL }}">
+                            <div class="browse-difficulty__head">
+                                <span class="browse-difficulty__name">
+                                    <span class="difficulty-dot difficulty-dot--beginner" aria-hidden="true"></span>
+                                    {{ T "difficultyBeginner" }}
+                                </span>
+                                <span class="browse-list__count">{{ $beginnerCount }}</span>
+                            </div>
+                            <div class="browse-difficulty__bar">
+                                <div class="browse-difficulty__fill browse-difficulty__fill--beginner" style="width: {{ div (mul $beginnerCount 100.0) $totalDifficulty }}%"></div>
+                            </div>
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if gt $intermediateCount 0 }}
+                    <li>
+                        <a href="{{ "/difficulty/intermediate/" | relLangURL }}">
+                            <div class="browse-difficulty__head">
+                                <span class="browse-difficulty__name">
+                                    <span class="difficulty-dot difficulty-dot--intermediate" aria-hidden="true"></span>
+                                    {{ T "difficultyIntermediate" }}
+                                </span>
+                                <span class="browse-list__count">{{ $intermediateCount }}</span>
+                            </div>
+                            <div class="browse-difficulty__bar">
+                                <div class="browse-difficulty__fill browse-difficulty__fill--intermediate" style="width: {{ div (mul $intermediateCount 100.0) $totalDifficulty }}%"></div>
+                            </div>
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if gt $expertCount 0 }}
+                    <li>
+                        <a href="{{ "/difficulty/expert/" | relLangURL }}">
+                            <div class="browse-difficulty__head">
+                                <span class="browse-difficulty__name">
+                                    <span class="difficulty-dot difficulty-dot--expert" aria-hidden="true"></span>
+                                    {{ T "difficultyExpert" }}
+                                </span>
+                                <span class="browse-list__count">{{ $expertCount }}</span>
+                            </div>
+                            <div class="browse-difficulty__bar">
+                                <div class="browse-difficulty__fill browse-difficulty__fill--expert" style="width: {{ div (mul $expertCount 100.0) $totalDifficulty }}%"></div>
+                            </div>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>

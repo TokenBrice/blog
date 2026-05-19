@@ -1,0 +1,10 @@
+{{/*
+    Override of themes/hugo-theme-stack/layouts/partials/footer/include.html
+    Drops partialCached around footer/components/script.html because the
+    project's override of that script is per-page-conditional (Vibrant is
+    gated to pages that render article-list--tile). partialCached would
+    freeze the first page's gate result for every subsequent page.
+*/}}
+{{ partial "footer/components/script.html" . }}
+
+{{ partial "footer/custom.html" . }}

@@ -1,0 +1,37 @@
+{{ define "main" }}
+    <header>
+        <h3 class="section-title">{{ T "list.section" | default "Section" }}</h3>
+
+        <div class="section-card">
+            <div class="section-details">
+                <h3 class="section-count">{{ len .Pages }}</h3>
+                <h1 class="section-term">{{ .Title }}</h1>
+                {{ with .Params.description }}
+                    <h2 class="section-description">{{ . }}</h2>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    {{- $taxonomyName := .Data.Plural -}}
+    {{- $terms := index .Site.Taxonomies $taxonomyName -}}
+
+    <section class="taxonomy-index">
+        <ul class="taxonomy-index__list">
+            {{ range $terms.ByCount }}
+                <li>
+                    <a href="{{ .Page.RelPermalink }}">
+                        <span class="taxonomy-index__name">{{ .Page.Title }}</span>
+                        <span class="taxonomy-index__count">{{ .Count }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
+
+    {{ partialCached "footer/footer" . .Language.Lang }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
