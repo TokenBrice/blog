@@ -118,6 +118,18 @@ other = "Next"
 [glossaryCategoryFilter]
 other = "Click to filter by category"
 
+[glossaryStartHereEyebrow]
+other = "Start here"
+
+[glossaryStartHereTitle]
+other = "Foundations every reader should know"
+
+[glossaryAlphabetNav]
+other = "Jump by letter"
+
+[glossaryJumpToLetter]
+other = "Jump to letter %s"
+
 [glossaryReadFull]
 other = "Read full definition"
 
@@ -347,6 +359,21 @@ other = "Down the rabbit hole"
 
 [keepReading]
 other = "Keep reading"
+
+
+# End-of-post terminal
+
+[endOfPostHeading]
+other = "Keep going"
+
+[endOfPostRelated]
+other = "Related reading"
+
+[endOfPostFollow]
+other = "Follow"
+
+[endOfPostRSS]
+other = "RSS"
 
 
 # Navigation, menu, a11y, 404

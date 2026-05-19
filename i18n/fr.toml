@@ -118,6 +118,18 @@ other = "Suivant"
 [glossaryCategoryFilter]
 other = "Cliquer pour filtrer par catégorie"
 
+[glossaryStartHereEyebrow]
+other = "Commencer ici"
+
+[glossaryStartHereTitle]
+other = "Les fondamentaux à connaître"
+
+[glossaryAlphabetNav]
+other = "Aller à une lettre"
+
+[glossaryJumpToLetter]
+other = "Aller à la lettre %s"
+
 [glossaryReadFull]
 other = "Lire la définition complète"
 
@@ -347,6 +359,21 @@ other = "Dans le terrier"
 
 [keepReading]
 other = "Continuer la lecture"
+
+
+# End-of-post terminal
+
+[endOfPostHeading]
+other = "Pour aller plus loin"
+
+[endOfPostRelated]
+other = "À lire ensuite"
+
+[endOfPostFollow]
+other = "Suivre"
+
+[endOfPostRSS]
+other = "RSS"
 
 
 # Navigation, menu, a11y, 404
