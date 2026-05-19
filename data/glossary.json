@@ -7165,6 +7165,1040 @@
         "what_to_check": "Treat it as a protocol primitive: understand deposits, withdrawals, accounting, oracle use, admin powers, and liquidation paths. The main checks are: Liquidation risk; Collateral volatility; Smart contract risk; Stability fee changes.",
         "seo_title": "CDP: Meaning, Example, Risks and Related DeFi Terms",
         "seo_description": "What is CDP in crypto and DeFi? Smart contract where collateral is deposited to mint or borrow stablecoins. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "liquidity",
+        "term": "Liquidity",
+        "full_term": "Liquidity",
+        "category": "trading",
+        "definition": "Liquidity means how easily an asset can be traded or redeemed without large price impact. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "How easily an asset can be traded or redeemed without large price impact",
+        "example": "A deep USDC/ETH pool lets a trader swap a large position with little slippage.",
+        "related_terms": [
+          "liquidity-pool",
+          "slippage",
+          "market-depth",
+          "liquidity-provider"
+        ],
+        "risks": [
+          "Thin markets",
+          "High slippage",
+          "Redemption delays"
+        ],
+        "tags": [
+          "trading",
+          "liquidity",
+          "markets",
+          "execution"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Liquidity mean in DeFi?",
+            "answer": "Liquidity means how easily an asset can be traded or redeemed without large price impact."
+          },
+          {
+            "question": "How is Liquidity used in practice?",
+            "answer": "A practical example: A deep USDC/ETH pool lets a trader swap a large position with little slippage."
+          },
+          {
+            "question": "What should I check before relying on Liquidity?",
+            "answer": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Thin markets; High slippage; Redemption delays."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Liquidity is a DeFi term used to understand how easily an asset can be traded or redeemed without large price impact.",
+        "how_it_works": "In practice, the concept shows up like this: A deep USDC/ETH pool lets a trader swap a large position with little slippage.",
+        "why_it_matters": "Liquidity matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Thin markets; High slippage; Redemption delays.",
+        "seo_title": "Liquidity: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Liquidity in crypto and DeFi? How easily an asset can be traded or redeemed without large price impact. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "liquidity-providing",
+        "term": "Liquidity Providing",
+        "full_term": "Liquidity Providing",
+        "category": "strategies",
+        "definition": "Liquidity Providing means supplying assets to a protocol or venue to earn fees, interest, or incentives. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Supplying assets to a protocol or venue to earn fees, interest, or incentives",
+        "example": "A user deposits ETH and USDC into a Uniswap pool to earn swap fees.",
+        "related_terms": [
+          "liquidity-pool",
+          "liquidity-provider",
+          "impermanent-loss",
+          "trading-fees"
+        ],
+        "risks": [
+          "Impermanent loss",
+          "Smart contract risk",
+          "Reward token volatility"
+        ],
+        "tags": [
+          "defi",
+          "strategy",
+          "liquidity",
+          "fees"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Liquidity Providing mean in DeFi?",
+            "answer": "Liquidity Providing means supplying assets to a protocol or venue to earn fees, interest, or incentives."
+          },
+          {
+            "question": "How is Liquidity Providing used in practice?",
+            "answer": "A practical example: A user deposits ETH and USDC into a Uniswap pool to earn swap fees."
+          },
+          {
+            "question": "What should I check before relying on Liquidity Providing?",
+            "answer": "Map each step, contract dependency, exit condition, and downside before committing capital. The main checks are: Impermanent loss; Smart contract risk; Reward token volatility."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Liquidity Providing is a DeFi term used to understand supplying assets to a protocol or venue to earn fees, interest, or incentives.",
+        "how_it_works": "In practice, the concept shows up like this: A user deposits ETH and USDC into a Uniswap pool to earn swap fees.",
+        "why_it_matters": "Liquidity Providing matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Map each step, contract dependency, exit condition, and downside before committing capital. The main checks are: Impermanent loss; Smart contract risk; Reward token volatility.",
+        "seo_title": "Liquidity Providing: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Liquidity Providing in crypto and DeFi? Supplying assets to a protocol or venue to earn fees, interest, or incentives. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "peg",
+        "term": "Peg",
+        "full_term": "Peg",
+        "category": "tokens",
+        "definition": "Peg means target price relationship an asset is designed to maintain. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Target price relationship an asset is designed to maintain",
+        "example": "A dollar stablecoin aims to keep a 1:1 peg with the US dollar.",
+        "related_terms": [
+          "stablecoin",
+          "depeg",
+          "reserve",
+          "collateral"
+        ],
+        "risks": [
+          "Depeg risk",
+          "Weak redemption mechanisms",
+          "Oracle or market stress"
+        ],
+        "tags": [
+          "stablecoin",
+          "peg",
+          "tokens",
+          "price"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Peg mean in DeFi?",
+            "answer": "Peg means target price relationship an asset is designed to maintain."
+          },
+          {
+            "question": "How is Peg used in practice?",
+            "answer": "A practical example: A dollar stablecoin aims to keep a 1:1 peg with the US dollar."
+          },
+          {
+            "question": "What should I check before relying on Peg?",
+            "answer": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Depeg risk; Weak redemption mechanisms; Oracle or market stress."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Peg is a DeFi term used to understand target price relationship an asset is designed to maintain.",
+        "how_it_works": "In practice, the concept shows up like this: A dollar stablecoin aims to keep a 1:1 peg with the US dollar.",
+        "why_it_matters": "Peg matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Depeg risk; Weak redemption mechanisms; Oracle or market stress.",
+        "seo_title": "Peg: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Peg in crypto and DeFi? Target price relationship an asset is designed to maintain. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "reserve",
+        "term": "Reserve",
+        "full_term": "Reserve",
+        "category": "tokens",
+        "definition": "Reserve means assets held to back a token, obligation, or redemption promise. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Assets held to back a token, obligation, or redemption promise",
+        "example": "A fiat-backed stablecoin may hold cash and short-term Treasury bills as reserves.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "redemption",
+          "peg"
+        ],
+        "risks": [
+          "Insufficient reserves",
+          "Opaque reporting",
+          "Custody and counterparty risk"
+        ],
+        "tags": [
+          "tokens",
+          "reserves",
+          "backing",
+          "redemption"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Reserve mean in DeFi?",
+            "answer": "Reserve means assets held to back a token, obligation, or redemption promise."
+          },
+          {
+            "question": "How is Reserve used in practice?",
+            "answer": "A practical example: A fiat-backed stablecoin may hold cash and short-term Treasury bills as reserves."
+          },
+          {
+            "question": "What should I check before relying on Reserve?",
+            "answer": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Insufficient reserves; Opaque reporting; Custody and counterparty risk."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Reserve is a DeFi term used to understand assets held to back a token, obligation, or redemption promise.",
+        "how_it_works": "In practice, the concept shows up like this: A fiat-backed stablecoin may hold cash and short-term Treasury bills as reserves.",
+        "why_it_matters": "Reserve matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Insufficient reserves; Opaque reporting; Custody and counterparty risk.",
+        "seo_title": "Reserve: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Reserve in crypto and DeFi? Assets held to back a token, obligation, or redemption promise. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "real-world-assets",
+        "term": "Real-World Assets",
+        "full_term": "Real-World Assets (RWAs)",
+        "category": "tokens",
+        "definition": "Real-World Assets means off-chain assets represented, financed, or used as collateral on-chain. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Off-chain assets represented, financed, or used as collateral on-chain",
+        "example": "A protocol issues tokens representing exposure to a fund holding short-term US Treasury bills.",
+        "related_terms": [
+          "tokenized-treasury",
+          "collateral",
+          "reserve",
+          "synthetic-asset"
+        ],
+        "risks": [
+          "Legal enforceability",
+          "Custody risk",
+          "Valuation and liquidity risk"
+        ],
+        "tags": [
+          "rwa",
+          "tokens",
+          "collateral",
+          "offchain"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Real-World Assets mean in DeFi?",
+            "answer": "Real-World Assets means off-chain assets represented, financed, or used as collateral on-chain."
+          },
+          {
+            "question": "How is Real-World Assets used in practice?",
+            "answer": "A practical example: A protocol issues tokens representing exposure to a fund holding short-term US Treasury bills."
+          },
+          {
+            "question": "What should I check before relying on Real-World Assets?",
+            "answer": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Legal enforceability; Custody risk; Valuation and liquidity risk."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Real-World Assets is a DeFi term used to understand off-chain assets represented, financed, or used as collateral on-chain.",
+        "how_it_works": "In practice, the concept shows up like this: A protocol issues tokens representing exposure to a fund holding short-term US Treasury bills.",
+        "why_it_matters": "Real-World Assets matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Legal enforceability; Custody risk; Valuation and liquidity risk.",
+        "seo_title": "Real-World Assets: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Real-World Assets in crypto and DeFi? Off-chain assets represented, financed, or used as collateral on-chain. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "tokenized-treasury",
+        "term": "Tokenized Treasury",
+        "full_term": "Tokenized Treasury",
+        "category": "tokens",
+        "definition": "Tokenized Treasury means on-chain token or product representing exposure to Treasury securities. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "On-chain token or product representing exposure to Treasury securities",
+        "example": "A tokenized Treasury product tracks a fund holding short-term US Treasury bills.",
+        "related_terms": [
+          "real-world-assets",
+          "reserve",
+          "stablecoin",
+          "interest-rate"
+        ],
+        "risks": [
+          "Issuer and custodian risk",
+          "Interest rate risk",
+          "Redemption and liquidity limits"
+        ],
+        "tags": [
+          "rwa",
+          "treasury",
+          "tokens",
+          "yield"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Tokenized Treasury mean in DeFi?",
+            "answer": "Tokenized Treasury means on-chain token or product representing exposure to Treasury securities."
+          },
+          {
+            "question": "How is Tokenized Treasury used in practice?",
+            "answer": "A practical example: A tokenized Treasury product tracks a fund holding short-term US Treasury bills."
+          },
+          {
+            "question": "What should I check before relying on Tokenized Treasury?",
+            "answer": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Issuer and custodian risk; Interest rate risk; Redemption and liquidity limits."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Tokenized Treasury is a DeFi term used to understand on-chain token or product representing exposure to Treasury securities.",
+        "how_it_works": "In practice, the concept shows up like this: A tokenized Treasury product tracks a fund holding short-term US Treasury bills.",
+        "why_it_matters": "Tokenized Treasury matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Issuer and custodian risk; Interest rate risk; Redemption and liquidity limits.",
+        "seo_title": "Tokenized Treasury: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Tokenized Treasury in crypto and DeFi? On-chain token or product representing exposure to Treasury securities. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "trustless",
+        "term": "Trustless",
+        "full_term": "Trustless System",
+        "category": "technical",
+        "definition": "Trustless means system design that reduces reliance on trusted intermediaries. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "System design that reduces reliance on trusted intermediaries",
+        "example": "A DEX lets users swap tokens through smart contracts instead of trusting an exchange operator.",
+        "related_terms": [
+          "smart-contract",
+          "defi",
+          "permissionless",
+          "oracle"
+        ],
+        "risks": [
+          "Smart contract bugs",
+          "Governance control",
+          "Oracle dependencies"
+        ],
+        "tags": [
+          "crypto",
+          "decentralization",
+          "smart-contracts",
+          "security"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Trustless mean in DeFi?",
+            "answer": "Trustless means system design that reduces reliance on trusted intermediaries."
+          },
+          {
+            "question": "How is Trustless used in practice?",
+            "answer": "A practical example: A DEX lets users swap tokens through smart contracts instead of trusting an exchange operator."
+          },
+          {
+            "question": "What should I check before relying on Trustless?",
+            "answer": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Smart contract bugs; Governance control; Oracle dependencies."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Trustless is a DeFi term used to understand system design that reduces reliance on trusted intermediaries.",
+        "how_it_works": "In practice, the concept shows up like this: A DEX lets users swap tokens through smart contracts instead of trusting an exchange operator.",
+        "why_it_matters": "Trustless matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Smart contract bugs; Governance control; Oracle dependencies.",
+        "seo_title": "Trustless: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Trustless in crypto and DeFi? System design that reduces reliance on trusted intermediaries. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "permissionless",
+        "term": "Permissionless",
+        "full_term": "Permissionless Access",
+        "category": "technical",
+        "definition": "Permissionless means open access without needing approval from a central gatekeeper. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Open access without needing approval from a central gatekeeper",
+        "example": "Anyone with a compatible wallet can trade on Uniswap or deploy a token.",
+        "related_terms": [
+          "defi",
+          "dex",
+          "smart-contract",
+          "trustless"
+        ],
+        "risks": [
+          "Scams and spam tokens",
+          "Unvetted integrations",
+          "Regulatory uncertainty"
+        ],
+        "tags": [
+          "defi",
+          "open-access",
+          "decentralization",
+          "protocols"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Permissionless mean in DeFi?",
+            "answer": "Permissionless means open access without needing approval from a central gatekeeper."
+          },
+          {
+            "question": "How is Permissionless used in practice?",
+            "answer": "A practical example: Anyone with a compatible wallet can trade on Uniswap or deploy a token."
+          },
+          {
+            "question": "What should I check before relying on Permissionless?",
+            "answer": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Scams and spam tokens; Unvetted integrations; Regulatory uncertainty."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Permissionless is a DeFi term used to understand open access without needing approval from a central gatekeeper.",
+        "how_it_works": "In practice, the concept shows up like this: Anyone with a compatible wallet can trade on Uniswap or deploy a token.",
+        "why_it_matters": "Permissionless matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Scams and spam tokens; Unvetted integrations; Regulatory uncertainty.",
+        "seo_title": "Permissionless: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Permissionless in crypto and DeFi? Open access without needing approval from a central gatekeeper. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "interest-rate",
+        "term": "Interest Rate",
+        "full_term": "Interest Rate",
+        "category": "yields",
+        "definition": "Interest Rate means percentage cost to borrow or return earned from lending capital. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Percentage cost to borrow or return earned from lending capital",
+        "example": "If a lending market pays 4% annually on USDC deposits, that is the deposit interest rate.",
+        "related_terms": [
+          "apr",
+          "apy",
+          "compound-interest",
+          "lending"
+        ],
+        "risks": [
+          "Variable rate changes",
+          "Utilization spikes",
+          "Borrow liquidation risk"
+        ],
+        "tags": [
+          "defi",
+          "lending",
+          "yields",
+          "borrowing"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Interest Rate mean in DeFi?",
+            "answer": "Interest Rate means percentage cost to borrow or return earned from lending capital."
+          },
+          {
+            "question": "How is Interest Rate used in practice?",
+            "answer": "A practical example: If a lending market pays 4% annually on USDC deposits, that is the deposit interest rate."
+          },
+          {
+            "question": "What should I check before relying on Interest Rate?",
+            "answer": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Variable rate changes; Utilization spikes; Borrow liquidation risk."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Interest Rate is a DeFi term used to understand percentage cost to borrow or return earned from lending capital.",
+        "how_it_works": "In practice, the concept shows up like this: If a lending market pays 4% annually on USDC deposits, that is the deposit interest rate.",
+        "why_it_matters": "Interest Rate matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Variable rate changes; Utilization spikes; Borrow liquidation risk.",
+        "seo_title": "Interest Rate: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Interest Rate in crypto and DeFi? Percentage cost to borrow or return earned from lending capital. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "compound-interest",
+        "term": "Compound Interest",
+        "full_term": "Compound Interest",
+        "category": "yields",
+        "definition": "Compound Interest means interest earned on principal plus previously earned interest. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Interest earned on principal plus previously earned interest",
+        "example": "A vault reinvests rewards daily, turning simple farming rewards into compounded return.",
+        "related_terms": [
+          "apy",
+          "apr",
+          "auto-compounding",
+          "interest-rate"
+        ],
+        "risks": [
+          "Overstated APY assumptions",
+          "Gas and execution costs",
+          "Smart contract risk"
+        ],
+        "tags": [
+          "yields",
+          "interest",
+          "compounding",
+          "returns"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Compound Interest mean in DeFi?",
+            "answer": "Compound Interest means interest earned on principal plus previously earned interest."
+          },
+          {
+            "question": "How is Compound Interest used in practice?",
+            "answer": "A practical example: A vault reinvests rewards daily, turning simple farming rewards into compounded return."
+          },
+          {
+            "question": "What should I check before relying on Compound Interest?",
+            "answer": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Overstated APY assumptions; Gas and execution costs; Smart contract risk."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Compound Interest is a DeFi term used to understand interest earned on principal plus previously earned interest.",
+        "how_it_works": "In practice, the concept shows up like this: A vault reinvests rewards daily, turning simple farming rewards into compounded return.",
+        "why_it_matters": "Compound Interest matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Overstated APY assumptions; Gas and execution costs; Smart contract risk.",
+        "seo_title": "Compound Interest: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Compound Interest in crypto and DeFi? Interest earned on principal plus previously earned interest. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "basis-point",
+        "term": "Basis Point",
+        "full_term": "Basis Point (bps)",
+        "category": "technical",
+        "definition": "Basis Point means one hundredth of one percentage point, written as bps. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "One hundredth of one percentage point, written as bps",
+        "example": "A fee increase from 0.05% to 0.30% is an increase of 25 basis points.",
+        "related_terms": [
+          "interest-rate",
+          "apr",
+          "trading-fees",
+          "bid-ask-spread"
+        ],
+        "risks": [
+          "Misreading percentage changes",
+          "Underestimating fee drag",
+          "Confusing bps with percent"
+        ],
+        "tags": [
+          "technical",
+          "finance",
+          "rates",
+          "fees"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Basis Point mean in DeFi?",
+            "answer": "Basis Point means one hundredth of one percentage point, written as bps."
+          },
+          {
+            "question": "How is Basis Point used in practice?",
+            "answer": "A practical example: A fee increase from 0.05% to 0.30% is an increase of 25 basis points."
+          },
+          {
+            "question": "What should I check before relying on Basis Point?",
+            "answer": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Misreading percentage changes; Underestimating fee drag; Confusing bps with percent."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Basis Point is a DeFi term used to understand one hundredth of one percentage point, written as bps.",
+        "how_it_works": "In practice, the concept shows up like this: A fee increase from 0.05% to 0.30% is an increase of 25 basis points.",
+        "why_it_matters": "Basis Point matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Misreading percentage changes; Underestimating fee drag; Confusing bps with percent.",
+        "seo_title": "Basis Point: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Basis Point in crypto and DeFi? One hundredth of one percentage point, written as bps. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "proof-of-stake",
+        "term": "Proof of Stake",
+        "full_term": "Proof of Stake (PoS)",
+        "category": "technical",
+        "definition": "Proof of Stake means consensus mechanism where validators stake assets to secure a blockchain. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Consensus mechanism where validators stake assets to secure a blockchain",
+        "example": "Ethereum validators stake ETH to participate in consensus and can be slashed for serious violations.",
+        "related_terms": [
+          "validator",
+          "consensus",
+          "staking",
+          "slashing"
+        ],
+        "risks": [
+          "Validator slashing",
+          "Centralized staking providers",
+          "Protocol or client bugs"
+        ],
+        "tags": [
+          "technical",
+          "consensus",
+          "staking",
+          "ethereum"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Proof of Stake mean in DeFi?",
+            "answer": "Proof of Stake means consensus mechanism where validators stake assets to secure a blockchain."
+          },
+          {
+            "question": "How is Proof of Stake used in practice?",
+            "answer": "A practical example: Ethereum validators stake ETH to participate in consensus and can be slashed for serious violations."
+          },
+          {
+            "question": "What should I check before relying on Proof of Stake?",
+            "answer": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Validator slashing; Centralized staking providers; Protocol or client bugs."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Proof of Stake is a DeFi term used to understand consensus mechanism where validators stake assets to secure a blockchain.",
+        "how_it_works": "In practice, the concept shows up like this: Ethereum validators stake ETH to participate in consensus and can be slashed for serious violations.",
+        "why_it_matters": "Proof of Stake matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Identify which contract, validator, oracle, admin key, or process can still affect outcomes. The main checks are: Validator slashing; Centralized staking providers; Protocol or client bugs.",
+        "seo_title": "Proof of Stake: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Proof of Stake in crypto and DeFi? Consensus mechanism where validators stake assets to secure a blockchain. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "oracle-attack",
+        "term": "Oracle Attack",
+        "full_term": "Oracle Attack",
+        "category": "risks",
+        "definition": "Oracle Attack means attack that exploits manipulated or faulty oracle data. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Attack that exploits manipulated or faulty oracle data",
+        "example": "An attacker manipulates a thin market used by an oracle, causing a lending protocol to overvalue collateral.",
+        "related_terms": [
+          "oracle",
+          "price-oracle",
+          "liquidation",
+          "exploit"
+        ],
+        "risks": [
+          "Bad debt creation",
+          "Cascading liquidations",
+          "Protocol insolvency"
+        ],
+        "tags": [
+          "risks",
+          "oracle",
+          "security",
+          "pricing"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Oracle Attack mean in DeFi?",
+            "answer": "Oracle Attack means attack that exploits manipulated or faulty oracle data."
+          },
+          {
+            "question": "How is Oracle Attack used in practice?",
+            "answer": "A practical example: An attacker manipulates a thin market used by an oracle, causing a lending protocol to overvalue collateral."
+          },
+          {
+            "question": "What should I check before relying on Oracle Attack?",
+            "answer": "Identify the failure mode, who can be harmed, and what evidence reduces that risk. The main checks are: Bad debt creation; Cascading liquidations; Protocol insolvency."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Oracle Attack is a DeFi term used to understand attack that exploits manipulated or faulty oracle data.",
+        "how_it_works": "In practice, the concept shows up like this: An attacker manipulates a thin market used by an oracle, causing a lending protocol to overvalue collateral.",
+        "why_it_matters": "Oracle Attack matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Identify the failure mode, who can be harmed, and what evidence reduces that risk. The main checks are: Bad debt creation; Cascading liquidations; Protocol insolvency.",
+        "seo_title": "Oracle Attack: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Oracle Attack in crypto and DeFi? Attack that exploits manipulated or faulty oracle data. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "trading-fees",
+        "term": "Trading Fees",
+        "full_term": "Trading Fees",
+        "category": "trading",
+        "definition": "Trading Fees means charges paid to execute trades on a trading venue or protocol. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Charges paid to execute trades on a trading venue or protocol",
+        "example": "A Uniswap pool may charge 0.30% on each swap, with fees accruing to liquidity providers.",
+        "related_terms": [
+          "swap",
+          "dex",
+          "liquidity-pool",
+          "liquidity-provider"
+        ],
+        "risks": [
+          "Fee drag on strategies",
+          "Opaque routing costs",
+          "Misaligned fee distribution"
+        ],
+        "tags": [
+          "trading",
+          "fees",
+          "dex",
+          "liquidity"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Trading Fees mean in DeFi?",
+            "answer": "Trading Fees means charges paid to execute trades on a trading venue or protocol."
+          },
+          {
+            "question": "How is Trading Fees used in practice?",
+            "answer": "A practical example: A Uniswap pool may charge 0.30% on each swap, with fees accruing to liquidity providers."
+          },
+          {
+            "question": "What should I check before relying on Trading Fees?",
+            "answer": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Fee drag on strategies; Opaque routing costs; Misaligned fee distribution."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Trading Fees is a DeFi term used to understand charges paid to execute trades on a trading venue or protocol.",
+        "how_it_works": "In practice, the concept shows up like this: A Uniswap pool may charge 0.30% on each swap, with fees accruing to liquidity providers.",
+        "why_it_matters": "Trading Fees matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Fee drag on strategies; Opaque routing costs; Misaligned fee distribution.",
+        "seo_title": "Trading Fees: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Trading Fees in crypto and DeFi? Charges paid to execute trades on a trading venue or protocol. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "redemption",
+        "term": "Redemption",
+        "full_term": "Token Redemption",
+        "category": "tokens",
+        "definition": "Redemption means exchanging a token for its underlying asset or collateral. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Exchanging a token for its underlying asset or collateral",
+        "example": "A user redeems 1000 LUSD through Liquity to receive ETH collateral worth roughly 1000 USD.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "depeg",
+          "overcollateralization"
+        ],
+        "risks": [
+          "Redemption delays",
+          "Insufficient liquidity",
+          "Protocol fees or haircuts"
+        ],
+        "tags": [
+          "stablecoin",
+          "tokens",
+          "collateral",
+          "exit"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Redemption mean in DeFi?",
+            "answer": "Redemption means exchanging a token for its underlying asset or collateral."
+          },
+          {
+            "question": "How is Redemption used in practice?",
+            "answer": "A practical example: A user redeems 1000 LUSD through Liquity to receive ETH collateral worth roughly 1000 USD."
+          },
+          {
+            "question": "What should I check before relying on Redemption?",
+            "answer": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Redemption delays; Insufficient liquidity; Protocol fees or haircuts."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Redemption is a DeFi term used to understand exchanging a token for its underlying asset or collateral.",
+        "how_it_works": "In practice, the concept shows up like this: A user redeems 1000 LUSD through Liquity to receive ETH collateral worth roughly 1000 USD.",
+        "why_it_matters": "Redemption matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Inspect backing, redemption paths, liquidity, issuer assumptions, and stressed-market behavior. The main checks are: Redemption delays; Insufficient liquidity; Protocol fees or haircuts.",
+        "seo_title": "Redemption: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Redemption in crypto and DeFi? Exchanging a token for its underlying asset or collateral. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "stability-pool",
+        "term": "Stability Pool",
+        "full_term": "Stability Pool",
+        "category": "protocols",
+        "definition": "Stability Pool means pool of deposits used to absorb liquidations and stabilize a protocol. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Pool of deposits used to absorb liquidations and stabilize a protocol",
+        "example": "In Liquity, users deposit LUSD into the Stability Pool and receive liquidated ETH collateral.",
+        "related_terms": [
+          "liquidation",
+          "collateral",
+          "stablecoin",
+          "overcollateralization"
+        ],
+        "risks": [
+          "Collateral price volatility",
+          "Smart contract risk",
+          "Unexpected liquidation volume"
+        ],
+        "tags": [
+          "stablecoin",
+          "lending",
+          "liquidation",
+          "protocols"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Stability Pool mean in DeFi?",
+            "answer": "Stability Pool means pool of deposits used to absorb liquidations and stabilize a protocol."
+          },
+          {
+            "question": "How is Stability Pool used in practice?",
+            "answer": "A practical example: In Liquity, users deposit LUSD into the Stability Pool and receive liquidated ETH collateral."
+          },
+          {
+            "question": "What should I check before relying on Stability Pool?",
+            "answer": "Understand deposits, withdrawals, accounting, oracle use, admin powers, and failure paths. The main checks are: Collateral price volatility; Smart contract risk; Unexpected liquidation volume."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Stability Pool is a DeFi term used to understand pool of deposits used to absorb liquidations and stabilize a protocol.",
+        "how_it_works": "In practice, the concept shows up like this: In Liquity, users deposit LUSD into the Stability Pool and receive liquidated ETH collateral.",
+        "why_it_matters": "Stability Pool matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Understand deposits, withdrawals, accounting, oracle use, admin powers, and failure paths. The main checks are: Collateral price volatility; Smart contract risk; Unexpected liquidation volume.",
+        "seo_title": "Stability Pool: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Stability Pool in crypto and DeFi? Pool of deposits used to absorb liquidations and stabilize a protocol. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "safety-module",
+        "term": "Safety Module",
+        "full_term": "Protocol Safety Module",
+        "category": "protocols",
+        "definition": "Safety Module means staked backstop capital that can cover protocol shortfalls. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Staked backstop capital that can cover protocol shortfalls",
+        "example": "Aave users can stake AAVE while accepting slashing risk if the protocol needs funds after a shortfall.",
+        "related_terms": [
+          "staking",
+          "slashing",
+          "treasury",
+          "governance-token"
+        ],
+        "risks": [
+          "Slashing risk",
+          "Token price volatility",
+          "Governance-defined loss events"
+        ],
+        "tags": [
+          "protocols",
+          "risk",
+          "staking",
+          "backstop"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Safety Module mean in DeFi?",
+            "answer": "Safety Module means staked backstop capital that can cover protocol shortfalls."
+          },
+          {
+            "question": "How is Safety Module used in practice?",
+            "answer": "A practical example: Aave users can stake AAVE while accepting slashing risk if the protocol needs funds after a shortfall."
+          },
+          {
+            "question": "What should I check before relying on Safety Module?",
+            "answer": "Understand deposits, withdrawals, accounting, oracle use, admin powers, and failure paths. The main checks are: Slashing risk; Token price volatility; Governance-defined loss events."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Safety Module is a DeFi term used to understand staked backstop capital that can cover protocol shortfalls.",
+        "how_it_works": "In practice, the concept shows up like this: Aave users can stake AAVE while accepting slashing risk if the protocol needs funds after a shortfall.",
+        "why_it_matters": "Safety Module matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Understand deposits, withdrawals, accounting, oracle use, admin powers, and failure paths. The main checks are: Slashing risk; Token price volatility; Governance-defined loss events.",
+        "seo_title": "Safety Module: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Safety Module in crypto and DeFi? Staked backstop capital that can cover protocol shortfalls. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "lp-boost",
+        "term": "LP Boost",
+        "full_term": "Liquidity Provider Boost",
+        "category": "yields",
+        "definition": "LP Boost means reward multiplier for liquidity providers who meet protocol conditions. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Reward multiplier for liquidity providers who meet protocol conditions",
+        "example": "Curve LPs can receive boosted CRV rewards when they hold enough veCRV relative to their deposit.",
+        "related_terms": [
+          "liquidity-provider",
+          "vote-escrow",
+          "emission",
+          "gauge"
+        ],
+        "risks": [
+          "Lock-up opportunity cost",
+          "Boost dilution",
+          "Complex reward calculations"
+        ],
+        "tags": [
+          "yields",
+          "liquidity",
+          "rewards",
+          "incentives"
+        ],
+        "common_questions": [
+          {
+            "question": "What does LP Boost mean in DeFi?",
+            "answer": "LP Boost means reward multiplier for liquidity providers who meet protocol conditions."
+          },
+          {
+            "question": "How is LP Boost used in practice?",
+            "answer": "A practical example: Curve LPs can receive boosted CRV rewards when they hold enough veCRV relative to their deposit."
+          },
+          {
+            "question": "What should I check before relying on LP Boost?",
+            "answer": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Lock-up opportunity cost; Boost dilution; Complex reward calculations."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "LP Boost is a DeFi term used to understand reward multiplier for liquidity providers who meet protocol conditions.",
+        "how_it_works": "In practice, the concept shows up like this: Curve LPs can receive boosted CRV rewards when they hold enough veCRV relative to their deposit.",
+        "why_it_matters": "LP Boost matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Separate sustainable revenue from temporary incentives and ask who pays the yield. The main checks are: Lock-up opportunity cost; Boost dilution; Complex reward calculations.",
+        "seo_title": "LP Boost: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is LP Boost in crypto and DeFi? Reward multiplier for liquidity providers who meet protocol conditions. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "market-maker",
+        "term": "Market Maker",
+        "full_term": "Market Maker",
+        "category": "trading",
+        "definition": "Market Maker means participant that provides buy and sell liquidity to a market. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Participant that provides buy and sell liquidity to a market",
+        "example": "A market maker quotes both bids and asks for ETH on an exchange, earning spread while helping traders execute.",
+        "related_terms": [
+          "orderbook",
+          "liquidity",
+          "bid-ask-spread",
+          "slippage"
+        ],
+        "risks": [
+          "Inventory risk",
+          "Adverse selection",
+          "Liquidity withdrawal during stress"
+        ],
+        "tags": [
+          "trading",
+          "liquidity",
+          "markets",
+          "execution"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Market Maker mean in DeFi?",
+            "answer": "Market Maker means participant that provides buy and sell liquidity to a market."
+          },
+          {
+            "question": "How is Market Maker used in practice?",
+            "answer": "A practical example: A market maker quotes both bids and asks for ETH on an exchange, earning spread while helping traders execute."
+          },
+          {
+            "question": "What should I check before relying on Market Maker?",
+            "answer": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Inventory risk; Adverse selection; Liquidity withdrawal during stress."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Market Maker is a DeFi term used to understand participant that provides buy and sell liquidity to a market.",
+        "how_it_works": "In practice, the concept shows up like this: A market maker quotes both bids and asks for ETH on an exchange, earning spread while helping traders execute.",
+        "why_it_matters": "Market Maker matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Compare fees, slippage, liquidity, volatility, and execution risk. The main checks are: Inventory risk; Adverse selection; Liquidity withdrawal during stress.",
+        "seo_title": "Market Maker: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Market Maker in crypto and DeFi? Participant that provides buy and sell liquidity to a market. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "voting-power",
+        "term": "Voting Power",
+        "full_term": "Governance Voting Power",
+        "category": "governance",
+        "definition": "Voting Power means amount of influence a participant has in governance votes. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Amount of influence a participant has in governance votes",
+        "example": "A user with 100,000 delegated UNI has more voting power than a user voting directly with 1,000 UNI.",
+        "related_terms": [
+          "governance-token",
+          "delegation",
+          "vote-escrow",
+          "quorum"
+        ],
+        "risks": [
+          "Governance concentration",
+          "Delegate misalignment",
+          "Vote buying"
+        ],
+        "tags": [
+          "governance",
+          "voting",
+          "dao",
+          "power"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Voting Power mean in DeFi?",
+            "answer": "Voting Power means amount of influence a participant has in governance votes."
+          },
+          {
+            "question": "How is Voting Power used in practice?",
+            "answer": "A practical example: A user with 100,000 delegated UNI has more voting power than a user voting directly with 1,000 UNI."
+          },
+          {
+            "question": "What should I check before relying on Voting Power?",
+            "answer": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Governance concentration; Delegate misalignment; Vote buying."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Voting Power is a DeFi term used to understand amount of influence a participant has in governance votes.",
+        "how_it_works": "In practice, the concept shows up like this: A user with 100,000 delegated UNI has more voting power than a user voting directly with 1,000 UNI.",
+        "why_it_matters": "Voting Power matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Governance concentration; Delegate misalignment; Vote buying.",
+        "seo_title": "Voting Power: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Voting Power in crypto and DeFi? Amount of influence a participant has in governance votes. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "metagovernance",
+        "term": "Metagovernance",
+        "full_term": "Metagovernance",
+        "category": "governance",
+        "definition": "Metagovernance means using one protocol's position to influence another protocol's governance. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Using one protocol's position to influence another protocol's governance",
+        "example": "Convex controls significant veCRV voting influence, so CVX governance can shape Curve gauge emissions.",
+        "related_terms": [
+          "vote-escrow",
+          "voting-power",
+          "governance-token",
+          "bribe-marketplace"
+        ],
+        "risks": [
+          "Governance capture",
+          "Opaque incentives",
+          "Concentrated influence"
+        ],
+        "tags": [
+          "governance",
+          "dao",
+          "voting",
+          "influence"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Metagovernance mean in DeFi?",
+            "answer": "Metagovernance means using one protocol's position to influence another protocol's governance."
+          },
+          {
+            "question": "How is Metagovernance used in practice?",
+            "answer": "A practical example: Convex controls significant veCRV voting influence, so CVX governance can shape Curve gauge emissions."
+          },
+          {
+            "question": "What should I check before relying on Metagovernance?",
+            "answer": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Governance capture; Opaque incentives; Concentrated influence."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Metagovernance is a DeFi term used to understand using one protocol's position to influence another protocol's governance.",
+        "how_it_works": "In practice, the concept shows up like this: Convex controls significant veCRV voting influence, so CVX governance can shape Curve gauge emissions.",
+        "why_it_matters": "Metagovernance matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Governance capture; Opaque incentives; Concentrated influence.",
+        "seo_title": "Metagovernance: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Metagovernance in crypto and DeFi? Using one protocol's position to influence another protocol's governance. Learn the meaning, example, risks, and related terms."
+      },
+      {
+        "id": "bribe-marketplace",
+        "term": "Bribe Marketplace",
+        "full_term": "Governance Bribe Marketplace",
+        "category": "governance",
+        "definition": "Bribe Marketplace means marketplace where voters are paid to direct governance votes. In DeFi, the concept matters because it affects risk, return, liquidity, governance, or execution assumptions.",
+        "short_definition": "Marketplace where voters are paid to direct governance votes",
+        "example": "A protocol offers incentives so ve-token voters direct more emissions to its liquidity pool.",
+        "related_terms": [
+          "gauge",
+          "vote-escrow",
+          "metagovernance",
+          "voting-power"
+        ],
+        "risks": [
+          "Vote buying",
+          "Short-term incentives",
+          "Governance capture"
+        ],
+        "tags": [
+          "governance",
+          "incentives",
+          "voting",
+          "emissions"
+        ],
+        "common_questions": [
+          {
+            "question": "What does Bribe Marketplace mean in DeFi?",
+            "answer": "Bribe Marketplace means marketplace where voters are paid to direct governance votes."
+          },
+          {
+            "question": "How is Bribe Marketplace used in practice?",
+            "answer": "A practical example: A protocol offers incentives so ve-token voters direct more emissions to its liquidity pool."
+          },
+          {
+            "question": "What should I check before relying on Bribe Marketplace?",
+            "answer": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Vote buying; Short-term incentives; Governance capture."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Bribe Marketplace is a DeFi term used to understand marketplace where voters are paid to direct governance votes.",
+        "how_it_works": "In practice, the concept shows up like this: A protocol offers incentives so ve-token voters direct more emissions to its liquidity pool.",
+        "why_it_matters": "Bribe Marketplace matters because small misunderstandings can turn into bad pricing, liquidation, governance, custody, or smart-contract risk.",
+        "what_to_check": "Check who has voting power, what can be changed, and whether minority users can exit. The main checks are: Vote buying; Short-term incentives; Governance capture.",
+        "seo_title": "Bribe Marketplace: Meaning, Example, Risks and Related DeFi Terms",
+        "seo_description": "What is Bribe Marketplace in crypto and DeFi? Marketplace where voters are paid to direct governance votes. Learn the meaning, example, risks, and related terms."
       }
     ]
   },
@@ -14224,6 +15258,1040 @@
         "what_to_check": "Avant de s'y exposer, vérifiez notamment: Phishing attacks; Malicious dApps; Browser vulnerabilities.",
         "seo_title": "MetaMask: définition, exemple, risques et termes DeFi liés",
         "seo_description": "Que signifie MetaMask en crypto et en DeFi ? Portefeuille navigateur populaire pour interagir avec Ethereum et la DeFi. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "liquidity",
+        "term": "Liquidité",
+        "full_term": "Liquidité",
+        "category": "trading",
+        "definition": "Liquidité signifie: facilité à échanger ou rembourser un actif sans fort impact de prix. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Facilité à échanger ou rembourser un actif sans fort impact de prix",
+        "example": "Un pool USDC/ETH profond permet d'échanger une position importante avec peu de slippage.",
+        "related_terms": [
+          "liquidity-pool",
+          "slippage",
+          "market-depth",
+          "liquidity-provider"
+        ],
+        "risks": [
+          "Marchés peu profonds",
+          "Slippage élevé",
+          "Délais de remboursement"
+        ],
+        "tags": [
+          "trading",
+          "liquidité",
+          "marchés",
+          "exécution"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Liquidité en DeFi ?",
+            "answer": "Liquidité signifie: facilité à échanger ou rembourser un actif sans fort impact de prix."
+          },
+          {
+            "question": "Comment Liquidité s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un pool USDC/ETH profond permet d'échanger une position importante avec peu de slippage."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Liquidité ?",
+            "answer": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Marchés peu profonds; Slippage élevé; Délais de remboursement."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Liquidité est un terme DeFi qui aide à comprendre: facilité à échanger ou rembourser un actif sans fort impact de prix.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un pool USDC/ETH profond permet d'échanger une position importante avec peu de slippage.",
+        "why_it_matters": "Liquidité est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Marchés peu profonds; Slippage élevé; Délais de remboursement.",
+        "seo_title": "Liquidité: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Liquidité en crypto et en DeFi ? Facilité à échanger ou rembourser un actif sans fort impact de prix. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "liquidity-providing",
+        "term": "Fourniture de Liquidité",
+        "full_term": "Fourniture de Liquidité",
+        "category": "strategies",
+        "definition": "Fourniture de Liquidité signifie: fournir des actifs à un protocole pour gagner des frais, intérêts ou incitations. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Fournir des actifs à un protocole pour gagner des frais, intérêts ou incitations",
+        "example": "Un utilisateur dépose de l'ETH et de l'USDC dans un pool Uniswap pour gagner des frais de swap.",
+        "related_terms": [
+          "liquidity-pool",
+          "liquidity-provider",
+          "impermanent-loss",
+          "trading-fees"
+        ],
+        "risks": [
+          "Impermanent loss",
+          "Risque de smart contract",
+          "Volatilité des tokens de récompense"
+        ],
+        "tags": [
+          "defi",
+          "stratégie",
+          "liquidité",
+          "frais"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Fourniture de Liquidité en DeFi ?",
+            "answer": "Fourniture de Liquidité signifie: fournir des actifs à un protocole pour gagner des frais, intérêts ou incitations."
+          },
+          {
+            "question": "Comment Fourniture de Liquidité s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un utilisateur dépose de l'ETH et de l'USDC dans un pool Uniswap pour gagner des frais de swap."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Fourniture de Liquidité ?",
+            "answer": "Cartographiez chaque étape, dépendance de contrat, condition de sortie et scénario défavorable. Points clés: Impermanent loss; Risque de smart contract; Volatilité des tokens de récompense."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Fourniture de Liquidité est un terme DeFi qui aide à comprendre: fournir des actifs à un protocole pour gagner des frais, intérêts ou incitations.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un utilisateur dépose de l'ETH et de l'USDC dans un pool Uniswap pour gagner des frais de swap.",
+        "why_it_matters": "Fourniture de Liquidité est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Cartographiez chaque étape, dépendance de contrat, condition de sortie et scénario défavorable. Points clés: Impermanent loss; Risque de smart contract; Volatilité des tokens de récompense.",
+        "seo_title": "Fourniture de Liquidité: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Fourniture de Liquidité en crypto et en DeFi ? Fournir des actifs à un protocole pour gagner des frais, intérêts ou incitations. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "peg",
+        "term": "Ancrage",
+        "full_term": "Ancrage de Prix",
+        "category": "tokens",
+        "definition": "Ancrage signifie: relation de prix cible qu'un actif est conçu pour maintenir. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Relation de prix cible qu'un actif est conçu pour maintenir",
+        "example": "Un stablecoin en dollars vise un ancrage 1:1 avec le dollar US.",
+        "related_terms": [
+          "stablecoin",
+          "depeg",
+          "reserve",
+          "collateral"
+        ],
+        "risks": [
+          "Risque de dépeg",
+          "Mécanismes de remboursement faibles",
+          "Stress des oracles ou du marché"
+        ],
+        "tags": [
+          "stablecoin",
+          "peg",
+          "tokens",
+          "prix"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Ancrage en DeFi ?",
+            "answer": "Ancrage signifie: relation de prix cible qu'un actif est conçu pour maintenir."
+          },
+          {
+            "question": "Comment Ancrage s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un stablecoin en dollars vise un ancrage 1:1 avec le dollar US."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Ancrage ?",
+            "answer": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Risque de dépeg; Mécanismes de remboursement faibles; Stress des oracles ou du marché."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Ancrage est un terme DeFi qui aide à comprendre: relation de prix cible qu'un actif est conçu pour maintenir.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un stablecoin en dollars vise un ancrage 1:1 avec le dollar US.",
+        "why_it_matters": "Ancrage est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Risque de dépeg; Mécanismes de remboursement faibles; Stress des oracles ou du marché.",
+        "seo_title": "Ancrage: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Ancrage en crypto et en DeFi ? Relation de prix cible qu'un actif est conçu pour maintenir. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "reserve",
+        "term": "Réserve",
+        "full_term": "Réserve",
+        "category": "tokens",
+        "definition": "Réserve signifie: actifs détenus pour soutenir un token, une obligation ou une promesse de remboursement. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Actifs détenus pour soutenir un token, une obligation ou une promesse de remboursement",
+        "example": "Un stablecoin fiat-backed peut détenir du cash et des bons du Trésor court terme en réserve.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "redemption",
+          "peg"
+        ],
+        "risks": [
+          "Réserves insuffisantes",
+          "Reporting opaque",
+          "Risque de garde et de contrepartie"
+        ],
+        "tags": [
+          "tokens",
+          "réserves",
+          "backing",
+          "remboursement"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Réserve en DeFi ?",
+            "answer": "Réserve signifie: actifs détenus pour soutenir un token, une obligation ou une promesse de remboursement."
+          },
+          {
+            "question": "Comment Réserve s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un stablecoin fiat-backed peut détenir du cash et des bons du Trésor court terme en réserve."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Réserve ?",
+            "answer": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Réserves insuffisantes; Reporting opaque; Risque de garde et de contrepartie."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Réserve est un terme DeFi qui aide à comprendre: actifs détenus pour soutenir un token, une obligation ou une promesse de remboursement.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un stablecoin fiat-backed peut détenir du cash et des bons du Trésor court terme en réserve.",
+        "why_it_matters": "Réserve est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Réserves insuffisantes; Reporting opaque; Risque de garde et de contrepartie.",
+        "seo_title": "Réserve: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Réserve en crypto et en DeFi ? Actifs détenus pour soutenir un token, une obligation ou une promesse de remboursement. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "real-world-assets",
+        "term": "Actifs du Monde Réel",
+        "full_term": "Actifs du Monde Réel (RWA)",
+        "category": "tokens",
+        "definition": "Actifs du Monde Réel signifie: actifs off-chain représentés, financés ou utilisés comme collatéral on-chain. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Actifs off-chain représentés, financés ou utilisés comme collatéral on-chain",
+        "example": "Un protocole émet des tokens représentant une exposition à un fonds de bons du Trésor US court terme.",
+        "related_terms": [
+          "tokenized-treasury",
+          "collateral",
+          "reserve",
+          "synthetic-asset"
+        ],
+        "risks": [
+          "Exécution juridique",
+          "Risque de garde",
+          "Risque de valorisation et de liquidité"
+        ],
+        "tags": [
+          "rwa",
+          "tokens",
+          "collatéral",
+          "offchain"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Actifs du Monde Réel en DeFi ?",
+            "answer": "Actifs du Monde Réel signifie: actifs off-chain représentés, financés ou utilisés comme collatéral on-chain."
+          },
+          {
+            "question": "Comment Actifs du Monde Réel s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un protocole émet des tokens représentant une exposition à un fonds de bons du Trésor US court terme."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Actifs du Monde Réel ?",
+            "answer": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Exécution juridique; Risque de garde; Risque de valorisation et de liquidité."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Actifs du Monde Réel est un terme DeFi qui aide à comprendre: actifs off-chain représentés, financés ou utilisés comme collatéral on-chain.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un protocole émet des tokens représentant une exposition à un fonds de bons du Trésor US court terme.",
+        "why_it_matters": "Actifs du Monde Réel est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Exécution juridique; Risque de garde; Risque de valorisation et de liquidité.",
+        "seo_title": "Actifs du Monde Réel: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Actifs du Monde Réel en crypto et en DeFi ? Actifs off-chain représentés, financés ou utilisés comme collatéral on-chain. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "tokenized-treasury",
+        "term": "Trésor Tokenisé",
+        "full_term": "Trésor Tokenisé",
+        "category": "tokens",
+        "definition": "Trésor Tokenisé signifie: token ou produit on-chain représentant une exposition à des titres du Trésor. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Token ou produit on-chain représentant une exposition à des titres du Trésor",
+        "example": "Un produit de Trésor tokenisé suit un fonds détenant des bons du Trésor US court terme.",
+        "related_terms": [
+          "real-world-assets",
+          "reserve",
+          "stablecoin",
+          "interest-rate"
+        ],
+        "risks": [
+          "Risque d'émetteur et de garde",
+          "Risque de taux",
+          "Limites de remboursement et de liquidité"
+        ],
+        "tags": [
+          "rwa",
+          "trésor",
+          "tokens",
+          "rendement"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Trésor Tokenisé en DeFi ?",
+            "answer": "Trésor Tokenisé signifie: token ou produit on-chain représentant une exposition à des titres du Trésor."
+          },
+          {
+            "question": "Comment Trésor Tokenisé s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un produit de Trésor tokenisé suit un fonds détenant des bons du Trésor US court terme."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Trésor Tokenisé ?",
+            "answer": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Risque d'émetteur et de garde; Risque de taux; Limites de remboursement et de liquidité."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Trésor Tokenisé est un terme DeFi qui aide à comprendre: token ou produit on-chain représentant une exposition à des titres du Trésor.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un produit de Trésor tokenisé suit un fonds détenant des bons du Trésor US court terme.",
+        "why_it_matters": "Trésor Tokenisé est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Risque d'émetteur et de garde; Risque de taux; Limites de remboursement et de liquidité.",
+        "seo_title": "Trésor Tokenisé: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Trésor Tokenisé en crypto et en DeFi ? Token ou produit on-chain représentant une exposition à des titres du Trésor. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "trustless",
+        "term": "Trustless",
+        "full_term": "Système Sans Confiance",
+        "category": "technical",
+        "definition": "Trustless signifie: conception qui réduit la dépendance envers des intermédiaires de confiance. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Conception qui réduit la dépendance envers des intermédiaires de confiance",
+        "example": "Un DEX permet d'échanger des tokens via des smart contracts plutôt que de confier ses fonds à un opérateur.",
+        "related_terms": [
+          "smart-contract",
+          "defi",
+          "permissionless",
+          "oracle"
+        ],
+        "risks": [
+          "Bugs de smart contract",
+          "Contrôle de gouvernance",
+          "Dépendances aux oracles"
+        ],
+        "tags": [
+          "crypto",
+          "décentralisation",
+          "smart-contracts",
+          "sécurité"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Trustless en DeFi ?",
+            "answer": "Trustless signifie: conception qui réduit la dépendance envers des intermédiaires de confiance."
+          },
+          {
+            "question": "Comment Trustless s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un DEX permet d'échanger des tokens via des smart contracts plutôt que de confier ses fonds à un opérateur."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Trustless ?",
+            "answer": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Bugs de smart contract; Contrôle de gouvernance; Dépendances aux oracles."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Trustless est un terme DeFi qui aide à comprendre: conception qui réduit la dépendance envers des intermédiaires de confiance.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un DEX permet d'échanger des tokens via des smart contracts plutôt que de confier ses fonds à un opérateur.",
+        "why_it_matters": "Trustless est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Bugs de smart contract; Contrôle de gouvernance; Dépendances aux oracles.",
+        "seo_title": "Trustless: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Trustless en crypto et en DeFi ? Conception qui réduit la dépendance envers des intermédiaires de confiance. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "permissionless",
+        "term": "Permissionless",
+        "full_term": "Accès Sans Permission",
+        "category": "technical",
+        "definition": "Permissionless signifie: accès ouvert sans approbation d'un gatekeeper central. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Accès ouvert sans approbation d'un gatekeeper central",
+        "example": "Toute personne avec un portefeuille compatible peut trader sur Uniswap ou déployer un token.",
+        "related_terms": [
+          "defi",
+          "dex",
+          "smart-contract",
+          "trustless"
+        ],
+        "risks": [
+          "Scams et tokens spam",
+          "Intégrations non vérifiées",
+          "Incertitude réglementaire"
+        ],
+        "tags": [
+          "defi",
+          "accès-ouvert",
+          "décentralisation",
+          "protocoles"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Permissionless en DeFi ?",
+            "answer": "Permissionless signifie: accès ouvert sans approbation d'un gatekeeper central."
+          },
+          {
+            "question": "Comment Permissionless s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Toute personne avec un portefeuille compatible peut trader sur Uniswap ou déployer un token."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Permissionless ?",
+            "answer": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Scams et tokens spam; Intégrations non vérifiées; Incertitude réglementaire."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Permissionless est un terme DeFi qui aide à comprendre: accès ouvert sans approbation d'un gatekeeper central.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Toute personne avec un portefeuille compatible peut trader sur Uniswap ou déployer un token.",
+        "why_it_matters": "Permissionless est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Scams et tokens spam; Intégrations non vérifiées; Incertitude réglementaire.",
+        "seo_title": "Permissionless: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Permissionless en crypto et en DeFi ? Accès ouvert sans approbation d'un gatekeeper central. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "interest-rate",
+        "term": "Taux d'Intérêt",
+        "full_term": "Taux d'Intérêt",
+        "category": "yields",
+        "definition": "Taux d'Intérêt signifie: pourcentage payé pour emprunter ou gagné en prêtant du capital. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Pourcentage payé pour emprunter ou gagné en prêtant du capital",
+        "example": "Si un marché de prêt paie 4% par an sur les dépôts USDC, c'est le taux d'intérêt de dépôt.",
+        "related_terms": [
+          "apr",
+          "apy",
+          "compound-interest",
+          "lending"
+        ],
+        "risks": [
+          "Variation des taux",
+          "Pics d'utilisation",
+          "Risque de liquidation pour les emprunteurs"
+        ],
+        "tags": [
+          "defi",
+          "prêt",
+          "rendements",
+          "emprunt"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Taux d'Intérêt en DeFi ?",
+            "answer": "Taux d'Intérêt signifie: pourcentage payé pour emprunter ou gagné en prêtant du capital."
+          },
+          {
+            "question": "Comment Taux d'Intérêt s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Si un marché de prêt paie 4% par an sur les dépôts USDC, c'est le taux d'intérêt de dépôt."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Taux d'Intérêt ?",
+            "answer": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Variation des taux; Pics d'utilisation; Risque de liquidation pour les emprunteurs."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Taux d'Intérêt est un terme DeFi qui aide à comprendre: pourcentage payé pour emprunter ou gagné en prêtant du capital.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Si un marché de prêt paie 4% par an sur les dépôts USDC, c'est le taux d'intérêt de dépôt.",
+        "why_it_matters": "Taux d'Intérêt est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Variation des taux; Pics d'utilisation; Risque de liquidation pour les emprunteurs.",
+        "seo_title": "Taux d'Intérêt: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Taux d'Intérêt en crypto et en DeFi ? Pourcentage payé pour emprunter ou gagné en prêtant du capital. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "compound-interest",
+        "term": "Intérêts Composés",
+        "full_term": "Intérêts Composés",
+        "category": "yields",
+        "definition": "Intérêts Composés signifie: intérêts gagnés sur le capital et les intérêts déjà accumulés. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Intérêts gagnés sur le capital et les intérêts déjà accumulés",
+        "example": "Un vault réinvestit les récompenses chaque jour, transformant le rendement simple en rendement composé.",
+        "related_terms": [
+          "apy",
+          "apr",
+          "auto-compounding",
+          "interest-rate"
+        ],
+        "risks": [
+          "Hypothèses APY exagérées",
+          "Coûts de gas et d'exécution",
+          "Risque de smart contract"
+        ],
+        "tags": [
+          "rendements",
+          "intérêts",
+          "composition",
+          "retours"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Intérêts Composés en DeFi ?",
+            "answer": "Intérêts Composés signifie: intérêts gagnés sur le capital et les intérêts déjà accumulés."
+          },
+          {
+            "question": "Comment Intérêts Composés s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un vault réinvestit les récompenses chaque jour, transformant le rendement simple en rendement composé."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Intérêts Composés ?",
+            "answer": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Hypothèses APY exagérées; Coûts de gas et d'exécution; Risque de smart contract."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Intérêts Composés est un terme DeFi qui aide à comprendre: intérêts gagnés sur le capital et les intérêts déjà accumulés.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un vault réinvestit les récompenses chaque jour, transformant le rendement simple en rendement composé.",
+        "why_it_matters": "Intérêts Composés est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Hypothèses APY exagérées; Coûts de gas et d'exécution; Risque de smart contract.",
+        "seo_title": "Intérêts Composés: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Intérêts Composés en crypto et en DeFi ? Intérêts gagnés sur le capital et les intérêts déjà accumulés. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "basis-point",
+        "term": "Point de Base",
+        "full_term": "Point de Base (bps)",
+        "category": "technical",
+        "definition": "Point de Base signifie: un centième de point de pourcentage, noté bps. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Un centième de point de pourcentage, noté bps",
+        "example": "Une hausse de frais de 0,05% à 0,30% représente 25 points de base.",
+        "related_terms": [
+          "interest-rate",
+          "apr",
+          "trading-fees",
+          "bid-ask-spread"
+        ],
+        "risks": [
+          "Mauvaise lecture des pourcentages",
+          "Sous-estimation des frais",
+          "Confusion entre bps et pourcent"
+        ],
+        "tags": [
+          "technique",
+          "finance",
+          "taux",
+          "frais"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Point de Base en DeFi ?",
+            "answer": "Point de Base signifie: un centième de point de pourcentage, noté bps."
+          },
+          {
+            "question": "Comment Point de Base s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Une hausse de frais de 0,05% à 0,30% représente 25 points de base."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Point de Base ?",
+            "answer": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Mauvaise lecture des pourcentages; Sous-estimation des frais; Confusion entre bps et pourcent."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Point de Base est un terme DeFi qui aide à comprendre: un centième de point de pourcentage, noté bps.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Une hausse de frais de 0,05% à 0,30% représente 25 points de base.",
+        "why_it_matters": "Point de Base est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Mauvaise lecture des pourcentages; Sous-estimation des frais; Confusion entre bps et pourcent.",
+        "seo_title": "Point de Base: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Point de Base en crypto et en DeFi ? Un centième de point de pourcentage, noté bps. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "proof-of-stake",
+        "term": "Proof of Stake",
+        "full_term": "Proof of Stake (PoS)",
+        "category": "technical",
+        "definition": "Proof of Stake signifie: mécanisme de consensus où les validateurs stakent des actifs pour sécuriser une blockchain. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Mécanisme de consensus où les validateurs stakent des actifs pour sécuriser une blockchain",
+        "example": "Les validateurs Ethereum stakent de l'ETH pour participer au consensus et peuvent être slashés en cas de faute grave.",
+        "related_terms": [
+          "validator",
+          "consensus",
+          "staking",
+          "slashing"
+        ],
+        "risks": [
+          "Slashing des validateurs",
+          "Centralisation des fournisseurs de staking",
+          "Bugs de protocole ou de client"
+        ],
+        "tags": [
+          "technique",
+          "consensus",
+          "staking",
+          "ethereum"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Proof of Stake en DeFi ?",
+            "answer": "Proof of Stake signifie: mécanisme de consensus où les validateurs stakent des actifs pour sécuriser une blockchain."
+          },
+          {
+            "question": "Comment Proof of Stake s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Les validateurs Ethereum stakent de l'ETH pour participer au consensus et peuvent être slashés en cas de faute grave."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Proof of Stake ?",
+            "answer": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Slashing des validateurs; Centralisation des fournisseurs de staking; Bugs de protocole ou de client."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Proof of Stake est un terme DeFi qui aide à comprendre: mécanisme de consensus où les validateurs stakent des actifs pour sécuriser une blockchain.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Les validateurs Ethereum stakent de l'ETH pour participer au consensus et peuvent être slashés en cas de faute grave.",
+        "why_it_matters": "Proof of Stake est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Identifiez quel contrat, validateur, oracle, clé admin ou processus peut encore modifier le résultat. Points clés: Slashing des validateurs; Centralisation des fournisseurs de staking; Bugs de protocole ou de client.",
+        "seo_title": "Proof of Stake: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Proof of Stake en crypto et en DeFi ? Mécanisme de consensus où les validateurs stakent des actifs pour sécuriser une blockchain. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "oracle-attack",
+        "term": "Attaque d'Oracle",
+        "full_term": "Attaque d'Oracle",
+        "category": "risks",
+        "definition": "Attaque d'Oracle signifie: attaque qui exploite des données oracle manipulées ou défaillantes. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Attaque qui exploite des données oracle manipulées ou défaillantes",
+        "example": "Un attaquant manipule un marché peu liquide utilisé par un oracle, poussant un protocole de prêt à survaloriser un collatéral.",
+        "related_terms": [
+          "oracle",
+          "price-oracle",
+          "liquidation",
+          "exploit"
+        ],
+        "risks": [
+          "Création de mauvaise dette",
+          "Liquidations en cascade",
+          "Insolvabilité du protocole"
+        ],
+        "tags": [
+          "risques",
+          "oracle",
+          "sécurité",
+          "pricing"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Attaque d'Oracle en DeFi ?",
+            "answer": "Attaque d'Oracle signifie: attaque qui exploite des données oracle manipulées ou défaillantes."
+          },
+          {
+            "question": "Comment Attaque d'Oracle s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un attaquant manipule un marché peu liquide utilisé par un oracle, poussant un protocole de prêt à survaloriser un collatéral."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Attaque d'Oracle ?",
+            "answer": "Identifiez le mode de défaillance, les utilisateurs exposés et les preuves qui réduisent ce risque. Points clés: Création de mauvaise dette; Liquidations en cascade; Insolvabilité du protocole."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Attaque d'Oracle est un terme DeFi qui aide à comprendre: attaque qui exploite des données oracle manipulées ou défaillantes.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un attaquant manipule un marché peu liquide utilisé par un oracle, poussant un protocole de prêt à survaloriser un collatéral.",
+        "why_it_matters": "Attaque d'Oracle est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Identifiez le mode de défaillance, les utilisateurs exposés et les preuves qui réduisent ce risque. Points clés: Création de mauvaise dette; Liquidations en cascade; Insolvabilité du protocole.",
+        "seo_title": "Attaque d'Oracle: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Attaque d'Oracle en crypto et en DeFi ? Attaque qui exploite des données oracle manipulées ou défaillantes. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "trading-fees",
+        "term": "Frais de Trading",
+        "full_term": "Frais de Trading",
+        "category": "trading",
+        "definition": "Frais de Trading signifie: frais payés pour exécuter des trades sur une place de marché ou un protocole. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Frais payés pour exécuter des trades sur une place de marché ou un protocole",
+        "example": "Un pool Uniswap peut prélever 0,30% sur chaque swap, avec des frais pour les fournisseurs de liquidité.",
+        "related_terms": [
+          "swap",
+          "dex",
+          "liquidity-pool",
+          "liquidity-provider"
+        ],
+        "risks": [
+          "Frais qui rongent les stratégies",
+          "Coûts de routage opaques",
+          "Distribution de frais mal alignée"
+        ],
+        "tags": [
+          "trading",
+          "frais",
+          "dex",
+          "liquidité"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Frais de Trading en DeFi ?",
+            "answer": "Frais de Trading signifie: frais payés pour exécuter des trades sur une place de marché ou un protocole."
+          },
+          {
+            "question": "Comment Frais de Trading s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un pool Uniswap peut prélever 0,30% sur chaque swap, avec des frais pour les fournisseurs de liquidité."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Frais de Trading ?",
+            "answer": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Frais qui rongent les stratégies; Coûts de routage opaques; Distribution de frais mal alignée."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Frais de Trading est un terme DeFi qui aide à comprendre: frais payés pour exécuter des trades sur une place de marché ou un protocole.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un pool Uniswap peut prélever 0,30% sur chaque swap, avec des frais pour les fournisseurs de liquidité.",
+        "why_it_matters": "Frais de Trading est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Frais qui rongent les stratégies; Coûts de routage opaques; Distribution de frais mal alignée.",
+        "seo_title": "Frais de Trading: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Frais de Trading en crypto et en DeFi ? Frais payés pour exécuter des trades sur une place de marché ou un protocole. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "redemption",
+        "term": "Remboursement",
+        "full_term": "Remboursement de Token",
+        "category": "tokens",
+        "definition": "Remboursement signifie: échanger un token contre son actif ou collatéral sous-jacent. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Échanger un token contre son actif ou collatéral sous-jacent",
+        "example": "Un utilisateur rembourse 1000 LUSD via Liquity pour recevoir environ 1000 USD de collatéral en ETH.",
+        "related_terms": [
+          "stablecoin",
+          "collateral",
+          "depeg",
+          "overcollateralization"
+        ],
+        "risks": [
+          "Délais de remboursement",
+          "Liquidité insuffisante",
+          "Frais ou décote du protocole"
+        ],
+        "tags": [
+          "stablecoin",
+          "tokens",
+          "collatéral",
+          "sortie"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Remboursement en DeFi ?",
+            "answer": "Remboursement signifie: échanger un token contre son actif ou collatéral sous-jacent."
+          },
+          {
+            "question": "Comment Remboursement s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un utilisateur rembourse 1000 LUSD via Liquity pour recevoir environ 1000 USD de collatéral en ETH."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Remboursement ?",
+            "answer": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Délais de remboursement; Liquidité insuffisante; Frais ou décote du protocole."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Remboursement est un terme DeFi qui aide à comprendre: échanger un token contre son actif ou collatéral sous-jacent.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un utilisateur rembourse 1000 LUSD via Liquity pour recevoir environ 1000 USD de collatéral en ETH.",
+        "why_it_matters": "Remboursement est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Inspectez backing, remboursement, liquidité, hypothèses d’émetteur et comportement en marché stressé. Points clés: Délais de remboursement; Liquidité insuffisante; Frais ou décote du protocole.",
+        "seo_title": "Remboursement: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Remboursement en crypto et en DeFi ? Échanger un token contre son actif ou collatéral sous-jacent. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "stability-pool",
+        "term": "Pool de Stabilité",
+        "full_term": "Pool de Stabilité",
+        "category": "protocols",
+        "definition": "Pool de Stabilité signifie: pool de dépôts utilisé pour absorber les liquidations et stabiliser un protocole. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Pool de dépôts utilisé pour absorber les liquidations et stabiliser un protocole",
+        "example": "Dans Liquity, les utilisateurs déposent du LUSD dans le Pool de Stabilité et reçoivent du collatéral ETH liquidé.",
+        "related_terms": [
+          "liquidation",
+          "collateral",
+          "stablecoin",
+          "overcollateralization"
+        ],
+        "risks": [
+          "Volatilité du collatéral",
+          "Risque de smart contract",
+          "Volume de liquidation inattendu"
+        ],
+        "tags": [
+          "stablecoin",
+          "prêt",
+          "liquidation",
+          "protocoles"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Pool de Stabilité en DeFi ?",
+            "answer": "Pool de Stabilité signifie: pool de dépôts utilisé pour absorber les liquidations et stabiliser un protocole."
+          },
+          {
+            "question": "Comment Pool de Stabilité s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Dans Liquity, les utilisateurs déposent du LUSD dans le Pool de Stabilité et reçoivent du collatéral ETH liquidé."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Pool de Stabilité ?",
+            "answer": "Comprenez dépôts, retraits, comptabilité, oracles, pouvoirs admin et chemins de défaillance. Points clés: Volatilité du collatéral; Risque de smart contract; Volume de liquidation inattendu."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Pool de Stabilité est un terme DeFi qui aide à comprendre: pool de dépôts utilisé pour absorber les liquidations et stabiliser un protocole.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Dans Liquity, les utilisateurs déposent du LUSD dans le Pool de Stabilité et reçoivent du collatéral ETH liquidé.",
+        "why_it_matters": "Pool de Stabilité est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Comprenez dépôts, retraits, comptabilité, oracles, pouvoirs admin et chemins de défaillance. Points clés: Volatilité du collatéral; Risque de smart contract; Volume de liquidation inattendu.",
+        "seo_title": "Pool de Stabilité: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Pool de Stabilité en crypto et en DeFi ? Pool de dépôts utilisé pour absorber les liquidations et stabiliser un protocole. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "safety-module",
+        "term": "Module de Sécurité",
+        "full_term": "Module de Sécurité du Protocole",
+        "category": "protocols",
+        "definition": "Module de Sécurité signifie: capital staké pouvant couvrir les déficits d'un protocole. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Capital staké pouvant couvrir les déficits d'un protocole",
+        "example": "Les utilisateurs Aave peuvent staker AAVE avec un risque de slashing si le protocole doit couvrir un déficit.",
+        "related_terms": [
+          "staking",
+          "slashing",
+          "treasury",
+          "governance-token"
+        ],
+        "risks": [
+          "Risque de slashing",
+          "Volatilité du token",
+          "Événements de perte définis par la gouvernance"
+        ],
+        "tags": [
+          "protocoles",
+          "risque",
+          "staking",
+          "backstop"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Module de Sécurité en DeFi ?",
+            "answer": "Module de Sécurité signifie: capital staké pouvant couvrir les déficits d'un protocole."
+          },
+          {
+            "question": "Comment Module de Sécurité s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Les utilisateurs Aave peuvent staker AAVE avec un risque de slashing si le protocole doit couvrir un déficit."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Module de Sécurité ?",
+            "answer": "Comprenez dépôts, retraits, comptabilité, oracles, pouvoirs admin et chemins de défaillance. Points clés: Risque de slashing; Volatilité du token; Événements de perte définis par la gouvernance."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Module de Sécurité est un terme DeFi qui aide à comprendre: capital staké pouvant couvrir les déficits d'un protocole.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Les utilisateurs Aave peuvent staker AAVE avec un risque de slashing si le protocole doit couvrir un déficit.",
+        "why_it_matters": "Module de Sécurité est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Comprenez dépôts, retraits, comptabilité, oracles, pouvoirs admin et chemins de défaillance. Points clés: Risque de slashing; Volatilité du token; Événements de perte définis par la gouvernance.",
+        "seo_title": "Module de Sécurité: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Module de Sécurité en crypto et en DeFi ? Capital staké pouvant couvrir les déficits d'un protocole. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "lp-boost",
+        "term": "Boost LP",
+        "full_term": "Boost de Fournisseur de Liquidité",
+        "category": "yields",
+        "definition": "Boost LP signifie: multiplicateur de récompenses pour les fournisseurs de liquidité éligibles. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Multiplicateur de récompenses pour les fournisseurs de liquidité éligibles",
+        "example": "Les LP de Curve peuvent recevoir plus de CRV lorsqu'ils détiennent assez de veCRV par rapport à leur dépôt.",
+        "related_terms": [
+          "liquidity-provider",
+          "vote-escrow",
+          "emission",
+          "gauge"
+        ],
+        "risks": [
+          "Coût d'opportunité du verrouillage",
+          "Dilution du boost",
+          "Calculs de récompenses complexes"
+        ],
+        "tags": [
+          "rendements",
+          "liquidité",
+          "récompenses",
+          "incitations"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Boost LP en DeFi ?",
+            "answer": "Boost LP signifie: multiplicateur de récompenses pour les fournisseurs de liquidité éligibles."
+          },
+          {
+            "question": "Comment Boost LP s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Les LP de Curve peuvent recevoir plus de CRV lorsqu'ils détiennent assez de veCRV par rapport à leur dépôt."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Boost LP ?",
+            "answer": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Coût d'opportunité du verrouillage; Dilution du boost; Calculs de récompenses complexes."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Boost LP est un terme DeFi qui aide à comprendre: multiplicateur de récompenses pour les fournisseurs de liquidité éligibles.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Les LP de Curve peuvent recevoir plus de CRV lorsqu'ils détiennent assez de veCRV par rapport à leur dépôt.",
+        "why_it_matters": "Boost LP est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Séparez revenus durables, incitations temporaires et source réelle du rendement. Points clés: Coût d'opportunité du verrouillage; Dilution du boost; Calculs de récompenses complexes.",
+        "seo_title": "Boost LP: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Boost LP en crypto et en DeFi ? Multiplicateur de récompenses pour les fournisseurs de liquidité éligibles. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "market-maker",
+        "term": "Market Maker",
+        "full_term": "Teneur de Marché",
+        "category": "trading",
+        "definition": "Market Maker signifie: participant qui fournit de la liquidité à l'achat et à la vente. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Participant qui fournit de la liquidité à l'achat et à la vente",
+        "example": "Un market maker cote à la fois des bids et des asks pour l'ETH sur un exchange.",
+        "related_terms": [
+          "orderbook",
+          "liquidity",
+          "bid-ask-spread",
+          "slippage"
+        ],
+        "risks": [
+          "Risque d'inventaire",
+          "Sélection adverse",
+          "Retrait de liquidité en période de stress"
+        ],
+        "tags": [
+          "trading",
+          "liquidité",
+          "marchés",
+          "exécution"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Market Maker en DeFi ?",
+            "answer": "Market Maker signifie: participant qui fournit de la liquidité à l'achat et à la vente."
+          },
+          {
+            "question": "Comment Market Maker s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un market maker cote à la fois des bids et des asks pour l'ETH sur un exchange."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Market Maker ?",
+            "answer": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Risque d'inventaire; Sélection adverse; Retrait de liquidité en période de stress."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Market Maker est un terme DeFi qui aide à comprendre: participant qui fournit de la liquidité à l'achat et à la vente.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un market maker cote à la fois des bids et des asks pour l'ETH sur un exchange.",
+        "why_it_matters": "Market Maker est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Comparez frais, slippage, liquidité, volatilité et risque d’exécution. Points clés: Risque d'inventaire; Sélection adverse; Retrait de liquidité en période de stress.",
+        "seo_title": "Market Maker: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Market Maker en crypto et en DeFi ? Participant qui fournit de la liquidité à l'achat et à la vente. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "voting-power",
+        "term": "Pouvoir de Vote",
+        "full_term": "Pouvoir de Vote en Gouvernance",
+        "category": "governance",
+        "definition": "Pouvoir de Vote signifie: niveau d'influence d'un participant dans les votes de gouvernance. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Niveau d'influence d'un participant dans les votes de gouvernance",
+        "example": "Un utilisateur avec 100 000 UNI délégués a plus de pouvoir de vote qu'un utilisateur avec 1 000 UNI.",
+        "related_terms": [
+          "governance-token",
+          "delegation",
+          "vote-escrow",
+          "quorum"
+        ],
+        "risks": [
+          "Concentration de gouvernance",
+          "Désalignement des délégués",
+          "Achat de votes"
+        ],
+        "tags": [
+          "gouvernance",
+          "vote",
+          "dao",
+          "pouvoir"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Pouvoir de Vote en DeFi ?",
+            "answer": "Pouvoir de Vote signifie: niveau d'influence d'un participant dans les votes de gouvernance."
+          },
+          {
+            "question": "Comment Pouvoir de Vote s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un utilisateur avec 100 000 UNI délégués a plus de pouvoir de vote qu'un utilisateur avec 1 000 UNI."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Pouvoir de Vote ?",
+            "answer": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Concentration de gouvernance; Désalignement des délégués; Achat de votes."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Pouvoir de Vote est un terme DeFi qui aide à comprendre: niveau d'influence d'un participant dans les votes de gouvernance.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un utilisateur avec 100 000 UNI délégués a plus de pouvoir de vote qu'un utilisateur avec 1 000 UNI.",
+        "why_it_matters": "Pouvoir de Vote est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Concentration de gouvernance; Désalignement des délégués; Achat de votes.",
+        "seo_title": "Pouvoir de Vote: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Pouvoir de Vote en crypto et en DeFi ? Niveau d'influence d'un participant dans les votes de gouvernance. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "metagovernance",
+        "term": "Métagouvernance",
+        "full_term": "Métagouvernance",
+        "category": "governance",
+        "definition": "Métagouvernance signifie: utiliser la position d'un protocole pour influencer la gouvernance d'un autre. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Utiliser la position d'un protocole pour influencer la gouvernance d'un autre",
+        "example": "Convex contrôle une part importante de l'influence veCRV, donc la gouvernance CVX peut orienter les émissions Curve.",
+        "related_terms": [
+          "vote-escrow",
+          "voting-power",
+          "governance-token",
+          "bribe-marketplace"
+        ],
+        "risks": [
+          "Capture de gouvernance",
+          "Incitations opaques",
+          "Influence concentrée"
+        ],
+        "tags": [
+          "gouvernance",
+          "dao",
+          "vote",
+          "influence"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Métagouvernance en DeFi ?",
+            "answer": "Métagouvernance signifie: utiliser la position d'un protocole pour influencer la gouvernance d'un autre."
+          },
+          {
+            "question": "Comment Métagouvernance s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Convex contrôle une part importante de l'influence veCRV, donc la gouvernance CVX peut orienter les émissions Curve."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Métagouvernance ?",
+            "answer": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Capture de gouvernance; Incitations opaques; Influence concentrée."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Métagouvernance est un terme DeFi qui aide à comprendre: utiliser la position d'un protocole pour influencer la gouvernance d'un autre.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Convex contrôle une part importante de l'influence veCRV, donc la gouvernance CVX peut orienter les émissions Curve.",
+        "why_it_matters": "Métagouvernance est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Capture de gouvernance; Incitations opaques; Influence concentrée.",
+        "seo_title": "Métagouvernance: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Métagouvernance en crypto et en DeFi ? Utiliser la position d'un protocole pour influencer la gouvernance d'un autre. Définition, exemple, risques et termes liés."
+      },
+      {
+        "id": "bribe-marketplace",
+        "term": "Marché de Bribes",
+        "full_term": "Marché de Bribes de Gouvernance",
+        "category": "governance",
+        "definition": "Marché de Bribes signifie: marché où les votants sont payés pour orienter leurs votes. En DeFi, ce concept influence les hypothèses de risque, rendement, liquidité, gouvernance ou exécution.",
+        "short_definition": "Marché où les votants sont payés pour orienter leurs votes",
+        "example": "Un protocole offre des incitations pour que les votants veToken dirigent plus d'émissions vers son pool.",
+        "related_terms": [
+          "gauge",
+          "vote-escrow",
+          "metagovernance",
+          "voting-power"
+        ],
+        "risks": [
+          "Achat de votes",
+          "Incitations court-termistes",
+          "Capture de gouvernance"
+        ],
+        "tags": [
+          "gouvernance",
+          "incitations",
+          "vote",
+          "émissions"
+        ],
+        "common_questions": [
+          {
+            "question": "Que signifie Marché de Bribes en DeFi ?",
+            "answer": "Marché de Bribes signifie: marché où les votants sont payés pour orienter leurs votes."
+          },
+          {
+            "question": "Comment Marché de Bribes s’utilise-t-il en pratique ?",
+            "answer": "Exemple concret: Un protocole offre des incitations pour que les votants veToken dirigent plus d'émissions vers son pool."
+          },
+          {
+            "question": "Que faut-il vérifier avant de dépendre de Marché de Bribes ?",
+            "answer": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Achat de votes; Incitations court-termistes; Capture de gouvernance."
+          }
+        ],
+        "related_articles": [],
+        "plain_english": "Marché de Bribes est un terme DeFi qui aide à comprendre: marché où les votants sont payés pour orienter leurs votes.",
+        "how_it_works": "En pratique, on peut le voir ainsi: Un protocole offre des incitations pour que les votants veToken dirigent plus d'émissions vers son pool.",
+        "why_it_matters": "Marché de Bribes est important car une mauvaise compréhension peut créer des erreurs de prix, liquidation, gouvernance, garde ou risque smart contract.",
+        "what_to_check": "Vérifiez qui possède le pouvoir de vote, ce qui peut changer et si les minoritaires peuvent sortir. Points clés: Achat de votes; Incitations court-termistes; Capture de gouvernance.",
+        "seo_title": "Marché de Bribes: définition, exemple, risques et termes DeFi liés",
+        "seo_description": "Que signifie Marché de Bribes en crypto et en DeFi ? Marché où les votants sont payés pour orienter leurs votes. Définition, exemple, risques et termes liés."
       }
     ]
   },
