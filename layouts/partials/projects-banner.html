@@ -12,6 +12,9 @@
             <span class="projects-banner__kicker">{{ T "projectsBannerLabel" }}</span>
             <span class="projects-banner__rule"></span>
         </div>
+        {{- if eq $variant "home" }}
+        <p class="projects-banner__provenance">{{ T "projectsBannerProvenance" }}</p>
+        {{- end }}
         <ul class="projects-banner__cards">
             {{- range . }}
             {{- $tagline := index .tagline $lang | default (index .tagline "en") -}}
