@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-19T00:00:00Z",
+  "title": "Design System: TokenBrice",
+  "extensions": {
+    "colorMeta": {
+      "dissenting-slate": {
+        "role": "primary",
+        "displayName": "Dissenting Slate",
+        "canonical": "oklch(38% 0.04 245)",
+        "tonalRamp": [
+          "oklch(15% 0.04 245)",
+          "oklch(22% 0.04 245)",
+          "oklch(30% 0.04 245)",
+          "oklch(38% 0.04 245)",
+          "oklch(50% 0.04 245)",
+          "oklch(64% 0.035 245)",
+          "oklch(80% 0.025 245)",
+          "oklch(95% 0.01 245)"
+        ]
+      },
+      "dissenting-slate-deep": {
+        "role": "primary",
+        "displayName": "Dissenting Slate Deep",
+        "canonical": "oklch(33% 0.045 245)",
+        "tonalRamp": [
+          "oklch(12% 0.045 245)",
+          "oklch(20% 0.045 245)",
+          "oklch(26% 0.045 245)",
+          "oklch(33% 0.045 245)",
+          "oklch(46% 0.04 245)",
+          "oklch(60% 0.035 245)",
+          "oklch(76% 0.025 245)",
+          "oklch(93% 0.01 245)"
+        ]
+      },
+      "paper-bone": {
+        "role": "neutral",
+        "displayName": "Paper Bone",
+        "canonical": "oklch(97% 0.005 290)",
+        "tonalRamp": [
+          "oklch(15% 0.005 290)",
+          "oklch(28% 0.005 290)",
+          "oklch(42% 0.005 290)",
+          "oklch(55% 0.005 290)",
+          "oklch(68% 0.005 290)",
+          "oklch(81% 0.005 290)",
+          "oklch(90% 0.005 290)",
+          "oklch(97% 0.005 290)"
+        ]
+      },
+      "ink-body": {
+        "role": "neutral",
+        "displayName": "Ink Body",
+        "canonical": "oklch(45% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(58% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Slate Night",
+        "canonical": "oklch(31% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(22% 0 0)",
+          "oklch(31% 0 0)",
+          "oklch(40% 0 0)",
+          "oklch(52% 0 0)",
+          "oklch(66% 0 0)",
+          "oklch(82% 0 0)",
+          "oklch(96% 0 0)"
+        ]
+      },
+      "cat-sage": {
+        "role": "tertiary",
+        "displayName": "Sage Council",
+        "canonical": "oklch(67% 0.06 135)",
+        "tonalRamp": [
+          "oklch(20% 0.06 135)",
+          "oklch(32% 0.07 135)",
+          "oklch(45% 0.075 135)",
+          "oklch(57% 0.07 135)",
+          "oklch(67% 0.06 135)",
+          "oklch(78% 0.05 135)",
+          "oklch(88% 0.035 135)",
+          "oklch(96% 0.015 135)"
+        ]
+      },
+      "cat-mauve": {
+        "role": "tertiary",
+        "displayName": "Mauve Heretic",
+        "canonical": "oklch(67% 0.11 15)",
+        "tonalRamp": [
+          "oklch(22% 0.08 15)",
+          "oklch(33% 0.1 15)",
+          "oklch(46% 0.12 15)",
+          "oklch(57% 0.12 15)",
+          "oklch(67% 0.11 15)",
+          "oklch(78% 0.09 15)",
+          "oklch(88% 0.06 15)",
+          "oklch(96% 0.02 15)"
+        ]
+      },
+      "cat-ocean": {
+        "role": "tertiary",
+        "displayName": "Ocean Audit",
+        "canonical": "oklch(47% 0.14 245)",
+        "tonalRamp": [
+          "oklch(18% 0.09 245)",
+          "oklch(28% 0.12 245)",
+          "oklch(37% 0.14 245)",
+          "oklch(47% 0.14 245)",
+          "oklch(58% 0.13 245)",
+          "oklch(72% 0.1 245)",
+          "oklch(85% 0.06 245)",
+          "oklch(96% 0.02 245)"
+        ]
+      },
+      "cat-ochre": {
+        "role": "tertiary",
+        "displayName": "Ochre Ledger",
+        "canonical": "oklch(45% 0.09 75)",
+        "tonalRamp": [
+          "oklch(18% 0.05 75)",
+          "oklch(28% 0.07 75)",
+          "oklch(35% 0.08 75)",
+          "oklch(45% 0.09 75)",
+          "oklch(57% 0.09 75)",
+          "oklch(72% 0.08 75)",
+          "oklch(86% 0.05 75)",
+          "oklch(96% 0.015 75)"
+        ]
+      },
+      "cat-violet": {
+        "role": "tertiary",
+        "displayName": "Violet Marginalia",
+        "canonical": "oklch(53% 0.16 280)",
+        "tonalRamp": [
+          "oklch(20% 0.1 280)",
+          "oklch(30% 0.13 280)",
+          "oklch(42% 0.16 280)",
+          "oklch(53% 0.16 280)",
+          "oklch(65% 0.14 280)",
+          "oklch(78% 0.1 280)",
+          "oklch(88% 0.06 280)",
+          "oklch(96% 0.02 280)"
+        ]
+      },
+      "difficulty-beginner": {
+        "role": "tertiary",
+        "displayName": "Beginner Green",
+        "canonical": "oklch(70% 0.18 142)"
+      },
+      "difficulty-intermediate": {
+        "role": "tertiary",
+        "displayName": "Intermediate Amber",
+        "canonical": "oklch(81% 0.15 85)"
+      },
+      "difficulty-expert": {
+        "role": "tertiary",
+        "displayName": "Expert Red",
+        "canonical": "oklch(70% 0.18 22)"
+      },
+      "projects-hull": {
+        "role": "neutral",
+        "displayName": "Deep Hull Navy",
+        "canonical": "oklch(18% 0.04 250)",
+        "tonalRamp": [
+          "oklch(10% 0.04 250)",
+          "oklch(18% 0.04 250)",
+          "oklch(26% 0.04 250)",
+          "oklch(36% 0.04 250)",
+          "oklch(48% 0.035 250)",
+          "oklch(62% 0.03 250)",
+          "oklch(80% 0.02 250)",
+          "oklch(95% 0.008 250)"
+        ]
+      },
+      "projects-ink": {
+        "role": "neutral",
+        "displayName": "Projects Ink",
+        "canonical": "oklch(94% 0.025 85)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Article titles and glossary term names. The only place the system goes large."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Article-card titles in home and category lists."
+      },
+      "title": {
+        "displayName": "In-content Title",
+        "purpose": "h2/h3 inside long-form prose."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Article body and most prose. Capped at 65–75ch."
+      },
+      "label": {
+        "displayName": "Structural Label",
+        "purpose": "Glossary section titles. Uppercase, letter-spaced. Reserved for structural markers, never in-prose emphasis."
+      },
+      "kicker": {
+        "displayName": "Kicker",
+        "purpose": "Article-details strip (date, reading time, tags) above the article title."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Inline code and pre blocks."
+      }
+    },
+    "shadows": [
+      {
+        "name": "l1",
+        "value": "0px 4px 8px rgba(0,0,0,0.04), 0px 0px 2px rgba(0,0,0,0.06), 0px 0px 1px rgba(0,0,0,0.04)",
+        "purpose": "Default resting state for cards, sidebar widgets, series-nav. Almost imperceptible — separation without drama."
+      },
+      {
+        "name": "l2",
+        "value": "0px 10px 20px rgba(0,0,0,0.04), 0px 2px 6px rgba(0,0,0,0.04), 0px 0px 1px rgba(0,0,0,0.04)",
+        "purpose": "Article-card hover. Paired with translateY(-2px) and 0.3s ease."
+      },
+      {
+        "name": "l3",
+        "value": "0px 14px 28px rgba(0,0,0,0.06), 0px 4px 10px rgba(0,0,0,0.04), 0px 0px 1px rgba(0,0,0,0.04)",
+        "purpose": "Heavier elevation; reserved for modal-class surfaces."
+      },
+      {
+        "name": "l4",
+        "value": "0px 24px 32px rgba(0,0,0,0.04), 0px 16px 24px rgba(0,0,0,0.04), 0px 4px 8px rgba(0,0,0,0.04), 0px 0px 1px rgba(0,0,0,0.04)",
+        "purpose": "Top of stack; reserve for true overlays."
+      },
+      {
+        "name": "popover",
+        "value": "0 8px 24px rgba(0,0,0,0.18)",
+        "purpose": "Glossary popover floating over running text."
+      },
+      {
+        "name": "popover-dark",
+        "value": "0 8px 24px rgba(0,0,0,0.55)",
+        "purpose": "Glossary popover, dark mode (heavier so it detaches against dark surface)."
+      },
+      {
+        "name": "projects-card-hover",
+        "value": "0 12px 26px rgba(0,0,0,0.30)",
+        "purpose": "Projects banner card on hover; heavier because baseline elevation is taller."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-default",
+        "value": "ease",
+        "purpose": "Standard easing for card hover (box-shadow 0.3s, transform 0.2s)."
+      },
+      {
+        "name": "ease-fast",
+        "value": "ease",
+        "purpose": "Snappier interactions: category links, glossary popover, pagination (0.15–0.2s)."
+      },
+      {
+        "name": "ease-projects",
+        "value": "ease",
+        "purpose": "Projects banner card hover (0.18s ease)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "All animation/transition durations when prefers-reduced-motion is set. Reading-progress bar transitions to 'none'."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "small mobile" },
+      { "name": "md", "value": "tablet — article font-size shifts 1.6rem → 1.7rem, card padding 20px → 25px" },
+      { "name": "xl", "value": "wide — card padding 25px → 30px, article-card title 2.2rem → 2.4rem, main top padding 35px → 50px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Article Card",
+      "kind": "card",
+      "refersTo": "article-card",
+      "description": "Canonical post card used on home, category, and series listings. Flat at rest, lifts on hover.",
+      "html": "<article class=\"ds-article-card\">\n  <a class=\"ds-article-card__cover\" href=\"#\">\n    <img src=\"https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&q=80\" alt=\"\" />\n  </a>\n  <div class=\"ds-article-card__body\">\n    <div class=\"ds-article-card__kicker\">\n      <time datetime=\"2026-05-12\">May 12, 2026</time>\n      <span>· 14 min read</span>\n    </div>\n    <h2 class=\"ds-article-card__title\">\n      <a href=\"#\">Why the next stablecoin cycle will not look like the last one</a>\n    </h2>\n    <p class=\"ds-article-card__excerpt\">A read of the regulatory pressure, the protocol-design responses, and the capital flows that are quietly reshaping the category.</p>\n    <span class=\"ds-category-badge\" data-cat=\"ocean\">Analysis</span>\n  </div>\n</article>",
+      "css": ".ds-article-card { display: flex; flex-direction: column; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0,0,0,0.04), 0px 0px 2px rgba(0,0,0,0.06), 0px 0px 1px rgba(0,0,0,0.04); transition: box-shadow 0.3s ease, transform 0.2s ease; max-width: 480px; } .ds-article-card:hover { box-shadow: 0px 10px 20px rgba(0,0,0,0.04), 0px 2px 6px rgba(0,0,0,0.04), 0px 0px 1px rgba(0,0,0,0.04); transform: translateY(-2px); } .ds-article-card__cover { display: block; aspect-ratio: 16/9; overflow: hidden; } .ds-article-card__cover img { width: 100%; height: 100%; object-fit: cover; display: block; } .ds-article-card__body { padding: 25px; display: flex; flex-direction: column; gap: 12px; } .ds-article-card__kicker { font-family: Inter Tight, Lato, -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: #767676; display: flex; gap: 8px; } .ds-article-card__title { font-family: Fraunces, Georgia, serif; font-size: 24px; font-weight: 700; line-height: 1.25; letter-spacing: -0.005em; font-feature-settings: 'kern' 1, 'liga' 1; margin: 0; } .ds-article-card__title a { color: #000000; text-decoration: none; } .ds-article-card__title a:hover { color: #34495e; } .ds-article-card__excerpt { font-family: Inter Tight, Lato, sans-serif; font-size: 16px; line-height: 1.55; color: #595959; margin: 0; }"
+    },
+    {
+      "name": "Category Badge",
+      "kind": "chip",
+      "refersTo": "category-badge",
+      "description": "Pill badge using one of the five sanctioned category colors with white text. The active variant uses the color-mix tint on glossary term pages.",
+      "html": "<div style=\"display:flex; gap:8px; flex-wrap:wrap;\">\n  <span class=\"ds-category-badge ds-category-badge--sage\">Analysis</span>\n  <span class=\"ds-category-badge ds-category-badge--mauve\">Opinion</span>\n  <span class=\"ds-category-badge ds-category-badge--ocean\">Technical</span>\n  <span class=\"ds-category-badge ds-category-badge--ochre\">Lending</span>\n  <span class=\"ds-category-badge ds-category-badge--violet\">Experimental</span>\n</div>",
+      "css": ".ds-category-badge { display: inline-flex; align-items: center; padding: 8.8px 17.6px; border-radius: 999px; font-family: Inter Tight, Lato, sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #ffffff; transition: background-color 0.2s ease; cursor: pointer; } .ds-category-badge--sage { background-color: #8ea885; } .ds-category-badge--mauve { background-color: #df7988; } .ds-category-badge--ocean { background-color: #0177b8; } .ds-category-badge--ochre { background-color: #806504; } .ds-category-badge--violet { background-color: #6b69d6; } .ds-category-badge:hover { filter: brightness(0.92); }"
+    },
+    {
+      "name": "Glossary Term Inline Marker",
+      "kind": "custom",
+      "refersTo": "glossary-term-link",
+      "description": "Signature interactive primitive: a button reset to read as a link with dotted underline, indicating a glossary definition is available on hover.",
+      "html": "<p style=\"font-family:Lato,sans-serif; font-size:17px; line-height:1.85; color:#595959; max-width:640px;\">Most yield strategies in DeFi rely on some flavor of <button class=\"ds-glossary-term\" type=\"button\">impermanent loss</button> management — either by hedging it, accepting it, or routing around it via <button class=\"ds-glossary-term\" type=\"button\">concentrated liquidity</button> primitives.</p>",
+      "css": ".ds-glossary-term { appearance: none; background: transparent; border: 0; padding: 0; margin: 0; font: inherit; color: #34495e; border-bottom: 1px dotted #34495e; cursor: help; transition: color 0.15s ease, border-bottom-color 0.15s ease; } .ds-glossary-term:hover { color: #2c3e50; border-bottom-color: #2c3e50; } .ds-glossary-term:focus-visible { outline: 2px solid #34495e; outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Glossary Popover",
+      "kind": "custom",
+      "refersTo": "glossary-popover",
+      "description": "Floats over running text when the inline marker is hovered/focused. Heavier dedicated shadow so it detaches from the prose.",
+      "html": "<div class=\"ds-glossary-popover\">\n  <div class=\"ds-glossary-popover__term\">Impermanent Loss</div>\n  <p class=\"ds-glossary-popover__def\">The loss an AMM liquidity provider incurs relative to simply holding the two assets, caused by price divergence between the pair.</p>\n</div>",
+      "css": ".ds-glossary-popover { display: inline-block; max-width: 320px; padding: 13.6px 16px; background: #ffffff; border: 1px solid rgba(218,218,218,0.5); border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); font-family: Inter Tight, Lato, sans-serif; } .ds-glossary-popover__term { font-size: 15.2px; font-weight: 700; color: #34495e; margin-bottom: 6px; } .ds-glossary-popover__def { font-size: 15.2px; font-weight: 400; line-height: 1.55; color: #000000; margin: 0; }"
+    },
+    {
+      "name": "Series Navigation",
+      "kind": "custom",
+      "refersTo": "series-nav",
+      "description": "Inline series-position rail. Uses the only sanctioned colored side-stripe in the system (4px Dissenting Slate left border) because it encodes information, not decoration.",
+      "html": "<aside class=\"ds-series-nav\">\n  <div class=\"ds-series-nav__title\">In this series</div>\n  <ol class=\"ds-series-nav__list\">\n    <li class=\"ds-series-nav__item\"><span class=\"ds-series-nav__badge\">1</span><a href=\"#\">The original Curve Wars, revisited</a></li>\n    <li class=\"ds-series-nav__item ds-series-nav__item--current\"><span class=\"ds-series-nav__badge ds-series-nav__badge--current\">2</span><span>How the bribery market reshaped governance</span></li>\n    <li class=\"ds-series-nav__item\"><span class=\"ds-series-nav__badge\">3</span><a href=\"#\">What comes after the gauge</a></li>\n  </ol>\n</aside>",
+      "css": ".ds-series-nav { padding: 20px 24px; background: #ffffff; border: 1px solid rgba(218,218,218,0.5); border-left: 4px solid #34495e; border-radius: 10px; font-family: Inter Tight, Lato, sans-serif; max-width: 520px; } .ds-series-nav__title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #34495e; margin-bottom: 12px; } .ds-series-nav__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8.8px; } .ds-series-nav__item { display: flex; align-items: center; gap: 12px; font-size: 16px; line-height: 1.5; color: #595959; } .ds-series-nav__item a { color: #595959; text-decoration: none; transition: color 0.15s ease; } .ds-series-nav__item a:hover { color: #34495e; } .ds-series-nav__item--current { font-weight: 700; color: #34495e; } .ds-series-nav__badge { display: inline-flex; align-items: center; justify-content: center; min-width: 26.4px; height: 26.4px; padding: 0 4px; border-radius: 50%; background: rgba(0,0,0,0.06); font-size: 12.8px; font-weight: 700; color: #000000; flex-shrink: 0; } .ds-series-nav__badge--current { background: #34495e; color: #ffffff; }"
+    },
+    {
+      "name": "Projects Banner Card",
+      "kind": "card",
+      "refersTo": "projects-card",
+      "description": "Signature: the deep-navy band that breaks the calm baseline. The single most chromatically committed surface; the projects collection earns it.",
+      "html": "<section class=\"ds-projects-band\">\n  <div class=\"ds-projects-band__intro\">Projects we cover</div>\n  <div class=\"ds-projects-band__grid\">\n    <a class=\"ds-projects-card\" href=\"#\">\n      <div class=\"ds-projects-card__emblem\">CR</div>\n      <div class=\"ds-projects-card__body\">\n        <div class=\"ds-projects-card__name\">Curve</div>\n        <div class=\"ds-projects-card__tag\">Stable-asset AMM, vote-escrow economics</div>\n      </div>\n      <svg class=\"ds-projects-card__arrow\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg>\n    </a>\n    <a class=\"ds-projects-card\" href=\"#\">\n      <div class=\"ds-projects-card__emblem\">YN</div>\n      <div class=\"ds-projects-card__body\">\n        <div class=\"ds-projects-card__name\">Yearn</div>\n        <div class=\"ds-projects-card__tag\">Yield aggregator, vault primitives</div>\n      </div>\n      <svg class=\"ds-projects-card__arrow\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg>\n    </a>\n  </div>\n</section>",
+      "css": ".ds-projects-band { padding: 22px; border-radius: 8px; border: 1px solid rgba(247,241,223,0.08); background: #0a1628 linear-gradient(90deg, rgba(12,44,83,0.78), rgba(20,42,78,0.96) 48%, rgba(10,27,54,0.92)); box-shadow: inset 0 1px 0 rgba(247,241,223,0.06), 0 18px 42px rgba(0,0,0,0.18); font-family: Inter Tight, Lato, sans-serif; max-width: 720px; } .ds-projects-band__intro { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(222,232,249,0.72); margin-bottom: 14px; } .ds-projects-band__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; } .ds-projects-card { display: flex; align-items: center; gap: 14px; min-height: 118px; padding: 16px; border-radius: 6px; background: rgba(4,13,27,0.62); border: 1px solid rgba(247,241,223,0.13); box-shadow: inset 0 1px 0 rgba(247,241,223,0.06); color: #f7f1df; text-decoration: none; transition: background 0.18s ease, transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease; } .ds-projects-card:hover { background: rgba(8,22,43,0.82); transform: translateY(-3px); border-color: rgba(247,241,223,0.22); box-shadow: 0 12px 26px rgba(0,0,0,0.30); } .ds-projects-card__emblem { display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: 50%; background: radial-gradient(circle, rgba(247,241,223,0.12), rgba(247,241,223,0.02) 62%, transparent 63%); filter: drop-shadow(0 8px 14px rgba(0,0,0,0.28)); font-family: Fraunces, Georgia, serif; font-size: 22px; font-weight: 700; color: #f7f1df; flex-shrink: 0; } .ds-projects-card__body { flex: 1; min-width: 0; } .ds-projects-card__name { font-size: 19px; font-weight: 700; color: #f7f1df; line-height: 1.2; margin-bottom: 4px; } .ds-projects-card__tag { font-size: 13px; color: rgba(222,232,249,0.72); line-height: 1.4; } .ds-projects-card__arrow { color: #f7f1df; opacity: 0.46; flex-shrink: 0; transition: opacity 0.18s ease, transform 0.18s ease; } .ds-projects-card:hover .ds-projects-card__arrow { opacity: 1; transform: scale(1.1); }"
+    },
+    {
+      "name": "Difficulty Filter Pill",
+      "kind": "chip",
+      "refersTo": "difficulty-pill",
+      "description": "Filter pill paired with weight increase on activation (color + weight, so the affordance survives color blindness).",
+      "html": "<div style=\"display:flex; gap:8px; flex-wrap:wrap;\">\n  <button class=\"ds-difficulty-pill\" type=\"button\">All levels</button>\n  <button class=\"ds-difficulty-pill ds-difficulty-pill--active ds-difficulty-pill--beginner\" type=\"button\">Beginner</button>\n  <button class=\"ds-difficulty-pill\" type=\"button\">Intermediate</button>\n  <button class=\"ds-difficulty-pill\" type=\"button\">Expert</button>\n</div>",
+      "css": ".ds-difficulty-pill { appearance: none; padding: 8px 16px; border-radius: 2rem; background: transparent; border: 1.5px solid rgba(218,218,218,0.8); font-family: Inter Tight, Lato, sans-serif; font-size: 14px; font-weight: 500; color: #595959; cursor: pointer; transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease; } .ds-difficulty-pill:hover { border-color: #34495e; color: #34495e; } .ds-difficulty-pill:focus-visible { outline: 2px solid #34495e; outline-offset: 2px; } .ds-difficulty-pill--active { font-weight: 700; } .ds-difficulty-pill--beginner.ds-difficulty-pill--active { border-color: #22c55e; background-color: rgba(34,197,94,0.08); color: #15803d; } .ds-difficulty-pill--intermediate.ds-difficulty-pill--active { border-color: #fbbf24; background-color: rgba(251,191,36,0.08); color: #92400e; } .ds-difficulty-pill--expert.ds-difficulty-pill--active { border-color: #f87171; background-color: rgba(248,113,113,0.08); color: #991b1b; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sovereign Edition",
+    "overview": "This is the visual register of a long-form DeFi blog whose infrastructure is part of its argument. The site runs on a privacy-respecting, open-source stack (Hugo, self-hosted Matomo with IP anonymisation, IPFS replication, no Google Fonts) and the design treats that sovereignty as a first principle, not a backdrop. There is no third-party font, no embedded tracker, no analytics-funded gradient. What you see is what was shipped, and what was shipped is what the author owns end-to-end.\n\nThe aesthetic is punk-archival: an irreverent editorial voice held inside an unfashionable, durable shell. Fraunces carries the headlines with the gravity of a printed quarterly; Lato carries the body with the restraint of a working notebook. A single accent — Dissenting Slate (#34495e) — does almost all the chromatic work, ceding the screen to the writing. Where personality erupts, it is local and earned: the projects band's deep-hull navy, the rotating category palette, the difficulty filters' green/amber/red. Nothing animates that does not need to. Nothing rounds that does not need to. Nothing decorates that does not argue.\n\nThe system explicitly refuses four registers (carried verbatim from PRODUCT.md): corporate-fintech polish, SaaS landing templates, Substack-default blog chrome, and hype-template crypto.",
+    "keyCharacteristics": [
+      "One accent doing 90% of the chromatic work, with five category colors and three difficulty colors as the only sanctioned exceptions.",
+      "Editorial serif (Fraunces) for display + headlines; humanist sans (Inter Tight) for body. Lato preserved on disk as legacy fallback only.",
+      "Flat at rest, lifts on touch — surfaces sit on the page until the reader engages.",
+      "10px primary radius, 6px / 8px secondary, full-pill (999px) for badges and related-term chips only.",
+      "Both light and dark themes must read in their respective ambient conditions; dark is not a fashion choice.",
+      "Sovereign stack: every asset (fonts, scripts, images, analytics) self-hosted or absent."
+    ],
+    "rules": [
+      {
+        "name": "The Sovereign Stack Rule",
+        "body": "Every color is defined locally. No color, font, or asset may be sourced from a third-party CDN or SaaS dependency that contradicts the editorial position (privacy, openness, sovereignty). If a design choice requires importing Google Fonts, Cloudflare Insights, a Tailwind play-CDN, or any tracker-bearing surface, the choice is wrong before it is drawn.",
+        "section": "colors"
+      },
+      {
+        "name": "The Earned Accent Rule",
+        "body": "Dissenting Slate is the only chromatic vote on most pages. The five category colors are sanctioned only on category surfaces. The three difficulty colors are sanctioned only on difficulty pills. Decorative use of any tertiary color is forbidden. Color is signal, never garnish.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Pure-Black Rule",
+        "body": "Light surfaces use #f5f5fa (Paper Bone), never #ffffff for the body. Dark surfaces use #303030 (Slate Night), never #000000. Pure black appears only in card title text on light mode.",
+        "section": "colors"
+      },
+      {
+        "name": "The One-Serif Rule",
+        "body": "Fraunces is the only serif. Any future serif need must use Fraunces at a different weight or size; introducing a second serif breaks the editorial signature.",
+        "section": "typography"
+      },
+      {
+        "name": "The 65-Character Measure Rule",
+        "body": "Body text never exceeds 75 characters per line. The article container caps it; the glossary term layout caps it harder at 760px. If a future component spans a wider grid, the body text inside it does not.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uppercase-Means-Structure Rule",
+        "body": "Uppercase letter-spaced type is reserved for structural labels (glossary section titles, kicker, series-nav title). Never use it for in-prose emphasis.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-at-Rest Rule",
+        "body": "Surfaces are flat by default; shadows appear only as a response to interaction (hover, focus, popover open) or to detach from a heavily contrasted surface. A card with a permanent heavy shadow is wrong.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Dark-Mode-Heavier-Shadow Rule",
+        "body": "Dark-mode shadows are tuned with 3–4× the opacity of light-mode shadows because dark-on-dark elevation only reads when the shadow is dark enough to register. Do not copy light-mode shadow opacities into dark-mode tokens.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Calm-Baseline Rule",
+        "body": "Most components are quiet (10px radius, Card White, single hairline, no shadow at rest). Sharp moments — the projects band, the active difficulty pill, the category badge, the drop-cap — earn their amplitude by being rare. Doubling the loud surfaces halves their force.",
+        "section": "components"
+      },
+      {
+        "name": "The Series-Nav Stripe Exception",
+        "body": "Side-stripe borders thicker than 1px are banned globally, with one exception: the 4px Dissenting Slate left border on series-nav, because it functions as a structural rail tying sequential posts to a shared identity. Any future use must clear the same bar: encode information, not decorate.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do use Dissenting Slate (#34495e) as the sole chromatic accent on 90%+ of surfaces. The rarity is the point.",
+      "Do use Fraunces 700 with letter-spacing: -0.01em and font-feature-settings: 'kern' 1, 'liga' 1 for every display and headline.",
+      "Do keep body text at 1.7rem Lato, line-height 1.85, color Ink Body (#595959) — the AAA-on-Paper-Bone target. Do not lower the contrast back to the theme default.",
+      "Do cap body measure at 65–75ch. The glossary template caps at 760px; honor it on every prose-bearing component.",
+      "Do keep surfaces flat at rest and let --shadow-l1 → --shadow-l2 + translateY(-2px) carry hover. The system reads as paper-at-rest, paper-in-hand.",
+      "Do pair the projects band's chromatic commitment with at least one full hover state — it is the one place the design earns the right to feel rich.",
+      "Do carry every category color with white text and every difficulty hue with a weight change, so the affordance survives color blindness.",
+      "Do maintain dark-light parity. Both themes are first-class; ship neither without testing the other."
+    ],
+    "donts": [
+      "Don't import Google Fonts, Cloudflare Insights, a CDN-hosted analytics snippet, or any third-party asset that contradicts the sovereign-stack posture. Privacy is part of the argument; the stack is part of the design.",
+      "Don't drift toward corporate fintech (PRODUCT.md anti-ref): no navy-and-gold trust palette, no stock-photo team grids, no 'trusted by' logo wall.",
+      "Don't draft SaaS landing templates (PRODUCT.md anti-ref): no hero-metric + small-label headline, no three identical icon+heading+text cards, no gradient-text H1.",
+      "Don't ship Substack-default chrome (PRODUCT.md anti-ref): plain serif on plain white with no identity is forfeit, not safety. This blog has a voice; the design must too.",
+      "Don't slip into hype-template crypto (PRODUCT.md anti-ref): no animated mesh gradients, no holographic gloss, no neon-purple-on-pitch-black, no glow buttons, no 'future of finance' hero copy. Punk-archival yes, hype-bro no.",
+      "Don't use #000 or #fff for body backgrounds or display type. Paper Bone (#f5f5fa) and Slate Night (#303030) are the canonical surfaces; Card White (#ffffff) is the one sanctioned pure-white, on card interiors only.",
+      "Don't add a colored side-stripe (border-left / border-right > 1px in a category hue) anywhere except series-nav. The pattern is banned globally and survives only as the documented exception.",
+      "Don't apply background-clip: text over a gradient to any heading. Solid color or nothing.",
+      "Don't use category colors decoratively. A teal underline because the section 'feels analytical' violates the Earned Accent Rule. Color is signal.",
+      "Don't introduce a second serif. Fraunces is the only serif; any new editorial flourish uses Fraunces at a new weight or size, never a new family.",
+      "Don't add em dashes or -- in UX copy (carried from PRODUCT.md). Use commas, colons, semicolons, periods.",
+      "Don't add prefers-reduced-motion-violating transforms or animations. The system already respects it; new motion must too.",
+      "Don't ship a hover state that animates a CSS layout property (width, padding, margin). Use transform and opacity exclusively.",
+      "Don't wrap every component in a card. Series-nav, glossary popover, and article-cards are cards; running prose, the kicker, the difficulty pills, and the breadcrumb are not."
+    ]
+  }
+}
