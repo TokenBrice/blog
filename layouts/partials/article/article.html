@@ -1,6 +1,5 @@
 {{- $hasDropcap := and (eq .Kind "page") (gt .WordCount 800) -}}
 <article class="{{ if .Params.image }}has-image {{ end }}main-article{{ if $hasDropcap }} article-content--has-dropcap{{ end }}">
-    {{ partial "breadcrumbs" . }}
     {{ partial "article/components/header" . }}
 
     {{ partial "article/components/content" . }}

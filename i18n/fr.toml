@@ -369,11 +369,23 @@ other = "Pour aller plus loin"
 [endOfPostRelated]
 other = "À lire ensuite"
 
+[endOfPostHubs]
+other = "Explorer le sujet"
+
 [endOfPostFollow]
 other = "Suivre"
 
 [endOfPostRSS]
 other = "RSS"
+
+[hubTypeCategory]
+other = "Catégorie"
+
+[hubTypeSeries]
+other = "Série"
+
+[hubTypeGuide]
+other = "Guide"
 
 
 # Navigation, menu, a11y, 404

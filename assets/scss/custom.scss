@@ -161,8 +161,18 @@
 
 /* Category tag: 0.5s → 0.2s (0.5s feels sluggish) */
 .article-category a,
-.article-tags a {
+.article-tags a,
+.article-tags span {
   transition: background-color 0.2s ease;
+}
+
+.article-tags span {
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+  padding: 8px 16px;
+  border-radius: var(--tag-border-radius);
+  display: inline-block;
+  font-size: 1.4rem;
 }
 
 /* Social icons: add hover transition */

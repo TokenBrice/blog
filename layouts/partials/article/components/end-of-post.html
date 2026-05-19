@@ -10,6 +10,63 @@
 {{- $related := first 2 (where (.Site.RegularPages.Related .) "Params.hidden" "!=" true) -}}
 {{- $social := .Site.Menus.social -}}
 {{- $rssFeed := "/index.xml" | relLangURL -}}
+{{- $hubScratch := newScratch -}}
+{{- $hubScratch.Set "links" (slice) -}}
+{{- $hubScratch.Set "seen" (dict) -}}
+{{- $categoryGuideTargets := dict
+    "stablecoin" "stablecoins-guide"
+    "lending" "lending-money-markets"
+    "dex" "dex-liquidity"
+    "yield" "yield"
+    "analysis" "defi-risk"
+    "thesis" "defi-risk"
+    "privacy" "defi-risk"
+    "tutorial" "guides"
+    "practical" "guides"
+    "projects" "guides"
+    "nft" "guides"
+-}}
+{{- $seriesGuideTargets := dict
+    "stablecoin-arc" "stablecoins-guide"
+    "pegged-assets" "stablecoins-guide"
+    "money-markets" "lending-money-markets"
+    "crv-wars" "governance"
+-}}
+{{- range .GetTerms "series" -}}
+    {{- $href := .RelPermalink -}}
+    {{- if not (index ($hubScratch.Get "seen") $href) -}}
+        {{- $hubScratch.SetInMap "seen" $href true -}}
+        {{- $hubScratch.Add "links" (slice (dict "title" .Title "href" $href "type" "hubTypeSeries")) -}}
+    {{- end -}}
+    {{- $guideSlug := index $seriesGuideTargets (.Title | urlize) -}}
+    {{- with $guideSlug -}}
+        {{- with $.Site.GetPage (printf "/page/%s" .) -}}
+            {{- $href := .RelPermalink -}}
+            {{- if not (index ($hubScratch.Get "seen") $href) -}}
+                {{- $hubScratch.SetInMap "seen" $href true -}}
+                {{- $hubScratch.Add "links" (slice (dict "title" .Title "href" $href "type" "hubTypeGuide")) -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- range .GetTerms "categories" -}}
+    {{- $href := .RelPermalink -}}
+    {{- if not (index ($hubScratch.Get "seen") $href) -}}
+        {{- $hubScratch.SetInMap "seen" $href true -}}
+        {{- $hubScratch.Add "links" (slice (dict "title" .Title "href" $href "type" "hubTypeCategory")) -}}
+    {{- end -}}
+    {{- $guideSlug := index $categoryGuideTargets (.Title | urlize) -}}
+    {{- with $guideSlug -}}
+        {{- with $.Site.GetPage (printf "/page/%s" .) -}}
+            {{- $href := .RelPermalink -}}
+            {{- if not (index ($hubScratch.Get "seen") $href) -}}
+                {{- $hubScratch.SetInMap "seen" $href true -}}
+                {{- $hubScratch.Add "links" (slice (dict "title" .Title "href" $href "type" "hubTypeGuide")) -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $hubLinks := first 4 ($hubScratch.Get "links") -}}
 
 <aside class="end-of-post" aria-labelledby="end-of-post-heading">
     <h2 id="end-of-post-heading" class="end-of-post__sr-only">{{ T "endOfPostHeading" }}</h2>
@@ -57,34 +114,52 @@
     </section>
     {{- end }}
 
-    <section class="end-of-post__follow{{ if not $related }} end-of-post__follow--solo{{ end }}" aria-labelledby="eop-follow-heading">
-        <h3 id="eop-follow-heading" class="end-of-post__label">{{ T "endOfPostFollow" }}</h3>
-        <ul class="end-of-post__follow-list">
-            {{- range $social -}}
+    <div class="end-of-post__side{{ if not $related }} end-of-post__side--solo{{ end }}">
+        {{- with $hubLinks }}
+        <section class="end-of-post__hubs" aria-labelledby="eop-hubs-heading">
+            <h3 id="eop-hubs-heading" class="end-of-post__label">{{ T "endOfPostHubs" }}</h3>
+            <ul class="end-of-post__hub-list">
+                {{- range . -}}
+                    <li>
+                        <a class="end-of-post__hub-link" href="{{ .href }}">
+                            <span class="end-of-post__hub-type">{{ T .type }}</span>
+                            <span class="end-of-post__hub-title">{{ .title }}</span>
+                        </a>
+                    </li>
+                {{- end -}}
+            </ul>
+        </section>
+        {{- end }}
+
+        <section class="end-of-post__follow" aria-labelledby="eop-follow-heading">
+            <h3 id="eop-follow-heading" class="end-of-post__label">{{ T "endOfPostFollow" }}</h3>
+            <ul class="end-of-post__follow-list">
+                {{- range $social -}}
+                    <li>
+                        <a class="end-of-post__follow-link"
+                           href="{{ .URL }}"
+                           {{ if eq (default true .Params.newTab) true }}target="_blank" rel="me noopener"{{ else }}rel="me"{{ end }}
+                           aria-label="{{ .Name }}"
+                           title="{{ .Name }}">
+                            <span class="end-of-post__follow-icon" aria-hidden="true">
+                                {{- partial "helper/icon" (default "link" .Params.Icon) -}}
+                            </span>
+                            <span class="end-of-post__follow-name">{{ .Name }}</span>
+                        </a>
+                    </li>
+                {{- end -}}
                 <li>
-                    <a class="end-of-post__follow-link"
-                       href="{{ .URL }}"
-                       {{ if eq (default true .Params.newTab) true }}target="_blank" rel="me noopener"{{ else }}rel="me"{{ end }}
-                       aria-label="{{ .Name }}"
-                       title="{{ .Name }}">
+                    <a class="end-of-post__follow-link end-of-post__follow-link--rss"
+                       href="{{ $rssFeed }}"
+                       aria-label="{{ T "endOfPostRSS" }}"
+                       title="{{ T "endOfPostRSS" }}">
                         <span class="end-of-post__follow-icon" aria-hidden="true">
-                            {{- partial "helper/icon" (default "link" .Params.Icon) -}}
+                            {{- partial "helper/icon" "rss" -}}
                         </span>
-                        <span class="end-of-post__follow-name">{{ .Name }}</span>
+                        <span class="end-of-post__follow-name">{{ T "endOfPostRSS" }}</span>
                     </a>
                 </li>
-            {{- end -}}
-            <li>
-                <a class="end-of-post__follow-link end-of-post__follow-link--rss"
-                   href="{{ $rssFeed }}"
-                   aria-label="{{ T "endOfPostRSS" }}"
-                   title="{{ T "endOfPostRSS" }}">
-                    <span class="end-of-post__follow-icon" aria-hidden="true">
-                        {{- partial "helper/icon" "rss" -}}
-                    </span>
-                    <span class="end-of-post__follow-name">{{ T "endOfPostRSS" }}</span>
-                </a>
-            </li>
-        </ul>
-    </section>
+            </ul>
+        </section>
+    </div>
 </aside>

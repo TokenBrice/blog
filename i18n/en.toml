@@ -369,11 +369,23 @@ other = "Keep going"
 [endOfPostRelated]
 other = "Related reading"
 
+[endOfPostHubs]
+other = "Explore this topic"
+
 [endOfPostFollow]
 other = "Follow"
 
 [endOfPostRSS]
 other = "RSS"
+
+[hubTypeCategory]
+other = "Category"
+
+[hubTypeSeries]
+other = "Series"
+
+[hubTypeGuide]
+other = "Guide"
 
 
 # Navigation, menu, a11y, 404

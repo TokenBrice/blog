@@ -1,0 +1,7 @@
+{{ if .Params.Tags }}
+    <section class="article-tags" aria-label="{{ T "article.tags" | default "Tags" }}">
+        {{ range (.GetTerms "tags") }}
+            <span>{{ .LinkTitle }}</span>
+        {{ end }}
+    </section>
+{{ end }}

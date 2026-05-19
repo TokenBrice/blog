@@ -147,8 +147,8 @@
     overflow: hidden;
 }
 
-/* ----- Follow stack ----- */
-.end-of-post__follow {
+/* ----- Hub + follow stack ----- */
+.end-of-post__side {
     @media (min-width: 768px) {
         padding-left: 1.75rem;
         border-left: 1px solid var(--card-separator-color);
@@ -160,6 +160,54 @@
             border-left: 0;
         }
     }
+}
+
+.end-of-post__hubs {
+    margin-bottom: 1.25rem;
+}
+
+.end-of-post__hub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.35rem;
+}
+
+.end-of-post__hub-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.6rem 0.65rem;
+    border-radius: var(--tag-border-radius, 4px);
+    color: var(--card-text-color-secondary);
+    text-decoration: none;
+    transition: color 0.18s ease, background-color 0.18s ease;
+
+    &:hover,
+    &:focus-visible {
+        color: var(--accent-color);
+        background: var(--card-background-selected);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+    }
+}
+
+.end-of-post__hub-type {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--card-text-color-tertiary);
+}
+
+.end-of-post__hub-title {
+    font-size: 0.88rem;
+    font-weight: 650;
+    line-height: 1.25;
 }
 
 .end-of-post__follow-list {
@@ -253,7 +301,7 @@
         border-color: rgba(255, 255, 255, 0.08);
     }
 
-    .end-of-post__follow {
+    .end-of-post__side {
         @media (min-width: 768px) {
             border-left-color: rgba(255, 255, 255, 0.08);
         }
