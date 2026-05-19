@@ -5,8 +5,12 @@
       "staticDistDir": "./public",
       "url": [
         "/",
-        "/p/why-polaris/",
-        "/glossary/"
+        "/why-polaris/",
+        "/stablecoins-guide/",
+        "/lending-money-markets/",
+        "/glossary/stablecoin/",
+        "/series/stablecoin-arc/",
+        "/fr/stablecoins-guide/"
       ]
     },
     "assert": {

@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 
+# Low-value archives stay crawlable so Google can process their noindex tags.
+# Crawl waste is controlled by sitemap exclusions and reduced internal links.
+
 # Reference sitemap
 Sitemap: https://tokenbrice.xyz/sitemap.xml

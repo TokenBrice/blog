@@ -123,7 +123,7 @@ params:
         opengraph:
             enabled: true
             local: true
-            src: img/main/banner.png
+            src: img/main/og-default-1200x630.png
 
     colorScheme:
         # Display toggle

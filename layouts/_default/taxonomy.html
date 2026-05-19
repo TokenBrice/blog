@@ -1,4 +1,102 @@
 {{ define "main" }}
+{{- if eq .Kind "term" -}}
+    {{- $pages := where .Pages "Params.hidden" "!=" true -}}
+    {{- $listPages := $pages.ByDate.Reverse -}}
+    {{- $itemPages := first 20 $listPages -}}
+
+    {{- with $itemPages }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "{{ $.Permalink }}#collection",
+      "name": "{{ $.Title | safeJS }}",
+      "description": "{{ $.Description | default $.Params.description | safeJS }}",
+      "url": "{{ $.Permalink }}",
+      "inLanguage": "{{ $.Language.Lang }}",
+      "isPartOf": {
+        "@id": "{{ strings.TrimSuffix "/" $.Site.BaseURL }}/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ len $listPages }},
+        "itemListElement": [
+          {{- range $i, $p := . -}}
+          {{- if $i -}},{{- end }}
+          {
+            "@type": "ListItem",
+            "position": {{ add $i 1 }},
+            "url": "{{ $p.Permalink }}",
+            "name": "{{ $p.Title | safeJS }}"
+          }
+          {{- end }}
+        ]
+      }
+    }
+    </script>
+    {{- end }}
+
+    <header>
+        <h3 class="section-title">
+            {{ with .Parent }}
+                {{ .Title }}
+            {{ else }}
+                {{ T "list.section" | default "Section" }}
+            {{ end }}
+        </h3>
+
+        <div class="section-card">
+            <div class="section-details">
+                <h3 class="section-count">{{ T "list.page" (len $listPages) }}</h3>
+                <h1 class="section-term">{{ .Title }}</h1>
+                {{ with .Params.description }}
+                    <h2 class="section-description">{{ . }}</h2>
+                {{ end }}
+            </div>
+
+            {{- $image := partialCached "helper/image" (dict "Context" . "Type" "section") .RelPermalink "section" -}}
+            {{ if $image.exists }}
+                <div class="section-image">
+                    {{ if $image.resource }}
+                        {{- $Permalink := $image.resource.RelPermalink -}}
+                        {{- $Width := $image.resource.Width -}}
+                        {{- $Height := $image.resource.Height -}}
+
+                        {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                            {{- $thumbnail := $image.resource.Fill "240x135" -}}
+                            {{- $Permalink = $thumbnail.RelPermalink -}}
+                            {{- $Width = $thumbnail.Width -}}
+                            {{- $Height = $thumbnail.Height -}}
+                        {{- end -}}
+
+                        <img src="{{ $Permalink }}"
+                            width="{{ $Width }}"
+                            height="{{ $Height }}"
+                            loading="lazy"
+                            alt="{{ .Title }}">
+                    {{ else }}
+                        <img src="{{ $image.permalink }}"
+                            width="1200"
+                            height="675"
+                            loading="lazy"
+                            alt="{{ .Title }}" />
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </header>
+
+    {{ $paginator := .Paginate $listPages }}
+    <section class="article-list--compact">
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/compact" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+
+    {{ partialCached "footer/footer" . .Language.Lang }}
+{{- else -}}
     <header>
         <h3 class="section-title">{{ T "list.section" | default "Section" }}</h3>
 
@@ -30,6 +128,7 @@
     </section>
 
     {{ partialCached "footer/footer" . .Language.Lang }}
+{{- end -}}
 {{ end }}
 
 {{ define "right-sidebar" }}

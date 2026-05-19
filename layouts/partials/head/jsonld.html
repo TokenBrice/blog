@@ -7,7 +7,10 @@
   Person @id is reused for author + ProfilePage.mainEntity.
 */ -}}
 
-{{- $authorId := printf "%s#person-tokenbrice" .Site.BaseURL -}}
+{{- $siteRoot := strings.TrimSuffix "/" .Site.BaseURL -}}
+{{- $websiteId := printf "%s/#website" $siteRoot -}}
+{{- $organizationId := printf "%s/#organization" $siteRoot -}}
+{{- $authorId := printf "%s/#person-tokenbrice" $siteRoot -}}
 {{- $authorSameAs := slice
     "https://x.com/tokenbrice"
     "https://www.youtube.com/@Token_Brice"
@@ -16,7 +19,8 @@
     "https://github.com/tokenbrice"
 -}}
 {{- $authorImage := absURL "/img/main/emblem-color-square-150.png" -}}
-{{- $authorUrl := absURL "/about/" -}}
+{{- $authorUrl := absLangURL "about/" -}}
+{{- $defaultLang := "en" -}}
 
 {{- /* difficulty/<level>.md pages render a CollectionPage via difficulty-list.html,
        so we must not also emit BlogPosting for them. */ -}}
@@ -30,15 +34,21 @@
 {{- $og := partial "helper/og-image" . -}}
 {{- $ogImage := $og.url -}}
 {{- $desc := .Description | default (.Summary | plainify) -}}
+{{- $webPageId := printf "%s#webpage" .Permalink -}}
+{{- $articleId := printf "%s#article" .Permalink -}}
 {{- if $isAbout -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
+  "@id": "{{ .Permalink }}#profile",
   "url": "{{ .Permalink }}",
   "name": "{{ .Title | safeJS }}",
   "description": "{{ $desc | safeJS }}",
   "inLanguage": "{{ .Language.Lang }}",
+  "isPartOf": {
+    "@id": "{{ $websiteId }}"
+  },
   "mainEntity": {
     "@type": "Person",
     "@id": "{{ $authorId }}",
@@ -55,6 +65,7 @@
 	{
   "@context": "https://schema.org",
   "@type": "BlogPosting",
+  "@id": "{{ $articleId }}",
   "headline": "{{ .Title | safeJS }}",
   "description": "{{ $desc | safeJS }}",
   "author": {
@@ -68,6 +79,7 @@
   },
 	  "publisher": {
 	    "@type": "Organization",
+	    "@id": "{{ $organizationId }}",
 	    "name": "{{ .Site.Title | safeJS }}",
 	    "logo": {
 	      "@type": "ImageObject",
@@ -86,7 +98,7 @@
   "url": "{{ .Permalink }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "{{ .Permalink }}"
+    "@id": "{{ $webPageId }}"
   },
 	  "image": {
 	    "@type": "ImageObject",
@@ -106,20 +118,27 @@
         workTranslation   = the translation(s) of this work
       We treat the EN (default-language) version as the original.
     */ -}}
-    {{- $self := .Permalink -}}
-    {{- $other := (index .Translations 0).Permalink -}}
-    {{- if eq .Language.Lang .Site.Home.Site.Language.Lang -}}
+    {{- $original := . -}}
+    {{- range .AllTranslations -}}
+      {{- if eq .Language.Lang $defaultLang -}}
+        {{- $original = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq .Language.Lang $defaultLang -}}
+      {{- $translations := slice -}}
+      {{- range .AllTranslations -}}
+        {{- if ne .Permalink $.Permalink -}}
+          {{- $translations = $translations | append (dict "@id" .Permalink) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if gt (len $translations) 0 -}}
       ,
-  "workTranslation": {
-    "@id": "{{ $other }}"
-  }
+  "workTranslation": {{ $translations | jsonify | safeJS }}
+      {{- end -}}
     {{- else -}}
       ,
   "translationOfWork": {
-    "@id": "{{ $other }}"
-  },
-  "workTranslation": {
-    "@id": "{{ $self }}"
+    "@id": "{{ $original.Permalink }}"
   }
     {{- end -}}
   {{- end }}
@@ -130,14 +149,13 @@
 	{
 	  "@context": "https://schema.org",
 	  "@type": "WebPage",
+	  "@id": "{{ $webPageId }}",
 	  "name": "{{ .Title | safeJS }}",
 	  "description": "{{ $desc | safeJS }}",
 	  "url": "{{ .Permalink }}",
 	  "inLanguage": "{{ .Language.Lang }}",
 	  "isPartOf": {
-	    "@type": "WebSite",
-	    "name": "{{ .Site.Title | safeJS }}",
-	    "url": "{{ .Site.BaseURL }}"
+	    "@id": "{{ $websiteId }}"
 	  }
 	}
 	</script>
@@ -147,10 +165,14 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": "{{ $websiteId }}",
   "name": "{{ .Site.Title | safeJS }}",
   "url": "{{ .Site.BaseURL }}",
   "description": "{{ .Site.Params.sidebar.subtitle | default .Site.Params.description | safeJS }}",
   "inLanguage": "{{ .Language.Lang }}",
+  "publisher": {
+    "@id": "{{ $organizationId }}"
+  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {

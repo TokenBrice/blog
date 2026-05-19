@@ -53,10 +53,7 @@
       "@type": "ListItem",
       "position": {{ add $index 1 }},
       "name": "{{ $item.name | safeJS }}",
-      "item": {
-        "@type": "Thing",
-        "@id": "{{ $item.url }}"
-      }
+      "item": "{{ $item.url }}"
     }
     {{- end }}
   ]

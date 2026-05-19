@@ -5,26 +5,32 @@
     <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
     {{ with .Params.Keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
     {{- $title := partial "data/title" . -}}
+    {{- $isExternalCanonical := false -}}
+    {{- with .Params.canonicalUrl -}}
+      {{- $canonicalHost := (urls.Parse .).Host -}}
+      {{- $siteHost := (urls.Parse $.Site.BaseURL).Host -}}
+      {{- if and $canonicalHost (ne $canonicalHost $siteHost) -}}
+        {{- $isExternalCanonical = true -}}
+      {{- end -}}
+    {{- end -}}
     {{- $isNoIndex := false -}}
     {{- /* Noindex term pages except curated category/series hubs with editorial intros. */ -}}
     {{- $isIndexableTerm := and (eq .Kind "term") (or (eq .Section "categories") (and (eq .Section "series") .Params.description)) -}}
     {{- $isNonCategoryTerm := and (eq .Kind "term") (not $isIndexableTerm) -}}
     {{- /* Noindex paginated list pages beyond the first. */ -}}
     {{- $isPaginated := strings.Contains .RelPermalink "/page/" -}}
-    {{- if and .IsNode (ne .Type "glossary") -}}
-      {{- with .Paginator -}}
-        {{- if gt .PageNumber 1 -}}{{- $isPaginated = true -}}{{- end -}}
-      {{- end -}}
-    {{- end -}}
+    {{- $is404 := in (slice "/404.html" "/fr/404.html") .RelPermalink -}}
     {{- $isLowValueSection := and (eq .Kind "section") (in (slice "post" "page") .Section) -}}
     {{- if or
+        $is404
         $isNonCategoryTerm
         (eq .Kind "taxonomy")
         (eq .Type "search")
         $isLowValueSection
         (hasPrefix .RelPermalink "/search/")
         (hasPrefix .RelPermalink "/fr/search/")
-        $isPaginated -}}
+        $isPaginated
+        $isExternalCanonical -}}
         {{- $isNoIndex = true -}}
     {{- end }}
     {{- if $isNoIndex }}
@@ -45,14 +51,21 @@
 {{ partial "head/opengraph/include.html" . }}
 
 <!-- Hreflang for multilingual SEO -->
+{{- if not $isExternalCanonical -}}
 {{- partial "head/hreflang.html" . -}}
+{{- end -}}
 
 <!-- Google Site Verification -->
 <meta name="google-site-verification" content="GKWWQE1h2XIIBlvWrtGNhmuSUuDwYKxrawGJsfg8Ka4" />
 
 <!-- JSON-LD Structured Data -->
+{{- if not $isNoIndex -}}
 {{- partial "head/jsonld.html" . -}}
 {{- partial "head/organization-schema.html" . -}}
+{{- if not .IsHome -}}
+{{- partial "breadcrumbs" . -}}
+{{- end -}}
+{{- end -}}
 
 {{- range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">

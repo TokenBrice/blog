@@ -14,6 +14,7 @@
         (ne .Type "search")
         (or (ne .Kind "term") (in (slice "categories" "series") .Section))
         (ne .Kind "taxonomy")
+        (not .Params.canonicalUrl)
         (not (eq .RelPermalink "/search"))
         (not (hasSuffix .RelPermalink "/search/"))
         (not (strings.Contains .RelPermalink "/page/")) }}

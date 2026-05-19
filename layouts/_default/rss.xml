@@ -11,6 +11,9 @@
 {{- $pages = where .Site.RegularPages "Section" "in" .Site.Params.mainSections -}}
 {{- end -}}
 {{- $pages := where $pages "Params.hidden" "!=" true -}}
+{{- if eq .Type "glossary" -}}
+{{- $pages = slice -}}
+{{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
@@ -25,8 +28,8 @@
         <language>{{.}}</language>{{end}}{{ with .Site.Params.Author.email }}
         <managingEditor>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Params.Author.email }}
         <webMaster>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-        <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-        <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+        <copyright>{{.}}</copyright>{{end}}{{ if gt (len $pages) 0 }}{{ $lastBuildPage := index $pages.ByLastmod.Reverse 0 }}{{ if not $lastBuildPage.Lastmod.IsZero }}
+        <lastBuildDate>{{ $lastBuildPage.Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}{{ end }}
         {{- with .OutputFormats.Get "RSS" -}}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
         {{- end -}}
@@ -50,4 +53,3 @@
         {{ end }}
     </channel>
 </rss>
-

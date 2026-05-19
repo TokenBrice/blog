@@ -1,16 +1,21 @@
 {{- if .IsHome -}}
+{{- $siteRoot := strings.TrimSuffix "/" .Site.BaseURL -}}
+{{- $organizationId := printf "%s/#organization" $siteRoot -}}
+{{- $personId := printf "%s/#person-tokenbrice" $siteRoot -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "{{ $organizationId }}",
   "name": "TokenBrice",
   "alternateName": "TokenBrice - Brutally Honest DeFi",
-  "url": "https://tokenbrice.xyz",
+  "url": "{{ $siteRoot }}",
   "logo": "https://tokenbrice.xyz/img/main/emblem-color-square-150.png",
   "description": "Brutally honest analysis and insights into decentralized finance (DeFi), providing educational content about cryptocurrency, lending protocols, DEXs, and DeFi strategies.",
   "foundingDate": "2018",
   "founder": {
     "@type": "Person",
+    "@id": "{{ $personId }}",
     "name": "TokenBrice"
   },
   "sameAs": [

@@ -56,14 +56,21 @@
 
 {{- if not $url -}}
   {{- /* Default OG card. */ -}}
-  {{- $url = absURL $defaultSrc -}}
-  {{- $key := $defaultSrc -}}
-  {{- if not (hasPrefix $key "/") -}}
-    {{- $key = printf "/%s" $key -}}
-  {{- end -}}
-  {{- with index $dims $key -}}
-    {{- $width = .w -}}
-    {{- $height = .h -}}
+  {{- $defaultResource := resources.Get $defaultSrc -}}
+  {{- if $defaultResource -}}
+    {{- $url = $defaultResource.Permalink -}}
+    {{- $width = $defaultResource.Width -}}
+    {{- $height = $defaultResource.Height -}}
+  {{- else -}}
+    {{- $url = absURL $defaultSrc -}}
+    {{- $key := $defaultSrc -}}
+    {{- if not (hasPrefix $key "/") -}}
+      {{- $key = printf "/%s" $key -}}
+    {{- end -}}
+    {{- with index $dims $key -}}
+      {{- $width = .w -}}
+      {{- $height = .h -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
