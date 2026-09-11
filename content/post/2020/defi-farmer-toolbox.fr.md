@@ -2,7 +2,7 @@
 title: "🧰 Trousse à outils du cultivateur DeFi"
 description: "Une liste d'outils et de conseils sélectionnés avec attention pour que vous puissiez tirer parti de la révolution agraire de la DeFi 🌻"
 date: '2020-06-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidity Mining]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: defi-farmer-toolbox
 aliases:
   - p/defi-farmer-toolbox
+  - posts/2020/defi-farmer-toolbox
 ---
 
 Amis agriculteurs,

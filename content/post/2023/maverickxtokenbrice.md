@@ -2,7 +2,7 @@
 title: "Announcement: TokenBrice 🤝 Maverick"
 description: "I am supporting the Maverick team as an advisor, helping with the growth strategy, tokenomics, and BD."
 date: '2023-04-21T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Projects, DEX]
 tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity]
 toc: false
@@ -10,6 +10,7 @@ tocNum: false
 url: maverick-x-tokenbrice
 aliases:
   - p/maverick-x-tokenbrice
+  - posts/2023/maverickxtokenbrice
 image: img/2023/maverickxtokenbrice/maverick-x-tokenbrice-cover.png
 difficulty: "intermediate"
 ---

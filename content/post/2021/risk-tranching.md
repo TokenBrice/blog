@@ -1,14 +1,15 @@
 ---
-title: "🗡 Risk? Yes please, but exactly how I like it"
-description: "Exploring what risk tranching is and why it's **the next financial primitive** in line to be incorporated into major money markets like Aave or Compound."
+title: "Risk Tranching in DeFi: Senior and Junior Yield"
+description: "What risk tranching is, how senior and junior tranches split yield and losses on Saffron or 88mph, and why money markets need this primitive next."
 date: '2021-01-12T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn, APWineFi]
 toc: true
 url: risk-tranching-defi
 aliases:
   - p/risk-tranching-defi
+  - posts/2021/risk-tranching
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "intermediate"
 ---

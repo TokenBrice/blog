@@ -1,8 +1,8 @@
 ---
-title: "Dans les coulisses du théâtre de la décentralisation : étude de l’inaltérabilité des protocoles DeFi"
-description: "De la centralisation totale aux protocoles inarrêtables : définition et analyse du spectre des différents niveaux de résilience des protocoles DeFi"
+title: "DeFi inarrêtable : mesurer la résilience d'un protocole"
+description: "Du protocole totalement centralisé au véritablement inarrêtable : une grille pour évaluer l'immuabilité des contrats, les multisigs et les oracles en DeFi."
 date: '2022-05-18T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Analysis]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, PoolTogether, Chainlink, Oracles]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: unstoppable-defi
 aliases:
   - p/unstoppable-defi
+  - posts/2022/unstoppable-defi
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 difficulty: "expert"
 ---

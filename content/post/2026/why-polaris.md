@@ -9,6 +9,7 @@ series_order: 7
 url: why-polaris
 aliases:
   - p/why-polaris
+  - posts/2026/why-polaris
 image: /img/2026/why-polaris/why-polaris-cover.jpg
 toc: false
 draft: false

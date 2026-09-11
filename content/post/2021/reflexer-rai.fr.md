@@ -1,8 +1,8 @@
 ---
-title: "🗿 Pourquoi, comment et qu'est-ce que le RAI ?"
-description: "Analyse de RAI, de Reflexer et de la de-governance pour reduire les risques de monnaie fiat, centralisation et confiance."
+title: "RAI de Reflexer : le stablecoin sans peg, expliqué"
+description: "Comment fonctionne le RAI de Reflexer : actif stable adossé à l'ETH, sans peg au dollar, prix de rachat flottant, dé-gouvernance et zéro USDC en collatéral."
 date: '2021-09-01T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -10,11 +10,12 @@ tocNum: true
 url: reflexer-rai
 aliases:
   - p/reflexer-rai
+  - posts/2021/reflexer-rai
 image: /img/2021/reflexer-rai/cover.png
 difficulty: "intermediate"
 ---
 
-RAI est une drôle de bête dont la compréhension ou l'intérêt échappe encore à de nombreuses personnes, y compris des gens vraiment calés en DeFi. Il était donc temps de vous proposer un article assez exhaustif dédié à son sujet. J'y ai inclus tout ce que j'estimais pertinent pour comprendre pourquoi un actif comme RAI est nécessaire, ce qu'il apporte et comment il fonctionne.
+RAI est une drôle de bête : un actif stable adossé à l'ETH, sans peg au dollar, dont la compréhension ou l'intérêt échappe encore à de nombreuses personnes, y compris des gens vraiment calés en DeFi. Il était donc temps de vous proposer un article assez exhaustif dédié à son sujet. J'y ai inclus tout ce que j'estimais pertinent pour comprendre pourquoi un actif comme RAI est nécessaire, ce qu'il apporte et comment il fonctionne.
 
 Préparez-vous un café et accrochez-vous, on est parti pour une belle promenade !
 

@@ -10,6 +10,7 @@ image: /img/2019/deep-work/cover.jpeg
 url: deep-work
 aliases:
   - p/deep-work
+  - posts/2019/deep-work
 difficulty: "beginner"
 ---
 

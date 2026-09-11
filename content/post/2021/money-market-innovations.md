@@ -1,8 +1,8 @@
 ---
-title: "Understanding innovations in money markets to envision their future"
-description: "A tour of money-market innovation through B.Protocol, Alchemix, fixed-rate experiments, liquidations, and new lending designs."
+title: "Money Market Innovations: Where DeFi Lending Goes Next"
+description: "How DeFi lending evolves past Aave and Compound: better liquidations with B.Protocol, self-repaying loans with Alchemix, and fixed-rate experiments."
 date: '2021-04-19T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Lending]
 tags: [DeFi, Ethereum, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
 series: money-markets
@@ -12,6 +12,7 @@ tocNum: false
 url: money-market-innovations
 aliases:
   - p/money-market-innovations
+  - posts/2021/money-market-innovations
 image: /img/2021/money-market-innovations/cover.png
 difficulty: "intermediate"
 ---

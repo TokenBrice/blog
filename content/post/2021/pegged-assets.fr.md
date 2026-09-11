@@ -1,8 +1,8 @@
 ---
-title: "Actifs à vocation stable sur Ethereum : quelles approches et quels enjeux ?"
-description: "La quête de stabilité sur Ethereum : aperçu des différentes approches de stabilisation et indexation d'actifs pour en comprendre leurs enjeux."
+title: "Actifs stables sur Ethereum : toutes les approches"
+description: "Les grandes familles d'actifs stables sur Ethereum, adossés au fiat, surcollatéralisés, algorithmiques ou sans peg comme le RAI, et leurs compromis."
 date: '2021-03-23T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending, Yield]
 tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Aave, Compound, Reflexer, Stablecoins, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
 series: pegged-assets
@@ -12,6 +12,7 @@ tocNum: true
 url: actifs-stables-ethereum
 aliases:
   - p/actifs-stables-ethereum
+  - posts/2021/pegged-assets
 image: /img/2021/pegged-assets/money-god-meme.png
 difficulty: "intermediate"
 ---

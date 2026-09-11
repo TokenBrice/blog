@@ -1,8 +1,8 @@
 ---
-title: "⚖️ Liquity: an unstoppable, efficient and innovative borrowing service"
-description: "A deep dive into Liquity, a governance-free borrowing protocol designed for low-cost, efficient, and resilient DeFi credit."
+title: "Liquity: Governance-Free Borrowing on ETH, Explained"
+description: "How Liquity works: ETH-backed loans with no recurring interest, the LUSD stablecoin, the Stability Pool, and why no governance makes it unstoppable."
 date: '2021-12-02T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: liquity-protocol
 aliases:
   - p/liquity-protocol
+  - posts/2021/liquity-protocol
 image: /img/2021/liquity-protocol/cover.png
 difficulty: "intermediate"
 ---

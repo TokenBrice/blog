@@ -13,6 +13,7 @@ url: stablecoins
 aliases:
   - Stablecoins
   - p/stablecoins
+  - posts/2018/stablecoins
 ---
 
 Lorsqu’on parle de cryptos à des non-initiés, la question de la volatilité revient très souvent. Elle sert parfois à balayer l’ensemble du monde des cryptomonnaies et des progrès récents fait en matière de décentralisation sans effort. La volatilité, ça ne touche pas toutes les cryptomonnaies. Il en existe certaines conçues pour êtres stables : on les appelle les « Stablecoins ».

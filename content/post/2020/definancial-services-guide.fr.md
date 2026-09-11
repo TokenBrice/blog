@@ -2,7 +2,7 @@
 title: "📖 Comment utiliser les services DeFinanciers à votre avantage ?"
 description: "Tour d horizon pratique des services financiers DeFi pour faire travailler ses ETH, avec strategies, variantes et risques."
 date: '2020-05-29T10:53:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Stablecoin, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent Loss]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "expert"
 url: definancial-guide
 aliases:
   - p/definancial-guide
+  - posts/2020/definancial-services-guide
 ---
 
 Bienvenue dans le nouveau monde !

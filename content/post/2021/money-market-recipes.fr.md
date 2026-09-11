@@ -2,7 +2,7 @@
 title: "🌽 Livre de recettes pour les marchés d'actifs DeFi"
 description: "Strategies concretes pour utiliser les marches monetaires DeFi comme Aave et Alchemix, avec leurs opportunites et risques."
 date: '2021-04-29T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Money Markets, Aave, Curve, Liquity, Alchemix, Liquidation]
 series: money-markets
@@ -12,6 +12,8 @@ tocNum: true
 url: recettes-marches-actifs
 aliases:
   - p/recettes-marches-actifs
+  - posts/2021/money-market-recipes
+  - recettes-marchés-d'actifs
 image: /img/2021/money-market-recipes/recettes-marché-d'actif-cover-tokenbrice.png
 difficulty: "expert"
 ---

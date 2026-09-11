@@ -8,6 +8,7 @@ image: /img/main/banner.png
 url: static-edge
 aliases:
   - p/static-edge
+  - posts/2019/static-edge
 difficulty: "beginner"
 ---
 

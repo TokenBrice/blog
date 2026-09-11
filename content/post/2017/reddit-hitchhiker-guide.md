@@ -1,8 +1,6 @@
 ---
-title: Reddit and Reddit Ads Hitchhiker’s Guide
-description: >-
-  For brands and startups alike, Reddit can be a true goldmine. Reddit Ads
-  deliver, even on a budget. Have you tried it?
+title: "The Reddit and Reddit Ads Guide for Marketers"
+description: "How to reach an audience on Reddit without getting banned: picking subreddits, posting etiquette, and what Reddit Ads deliver on a small budget."
 date: '2017-10-10T11:16:29.535Z'
 categories: [Tutorial]
 tags: [reddit astroturfing, advertising]
@@ -11,6 +9,7 @@ image: /img/2017/reddit/cover.png
 url: reddit-hitchhiker-guide
 aliases:
   - p/reddit-hitchhiker-guide
+  - posts/2017/reddit-hitchhiker-guide
 difficulty: "beginner"
 ---
 

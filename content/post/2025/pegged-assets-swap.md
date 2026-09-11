@@ -1,6 +1,6 @@
 ---
-title: "The Pegged Asset Swap Wars"
-description: "A look at debt-driven liquidity for pegged asset swaps, and why constant incentives may not be the best way to sustain deep stable liquidity."
+title: "Pegged Asset Swaps: From StableSwap to Fluid and EulerSwap"
+description: "A history of pegged asset swaps: why x*y=k wasted liquidity, what Curve's StableSwap fixed, and how Fluid DEX and EulerSwap back liquidity with debt."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
@@ -10,6 +10,7 @@ series_order: 2
 url: pegged-assets-swap
 aliases:
   - p/pegged-assets-swap
+  - posts/2025/pegged-assets-swap
 difficulty: "expert"
 ---
 

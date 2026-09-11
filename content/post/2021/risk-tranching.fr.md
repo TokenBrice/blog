@@ -2,13 +2,14 @@
 title: "🗡 Du risque ? Oui, mais juste un doigt"
 description: "Introduction au tranching du risque, a son role dans les marches monetaires DeFi et a son importance pour Aave et Compound."
 date: '2021-01-12T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Risk Management, Risk Tranching, Money Markets, DAI, aDAI, Saffron Finance, 88mph, Aave, Compound, Yearn, APWineFi]
 toc: true
 url: tranching-risque-defi
 aliases:
   - p/tranching-risque-defi
+  - posts/2021/risk-tranching
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "intermediate"
 ---

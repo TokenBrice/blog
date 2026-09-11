@@ -9,6 +9,7 @@ image: /img/2017/sato/satodemo.gif
 url: sato-python-cryptobot
 aliases:
   - p/sato-python-cryptobot
+  - posts/2017/python-cryptobot
 difficulty: "intermediate"
 ---
 

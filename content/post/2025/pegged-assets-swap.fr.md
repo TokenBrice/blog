@@ -1,6 +1,6 @@
 ---
-title: "Les guerres des swaps sur les actifs pegged"
-description: "Analyse de la liquidite alimentee par la dette pour les swaps d actifs pegged, au-dela des incentives permanentes."
+title: "Swaps d'actifs pegged : de StableSwap à Fluid et EulerSwap"
+description: "Histoire des swaps d'actifs pegged : le gaspillage du x*y=k, l'apport du StableSwap de Curve, et la liquidité adossée à la dette chez Fluid et EulerSwap."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
@@ -10,6 +10,7 @@ series_order: 2
 url: pegged-assets-swap
 aliases:
   - p/pegged-assets-swap
+  - posts/2025/pegged-assets-swap
 difficulty: "expert"
 ---
 

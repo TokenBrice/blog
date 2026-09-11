@@ -1,8 +1,6 @@
 ---
-title: 'The Demise of Nation States: Introducing the Nation as a Service (NaaS)'
-description: >-
-  How to break down a nation-state? A step by step tutorial and a framework
-  proposal to understand the post nation-state world.
+title: 'The Demise of Nation States: Nation as a Service'
+description: "How states quietly disengage from state affairs, and a framework, Nation as a Service, for what takes over once the decomposition is complete."
 date: '2018-06-30T16:14:38.684Z'
 categories: [Analysis]
 tags: [NaaS]
@@ -10,6 +8,7 @@ image: /img/2018/demise-ns/cover.jpeg
 url: demise-ns
 aliases:
   - p/demise-ns
+  - posts/2018/demise-ns
 difficulty: "beginner"
 ---
 

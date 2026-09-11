@@ -1,7 +1,5 @@
 {{ define "main" }}
-    {{ $pages := where .Site.RegularPages "Section" "post" }}
-    {{ $notHidden := where $pages "Params.hidden" "!=" true }}
-    {{ $pag := .Paginate $notHidden }}
+    {{ $pag := partial "helper/paginator.html" . }}
 
     {{- $heroClaim := .Params.heroClaim | default (T "homepageHero") -}}
     {{- if $heroClaim }}

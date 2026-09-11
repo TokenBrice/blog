@@ -2,7 +2,7 @@
 title: "🐊 Navigating the swap swamps"
 description: "Practical tips and considerations to understand what's happening under the hood while swapping tokens and how to do it efficiently."
 date: '2020-11-30T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
@@ -10,6 +10,7 @@ difficulty: "beginner"
 url: swap-swamp
 aliases:
   - p/swap-swamp
+  - posts/2020/swap-swamp
 ---
 
 Is swapping tokens easy as A, B, C? Don't let yourself be fooled by the apparent simplicity: yes, there are easy to use interfaces where you pick an input, an amount, and press a button to trade. Yet, without a basic understanding of DeFi, you might find yourself falling for avoidable mistakes.  As DeFi is increasingly made more broadly accessible, knowing **what's happening under the hood is essential to make the most of it**.

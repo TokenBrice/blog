@@ -2,7 +2,7 @@
 title: "Non-fungible tokens (NFTs): the weight and contribution of ascertainable history "
 description: "A walk through the world of NFTs to understand the value of provable digital scarcity and its contribution to community or artistic uses."
 date: '2021-04-09T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [NFT]
 tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: nft-usecases
 aliases:
   - p/nft-usecases
+  - posts/2021/nft-usecases
 image: /img/2021/nft-usecases/88DeLo.png
 difficulty: "beginner"
 ---

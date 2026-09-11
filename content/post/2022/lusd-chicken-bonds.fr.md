@@ -1,8 +1,8 @@
 ---
-title: "Chicken Bonds : synergie DeFi x NFT pour résoudre le problème de l'oeuf et de la poule de la ĺiquidité en finance décentralisée"
-description: "Comment les Chicken Bonds de Liquity utilisent des NFT dynamiques pour soutenir la liquidite du LUSD et aligner les utilisateurs."
+title: "Chicken Bonds : les bonds NFT de Liquity expliqués"
+description: "Comment fonctionnent les LUSD Chicken Bonds : bonding sans maturité à capital protégé, NFT dynamiques, et pourquoi Liquity veut plus de liquidité LUSD."
 date: '2022-10-17T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 series: stablecoin-arc
@@ -12,6 +12,7 @@ tocNum: true
 url: lusd-chicken-bonds
 aliases:
   - p/lusd-chicken-bonds
+  - posts/2022/lusd-chicken-bonds
 image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 difficulty: "beginner"
 ---

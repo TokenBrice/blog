@@ -2,7 +2,7 @@
 title: "Les forks de Yearn Finance : présentation de la famille des Waifus"
 description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de nombreux projets qui l'ont forké. Cet article le tour des forks de YFI les plus pertinents."
 date: '2020-09-18T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
 series: yearn
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yearn-finance-forks
 aliases:
   - p/yearn-finance-forks
+  - posts/2020/yearn-waifus
 ---
 
 À chaque jour son nouveau fork de Yearn Finance : comment les suivre ? Il n'y a pas de réponse simple, mais je pense pouvoir **vous fournir quelques éléments pour vous aider à repérer les fork de YFI à fort potentiel**. Pour ce faire, je vais couvrir trois (+1) fork YFI et essayer de mettre le doigt sur ce qui les rend intéressants.

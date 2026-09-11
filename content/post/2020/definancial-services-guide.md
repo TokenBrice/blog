@@ -2,7 +2,7 @@
 title: "📖 How to make DeFinancial products work for you"
 description: "A practical overview of decentralized finance services that can put ETH to work, with base strategies, variants, and implementation risks."
 date: '2020-05-20T10:53:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Stablecoin, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidation, Gas, Impermanent Loss]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "expert"
 url: definancial-guide
 aliases:
   - p/definancial-guide
+  - posts/2020/definancial-services-guide
 ---
 
 Welcome to the new economic paradigm!

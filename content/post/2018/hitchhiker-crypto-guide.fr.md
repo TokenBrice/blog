@@ -11,6 +11,7 @@ difficulty: "beginner"
 url: crypto-hitchhiker-guide
 aliases:
   - p/crypto-hitchhiker-guide
+  - posts/2018/hitchhiker-crypto-guide
 ---
 
 Vous voulez investir dans une ICO, or acheter des cryptomonnaies déjà sur le marché ? Bienvenue à bord ! Avant de vous mettre à l’eau, je vous propose un petit guide pour vous aider à naviguer le Far-Ouest : il inclut des astuces et des exemples pris sur des projets existants. C’est en quelque sorte une synthèse de ce que j’ai appris de mes expériences (et échecs), et de mes échanges la communauté.

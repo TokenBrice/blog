@@ -11,5 +11,6 @@ difficulty: "beginner"
 url: tokenbrice-twitch-fr
 aliases:
   - p/tokenbrice-twitch-fr
+  - posts/2021/tokenbrice-twitch
 ---
 

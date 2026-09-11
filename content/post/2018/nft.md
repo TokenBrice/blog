@@ -11,6 +11,7 @@ difficulty: "beginner"
 url: nft
 aliases:
   - p/nft
+  - posts/2018/nft
 ---
 
 “Non-fungibles” — don’t let yourself be fooled by the mushroom-evoking name, fungibility is an old concept that is finding a second wind nowadays. It’s mostly about collectibles and video games for now, but it will soon outgrow these industries. Indeed, the potential of non-fungibles tokens is much more significant than this: from official documents to titles of ownership, their use cases are diverse and numerous.

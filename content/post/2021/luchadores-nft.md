@@ -9,6 +9,7 @@ tocNum: false
 url: luchadores-nft
 aliases:
   - p/luchadores-nft
+  - posts/2021/luchadores-nft
 image: /img/2021/luchadores-nft/luchadores-cover.png
 difficulty: "beginner"
 ---

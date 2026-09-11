@@ -1,8 +1,8 @@
 ---
-title: "Janus: the new sworn enemy of DeFi protocols?"
-description: "An essay on DeFi governance tensions between users, tokenholders, protocols, and the incentives that pull them apart."
+title: "DeFi's Janus Problem: Users Against Tokenholders"
+description: "Why DeFi protocols end up two-faced: what users want and what tokenholders want rarely align, as Uniswap's proposal 05 and MakerDAO's fee votes show."
 date: '2021-07-17T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Thesis]
 tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, MakerDAO, Convex, CVX, Yearn, Uniswap]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: defi-janus
 aliases:
   - p/defi-janus
+  - posts/2021/defi-janus
 image: /img/2021/defi-janus/defi-janus-cover.png
 difficulty: "intermediate"
 ---

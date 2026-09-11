@@ -8,6 +8,7 @@ image: /img/2019/staticweb/jamstack.png
 url: static-roots
 aliases:
   - p/static-roots
+  - posts/2019/static-roots
 difficulty: "beginner"
 ---
 

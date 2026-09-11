@@ -1,7 +1,6 @@
 ---
-title: Déconstruire le mythe du troc pour mieux comprendre le Bitcoin et les innovations monétaires
-description: >-
-  Comment comprendre l''évolution de la monnaie jusqu''aux cryptos ? Déconstruisons les mythes sur le troc avant de considérer les innovations possibles
+title: "Money 101 : le mythe du troc et l'origine de la monnaie"
+description: "La monnaie n'est pas née du troc. Ce qui définit vraiment une monnaie, pourquoi nous en utilisons une, et ce que cela éclaire sur le Bitcoin."
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, Blockchain, EcoCrypto]
@@ -10,6 +9,7 @@ difficulty: "beginner"
 url: money101
 aliases:
   - p/money101
+  - posts/2018/money101
 ---
 
 <span style="font-weight: 400;">La monnaie est un élément essentiel de nos sociétés : un petit changement dans ses mécanismes sous-jacents peut avoir des répercussions qui dépassent très largement le champ de l’économie. Une meilleure compréhension des mécanismes monétaires permet ainsi de mieux cerner de nombreux sujets connexes allant de l’économie politique aux cryptomonnaies.</span>

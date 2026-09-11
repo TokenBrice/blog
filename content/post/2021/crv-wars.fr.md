@@ -1,8 +1,8 @@
 ---
-title: "⚔ Guerre du CRV : comprendre la course à l'accumulation de la capacité à influencer le protocole Curve Finance"
-description: "Guide concis des Curve Wars: accumulation de CRV, bribes, strategies de vote et dynamique des protocoles autour de Curve."
+title: "Curve Wars : la course au contrôle du veCRV"
+description: "Comment fonctionnent les Curve Wars : verrouillage du CRV, rôle de Convex, achat de votes via Votium et Bribe.crv, et ce que ça change pour les pools."
 date: '2021-09-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
 series: crv-wars
@@ -12,6 +12,7 @@ tocNum: true
 url: crv-wars
 aliases:
   - p/crv-wars
+  - posts/2021/crv-wars
 image: /img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 difficulty: "intermediate"
 ---

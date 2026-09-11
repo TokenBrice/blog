@@ -2,7 +2,7 @@
 title: "How to build an inflation-proof DeFi portfolio?"
 description: "How DeFi strategies and products can respond to inflation, with practical examples and limits for onchain users."
 date: '2022-03-09T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: defi-vs-inflation
 aliases:
   - p/defi-vs-inflation
+  - posts/2022/defi-vs-inflation
 image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 difficulty: "beginner"
 ---

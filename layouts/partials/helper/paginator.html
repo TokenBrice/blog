@@ -1,0 +1,24 @@
+{{- /*
+    Single source of truth for paginated list sets.
+
+    Hugo builds a page's paginator exactly once (sync.Once): the first .Paginate
+    call wins. head.html renders before the main block, so head and body MUST ask
+    for the same set through this helper or they silently disagree.
+
+    Returns false for pages that must not paginate — calling .Paginate on them
+    would materialise /page/N/ output that does not exist today.
+*/ -}}
+{{- $pager := false -}}
+{{- if .IsHome -}}
+    {{- $pager = .Paginate (where (where .Site.RegularPages "Section" "post") "Params.hidden" "!=" true) -}}
+{{- else if eq .Kind "term" -}}
+    {{- $pager = .Paginate (where .Pages "Params.hidden" "!=" true).ByDate.Reverse -}}
+{{- else if and (eq .Kind "section") (ne .Type "glossary") -}}
+    {{- $subsections := .Sections -}}
+    {{- $pages := .Pages | complement $subsections -}}
+    {{- if eq (len $pages) 0 -}}
+        {{- $pages = $subsections -}}
+    {{- end -}}
+    {{- $pager = .Paginate $pages -}}
+{{- end -}}
+{{- return $pager -}}

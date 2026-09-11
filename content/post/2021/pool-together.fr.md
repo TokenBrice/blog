@@ -1,8 +1,8 @@
 ---
-title: "🎲 PoolTogether : L'histoire de la loterie sans perte où tout le monde (y) gagne"
-description: "Comment PoolTogether utilise la DeFi pour repenser la loterie sous forme d epargne ludique et moins predatrice."
+title: "PoolTogether : comment marche la loterie sans perte"
+description: "Comment fonctionne la loterie sans perte de PoolTogether : votre dépôt reste à vous, le rendement mutualisé forme le lot, et pourquoi c'est moins prédateur."
 date: '2021-12-20T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -10,14 +10,17 @@ tocNum: false
 url: pool-together
 aliases:
   - p/pool-together
+  - posts/2021/pool-together
 image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
 ---
 
 
+[PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) est une loterie sans perte : les dépôts sont mutualisés et mis au travail en DeFi, le rendement qu’ils produisent finance le lot, et chaque joueur conserve son capital.
+
 La DeFi a permis l’émergence d’un système financier alternatif construit sur des bases fondamentalement différentes : transparence, open-source, composabilité et résistance à la censure. De nombreux cas d'utilisation ont émergé et il est désormais possible d’acheter et d’échanger des tokens sans intermédiaire centralisé, mais aussi prêter ou emprunter et bien plus encore !
 
-Notre sujet du jour, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) fait lui un pas de plus : il utilise et assemble différents services DeFi pour proposer un “jeu d’argent” d’un type nouveau, qui se veut à la fois plus amusant, mais aussi plus instructif et bien moins dangereux et délétère que sa contrepartie classique.
+Notre sujet du jour, PoolTogether, fait lui un pas de plus : il utilise et assemble différents services DeFi pour proposer un “jeu d’argent” d’un type nouveau, qui se veut à la fois plus amusant, mais aussi plus instructif et bien moins dangereux et délétère que sa contrepartie classique.
 
 Je vous propose donc d’explorer ce protocole dans le détail : on commence par son contexte, avant d’analyser son fonctionnement et les différents enjeux qu’il implique. C’est parti !
 

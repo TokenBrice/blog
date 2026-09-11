@@ -1,8 +1,8 @@
 ---
-title: "Maverick et la transition du Liquidity Mining au Liquidity Shaping"
-description: "Comment Maverick introduit le liquidity shaping comme nouveau centre de pouvoir DEX avec structures de liquidite et incentives efficaces."
+title: "Liquidity Shaping : la réponse de Maverick au Liquidity Mining"
+description: "Comment l'AMM de Maverick déplace la liquidité avec le prix, pourquoi il bat Uniswap en efficacité du capital, et ce que le liquidity shaping change."
 date: '2023-07-07T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Maverick, DEX, Liquidity Management, Liquidity Shaping, Concentrated Liquidity, veCRV, Solidly, Velodrome]
 toc: false
@@ -10,6 +10,7 @@ tocNum: false
 url: maverick-liquidity-shaping
 aliases:
   - p/maverick-liquidity-shaping
+  - posts/2023/liquidity-shaping-maverick
 image: img/2023/liquidity-shaping-maverick/cover.png
 difficulty: "expert"
 ---

@@ -2,12 +2,13 @@
 title: "Introducing my next step: contributing to a DeFi mastermind geared to support trustless and unstoppable DeFi: The DeFi Collective"
 description: "It's time to put my five years in DeFi to the best use: unfettered support for the public goods"
 date: '2023-10-16T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Projects]
 tags: [DeFi, Ethereum, Stablecoins, Liquidity, Association, DeFi Collective]
 url: defi-collective
 aliases:
   - p/defi-collective
+  - posts/2023/defi-collective
 image: /img/2023/defi-collective/twitter_banner.png
 toc: false
 difficulty: "beginner"

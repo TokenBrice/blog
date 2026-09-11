@@ -1,8 +1,8 @@
 ---
-description: "Pourquoi j ai rejoint Liquity pour contribuer a un protocole DeFi resilient, et ce que cette decision dit de mon analyse du secteur."
-title : "Annonce : Je rejoins Liquity pour soutenir la croissance de la DeFi inarrêtable"
+description: "Pourquoi j'ai rejoint Liquity : ce que signifie vraiment la DeFi inarrêtable, et pourquoi un protocole sans gouvernance est le modèle à soutenir."
+title : "Pourquoi j'ai rejoint Liquity pour la DeFi inarrêtable"
 date: '2022-05-16T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Projects, Stablecoin, Lending]
 tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
@@ -10,6 +10,7 @@ tocNum: false
 url: joining-liquity
 aliases:
   - p/joining-liquity
+  - posts/2022/tokenbrice-liquity
 image: /img/2022/tokenbrice-liquity/cover.png
 difficulty: "beginner"
 ---

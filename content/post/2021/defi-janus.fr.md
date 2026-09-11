@@ -2,7 +2,7 @@
 title: "Janus : le nouvel ennemi juré des protocoles DeFi ?"
 description: "Essai sur les tensions de gouvernance DeFi entre utilisateurs, detenteurs de tokens, protocoles et incentives contradictoires."
 date: '2021-07-05T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Thesis]
 tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, MakerDAO, Convex, CVX, Yearn, Uniswap]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: defi-janus
 aliases:
   - p/defi-janus
+  - posts/2021/defi-janus
 image: /img/2021/defi-janus/defi-janus-cover.png
 difficulty: "intermediate"
 ---

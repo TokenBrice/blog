@@ -1,19 +1,20 @@
 ---
-title: "DeFi Bullshit Detector"
-description: "Guide de mise en place d'une instance Claude qui fait davantage confiance aux données onchain qu'au marketing."
+title: "DeFi Bullshit Detector : repérer les red flags"
+description: "Comment configurer une instance Claude qui fouille les données onchain, l'historique des équipes et les contreparties pour sortir les red flags d'un protocole."
 date: '2026-02-07T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum]
 url: defi-bullshit-detector
 aliases:
   - p/defi-bullshit-detector
+  - posts/2026/defi-bullshit-detector
 image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"
 ---
 
-Dans l'Arena cette semaine, j'ai essayé quelque chose de différent : au lieu de faire des opérations onchain comme d'habitude, je voulais montrer comment configurer une instance Claude dédiée à la recherche DeFi, et les résultats ont été impressionnants.
+Le DeFi Bullshit Detector est une instance Claude dédiée à la recherche DeFi, configurée pour confronter le marketing d'un protocole à la réalité onchain. Dans l'Arena cette semaine, j'ai essayé quelque chose de différent : au lieu de faire des opérations onchain comme d'habitude, je voulais montrer comment en configurer une, et les résultats ont été impressionnants.
 
 En 1h15, nous avons pu configurer une nouvelle instance Claude depuis zéro, lui faire écrire son fichier `claude.md` avec nos instructions, installer les outils nécessaires pour requêter des données onchain, puis lancer une analyse test sur ThGold qui a retourné de nombreux red flags critiques, dont plusieurs ne semblaient pas avoir été découverts auparavant par d'autres chercheurs.
 

@@ -1,8 +1,8 @@
 ---
-title: "Yearn Finance's Forks: The State of the Waifus Family"
-description: "On top of being one of the most succesful DeFi protocols, Yearn is also forked alot. Today, we have a look at the top YFI forks and what made them stick!"
+title: "Yearn's Forks: What Made the Best Waifus Stick"
+description: "The YFI fork playbook, fair launch, community governance and vaults, and what separated the forks that survived from the ones that quietly vanished."
 date: '2020-09-18T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
 series: yearn
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yearn-finance-forks
 aliases:
   - p/yearn-finance-forks
+  - posts/2020/yearn-waifus
 ---
 
 Every day a new Yearn fork is popping up: how to keep track with them? There is no simple answer to this dilemma, however, I believe I can **provide you with some clues to help you spot YFI fork with high potential.** To do so, I’ll cover three (+1) YFI forks and try to pinpoint the changes to the secret sauce that made them stick.

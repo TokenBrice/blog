@@ -1,8 +1,8 @@
 ---
-title: "ve(3,3) : l'étape logique après le modèle veCRV?"
-description: "On creuse les modèles de Solidly et Velodrome pour comprendre en quoi les DEX ve(3,3) augmentent le modèle veCRV."
+title: "Solidly et Velodrome : le modèle de DEX ve(3,3) analysé"
+description: "Analyse du modèle ve(3,3) de Solidly et Velodrome : vote-escrow, bribes et frais redistribués face à veCRV, et les limites de la vague de forks."
 date: '2023-04-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: solidly-velodrome-fork
 aliases:
   - p/solidly-velodrome-fork
+  - posts/2023/solidly-velodrome-template
 image: img/2023/solidly-velodrome-template/cover.png
 difficulty: "intermediate"
 ---

@@ -2,7 +2,7 @@
 title: "🧭 DeFi Moneygames: Assessing risk and avoiding wreckage"
 description: "A quick primer to help players of DeFi food-based moneygames to understand the basic template (go WINE!), assess the risk & save their precious tokens."
 date: '2020-08-26T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Staking, Memecoin, Foodcoin]
 image: /img/2020/defi-moneygames/cover.png
@@ -10,6 +10,7 @@ difficulty: "intermediate"
 url: defi-moneygames
 aliases:
   - p/defi-moneygames
+  - posts/2020/defi-moneygames
 ---
 
 Food-based social moneygames are all the rage in decentralised finance. Today, I wanted to write a quick piece to provide some context on them, as well as some tips for those who want to. I'll not pass moral judgement on such projects, I leave it up to you.

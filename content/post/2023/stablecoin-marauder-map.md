@@ -2,7 +2,7 @@
 title: "The Maurauder's Map of Decentralized Stablecoins"
 description: "A map of stablecoin mechanisms including AMOs, PSMs, DSR, pegKeepers, and how to judge their relevance and risks."
 date: '2023-09-15T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, fETH, xETH, Interest Rate]
 series: stablecoin-arc
@@ -10,6 +10,7 @@ series_order: 6
 url: stablecoin-marauder-map
 aliases:
   - p/stablecoin-marauder-map
+  - posts/2023/stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 difficulty: "beginner"
 ---

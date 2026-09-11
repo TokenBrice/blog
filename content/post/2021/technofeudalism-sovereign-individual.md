@@ -9,6 +9,7 @@ difficulty: "beginner"
 url: technofeudalism-sovereign-individual
 aliases:
   - p/technofeudalism-sovereign-individual
+  - posts/2021/technofeudalism-sovereign-individual
 ---
 
 Remember when we used to talk of a "post-covid world"? It's funny to see how the expression quickly stopped being used as people realized the social order of the "new" world would be as nonsensical and wasteful as the previous.

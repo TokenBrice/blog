@@ -1,12 +1,13 @@
 ---
-title: 'The Chatbot Masquerade: Crafting a personality with NLP and grammar'
-description: "A critical look at chatbot hype, messaging-platform investments, and whether early bots were actually useful enough for users."
+title: 'The Chatbot Masquerade: Faking a Personality With NLP'
+description: "Why chatbots failed to sound human: the limits of natural language processing, the grammar tricks used to fake a personality, and the hype around them."
 date: '2017-08-02T12:43:42.920Z'
 categories: [Analysis]
 toc: true
 url: chatbot-masquerade
 aliases:
   - p/chatbot-masquerade
+  - posts/2017/chatbot-masquerade
 tags: [chat, design, dark patterns, interview]
 image: /img/2017/chatbot-masquerade/cover.png
 difficulty: "beginner"

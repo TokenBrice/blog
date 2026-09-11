@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC = ROOT / "public"
+PUBLIC = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "public"
 OUTPUT_EXTENSIONS = {".html", ".xml", ".json"}
 DEV_ARTIFACTS = ("localhost:1313", "127.0.0.1:1313", "livereload.js")
 
@@ -148,6 +148,25 @@ for html in sorted(PUBLIC.rglob("*.html")):
                 and not rel_page.startswith("/fr/tags/")
             ):
                 tag_archive_links.append(f"{rel_html} -> {href_path}")
+
+
+indexable_pagers: list[str] = []
+for html, parser in parsed_pages.items():
+    parts = html.relative_to(PUBLIC).parts
+    if len(parts) < 3 or parts[-1] != "index.html" or parts[-3] != "page":
+        continue
+    if not parts[-2].isdigit() or int(parts[-2]) < 2:
+        continue
+    if not has_noindex(parser):
+        indexable_pagers.append("/".join(parts))
+
+if indexable_pagers:
+    print("Paginated pages beyond page 1 are missing robots noindex:")
+    for item in sorted(indexable_pagers)[:80]:
+        print(item)
+    if len(indexable_pagers) > 80:
+        print(f"... {len(indexable_pagers) - 80} more")
+    sys.exit(1)
 
 
 generated_404_pagination = [

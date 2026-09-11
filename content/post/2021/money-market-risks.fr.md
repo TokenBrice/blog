@@ -1,8 +1,8 @@
 ---
-title: "De l'évaluation du risque sur les marchés monétaires en finance décentralisée"
-description: "Cadre pratique pour evaluer les risques des marches monetaires DeFi, avec des lecons applicables aux protocoles plus largement."
+title: "Évaluer le risque des marchés monétaires DeFi"
+description: "Une grille pour évaluer le risque sur Aave, Compound ou Cream : oracles, paramètres de liquidation, collatéraux acceptés et modules d'assurance."
 date: '2021-02-18T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Analysis, Lending]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, COMP, Oracles, Liquidation, Insurance, Safety Module]
 series: money-markets
@@ -12,6 +12,7 @@ tocNum: false
 url: marche-monetaire-risque
 aliases:
   - p/marche-monetaire-risque
+  - posts/2021/money-market-risks
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
 ---

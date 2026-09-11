@@ -2,7 +2,7 @@
 title: "🤖 Les vaults : stratégies d'investissement DeFi accessibles ?"
 description: "Guide des vaults DeFi pour composer automatiquement les rendements, comprendre les options disponibles et evaluer les risques."
 date: '2020-09-30T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
@@ -10,6 +10,7 @@ difficulty: "beginner"
 url: vaults
 aliases:
   - p/vaults
+  - posts/2020/vaults
 ---
 
 À mesure que l'écosystème des services financiers décentralisés sur Ethereum se développe et mûrit, l'offre de services devient plus dense et parfois difficile à comprendre. Si les utilisateurs les plus avertis sur le plan technique peuvent se tenir au courant des dernières sorties et couvrir leurs risques de manière appropriée, les investisseurs moins expérimentés peuvent se sentir largués.

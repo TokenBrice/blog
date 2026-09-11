@@ -1,8 +1,8 @@
 ---
-title: "Comprendre les innovations sur les marchés monétaires pour envisager leur avenir"
-description: "Tour des innovations des marches monetaires DeFi: B.Protocol, Alchemix, taux fixes, liquidations et nouveaux designs de pret."
+title: "Marchés monétaires DeFi : les innovations qui comptent"
+description: "Comment le prêt DeFi évolue au-delà d'Aave et Compound : liquidations améliorées avec B.Protocol, prêts auto-remboursables Alchemix et taux fixes."
 date: '2021-04-14T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Lending]
 tags: [DeFi, Ethereum, Money Markets, Aave, Compound, Liquity, Reflexer, BProtocol, Liquidation]
 series: money-markets
@@ -12,6 +12,7 @@ tocNum: false
 url: marche-monetaire-innovations
 aliases:
   - p/marche-monetaire-innovations
+  - posts/2021/money-market-innovations
 image: /img/2021/money-market-innovations/cover.png
 difficulty: "intermediate"
 ---

@@ -1,8 +1,8 @@
 ---
-title: "🍷 Yields are like fine wines, the secret lies in the brewing process"
-description: "An introduction to Fixed Interest Rate Protocols (FIRPs) through the lense of APWine to better understand what they enable and bring to DeFi."
+title: "Fixed Interest Rate Protocols Explained With APWine"
+description: "How fixed interest rate protocols work: splitting a yield-bearing token into principal and future yield, how APWine and 88mph differ, and who needs them."
 date: '2021-02-11T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, APWineFi, 88mph, Fixed Interest Rate Protocol, FIRP]
 difficulty: "intermediate"
@@ -11,6 +11,7 @@ tocNum: true
 url: fixed-interest-rate-protocol-firp-apwine
 aliases:
   - p/fixed-interest-rate-protocol-firp-apwine
+  - posts/2021/firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
 ---
 

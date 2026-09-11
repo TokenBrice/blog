@@ -2,7 +2,7 @@
 title: "Behind the scene of the decentralization theater: a study of the inalterability of DeFi protocols"
 description: "From total centralization to unstoppable protocols: a definition and analysis of the spectrum of the different resilience levels of DeFi protocols."
 date: '2022-05-18T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Analysis]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, LQTY, Curve, Uniswap, PoolTogether, Chainlink, Oracles]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: unstoppable-defi
 aliases:
   - p/unstoppable-defi
+  - posts/2022/unstoppable-defi
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 difficulty: "expert"
 ---

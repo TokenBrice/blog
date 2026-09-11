@@ -1,8 +1,8 @@
 ---
-title: "DeFi is a toolbox reaching beyond finance"
-description: "Considering how the core building blocks of Ethereum's decentralised finance can be successfully harnessed to tackle other use cases."
+title: "DeFi as a Toolbox: Use Cases Beyond Finance"
+description: "How DeFi's building blocks get repurposed outside finance: PoolTogether's no-loss lottery, Gitcoin's public goods funding and Rarible's creator markets."
 date: '2020-12-01T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Thesis]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin]
 image: /img/2020/defi-beyond-finance/cover.png
@@ -10,6 +10,7 @@ difficulty: "beginner"
 url: defi-beyond-finance
 aliases:
   - p/defi-beyond-finance
+  - posts/2020/defi-beyond-finance
 ---
 
 Ethereum's decentralized finance is ready to grow beyond its sandbox: with a dense network of financial primitives, it's now easier than ever to harness DeFi for other ends, such as to replace a predatory relic of our past like the lottery, still insanely popular and detrimental.

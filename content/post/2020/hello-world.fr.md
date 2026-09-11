@@ -1,6 +1,6 @@
 ---
-title: "Hello, World! (FR)"
-description: "Courte introduction au blog, a son orientation DeFi et aux valeurs de vie privee qui guident la publication sur TokenBrice."
+title: "Hello World : un blog DeFi qui respecte votre vie privée"
+description: "Pourquoi TokenBrice.xyz tourne sur Hugo, Fleek et Matomo plutôt que sur la panoplie habituelle de traqueurs, et ce que j'y publierai sur la DeFi."
 date: '2020-05-05T14:53:50.191Z'
 categories: [Projects]
 tags: [TokenBrice.xyz, Matomo, Hugo, Meme, Fleek.co]
@@ -8,6 +8,7 @@ image: /img/2020/hello-world/infrastructure-fr.png
 url: hello-world
 aliases:
   - p/hello-world
+  - posts/2020/hello-world
 difficulty: "beginner"
 ---
 

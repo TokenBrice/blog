@@ -1,8 +1,6 @@
 ---
-title: 'The attention economy: from engagement to dollars'
-description: >-
-  There’s a principle in economics that lies at the heart of how the economy
-  works: scarcity. What happens when marketers abuse it?
+title: 'The Attention Economy: How Your Attention Gets Sold'
+description: "What the attention economy is, why attention became the scarce resource, and how media and marketers turn the attention they capture into revenue."
 date: '2019-04-18T15:00:20.293Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, data harversting]
@@ -11,6 +9,7 @@ image: /img/2019/attention-economy/cover.jpeg
 url: attention-economy
 aliases:
   - p/attention-economy
+  - posts/2019/attention-economy
 difficulty: "beginner"
 ---
 

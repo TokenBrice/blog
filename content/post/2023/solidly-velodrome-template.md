@@ -1,8 +1,8 @@
 ---
-title: "ve(3,3), the logical next step after veCRV?"
-description: "A deeper look at the Solidly and then later Velodrome model for understanding their improvement on the base Curve / veCRV template."
+title: "Solidly and Velodrome: the ve(3,3) DEX Model Reviewed"
+description: "A review of the Solidly and Velodrome ve(3,3) model: how vote-escrow, bribes and fee routing improve on veCRV, and where the forks fall short."
 date: '2023-04-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: solidly-velodrome-fork
 aliases:
   - p/solidly-velodrome-fork
+  - posts/2023/solidly-velodrome-template
 image: img/2023/solidly-velodrome-template/cover.png
 difficulty: "intermediate"
 ---

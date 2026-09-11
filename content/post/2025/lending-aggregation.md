@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Lending, Aggregation, Fluid, Euler]
 url: lending-aggregation
 aliases:
   - p/lending-aggregation
+  - posts/2025/lending-aggregation
 image: /img/2025/lending-aggregation/aggregration-lending-cover.png
 toc: true
 draft: false

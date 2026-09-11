@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD,
 url: lending-protocol-renaissance
 aliases:
   - p/lending-protocol-renaissance
+  - posts/2024/lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
 ---

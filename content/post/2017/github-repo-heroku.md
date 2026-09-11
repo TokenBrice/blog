@@ -8,6 +8,7 @@ image: /img/2017/sato/satodemo.gif
 url: github-repo-heroku
 aliases:
   - p/github-repo-heroku
+  - posts/2017/github-repo-heroku
 difficulty: "intermediate"
 ---
 

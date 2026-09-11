@@ -1,33 +1,28 @@
 {{- $title := .Title -}}
 {{- $siteTitle := .Site.Title -}}
 
+{{- /* Pager number, via the shared helper so head and body agree on the set. */ -}}
+{{- $pageNumber := 0 -}}
+{{- if in (slice "home" "section" "taxonomy" "term") .Kind -}}
+    {{- $pager := partial "helper/paginator.html" . -}}
+    {{- if $pager -}}
+        {{- $pageNumber = $pager.PageNumber -}}
+    {{- end -}}
+{{- end -}}
+
 {{- if .IsHome -}}
-    {{/* Homepage, and it's pagination */}}
-
-    <!-- Build paginator -->
-    {{ $pages := where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
-    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $filtered := ($pages | intersect $notHidden) }}
-    {{ $pag := .Paginate ($filtered) }}
-
-    {{ if .Paginator.HasPrev }}
-        {{/* Paginated. Append page number to title */}}
-        {{ $title = printf "%s | %s" .Paginator $siteTitle }}
-    {{ else }}
-        {{ $title = $siteTitle }}
-    {{ end }}
+    {{ $title = $siteTitle }}
 
 {{- else if eq .Kind "term" -}}
-    {{/* Taxonomy term page */}}
-
-    {{/* {TAXONOMY_TYPE}: {TAXONOMY_TERM} */}}
-    {{ $title = printf "%s: %s" (title .Data.Singular) $title }}
-
-    {{ $title = printf "%s | %s" $title $siteTitle }}
+    {{/* Curated hubs (categories, series) carry their own title; tags keep a prefix */}}
+    {{- if in (slice "categories" "series") .Section -}}
+        {{ $title = printf "%s | %s" $title $siteTitle }}
+    {{- else -}}
+        {{ $title = printf "%s: %s | %s" (title .Data.Singular) $title $siteTitle }}
+    {{- end -}}
 
 {{- else if eq .Kind "taxonomy" -}}
     {{/* Taxonomy listing page */}}
-    {{ $title = .Title }}
     {{ $title = printf "%s | %s" $title $siteTitle }}
 
 {{- else if and (eq .Type "glossary") (eq .Kind "section") -}}
@@ -41,6 +36,14 @@
 {{- else if ne $title $siteTitle -}}
     {{/* Default content pages */}}
     {{ $title = printf "%s | %s" $title $siteTitle }}
+{{- end -}}
+
+{{- if gt $pageNumber 1 -}}
+    {{- if .IsHome -}}
+        {{- $title = printf "%s %d | %s" (T "paginationPage") $pageNumber $siteTitle -}}
+    {{- else -}}
+        {{- $title = printf "%s | %s %d" $title (T "paginationPage") $pageNumber -}}
+    {{- end -}}
 {{- end -}}
 
 {{ return $title }}

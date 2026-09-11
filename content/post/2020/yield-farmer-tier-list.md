@@ -1,8 +1,8 @@
 ---
-title: "💦 The Yield Farmer Tier List"
-description: "A structured list of **incentivised liquidity pools on Balancer Labs, Curve Finance and Uniswap**, ranked by their yield earning potential: let's stack!"
+title: "The Yield Farmer Tier List: Ranking Liquidity Pools"
+description: "A tier list of incentivised liquidity pools on Curve, Balancer and Uniswap, ranked by yield potential and risk appetite, with no leverage involved."
 date: '2020-07-07T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yieldfarmer-tierlist
 aliases:
   - p/yieldfarmer-tierlist
+  - posts/2020/yield-farmer-tier-list
 ---
 
 DeFi is like a layered yield cake. When you first walk through the door, making a deposit on Aave and seeing your balance grow puts you in awe. Shortly thereafter, through your own research or discussions with the community, you realize there is more to it **- there could be icing on the cake too!**

@@ -86,7 +86,7 @@
         </div>
     </header>
 
-    {{ $paginator := .Paginate $listPages }}
+    {{ $paginator := partial "helper/paginator.html" . }}
     <section class="article-list--compact">
         {{ range $paginator.Pages }}
             {{ partial "article-list/compact" . }}

@@ -1,8 +1,8 @@
 ---
-title: "Yearn Finance's Merger Spree"
-description: "Yearn has joined forces with several DeFi projects. What does it mean for its ecosystem?"
+title: "Yearn's Merger Spree: Who Joined and Why"
+description: "Yearn joined forces with Pickle, Cream, Cover, Akropolis and SushiSwap in two weeks. What each merger brought, and what it meant for the YFI ecosystem."
 date: '2020-12-09T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, SushiSwap]
 series: yearn
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yearn-finance-mergers
 aliases:
   - p/yearn-finance-mergers
+  - posts/2020/yearn-merger-spree
 ---
 
 Yearn Finance has been making headlines lately with the announcement of **several acquisitions** like Pickle Finance or SushiSwap. The Yearn team has joined its development forces with five other DeFi projects already.

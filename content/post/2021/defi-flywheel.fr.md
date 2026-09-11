@@ -3,7 +3,7 @@ title: "🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens i
 "
 description: "Analyse de Convex, CRV et des flywheels DeFi pour comprendre comment tokenomics et protocoles peuvent se renforcer mutuellement."
 date: '2021-06-08T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX, Yield]
 tags: [DeFi, Ethereum, Money Markets, Liquity, Curve, CRV, Polygon, Convex, CVX, Yearn]
 toc: true
@@ -11,6 +11,7 @@ tocNum: true
 url: defi-flywheel
 aliases:
   - p/defi-flywheel
+  - posts/2021/defi-flywheel
 image: /img/2021/defi-flywheel/defi-flywheel-cover.png
 difficulty: "beginner"
 ---

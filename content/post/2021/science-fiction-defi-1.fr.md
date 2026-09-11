@@ -8,6 +8,7 @@ image: /img/main/banner.png
 url: science-fiction-defi-1
 aliases:
   - p/science-fiction-defi-1
+  - posts/2021/science-fiction-defi-1
 difficulty: "beginner"
 ---
 

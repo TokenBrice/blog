@@ -2,7 +2,7 @@
 title: "🎚 ETH exposure or DeFi yields: why choose?"
 description: "A pratical perspetive looking at Maker as a solution to maintain an ETH exposure while providing extra capital to harness DeFi yields."
 date: '2020-08-03T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Lending, Maker, Leveraging]
 toc: true
@@ -12,6 +12,8 @@ difficulty: "intermediate"
 url: leveraging-eth
 aliases:
   - p/leveraging-eth
+  - posts/2020/leveraging-eth
+  - posts/2020/leveraging-ETH
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session!

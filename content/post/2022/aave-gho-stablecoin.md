@@ -2,7 +2,7 @@
 title: "Can Aave's GHO stablecoin help the protocol further grow and overtake MakerDAO and DAI?"
 description: "Looking at GHO's design and anticipating its key challenges to grow as well as the value it can deliver to the Aave DAO."
 date: '2022-08-22T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
 series: stablecoin-arc
@@ -12,6 +12,7 @@ tocNum: true
 url: aave-gho-stablecoin
 aliases:
   - p/aave-gho-stablecoin
+  - posts/2022/aave-gho-stablecoin
 image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 difficulty: "intermediate"
 ---

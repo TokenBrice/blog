@@ -2,7 +2,7 @@
 title: "Les fusions de Yearn Finance"
 description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi. Qu'est-ce que cela signifie pour l'ecosystème Yearn Finance ?"
 date: '2020-12-09T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, SushiSwap]
 series: yearn
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yearn-finance-mergers
 aliases:
   - p/yearn-finance-mergers
+  - posts/2020/yearn-merger-spree
 ---
 
 L'équipe de Yearn Finance a fait parler d'elle ces derniers temps avec l'annonce de **plusieurs acquisitions** comme Pickle Finance ou SushiSwap. Elle joint ses forces de développement à celles de cinq autres projets de DeFi.

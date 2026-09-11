@@ -1,8 +1,6 @@
 ---
-title: Money 101 - Discarding the myth of bartering to understand Bitcoin better
-description: >-
-  How do we go from metal-backed currencies to Bitcoin? It's a journey starting
-  with forgetting the fairy tales we've heard about bartering.
+title: "Money 101: the Barter Myth and What Money Really Is"
+description: "Money did not start with barter. What actually defines a currency, why we came to use one, and what that history tells us about Bitcoin."
 date: '2018-07-18T12:13:32.950Z'
 categories: [Analysis]
 tags: [bitcoin, currency, money, cryptocurrency, Blockchain, EcoCrypto]
@@ -11,6 +9,7 @@ difficulty: "beginner"
 url: money101
 aliases:
   - p/money101
+  - posts/2018/money101
 ---
 
 

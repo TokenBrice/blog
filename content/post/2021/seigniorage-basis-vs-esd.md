@@ -2,7 +2,7 @@
 title: "⚖ The tale of two seigniorage models: Basis vs ESD"
 description: "A comparative analysis of the two main seigniorage token models currently explored to produce new types of Stablecoins on the Ethereum network."
 date: '2021-01-16T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
 series: stablecoin-arc
@@ -14,6 +14,7 @@ difficulty: "intermediate"
 url: seigniorage-basis-esd
 aliases:
   - p/seigniorage-basis-esd
+  - posts/2021/seigniorage-basis-vs-esd
 ---
 
 A few weeks ago, I shared my first post on algorithmic Stablecoins highlighting the key characteristics that made such projects interesting in my eyes. In this piece, we'll go deeper into the topics, with a **comparative analysis of the two main models**: the Basis model and the ESD model.

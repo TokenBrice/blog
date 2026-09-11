@@ -2,7 +2,7 @@
 title: "⚖ L'histoire de deux modèles de seigneuriage : Basis contre ESD"
 description: "Une analyse comparative des deux principaux modèles de tokens de seigneuriage actuellement explorés pour produire de nouveaux types de Stablecoins sur le réseau Ethereum"
 date: '2021-01-16T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Seigniorage, Basis Cash, Empty Set Dollar, Dynamic Set Dollar, ESD, DSD, BAC, BAS, MIC, MIS, ZAI]
 series: stablecoin-arc
@@ -14,6 +14,7 @@ difficulty: "intermediate"
 url: seigniorage-basis-esd
 aliases:
   - p/seigniorage-basis-esd
+  - posts/2021/seigniorage-basis-vs-esd
 ---
 
 Il y a quelques semaines, j'ai partagé mon premier billet sur les Stablecoins algorithmiques en soulignant les principales caractéristiques qui rendaient de tels projets intéressants à mes yeux. Dans cet article, nous allons approfondir le sujet, avec une **analyse comparative des deux principaux modèles** : le modèle Basis et le modèle ESD.

@@ -1,8 +1,8 @@
 ---
-title: "Tokens directeurs de liquidité au-delà de Curve : analyse des Balancer Wars"
-description: "Nous examinons les particularités de l'échange décentralisé Balancer ainsi que de son écosystème pour mieux comprendre la dynamique de la course aux BAL."
+title: "Balancer Wars : la course aux veBAL expliquée"
+description: "Comment fonctionnent Balancer et le veBAL, pourquoi Aura s'est imposé, et ce que la course aux tokens directeurs de liquidité change hors de Curve."
 date: '2022-11-24T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
 series: crv-wars
@@ -12,6 +12,7 @@ tocNum: false
 url: balancer-wars
 aliases:
   - p/balancer-wars
+  - posts/2022/balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
 difficulty: "intermediate"
 ---

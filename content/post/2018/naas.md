@@ -10,6 +10,7 @@ image: /img/2018/naas/cover.jpeg
 url: naas
 aliases:
   - p/naas
+  - posts/2018/naas
 difficulty: "intermediate"
 ---
 

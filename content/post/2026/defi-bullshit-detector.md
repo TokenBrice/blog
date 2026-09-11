@@ -1,19 +1,20 @@
 ---
-title: "DeFi Bullshit Detector"
-description: "Setup guide for a Claude-based DeFi research assistant that checks onchain reality, team history, and risks before trusting protocol marketing."
+title: "DeFi Bullshit Detector: Spot Red Flags With Claude"
+description: "How to set up a Claude instance that digs through onchain data, team history and counterparties to surface a DeFi protocol's red flags before you trust it."
 date: '2026-02-07T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum]
 url: defi-bullshit-detector
 aliases:
   - p/defi-bullshit-detector
+  - posts/2026/defi-bullshit-detector
 image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"
 ---
 
-In the Arena this week, I tried something different: instead of doing things onchain as usual, I wanted to show how to setup a Claude instance dedicated to DeFi research, and the results were impressive.
+The DeFi Bullshit Detector is a Claude instance dedicated to DeFi research, set up to check a protocol's marketing against onchain reality. In the Arena this week, I tried something different: instead of doing things onchain as usual, I wanted to show how to set one up, and the results were impressive.
 
 In 1h15, we were able to setup a new Claude instance from scratch, have it write its claude.md file with our instructions, install the necessary tools to query onchain data, and perform a test analysis on ThGold which returned many critical red flags, several of which were not previously discovered by another researcher as far as I could see.
 

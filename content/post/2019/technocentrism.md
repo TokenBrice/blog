@@ -10,6 +10,7 @@ image: /img/2019/technocentrism/cover.jpeg
 url: technocentrism
 aliases:
   - p/technocentrism
+  - posts/2019/technocentrism
 difficulty: "intermediate"
 ---
 

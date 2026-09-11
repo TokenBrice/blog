@@ -2,12 +2,13 @@
 title: "Calling for your support to keep Aave's governance community-driven"
 description: "A call for Aave governance delegations and a plan to defend grassroots DeFi values through active protocol governance."
 date: '2021-07-27T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Projects]
 tags: [DeFi, Ethereum, Aave, Governance, Delegation]
 url: aave-governance-program
 aliases:
   - p/aave-governance-program
+  - posts/2021/aave-governance-platform
 image: /img/2021/aave-governance-platform/cover.png
 difficulty: "beginner"
 ---

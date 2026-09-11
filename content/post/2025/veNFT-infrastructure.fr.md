@@ -5,9 +5,13 @@ date: '2025-08-14T16:06:21.672Z'
 categories: [Lending, Yield, DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
 toc: true
-url: veNFT-infrastructure
+url: venft-infrastructure
 aliases:
   - p/veNFT-infrastructure
+  - posts/2025/venft-infrastructure
+  - posts/2025/veNFT-infrastructure
+  - veNFT-infrastructure
+  - p/venft-infrastructure
 image: /img/2025/veNFT-infrastructure/cover-fr.png
 difficulty: "expert"
 ---

@@ -1,15 +1,18 @@
 ---
-title: "Le volume appelle les frais : comment les principaux échanges décentralisés capturent-ils la valeur ?"
-description: "Un regard sur le mécanisme de capture de valeur d'Uniswap, de Sushiswap et de Curve pour mieux comprendre comment la valeur s'accroît pour les détenteurs de leur tokens."
+title: "Capture de valeur des DEX : Uniswap, Curve, SushiSwap"
+description: "Où finissent vraiment les frais de trading des DEX : comparaison d'Uniswap, SushiSwap, Curve et Balancer entre fournisseurs de liquidité et détenteurs."
 date: '2021-01-23T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false
-url: dex-echanges-decentralisées-capture-valeur
+url: dex-echanges-decentralisees-capture-valeur
 aliases:
   - p/dex-echanges-decentralisées-capture-valeur
+  - posts/2021/dex-value-capture
+  - dex-echanges-decentralisées-capture-valeur
+  - p/dex-echanges-decentralisees-capture-valeur
 image: /img/2021/dex-value-capture/cover-fr.png
 difficulty: "intermediate"
 ---

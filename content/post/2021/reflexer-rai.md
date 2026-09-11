@@ -1,8 +1,8 @@
 ---
-title: "🗿 Reflexer Labs (RAI) : the What, How and Why"
-description: "A deep dive into RAI, Reflexer, de-governance, and how a non-fiat stable asset can reduce trust and centralization risks."
+title: "RAI Explained: Reflexer's Non-Pegged Stable Asset"
+description: "How Reflexer's RAI works: an ETH-backed stable asset with no dollar peg, a floating redemption price, de-governance, and zero USDC in its collateral."
 date: '2021-09-17T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -10,11 +10,12 @@ tocNum: false
 url: reflexer-rai
 aliases:
   - p/reflexer-rai
+  - posts/2021/reflexer-rai
 image: /img/2021/reflexer-rai/cover.png
 difficulty: "intermediate"
 ---
 
-RAI is a strange beast that many people still don't understand or care about, including people who are really knowledgeable about DeFi. So it was time to offer you a rather exhaustive article dedicated to its subject. I've included everything I thought was relevant to understand why an asset like RAI is needed, what it does and how it works.
+RAI is a strange beast: an ETH-backed stable asset with no dollar peg, which many people still don't understand or care about, including people who are really knowledgeable about DeFi. So it was time to offer you a rather exhaustive article dedicated to its subject. I've included everything I thought was relevant to understand why an asset like RAI is needed, what it does and how it works.
 
 So get a cup of coffee and hang on, we're in for a great ride!
 

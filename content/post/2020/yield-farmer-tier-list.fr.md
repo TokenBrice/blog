@@ -2,7 +2,7 @@
 title: "💦 Pools de Liquidité avec programmes d'incitation - La Tier List"
 description: "Une liste hiérarchisée qui présente différents **programmes d'incitation au dépôt de liquidité Balancer, Uniswap, et Curve Finance.**"
 date: '2020-07-07T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Liquidity Providing, Balancer, Curve]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: yieldfarmer-tierlist
 aliases:
   - p/yieldfarmer-tierlist
+  - posts/2020/yield-farmer-tier-list
 ---
 
 La DeFi est comme un gâteau à plusieurs étages. Lorsque vous passez sa porte pour la première fois, faire un dépôt sur Aave et voir votre solde augmenter vous laisse bouche bée. Peu de temps après, grâce à vos propres recherches ou à vos discussions avec la communauté, vous vous rendez compte qu'il y a plus que cela **- il pourrait aussi y avoir une cerise sur le gâteau !**

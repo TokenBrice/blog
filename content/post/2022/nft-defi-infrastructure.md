@@ -2,13 +2,14 @@
 title: "NFTfi: NFT meets DeFi, liquidity and leverage ensue"
 description: "DeFi offers NFT projects tools to solve their main limitations (like liquidity) while NFTs allow to make DeFi more fun and digestible: a perfect pairing?"
 date: '2022-03-29T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [NFT]
 tags: [DeFi, Ethereum, NFT, Forgotten Wizard, Luchadores, NFTfi]
 tocNum: false
 url: nftfi-defi-nft
 aliases:
   - p/nftfi-defi-nft
+  - posts/2022/nft-defi-infrastructure
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 difficulty: "beginner"
 ---

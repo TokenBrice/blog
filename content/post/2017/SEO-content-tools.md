@@ -11,6 +11,8 @@ image: /img/2017/seo-tools/cover.png
 url: seo-content-tools
 aliases:
   - p/seo-content-tools
+  - posts/2017/seo-content-tools
+  - posts/2017/SEO-content-tools
 difficulty: "beginner"
 ---
 

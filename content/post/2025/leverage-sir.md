@@ -8,6 +8,7 @@ image: /img/2025/leverage-sir/leverage-sir-cover.jpg
 url: leverage-sir
 aliases:
   - p/leverage-sir
+  - posts/2025/leverage-sir
 difficulty: "intermediate"
 ---
 

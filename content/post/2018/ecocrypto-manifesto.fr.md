@@ -6,9 +6,12 @@ date: '2018-07-01T10:36:03.488Z'
 categories: [Projects]
 tags: [EcoCrypto]
 image: /img/2020/next-steps/ecocrypto-logo.png
-url: EcoCrypto-manifesto
+url: ecocrypto-manifesto
 aliases:
   - p/EcoCrypto-manifesto
+  - posts/2018/ecocrypto-manifesto
+  - EcoCrypto-manifesto
+  - p/ecocrypto-manifesto
 difficulty: "beginner"
 ---
 

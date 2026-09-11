@@ -8,6 +8,7 @@ image: /img/2024/farewell-glc/gov-typing.png
 url: farewell-glc
 aliases:
   - p/farewell-glc
+  - posts/2024/farewell-glc
 difficulty: "intermediate"
 ---
 

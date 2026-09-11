@@ -11,6 +11,7 @@ difficulty: "beginner"
 url: tokenbrice-twitch-fr
 aliases:
   - p/tokenbrice-twitch-fr
+  - posts/2021/tokenbrice-twitch
 ---
 
 Ces derniers jours, j'ai intensifié ma présence et laissé entendre que ce n'était qu'un début. Assez d'engouement, il est temps de vous parler de ce qui arrive cette semaine et ensuite !

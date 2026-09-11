@@ -1,8 +1,8 @@
 ---
-title: "Comment construire un portefeuille DeFi résistant à l'inflation ?"
-description: "Comment la DeFi peut repondre a l inflation avec des produits et strategies concretes, sans ignorer leurs limites."
+title: "Protéger son portefeuille DeFi de l'inflation"
+description: "Des stratégies concrètes pour préserver le pouvoir d'achat d'un portefeuille crypto : RAI, Curve, Convex, APWine et leurs limites, sans promesse magique."
 date: '2022-03-08T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Reflexer, RAI, Maker, Liquity, Curve, Convex, Aave, APWineFi, vlCVX]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: defi-vs-inflation
 aliases:
   - p/defi-vs-inflation
+  - posts/2022/defi-vs-inflation
 image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 difficulty: "beginner"
 ---

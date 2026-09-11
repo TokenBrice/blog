@@ -413,3 +413,6 @@ other = "Cette URL n'a jamais été confirmée. Essaie l'une de celles-ci :"
 
 [404Search]
 other = "Ou cherche ce que tu voulais :"
+
+[paginationPage]
+other = "Page"

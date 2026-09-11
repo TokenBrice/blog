@@ -1,8 +1,8 @@
 ---
-title: "Volume begets fees: how are the main decentralized exchanges capturing value?"
-description: "A look at Uniswap's, Sushiswap's and Curve's value capture mechanism to better understand how value accrues for token holders."
+title: "How DEXes Capture Value: Uniswap, Curve, SushiSwap"
+description: "Where DEX trading fees actually end up: how Uniswap, SushiSwap, Curve, Balancer and Bancor split revenue between liquidity providers and tokenholders."
 date: '2021-01-23T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [DEX]
 tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: decentralized-exchange-value-capture
 aliases:
   - p/decentralized-exchange-value-capture
+  - posts/2021/dex-value-capture
 image: /img/2021/dex-value-capture/cover-fr.png
 difficulty: "intermediate"
 ---

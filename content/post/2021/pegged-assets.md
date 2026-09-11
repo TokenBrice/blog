@@ -1,8 +1,8 @@
 ---
-title: "Exploring stable assets on Ethereum: approaches & endgame"
-description: "The quest for stability on Ethereum: an overview of the different approaches to stabilization and asset indexing to understand their issues."
+title: "Stable Assets on Ethereum: Every Approach Compared"
+description: "The main designs behind stable assets on Ethereum, from fiat-backed to crypto-collateralized, algorithmic and non-pegged, with the trade-offs of each."
 date: '2021-03-23T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending, Yield]
 tags: [DeFi, Ethereum, Finance Décentralisée, DEX, Aave, Compound, Reflexer, Stablecoins, MakerDAO, Basis Cash, Empty Set Dollar, Dynamic Set Dollar]
 series: pegged-assets
@@ -12,6 +12,7 @@ tocNum: true
 url: ethereum-stable-assets
 aliases:
   - p/ethereum-stable-assets
+  - posts/2021/pegged-assets
 image: /img/2021/pegged-assets/money-god-meme.png
 difficulty: "intermediate"
 ---

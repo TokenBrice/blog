@@ -1,18 +1,21 @@
 ---
-title: "Pharos: Free and Open Research-Grade Stablecoin Intelligence"
-description: "Pharos tracks stablecoin pegs, safety scores, liquidity, early warnings, and systemic risk as a free open-source public good."
+title: "Pharos: Free Stablecoin Peg, Risk and Liquidity Monitor"
+description: "Pharos (pharos.watch) tracks 156 stablecoins: peg monitoring, safety scores, DEX liquidity and depeg alerts. Free, open source, no account needed."
 date: '2026-03-12T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Stablecoins, Analytics, Public Good, Open Source]
 url: pharos
 aliases:
   - p/pharos
+  - posts/2026/pharos
 image: /img/2026/pharos/pharos-cover.png
 toc: true
 draft: false
 type: post
 difficulty: "intermediate"
 ---
+
+[Pharos](https://pharos.watch) is a free, open-source dashboard that monitors stablecoin pegs, risk scores and liquidity. Here is the problem it exists to solve.
 
 Stablecoins are the backbone of crypto. By every metric that matters — volume, users, real-world utility — they're the most successful thing DeFi has produced. Over $300B in circulating supply. Hundreds of billions in daily settlement. The bridge between onchain finance and the rest of the world. And yet, the information infrastructure around them is embarrassingly thin.
 

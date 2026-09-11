@@ -1,20 +1,22 @@
 ---
-title: Le respect de la vie privée sur internet - l'exception qui devrait être norme
-description: >-
-  Un aperçu des pratiques de traçage des grands sites français et comment s''en protéger. Quelques pistes pour la vie privée de ses utilisateurs sur son site
+title: "Vie privée en ligne : l'exception qui devrait être la norme"
+description: "Qui vous piste sur les grands sites français et avec quels outils, comment couvrir vos traces, et comment respecter la vie privée sur votre propre site."
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis]
 tags: [facebook, google, ad model, Privacy]
 image: /img/2018/user-privacy/cover.jpeg
-url: users-Privacy
+url: users-privacy
 aliases:
   - p/users-Privacy
+  - posts/2018/users-privacy
+  - users-Privacy
+  - p/users-privacy
 difficulty: "beginner"
 ---
 
 En 2018, respecter la vie privée de ses utilisateurs lorsque l’on lance un site c’est un jeu d’enfant, non ? Avec les révélations de Snowden sur NSA et toutes celles qui ont suivi, les hébergeurs et autres fournisseurs de service ont dû revoir leur pratiques ? C’est ce qu’on croyait nous aussi, et l’illusion est bien vite retombée. C’est parti pour un petit tour des pratiques : qui collecte vos donnés, comment et à quelles fins ?
 
-Link to [the English translation of this article.](https://tokenbrice.xyz/users-Privacy/)
+Link to [the English translation of this article.](https://tokenbrice.xyz/users-privacy/)
 
 ### Un peu de contexte
 

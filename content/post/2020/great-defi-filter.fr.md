@@ -9,6 +9,7 @@ difficulty: "beginner"
 url: great-filter-defi
 aliases:
   - p/great-filter-defi
+  - posts/2020/great-defi-filter
 ---
 
 Quand on parle de DeFi, la question de l'adoption est si récurrente qu'elle déclenche maintenant presque automatiquement une réponse toute faite : "quelque chose à propos de l'UX, quelque chose sur la " scalabilité" & si vous êtes chanceux, "quelque chose à propos de la vie privée".

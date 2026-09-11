@@ -7,9 +7,12 @@ date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis, Privacy]
 tags: [facebook, google, ad model, Privacy]
 image: /img/2018/user-privacy/cover.jpeg
-url: users-Privacy
+url: users-privacy
 aliases:
   - p/users-Privacy
+  - posts/2018/users-privacy
+  - users-Privacy
+  - p/users-privacy
 difficulty: "beginner"
 ---
 

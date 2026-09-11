@@ -15,13 +15,7 @@
     </section>
     {{ end }}
 
-    {{- $reviewed := .Params.reviewed | default .Params.lastReviewed -}}
-    {{- if $reviewed -}}
-    <section class="article-lastmod">
-        {{ partial "helper/icon" "clock" }}
-        <span>Last reviewed {{ time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") $reviewed }}</span>
-    </section>
-    {{- else if ne .Lastmod .Date -}}
+    {{- if .Lastmod.After .Date -}}
     <section class="article-lastmod">
         {{ partial "helper/icon" "clock" }}
         <span>

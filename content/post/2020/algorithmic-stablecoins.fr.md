@@ -1,8 +1,8 @@
 ---
-title: "L'état et le futur des Stablecoins algorithmiques"
-description: "Une analyse de DSD, ESD et Basis Cash pour dresser le portrait-robot de ce qui pourrai bien être le stablecoin de demain."
+title: "Stablecoins algorithmiques : ESD, DSD et Basis Cash"
+description: "Comment fonctionnent les stablecoins algorithmiques ESD, DSD et Basis Cash, et ce qu'ils changent face aux stablecoins nécessitant de la confiance."
 date: '2020-12-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Basis Cash, Empty Set Dollar, sUSD, ESD, DSD, BAC, BAS]
 series: stablecoin-arc
@@ -13,6 +13,7 @@ url: algorithmic-stablecoins
 aliases:
   - algorithmic-Stablecoins
   - p/algorithmic-stablecoins
+  - posts/2020/algorithmic-stablecoins
 ---
 
 Depuis début décembre, une nouvelle tendance se dessine dans le DeFi : les Stablecoins algorithmiques. Plusieurs projets ont été lancés et ont connu une croissance importante, suscitant encore plus d'intérêt pour ce sous-ensemble de l'espace.

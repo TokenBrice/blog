@@ -1,8 +1,6 @@
 ---
-title: Growing beyond the advertising model to achieve democracy’s true potential
-description: >-
-  How sustainable the advertising model really is? Can’t we really think of
-  anything better to provide free goods and services?
+title: "Beyond the Advertising Model: Who Pays for Free"
+description: "The hidden costs of ad-funded services: ad overload, data concentration and political influence, and what could fund free online services instead."
 date: '2018-04-17T14:15:12.590Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, Privacy, data harvesting]
@@ -10,6 +8,7 @@ image: /img/2018/ad-model/cover.jpeg
 url: advertising-model
 aliases:
   - p/advertising-model
+  - posts/2018/advertising-model
 difficulty: "beginner"
 ---
 

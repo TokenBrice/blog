@@ -1,8 +1,8 @@
 ---
-title: "⚖️ Liquity : un service d'emprunt inarrêtable, efficace et innovant"
-description: "Analyse de Liquity, protocole d emprunt sans gouvernance, peu couteux et resilient, et de ses apports a la DeFi."
+title: "Liquity : l'emprunt sans gouvernance sur ETH, expliqué"
+description: "Comment fonctionne Liquity : prêts en ETH sans intérêts récurrents, stablecoin LUSD, Stability Pool, et pourquoi l'absence de gouvernance le rend inarrêtable."
 date: '2021-11-30T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
@@ -10,6 +10,7 @@ tocNum: false
 url: liquity-protocol
 aliases:
   - p/liquity-protocol
+  - posts/2021/liquity-protocol
 image: /img/2021/liquity-protocol/cover.png
 difficulty: "intermediate"
 ---

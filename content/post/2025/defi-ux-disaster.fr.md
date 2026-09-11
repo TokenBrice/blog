@@ -7,6 +7,7 @@ tags: [DeFi, Ethereum, Public Good, DeFiScan, BlueChip, L2Beat]
 url: defi-ux-disaster
 aliases:
   - p/defi-ux-disaster
+  - posts/2025/defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
 ---

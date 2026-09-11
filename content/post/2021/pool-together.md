@@ -1,8 +1,8 @@
 ---
-title: "🎲 PoolTogether: The story of the no-loss lottery where everyone wins"
-description: "How PoolTogether uses DeFi to redesign lotteries into a less predatory savings game, and what makes the protocol work."
+title: "PoolTogether: How the No-Loss Lottery Actually Works"
+description: "How PoolTogether's no-loss lottery works: your deposit stays yours, the pooled yield becomes the prize, and why that beats the classic lottery."
 date: '2021-12-20T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -10,13 +10,16 @@ tocNum: false
 url: pool-together
 aliases:
   - p/pool-together
+  - posts/2021/pool-together
 image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
 ---
 
+[PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) is a no-loss lottery: deposits are pooled and put to work in DeFi, the yield they generate funds the prize, and every player keeps their capital.
+
 DeFi has enabled the emergence of an alternative financial system built on fundamentally different foundations: transparency, open-source, composability and resistance to censorship. Many use cases have emerged and it is now possible to buy and exchange tokens without a centralized intermediary, but also to lend or borrow and much more!
 
-The topic of the day, [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum), goes one step further: it uses and assembles different DeFi services to offer a new kind of "money game", which is more fun, but also more instructive and much less dangerous and harmful than its classic counterpart.
+The topic of the day, PoolTogether, goes one step further: it uses and assembles different DeFi services to offer a new kind of "money game", which is more fun, but also more instructive and much less dangerous and harmful than its classic counterpart.
 
 I offer you to explore this protocol in detail: we start with its context, before analyzing how it works and the different issues it involves. Let's get started!
 

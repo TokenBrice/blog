@@ -1,6 +1,6 @@
 ---
-title: "La DeFi, au delà de la finance"
-description: "Une analyse des principes fondamentaux de la DeFi qui souligne les options ouvertes dans d'autres domaines comme l'art ou le financement des biens communs."
+title: "La DeFi comme boîte à outils, au-delà de la finance"
+description: "Comment les briques DeFi servent hors de la finance : loterie sans perte avec PoolTogether, financement des biens communs avec Gitcoin, art avec Rarible."
 date: '2020-12-01T01:13:50.191Z'
 categories: [Thesis]
 tags: [DeFi, Ethereum, PoolTogether, Rarible, Gitcoin]
@@ -9,6 +9,7 @@ difficulty: "beginner"
 url: defi-beyond-finance
 aliases:
   - p/defi-beyond-finance
+  - posts/2020/defi-beyond-finance
 ---
 
 La finance décentralisée d'Ethereum est prête à se développer au-delà de son bac à sable : avec un réseau dense de primitifs financiers, il est maintenant plus facile que jamais d'exploiter la DeFi à d'autres fins, par exemple pour remplacer une relique prédatrice de notre passé comme la loterie, toujours follement populaire et préjudiciable.

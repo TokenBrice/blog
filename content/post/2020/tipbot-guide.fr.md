@@ -11,6 +11,7 @@ difficulty: "beginner"
 url: tipbot-guide
 aliases:
   - p/tipbot-guide
+  - posts/2020/tipbot-guide
 ---
 
 ## A/ Introduction

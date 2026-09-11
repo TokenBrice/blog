@@ -13,6 +13,10 @@ DefaultContentLanguage: en
 hasCJKLanguage: false
 enableGitInfo: true
 
+# Keep .Lastmod truthful: front matter only, never the git commit date.
+frontmatter:
+    lastmod: ["lastmod", "date"]
+
 privacy:
     youtube:
         privacyEnhanced: true
@@ -36,7 +40,9 @@ languages:
 pagination:
     pagerSize: 10
 
-rssLimit: 25
+services:
+    rss:
+        limit: 25
 
 # Keep localized sitemaps explicit and avoid mixed-root interpretation across locales.
 sitemap:

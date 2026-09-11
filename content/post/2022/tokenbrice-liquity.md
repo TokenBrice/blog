@@ -1,8 +1,8 @@
 ---
-title: "Announcement: Joining Liquity to bolster the growth of unstoppable DeFi"
-description: "Where I reflect on the current state of DeFi, and why I decided to join Liquity's team to support the growth of one of DeFi's most resilient protocols."
+title: "Why I Joined Liquity to Build Unstoppable DeFi"
+description: "Why I left the sidelines to join Liquity: what unstoppable DeFi actually means, and why a governance-free protocol is the model worth backing."
 date: '2022-05-16T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Projects, Stablecoin, Lending]
 tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
@@ -10,6 +10,7 @@ tocNum: false
 url: joining-liquity
 aliases:
   - p/joining-liquity
+  - posts/2022/tokenbrice-liquity
 image: /img/2022/tokenbrice-liquity/cover.png
 difficulty: "beginner"
 ---

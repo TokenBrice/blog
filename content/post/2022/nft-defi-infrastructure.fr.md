@@ -9,6 +9,7 @@ tocNum: false
 url: nftfi-defi-nft
 aliases:
   - p/nftfi-defi-nft
+  - posts/2022/nft-defi-infrastructure
 image: /img/2022/nft-defi-infrastructure/nft-defi-infrastructure-tokenbrice.png
 difficulty: "beginner"
 ---

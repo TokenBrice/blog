@@ -10,6 +10,7 @@ image: /img/2019/dark-patterns/cover.jpeg
 url: dark-patterns
 aliases:
   - p/dark-patterns
+  - posts/2019/dark-patterns
 difficulty: "beginner"
 ---
 

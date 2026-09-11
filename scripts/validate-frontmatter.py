@@ -9,6 +9,7 @@ Missing `image` is downgraded to a warning instead of a hard error,
 so cover-less posts don't break CI while still surfacing in logs.
 """
 import glob
+import os
 import re
 import sys
 from datetime import date, datetime
@@ -89,13 +90,15 @@ def check_legacy_post_alias(path, fm):
     url = scalar_text(fm.get('url')).strip('/')
     if not url or '://' in url:
         return
-    expected = f'p/{url}'
     aliases = fm.get('aliases') or []
     if isinstance(aliases, str):
         aliases = [aliases]
     normalized = {scalar_text(alias).strip('/') for alias in aliases}
-    if expected not in normalized:
-        errors.append((path, f'missing legacy /p/ alias: {expected}'))
+    year = os.path.basename(os.path.dirname(path))
+    stem = re.sub(r'(\.fr)?\.md$', '', os.path.basename(path))
+    for expected in (f'p/{url}', f'posts/{year}/{stem.lower()}'):
+        if expected not in normalized:
+            errors.append((path, f'missing legacy alias: {expected}'))
 
 
 def check_slug_normalization(path, fm):

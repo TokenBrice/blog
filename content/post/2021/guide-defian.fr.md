@@ -7,6 +7,7 @@ tags: [DeFi France, Discord]
 url: guide-defian
 aliases:
   - p/guide-defian
+  - posts/2021/guide-defian
 toc: true
 tocNum: true
 image: /img/2021/guide-defian/guide-defian-cover.png

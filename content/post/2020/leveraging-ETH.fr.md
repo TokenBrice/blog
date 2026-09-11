@@ -1,8 +1,8 @@
 ---
-title: "🎚 Ether ou DeFi : Pourquoi choisir ?"
-description: "Outils et conseils pratiques pour utiliser Maker, garder une exposition ETH et investir dans la DeFi sans ignorer les risques."
+title: "Garder son exposition ETH tout en investissant en DeFi"
+description: "Comment emprunter des DAI contre son ETH sur Maker pour rester exposé à l'ETH tout en le faisant travailler en DeFi, et comment gérer la liquidation."
 date: '2020-08-03T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Lending, Maker, Leveraging]
 toc: true
@@ -12,6 +12,8 @@ difficulty: "intermediate"
 url: leveraging-eth
 aliases:
   - p/leveraging-eth
+  - posts/2020/leveraging-eth
+  - posts/2020/leveraging-ETH
 ---
 
 Alors qu'Ether le géant semble se réveiller, vous envisagez peut-être vos **options pour recentrer votre exposition sur l'ETH**. C'est précisément ce que j'ai examiné et exécuté ces derniers temps, et c'est le moment de partager mes retours et conseils !

@@ -1,8 +1,6 @@
 ---
-title: 'Facebook X Cambridge Analytica : the hidden cost of free services'
-description: >-
-  Cambridge Analytica is the tree hiding the forest. With the data Facebook
-  amassed, comes the power to influence the political life.
+title: 'Cambridge Analytica and the Hidden Cost of Free'
+description: "What Cambridge Analytica actually sold, how the data Facebook amassed made it possible, and why free services always bill you somewhere else."
 date: '2018-04-13T14:23:08.991Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, ad blockers]
@@ -10,6 +8,7 @@ image: /img/2018/free-services/cover.jpeg
 url: hidden-cost-free-services
 aliases:
   - p/hidden-cost-free-services
+  - posts/2018/hidden-cost-free-services
 difficulty: "beginner"
 ---
 

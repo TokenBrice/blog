@@ -1,8 +1,8 @@
 ---
-title: "🧰 The DeFinancial Farming Toolbox"
-description: "A hitchhiker's guide to liquidity mining curating tips & tools to help you make the most of DeFi's agrarian revolution 🌻"
+title: "The DeFi Farming Toolbox: Tools for Liquidity Mining"
+description: "A curated set of tools and concepts for yield farming: tracking positions, comparing pools, watching gas costs, and avoiding the usual farmer mistakes."
 date: '2020-06-28T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Practical, Yield]
 tags: [DeFi, Ethereum, Lending, Synthetic Assets, Liquidity Mining]
 toc: true
@@ -12,6 +12,7 @@ difficulty: "intermediate"
 url: defi-farmer-toolbox
 aliases:
   - p/defi-farmer-toolbox
+  - posts/2020/defi-farmer-toolbox
 ---
 
 Howdy farmer,

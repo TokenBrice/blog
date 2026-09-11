@@ -2,7 +2,7 @@
 title: "A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter"
 description: "Exploring new perspectives to understand better the current barriers to decentralised finance's mainstream adoption and how to overcome them."
 date: '2020-05-08T14:53:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Thesis]
 tags: [DeFi, Ethereum, Adoption]
 image: /img/2020/great-defi-filter/cover.png
@@ -10,6 +10,7 @@ difficulty: "beginner"
 url: great-filter-defi
 aliases:
   - p/great-filter-defi
+  - posts/2020/great-defi-filter
 ---
 
 In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about Privacy."

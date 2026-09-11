@@ -1,8 +1,8 @@
 ---
-title: "BadgerDAO's story: an intro through DIGG"
-description: "Badger sits at the forefront of two highly trendy themes: DeFi & BTC on Ethereum. Let's digg in to better understand what the end game plan looks like."
+title: "BadgerDAO and DIGG: the Rebasing BTC Token Explained"
+description: "What DIGG is and how its Ampleforth-style rebase tracks Bitcoin's price, plus how BadgerDAO's setts and BADGER tokenomics fit around it."
 date: '2021-01-30T01:13:50.191Z'
-reviewed: 2026-05-19
+lastmod: 2026-05-19
 categories: [Yield]
 tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
@@ -10,6 +10,7 @@ tocNum: true
 url: badger-digg
 aliases:
   - p/badger-digg
+  - posts/2021/badger-digg
 image: /img/2021/badger-digg/cover.png
 difficulty: "beginner"
 ---
