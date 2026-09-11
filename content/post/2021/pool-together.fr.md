@@ -216,7 +216,7 @@ Je vous quitte sur une offre difficile à refuser : et **si on jouait à PoolTog
 
 Le gagnant reçoit directement des PTaUSDC dans son wallet qu’il n’a plus qu’à activer pour lui aussi jouer de son côté : **le cercle vertueux sans fin de la loterie sans perte** !
 
-Ça se passe sur [ma chaîne Twitch chaque mardi à 17h ](twitch.tv/tokenbrice): abonnez-vous et activez les notifications pour ne rater aucun live. Je les annonce également [sur Twitter](https://twitter.com/TokenBrice).
+Ça se passe sur [ma chaîne Twitch chaque mardi à 17h ](https://twitch.tv/tokenbrice): abonnez-vous et activez les notifications pour ne rater aucun live. Je les annonce également [sur Twitter](https://twitter.com/TokenBrice).
 
 ---
 

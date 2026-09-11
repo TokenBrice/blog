@@ -269,7 +269,7 @@ For the curious, [documentation is here](https://docs.curvance.com/cve/).
 
 Finally, to finish this overview of the Curve/Convex ecosystem, we should not forget to look directly at the tokens - and in particular the DAOs that have large amounts of CRV or CVX.
 
-For CRV, there is not yet a clear dashboard summarizing the situation to my knowledge. For CVX on the other hand, there is a site for that: [daocvx.com](Daocvx.com). The protocols we will detail now do not have any synergy built natively with Curve or Convex, but they have a lot of CVX and use them to improve their competitive position in the CRV war.
+For CRV, there is not yet a clear dashboard summarizing the situation to my knowledge. For CVX on the other hand, there is a site for that: [daocvx.com](https://daocvx.com). The protocols we will detail now do not have any synergy built natively with Curve or Convex, but they have a lot of CVX and use them to improve their competitive position in the CRV war.
 
 ![daocvx.png](/img/2022/curve-wars-l2/daocvx.png "Distribution of CVX tokens among different DAOs (⚠️DAO only)")
 

@@ -1,5 +1,5 @@
 var trackingScript = document.querySelector('script[data-id="matomo-tracking"]');
-var matomoUrl = trackingScript.getAttribute('data-matomo-tracking-url');
+var matomoUrl = (trackingScript.getAttribute('data-matomo-tracking-url') || '').replace(/\/+$/, '');
 var matomoSiteId = trackingScript.getAttribute('data-matomo-tracking-id');
 
 window._paq = window._paq || [];
