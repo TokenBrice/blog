@@ -12,7 +12,7 @@ Les DEX sont la couche d'exécution de la DeFi. Ils pricent les actifs, routent 
 ## Parcours de lecture
 
 1. [Navigating the swap swamps](/fr/swap-swamp/) donne les bases pratiques des swaps.
-2. [How are the main decentralized exchanges capturing value?](/fr/dex-echanges-decentralisées-capture-valeur/) compare la capture de valeur d'Uniswap, SushiSwap et Curve.
+2. [How are the main decentralized exchanges capturing value?](/fr/dex-echanges-decentralisees-capture-valeur/) compare la capture de valeur d'Uniswap, SushiSwap et Curve.
 3. [Guerre du CRV](/fr/crv-wars/) explique le vote-escrow et le pouvoir d'émission de Curve.
 4. [Guerre du CRV avancée](/fr/crv-wars-l2/) couvre les couches autour de Convex et les marchés de vote.
 5. [Maverick et liquidity shaping](/fr/maverick-liquidity-shaping/) examine des structures de liquidité plus expressives.

@@ -1,5 +1,7 @@
 # SEO Plan — September 2026
 
+> **Status (2026-09-11):** implemented in commits `07791a8` and `dd39844` (not yet pushed). Done: 3.1 Enforce HTTPS (live, HTTP now 301s), 3.2 sitemaps (typo removed, EN and FR resubmitted; EN read the same day with 266 URLs discovered, FR still showing its cached January read), 4.1–4.5 all template/config/front-matter fixes, 5.1 titles and descriptions on ~60 post files, 5.2 43 glossary entries expanded and 362 dead cross-references pruned, 5.3 handled as title/description refreshes (two obsolete posts left as-is). Remaining: push to deploy, then the §3.3 URL inspections and the 4–6 week GSC check in §6.
+
 Source: Google Search Console (sc-domain:tokenbrice.xyz, data to 2026-09-09) cross-checked against the live site and this repo at commit 73b2da1.
 
 ## 1. Snapshot

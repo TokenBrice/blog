@@ -1,5 +1,5 @@
 ---
-description: "TokenBrice — Brutally Honest DeFi: in-depth analyses of DeFi protocols, liquidity strategies, and decentralized finance innovations."
+description: "Brutally honest DeFi analysis by TokenBrice: protocol deep dives, liquidity strategy, stablecoin risk, and zero tolerance for hype."
 lastmod: '2026-05-18'
 menu:
     main:
