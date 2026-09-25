@@ -97,8 +97,8 @@ jobs:
 
       - name: Verify ImageMagick and jq installed
         run: |
-          which identify || sudo apt-get install -y imagemagick
-          which jq || sudo apt-get install -y jq
+          which identify || sudo apt-get install -y imagemagick || (sudo apt-get update && sudo apt-get install -y imagemagick)
+          which jq || sudo apt-get install -y jq || (sudo apt-get update && sudo apt-get install -y jq)
 
       - name: Generate image dimensions manifest
         run: bash scripts/gen-img-dims.sh
