@@ -19,7 +19,7 @@ difficulty: "beginner"
 
 Les stablecoins ont gagné : ils sont l'épine dorsale de la liquidité DeFi, l'unité de compte des échanges onchain et le cas d'usage DeFi le plus visible vers l'extérieur. Selon toutes les métriques d'adoption, ils sont le primitive la plus réussie que nous ayons construite. Et pourtant, quelque chose a dérapé. Les modèles dominants de stablecoins se sont éloignés de leurs promesses initiales. Ce qui avait commencé comme des expérimentations de monnaie décentralisée est discrètement devenu une collection de dépendances TradFi emballées dans une esthétique de smart contracts. Les fondations se sont dégradées à mesure que la TVL montait. Les stablecoins les plus populaires restent des T-Bills tokenisés qui ne redistribuent pas leur rendement, notamment USDC et USDT.
 
-Il est temps pour moi de sortir du mode furtif et de révéler un projet qui mijote depuis 2 ans : [Polaris](https://polarisfinance.io). Mais avant d'en arriver là, je veux que vous compreniez mon moment "Vitalik a décidé de construire l'ordinateur mondial après le nerf de son démoniste dans WoW". Deux histoires illustrent le schéma que je décris : ce sont deux protocoles que j'ai suivis de près. Ils ont commencé avec des prémisses nouvelles, puis ont fini complètement ailleurs.
+Il est temps pour moi de sortir du mode furtif et de révéler un projet qui mijote depuis 2 ans : [Polaris](https://polaris.finance). Mais avant d'en arriver là, je veux que vous compreniez mon moment "Vitalik a décidé de construire l'ordinateur mondial après le nerf de son démoniste dans WoW". Deux histoires illustrent le schéma que je décris : ce sont deux protocoles que j'ai suivis de près. Ils ont commencé avec des prémisses nouvelles, puis ont fini complètement ailleurs.
 
 ## Pigeon un jour, pigeon toujours
 
@@ -92,14 +92,14 @@ Je vais rester bref ; les mécaniques détaillées arriveront dans les prochaine
 
 **Trois tokens :**
 
-- **pUSD** : un stablecoin générateur de rendement adossé à du collatéral pETH
+- **USDp** : un stablecoin générateur de rendement adossé à du collatéral pETH
 - **pETH** : un dérivé ETH avec un prix plancher croissant, créé via la bonding curve
 - **POLAR** : le token de stewardship, qui capture le rendement réel de l'activité du protocole
 
 **Trois moteurs :**
 
 - Une bonding curve qui convertit les dépôts d'ETH en pETH, capturant la volatilité comme rendement
-- Une architecture CDP optimisée pour la stabilité et la croissance, permettant d'emprunter du pUSD contre du pETH
+- Une architecture CDP optimisée pour la stabilité et la croissance, permettant d'emprunter du USDp contre du pETH
 - Un mécanisme de conversion où POLAR est minté exclusivement par burn de pETH, ce qui relève le plancher de collatéral
 
 Les moteurs se renforcent mutuellement. À mesure que le système grandit, la collatéralisation se renforce. Le rendement scale avec l'adoption au lieu de se diluer. Le flywheel est conçu pour accélérer, pas pour plafonner.
@@ -110,7 +110,7 @@ Plus de détails bientôt. Pour l'instant, retenez que l'architecture sert la ph
 
 ## L'appel
 
-Polaris n'est pas live. Vous êtes tôt. Pour l'instant, le meilleur endroit pour découvrir [Polaris est le site](https://polarisfinance.io), et les plus motivés peuvent déjà rejoindre [notre canal d'annonces Telegram](https://t.me/polaris_ann).
+Polaris n'est pas live. Vous êtes tôt. Pour l'instant, le meilleur endroit pour découvrir [Polaris est le site](https://polaris.finance), et les plus motivés peuvent déjà rejoindre [notre canal d'annonces Telegram](https://t.me/polaris_ann).
 
 J'ai passé des années à écrire sur la DeFi, analyser des protocoles, observer les compromis s'accumuler et les promesses s'évaporer. Si vous avez vu les stablecoins abandonner leurs fondations et senti que quelque chose n'allait pas, vous comprenez pourquoi nous sommes là. Si vous pensez que la décentralisation est une propriété d'architecture, pas de marketing, vous comprenez ce que nous construisons.
 
@@ -122,9 +122,9 @@ Les services financiers incensurables, comme la vie privée, sont des armes néc
 
 Je ne suis pas seul dans cette aventure ; je ne suis qu'un membre d'une équipe d'élite, menée par un homme avec qui j'ai travaillé pendant plus de deux ans au [DeFi Collective](https://deficollective.org). Je l'ai vu grandir et s'épanouir dans la DeFi, sans jamais trahir ses principes : il est plus que prêt pour son arc de personnage principal, et vous le verrez beaucoup plus dans les semaines et mois qui viennent : [Robert/0xLuude](https://x.com/0xluude).
 
-**Explorez la vision :** [polarisfinance.io](https://polarisfinance.io/)
+**Explorez la vision :** [polaris.finance](https://polaris.finance/)
 
-**Restez informés :** [suivez Polaris sur Twitter](https://x.com/polarisfinance_)
+**Restez informés :** [suivez Polaris sur Twitter](https://x.com/polarisfnd)
 
 J'ai à peine effleuré Polaris ici, donc si vous aimez la direction, consultez le site et rejoignez le Telegram pour approfondir.
 

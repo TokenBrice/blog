@@ -9,7 +9,7 @@ projects:
       fr: Tableau de bord d'analyse des stablecoins
   - id: polaris
     name: Polaris
-    url: https://polarisfinance.io
+    url: https://polaris.finance
     emblem: img/others/polaris-emblem.png
     emblem_webp: img/others/polaris-emblem.webp
     tagline:

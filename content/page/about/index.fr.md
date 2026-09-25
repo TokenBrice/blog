@@ -26,7 +26,7 @@ Toutes mes actions et mon implication dans l'espace suivent le même but : maxim
 
 J'ai passé des années à écrire sur la DeFi, analyser des protocoles, regarder les compromis s'accumuler et les promesses s'évaporer. Alors j'ai décidé de passer du côté bâtisseur avec des amis rencontrés en chemin pour m'attaquer à ce que je considère comme le problème existentiel central de la DeFi : la centralisation des stablecoins, son premier cas d'usage.
 
-Si vous avez vu des stablecoins abandonner leurs fondations et senti que quelque chose n'allait pas, vous comprenez pourquoi nous sommes là. Si vous croyez que la décentralisation est une propriété d'architecture, pas de marketing, vous comprenez ce que nous construisons. **[Polaris](https://polarisfinance.io)** n'est pas juste un énième protocole DeFi : c'est la réponse immunitaire éruptive de la DeFi au virus USDC/T. On est dans les tranchées depuis trop longtemps pour voir l'espace auquel on a dédié nos vies finir capturé, domestiqué et neutralisé comme l'a été Internet.
+Si vous avez vu des stablecoins abandonner leurs fondations et senti que quelque chose n'allait pas, vous comprenez pourquoi nous sommes là. Si vous croyez que la décentralisation est une propriété d'architecture, pas de marketing, vous comprenez ce que nous construisons. **[Polaris](https://polaris.finance)** n'est pas juste un énième protocole DeFi : c'est la réponse immunitaire éruptive de la DeFi au virus USDC/T. On est dans les tranchées depuis trop longtemps pour voir l'espace auquel on a dédié nos vies finir capturé, domestiqué et neutralisé comme l'a été Internet.
 
 <a href="/why-polaris/" style="display:block; text-decoration:none; color:inherit; border:1px solid var(--card-separator-color, #e0e0e0); border-radius:12px; overflow:hidden; transition:box-shadow 0.2s, transform 0.2s; margin:1.5rem 0;">
 <img src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Why Polaris?" style="width:100%; display:block;">
@@ -46,7 +46,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 
 | Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polarisfinance.io) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Fondateur |
+| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Fondateur |
 | <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
 

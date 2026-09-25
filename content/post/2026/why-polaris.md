@@ -19,7 +19,7 @@ difficulty: "beginner"
 
 Stablecoins have won: they're the backbone of DeFi liquidity, the unit of account for onchain trades, and the most outward-facing DeFi usecase. By every adoption metric, they're the most successful primitive we've built. And yet, something went wrong. The dominant stablecoin models have drifted from their original promises. What started as experiments in decentralized money has quietly become a collection of TradFi dependencies wrapped in smart-contract aesthetics. The foundations deteriorated as the TVL climbed. The most popular Stablecoins remain tokenized T-Bills that do not forward their yield, namely USDC and USDT.
 
-It's time for me to get out of stealth and reveal a project that's been cooking for 2 years: [Polaris](https://polarisfinance.io). But before we get there, I want you to understand my "Vitalik set out to build the world computer after his WoW warlock got nerfed" moment. Two stories illustrate the pattern I described: both are protocols I've watched closely. They started with novel premises, and ended up somewhere else entirely.
+It's time for me to get out of stealth and reveal a project that's been cooking for 2 years: [Polaris](https://polaris.finance). But before we get there, I want you to understand my "Vitalik set out to build the world computer after his WoW warlock got nerfed" moment. Two stories illustrate the pattern I described: both are protocols I've watched closely. They started with novel premises, and ended up somewhere else entirely.
 
 
 ## Once a Pigeon, Forever a Pigeon
@@ -91,13 +91,13 @@ This is a "governance" that is clearly defined and knows its limits. It's quite 
 I'll keep this brief—detailed mechanics are coming over the following weeks. But here's the structure:
 
 **Three tokens:**
-- **pUSD**: A yield-bearing stablecoin backed by pETH collateral
+- **USDp**: A yield-bearing stablecoin backed by pETH collateral
 - **pETH**: An ETH derivative with a rising price floor, created through the bonding curve
 - **POLAR**: The stewardship token, capturing real yield from protocol activity
 
 **Three engines:**
 - A bonding curve that converts ETH deposits into pETH, capturing volatility as yield
-- A CDP architecture optimized for stability and growth, allowing pUSD borrowing against pETH
+- A CDP architecture optimized for stability and growth, allowing USDp borrowing against pETH
 - A conversion mechanism where POLAR is minted exclusively through pETH burning, raising the collateral floor
 
 The engines reinforce each other. As the system grows, collateralization strengthens. Yield scales with adoption instead of diluting. The flywheel is designed to accelerate, not plateau.
@@ -108,7 +108,7 @@ More details soon. For now, understand that the architecture serves the philosop
 
 ## The Call
 
-Polaris isn't live. You are early. For now, the best place to learn about [Polaris is the website](https://polarisfinance.io) and the most eager can already join [our Telegram announcement channel](https://t.me/polaris_ann).
+Polaris isn't live. You are early. For now, the best place to learn about [Polaris is the website](https://polaris.finance) and the most eager can already join [our Telegram announcement channel](https://t.me/polaris_ann).
 
 I've spent years writing about DeFi, analyzing protocols, watching the compromises accumulate, and the promises evaporate. If you've seen Stablecoins abandon their foundations and felt something was wrong, you understand why we're here. If you believe that decentralization is a property of architecture, not marketing, you understand what we're building.
 
@@ -120,9 +120,9 @@ Uncensorable financial services, just like Privacy, are necessary weapons in the
 
 I'm not alone in this; I am just one out of an elite team, led by a man I worked with for more than two years at the [DeFi Collective](https://deficollective.org). I saw him grow and thrive in DeFi, never defaulting on his principles: he's more than ready for his main character arc, and you'll be seeing him a lot more of him in the coming weeks and months: [Robert/0xLuude](https://x.com/0xluude).
 
-**Explore the vision:** [polarisfinance.io](https://polarisfinance.io/)
+**Explore the vision:** [polaris.finance](https://polaris.finance/)
 
-**Stay informed:** [Follow Polaris on Twitter](https://x.com/polarisfinance_)
+**Stay informed:** [Follow Polaris on Twitter](https://x.com/polarisfnd)
 
 I've barely scratched the surface of Polaris here, so if you like where this is heading, check the website and join the Telegram to further your understanding.
 

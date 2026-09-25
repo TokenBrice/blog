@@ -6,7 +6,7 @@
 ## Goal
 
 Add two call-out banners promoting Pharos (`pharos.watch`) and Polaris
-(`polarisfinance.io`) on the blog. Both projects are stablecoin-related
+(`polaris.finance`) on the blog. Both projects are stablecoin-related
 ventures the author contributes to. The banners should drive informed
 clicks and pass full SEO link equity to both destinations.
 
@@ -51,7 +51,7 @@ projects:
       fr: Tableau de bord d'analyse des stablecoins
   - id: polaris
     name: Polaris
-    url: https://polarisfinance.io
+    url: https://polaris.finance
     emblem: img/projects/polaris/emblem.svg
     tagline:
       en: Self-scaling stablecoin OS
