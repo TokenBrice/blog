@@ -7,7 +7,7 @@ aliases:
   - contact
   - about
 license: CC BY-NC-SA 4.0
-lastmod: '2026-01-31'
+lastmod: '2026-09-29'
 toc: false
 menu:
     main:
@@ -46,7 +46,7 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 
 | Logo | Projet | Description | Rôle |
 | :---: | :---: | :---: | :---: |
-| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Fondateur |
+| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Cofondateur historique et conseiller stratégique |
 | <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant plus de 119 stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. | Créateur |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
 

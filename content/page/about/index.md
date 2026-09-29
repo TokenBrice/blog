@@ -6,7 +6,7 @@ aliases:
   - about-us
   - contact
 license: CC BY-NC-SA 4.0
-lastmod: '2026-01-31'
+lastmod: '2026-09-29'
 toc: false
 menu:
     main:
@@ -45,7 +45,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 | Logo | Project | Description | Role |
 | :---: | :---: | :---: | :---: |
-| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Founder |
+| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Original Cofounder and Strategic Advisor |
 | <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 156 stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
 | <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
 
