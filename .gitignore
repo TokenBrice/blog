@@ -5,7 +5,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Hugo build outputs
-public/
+/public/
 resources/_gen/
 .hugo_build.lock
 
