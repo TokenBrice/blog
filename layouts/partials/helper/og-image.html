@@ -1,77 +1,224 @@
 {{- /*
-  helper/og-image
-  Returns a dict {url, width, height} for the Open Graph image.
-  Resolution order:
-    1. Page-bundle resource matching .Params.image — processed via Fill "1200x630 q85" (1200x630).
-    2. .Params.image as a non-bundle static path — returned absolute; real dimensions
-       looked up from site.Data.imageDims when present, else width/height omitted (0).
-    3. .Params.image as an absolute external URL — returned as-is; dimensions unknown (0).
-  4. Site default OG image — dimensions from data/imageDims.json when present.
-  Usage:
-    {{- $og := partial "helper/og-image" . -}}
-    <meta property="og:image" content="{{ $og.url }}" />
-    {{- with $og.width }}<meta property="og:image:width" content="{{ . }}" />{{ end -}}
-    {{- with $og.height }}<meta property="og:image:height" content="{{ . }}" />{{ end -}}
+  Returns {url, width, height}. The private dict context renders the card once
+  through partialCached, shared by JSON-LD, Open Graph and Twitter callers.
+  All fonts and artwork are local; image derivatives live in resources/_gen.
+  A missing asset or image-processing error retains the previous image fallback.
 */ -}}
-
-{{- $page := . -}}
-{{- $url := "" -}}
-{{- $width := 0 -}}
-{{- $height := 0 -}}
-{{- $defaultSrc := index .Site.Params.defaultImage.opengraph "src" -}}
-{{- $dims := hugo.Data.imageDims -}}
-
-{{- with $page.Params.image -}}
-  {{- $img := . -}}
-  {{- $parsed := urls.Parse $img -}}
-  {{- if or (eq $parsed.Scheme "http") (eq $parsed.Scheme "https") -}}
-    {{- /* External URL — return as-is, dimensions unknown */ -}}
-    {{- $url = $img -}}
-  {{- else -}}
-    {{- $resource := $page.Resources.GetMatch $img -}}
-    {{- if and $resource (ne (path.Ext $img) ".svg") -}}
-      {{- $filled := $resource.Fill "1200x630 q85" -}}
-      {{- $url = $filled.Permalink -}}
-      {{- $width = 1200 -}}
-      {{- $height = 630 -}}
-    {{- else if $resource -}}
-      {{- $url = $resource.Permalink -}}
-      {{- $width = $resource.Width -}}
-      {{- $height = $resource.Height -}}
+{{- $result := dict "url" "" "width" 0 "height" 0 -}}
+{{- if reflect.IsMap . -}}
+  {{- $page := .page -}}
+  {{- $base := resources.Get "img/og/base-ink-1200x630.png" -}}
+  {{- $column := resources.Get "img/og/base-ink-800x630.png" -}}
+  {{- $serif := resources.Get "fonts/og/Fraunces-Bold.ttf" -}}
+  {{- $sans := resources.Get "fonts/og/InterTight-SemiBold.ttf" -}}
+  {{- $regular := resources.Get "fonts/og/InterTight-Regular.ttf" -}}
+  {{- $emblem := resources.Get "img/og/emblem-42.png" -}}
+  {{- $divider := resources.Get "img/og/divider-2x620.png" -}}
+  {{- if and $base $column $serif $sans $regular $emblem $divider -}}
+    {{- $isPost := and $page.IsPage (eq $page.Type "post") -}}
+    {{- $cover := false -}}
+    {{- if and $isPost (ne $page.Params.og_panel false) -}}
+      {{- with $page.Params.image -}}
+        {{- $ext := lower (path.Ext .) -}}
+        {{- if in (slice ".png" ".jpg" ".jpeg") $ext -}}
+          {{- $cover = $page.Resources.GetMatch . -}}
+          {{- if not $cover -}}
+            {{- $cover = resources.Get (strings.TrimPrefix "/" .) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $title := $page.LinkTitle | plainify | htmlUnescape -}}
+    {{- $description := $page.Description | plainify | htmlUnescape -}}
+    {{- $eyebrow := T "ogEyebrow" -}}
+    {{- $category := "" -}}
+    {{- with $page.GetTerms "categories" -}}
+      {{- $category = (index . 0).LinkTitle -}}
+    {{- end -}}
+    {{- with $page.Params.glossary_id -}}
+      {{- $eyebrow = T "ogGlossaryEyebrow" -}}
+      {{- $glossary := index hugo.Data.glossary $page.Language.Lang -}}
+      {{- $id := . -}}
+      {{- range $glossary.terms -}}
+        {{- if eq .id $id -}}
+          {{- $title = .term -}}
+          {{- $description = .short_definition -}}
+          {{- $termCategory := .category -}}
+          {{- $category = $termCategory -}}
+          {{- range index hugo.Data.glossary.categories $page.Language.Lang -}}
+            {{- if eq .id $termCategory -}}
+              {{- $category = .name -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $isPost -}}{{- $description = "" -}}{{- end -}}
+    {{- /* Remove unsupported pictographs, not accents or French punctuation. */ -}}
+    {{- $title = replaceRE "[^\\x{0020}-\\x{017F}\\x{2000}-\\x{206F}\\x{20AC}\\x{2122}\\x{2192}\\x{2212}]" "" $title -}}
+    {{- $title = replaceRE "\\s+" " " $title | strings.TrimSpace -}}
+    {{- if not $title -}}{{- $title = $page.Site.Title -}}{{- end -}}
+    {{- $canvas := $base -}}
+    {{- if $cover -}}{{- $canvas = $column -}}{{- end -}}
+    {{- $textWidth := sub $canvas.Width 92 -}}
+    {{- $sizes := slice 100 72 60 -}}
+    {{- $length := strings.RuneCount $title -}}
+    {{- if gt $length 60 -}}
+      {{- $sizes = slice 60 -}}
+    {{- else if gt $length 36 -}}
+      {{- $sizes = slice 72 60 -}}
+    {{- end -}}
+    {{- $size := 60 -}}
+    {{- $lines := slice -}}
+    {{- $fitted := false -}}
+    {{- /* Conservative weighted character estimate: 0.64em by default,
+         narrower punctuation, wider capitals and m/w. Explicit lines plus the
+         narrow canvas keep titles clear of the panel and bottom metadata. */ -}}
+    {{- range $sizes -}}
+      {{- if not $fitted -}}
+        {{- $candidateSize := . -}}
+        {{- $emWidth := div $textWidth (float $candidateSize) -}}
+        {{- $titleHeight := cond (ne $description "") 260 352 -}}
+        {{- $maxLines := int (div $titleHeight (mul $candidateSize 1.12)) -}}
+        {{- $candidate := slice -}}
+        {{- $line := "" -}}
+        {{- $longWord := false -}}
+        {{- range split $title " " -}}
+          {{- $word := . -}}
+          {{- $wordWidth := sub (mul (strings.RuneCount $word) 0.64) (mul (len (findRE "[ilj.,:;!|’' ]" $word)) 0.34) -}}
+          {{- $wordWidth = add $wordWidth (mul (len (findRE "[A-ZÀ-Þ]" $word)) 0.22) (mul (len (findRE "[mwMWŒœ@%]" $word)) 0.42) -}}
+          {{- if gt $wordWidth $emWidth -}}
+            {{- $longWord = true -}}
+            {{- if eq $candidateSize 60 -}}
+              {{- $word = strings.Truncate (int (div $emWidth 1.28)) "…" $word -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $joined := strings.TrimSpace (printf "%s %s" $line $word) -}}
+          {{- $joinedWidth := sub (mul (strings.RuneCount $joined) 0.64) (mul (len (findRE "[ilj.,:;!|’' ]" $joined)) 0.34) -}}
+          {{- $joinedWidth = add $joinedWidth (mul (len (findRE "[A-ZÀ-Þ]" $joined)) 0.22) (mul (len (findRE "[mwMWŒœ@%]" $joined)) 0.42) -}}
+          {{- if and $line (gt $joinedWidth $emWidth) -}}
+            {{- $candidate = $candidate | append $line -}}
+            {{- $line = $word -}}
+          {{- else -}}
+            {{- $line = $joined -}}
+          {{- end -}}
+        {{- end -}}
+        {{- with $line -}}{{- $candidate = $candidate | append . -}}{{- end -}}
+        {{- if or (and (le (len $candidate) $maxLines) (not $longWord)) (eq $candidateSize 60) -}}
+          {{- if gt (len $candidate) $maxLines -}}
+            {{- $candidate = first $maxLines $candidate -}}
+            {{- $last := sub $maxLines 1 -}}
+            {{- $lastLine := index $candidate $last -}}
+            {{- if strings.Contains $lastLine " " -}}
+              {{- $lastLine = printf "%s…" (replaceRE "\\s+\\S+$" "" $lastLine) -}}
+            {{- else -}}
+              {{- $lastLine = strings.Truncate (int (div $emWidth 1.28)) "…" (printf "%s …" $lastLine) -}}
+            {{- end -}}
+            {{- $candidate = (first $last $candidate) | append $lastLine -}}
+          {{- end -}}
+          {{- $lines = $candidate -}}
+          {{- $size = $candidateSize -}}
+          {{- $fitted = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $meta := slice -}}
+    {{- with $category -}}{{- $meta = $meta | append . -}}{{- end -}}
+    {{- if $isPost -}}
+      {{- with $page.Params.difficulty -}}
+        {{- $key := printf "difficulty%s" (strings.FirstUpper .) -}}
+        {{- $meta = $meta | append (T $key | default (strings.FirstUpper .)) -}}
+      {{- end -}}
+      {{- with $page.ReadingTime -}}
+        {{- $meta = $meta | append (T "ogReadingTime" (dict "Count" .)) -}}
+      {{- end -}}
+      {{- if not $page.Date.IsZero -}}
+        {{- $meta = $meta | append (time.Format (T "ogDateFormat") $page.Date) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $metaText := delimit $meta " · " -}}
+    {{- $metaSize := 22 -}}
+    {{- if gt (strings.RuneCount $metaText) (int (div $textWidth 12)) -}}
+      {{- $metaSize = 18 -}}
+    {{- end -}}
+    {{- $metaText = strings.Truncate (int (div $textWidth (mul $metaSize 0.64))) "…" $metaText -}}
+    {{- $filters := slice
+      (images.Text (upper $eyebrow) (dict "font" $sans "size" 20 "color" "#c9c3b6" "x" 100 "y" 62))
+      (images.Text (delimit $lines "\n") (dict "font" $serif "size" $size "color" "#f6f1e6" "x" 72 "y" 128 "linespacing" (int (mul $size 0.08))))
+      (images.Text $metaText (dict "font" $sans "size" $metaSize "color" "#d9d4c8" "x" 72 "y" 516))
+      (images.Overlay $emblem 72 572)
+      (images.Text "tokenbrice.xyz" (dict "font" $sans "size" 24 "color" "#f6f1e6" "x" 128 "y" 579))
+    -}}
+    {{- with $description -}}
+      {{- $dekY := add 156 (int (mul (len $lines) (mul $size 1.12))) -}}
+      {{- $dekLines := math.Max 1 (int (div (sub 496 $dekY) 34)) -}}
+      {{- $dek := replaceRE "\\s+" " " (. | plainify | htmlUnescape) -}}
+      {{- $dek = strings.Truncate (int (mul $dekLines (div $textWidth 18))) "…" $dek -}}
+      {{- $filters = $filters | append (images.Text $dek (dict "font" $regular "size" 28 "color" "#b9bec6" "x" 72 "y" $dekY "linespacing" 6)) -}}
+    {{- end -}}
+    {{- $textLayer := $canvas | images.Filter $filters -}}
+    {{- $card := $textLayer -}}
+    {{- if $cover -}}
+      {{- $panel := $cover.Fill "380x620 Center" -}}
+      {{- $card = $base | images.Filter (images.Overlay $textLayer 0 0) (images.Overlay $panel 820 10) (images.Overlay $divider 818 10) -}}
+    {{- end -}}
+    {{- $card = $card.Process "jpg q82" -}}
+    {{- $result = dict "url" $card.Permalink "width" 1200 "height" 630 -}}
+  {{- end -}}
+{{- else -}}
+  {{- $page := . -}}
+  {{- with try (partialCached "helper/og-image" (dict "page" $page) "generated" $page.RelPermalink $page.Language.Lang) -}}
+    {{- if not .Err -}}
+      {{- $result = .Value -}}
     {{- else -}}
-      {{- /* Static path under /static/, e.g. /img/foo.png */ -}}
-      {{- $url = absURL $img -}}
-      {{- /* Look up real dimensions from data/imageDims.json */ -}}
-      {{- $key := $img -}}
-      {{- if not (hasPrefix $key "/") -}}
-        {{- $key = printf "/%s" $key -}}
-      {{- end -}}
-      {{- with index $dims $key -}}
-        {{- $width = .w -}}
-        {{- $height = .h -}}
-      {{- end -}}
+      {{- warnf "OG card for %s uses its original image: %s" $page.RelPermalink .Err -}}
     {{- end -}}
   {{- end -}}
-{{- end -}}
-
-{{- if not $url -}}
-  {{- /* Default OG card. */ -}}
-  {{- $defaultResource := resources.Get $defaultSrc -}}
-  {{- if $defaultResource -}}
-    {{- $url = $defaultResource.Permalink -}}
-    {{- $width = $defaultResource.Width -}}
-    {{- $height = $defaultResource.Height -}}
-  {{- else -}}
-    {{- $url = absURL $defaultSrc -}}
-    {{- $key := $defaultSrc -}}
-    {{- if not (hasPrefix $key "/") -}}
-      {{- $key = printf "/%s" $key -}}
+  {{- if not $result.url -}}
+    {{- $url := "" -}}
+    {{- $width := 0 -}}
+    {{- $height := 0 -}}
+    {{- $dims := hugo.Data.imageDims -}}
+    {{- with $page.Params.image -}}
+      {{- $src := . -}}
+      {{- $parsed := urls.Parse $src -}}
+      {{- if in (slice "http" "https") $parsed.Scheme -}}
+        {{- $url = $src -}}
+      {{- else -}}
+        {{- $resource := $page.Resources.GetMatch $src -}}
+        {{- if and $resource (in (slice ".png" ".jpg" ".jpeg") (lower (path.Ext $src))) -}}
+          {{- with try ($resource.Fill "1200x630 q85") -}}
+            {{- with .Value -}}
+              {{- $url = .Permalink -}}{{- $width = 1200 -}}{{- $height = 630 -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $url -}}
+          {{- if $resource -}}
+            {{- $url = $resource.Permalink -}}
+          {{- else -}}
+            {{- $url = absURL $src -}}
+          {{- end -}}
+          {{- with index $dims (printf "/%s" (strings.TrimPrefix "/" $src)) -}}
+            {{- $width = .w -}}{{- $height = .h -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
     {{- end -}}
-    {{- with index $dims $key -}}
-      {{- $width = .w -}}
-      {{- $height = .h -}}
+    {{- if not $url -}}
+      {{- $defaultSrc := $page.Site.Params.defaultImage.opengraph.src | default "/img/main/og-default-1200x630.png" -}}
+      {{- $defaultResource := resources.Get (strings.TrimPrefix "/" $defaultSrc) -}}
+      {{- if $defaultResource -}}
+        {{- $url = $defaultResource.Permalink -}}
+        {{- $width = $defaultResource.Width -}}{{- $height = $defaultResource.Height -}}
+      {{- else -}}
+        {{- $url = absURL $defaultSrc -}}
+        {{- with index $dims (printf "/%s" (strings.TrimPrefix "/" $defaultSrc)) -}}
+          {{- $width = .w -}}{{- $height = .h -}}
+        {{- end -}}
+      {{- end -}}
     {{- end -}}
+    {{- $result = dict "url" $url "width" $width "height" $height -}}
   {{- end -}}
 {{- end -}}
-
-{{- return (dict "url" $url "width" $width "height" $height) -}}
+{{- return $result -}}
