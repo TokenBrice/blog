@@ -7,6 +7,9 @@ Pages (content/page/**) require: title, description.
 For both, `categories` (if present) must be a list, not a bare string.
 Missing `image` is downgraded to a warning instead of a hard error,
 so cover-less posts don't break CI while still surfacing in logs.
+
+Related post paths must resolve to an English post's URL or alias.
+French aliases must omit /fr/: Hugo adds the language prefix itself.
 """
 import glob
 import json
@@ -195,6 +198,16 @@ def check_optional_schema(path, fm):
         if not isinstance(value, list) or len(value) > 2 or not all(site_path(item) for item in value):
             fail('related_posts must contain at most 2 slash-delimited site paths')
     language = 'fr' if path.endswith('.fr.md') or '/fr/' in path else 'en'
+    if language == 'fr':
+        aliases = fm.get('aliases') or []
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        if isinstance(aliases, list) and any(isinstance(alias, str) and alias.startswith('/fr/') for alias in aliases):
+            fail('French aliases must not start with /fr/: Hugo adds the language prefix')
+    if isinstance(fm.get('related_posts'), list):
+        for target in fm['related_posts']:
+            if site_path(target) and target.strip('/') not in en_post_references:
+                fail(f'related_posts target does not resolve to an EN post URL or alias: {target}')
     for field, allowed in (('glossary_terms', glossary_ids.get(language, set())), ('disclosure', project_ids)):
         if field in fm:
             value = fm[field]
@@ -234,6 +247,8 @@ def check(path, fm, required, soft=False):
 
 post_paths = collect('content/post')
 page_paths = collect('content/page')
+post_frontmatter = {}
+en_post_references = set()
 
 for path in post_paths:
     try:
@@ -241,12 +256,23 @@ for path in post_paths:
     except Exception as e:
         errors.append((path, f'YAML parse: {e}'))
         continue
-    if fm is None:
+    if not isinstance(fm, dict):
+        if fm is not None:
+            check(path, fm, POST_REQUIRED)
         continue
+    post_frontmatter[path] = fm
+    if not path.endswith('.fr.md') and '/fr/' not in path:
+        aliases = fm.get('aliases') or []
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        for target in [fm.get('url'), *aliases]:
+            if isinstance(target, str) and target.strip('/') and not urlparse(target).scheme and not target.startswith('//'):
+                en_post_references.add(target.strip('/'))
+
+for path, fm in post_frontmatter.items():
     check(path, fm, POST_REQUIRED)
-    if isinstance(fm, dict):
-        check_series_order(path, fm)
-        check_legacy_post_alias(path, fm)
+    check_series_order(path, fm)
+    check_legacy_post_alias(path, fm)
 
 
 for path in page_paths:

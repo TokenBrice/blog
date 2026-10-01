@@ -6,6 +6,18 @@ window._paq = window._paq || [];
 var _paq = window._paq;
 
 _paq.push(['disableCookies']);
+// Pageviews must not disclose search text or other URL parameters.
+_paq.push(['setCustomUrl', window.location.origin + window.location.pathname]);
+if (document.referrer) {
+  try {
+    var referrer = new URL(document.referrer);
+    if (referrer.origin === window.location.origin) {
+      _paq.push(['setReferrerUrl', referrer.origin + referrer.pathname]);
+    }
+  } catch (e) {
+    // Ignore an invalid referrer; browsers normally supply an absolute URL.
+  }
+}
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 

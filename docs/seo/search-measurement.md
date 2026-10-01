@@ -14,6 +14,11 @@ Review monthly, and after template or content-architecture releases.
 
 ## Matomo Events
 
+Pageview URLs contain only the current origin and pathname, site-wide: query strings
+and fragments are removed before `trackPageView`. Same-origin referrer URLs are
+also reduced to origin and pathname. This keeps `/search/?keyword=…` and search
+referrers from sending raw queries to Matomo; external referrers are unchanged.
+
 The local tracking script records:
 
 - `Search / Site search`: one event for each `tb:search-settled` update. The name is

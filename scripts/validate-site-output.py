@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check generated references, indexability, translations and social metadata."""
+"""Check generated references, language prefixes, indexability and social metadata."""
 from __future__ import annotations
 
 import json
@@ -203,10 +203,14 @@ def validate(public):
     pages = {}
     sitemap = set()
     for path in sorted(public.rglob("*")):
-        if not path.is_file() or path.suffix not in {".html", ".xml", ".json"}:
+        if not path.is_file():
+            continue
+        rel = path.relative_to(public).as_posix()
+        if rel.startswith("fr/fr/"):
+            errors.append(f"{rel}: duplicated French language prefix")
+        if path.suffix not in {".html", ".xml", ".json"}:
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
-        rel = path.relative_to(public).as_posix()
         for artifact in DEV_ARTIFACTS:
             if artifact in text:
                 errors.append(f"{rel}: dev-server artifact {artifact}")

@@ -174,6 +174,11 @@ fi
 step "Setup Node.js"
 verify_node_version
 
+step "Check Python validator dependency"
+require_cmd python3 "Install Python 3."
+python3 -c 'import yaml' 2>/dev/null || \
+  die "PyYAML is missing for python3. On Ubuntu/Debian, run sudo apt-get install python3-yaml; otherwise install PyYAML in a virtual environment and activate it before running this gate."
+
 step "Install Node.js dependencies"
 npm ci
 

@@ -90,6 +90,66 @@ class ValidatorTests(unittest.TestCase):
         path.write_text(json.dumps(self.glossary))
         self.run_validator('validate-glossary.py', path)
 
+    def test_glossary_hub_permalink_resolution(self):
+        for filename, fields, target in (
+            ('hub/index.md', {'slug': 'yield-handbook'}, '/yield-handbook/'),
+            ('hub/index.fr.md', {'slug': 'rendement'}, '/fr/rendement/'),
+            ('hub/index.md', {'title': 'Yield Handbook'}, '/yield-handbook/'),
+            ('hub/index.md', {'slug': 'ignored', 'url': '/custom-hub/'}, '/custom-hub/'),
+            ('hub/index.fr.md', {'url': 'guide-rendement'}, '/fr/guide-rendement/'),
+            ('hub/index.fr.md', {'url': '/shared-hub/'}, '/shared-hub/'),
+        ):
+            with self.subTest(filename=filename, target=target):
+                self.write_frontmatter({'title': 'Hub fixture', **fields}, filename)
+                self.glossary['en']['terms'][0]['related_guides'] = [target]
+                path = self.root / 'data/glossary.json'
+                path.write_text(json.dumps(self.glossary))
+                self.run_validator('validate-glossary.py', path)
+                self.glossary['en']['terms'][0]['related_guides'] = ['/absent-hub/']
+                path.write_text(json.dumps(self.glossary))
+                self.run_validator('validate-glossary.py', path, failure='related_guides target does not resolve')
+
+    def test_related_post_url_and_alias_resolution(self):
+        post = self.root / 'content/post/2020/guide.md'
+        # Both bare and slash-delimited front-matter URLs identify the same post.
+        for url in ('guide', '/guide/'):
+            post.write_text(post.read_text().replace('url: guide', 'url: ' + url))
+            for target in ('/guide/', '/legacy-guide/', '/posts/2020/guide/'):
+                with self.subTest(url=url, target=target):
+                    fm = dict(self.frontmatter, related_posts=[target])
+                    self.write_frontmatter(fm)
+                    self.write_frontmatter(fm, 'fixture.fr.md')
+                    self.run_validator('validate-frontmatter.py')
+
+    def test_related_post_rejects_french_only_destination(self):
+        post = self.root / 'content/post/2020/guide.md'
+        post.rename(post.with_name('guide.fr.md'))
+        self.write_frontmatter(self.frontmatter)
+        self.run_validator('validate-frontmatter.py', failure='related_posts target does not resolve to an EN post')
+
+    def test_related_post_rejects_page_destination(self):
+        self.write_frontmatter(dict(self.frontmatter, related_posts=[]), 'guide/index.md')
+        self.write_frontmatter(dict(self.frontmatter, related_posts=['/missing-post/']))
+        self.write_frontmatter(dict(self.frontmatter, related_posts=[], url='missing-post'), 'other/index.md')
+        self.run_validator('validate-frontmatter.py', failure='related_posts target does not resolve to an EN post')
+
+    def test_frontmatter_french_alias_prefix(self):
+        fm = dict(self.frontmatter, aliases=['/fr/old-guide/'])
+        self.write_frontmatter(fm, 'fixture.fr.md')
+        self.run_validator('validate-frontmatter.py', failure='French aliases must not start with /fr/')
+
+    def test_glossary_french_alias_prefix(self):
+        self.glossary['fr']['terms'][0]['aliases'] = ['/fr/old-apy/']
+        path = self.root / 'data/glossary.json'
+        path.write_text(json.dumps(self.glossary))
+        self.run_validator('validate-glossary.py', path, failure='French aliases must not start with /fr/')
+
+    def test_generated_french_prefix_duplication(self):
+        directory = self.public / 'fr/fr/legacy'
+        directory.mkdir(parents=True)
+        (directory / 'index.html').write_text('<meta http-equiv="refresh" content="0;url=/fr/"><link rel="canonical" href="https://tokenbrice.xyz/fr/">')
+        self.run_validator('validate-site-output.py', self.public, failure='duplicated French language prefix')
+
     def test_intentional_external_canonical(self):
         (self.public / 'external.html').write_text('<link rel="canonical" href="https://example.org/original/">')
         self.run_validator('validate-site-output.py', self.public)
@@ -223,6 +283,7 @@ FM_DEFECTS = {
     'takeaways_empty': ('takeaways', ['One', ''], 'takeaways must contain'),
     'related_posts_limit': ('related_posts', ['/one/', '/two/', '/three/'], 'related_posts must contain'),
     'related_posts_path': ('related_posts', ['guide'], 'related_posts must contain'),
+    'related_posts_unknown': ('related_posts', ['/missing-post/'], 'related_posts target does not resolve to an EN post'),
     'glossary_unknown': ('glossary_terms', ['missing'], 'glossary_terms must be'),
     'glossary_type': ('glossary_terms', 'apy', 'glossary_terms must be'),
     'disclosure_unknown': ('disclosure', ['unknown'], 'disclosure must be'),
@@ -273,6 +334,9 @@ GLOSSARY_DEFECTS = {
     'related_target': ('related_terms', ['missing'], 'related_terms contains unknown IDs'),
     'alias': ('aliases', ['https://example.org/'], 'aliases must be site paths'),
     'index': ('index', 'false', 'index must be bool'),
+    'guide_unknown': ('related_guides', ['/missing-hub/'], 'related_guides target does not resolve to a hub page'),
+    'guide_type': ('related_guides', '/yield/', 'related_guides must be site paths'),
+    'guide_external': ('related_guides', ['https://example.org/hub/'], 'related_guides must be site paths'),
     'article_case': ('related_articles', [{'url': '/Guide/'}], 'related_articles URLs'),
     'article_slash': ('related_articles', [{'url': '/guide'}], 'related_articles URLs'),
     'article_relative': ('related_articles', [{'url': 'guide/'}], 'related_articles URLs'),
