@@ -130,9 +130,6 @@ other = "Aller à une lettre"
 [glossaryJumpToLetter]
 other = "Aller à la lettre %s"
 
-[glossaryReadFull]
-other = "Lire la définition complète"
-
 
 # Browse widget
 
@@ -271,30 +268,6 @@ other = "8"
 other = "9"
 
 
-# Projects banner
-
-[projectsBannerLabel]
-other = "Projets"
-
-[projectsBannerProvenance]
-other = "Ce que l'auteur construit aussi. Divulgué parce que vous devez le savoir."
-
-
-# Article components
-
-[glossaryMentions]
-other = "Concepts évoqués dans cet article"
-
-[glossaryMentionsTitle]
-other = "Concepts dans cet article"
-
-[seriesNav]
-other = "Navigation de la série"
-
-[seriesPart]
-other = "Fait partie de la série"
-
-
 # Zone H: Footer, microcopy, menu, social a11y
 
 [footerTagline]
@@ -359,33 +332,6 @@ other = "Dans le terrier"
 
 [keepReading]
 other = "Continuer la lecture"
-
-
-# End-of-post terminal
-
-[endOfPostHeading]
-other = "Pour aller plus loin"
-
-[endOfPostRelated]
-other = "À lire ensuite"
-
-[endOfPostHubs]
-other = "Explorer le sujet"
-
-[endOfPostFollow]
-other = "Suivre"
-
-[endOfPostRSS]
-other = "RSS"
-
-[hubTypeCategory]
-other = "Catégorie"
-
-[hubTypeSeries]
-other = "Série"
-
-[hubTypeGuide]
-other = "Guide"
 
 
 # Navigation, menu, a11y, 404
@@ -698,3 +644,20 @@ other = "Projet de l’auteur"
 
 [readingPathEnglishOnly]
 other = "En anglais uniquement"
+
+# --- Q2: visual QA chrome labels ---
+[q2BrowseLending]
+other = "Prêts"
+
+[q2BrowseYield]
+other = "Rendement"
+
+[q2BrowseThesis]
+other = "Thèses"
+
+[q2ReadingPaths]
+other = "Parcours de lecture"
+
+[q2ReadingPathCount]
+one = "1 parcours de lecture"
+other = "{{ .Count }} parcours de lecture"

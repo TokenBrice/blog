@@ -91,6 +91,92 @@ The script regenerates missing or stale WebP/AVIF siblings, then refreshes
 ImageMagick, `cwebp` and `avifenc` (the encoders are used only for missing/stale siblings).
 The dimensions are used by render hooks to reduce layout shift.
 
+### Writing and front matter
+
+Start posts with `hugo new content/post/YYYY/slug.md`. Fill the draft's title
+(5–70 characters), description (aim for 50–160), date, category list, tags,
+cover image and difficulty (`beginner`, `intermediate`, `expert`). Keep existing
+category URLs: `format` describes the writing, it does not replace categories.
+Tags are displayed as plain text, not links to the noindex tag archives.
+
+Optional post fields, in YAML:
+
+```yaml
+format: analysis # analysis | thesis | practical | tutorial
+noindex: true # Use only when intentionally keeping a page out of indexes.
+lastmod: 2026-10-01 # Set lastmod to context.checked, never cosmetically.
+context:
+  kind: historical # historical | status | update
+  checked: 2026-10-01
+  text: "This analysis records the design at publication, not today's configuration."
+  sources: [] # Primary HTTPS links; non-empty for status notes.
+takeaways:
+  - "Check the current parameters before acting."
+  - "Separate the mechanism from its implementation."
+related_posts: ["/money-markets-risk/", "/vaults/"]
+glossary_terms: ["apy", "vault"]
+disclosure: ["pharos"] # IDs from data/projects.yaml; roles, never holdings.
+imagePosition: "50% 20%"
+og_panel: false
+image_meta:
+  "/img/2021/reflexer-rai/control-theory.png":
+    alt: "Feedback loop adjusting the redemption rate."
+    caption: "The controller's feedback loop."
+```
+
+Omit fields you do not need. `noindex` emits `noindex,follow` and excludes the
+page from the sitemap and search index. Context text supports inline Markdown,
+is limited to 400 characters, and must have a verified, non-future `checked`
+date. Any current-status claim needs primary-source links, whatever its kind.
+Takeaways contain 2–3 short localized bullets and can appear without a context
+note. `related_posts` accepts at most two **EN canonical paths**, including in
+French posts: the template finds the same-language translation, otherwise EN,
+then fills remaining slots with automatic related posts. `glossary_terms`
+overrides automatic concept detection; use `glossary_terms: []` to opt out.
+`imagePosition` controls cover cropping. `image_meta` keys must match the image
+source exactly as written in Markdown; `alt` and `caption` are optional strings.
+
+Hub pages use EN canonical paths too. Core entries must precede historical ones;
+`note` is optional localized plain text:
+
+```yaml
+reading_path:
+  - path: /money-markets-risk/
+    group: core
+  - path: /vaults/
+    group: historical
+    note: "Read for the mechanism, then verify the current deployment."
+```
+
+Place `{{< reading-path >}}` in the hub body. Optional `group="core"` or
+`group="historical"` splits the sequence without renumbering. Missing French
+translations remain EN links with a visible label. The guides landing page uses
+`mode="tiles"` and a `category` slug on each entry for local category artwork.
+
+Glossary terms live in both language records in `data/glossary.json`, with the
+same term ID. Optional additions to an existing term record:
+
+```json
+{
+  "aliases": ["/glossary/old-term/"],
+  "difficulty": "beginner",
+  "related_guides": ["/stablecoins-guide/"],
+  "index": false
+}
+```
+
+`aliases` creates redirects, `difficulty` uses the same three levels as posts,
+`related_guides` links to guide pages, and `index: false` makes the generated term
+page noindex. Omit `index` to keep it indexable.
+
+Hugo generates localized 1200×630 JPEG OG cards at build time from local fonts
+and artwork. Posts use a dark ink text column plus an available PNG/JPG cover
+panel on the right; `og_panel: false` forces text-only. Hubs, pages and glossary
+terms are text-only. There is no separate OG generation command. After changing
+image masters, run `bash scripts/build-images.sh` as described above. Lighthouse
+and IndexNow are independent, warn-only/non-blocking publishing jobs; see
+Verification for their reports and submission rules.
+
 ### Search
 
 The site uses the theme JSON search index at `/search/index.json` and `/fr/search/index.json`. Pagefind is intentionally not built in CI so there is a single search path.
