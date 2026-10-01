@@ -441,7 +441,7 @@ one = "{{ .Count }} min de lecture"
 other = "{{ .Count }} min de lecture"
 
 [ogDateFormat]
-other = "2 Jan 2006"
+other = "Jan 2006"
 
 # --- B: images and code copy ---
 [codeCopy]

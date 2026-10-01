@@ -123,14 +123,18 @@
       {{- end -}}
     {{- end -}}
     {{- $meta := slice -}}
+    {{- $difficulty := "" -}}
+    {{- $reading := "" -}}
     {{- with $category -}}{{- $meta = $meta | append . -}}{{- end -}}
     {{- if $isPost -}}
       {{- with $page.Params.difficulty -}}
         {{- $key := printf "difficulty%s" (strings.FirstUpper .) -}}
-        {{- $meta = $meta | append (T $key | default (strings.FirstUpper .)) -}}
+        {{- $difficulty = T $key | default (strings.FirstUpper .) -}}
+        {{- $meta = $meta | append $difficulty -}}
       {{- end -}}
       {{- with $page.ReadingTime -}}
-        {{- $meta = $meta | append (T "ogReadingTime" (dict "Count" .)) -}}
+        {{- $reading = T "ogReadingTime" (dict "Count" .) -}}
+        {{- $meta = $meta | append $reading -}}
       {{- end -}}
       {{- if not $page.Date.IsZero -}}
         {{- $meta = $meta | append (time.Format (T "ogDateFormat") $page.Date) -}}
@@ -141,7 +145,26 @@
     {{- if gt (strings.RuneCount $metaText) (int (div $textWidth 12)) -}}
       {{- $metaSize = 18 -}}
     {{- end -}}
-    {{- $metaText = strings.Truncate (int (div $textWidth (mul $metaSize 0.64))) "…" $metaText -}}
+    {{- $metaBudget := int (div $textWidth (mul $metaSize 0.64)) -}}
+    {{- /* Keep the date intact: omit difficulty, then reading time, before
+         shortening an unusually long category label. */ -}}
+    {{- range slice $difficulty $reading -}}
+      {{- if and . (gt (strings.RuneCount $metaText) $metaBudget) -}}
+        {{- $meta = complement (slice .) $meta -}}
+        {{- $metaText = delimit $meta " · " -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and $category (gt (strings.RuneCount $metaText) $metaBudget) -}}
+      {{- $remaining := delimit (complement (slice $category) $meta) " · " -}}
+      {{- $categoryBudget := $metaBudget -}}
+      {{- with $remaining -}}{{- $categoryBudget = sub $metaBudget (add (strings.RuneCount .) 3) -}}{{- end -}}
+      {{- $shortCategory := strings.Truncate (int (math.Max 1 $categoryBudget)) "…" $category -}}
+      {{- $fittedMeta := slice -}}
+      {{- range $meta -}}
+        {{- $fittedMeta = $fittedMeta | append (cond (eq . $category) $shortCategory .) -}}
+      {{- end -}}
+      {{- $metaText = delimit $fittedMeta " · " -}}
+    {{- end -}}
     {{- $filters := slice
       (images.Text (upper $eyebrow) (dict "font" $sans "size" 20 "color" "#c9c3b6" "x" 100 "y" 62))
       (images.Text (delimit $lines "\n") (dict "font" $serif "size" $size "color" "#f6f1e6" "x" 72 "y" 128 "linespacing" (int (mul $size 0.08))))
@@ -162,7 +185,9 @@
       {{- $panel := $cover.Fill "380x620 Center" -}}
       {{- $card = $base | images.Filter (images.Overlay $textLayer 0 0) (images.Overlay $panel 820 10) (images.Overlay $divider 818 10) -}}
     {{- end -}}
-    {{- $card = $card.Process "jpg q82" -}}
+    {{- $encoding := "jpg q82" -}}
+    {{- if $cover -}}{{- $encoding = "jpg q76" -}}{{- end -}}
+    {{- $card = $card.Process $encoding -}}
     {{- $result = dict "url" $card.Permalink "width" 1200 "height" 630 -}}
   {{- end -}}
 {{- else -}}
