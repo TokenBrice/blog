@@ -1,4 +1,6 @@
-{{- /* End-of-article colophon. Package L (wave 2) replaces these legacy modules with one composed block. */ -}}
-{{ partial "article/components/series-nav" . }}
-{{ partial "article/components/glossary-mentions" . }}
-{{ partial "article/components/footer" . }}
+<footer class="article-colophon" aria-label="{{ T "colophonLabel" }}">
+    {{ partial "article/components/series-nav" . }}
+    {{ partial "article/components/tags" . }}
+    {{ partial "article/components/glossary-mentions" . }}
+    {{ partial "article/components/footer" . }}
+</footer>

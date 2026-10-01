@@ -619,3 +619,82 @@ other = "Guides"
 
 [searchLinkArchives]
 other = "Archives"
+
+# --- L: article colophon and keep reading ---
+[colophonLabel]
+other = "Informations sur l’article et lectures complémentaires"
+
+[colophonSeriesLabel]
+other = "Ordre de lecture de la série"
+
+[colophonSeries]
+other = "Série"
+
+[colophonParts]
+one = "{{ .Count }} partie"
+other = "{{ .Count }} parties"
+
+[colophonCurrent]
+other = "vous êtes ici"
+
+[colophonFiled]
+other = "Classé dans"
+
+[colophonMoreTags]
+one = "Afficher {{ .Count }} tag supplémentaire"
+other = "Afficher {{ .Count }} tags supplémentaires"
+
+[colophonConceptsArticle]
+other = "Concepts dans cet article"
+
+[colophonConceptsPage]
+other = "Concepts sur cette page"
+
+[colophonAuthor]
+other = "À propos de l’auteur"
+
+[colophonAboutAuthor]
+other = "À propos de {{ .Name }}"
+
+[colophonFollow]
+other = "Suivre le travail de l’auteur"
+
+[colophonRssPurpose]
+other = "chaque article, sans algorithme"
+
+[colophonTelegramPurpose]
+other = "annonces"
+
+[colophonXPurpose]
+other = "prises de position et discussions"
+
+[colophonYoutubePurpose]
+other = "vidéos et échanges"
+
+[colophonFarcasterPurpose]
+other = "discussions onchain"
+
+[colophonUpdated]
+other = "Mis à jour le"
+
+[colophonKeepReading]
+other = "Continuer la lecture"
+
+[colophonExploreGuide]
+other = "Explorer le guide"
+
+# --- N: hubs and reading paths ---
+[readingPathCore]
+other = "Commencer ici"
+
+[readingPathHistorical]
+other = "Cas historiques"
+
+[readingPathHistoricalContext]
+other = "Des études datées de mécanismes, pas des modes d'emploi actuels. Historique ne veut pas dire disparu : lisez le contexte de chaque article avant d'agir."
+
+[readingPathAuthorProject]
+other = "Projet de l’auteur"
+
+[readingPathEnglishOnly]
+other = "En anglais uniquement"

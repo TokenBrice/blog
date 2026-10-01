@@ -1,7 +1,17 @@
-{{ if .Params.Tags }}
-    <section class="article-tags" aria-label="{{ T "article.tags" | default "Tags" }}">
-        {{ range (.GetTerms "tags") }}
-            <span>{{ .LinkTitle }}</span>
-        {{ end }}
-    </section>
-{{ end }}
+{{- $categories := .GetTerms "categories" -}}
+{{- $tags := .GetTerms "tags" -}}
+{{- if or $categories $tags }}
+<div class="colophon-filed colophon-group">
+    <span class="colophon-heading">{{ T "colophonFiled" }}</span>
+    <span class="colophon-filed__links">
+        {{- range $index, $term := $categories }}{{ if $index }}<span aria-hidden="true"> · </span>{{ end }}<a href="{{ $term.RelPermalink }}" data-placement="post-end">{{ $term.LinkTitle }}</a>{{ end -}}
+        {{- range $index, $term := first 8 $tags }}{{ if or $index $categories }}<span aria-hidden="true"> · </span>{{ end }}<span>{{ $term.LinkTitle }}</span>{{ end -}}
+    </span>
+    {{- if gt (len $tags) 8 }}
+    <details class="colophon-tags-more">
+        <summary aria-label="{{ T "colophonMoreTags" (sub (len $tags) 8) }}">+{{ sub (len $tags) 8 }}</summary>
+        <span class="colophon-tags-rest">{{ range $index, $term := after 8 $tags }}{{ if $index }}<span aria-hidden="true"> · </span>{{ end }}<span>{{ $term.LinkTitle }}</span>{{ end }}</span>
+    </details>
+    {{- end }}
+</div>
+{{- end -}}

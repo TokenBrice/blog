@@ -1,326 +1,104 @@
-/* ============================================================
- * End-of-post terminal
- * Appears after the long-form body. Two-column composition at md+
- * (related posts on the left, follow stack on the right); single
- * column on mobile. Flat at rest, hairline border, 10px radius.
- * No subscribe-hero gradient, no CTA card, no SaaS.
- * ============================================================ */
-
 .end-of-post {
-    margin: 3rem 0 0;
-    padding: 1.75rem 1.75rem 1.5rem;
-    background: var(--card-background);
-    border: 1px solid var(--card-separator-color);
-    border-radius: var(--card-border-radius, 10px);
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.75rem;
+    margin: var(--space-6) 0 0;
+    padding: 0;
+    color: var(--ink);
+    font-family: var(--font-body);
 
-    @media (min-width: 768px) {
-        grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
-        gap: 2.5rem;
-        padding: 2rem 2.25rem 1.75rem;
+    &__heading {
+        margin: 0 0 var(--space-4);
+        font-family: var(--font-display);
+        font-size: var(--fs-h3);
+        line-height: 1.3;
     }
 
-    &__sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
+    &__grid {
+        display: grid;
+        gap: var(--space-5);
+    }
+
+    &__related-list {
+        display: grid;
+        gap: var(--space-5);
+        list-style: none;
+        margin: 0;
         padding: 0;
-        margin: -1px;
+    }
+
+    &__related-item { min-width: 0; margin: 0; }
+
+    &__related-link {
+        display: flex;
+        align-items: start;
+        gap: var(--space-3);
+        color: var(--ink);
+        text-decoration: none;
+    }
+
+    &__related-thumb {
+        display: block;
+        flex: 0 0 96px;
+        width: 96px;
+        height: 72px;
         overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
+        border-radius: var(--radius-chip);
+        picture { display: block; width: 100%; height: 100%; }
+        img { display: block; width: 100%; height: 100%; object-fit: cover; }
     }
 
-    &__label {
-        margin: 0 0 0.95rem;
-        font-family: var(--base-font-family);
-        font-size: var(--fs-micro);
+    &__related-body { display: grid; gap: var(--space-2); min-width: 0; }
+
+    &__related-title {
+        font-family: var(--font-display);
+        font-size: var(--fs-small);
         font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--accent-color);
-    }
-}
-
-/* ----- Related posts ----- */
-.end-of-post__related-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.85rem;
-
-    @media (min-width: 520px) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 1rem;
-    }
-}
-
-.end-of-post__related-item {
-    margin: 0;
-}
-
-.end-of-post__related-link {
-    display: flex;
-    gap: 0.85rem;
-    align-items: stretch;
-    padding: 0.7rem;
-    border-radius: var(--tag-border-radius, 4px);
-    text-decoration: none;
-    color: inherit;
-    background: transparent;
-    transition: background-color 0.2s ease, transform 0.2s ease;
-
-    &:hover,
-    &:focus-visible {
-        background: var(--card-background-selected);
-        transform: translateY(-1px);
-
-        .end-of-post__related-title {
-            color: var(--accent-color);
-        }
+        line-height: 1.4;
     }
 
-    &:focus-visible {
-        outline: 2px solid var(--accent-color);
-        outline-offset: 2px;
-    }
-}
-
-.end-of-post__related-thumb {
-    flex: 0 0 auto;
-    width: 88px;
-    height: 64px;
-    overflow: hidden;
-    border-radius: var(--tag-border-radius, 4px);
-    background: var(--card-background-selected);
-    display: block;
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-    }
-}
-
-.end-of-post__related-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 0;
-    gap: 0.25rem;
-}
-
-.end-of-post__related-kicker {
-    font-size: var(--fs-micro);
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--card-text-color-tertiary);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem;
-    align-items: center;
-    line-height: 1.3;
-}
-
-.end-of-post__related-dot {
-    opacity: 0.6;
-}
-
-.end-of-post__related-title {
-    font-family: var(--article-font-family);
-    font-size: var(--fs-small);
-    font-weight: 700;
-    line-height: 1.3;
-    color: var(--card-text-color-main);
-    transition: color 0.2s ease;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-/* ----- Hub + follow stack ----- */
-.end-of-post__side {
-    @media (min-width: 768px) {
-        padding-left: 1.75rem;
-        border-left: 1px solid var(--card-separator-color);
+    &__related-description {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: var(--fs-meta);
+        line-height: 1.5;
+        color: var(--ink-2);
     }
 
-    &--solo {
-        @media (min-width: 768px) {
-            padding-left: 0;
-            border-left: 0;
-        }
-    }
-}
-
-.end-of-post__hubs {
-    margin-bottom: 1.25rem;
-}
-
-.end-of-post__hub-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: 0.35rem;
-}
-
-.end-of-post__hub-link {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-    padding: 0.6rem 0.65rem;
-    border-radius: var(--tag-border-radius, 4px);
-    color: var(--card-text-color-secondary);
-    text-decoration: none;
-    transition: color 0.18s ease, background-color 0.18s ease;
-
-    &:hover,
-    &:focus-visible {
-        color: var(--accent-color);
-        background: var(--card-background-selected);
+    &__hub-link {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-content: start;
+        gap: var(--space-2);
+        padding: var(--space-4);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-chip);
+        background: var(--surface);
+        color: var(--ink);
+        text-decoration: none;
+        min-height: 44px;
     }
 
-    &:focus-visible {
-        outline: 2px solid var(--accent-color);
-        outline-offset: 2px;
+    &__hub-label { grid-column: 1 / -1; font-size: var(--fs-micro); color: var(--ink-2); }
+    &__hub-title { font-family: var(--font-display); font-size: var(--fs-small); font-weight: 700; line-height: 1.4; }
+    &__hub-arrow { font-size: var(--fs-body); }
+
+    a:hover .end-of-post__related-title,
+    a:hover .end-of-post__hub-title {
+        text-decoration: underline;
+        text-decoration-color: var(--signal);
+        text-underline-offset: 3px;
     }
-}
 
-.end-of-post__hub-type {
-    font-size: var(--fs-micro);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--card-text-color-tertiary);
-}
-
-.end-of-post__hub-title {
-    font-size: var(--fs-small);
-    font-weight: 650;
-    line-height: 1.25;
-}
-
-.end-of-post__follow-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 0.4rem;
+    a:focus-visible { outline: 2px solid var(--slate); outline-offset: 4px; }
 
     @media (min-width: 768px) {
-        grid-template-columns: 1fr;
-        gap: 0.2rem;
-    }
-}
-
-.end-of-post__follow-link {
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    padding: 0.55rem 0.65rem;
-    border-radius: var(--tag-border-radius, 4px);
-    color: var(--card-text-color-secondary);
-    text-decoration: none;
-    font-size: var(--fs-meta);
-    font-weight: 500;
-    line-height: 1.2;
-    min-height: 44px;
-    transition: color 0.18s ease, background-color 0.18s ease;
-
-    &:hover,
-    &:focus-visible {
-        color: var(--accent-color);
-        background: var(--card-background-selected);
+        &__grid { grid-template-columns: minmax(0, 3fr) minmax(140px, 1fr); }
+        &__related-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        &__related-link { flex-direction: column; }
     }
 
-    &:focus-visible {
-        outline: 2px solid var(--accent-color);
-        outline-offset: 2px;
-    }
-}
-
-.end-of-post__follow-icon {
-    flex: 0 0 18px;
-    width: 18px;
-    height: 18px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    svg {
-        width: 18px;
-        height: 18px;
-        display: block;
-        /* Brand icons ship with a fixed slate fill — coerce them
-         * to currentColor so hover tinting works uniformly. */
-        fill: currentColor;
-        stroke: currentColor;
-
-        path,
-        circle,
-        rect,
-        polygon {
-            fill: currentColor;
-        }
-    }
-
-    /* RSS icon is stroke-only (tabler) — restore its fill state. */
-    .end-of-post__follow-link--rss & svg {
-        fill: none;
-        stroke: currentColor;
-        stroke-width: 2;
-
-        path,
-        circle,
-        rect,
-        polygon {
-            fill: none;
-        }
-    }
-}
-
-.end-of-post__follow-name {
-    flex: 1 1 auto;
-    min-width: 0;
-}
-
-/* ----- Dark mode ----- */
-[data-scheme="dark"] {
-    .end-of-post {
-        background: rgba(255, 255, 255, 0.025);
-        border-color: rgba(255, 255, 255, 0.08);
-    }
-
-    .end-of-post__side {
-        @media (min-width: 768px) {
-            border-left-color: rgba(255, 255, 255, 0.08);
-        }
-    }
-
-    .end-of-post__related-thumb {
-        background: rgba(255, 255, 255, 0.04);
-    }
-}
-
-/* ----- Reduced motion ----- */
-@media (prefers-reduced-motion: reduce) {
-    .end-of-post__related-link {
-        transition: background-color 0.01ms;
-
-        &:hover,
-        &:focus-visible {
-            transform: none;
-        }
+    @media (min-width: 1280px) {
+        &__related-link { flex-direction: row; }
     }
 }

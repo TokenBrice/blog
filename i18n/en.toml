@@ -619,3 +619,82 @@ other = "Guides"
 
 [searchLinkArchives]
 other = "Archives"
+
+# --- L: article colophon and keep reading ---
+[colophonLabel]
+other = "Article information and further reading"
+
+[colophonSeriesLabel]
+other = "Series reading order"
+
+[colophonSeries]
+other = "Series"
+
+[colophonParts]
+one = "{{ .Count }} part"
+other = "{{ .Count }} parts"
+
+[colophonCurrent]
+other = "you are here"
+
+[colophonFiled]
+other = "Filed under"
+
+[colophonMoreTags]
+one = "Show {{ .Count }} more tag"
+other = "Show {{ .Count }} more tags"
+
+[colophonConceptsArticle]
+other = "Concepts in this article"
+
+[colophonConceptsPage]
+other = "Concepts on this page"
+
+[colophonAuthor]
+other = "About the author"
+
+[colophonAboutAuthor]
+other = "About {{ .Name }}"
+
+[colophonFollow]
+other = "Follow the author's work"
+
+[colophonRssPurpose]
+other = "every post, no algorithm"
+
+[colophonTelegramPurpose]
+other = "announcements"
+
+[colophonXPurpose]
+other = "short takes and discussion"
+
+[colophonYoutubePurpose]
+other = "videos and conversations"
+
+[colophonFarcasterPurpose]
+other = "onchain discussion"
+
+[colophonUpdated]
+other = "Updated"
+
+[colophonKeepReading]
+other = "Keep reading"
+
+[colophonExploreGuide]
+other = "Explore the guide"
+
+# --- N: hubs and reading paths ---
+[readingPathCore]
+other = "Start here"
+
+[readingPathHistorical]
+other = "Historical cases"
+
+[readingPathHistoricalContext]
+other = "Dated mechanism studies, not current product instructions. Historical does not mean defunct: check each post's context before acting."
+
+[readingPathAuthorProject]
+other = "Author project"
+
+[readingPathEnglishOnly]
+other = "English only"

@@ -1,26 +1,37 @@
-<footer class="article-footer">
-    {{ partial "article/components/tags" . }}
-
-    {{- if eq .Type "post" -}}
-    <section class="article-author">
-        <strong>By <a href="{{ absLangURL "about/" }}">TokenBrice</a></strong>
-        <span>DeFi analyst and educator focused on protocol mechanics, stablecoins, liquidity, and risk.</span>
-    </section>
-    {{- end }}
-
-    {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
-    <section class="article-copyright">
-        {{ partial "helper/icon" "copyright" }}
-        <span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>
-    </section>
-    {{ end }}
-
-    {{- if .Lastmod.After .Date -}}
-    <section class="article-lastmod">
-        {{ partial "helper/icon" "clock" }}
-        <span>
-            {{ T "article.lastUpdatedOn" }} {{ .Lastmod | time.Format ( or .Site.Params.dateFormat.lastUpdated "Jan 02, 2006 15:04 MST" ) }}
-        </span>
-    </section>
-    {{- end -}}
-</footer>
+{{- $author := hugo.Data.author -}}
+{{- if and (eq .Type "post") $author }}
+<section class="colophon-author colophon-group" aria-label="{{ T "colophonAuthor" }}">
+    <div class="colophon-author__identity">
+        <a href="{{ "about/" | relLangURL }}" class="colophon-author__avatar" data-placement="post-end" aria-label="{{ T "colophonAboutAuthor" (dict "Name" $author.name) }}">{{ partial "helper/picture.html" (dict "src" $author.avatar.src "alt" "" "role" "avatar" "sizes" "48px") }}</a>
+        <div>
+            <h2 class="colophon-author__name"><a href="{{ "about/" | relLangURL }}" data-placement="post-end">{{ $author.name }}</a></h2>
+            <p class="colophon-author__bio">{{ index $author.bio .Language.Lang }}</p>
+        </div>
+    </div>
+    <ul class="colophon-follow" aria-label="{{ T "colophonFollow" }}">
+        <li><a href="{{ "index.xml" | relLangURL }}" data-placement="post-end" data-purpose="rss"><strong>RSS</strong><span>{{ T "colophonRssPurpose" }}</span></a></li>
+        {{- $targets := slice
+            (dict "host" "t.me" "name" "Telegram" "purpose" "announcements" "label" "colophonTelegramPurpose")
+            (dict "host" "x.com" "name" "X" "purpose" "follow" "label" "colophonXPurpose")
+            (dict "host" "youtube.com" "name" "YouTube" "purpose" "watch" "label" "colophonYoutubePurpose")
+            (dict "host" "warpcast.com" "name" "Farcaster" "purpose" "follow" "label" "colophonFarcasterPurpose")
+        -}}
+        {{- range $target := $targets -}}
+            {{- range $author.sameAs -}}
+                {{- if eq (urls.Parse .).Host $target.host }}
+        <li{{ if ne $target.purpose "announcements" }} class="colophon-follow__secondary"{{ end }}><a href="{{ . }}" rel="me noopener" data-placement="post-end" data-purpose="{{ $target.purpose }}"><strong>{{ $target.name }}</strong><span>{{ T $target.label }}</span></a></li>
+                {{- end -}}
+            {{- end -}}
+        {{- end }}
+    </ul>
+</section>
+{{- end -}}
+{{- $licensed := and .Site.Params.article.license.enabled (ne .Params.license false) -}}
+{{- $updated := ge (sub .Lastmod.Unix .Date.Unix) 86400 -}}
+{{- if or $licensed $updated }}
+<div class="colophon-legal colophon-group">
+    {{- if $licensed }}<span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>{{ end -}}
+    {{- if and $licensed $updated }}<span aria-hidden="true"> · </span>{{ end -}}
+    {{- if $updated }}<span>{{ T "colophonUpdated" }} <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") }}</time></span>{{ end }}
+</div>
+{{- end -}}

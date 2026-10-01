@@ -1,45 +1,67 @@
-{{/*
-    Inner partial for glossary-mentions (separated so partialCached has a stable name).
-    Renders <aside class="glossary-mentions"> with up to 10 unique terms matched
-    in .RawContent. Strategy: lowercase content once, strip code, then for each
-    glossary term do a cheap substring check, then confirm a word boundary via
-    findRE (regex only run on the ~few terms that pass the cheap check).
-*/}}
-{{- $lang := .Site.Language.Lang -}}
-{{- $glossary := index hugo.Data.glossary $lang -}}
+{{- /* Explicit IDs, including an empty list, override automatic detection. */ -}}
+{{- $glossary := index hugo.Data.glossary .Language.Lang -}}
+{{- $matches := slice -}}
+{{- $seen := dict -}}
 {{- if and $glossary $glossary.terms -}}
-    {{- $raw := lower .RawContent -}}
-    {{- $raw = replaceRE "(?s)```.*?```" " " $raw -}}
-    {{- $raw = replaceRE "`[^`]*`" " " $raw -}}
-    {{- $stop := slice "defi" "ethereum" "bitcoin" "usd" "eth" "btc" "token" "tokens" "crypto" "web3" "blockchain" -}}
-    {{- $maxMatches := 10 -}}
-    {{- $matches := slice -}}
-    {{- $seen := dict -}}
-    {{- range $glossary.terms -}}
-        {{- if lt (len $matches) $maxMatches -}}
-            {{- $id := .id -}}
-            {{- $label := .term -}}
-            {{- $needle := lower $label -}}
-            {{- if and (not (in $stop $needle)) (not (index $seen $id)) (in $raw $needle) -}}
-                {{- /* Word-boundary confirm: \b doesn't work well in Go regex with unicode/punct, so emulate it. */ -}}
-                {{- $escaped := $needle | replaceRE "[.+*?()\\[\\]{}|^$\\\\]" "\\${0}" -}}
-                {{- $pattern := printf "(^|[^a-z0-9_])%s($|[^a-z0-9_])" $escaped -}}
-                {{- if findRE $pattern $raw 1 -}}
-                    {{- $matches = $matches | append (dict "id" $id "term" $label) -}}
+    {{- if isset .Params "glossary_terms" -}}
+        {{- range .Params.glossary_terms -}}
+            {{- $id := . -}}
+            {{- range $glossary.terms -}}
+                {{- if and (eq .id $id) (not (index $seen $id)) -}}
+                    {{- $matches = $matches | append (dict "id" .id "term" .term) -}}
                     {{- $seen = merge $seen (dict $id true) -}}
                 {{- end -}}
             {{- end -}}
         {{- end -}}
+    {{- else -}}
+        {{- $raw := lower .RawContent -}}
+        {{- $raw = replaceRE "(?ms)^\\s{0,3}(`{3,}|~{3,})[^\\n]*\\n.*?^\\s{0,3}(`{3,}|~{3,})[^\\n]*$" " " $raw -}}
+        {{- $raw = replaceRE "(?m)^( {4}|\\t).*$" " " $raw -}}
+        {{- $raw = replaceRE "`+[^`]*`+" " " $raw -}}
+        {{- /* Keep link labels, not destinations or reference definitions. */ -}}
+        {{- $raw = replaceRE "!?\\[([^]\\n]*)\\]\\([^\\n]*?\\)" "$1" $raw -}}
+        {{- $raw = replaceRE "!?\\[([^]\\n]*)\\]\\[[^]\\n]*\\]" "$1" $raw -}}
+        {{- $raw = replaceRE "(?m)^\\s{0,3}\\[[^]]+\\]:.*$" " " $raw -}}
+        {{- $raw = replaceRE "(https?://|www\\.)[^\\s<>]+" " " $raw -}}
+        {{- $raw = replaceRE "<[^>]*>" " " $raw -}}
+        {{- /* Double separators so adjacent matches do not consume each other's boundary. */ -}}
+        {{- $raw = replaceRE "[^\\p{L}\\p{N}_]+" "  " $raw -}}
+        {{- $topic := lower (printf "%s %s" .Title (delimit (.Params.tags | default (slice)) " ")) -}}
+        {{- $stop := slice "defi" "ethereum" "bitcoin" "usd" "eth" "btc" "token" "tokens" "crypto" "web3" "blockchain" -}}
+        {{- $generic := slice "volume" "price" "interest" "returns" "value" "reward" "rewards" -}}
+        {{- $englishTerms := (index hugo.Data.glossary "en").terms -}}
+        {{- range $glossary.terms -}}
+            {{- $term := . -}}
+            {{- $needles := slice .term (.full_term | default .term) -}}
+            {{- /* EN terminology is also used in French posts; IDs stay language-independent. */ -}}
+            {{- range where $englishTerms "id" $term.id -}}
+                {{- $needles = $needles | append .term (.full_term | default .term) -}}
+            {{- end -}}
+            {{- range .aliases -}}
+                {{- if not (hasPrefix . "/") -}}{{- $needles = $needles | append . -}}{{- end -}}
+            {{- end -}}
+            {{- $count := 0 -}}
+            {{- $ownTopic := false -}}
+            {{- range uniq $needles -}}
+                {{- $needle := lower . -}}
+                {{- $escaped := replaceRE "[.+*?()\\[\\]{}|^$\\\\]" "\\${0}" $needle -}}
+                {{- $escaped = replaceRE "\\s+" "\\s+" $escaped -}}
+                {{- $pattern := printf "(^|[^\\p{L}\\p{N}_])%s($|[^\\p{L}\\p{N}_])" $escaped -}}
+                {{- if findRE $pattern $topic 1 -}}{{- $ownTopic = true -}}{{- end -}}
+                {{- if not (in $stop $needle) -}}
+                    {{- $count = math.Max $count (len (findRE $pattern $raw)) -}}
+                {{- end -}}
+            {{- end -}}
+            {{- if and (gt $count 0) (or (not (in $generic $term.id)) $ownTopic) -}}
+                {{- $matches = $matches | append (dict "id" $term.id "term" $term.term "count" $count) -}}
+            {{- end -}}
+        {{- end -}}
+        {{- $matches = sort $matches "count" "desc" -}}
     {{- end -}}
-    {{- if gt (len $matches) 0 -}}
-        <aside class="glossary-mentions" aria-label="{{ T "glossaryMentions" | default "Concepts mentioned in this article" }}">
-            <h3>{{ T "glossaryMentionsTitle" | default "Concepts in this article" }}</h3>
-            <ul>
-                {{- range $matches }}
-                {{- $href := printf "glossary/%s/" .id | relLangURL -}}
-                <li><a href="{{ $href }}">{{ .term }}</a></li>
-                {{- end }}
-            </ul>
-        </aside>
+    {{- with first 10 $matches }}
+    <section class="colophon-concepts colophon-group" aria-labelledby="colophon-concepts-heading">
+        <h2 id="colophon-concepts-heading" class="colophon-heading">{{ if eq $.Type "post" }}{{ T "colophonConceptsArticle" }}{{ else }}{{ T "colophonConceptsPage" }}{{ end }}</h2>
+        <ul>{{ range . }}<li><a href="{{ printf "glossary/%s/" .id | relLangURL }}" data-placement="post-end">{{ .term }}</a></li>{{ end }}</ul>
+    </section>
     {{- end -}}
 {{- end -}}

@@ -233,8 +233,6 @@
                     {{- $articleTitle := .title | default "Related article" -}}
                     {{- $articleDesc := .description | default "" -}}
                     {{- $articleImage := "" -}}
-                    {{- $articleImageW := 120 -}}
-                    {{- $articleImageH := 120 -}}
 
                     {{- $page := partial "glossary/resolve-page.html" (dict "url" $articleUrl "site" $.Site) -}}
                     {{- if $page -}}
@@ -244,11 +242,8 @@
                         {{- $relatedImage := partial "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" -}}
                         {{- if $relatedImage.exists }}
                             {{- $articleImage = $relatedImage.permalink -}}
-                            {{- if $relatedImage.resource }}
-                                {{- $relatedThumb := $relatedImage.resource.Fill "240x160" -}}
-                                {{- $articleImage = $relatedThumb.RelPermalink -}}
-                                {{- $articleImageW = $relatedThumb.Width -}}
-                                {{- $articleImageH = $relatedThumb.Height -}}
+                            {{- with $relatedImage.resource }}
+                                {{- $articleImage = . -}}
                             {{- end -}}
                         {{- end -}}
                     {{- end }}
@@ -259,8 +254,6 @@
                             "title" $articleTitle
                             "description" $articleDesc
                             "image" $articleImage
-                            "imageW" $articleImageW
-                            "imageH" $articleImageH
                         ) }}
                     {{- end }}
                 {{- end }}
@@ -290,16 +283,11 @@
                         {{- $articleTitle := $candidate.Title | default "Related article" -}}
                         {{- $articleDesc := $candidate.Summary | default $candidate.Description | default "" | plainify -}}
                         {{- $articleImage := "" -}}
-                        {{- $articleImageW := 120 -}}
-                        {{- $articleImageH := 120 -}}
                         {{- $relatedImage := partial "helper/image" (dict "Context" $candidate "Type" "articleList") $candidate.RelPermalink "articleList" -}}
                         {{- if $relatedImage.exists }}
                             {{- $articleImage = $relatedImage.permalink -}}
-                            {{- if $relatedImage.resource }}
-                                {{- $relatedThumb := $relatedImage.resource.Fill "240x160" -}}
-                                {{- $articleImage = $relatedThumb.RelPermalink -}}
-                                {{- $articleImageW = $relatedThumb.Width -}}
-                                {{- $articleImageH = $relatedThumb.Height -}}
+                            {{- with $relatedImage.resource }}
+                                {{- $articleImage = . -}}
                             {{- end -}}
                         {{- end -}}
                         {{- $relatedArticleItems = $relatedArticleItems | append (dict
@@ -307,8 +295,6 @@
                             "title" $articleTitle
                             "description" $articleDesc
                             "image" $articleImage
-                            "imageW" $articleImageW
-                            "imageH" $articleImageH
                         ) }}
                 {{- end }}
             {{- end }}
@@ -321,9 +307,9 @@
                     <article class="related-article-card">
                         <a href="{{ .url }}">
                             {{- $articleImage := .image }}
-                            {{- if ne $articleImage "" }}
+                            {{- with $articleImage }}
                             <div class="related-article-image">
-                                <img src="{{ $articleImage }}" width="{{ .imageW }}" height="{{ .imageH }}" loading="lazy" alt="{{ .title }}"/>
+                                {{ partial "helper/picture.html" (dict "src" . "alt" "" "role" "thumb" "sizes" "120px") }}
                             </div>
                             {{- end }}
                             <div class="related-article-body">
