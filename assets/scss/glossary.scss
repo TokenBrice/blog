@@ -1168,3 +1168,6 @@ $glossary-faq-color: #8B5CF6;
 [data-scheme="dark"] .related-articles-list .article-preview {
     color: var(--card-text-color-secondary);
 }
+
+/* Glossary additions owned by the glossary work packages. */
+@import "glossary-extras";

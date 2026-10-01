@@ -10,6 +10,9 @@
                0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
+/* Design tokens (type scale, colour roles, spacing). Must load first. */
+@import "custom/tokens";
+
 /* Import existing custom styles */
 @import "glossary-links";
 @import "breadcrumbs";
@@ -612,3 +615,17 @@ footer.site-footer::before {
 .widget--latest-show {
     margin-bottom: 1.5rem;
 }
+
+/* ============================================================
+ * Component partials: one owner each. Keep this block last so
+ * components can rely on the tokens and override legacy rules.
+ * ============================================================ */
+@import "custom/chrome";
+@import "custom/figures";
+@import "custom/taxonomy";
+@import "custom/trust-strip";
+@import "custom/disclosure";
+@import "custom/context";
+@import "custom/colophon";
+@import "custom/reading-path";
+@import "custom/search";
