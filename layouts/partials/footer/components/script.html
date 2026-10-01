@@ -17,8 +17,10 @@
 
 {{- $opts := dict "minify" hugo.IsProduction -}}
 {{- $script := resources.Get "ts/main.ts" | js.Build $opts | fingerprint -}}
+{{- $codeCopy := T "codeCopy" -}}
+{{- $codeCopied := T "codeCopied" -}}
 
-<script type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous" defer></script>
+<script id="stack-main-script" type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous" data-code-copy="{{ $codeCopy }}" data-code-copied="{{ $codeCopied }}" defer></script>
 
 {{- with resources.Get "ts/custom.ts" -}}
     {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}

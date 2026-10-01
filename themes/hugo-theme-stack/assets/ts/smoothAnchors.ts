@@ -28,7 +28,7 @@ function setupSmoothAnchors() {
             window.history.pushState({}, "", aElement.getAttribute("href"));
             scrollTo({
                 top: offset,
-                behavior: "smooth"
+                behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
             });
         });
     });

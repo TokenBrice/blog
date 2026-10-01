@@ -1,52 +1,44 @@
 #!/usr/bin/env bash
-# gen-img-dims.sh — build-time image dimension manifest for CLS-free static covers.
-#
-# Walks static/img/ and emits data/imageDims.json mapping each /img/<path> to
-# {"w":<width>,"h":<height>}. Hugo templates consume this to set width/height
-# on <img> tags whose src is a static path (i.e. not a page-bundle Resource).
-#
-# Dependencies:
-#   - ImageMagick `identify` (pacman -S imagemagick / apt-get install imagemagick)
-#   - jq (for safe JSON assembly, handles filenames containing quotes/backslashes)
-# Re-run whenever images are added to static/img/. Zone J wires this into CI
-# before `hugo build`.
-
+# Scan image headers once; serialize the compatible /img/path -> {w,h} map once.
+# Requires python3 and ImageMagick identify. AVIF is included; GIF uses frame zero.
 set -euo pipefail
 cd "$(dirname "$0")/.."
+python3 - <<'PY'
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
 
-if ! command -v identify >/dev/null 2>&1; then
-  echo "gen-img-dims.sh: ImageMagick 'identify' not found in PATH" >&2
-  exit 1
-fi
-
-if ! command -v jq >/dev/null 2>&1; then
-  echo "gen-img-dims.sh: 'jq' not found in PATH" >&2
-  exit 1
-fi
-
-out=data/imageDims.json
-mkdir -p data
-
-tmp=$(mktemp)
-trap 'rm -f "$tmp"' EXIT
-
-# Build the manifest by feeding (path, width, height) triples into jq.
-# Each value is on its own line; jq is invoked once per image so the path
-# bytes never have to round-trip through any string-encoding logic in bash.
-echo '{}' > "$tmp"
-while IFS= read -r -d '' f; do
-  dim=$(identify -format '%w %h' "${f}[0]" 2>/dev/null || echo "")
-  [[ -z "$dim" ]] && continue
-  w=${dim% *}
-  h=${dim##* }
-  rel="/${f#static/}"
-  jq --arg k "$rel" --argjson w "$w" --argjson h "$h" \
-     '. + {($k): {w: $w, h: $h}}' "$tmp" > "$tmp.new"
-  mv "$tmp.new" "$tmp"
-done < <(find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' -o -iname '*.gif' \) -print0 | sort -z)
-
-mv "$tmp" "$out"
-trap - EXIT
-
-count=$(jq 'length' "$out")
-echo "gen-img-dims.sh: wrote $out ($count entries)"
+if not shutil.which('identify'):
+    raise SystemExit("gen-img-dims.sh: ImageMagick 'identify' not found in PATH")
+files = sorted(p for p in Path('static/img').rglob('*')
+               if p.is_file() and p.suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.gif'})
+# One process for the entire inventory. Output contains no filenames, so spaces,
+# quotes and Unicode in paths cannot corrupt the JSON or the dimension parsing.
+result = subprocess.run(['identify', '-ping', '-format', '%w %h\n',
+                         *[str(p) + '[0]' for p in files]],
+                        check=True, text=True, capture_output=True) if files else None
+rows = result.stdout.splitlines() if result else []
+if len(rows) != len(files):
+    raise SystemExit('gen-img-dims.sh: identify returned an incomplete dimension inventory')
+dimensions = {}
+for path, row in zip(files, rows):
+    width, height = map(int, row.split())
+    if width <= 0 or height <= 0:
+        raise SystemExit(f'gen-img-dims.sh: invalid dimensions for {path}')
+    dimensions['/' + path.relative_to('static').as_posix()] = {'w': width, 'h': height}
+output = Path('data/imageDims.json')
+output.parent.mkdir(exist_ok=True)
+content = json.dumps(dimensions, ensure_ascii=False, sort_keys=True, indent=2) + '\n'
+if not output.exists() or output.read_text() != content:
+    with tempfile.NamedTemporaryFile('w', dir=output.parent, encoding='utf-8', delete=False) as temp:
+        temp.write(content)
+        name = temp.name
+    os.replace(name, output)
+    status = 'wrote'
+else:
+    status = 'unchanged'
+print(f'gen-img-dims.sh: {status} {output} ({len(dimensions)} entries)')
+PY

@@ -1,55 +1,21 @@
 {{ $image := partialCached "helper/image" (dict "Context" .context "Type" .Type) .context.RelPermalink .Type }}
-{{ $fallbackWidth := 250 }}
-{{ $fallbackHeight := 150 }}
-{{- if .size }}
-    {{- $sizeParts := split .size "x" -}}
-    {{- if eq (len $sizeParts) 2 }}
-        {{- $fallbackWidth = int (index $sizeParts 0) -}}
-        {{- $fallbackHeight = int (index $sizeParts 1) }}
-    {{- end }}
-{{- end }}
-
 <article class="{{ if $image.exists }}has-image{{ end }}">
     <a href="{{ .context.RelPermalink }}">
-        
         {{ if $image.exists }}
             <div class="article-image">
-                {{ if $image.resource }}
-                    {{- $imageRaw := $image.resource | resources.Fingerprint "md5" -}}
-                    {{- $Permalink := $imageRaw.RelPermalink -}}
-                    {{- $Width := $imageRaw.Width -}}
-                    {{- $Height := $imageRaw.Height -}}
-
-                    {{- if .context.Site.Params.imageProcessing.cover.enabled -}}
-                        {{- $thumbnail := $imageRaw.Fill .size -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
-                        {{- $Width = $thumbnail.Width -}}
-                        {{- $Height = $thumbnail.Height -}}
-                    {{- end -}}
-                    
-                    <img src="{{ $Permalink }}" 
-                        width="{{ $Width }}" 
-                        height="{{ $Height }}" 
-                        loading="lazy"
-                        alt="Featured image of post {{ .context.Title }}"
-                        {{ with .context.Slug }}data-key="{{ . }}" {{ end }}
-                        data-hash="{{ $imageRaw.Data.Integrity }}">
-                {{ else }}
-                    <img src="{{ $image.permalink }}" 
-                        width="{{ $fallbackWidth }}" 
-                        height="{{ $fallbackHeight }}" 
-                        loading="lazy" 
-                        alt="Featured image of post {{ .context.Title }}"
-                        data-key="{{ .context.Slug }}" 
-                        data-hash="{{ $image.permalink }}"/>
-                {{ end }}
+                {{- $src := $image.permalink -}}
+                {{- with $image.resource }}{{ $src = . }}{{ end -}}
+                {{- $data := partial "helper/picture-data.html" (dict "src" $src "role" "card") -}}
+                {{/* The processed URL is content-keyed, so changing a master invalidates palettes. */}}
+                {{- $attrs := dict "data-key" .context.RelPermalink "data-hash" $data.src -}}
+                {{- with .context.Params.imagePosition -}}
+                    {{- $attrs = merge $attrs (dict "style" (printf "object-position: %s" .)) -}}
+                {{- end -}}
+                {{ partial "helper/picture.html" (dict "src" $src "alt" (.context.Params.imageAlt | default .context.Params.image_alt | default .context.Title) "role" "card" "imgAttrs" $attrs) }}
             </div>
         {{ end }}
-
         <div class="article-details">
-            <h2 class="article-title">
-                {{- .context.Title -}}
-            </h2>
+            <h2 class="article-title">{{ .context.Title }}</h2>
         </div>
     </a>
 </article>

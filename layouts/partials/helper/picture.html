@@ -1,0 +1,41 @@
+{{/*
+Usage: partial "helper/picture.html" (dict "src" "/img/example.png" "alt" "Chart"
+  "role" "body" "sizes" "(max-width: 768px) 100vw, 720px")
+src may also be a Page resource. Optional loading (lazy), fetchpriority (auto),
+class, sizes and imgAttrs (attribute-name/value dict) belong to the img.
+Reserved img attributes (src/srcset/sizes/width/height/alt/loading/fetchpriority/
+class/decoding) are controlled here, not by imgAttrs. Unsupported sources emit
+plain img; never invent dimensions. See picture-data for the measured AVIF rule.
+*/}}
+{{- $data := partial "helper/picture-data.html" . -}}
+{{- $role := .role | default "body" -}}
+{{- $sizes := "(max-width: 768px) 100vw, 720px" -}}
+{{- if eq $role "thumb" -}}
+    {{- $sizes = "200px" -}}
+{{- else if eq $role "avatar" -}}
+    {{- $sizes = "100px" -}}
+{{- else if eq $role "card" -}}
+    {{- $sizes = "(max-width: 480px) 100vw, 400px" -}}
+{{- end -}}
+{{- $sizes = .sizes | default $sizes -}}
+{{- if $data.srcset -}}
+<picture>
+    {{- with $data.avif }}<source srcset="{{ . | safeURL }}" type="image/avif">{{ end -}}
+    <source srcset="{{ $data.srcset }}" sizes="{{ $sizes }}" type="{{ $data.type }}">
+{{- end -}}
+<img src="{{ $data.src | safeURL }}"
+    {{ with $data.srcset }}srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }}
+    {{ with $data.width }}width="{{ . }}"{{ end }}
+    {{ with $data.height }}height="{{ . }}"{{ end }}
+    alt="{{ .alt | default "" }}"
+    loading="{{ .loading | default "lazy" }}"
+    fetchpriority="{{ .fetchpriority | default "auto" }}"
+    decoding="async"
+    {{ with .class }}class="{{ . }}"{{ end }}
+    {{ range $key, $value := .imgAttrs -}}
+        {{- if not (in (slice "src" "srcset" "sizes" "width" "height" "alt" "loading" "fetchpriority" "class" "decoding") $key) -}}
+            {{ printf " %s=\"%s\"" $key (htmlEscape (printf "%v" $value)) | safeHTMLAttr }}
+        {{- end -}}
+    {{- end -}}
+>
+{{- if $data.srcset }}</picture>{{ end -}}

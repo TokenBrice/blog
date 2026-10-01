@@ -1,2 +1,41 @@
 /* figures.scss: owned by the "B-images" work package (seo-design-overhaul-2026-10).
  * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+
+.article-content figure.article-figure {
+    margin: var(--space-6) 0;
+    max-width: 100%;
+
+    picture {
+        display: block;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-inline: auto;
+    }
+
+    figcaption {
+        margin-top: var(--space-2);
+        color: var(--ink-2);
+        font-size: var(--fs-meta);
+        line-height: 1.5;
+        text-align: left;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .article-figure__fullsize {
+        display: inline-flex;
+        align-items: center;
+        min-height: 24px;
+        margin-top: var(--space-2);
+        font-size: var(--fs-meta);
+        color: var(--ink-2);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+}

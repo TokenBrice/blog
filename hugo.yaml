@@ -212,6 +212,9 @@ markup:
                     inline:
                         - - \(
                           - \)
+        parser:
+            # Standalone images render as <figure> via the image render hook; a <p> wrapper would nest it invalidly.
+            wrapStandAloneImageWithinParagraph: false
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true
@@ -237,3 +240,8 @@ module:
           target: assets
         - source: static/img
           target: assets/img
+
+# Responsive picture helpers share these settings and Hugo's processed-image cache.
+imaging:
+    quality: 80
+    resampleFilter: lanczos

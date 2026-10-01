@@ -12,7 +12,7 @@
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}
-            {{ partial "article-list/default" . }}
+            {{ partial "article-list/default" (dict "context" $element "isLCP" (eq $index 0)) }}
         {{ end }}
     </section>
 

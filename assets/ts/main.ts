@@ -32,34 +32,36 @@ let Stack = {
         /**
          * Add linear gradient background to tile style article
          */
-        const articleTile = document.querySelector('.article-list--tile');
-        if (articleTile) {
-            let observer = new IntersectionObserver(async (entries, observer) => {
+        const articleTiles = document.querySelectorAll('.article-list--tile article.has-image');
+        if (articleTiles.length && typeof IntersectionObserver !== 'undefined') {
+            const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (!entry.isIntersecting) return;
                     observer.unobserve(entry.target);
 
-                    const articles = entry.target.querySelectorAll('article.has-image');
-                    articles.forEach(async article => {
-                        const image = article.querySelector('img');
-                        const articleDetails = article.querySelector('.article-details') as HTMLDivElement | null;
-                        if (!image || !articleDetails) return;
+                    const image = entry.target.querySelector('img');
+                    const articleDetails = entry.target.querySelector('.article-details') as HTMLDivElement | null;
+                    if (!image || !articleDetails) return;
 
-                        const imageURL = image.src,
-                            key = image.getAttribute('data-key'),
+                    const applyPalette = async () => {
+                        if (!image.naturalWidth || !image.currentSrc) return;
+                        const key = image.getAttribute('data-key'),
                             hash = image.getAttribute('data-hash');
-
-                        const colors = await getColor(key, hash, imageURL);
-
+                        const colors = await getColor(key, hash, image.currentSrc);
                         articleDetails.style.background = `
-                        linear-gradient(0deg, 
-                            rgba(${colors.DarkMuted.rgb[0]}, ${colors.DarkMuted.rgb[1]}, ${colors.DarkMuted.rgb[2]}, 0.5) 0%, 
+                        linear-gradient(0deg,
+                            rgba(${colors.DarkMuted.rgb[0]}, ${colors.DarkMuted.rgb[1]}, ${colors.DarkMuted.rgb[2]}, 0.5) 0%,
                             rgba(${colors.Vibrant.rgb[0]}, ${colors.Vibrant.rgb[1]}, ${colors.Vibrant.rgb[2]}, 0.75) 100%)`;
-                    })
-                })
-            });
+                    };
 
-            observer.observe(articleTile)
+                    if (image.complete && image.naturalWidth) {
+                        void applyPalette();
+                    } else {
+                        image.addEventListener('load', applyPalette, { once: true });
+                    }
+                });
+            }, { rootMargin: '200px' });
+            articleTiles.forEach(article => observer.observe(article));
         }
 
 
@@ -67,12 +69,14 @@ let Stack = {
          * Add copy button to code block
         */
         const highlights = document.querySelectorAll('.article-content div.highlight');
-        const copyText = `Copy`,
-            copiedText = `Copied!`;
+        const labels = document.getElementById('stack-main-script')?.dataset;
+        const copyText = labels?.codeCopy,
+            copiedText = labels?.codeCopied;
 
         highlights.forEach(highlight => {
+            if (!copyText || !copiedText) return;
             const copyButton = document.createElement('button');
-            copyButton.innerHTML = copyText;
+            copyButton.textContent = copyText;
             copyButton.classList.add('copyCodeButton');
             highlight.appendChild(copyButton);
 

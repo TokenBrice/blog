@@ -8,11 +8,10 @@
                 <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
                     {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
                 </time>
-                {{/* NEW: Show difficulty badge right after date */}}
                 {{ with .Params.difficulty }}
                     <span class="article-difficulty-inline">
-                        &nbsp;&bull;&nbsp;<span class="difficulty-dot difficulty-dot--{{ . }}"></span>
-                        <span class="difficulty-text">{{ . | title }}</span>
+                        <span class="difficulty-dot difficulty-dot--{{ . }}" aria-hidden="true"></span>
+                        <span class="difficulty-text">{{ T (printf "difficulty%s" (. | title)) }}</span>
                     </span>
                 {{ end }}
             </footer>
@@ -21,30 +20,9 @@
         {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
         {{ if $image.exists }}
             <div class="article-image">
-                {{ if $image.resource }}
-                    {{- $Permalink := $image.resource.RelPermalink -}}
-                    {{- $Width := $image.resource.Width -}}
-                    {{- $Height := $image.resource.Height -}}
-
-                {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-                        {{- $thumbnail := $image.resource.Fill "120x120" -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
-                        {{- $Width = $thumbnail.Width -}}
-                        {{- $Height = $thumbnail.Height -}}
-                    {{- end -}}
-                    
-                    <img src="{{ $Permalink }}" 
-                        width="{{ $Width }}"
-                        height="{{ $Height }}" 
-                        alt="{{ .Title }}"
-                        loading="lazy">
-                {{ else }}
-                    <img src="{{ $image.permalink }}"
-                        width="120"
-                        height="120"
-                        loading="lazy"
-                        alt="Featured image of post {{ .Title }}" />
-                {{ end }}
+                {{- $src := $image.permalink -}}
+                {{- with $image.resource }}{{ $src = . }}{{ end -}}
+                {{ partial "helper/picture.html" (dict "src" $src "alt" (.Params.imageAlt | default .Params.image_alt | default .Title) "role" "thumb" "sizes" "120px") }}
             </div>
         {{ end }}
     </a>

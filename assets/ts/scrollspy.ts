@@ -25,7 +25,10 @@ function scrollToTocElement(tocElement: HTMLElement, scrollableNavigation: HTMLE
     if (scrollTop < 0) {
         scrollTop = 0;
     }
-    scrollableNavigation.scrollTo({ top: scrollTop, behavior: "smooth" });
+    scrollableNavigation.scrollTo({
+        top: scrollTop,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+    });
 }
 
 type IdToElementMap = { [key: string]: HTMLElement };

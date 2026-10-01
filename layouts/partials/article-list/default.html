@@ -1,5 +1,10 @@
 {{- $page := . -}}
+{{- $isLCP := false -}}
+{{- if reflect.IsMap . -}}
+    {{- $page = .context -}}
+    {{- $isLCP = .isLCP | default false -}}
+{{- end -}}
 {{ $image := partialCached "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" }}
 <article class="{{ if $image.exists }}has-image{{ end }}">
-    {{ partialCached "article/components/header" (dict "context" $page "isSummary" true) (printf "%s|summary" $page.RelPermalink) }}
+    {{ partialCached "article/components/header" (dict "context" $page "isSummary" true "isLCP" $isLCP) (printf "%s|summary|lcp=%t" $page.RelPermalink $isLCP) }}
 </article>

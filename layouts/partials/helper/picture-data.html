@@ -1,0 +1,86 @@
+{{/*
+Usage: partial "helper/picture-data.html" (dict "src" "/img/example.png" "role" "thumb")
+Also accepts a Page image resource. Returns src, srcset, type, width, height;
+internal avif optionally supplies picture.html's additional source.
+Widths: thumb/avatar 200/400, card 400/800, cover/body 480/800/1200.
+Only PNG/JPEG/WebP masters are resized; Hugo caches identical Resize operations.
+Measured with ImageMagick q80 under /tmp/tb-impl/B: Maverick 400px WebP
+14,420 B versus full AVIF 81,421 B; mountain 480px WebP 24,976 B versus
+254,436 B AVIF. Thus thumb/card/cover/body never prefer full-size AVIF.
+Avatar alone offers committed AVIF when its original is <=400px (portrait:
+8,194 B AVIF versus 10,860 B 400px WebP). Its WebP remains responsive.
+Direct static AVIF references resolve a same-stem raster master when available.
+Unsupported/missing/external sources keep their URL and known dimensions only.
+*/}}
+{{- $input := .src -}}
+{{- $role := .role | default "body" -}}
+{{- $isResource := not (in (slice "string" "template.URL" "template.HTML") (printf "%T" $input)) -}}
+{{- $src := "" -}}
+{{- $resource := false -}}
+{{- if $isResource -}}
+    {{- $resource = $input -}}
+    {{- $src = $resource.RelPermalink -}}
+{{- else -}}
+    {{- $src = printf "%s" $input -}}
+{{- end -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- $srcset := "" -}}
+{{- $type := "" -}}
+{{- $avif := "" -}}
+{{- $ext := lower (path.Ext $src) -}}
+{{- $isStatic := and (not $isResource) (hasPrefix $src "/img/") (not (strings.Contains $src "?")) (not (strings.Contains $src "#")) -}}
+{{- if $isStatic -}}
+    {{- with index hugo.Data.imageDims $src -}}
+        {{- $width = .w -}}
+        {{- $height = .h -}}
+    {{- end -}}
+    {{- $resource = resources.Get (strings.TrimPrefix "/" $src) -}}
+    {{- if eq $ext ".avif" -}}
+        {{- $resource = false -}}
+        {{- $stem := strings.TrimSuffix (path.Ext $src) $src -}}
+        {{- range slice ".png" ".jpg" ".jpeg" ".PNG" ".JPG" ".JPEG" ".webp" -}}
+            {{- if not $resource -}}
+                {{- $resource = resources.Get (strings.TrimPrefix "/" (printf "%s%s" $stem .)) -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- if $resource -}}
+    {{- $resourceExt := lower (path.Ext $resource.Name) -}}
+    {{- if and (eq $resource.ResourceType "image") (ne $resourceExt ".svg") (ne $resourceExt ".avif") -}}
+        {{- $width = $resource.Width -}}
+        {{- $height = $resource.Height -}}
+    {{- end -}}
+    {{- if in (slice ".png" ".jpg" ".jpeg" ".webp") $resourceExt -}}
+        {{- $widths := slice 480 800 1200 -}}
+        {{- if in (slice "thumb" "avatar") $role -}}
+            {{- $widths = slice 200 400 -}}
+        {{- else if eq $role "card" -}}
+            {{- $widths = slice 400 800 -}}
+        {{- end -}}
+        {{- $candidates := slice -}}
+        {{- $seen := slice -}}
+        {{- range $widths -}}
+            {{- $w := int (math.Min . $resource.Width) -}}
+            {{- if not (in $seen $w) -}}
+                {{- $seen = $seen | append $w -}}
+                {{- $variant := $resource.Resize (printf "%dx webp q80" $w) -}}
+                {{- $candidates = $candidates | append (printf "%s %dw" $variant.RelPermalink $variant.Width) -}}
+                {{/* Use the largest generated candidate as a useful no-srcset fallback. */}}
+                {{- $src = $variant.RelPermalink -}}
+                {{- $width = $variant.Width -}}
+                {{- $height = $variant.Height -}}
+            {{- end -}}
+        {{- end -}}
+        {{- $srcset = delimit $candidates ", " -}}
+        {{- $type = "image/webp" -}}
+        {{- if and $isStatic (eq $role "avatar") (le $resource.Width 400) -}}
+            {{- $candidate := printf "%s.avif" (strings.TrimSuffix (path.Ext (printf "%s" $input)) (printf "%s" $input)) -}}
+            {{- if fileExists (printf "static%s" $candidate) -}}
+                {{- $avif = $candidate -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- return (dict "src" $src "srcset" $srcset "type" $type "width" $width "height" $height "avif" $avif) -}}

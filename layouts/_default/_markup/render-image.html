@@ -1,123 +1,34 @@
-{{- $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
-{{- $Permalink := .Destination | relURL | safeURL -}}
-{{- $alt := .PlainText | safeHTML -}}
-{{- $Width := 0 -}}
-{{- $Height := 0 -}}
-{{- $Srcset := "" -}}
-
-{{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
-{{- $galleryImage := false -}}
-
-{{/* Detect external URLs and query-strings — skip manifest lookup for those */}}
-{{- $destStr := printf "%s" .Destination -}}
-{{- $isExternal := or (hasPrefix $destStr "http://") (hasPrefix $destStr "https://") -}}
-{{- $hasQuery := strings.Contains $destStr "?" -}}
-
-{{/* Determine if we can offer a WebP/AVIF alternative */}}
-{{- $ext := path.Ext .Destination | lower -}}
-{{- $isConvertible := or (eq $ext ".png") (eq $ext ".jpg") (eq $ext ".jpeg") -}}
-{{- $useWebP := and $isConvertible (not $isExternal) -}}
-{{- $webpSrc := "" -}}
-{{- $avifSrc := "" -}}
-
-{{- if $image -}}
-	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
-	{{- $Permalink = $image.RelPermalink -}}
-
-	{{- if $notSVG -}}
-		{{- $Width = $image.Width -}}
-		{{- $Height = $image.Height -}}
-		{{- $galleryImage = true -}}
-
-		{{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
-			{{- $small := $image.Resize `480x` -}}
-			{{- $medium := $image.Resize `768x` -}}
-			{{- $big := $image.Resize `1024x` -}}
-			{{- $Srcset = printf `%s 480w, %s 768w, %s 1024w` $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
-		{{- end -}}
-	{{- end -}}
-
-	{{/* Derive webp/avif siblings from the bundle resource's RelPermalink (hashed) */}}
-	{{- $bundleExt := path.Ext $image.RelPermalink | lower -}}
-	{{- if $useWebP -}}
-		{{- $candidateWebP := printf "%s.webp" (strings.TrimSuffix $bundleExt $image.RelPermalink) -}}
-		{{- if fileExists (printf "static%s" $candidateWebP) -}}
-			{{- $webpSrc = $candidateWebP | safeURL -}}
-		{{- end -}}
-	{{- end -}}
-{{- else -}}
-	{{/* Static path image — try imageDims manifest (skip externals/query-strings) */}}
-	{{- if and (not $isExternal) (not $hasQuery) -}}
-		{{- $lookup := printf "%s" (.Destination | relURL) -}}
-		{{- $dims := index hugo.Data.imageDims $lookup -}}
-		{{- if $dims -}}
-			{{- $Width = $dims.w -}}
-			{{- $Height = $dims.h -}}
-		{{- end -}}
-	{{- end -}}
-
-	{{/* Static path: derive webp/avif siblings from the resolved destination URL */}}
-	{{- if $useWebP -}}
-		{{- $candidateWebP := printf "%s.webp" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
-		{{- if fileExists (printf "static%s" $candidateWebP) -}}
-			{{- $webpSrc = $candidateWebP | safeURL -}}
-		{{- end -}}
-	{{- end -}}
-	{{- if and (not $isExternal) $ext -}}
-		{{- $candidateAvif := printf "%s.avif" (strings.TrimSuffix $ext (.Destination | relURL)) -}}
-		{{- if fileExists (printf "static%s" $candidateAvif) -}}
-			{{- $avifSrc = $candidateAvif | safeURL -}}
-		{{- end -}}
-	{{- end -}}
+{{- $destination := printf "%s" .Destination -}}
+{{- $image := .Page.Resources.GetMatch $destination -}}
+{{- $alt := .PlainText -}}
+{{- $caption := .Title -}}
+{{- with index .Page.Params.image_meta $destination -}}
+    {{- if isset . "alt" }}{{ $alt = .alt }}{{ end -}}
+    {{- if isset . "caption" }}{{ $caption = .caption }}{{ end -}}
 {{- end -}}
-
-{{ if $webpSrc -}}
-<picture>
-	{{ with $avifSrc }}<source srcset="{{ . }}" type="image/avif">{{ end }}
-	<source srcset="{{ $webpSrc }}" type="image/webp">
-	<img src="{{ $Permalink }}"
-		{{ with $Width }}width="{{ . }}"{{ end }}
-		{{ with $Height }}height="{{ . }}"{{ end }}
-		{{ with $Srcset }}srcset="{{ . }}"
-		sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
-		loading="lazy"
-		alt="{{ $alt }}"
-		{{ if $galleryImage }}
-			class="gallery-image"
-			data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
-			data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
-		{{ end }}
-	>
-</picture>
-{{- else if $avifSrc -}}
-<picture>
-	<source srcset="{{ $avifSrc }}" type="image/avif">
-	<img src="{{ $Permalink }}"
-		{{ with $Width }}width="{{ . }}"{{ end }}
-		{{ with $Height }}height="{{ . }}"{{ end }}
-		{{ with $Srcset }}srcset="{{ . }}"
-		sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
-		loading="lazy"
-		alt="{{ $alt }}"
-		{{ if $galleryImage }}
-			class="gallery-image"
-			data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
-			data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
-		{{ end }}
-	>
-</picture>
-{{- else -}}
-<img src="{{ $Permalink }}"
-	{{ with $Width }}width="{{ . }}"{{ end }}
-	{{ with $Height }}height="{{ . }}"{{ end }}
-	{{ with $Srcset }}srcset="{{ . }}"
-	sizes="(max-width: 480px) 100vw, (max-width: 768px) 100vw, 720px"{{ end }}
-	loading="lazy"
-	alt="{{ $alt }}"
-	{{ if $galleryImage }}
-		class="gallery-image"
-		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
-		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
-	{{ end }}
->
-{{- end }}
+{{- $src := $destination -}}
+{{- with $image }}{{ $src = . }}{{ end -}}
+{{- $data := partial "helper/picture-data.html" (dict "src" $src "role" "body") -}}
+{{- $galleryImage := false -}}
+{{- if $image -}}
+    {{- $ext := lower (path.Ext $image.Name) -}}
+    {{- $galleryImage = and (eq $image.ResourceType "image") (not (in (slice ".svg" ".avif") $ext)) -}}
+{{- end -}}
+{{- $inspectStatic := and (not $image) (hasPrefix $destination "/img/") (gt $data.width 0) (gt $data.height 0) -}}
+<figure class="article-figure{{ if $galleryImage }} gallery-image{{ end }}">
+    {{- if $galleryImage -}}
+        {{/* Keep the full resource in src for PhotoSwipe; currentSrc uses the responsive WebP. */}}
+        <img src="{{ $image.RelPermalink }}"
+            width="{{ $image.Width }}" height="{{ $image.Height }}"
+            {{ with $data.srcset }}srcset="{{ . }}" sizes="(max-width: 768px) 100vw, 720px"{{ end }}
+            data-thumb="{{ $data.src }}" loading="lazy" decoding="async" alt="{{ $alt }}">
+    {{- else -}}
+        {{ partial "helper/picture.html" (dict "src" $src "alt" $alt "role" "body" "sizes" "(max-width: 768px) 100vw, 720px") }}
+    {{- end -}}
+    {{- with $caption }}
+        <figcaption>{{ . | $.Page.RenderString }}</figcaption>
+    {{- end -}}
+    {{- if $inspectStatic }}
+        <a class="article-figure__fullsize" href="{{ $destination | safeURL }}">{{ T "imageOpenFullSize" }}</a>
+    {{- end }}
+</figure>
