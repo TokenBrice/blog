@@ -2,14 +2,13 @@
 <article class="{{ if .Params.image }}has-image {{ end }}main-article{{ if $hasDropcap }} article-content--has-dropcap{{ end }}">
     {{ partial "article/components/header" . }}
 
+    {{ partial "article/components/mobile-toc" . }}
+
+    {{ partial "article/components/context" . }}
+
     {{ partial "article/components/content" . }}
 
-    {{ partial "article/components/series-nav" . }}
-    {{ partial "article/components/glossary-mentions" . }}
-
-    {{ partial "projects-banner.html" (dict "Context" . "Variant" "article") }}
-
-    {{ partial "article/components/footer" . }}
+    {{ partial "article/components/colophon" . }}
 
     {{ if or .Params.math .Site.Params.article.math }}
         {{ partialCached "article/components/math.html" . }}
