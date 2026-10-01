@@ -1,31 +1,69 @@
 {{ define "body-class" }}template-search{{ end }}
 {{ define "head" }}
-    {{- with .OutputFormats.Get "json" -}} 
+    {{- with .OutputFormats.Get "json" -}}
         <link rel="preload" href="{{ .RelPermalink }}" as="fetch" crossorigin="anonymous">
     {{- end -}}
 {{ end }}
 {{ define "main" }}
-<form action="{{ .RelPermalink }}" class="search-form"{{ with .OutputFormats.Get "json" -}} data-json="{{ .RelPermalink }}"{{- end }}>
+<header class="search-header">
+    <h1>{{ .Title }}</h1>
+    <p id="search-help">{{ T "searchHint" }}</p>
+</header>
+<form action="{{ .RelPermalink }}" method="get" class="search-form search-page-form"
+    {{ with .OutputFormats.Get "json" }}data-json="{{ .RelPermalink }}"{{ end }}
+    data-type-post="{{ T `searchTypePost` }}"
+    data-type-term="{{ T `searchTypeTerm` }}"
+    data-type-guide="{{ T `searchTypeGuide` }}"
+    data-count-one="{{ T `searchCountOne` }}"
+    data-count-many="{{ T `searchCountMany` }}"
+    data-loading="{{ T `searchLoading` }}"
+    data-unavailable="{{ T `searchUnavailable` }}">
     <p>
-        <label>{{ T "search.title" }}</label>
-        <input name="keyword" placeholder="{{ T `search.placeholder` }}" />
+        <label for="site-search">{{ T "search.title" }}</label>
+        <input id="site-search" type="search" name="keyword" placeholder="{{ T `search.placeholder` }}" aria-describedby="search-help" autocomplete="off">
     </p>
-
-    <button title="{{ T `search.title` }}">
+    <button type="submit" aria-label="{{ T `search.title` }}">
         {{ partial "helper/icon" "search" }}
     </button>
 </form>
 
 <div class="search-result">
-    <h3 class="search-result--title section-title"></h3>
+    <p class="search-result--title" role="status" aria-live="polite" aria-atomic="true"></p>
+    <section class="search-empty" aria-labelledby="search-examples-title">
+        <h2 id="search-examples-title">{{ T "searchExamples" }}</h2>
+        <ul class="search-paths">
+            {{- range slice
+                (dict "path" "/glossary/apy" "label" "searchExampleAPY")
+                (dict "path" "/glossary/impermanent-loss" "label" "searchExampleIL")
+                (dict "path" "/post/2023/stablecoin-marauder-map" "label" "searchExampleMap")
+                (dict "path" "/page/guides" "label" "searchLinkGuides")
+                (dict "path" "/page/defi-risk" "label" "searchExampleRisk") -}}
+                {{- $label := T .label -}}
+                {{- with $.Site.GetPage .path -}}
+                    <li><a href="{{ .RelPermalink }}">{{ $label }}</a></li>
+                {{- end -}}
+            {{- end -}}
+        </ul>
+    </section>
+    <section class="search-recovery" hidden aria-labelledby="search-recovery-title">
+        <h2 id="search-recovery-title">{{ T "searchNoResults" }}</h2>
+        <p>{{ T "searchRecoveryHint" }}</p>
+        <ul class="search-paths">
+            {{- range slice
+                (dict "path" "/glossary" "label" "searchLinkGlossary")
+                (dict "path" "/page/guides" "label" "searchLinkGuides")
+                (dict "path" "/page/archives" "label" "searchLinkArchives") -}}
+                {{- $label := T .label -}}
+                {{- with $.Site.GetPage .path -}}
+                    <li><a href="{{ .RelPermalink }}">{{ $label }}</a></li>
+                {{- end -}}
+            {{- end -}}
+        </ul>
+    </section>
     <div class="search-result--list article-list--compact"></div>
 </div>
 
-<script>
-    window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"
-</script>
-
-{{- $opts := dict "minify" hugo.IsProduction "JSXFactory" "createElement" -}}
+{{- $opts := dict "minify" hugo.IsProduction -}}
 {{- $searchScript := resources.Get "ts/search.tsx" | js.Build $opts -}}
 <script type="text/javascript" src="{{ $searchScript.RelPermalink }}" defer></script>
 

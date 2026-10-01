@@ -1,2 +1,226 @@
-/* search.scss: owned by the "O-search" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+.template-search {
+    .search-header {
+        margin-bottom: var(--space-4);
+
+        h1 {
+            margin: 0 0 var(--space-3);
+            color: var(--ink);
+            font-family: var(--font-display);
+            font-size: var(--fs-display);
+            line-height: 1.15;
+        }
+
+        p {
+            max-width: var(--measure);
+            margin: 0;
+            color: var(--ink-2);
+            font-size: var(--fs-body);
+            line-height: 1.6;
+        }
+    }
+
+    .search-page-form {
+        --button-size: 56px;
+
+        label {
+            top: var(--space-3);
+            inset-inline-start: var(--space-4);
+            color: var(--ink-2);
+            font-family: var(--font-body);
+            font-size: var(--fs-meta);
+        }
+
+        input {
+            min-height: 84px;
+            padding: var(--space-6) calc(var(--button-size) + var(--space-4)) var(--space-4) var(--space-4);
+            border: 1px solid var(--rule);
+            border-radius: var(--radius-card);
+            background: var(--surface);
+            color: var(--ink);
+            box-shadow: none;
+            font-family: var(--font-body);
+            font-size: var(--fs-body);
+            transition: none;
+
+            &::placeholder { color: var(--ink-3); }
+            &:focus { box-shadow: none; }
+            &:focus-visible {
+                outline: 2px solid var(--slate);
+                outline-offset: 3px;
+            }
+        }
+
+        button {
+            min-width: 44px;
+            min-height: 44px;
+            color: var(--slate);
+            border-radius: var(--radius-card);
+
+            svg {
+                color: inherit;
+                transition: none;
+            }
+
+            &:hover { background: var(--paper); }
+            &:focus-visible {
+                outline: 2px solid var(--slate);
+                outline-offset: -4px;
+            }
+        }
+    }
+
+    .search-result--title {
+        margin: var(--space-5) 0 var(--space-3);
+        color: var(--ink-2);
+        font-size: var(--fs-meta);
+        line-height: 1.5;
+
+        &:empty { margin: 0; }
+    }
+
+    .search-empty,
+    .search-recovery {
+        margin: var(--space-6) 0;
+        color: var(--ink-2);
+
+        &[hidden] { display: none; }
+
+        h2 {
+            margin: 0 0 var(--space-3);
+            color: var(--ink);
+            font-family: var(--font-display);
+            font-size: var(--fs-h3);
+        }
+
+        p {
+            max-width: var(--measure);
+            font-size: var(--fs-body);
+            line-height: 1.6;
+        }
+    }
+
+    .search-paths {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-2) var(--space-5);
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            color: var(--slate);
+            font-size: var(--fs-body);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+
+            &:hover { text-decoration-color: var(--signal); }
+            &:focus-visible {
+                outline: 2px solid var(--slate);
+                outline-offset: 3px;
+            }
+        }
+    }
+
+    .search-result--list {
+        box-shadow: none;
+        background: var(--surface);
+        border-radius: var(--radius-card);
+
+        article {
+            background: transparent;
+            border-bottom: 1px solid var(--rule);
+
+            &:last-child { border-bottom: 0; }
+
+            > a {
+                display: flex;
+                align-items: center;
+                gap: var(--space-5);
+                padding: var(--space-5);
+                color: var(--ink);
+
+                &:hover { background: var(--paper); }
+                &:focus-visible {
+                    outline: 2px solid var(--slate);
+                    outline-offset: -3px;
+                }
+            }
+
+            .article-details {
+                min-width: 0;
+                flex: 1;
+            }
+
+            .search-result--type {
+                display: block;
+                margin-bottom: var(--space-2);
+                color: var(--ink-2);
+                font-family: var(--font-body);
+                font-size: var(--fs-micro);
+                font-weight: 600;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+            }
+
+            .article-title {
+                margin: 0;
+                color: var(--ink);
+                font-family: var(--font-display);
+                font-size: var(--fs-h3);
+                line-height: 1.3;
+                overflow-wrap: anywhere;
+            }
+
+            .article-preview {
+                max-width: var(--measure);
+                margin: var(--space-3) 0 0;
+                color: var(--ink-2);
+                font-size: var(--fs-small);
+                line-height: 1.6;
+                overflow-wrap: anywhere;
+            }
+
+            .article-image {
+                width: 120px;
+                height: 90px;
+                margin: 0;
+                flex: 0 0 120px;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: var(--radius-chip);
+                }
+            }
+
+            mark {
+                background: var(--signal-wash);
+                color: inherit;
+                text-decoration: underline;
+                text-decoration-color: var(--signal);
+                text-underline-offset: 3px;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        .search-result--list article {
+            > a {
+                gap: var(--space-3);
+                padding: var(--space-4);
+            }
+
+            .article-image {
+                width: 72px;
+                height: 72px;
+                flex-basis: 72px;
+                align-self: flex-start;
+            }
+        }
+    }
+}

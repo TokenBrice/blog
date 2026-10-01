@@ -1,27 +1,56 @@
-{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
-{{- $notHidden := where .Site.RegularPages "Params.hidden" "!=" true -}}
-{{- $filtered := ($pages | intersect $notHidden) -}}
-
 {{- $result := slice -}}
+{{- $termsByID := dict -}}
+{{- with index hugo.Data.glossary .Site.Language.Lang -}}
+    {{- range .terms -}}
+        {{- $termsByID = merge $termsByID (dict .id .) -}}
+    {{- end -}}
+{{- end -}}
+{{- $siteHost := (urls.Parse .Site.BaseURL).Host -}}
 
-{{- range $filtered -}}
-    {{- $searchText := delimit (slice (.Description | plainify) (.Summary | plainify)) " " -}}
-    {{- $data := dict "title" .Title "date" .Date "permalink" .Permalink "content" $searchText -}}
-
-    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" -}}
-    {{- if $image.exists -}}
-        {{- $imagePermalink := "" -}}
-        {{- if and $image.resource (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-            {{- $thumbnail := $image.resource.Fill "120x120" -}}
-            {{- $imagePermalink = (absURL $thumbnail.Permalink) -}}
-        {{- else -}}
-            {{- $imagePermalink = $image.permalink -}}
-        {{- end -}}
-
-        {{- $data = merge $data (dict "image" (absURL $imagePermalink)) -}}
+{{- range .Site.RegularPages -}}
+    {{- $page := . -}}
+    {{- $type := "" -}}
+    {{- if .Params.glossary_id -}}
+        {{- $type = "term" -}}
+    {{- else if and (in .Site.Params.mainSections .Type) (ne .Params.hidden true) -}}
+        {{- $type = "post" -}}
+    {{- else if and (eq .Section "page") (not (in (slice "search" "archives" "404") .Layout)) (not (in (slice "search" "archives" "404") .File.ContentBaseName)) -}}
+        {{- $type = "guide" -}}
+    {{- end -}}
+    {{- $externalCanonical := false -}}
+    {{- with .Params.canonicalUrl -}}
+        {{- $host := (urls.Parse .).Host -}}
+        {{- $externalCanonical = and $host (ne $host $siteHost) -}}
     {{- end -}}
 
-    {{- $result = $result | append $data -}}
-{{- end -}}
+    {{- if and $type (not .Params.noindex) (not $externalCanonical) -}}
+        {{- $title := .Title -}}
+        {{- $names := slice -}}
+        {{- $searchText := delimit (slice (.Description | plainify) (.Summary | plainify)) " " -}}
+        {{- if eq $type "term" -}}
+            {{- with index $termsByID .Params.glossary_id -}}
+                {{- $fullName := .full_term | default .term -}}
+                {{- $title = .term -}}
+                {{- if ne $fullName .term -}}
+                    {{- $title = printf "%s (%s)" .term $fullName -}}
+                {{- end -}}
+                {{- $names = slice .term $fullName -}}
+                {{- $searchText = delimit (slice (.short_definition | default "" | plainify) (.definition | default "" | plainify)) " " -}}
+            {{- end -}}
+        {{- end -}}
+        {{- $data := dict "title" $title "type" $type "date" .Date "permalink" .Permalink "content" $searchText -}}
+        {{- if $names -}}
+            {{- $data = merge $data (dict "names" $names) -}}
+        {{- end -}}
 
-{{ jsonify $result }}
+        {{- $image := partialCached "helper/image" (dict "Context" $page "Type" "articleList") .RelPermalink "articleList" -}}
+        {{- if and $image.exists (not (urls.Parse $image.permalink).Host) -}}
+            {{- $src := $image.permalink -}}
+            {{- with $image.resource -}}{{- $src = . -}}{{- end -}}
+            {{- $picture := partial "helper/picture-data.html" (dict "src" $src "role" "thumb") -}}
+            {{- $data = merge $data (dict "image" (dict "src" $picture.src "srcset" $picture.srcset "type" $picture.type "width" $picture.width "height" $picture.height)) -}}
+        {{- end -}}
+        {{- $result = $result | append $data -}}
+    {{- end -}}
+{{- end -}}
+{{- jsonify $result -}}

@@ -1,333 +1,279 @@
-interface pageData {
-    title: string,
-    date: string,
-    permalink: string,
-    content: string,
-    image?: string,
-    preview: string,
-    matchCount: number
+type PageType = 'post' | 'term' | 'guide';
+
+interface PictureData {
+    src: string;
+    srcset: string;
+    type: string;
+    width: number;
+    height: number;
 }
 
-interface match {
-    start: number,
-    end: number
+interface PageData {
+    title: string;
+    date: string;
+    permalink: string;
+    content: string;
+    type: PageType;
+    names?: string[];
+    image?: PictureData;
 }
 
-/**
- * Escape HTML tags as HTML entities
- * Edited from:
- * @link https://stackoverflow.com/a/5499821
- */
-const tagsToReplace = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    '…': '&hellip;'
-};
-
-function replaceTag(tag) {
-    return tagsToReplace[tag] || tag;
+interface IndexedPage extends PageData {
+    normalizedTitle: string;
+    normalizedContent: string;
+    normalizedNames: string[];
 }
 
-function replaceHTMLEnt(str) {
-    return str.replace(/[&<>"]/g, replaceTag);
+interface SearchResult {
+    page: IndexedPage;
+    tier: number;
+    titleHits: number;
+    hits: number;
 }
 
-function escapeRegExp(string) {
-    return string.replace(/[.*+\-?^${}()|[\]\\]/g, '\\$&');
+interface SearchElements {
+    form: HTMLFormElement;
+    input: HTMLInputElement;
+    list: HTMLDivElement;
+    status: HTMLParagraphElement;
+    empty: HTMLElement;
+    recovery: HTMLElement;
+}
+
+function normalize(text: string): string {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/\s+/g, ' ');
+}
+
+function queryTokens(query: string): string[] {
+    return Array.from(new Set(normalize(query).split(/[^\p{L}\p{N}]+/u).filter(token => Array.from(token).length > 1)));
+}
+
+/** Keep accent-insensitive matches aligned with the original, unescaped text. */
+function highlight(element: HTMLElement, text: string, tokens: string[]): void {
+    let folded = '';
+    const starts: number[] = [], ends: number[] = [];
+    let position = 0;
+    for (const character of text) {
+        const value = character.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+        for (let i = 0; i < value.length; i++) {
+            starts.push(position);
+            ends.push(position + character.length);
+        }
+        folded += value;
+        position += character.length;
+    }
+    const ranges: Array<{ start: number; end: number }> = [];
+    for (const token of tokens) {
+        let from = 0;
+        let index: number;
+        while ((index = folded.indexOf(token, from)) !== -1) {
+            ranges.push({ start: starts[index], end: ends[index + token.length - 1] });
+            from = index + token.length;
+        }
+    }
+    ranges.sort((a, b) => a.start - b.start);
+    let cursor = 0;
+    for (let i = 0; i < ranges.length; i++) {
+        const range = ranges[i];
+        while (i + 1 < ranges.length && ranges[i + 1].start <= range.end) {
+            range.end = Math.max(range.end, ranges[++i].end);
+        }
+        element.append(document.createTextNode(text.slice(cursor, range.start)));
+        const mark = document.createElement('mark');
+        mark.textContent = text.slice(range.start, range.end);
+        element.append(mark);
+        cursor = range.end;
+    }
+    element.append(document.createTextNode(text.slice(cursor)));
 }
 
 class Search {
-    private data: pageData[];
-    private form: HTMLFormElement;
-    private input: HTMLInputElement;
-    private list: HTMLDivElement;
-    private resultTitle: HTMLHeadElement;
-    private resultTitleTemplate: string;
+    private readonly elements: SearchElements;
+    private dataPromise?: Promise<IndexedPage[]>;
+    private revision = 0;
+    private settledTimer?: number;
+    private lastSettledQuery = '';
 
-    constructor({ form, input, list, resultTitle, resultTitleTemplate }) {
-        this.form = form;
-        this.input = input;
-        this.list = list;
-        this.resultTitle = resultTitle;
-        this.resultTitleTemplate = resultTitleTemplate;
-
-        /// Check if there's already value in the search input
-        if (this.input.value.trim() !== '') {
-            this.doSearch(this.input.value.split(' '));
-        }
-        else {
+    constructor(elements: SearchElements) {
+        this.elements = elements;
+        elements.input.addEventListener('input', event => {
+            // Do not search a partly composed IME query; still invalidate any pending result.
+            if ((event as InputEvent).isComposing) {
+                this.revision++;
+                window.clearTimeout(this.settledTimer);
+                return;
+            }
+            this.searchInput(false);
+        });
+        elements.input.addEventListener('compositionend', () => this.searchInput(false));
+        elements.form.addEventListener('submit', event => {
+            event.preventDefault();
+            this.searchInput(true);
+        });
+        window.addEventListener('popstate', () => this.handleQueryString());
+        if (elements.input.value.trim()) {
+            void this.doSearch(elements.input.value.trim());
+        } else {
             this.handleQueryString();
         }
-
-        this.bindQueryStringChange();
-        this.bindSearchForm();
     }
 
-    /**
-     * Processes search matches
-     * @param str original text
-     * @param matches array of matches
-     * @param ellipsis whether to add ellipsis to the end of each match
-     * @param charLimit max length of preview string
-     * @param offset how many characters before and after the match to include in preview
-     * @returns preview string
-     */
-    private static processMatches(str: string, matches: match[], ellipsis: boolean = true, charLimit = 140, offset = 20): string {
-        matches.sort((a, b) => {
-            return a.start - b.start;
-        });
-
-        let i = 0,
-            lastIndex = 0,
-            charCount = 0;
-
-        const resultArray: string[] = [];
-
-        while (i < matches.length) {
-            const item = matches[i];
-
-            /// item.start >= lastIndex (equal only for the first iteration)
-            /// because of the while loop that comes after, iterating over variable j
-
-            if (ellipsis && item.start - offset > lastIndex) {
-                resultArray.push(`${replaceHTMLEnt(str.substring(lastIndex, lastIndex + offset))} [...] `);
-                resultArray.push(`${replaceHTMLEnt(str.substring(item.start - offset, item.start))}`);
-                charCount += offset * 2;
-            }
-            else {
-                /// If the match is too close to the end of last match, don't add ellipsis
-                resultArray.push(replaceHTMLEnt(str.substring(lastIndex, item.start)));
-                charCount += item.start - lastIndex;
-            }
-
-            let j = i + 1,
-                end = item.end;
-
-            /// Include as many matches as possible
-            /// [item.start, end] is the range of the match
-            while (j < matches.length && matches[j].start <= end) {
-                end = Math.max(matches[j].end, end);
-                ++j;
-            }
-
-            resultArray.push(`<mark>${replaceHTMLEnt(str.substring(item.start, end))}</mark>`);
-            charCount += end - item.start;
-
-            i = j;
-            lastIndex = end;
-
-            if (ellipsis && charCount > charLimit) break;
+    public getData(): Promise<IndexedPage[]> {
+        if (!this.dataPromise) {
+            const jsonURL = this.elements.form.dataset.json;
+            if (!jsonURL) return Promise.reject(new Error('Missing search index URL'));
+            this.dataPromise = fetch(jsonURL).then(response => {
+                if (!response.ok) throw new Error('Search index unavailable');
+                return response.json() as Promise<PageData[]>;
+            }).then(pages => pages.map(page => ({
+                ...page,
+                normalizedTitle: normalize(page.title),
+                normalizedContent: normalize(page.content),
+                normalizedNames: (page.names || []).map(normalize)
+            })));
         }
+        return this.dataPromise;
+    }
 
-        /// Add the rest of the string
-        if (lastIndex < str.length) {
-            let end = str.length;
-            if (ellipsis) end = Math.min(end, lastIndex + offset);
-
-            resultArray.push(`${replaceHTMLEnt(str.substring(lastIndex, end))}`);
-
-            if (ellipsis && end != str.length) {
-                resultArray.push(` [...]`);
-            }
+    private async searchKeywords(query: string, tokens: string[]): Promise<SearchResult[]> {
+        const pages = await this.getData();
+        const exactQuery = normalize(query);
+        const results: SearchResult[] = [];
+        for (const page of pages) {
+            const titleHits = tokens.filter(token => page.normalizedTitle.includes(token)).length;
+            const hits = tokens.filter(token => page.normalizedTitle.includes(token) || page.normalizedContent.includes(token)).length;
+            if (!hits) continue;
+            const exact = page.normalizedTitle === exactQuery || page.normalizedNames.includes(exactQuery);
+            const tier = exact ? 0 : titleHits === tokens.length ? 1 : hits === tokens.length ? 2 : 3;
+            results.push({ page, tier, titleHits, hits });
         }
-
-        return resultArray.join('');
+        return results.sort((a, b) => a.tier - b.tier || b.titleHits - a.titleHits || b.hits - a.hits);
     }
 
-    private async searchKeywords(keywords: string[]) {
-        const rawData = await this.getData();
-        const results: pageData[] = [];
+    private searchInput(submitted: boolean): void {
+        const query = this.elements.input.value.trim();
+        Search.updateQueryString(query, !submitted);
+        void this.doSearch(query, submitted);
+    }
 
-        const regex = new RegExp(keywords.filter((v, index, arr) => {
-            arr[index] = escapeRegExp(v);
-            return v.trim() !== '';
-        }).join('|'), 'gi');
-
-        for (const item of rawData) {
-            const titleMatches: match[] = [],
-                contentMatches: match[] = [];
-
-            let result = {
-                ...item,
-                preview: '',
-                matchCount: 0
-            }
-
-            const contentMatchAll = item.content.matchAll(regex);
-            for (const match of Array.from(contentMatchAll)) {
-                contentMatches.push({
-                    start: match.index,
-                    end: match.index + match[0].length
-                });
-            }
-
-            const titleMatchAll = item.title.matchAll(regex);
-            for (const match of Array.from(titleMatchAll)) {
-                titleMatches.push({
-                    start: match.index,
-                    end: match.index + match[0].length
-                });
-            }
-
-            if (titleMatches.length > 0) result.title = Search.processMatches(result.title, titleMatches, false);
-            if (contentMatches.length > 0) {
-                result.preview = Search.processMatches(result.content, contentMatches);
-            }
-            else {
-                /// If there are no matches in the content, use the first 140 characters as preview
-                result.preview = replaceHTMLEnt(result.content.substring(0, 140));
-            }
-
-            result.matchCount = titleMatches.length + contentMatches.length;
-            if (result.matchCount > 0) results.push(result);
+    private async doSearch(query: string, submitted = false): Promise<void> {
+        const revision = ++this.revision;
+        window.clearTimeout(this.settledTimer);
+        const tokens = queryTokens(query);
+        const { list, status, empty, recovery } = this.elements;
+        list.replaceChildren();
+        recovery.hidden = true;
+        empty.hidden = tokens.length > 0;
+        if (!tokens.length) {
+            status.textContent = '';
+            this.lastSettledQuery = '';
+            list.removeAttribute('aria-busy');
+            return;
         }
-
-        /// Result with more matches appears first
-        return results.sort((a, b) => {
-            return b.matchCount - a.matchCount;
-        });
-    }
-
-    private async doSearch(keywords: string[]) {
-        const startTime = performance.now();
-
-        const results = await this.searchKeywords(keywords);
-        this.clear();
-
-        for (const item of results) {
-            this.list.append(Search.render(item));
-        }
-
-        const endTime = performance.now();
-
-        this.resultTitle.innerText = this.generateResultTitle(results.length, ((endTime - startTime) / 1000).toPrecision(1));
-    }
-
-    private generateResultTitle(resultLen, time) {
-        return this.resultTitleTemplate.replace("#PAGES_COUNT", resultLen).replace("#TIME_SECONDS", time);
-    }
-
-    public async getData() {
-        if (!this.data) {
-            /// Not fetched yet
-            const jsonURL = this.form.dataset.json;
-            this.data = await fetch(jsonURL).then(res => res.json());
-            const parser = new DOMParser();
-
-            for (const item of this.data) {
-                item.content = parser.parseFromString(item.content, 'text/html').body.innerText;
+        list.setAttribute('aria-busy', 'true');
+        status.textContent = this.elements.form.dataset.loading || '';
+        try {
+            const results = await this.searchKeywords(query, tokens);
+            // A slow index request must never render or measure an older input value.
+            if (revision !== this.revision) return;
+            const fragment = document.createDocumentFragment();
+            for (const result of results) {
+                fragment.append(Search.render(result.page, tokens, this.elements.form.dataset[`type${result.page.type[0].toUpperCase()}${result.page.type.slice(1)}`] || ''));
             }
-        }
-
-        return this.data;
-    }
-
-    private bindSearchForm() {
-        let lastSearch = '';
-
-        const eventHandler = (e) => {
-            e.preventDefault();
-            const keywords = this.input.value.trim();
-
-            Search.updateQueryString(keywords, true);
-
-            if (keywords === '') {
-                lastSearch = '';
-                return this.clear();
+            list.replaceChildren(fragment);
+            list.removeAttribute('aria-busy');
+            const template = results.length === 1 ? this.elements.form.dataset.countOne : this.elements.form.dataset.countMany;
+            status.textContent = (template || '').replace('#COUNT', String(results.length));
+            recovery.hidden = results.length > 0;
+            if (submitted) {
+                this.dispatchSettled(query, results.length);
+            } else {
+                this.settledTimer = window.setTimeout(() => {
+                    if (revision === this.revision) this.dispatchSettled(query, results.length);
+                }, 800);
             }
-
-            if (lastSearch === keywords) return;
-            lastSearch = keywords;
-
-            this.doSearch(keywords.split(' '));
-        }
-
-        this.input.addEventListener('input', eventHandler);
-        this.input.addEventListener('compositionend', eventHandler);
-    }
-
-    private clear() {
-        this.list.innerHTML = '';
-        this.resultTitle.innerText = '';
-    }
-
-    private bindQueryStringChange() {
-        window.addEventListener('popstate', (e) => {
-            this.handleQueryString()
-        })
-    }
-
-    private handleQueryString() {
-        const pageURL = new URL(window.location.toString());
-        const keywords = pageURL.searchParams.get('keyword');
-        this.input.value = keywords;
-
-        if (keywords) {
-            this.doSearch(keywords.split(' '));
-        }
-        else {
-            this.clear()
+        } catch {
+            if (revision !== this.revision) return;
+            this.dataPromise = undefined;
+            list.removeAttribute('aria-busy');
+            status.textContent = this.elements.form.dataset.unavailable || '';
+            recovery.hidden = false;
         }
     }
 
-    private static updateQueryString(keywords: string, replaceState = false) {
-        const pageURL = new URL(window.location.toString());
-
-        if (keywords === '') {
-            pageURL.searchParams.delete('keyword')
-        }
-        else {
-            pageURL.searchParams.set('keyword', keywords);
-        }
-
-        if (replaceState) {
-            window.history.replaceState('', '', pageURL.toString());
-        }
-        else {
-            window.history.pushState('', '', pageURL.toString());
-        }
+    private dispatchSettled(query: string, resultCount: number): void {
+        const key = normalize(query);
+        if (key === this.lastSettledQuery) return;
+        this.lastSettledQuery = key;
+        const length = Array.from(query).length;
+        const lengthBucket = length <= 10 ? '1-10' : length <= 30 ? '11-30' : length <= 60 ? '31-60' : '61+';
+        const resultBucket = resultCount === 0 ? '0' : resultCount <= 5 ? '1-5' : resultCount <= 20 ? '6-20' : '21+';
+        document.dispatchEvent(new CustomEvent('tb:search-settled', { detail: { lengthBucket, resultBucket } }));
     }
 
-    public static render(item: pageData) {
-        return <article>
-            <a href={item.permalink}>
-                <div class="article-details">
-                    <h2 class="article-title" dangerouslySetInnerHTML={{ __html: item.title }}></h2>
-                    <section class="article-preview" dangerouslySetInnerHTML={{ __html: item.preview }}></section>
-                </div>
-                {item.image &&
-                    <div class="article-image">
-                        <img src={item.image} loading="lazy" />
-                    </div>
-                }
-            </a>
-        </article>;
+    private handleQueryString(): void {
+        const query = new URL(window.location.href).searchParams.get('keyword') || '';
+        this.elements.input.value = query;
+        void this.doSearch(query.trim());
+    }
+
+    private static updateQueryString(query: string, replaceState: boolean): void {
+        const url = new URL(window.location.href);
+        if (query) url.searchParams.set('keyword', query);
+        else url.searchParams.delete('keyword');
+        if (replaceState) window.history.replaceState(null, '', url);
+        else window.history.pushState(null, '', url);
+    }
+
+    public static render(page: IndexedPage, tokens: string[], typeLabel: string): HTMLElement {
+        const article = document.createElement('article');
+        const link = document.createElement('a');
+        link.href = page.permalink;
+        const details = document.createElement('div');
+        details.className = 'article-details';
+        const type = document.createElement('span');
+        type.className = 'search-result--type';
+        type.textContent = typeLabel;
+        const title = document.createElement('h2');
+        title.className = 'article-title';
+        highlight(title, page.title, tokens);
+        const preview = document.createElement('p');
+        preview.className = 'article-preview';
+        // Terms lead with their short definition. Other records retain the compact excerpt.
+        const excerpt = page.content.slice(0, 180);
+        highlight(preview, excerpt + (page.content.length > 180 ? '…' : ''), tokens);
+        details.append(type, title, preview);
+        link.append(details);
+        if (page.image) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'article-image';
+            const image = document.createElement('img');
+            image.src = page.image.src;
+            if (page.image.srcset) image.srcset = page.image.srcset;
+            image.sizes = '(max-width: 767px) 72px, 120px';
+            if (page.image.width > 0) image.width = page.image.width;
+            if (page.image.height > 0) image.height = page.image.height;
+            image.alt = '';
+            image.loading = 'lazy';
+            image.decoding = 'async';
+            wrapper.append(image);
+            link.append(wrapper);
+        }
+        article.append(link);
+        return article;
     }
 }
 
-declare global {
-    interface Window {
-        searchResultTitleTemplate: string;
+window.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector<HTMLFormElement>('.search-page-form');
+    const input = form?.querySelector<HTMLInputElement>('input[type="search"]');
+    const list = document.querySelector<HTMLDivElement>('.search-result--list');
+    const status = document.querySelector<HTMLParagraphElement>('.search-result--title');
+    const empty = document.querySelector<HTMLElement>('.search-empty');
+    const recovery = document.querySelector<HTMLElement>('.search-recovery');
+    if (form && input && list && status && empty && recovery) {
+        new Search({ form, input, list, status, empty, recovery });
     }
-}
-
-window.addEventListener('load', () => {
-    setTimeout(function () {
-        const searchForm = document.querySelector('.search-form') as HTMLFormElement,
-            searchInput = searchForm.querySelector('input') as HTMLInputElement,
-            searchResultList = document.querySelector('.search-result--list') as HTMLDivElement,
-            searchResultTitle = document.querySelector('.search-result--title') as HTMLHeadingElement;
-
-        new Search({
-            form: searchForm,
-            input: searchInput,
-            list: searchResultList,
-            resultTitle: searchResultTitle,
-            resultTitleTemplate: window.searchResultTitleTemplate
-        });
-    }, 0);
-})
+});
 
 export default Search;
