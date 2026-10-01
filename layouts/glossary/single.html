@@ -92,13 +92,17 @@
 
         <div class="glossary-term-content">
             <!-- Definition -->
+            {{- if or $term.definition $term.plain_english }}
             <section class="term-section term-section--definition">
                 <h2 class="term-section-title">{{ T "glossaryDefinition" }}</h2>
-                <p class="term-definition">{{ $term.definition }}</p>
+                {{- with $term.definition }}
+                <p class="term-definition">{{ . }}</p>
+                {{- end }}
                 {{- with $term.plain_english }}
                 <p class="term-plain-english">{{ . }}</p>
                 {{- end }}
             </section>
+            {{- end }}
 
             <!-- Example -->
             {{- with $term.example }}
@@ -200,12 +204,30 @@
             </section>
             {{- end }}
 
+            {{- $relatedGuides := slice -}}
+            {{- range .Params.related_guides -}}
+                {{- $guidePath := trim (strings.TrimPrefix "/fr/" .) "/" -}}
+                {{- with $.Site.GetPage (printf "/page/%s" $guidePath) -}}
+                    {{- $relatedGuides = $relatedGuides | append . -}}
+                {{- end -}}
+            {{- end -}}
+            {{- with $relatedGuides }}
+            <section class="term-section term-section--related-guides">
+                <h2 class="term-section-title">{{ T "glossaryRelatedGuides" }}</h2>
+                <ul class="glossary-related-terms-list glossary-related-guides-list">
+                    {{- range . }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{- end }}
+                </ul>
+            </section>
+            {{- end }}
+
             <!-- Build term-specific related article candidates when structured links are missing -->
             {{- $maxRelated := 3 -}}
             {{- $relatedArticleItems := slice -}}
 
             {{- if gt (len (default (slice) $term.related_articles)) 0 }}
-                {{- range first $maxRelated $term.related_articles }}
+                {{- range $term.related_articles }}
                     {{- $articleUrl := .url -}}
                     {{- $resolvedUrl := $articleUrl -}}
                     {{- $articleTitle := .title | default "Related article" -}}
@@ -218,7 +240,7 @@
                     {{- if $page -}}
                         {{- $resolvedUrl = $page.RelPermalink -}}
                         {{- $articleTitle = $page.Title | default $articleTitle -}}
-                        {{- $articleDesc = $page.Summary | default $page.Description | default $articleDesc | plainify -}}
+                        {{- $articleDesc = $page.Description | default $articleDesc | default $page.Summary | plainify -}}
                         {{- $relatedImage := partial "helper/image" (dict "Context" $page "Type" "articleList") $page.RelPermalink "articleList" -}}
                         {{- if $relatedImage.exists }}
                             {{- $articleImage = $relatedImage.permalink -}}
@@ -242,20 +264,29 @@
                         ) }}
                     {{- end }}
                 {{- end }}
-            {{- else if gt (len (default (slice) $term.tags)) 0 }}
-                {{- $taggedCandidates := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                {{- $taggedCandidates = where $taggedCandidates "Params.hidden" "!=" true -}}
-                {{- $tagSet := $term.tags -}}
-                {{- range first 20 $taggedCandidates }}
+            {{- else if gt (len (default (slice) .Params.keywords)) 0 }}
+                {{- $keywordSet := slice -}}
+                {{- range .Params.keywords -}}
+                    {{- $keywordSet = $keywordSet | append (lower .) -}}
+                {{- end -}}
+                {{- $keywordSet = uniq $keywordSet -}}
+                {{- $candidates := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+                {{- $scoredCandidates := slice -}}
+                {{- range $candidates -}}
                     {{- $candidate := . -}}
-                    {{- $hasTagMatch := false -}}
-                    {{- $candidateTags := default (slice) $candidate.Params.tags -}}
-                    {{- range $tagSet }}
-                        {{- if in $candidateTags . }}
-                            {{- $hasTagMatch = true -}}
-                        {{- end }}
-                    {{- end }}
-                    {{- if and $hasTagMatch (ne $candidate.RelPermalink $.RelPermalink) }}
+                    {{- if and (eq $candidate.Language.Lang $lang) (not $candidate.Params.hidden) (not $candidate.Params.noindex) (ne $candidate.RelPermalink $.RelPermalink) -}}
+                        {{- $candidateKeywords := slice -}}
+                        {{- range union ($candidate.Params.tags | default slice) ($candidate.Params.categories | default slice) -}}
+                            {{- $candidateKeywords = $candidateKeywords | append (lower .) -}}
+                        {{- end -}}
+                        {{- $score := len (intersect $keywordSet (uniq $candidateKeywords)) -}}
+                        {{- if gt $score 0 -}}
+                            {{- $scoredCandidates = $scoredCandidates | append (dict "page" $candidate "score" $score) -}}
+                        {{- end -}}
+                    {{- end -}}
+                {{- end -}}
+                {{- range first $maxRelated (sort $scoredCandidates "score" "desc") }}
+                    {{- $candidate := .page -}}
                         {{- $articleTitle := $candidate.Title | default "Related article" -}}
                         {{- $articleDesc := $candidate.Summary | default $candidate.Description | default "" | plainify -}}
                         {{- $articleImage := "" -}}
@@ -279,9 +310,7 @@
                             "imageW" $articleImageW
                             "imageH" $articleImageH
                         ) }}
-                    {{- end -}}
                 {{- end }}
-                {{- $relatedArticleItems = $relatedArticleItems | first $maxRelated -}}
             {{- end }}
 
             {{- if gt (len $relatedArticleItems) 0 }}

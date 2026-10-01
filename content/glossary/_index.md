@@ -2,12 +2,13 @@
 title: "DeFi Glossary"
 description: "A DeFi glossary with clear definitions, examples, related articles, and risk notes for protocols, strategies, and market terms."
 date: 2024-01-01
-lastmod: 2024-01-01
+lastmod: 2026-09-11
+outputs: [HTML]
 menu:
     main:
         weight: 5
         params:
-            icon: book
+            icon: vocabulary
 aliases:
     - /defi-glossary/
     - /dictionary/
@@ -18,21 +19,6 @@ sitemap:
 draft: false
 ---
 
-# DeFi Glossary
+I built this glossary because DeFi jargon is easy to repeat and harder to understand when your money is on the line. Look up a term, check the example and risks, then follow the links into the analysis. For a reading path rather than a dictionary, start with the [guides](/guides/).
 
-Your comprehensive guide to decentralized finance terminology. This glossary covers essential DeFi concepts, from basic terms like APY to advanced strategies like yield farming. Whether you're a DeFi beginner or experienced user, this resource helps you understand the rapidly evolving world of decentralized finance.
-
-Each item is provided with definition, example, related questions and relevant content.
-
-## Why This Glossary?
-
-- **Expert Insights**: Definitions based on real DeFi experience
-- **Risk Assessment**: Each term includes potential risks and considerations  
-- **Practical Examples**: Real-world usage examples for better understanding
-- **Regular Updates**: Continuously updated with new DeFi innovations
-- **Multilingual**: Available in English and French
-- **Forkability**: Open source + easy to fork to translate into other languages 
-
----
-
-*This glossary is maintained and regularly updated to reflect the latest DeFi developments. Have a term to suggest? [Get in touch](/about).*
+Missing a term or spotted a mistake? [Tell me](/about/).

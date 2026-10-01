@@ -8,7 +8,7 @@
   to expose the bare metadata needed for:
     - URL slug (content path)
     - <title> and <meta description>
-    - taxonomy (tags)
+    - dictionary keywords (not the post tags taxonomy)
     - sitemap priority
     - the glossary_id param the layout uses to look up the rest
 
@@ -39,10 +39,14 @@
       "kind"        "page"
       "title"       $pageTitle
       "description" $shortDef
+      "aliases"     ($term.aliases | default slice)
       "params" (dict
         "glossary_id"       $term.id
         "glossary_category" ($term.category | default "")
-        "tags"              ($term.tags | default slice)
+        "keywords"          ($term.tags | default slice)
+        "difficulty"        ($term.difficulty | default "")
+        "related_guides"    ($term.related_guides | default slice)
+        "noindex"           (and (isset $term "index") (eq $term.index false))
         "sitemap"           (dict "priority" 0.7 "changefreq" "monthly")
       )
     }}

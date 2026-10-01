@@ -19,9 +19,6 @@
                 {{ with .Params.categories }}
                     {{ partial "article/components/details" (dict "context" $ "scope" "categories") }}
                 {{ end }}
-                {{ with .Params.tags }}
-                    {{ partial "article/components/details" (dict "context" $ "scope" "tags") }}
-                {{ end }}
             </div>
 
             <h1 class="article-title">{{ .Title }}</h1>
@@ -31,7 +28,7 @@
         </header>
 
         <section class="article-content">
-            {{ .Content }}
+            <div class="glossary-intro">{{ .Content }}</div>
 
             <div id="glossary-app" class="glossary-app">
                 {{- /* "Start here" — curated foundational terms for first-timer learners */ -}}
@@ -76,7 +73,7 @@
                         {{- range $categories }}
                         {{- $color := partial "glossary/category-color.html" .id -}}
                         <button type="button" class="category-pill" data-category="{{ .id }}" aria-pressed="false" style="--pill-color: {{ $color }}">
-                            {{ partial "glossary/category-icon.html" .id }} {{ .name }}
+                            <span class="chip-icon" aria-hidden="true">{{ partial "glossary/category-icon.html" .id }}</span> {{ .name }}
                         </button>
                         {{- end }}
                     </div>

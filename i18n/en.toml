@@ -456,3 +456,49 @@ other = "Open full-size image"
 # --- G1: glossary structure ---
 [glossaryRelatedGuides]
 other = "Related guides"
+
+# --- C: site chrome, accessibility and UI i18n ---
+[chromeSidebarLabel]
+other = "Site identity and navigation"
+
+[chromeNavigationLabel]
+other = "Main navigation"
+
+[chromeSocialLabel]
+other = "Follow TokenBrice"
+
+[chromeContentsLabel]
+other = "Article contents"
+
+[chromeBrowseLabel]
+other = "Browse the archive"
+
+[chromeSkipContent]
+other = "Skip to content"
+
+[chromeFooterTagline]
+other = "TokenBrice · Brutally honest DeFi since 2018"
+
+[chromeFooterCredits]
+other = "Built with Hugo · Theme Stack"
+
+[chromeLanguageHomeFr]
+other = "Français (accueil)"
+
+[chromeLanguageHomeEn]
+other = "English (home)"
+
+[chromePageContext]
+other = "Page {{ .Page }} of {{ .Total }}"
+
+[chromeBrowseView]
+other = "Choose an archive view"
+
+[chromeBrowseTopics]
+other = "Topics"
+
+[chromeBrowseFormats]
+other = "Formats"
+
+[chromeBrowseProjects]
+other = "Author projects"

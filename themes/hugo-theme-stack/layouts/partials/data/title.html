@@ -31,7 +31,7 @@
 
 {{- else if and (eq .Type "glossary") (eq .Kind "page") -}}
     {{/* Glossary term page */}}
-    {{ $title = printf "%s | %s | %s" $title (T "glossaryTitle") $siteTitle }}
+    {{ $title = printf "%s | %s" $title $siteTitle }}
 
 {{- else if ne $title $siteTitle -}}
     {{/* Default content pages */}}

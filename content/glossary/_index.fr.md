@@ -1,13 +1,14 @@
 ---
 title: "Glossaire DeFi"
-description: "Glossaire DeFi avec definitions claires, exemples, articles lies et notes de risque pour protocoles, strategies et termes de marche."
+description: "Glossaire DeFi avec définitions claires, exemples, articles liés et notes de risque pour protocoles, stratégies et termes de marché."
 date: 2024-01-01
-lastmod: 2024-01-01
+lastmod: 2026-09-11
+outputs: [HTML]
 menu:
     main:
         weight: 5
         params:
-            icon: book
+            icon: vocabulary
 aliases:
     - /glossaire-defi/
     - /dictionnaire/
@@ -18,18 +19,6 @@ sitemap:
 draft: false
 ---
 
-# Glossaire DeFi
+J'ai construit ce glossaire parce que le jargon DeFi se répète facilement, mais se comprend moins bien quand votre argent est en jeu. Cherchez un terme, regardez l'exemple et les risques, puis suivez les liens vers les analyses. Pour un parcours de lecture plutôt qu'un dictionnaire, commencez par les [guides](/fr/guides/).
 
-Votre guide complet de la terminologie de la finance décentralisée. Ce glossaire couvre les concepts essentiels de la DeFi, des termes de base comme l'APY aux stratégies avancées comme le yield farming. Que vous soyez débutant en DeFi ou utilisateur expérimenté, cette ressource vous aide à comprendre le monde en évolution rapide de la finance décentralisée.
-
-## Pourquoi ce Glossaire ?
-
-- **Expertise pratique** : Définitions basées sur une expérience réelle de la DeFi
-- **Évaluation des risques** : Chaque terme inclut les risques potentiels et considérations
-- **Exemples pratiques** : Exemples d'usage concrets pour une meilleure compréhension
-- **Mises à jour régulières** : Continuellement mis à jour avec les nouvelles innovations DeFi
-- **Multilingue** : Disponible en français et anglais
-
----
-
-*Ce glossaire est maintenu et régulièrement mis à jour pour refléter les derniers développements DeFi. Vous avez un terme à suggérer ? [Contactez-moi](/fr/about).*
+Un terme manque ou une erreur vous saute aux yeux ? [Dites-le-moi](/fr/a-propos/).

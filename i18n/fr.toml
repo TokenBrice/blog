@@ -456,3 +456,49 @@ other = "Ouvrir l’image en taille réelle"
 # --- G1: glossary structure ---
 [glossaryRelatedGuides]
 other = "Guides associés"
+
+# --- C: site chrome, accessibility and UI i18n ---
+[chromeSidebarLabel]
+other = "Identité du site et navigation"
+
+[chromeNavigationLabel]
+other = "Navigation principale"
+
+[chromeSocialLabel]
+other = "Suivre TokenBrice"
+
+[chromeContentsLabel]
+other = "Sommaire de l’article"
+
+[chromeBrowseLabel]
+other = "Explorer les archives"
+
+[chromeSkipContent]
+other = "Aller au contenu"
+
+[chromeFooterTagline]
+other = "TokenBrice · La DeFi, sans détour, depuis 2018"
+
+[chromeFooterCredits]
+other = "Propulsé par Hugo · Thème Stack"
+
+[chromeLanguageHomeFr]
+other = "Français (accueil)"
+
+[chromeLanguageHomeEn]
+other = "English (home)"
+
+[chromePageContext]
+other = "Page {{ .Page }} sur {{ .Total }}"
+
+[chromeBrowseView]
+other = "Choisir une vue des archives"
+
+[chromeBrowseTopics]
+other = "Sujets"
+
+[chromeBrowseFormats]
+other = "Formats"
+
+[chromeBrowseProjects]
+other = "Projets de l’auteur"
