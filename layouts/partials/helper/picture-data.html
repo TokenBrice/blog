@@ -11,6 +11,8 @@ Avatar alone offers committed AVIF when its original is <=400px (portrait:
 8,194 B AVIF versus 10,860 B 400px WebP). Its WebP remains responsive.
 Direct static AVIF references resolve a same-stem raster master when available.
 Unsupported/missing/external sources keep their URL and known dimensions only.
+Relative img/... paths and existing static files normalize to site-root URLs;
+originalSrc records that normalized full-size URL for metadata/access links.
 */}}
 {{- $input := .src -}}
 {{- $role := .role | default "body" -}}
@@ -22,14 +24,21 @@ Unsupported/missing/external sources keep their URL and known dimensions only.
     {{- $src = $resource.RelPermalink -}}
 {{- else -}}
     {{- $src = printf "%s" $input -}}
+    {{- if and (not (findRE "^[A-Za-z][A-Za-z0-9+.-]*:" $src)) (not (hasPrefix $src "//")) (not (hasPrefix $src "#")) -}}
+        {{- $rootSrc := printf "/%s" (strings.TrimPrefix "/" $src) -}}
+        {{- if or (hasPrefix $rootSrc "/img/") (fileExists (printf "static%s" $rootSrc)) -}}
+            {{- $src = $rootSrc -}}
+        {{- end -}}
+    {{- end -}}
 {{- end -}}
+{{- $originalSrc := $src -}}
 {{- $width := 0 -}}
 {{- $height := 0 -}}
 {{- $srcset := "" -}}
 {{- $type := "" -}}
 {{- $avif := "" -}}
 {{- $ext := lower (path.Ext $src) -}}
-{{- $isStatic := and (not $isResource) (hasPrefix $src "/img/") (not (strings.Contains $src "?")) (not (strings.Contains $src "#")) -}}
+{{- $isStatic := and (not $isResource) (or (hasPrefix $src "/img/") (and (hasPrefix $src "/") (not (hasPrefix $src "//")) (fileExists (printf "static%s" $src)))) (not (strings.Contains $src "?")) (not (strings.Contains $src "#")) -}}
 {{- if $isStatic -}}
     {{- with index hugo.Data.imageDims $src -}}
         {{- $width = .w -}}
@@ -76,11 +85,11 @@ Unsupported/missing/external sources keep their URL and known dimensions only.
         {{- $srcset = delimit $candidates ", " -}}
         {{- $type = "image/webp" -}}
         {{- if and $isStatic (eq $role "avatar") (le $resource.Width 400) -}}
-            {{- $candidate := printf "%s.avif" (strings.TrimSuffix (path.Ext (printf "%s" $input)) (printf "%s" $input)) -}}
+            {{- $candidate := printf "%s.avif" (strings.TrimSuffix (path.Ext $originalSrc) $originalSrc) -}}
             {{- if fileExists (printf "static%s" $candidate) -}}
                 {{- $avif = $candidate -}}
             {{- end -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
-{{- return (dict "src" $src "srcset" $srcset "type" $type "width" $width "height" $height "avif" $avif) -}}
+{{- return (dict "src" $src "srcset" $srcset "type" $type "width" $width "height" $height "avif" $avif "originalSrc" $originalSrc) -}}

@@ -2,19 +2,21 @@
 {{- $image := .Page.Resources.GetMatch $destination -}}
 {{- $alt := .PlainText -}}
 {{- $caption := .Title -}}
-{{- with index .Page.Params.image_meta $destination -}}
-    {{- if isset . "alt" }}{{ $alt = .alt }}{{ end -}}
-    {{- if isset . "caption" }}{{ $caption = .caption }}{{ end -}}
-{{- end -}}
 {{- $src := $destination -}}
 {{- with $image }}{{ $src = . }}{{ end -}}
 {{- $data := partial "helper/picture-data.html" (dict "src" $src "role" "body") -}}
+{{- range slice $data.originalSrc $destination -}}
+    {{- with index $.Page.Params.image_meta . -}}
+        {{- if isset . "alt" }}{{ $alt = .alt }}{{ end -}}
+        {{- if isset . "caption" }}{{ $caption = .caption }}{{ end -}}
+    {{- end -}}
+{{- end -}}
 {{- $galleryImage := false -}}
 {{- if $image -}}
     {{- $ext := lower (path.Ext $image.Name) -}}
     {{- $galleryImage = and (eq $image.ResourceType "image") (not (in (slice ".svg" ".avif") $ext)) -}}
 {{- end -}}
-{{- $inspectStatic := and (not $image) (hasPrefix $destination "/img/") (gt $data.width 0) (gt $data.height 0) -}}
+{{- $inspectStatic := and (not $image) (hasPrefix $data.originalSrc "/") (not (hasPrefix $data.originalSrc "//")) (gt $data.width 0) (gt $data.height 0) -}}
 <figure class="article-figure{{ if $galleryImage }} gallery-image{{ end }}">
     {{- if $galleryImage -}}
         {{/* Keep the full resource in src for PhotoSwipe; currentSrc uses the responsive WebP. */}}
@@ -29,6 +31,6 @@
         <figcaption>{{ . | $.Page.RenderString }}</figcaption>
     {{- end -}}
     {{- if $inspectStatic }}
-        <a class="article-figure__fullsize" href="{{ $destination | safeURL }}">{{ T "imageOpenFullSize" }}</a>
+        <a class="article-figure__fullsize" href="{{ $data.originalSrc | safeURL }}">{{ T "imageOpenFullSize" }}</a>
     {{- end }}
 </figure>

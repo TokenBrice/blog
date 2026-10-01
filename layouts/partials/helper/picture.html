@@ -6,6 +6,7 @@ class, sizes and imgAttrs (attribute-name/value dict) belong to the img.
 Reserved img attributes (src/srcset/sizes/width/height/alt/loading/fetchpriority/
 class/decoding) are controlled here, not by imgAttrs. Unsupported sources emit
 plain img; never invent dimensions. See picture-data for the measured AVIF rule.
+String sources normalize inside picture-data, including relative img/... URLs.
 */}}
 {{- $data := partial "helper/picture-data.html" . -}}
 {{- $role := .role | default "body" -}}
