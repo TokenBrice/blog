@@ -1,8 +1,6 @@
 ---
-title: 'Blockchains meet Telecommunications: Opportunity, Risk, or A Necessity?'
-description: >-
-  What can blockchains bring to the telecommunications industry. Blokchains meet
-  telcos — will disintermediation ensue?
+title: 'Blockchains and Telecoms: Use Cases, Risks and Trade-offs'
+description: "A 2018 look at blockchain use cases in telecoms: device identity, mobile data reselling and decentralized networks, with risks and trade-offs."
 date: '2018-11-28T14:00:52.000Z'
 categories: [Analysis]
 tags: [telco, Blockchain]

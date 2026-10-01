@@ -1,6 +1,6 @@
 ---
-title: "Introducing my next step: contributing to a DeFi mastermind geared to support trustless and unstoppable DeFi: The DeFi Collective"
-description: "It's time to put my five years in DeFi to the best use: unfettered support for the public goods"
+title: "The DeFi Collective: Supporting Unstoppable DeFi"
+description: "The 2023 launch of the DeFi Collective: a nonprofit using liquidity management, governance and education to support resilient DeFi public goods."
 date: '2023-10-16T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Projects]

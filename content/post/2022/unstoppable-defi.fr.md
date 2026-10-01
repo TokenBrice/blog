@@ -1,5 +1,5 @@
 ---
-title: "DeFi inarrêtable : mesurer la résilience d'un protocole"
+title: "DeFi inarrêtable : mesurer la résilience d'un protocole"
 description: "Du protocole totalement centralisé au véritablement inarrêtable : une grille pour évaluer l'immuabilité des contrats, les multisigs et les oracles en DeFi."
 date: '2022-05-18T01:13:50.191Z'
 lastmod: 2026-05-19
@@ -14,6 +14,10 @@ aliases:
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 difficulty: "expert"
 format: analysis
+image_meta:
+  "/img/2022/unstoppable-defi/resilience-spectrum-fr.png":
+    alt: "Résilience croissante de l'USDC centralisé à Curve et Uniswap, en passant par MIM, DAI et LUSD : contrats modifiables, puis immuables avec dépendances tierces mitigées ou absentes."
+    caption: "Grille et exemples de TokenBrice en mai 2022. Comparaison historique, pas un classement actuel des protocoles."
 ---
 
 La finance décentralisée a permis l’émergence de protocoles autonomes dont les fonctionnalités sont assurées par des smart contracts parfois immuables, permettant à des individus du monde entier d’utiliser des services financiers tout à la fois souverains, accessibles mais aussi plus efficaces et résilients que ceux disponibles en finance classique. Voilà la belle histoire qu’on raconte aux nouveaux arrivants pour les endormir : la réalité est bien plus nuancée.

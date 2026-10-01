@@ -1,6 +1,6 @@
 ---
-title: "🐥 Le guide du DeFian : prise en main des outils communautaires DeFi France"
-description: "Guide de la communaute DeFi France, de son systeme d incentives Discord et des manieres de participer efficacement."
+title: "Le guide du DeFian : participer à DeFi France"
+description: "Le guide de DeFi France v2 : rejoindre le Discord, comprendre le blé, participer aux votes et contribuer à la curation et à la modération."
 date: '2021-05-17T01:53:50.191Z'
 categories: [Projects]
 tags: [DeFi France, Discord]
@@ -167,7 +167,7 @@ Tu as désormais toutes les informations utiles pour découvrir, débuter et t'�
 
 Pour se quitter, voici quelques contenus afin d’aller plus loin dans ta découverte de DeFi France :
 
-*   Suivre les décisions communautaires : [📜fil de la gouvernance DeFi France](https://tokenbrice.xyz/fr/categories/communaut%C3%A9-defi-france/).
+*   Suivre les décisions communautaires : [📜fil de la gouvernance DeFi France](/fr/tags/defi-france/).
 *   Comprendre les bases : [l'article de présentation DFF v2](https://tokenbrice.xyz/fr/defi-france-version-2/)
 *   Retour au source : [📹 Playlist replay des 10 meetups organisés par DeFi France](https://www.youtube.com/watch?v=6rgt-bygKNo&list=PLreQl_vxgtPhhwkYbTHiec_dyG9XqKtT9&index=11)
 *   Comprendre la vision : vidéo d'introduction avec Nolan, l'architecte du système 👇

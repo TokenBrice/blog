@@ -1,5 +1,5 @@
 ---
-title: 'How to host a Python server for a SAP Conversational AI bot using Github and Heroku'
+title: 'Host a SAP Python Chatbot on Heroku From GitHub'
 description: "A practical tutorial for deploying a chatbot from GitHub to Heroku, covering the basic workflow from repository to live app."
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]

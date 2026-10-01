@@ -1,7 +1,6 @@
 ---
-title: Les Stablecoins, une nécessité pour l'adoption à grande échelle des cryptomonnaies?
-description: >-
-  Les Stablecoins apportent une réponse à une des inquiétudes les plus récurrentes de la population générale : la volalitié. Oui, mais à quel prix?
+title: "Stablecoins : la stabilité à quel prix ?"
+description: "Les stablecoins réduisent la volatilité, mais à quel prix ? Une analyse de 2018 des réserves fiat, du collatéral crypto et des modèles algorithmiques."
 date: '2018-08-22T12:14:52.416Z'
 categories: [Stablecoin]
 tags: [Stablecoins, Tether, EcoCrypto]

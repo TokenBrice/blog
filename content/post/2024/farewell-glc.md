@@ -1,6 +1,6 @@
 ---
-title: "Farewell to the GHO Liquidity Committee and reflections on the rise of DeFi newspeak"
-description: "I've resigned from the GHO Liquidity Committee - this post explains why and reflect on the core challenges observed in DeFi's governance and committees"
+title: "Leaving the GHO Liquidity Committee: DeFi Newspeak"
+description: "Why I resigned from the GHO Liquidity Committee: liquidity mismanagement, conflicts of interest and the gap between DeFi governance talk and reality."
 date: '2024-02-08T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]

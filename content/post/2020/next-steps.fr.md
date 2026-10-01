@@ -1,6 +1,6 @@
 ---
-title: "La prochaine étape de mon aventure : un engagement encore plus communautaire"
-description: "Pourquoi je quitte mon role de community manager chez Monolith pour consacrer plus de temps aux initiatives communautaires DeFi."
+title: "Quitter Monolith pour la communauté DeFi"
+description: "Pourquoi j'ai quitté Monolith en 2020 pour la communauté DeFi, ce blog et BanklessFR, tout en rejoignant ParaSwap pour travailler sur les échanges."
 date: '2020-10-15T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, TokenBrice.xyz, Monolith, DeFi France, BanklessFR]

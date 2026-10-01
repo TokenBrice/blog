@@ -1,6 +1,6 @@
 ---
-title: "One step closer towards working for and answering to the Ethereum & DeFi community"
-description: "I'm stepping down as Monolith's Community Manager to dedicate more of my team to community-driven efforts: content, meetups & tips for the people!"
+title: "Leaving Monolith to Work for the DeFi Community"
+description: "Why I left Monolith in 2020 to focus on DeFi communities, this blog and BanklessFR, while joining ParaSwap to work on swaps and integrations."
 date: '2020-10-15T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, TokenBrice.xyz, Monolith, DeFi France, BanklessFR]
@@ -50,7 +50,7 @@ I've learned so much in that role! What I loved the most about it is that I was 
 
 I know it's silly, but Osaka blew my mind. Before it, I felt the energy and ambition of the space. Going there, I **saw** it personally, and it was something else. It bolstered my confidence in the impact Ethereum could have on the world.
 
-It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/content/learndefi/_index.md): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days!
+It's also around this time that I've met [Mounir](https://twitter.com/mounibec) and [Arthur](https://twitter.com/arthurmicoulet), and together we created [DeFi France](https://tokenbrice.xyz/fr/defi-france-version-2/): the attendance at our first event blew our mind, with 90 people in the room for an event organised in a few days!
 
 ![DeFi France DF1](/img/2020/next-steps/df1.png "DeFi France's first event, held entirely in French")
 

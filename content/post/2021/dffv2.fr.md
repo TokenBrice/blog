@@ -1,5 +1,5 @@
 ---
-title: "🇫🇷 Engagez-vous pour le futur de la France : les débuts de DeFi France v2"
+title: "DeFi France v2 : la communauté prend les commandes"
 description: "La communauté DeFi France s'ouvre et devient encore plus horizontale : c'est à vous de jouer désormais !"
 date: '2021-04-27T01:53:50.191Z'
 lastmod: 2026-05-19

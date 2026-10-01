@@ -1,5 +1,5 @@
 ---
-title: "Non-fungible tokens (NFTs): the weight and contribution of ascertainable history "
+title: "NFT Use Cases: The Value of Verifiable History"
 description: "A walk through the world of NFTs to understand the value of provable digital scarcity and its contribution to community or artistic uses."
 date: '2021-04-09T01:13:50.191Z'
 lastmod: 2026-05-19

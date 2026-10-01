@@ -1,6 +1,6 @@
 ---
-title: 'The Attention Economy: How Your Attention Gets Sold'
-description: "What the attention economy is, why attention became the scarce resource, and how media and marketers turn the attention they capture into revenue."
+title: 'Attention Economy: How Your Attention Gets Sold'
+description: "What is the attention economy? How scarce attention becomes revenue for platforms and marketers, and why you are the product."
 date: '2019-04-18T15:00:20.293Z'
 categories: [Analysis, Privacy]
 tags: [advertising model, data harvesting]
@@ -14,6 +14,10 @@ difficulty: "beginner"
 format: analysis
 related_posts: ["/users-privacy/"]
 glossary_terms: []
+image_meta:
+  "/img/2019/attention-economy/60s.jpeg":
+    alt: "Comparing online activity per minute in 2012, 2013 and 2014: emails, searches, social posts, video uploads and calls."
+    caption: "Figures shown are from 2012–2014, not current traffic estimates."
 ---
 
 The attention economy is the idea that we’re switching to or already exploring a new economic paradigm where the individuals’ attention is the limiting factor. Goods and content became more accessible and cheaper to produce, but they are now facing a demand wall: attention is a scarce resource — a person has only so much of it.

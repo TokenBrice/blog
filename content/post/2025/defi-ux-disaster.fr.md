@@ -1,5 +1,5 @@
 ---
-title: "Le cauchemard UX de la DeFi : comment la curation pourrait sauver l'innovation"
+title: "Le cauchemar UX de la DeFi : la curation comme remède"
 description: "Où je révèle le sombre secret de la DeFi : la crise de la couche de curation - et ce que nous pouvons faire pour y remédier."
 date: '2025-03-08T01:13:50.191Z'
 categories: [Thesis]

@@ -1,6 +1,6 @@
 ---
-title: "Un autre regard sur l'adoption de masse pour la finance décentralisée - le grand filtre, version DeFi"
-description: "Explorons de nouvelles perspectives pour mieux comprendre les freins obstacles à l'adoption de la finance décentralisée et comment les dépasser."
+title: "Le grand filtre DeFi : les freins à l'adoption"
+description: "L'adoption de la DeFi ne se résume pas à l'UX : apprentissage, compréhension des risques et rôle des communautés comme des développeurs."
 date: '2020-05-27T11:53:50.191Z'
 categories: [Thesis]
 tags: [DeFi, Ethereum, Adoption]

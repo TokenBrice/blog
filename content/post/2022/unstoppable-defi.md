@@ -1,6 +1,6 @@
 ---
-title: "Behind the scene of the decentralization theater: a study of the inalterability of DeFi protocols"
-description: "From total centralization to unstoppable protocols: a definition and analysis of the spectrum of the different resilience levels of DeFi protocols."
+title: "Unstoppable DeFi: Measuring Protocol Resilience"
+description: "How to assess DeFi protocol resilience: immutable contracts, admin keys, oracle dependencies and front-end access, with examples from 2022."
 date: '2022-05-18T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Analysis]
@@ -14,6 +14,10 @@ aliases:
 image: /img/2022/unstoppable-defi/unstoppable-defi-tokenbrice-cover.png
 difficulty: "expert"
 format: analysis
+image_meta:
+  "/img/2022/unstoppable-defi/resilience-spectrum-en.png":
+    alt: "Increasing resilience from centralized USDC through MIM, DAI and LUSD to Curve and Uniswap: modifiable contracts give way to immutable contracts with mitigated or no third-party dependencies."
+    caption: "TokenBrice's May 2022 framework and examples. Historical comparison, not a current protocol ranking."
 ---
 
 Decentralized finance has allowed the emergence of autonomous protocols whose functionalities are ensured by smart contracts that are sometimes immutable. It enables individuals from all over the world to use financial services that are at the same time sovereign, accessible, and more efficient and resilient than those available in traditional finance. It's the lovely story that newcomers are told to lull them to sleep: the reality is much more nuanced.

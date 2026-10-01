@@ -1,5 +1,5 @@
 ---
-title: 'Naviguer le cryptomonde : le guide pour repérer les arnaques et shitcoins'
+title: 'Crypto : repérer les arnaques et les shitcoins'
 description: >-
   Un aperçu des principales choses à regarder avant d'investir dans un projet de
   crypto, et des astuces pour repérer les signaux inquiétants.

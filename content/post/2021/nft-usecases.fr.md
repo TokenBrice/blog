@@ -1,6 +1,6 @@
 ---
-title: "Les tokens non-fongibles (NFTs) : le poids et l'apport de l'histoire vérifiable "
-description: "Une balade dans le monde des NFTs pour comprendre l'intérêt de la rareté numérique prouvable et son apport pour des utilisations communautaires ou artistiques."
+title: "NFTs : la valeur de l'histoire vérifiable"
+description: "Comment l'histoire vérifiable et la rareté numérique donnent de la valeur aux NFTs : art, communautés et jeux vidéo, à travers des exemples de 2021."
 date: '2021-03-31T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [NFT]

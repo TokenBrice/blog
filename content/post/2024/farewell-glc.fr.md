@@ -1,6 +1,6 @@
 ---
-title: "Adieu au GHO Liquidity Committee et réflexions sur l'essor du novlangue DeFi"
-description: "J'ai démissionné du GHO Liquidity Committee - cet article explique pourquoi et réfléchit sur les défis principaux observés dans la gouvernance et les comités DeFi"
+title: "Adieu au GHO Liquidity Committee : la novlangue DeFi"
+description: "Pourquoi j'ai quitté le GHO Liquidity Committee : gestion de liquidité, conflits d'intérêts et décalage entre discours et réalité onchain en DeFi."
 date: '2024-02-08T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Ethereum, Stablecoins, Liquidity, GHO, GHO Liquidity Committee]

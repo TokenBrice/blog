@@ -1,6 +1,6 @@
 ---
-title: "Hiring a Junior DeFi Strategist to help foster the growth of immutable protocols"
-description: "A call for a part-time DeFi strategist to help grow liquidity and utility for resilient tokens and protocol ecosystems."
+title: "Junior DeFi Strategist: Closed 2023 Vacancy"
+description: "Archived 2023 vacancy, now closed: a part-time DeFi strategist role focused on liquidity management, governance and immutable protocols."
 date: '2023-03-29T01:13:50.191Z'
 lastmod: 2026-10-01
 categories: [Projects]

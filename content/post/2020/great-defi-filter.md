@@ -1,6 +1,6 @@
 ---
-title: "A cold look at decentralized finance mass adoption: introducing the Great DeFi Filter"
-description: "Exploring new perspectives to understand better the current barriers to decentralised finance's mainstream adoption and how to overcome them."
+title: "The Great DeFi Filter: Why Mass Adoption Is Hard"
+description: "Why DeFi adoption takes more than better interfaces: the learning curve, user understanding and the work communities and builders need to do."
 date: '2020-05-08T14:53:50.191Z'
 lastmod: 2026-05-19
 categories: [Thesis]

@@ -1,7 +1,6 @@
 ---
-title: 'How To Build A Cryptobot In Python Able To Fetch Data From External APIs'
-description: >-
-  A step by step tutorial to building a chatbot able to fetch crypto prices using Recast.AI (now SAP)
+title: 'Build a Python Cryptobot That Fetches Prices From APIs'
+description: "A 2017 tutorial on building Sato, a Python chatbot that uses SAP Conversational AI and the CryptoCompare API to fetch cryptocurrency prices."
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python]
