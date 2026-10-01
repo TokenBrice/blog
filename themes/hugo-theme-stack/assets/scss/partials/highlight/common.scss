@@ -54,7 +54,7 @@
 .chroma .lnt {
     margin-right: 0.4em;
     padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
+    color: var(--code-line-number-color);
     display: block;
 }
 
@@ -62,7 +62,7 @@
 .chroma .ln {
     margin-right: 0.4em;
     padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
+    color: var(--code-line-number-color);
 }
 
 /* Keyword */

@@ -9,10 +9,9 @@
 .category-card {
     background: var(--card-background);
     border: 1px solid var(--card-separator-color);
-    border-left: 4px solid var(--card-separator-color);
     border-radius: var(--card-border-radius);
     padding: 1.5rem;
-    transition: all 0.2s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     box-shadow: var(--shadow-l1);
 }
 
@@ -27,9 +26,6 @@
     border-color: var(--accent-color);
 }
 
-.category-card.clickable-category:hover {
-    border-left-width: 6px;
-}
 
 .category-card:focus-visible {
     outline: 2px solid var(--accent-color);
@@ -52,7 +48,7 @@
     justify-content: center;
     font-size: 24px;
     flex-shrink: 0;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     background: rgba(var(--category-color-rgb, 59, 130, 246), 0.08);
 }
 
@@ -80,15 +76,16 @@
     margin: 0;
     color: var(--card-text-color-secondary);
     line-height: 1.4;
-    font-size: 0.9rem;
+    font-size: var(--fs-small);
 }
 
 .category-count {
-    background: var(--category-color, var(--accent-color));
-    color: white;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    color: var(--ink);
     padding: 0.25rem 0.75rem;
-    border-radius: 12px;
-    font-size: 0.75rem;
+    border-radius: var(--radius-chip);
+    font-size: var(--fs-micro);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;

@@ -2,7 +2,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://ecocrypto.fr; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com https://i.ytimg.com; font-src 'self'; connect-src 'self' https://ecocrypto.fr; media-src 'self'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self';">
 <link rel="dns-prefetch" href="https://ecocrypto.fr">
 
-{{- /* Self-hosted fonts: Inter Tight (body), Fraunces (headings), Lato (legacy fallback). */ -}}
+{{- /* Self-hosted fonts: Inter Tight (body), Fraunces (headings). */ -}}
 {{- $interBody := resources.Get "fonts/inter-tight/inter-tight-400-latin.woff2" -}}
 {{- $fraunces := resources.Get "fonts/fraunces/fraunces-700-latin.woff2" -}}
 {{- with $interBody }}<link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/woff2" crossorigin>{{ end }}
@@ -31,17 +31,6 @@
 {{- end }}
 {{- with $frExt }}
 @font-face{font-family:'Fraunces';font-style:normal;font-weight:700;font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latinExt | safeCSS }};}
-{{- end }}
-{{- /* Lato 400/700/900 (legacy fallback for any leftover usage) */ -}}
-{{- range $w := slice 400 700 900 -}}
-  {{- $latinFile := resources.Get (printf "fonts/lato/lato-%d-latin.woff2" $w) -}}
-  {{- $extFile := resources.Get (printf "fonts/lato/lato-%d-latin-ext.woff2" $w) -}}
-  {{- with $latinFile }}
-@font-face{font-family:'Lato';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latin | safeCSS }};}
-  {{- end }}
-  {{- with $extFile }}
-@font-face{font-family:'Lato';font-style:normal;font-weight:{{ $w }};font-display:swap;src:url('{{ .RelPermalink }}') format('woff2');unicode-range:{{ $latinExt | safeCSS }};}
-  {{- end }}
 {{- end }}
 
 .skip-to-content {

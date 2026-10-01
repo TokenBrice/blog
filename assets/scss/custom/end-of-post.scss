@@ -7,7 +7,7 @@
  * ============================================================ */
 
 .end-of-post {
-    margin: 3rem var(--card-padding, 1.5rem) 0;
+    margin: 3rem 0 0;
     padding: 1.75rem 1.75rem 1.5rem;
     background: var(--card-background);
     border: 1px solid var(--card-separator-color);
@@ -37,7 +37,7 @@
     &__label {
         margin: 0 0 0.95rem;
         font-family: var(--base-font-family);
-        font-size: 0.75rem;
+        font-size: var(--fs-micro);
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.08em;
@@ -117,10 +117,10 @@
 }
 
 .end-of-post__related-kicker {
-    font-size: 0.7rem;
+    font-size: var(--fs-micro);
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     color: var(--card-text-color-tertiary);
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@
 
 .end-of-post__related-title {
     font-family: var(--article-font-family);
-    font-size: 0.95rem;
+    font-size: var(--fs-small);
     font-weight: 700;
     line-height: 1.3;
     color: var(--card-text-color-main);
@@ -197,7 +197,7 @@
 }
 
 .end-of-post__hub-type {
-    font-size: 0.65rem;
+    font-size: var(--fs-micro);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -205,7 +205,7 @@
 }
 
 .end-of-post__hub-title {
-    font-size: 0.88rem;
+    font-size: var(--fs-small);
     font-weight: 650;
     line-height: 1.25;
 }
@@ -232,9 +232,10 @@
     border-radius: var(--tag-border-radius, 4px);
     color: var(--card-text-color-secondary);
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: var(--fs-meta);
     font-weight: 500;
     line-height: 1.2;
+    min-height: 44px;
     transition: color 0.18s ease, background-color 0.18s ease;
 
     &:hover,

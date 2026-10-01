@@ -31,10 +31,19 @@
 
         .article-content {
             margin: var(--card-padding) 0;
-            color: var(--card-text-color-main);
+            color: var(--ink);
 
             .footnotes {
                 font-family: var(--base-font-family);
+                font-size: var(--fs-small);
+                color: var(--ink-2);
+                border-top: 1px solid var(--rule);
+                padding-top: var(--space-4);
+                margin-top: var(--space-6);
+
+                hr {
+                    display: none;
+                }
             }
 
             img {
@@ -53,10 +62,9 @@
 
             section {
                 color: var(--card-text-color-tertiary);
-                text-transform: uppercase;
                 display: flex;
                 align-items: center;
-                font-size: 1.4rem;
+                font-size: var(--fs-meta);
                 gap: 15px;
 
                 svg {
@@ -209,7 +217,7 @@
     line-height: var(--article-line-height);
 
     & > p {
-        margin: 1.5em 0;
+        margin: 1.25em 0;
     }
 
     h1,
@@ -218,16 +226,16 @@
     h4,
     h5,
     h6 {
-        margin-inline-start: calc((var(--card-padding)) * -1);
-        padding-inline-start: calc(var(--card-padding) - var(--heading-border-size));
-        border-inline-start: var(--heading-border-size) solid var(--accent-color);
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        border: 0;
         position: relative;
 
         a.header-anchor {
             transition: opacity 0.3s ease;
             opacity: 0;
             position: absolute;
-            left: 0;
+            left: calc(var(--card-padding) * -1);
             width: var(--card-padding);
             text-align: center;
             color: var(--accent-color);
@@ -257,14 +265,15 @@
     blockquote {
         position: relative;
         margin: 1.5em 0;
-        border-inline-start: var(--blockquote-border-size) solid var(--card-separator-color);
-        padding: 15px calc(var(--card-padding) - var(--blockquote-border-size));
-        background-color: var(--blockquote-background-color);
+        border: 0;
+        padding: 0 0 0 1.4em;
+        background: none;
+        color: var(--ink-2);
 
         .cite {
             display: block;
             text-align: right;
-            font-size: 0.75em;
+            font-size: var(--fs-meta);
 
             a {
                 text-decoration: underline;
@@ -377,7 +386,9 @@
         border-collapse: collapse;
         border-spacing: 0;
         margin-bottom: 1.5em;
-        font-size: 0.96em;
+        font-size: var(--fs-small);
+        line-height: 1.45;
+        font-variant-numeric: tabular-nums lining-nums;
     }
 
     th,
@@ -385,6 +396,11 @@
         text-align: left;
         padding: 4px 8px 4px 10px;
         border: 1px solid var(--table-border-color);
+    }
+
+    th {
+        font-weight: 700;
+        border-bottom: 2px solid var(--ink);
     }
 
     td {
@@ -430,7 +446,6 @@
     }
 
     /// Negative margins
-    blockquote,
     figure,
     .highlight,
     pre,

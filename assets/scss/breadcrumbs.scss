@@ -1,7 +1,7 @@
 /* Breadcrumb Navigation Styles */
 .breadcrumbs {
   margin-bottom: 1.5rem;
-  font-size: 0.9rem;
+  font-size: var(--fs-meta);
 }
 
 .breadcrumb-list {
@@ -43,7 +43,7 @@
 /* Responsive breadcrumbs */
 @media (max-width: 768px) {
   .breadcrumb-list {
-    font-size: 0.8rem;
+    font-size: var(--fs-meta);
   }
 
   .breadcrumb-item:not(:last-child):not(:first-child) {

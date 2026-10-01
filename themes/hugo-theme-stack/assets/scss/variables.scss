@@ -1,7 +1,3 @@
-// #ffb900 (original) failed WCAG AA (~1.85:1 with white text). Replaced with #806504 (~7.6:1).
-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #806504, #6b69d6;
-$defaultTagColors: #fff, #fff, #fff, #fff, #fff;
-
 /*
 *   Global style
 */
@@ -12,14 +8,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: var(--paper);
 
-    --accent-color: #34495e;
+    --accent-color: var(--slate);
     --accent-color-darker: #2c3e50;
-    --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --accent-color-text: var(--surface);
+    --body-text-color: var(--ink);
 
-    --tag-border-radius: 4px;
+    --tag-border-radius: var(--radius-chip);
 
     --section-separation: 40px;
 
@@ -27,11 +23,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #303030;
-        --accent-color: #ecf0f1;
-        --accent-color-darker: #bdc3c7;
-        --accent-color-text: #000;
-        --body-text-color: rgba(255, 255, 255, 0.7);
+        --body-background: var(--paper);
+        --accent-color: var(--slate);
+        --accent-color-darker: #c2d7eb;
+        --accent-color-text: #15191e;
+        --body-text-color: var(--ink);
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
     }
@@ -44,7 +40,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
-    --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --base-font-family: var(--font-body);
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
@@ -52,15 +48,15 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #fff;
-    --card-background-selected: #eaeaea;
+    --card-background: var(--surface);
+    --card-background-selected: #e9edf3;
 
-    --card-text-color-main: #000;
-    --card-text-color-secondary: #747474;
-    --card-text-color-tertiary: #767676;
-    --card-separator-color: rgba(218, 218, 218, 0.5);
+    --card-text-color-main: var(--ink);
+    --card-text-color-secondary: var(--ink-2);
+    --card-text-color-tertiary: var(--ink-3);
+    --card-separator-color: var(--rule);
 
-    --card-border-radius: 10px;
+    --card-border-radius: var(--radius-card);
 
     --card-padding: 20px;
 
@@ -79,12 +75,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     }
 
     &[data-scheme="dark"] {
-        --card-background: #424242;
-        --card-background-selected: rgba(255, 255, 255, 0.16);
-        --card-text-color-main: rgba(255, 255, 255, 0.9);
-        --card-text-color-secondary: rgba(255, 255, 255, 0.7);
-        --card-text-color-tertiary: rgba(255, 255, 255, 0.6);
-        --card-separator-color: rgba(255, 255, 255, 0.12);
+        --card-background: var(--surface);
+        --card-background-selected: #30363d;
+        --card-text-color-main: var(--ink);
+        --card-text-color-secondary: var(--ink-2);
+        --card-text-color-tertiary: var(--ink-3);
+        --card-separator-color: var(--rule);
     }
 }
 
@@ -92,24 +88,20 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Article content font settings
 */
 :root {
-    --article-font-family: var(--base-font-family);
-    --article-font-size: 1.6rem;
+    --article-font-family: var(--font-body);
+    --article-font-size: var(--fs-body);
+    --article-line-height: 1.65;
 
-    @include respond(md) {
-        --article-font-size: 1.7rem;
+    &[data-scheme="dark"] {
+        --article-line-height: 1.7;
     }
-
-    --article-line-height: 1.85;
 }
 
 /*
 *   Article content style
 */
 :root {
-    --blockquote-border-size: 4px;
-    --blockquote-background-color: rgb(248 248 248);
-
-    --heading-border-size: 4px;
+    --heading-border-size: 1px;
 
     --link-background-color: 189, 195, 199;
     --link-background-opacity: 0.5;
@@ -118,23 +110,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
-    --code-text-color: #808080;
+    --code-background-color: var(--paper);
+    --code-text-color: var(--ink-2);
 
-    --table-border-color: #dadada;
-    --tr-even-background-color: #efefee;
+    --table-border-color: var(--rule);
+    --tr-even-background-color: var(--paper);
 
-    --kbd-border-color: #dadada;
+    --kbd-border-color: var(--rule);
 
-    &[data-scheme="dark"] {
-        --code-background-color: #272822;
-        --code-text-color: rgba(255, 255, 255, 0.9);
-
-        --table-border-color: #717171;
-        --tr-even-background-color: #545454;
-
-        --blockquote-background-color: rgb(75 75 75);
-    }
 }
 
 /*

@@ -53,8 +53,8 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .glossary-starthere-eyebrow {
-    font-family: "Inter Tight", Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 1.05rem;
+    font-family: var(--font-body);
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -97,17 +97,15 @@ $glossary-faq-color: #8B5CF6;
     flex-direction: column;
     gap: 0.2rem;
     padding: 0.55rem 0.65rem;
-    border-radius: 6px;
+    border-radius: var(--radius-chip);
     text-decoration: none;
     color: inherit;
-    border-left: 2px solid transparent;
-    transition: background 0.15s ease, border-left-color 0.15s ease, transform 0.15s ease;
+    transition: background 0.15s ease, transform 0.15s ease;
 }
 
 .glossary-starthere-link:hover,
 .glossary-starthere-link:focus-visible {
     background: color-mix(in srgb, var(--term-accent, var(--accent-color)) 6%, transparent);
-    border-left-color: var(--term-accent, var(--accent-color));
     transform: translateX(2px);
 }
 
@@ -117,7 +115,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .glossary-starthere-name {
-    font-family: "Inter Tight", Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: var(--font-body);
     font-size: 1.45rem;
     font-weight: 700;
     color: var(--accent-color);
@@ -194,7 +192,7 @@ $glossary-faq-color: #8B5CF6;
     width: 100%;
     padding: 0.85rem 1.25rem 0.85rem 2.85rem;
     border: 1px solid var(--card-separator-color);
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     background: var(--card-background);
     color: var(--card-text-color-main);
     font-size: 1.55rem;
@@ -209,7 +207,7 @@ $glossary-faq-color: #8B5CF6;
 
 .glossary-search::placeholder {
     color: var(--card-text-color-secondary);
-    opacity: 0.7;
+    opacity: 1;
 }
 
 /* Category Pills */
@@ -225,56 +223,68 @@ $glossary-faq-color: #8B5CF6;
     align-items: center;
     gap: 0.5rem;
     padding: 0.45rem 0.95rem;
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     border: 1px solid var(--card-separator-color);
     background: var(--card-background);
     color: var(--card-text-color-main);
-    font-size: 1.3rem;
+    font-size: var(--fs-meta);
     font-weight: 500;
     cursor: pointer;
     transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease, transform 0.18s ease;
     white-space: nowrap;
     line-height: 1.2;
+    min-height: 36px;
 }
 
-.category-pill svg {
-    width: 14px;
-    height: 14px;
+.category-pill svg,
+.category-pill .chip-icon svg {
+    width: 1.6rem;
+    height: 1.6rem;
     fill: none;
-    stroke: var(--pill-color, currentColor);
+    stroke: currentColor;
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
     flex-shrink: 0;
 }
 
+.chip-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    flex: 0 0 1.6rem;
+    color: currentColor;
+}
+
 .category-pill:hover {
     border-color: var(--pill-color, var(--accent-color));
-    background: color-mix(in srgb, var(--pill-color, var(--accent-color)) 8%, var(--card-background));
+    background: var(--card-background-selected);
     transform: translateY(-1px);
 }
 
 .category-pill.active {
-    background: var(--pill-color, var(--accent-color));
-    color: white;
-    border-color: var(--pill-color, var(--accent-color));
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    border-color: var(--accent-color);
     font-weight: 700;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
 }
 
 .category-pill.active svg {
-    stroke: white;
+    stroke: currentColor;
 }
 
 .pill-count {
     font-size: 1.2rem;
     font-weight: 400;
-    opacity: 0.7;
+    opacity: 1;
     padding: 0 0.15rem;
 }
 
 .category-pill.active .pill-count {
-    opacity: 0.85;
+    opacity: 1;
 }
 
 .glossary-result-count {
@@ -291,11 +301,11 @@ $glossary-faq-color: #8B5CF6;
 .alphabet-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.15rem;
+    gap: 4px;
     margin: 1.25rem 0 2rem;
     padding: 0.5rem 0.65rem;
     background: var(--card-background);
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     border: 1px solid var(--card-separator-color);
     align-items: center;
     justify-content: center;
@@ -310,13 +320,17 @@ $glossary-faq-color: #8B5CF6;
     color: var(--card-text-color-secondary);
     border: 0;
     padding: 0.35rem 0.55rem;
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: var(--fs-meta);
     font-weight: 600;
     line-height: 1;
     transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
-    min-width: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    min-height: 36px;
     text-align: center;
 }
 
@@ -338,7 +352,7 @@ $glossary-faq-color: #8B5CF6;
 
 .alphabet-link.is-empty {
     color: var(--card-text-color-tertiary, var(--card-text-color-secondary));
-    opacity: 0.35;
+    opacity: 1;
     cursor: not-allowed;
     pointer-events: none;
 }
@@ -373,10 +387,9 @@ $glossary-faq-color: #8B5CF6;
     letter-spacing: -0.03em;
     color: var(--card-text-color-main);
     margin: 0 0 1.5rem;
-    padding: 0.25rem 0 0.85rem 1.1rem;
+    padding: 0.25rem 0 0.85rem;
     border: 0;
     border-bottom: 1px solid var(--card-separator-color);
-    border-inline-start: 4px solid var(--accent-color);
     margin-inline-start: 0;
     background: transparent;
     z-index: 10;
@@ -412,7 +425,6 @@ $glossary-faq-color: #8B5CF6;
     margin-bottom: 0.85rem;
     background: var(--card-background);
     border: 1px solid var(--card-separator-color);
-    border-left: 3px solid var(--term-accent, var(--card-separator-color));
     border-radius: 10px;
     text-decoration: none;
     color: inherit;
@@ -426,7 +438,6 @@ $glossary-faq-color: #8B5CF6;
     transform: translateY(-2px);
     box-shadow: var(--shadow-l2);
     border-color: color-mix(in srgb, var(--term-accent, var(--accent-color)) 45%, var(--card-separator-color));
-    border-left-color: var(--term-accent, var(--accent-color));
     background: color-mix(in srgb, var(--term-accent, var(--accent-color)) 3%, var(--card-background));
 }
 
@@ -503,7 +514,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .compact-card:hover .compact-term-name {
-    color: var(--term-accent);
+    color: var(--accent-color);
 }
 
 .compact-full-term {
@@ -515,7 +526,7 @@ $glossary-faq-color: #8B5CF6;
 
 .compact-definition {
     margin: 0;
-    font-size: 1.4rem;
+    font-size: var(--fs-small);
     line-height: 1.55;
     color: var(--card-text-color-secondary);
     display: -webkit-box;
@@ -525,7 +536,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .compact-badge {
-    display: none; /* removed — left accent + icon already encode category */
+    display: none; /* the icon tile already encodes category */
 }
 
 /* =============================================
@@ -551,7 +562,7 @@ $glossary-faq-color: #8B5CF6;
 
 .term-category-header {
     padding: 0.75rem 1.5rem;
-    font-size: 0.85rem;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 1px;
     text-align: left;
@@ -608,7 +619,7 @@ $glossary-faq-color: #8B5CF6;
 
 .full-term {
     display: block;
-    font-size: 1rem;
+    font-size: var(--fs-meta);
     font-weight: 400;
     color: var(--card-text-color-secondary);
     margin: 0;
@@ -620,7 +631,7 @@ $glossary-faq-color: #8B5CF6;
     color: var(--accent-color-text);
     padding: 0.5rem 1rem;
     border-radius: var(--tag-border-radius);
-    font-size: 0.8rem;
+    font-size: var(--fs-micro);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -666,7 +677,7 @@ $glossary-faq-color: #8B5CF6;
 
 .example-header strong {
     color: $glossary-example-color;
-    font-size: 0.9rem;
+    font-size: var(--fs-meta);
     font-weight: 600;
 }
 
@@ -697,7 +708,7 @@ $glossary-faq-color: #8B5CF6;
 
 .risks-header strong {
     color: $glossary-risks-header-color;
-    font-size: 0.9rem;
+    font-size: var(--fs-meta);
     font-weight: 600;
 }
 
@@ -728,7 +739,7 @@ $glossary-faq-color: #8B5CF6;
 
 .term-related strong {
     color: var(--accent-color);
-    font-size: 1rem;
+    font-size: var(--fs-meta);
     font-weight: 700;
     display: block;
     margin-bottom: 0.75rem;
@@ -836,7 +847,7 @@ $glossary-faq-color: #8B5CF6;
     font-weight: 700;
     color: var(--card-text-color-main);
     margin-bottom: 0.75rem;
-    font-size: 1rem;
+    font-size: var(--fs-small);
 }
 
 .faq-answer {
@@ -855,7 +866,7 @@ $glossary-faq-color: #8B5CF6;
 
 .article-item h5 {
     margin: 0 0 0.5rem 0;
-    font-size: 1rem;
+    font-size: var(--fs-small);
     font-weight: 700;
 }
 
@@ -872,7 +883,7 @@ $glossary-faq-color: #8B5CF6;
 
 .article-description {
     color: var(--card-text-color-secondary);
-    font-size: 0.9rem;
+    font-size: var(--fs-small);
     line-height: 1.5;
     margin: 0;
 }
@@ -893,7 +904,7 @@ $glossary-faq-color: #8B5CF6;
 
 .no-results p {
     color: var(--card-text-color-secondary);
-    font-size: 1rem;
+    font-size: var(--fs-small);
 }
 
 /* Related Articles Styling */
@@ -933,7 +944,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .related-articles-list .article-title {
-    font-size: 1rem;
+    font-size: var(--fs-small);
     font-weight: 700;
     color: var(--accent-color);
     margin: 0 0 0.5rem 0;
@@ -945,7 +956,7 @@ $glossary-faq-color: #8B5CF6;
 }
 
 .related-articles-list .article-preview {
-    font-size: 0.875rem;
+    font-size: var(--fs-small);
     color: var(--card-text-color-secondary);
     line-height: 1.4;
     margin: 0;
@@ -992,12 +1003,24 @@ $glossary-faq-color: #8B5CF6;
         flex-wrap: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        padding-bottom: 0.25rem;
+        scrollbar-width: thin;
+        scrollbar-color: var(--ink-3) var(--paper);
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--rule);
     }
 
     .category-pills::-webkit-scrollbar {
-        display: none;
+        height: 6px;
+    }
+
+    .category-pills::-webkit-scrollbar-thumb,
+    .alphabet-nav::-webkit-scrollbar-thumb {
+        background: var(--ink-3);
+        border-radius: var(--radius-chip);
+    }
+
+    .category-pill {
+        flex-shrink: 0;
     }
 
     .compact-badge {
@@ -1016,29 +1039,41 @@ $glossary-faq-color: #8B5CF6;
     }
 
     .compact-term-name {
-        font-size: 1.45rem;
+        font-size: 1.7rem;
     }
 
     .compact-full-term {
-        font-size: 1.1rem;
+        font-size: var(--fs-meta);
     }
 
     .compact-definition {
-        font-size: 1.15rem;
+        font-size: var(--fs-small);
     }
 
     .alphabet-nav {
-        gap: 0.25rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 4px;
+        overflow-x: auto;
+        scrollbar-width: thin;
+        scrollbar-color: var(--ink-3) var(--paper);
+        padding-bottom: 8px;
+    }
+
+    .alphabet-nav::-webkit-scrollbar {
+        height: 6px;
     }
 
     .alphabet-link {
-        padding: 0.3rem 0.5rem;
-        font-size: 0.85rem;
-        min-width: 26px;
+        padding: 8px;
+        font-size: var(--fs-meta);
+        min-width: 40px;
+        min-height: 40px;
+        flex-shrink: 0;
     }
 
     .letter-heading {
-        font-size: 1.85rem;
+        font-size: 4.8rem;
     }
 
     .term-header {
@@ -1060,11 +1095,11 @@ $glossary-faq-color: #8B5CF6;
     }
 
     .related-articles-list .article-title {
-        font-size: 0.9rem;
+        font-size: var(--fs-small);
     }
 
     .related-articles-list .article-preview {
-        font-size: 0.8rem;
+        font-size: var(--fs-small);
     }
 }
 
@@ -1086,15 +1121,12 @@ $glossary-faq-color: #8B5CF6;
 }
 
 [data-scheme="dark"] .category-pill.active {
-    color: white;
+    color: var(--accent-color-text);
 }
 
 [data-scheme="dark"] .compact-card {
     background: var(--card-background);
-    border-top-color: var(--card-separator-color);
-    border-right-color: var(--card-separator-color);
-    border-bottom-color: var(--card-separator-color);
-    /* keep border-left as --term-accent for category color stripe */
+    border-color: var(--card-separator-color);
 }
 
 [data-scheme="dark"] .compact-term-name {

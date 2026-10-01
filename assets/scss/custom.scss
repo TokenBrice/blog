@@ -1,10 +1,8 @@
 /* Custom styles for TokenBrice Blog */
 
-/* Improved body text contrast (AAA compliant, 7:1 on white) */
+/* Shared tokens own the foreground and background roles. */
 :root {
-  --body-text-color: #595959;
-  --error-color: #e74c3c;
-  --code-text-color: #546e7a;
+  --error-color: #b3261e;
   --shadow-l3: 0px 14px 28px rgba(0, 0, 0, 0.06),
                0px 4px 10px rgba(0, 0, 0, 0.04),
                0px 0px 1px rgba(0, 0, 0, 0.04);
@@ -73,33 +71,26 @@
     }
 }
 
-/* WCAG AA fixes: force readable badge text for light category backgrounds */
-.article-category a[style*="#10B981" i],
-.article-category a[style*="#F59E0B" i],
-.article-category a[style*="#F97316" i],
-.term-category-badge[style*="#10B981" i],
-.term-category-badge[style*="#F59E0B" i],
-.term-category-badge[style*="#F97316" i] {
-  color: #111827;
-}
-
-/* Improve category/readability contrast */
-.article-category a:not([style]),
-.term-category-badge:not([style]),
-.term-category-badge a:not([style]) {
-  color: #1f2937;
-}
 
 .article-content a {
-  color: inherit;
+  color: var(--link-color);
   text-decoration: underline;
+  text-decoration-color: var(--ink-3);
+  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+.article-content a:hover {
+  text-decoration-color: var(--signal);
+  text-decoration-thickness: 2px;
+}
+
+.article-content a.link {
+  box-shadow: none;
 }
 
 /* Dark mode contrast fixes */
 [data-scheme="dark"] {
-  --card-text-color-tertiary: rgba(255, 255, 255, 0.65);
-  --code-text-color: #90a4ae;
   --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.12),
                0px 0px 2px rgba(0, 0, 0, 0.16),
                0px 0px 1px rgba(0, 0, 0, 0.12);
@@ -111,16 +102,41 @@
                0px 0px 1px rgba(0, 0, 0, 0.10);
 }
 
-[data-scheme="dark"] .article-content a {
-  color: #93c5fd;
+
+/* Single pages share the article scale and reading measure. */
+.article-page .main-article {
+  .article-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-display);
+    line-height: 1.06;
+    letter-spacing: -0.018em;
+    max-width: 16em;
+  }
+
+  .article-subtitle {
+    font-size: var(--fs-lede);
+    line-height: 1.45;
+    color: var(--ink-2);
+    max-width: 30em;
+  }
 }
 
-/* Typography: heading line-heights and vertical rhythm */
 .article-content {
-  h1 { line-height: 1.2; margin: 2em 0 0.75em; }
-  h2 { line-height: 1.25; margin: 1.75em 0 0.6em; }
-  h3 { line-height: 1.3; margin: 1.5em 0 0.5em; }
+  color: var(--ink);
+  font-size: var(--fs-body);
+  line-height: var(--article-line-height);
+
+  > :is(p, ul, ol, h2, h3, h4, h5, h6, blockquote, dl, .footnotes) {
+    max-width: var(--measure);
+  }
+
+  h1 { font-size: var(--fs-display); line-height: 1.06; margin: 2em 0 0.75em; }
+  h2 { font-size: var(--fs-h2); line-height: 1.15; margin: 2.2em 0 0.6em; }
+  h3 { font-size: var(--fs-h3); line-height: 1.2; margin: 1.5em 0 0.5em; }
+  h4 { font-family: var(--font-body); font-weight: 700; font-size: 1.8rem; }
   h4, h5, h6 { line-height: 1.35; margin: 1.25em 0 0.5em; }
+  h5 { font-size: var(--fs-small); }
+  h6 { font-size: var(--fs-meta); }
 
   > h1:first-child,
   > h2:first-child,
@@ -270,9 +286,26 @@ footer.site-footer::before {
   font-size: 0.88em;
 }
 
-/* Blockquote: accent color left border */
+/* Quotes are annotations, not striped callout cards. */
 .article-content blockquote {
-  border-inline-start-color: var(--accent-color);
+  border: 0;
+  background: none;
+  width: auto;
+  margin: 1.5em 0;
+  padding: 0 0 0 1.4em;
+  color: var(--ink-2);
+
+  &::before {
+    content: "“";
+    position: absolute;
+    top: -0.12em;
+    left: 0;
+    font-family: var(--font-display);
+    font-size: 3.2em;
+    line-height: 1;
+    color: var(--signal);
+    pointer-events: none;
+  }
 }
 
 /* Copy code button: keyboard accessible */
@@ -337,7 +370,7 @@ footer.site-footer::before {
     border-top: 1px solid var(--card-separator-color);
     background: transparent;
     color: var(--card-text-color-secondary);
-    font-size: 0.875rem;
+    font-size: var(--fs-meta);
     line-height: 1.5;
     text-align: left;
 
@@ -393,12 +426,12 @@ footer.site-footer::before {
         display: flex;
         flex-wrap: wrap;
         gap: 0.4rem 1rem;
-        font-size: 0.8rem;
+        font-size: var(--fs-meta);
         color: var(--card-text-color-tertiary);
     }
 
     &__hugo {
-        opacity: 0.85;
+        opacity: 1;
     }
 }
 
@@ -414,23 +447,30 @@ footer.site-footer::before {
     flex-wrap: wrap;
     gap: 0.5rem 1rem;
     order: -1;
-    font-size: 0.875rem;
+    font-size: var(--fs-micro);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--card-text-color-secondary);
+    letter-spacing: 0.08em;
+    font-variant-numeric: tabular-nums lining-nums;
+    color: var(--ink-3);
     margin-bottom: 0.5rem;
+
+    &__difficulty {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-1);
+    }
 }
 
 /* Drop-cap: class lives on <article>, paragraphs are nested in .article-content section.
  * Target the first direct <p> child of .article-content. Guard removed (was too restrictive). */
 .article-content--has-dropcap .article-content > p:first-of-type::first-letter {
     float: left;
-    font-family: "Fraunces", Georgia, serif;
+    font-family: var(--font-display);
     font-size: 5em;
     line-height: 0.85;
     padding-right: 0.1em;
     padding-top: 0.05em;
-    color: var(--accent-color);
+    color: var(--signal);
 }
 
 .reading-progress {
@@ -439,7 +479,7 @@ footer.site-footer::before {
     left: 0;
     right: 0;
     height: 3px;
-    background: var(--accent-color);
+    background: var(--signal);
     transform-origin: left;
     transform: scaleX(0);
     z-index: 1000;
@@ -460,14 +500,13 @@ footer.site-footer::before {
     padding: 1.25rem 1.5rem;
     background: var(--card-background);
     border: 1px solid var(--card-separator-color);
-    border-left: 4px solid var(--accent-color);
     border-radius: var(--card-border-radius, 6px);
     box-shadow: var(--shadow-l1);
 
     > h3 {
         margin: 0 0 0.9rem;
         font-family: var(--base-font-family);
-        font-size: 0.75rem;
+        font-size: var(--fs-micro);
         text-transform: uppercase;
         letter-spacing: 0.08em;
         font-weight: 700;
@@ -507,7 +546,7 @@ footer.site-footer::before {
         background: rgba(0, 0, 0, 0.06);
         color: var(--card-text-color-main);
         border-radius: 50%;
-        font-size: 0.8rem;
+        font-size: var(--fs-micro);
         font-weight: 700;
         line-height: 1;
     }
@@ -558,8 +597,8 @@ footer.site-footer::before {
         padding: 0.32rem 0.85rem;
         background: rgba(0, 0, 0, 0.04);
         border: 1px solid var(--card-separator-color);
-        border-radius: 999px;
-        font-size: 0.85rem;
+        border-radius: var(--radius-chip);
+        font-size: var(--fs-meta);
         font-weight: 500;
         text-decoration: none;
         color: var(--card-text-color-main);
@@ -601,20 +640,6 @@ footer.site-footer::before {
     }
 }
 
-/* ============================================================
- * Zone H: Widgets (Zone E start-here CTA + latest show)
- * ============================================================ */
-.widget--start-here-cta {
-    padding: 1rem 1.25rem;
-    background: var(--card-background-selected);
-    border-left: 4px solid var(--accent-color);
-    border-radius: 4px;
-    margin-bottom: 1.5rem;
-}
-
-.widget--latest-show {
-    margin-bottom: 1.5rem;
-}
 
 /* ============================================================
  * Component partials: one owner each. Keep this block last so

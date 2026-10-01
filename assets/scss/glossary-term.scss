@@ -10,7 +10,7 @@ $faq-tint: #7C3AED;
 /* Reading rhythm helpers (scoped) */
 .glossary-single-term {
     --term-accent: var(--accent-color);
-    --reading-max: 760px;
+    --reading-max: var(--measure);
     --section-gap: 3rem;
     --section-gap-tight: 2.25rem;
     --content-padding: clamp(1.25rem, 4vw, 2.5rem);
@@ -94,12 +94,13 @@ $faq-tint: #7C3AED;
     align-items: center;
     gap: 0.6rem;
     padding: 0.55rem 1.1rem 0.55rem 0.95rem;
-    border-radius: 999px;
-    background: color-mix(in srgb, var(--term-accent) 12%, transparent);
-    color: var(--term-accent);
-    font-size: 1.15rem;
+    border-radius: var(--radius-chip);
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink);
+    font-size: var(--fs-micro);
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     line-height: 1;
 }
@@ -117,9 +118,11 @@ $faq-tint: #7C3AED;
 
 .glossary-single-term .article-title {
     margin: 0;
-    font-size: clamp(3.6rem, 5.5vw, 5.4rem);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
+    font-family: var(--font-display);
+    font-size: var(--fs-display);
+    line-height: 1.06;
+    letter-spacing: -0.018em;
+    max-width: 16em;
     font-weight: 700;
     color: var(--card-text-color-main);
 }
@@ -136,11 +139,10 @@ $faq-tint: #7C3AED;
 .glossary-single-term .glossary-term-lede {
     max-width: var(--reading-max);
     margin: 1.6rem 0 0;
-    color: var(--card-text-color-main);
-    font-size: clamp(1.75rem, 2.2vw, 2rem);
-    line-height: 1.55;
+    color: var(--ink-2);
+    font-size: var(--fs-lede);
+    line-height: 1.45;
     font-weight: 400;
-    opacity: 0.92;
 }
 
 /* =============================================
@@ -148,15 +150,19 @@ $faq-tint: #7C3AED;
    ============================================= */
 .glossary-single-term .glossary-term-content {
     padding: clamp(2rem, 4vw, 2.75rem) var(--content-padding) clamp(2rem, 4vw, 3rem);
+    font-size: var(--fs-body);
+    line-height: var(--article-line-height);
 }
 
 .glossary-single-term .term-section {
     margin-bottom: var(--section-gap);
+    max-width: var(--measure);
 }
 
 /* Two-column pairing for Risks + FAQ */
 .glossary-single-term .term-two-col {
     margin-bottom: var(--section-gap);
+    max-width: var(--measure);
 }
 
 .glossary-single-term .term-two-col--paired {
@@ -179,7 +185,7 @@ $faq-tint: #7C3AED;
     margin: 0 0 1.2rem;
     padding: 0;
     border: 0;
-    font-size: 1.25rem;
+    font-size: var(--fs-micro);
     font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -204,8 +210,8 @@ $faq-tint: #7C3AED;
    DEFINITION
    ============================================= */
 .glossary-single-term .term-section--definition .term-definition {
-    font-size: clamp(1.75rem, 2vw, 1.9rem);
-    line-height: 1.65;
+    font-size: var(--fs-body);
+    line-height: var(--article-line-height);
     color: var(--card-text-color-main);
     font-weight: 500;
     margin: 0 0 1.2rem;
@@ -444,12 +450,13 @@ $faq-tint: #7C3AED;
     padding: 0.6rem 1.1rem 0.6rem 1rem;
     background: var(--card-background);
     border: 1px solid var(--hairline);
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     color: var(--card-text-color-main);
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.45rem;
+    font-size: var(--fs-meta);
     line-height: 1.2;
+    min-height: 32px;
     transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
@@ -464,7 +471,7 @@ $faq-tint: #7C3AED;
 .glossary-single-term .glossary-related-terms-list a:hover {
     border-color: var(--related-accent);
     background: color-mix(in srgb, var(--related-accent) 8%, var(--card-background));
-    color: var(--related-accent);
+    color: var(--ink);
     transform: translateY(-1px);
 }
 
@@ -596,7 +603,7 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .prev-next-label {
-    font-size: 1.15rem;
+    font-size: var(--fs-micro);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -636,7 +643,7 @@ $faq-tint: #7C3AED;
     color: var(--card-text-color-secondary);
     text-decoration: none;
     padding: 0.55rem 1.1rem;
-    border-radius: 999px;
+    border-radius: var(--radius-chip);
     transition: color 0.15s ease, background 0.15s ease;
 }
 
@@ -648,10 +655,6 @@ $faq-tint: #7C3AED;
 /* =============================================
    DARK MODE
    ============================================= */
-[data-scheme="dark"] .glossary-single-term .term-category-badge {
-    background: color-mix(in srgb, var(--term-accent) 22%, transparent);
-    color: color-mix(in srgb, var(--term-accent) 85%, white);
-}
 
 [data-scheme="dark"] .glossary-single-term .term-callout--example {
     background: color-mix(in srgb, $example-tint 14%, transparent);
@@ -712,17 +715,10 @@ $faq-tint: #7C3AED;
         grid-template-columns: 1fr;
     }
 
-    .glossary-single-term .article-title {
-        font-size: clamp(3rem, 8vw, 3.6rem);
-    }
 }
 
 /* Older browsers without color-mix — graceful fallback */
 @supports not (color: color-mix(in srgb, red, blue)) {
-    .glossary-single-term .term-category-badge {
-        background: rgba(0, 0, 0, 0.06);
-        color: var(--term-accent);
-    }
     .glossary-single-term .term-callout--example {
         background: rgba($example-tint, 0.08);
         border-color: rgba($example-tint, 0.22);

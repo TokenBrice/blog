@@ -9,7 +9,7 @@
     {{ if $context.Params.categories }}
     <header class="article-category">
         {{ range ($context.GetTerms "categories") }}
-            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+            <a href="{{ .RelPermalink }}" class="category-badge" {{ with .Params.style }}style="--cat: {{ .background }}"{{ end }}>
                 {{ .LinkTitle }}
             </a>
         {{ end }}
@@ -35,7 +35,7 @@
         {{ with $context.Params.difficulty }}
         <span class="article-details--kicker__difficulty">
             <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
-            <span class="difficulty-text">{{ . | title }}</span>
+            <span class="difficulty-text">{{ T (index (dict "beginner" "difficultyBeginner" "intermediate" "difficultyIntermediate" "expert" "difficultyExpert") .) }}</span>
         </span>
         {{ end }}
     </div>
@@ -97,7 +97,7 @@
         {{ with $context.Params.difficulty }}
             <div class="article-difficulty-footer">
                 <span class="difficulty-dot difficulty-dot--{{ . }}"></span>
-                <span class="difficulty-text">{{ . | title }}</span>
+                <span class="difficulty-text">{{ T (index (dict "beginner" "difficultyBeginner" "intermediate" "difficultyIntermediate" "expert" "difficultyExpert") .) }}</span>
             </div>
         {{ end }}
 

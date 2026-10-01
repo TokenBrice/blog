@@ -1,2 +1,95 @@
-/* tokens.scss: owned by the "A-design-system" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+/* Shared design system. The 62.5% root makes 1rem equal to 10px. */
+:root,
+[data-scheme="dark"] {
+    --fs-micro: 1.2rem;
+    --fs-meta: 1.4rem;
+    --fs-small: 1.5rem;
+    --fs-body: 1.8rem;
+    --fs-lede: 2.1rem;
+    --fs-h3: 2.2rem;
+    --fs-card: 2.6rem;
+    --fs-h2: 2.8rem;
+    --fs-display: clamp(3.4rem, 1.4rem + 2.6vw, 5.2rem);
+    --measure: 58rem;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-body: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 72px;
+    --radius-card: 10px;
+    --radius-chip: 3px;
+
+    --body-background: var(--paper);
+    --body-text-color: var(--ink);
+    --card-background: var(--surface);
+    --card-text-color-main: var(--ink);
+    --card-text-color-secondary: var(--ink-2);
+    --card-text-color-tertiary: var(--ink-3);
+    --card-separator-color: var(--rule);
+    --accent-color: var(--slate);
+    --link-color: var(--slate);
+    --base-font-family: var(--font-body);
+    --heading-font-family: var(--font-display);
+    --article-font-family: var(--font-body);
+    --article-font-size: var(--fs-body);
+    --card-border-radius: var(--radius-card);
+    --tag-border-radius: var(--radius-chip);
+    --code-text-color: var(--ink-2);
+    --code-background-color: var(--paper);
+    --table-border-color: var(--rule);
+    --tr-even-background-color: var(--paper);
+    --kbd-border-color: var(--rule);
+}
+
+:root {
+    --paper: #f4f6fa;
+    --surface: #fcfdff;
+    --ink: #171d26;
+    --ink-2: #464e58;
+    --ink-3: #666c75;
+    --rule: #dadee3;
+    --slate: #34495e;
+    --signal: #cc361e;
+    --signal-wash: #ffe0d4;
+    --accent-color-darker: #2c3e50;
+    --accent-color-text: var(--surface);
+    --card-background-selected: #e9edf3;
+    --article-line-height: 1.65;
+    --code-line-number-color: #666c75;
+}
+
+[data-scheme="dark"] {
+    --paper: #1d2126;
+    --surface: #262b31;
+    --ink: #e4e8ed;
+    --ink-2: #b9bec6;
+    --ink-3: #9a9fa6;
+    --rule: #3e4349;
+    --slate: #a6c1dd;
+    --signal: #f77c56;
+    --signal-wash: #4d271d;
+    --accent-color-darker: #c2d7eb;
+    --accent-color-text: #15191e;
+    --card-background-selected: #30363d;
+    --article-line-height: 1.7;
+    --code-line-number-color: #a9afb7;
+}
+
+@media (max-width: 767px) {
+    :root,
+    [data-scheme="dark"] {
+        --fs-body: 1.7rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    :root,
+    [data-scheme="dark"] {
+        --fs-card: 2.8rem;
+    }
+}
