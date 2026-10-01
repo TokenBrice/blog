@@ -1,0 +1,28 @@
+name: TokenBrice
+id: "https://tokenbrice.xyz/#person"
+avatar: { src: "/img/main/anthereum-avatar-150.png", w: 400, h: 400 }
+emblem: { src: "/img/main/emblem.svg" }
+bio:
+  en: "I build Pharos, advise Polaris after co-founding it, and co-founded The DeFi Collective, where I serve on the board and manage its treasury."
+  fr: "Je construis Pharos, conseille Polaris après l’avoir cofondé et suis cofondateur de The DeFi Collective, où je siège au conseil et gère la trésorerie."
+knowsAbout: ["Stablecoin design", "Liquidity engineering", "DeFi protocol risk", "DeFi governance"]
+sameAs:
+  - "https://x.com/tokenbrice"
+  - "https://youtube.com/@Token_Brice"
+  - "https://t.me/tokenbrice_news"
+  - "https://warpcast.com/tokenbrice"
+  - "https://github.com/TokenBrice"
+  - "https://deficollective.org/about/tokenbrice/"
+roles:
+  - { org: "Pharos", project: pharos, url: "https://pharos.watch", role: { en: "Creator", fr: "Créateur" }, current: true }
+  - { org: "Polaris", project: polaris, url: "https://polaris.finance", role: { en: "Original cofounder, strategic advisor", fr: "Cofondateur historique, conseiller stratégique" }, current: true }
+  - { org: "The DeFi Collective", url: "https://deficollective.org", role: { en: "Cofounder, board member and treasury manager", fr: "Cofondateur, membre du conseil et gestionnaire de trésorerie" }, current: true }
+  - { org: "TokenBrice.xyz", url: "https://tokenbrice.xyz", role: { en: "Author and host", fr: "Auteur et animateur" }, current: true }
+  - { org: "DeFiScan", url: "https://defiscan.info", role: { en: "Strategy and growth", fr: "Stratégie et croissance" }, current: true }
+  - { org: "DeFi France", url: "https://docs.defi-france.org", role: { en: "Co-organizer", fr: "Co-organisateur" }, current: true }
+  - { org: "Luchadores", url: "https://luchadores.io", role: { en: "DeFi advisor", fr: "Conseiller DeFi" }, current: false }
+  - { org: "Leverage Sir", url: "https://www.sir.trading/", role: { en: "DeFi and business development advisor", fr: "Conseiller DeFi et développement" }, current: false }
+  - { org: "GHO Liquidity Committee", url: "https://tokenbrice.xyz/farewell-glc/", role: { en: "Liquidity committee member", fr: "Membre du comité de liquidité" }, current: false }
+  - { org: "Liquity", url: "https://www.liquity.org/", role: { en: "Liquidity Engineer", fr: "Ingénieur de liquidité" }, current: false }
+  - { org: "ParaSwap (now Velora)", url: "https://www.velora.xyz/", role: { en: "DAO launch contributor", fr: "Contributeur au lancement de la DAO" }, current: false }
+  - { org: "Monolith", url: "https://monolith.xyz", role: { en: "Community Manager", fr: "Responsable de communauté" }, current: false }

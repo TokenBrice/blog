@@ -1,7 +1,7 @@
 {{- if .IsHome -}}
 {{- $siteRoot := strings.TrimSuffix "/" .Site.BaseURL -}}
 {{- $organizationId := printf "%s/#organization" $siteRoot -}}
-{{- $personId := printf "%s/#person-tokenbrice" $siteRoot -}}
+{{- $author := hugo.Data.author -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -10,37 +10,17 @@
   "name": "TokenBrice",
   "alternateName": "TokenBrice - Brutally Honest DeFi",
   "url": "{{ $siteRoot }}",
-  "logo": "https://tokenbrice.xyz/img/main/emblem-color-square-150.png",
+  "logo": {{ absURL $author.emblem.src | jsonify | safeJS }},
   "description": "Brutally honest analysis and insights into decentralized finance (DeFi), providing educational content about cryptocurrency, lending protocols, DEXs, and DeFi strategies.",
   "foundingDate": "2018",
   "founder": {
-    "@type": "Person",
-    "@id": "{{ $personId }}",
-    "name": "TokenBrice"
+    "@id": {{ $author.id | jsonify | safeJS }}
   },
-  "sameAs": [
-    "https://x.com/tokenbrice",
-    "https://www.youtube.com/@Token_Brice",
-    "https://t.me/tokenbrice_news",
-    "https://warpcast.com/tokenbrice",
-    "https://github.com/tokenbrice"
-  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "general inquiry",
     "availableLanguage": ["English", "French"]
   },
-  "knowsAbout": [
-    "Decentralized Finance",
-    "DeFi Protocols", 
-    "Cryptocurrency",
-    "Blockchain Technology",
-    "Liquidity Mining",
-    "Yield Farming",
-    "Decentralized Exchanges",
-    "Stablecoins",
-    "Risk Assessment"
-  ],
   "audience": {
     "@type": "Audience",
     "audienceType": "DeFi enthusiasts, cryptocurrency investors, blockchain developers"

@@ -9,7 +9,7 @@
 {{- $items := slice -}}
 
 {{- /* Home */ -}}
-{{- $items = $items | append (dict "name" .Site.Title "url" .Site.BaseURL) -}}
+{{- $items = $items | append (dict "name" .Site.Title "url" .Site.Home.Permalink) -}}
 
 {{- /* Category step for posts: first item in .Params.categories */ -}}
 {{- $usedCategory := false -}}
@@ -33,7 +33,7 @@
 {{- /* Otherwise use Ancestors when present (sections, taxonomies, etc.) */ -}}
 {{- if not $usedCategory -}}
   {{- range .Ancestors.Reverse -}}
-    {{- if not .IsHome -}}
+    {{- if and (not .IsHome) .Permalink -}}
       {{- $items = $items | append (dict "name" .Title "url" .Permalink) -}}
     {{- end -}}
   {{- end -}}

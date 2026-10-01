@@ -10,7 +10,7 @@
 <meta name="twitter:description" {{ printf "content=%q" $description | safeHTMLAttr }}>
 
 {{- /* Always emit a card + image; helper guarantees a fallback to the default OG image. */ -}}
-{{- $og := partial "helper/og-image" . -}}
+{{- $og := partialCached "helper/og-image" . .RelPermalink .Language.Lang -}}
 <meta name="twitter:card" content="{{ default `summary_large_image` .Site.Params.opengraph.twitter.card }}">
 <meta name="twitter:image" content="{{ $og.url }}" />
 <meta name="twitter:image:alt" {{ printf "content=%q" (default .Title $description) | safeHTMLAttr }} />

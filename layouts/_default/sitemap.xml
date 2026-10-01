@@ -14,6 +14,7 @@
 {{- range where $pages "RelPermalink" "!=" "" }}
     {{- if and
         (ne .Type "search")
+        (not .Params.noindex)
         (or (ne .Kind "term") (in (slice "categories" "series") .Section))
         (ne .Kind "taxonomy")
         (not .Params.canonicalUrl)
@@ -28,9 +29,11 @@
     {{- $output = $output | append (printf "      <loc>%s</loc>" .Permalink) -}}
     {{- if .IsTranslated }}
     {{- range .AllTranslations }}
+    {{- if and (not .Params.noindex) .Permalink }}
     {{- $output = $output | append (printf "      <xhtml:link rel=\"alternate\" hreflang=\"%s\" href=\"%s\" />" .Language.Lang .Permalink) -}}
     {{- if eq .Language.Lang "en" }}
     {{- $output = $output | append (printf "      <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"%s\" />" .Permalink) -}}
+    {{- end }}
     {{- end }}
     {{- end }}
     {{- end }}

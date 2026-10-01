@@ -10,28 +10,39 @@
 {{- $siteRoot := strings.TrimSuffix "/" .Site.BaseURL -}}
 {{- $websiteId := printf "%s/#website" $siteRoot -}}
 {{- $organizationId := printf "%s/#organization" $siteRoot -}}
-{{- $authorId := printf "%s/#person-tokenbrice" $siteRoot -}}
-{{- $authorSameAs := slice
-    "https://x.com/tokenbrice"
-    "https://www.youtube.com/@Token_Brice"
-    "https://t.me/tokenbrice_news"
-    "https://warpcast.com/tokenbrice"
-    "https://github.com/tokenbrice"
+{{- $author := hugo.Data.author -}}
+{{- $about := .Site.GetPage "page/about" -}}
+{{- $authorUrl := "" -}}
+{{- with $about -}}
+  {{- $authorUrl = .Permalink -}}
+{{- end -}}
+{{- $affiliations := slice -}}
+{{- range $author.roles -}}
+  {{- if .current -}}
+    {{- $affiliations = $affiliations | append (dict "@type" "Organization" "name" .org "url" .url) -}}
+  {{- end -}}
+{{- end -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" $author.id
+  "name" $author.name
+  "url" $authorUrl
+  "image" (absURL $author.avatar.src)
+  "description" (index $author.bio .Language.Lang)
+  "knowsAbout" $author.knowsAbout
+  "sameAs" $author.sameAs
+  "affiliation" $affiliations
 -}}
-{{- $authorImage := absURL "/img/main/emblem-color-square-150.png" -}}
-{{- $authorUrl := absLangURL "about/" -}}
 {{- $defaultLang := "en" -}}
 
 {{- /* difficulty/<level>.md pages render a CollectionPage via difficulty-list.html,
        so we must not also emit BlogPosting for them. */ -}}
 {{- if and .IsPage (ne .Type "glossary") (ne .Type "difficulty") -}}
-{{- $isAbout := or (eq .RelPermalink "/about/") (eq .RelPermalink "/fr/about/") -}}
-{{- if and (not $isAbout) .File -}}
-  {{- if eq .File.LogicalName "about" -}}
-    {{- $isAbout = true -}}
-  {{- end -}}
+{{- $isAbout := false -}}
+{{- with $about -}}
+  {{- $isAbout = eq $.RelPermalink .RelPermalink -}}
 {{- end -}}
-{{- $og := partial "helper/og-image" . -}}
+{{- $og := partialCached "helper/og-image" . .RelPermalink .Language.Lang -}}
 {{- $ogImage := $og.url -}}
 {{- $desc := .Description | default (.Summary | plainify) -}}
 {{- $webPageId := printf "%s#webpage" .Permalink -}}
@@ -46,18 +57,18 @@
   "name": "{{ .Title | safeJS }}",
   "description": "{{ $desc | safeJS }}",
   "inLanguage": "{{ .Language.Lang }}",
+  {{- with $about }}
+  {{- if not .Date.IsZero }}
+  "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- end }}
+  {{- if not .Lastmod.IsZero }}
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- end }}
+  {{- end }}
   "isPartOf": {
     "@id": "{{ $websiteId }}"
   },
-  "mainEntity": {
-    "@type": "Person",
-    "@id": "{{ $authorId }}",
-    "name": "TokenBrice",
-    "url": "{{ $authorUrl }}",
-    "image": "{{ $authorImage }}",
-    "jobTitle": "DeFi analyst & educator",
-    "sameAs": {{ $authorSameAs | jsonify | safeJS }}
-  }
+  "mainEntity": {{ $person | jsonify | safeJS }}
 }
 	</script>
 	{{- else if eq .Type "post" -}}
@@ -68,26 +79,13 @@
   "@id": "{{ $articleId }}",
   "headline": "{{ .Title | safeJS }}",
   "description": "{{ $desc | safeJS }}",
-  "author": {
-    "@type": "Person",
-    "@id": "{{ $authorId }}",
-    "name": "TokenBrice",
-    "url": "{{ $authorUrl }}",
-    "image": "{{ $authorImage }}",
-    "jobTitle": "DeFi analyst & educator",
-    "sameAs": {{ $authorSameAs | jsonify | safeJS }}
-  },
-	  "publisher": {
-	    "@type": "Organization",
-	    "@id": "{{ $organizationId }}",
-	    "name": "{{ .Site.Title | safeJS }}",
-	    "logo": {
-	      "@type": "ImageObject",
-	      "url": "{{ absURL "/img/main/emblem-color-square-250.png" }}",
-	      "width": 250,
-	      "height": 250
-	    }
-	  },
+  "author": {{ $person | jsonify | safeJS }},
+  "publisher": {{ (dict
+    "@type" "Organization"
+    "@id" $organizationId
+    "name" .Site.Title
+    "logo" (dict "@type" "ImageObject" "url" (absURL $author.emblem.src))
+  ) | jsonify | safeJS }},
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
 	  {{- if not .Lastmod.IsZero }}
 	  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",

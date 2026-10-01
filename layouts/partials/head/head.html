@@ -1,5 +1,6 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
     {{- $description := partialCached "data/description" . .RelPermalink -}}
     <meta name='description' {{ printf "content=%q" $description | safeHTMLAttr }}>
@@ -29,6 +30,7 @@
     {{- $isLowValueSection := and (eq .Kind "section") (in (slice "post" "page") .Section) -}}
     {{- if or
         $is404
+        .Params.noindex
         $isNonCategoryTerm
         (eq .Kind "taxonomy")
         (eq .Type "search")
@@ -73,8 +75,13 @@
 {{- end -}}
 {{- end -}}
 
+{{- with .Site.Home.OutputFormats.Get "RSS" }}
+    <link rel="alternate" type="application/rss+xml" title="{{ T "rssFeedTitle" (dict "Title" $.Site.Title) }}" href="{{ .Permalink | safeURL }}">
+{{- end }}
 {{- range .AlternativeOutputFormats -}}
+    {{- if ne .Name "RSS" }}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    {{- end }}
 {{- end -}}
 
 {{ with .Site.Params.favicon }}

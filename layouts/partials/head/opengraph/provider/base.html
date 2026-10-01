@@ -5,7 +5,11 @@
 <meta property='og:description' {{ printf "content=%q" $description | safeHTMLAttr }}>
 <meta property='og:url' content='{{ .Permalink }}'>
 <meta property='og:site_name' content='{{ .Site.Title }}'>
-{{- $isAbout := or (eq .RelPermalink "/about/") (eq .RelPermalink "/fr/about/") -}}
+{{- $about := .Site.GetPage "page/about" -}}
+{{- $isAbout := false -}}
+{{- with $about -}}
+    {{- $isAbout = eq $.RelPermalink .RelPermalink -}}
+{{- end -}}
 <meta property='og:type' content='
     {{- if eq .Type "post" -}}
         article
@@ -25,8 +29,22 @@
     {{- end -}}
 {{- end -}}
 <meta property='og:locale' content='{{ $locale }}'>
+{{- range .Translations -}}
+    {{- $alternateLocale := .Params.locale -}}
+    {{- if not $alternateLocale -}}
+        {{- if eq .Language.Lang "fr" -}}
+            {{- $alternateLocale = "fr_FR" -}}
+        {{- else -}}
+            {{- $alternateLocale = "en_US" -}}
+        {{- end -}}
+    {{- end -}}
+    <meta property="og:locale:alternate" content="{{ $alternateLocale }}">
+{{- end -}}
 
 {{- if eq .Type "post" -}}
+    {{- with $about }}
+    <meta property="article:author" content="{{ .Permalink }}">
+    {{- end -}}
     {{- $articleSection := .Section | title -}}
     {{- with .Params.categories -}}
         {{- if reflect.IsSlice . -}}
@@ -55,7 +73,7 @@
 {{- end -}}
 
 {{- /* Always emit og:image; helper falls back to the default OG card. */ -}}
-{{- $og := partial "helper/og-image" . -}}
+{{- $og := partialCached "helper/og-image" . .RelPermalink .Language.Lang -}}
 <meta property='og:image' content="{{ $og.url }}" />
 {{- with $og.width }}
 <meta property='og:image:width' content='{{ . }}' />

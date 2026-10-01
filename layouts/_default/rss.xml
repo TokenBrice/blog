@@ -1,3 +1,4 @@
+{{- if ne .Type "glossary" -}}
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
@@ -11,9 +12,6 @@
 {{- $pages = where .Site.RegularPages "Section" "in" .Site.Params.mainSections -}}
 {{- end -}}
 {{- $pages := where $pages "Params.hidden" "!=" true -}}
-{{- if eq .Type "glossary" -}}
-{{- $pages = slice -}}
-{{- end -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
@@ -34,22 +32,28 @@
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
         {{- end -}}
         {{ range $pages }}
-        {{- $content := safeHTML (.Summary | html) -}}
+        {{- $content := string .Summary -}}
         {{- if .Site.Params.rssFullContent -}}
-            {{- $content = safeHTML (.Content | html) -}}
+            {{- $content = string .Content -}}
         {{- end -}}
+        {{- /* Feed readers need site-root links without changing protocol-relative URLs. */ -}}
+        {{- $root := strings.TrimSuffix "/" .Site.BaseURL -}}
+        {{- $content = replaceRE `(src|href)=(["'])/([^/])` (printf `${1}=${2}%s/${3}` $root) $content -}}
+        {{- $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
+        {{- if $image.exists -}}
+            {{- $cover := printf `<img src="%s" alt="%s" />` ($image.permalink | absURL | htmlEscape) (printf "Featured image of post %s" .Title | htmlEscape) -}}
+            {{- $content = printf "%s%s" $cover $content -}}
+        {{- end -}}
+        {{- $content = replace $content "]]>" "]]]]><![CDATA[>" -}}
         <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
-        <description>{{ printf "<![CDATA[" | safeHTML }}
-            {{- $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
-            {{- if $image.exists -}}
-                <img src="{{ $image.permalink | absURL }}" alt="Featured image of post {{ .Title }}" />
-            {{- end -}}{{ $content }}{{ printf "]]>" | safeHTML }}</description>
+        <description>{{ printf "<![CDATA[%s]]>" $content | safeHTML }}</description>
         </item>
         {{ end }}
     </channel>
 </rss>
+{{- end -}}

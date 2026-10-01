@@ -4,5 +4,58 @@ Allow: /
 # Low-value archives stay crawlable so Google can process their noindex tags.
 # Crawl waste is controlled by sitemap exclusions and reduced internal links.
 
+# I publish open knowledge. Citation is welcome; content is licensed CC BY-NC-SA 4.0.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
 # Reference sitemap
 Sitemap: https://tokenbrice.xyz/sitemap.xml
