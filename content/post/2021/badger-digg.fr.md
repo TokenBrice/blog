@@ -1,8 +1,8 @@
 ---
-title: "BadgerDAO et DIGG : le token BTC à rebase expliqué"
-description: "Ce qu'est DIGG et comment son rebase à la Ampleforth suit le prix du Bitcoin, avec le rôle des setts de BadgerDAO et de la tokenomics BADGER."
+title: "BadgerDAO et DIGG : le rebase BTC en 2021"
+description: "Le rebase de DIGG face au Bitcoin, les vaults BadgerDAO et les incentives BADGER : une étude de 2021, pas une recommandation de farming."
 date: '2021-01-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
@@ -14,6 +14,15 @@ aliases:
 image: /img/2021/badger-digg/cover.png
 difficulty: "beginner"
 related_posts: ["/algorithmic-stablecoins/", "/vaults/"]
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Je décris BadgerDAO et DIGG au lancement en 2021. TVL, récompenses et vaults sont ceux de l'époque, pas des opportunités de farming actuelles. BIP-102 est une proposition d'octobre 2023 visant à arrêter DIGG et retirer la liquidité de la trésorerie ; je n'ai pas vérifié son exécution."
+  sources: ["https://forum.badger.finance/t/bip-102-discontinue-digg-tcl-lp/6048"]
+image_meta:
+  "/img/2021/badger-digg/badger-stats.png":
+    alt: "Tableau Sett.Vision : 1,12 Md$ bloqués, 90,81 M$ de BADGER stakés et 17,97 M$ de DIGG stakés."
+    caption: "Chiffres du lancement de Badger sur Sett.Vision, janvier 2021. Données historiques, pas des soldes en direct."
 ---
 
 Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidement transformé en une centrale DeFi **hébergeant maintenant > 1,2 milliard de dollars d'actifs**. Bien que j'ai rapidement évoqué Badger dans des articles ou des émissions précédentes, je pense qu'il est temps de consacrer un article à DIGG, sans oublier son contexte.

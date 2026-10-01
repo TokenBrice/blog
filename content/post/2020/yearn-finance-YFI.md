@@ -1,8 +1,8 @@
 ---
-title: "YearnFinance - DeFi on autopilot?"
-description: "Yearn Finance V2 is just a few weeks old, yet it is already one of the most influential releases of the year for DeFi - let’s unpack what happened, and why it matters."
+title: "Yearn Finance and YFI: DeFi on Autopilot in 2020"
+description: "Yearn's early vaults, YFI launch and community governance, explained in their 2020 context. How DeFi composability made automated yield possible."
 date: '2020-08-11T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Leverage, Yearn]
 series: yearn
@@ -14,6 +14,11 @@ aliases:
   - p/yearn-finance
   - posts/2020/yearn-finance-yfi
   - posts/2020/yearn-finance-YFI
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "This is my August 2020 snapshot of Yearn and YFI's launch. Strategies, fees and tools describe that period. Yearn V3 later changed the vault design with ERC-4626 compatibility and tokenized strategies that can stand alone or feed multi-strategy vaults."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 A few weeks ago, Yearn v2 release and the launch of the YFI token (pronounced "Waifu") shook decentralised finance. Indeed, the whole recipe was there: Yearn is like a robo advisor, it helps you save and grow a capital - obviously one of the most thought after use cases.

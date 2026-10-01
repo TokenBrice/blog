@@ -1,7 +1,6 @@
 ---
-title: "🎡 Flywheel DeFi : synergies de protocoles à protocoles, par tokens interposés
-"
-description: "Analyse de Convex, CRV et des flywheels DeFi pour comprendre comment tokenomics et protocoles peuvent se renforcer mutuellement."
+title: "Flywheels DeFi : les synergies entre Curve et Convex"
+description: "Comment Curve et Convex créent une flywheel par leurs tokens. Étude de 2021 sur les synergies de protocoles, les frais et l'accumulation de CRV."
 date: '2021-06-08T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX, Yield]

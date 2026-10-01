@@ -1,6 +1,6 @@
 ---
-title: "Liquidity Shaping: Maverick's Answer to Liquidity Mining"
-description: "How Maverick's AMM moves liquidity with the price, why that beats Uniswap on capital efficiency, and what liquidity shaping changes for LPs and DAOs."
+title: "Maverick AMM: Liquidity Shaping Explained"
+description: "How Maverick shapes liquidity instead of renting it: capital efficiency, incentives and the MAV model. A 2023 mechanism study, not a hooks API guide."
 date: '2023-07-07T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX]
@@ -13,6 +13,28 @@ aliases:
   - posts/2023/liquidity-shaping-maverick
 image: img/2023/liquidity-shaping-maverick/cover.png
 difficulty: "expert"
+image_meta:
+  "img/2023/liquidity-shaping-maverick/eth-lp-univ3.png":
+    alt: "Uniswap V3 ETH/USDC position over roughly $2,000 to $2,400, with the current price below the range and an ETH-only deposit."
+    caption: "Uniswap V3 position example, July 2023. Liquidity is uniform within the chosen range."
+  "img/2023/liquidity-shaping-maverick/eth-lp-mav.png":
+    alt: "Maverick static ETH/USDC distribution from $2,000 to $2,400, with four times the liquidity density in the $2,150 to $2,250 zone."
+    caption: "The same price range with a custom liquidity shape on Maverick, July 2023."
+  "img/2023/liquidity-shaping-maverick/mav-buy-wall.png":
+    alt: "Maverick LUSD/USDC position supplied only in USDC on one bin just below one USDC per LUSD, forming a buy wall."
+    caption: "A single-bin stablecoin buy-wall example, July 2023."
+  "img/2023/liquidity-shaping-maverick/mav-both.gif":
+    alt: "Animation showing Maverick's both mode moving concentrated liquidity left and right to follow the market price."
+    caption: "Illustration of native liquidity rebalancing in Maverick's both mode."
+  "img/2023/liquidity-shaping-maverick/curve-cvxcrv-crv.png":
+    alt: "Curve cvxCRV/CRV pool with about $54M in reserves, roughly 74% cvxCRV, and 0.31% daily liquidity utilization."
+    caption: "Curve pool dashboard, July 2023. Reserves, utilization and incentives are historical."
+  "img/2023/liquidity-shaping-maverick/zksync-dex-volume.png":
+    alt: "zkSync DEX volume ranking showing Maverick at $8.56M daily volume and 81.95% of the displayed total."
+    caption: "DeFiLlama zkSync DEX volume snapshot used in the July 2023 analysis."
+  "img/2023/liquidity-shaping-maverick/zksync-dex-tvl.png":
+    alt: "zkSync DEX TVL ranking led by SyncSwap, iZiSwap and Mute, with Maverick fifth at about $9.21M."
+    caption: "DeFiLlama zkSync DEX TVL snapshot used in the July 2023 analysis. Not a current ranking."
 ---
 
 It's been four months since Maverick is out, and a few days since the MAV token joined the fray. Yet, most of DeFi is still scratching its head regarding how Maverick delivers 2-3x the capital efficiency of its top competitor, Uniswap.

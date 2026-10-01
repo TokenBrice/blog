@@ -1,6 +1,6 @@
 ---
-title: "Subtles nuances with great consequences: a cross analysis of Curve and Velodrome"
-description: "Why the Velodrome model improves veCRV-style alignment between LPs, tokenholders, and projects seeking liquidity."
+title: "Curve vs Velodrome: Fees, Votes and LP Incentives"
+description: "Compare Curve and Velodrome on fee distribution, gauge votes and LP boosts. Why small tokenomics changes reshape liquidity incentives."
 date: '2024-03-21T01:13:50.191Z'
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]

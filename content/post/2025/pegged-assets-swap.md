@@ -1,6 +1,6 @@
 ---
-title: "Pegged Asset Swaps: From StableSwap to Fluid and EulerSwap"
-description: "A history of pegged asset swaps: why x*y=k wasted liquidity, what Curve's StableSwap fixed, and how Fluid DEX and EulerSwap back liquidity with debt."
+title: "StableSwap vs Fluid vs EulerSwap: Pegged Swaps"
+description: "Why x*y=k wastes liquidity on pegged pairs, what Curve's StableSwap fixes, and how Fluid and EulerSwap put debt-backed liquidity to work."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
@@ -12,6 +12,20 @@ aliases:
   - p/pegged-assets-swap
   - posts/2025/pegged-assets-swap
 difficulty: "expert"
+takeaways:
+  - "Full-range x*y=k spreads liquidity far beyond the prices pegged pairs usually trade at."
+  - "StableSwap concentrates useful liquidity around parity instead of wasting it across the full range."
+  - "Fluid and EulerSwap connect swaps with lending and debt-backed liquidity, changing who pays to sustain it."
+image_meta:
+  "/img/2025/pegged-assets-swap/liquidity-structure.png":
+    alt: "Reserve curves for Uniswap's x*y=k, constant-sum pricing and StableSwap, which approaches constant-sum near equal reserves."
+    caption: "Why StableSwap offers more liquidity near parity than full-range x*y=k."
+  "img/2025/pegged-assets-swap/fluid-smart-debt.png":
+    alt: "Borrowers deposit ETH, borrow multiple assets, then traders swap through that debt, changing its composition and paying fees."
+    caption: "Fluid Smart Debt mechanism, illustrated by Fluid and Messari Research on 23 May 2025."
+  "/img/2025/pegged-assets-swap/ekubo.png":
+    alt: "Ekubo TVL and daily volume by asset, with USDC/USDT processing $132M in 24 hours for $662 in fees."
+    caption: "Ekubo dashboard, 7 July 2025. A historical snapshot of volume, liquidity and fees."
 ---
 
 Dear readers, it’s been a while! As you likely know, liquidity management is both my passion and profession. In this article, I aim to revisit the basics and offer a brief history through the lens of pegged asset swaps. As we detail the liquidity structure and venues that best support those pairs, we will gain a deeper understanding of key concepts that remain critical to navigating that space today. We also get the chance to cover Fluid DEX and EulerSwap, the two most interesting releases of the year for liquidity-building who definitely deserved more airtime around here.

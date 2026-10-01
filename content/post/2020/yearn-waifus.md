@@ -1,8 +1,8 @@
 ---
-title: "Yearn's Forks: What Made the Best Waifus Stick"
-description: "The YFI fork playbook, fair launch, community governance and vaults, and what separated the forks that survived from the ones that quietly vanished."
+title: "Yearn's 2020 Forks: The Waifu Playbook"
+description: "YFII, YFLink, YFValue and Harvest in 2020: how fair launches, community governance and vaults shaped the first wave of Yearn-inspired projects."
 date: '2020-09-18T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
 series: yearn
@@ -13,6 +13,11 @@ url: yearn-finance-forks
 aliases:
   - p/yearn-finance-forks
   - posts/2020/yearn-waifus
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "This is the September 2020 wave of Yearn-inspired forks. TVL, launch plans and farming schedules belong to that moment, not a current shortlist. Yearn V3 later changed the vault design with ERC-4626 and tokenized strategies; don't read these early experiments as today's product offering."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 Every day a new Yearn fork is popping up: how to keep track with them? There is no simple answer to this dilemma, however, I believe I can **provide you with some clues to help you spot YFI fork with high potential.** To do so, I’ll cover three (+1) YFI forks and try to pinpoint the changes to the secret sauce that made them stick.

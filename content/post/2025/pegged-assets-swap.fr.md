@@ -1,6 +1,6 @@
 ---
-title: "Swaps d'actifs pegged : de StableSwap à Fluid et EulerSwap"
-description: "Histoire des swaps d'actifs pegged : le gaspillage du x*y=k, l'apport du StableSwap de Curve, et la liquidité adossée à la dette chez Fluid et EulerSwap."
+title: "StableSwap, Fluid, EulerSwap : actifs indexés"
+description: "Pourquoi x*y=k gaspille la liquidité des actifs indexés, ce que StableSwap corrige et comment Fluid et EulerSwap mobilisent la dette."
 date: '2025-07-08T01:13:50.191Z'
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
@@ -12,6 +12,20 @@ aliases:
   - p/pegged-assets-swap
   - posts/2025/pegged-assets-swap
 difficulty: "expert"
+takeaways:
+  - "Le x*y=k sur toute la plage de prix disperse la liquidité loin des niveaux où les actifs indexés s'échangent."
+  - "StableSwap concentre la liquidité utile près de la parité au lieu de la disperser sur toute la plage."
+  - "Fluid et EulerSwap relient les swaps au prêt et à la liquidité adossée à la dette, changeant qui paie pour la maintenir."
+image_meta:
+  "/img/2025/pegged-assets-swap/liquidity-structure.png":
+    alt: "Courbes de réserves du x*y=k d'Uniswap, du prix à somme constante et de StableSwap, proche de la somme constante à réserves égales."
+    caption: "Pourquoi StableSwap fournit plus de liquidité près de la parité que le x*y=k sur toute la plage."
+  "/img/2025/pegged-assets-swap/fluid-smart-debt.png":
+    alt: "Les emprunteurs déposent de l'ETH et empruntent plusieurs actifs ; les traders échangent via cette dette, modifiant sa composition et payant des frais."
+    caption: "Mécanisme Smart Debt de Fluid, illustré par Fluid et Messari Research le 23 mai 2025."
+  "/img/2025/pegged-assets-swap/ekubo.png":
+    alt: "TVL et volume quotidien d'Ekubo par actif, avec 132 M$ échangés sur USDC/USDT en 24 heures pour 662 $ de frais."
+    caption: "Tableau de bord Ekubo, 7 juillet 2025. Instantané historique du volume, de la liquidité et des frais."
 ---
 
 Chers lecteurs, cela fait un moment ! Comme vous le savez probablement, la gestion de la liquidité est à la fois ma passion et ma profession. Dans cet article, je souhaite revenir aux fondamentaux et offrir une brève histoire au travers du prisme des swaps d'actifs pegged. En détaillant la structure de liquidité et les plateformes qui soutiennent le mieux ces paires, nous approfondirons notre compréhension des concepts clés qui restent cruciaux. Nous aurons également l'opportunité de parler de Fluid DEX et EulerSwap, les deux lancements les plus intéressants de l'année pour la construction de liquidité, qui méritent définitivement plus d'attention ici.

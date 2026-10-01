@@ -1,8 +1,8 @@
 ---
-title: "Liquity-driver token races beyond Curve: a look at the Balancer Wars"
-description: "Cornering the lay of the land of the Balancer Wars: we look at the DEX specificities to anticipate what's next for the BAL races."
+title: "Balancer Wars: veBAL, Aura and Liquidity Incentives"
+description: "How veBAL, Aura and bribe markets direct Balancer liquidity. A 2022 analysis of the incentive model, with context on the later V2 exploit."
 date: '2022-11-24T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
 series: crv-wars
@@ -15,6 +15,13 @@ aliases:
   - posts/2022/balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This is my 2022 analysis of veBAL and the Balancer Wars. Vote prices, yields and pool figures belong to that period. On 3 November 2025, an exploit hit Balancer V2 Composable Stable Pools. V3 was unaffected by this vulnerability, as confirmed by Balancer and Trail of Bits."
+  sources:
+    - "https://medium.com/balancer-protocol/nov-3-exploit-post-mortem-51dcbeb6b020"
+    - "https://blog.trailofbits.com/2025/11/07/balancer-hack-analysis-and-guidance-for-the-defi-ecosystem/"
 ---
 
 Liquidity-driver tokens, as I call them, are an emergent and fascinating construction. Simply put, these tokens enable you to direct incentives (CRV, BAL, etc.) to the liquidity pool of your choice. To do so, you must usually own and lock the corresponding token (veCRV, veBAL, etc.) within their governance contract, ensuring continuous commitment from participating projects.

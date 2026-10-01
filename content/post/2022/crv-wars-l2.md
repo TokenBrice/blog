@@ -1,8 +1,8 @@
 ---
-title: "⚔ Advanced CRV warfare: analysis of protocols built on top of Curve and Convex "
-description: "A tour of the expanding Curve Wars stack across Votium, Warden, Concentrator, Conic, and the evolving CRV/CVX landscape."
+title: "Advanced Curve Wars: The Curve and Convex Stack"
+description: "Votium, Warden, Concentrator and Conic: how protocols build on Curve and Convex. A 2022 study of vote markets, wrappers and DAO strategies."
 date: '2022-04-05T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, Convex, Votium, veCRV, bribe.crv, Conic Finance, Warden, Concentrator]
 series: crv-wars
@@ -15,6 +15,10 @@ aliases:
   - posts/2022/crv-wars-l2
 image: /img/2022/curve-wars-l2/curve-wars-l2-cover-tokenbrice.png
 difficulty: "expert"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "This maps the Curve and Convex stack in April 2022. Bribe budgets, APRs, voting ratios and DAO positions are period figures, not live quotes. Projects marked as upcoming were still in development when I wrote it."
 ---
 
 The game and the fight around CRV and CVX tokens have changed in scope since my last article describing the original Curve Wars, now almost primitive. The infrastructure around Curve has become much denser with the arrival of Convex of course, but also Votium, Union Llama Airforce, Concentrator, CCRV, Lendflare, Warden, and many other protocols still in development.

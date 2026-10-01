@@ -1,8 +1,8 @@
 ---
-title: "BadgerDAO and DIGG: the Rebasing BTC Token Explained"
-description: "What DIGG is and how its Ampleforth-style rebase tracks Bitcoin's price, plus how BadgerDAO's setts and BADGER tokenomics fit around it."
+title: "BadgerDAO and DIGG: A 2021 Rebase Case Study"
+description: "DIGG's BTC-targeting rebase, BadgerDAO vaults and BADGER incentives, explained as a 2021 case study, not a current farming recommendation."
 date: '2021-01-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Badger, BadgerDAO, DIGG]
 toc: true
@@ -14,6 +14,21 @@ aliases:
 image: /img/2021/badger-digg/cover.png
 difficulty: "beginner"
 related_posts: ["/algorithmic-stablecoins/", "/vaults/"]
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "This is my 2021 launch snapshot of BadgerDAO and DIGG. TVL, rewards and vaults describe that moment, not current farming opportunities. BIP-102 was an October 2023 proposal to discontinue DIGG and remove treasury liquidity; I have not verified its execution."
+  sources: ["https://forum.badger.finance/t/bip-102-discontinue-digg-tcl-lp/6048"]
+image_meta:
+  "/img/2021/badger-digg/badger-stats.png":
+    alt: "Sett.Vision dashboard showing $1.12B locked, $90.81M in BADGER staked and $17.97M in DIGG staked."
+    caption: "Badger launch metrics from Sett.Vision, January 2021. Historical figures, not live balances."
+  "/img/2021/badger-digg/badger-breakdown.png":
+    alt: "Initial BADGER allocation: 35% DAO treasury, 23% liquidity mining, 15% developer mining, 15% airdrop, 10% team and 2% Gitcoin."
+    caption: "Initial BADGER distribution, as discussed in January 2021. Source: BadgerDAO's liquidity mining launch announcement."
+  "/img/2021/badger-digg/digg-breakdown.png":
+    alt: "Initial DIGG allocation: 40% liquidity mining, 40% DAO treasury, 15% airdrop and 5% team."
+    caption: "Initial DIGG distribution, as discussed in January 2021. Source: BadgerDAO's liquidity mining launch announcement."
 ---
 
 Despite launching barely a few weeks ago, BadgerDAO quickly grew into a DeFi powerhouse now **hosting > $1.2B of assets farming**. While I've quickly touched on Badger in previous articles or shows, I think it's about time for a dedicated piece focusing on DIGG but not forgetting about its context.

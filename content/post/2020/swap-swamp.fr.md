@@ -1,8 +1,8 @@
 ---
 title: "Agrégateurs de swap : ce qui se passe sous le capot"
-description: "Slippage, coûts de gas, taux affiché contre montant réellement reçu : comment lire un swap DEX et utiliser un agrégateur comme ParaSwap sans se faire avoir."
+description: "Taux affiché, slippage et coûts de gas : lire un swap avant de signer. Guide des agrégateurs DEX de 2020, avec ParaSwap comme cas pratique."
 date: '2020-11-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
@@ -11,6 +11,11 @@ url: swap-swamp
 aliases:
   - p/swap-swamp
   - posts/2020/swap-swamp
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Les interfaces, optimisations de gas et exemples décrits ici datent de 2020. ParaSwap s'appelle désormais Velora, sur velora.xyz. Gardez le réflexe de lire les détails, mais ne prenez pas ces captures pour un mode d'emploi de l'interface actuelle."
+  sources: ["https://www.velora.xyz/"]
 ---
 
 L'échange de tokens est-il aussi facile que ça ? Ne vous laissez pas tromper par l'apparente simplicité : oui, il existe des interfaces accessibles où vous choisissez un token, un montant, et appuyez sur un bouton pour échanger. Mais sans une compréhension de base de la DeFi, vous risquez de faire des erreurs évitables.  Il devient de plus en plus critique de savoir **ce qui se passe sous le capot pour en tirer parti**.

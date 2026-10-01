@@ -1,8 +1,8 @@
 ---
-title: "Les fusions de Yearn Finance"
-description: "L'équipe Yearn joint ses forces avec 5 autres projets de la DeFi. Qu'est-ce que cela signifie pour l'ecosystème Yearn Finance ?"
+title: "Yearn Finance : les fusions de 2020"
+description: "Les rapprochements de Yearn avec Pickle, Cream, Cover, Akropolis et SushiSwap en 2020. Leurs apports aux premiers vaults et à l'écosystème YFI."
 date: '2020-12-09T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, SushiSwap]
 series: yearn
@@ -13,6 +13,11 @@ url: yearn-finance-mergers
 aliases:
   - p/yearn-finance-mergers
   - posts/2020/yearn-merger-spree
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Je couvre ici les annonces de fusions de fin 2020, pas les partenaires actuels de Yearn. Certaines attendaient encore un vote. Le design des vaults a aussi évolué : la V3 utilise ERC-4626 et des stratégies tokenisées. Les intégrations décrites appartiennent à ce chapitre historique."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 L'équipe de Yearn Finance a fait parler d'elle ces derniers temps avec l'annonce de **plusieurs acquisitions** comme Pickle Finance ou SushiSwap. Elle joint ses forces de développement à celles de cinq autres projets de DeFi.

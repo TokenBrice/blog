@@ -1,8 +1,8 @@
 ---
 title: "🤖 Vaults: DeFi Investing Streamlined?"
-description: "Vaults enable easy DeFi investments with a streamlined management of the position for the end-users. What are the options and their tradeoffs?"
+description: "How DeFi vaults automate strategies and compound yield, with the risks they add. A 2020 comparison of Yearn, Harvest, Pickle and other early vaults."
 date: '2020-09-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
@@ -11,6 +11,11 @@ url: vaults
 aliases:
   - p/vaults
   - posts/2020/vaults
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "These vaults, fees and farming programs are a September 2020 snapshot, not a current product list. Yearn V3 later introduced ERC-4626 vaults and standalone tokenized strategies. The point remains to understand what a vault does with your deposit, not just its advertised yield."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 As the ecosystem of decentralized financial services on Ethereum grows and matures, the service offering is becoming more dense and sometimes hard to understand. While the most technically savvy users can chase the latest releases and hedge their risk appropriately, less-seasoned investors might feel left out.

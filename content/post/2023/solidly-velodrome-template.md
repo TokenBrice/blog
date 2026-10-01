@@ -1,8 +1,8 @@
 ---
-title: "Solidly and Velodrome: the ve(3,3) DEX Model Reviewed"
-description: "A review of the Solidly and Velodrome ve(3,3) model: how vote-escrow, bribes and fee routing improve on veCRV, and where the forks fall short."
+title: "Solidly vs Velodrome: A ve(3,3) DEX Review"
+description: "Solidly and Velodrome's ve(3,3) model: locks, fees, bribes and incentives. A 2023 review of V1 and the V2 plans announced at the time."
 date: '2023-04-28T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
@@ -13,6 +13,20 @@ aliases:
   - posts/2023/solidly-velodrome-template
 image: img/2023/solidly-velodrome-template/cover.png
 difficulty: "intermediate"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "I wrote this in April 2023: the live Velodrome model reviewed here is V1. The final section discusses the V2 roadmap as announced then, not a review of its deployed implementation. TVL, ownership and Optimism volume figures are 2023 snapshots."
+image_meta:
+  "img/2023/solidly-velodrome-template/solidly-tvl.png":
+    alt: "Solidly TVL spikes above $2B at launch in early 2022, then falls sharply and stays near zero through early 2023."
+    caption: "Original Solidly on Fantom, viewed on DeFiLlama in April 2023. Not the TVL of later forks."
+  "img/2023/solidly-velodrome-template/defiwars-velodrome.png":
+    alt: "Top veVELO holders and their voting shares, led by Velodrome, followed by Beefy and Optimism."
+    caption: "veVELO ownership on DeFiwars.xyz, April 2023. Historical voting shares."
+  "img/2023/solidly-velodrome-template/optimism-volume.png":
+    alt: "Optimism DEX volume history and ranking: Uniswap has 54.39% of daily volume and Velodrome 30% in this snapshot."
+    caption: "Optimism DEX volume on DeFiLlama, April 2023. The table also compares volume with TVL."
 ---
 
 Solidly/Velodrome forks have been popping up like mushrooms, especially across the popular layer 2 like Arbitrum or zkSync. Solidly is now the top #3 forked protocol in DeFi and one of the rare cases where the forks (such as Velodrome) are the market leaders. At first glance, it could seem like just another fork hype train, like when we had the Uni/Sushi fork season, Olympus fork season, etc.

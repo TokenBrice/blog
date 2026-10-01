@@ -1,8 +1,8 @@
 ---
-title: "🤖 Les vaults : stratégies d'investissement DeFi accessibles ?"
-description: "Guide des vaults DeFi pour composer automatiquement les rendements, comprendre les options disponibles et evaluer les risques."
+title: "Vaults DeFi : stratégies automatisées et risques"
+description: "Comment les vaults DeFi automatisent les stratégies et composent le rendement. Comparatif de 2020 entre Yearn, Harvest, Pickle et leurs risques."
 date: '2020-09-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Yearn, YFV, Uniswap, Harvest Finance]
 image: /img/2020/vaults/harvest.png
@@ -11,6 +11,11 @@ url: vaults
 aliases:
   - p/vaults
   - posts/2020/vaults
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Vaults, frais et programmes de farming décrivent septembre 2020, pas l'offre actuelle. La V3 de Yearn a ensuite introduit des vaults ERC-4626 et des stratégies tokenisées autonomes. Le sujet reste de comprendre ce qu'un vault fait de votre dépôt, pas seulement le rendement affiché."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 À mesure que l'écosystème des services financiers décentralisés sur Ethereum se développe et mûrit, l'offre de services devient plus dense et parfois difficile à comprendre. Si les utilisateurs les plus avertis sur le plan technique peuvent se tenir au courant des dernières sorties et couvrir leurs risques de manière appropriée, les investisseurs moins expérimentés peuvent se sentir largués.

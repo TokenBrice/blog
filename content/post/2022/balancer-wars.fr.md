@@ -1,8 +1,8 @@
 ---
-title: "Balancer Wars : la course aux veBAL expliquée"
-description: "Comment fonctionnent Balancer et le veBAL, pourquoi Aura s'est imposé, et ce que la course aux tokens directeurs de liquidité change hors de Curve."
+title: "Balancer Wars : veBAL, Aura et incitations de liquidité"
+description: "Comment veBAL, Aura et les bribes dirigent la liquidité sur Balancer. Analyse de 2022, avec le contexte de l'exploit ultérieur sur la V2."
 date: '2022-11-24T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Finance Décentralisée, Balancer Finance CVP, veBAL, vlAURA, Liquidity Driver Tokens]
 series: crv-wars
@@ -15,6 +15,13 @@ aliases:
   - posts/2022/balancer-wars
 image: /img/2022/balancer-wars/balancer-wars-cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Mon analyse du veBAL et des Balancer Wars date de 2022. Prix des votes, rendements et chiffres des pools sont ceux de cette période. Le 3 novembre 2025, un exploit a touché des Composable Stable Pools de Balancer V2. La V3 n'était pas affectée par cette vulnérabilité, comme l'ont confirmé Balancer et Trail of Bits."
+  sources:
+    - "https://medium.com/balancer-protocol/nov-3-exploit-post-mortem-51dcbeb6b020"
+    - "https://blog.trailofbits.com/2025/11/07/balancer-hack-analysis-and-guidance-for-the-defi-ecosystem/"
 ---
 
 Les tokens directeurs de liquidité, comme je les appelle, sont une construction émergente et fascinante. En termes simples, ces tokens vous permettent de diriger des incitations (CRV, BAL, etc.) vers la pool de liquidité de votre choix. Pour ce faire, vous devez généralement posséder et verrouiller le token correspondant (veCRV, veBAL, etc.) au sein de leur contrat de gouvernance, ce qui garantit un engagement continu des projets participants.

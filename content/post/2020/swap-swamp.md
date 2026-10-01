@@ -1,8 +1,8 @@
 ---
-title: "🐊 Navigating the swap swamps"
-description: "Practical tips and considerations to understand what's happening under the hood while swapping tokens and how to do it efficiently."
+title: "Swap Aggregators: What Happens Under the Hood"
+description: "Read swap quotes, slippage and gas costs before trading. A 2020 guide to DEX aggregators and bundled transactions, using ParaSwap as the case."
 date: '2020-11-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Swaps, DEX, ParaSwap, Uniswap, Balancer, Curve, SushiSwap, Aave, Compound]
 image: /img/2020/swap-swamps/paraswap-aave-idle.png
@@ -11,6 +11,11 @@ url: swap-swamp
 aliases:
   - p/swap-swamp
   - posts/2020/swap-swamp
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "The interfaces, gas optimizations and examples here are from 2020. ParaSwap is now Velora, at velora.xyz. Keep the habit of reading the fine print, but don't treat these screenshots as instructions for today's interface."
+  sources: ["https://www.velora.xyz/"]
 ---
 
 Is swapping tokens easy as A, B, C? Don't let yourself be fooled by the apparent simplicity: yes, there are easy to use interfaces where you pick an input, an amount, and press a button to trade. Yet, without a basic understanding of DeFi, you might find yourself falling for avoidable mistakes.  As DeFi is increasingly made more broadly accessible, knowing **what's happening under the hood is essential to make the most of it**.

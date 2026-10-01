@@ -1,8 +1,8 @@
 ---
-title: "Les forks de Yearn Finance : présentation de la famille des Waifus"
-description: "Au-delà de son succès retentissant, Yearn Finance a inspiré de nombreux projets qui l'ont forké. Cet article le tour des forks de YFI les plus pertinents."
+title: "Les forks de Yearn en 2020 : la famille des Waifus"
+description: "YFII, YFLink, YFValue et Harvest en 2020 : fair launch, gouvernance communautaire et vaults dans la première vague de projets inspirés de Yearn."
 date: '2020-09-18T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, Curve, Lending, YFI, Yearn, Harvest Finance]
 series: yearn
@@ -13,6 +13,11 @@ url: yearn-finance-forks
 aliases:
   - p/yearn-finance-forks
   - posts/2020/yearn-waifus
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Je décris la vague de forks inspirés de Yearn en septembre 2020. TVL, lancements et calendriers de farming sont ceux de l'époque, pas une sélection actuelle. La V3 de Yearn a ensuite changé le design des vaults avec ERC-4626 et des stratégies tokenisées. Ces premières expériences ne décrivent pas l'offre d'aujourd'hui."
+  sources: ["https://docs.yearn.fi/getting-started/products/yvaults/v3"]
 ---
 
 À chaque jour son nouveau fork de Yearn Finance : comment les suivre ? Il n'y a pas de réponse simple, mais je pense pouvoir **vous fournir quelques éléments pour vous aider à repérer les fork de YFI à fort potentiel**. Pour ce faire, je vais couvrir trois (+1) fork YFI et essayer de mettre le doigt sur ce qui les rend intéressants.

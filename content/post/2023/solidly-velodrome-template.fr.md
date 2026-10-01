@@ -1,8 +1,8 @@
 ---
-title: "Solidly et Velodrome : le modèle de DEX ve(3,3) analysé"
-description: "Analyse du modèle ve(3,3) de Solidly et Velodrome : vote-escrow, bribes et frais redistribués face à veCRV, et les limites de la vague de forks."
+title: "Solidly vs Velodrome : analyse du DEX ve(3,3)"
+description: "Locks, frais, bribes et incentives : analyse de Solidly et Velodrome en 2023. La V1 en fonctionnement et les projets de V2 annoncés à l'époque."
 date: '2023-04-28T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO]
 toc: true
@@ -13,6 +13,20 @@ aliases:
   - posts/2023/solidly-velodrome-template
 image: img/2023/solidly-velodrome-template/cover.png
 difficulty: "intermediate"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "J'ai écrit cet article en avril 2023 : le modèle Velodrome en fonctionnement analysé ici est la V1. La dernière section décrit la feuille de route de la V2 annoncée à l'époque, pas son implémentation déployée. TVL, répartition des veVELO et volumes sur Optimism sont des instantanés de 2023."
+image_meta:
+  "img/2023/solidly-velodrome-template/solidly-tvl.png":
+    alt: "La TVL de Solidly dépasse 2 Md$ au lancement début 2022, chute brutalement puis reste proche de zéro jusqu'au début de 2023."
+    caption: "Solidly d'origine sur Fantom, vu sur DeFiLlama en avril 2023. Ce n'est pas la TVL des forks ultérieurs."
+  "img/2023/solidly-velodrome-template/defiwars-velodrome.png":
+    alt: "Principaux détenteurs de veVELO et parts de vote, avec Velodrome en tête, suivi par Beefy et Optimism."
+    caption: "Répartition des veVELO sur DeFiwars.xyz, avril 2023. Parts de vote historiques."
+  "img/2023/solidly-velodrome-template/optimism-volume.png":
+    alt: "Historique et classement des volumes DEX sur Optimism : Uniswap représente 54,39 % du volume quotidien et Velodrome 30 %."
+    caption: "Volumes DEX sur Optimism, DeFiLlama, avril 2023. Le tableau compare aussi volume et TVL."
 ---
 
 

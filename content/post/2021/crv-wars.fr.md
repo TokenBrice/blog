@@ -1,8 +1,8 @@
 ---
-title: "Curve Wars : la course au contrôle du veCRV"
-description: "Comment fonctionnent les Curve Wars : verrouillage du CRV, rôle de Convex, achat de votes via Votium et Bribe.crv, et ce que ça change pour les pools."
+title: "Curve Wars : qui achète les votes et pourquoi"
+description: "CRV, veCRV, Convex et bribes : comment la gouvernance devient un marché de liquidité. Le mécanisme de 2021, puis les guerres avancées."
 date: '2021-09-28T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [DEX]
 tags: [DeFi, Ethereum, Curve, CRV, Convex, CVX, Votium, veCRV, bribe.crv]
 series: crv-wars
@@ -15,6 +15,29 @@ aliases:
   - posts/2021/crv-wars
 image: /img/2021/crv-wars/curve-wars-cover-tokenbrice.png
 difficulty: "intermediate"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Ce marché des votes est celui de septembre 2021. Prix des tokens, rendements, pouvoir de vote et soldes des pools sont des instantanés de l'époque, pas des chiffres en direct. Je les garde pour montrer comment Convex et les bribes ont changé le jeu de la liquidité."
+image_meta:
+  "/img/2021/crv-wars/bribes-rewards.png":
+    alt: "Tableaux estimant les récompenses CVX annuelles et le revenu par CVX staké selon le prix du CRV et différentes hypothèses de pourcentage."
+    caption: "Estimation de scénarios de 2021 dans l'analyse Convex liée, pas un APR actuel ni un rendement garanti."
+  "/img/2021/crv-wars/ecosysteme-vecrv-tokenbrice.png":
+    alt: "Le CRV verrouillé devient veCRV, utilisé par Yearn, StakeDAO et bribe.crv ; Convex sépare le rendement cvxCRV des votes vlCVX via Votium."
+    caption: "Flux financiers et de gouvernance dans l'écosystème veCRV, septembre 2021."
+  "/img/2021/crv-wars/crv-pools.png":
+    alt: "Pools Curve classées par volume, avec rendements de base et récompenses pour tricrypto2, sUSD, 3pool, stETH, Aave, MIM et LUSD."
+    caption: "Volumes et rendements des pools Curve, septembre 2021. Chiffres historiques."
+  "/img/2021/crv-wars/sdvecrv-peg.png":
+    alt: "L'interface de swap propose environ 0,486 CRV pour un sdveCRV, montrant sa décote face au CRV."
+    caption: "Cotation sdveCRV/CRV, septembre 2021. Cette capture ne montre pas le peg actuel."
+  "/img/2021/crv-wars/sdvecrv-mim-crv-pools.png":
+    alt: "Pool sdveCRV composée à 97,98 % de sdveCRV avec une amplification A=200, comparée à la pool MIM équilibrée avec A=119."
+    caption: "Réserves et paramètres d'amplification de pools Curve Factory, septembre 2021."
+  "/img/2021/crv-wars/cvxcrv-pool.png":
+    alt: "Réserves de la pool cvxCRV/CRV : 40,30 % de CRV et 59,70 % de cvxCRV, avec une amplification A=50."
+    caption: "Pool cvxCRV/CRV sur Curve Factory, septembre 2021. Soldes et paramètres historiques."
 ---
 
 Depuis les premiers jours de Curve Finance et du lancement du token CRV, on attend, on envisage et on présume sur ce que la guerre des CRV pourrait amener. Désormais, avec le lancement de Convex puis de Bribe.crv et enfin Votium, tout s'accélère : les votes VeCRV, ça s'achète désormais ! Voyons donc comment cela impacte Curve et la DeFi dans son intégralité.

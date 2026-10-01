@@ -1,6 +1,6 @@
 ---
-title: "Gestion automatisée et collatéral : comment Autopilot, 40Acres et haiVELO font évoluer les veNFT"
-description: "Le développement de la couche d’infrastructure des veNFTs avec Autopilot, 40Acres et haiVELO: automatisation et collatéralisation."
+title: "veNFT : Autopilot, 40Acres et haiVELO"
+description: "Comment Autopilot, 40Acres et haiVELO exploitent les veNFT pour automatiser le rendement, créer du collatéral et du levier. Les risques aussi."
 date: '2025-08-14T16:06:21.672Z'
 categories: [Lending, Yield, DEX]
 tags: [DeFi, Ethereum, Curve, veCRV, Velodrome, veVELO, Aerodrome, veAERO, 40Acres, Autopilot, haiVELO]
