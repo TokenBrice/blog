@@ -1,0 +1,15 @@
+{{/* Positional type (warning, info, note, tip), optional title, inner Markdown. */}}
+{{- $noticeType := .Get 0 -}}
+{{- $label := T (printf "contextNotice%s" (title $noticeType)) -}}
+{{- with .Get 1 -}}
+    {{- $label = . -}}
+{{- end -}}
+{{/* Keep the submodule's single- and multi-paragraph Markdown behavior. */}}
+{{- $raw := markdownify .Inner | chomp -}}
+{{- $block := findRE "(?is)^<(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b" $raw 1 -}}
+<div class="notice {{ $noticeType }}">
+    <p class="notice-title">{{ $label }}</p>
+    <div class="notice-content">
+        {{- if or $block (not $raw) }}{{ $raw }}{{ else }}<p>{{ $raw }}</p>{{ end -}}
+    </div>
+</div>

@@ -1,2 +1,185 @@
-/* context.scss: owned by the "K-context" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+/* Dated context, legacy notices and the native mobile jump list. */
+.main-article .context-note,
+.article-content .notice {
+    box-sizing: border-box;
+    max-width: var(--measure);
+    padding: 1.2em 1.4em;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-chip);
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: var(--fs-small);
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+
+    a {
+        color: var(--ink);
+        text-decoration: underline;
+        text-decoration-color: var(--ink-3);
+        text-underline-offset: 3px;
+
+        &:hover {
+            text-decoration-color: var(--signal);
+            text-decoration-thickness: 2px;
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--slate);
+            outline-offset: 3px;
+        }
+    }
+}
+
+.main-article .context-note {
+    width: calc(100% - var(--card-padding) * 2);
+    margin: var(--space-5) var(--card-padding) 0;
+
+    &--status {
+        background: var(--signal-wash);
+    }
+}
+
+.article-content .notice {
+    margin: var(--space-5) 0;
+
+    &.warning {
+        background: var(--signal-wash);
+    }
+}
+
+.main-article .context-note__label,
+.article-content .notice-title {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-2);
+    margin: 0 0 var(--space-3);
+    padding: 0;
+    color: var(--ink);
+    background: none;
+    font-family: var(--font-body);
+    font-size: var(--fs-micro);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    &::before {
+        content: "";
+        flex: 0 0 var(--space-2);
+        width: var(--space-2);
+        height: var(--space-2);
+        background: var(--signal);
+    }
+}
+
+.context-note__text,
+.notice-content {
+    > :first-child {
+        margin-top: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.context-note__sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    margin: var(--space-3) 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--fs-meta);
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 24px;
+    }
+}
+
+.context-note__takeaways {
+    margin-top: var(--space-4);
+
+    ul {
+        margin: 0;
+        padding-inline-start: 1.2em;
+    }
+
+    li + li {
+        margin-top: var(--space-2);
+    }
+}
+
+.context-note__takeaways-title {
+    margin: 0 0 var(--space-2);
+}
+
+.mobile-toc {
+    box-sizing: border-box;
+    width: calc(100% - var(--card-padding) * 2);
+    max-width: var(--measure);
+    margin: var(--space-4) var(--card-padding) 0;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-chip);
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: var(--fs-small);
+    line-height: 1.5;
+
+    summary {
+        box-sizing: border-box;
+        min-height: 44px;
+        padding: var(--space-3) var(--space-4);
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    summary:focus-visible,
+    a:focus-visible {
+        outline: 2px solid var(--slate);
+        outline-offset: 2px;
+    }
+
+    &[open] summary {
+        border-bottom: 1px solid var(--rule);
+    }
+
+    nav {
+        padding: var(--space-3) var(--space-4);
+        overflow-wrap: anywhere;
+    }
+
+    ul,
+    ol {
+        margin: 0;
+        padding-inline-start: var(--space-4);
+    }
+
+    li + li {
+        margin-top: var(--space-2);
+    }
+
+    a {
+        display: block;
+        min-height: 24px;
+        padding-block: var(--space-1);
+        color: var(--ink);
+        text-decoration: underline;
+        text-decoration-color: var(--ink-3);
+        text-underline-offset: 3px;
+
+        &:hover {
+            text-decoration-color: var(--signal);
+            text-decoration-thickness: 2px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}

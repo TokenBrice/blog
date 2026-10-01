@@ -1,1 +1,46 @@
-{{- /* Dated context/status note + takeaways from front matter (`context`, `takeaways`). Implemented by package K (wave 2). */ -}}
+{{- $context := .Params.context -}}
+{{- $takeaways := .Params.takeaways -}}
+{{- if or $context $takeaways -}}
+    {{- $kind := "historical" -}}
+    {{- with $context -}}
+        {{- $kind = .kind | default "historical" -}}
+    {{- end -}}
+    {{- $label := T "contextTakeaways" -}}
+    {{- with $context -}}
+        {{- $label = T (printf "contextKind%s" (title $kind)) -}}
+    {{- end -}}
+<aside id="context-note" class="context-note context-note--{{ $kind }}" aria-labelledby="context-note-label">
+    <p id="context-note-label" class="context-note__label">
+        <span>{{ $label }}</span>
+        {{- with $context -}}
+            {{- with .checked }}
+        <span class="context-note__checked">· {{ T "contextChecked" }} <time datetime="{{ time.Format "2006-01-02" . }}">{{ time.Format "January 2006" . }}</time></span>
+            {{- end -}}
+        {{- end }}
+    </p>
+    {{- with $context -}}
+        {{- with .text }}
+    <div class="context-note__text">{{ . | markdownify }}</div>
+        {{- end -}}
+        {{- with .sources }}
+    <ol class="context-note__sources">
+            {{- range $index, $source := . }}
+        <li><a href="{{ $source }}" target="_blank" rel="noopener">{{ T "contextSource" (dict "Number" (add $index 1)) }}</a></li>
+            {{- end }}
+    </ol>
+        {{- end -}}
+    {{- end -}}
+    {{- with $takeaways }}
+    <div class="context-note__takeaways">
+        {{- if $context }}
+        <p class="context-note__takeaways-title"><strong>{{ T "contextTakeaways" }}</strong></p>
+        {{- end }}
+        <ul>
+            {{- range . }}
+            <li>{{ . | markdownify }}</li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+</aside>
+{{- end -}}

@@ -1,1 +1,6 @@
-{{- /* Mobile table of contents (< 1024px). Implemented by package K (wave 2). */ -}}
+{{- if .Scratch.Get "TOCEnabled" -}}
+<details class="mobile-toc">
+    <summary id="mobile-toc-summary">{{ T "mobileTocContents" }}</summary>
+    {{- replace .TableOfContents `id="TableOfContents"` `aria-labelledby="mobile-toc-summary"` | safeHTML }}
+</details>
+{{- end -}}
