@@ -38,7 +38,7 @@
         {{ partial "comments/include" . }}
     {{ end }}
 
-    {{ partialCached "footer/footer" . }}
+    {{ partialCached "footer/footer" . .Language.Lang }}
 
     {{ partial "article/components/photoswipe" . }}
 {{ end }}

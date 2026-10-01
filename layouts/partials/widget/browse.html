@@ -3,8 +3,13 @@
 {{- $notHidden := where $context.Site.RegularPages "Params.hidden" "!=" true -}}
 {{- $filtered := ($pages | intersect $notHidden) -}}
 
-{{- /* Categories sorted by count */ -}}
+{{- /* Preserve taxonomy destinations and counts within editorial groups. */ -}}
 {{- $categories := $context.Site.Taxonomies.categories.ByCount -}}
+{{- $categoryGroups := slice
+    (dict "label" "chromeBrowseTopics" "terms" (slice "dex" "lending" "stablecoin" "yield" "nft" "privacy"))
+    (dict "label" "chromeBrowseFormats" "terms" (slice "analysis" "thesis" "practical" "tutorial"))
+    (dict "label" "chromeBrowseProjects" "terms" (slice "projects"))
+-}}
 
 {{- /* Archives grouped by year */ -}}
 {{- $archives := $filtered.GroupByDate "2006" -}}
@@ -22,31 +27,38 @@
 {{- $id := printf "browse-%s" (substr (md5 $context.RelPermalink) 0 6) -}}
 
 <section class="widget widget--browse" aria-label="{{ T `browseWidgetLabel` | default `Browse the archive` }}">
-    <div class="browse-tabs" role="tablist">
+    <div class="browse-tabs" role="group" aria-label="{{ T `chromeBrowseView` }}">
         <input type="radio" id="{{ $id }}-cats" name="{{ $id }}-tab" class="browse-tabs__radio" checked aria-controls="{{ $id }}-cats-panel">
-        <label for="{{ $id }}-cats" class="browse-tabs__label" role="tab">{{ T "browseTabCategories" | default "Categories" }}</label>
+        <label id="{{ $id }}-cats-label" for="{{ $id }}-cats" class="browse-tabs__label">{{ T "browseTabCategories" | default "Categories" }}</label>
 
         <input type="radio" id="{{ $id }}-archives" name="{{ $id }}-tab" class="browse-tabs__radio" aria-controls="{{ $id }}-archives-panel">
-        <label for="{{ $id }}-archives" class="browse-tabs__label" role="tab">{{ T "browseTabArchives" | default "Archives" }}</label>
+        <label id="{{ $id }}-archives-label" for="{{ $id }}-archives" class="browse-tabs__label">{{ T "browseTabArchives" | default "Archives" }}</label>
 
         <input type="radio" id="{{ $id }}-difficulty" name="{{ $id }}-tab" class="browse-tabs__radio" aria-controls="{{ $id }}-difficulty-panel">
-        <label for="{{ $id }}-difficulty" class="browse-tabs__label" role="tab">{{ T "browseTabDifficulty" | default "Difficulty" }}</label>
+        <label id="{{ $id }}-difficulty-label" for="{{ $id }}-difficulty" class="browse-tabs__label">{{ T "browseTabDifficulty" | default "Difficulty" }}</label>
 
         {{- /* Panels */ -}}
-        <div class="browse-tabs__panel browse-tabs__panel--cats" id="{{ $id }}-cats-panel" role="tabpanel">
-            <ul class="browse-list browse-list--categories">
-                {{ range $categories }}
-                    <li>
-                        <a href="{{ .Page.RelPermalink }}">
-                            <span class="browse-list__name">{{ .Page.Title }}</span>
-                            <span class="browse-list__count">{{ .Count }}</span>
-                        </a>
-                    </li>
-                {{ end }}
-            </ul>
+        <div class="browse-tabs__panel browse-tabs__panel--cats" id="{{ $id }}-cats-panel" role="region" aria-labelledby="{{ $id }}-cats-label">
+            {{ range $group := $categoryGroups }}
+                <h3 class="browse-group-label">{{ T $group.label }}</h3>
+                <ul class="browse-list browse-list--categories">
+                    {{ range $term := $group.terms }}
+                        {{ range $categories }}
+                            {{ if hasSuffix .Page.RelPermalink (printf "/%s/" $term) }}
+                                <li>
+                                    <a href="{{ .Page.RelPermalink }}">
+                                        <span class="browse-list__name">{{ .Page.Title }}</span>
+                                        <span class="browse-list__count">{{ .Count }}</span>
+                                    </a>
+                                </li>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            {{ end }}
         </div>
 
-        <div class="browse-tabs__panel browse-tabs__panel--archives" id="{{ $id }}-archives-panel" role="tabpanel">
+        <div class="browse-tabs__panel browse-tabs__panel--archives" id="{{ $id }}-archives-panel" role="region" aria-labelledby="{{ $id }}-archives-label">
             <ul class="browse-list browse-list--archives">
                 {{ range $archives }}
                     {{- $id := lower (replace .Key " " "-") -}}
@@ -60,7 +72,7 @@
             </ul>
         </div>
 
-        <div class="browse-tabs__panel browse-tabs__panel--difficulty" id="{{ $id }}-difficulty-panel" role="tabpanel">
+        <div class="browse-tabs__panel browse-tabs__panel--difficulty" id="{{ $id }}-difficulty-panel" role="region" aria-labelledby="{{ $id }}-difficulty-label">
             <ul class="browse-list browse-list--difficulty">
                 {{ if gt $beginnerCount 0 }}
                     <li>

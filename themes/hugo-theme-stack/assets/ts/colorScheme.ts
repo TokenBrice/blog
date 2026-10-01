@@ -16,9 +16,10 @@ class StackColorScheme {
 
         this.dispatchEvent(document.documentElement.dataset.scheme as colorScheme);
 
-        if (toggleEl) {
-            this.toggleEl = toggleEl;
-            this.bindClick(toggleEl);
+        const toggleButton = toggleEl?.querySelector<HTMLButtonElement>('button');
+        if (toggleButton) {
+            this.toggleEl = toggleButton;
+            this.bindClick(toggleButton);
             this.syncTogglePressed();
         }
 

@@ -471,7 +471,7 @@ other = "Suivre TokenBrice"
 other = "Sommaire de l’article"
 
 [chromeBrowseLabel]
-other = "Explorer les archives"
+other = "Recherche et navigation dans les archives"
 
 [chromeSkipContent]
 other = "Aller au contenu"

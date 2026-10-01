@@ -5,7 +5,7 @@
         {{- block "head" . -}}{{ end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }}">
-        <a class="skip-to-content" href="#main-content">Skip to content</a>
+        <a class="skip-to-content" href="#main-content">{{ T "chromeSkipContent" }}</a>
         {{- partial "head/colorScheme" . -}}
 
         {{/* The container is wider when there's any activated widget */}}
@@ -20,7 +20,7 @@
                 {{ partial "sidebar/left.html" . }}
             {{- end -}}
             {{- block "right-sidebar" . -}}{{ end }}
-            <main id="main-content" class="main full-width">
+            <main id="main-content" class="main full-width" tabindex="-1">
                 {{- block "main" . }}{{- end }}
             </main>
         </div>

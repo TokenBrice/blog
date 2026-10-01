@@ -1,0 +1,29 @@
+{{ if gt .Paginator.TotalPages 1 }}
+    <div class="pagination-context">
+        <p class="pagination-context__label">{{ T "chromePageContext" (dict "Page" .Paginator.PageNumber "Total" .Paginator.TotalPages) }}</p>
+        <nav class="pagination" aria-label="{{ T `pagination` }}">
+            {{ $.Scratch.Set "hasPrevDots" false }}
+            {{ $.Scratch.Set "hasNextDots" false }}
+
+            {{ range .Paginator.Pagers }}
+                {{ if eq . $.Paginator }}
+                    <span class="page-link current" aria-current="page">
+                        {{- .PageNumber -}}
+                    </span>
+                {{ else if or (or (eq . $.Paginator.First) (eq . $.Paginator.Prev)) (or (eq . $.Paginator.Next) (eq . $.Paginator.Last)) }}
+                    <a class="page-link" href="{{ .URL }}" aria-label="{{ T `paginationPage` }} {{ .PageNumber }}">
+                        {{- .PageNumber -}}
+                    </a>
+                {{ else }}
+                    {{ if and (not ($.Scratch.Get "hasPrevDots")) (lt .PageNumber $.Paginator.PageNumber) }}
+                        {{ $.Scratch.Set "hasPrevDots" true }}
+                        <span class="page-link dots" aria-hidden="true">&hellip;</span>
+                    {{ else if and (not ($.Scratch.Get "hasNextDots")) (gt .PageNumber $.Paginator.PageNumber) }}
+                        {{ $.Scratch.Set "hasNextDots" true }}
+                        <span class="page-link dots" aria-hidden="true">&hellip;</span>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </nav>
+    </div>
+{{ end }}

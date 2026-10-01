@@ -9,7 +9,7 @@ menu:
     main: 
         weight: -80
         params:
-            icon: rss
+            icon: microphone-2
 readingTime: false
 image: 
 ---
