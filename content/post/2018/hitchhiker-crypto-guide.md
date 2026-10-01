@@ -12,6 +12,8 @@ url: crypto-hitchhiker-guide
 aliases:
   - p/crypto-hitchhiker-guide
   - posts/2018/hitchhiker-crypto-guide
+format: tutorial
+related_posts: ["/defi-bullshit-detector/"]
 ---
 
 Looking to invest in an ICO, or get your hands on some already traded coins? Awesome, welcome aboard! Before you jump in, let me give you some clues to spot shaky projects with examples taken from actual ones. These tips come from my experience (and failures) as well the discussion I had both with friends and the cryptocurrency community.

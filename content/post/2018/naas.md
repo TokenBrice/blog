@@ -12,6 +12,7 @@ aliases:
   - p/naas
   - posts/2018/naas
 difficulty: "intermediate"
+format: analysis
 ---
 
 While nationalists movements seem to be thriving, an equally interesting counter trend is shaping itself quietly. Despite nationalists’ wish to provide the services of the nation only to the purest of their kind, others countries are turning to the opposite direction: they are starting to provide services to non-citizens.

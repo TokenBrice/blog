@@ -3,7 +3,7 @@ title: "One step closer towards working for and answering to the Ethereum & DeFi
 description: "I'm stepping down as Monolith's Community Manager to dedicate more of my team to community-driven efforts: content, meetups & tips for the people!"
 date: '2020-10-15T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
+tags: [DeFi, TokenBrice.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
 image: /img/others/defifrance.png

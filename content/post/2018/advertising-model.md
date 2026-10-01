@@ -10,6 +10,7 @@ aliases:
   - p/advertising-model
   - posts/2018/advertising-model
 difficulty: "beginner"
+format: analysis
 ---
 
 In a [previous article](https://medium.com/@BBerdah/facebook-x-cambridge-analytica-the-hidden-cost-of-free-services-3f5724e80baf), we raised many issues about the advertising model and free online services in general. **They all fall within the spectrum of hidden cost, something society, we, eventually pay for.** From recurring annoyances to a loss of political power, the range of consequences of data concentration for political and social influence is wide. **Behind all of these “free” offers, compromises are made**.

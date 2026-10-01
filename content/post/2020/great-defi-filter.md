@@ -11,6 +11,7 @@ url: great-filter-defi
 aliases:
   - p/great-filter-defi
   - posts/2020/great-defi-filter
+format: thesis
 ---
 
 In the industry the question of adoption is so recurring it now almost triggers an automatic answer leading to a boilerplate response: "something about UX, something scalability" & if you're lucky, "something about Privacy."

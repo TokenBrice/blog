@@ -12,6 +12,7 @@ aliases:
   - p/deep-work
   - posts/2019/deep-work
 difficulty: "beginner"
+format: analysis
 ---
 
 _Deep Work_, a book published by Cal Newport in 2016 was highly impactful. While Cal’s writing did not bring anything new to the table, it put the spotlight on an idea that was rarely mentioned outside the psychology circles: the “[flow](https://en.wikipedia.org/wiki/Flow_%28psychology%29)” (also known as “being in the zone”).

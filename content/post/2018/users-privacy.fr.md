@@ -3,7 +3,7 @@ title: "Vie privée en ligne : l'exception qui devrait être la norme"
 description: "Qui vous piste sur les grands sites français et avec quels outils, comment couvrir vos traces, et comment respecter la vie privée sur votre propre site."
 date: '2018-07-25T10:54:13.745Z'
 categories: [Analysis]
-tags: [facebook, google, ad model, Privacy]
+tags: [facebook, google, advertising model, Privacy]
 image: /img/2018/user-privacy/cover.jpeg
 url: users-privacy
 aliases:
@@ -12,6 +12,7 @@ aliases:
   - users-Privacy
   - p/users-privacy
 difficulty: "beginner"
+format: analysis
 ---
 
 En 2018, respecter la vie privée de ses utilisateurs lorsque l’on lance un site c’est un jeu d’enfant, non ? Avec les révélations de Snowden sur NSA et toutes celles qui ont suivi, les hébergeurs et autres fournisseurs de service ont dû revoir leur pratiques ? C’est ce qu’on croyait nous aussi, et l’illusion est bien vite retombée. C’est parti pour un petit tour des pratiques : qui collecte vos donnés, comment et à quelles fins ?

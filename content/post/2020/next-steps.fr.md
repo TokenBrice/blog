@@ -3,7 +3,7 @@ title: "La prochaine étape de mon aventure : un engagement encore plus communau
 description: "Pourquoi je quitte mon role de community manager chez Monolith pour consacrer plus de temps aux initiatives communautaires DeFi."
 date: '2020-10-15T01:13:50.191Z'
 categories: [Projects]
-tags: [DeFi, TokenBric.xyz, Monolith, DeFi France, BanklessFR]
+tags: [DeFi, TokenBrice.xyz, Monolith, DeFi France, BanklessFR]
 toc: false
 tocNum: false
 image: /img/others/defifrance.png

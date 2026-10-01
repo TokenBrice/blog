@@ -3,7 +3,7 @@ title: "Long live to free and on-chain auditable wrestling"
 description: "A thesis article where I explain to you why the Luchadores fascinate me and what I expect from them"
 date: '2021-10-04T01:13:50.191Z'
 categories: [NFT]
-tags: [Collectibles, NFT, Achat de NFT, Farming NFT, Chainlink VRF]
+tags: [Collectibles, NFT, Achat de NFT, NFT Farming, Chainlink VRF]
 toc: true
 tocNum: false
 url: luchadores-nft

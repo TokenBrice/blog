@@ -23,7 +23,7 @@ Success looks like three outcomes, in order:
 2. **Understanding** — readers leave a post able to make a better-informed decision about a specific protocol, strategy, or risk.
 3. **Following** — that trust and understanding convert to ongoing readership across the social surfaces (X, YouTube, Telegram, Farcaster, RSS).
 
-The blog is also a statement of practice: it runs on a privacy-respecting, open-source stack (Hugo, Matomo with IP anonymisation, IPFS replication), and that infrastructure is part of the argument, not incidental to it.
+The blog is also a statement of practice: it runs on a privacy-respecting, open-source stack (Hugo, self-hosted Matomo with IP anonymisation), and that infrastructure is part of the argument, not incidental to it.
 
 ## Brand Personality
 

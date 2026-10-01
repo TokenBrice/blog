@@ -5,7 +5,7 @@ description: >-
   tokenization on Ethereum - from non-fungible tokens to ERCs.
 date: '2018-08-08T12:56:45.787Z'
 categories: [NFT]
-tags: [Ethereum, NFT, non fungible tokens, collectibles, ERC721, ERC1155, EcoCrypto]
+tags: [Ethereum, NFT, collectibles, ERC721, ERC1155, EcoCrypto]
 image: /img/2018/nft/cover.png
 difficulty: "beginner"
 url: nft

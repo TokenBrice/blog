@@ -44,26 +44,26 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 ### Main Projects
 
 | Logo | Project | Description | Role |
-| :---: | :---: | :---: | :---: |
-| <img src="/img/others/polaris-emblem.png" width="80"> | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Original Cofounder and Strategic Advisor |
-| <img src="/img/others/pharos.png" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking 156 stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
-| <img src="/img/others/symbol_tdc_color.png" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
+| :---: | :--- | :--- | :--- |
+| <img src="/img/others/polaris-emblem.png" alt="" width="80"> | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Original Cofounder and Strategic Advisor |
+| <img src="/img/others/pharos.png" alt="" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
+| <img src="/img/others/symbol_tdc_color.png" alt="" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
 
 ### Side Quests
 
 | Logo | Project | Description | Role |
-| :---: | :---: | :---: | :---: |
-| <img src="/img/main/emblem-color-square-250.png" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
-| <img src="/img/others/defiscan.png" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
-| <img src="/img/others/defifrance-logo.png" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
+| :---: | :--- | :--- | :--- |
+| <img src="/img/main/emblem-color-square-250.png" alt="" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
+| <img src="/img/others/defiscan.png" alt="" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
+| <img src="/img/others/defifrance-logo.png" alt="" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
 
 ### Previous Engagements
 
 - **[Luchadores](https://luchadores.io)** — Alpha whale & DeFi advisory for a 100% onchain NFT collection (SVG + ChainLink VRF) with a Fight 2 Earn autobattler strategic game. **[The Luchadores Thesis](https://tokenbrice.xyz/luchadores-nft/)**
 - **[Leverage Sir](https://www.sir.trading/)** — DeFi & BD Advisory for a no-liquidation, no-ongoing-fees, constant polynomial leverage protocol. **[Leverage Like a Sir](https://tokenbrice.xyz/leverage-sir/)**
 - **GHO Liquidity Committee** — Joined at the community's request in October 2023 to help repeg GHO and optimize its liquidity strategy. Stepped down in February 2024. **[Farewell](https://tokenbrice.xyz/farewell-glc/)**
-- **[Liquity](https://www.liquity.org/)** — Liquidity Engineer for 18+ months, contributing to the growth of one of DeFi's most resilient lending protocols. **[Announcement](https://tokenbrice.xyz/tokenbrice-liquity/)**
-- **[ParaSwap](https://paraswap.io)** — Helped launch the DAO and kickstart initial contributions.
+- **[Liquity](https://www.liquity.org/)** — Liquidity Engineer for 18+ months, contributing to the growth of one of DeFi's most resilient lending protocols. **[Announcement](/joining-liquity/)**
+- **[ParaSwap (now Velora)](https://paraswap.io)** — Helped launch the DAO and kickstart initial contributions.
 - **[Monolith](https://monolith.xyz)** — Community Manager for 18 months before pivoting to full-time DeFi community work.
 
 ---
@@ -72,7 +72,7 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 This blog is provided in both English and French and follows a simple philosophy:
 
-- **Privacy-conscious**: no intrusive trackers, only a simple self-hosted analytics with Matomo. [Learn more](https://tokenbrice.xyz/hello-world/)
+- **Privacy-conscious**: no intrusive trackers, only a simple self-hosted analytics with Matomo.
 - **Transparent**: this blog lives in a [GitHub repo](https://github.com/tokenbrice/blog/), you can follow and track all edits.
 - **Entirely free**. No sponsored posts. I'm the sole editor: welcome to my world.
 - **As open as possible** - all the content is free of rights. You can translate it or re-use as long as access is kept for all and for free & the original content is linked to (CC BY-NC-SA 4.0 license).
@@ -84,7 +84,7 @@ This blog is provided in both English and French and follows a simple philosophy
 Feel free to reach out to chat about Ethereum, DeFi & any other topics discussed here.
 
 | X | Telegram | Announcements | Farcaster |
-| :---: | :---: | :---: | :---: |
+| :--- | :--- | :--- | :--- |
 | [@TokenBrice](https://x.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://warpcast.com/tokenbrice) |
 
 New here? Start with the [latest articles](/) or tune into [the shows](/shows/).

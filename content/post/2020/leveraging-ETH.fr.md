@@ -4,7 +4,7 @@ description: "Comment emprunter des DAI contre son ETH sur Maker pour rester exp
 date: '2020-08-03T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Practical, Lending]
-tags: [DeFi, Ethereum, Lending, Maker, Leveraging]
+tags: [DeFi, Ethereum, Lending, Maker, Leverage]
 toc: true
 tocNum: true
 image: /img/2020/leveraging-ETH/leveraging-ETH-fr.png
@@ -14,6 +14,7 @@ aliases:
   - p/leveraging-eth
   - posts/2020/leveraging-eth
   - posts/2020/leveraging-ETH
+format: practical
 ---
 
 Alors qu'Ether le géant semble se réveiller, vous envisagez peut-être vos **options pour recentrer votre exposition sur l'ETH**. C'est précisément ce que j'ai examiné et exécuté ces derniers temps, et c'est le moment de partager mes retours et conseils !

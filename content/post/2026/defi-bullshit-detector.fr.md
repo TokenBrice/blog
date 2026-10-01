@@ -12,6 +12,7 @@ image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"
+related_posts: ["/money-markets-risk/"]
 ---
 
 Le DeFi Bullshit Detector est une instance Claude dédiée à la recherche DeFi, configurée pour confronter le marketing d'un protocole à la réalité onchain. Dans l'Arena cette semaine, j'ai essayé quelque chose de différent : au lieu de faire des opérations onchain comme d'habitude, je voulais montrer comment en configurer une, et les résultats ont été impressionnants.

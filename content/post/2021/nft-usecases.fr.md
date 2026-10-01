@@ -4,7 +4,7 @@ description: "Une balade dans le monde des NFTs pour comprendre l'intérêt de l
 date: '2021-03-31T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [NFT]
-tags: [Collectibles, Non Fungible Tokens, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
+tags: [Collectibles, NFT, NFT Markets, NFT Farming, CryptoPunk, Arts and NFTs]
 toc: true
 tocNum: true
 url: nft-cas-d-utilisation

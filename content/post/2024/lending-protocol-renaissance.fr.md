@@ -1,6 +1,6 @@
 ---
 title: "Est-ce une Renaissance du Lending ?"
-description: "Tour des nouveaux modeles de pret DeFi, des CDP aux money markets, et des protocoles qui cherchent a fusionner les deux."
+description: "Tour des nouveaux modèles de prêt DeFi, des CDP aux money markets, et des protocoles qui cherchent à fusionner les deux."
 date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
 tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]

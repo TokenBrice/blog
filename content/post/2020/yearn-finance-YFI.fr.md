@@ -4,7 +4,7 @@ description: "Retour sur le lancement de Yearn Finance V2, l importance de YFI e
 date: '2020-08-11T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Yield]
-tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Leveraging, Yearn]
+tags: [DeFi, Ethereum, Lending, Aave, Compound, Curve, Leverage, Yearn]
 series: yearn
 series_order: 1
 image: /img/2020/yearn-finance-YFI/wifeys.jpg

@@ -12,6 +12,7 @@ url: tipbot-guide
 aliases:
   - p/tipbot-guide
   - posts/2020/tipbot-guide
+format: tutorial
 ---
 
 ## A/ Introduction

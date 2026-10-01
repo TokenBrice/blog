@@ -13,6 +13,7 @@ url: defi-free-coffees
 aliases:
   - p/defi-free-coffees
   - posts/2020/defi-free-coffees
+format: practical
 ---
 
 _Overview of the passive income-earning opportunities enabled by decentralised finance_

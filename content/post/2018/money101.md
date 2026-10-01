@@ -10,6 +10,7 @@ url: money101
 aliases:
   - p/money101
   - posts/2018/money101
+format: analysis
 ---
 
 

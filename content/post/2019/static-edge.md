@@ -10,6 +10,7 @@ aliases:
   - p/static-edge
   - posts/2019/static-edge
 difficulty: "beginner"
+format: analysis
 ---
 
 `This article is the second of a series which examines the technical reasons behind the renewed interest for static websites, from both a content writer and a developer perspective.

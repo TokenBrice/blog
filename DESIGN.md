@@ -141,7 +141,7 @@ components:
 
 **Creative North Star: "The Sovereign Edition"**
 
-This is the visual register of a long-form DeFi blog whose infrastructure is part of its argument. The site runs on a privacy-respecting, open-source stack (Hugo, self-hosted Matomo with IP anonymisation, IPFS replication, no Google Fonts) and the design treats that sovereignty as a first principle, not a backdrop. There is no third-party font, no embedded tracker, no analytics-funded gradient. What you see is what was shipped, and what was shipped is what the author owns end-to-end.
+This is the visual register of a long-form DeFi blog whose infrastructure is part of its argument. The site runs on a privacy-respecting, open-source stack (Hugo, self-hosted Matomo with IP anonymisation, no Google Fonts) and the design treats that sovereignty as a first principle, not a backdrop. There is no third-party font, no embedded tracker, no analytics-funded gradient. What you see is what was shipped, and what was shipped is what the author owns end-to-end.
 
 The aesthetic is **punk-archival**: an irreverent editorial voice held inside an unfashionable, durable shell. Fraunces carries the headlines with the gravity of a printed quarterly; Inter Tight carries the body with the restraint of a working notebook. A single accent — *Dissenting Slate* (`#34495e`) — does almost all the chromatic work, ceding the screen to the writing. Where personality erupts, it is local and earned: the projects band's deep-hull navy, the rotating category palette, the difficulty filters' green/amber/red. Nothing animates that does not need to. Nothing rounds that does not need to. Nothing decorates that does not argue.
 

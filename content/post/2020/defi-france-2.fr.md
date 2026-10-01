@@ -87,7 +87,7 @@ Les meetups continuent et évoluent. On pensait marquer un grand coup pour le re
 
 ### DFP #7 - PAGE DEFI FRANCE
 
-**_Étendre/migrer la page [DeFi France](https://tokenbrice.xyz/fr/defifrance/) existante pour inclure toutes les initiatives et faciliter 1/ la prise en main pour les nouveaux, 2/ suivre les évents + productions pour les habitués_**
+**_Étendre/migrer la page [DeFi France](/fr/defi-france-version-2/) existante pour inclure toutes les initiatives et faciliter 1/ la prise en main pour les nouveaux, 2/ suivre les évents + productions pour les habitués_**
 
 Cette proposition est plus une promesse personelle, quelque chose qui aurait dû être fait depuis longtemps.
 

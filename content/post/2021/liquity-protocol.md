@@ -11,8 +11,8 @@ url: liquity-protocol
 aliases:
   - p/liquity-protocol
   - posts/2021/liquity-protocol
-image: /img/2021/liquity-protocol/cover.png
 difficulty: "intermediate"
+og_panel: false
 ---
 
 

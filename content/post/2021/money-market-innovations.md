@@ -13,8 +13,8 @@ url: money-market-innovations
 aliases:
   - p/money-market-innovations
   - posts/2021/money-market-innovations
-image: /img/2021/money-market-innovations/cover.png
 difficulty: "intermediate"
+og_panel: false
 ---
 
 Money markets like [Aave](https://www.defiscan.info/protocols/aave/ethereum), [Compound](https://www.defiscan.info/protocols/compound-v3/ethereum) or [Maker](https://www.defiscan.info/protocols/sky/ethereum) are the heart of the DeFi ecosystem. For the final user, these protocols have the same function than a classic bank : borrowing or putting sleepy money at work by lendind it.

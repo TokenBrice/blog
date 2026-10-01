@@ -11,8 +11,9 @@ url: pool-together
 aliases:
   - p/pool-together
   - posts/2021/pool-together
-image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
+related_posts: ["/defi-beyond-finance/", "/money-markets-risk/"]
+og_panel: false
 ---
 
 [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) is a no-loss lottery: deposits are pooled and put to work in DeFi, the yield they generate funds the prize, and every player keeps their capital.

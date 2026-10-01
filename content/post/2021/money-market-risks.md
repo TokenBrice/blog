@@ -4,7 +4,7 @@ description: "A practical framework for assessing DeFi money-market risks, with 
 date: '2021-02-18T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Analysis, Lending]
-tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, COMP, Oracles, Liquidation, Insurance, Safety Module]
+tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Management, CREAM, DeFiScore, COMP, Oracles, Liquidation, Insurance, Safety Module]
 series: money-markets
 series_order: 1
 toc: true
@@ -15,6 +15,7 @@ aliases:
   - posts/2021/money-market-risks
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
+format: analysis
 ---
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.

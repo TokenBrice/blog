@@ -11,6 +11,7 @@ aliases:
 tags: [chat, design, dark patterns, interview]
 image: /img/2017/chatbot-masquerade/cover.png
 difficulty: "beginner"
+format: analysis
 ---
 
 Are chatbots living up to their promises?

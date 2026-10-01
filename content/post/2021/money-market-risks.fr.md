@@ -4,7 +4,7 @@ description: "Une grille pour évaluer le risque sur Aave, Compound ou Cream : o
 date: '2021-02-18T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Analysis, Lending]
-tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Scoring, Risk assessment, money market risk, aave risk, compound risk, cream risk, DeFiScore, CREAM, COMP, Oracles, Liquidation, Insurance, Safety Module]
+tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Management, CREAM, DeFiScore, COMP, Oracles, Liquidation, Insurance, Safety Module]
 series: money-markets
 series_order: 1
 toc: true
@@ -15,6 +15,7 @@ aliases:
   - posts/2021/money-market-risks
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
+format: analysis
 ---
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.

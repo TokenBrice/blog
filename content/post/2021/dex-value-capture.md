@@ -4,15 +4,15 @@ description: "Where DEX trading fees actually end up: how Uniswap, SushiSwap, Cu
 date: '2021-01-23T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
+tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, SushiSwap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false
 url: decentralized-exchange-value-capture
 aliases:
   - p/decentralized-exchange-value-capture
   - posts/2021/dex-value-capture
-image: /img/2021/dex-value-capture/cover-fr.png
 difficulty: "intermediate"
+og_panel: false
 ---
 
 I've shared my perspective on many DeFi protocols on this blog, but recently I realized I've never gone back to the basics: the DEXs. That's precisely what we will do today, tackling the topic mostly by looking at value capture mechanisms.

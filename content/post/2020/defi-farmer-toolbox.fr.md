@@ -13,6 +13,7 @@ url: defi-farmer-toolbox
 aliases:
   - p/defi-farmer-toolbox
   - posts/2020/defi-farmer-toolbox
+format: practical
 ---
 
 Amis agriculteurs,

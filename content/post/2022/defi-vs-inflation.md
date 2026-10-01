@@ -13,6 +13,7 @@ aliases:
   - posts/2022/defi-vs-inflation
 image: /img/2022/defi-vs-inflation/defi-vs-inflation-tokenbrice-cover.jpg
 difficulty: "beginner"
+format: practical
 ---
 
 

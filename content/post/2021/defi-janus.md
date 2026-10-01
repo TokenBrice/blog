@@ -11,8 +11,9 @@ url: defi-janus
 aliases:
   - p/defi-janus
   - posts/2021/defi-janus
-image: /img/2021/defi-janus/defi-janus-cover.png
 difficulty: "intermediate"
+format: thesis
+og_panel: false
 ---
 
 Mythology is often used to illustrate DeFi. For example, the Canaanite god Moloch is often mentioned to symbolize coordination issues. Today, I will identify with you a new deity from the DeFi pantheon: Janus.

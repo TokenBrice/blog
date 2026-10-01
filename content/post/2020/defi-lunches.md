@@ -11,6 +11,7 @@ url: defi-lunches
 aliases:
   - p/defi-lunches
   - posts/2020/defi-lunches
+format: practical
 ---
 
 Go [Bankless](https://bankless.substack.com/about). $12 / mo. Includes [archive access](https://bankless.substack.com/archive?utm_source=menu-dropdown), [Inner Circle](https://bankless.substack.com/p/welcome-to-the-inner-circle-wave) & [Deals](https://bankless.substack.com/p/the-deal-sheet)—[(pay w/ crypto)](

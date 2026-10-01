@@ -4,16 +4,17 @@ description: "A pratical perspetive looking at Maker as a solution to maintain a
 date: '2020-08-03T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [Practical, Lending]
-tags: [DeFi, Ethereum, Lending, Maker, Leveraging]
+tags: [DeFi, Ethereum, Lending, Maker, Leverage]
 toc: true
 tocNum: true
-image: /img/2020/leveraging-ETH/leveraging-ETH-fr.png
 difficulty: "intermediate"
 url: leveraging-eth
 aliases:
   - p/leveraging-eth
   - posts/2020/leveraging-eth
   - posts/2020/leveraging-ETH
+format: practical
+og_panel: false
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session!

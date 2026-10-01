@@ -14,6 +14,8 @@ aliases:
   - posts/2017/seo-content-tools
   - posts/2017/SEO-content-tools
 difficulty: "beginner"
+format: tutorial
+noindex: true
 ---
 
 Knowing the audience is the key to successful content; it’s the key to successful marketing itself. Yet, for a start-up and moreover at an early stage, **it’s damn hard**. I tried a lot of different tools before finding the one I’m happy with.

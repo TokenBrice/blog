@@ -13,6 +13,7 @@ aliases:
   - posts/2021/pool-together
 image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
+related_posts: ["/defi-beyond-finance/", "/money-markets-risk/"]
 ---
 
 

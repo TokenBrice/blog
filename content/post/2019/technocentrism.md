@@ -12,6 +12,7 @@ aliases:
   - p/technocentrism
   - posts/2019/technocentrism
 difficulty: "intermediate"
+format: analysis
 ---
 
 From its very early days, the Blockchain industry was a world for geeks. It really made sense at first: I think it was a conjunction of two main factors. First, technical profiles were already deeply involved in promoting the values (autonomy, Privacy, trustless cooperation) that blockchains can deliver. Moreover, at the humble beginnings, the roadblocks were technical ones involving “hard science” fields: mathematics, cryptography, game theory, etc.

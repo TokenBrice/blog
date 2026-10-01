@@ -9,6 +9,7 @@ toc: false
 tocNum: false
 url: joining-liquity
 aliases:
+  - tokenbrice-liquity
   - p/joining-liquity
   - posts/2022/tokenbrice-liquity
 image: /img/2022/tokenbrice-liquity/cover.png

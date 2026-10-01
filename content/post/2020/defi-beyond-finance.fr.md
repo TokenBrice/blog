@@ -10,6 +10,7 @@ url: defi-beyond-finance
 aliases:
   - p/defi-beyond-finance
   - posts/2020/defi-beyond-finance
+format: thesis
 ---
 
 La finance décentralisée d'Ethereum est prête à se développer au-delà de son bac à sable : avec un réseau dense de primitifs financiers, il est maintenant plus facile que jamais d'exploiter la DeFi à d'autres fins, par exemple pour remplacer une relique prédatrice de notre passé comme la loterie, toujours follement populaire et préjudiciable.

@@ -71,7 +71,7 @@ To follow my contributions to Aave's governance,
 
 ## Who am I?
 
-I've been following DeFi since before it bore its name and experimented with all the landmark protocols. With Mounir (ParaSwap) & Arthur, we created the DeFi France movement and helped it grow. I keep up with DeFi on a daily basis and share my research on a [FR/EN blog](http://tokenbrice.xyz/), and host [🇫🇷 weekly live sessions](https://www.twitch.tv/tokenbrice) to discuss the latest developments in DeFi.
+I've been following DeFi since before it bore its name and experimented with all the landmark protocols. With Mounir (ParaSwap) & Arthur, we created the DeFi France movement and helped it grow. I keep up with DeFi on a daily basis and share my research on a [FR/EN blog](https://tokenbrice.xyz/), and host [🇫🇷 weekly live sessions](https://www.twitch.tv/tokenbrice) to discuss the latest developments in DeFi.
 
 With the help of French-speaking Aave team members, we produced what is widely recognized as one of the most comprehensive resources covering the protocol in French: [🇫🇷 the Aave marathon (3h)](https://www.youtube.com/watch?v=XSL0JbBxvRM&list=PLreQl_vxgtPh-13wNlEWui7RTioCOFweN&index=2) with Marc Zeller, Alex & Statelayer. After the publication of a comprehensive [🇺🇸 guide helping users to assess risks on money markets](https://tokenbrice.xyz/money-markets-risk/), Alex also joined me for [🇫🇷 another live session dedicated to risk assessment for money markets & her job as actuary](https://www.youtube.com/watch?v=0L9DiHOouaY&list=PLreQl_vxgtPhSZeMiTbzXAjL_U-_NnQwD&index=23).
 

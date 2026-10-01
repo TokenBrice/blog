@@ -10,6 +10,7 @@ aliases:
   - posts/2025/defi-ux-disaster
 image: /img/2025/defi-ux-disaster/defi-ux-disaster-cover.png
 difficulty: "beginner"
+format: thesis
 ---
 
 Everyone worries about the infrastructure and app layers, and that’s cute, but what about the curation layer? Without it, the two others are nearly useless, as the complexity of the space is already far too great for most of the population to handle. So today, I want to plead to address the most significant lack in DeFi, informed by my experience with over six years spent educating people about it, onboarding pretty much anyone willing in my surroundings and online, and following up with them.

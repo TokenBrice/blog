@@ -11,8 +11,8 @@ url: defi-flywheel
 aliases:
   - p/defi-flywheel
   - posts/2021/defi-flywheel
-image: /img/2021/defi-flywheel/defi-flywheel-cover.png
 difficulty: "beginner"
+og_panel: false
 ---
 
 In three weeks, the Convex protocol attracted over $3 billion in deposits, while becoming the largest 🐳 whale of CRV, today and probably forever. Luck is never a negligible factor, but with such a smashing entry into DeFi top protocols, we must look much further. Indeed, the key to understanding the meteoric rise of Convex is tokenomics, and this is our topic of the day!

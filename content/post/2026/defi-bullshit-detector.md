@@ -12,6 +12,7 @@ image: /img/2026/defi-bullshit-detector/defi-bullshit-detector-cover.png
 draft: false
 type: post
 difficulty: "beginner"
+related_posts: ["/money-markets-risk/"]
 ---
 
 The DeFi Bullshit Detector is a Claude instance dedicated to DeFi research, set up to check a protocol's marketing against onchain reality. In the Arena this week, I tried something different: instead of doing things onchain as usual, I wanted to show how to set one up, and the results were impressive.

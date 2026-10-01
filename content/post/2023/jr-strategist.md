@@ -2,7 +2,7 @@
 title: "Hiring a Junior DeFi Strategist to help foster the growth of immutable protocols"
 description: "A call for a part-time DeFi strategist to help grow liquidity and utility for resilient tokens and protocol ecosystems."
 date: '2023-03-29T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Projects]
 tags: [DeFi, Ethereum, Liquity, Unstoppable DeFi, Lending]
 toc: false
@@ -13,6 +13,12 @@ aliases:
   - posts/2023/jr-strategist
 image: img/2023/jr-strategist/jr-strategist-cover.png
 difficulty: "beginner"
+noindex: true
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Closed: I filled this 2023 role. It is no longer open."
+  sources: ["https://tokenbrice.xyz/jr-strategist/"]
 ---
 
 

@@ -10,6 +10,7 @@ aliases:
   - p/static-roots
   - posts/2019/static-roots
 difficulty: "beginner"
+format: analysis
 ---
 
 `This article goes back to the early years of the web to understand why dynamic websites are so prevalent today. Then, we consider what static websites bring in terms of performance, editing speed, and organic results.`

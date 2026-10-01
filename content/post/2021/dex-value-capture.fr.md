@@ -4,7 +4,7 @@ description: "Où finissent vraiment les frais de trading des DEX : comparaison 
 date: '2021-01-23T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX]
-tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, Sushiswap, Curve, Balancer, Bancor]
+tags: [DeFi, Ethereum, DEX, Decentralized Exchange, Uniswap, SushiSwap, Curve, Balancer, Bancor]
 toc: true
 tocNum: false
 url: dex-echanges-decentralisees-capture-valeur

@@ -35,7 +35,7 @@ The volume of issuance and use of pegged-assets has exploded last year, but befo
 
 To do this, **the method used at a high level is tokenization**: we represent an asset that comes from another chain / world on Ethereum, such as wBTC (corresponding to 1 BTC on the Bitcoin chain) or USDC (corresponding to 1 USD in Circle's bank account).
 
-This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](https://tokenbrice.xyz/Stablecoins/)**.
+This **addresses one of the most common concerns for the general public: [cryptos are volatile assets](/stablecoins/)**.
 
 Also, **the rise of Stablecoins has gone hand in hand with the rise of DeFi**, why? According to me, there are many reasons, the main ones being:
 

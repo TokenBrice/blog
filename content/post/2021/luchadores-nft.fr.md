@@ -3,7 +3,7 @@ title: "Vive la lutte libre (et vérifiable onchain)"
 description: "Un article-thèse où je vous explique pourquoi les Luchadores me fascinent et ce que j'en attends"
 date: '2021-10-04T01:13:50.191Z'
 categories: [NFT]
-tags: [Collectibles, NFT, Achat de NFT, Farming NFT, Chainlink VRF]
+tags: [Collectibles, NFT, Achat de NFT, NFT Farming, Chainlink VRF]
 toc: true
 tocNum: false
 url: luchadores-nft

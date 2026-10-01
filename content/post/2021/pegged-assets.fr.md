@@ -39,7 +39,7 @@ Le volume d'émission et d'utilisation des pegged-assets (actifs indexés) a exp
 
 Pour se faire, **l'approche utilisé à un haut niveau est la tokénisation** : on représente un actif qui vient d'une autre chaîne / d'un autre monde sur Ethereum, comme par exemple wBTC (correspondant à 1 BTC sur la chaîne Bitcoin) ou encore USDC (correspondant à 1 USD dans le compte en banque de Circle, en très bref).
 
-Cela permet de **répondre à une des inquiétudes les plus communes pour le grand public : [les cryptos sont des actifs volatiles](https://tokenbrice.xyz/fr/Stablecoins/)**.
+Cela permet de **répondre à une des inquiétudes les plus communes pour le grand public : [les cryptos sont des actifs volatiles](/fr/stablecoins/)**.
 
 En outre, **l'essor des Stablecoins est allé de pair avec l'essor de la DeFi**, pourquoi ? Il y a pour moi de nombreuses raisons dont voici les principales :
 

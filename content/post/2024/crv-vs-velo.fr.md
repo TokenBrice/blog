@@ -21,7 +21,7 @@ Tout d'abord, commençons par un avertissement : il y a deux composants principa
 1. Les structures de liquidité qu'il fournit (x\*y=k, stableswap, CL, stableswap-NG, curve V2, etc.)
 2. Le modèle d'incitations, qui pour un DEX est synonyme de ses tokenomics.
 
-Cet article se concentre sur ce dernier, le cœur de l'innovation de [Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism). Cet article suppose une familiarité de base avec les tokenomics veCRV de Curve ; si ce n'est pas le cas, je vous encourage à [lire mon écrit précédent à ce sujet](https://tokenbrice.xyz/fr/crv-wars), posté il y a trois ans mais toujours utile pour comprendre le modèle.
+Cet article se concentre sur ce dernier, le cœur de l'innovation de [Velodrome](https://www.defiscan.info/protocols/velodrome-v2/optimism). Cet article suppose une familiarité de base avec les tokenomics veCRV de Curve ; si ce n'est pas le cas, je vous encourage à [lire mon écrit précédent à ce sujet](/fr/crv-wars/), posté il y a trois ans mais toujours utile pour comprendre le modèle.
 
 ## A/ veCRV/veVELO Collecte et Distribution des Frais
 

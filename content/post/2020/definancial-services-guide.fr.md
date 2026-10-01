@@ -13,6 +13,7 @@ url: definancial-guide
 aliases:
   - p/definancial-guide
   - posts/2020/definancial-services-guide
+format: practical
 ---
 
 Bienvenue dans le nouveau monde !

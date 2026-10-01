@@ -3,13 +3,14 @@ title: "La décentralisation expliquée simplement en 12 minutes"
 description: "Ce que la décentralisation change vraiment, au-delà du cours du bitcoin : ses ramifications sociales et politiques, expliquées sans jargon technique."
 date: '2018-07-02T08:31:36.389Z'
 categories: [Analysis]
-tags: [decentralization, Blockchain, EcoCrypto]
+tags: [Décentralisation, Blockchain, EcoCrypto]
 image: /img/2018/decentralisation-layman/cover.png
 difficulty: "beginner"
 url: decentralization-layman
 aliases:
   - p/decentralization-layman
   - posts/2018/decentralisation-layman
+format: analysis
 ---
 
 Bien que le grand public entende parler de plus en plus de Blockchain et cryptomonnaies, les fondements politiques et philosophiques ne sont encore discutés pour l’instant qu’au sein de communautés de passionnés. Je pense que la décentralisation apporte avec elle **un changement de paradigme qui mérite bien plus de couverture médiatique que le cours du bitcoin.**

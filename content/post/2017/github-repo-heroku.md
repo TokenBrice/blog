@@ -4,12 +4,13 @@ description: "A practical tutorial for deploying a chatbot from GitHub to Heroku
 date: '2017-11-23T13:21:53.376Z'
 categories: [Tutorial]
 tags: [Chatbot, Python]
-image: /img/2017/sato/satodemo.gif
 url: github-repo-heroku
 aliases:
   - p/github-repo-heroku
   - posts/2017/github-repo-heroku
 difficulty: "intermediate"
+format: tutorial
+noindex: true
 ---
 
 You’re very welcome to contact us if you need help, trough the comment section below or via [Slack](https://slack.cai.tools.sap/).

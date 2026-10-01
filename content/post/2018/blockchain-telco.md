@@ -15,6 +15,7 @@ aliases:
   - Blockchain-telco
   - p/blockchain-telco
 difficulty: "intermediate"
+format: analysis
 ---
 
 _Can the telecom industry benefit from blockchains and decentralized ledger technologies?_

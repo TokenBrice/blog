@@ -10,6 +10,7 @@ url: technofeudalism-sovereign-individual
 aliases:
   - p/technofeudalism-sovereign-individual
   - posts/2021/technofeudalism-sovereign-individual
+format: analysis
 ---
 
 Vous vous souvenez quand on parlait d'un "monde post-covid" ? Il est amusant de voir comment l'expression a rapidement cessé d'être utilisée lorsque les gens ont réalisé que l'ordre social du "nouveau" monde serait aussi absurde et gaspilleur que le précédent.

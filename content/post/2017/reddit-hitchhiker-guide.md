@@ -11,6 +11,8 @@ aliases:
   - p/reddit-hitchhiker-guide
   - posts/2017/reddit-hitchhiker-guide
 difficulty: "beginner"
+format: tutorial
+noindex: true
 ---
 
 It’s been a long time since I realized most content and marketing materials focused on the main social networks — Facebook, Twitter, LinkedIn and Instagram, leaving little to no room to the countless other services used around the world.
