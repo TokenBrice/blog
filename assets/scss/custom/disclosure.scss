@@ -1,2 +1,59 @@
-/* disclosure.scss: owned by the "J-disclosure" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+.disclosure {
+    margin: 0;
+    color: var(--ink-2);
+    font-family: var(--font-body);
+    font-size: var(--fs-small);
+    line-height: 1.5;
+    overflow-wrap: break-word;
+
+    strong {
+        color: var(--ink);
+        font-weight: 600;
+    }
+
+    &__project {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-1);
+        min-height: 24px;
+        vertical-align: middle;
+        color: var(--ink);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+
+        picture {
+            display: inline-flex;
+            flex: 0 0 28px;
+        }
+
+        &:hover {
+            text-decoration-color: var(--signal);
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--slate);
+            outline-offset: 3px;
+        }
+    }
+
+    &__emblem {
+        display: block;
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+    }
+
+    &--home {
+        padding: var(--space-3) var(--space-4);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-card);
+        background: var(--surface);
+    }
+
+    &--post {
+        flex-basis: 100%;
+        padding-top: var(--space-2);
+        border-top: 1px solid var(--rule);
+        font-size: var(--fs-meta);
+    }
+}

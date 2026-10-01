@@ -502,3 +502,120 @@ other = "Formats"
 
 [chromeBrowseProjects]
 other = "Author projects"
+
+# --- J: post trust strip and project disclosure ---
+[trustByline]
+other = "By {{ .Name }}"
+
+[trustUpdated]
+other = "Updated"
+
+[trustFormatAnalysis]
+other = "Analysis"
+
+[trustFormatThesis]
+other = "Thesis"
+
+[trustFormatPractical]
+other = "Practical"
+
+[trustFormatTutorial]
+other = "Tutorial"
+
+[disclosureBoth]
+other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics) and co-founded {{ .Polaris }}, which I now advise. Both get covered here; read accordingly."
+
+[disclosurePharos]
+other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics). I cover it here; read accordingly."
+
+[disclosurePolaris]
+other = "<strong>Disclosure:</strong> I co-founded {{ .Polaris }}, which I now advise. I cover it here; read accordingly."
+
+# --- K: context, notices and mobile contents ---
+[contextKindHistorical]
+other = "Historical context"
+
+[contextKindStatus]
+other = "Status"
+
+[contextKindUpdate]
+other = "Update"
+
+[contextChecked]
+other = "checked"
+
+[contextSource]
+other = "Source {{ .Number }}"
+
+[contextTakeaways]
+other = "Key takeaways"
+
+[contextNoticeNote]
+other = "Note"
+
+[contextNoticeTip]
+other = "Tip"
+
+[contextNoticeInfo]
+other = "Info"
+
+[contextNoticeWarning]
+other = "Warning"
+
+[mobileTocContents]
+other = "Contents"
+
+# --- O: site search ---
+[searchHint]
+other = "Search articles, glossary terms and guides. Use at least two characters."
+
+[searchTypePost]
+other = "Article"
+
+[searchTypeTerm]
+other = "Term"
+
+[searchTypeGuide]
+other = "Guide"
+
+[searchCountOne]
+other = "#COUNT result"
+
+[searchCountMany]
+other = "#COUNT results"
+
+[searchLoading]
+other = "Searching…"
+
+[searchUnavailable]
+other = "Search is unavailable right now. Use the links below to keep reading."
+
+[searchExamples]
+other = "Start here"
+
+[searchExampleAPY]
+other = "APY"
+
+[searchExampleIL]
+other = "Impermanent loss"
+
+[searchExampleMap]
+other = "Stablecoin Map"
+
+[searchExampleRisk]
+other = "DeFi risk"
+
+[searchNoResults]
+other = "No results for this search."
+
+[searchRecoveryHint]
+other = "Try a protocol name or fewer words. Or take one of these paths."
+
+[searchLinkGlossary]
+other = "Glossary"
+
+[searchLinkGuides]
+other = "Guides"
+
+[searchLinkArchives]
+other = "Archives"

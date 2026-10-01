@@ -1,0 +1,26 @@
+{{- $page := . -}}
+{{- if and (eq $page.Kind "page") (eq $page.Type "post") -}}
+{{- $author := $page.Site.Data.author -}}
+{{- $about := $page.Site.GetPage "page/about" -}}
+{{- $formatKey := index (dict "analysis" "trustFormatAnalysis" "thesis" "trustFormatThesis" "practical" "trustFormatPractical" "tutorial" "trustFormatTutorial") ($page.Params.format | default "" | lower) -}}
+<div class="article-trust-strip">
+    {{- with $about }}
+    <a class="article-trust-strip__byline" href="{{ .RelPermalink }}" rel="author">
+        {{ partial "helper/picture.html" (dict "src" $author.avatar.src "alt" "" "role" "avatar" "class" "article-trust-strip__avatar" "sizes" "32px" "loading" "eager") }}
+        <span>{{ T "trustByline" (dict "Name" $author.name) }}</span>
+    </a>
+    {{- end }}
+    {{- /* Publication stays in the kicker. Only material date differences get a second date. */ -}}
+    {{- if and (not $page.Date.IsZero) (ge (sub $page.Lastmod.Unix $page.Date.Unix) 86400) }}
+    <span class="article-trust-strip__updated">
+        {{- if $page.Params.context }}<a href="#context-note">{{ end -}}
+        {{ T "trustUpdated" }} <time datetime="{{ $page.Lastmod.Format "2006-01-02" }}">{{ $page.Lastmod | time.Format (or $page.Site.Params.dateFormat.published "Jan 02, 2006") }}</time>
+        {{- if $page.Params.context }}</a>{{ end -}}
+    </span>
+    {{- end }}
+    {{- with $formatKey }}
+    <span class="article-trust-strip__format">{{ T . }}</span>
+    {{- end }}
+    {{ partial "disclosure.html" (dict "Context" $page "Variant" "post") }}
+</div>
+{{- end -}}

@@ -1,14 +1,7 @@
 {{ define "main" }}
     {{ $pag := partial "helper/paginator.html" . }}
 
-    {{- $heroClaim := .Params.heroClaim | default (T "homepageHero") -}}
-    {{- if $heroClaim }}
-    <header class="homepage-hero">
-        <h1 class="homepage-hero__claim">{{ $heroClaim }}</h1>
-    </header>
-    {{- end }}
-
-    {{ partial "projects-banner.html" (dict "Context" . "Variant" "home") }}
+    {{ partial "disclosure.html" (dict "Context" . "Variant" "home") }}
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}
@@ -17,7 +10,7 @@
     </section>
 
     {{- partial "pagination.html" . -}}
-    {{- partial "footer/footer" . -}}
+    {{- partialCached "footer/footer" . .Language.Lang -}}
 {{ end }}
 
 {{ define "right-sidebar" }}

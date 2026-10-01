@@ -4,6 +4,9 @@ projects:
     url: https://pharos.watch
     emblem: img/others/pharos.png
     emblem_webp: img/others/pharos.webp
+    role:
+      en: creator
+      fr: créateur
     tagline:
       en: Stablecoin analytics dashboard
       fr: Tableau de bord d'analyse des stablecoins
@@ -12,6 +15,9 @@ projects:
     url: https://polaris.finance
     emblem: img/others/polaris-emblem.png
     emblem_webp: img/others/polaris-emblem.webp
+    role:
+      en: original cofounder, now strategic advisor
+      fr: cofondateur historique, désormais conseiller stratégique
     tagline:
       en: Self-scaling stablecoin OS
       fr: OS stablecoin auto-évolutif

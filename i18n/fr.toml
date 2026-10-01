@@ -502,3 +502,120 @@ other = "Formats"
 
 [chromeBrowseProjects]
 other = "Projets de l’auteur"
+
+# --- J: post trust strip and project disclosure ---
+[trustByline]
+other = "Par {{ .Name }}"
+
+[trustUpdated]
+other = "Mis à jour le"
+
+[trustFormatAnalysis]
+other = "Analyse"
+
+[trustFormatThesis]
+other = "Thèse"
+
+[trustFormatPractical]
+other = "Pratique"
+
+[trustFormatTutorial]
+other = "Tutoriel"
+
+[disclosureBoth]
+other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille désormais. Je parle des deux ici ; à lire en connaissance de cause."
+
+[disclosurePharos]
+other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins). J’en parle ici ; à lire en connaissance de cause."
+
+[disclosurePolaris]
+other = "<strong>Transparence :</strong> j’ai cofondé {{ .Polaris }}, que je conseille désormais. J’en parle ici ; à lire en connaissance de cause."
+
+# --- K: context, notices and mobile contents ---
+[contextKindHistorical]
+other = "Contexte historique"
+
+[contextKindStatus]
+other = "Statut"
+
+[contextKindUpdate]
+other = "Mise à jour"
+
+[contextChecked]
+other = "vérifié en"
+
+[contextSource]
+other = "Source {{ .Number }}"
+
+[contextTakeaways]
+other = "À retenir"
+
+[contextNoticeNote]
+other = "Note"
+
+[contextNoticeTip]
+other = "Astuce"
+
+[contextNoticeInfo]
+other = "Info"
+
+[contextNoticeWarning]
+other = "Attention"
+
+[mobileTocContents]
+other = "Sommaire"
+
+# --- O: site search ---
+[searchHint]
+other = "Recherchez un article, un terme du glossaire ou un guide. Saisissez au moins deux caractères."
+
+[searchTypePost]
+other = "Article"
+
+[searchTypeTerm]
+other = "Terme"
+
+[searchTypeGuide]
+other = "Guide"
+
+[searchCountOne]
+other = "#COUNT résultat"
+
+[searchCountMany]
+other = "#COUNT résultats"
+
+[searchLoading]
+other = "Recherche en cours…"
+
+[searchUnavailable]
+other = "La recherche est indisponible pour le moment. Les liens ci-dessous permettent de continuer la lecture."
+
+[searchExamples]
+other = "Pour commencer"
+
+[searchExampleAPY]
+other = "APY"
+
+[searchExampleIL]
+other = "Perte impermanente"
+
+[searchExampleMap]
+other = "Carte des stablecoins"
+
+[searchExampleRisk]
+other = "Risque DeFi"
+
+[searchNoResults]
+other = "Aucun résultat pour cette recherche."
+
+[searchRecoveryHint]
+other = "Essayez le nom d’un protocole ou moins de mots. Ou explorez ces ressources."
+
+[searchLinkGlossary]
+other = "Glossaire"
+
+[searchLinkGuides]
+other = "Guides"
+
+[searchLinkArchives]
+other = "Archives"

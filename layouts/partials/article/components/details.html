@@ -124,4 +124,8 @@
             </div>
         </footer>
     {{ end }}
+
+    {{ if and (not $isSummary) (eq $context.Kind "page") (eq $context.Type "post") }}
+        {{ partial "article/components/trust-strip.html" $context }}
+    {{ end }}
 </div>

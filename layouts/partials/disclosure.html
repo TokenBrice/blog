@@ -1,0 +1,45 @@
+{{- /* Context is a Page; Variant is home or post. An explicit project list takes precedence. */ -}}
+{{- $page := .Context -}}
+{{- $variant := .Variant -}}
+{{- $ids := slice -}}
+{{- if and (eq $variant "home") $page.IsHome -}}
+    {{- $ids = slice "pharos" "polaris" -}}
+{{- else if and (eq $variant "post") (eq $page.Kind "page") (eq $page.Type "post") -}}
+    {{- $related := false -}}
+    {{- range $page.Params.categories -}}
+        {{- if eq (lower .) "projects" }}{{ $related = true }}{{ end -}}
+    {{- end -}}
+    {{- range $page.Params.tags -}}
+        {{- if in (slice "pharos" "polaris") (lower .) }}{{ $related = true }}{{ end -}}
+    {{- end -}}
+    {{- if $related }}{{ $ids = slice "pharos" "polaris" }}{{ end -}}
+    {{- with $page.Params.disclosure -}}
+        {{- $ids = slice -}}
+        {{- range . }}{{ $ids = $ids | append (lower .) }}{{ end -}}
+    {{- end -}}
+{{- end -}}
+{{- $links := dict -}}
+{{- range $page.Site.Data.projects.projects -}}
+    {{- if in $ids .id -}}
+        {{- $role := index .role $page.Language.Lang | default (index .role "en") -}}
+        {{- $emblem := "" -}}
+        {{- if eq $variant "home" -}}
+            {{- $emblem = partial "helper/picture.html" (dict "src" (printf "/%s" .emblem) "alt" "" "role" "thumb" "class" "disclosure__emblem" "sizes" "28px" "loading" "eager") -}}
+        {{- end -}}
+        {{- $link := printf "<a class=\"disclosure__project\" href=\"%s\" target=\"_blank\" rel=\"noopener\" title=\"%s\">%s<span>%s</span></a>" (htmlEscape .url) (htmlEscape $role) $emblem (htmlEscape .name) -}}
+        {{- $links = merge $links (dict .id $link) -}}
+    {{- end -}}
+{{- end -}}
+{{- $pharos := index $links "pharos" -}}
+{{- $polaris := index $links "polaris" -}}
+{{- if or $pharos $polaris }}
+<p class="disclosure disclosure--{{ $variant }}">
+    {{- if and $pharos $polaris -}}
+        {{ T "disclosureBoth" (dict "Pharos" $pharos "Polaris" $polaris) | safeHTML }}
+    {{- else if $pharos -}}
+        {{ T "disclosurePharos" (dict "Pharos" $pharos) | safeHTML }}
+    {{- else -}}
+        {{ T "disclosurePolaris" (dict "Polaris" $polaris) | safeHTML }}
+    {{- end -}}
+</p>
+{{- end -}}

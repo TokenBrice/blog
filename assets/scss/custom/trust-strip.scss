@@ -1,2 +1,65 @@
-/* trust-strip.scss: owned by the "J-trust-strip" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+.article-trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-4);
+    min-width: 0;
+    color: var(--ink-2);
+    font-family: var(--font-body);
+    font-size: var(--fs-meta);
+    line-height: 1.5;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+
+        &:hover {
+            text-decoration-color: var(--signal);
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--slate);
+            outline-offset: 3px;
+        }
+    }
+
+    &__byline {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        min-height: 32px;
+        color: var(--ink);
+
+        picture {
+            display: flex;
+            flex: 0 0 32px;
+        }
+    }
+
+    &__avatar {
+        display: block;
+        flex: 0 0 32px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__updated {
+        font-variant-numeric: tabular-nums;
+
+        a {
+            display: inline-block;
+            min-height: 24px;
+        }
+    }
+
+    &__format {
+        padding: var(--space-1) var(--space-2);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-chip);
+        font-size: var(--fs-micro);
+        font-weight: 600;
+    }
+}
