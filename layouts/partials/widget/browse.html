@@ -47,7 +47,7 @@
                             {{ if hasSuffix .Page.RelPermalink (printf "/%s/" $term) }}
                                 <li>
                                     <a href="{{ .Page.RelPermalink }}">
-                                        <span class="browse-list__name">{{ .Page.Title }}</span>
+                                        <span class="browse-list__name">{{ if in (slice "lending" "yield" "thesis") $term }}{{ T (printf "q2Browse%s" (title $term)) }}{{ else }}{{ .Page.Title }}{{ end }}</span>
                                         <span class="browse-list__count">{{ .Count }}</span>
                                     </a>
                                 </li>

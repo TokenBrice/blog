@@ -236,7 +236,7 @@
         gap: 8px;
         padding: 8px 16px;
         background: var(--card-background);
-        border-radius: 999px;
+        border-radius: var(--radius-chip);
         box-shadow: var(--shadow-l1);
         color: var(--card-text-color-main);
         font-size: 1.4rem;

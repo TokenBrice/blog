@@ -1,6 +1,7 @@
 {{ define "body-class" }}template-archives{{ end }}
 {{ define "main" }}
     <header>
+        <h1 class="archives-title">{{ .Title }}</h1>
         {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
         {{- $terms := $taxonomy.Pages -}}
         {{ if $terms }}

@@ -13,7 +13,7 @@
     {{- $terms := $glossaryData.terms -}}
     {{- $categories := index hugo.Data.glossary.categories $lang -}}
 
-    <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+    <article class="{{ if .Params.image }}has-image {{ end }}main-article glossary-index">
         <header class="article-header">
             <div class="article-details">
                 {{ with .Params.categories }}
@@ -62,6 +62,7 @@
                 </section>
                 {{- end }}
 
+                <div class="glossary-navigation">
                 <!-- Controls Bar: Search + Category Pills -->
                 <div class="glossary-controls" id="glossary-controls">
                     <div class="glossary-search-wrap">
@@ -93,6 +94,7 @@
                     {{- range $letters }}
                     <a class="alphabet-link" data-letter="{{ . }}" href="#letter-{{ . }}" aria-label="{{ printf (T "glossaryJumpToLetter") . }}">{{ . }}</a>
                     {{- end }}
+                </div>
                 </div>
 
                 <!-- Terms Display (server-rendered, compact cards) -->
@@ -152,6 +154,6 @@
 
 <!-- Glossary JavaScript (progressive enhancement for filtering) -->
 {{ $glossaryJS := resources.Get "js/glossary.js" | minify | fingerprint }}
-<script src="{{ $glossaryJS.Permalink }}" defer></script>
+<script src="{{ $glossaryJS.RelPermalink }}" integrity="{{ $glossaryJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
 
 {{ end }}

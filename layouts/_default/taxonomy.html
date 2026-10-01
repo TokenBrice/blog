@@ -101,7 +101,7 @@
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">{{ len .Pages }}</h3>
+                <p class="section-count">{{ if eq .Section "series" }}{{ T "q2ReadingPathCount" (len .Pages) }}{{ else }}{{ T "list.page" (len .Pages) }}{{ end }}</p>
                 <h1 class="section-term">{{ .Title }}</h1>
                 {{ with .Params.description }}
                     <h2 class="section-description">{{ . }}</h2>
@@ -114,7 +114,7 @@
         <section class="article-content taxonomy-content">
             {{ . }}
         </section>
-        <h2 class="taxonomy-list-title">{{ T "taxonomyAllArticles" }}</h2>
+        <h2 class="taxonomy-list-title">{{ if eq $.Section "series" }}{{ T "q2ReadingPaths" }}{{ else }}{{ T "taxonomyAllArticles" }}{{ end }}</h2>
     {{ end }}
 
     {{- $taxonomyName := .Data.Plural -}}

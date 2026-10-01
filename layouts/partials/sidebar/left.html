@@ -56,7 +56,7 @@
                         {{ with $icon }}
                             {{ partial "helper/icon" . }}
                         {{ end }}
-                        <span>{{- .Name -}}</span>
+                        <span>{{- if hasSuffix .URL "/shows/" -}}{{ T "menuShows" }}{{- else -}}{{ .Name }}{{- end -}}</span>
                     </a>
                 </li>
             {{ end }}

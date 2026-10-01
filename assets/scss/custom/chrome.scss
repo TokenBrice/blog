@@ -11,6 +11,28 @@
     }
 }
 
+#main-menu {
+    ol {
+        list-style: none;
+        padding-inline-start: 0;
+    }
+
+    li > a {
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    li > a > svg {
+        flex-shrink: 0;
+    }
+
+    li > a > span {
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+}
+
 #main-menu .menu-social {
     flex-wrap: wrap;
     gap: var(--space-2);
@@ -115,6 +137,12 @@
     font-size: var(--fs-micro);
     font-weight: 700;
     color: var(--ink-2);
+}
+
+.error-404 > ul a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
 }
 
 .error-404 .search-form {

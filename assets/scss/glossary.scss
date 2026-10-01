@@ -61,9 +61,9 @@ $glossary-faq-color: #8B5CF6;
     color: var(--accent-color);
 }
 
-.glossary-starthere-title {
+.article-content .glossary-starthere-title {
     font-family: var(--heading-font-family, "Fraunces", Georgia, serif);
-    font-size: 1.85rem;
+    font-size: var(--fs-h3);
     font-weight: 700;
     line-height: 1.25;
     letter-spacing: -0.005em;
@@ -71,7 +71,7 @@ $glossary-faq-color: #8B5CF6;
     margin: 0;
 }
 
-.glossary-starthere-list {
+.article-content .glossary-starthere-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -92,7 +92,7 @@ $glossary-faq-color: #8B5CF6;
     padding: 0;
 }
 
-.glossary-starthere-link {
+.article-content .glossary-starthere-link {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -100,6 +100,7 @@ $glossary-faq-color: #8B5CF6;
     border-radius: var(--radius-chip);
     text-decoration: none;
     color: inherit;
+    box-shadow: none;
     transition: background 0.15s ease, transform 0.15s ease;
 }
 
@@ -156,13 +157,22 @@ $glossary-faq-color: #8B5CF6;
 /* =============================================
    GLOSSARY CONTROLS BAR (Search + Pills)
    ============================================= */
-.glossary-controls {
+.main-article.glossary-index {
+    overflow: visible;
+}
+
+.glossary-navigation {
     position: sticky;
     top: 0;
     z-index: 20;
-    background: color-mix(in srgb, var(--card-background) 92%, transparent);
-    backdrop-filter: blur(12px) saturate(140%);
-    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    margin: 0 calc(-1 * var(--card-padding, 1.5rem)) 2rem;
+    padding: 0 var(--card-padding, 1.5rem) 0.8rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+}
+
+.glossary-controls {
+    background: var(--surface);
     padding: 1.25rem var(--card-padding, 1.5rem) 1rem;
     margin: 0 calc(-1 * var(--card-padding, 1.5rem));
     border-bottom: 1px solid var(--card-separator-color);
@@ -302,16 +312,13 @@ $glossary-faq-color: #8B5CF6;
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    margin: 1.25rem 0 2rem;
+    margin: 1.25rem 0 0;
     padding: 0.5rem 0.65rem;
     background: var(--card-background);
     border-radius: var(--radius-chip);
     border: 1px solid var(--card-separator-color);
     align-items: center;
     justify-content: center;
-    position: sticky;
-    top: 132px;
-    z-index: 15;
     box-shadow: var(--shadow-l1);
 }
 
@@ -375,7 +382,7 @@ $glossary-faq-color: #8B5CF6;
    ============================================= */
 .letter-section {
     margin-bottom: 3rem;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 28rem;
 }
 
 .article-content .letter-heading,
@@ -431,7 +438,7 @@ $glossary-faq-color: #8B5CF6;
     transition: border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
     box-shadow: none;
     position: relative;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 28rem;
 }
 
 .compact-card:hover {
@@ -994,6 +1001,10 @@ $glossary-faq-color: #8B5CF6;
    RESPONSIVE DESIGN
    ============================================= */
 @media (max-width: 768px) {
+    .letter-section,
+    .compact-card {
+        scroll-margin-top: 22rem;
+    }
     .glossary-controls {
         padding: 0.75rem 1rem;
         margin: 0 -1rem;
@@ -1106,10 +1117,6 @@ $glossary-faq-color: #8B5CF6;
 /* =============================================
    DARK MODE
    ============================================= */
-[data-scheme="dark"] .glossary-controls {
-    background: rgba(var(--body-background-rgb, 30,30,30), 0.85);
-}
-
 [data-scheme="dark"] .glossary-search {
     background: var(--card-background);
     border-color: var(--card-separator-color);
@@ -1203,3 +1210,8 @@ $glossary-faq-color: #8B5CF6;
 
 /* Glossary additions owned by the glossary work packages. */
 @import "glossary-extras";
+
+.glossary-index :is(a, button, input):focus-visible {
+    outline: 2px solid var(--slate);
+    outline-offset: 2px;
+}

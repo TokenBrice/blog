@@ -1,5 +1,5 @@
 <!-- Tabler Icons, MIT. Copyright (c) 2020 Paweł Kuna.
-Source: https://github.com/tabler/tabler-icons/blob/main/icons/outline/microphone-2.svg
+Source: https://github.com/tabler/tabler-icons/blob/main/icons/outline/microphone.svg
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -16,6 +16,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. -->
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microphone-2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <path d="M15 12.9a5 5 0 1 0 -3.902 -3.9" />
-  <path d="M15 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515" />
+  <path d="M9 5a3 3 0 0 1 6 0v7a3 3 0 0 1 -6 0z" />
+  <path d="M5 10v2a7 7 0 0 0 14 0v-2" />
+  <path d="M8 21h8m-4 -2v2" />
 </svg>

@@ -68,6 +68,8 @@
 
     &__text { grid-column: 3; min-width: 0; }
 
+    &__number + .reading-path__text { grid-column: 2 / -1; }
+
     &__title {
         display: block;
         font-family: var(--font-display);
@@ -138,9 +140,15 @@
 
 @media (max-width: 600px) {
     .article-content .reading-path {
-        &__link { grid-template-columns: 120px minmax(0, 1fr); gap: var(--space-3); }
+        &__link { grid-template-columns: 80px minmax(0, 1fr); gap: var(--space-3); }
         &__number { grid-column: 1 / -1; }
         &__text { grid-column: 2; }
+        &__number + .reading-path__text { grid-column: 1 / -1; }
+        &__thumb {
+            width: 80px;
+            height: 54px;
+            img { width: 80px; height: 54px; }
+        }
         &__note { margin-inline-start: 0; }
         &--tiles .reading-path__list { grid-template-columns: 1fr; }
     }

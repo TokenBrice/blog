@@ -73,7 +73,7 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .glossary-breadcrumb a:hover {
-    color: var(--term-accent);
+    color: var(--slate);
 }
 
 /* =============================================
@@ -261,7 +261,7 @@ $faq-tint: #7C3AED;
    ============================================= */
 .glossary-single-term .term-explainer-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     gap: 1rem;
 }
 
@@ -286,8 +286,8 @@ $faq-tint: #7C3AED;
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: color-mix(in srgb, var(--term-accent) 14%, transparent);
-    color: var(--term-accent);
+    background: var(--paper);
+    color: var(--ink-2);
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1;
@@ -386,7 +386,7 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .glossary-faq-detail summary:focus-visible {
-    box-shadow: 0 0 0 2px var(--term-accent) inset;
+    box-shadow: 0 0 0 2px var(--slate) inset;
     border-radius: 4px;
 }
 
@@ -415,7 +415,7 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .glossary-faq-detail[open] .faq-question-text {
-    color: var(--term-accent);
+    color: var(--ink);
 }
 
 .glossary-single-term .faq-answer-body p {
@@ -487,7 +487,7 @@ $faq-tint: #7C3AED;
 .glossary-single-term .related-article-card {
     background: var(--card-background);
     border: 1px solid var(--hairline);
-    border-radius: 12px;
+    border-radius: var(--radius-card);
     overflow: hidden;
     transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -546,7 +546,10 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .related-article-card:hover .related-article-title {
-    color: var(--term-accent);
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--signal);
+    text-underline-offset: 0.2em;
 }
 
 .glossary-single-term .related-article-preview {
@@ -558,6 +561,11 @@ $faq-tint: #7C3AED;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.glossary-single-term :is(a, summary):focus-visible {
+    outline: 2px solid var(--slate);
+    outline-offset: 2px;
 }
 
 /* =============================================
@@ -615,7 +623,7 @@ $faq-tint: #7C3AED;
 
 .glossary-single-term .prev-next-arrow {
     font-size: 1.4rem;
-    color: var(--link-accent);
+    color: var(--ink-2);
 }
 
 .glossary-single-term .prev-next-term {
@@ -627,7 +635,10 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .prev-next-cell a:hover .prev-next-term {
-    color: var(--link-accent);
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--signal);
+    text-underline-offset: 0.2em;
 }
 
 .glossary-single-term .glossary-index-link {
@@ -648,7 +659,7 @@ $faq-tint: #7C3AED;
 }
 
 .glossary-single-term .glossary-index-link a:hover {
-    color: var(--term-accent);
+    color: var(--slate);
     background: color-mix(in srgb, var(--term-accent) 8%, transparent);
 }
 
