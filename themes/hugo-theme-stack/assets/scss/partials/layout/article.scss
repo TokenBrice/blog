@@ -52,43 +52,6 @@
             }
         }
 
-        .article-footer {
-            margin: var(--card-padding);
-            margin-top: 0;
-
-            section:not(:first-child) {
-                margin-top: var(--card-padding);
-            }
-
-            section {
-                color: var(--card-text-color-tertiary);
-                display: flex;
-                align-items: center;
-                font-size: var(--fs-meta);
-                gap: 15px;
-
-                svg {
-                    width: 20px;
-                    height: 20px;
-                    stroke-width: 1.33;
-                }
-            }
-
-            .article-tags {
-                text-transform: unset;
-            }
-
-            .article-copyright,
-            .article-lastmod {
-                a {
-                    color: var(--body-text-color);
-                }
-
-                a.link {
-                    box-shadow: unset;
-                }
-            }
-        }
     }
 }
 
@@ -181,34 +144,6 @@
     }
 }
 
-.related-content {
-    overflow-x: auto;
-    padding-bottom: 15px;
-
-    & > .flex {
-        float: left;
-    }
-
-    article {
-        margin-right: 15px;
-        flex-shrink: 0;
-        overflow: hidden;
-        width: 250px;
-        height: 150px;
-
-        .article-title {
-            font-size: 1.8rem;
-            margin: 0;
-        }
-
-        &.has-image {
-            .article-details {
-                padding: 20px;
-                background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.75) 100%);
-            }
-        }
-    }
-}
 
 .article-content {
     font-family: var(--article-font-family);
@@ -325,6 +260,7 @@
         line-height: 1.428571429;
         word-break: break-all;
         padding: var(--card-padding);
+        font-size: var(--fs-meta);
         //  keep Codeblocks LTR
         [dir="rtl"] & {
             direction: ltr;
@@ -341,12 +277,8 @@
         background-color: var(--pre-background-color);
         padding: var(--card-padding);
         position: relative;
+        padding-top: calc(var(--card-padding) + 44px + var(--space-2));
 
-        &:hover {
-            .copyCodeButton {
-                opacity: 1;
-            }
-        }
         // keep Codeblocks LTR
         [dir="rtl"] & {
             direction: ltr;
@@ -366,13 +298,13 @@
         background: var(--card-background);
         border: none;
         box-shadow: var(--shadow-l2);
-        border-radius: var(--tag-border-radius);
-        padding: 8px 16px;
+        border-radius: var(--radius-chip);
+        min-height: 44px;
+        padding: var(--space-2) var(--space-4);
         color: var(--card-text-color-main);
         cursor: pointer;
         font-size: 14px;
-        opacity: 0;
-        transition: opacity 0.3s ease;
+        opacity: 1;
     }
 
     .table-wrapper {
@@ -396,6 +328,27 @@
         text-align: left;
         padding: 4px 8px 4px 10px;
         border: 1px solid var(--table-border-color);
+    }
+
+    table:not(.lntable) {
+        th,
+        td {
+            min-width: 12ch;
+        }
+
+        a {
+            word-break: normal;
+            overflow-wrap: normal;
+        }
+
+        img {
+            min-width: 80px;
+        }
+
+        &:has(img) td:nth-child(3),
+        &:has(img) td:last-child {
+            min-width: 24ch;
+        }
     }
 
     th {

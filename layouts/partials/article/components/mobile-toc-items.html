@@ -1,0 +1,10 @@
+{{- /* Hugo inserts untitled parents when the first heading skips a level. */ -}}
+{{- range . -}}
+    {{- if .Title -}}
+        <li><a href="#{{ .ID }}">{{ .Title | safeHTML }}</a>
+            {{- with .Headings }}<ul>{{ partial "article/components/mobile-toc-items.html" . }}</ul>{{ end -}}
+        </li>
+    {{- else -}}
+        {{- with .Headings }}{{ partial "article/components/mobile-toc-items.html" . }}{{ end -}}
+    {{- end -}}
+{{- end -}}

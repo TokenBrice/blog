@@ -12,7 +12,6 @@
 @import "custom/tokens";
 
 /* Import existing custom styles */
-@import "glossary-links";
 @import "breadcrumbs";
 
 /* Import new difficulty/expertise badges */
@@ -177,20 +176,10 @@
 }
 
 /* Category tag: 0.5s → 0.2s (0.5s feels sluggish) */
-.article-category a,
-.article-tags a,
-.article-tags span {
+.article-category a {
   transition: background-color 0.2s ease;
 }
 
-.article-tags span {
-  color: var(--accent-color-text);
-  background-color: var(--accent-color);
-  padding: 8px 16px;
-  border-radius: var(--tag-border-radius);
-  display: inline-block;
-  font-size: 1.4rem;
-}
 
 /* Social icons: add hover transition */
 .menu-social a {
@@ -284,6 +273,11 @@ footer.site-footer::before {
   font-size: 0.88em;
 }
 
+.article-content pre code {
+  padding: 0;
+  font-size: inherit;
+}
+
 /* Quotes are annotations, not striped callout cards. */
 .article-content blockquote {
   border: 0;
@@ -306,13 +300,6 @@ footer.site-footer::before {
   }
 }
 
-/* Copy code button: keyboard accessible */
-.article-content .copyCodeButton:focus-visible {
-  opacity: 1;
-  outline: 2px solid var(--accent-color);
-  outline-offset: 2px;
-}
-
 /* Selection color matches brand */
 ::selection {
   background-color: var(--accent-color);
@@ -324,8 +311,6 @@ footer.site-footer::before {
   .left-sidebar,
   .right-sidebar,
   .pagination,
-  .article-footer .article-tags,
-  .related-content,
   #toggle-menu {
     display: none !important;
   }
@@ -488,154 +473,6 @@ footer.site-footer::before {
     .reading-progress { transition: none; }
 }
 
-/* ============================================================
- * Article footer cards: series nav + glossary mentions
- * ============================================================ */
-.series-nav,
-.glossary-mentions {
-    margin-top: 2.5rem;
-    padding: 1.25rem 1.5rem;
-    background: var(--card-background);
-    border: 1px solid var(--card-separator-color);
-    border-radius: var(--card-border-radius, 6px);
-    box-shadow: var(--shadow-l1);
-
-    > h3 {
-        margin: 0 0 0.9rem;
-        font-family: var(--base-font-family);
-        font-size: var(--fs-micro);
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        font-weight: 700;
-        color: var(--accent-color);
-    }
-}
-
-/* Series navigation: counter-styled numbered list */
-.series-nav {
-    ol {
-        counter-reset: series-counter;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 0.55rem;
-    }
-
-    li {
-        counter-increment: series-counter;
-        display: flex;
-        align-items: baseline;
-        gap: 0.85rem;
-        line-height: 1.45;
-    }
-
-    li::before {
-        content: counter(series-counter);
-        flex-shrink: 0;
-        align-self: center;
-        min-width: 1.65rem;
-        height: 1.65rem;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.06);
-        color: var(--card-text-color-main);
-        border-radius: 50%;
-        font-size: var(--fs-micro);
-        font-weight: 700;
-        line-height: 1;
-    }
-
-    li a {
-        color: var(--card-text-color-main);
-        text-decoration: none;
-        border-bottom: 1px solid transparent;
-        transition: color 0.15s ease, border-color 0.15s ease;
-    }
-
-    li a:hover,
-    li a:focus-visible {
-        color: var(--accent-color);
-        border-bottom-color: var(--accent-color);
-    }
-
-    /* Current page: highlight badge + bold link */
-    li:has(> a[aria-current="page"])::before,
-    li[aria-current="page"]::before {
-        background: var(--accent-color);
-        color: var(--accent-color-text);
-    }
-
-    li a[aria-current="page"],
-    li[aria-current="page"] a {
-        font-weight: 700;
-        color: var(--accent-color);
-        cursor: default;
-        pointer-events: none;
-        border-bottom-color: transparent;
-    }
-}
-
-/* Glossary mentions: pill cluster */
-.glossary-mentions {
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.45rem;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    li a {
-        display: inline-block;
-        padding: 0.32rem 0.85rem;
-        background: rgba(0, 0, 0, 0.04);
-        border: 1px solid var(--card-separator-color);
-        border-radius: var(--radius-chip);
-        font-size: var(--fs-meta);
-        font-weight: 500;
-        text-decoration: none;
-        color: var(--card-text-color-main);
-        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-
-        &:hover,
-        &:focus-visible {
-            background: var(--accent-color);
-            border-color: var(--accent-color);
-            color: var(--accent-color-text);
-        }
-    }
-}
-
-/* Dark mode polish for both blocks */
-[data-scheme="dark"] {
-    .series-nav,
-    .glossary-mentions {
-        background: rgba(255, 255, 255, 0.025);
-        border-color: rgba(255, 255, 255, 0.08);
-        box-shadow: none;
-    }
-
-    .series-nav li::before {
-        background: rgba(255, 255, 255, 0.08);
-        color: #f3f4f6;
-    }
-
-    .series-nav li:has(> a[aria-current="page"])::before,
-    .series-nav li[aria-current="page"]::before {
-        background: var(--accent-color);
-        color: var(--accent-color-text);
-    }
-
-    .glossary-mentions li a {
-        background: rgba(255, 255, 255, 0.04);
-        border-color: rgba(255, 255, 255, 0.1);
-        color: #f3f4f6;
-    }
-}
 
 
 /* ============================================================

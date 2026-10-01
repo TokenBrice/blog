@@ -28,7 +28,7 @@
         {{- $raw = replaceRE "[^\\p{L}\\p{N}_]+" "  " $raw -}}
         {{- $topic := lower (printf "%s %s" .Title (delimit (.Params.tags | default (slice)) " ")) -}}
         {{- $stop := slice "defi" "ethereum" "bitcoin" "usd" "eth" "btc" "token" "tokens" "crypto" "web3" "blockchain" -}}
-        {{- $generic := slice "volume" "price" "interest" "returns" "value" "reward" "rewards" -}}
+        {{- $generic := slice "volume" "price" "interest" "returns" "value" "reward" "rewards" "gas" "wallet" "total-supply" "liquidity" "composability" "reserve" "options" -}}
         {{- $englishTerms := (index hugo.Data.glossary "en").terms -}}
         {{- range $glossary.terms -}}
             {{- $term := . -}}

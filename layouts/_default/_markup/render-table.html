@@ -1,5 +1,6 @@
 <div class="table-wrapper">
-<table
+{{/* The attribute keeps the theme's raw-HTML table fallback from wrapping this twice. */}}
+<table data-scroll-table
   {{- range $k, $v := .Attributes }}
     {{- if $v }}
       {{- printf " %s=%q" $k $v | safeHTMLAttr }}

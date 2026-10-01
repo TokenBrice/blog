@@ -1,6 +1,8 @@
 {{- if .Scratch.Get "TOCEnabled" -}}
 <details class="mobile-toc">
     <summary id="mobile-toc-summary">{{ T "mobileTocContents" }}</summary>
-    {{- replace .TableOfContents `id="TableOfContents"` `aria-labelledby="mobile-toc-summary"` | safeHTML }}
+    <nav aria-labelledby="mobile-toc-summary">
+        <ul>{{ partial "article/components/mobile-toc-items.html" .Fragments.Headings }}</ul>
+    </nav>
 </details>
 {{- end -}}
