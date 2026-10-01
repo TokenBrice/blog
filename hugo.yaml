@@ -29,16 +29,24 @@ languages:
         params:
             sidebar:
                 subtitle: Brutally Honest DeFi
+            dateFormat:
+                published: Jan 2, 2006
+                lastUpdated: Jan 2, 2006
     fr:
         label: Français
         title: "TokenBrice"
         weight: 2
         params:
             sidebar:
-                subtitle: Analyses DeFi
+                subtitle: La DeFi, sans détour.
+            dateFormat:
+                published: 2 Jan 2006
+                lastUpdated: 2 Jan 2006
 
 pagination:
     pagerSize: 10
+    # First-pager aliases (/page/1/) are pure duplicates of the list root.
+    disableAliases: true
 
 services:
     rss:
@@ -76,7 +84,7 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: false
+    rssFullContent: true
     author:
         name: TokenBrice
         email: tokenbrice@proton.me
@@ -87,11 +95,10 @@ params:
         customText:
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: Jan 2, 2006
+        lastUpdated: Jan 2, 2006
 
     sidebar:
-        emoji: 🐜
         subtitle: Brutally Honest DeFi
         avatar:
             enabled: true
@@ -156,17 +163,17 @@ menu:
           params:
               icon: brand-x
         - identifier: youtube
-          name: Youtube
+          name: YouTube
           url: https://youtube.com/@Token_Brice
           params:
               icon: brand-youtube
         - identifier: telegram
-          name: telegram
+          name: Telegram
           url: https://t.me/tokenbrice_news/
           params:
               icon: brand-telegram
         - identifier: farcaster
-          name: farcaster
+          name: Farcaster
           url: https://warpcast.com/tokenbrice
           params:
               icon: brand-farcaster
@@ -220,3 +227,13 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+# Expose static images to Hugo Pipes (OG cards, responsive variants) while
+# keeping them published as plain static files. Declaring any assets mount
+# replaces the default, so the project assets dir is re-declared first.
+module:
+    mounts:
+        - source: assets
+          target: assets
+        - source: static/img
+          target: assets/img
