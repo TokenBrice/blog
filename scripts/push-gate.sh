@@ -156,34 +156,6 @@ ensure_submodules_initialized() {
   fi
 }
 
-generate_missing_webp() {
-  require_cmd cwebp "Install WebP tools, for example: sudo apt-get install webp"
-
-  while IFS= read -r -d '' src; do
-    local webp="${src%.*}.webp"
-    if [[ ! -f "$webp" ]]; then
-      printf 'Generating %s\n' "$webp"
-      cwebp -quiet -q 80 "$src" -o "$webp"
-    fi
-  done < <(find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0)
-}
-
-generate_missing_avif() {
-  require_cmd avifenc "Install libavif tools, for example: sudo apt-get install libavif-bin"
-
-  local failed=0
-  while IFS= read -r -d '' src; do
-    local avif="${src%.*}.avif"
-    if [[ ! -f "$avif" ]]; then
-      if ! avifenc -q 52 --speed 6 "$src" "$avif" >/dev/null; then
-        printf 'AVIF generation failed: %s\n' "$src" >&2
-        failed=1
-      fi
-    fi
-  done < <(find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0)
-
-  return "$failed"
-}
 
 step "Checkout"
 verify_submodule_remote_refs
@@ -211,21 +183,21 @@ npm run validate:frontmatter
 step "Validate content safety"
 npm run validate:content
 
+step "Validate glossary"
+npm run validate:glossary
+
+step "Test validator regressions"
+npm run test:validators
+
 step "TypeScript typecheck"
 npm run typecheck
 
-step "Generate missing WebP images"
-generate_missing_webp
-
-step "Generate missing AVIF siblings"
-generate_missing_avif
-
-step "Verify ImageMagick and jq installed"
+step "Build modern images and dimensions"
+require_cmd cwebp "Install WebP tools, for example: sudo apt-get install webp"
+require_cmd avifenc "Install libavif tools, for example: sudo apt-get install libavif-bin"
 require_cmd identify "Install ImageMagick, for example: sudo apt-get install imagemagick"
 require_cmd jq "Install jq, for example: sudo apt-get install jq"
-
-step "Generate image dimensions manifest"
-bash scripts/gen-img-dims.sh
+bash scripts/build-images.sh
 
 step "Build with Hugo"
 if [[ -d public ]] && ! rm -rf public 2>/dev/null; then

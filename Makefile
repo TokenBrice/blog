@@ -8,9 +8,7 @@ help:
 	@echo "  typecheck   - TypeScript --noEmit"
 	@echo "  validate    - Validate post front-matter"
 	@echo "  verify      - Run validation, typecheck, build, and generated-site checks"
-	@echo "  webp        - Generate missing WebP siblings under static/img/"
-	@echo "  avif        - Generate missing AVIF siblings under static/img/"
-	@echo "  imgdims     - Refresh data/imageDims.json"
+	@echo "  webp/avif/imgdims - Refresh modern siblings and image dimensions"
 	@echo "  clean       - Remove build artifacts"
 
 setup:
@@ -38,21 +36,8 @@ validate-site:
 verify:
 	npm run verify
 
-webp:
-	@find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) | while read src; do \
-		out="$${src%.*}.webp"; \
-		[ -f "$$out" ] || cwebp -q 80 "$$src" -o "$$out"; \
-	done
-
-avif:
-	@find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0 | \
-		while IFS= read -r -d '' f; do \
-			out="$${f%.*}.avif"; \
-			[ -f "$$out" ] || avifenc --min 25 --max 35 --speed 6 "$$f" "$$out"; \
-		done
-
-imgdims:
-	bash scripts/gen-img-dims.sh
+webp avif imgdims:
+	bash scripts/build-images.sh
 
 clean:
 	rm -rf public resources/_gen .hugo_build.lock

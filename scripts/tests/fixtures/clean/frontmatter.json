@@ -1,0 +1,14 @@
+{
+  "title": "A clean fixture title",
+  "description": "This deterministic fixture covers the editorial schema without real content.",
+  "format": "analysis",
+  "noindex": false,
+  "context": { "kind": "status", "checked": "2020-01-01", "text": "Verified fixture context.", "sources": ["https://example.org/source"] },
+  "takeaways": ["First takeaway", "Second takeaway"],
+  "related_posts": ["/guide/"],
+  "glossary_terms": ["apy"],
+  "disclosure": ["pharos"],
+  "og_panel": false,
+  "imagePosition": "50% 20%",
+  "image_meta": { "/tiny.png": { "alt": "Tiny fixture", "caption": "A fixture." } }
+}

@@ -11,6 +11,8 @@
     "validate:frontmatter": "python3 scripts/validate-frontmatter.py",
     "validate:content": "python3 scripts/validate-content-safety.py",
     "validate:site": "python3 scripts/validate-site-output.py",
+    "validate:glossary": "python3 scripts/validate-glossary.py",
+    "test:validators": "python3 scripts/tests/run_validator_tests.py",
     "push-gate": "bash scripts/push-gate.sh",
     "verify": "npm run push-gate"
   },

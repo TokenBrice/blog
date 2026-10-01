@@ -35,13 +35,6 @@ function externalHost(href) {
   }
 }
 
-function searchLengthBucket(value) {
-  var length = value.trim().length;
-  if (length <= 10) return '1-10';
-  if (length <= 30) return '11-30';
-  if (length <= 60) return '31-60';
-  return '61+';
-}
 
 function closestAnchor(target) {
   while (target && target !== document) {
@@ -58,6 +51,13 @@ document.addEventListener('click', function (event) {
   var href = link.getAttribute('href') || '';
   var label = (link.textContent || '').trim().slice(0, 80);
 
+  var placement = link.getAttribute('data-placement');
+  var purpose = link.getAttribute('data-purpose');
+  if (['sidebar', 'post-end', 'subscribe', 'footer', 'home'].indexOf(placement) !== -1 &&
+      ['rss', 'announcements', 'follow', 'watch', 'contact'].indexOf(purpose) !== -1) {
+    trackSeoEvent('Distribution', purpose, placement);
+    return;
+  }
   if (href.indexOf('.xml') !== -1 || href.indexOf('/index.xml') !== -1) {
     trackSeoEvent('Distribution', 'RSS click', 'feed');
   } else if (/t\.me|x\.com|twitter\.com|warpcast\.com|youtube\.com|farcaster/i.test(href)) {
@@ -69,19 +69,19 @@ document.addEventListener('click', function (event) {
   }
 });
 
-document.addEventListener('submit', function (event) {
-  var form = event.target;
-  if (!form || !/search/i.test(form.getAttribute('action') || form.id || form.className || '')) return;
-  var input = form.querySelector('input[type="search"], input[name="keyword"], input[name="q"]');
-  if (input && input.value.trim()) {
-    trackSeoEvent('Search', 'Site search', searchLengthBucket(input.value));
-  }
+document.addEventListener('tb:search-settled', function (event) {
+  var detail = event.detail || {};
+  // Only the documented vocabulary is accepted, never raw input or result titles.
+  if (['1-10', '11-30', '31-60', '61+'].indexOf(detail.lengthBucket) === -1 ||
+      ['0', '1-5', '6-20', '21+'].indexOf(detail.resultBucket) === -1) return;
+  trackSeoEvent('Search', 'Site search', detail.lengthBucket + ' / ' + detail.resultBucket);
 });
 
 document.addEventListener('change', function (event) {
-  var input = event.target;
-  if (!input || input.tagName !== 'INPUT' || input.type !== 'search') return;
-  if (input.value.trim()) {
-    trackSeoEvent('Search', 'Site search', searchLengthBucket(input.value));
+  var select = event.target;
+  if (!select || select.tagName !== 'SELECT' || !select.closest('#i18n-switch')) return;
+  var option = select.options[select.selectedIndex];
+  if (option) {
+    trackSeoEvent('Navigation', 'Language switch', (option.label || option.textContent || '').trim());
   }
 });

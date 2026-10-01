@@ -32,33 +32,64 @@ make verify
 
 The verification path runs:
 
-- front matter validation
+- validator regression fixtures (synthetic sites, independent of `public/`)
+- bilingual glossary IDs, categories, references and URL validation
+- front matter validation, including context notes, takeaways, disclosures and image metadata
 - content safety validation for raw scripts/iframes and missing image alt text
 - TypeScript typechecking
+- modern image freshness and dimension generation
 - Hugo production build
-- generated-site local reference validation
+- generated-site references, sitemap/canonical/noindex consistency, reciprocal hreflang, breadcrumbs and OG image dimensions
 
 Individual commands are also available:
 
 ```sh
 make validate
+npm run validate:glossary
+npm run test:validators
 make validate-content
 make typecheck
 make build
 make validate-site
 ```
 
+Python validators need Python 3 and PyYAML (`python3 -m pip install PyYAML`).
+Title length remains a warning. Output validation accepts an explicit disposable build directory:
+`python3 scripts/validate-site-output.py /path/to/build`.
+
+The publishing workflow runs Lighthouse independently of deploy on the exact Pages artifact:
+three mobile samples per URL, median assertions and warn-only performance/byte budgets.
+Reports stay in the `lighthouse-reports` GitHub Actions artifact, not public temporary storage.
+Lighthouse failures never block deployment.
+
+IndexNow is also non-blocking. Before deployment, `scripts/indexnow.py prepare` fetches the
+live sitemap index and its children, then saves only new or `lastmod`-changed canonical URLs
+from the build. Alias and noindex pages are excluded. After a successful deployment,
+`scripts/indexnow.py submit indexnow-urls.json` verifies the live key and submits batches of
+at most 10,000 URLs. A failed live-sitemap fetch skips submission rather than treating the
+entire site as new; unchanged deployments send nothing. This does not replace Google
+Search Console or guarantee indexing. The key is published at
+`/69be76f58f52061d7a60b37f25278c4c.txt`.
+
+Inspect a diff without writing or submitting it:
+`python3 scripts/indexnow.py prepare --public public --dry-run`.
+Inspect an already prepared payload without network submission:
+`python3 scripts/indexnow.py submit indexnow-urls.json --dry-run`.
+
 ### Assets
 
-Static images live under `static/img`. When new static images are added, refresh derived assets and dimensions:
+Static images live under `static/img`. All three image targets use the same freshness-aware
+pipeline; run any one after adding or replacing a master:
 
 ```sh
-make webp
-make avif
-make imgdims
+bash scripts/build-images.sh
+# Equivalent: make webp, make avif, or make imgdims
 ```
 
-`data/imageDims.json` is used by render hooks to emit image dimensions and reduce layout shift.
+The script regenerates missing or stale WebP/AVIF siblings, then refreshes
+`data/imageDims.json` in a batched scan, including AVIF entries. It requires Python 3,
+ImageMagick, `cwebp` and `avifenc` (the encoders are used only for missing/stale siblings).
+The dimensions are used by render hooks to reduce layout shift.
 
 ### Search
 

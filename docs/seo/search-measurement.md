@@ -16,11 +16,38 @@ Review monthly, and after template or content-architecture releases.
 
 The local tracking script records:
 
-- `Search / Site search` for internal search terms.
-- `Distribution / RSS click` for feed links.
-- `Distribution / Social click` for Telegram, X/Twitter, Farcaster/Warpcast, and YouTube exits.
-- `Navigation / Language switch` for translation links.
-- `Content / Project click` for project-oriented pages.
+- `Search / Site search`: one event for each `tb:search-settled` update. The name is
+  `lengthBucket / resultBucket`, never the raw query, result title or URL. Length buckets
+  are `1-10`, `11-30`, `31-60`, `61+`; result buckets are `0`, `1-5`, `6-20`, `21+`.
+  Empty queries should not dispatch a settled event. There are no submit/change search
+  handlers, so a settled query is not counted again on blur or submission.
+- `Distribution / <purpose> / <placement>`: CTA hooks distinguish intent and location.
+  Purpose is `rss`, `announcements`, `follow`, `watch` or `contact`; placement is
+  `sidebar`, `post-end`, `subscribe`, `footer` or `home`. Annotated CTA clicks emit only
+  this event, not the fallback RSS/social event as well.
+- `Distribution / RSS click / feed`: unannotated feed links.
+- `Distribution / Social click / <host>`: unannotated Telegram, X/Twitter,
+  Farcaster/Warpcast and YouTube links. Hosts only, never clicked URL paths.
+- `Navigation / Language switch`: translation anchors and the language select in
+  `#i18n-switch`. Select changes use the target language's visible label as the name.
+- `Content / Project click / internal-project`: internal project-oriented pages.
+
+The client keeps Matomo cookieless. These events measure click/search intent, not
+completed subscriptions, platform follows, identifiable users or cross-platform funnels.
+Compare post-end versus sidebar intent and zero-result query buckets, rather than
+assuming a social exit was a successful subscription.
+
+## Bing and IndexNow
+
+- Verify Bing Webmaster ownership and submit `https://tokenbrice.xyz/sitemap.xml`.
+- The publishing workflow prepares a live-versus-built sitemap diff before deploy.
+  Only new canonical URLs or changed `lastmod` values qualify; aliases and noindex pages
+  are filtered out. No raw user data is involved.
+- A successful deployment triggers a non-blocking IndexNow submission after checking
+  the live verification key. Reports are in Actions logs; HTTP receipt is not indexing.
+- A failed live-sitemap fetch does not fall back to a full-site submission.
+- Continue the Search Console URL-inspection/export loop for Google: IndexNow is not
+  Google's indexing API and does not replace sitemaps or engine verification.
 
 ## Decisions
 

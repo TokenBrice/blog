@@ -1,16 +1,32 @@
-{{- if .IsTranslated -}}
+{{- /* Keep alternate targets aligned with the indexable sitemap collections.
+      The head caller also excludes computed noindex pages, including pagers. */ -}}
+{{- if and (not .Params.noindex) (not .Params.canonicalUrl) -}}
+{{- $eligible := slice -}}
 {{- range .AllTranslations -}}
+  {{- $isCuratedTerm := and (eq .Kind "term") (or
+    (eq .Section "categories")
+    (and (eq .Section "series") .Params.description)) -}}
+  {{- $isPublishedCollection := or .IsHome .IsPage
+    (and .IsSection (eq .Type "glossary")) $isCuratedTerm -}}
+  {{- if and
+    $isPublishedCollection
+    .Permalink
+    (not .Params.noindex)
+    (not .Params.canonicalUrl)
+    (or (not .IsPage) (ne .Params.hidden true))
+    (ne .Type "search")
+    (not (eq .RelPermalink "/search"))
+    (not (hasSuffix .RelPermalink "/search/"))
+    (not (strings.Contains .RelPermalink "/page/")) -}}
+    {{- $eligible = $eligible | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- range $eligible }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-{{- end -}}
-{{- range .AllTranslations -}}
-{{- if eq .Language.Lang "en" -}}
+{{- end }}
+{{- range $eligible -}}
+  {{- if eq .Language.Lang "en" }}
 <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
-{{- end -}}
-{{- end -}}
-{{- else -}}
-{{- /* For pages without translations, still indicate the current language */ -}}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
-{{- if eq .Language.Lang "en" -}}
-<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+  {{- end -}}
 {{- end -}}
 {{- end -}}

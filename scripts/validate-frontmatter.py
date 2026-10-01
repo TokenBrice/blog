@@ -9,10 +9,12 @@ Missing `image` is downgraded to a warning instead of a hard error,
 so cover-less posts don't break CI while still surfacing in logs.
 """
 import glob
+import json
 import os
 import re
 import sys
 from datetime import date, datetime
+from pathlib import Path
 from urllib.parse import urlparse
 
 import yaml
@@ -31,6 +33,20 @@ SLUG_SEGMENT_RE = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 errors = []
 warnings = []
 
+
+try:
+    glossary_data = json.loads(Path('data/glossary.json').read_text(encoding='utf-8'))
+    glossary_ids = {
+        lang: {term['id'] for term in data['terms']}
+        for lang, data in glossary_data.items()
+        if isinstance(data, dict) and 'terms' in data
+    }
+    project_data = yaml.safe_load(Path('data/projects.yaml').read_text(encoding='utf-8'))
+    project_ids = {project['id'] for project in project_data['projects']}
+except (OSError, ValueError, KeyError, TypeError) as exc:
+    errors.append(('data', f'cannot load schema IDs: {exc}'))
+    glossary_ids = {}
+    project_ids = set()
 
 def collect(pattern_dir):
     """Return all .md files under pattern_dir, deduped."""
@@ -133,6 +149,67 @@ def check_evergreen_freshness(path, fm, body):
         warnings.append((path, f'evergreen page lastmod is stale ({age} days old)'))
 
 
+def https_url(value):
+    return isinstance(value, str) and urlparse(value).scheme == 'https' and bool(urlparse(value).netloc)
+
+
+def site_path(value):
+    return isinstance(value, str) and value.startswith('/') and not value.startswith('//') and value.endswith('/') and not urlparse(value).query and not urlparse(value).fragment
+
+
+def check_optional_schema(path, fm):
+    def fail(message):
+        errors.append((path, message))
+
+    if 'format' in fm and fm['format'] not in ('analysis', 'thesis', 'practical', 'tutorial'):
+        fail('format must be analysis, thesis, practical or tutorial')
+    for field in ('noindex', 'og_panel'):
+        if field in fm and not isinstance(fm[field], bool):
+            fail(f'{field} must be bool')
+    if 'imagePosition' in fm and not isinstance(fm['imagePosition'], str):
+        fail('imagePosition must be a string')
+    if 'context' in fm:
+        context = fm['context']
+        if not isinstance(context, dict):
+            fail('context must be a mapping')
+        else:
+            if context.get('kind') not in ('historical', 'status', 'update'):
+                fail('context.kind must be historical, status or update')
+            checked = parsed_date(context.get('checked'))
+            if checked is None or checked > TODAY:
+                fail('context.checked must be a valid date not in the future')
+            text = context.get('text')
+            if not isinstance(text, str) or not text.strip() or len(text) > 400:
+                fail('context.text must be non-empty and at most 400 characters')
+            sources = context.get('sources')
+            if 'sources' in context and (not isinstance(sources, list) or not all(https_url(source) for source in sources)):
+                fail('context.sources must be a list of https URLs')
+            if context.get('kind') == 'status' and (not isinstance(sources, list) or not sources):
+                fail('context.sources is required and non-empty for status')
+    if 'takeaways' in fm:
+        value = fm['takeaways']
+        if not isinstance(value, list) or not 2 <= len(value) <= 3 or not all(isinstance(item, str) and item.strip() for item in value):
+            fail('takeaways must contain 2-3 non-empty strings')
+    if 'related_posts' in fm:
+        value = fm['related_posts']
+        if not isinstance(value, list) or len(value) > 2 or not all(site_path(item) for item in value):
+            fail('related_posts must contain at most 2 slash-delimited site paths')
+    language = 'fr' if path.endswith('.fr.md') or '/fr/' in path else 'en'
+    for field, allowed in (('glossary_terms', glossary_ids.get(language, set())), ('disclosure', project_ids)):
+        if field in fm:
+            value = fm[field]
+            if not isinstance(value, list) or not all(isinstance(item, str) and item in allowed for item in value):
+                fail(f'{field} must be a list of declared IDs ({language})')
+    if 'image_meta' in fm:
+        value = fm['image_meta']
+        if not isinstance(value, dict) or not all(
+            isinstance(src, str) and isinstance(meta, dict)
+            and all(key in ('alt', 'caption') and isinstance(text, str) for key, text in meta.items())
+            for src, meta in value.items()
+        ):
+            fail('image_meta must map string sources to optional alt/caption strings')
+
+
 def check(path, fm, required, soft=False):
     """Validate `fm`. When soft=True, missing required fields warn instead of error.
     The categories-must-be-list check stays a hard error in all modes."""
@@ -152,6 +229,7 @@ def check(path, fm, required, soft=False):
             errors.append((path, 'categories must be a list (use brackets)'))
     check_seo_lengths(path, fm)
     check_slug_normalization(path, fm)
+    check_optional_schema(path, fm)
 
 
 post_paths = collect('content/post')
@@ -166,8 +244,10 @@ for path in post_paths:
     if fm is None:
         continue
     check(path, fm, POST_REQUIRED)
-    check_series_order(path, fm)
-    check_legacy_post_alias(path, fm)
+    if isinstance(fm, dict):
+        check_series_order(path, fm)
+        check_legacy_post_alias(path, fm)
+
 
 for path in page_paths:
     try:
@@ -180,7 +260,8 @@ for path in page_paths:
     # Pages are softer: warn on missing fields rather than fail CI.
     # The structural categories check still fails hard if violated.
     check(path, fm, PAGE_REQUIRED, soft=True)
-    check_evergreen_freshness(path, fm, body)
+    if isinstance(fm, dict):
+        check_evergreen_freshness(path, fm, body)
 
 for p, w in warnings:
     print(f'WARN {p}: {w}')

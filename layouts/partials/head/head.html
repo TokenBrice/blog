@@ -59,7 +59,7 @@
 {{ partial "head/opengraph/include.html" . }}
 
 <!-- Hreflang for multilingual SEO -->
-{{- if not $isExternalCanonical -}}
+{{- if not $isNoIndex -}}
 {{- partial "head/hreflang.html" . -}}
 {{- end -}}
 

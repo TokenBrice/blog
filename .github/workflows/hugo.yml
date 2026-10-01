@@ -21,6 +21,8 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -49,69 +51,56 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
+      - name: Install Python validator dependency
+        run: python3 -m pip install PyYAML
+
       - name: Cache Hugo resources
         uses: actions/cache@v4
         with:
           path: |
             resources/_gen
-            ~/.cache/hugo_cache
+            ${{ runner.temp }}/hugo_cache
           key: hugo-${{ hashFiles('assets/**', 'themes/**', 'hugo.yaml') }}
           restore-keys: hugo-
 
-      - name: Validate post front-matter
-        run: npm run validate:frontmatter
-
-      - name: Validate content safety
-        run: npm run validate:content
+      - name: Validate source and validator regressions
+        run: |
+          npm run test:validators
+          npm run validate:glossary
+          npm run validate:frontmatter
+          npm run validate:content
 
       - name: TypeScript typecheck
         run: npm run typecheck
 
-      - name: Generate missing WebP images
-        run: |
-          sudo apt-get install -y -qq webp
-          find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) | while read src; do
-            webp="${src%.*}.webp"
-            if [ ! -f "$webp" ]; then
-              echo "Generating $webp"
-              cwebp -quiet -q 80 "$src" -o "$webp"
-            fi
-          done
+      - name: Install image tools
+        run: sudo apt-get update && sudo apt-get install -y -qq webp libavif-bin imagemagick jq
 
-      - name: Install AVIF encoder
-        run: sudo apt-get install -y libavif-bin || (sudo apt-get update && sudo apt-get install -y libavif-bin)
-
-      - name: Generate missing AVIF siblings
-        run: |
-          failed=0
-          while IFS= read -r -d '' f; do
-            out="${f%.*}.avif"
-            if [[ ! -f "$out" ]]; then
-              if ! avifenc -q 52 --speed 6 "$f" "$out" >/dev/null; then
-                echo "AVIF generation failed: $f"
-                failed=1
-              fi
-            fi
-          done < <(find static/img -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print0)
-          exit "$failed"
-
-      - name: Verify ImageMagick and jq installed
-        run: |
-          which identify || sudo apt-get install -y imagemagick || (sudo apt-get update && sudo apt-get install -y imagemagick)
-          which jq || sudo apt-get install -y jq || (sudo apt-get update && sudo apt-get install -y jq)
-
-      - name: Generate image dimensions manifest
-        run: bash scripts/gen-img-dims.sh
+      - name: Build modern images and dimensions
+        run: bash scripts/build-images.sh
 
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENV: production
           HUGO_ENVIRONMENT: production
         run: hugo --gc --minify --environment production
 
       - name: Validate generated site output
         run: npm run validate:site
+
+      - name: Prepare pre-deploy IndexNow diff
+        id: indexnow
+        continue-on-error: true
+        run: python3 scripts/indexnow.py prepare --public public --output indexnow-urls.json
+
+      - name: Upload IndexNow diff
+        if: steps.indexnow.outcome == 'success'
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-urls
+          path: indexnow-urls.json
+          retention-days: 7
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -128,3 +117,45 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  lighthouse:
+    needs: build
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Download production Pages artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: pages-artifact
+      - name: Extract static site
+        run: mkdir -p public && tar -xf pages-artifact/artifact.tar -C public
+      - name: Run three mobile Lighthouse samples per page
+        run: npx --yes --package=@lhci/cli@0.15.1 lhci autorun --config=.lighthouserc.json
+      - name: Retain Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: |
+            .lighthouseci
+            lighthouse-reports
+          include-hidden-files: true
+          retention-days: 30
+
+  indexnow:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download pre-deploy URL diff
+        uses: actions/download-artifact@v4
+        with:
+          name: indexnow-urls
+      - name: Submit changed canonical URLs after successful deploy
+        run: python3 scripts/indexnow.py submit indexnow-urls.json

@@ -1,0 +1,11 @@
+{
+  "en": { "terms": [
+    { "id": "apy", "term": "APY", "category": "yields", "related_terms": ["apr"], "aliases": ["/old-apy/"], "index": true, "related_articles": [{"url": "/guide/"}, {"url": "https://example.org/Guide"}] },
+    { "id": "apr", "term": "APR", "category": "yields", "related_terms": ["apy"] }
+  ] },
+  "fr": { "terms": [
+    { "id": "apy", "term": "APY", "category": "yields", "related_terms": ["apr"] },
+    { "id": "apr", "term": "APR", "category": "yields", "related_terms": ["apy"] }
+  ] },
+  "categories": { "en": [{"id": "yields"}], "fr": [{"id": "yields"}] }
+}
