@@ -416,3 +416,43 @@ other = "Ou cherche ce que tu voulais :"
 
 [paginationPage]
 other = "Page"
+
+# --- D1: technical SEO head ---
+[rssFeedTitle]
+other = "{{ .Title }} : flux RSS intégral"
+
+# --- H: category and series landing pages ---
+["list.page"]
+one = "{{ .Count }} article"
+other = "{{ .Count }} articles"
+
+[taxonomyAllArticles]
+other = "Tous les articles, du plus récent au plus ancien"
+
+# --- P: build-time Open Graph cards ---
+[ogEyebrow]
+other = "TokenBrice · La DeFi, sans détour."
+
+[ogGlossaryEyebrow]
+other = "Glossaire DeFi · TokenBrice"
+
+[ogReadingTime]
+one = "{{ .Count }} min de lecture"
+other = "{{ .Count }} min de lecture"
+
+[ogDateFormat]
+other = "2 Jan 2006"
+
+# --- B: images and code copy ---
+[codeCopy]
+other = "Copier"
+
+[codeCopied]
+other = "Copié !"
+
+[imageOpenFullSize]
+other = "Ouvrir l’image en taille réelle"
+
+# --- G1: glossary structure ---
+[glossaryRelatedGuides]
+other = "Guides associés"

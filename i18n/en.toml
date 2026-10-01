@@ -416,3 +416,43 @@ other = "Or search for what you wanted:"
 
 [paginationPage]
 other = "Page"
+
+# --- D1: technical SEO head ---
+[rssFeedTitle]
+other = "{{ .Title }}: full-content RSS feed"
+
+# --- H: category and series landing pages ---
+["list.page"]
+one = "{{ .Count }} post"
+other = "{{ .Count }} posts"
+
+[taxonomyAllArticles]
+other = "All articles, newest first"
+
+# --- P: build-time Open Graph cards ---
+[ogEyebrow]
+other = "TokenBrice · Brutally Honest DeFi"
+
+[ogGlossaryEyebrow]
+other = "DeFi Glossary · TokenBrice"
+
+[ogReadingTime]
+one = "{{ .Count }} min read"
+other = "{{ .Count }} min read"
+
+[ogDateFormat]
+other = "Jan 2, 2006"
+
+# --- B: images and code copy ---
+[codeCopy]
+other = "Copy"
+
+[codeCopied]
+other = "Copied!"
+
+[imageOpenFullSize]
+other = "Open full-size image"
+
+# --- G1: glossary structure ---
+[glossaryRelatedGuides]
+other = "Related guides"
