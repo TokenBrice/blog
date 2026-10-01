@@ -20,9 +20,12 @@
                 {{ partial "sidebar/left.html" . }}
             {{- end -}}
             {{- block "right-sidebar" . -}}{{ end }}
-            <main id="main-content" class="main full-width" tabindex="-1">
-                {{- block "main" . }}{{- end }}
-            </main>
+            <div class="main-column full-width">
+                <main id="main-content" class="main full-width" tabindex="-1">
+                    {{- block "main" . }}{{- end }}
+                </main>
+                {{ partialCached "footer/footer" . .Language.Lang }}
+            </div>
         </div>
         {{ partial "footer/include.html" . }}
     </body>

@@ -79,12 +79,31 @@
     border-radius: var(--radius-chip);
 }
 
-.site-footer {
+/* Keep main and the site landmark in the same responsive flex column. */
+.main-column {
+    order: -2;
+    min-width: 0;
+    max-width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--section-separation);
+}
+
+footer.site-footer {
     gap: var(--space-3);
     padding: var(--space-4) 0;
     border-top-color: var(--rule);
     color: var(--ink-2);
     font-size: var(--fs-meta);
+    line-height: 1.5;
+
+    &::before {
+        content: none;
+    }
+}
+
+.site-footer {
 
     &__brand {
         gap: var(--space-2);

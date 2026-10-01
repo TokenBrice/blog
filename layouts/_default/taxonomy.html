@@ -93,8 +93,6 @@
     </section>
 
     {{- partial "pagination.html" . -}}
-
-    {{ partialCached "footer/footer" . .Language.Lang }}
 {{- else -}}
     <header class="{{ $headerClass }}">
         <h3 class="section-title">{{ T "list.section" | default "Section" }}</h3>
@@ -132,8 +130,6 @@
             {{ end }}
         </ul>
     </section>
-
-    {{ partialCached "footer/footer" . .Language.Lang }}
 {{- end -}}
 {{ end }}
 
