@@ -1,6 +1,6 @@
 {{- $page := . -}}
 {{- if and (eq $page.Kind "page") (eq $page.Type "post") -}}
-{{- $author := $page.Site.Data.author -}}
+{{- $author := hugo.Data.author -}}
 {{- $about := $page.Site.GetPage "page/about" -}}
 {{- $formatKey := index (dict "analysis" "trustFormatAnalysis" "thesis" "trustFormatThesis" "practical" "trustFormatPractical" "tutorial" "trustFormatTutorial") ($page.Params.format | default "" | lower) -}}
 <div class="article-trust-strip">

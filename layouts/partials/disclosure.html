@@ -19,7 +19,7 @@
     {{- end -}}
 {{- end -}}
 {{- $links := dict -}}
-{{- range $page.Site.Data.projects.projects -}}
+{{- range hugo.Data.projects.projects -}}
     {{- if in $ids .id -}}
         {{- $role := index .role $page.Language.Lang | default (index .role "en") -}}
         {{- $emblem := "" -}}
