@@ -16,10 +16,11 @@ SCRIPTS = Path(__file__).resolve().parents[1]
 CLEAN = Path(__file__).resolve().parent / 'fixtures' / 'clean'
 
 
-def png():
+def png(width=1200, height=630):
     def chunk(kind, data):
         return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data))
-    return b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', 1, 1, 8, 2, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(b'\x00\x00\x00\x00')) + chunk(b'IEND', b'')
+    # Header-only raster fixture: the validator does not decode image pixels.
+    return b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', width, height, 8, 2, 0, 0, 0)) + chunk(b'IEND', b'')
 
 
 class ValidatorTests(unittest.TestCase):
@@ -125,18 +126,24 @@ class ValidatorTests(unittest.TestCase):
     def test_png_jpeg_webp_headers(self):
         # The validator deliberately reads headers rather than decoding pixels.
         headers = {
-            'jpg': b'\xff\xd8\xff\xe0\x00\x04xx\xff\xc0\x00\x0b\x08\x00\x01\x00\x01\x01\x01\x11\x00',
-            'webp-vp8x': b'RIFF' + struct.pack('<I', 22) + b'WEBPVP8X' + struct.pack('<I', 10) + bytes(10),
-            'webp-vp8': b'RIFF' + struct.pack('<I', 22) + b'WEBPVP8 ' + struct.pack('<I', 10) + b'\x00\x00\x00\x9d\x01\x2a\x01\x00\x01\x00',
-            'webp-vp8l': b'RIFF' + struct.pack('<I', 18) + b'WEBPVP8L' + struct.pack('<I', 5) + b'\x2f\x00\x00\x00\x00\x00',
+            'jpg': b'\xff\xd8\xff\xe0\x00\x04xx\xff\xc0\x00\x0b' + struct.pack('>BHH', 8, 630, 1200) + b'\x01\x01\x11\x00',
+            'webp-vp8x': b'RIFF' + struct.pack('<I', 22) + b'WEBPVP8X' + struct.pack('<I', 10) + bytes(4) + (1200 - 1).to_bytes(3, 'little') + (630 - 1).to_bytes(3, 'little'),
+            'webp-vp8': b'RIFF' + struct.pack('<I', 22) + b'WEBPVP8 ' + struct.pack('<I', 10) + b'\x00\x00\x00\x9d\x01\x2a' + struct.pack('<HH', 1200, 630),
+            'webp-vp8l': b'RIFF' + struct.pack('<I', 18) + b'WEBPVP8L' + struct.pack('<I', 5) + b'\x2f' + (((630 - 1) << 14) | (1200 - 1)).to_bytes(4, 'little') + b'\x00',
         }
         for kind, header in headers.items():
             with self.subTest(kind=kind):
                 (self.public / 'tiny.png').write_bytes(header)
                 self.run_validator('validate-site-output.py', self.public)
-                self.mutate_html('index.html', 'content="1"><meta property="og:image:height"', 'content="2"><meta property="og:image:height"')
+                self.mutate_html('index.html', 'og:image:width" content="1200"', 'og:image:width" content="1201"')
                 self.run_validator('validate-site-output.py', self.public, failure='og:image dimensions')
                 shutil.copyfile(CLEAN / 'public/index.html', self.public / 'index.html')
+
+    def test_indexable_og_card_size(self):
+        (self.public / 'tiny.png').write_bytes(png(1, 1))
+        self.mutate_html('index.html', 'og:image:width" content="1200"', 'og:image:width" content="1"')
+        self.mutate_html('index.html', 'og:image:height" content="630"', 'og:image:height" content="1"')
+        self.run_validator('validate-site-output.py', self.public, failure='og:image must be a generated 1200x630 card')
 
 
 SITE_DEFECTS = {
@@ -156,9 +163,9 @@ SITE_DEFECTS = {
     'breadcrumb_empty_item': ('index.html', '"item":"https://tokenbrice.xyz/"', '"item":""', 'BreadcrumbList non-terminal item'),
     'og_missing_file': ('index.html', '/tiny.png', '/absent.png', 'og:image is not an existing local file'),
     'og_external_file': ('index.html', 'https://tokenbrice.xyz/tiny.png', 'https://example.org/tiny.png', 'og:image is not an existing local file'),
-    'og_wrong_width': ('index.html', 'og:image:width" content="1"', 'og:image:width" content="2"', 'og:image dimensions'),
-    'og_wrong_height': ('index.html', 'og:image:height" content="1"', 'og:image:height" content="2"', 'og:image dimensions'),
-    'og_missing_dimensions': ('index.html', '<meta property="og:image:width" content="1">', '', 'og:image dimensions invalid'),
+    'og_wrong_width': ('index.html', 'og:image:width" content="1200"', 'og:image:width" content="1201"', 'og:image dimensions'),
+    'og_wrong_height': ('index.html', 'og:image:height" content="630"', 'og:image:height" content="631"', 'og:image dimensions'),
+    'og_missing_dimensions': ('index.html', '<meta property="og:image:width" content="1200">', '', 'og:image dimensions invalid'),
     'dev_artifact': ('index.html', '</body>', 'livereload.js</body>', 'dev-server artifact'),
 }
 
@@ -197,6 +204,8 @@ ValidatorTests.test_missing_canonical = canonical_missing
 ValidatorTests.test_pager_noindex_guard = pager_defect
 
 FM_DEFECTS = {
+    'title_too_long': ('title', 'x' * 71, 'title length 71 outside 5-70 chars'),
+    'title_too_short': ('title', 'x' * 4, 'title length 4 outside 5-70 chars'),
     'format': ('format', 'essay', 'format must be'),
     'noindex': ('noindex', 'true', 'noindex must be bool'),
     'context_mapping': ('context', 'note', 'context must be a mapping'),

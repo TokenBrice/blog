@@ -297,6 +297,8 @@ def validate(public):
                 declared = (int(parser.og.get("og:image:width", "")), int(parser.og.get("og:image:height", "")))
                 if declared != dimensions[image]:
                     errors.append(f"{rel}: og:image dimensions {declared} differ from {dimensions[image]}")
+                elif indexable and declared != (1200, 630):
+                    errors.append(f"{rel}: og:image must be a generated 1200x630 card, got {declared}")
             except (OSError, ValueError, struct.error) as exc:
                 errors.append(f"{rel}: og:image dimensions invalid: {exc}")
     return errors

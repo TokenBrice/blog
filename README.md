@@ -39,7 +39,7 @@ The verification path runs:
 - TypeScript typechecking
 - modern image freshness and dimension generation
 - Hugo production build
-- generated-site references, sitemap/canonical/noindex consistency, reciprocal hreflang, breadcrumbs and OG image dimensions
+- generated-site references, sitemap/canonical/noindex consistency, reciprocal hreflang, breadcrumbs and OG image dimensions (1200×630 cards for indexable pages)
 
 Individual commands are also available:
 
@@ -54,7 +54,7 @@ make validate-site
 ```
 
 Python validators need Python 3 and PyYAML (`python3 -m pip install PyYAML`).
-Title length remains a warning. Output validation accepts an explicit disposable build directory:
+Titles must be 5–70 characters. Output validation accepts an explicit disposable build directory:
 `python3 scripts/validate-site-output.py /path/to/build`.
 
 The publishing workflow runs Lighthouse independently of deploy on the exact Pages artifact:

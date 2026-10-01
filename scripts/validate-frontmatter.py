@@ -88,7 +88,7 @@ def check_seo_lengths(path, fm):
     title = scalar_text(fm.get('title'))
     description = scalar_text(fm.get('description'))
     if title and not TITLE_MIN <= len(title) <= TITLE_MAX:
-        warnings.append((path, f'title length {len(title)} outside {TITLE_MIN}-{TITLE_MAX} chars'))
+        errors.append((path, f'title length {len(title)} outside {TITLE_MIN}-{TITLE_MAX} chars'))
     if description and not DESCRIPTION_MIN <= len(description) <= DESCRIPTION_MAX:
         warnings.append((
             path,
