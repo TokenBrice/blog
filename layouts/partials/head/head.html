@@ -75,11 +75,11 @@
 {{- end -}}
 {{- end -}}
 
-{{- with .Site.Home.OutputFormats.Get "RSS" }}
+{{- with .Site.Home.OutputFormats.Get "rss" }}
     <link rel="alternate" type="application/rss+xml" title="{{ T "rssFeedTitle" (dict "Title" $.Site.Title) }}" href="{{ .Permalink | safeURL }}">
 {{- end }}
 {{- range .AlternativeOutputFormats -}}
-    {{- if ne .Name "RSS" }}
+    {{- if ne (lower .Name) "rss" }}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{- end }}
 {{- end -}}

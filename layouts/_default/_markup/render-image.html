@@ -17,6 +17,7 @@
     {{- $galleryImage = and (eq $image.ResourceType "image") (not (in (slice ".svg" ".avif") $ext)) -}}
 {{- end -}}
 {{- $inspectStatic := and (not $image) (hasPrefix $data.originalSrc "/") (not (hasPrefix $data.originalSrc "//")) (gt $data.width 0) (gt $data.height 0) -}}
+{{- if .IsBlock -}}
 <figure class="article-figure{{ if $galleryImage }} gallery-image{{ end }}">
     {{- if $galleryImage -}}
         {{/* Keep the full resource in src for PhotoSwipe; currentSrc uses the responsive WebP. */}}
@@ -34,3 +35,6 @@
         <a class="article-figure__fullsize" href="{{ $data.originalSrc | safeURL }}">{{ T "imageOpenFullSize" }}</a>
     {{- end }}
 </figure>
+{{- else -}}
+    {{- partial "helper/picture.html" (dict "src" $src "alt" $alt "role" "body" "sizes" "(max-width: 768px) 100vw, 720px" "imgAttrs" (dict "title" $caption)) -}}
+{{- end -}}

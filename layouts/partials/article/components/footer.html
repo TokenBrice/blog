@@ -1,10 +1,11 @@
 {{- $author := hugo.Data.author -}}
 {{- if and (eq .Type "post") $author }}
+{{- $about := .Site.GetPage "page/about" -}}
 <section class="colophon-author colophon-group" aria-label="{{ T "colophonAuthor" }}">
     <div class="colophon-author__identity">
-        <a href="{{ "about/" | relLangURL }}" class="colophon-author__avatar" data-placement="post-end" aria-label="{{ T "colophonAboutAuthor" (dict "Name" $author.name) }}">{{ partial "helper/picture.html" (dict "src" $author.avatar.src "alt" "" "role" "avatar" "sizes" "48px") }}</a>
+        <a href="{{ $about.RelPermalink }}" class="colophon-author__avatar" data-placement="post-end" aria-label="{{ T "colophonAboutAuthor" (dict "Name" $author.name) }}">{{ partial "helper/picture.html" (dict "src" $author.avatar.src "alt" "" "role" "avatar" "sizes" "48px") }}</a>
         <div>
-            <h2 class="colophon-author__name"><a href="{{ "about/" | relLangURL }}" data-placement="post-end">{{ $author.name }}</a></h2>
+            <h2 class="colophon-author__name"><a href="{{ $about.RelPermalink }}" data-placement="post-end">{{ $author.name }}</a></h2>
             <p class="colophon-author__bio">{{ index $author.bio .Language.Lang }}</p>
         </div>
     </div>

@@ -3,8 +3,8 @@
   - Post pages: BlogPosting
   - About page: ProfilePage
   - Other indexable pages: WebPage
-  - Home: WebSite + SearchAction (query param matches search input name="keyword")
-  Person @id is reused for author + ProfilePage.mainEntity.
+  - Home: WebSite + SearchAction (query param matches search input name="keyword") + Person
+  Person @id is reused for author + ProfilePage.mainEntity + Organization.founder.
 */ -}}
 
 {{- $siteRoot := strings.TrimSuffix "/" .Site.BaseURL -}}
@@ -183,6 +183,9 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+  {{ $person | jsonify | safeJS }},
+  {
   "@type": "WebSite",
   "@id": "{{ $websiteId }}",
   "name": "{{ .Site.Title | safeJS }}",
@@ -200,6 +203,8 @@
     },
     "query-input": "required name=search_term_string"
   }
+}
+  ]
 }
 </script>
 {{- end -}}
