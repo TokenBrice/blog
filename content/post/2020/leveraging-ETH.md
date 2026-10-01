@@ -1,8 +1,8 @@
 ---
 title: "🎚 ETH exposure or DeFi yields: why choose?"
-description: "A pratical perspetive looking at Maker as a solution to maintain an ETH exposure while providing extra capital to harness DeFi yields."
+description: "The Maker leverage strategy I executed in 2020: keeping ETH exposure while borrowing DAI for DeFi yield, with debt and liquidation risk to manage."
 date: '2020-08-03T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Lending, Maker, Leverage]
 toc: true
@@ -15,6 +15,12 @@ aliases:
   - posts/2020/leveraging-ETH
 format: practical
 og_panel: false
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This is the strategy I actually executed in August 2020, not today's leverage playbook. The zero borrowing fee, DAI premium, yields and tools describe that moment. Maker is now Sky. The debt and liquidation risks remain the part you should not skip."
+  sources:
+    - https://forum.sky.money/
 ---
 
 As the Ether giant seems to be waking up, you might be considering your **options to recenter your exposure on ETH**. This is precisely what I've been looking at and executed on lately, and now is the time for the feedback session!

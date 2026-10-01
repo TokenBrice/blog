@@ -1,8 +1,8 @@
 ---
-title: "Évaluer le risque des marchés monétaires DeFi"
-description: "Une grille pour évaluer le risque sur Aave, Compound ou Cream : oracles, paramètres de liquidation, collatéraux acceptés et modules d'assurance."
+title: "Prêt DeFi : la grille des risques à vérifier"
+description: "Collatéral, oracles, liquidations, contrôle admin et assurances : une grille de risque pour les marchés monétaires DeFi, pas un tampon sécurité."
 date: '2021-02-18T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Analysis, Lending]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Management, CREAM, DeFiScore, COMP, Oracles, Liquidation, Insurance, Safety Module]
 series: money-markets
@@ -16,6 +16,19 @@ aliases:
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
 format: analysis
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Publié en février 2021. La grille de risque reste le sujet ; plateformes, paramètres et incidents décrivent cette période. En octobre 2021, les marchés Ethereum V1 de Cream ont perdu environ 130 M$ lors d'une manipulation d'oracle. Un événement ultérieur, pas un incident déjà analysé dans cet article."
+  sources:
+    - https://medium.com/cream-finance/c-r-e-a-m-finance-post-mortem-flash-loan-exploit-oct-27-507b12bb6f8e
+image_meta:
+  "/img/2021/money-market-risks/cream.png":
+    alt: "Résumé des marchés Cream V1 avec 32,37 % des actifs déposés en FTT."
+    caption: "Concentration du collatéral en février 2021, distincte de l'exploit d'octobre."
+  "/img/2021/money-market-risks/defiprime-insurance.png":
+    alt: "Tableau comparant pools d'assurance, marchés prédictifs et dérivés financiers pour couvrir les risques DeFi."
+    caption: "Comparaison Defiprime de 2019 : distinguer les modèles de couverture ne garantit pas l'indemnisation."
 ---
 
 Les marchés monétaires sont au cœur de DeFi. D'un point de vue de haut niveau, oui, ils permettent simplement d'emprunter et de prêter divers actifs. Pourtant **ces fonctions sont comme les deux verbes primitifs de DeFi** à la base de presque tous les cas d'utilisation.

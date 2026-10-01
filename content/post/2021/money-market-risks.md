@@ -1,8 +1,8 @@
 ---
-title: "Assessing risk in decentralized finance: a handbook for money markets"
-description: "A practical framework for assessing DeFi money-market risks, with lessons that apply to protocol risk analysis more broadly."
+title: "DeFi Lending Risks: A Money-Market Checklist"
+description: "Assess DeFi lending risks: collateral, oracles, liquidation rules, admin control and insurance assumptions. A framework, not a safety stamp."
 date: '2021-02-18T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Analysis, Lending]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, Risk Management, CREAM, DeFiScore, COMP, Oracles, Liquidation, Insurance, Safety Module]
 series: money-markets
@@ -16,6 +16,19 @@ aliases:
 image: /img/2021/risk-tranching/cover.gif
 difficulty: "expert"
 format: analysis
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "Published in February 2021. The risk framework remains the point; named platforms, parameters and incident assessments describe that period. In October 2021, Cream's Ethereum V1 markets lost about $130M to an oracle manipulation exploit. A later event, not an incident this article had already analyzed."
+  sources:
+    - https://medium.com/cream-finance/c-r-e-a-m-finance-post-mortem-flash-loan-exploit-oct-27-507b12bb6f8e
+image_meta:
+  "/img/2021/money-market-risks/cream.png":
+    alt: "Cream V1 market summary with FTT representing 32.37% of supplied assets."
+    caption: "February 2021 collateral concentration snapshot, distinct from the later October exploit."
+  "/img/2021/money-market-risks/defiprime-insurance.png":
+    alt: "Comparison table of insurance pools, prediction markets and financial derivatives for DeFi risk coverage."
+    caption: "Defiprime's 2019 comparison distinguishes coverage models; it is not a guarantee that claims will be paid."
 ---
 
 Money markets are at the heart of DeFi. From a high-level perspective, yes, they simply enable the borrowing and lending of various assets. Yet **those functions are like the two primitive verbs of DeFi** at the base of pretty much all use cases.

@@ -2,7 +2,7 @@
 title: "Fixed Interest Rate Protocols Explained With APWine"
 description: "How fixed interest rate protocols work: splitting a yield-bearing token into principal and future yield, how APWine and 88mph differ, and who needs them."
 date: '2021-02-11T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, APWineFi, 88mph, Fixed Interest Rate Protocol, FIRP]
 difficulty: "intermediate"
@@ -13,6 +13,12 @@ aliases:
   - p/fixed-interest-rate-protocol-firp-apwine
   - posts/2021/firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This article studies APWine's early 2021 design and launch plans. APWine has since migrated to Spectra, and its V1 pools are discontinued. Keep the yield-tokenization reasoning, not the old deposit instructions."
+  sources:
+    - https://v1.spectra.finance/
 ---
 
 Yields are like fine wines, the secret lies in the brewing process. As DeFi is developing faster than ever, with now more than $ 50 billion of total value locked across all protocols, **the yield offering is diversifying**.

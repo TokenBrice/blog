@@ -2,7 +2,7 @@
 title: "Garder son exposition ETH tout en investissant en DeFi"
 description: "Comment emprunter des DAI contre son ETH sur Maker pour rester exposé à l'ETH tout en le faisant travailler en DeFi, et comment gérer la liquidation."
 date: '2020-08-03T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Practical, Lending]
 tags: [DeFi, Ethereum, Lending, Maker, Leverage]
 toc: true
@@ -15,6 +15,12 @@ aliases:
   - posts/2020/leveraging-eth
   - posts/2020/leveraging-ETH
 format: practical
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "C'est la stratégie que j'ai réellement exécutée en août 2020, pas un mode d'emploi du levier aujourd'hui. Frais d'emprunt nuls, prime du DAI, rendements et outils décrivent ce moment. Maker s'appelle désormais Sky. La dette et le risque de liquidation restent la partie à ne pas sauter."
+  sources:
+    - https://forum.sky.money/
 ---
 
 Alors qu'Ether le géant semble se réveiller, vous envisagez peut-être vos **options pour recentrer votre exposition sur l'ETH**. C'est précisément ce que j'ai examiné et exécuté ces derniers temps, et c'est le moment de partager mes retours et conseils !

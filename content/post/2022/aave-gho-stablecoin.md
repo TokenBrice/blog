@@ -1,8 +1,8 @@
 ---
-title: "Can Aave's GHO stablecoin help the protocol further grow and overtake MakerDAO and DAI?"
-description: "Looking at GHO's design and anticipating its key challenges to grow as well as the value it can deliver to the Aave DAO."
+title: "Aave's GHO: Can a Native Stablecoin Challenge DAI?"
+description: "A pre-launch 2022 thesis on Aave's GHO: borrowing costs, DAO revenue, collateral trade-offs and the liquidity needed to challenge DAI."
 date: '2022-08-22T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, Interest Rate]
 series: stablecoin-arc
@@ -15,6 +15,13 @@ aliases:
   - posts/2022/aave-gho-stablecoin
 image: /img/2022/aave-gho-stablecoin/aave-gho-stablecoin-cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "I wrote this thesis in August 2022, before GHO launched on Ethereum in July 2023. The design expectations and revenue scenarios are pre-launch reasoning, not a report on what shipped. MakerDAO, used here as the DAI comparison, is now Sky."
+  sources:
+    - https://governance-v2.aave.com/governance/proposal/268
+    - https://forum.sky.money/
 ---
 
 A few weeks ago, the concept for the GHO stablecoin was introduced on the Aave Governance Forum and triggered a wave of excitement across DeFi. Indeed, the idea of a decentralized, collateral-backed stablecoin, pegged to USD and native to the Aave DAO makes a lot of sense as a next step for the protocol.

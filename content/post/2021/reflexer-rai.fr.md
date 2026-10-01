@@ -1,8 +1,8 @@
 ---
-title: "RAI de Reflexer : le stablecoin sans peg, expliqué"
-description: "Comment fonctionne le RAI de Reflexer : actif stable adossé à l'ETH, sans peg au dollar, prix de rachat flottant, dé-gouvernance et zéro USDC en collatéral."
+title: "RAI de Reflexer : un actif stable sans peg au dollar"
+description: "RAI de Reflexer : collatéral ETH, prix de rédemption flottant et aucun peg au dollar. Les mécanismes, compromis et limites de la gouvernance."
 date: '2021-09-01T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -13,6 +13,36 @@ aliases:
   - posts/2021/reflexer-rai
 image: /img/2021/reflexer-rai/cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "J'ai écrit cet article en 2021. Incitations, migrations LP, intégrations et parts de collatéral décrivent cette période, pas les opportunités de farming du jour. Reflexer présente toujours RAI comme un actif stable sans peg. Maker, abordé ici à travers DAI, s'appelle désormais Sky."
+  sources:
+    - https://www.reflexer.finance/
+    - https://forum.sky.money/
+takeaways:
+  - "RAI utilise l'ETH comme collatéral sans indexer son prix sur le dollar."
+  - "Le régulateur ajuste le taux de rédemption pour modifier les incitations, pas directement le prix de marché."
+  - "Les intégrations de rendement empilent les risques ; la décentralisation commence par le collatéral."
+image_meta:
+  "/img/2021/reflexer-rai/dai-collateral.png":
+    alt: "Répartition du collatéral de Maker et des DAI émis, avec une forte part liée à l'USDC."
+    caption: "Instantané de septembre 2021 du collatéral du DAI, pas sa répartition actuelle."
+  "/img/2021/reflexer-rai/frax-collateral.png":
+    alt: "Collatéral de Frax réparti entre USDC, stratégies de rendement sur l'USDC et part algorithmique."
+    caption: "La comparaison de 2021 inclut l'exposition à l'USDC via des stratégies de rendement."
+  "/img/2021/reflexer-rai/theorie-du-controle.png":
+    alt: "Boucle de rétroaction reliant une consigne, un régulateur, un système et un capteur."
+    caption: "Le régulateur réagit à l'écart entre la consigne et la sortie mesurée."
+  "/img/2021/reflexer-rai/marchesupredemption.PNG":
+    alt: "Scénario RAI avec un prix de marché supérieur au prix de rédemption et un taux de rédemption négatif."
+    caption: "Scénario illustratif : un taux négatif abaisse le prix de rédemption et modifie les incitations à emprunter."
+  "/img/2021/reflexer-rai/marcheinfredemption.png":
+    alt: "Scénario RAI avec un prix de marché inférieur au prix de rédemption et un taux de rédemption positif."
+    caption: "Scénario illustratif : un taux positif relève le prix de rédemption et incite à rembourser la dette."
+  "/img/2021/reflexer-rai/fuse-rai.png":
+    alt: "Tableau de trois pools Fuse contenant du RAI, avec montants déposés et empruntés."
+    caption: "Intégrations de prêt du RAI en 2021 ; soldes et scores de risque sont historiques."
 ---
 
 RAI est une drôle de bête : un actif stable adossé à l'ETH, sans peg au dollar, dont la compréhension ou l'intérêt échappe encore à de nombreuses personnes, y compris des gens vraiment calés en DeFi. Il était donc temps de vous proposer un article assez exhaustif dédié à son sujet. J'y ai inclus tout ce que j'estimais pertinent pour comprendre pourquoi un actif comme RAI est nécessaire, ce qu'il apporte et comment il fonctionne.

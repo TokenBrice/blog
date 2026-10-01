@@ -2,7 +2,7 @@
 title: "Liquity: Governance-Free Borrowing on ETH, Explained"
 description: "How Liquity works: ETH-backed loans with no recurring interest, the LUSD stablecoin, the Stability Pool, and why no governance makes it unstoppable."
 date: '2021-12-02T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
@@ -13,6 +13,37 @@ aliases:
   - posts/2021/liquity-protocol
 difficulty: "intermediate"
 og_panel: false
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This 2021 article covers Liquity V1 and LUSD, not Liquity V2 and BOLD. V1 is immutable and remains available. The integrations, yields and comparisons below describe 2021; don't read them as today's market."
+  sources:
+    - https://www.liquity.org/liquity-v1
+image_meta:
+  "/img/2021/liquity-protocol/trove.png":
+    alt: "Liquity Trove example with 50 ETH collateral, 120,000 LUSD borrowed and a 180.3% collateral ratio."
+    caption: "A 2021 V1 interface example showing the borrowing fee and liquidation reserve."
+  "/img/2021/liquity-protocol/lqty-staking-returns.png":
+    alt: "Monthly LQTY staking income from issuance and redemption fees in 2021."
+    caption: "Historical fee income on Dune, not a forecast of staking returns."
+  "/img/2021/liquity-protocol/lusd-price.png":
+    alt: "LUSD price chart fluctuating around one dollar, with short deviations above and below."
+    caption: "The 90-day price snapshot used in this December 2021 analysis."
+  "/img/2021/liquity-protocol/recovery-mode.png":
+    alt: "Liquity interface showing normal mode above 150% total collateral and recovery mode below it."
+    caption: "Recovery Mode depends on the system-wide collateral ratio, not just your own Trove."
+  "/img/2021/liquity-protocol/pickle-lusd.png":
+    alt: "Pickle's B.Protocol LUSD vault displaying LQTY rewards, liquidation yield and deposited assets."
+    caption: "A 2021 integration snapshot; the displayed yields are not current deposit terms."
+  "/img/2021/liquity-protocol/visor-uni-lqty.png":
+    alt: "Visor LQTY-ETH liquidity dashboard showing price ranges, managed capital and generated fees."
+    caption: "A 2021 snapshot of managed Uniswap V3 liquidity, not a current yield quote."
+  "/img/2021/liquity-protocol/olympus-lusd.png":
+    alt: "Stacked chart of Olympus treasury assets from April to November 2021, including LUSD."
+    caption: "Dune treasury composition illustrates Olympus's LUSD holdings at the time."
+  "/img/2021/liquity-protocol/lusd-holders.png":
+    alt: "Etherscan table of the fifteen largest LUSD holders, with the Liquity Stability Pool first."
+    caption: "Holder distribution captured for this 2021 analysis, not today's ranking."
 ---
 
 

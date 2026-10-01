@@ -1,6 +1,6 @@
 ---
-title: "Est-ce une Renaissance du Lending ?"
-description: "Tour des nouveaux modèles de prêt DeFi, des CDP aux money markets, et des protocoles qui cherchent à fusionner les deux."
+title: "Prêt DeFi : la renaissance des protocoles"
+description: "Morpho, Fluid, DYAD et les nouveaux modèles de prêt DeFi : une analyse de 2024 des CDP, money markets et compromis de conception."
 date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
 tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
@@ -10,6 +10,24 @@ aliases:
   - posts/2024/lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
+lastmod: 2026-10-01
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Ce tour des modèles de prêt date de juillet 2024. BOLD (Liquity V2) et Euler V2 ont été lancés depuis : les annonces au futur décrivent cette époque. L'enjeu reste de comparer les mécanismes et leurs compromis, pas de présenter chaque projet cité comme une opportunité actuelle."
+  sources:
+    - https://www.liquity.org/bold
+    - https://www.euler.finance/blog/euler-v2-is-live
+image_meta:
+  "img/2024/lending-protocol-renaissance/2-dyad-defillama.png":
+    alt: "Graphique DefiLlama de la TVL de DYAD atteignant environ 3,5 millions de dollars en juillet 2024."
+    caption: "Instantané de TVL de l'analyse de juillet 2024, pas une mesure actuelle du marché de DYAD."
+  "img/2024/lending-protocol-renaissance/3-bold-stability.png":
+    alt: "Boucles BOLD reliant écarts de prix, risque de rédemption, taux des emprunteurs et rendement du Stability Pool."
+    caption: "Mécanisme de taux et de rédemption étudié avant le lancement de Liquity V2."
+  "img/2024/lending-protocol-renaissance/4-twTAP.png":
+    alt: "Parcours Tapioca du verrouillage des TAP au NFT twTAP, aux revenus du protocole, aux votes et aux gauges."
+    caption: "Design de verrouillage et de gouvernance présenté en 2024, pas une recommandation de dépôt actuelle."
 ---
 
 Au cours des derniers mois, nous avons vu une avalanche de protocoles de prêt novateurs et excitants arriver sur le marché, tels que Morpho, DYAD, Fluid ou Tapioca ; encore plus sont attendus dans les mois à venir, comme Liquity V2 (Bold) ou Euler V2. Tous sont innovants, dans l'arène, essayant des choses au point que je me demande si nous ne vivons pas une renaissance des protocoles de prêt après quelques années à ressasser les mêmes concepts.

@@ -1,8 +1,8 @@
 ---
-title: "🍷 En oenologie comme en DeFi, la patience paye : introduction aux FIRps avec APWine.FI"
-description: "Une introduction aux protocoles de fixation de rendements (FIRP) au travers du prisme d'APWine pour mieux comprendre ce qu'ils permettent de faire et apportent à DeFi"
+title: "APWine : comprendre les protocoles à rendement fixe"
+description: "Comment APWine tokenise le rendement futur, ce qui le distingue de 88mph et les compromis des protocoles à rendement fixe. Une analyse de 2021."
 date: '2021-02-11T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, DEX, Money Markets, Aave, Compound, APWineFi, 88mph, Fixed Interest Rate Protocol, FIRP]
 toc: true
@@ -13,6 +13,12 @@ aliases:
   - posts/2021/firp-apwine
 image: /img/2021/firp-apwine/pac-man.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Cet article étudie le design d'APWine et ses projets de lancement début 2021. APWine a depuis migré vers Spectra et ses pools V1 sont arrêtés. Gardez le raisonnement sur la tokenisation du rendement, pas les anciennes instructions de dépôt."
+  sources:
+    - https://v1.spectra.finance/
 ---
 
 

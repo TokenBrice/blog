@@ -1,6 +1,6 @@
 ---
-title: "Pharos : suivi du peg et des risques des stablecoins"
-description: "Pharos (pharos.watch) suit 156 stablecoins : monitoring du peg, scores de sécurité, liquidité DEX et alertes de depeg. Gratuit, open source, sans compte."
+title: "Pharos : suivi du peg et du risque stablecoin"
+description: "Suivez le peg, les risques et la liquidité DEX des stablecoins avec Pharos. Gratuit, open source, sans compte ni bullshit."
 date: '2026-03-12T01:13:50.191Z'
 categories: [Projects]
 tags: [DeFi, Stablecoins, Analytics, Public Good, Open Source]

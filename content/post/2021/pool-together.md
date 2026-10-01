@@ -1,8 +1,8 @@
 ---
-title: "PoolTogether: How the No-Loss Lottery Actually Works"
-description: "How PoolTogether's no-loss lottery works: your deposit stays yours, the pooled yield becomes the prize, and why that beats the classic lottery."
+title: "PoolTogether: Prize Savings, Not Zero Risk"
+description: "How PoolTogether turns pooled yield into prizes while keeping deposits withdrawable. No-loss lottery design does not mean no DeFi risk."
 date: '2021-12-20T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -14,6 +14,36 @@ aliases:
 difficulty: "beginner"
 related_posts: ["/defi-beyond-finance/", "/money-markets-risk/"]
 og_panel: false
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This 2021 article explains PoolTogether V3 and V4; the current version is V5. No-loss describes the prize design, not zero risk: smart-contract or yield-source failures can still cost you your deposit. Read the current docs before putting funds in."
+  sources:
+    - https://dev.pooltogether.com/protocol/design/
+    - https://docs.pooltogether.com/security/risks
+takeaways:
+  - "PoolTogether funds prizes with pooled yield rather than spending players' deposits."
+  - "V4's Tsunami model tackles the fragmented prizes of the V3 cross-chain rollout."
+  - "More small prizes and compounding winnings aim to make long-term saving more engaging."
+image_meta:
+  "/img/2021/pool-together/evolution-2007-2017.png":
+    alt: "French gambling trends from 2007 to 2017: wagers rise while the player base and points of sale decline."
+    caption: "Historical comparison indexed to 100 in 2007; it does not measure PoolTogether."
+  "/img/2021/pool-together/addictions.png":
+    alt: "French public-health table comparing gambling-risk categories by sex and age in 2014 and 2019."
+    caption: "The table cited for gambling harm uses 2014 and 2019 survey data."
+  "/img/2021/pool-together/prize-breakdown-old.png":
+    alt: "Old PoolTogether V4 prize tiers: one $2,500 prize, 43 $100 prizes and 683 $10 prizes."
+    caption: "The initial V4 prize distribution used for the 2021 comparison."
+  "/img/2021/pool-together/winning.png":
+    alt: "PoolTogether claim screen listing eight 10 PTaUSDC wins for a total of 80 PTaUSDC."
+    caption: "My two-week 2021 result with roughly 5,000 deposited; an example, not a promised return."
+  "/img/2021/pool-together/prize-breakdown.png":
+    alt: "Revised PoolTogether V4 prize tiers, ranging from one $2,500 prize to 3,072 $1 prizes."
+    caption: "The revised 2021 structure spreads winnings across more small prizes."
+  "/img/2021/pool-together/comparaison.png":
+    alt: "Illustration contrasting a savings account's small steady return with PoolTogether's small and occasional large prizes."
+    caption: "A comparison of reward profiles, not a claim that DeFi deposits have bank-account safety."
 ---
 
 [PoolTogether](https://www.defiscan.info/protocols/pool-together-v5/ethereum) is a no-loss lottery: deposits are pooled and put to work in DeFi, the yield they generate funds the prize, and every player keeps their capital.

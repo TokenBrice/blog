@@ -1,8 +1,8 @@
 ---
 title: "La carte du Maraudeur des Stablecoins"
-description: "Carte des mecanismes de stablecoins: AMO, PSM, DSR, pegKeepers et criteres pour evaluer leur pertinence et leurs risques."
+description: "Carte des mécanismes de stablecoins : AMO, PSM, DSR, pegKeepers et critères pour évaluer leur pertinence et leurs risques."
 date: '2023-09-15T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, fETH, xETH, Interest Rate]
 series: stablecoin-arc
@@ -13,6 +13,12 @@ aliases:
   - posts/2023/stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 difficulty: "beginner"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Cette carte a été dessinée en septembre 2023. Prix, supply, rendements, liquidité et projets de lancement sont des instantanés de cette période, pas des opportunités du jour. MakerDAO s'appelle désormais Sky ; je garde les noms historiques pour préserver le contexte des mécanismes et arguments."
+  sources:
+    - https://forum.sky.money/
 ---
 
 De nouveaux Stablecoins plus ou moins décentralisés émergent chaque jour, et avec la multiplication des modèles dont ils s’inspirent, des blockchains et des couches (layers 2), la tendance n'est pas prête de s'arrêter. **Naviguer dans le paysage des Stablecoins devient une compétence essentielle en DeFi**.

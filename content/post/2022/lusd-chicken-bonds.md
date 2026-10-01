@@ -1,8 +1,8 @@
 ---
-title: "LUSD Chicken Bonds: How Liquity's NFT Bonds Work"
-description: "How LUSD Chicken Bonds work: principal-protected bonding with no maturity, dynamic NFTs, and why Liquity built them to deepen LUSD liquidity."
+title: "LUSD Chicken Bonds: Liquity's Bonding Model"
+description: "How LUSD Chicken Bonds turn bonding into bLUSD yield and protocol liquidity. A 2022 mechanism study; check current status before depositing."
 date: '2022-10-17T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin, Yield]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Liquity, LUSD, Chicken Bonds, NFT, NFTfi]
 series: stablecoin-arc
@@ -15,6 +15,36 @@ aliases:
   - posts/2022/lusd-chicken-bonds
 image: /img/2022/lusd-chicken-bonds/lusd-chicken-bonds-cover-tokenbrice.png
 difficulty: "beginner"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "This is an October 2022 mechanism study, written during the Chicken Bonds bootstrap. Prices, yields, integrations and launch plans belong to that period. I'm preserving the design analysis, not offering a current deposit guide."
+takeaways:
+  - "Chicken Out returns the bonded LUSD; Chicken In trades it for accrued bLUSD."
+  - "Yield from the Pending and Permanent buckets flows to the Reserve, amplifying bLUSD's backing."
+  - "The Permanent bucket and bLUSD pool structure aim to grow LUSD liquidity and contain its premium."
+image_meta:
+  "/img/2022/lusd-chicken-bonds/lusd-peg-incentives.png":
+    alt: "LUSD peg diagram linking redemptions below one dollar and collateralized borrowing above $1.10."
+    caption: "Hard bounds and softer borrowing incentives work together around LUSD's dollar peg."
+  "/img/2022/lusd-chicken-bonds/user-flow-overview.png":
+    alt: "Chicken Bonds flow from a LUSD deposit to Chicken In for bLUSD or Chicken Out for returned LUSD."
+    caption: "The depositor chooses between accrued bLUSD and recovering the original LUSD."
+  "/img/2022/lusd-chicken-bonds/3buckets.png":
+    alt: "Three Chicken Bonds buckets: Pending user bonds, Reserve backing bLUSD and Permanent protocol liquidity."
+    caption: "Yield from Pending and Permanent feeds the Reserve backing bLUSD."
+  "/img/2022/lusd-chicken-bonds/lusd-cb-user-timeline.png":
+    alt: "Timeline from bond creation through break-even to claiming bLUSD, with Chicken Out available before claiming."
+    caption: "The 2022 design separates a refundable pending bond from the final Chicken In choice."
+  "/img/2022/lusd-chicken-bonds/bbaUSD-pool-composition.png":
+    alt: "Balancer boosted stablecoin pool composition, splitting USDT, USDC and DAI between idle tokens and Aave deposits."
+    caption: "An example of the boosted-pool structure discussed in the 2022 launch plans."
+  "/img/2022/lusd-chicken-bonds/lusd-aave-market.png":
+    alt: "Aave LUSD market dashboard showing supply, borrowing, utilization and a supply-rate chart."
+    caption: "The October 2022 LUSD lending snapshot, not today's Aave rates."
+  "/img/2022/lusd-chicken-bonds/lusd-velodrome.png":
+    alt: "Velodrome table of LUSD trading pools with USDC, DAI, MAI and FRAX, showing liquidity and APR."
+    caption: "LUSD liquidity on Optimism in 2022; balances and APRs are historical."
 ---
 
 Liquity recently released the LUSD Chicken Bonds, a **game-theory experiment merging DeFi and NFT elements to grow LUSD’s liquidity and reduce its price premium**.

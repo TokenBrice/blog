@@ -2,7 +2,7 @@
 title: "The Maurauder's Map of Decentralized Stablecoins"
 description: "A map of stablecoin mechanisms including AMOs, PSMs, DSR, pegKeepers, and how to judge their relevance and risks."
 date: '2023-09-15T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin]
 tags: [DeFi, Ethereum, Stablecoins, Stable Assets, Money Markets, Aave, GHO, crvUSD, LUSD, fETH, xETH, Interest Rate]
 series: stablecoin-arc
@@ -13,6 +13,12 @@ aliases:
   - posts/2023/stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 difficulty: "beginner"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This map was drawn in September 2023. Prices, supply, yields, liquidity and launch plans are period snapshots, not live opportunities. MakerDAO is now Sky; I keep the historical names so the mechanisms and arguments remain readable in their original context."
+  sources:
+    - https://forum.sky.money/
 ---
 
 Wild new Stablecoins are constantly appearing, and with the multiplication of chains, layers, and viable stablecoin models the trend is not stopping anytime soon. **Navigating the stablecoin landscape is turning into a critical skill for DeFi**.

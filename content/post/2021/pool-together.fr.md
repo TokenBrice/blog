@@ -1,8 +1,8 @@
 ---
-title: "PoolTogether : comment marche la loterie sans perte"
-description: "Comment fonctionne la loterie sans perte de PoolTogether : votre dépôt reste à vous, le rendement mutualisé forme le lot, et pourquoi c'est moins prédateur."
+title: "PoolTogether : des lots, pas du zéro risque"
+description: "PoolTogether transforme le rendement mutualisé en lots et garde les dépôts retirables. Une loterie sans perte ne supprime pas le risque DeFi."
 date: '2021-12-20T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Yield]
 tags: [DeFi, Ethereum, POOL, PoolTogether, Lottery, money games]
 toc: true
@@ -14,6 +14,36 @@ aliases:
 image: /img/2021/pool-together/cover.png
 difficulty: "beginner"
 related_posts: ["/defi-beyond-finance/", "/money-markets-risk/"]
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Cet article de 2021 explique PoolTogether V3 et V4 ; la version actuelle est V5. « Sans perte » décrit le mécanisme des lots, pas l'absence de risque : une défaillance des contrats ou de la source de rendement peut coûter votre dépôt. Lisez la documentation actuelle avant de déposer."
+  sources:
+    - https://dev.pooltogether.com/protocol/design/
+    - https://docs.pooltogether.com/security/risks
+takeaways:
+  - "PoolTogether finance les lots avec le rendement mutualisé, plutôt qu'en dépensant les dépôts des joueurs."
+  - "Le modèle Tsunami de V4 répond à la fragmentation des lots du déploiement cross-chain de V3."
+  - "Plus de petits lots et des gains composés visent à rendre l'épargne à long terme plus engageante."
+image_meta:
+  "/img/2021/pool-together/evolution-2007-2017.png":
+    alt: "Évolution des jeux d'argent de 2007 à 2017 : hausse des mises, baisse du bassin de joueurs et des points de vente."
+    caption: "Comparaison historique en base 100 en 2007 ; elle ne mesure pas PoolTogether."
+  "/img/2021/pool-together/addictions.png":
+    alt: "Tableau de santé publique comparant les niveaux de risque liés au jeu selon le sexe et l'âge en 2014 et 2019."
+    caption: "Les données citées sur les dommages du jeu proviennent des enquêtes de 2014 et 2019."
+  "/img/2021/pool-together/prize-breakdown-old.png":
+    alt: "Anciens lots PoolTogether V4 : un lot de 2 500 $, 43 lots de 100 $ et 683 lots de 10 $."
+    caption: "Répartition initiale des lots V4 utilisée dans la comparaison de 2021."
+  "/img/2021/pool-together/winning.png":
+    alt: "Écran de claim PoolTogether listant huit gains de 10 PTaUSDC, soit 80 PTaUSDC au total."
+    caption: "Mon résultat sur deux semaines en 2021 avec environ 5 000 déposés, pas un rendement promis."
+  "/img/2021/pool-together/prize-breakdown.png":
+    alt: "Lots PoolTogether V4 révisés, d'un lot de 2 500 $ à 3 072 lots de 1 $."
+    caption: "La structure révisée de 2021 répartit les gains entre davantage de petits lots."
+  "/img/2021/pool-together/comparaison.png":
+    alt: "Illustration comparant le petit rendement régulier d'un compte d'épargne aux petits lots et gros lots occasionnels de PoolTogether."
+    caption: "Comparaison des récompenses, pas une équivalence entre sécurité des dépôts DeFi et bancaires."
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: "RAI Explained: Reflexer's Non-Pegged Stable Asset"
-description: "How Reflexer's RAI works: an ETH-backed stable asset with no dollar peg, a floating redemption price, de-governance, and zero USDC in its collateral."
+title: "Reflexer RAI: A Stable Asset With No Dollar Peg"
+description: "How Reflexer RAI uses ETH collateral and a floating redemption price instead of a dollar peg. The mechanics, trade-offs and governance limits."
 date: '2021-09-17T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Reflexer, RAI, Maker, Liquity]
 toc: true
@@ -13,6 +13,36 @@ aliases:
   - posts/2021/reflexer-rai
 image: /img/2021/reflexer-rai/cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "I wrote this in 2021. Incentives, LP migrations, integrations and collateral shares are snapshots, not current farming advice. Reflexer still presents RAI as a non-pegged stable asset. Maker, discussed here through DAI, is now Sky."
+  sources:
+    - https://www.reflexer.finance/
+    - https://forum.sky.money/
+takeaways:
+  - "RAI uses ETH collateral without tying its price to the dollar."
+  - "The controller adjusts the redemption rate to change incentives, not the market price directly."
+  - "Yield integrations stack risks on top of Reflexer; decentralization starts with the collateral."
+image_meta:
+  "/img/2021/reflexer-rai/dai-collateral.png":
+    alt: "Pie charts of Maker collateral and DAI generated, with USDC dominating DAI issuance."
+    caption: "September 2021 snapshot of DAI's collateral mix, not today's distribution."
+  "/img/2021/reflexer-rai/frax-collateral.png":
+    alt: "Frax backing split between USDC, yield-bearing USDC strategies and an algorithmic component."
+    caption: "The 2021 FRAX comparison includes USDC exposure held through yield strategies."
+  "/img/2021/reflexer-rai/control-theory.png":
+    alt: "Feedback loop connecting a reference, controller, system and sensor."
+    caption: "The controller reacts to the gap between the target and the measured output."
+  "/img/2021/reflexer-rai/marchesupredemption-en.PNG":
+    alt: "RAI repricing scenario with market price above redemption price and a negative redemption rate."
+    caption: "Illustrative scenario: negative redemption rates lower the redemption price and change borrowing incentives."
+  "/img/2021/reflexer-rai/marcheinfredemption-en.png":
+    alt: "RAI repricing scenario with market price below redemption price and a positive redemption rate."
+    caption: "Illustrative scenario: positive redemption rates raise the redemption price and encourage debt repayment."
+  "/img/2021/reflexer-rai/fuse-rai.png":
+    alt: "Fuse table of three pools containing RAI, showing supplied and borrowed amounts."
+    caption: "RAI lending integrations available in 2021; balances and risk scores are historical."
 ---
 
 RAI is a strange beast: an ETH-backed stable asset with no dollar peg, which many people still don't understand or care about, including people who are really knowledgeable about DeFi. So it was time to offer you a rather exhaustive article dedicated to its subject. I've included everything I thought was relevant to understand why an asset like RAI is needed, what it does and how it works.

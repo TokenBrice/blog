@@ -1,8 +1,8 @@
 ---
 title: "Liquity : l'emprunt sans gouvernance sur ETH, expliqué"
-description: "Comment fonctionne Liquity : prêts en ETH sans intérêts récurrents, stablecoin LUSD, Stability Pool, et pourquoi l'absence de gouvernance le rend inarrêtable."
+description: "Liquity V1 : prêts en ETH sans intérêts récurrents, stablecoin LUSD, Stability Pool et ce que l'absence de gouvernance change pour les emprunteurs."
 date: '2021-11-30T01:13:50.191Z'
-lastmod: 2026-05-19
+lastmod: 2026-10-01
 categories: [Stablecoin, Lending]
 tags: [DeFi, Ethereum, Stablecoins, Liquity, LUSD, LQTY]
 toc: true
@@ -13,6 +13,37 @@ aliases:
   - posts/2021/liquity-protocol
 image: /img/2021/liquity-protocol/cover.png
 difficulty: "intermediate"
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "Cet article de 2021 porte sur Liquity V1 et LUSD, pas sur Liquity V2 et BOLD. V1 est immuable et reste accessible. Les intégrations, rendements et comparaisons ci-dessous décrivent 2021, pas le marché du jour."
+  sources:
+    - https://www.liquity.org/liquity-v1
+image_meta:
+  "/img/2021/liquity-protocol/trove.png":
+    alt: "Exemple de Trove avec 50 ETH de collatéral, 120 000 LUSD empruntés et un ratio de collatéral de 180,3 %."
+    caption: "Interface V1 de 2021 montrant les frais d'emprunt et la réserve de liquidation."
+  "/img/2021/liquity-protocol/lqty-staking-returns.png":
+    alt: "Revenus mensuels du staking LQTY issus des frais d'émission et de rédemption en 2021."
+    caption: "Revenus historiques sur Dune, pas une prévision du rendement du staking."
+  "/img/2021/liquity-protocol/lusd-price.png":
+    alt: "Prix du LUSD autour d'un dollar, avec de brefs écarts au-dessus et en dessous."
+    caption: "Instantané des prix sur 90 jours utilisé dans cette analyse de 2021."
+  "/img/2021/liquity-protocol/recovery-mode.png":
+    alt: "Interface Liquity affichant le mode normal au-dessus de 150 % de collatéral total et le Recovery Mode en dessous."
+    caption: "Le Recovery Mode dépend du ratio de collatéral global, pas seulement de votre Trove."
+  "/img/2021/liquity-protocol/pickle-lusd.png":
+    alt: "Vault LUSD B.Protocol de Pickle affichant les récompenses LQTY, le rendement des liquidations et les dépôts."
+    caption: "Intégration de 2021 ; les rendements affichés ne sont pas les conditions de dépôt actuelles."
+  "/img/2021/liquity-protocol/visor-uni-lqty.png":
+    alt: "Tableau Visor LQTY-ETH montrant les plages de prix, le capital géré et les frais générés."
+    caption: "Instantané de la liquidité gérée sur Uniswap V3 en 2021, pas un rendement actuel."
+  "/img/2021/liquity-protocol/olympus-lusd.png":
+    alt: "Graphique empilé des actifs de la trésorerie Olympus d'avril à novembre 2021, dont le LUSD."
+    caption: "La composition sur Dune illustre les avoirs en LUSD d'Olympus à cette époque."
+  "/img/2021/liquity-protocol/lusd-holders.png":
+    alt: "Tableau Etherscan des quinze plus gros détenteurs de LUSD, avec le Stability Pool de Liquity en tête."
+    caption: "Répartition des détenteurs capturée pour cette analyse de 2021, pas le classement actuel."
 ---
 
 [Liquity](https://www.defiscan.info/protocols/liquity/ethereum) est un protocole encore unique en son genre : il permet l'emprunt sur ETH et le mint d'un stablecoin (LUSD) sans pour autant nécessiter de gouvernance ce qui le rend "inarrêtable".

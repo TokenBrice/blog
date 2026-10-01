@@ -1,6 +1,6 @@
 ---
 title: "Is this a Lending Protocol Renaissance?"
-description: "New models are being explored both for CDP protocols and money markets, and some protocols are even merging the two into one: is this a lending protocol renaissance?"
+description: "A 2024 tour of DeFi lending designs: CDPs, money markets, user-set rates and protocols trying to merge the models. Innovations and their trade-offs."
 date: '2024-07-01T01:13:50.191Z'
 categories: [Lending]
 tags: [DeFi, Ethereum, Stablecoins, Money Markets, Liquity, Tapioca, Dyad, BOLD, LUSD, LQTY, Aave, Morpho, Interest Rate]
@@ -10,6 +10,24 @@ aliases:
   - posts/2024/lending-protocol-renaissance
 image: img/2024/lending-protocol-renaissance/0-lending-protocol-renaissance-cover.png
 difficulty: "intermediate"
+lastmod: 2026-10-01
+context:
+  kind: status
+  checked: 2026-10-01
+  text: "This is a July 2024 tour of lending designs. BOLD (Liquity V2) and Euler V2 have since launched, so the upcoming-launch language belongs to that date. The point is to compare mechanisms and their trade-offs, not to present every project mentioned as a current opportunity."
+  sources:
+    - https://www.liquity.org/bold
+    - https://www.euler.finance/blog/euler-v2-is-live
+image_meta:
+  "img/2024/lending-protocol-renaissance/2-dyad-defillama.png":
+    alt: "DefiLlama chart of DYAD's total value locked rising to about $3.5 million by July 2024."
+    caption: "TVL snapshot from the July 2024 analysis, not a current measure of DYAD's market."
+  "img/2024/lending-protocol-renaissance/3-bold-stability.png":
+    alt: "BOLD feedback loops linking price deviations, redemption risk, borrower rates and Stability Pool yield."
+    caption: "The proposed rate-and-redemption mechanism discussed before Liquity V2 launched."
+  "img/2024/lending-protocol-renaissance/4-twTAP.png":
+    alt: "Tapioca flow from locking TAP to a twTAP NFT, protocol revenue, governance votes and gauges."
+    caption: "The lock-and-governance design presented in 2024, not a current deposit recommendation."
 ---
 
 In the last few months, we’ve seen a flurry of novel and exciting lending protocols come to market, such as Morpho, DYAD, Fluid, or Tapioca; even more are expected in the coming months, such as Liquity V2 (Bold) or Euler V2. All are innovative, in the arena, trying things to the point that I wonder if we’re not experiencing a lending protocol renaissance after a few years of rehashing the same concepts.
