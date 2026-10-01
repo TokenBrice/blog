@@ -140,6 +140,29 @@
 	}
 	</script>
 	{{- else if not (or (eq .Type "search") (hasPrefix .RelPermalink "/search/") (hasPrefix .RelPermalink "/fr/search/")) -}}
+	{{- if .Params.reading_path -}}
+	  {{- $rows := partialCached "reading-path.html" . .RelPermalink .Language.Lang -}}
+	  {{- $items := slice -}}
+	  {{- range $rows -}}
+	    {{- $items = $items | append (dict "@type" "ListItem" "position" .position "url" .page.Permalink "name" .page.Title) -}}
+	  {{- end -}}
+	  {{- $trail := slice (dict "@type" "ListItem" "position" 1 "name" .Site.Title "item" .Site.Home.Permalink) (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) -}}
+	  {{- $collection := dict
+	    "@context" "https://schema.org"
+	    "@type" "CollectionPage"
+	    "@id" $webPageId
+	    "name" .Title
+	    "description" $desc
+	    "url" .Permalink
+	    "inLanguage" .Language.Lang
+	    "isPartOf" (dict "@id" $websiteId)
+	    "breadcrumb" (dict "@type" "BreadcrumbList" "itemListElement" $trail)
+	    "mainEntity" (dict "@type" "ItemList" "itemListElement" $items "numberOfItems" (len $items))
+	  -}}
+	  {{- if not .Date.IsZero -}}{{- $collection = merge $collection (dict "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+	  {{- if not .Lastmod.IsZero -}}{{- $collection = merge $collection (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+	  <script type="application/ld+json">{{ $collection | jsonify | safeJS }}</script>
+	{{- else -}}
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
@@ -154,6 +177,7 @@
 	  }
 	}
 	</script>
+	{{- end -}}
 	{{- end -}}
 {{- else if .IsHome -}}
 <script type="application/ld+json">

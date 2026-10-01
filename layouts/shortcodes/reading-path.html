@@ -1,0 +1,64 @@
+{{- /* reading_path uses EN canonical URLs in both locales. The shared partial
+resolves FR twins by translation identity, with a visibly labelled EN fallback.
+Optional group="core" or "historical" filters rows without renumbering them.
+mode="tiles" renders the six topic hubs with their local category artwork. */ -}}
+{{- $hub := .Page -}}
+{{- $group := .Get "group" | default "" -}}
+{{- $tiles := eq (.Get "mode") "tiles" -}}
+{{- if and $group (not (in (slice "core" "historical") $group)) -}}
+  {{- errorf "reading-path: invalid group %q on %s" $group $hub.RelPermalink -}}
+{{- end -}}
+{{- $rows := partialCached "reading-path.html" $hub $hub.RelPermalink $hub.Language.Lang -}}
+<div class="reading-path{{ if $tiles }} reading-path--tiles{{ end }}">
+  {{- range $section := slice "core" "historical" -}}
+    {{- if or (not $group) (eq $section $group) -}}
+      {{- $items := where $rows "group" $section -}}
+      {{- with $items -}}
+        {{- if not $tiles -}}
+        <h3 class="reading-path__heading">{{ T (printf "readingPath%s" ($section | title)) }}</h3>
+        {{- if eq $section "historical" -}}<p class="reading-path__context">{{ T "readingPathHistoricalContext" }}</p>{{- end -}}
+        {{- end -}}
+        <ol class="reading-path__list" start="{{ (index . 0).position }}">
+          {{- range . -}}
+            {{- $target := .page -}}
+            <li class="reading-path__item" value="{{ .position }}">
+              <a class="reading-path__link" href="{{ $target.RelPermalink }}"{{ if .fallback }} hreflang="en" lang="en"{{ end }}>
+                {{- if $tiles -}}
+                  {{- $category := $hub.Site.GetPage (printf "/categories/%s" .category) -}}
+                  {{- if not $category -}}
+                    {{- errorf "reading-path: missing category artwork %q on %s" .category $hub.RelPermalink -}}
+                  {{- else -}}
+                    {{- $art := $category.Resources.GetMatch "*.jpg" -}}
+                    {{- if not $art -}}{{- errorf "reading-path: no JPG for category %q" .category -}}{{- end -}}
+                    {{- with $art -}}<div class="reading-path__art">{{ partial "helper/picture.html" (dict "src" . "alt" "" "role" "card" "sizes" "(max-width: 600px) 100vw, 360px") }}</div>{{- end -}}
+                  {{- end -}}
+                {{- else -}}
+                  {{- $image := partialCached "helper/image" (dict "Context" $target "Type" "articleList") $target.RelPermalink "articleList" -}}
+                  <span class="reading-path__number" aria-hidden="true">{{ .position }}</span>
+                  {{- if $image.exists -}}
+                    <div class="reading-path__thumb">{{ partial "helper/picture.html" (dict "src" ($image.resource | default $image.permalink) "alt" "" "role" "thumb" "sizes" "120px" "imgAttrs" (dict "style" (printf "object-position: %s" ($target.Params.imagePosition | default "50% 50%")))) }}</div>
+                  {{- end -}}
+                {{- end -}}
+                <div class="reading-path__text">
+                  <span class="reading-path__title">{{ $target.Title }}</span>
+                  {{- with $target.Description -}}<span class="reading-path__description">{{ . }}</span>{{- end -}}
+                  {{- if not $tiles -}}
+                    <span class="reading-path__meta">
+                      {{- with $target.Params.difficulty -}}<span>{{ T (printf "difficulty%s" (. | title)) }}</span>{{- end -}}
+                      <span>{{ T "article.readingTime" $target.ReadingTime }}</span>
+                      {{- $project := false -}}
+                      {{- range $target.Params.categories -}}{{- if eq (lower .) "projects" -}}{{- $project = true -}}{{- end -}}{{- end -}}
+                      {{- if $project -}}<span class="reading-path__flag">{{ T "readingPathAuthorProject" }}</span>{{- end -}}
+                      {{- if .fallback -}}<span class="reading-path__flag" lang="{{ $hub.Language.Lang }}">{{ T "readingPathEnglishOnly" }}</span>{{- end -}}
+                    </span>
+                  {{- end -}}
+                </div>
+              </a>
+              {{- with .note -}}<p class="reading-path__note">{{ . }}</p>{{- end -}}
+            </li>
+          {{- end -}}
+        </ol>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+</div>

@@ -1,23 +1,30 @@
 ---
-title: "Stablecoins"
-description: "Guide evergreen sur les stablecoins : collatéral, mécanismes de peg, liquidité, compromis de décentralisation, risque de depeg et parcours de lecture TokenBrice."
+title: "Stablecoins : peg, collatéral et risques"
+description: "Comprendre le peg, le collatéral, le contrôle et la liquidité des stablecoins. Un parcours sans hype dans les analyses de TokenBrice."
 slug: stablecoins-guide
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/stablecoin-marauder-map/", group: core, note: "Commencez par la carte : AMO, PSM, redemptions et pegKeepers." }
+  - { path: "/reflexer-rai/", group: core, note: "Du collatéral ETH et un prix de rachat flottant, pas un peg au dollar." }
+  - { path: "/liquity-protocol/", group: core, note: "Liquity V1 : LUSD, redemptions et Stability Pool. Pas un guide V2." }
+  - { path: "/pharos/", group: core, note: "Le suivi des stablecoins que je construis. Un dashboard ne garantit pas la sécurité." }
+  - { path: "/why-polaris/", group: core, note: "La thèse du projet que j'ai cofondé et que je conseille aujourd'hui." }
+  - { path: "/lusd-chicken-bonds/", group: historical, note: "Le design des bonds LUSD de 2022, pas un mode d'emploi actuel." }
+  - { path: "/aave-gho-stablecoin/", group: historical, note: "La proposition GHO de 2022 et ses racines dans le lending." }
+  - { path: "/ethereum-stable-assets/", group: historical, note: "La taxonomie des actifs stables et pegged de 2021." }
+  - { path: "/seigniorage-basis-esd/", group: historical, note: "La comparaison des mécanismes de seigneuriage Basis et ESD en 2021." }
+  - { path: "/algorithmic-stablecoins/", group: historical, note: "Les expérimentations de 2020 sur l'ajustement de l'offre et leur fragilité." }
+  - { path: "/stablecoins/", group: historical, note: "La thèse d'adoption de 2018, avant le paysage stablecoin actuel." }
 ---
 
 Les stablecoins sont l'unité de compte principale de la DeFi, sa source de liquidité et le plus grand pont entre marchés crypto et bilans du monde réel. Les comprendre demande plus que de les classer par capitalisation : il faut savoir ce qui maintient le peg, ce qui soutient la dette, qui peut intervenir et d'où vient la liquidité.
 
 ## Parcours de lecture
 
-1. [Les stablecoins, une nécessité pour l'adoption à grande échelle des cryptomonnaies ?](/fr/stablecoins/) part du besoin fondamental d'actifs crypto stables.
-2. [L'état et le futur des stablecoins algorithmiques](/fr/algorithmic-stablecoins/) couvre les expérimentations à offre élastique.
-3. [Basis vs ESD](/fr/seigniorage-basis-esd/) compare deux designs de seigneuriage.
-4. [Actifs à vocation stable sur Ethereum](/fr/actifs-stables-ethereum/) élargit le sujet aux pegged assets au-delà des stablecoins dollar.
-5. [Le stablecoin GHO d'Aave](/fr/aave-gho-stablecoin/) analyse l'émission depuis un protocole de lending.
-6. [La carte du Maraudeur des stablecoins](/fr/stablecoin-marauder-map/) cartographie AMO, PSM, redemptions, pegKeepers et autres mécanismes.
-7. [Why Polaris?](/fr/why-polaris/) présente la thèse d'un stablecoin sans contrepartie.
+{{< reading-path >}}
 
 ## Concepts clés
 

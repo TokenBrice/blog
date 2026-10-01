@@ -3,20 +3,25 @@ title: "Risque DeFi"
 description: "Guide evergreen du risque DeFi : smart contracts, gouvernance, oracles, collatéral, liquidité, liquidations, bridges, structure de marché et opérations utilisateur."
 slug: defi-risk
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/money-markets-risk/", group: core, note: "Commencez par les dépendances et les chemins de défaillance, pas par un score." }
+  - { path: "/unstoppable-defi/", group: core, note: "Demandez ce qui peut encore être arrêté, upgradé ou capturé." }
+  - { path: "/defi-ux-disaster/", group: core, note: "La curation et le risque utilisateur font partie de l'analyse protocolaire." }
+  - { path: "/defi-bullshit-detector/", group: core, note: "Une méthode d'enquête pour confronter les affirmations, pas un audit magique." }
+  - { path: "/pharos/", group: core, note: "Le projet de suivi des stablecoins que je construis. Un signal n'est pas une garantie." }
+  - { path: "/farewell-glc/", group: historical, note: "Mon départ du comité GHO en 2024 : incitations, conflits et langage de gouvernance." }
+  - { path: "/risk-tranching-defi/", group: historical, note: "Le cas Saffron de 2021 : répartir le risque ne le supprime pas." }
+  - { path: "/great-filter-defi/", group: historical, note: "Le filtre de 2020 pour séparer les mécanismes durables du bruit fragile." }
 ---
 
 Le risque DeFi n'est pas une seule chose. C'est une pile de dépendances techniques, économiques, de gouvernance, de liquidité et opérationnelles. Le but n'est pas de trouver un protocole sans risque, mais de comprendre ce qui peut casser, comment les pertes se propagent et si la rémunération vaut l'exposition.
 
 ## Parcours de lecture
 
-1. [De l'évaluation du risque sur les marchés monétaires](/fr/marche-monetaire-risque/) est le cadre principal pour évaluer le risque protocolaire.
-2. [Risk? Yes please, but exactly how I like it](/fr/tranching-risque-defi/) introduit l'exposition structurée et le tranching.
-3. [The Great DeFi Filter](/fr/great-filter-defi/) aide à séparer protocoles durables et bruit fragile.
-4. [Unstoppable DeFi](/fr/unstoppable-defi/) se concentre sur la résilience et la décentralisation crédible.
-5. [DeFi's UX Disaster](/fr/defi-ux-disaster/) analyse la curation et le risque côté utilisateur.
-6. [DeFi Bullshit Detector](/fr/defi-bullshit-detector/) donne une grille pratique pour repérer les affirmations faibles.
+{{< reading-path >}}
 
 ## Checklist de risque
 

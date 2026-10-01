@@ -3,20 +3,28 @@ title: "DEX et Liquidité"
 description: "Guide evergreen des exchanges décentralisés : AMM, pools de liquidité, swaps d'actifs pegged, vote-escrow, bribes, routing et liquidity shaping."
 slug: dex-liquidity
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/pegged-assets-swap/", group: core, note: "Comparez les designs de liquidité pour actifs corrélés avant de choisir un DEX." }
+  - { path: "/crv-vs-velo/", group: core, note: "Curve contre Velodrome : qui capte la valeur et qui finance la liquidité ?" }
+  - { path: "/solidly-velodrome-fork/", group: core, note: "Le modèle Solidly/Velodrome, étudié dans sa version de 2023." }
+  - { path: "/venft-infrastructure/", group: core, note: "Automatisation et collatéral autour des veNFT, avec leurs dépendances." }
+  - { path: "/defi-flywheel/", group: core, note: "Suivez la boucle d'incitations plutôt que l'APY affiché." }
+  - { path: "/maverick-liquidity-shaping/", group: historical, note: "Le design de liquidity shaping de Maverick en 2023." }
+  - { path: "/balancer-wars/", group: historical, note: "La course au pouvoir de vote Balancer de 2022." }
+  - { path: "/crv-wars-l2/", group: historical, note: "Les couches autour de Convex et les marchés de vote de 2022." }
+  - { path: "/crv-wars/", group: historical, note: "L'explication originale des Curve Wars de 2021." }
+  - { path: "/decentralized-exchange-value-capture/", group: historical, note: "La comparaison de la distribution des frais DEX de 2021." }
+  - { path: "/swap-swamp/", group: historical, note: "Les bases du swap via les interfaces de 2020. Vérifiez le routing et les approvals actuels." }
 ---
 
 Les DEX sont la couche d'exécution de la DeFi. Ils pricent les actifs, routent le volume, créent des flux de frais et transforment les incitations de gouvernance en liquidité. Le sujet n'est pas seulement le TVL, mais la forme de la liquidité, qui paie les incitations et si le design sert mieux des actifs volatils ou pegged.
 
 ## Parcours de lecture
 
-1. [Navigating the swap swamps](/fr/swap-swamp/) donne les bases pratiques des swaps.
-2. [How are the main decentralized exchanges capturing value?](/fr/dex-echanges-decentralisees-capture-valeur/) compare la capture de valeur d'Uniswap, SushiSwap et Curve.
-3. [Guerre du CRV](/fr/crv-wars/) explique le vote-escrow et le pouvoir d'émission de Curve.
-4. [Guerre du CRV avancée](/fr/crv-wars-l2/) couvre les couches autour de Convex et les marchés de vote.
-5. [Maverick et liquidity shaping](/fr/maverick-liquidity-shaping/) examine des structures de liquidité plus expressives.
-6. [Les guerres des swaps sur les actifs pegged](/fr/pegged-assets-swap/) compare les designs de liquidité pour actifs corrélés.
+{{< reading-path >}}
 
 ## Concepts clés
 

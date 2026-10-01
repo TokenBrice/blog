@@ -1,2 +1,147 @@
-/* reading-path.scss: owned by the "N-hubs" work package (seo-design-overhaul-2026-10).
- * Use design tokens from custom/tokens.scss; no raw hex colours or sub-1.2rem font sizes. */
+.article-content .reading-path {
+    max-width: none;
+    margin-block: var(--space-5) var(--space-7);
+    color: var(--ink);
+
+    &__heading {
+        margin-block: var(--space-6) var(--space-3);
+        font-size: var(--fs-h3);
+    }
+
+    &__context,
+    &__note {
+        color: var(--ink-2);
+        font-size: var(--fs-small);
+        line-height: 1.5;
+    }
+
+    &__context { margin-block: 0 var(--space-4); }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+        margin: 0;
+        padding-block: var(--space-4);
+        border-block-end: 1px solid var(--rule);
+    }
+
+    &__link {
+        display: grid;
+        grid-template-columns: 2.4rem 120px minmax(0, 1fr);
+        gap: var(--space-3);
+        align-items: start;
+        color: var(--ink);
+        text-decoration: none;
+        box-shadow: none;
+
+        &:hover .reading-path__title {
+            text-decoration: underline;
+            text-decoration-color: var(--signal);
+            text-underline-offset: 0.2em;
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--slate);
+            outline-offset: var(--space-1);
+        }
+    }
+
+    &__number {
+        font-size: var(--fs-meta);
+        font-variant-numeric: tabular-nums;
+        line-height: 1.5;
+        color: var(--ink-2);
+    }
+
+    &__thumb {
+        width: 120px;
+        height: 80px;
+        overflow: hidden;
+        border-radius: var(--radius-chip);
+
+        img { width: 120px; height: 80px; object-fit: cover; margin: 0; }
+    }
+
+    &__text { grid-column: 3; min-width: 0; }
+
+    &__title {
+        display: block;
+        font-family: var(--font-display);
+        font-weight: 700;
+        font-size: var(--fs-h3);
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+
+    &__description {
+        display: block;
+        margin-block-start: var(--space-2);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: var(--fs-small);
+        line-height: 1.5;
+        color: var(--ink-2);
+    }
+
+    &__meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: var(--space-1) var(--space-3);
+        margin-block-start: var(--space-2);
+        font-size: var(--fs-meta);
+        line-height: 1.5;
+        color: var(--ink-2);
+    }
+
+    &__flag {
+        padding-inline: var(--space-1);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-chip);
+        font-size: var(--fs-micro);
+    }
+
+    &__note { margin: var(--space-2) 0 0 calc(2.4rem + var(--space-3)); }
+
+    &--tiles {
+        .reading-path__list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: var(--space-5);
+        }
+
+        .reading-path__item {
+            padding: 0;
+            overflow: hidden;
+            border: 1px solid var(--rule);
+            border-radius: var(--radius-card);
+            background: var(--surface);
+        }
+
+        .reading-path__link { display: block; height: 100%; }
+        .reading-path__text { padding: var(--space-4); }
+        .reading-path__description { white-space: normal; }
+
+        .reading-path__art {
+            aspect-ratio: 16 / 9;
+            overflow: hidden;
+            img { display: block; width: 100%; height: 100%; object-fit: cover; margin: 0; }
+            picture { display: block; height: 100%; }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .article-content .reading-path {
+        &__link { grid-template-columns: 120px minmax(0, 1fr); gap: var(--space-3); }
+        &__number { grid-column: 1 / -1; }
+        &__text { grid-column: 2; }
+        &__note { margin-inline-start: 0; }
+        &--tiles .reading-path__list { grid-template-columns: 1fr; }
+    }
+}

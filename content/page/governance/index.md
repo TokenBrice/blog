@@ -1,22 +1,29 @@
 ---
-title: "Governance"
-description: "An evergreen guide to DeFi governance, DAOs, vote delegation, timelocks, multisigs, vote-escrow systems, bribes, protocol capture, and credible decentralization."
+title: "DeFi Governance: Votes, Bribes and Control"
+description: "Who really controls a DeFi protocol? Explore votes, bribes, timelocks, multisigs and capture through TokenBrice's governance investigations."
 slug: governance
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/unstoppable-defi/", group: core, note: "Start with control: what can governance actually change or stop?" }
+  - { path: "/crv-vs-velo/", group: core, note: "Curve versus Velodrome: two markets for liquidity incentives." }
+  - { path: "/solidly-velodrome-fork/", group: core, note: "The ve(3,3) model and the limits of the 2023 template." }
+  - { path: "/venft-infrastructure/", group: core, note: "When voting power becomes managed infrastructure and collateral." }
+  - { path: "/defi-collective/", group: core, note: "The DeFi Collective I co-founded: putting governance power to work." }
+  - { path: "/farewell-glc/", group: historical, note: "My 2024 committee departure, as a case in governance incentives." }
+  - { path: "/balancer-wars/", group: historical, note: "The 2022 Balancer voting-power race." }
+  - { path: "/crv-wars-l2/", group: historical, note: "The 2022 protocol layer around Curve's influence markets." }
+  - { path: "/crv-wars/", group: historical, note: "The original 2021 explanation of Curve vote buying." }
+  - { path: "/aave-governance-program/", group: historical, note: "A 2021 delegation campaign, not a current call for support." }
 ---
 
 Governance is the control layer of a protocol. It decides upgrades, parameters, treasury allocation, collateral listings, incentives, emergency response, and often the path toward or away from decentralization. The question is not whether governance exists, but who can actually use it and how quickly their decisions affect users.
 
 ## Reading Path
 
-1. [Calling for your support to keep Aave's governance community-driven](/aave-governance-program/) introduces delegation and participation through a live protocol.
-2. [CRV wars](/crv-wars/) shows how governance power can become an incentive market.
-3. [Advanced CRV warfare](/crv-wars-l2/) follows the protocol layer built around governance influence.
-4. [Balancer Wars](/balancer-wars/) generalizes vote power accumulation beyond Curve.
-5. [Farewell to the GHO Liquidity Committee](/farewell-glc/) studies committee dynamics and governance language.
-6. [Unstoppable DeFi](/unstoppable-defi/) frames governance against decentralization and resilience.
+{{< reading-path >}}
 
 ## Governance Questions
 

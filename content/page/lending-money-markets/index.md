@@ -1,22 +1,29 @@
 ---
-title: "Lending and Money Markets"
-description: "An evergreen guide to DeFi lending, money markets, CDPs, collateral, liquidations, rate models, lending aggregation, and risk-aware borrowing strategies."
+title: "DeFi Lending: Collateral, Rates and Risks"
+description: "DeFi lending without the marketing fog: collateral, liquidation, rate models and aggregation. Follow the core analysis and risk-checking path."
 slug: lending-money-markets
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/money-markets-risk/", group: core, note: "Risk first: the framework, not a ranking of today's markets." }
+  - { path: "/lending-aggregation/", group: core, note: "What the aggregation layer changes, and what it merely hides." }
+  - { path: "/lending-protocol-renaissance/", group: core, note: "The 2024 CDP and money-market designs and their trade-offs." }
+  - { path: "/leverage-sir/", group: core, note: "A different leverage mechanism and the risks that come with it." }
+  - { path: "/venft-infrastructure/", group: core, note: "When voting positions become collateral and leveraged yield." }
+  - { path: "/reflexer-rai/", group: historical, note: "The 2021 RAI design: ETH collateral and a floating redemption price." }
+  - { path: "/liquity-protocol/", group: historical, note: "Liquity V1's 2021 LUSD design, not Liquity V2 or BOLD." }
+  - { path: "/money-market-innovations/", group: historical, note: "The 2021 design taxonomy, including Alchemix-style loans." }
+  - { path: "/money-market-recipes/", group: historical, note: "The original 2021 strategy patterns. Parameters are not current instructions." }
+  - { path: "/leveraging-eth/", group: historical, note: "A 2020 Maker borrowing recipe, not a current rate recommendation." }
 ---
 
 Lending protocols are one of DeFi's root primitives. They let users borrow against collateral, supply assets for yield, build leveraged strategies, and issue stable assets. The surface looks simple, but the risk sits in collateral listings, oracle assumptions, liquidation design, governance, liquidity, and rate models.
 
 ## Reading Path
 
-1. [Assessing risk in decentralized finance](/money-markets-risk/) is the core handbook for evaluating lending markets.
-2. [DeFi money markets cookbook](/money-market-recipes/) turns lending primitives into practical strategies.
-3. [Understanding innovations in money markets](/money-market-innovations/) covers liquidations, Alchemix-style loans, and future designs.
-4. [ETH exposure or DeFi yields: why choose?](/leveraging-eth/) introduces leverage through Maker-style borrowing.
-5. [Is this a Lending Protocol Renaissance?](/lending-protocol-renaissance/) covers newer CDP and money market designs.
-6. [The Cycle of Aggregation Spins On, Now with Lending](/lending-aggregation/) tracks the aggregation layer forming above lending venues.
+{{< reading-path >}}
 
 ## Core Concepts
 

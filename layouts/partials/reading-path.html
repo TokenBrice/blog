@@ -1,0 +1,36 @@
+{{- /*
+Resolve reading_path once for HTML and JSON-LD. All paths, including those in
+French front matter, are EN canonical URLs. Resolve the same-language twin via
+AllTranslations, not by prefixing /fr/: several French slugs differ. If no twin
+exists, keep the EN page; the shortcode visibly labels that fallback.
+The returned order is exactly the front-matter order. Core items must precede
+historical items so grouping never changes the rendered/schema sequence.
+*/ -}}
+{{- $hub := . -}}
+{{- $english := index hugo.Sites 0 -}}
+{{- range hugo.Sites -}}
+  {{- if eq .Language.Lang "en" -}}{{- $english = . -}}{{- end -}}
+{{- end -}}
+{{- $rows := slice -}}
+{{- $historicalSeen := false -}}
+{{- range $index, $item := $hub.Params.reading_path -}}
+  {{- $group := $item.group | default "core" -}}
+  {{- if not (in (slice "core" "historical") $group) -}}
+    {{- errorf "reading_path: invalid group %q on %s" $group $hub.RelPermalink -}}
+  {{- end -}}
+  {{- if eq $group "historical" -}}{{- $historicalSeen = true -}}{{- end -}}
+  {{- if and $historicalSeen (eq $group "core") -}}
+    {{- errorf "reading_path: core item after historical items on %s" $hub.RelPermalink -}}
+  {{- end -}}
+  {{- $matches := where $english.RegularPages "RelPermalink" $item.path -}}
+  {{- if ne (len $matches) 1 -}}
+    {{- errorf "reading_path: expected one EN canonical page for %q on %s, found %d" $item.path $hub.RelPermalink (len $matches) -}}
+  {{- else -}}
+    {{- $target := index $matches 0 -}}
+    {{- range $target.AllTranslations -}}
+      {{- if eq .Language.Lang $hub.Language.Lang -}}{{- $target = . -}}{{- end -}}
+    {{- end -}}
+    {{- $rows = $rows | append (dict "page" $target "group" $group "note" ($item.note | default "") "category" ($item.category | default "") "position" (add $index 1) "fallback" (ne $target.Language.Lang $hub.Language.Lang)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $rows -}}

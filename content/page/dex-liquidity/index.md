@@ -3,20 +3,28 @@ title: "DEX and Liquidity"
 description: "An evergreen guide to decentralized exchanges, AMMs, liquidity pools, pegged-asset swaps, vote-escrow incentives, bribes, routing, and liquidity shaping."
 slug: dex-liquidity
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/pegged-assets-swap/", group: core, note: "Compare liquidity designs for correlated assets before choosing a venue." }
+  - { path: "/crv-vs-velo/", group: core, note: "Curve versus Velodrome: who captures value and who funds liquidity?" }
+  - { path: "/solidly-velodrome-fork/", group: core, note: "The Solidly/Velodrome template, studied in its 2023 form." }
+  - { path: "/venft-infrastructure/", group: core, note: "Automation and collateral built around veNFTs, with their dependencies." }
+  - { path: "/defi-flywheel/", group: core, note: "Follow the incentive loop rather than the advertised APY." }
+  - { path: "/maverick-liquidity-shaping/", group: historical, note: "Maverick's 2023 liquidity-shaping design." }
+  - { path: "/balancer-wars/", group: historical, note: "The 2022 race for Balancer voting power." }
+  - { path: "/crv-wars-l2/", group: historical, note: "The 2022 Convex-adjacent stack and its vote markets." }
+  - { path: "/crv-wars/", group: historical, note: "The original 2021 Curve Wars explainer." }
+  - { path: "/decentralized-exchange-value-capture/", group: historical, note: "The 2021 comparison of DEX fee distribution." }
+  - { path: "/swap-swamp/", group: historical, note: "Swap basics through 2020 interfaces. Check today's routing and approvals." }
 ---
 
 DEXes are the execution layer of DeFi. They price assets, route volume, create fee streams, and turn governance incentives into liquidity. The key is not only which venue has the most TVL, but how the pool shapes liquidity, who pays for incentives, and whether the design is suited to volatile or pegged assets.
 
 ## Reading Path
 
-1. [Navigating the swap swamps](/swap-swamp/) gives practical grounding for token swaps.
-2. [How are the main decentralized exchanges capturing value?](/decentralized-exchange-value-capture/) compares Uniswap, SushiSwap, and Curve value capture.
-3. [CRV wars](/crv-wars/) explains vote-escrow incentives and Curve emission power.
-4. [Advanced CRV warfare](/crv-wars-l2/) covers Convex-adjacent layers and vote markets.
-5. [Liquidity shaping with Maverick](/maverick-liquidity-shaping/) examines more expressive liquidity structures.
-6. [The Pegged Asset Swap Wars](/pegged-assets-swap/) compares liquidity designs for correlated assets.
+{{< reading-path >}}
 
 ## Core Concepts
 

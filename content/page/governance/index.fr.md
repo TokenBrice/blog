@@ -1,22 +1,29 @@
 ---
-title: "Gouvernance"
-description: "Guide evergreen de la gouvernance DeFi : DAO, délégation, timelocks, multisigs, vote-escrow, bribes, capture protocolaire et décentralisation crédible."
+title: "Gouvernance DeFi : votes, bribes et contrôle"
+description: "Qui contrôle vraiment un protocole DeFi ? Votes, bribes, timelocks, multisigs et capture : un parcours dans les enquêtes de TokenBrice."
 slug: governance
 date: 2026-05-18
+lastmod: 2026-10-01
 toc: true
 readingTime: false
+reading_path:
+  - { path: "/unstoppable-defi/", group: core, note: "Le contrôle d'abord : que peut réellement changer ou arrêter la gouvernance ?" }
+  - { path: "/crv-vs-velo/", group: core, note: "Curve contre Velodrome : deux marchés d'incitations à la liquidité." }
+  - { path: "/solidly-velodrome-fork/", group: core, note: "Le modèle ve(3,3) et les limites du design étudié en 2023." }
+  - { path: "/venft-infrastructure/", group: core, note: "Quand le pouvoir de vote devient infrastructure gérée et collatéral." }
+  - { path: "/defi-collective/", group: core, note: "La DeFi Collective que j'ai cofondée : mettre le pouvoir de gouvernance au travail." }
+  - { path: "/farewell-glc/", group: historical, note: "Mon départ du comité en 2024, comme cas d'étude des incitations de gouvernance." }
+  - { path: "/balancer-wars/", group: historical, note: "La course au pouvoir de vote Balancer de 2022." }
+  - { path: "/crv-wars-l2/", group: historical, note: "Les protocoles autour des marchés d'influence de Curve en 2022." }
+  - { path: "/crv-wars/", group: historical, note: "L'explication originale de l'achat de votes Curve de 2021." }
+  - { path: "/aave-governance-program/", group: historical, note: "La campagne de délégation de 2021, pas un appel au soutien actuel. Article en anglais." }
 ---
 
 La gouvernance est la couche de contrôle d'un protocole. Elle décide upgrades, paramètres, allocation de trésorerie, listings de collatéraux, incitations, réponses d'urgence et souvent la trajectoire vers ou hors de la décentralisation. La question n'est pas de savoir si la gouvernance existe, mais qui peut réellement l'utiliser et à quelle vitesse ses décisions touchent les utilisateurs.
 
 ## Parcours de lecture
 
-1. [Calling for your support to keep Aave's governance community-driven](/aave-governance-program/) introduit délégation et participation via un protocole live.
-2. [Guerre du CRV](/fr/crv-wars/) montre comment le pouvoir de gouvernance devient un marché d'incitations.
-3. [Guerre du CRV avancée](/fr/crv-wars-l2/) suit la couche de protocoles construite autour de cette influence.
-4. [Balancer Wars](/fr/balancer-wars/) généralise l'accumulation de pouvoir de vote au-delà de Curve.
-5. [Adieu au GHO Liquidity Committee](/fr/farewell-glc/) étudie la dynamique des comités et le langage de gouvernance.
-6. [Unstoppable DeFi](/fr/unstoppable-defi/) replace la gouvernance face à la décentralisation et la résilience.
+{{< reading-path >}}
 
 ## Questions de gouvernance
 
