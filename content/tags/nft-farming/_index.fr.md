@@ -1,4 +1,4 @@
 ---
 title: "NFT Farming"
-aliases: ["/fr/tags/farming-nft/"]
+aliases: ["/tags/farming-nft/"]
 ---

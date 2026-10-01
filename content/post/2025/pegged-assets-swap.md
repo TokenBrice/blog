@@ -2,6 +2,7 @@
 title: "StableSwap vs Fluid vs EulerSwap: Pegged Swaps"
 description: "Why x*y=k wastes liquidity on pegged pairs, what Curve's StableSwap fixes, and how Fluid and EulerSwap put debt-backed liquidity to work."
 date: '2025-07-08T01:13:50.191Z'
+lastmod: 2026-10-01
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
@@ -12,6 +13,10 @@ aliases:
   - p/pegged-assets-swap
   - posts/2025/pegged-assets-swap
 difficulty: "expert"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "I wrote this in July 2025. The TVL and volume figures, plus my observations on Fluid, EulerSwap and Ekubo, belong to that period, not today's market. Ekubo's 7 July snapshot shows a $2.6M TVL pool, about $130M in daily volume and $662 in daily fees."
 takeaways:
   - "Full-range x*y=k spreads liquidity far beyond the prices pegged pairs usually trade at."
   - "StableSwap concentrates useful liquidity around parity instead of wasting it across the full range."

@@ -1,5 +1,5 @@
 ---
-title: "La carte du Maraudeur des Stablecoins"
+title: "La carte du Maraudeur des Stablecoins décentralisés"
 description: "Carte des mécanismes de stablecoins : AMO, PSM, DSR, pegKeepers et critères pour évaluer leur pertinence et leurs risques."
 date: '2023-09-15T01:13:50.191Z'
 lastmod: 2026-10-01
@@ -13,6 +13,7 @@ aliases:
   - posts/2023/stablecoin-marauder-map
 image: img/2023/stablecoin-marauder-map/stablecoin-marauder-map-cover.png
 difficulty: "beginner"
+glossary_terms: ["amo", "psm", "peg-keeper", "stablecoin", "peg", "collateral", "cdp", "redemption", "liquidity"]
 context:
   kind: status
   checked: 2026-10-01

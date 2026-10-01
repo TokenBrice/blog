@@ -1,4 +1,4 @@
 ---
 title: "Décentralisation"
-aliases: ["/fr/tags/decentralization/"]
+aliases: ["/tags/decentralization/"]
 ---

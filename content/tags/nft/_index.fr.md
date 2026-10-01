@@ -1,4 +1,4 @@
 ---
 title: "NFT"
-aliases: ["/fr/tags/non-fungible-tokens/"]
+aliases: ["/tags/non-fungible-tokens/"]
 ---

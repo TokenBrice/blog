@@ -1,5 +1,5 @@
 ---
-title: 'Exploring and Industry & Finding Content Ideas: a matter of tools?'
+title: 'Exploring an Industry and Finding Content Ideas with Tools'
 description: >-
   Are premium SEO/SEM/Social media analytics tools worth it? Some answers with
   an overview of SEMRush and BuzzSumo can help you know.

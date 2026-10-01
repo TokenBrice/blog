@@ -1,6 +1,6 @@
 ---
 title: "Maverick AMM : façonner la liquidité"
-description: "Comment Maverick façonne la liquidité : efficacité du capital, incentives et modèle MAV. Analyse de 2023, pas un guide de l'API des hooks."
+description: "Étude de 2023 sur le liquidity shaping, le rééquilibrage et les incentives de Maverick. Consultez la doc actuelle avant de fournir de la liquidité."
 date: '2023-07-07T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX]

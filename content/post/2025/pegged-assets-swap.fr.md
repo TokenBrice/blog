@@ -1,7 +1,8 @@
 ---
-title: "StableSwap, Fluid, EulerSwap : actifs indexés"
-description: "Pourquoi x*y=k gaspille la liquidité des actifs indexés, ce que StableSwap corrige et comment Fluid et EulerSwap mobilisent la dette."
+title: "StableSwap, Fluid, EulerSwap : actifs pegged"
+description: "Pourquoi x*y=k gaspille la liquidité des actifs pegged, ce que StableSwap corrige et comment Fluid et EulerSwap mobilisent la dette."
 date: '2025-07-08T01:13:50.191Z'
+lastmod: 2026-10-01
 categories: [DEX]
 image: /img/2025/pegged-assets-swap/pegged-assets-swap-cover.png
 tags: [DeFi, Ethereum, Velodrome, Velo, veCRV, veVELO, Aerodrome, veAERO, Ekubo, Uniswap, Fluid, EulerSwap, Euler, Smart Debt, Smart Collateral]
@@ -12,8 +13,12 @@ aliases:
   - p/pegged-assets-swap
   - posts/2025/pegged-assets-swap
 difficulty: "expert"
+context:
+  kind: historical
+  checked: 2026-10-01
+  text: "J'ai écrit cet article en juillet 2025. Les chiffres de TVL et de volume, ainsi que mes observations sur Fluid, EulerSwap et Ekubo, datent de cette période, pas du marché actuel. L'instantané Ekubo du 7 juillet montre un pool de 2,6 M$ de TVL, environ 130 M$ de volume quotidien et 662 $ de frais par jour."
 takeaways:
-  - "Le x*y=k sur toute la plage de prix disperse la liquidité loin des niveaux où les actifs indexés s'échangent."
+  - "Le x*y=k sur toute la plage de prix disperse la liquidité loin des niveaux où les actifs pegged s'échangent."
   - "StableSwap concentre la liquidité utile près de la parité au lieu de la disperser sur toute la plage."
   - "Fluid et EulerSwap relient les swaps au prêt et à la liquidité adossée à la dette, changeant qui paie pour la maintenir."
 image_meta:

@@ -1,4 +1,4 @@
 ---
 title: "Compound"
-aliases: ["/fr/tags/compound-risk/"]
+aliases: ["/tags/compound-risk/"]
 ---

@@ -23,6 +23,12 @@ image_meta:
   "/img/2021/badger-digg/badger-stats.png":
     alt: "Tableau Sett.Vision : 1,12 Md$ bloqués, 90,81 M$ de BADGER stakés et 17,97 M$ de DIGG stakés."
     caption: "Chiffres du lancement de Badger sur Sett.Vision, janvier 2021. Données historiques, pas des soldes en direct."
+  "/img/2021/badger-digg/badger-breakdown.png":
+    alt: "Répartition initiale de BADGER : 35 % trésorerie DAO, 23 % liquidity mining, 15 % développeurs, 15 % airdrop, 10 % équipe et 2 % Gitcoin."
+    caption: "Répartition initiale de BADGER présentée en janvier 2021. Source : annonce de lancement du liquidity mining de BadgerDAO."
+  "/img/2021/badger-digg/digg-breakdown.png":
+    alt: "Répartition initiale de DIGG : 40 % liquidity mining, 40 % trésorerie DAO, 15 % airdrop et 5 % équipe."
+    caption: "Répartition initiale de DIGG présentée en janvier 2021. Source : annonce de lancement du liquidity mining de BadgerDAO."
 ---
 
 Malgré son lancement il y a à peine quelques semaines, BadgerDAO s'est rapidement transformé en une centrale DeFi **hébergeant maintenant > 1,2 milliard de dollars d'actifs**. Bien que j'ai rapidement évoqué Badger dans des articles ou des émissions précédentes, je pense qu'il est temps de consacrer un article à DIGG, sans oublier son contexte.

@@ -1,4 +1,4 @@
 ---
 title: "Aave"
-aliases: ["/fr/tags/aave-risk/"]
+aliases: ["/tags/aave-risk/"]
 ---

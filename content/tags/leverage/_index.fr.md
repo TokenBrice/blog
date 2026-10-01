@@ -1,4 +1,4 @@
 ---
 title: "Leverage"
-aliases: ["/fr/tags/leveraging/"]
+aliases: ["/tags/leveraging/"]
 ---

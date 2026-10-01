@@ -1,6 +1,6 @@
 ---
 title: "Maverick AMM: Liquidity Shaping Explained"
-description: "How Maverick shapes liquidity instead of renting it: capital efficiency, incentives and the MAV model. A 2023 mechanism study, not a hooks API guide."
+description: "A 2023 study of Maverick's liquidity shaping, rebalancing and incentives. Check current docs before deploying liquidity."
 date: '2023-07-07T01:13:50.191Z'
 lastmod: 2026-05-19
 categories: [DEX]
