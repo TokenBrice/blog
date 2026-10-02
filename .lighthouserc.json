@@ -3,7 +3,7 @@
     "collect": {
       "numberOfRuns": 3,
       "staticDistDir": "./public",
-      "settings": { "formFactor": "mobile" },
+      "settings": { "formFactor": "mobile", "enableErrorReporting": false },
       "url": [
         "http://localhost/",
         "http://localhost/fr/",

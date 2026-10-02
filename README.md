@@ -9,6 +9,10 @@ This repository contains the bilingual EN/FR TokenBrice blog. It is built with H
 
 ### Local development
 
+Use Node.js 24 LTS (see `.nvmrc`) and npm, alongside Hugo Extended `0.161.1`.
+The browser/audit tooling no longer supports Node.js 20. With nvm, run `nvm use`
+before installing dependencies.
+
 ```sh
 make setup
 make serve
@@ -67,6 +71,11 @@ saved to `lighthouse-reports/browser-smoke` and retained as a PR CI artifact.
 
 The publishing workflow runs Lighthouse independently of deploy on the exact Pages artifact:
 three mobile samples per URL, median assertions and warn-only performance/byte budgets.
+Run the same locked audit locally with `npm run lighthouse:ci` after building.
+PR validation also exercises this full audit; missing reports, invalid metrics, or a
+broken audit tool fail validation, while ordinary budget warnings remain non-blocking.
+`npm run test:tooling` tests those report checks. See
+[`docs/dependency-audit.md`](docs/dependency-audit.md) for upgrade rationale and override maintenance.
 Reports stay in the `lighthouse-reports` GitHub Actions artifact, not public temporary storage.
 Lighthouse failures never block deployment.
 

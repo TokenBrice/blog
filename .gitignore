@@ -41,6 +41,7 @@ pids
 *.backup
 
 # Lighthouse reports
+.lighthouseci/
 lighthouse-reports/
 lighthouse-reports/*.report.html
 

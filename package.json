@@ -15,7 +15,9 @@
     "test:validators": "python3 scripts/tests/run_validator_tests.py",
     "push-gate": "bash scripts/push-gate.sh",
     "verify": "npm run push-gate",
-    "test:browser": "node scripts/tests/browser-smoke.mjs"
+    "test:browser": "node scripts/tests/browser-smoke.mjs",
+    "lighthouse:ci": "lhci autorun --config=.lighthouserc.json && node scripts/tests/verify-lighthouse-reports.mjs",
+    "test:tooling": "node --test scripts/tests/lighthouse-reports.test.mjs"
   },
   "author": "TokenBrice",
   "license": "CC-BY-NC-SA-4.0",
@@ -28,8 +30,25 @@
   },
   "homepage": "https://github.com/TokenBrice/blog#readme",
   "devDependencies": {
-    "lighthouse": "^13.1.0",
-    "puppeteer-core": "24.42.0",
+    "@lhci/cli": "0.15.1",
+    "lighthouse": "13.5.0",
+    "puppeteer-core": "25.12.0",
     "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "overrides": {
+    "@lhci/cli": {
+      "lighthouse": "$lighthouse",
+      "tmp": "0.2.7",
+      "uuid": "11.1.1",
+      "get-uri": {
+        "basic-ftp": "6.2.1"
+      }
+    },
+    "@lhci/utils": {
+      "lighthouse": "$lighthouse"
+    }
   }
 }

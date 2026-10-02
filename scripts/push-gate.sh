@@ -6,7 +6,7 @@ set -Eeuo pipefail
 cd "$(dirname "$0")/.."
 
 EXPECTED_HUGO_VERSION="${EXPECTED_HUGO_VERSION:-0.161.1}"
-EXPECTED_NODE_MAJOR="${EXPECTED_NODE_MAJOR:-20}"
+EXPECTED_NODE_MAJOR="${EXPECTED_NODE_MAJOR:-$(cat .nvmrc)}"
 
 gate_tmp="$(mktemp -d)"
 preexisting_static_untracked="$gate_tmp/preexisting-static-untracked"
@@ -190,6 +190,9 @@ npm run validate:content
 
 step "Validate glossary"
 npm run validate:glossary
+
+step "Test audit-tooling regressions"
+npm run test:tooling
 
 step "Test validator regressions"
 npm run test:validators
