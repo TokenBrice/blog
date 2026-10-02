@@ -139,14 +139,14 @@ The root stays at 62.5%: **1rem = 10px**. No text below 12px. Small spacing, ico
 | `--fs-card` | `2.6rem` (`2.8rem` at ≥1280px) | Article-card titles |
 | `--fs-h2` | `2.8rem` | Body section headings |
 | `--fs-display` | `clamp(3.4rem, 1.4rem + 2.6vw, 5.2rem)` | Page/article titles |
-| `--measure` | `58rem` | Prose measure |
+| `--measure` | `64rem` | Prose measure (~70–80 characters at 18px) |
 
 Article line-height is 1.65 light / 1.7 dark. Trust metadata uses 1.5; context notes 1.65; the colophon 1.6.
 
 ### Named Rules
 
 **The One-Serif Rule.** Fraunces is the only editorial serif.
-**The Reading Measure Rule.** Use `--measure` for prose; never stretch body text to match a wide grid.
+**The Reading Measure Rule.** Use `--measure` for prose; never stretch body text to match a wide grid. On single pages the card itself is sized to `--measure` + card padding, so prose fills the card and the freed width is distributed around the columns (glossary index excepted).
 **The Uppercase-Means-Structure Rule.** Uppercase is for labels, not shouting inside prose.
 
 ## 4. Elevation

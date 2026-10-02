@@ -15,7 +15,7 @@
         "--fs-card": "2.6rem",
         "--fs-h2": "2.8rem",
         "--fs-display": "clamp(3.4rem, 1.4rem + 2.6vw, 5.2rem)",
-        "--measure": "58rem",
+        "--measure": "64rem",
         "--font-display": "\"Fraunces\", Georgia, \"Times New Roman\", serif",
         "--font-body": "\"Inter Tight\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
         "--space-1": "4px",
@@ -161,7 +161,7 @@
       },
       "minimumTextSize": "12px",
       "rootFontSize": "62.5%",
-      "measure": "58rem"
+      "measure": "64rem"
     },
     "motion": [
       {
@@ -277,7 +277,7 @@
       },
       {
         "name": "Readable Type",
-        "description": "No text below 12px. Small spacing and radii are not text sizes. Use the 58rem prose measure."
+        "description": "No text below 12px. Small spacing and radii are not text sizes. Use the 64rem prose measure; on single pages the card is sized to the measure so prose fills it."
       },
       {
         "name": "Identity",

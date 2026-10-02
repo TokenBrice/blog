@@ -90,6 +90,22 @@
     gap: var(--section-separation);
 }
 
+/* Reading layout: on single pages the card is sized to the prose measure so the
+   text fills it on wide screens, and the freed width is shared evenly around the
+   columns instead of piling up as an empty band inside the card. The glossary
+   index keeps the full width for its term grid. */
+@media (min-width: 1024px) {
+    body.article-page:not(.glossary-index-page) {
+        .main-container {
+            justify-content: center;
+        }
+
+        .main-column {
+            flex: 0 1 calc(var(--measure) + 2 * var(--card-padding));
+        }
+    }
+}
+
 footer.site-footer {
     gap: var(--space-3);
     padding: var(--space-4) 0;
