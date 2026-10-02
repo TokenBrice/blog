@@ -1,7 +1,11 @@
 {{ define "main" }}
     {{ $pag := partial "helper/paginator.html" . }}
 
-    {{ partial "disclosure.html" (dict "Context" . "Variant" "home") }}
+    {{ if eq $pag.PageNumber 1 }}
+        {{ partial "home-projects.html" . }}
+    {{ else }}
+        {{ partial "disclosure.html" (dict "Context" . "Variant" "home") }}
+    {{ end }}
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}

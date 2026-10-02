@@ -1,0 +1,24 @@
+{{- /* Keep legacy figure content while using the same responsive pipeline as
+      Markdown images. All current uses are local raster images. */ -}}
+{{- $src := .Get "src" -}}
+{{- with .Page.Resources.GetMatch $src }}{{ $src = . }}{{ end -}}
+{{- $alt := .Get "alt" | default (.Get "caption" | default "" | plainify) -}}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    {{- with .Get "link" }}
+    <a href="{{ . }}"{{ with $.Get "target" }} target="{{ . }}"{{ end }}{{ with $.Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- end }}
+    {{- partial "helper/picture.html" (dict "src" $src "alt" $alt "role" "body") -}}
+    {{- if .Get "link" }}</a>{{ end -}}
+    {{- if or (.Get "title") (.Get "caption") (.Get "attr") }}
+    <figcaption>
+        {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
+        {{- if or (.Get "caption") (.Get "attr") }}
+        <p>{{ .Get "caption" | markdownify }}
+            {{- with .Get "attrlink" }}<a href="{{ . }}">{{ end -}}
+            {{- .Get "attr" | markdownify -}}
+            {{- if .Get "attrlink" }}</a>{{ end -}}
+        </p>
+        {{- end }}
+    </figcaption>
+    {{- end }}
+</figure>

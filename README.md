@@ -57,6 +57,14 @@ Python validators need Python 3 and PyYAML (`python3 -m pip install PyYAML`).
 Titles must be 5–70 characters. Output validation accepts an explicit disposable build directory:
 `python3 scripts/validate-site-output.py /path/to/build`.
 
+Pull requests run a separate, read-only validation workflow; they do not deploy.
+After building, run `npm run test:browser` with Chrome or Chromium installed
+(`CHROME_PATH=/path/to/chrome` if it is not in a standard Linux location).
+These smoke tests serve the production artifact locally, block third-party
+requests, and cover keyboard navigation, short/mobile layouts, bilingual
+project links, search, glossary filters, and responsive images. Screenshots are
+saved to `lighthouse-reports/browser-smoke` and retained as a PR CI artifact.
+
 The publishing workflow runs Lighthouse independently of deploy on the exact Pages artifact:
 three mobile samples per URL, median assertions and warn-only performance/byte budgets.
 Reports stay in the `lighthouse-reports` GitHub Actions artifact, not public temporary storage.

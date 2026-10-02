@@ -1,0 +1,61 @@
+name: Validate pull request
+
+on:
+  pull_request:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.161.1'
+          extended: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install dependencies
+        run: |
+          npm ci
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq webp libavif-bin imagemagick jq python3-yaml
+      - name: Validate source and regressions
+        run: |
+          npm run test:validators
+          npm run validate:glossary
+          npm run validate:frontmatter
+          npm run validate:content
+          npm run typecheck
+      - name: Build production artifact
+        env:
+          HUGO_ENV: production
+          HUGO_ENVIRONMENT: production
+        run: |
+          bash scripts/build-images.sh
+          hugo --gc --minify --environment production
+          npm run validate:site
+      - name: Browser smoke tests
+        run: |
+          export CHROME_PATH="$(command -v google-chrome || command -v chromium)"
+          npm run test:browser
+      - name: Retain browser screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-smoke
+          path: lighthouse-reports/browser-smoke
+          retention-days: 14
+          if-no-files-found: ignore

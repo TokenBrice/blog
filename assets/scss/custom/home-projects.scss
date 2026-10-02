@@ -1,0 +1,88 @@
+/* A compact project index; the article archive remains the homepage focus. */
+.home-projects {
+    padding: var(--space-4);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: var(--ink);
+
+    &__title {
+        margin: 0 0 var(--space-3);
+        font-family: var(--font-body);
+        font-size: var(--fs-micro);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--space-5);
+    }
+
+    &__project {
+        min-width: 0;
+    }
+
+    &__name {
+        margin: 0;
+        font-family: var(--font-display);
+        font-size: var(--fs-h3);
+        line-height: 1.2;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            min-height: 44px;
+            color: var(--ink);
+        }
+    }
+
+    &__emblem {
+        display: block;
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+    &__summary {
+        margin: var(--space-2) 0;
+        color: var(--ink-2);
+        font-size: var(--fs-small);
+        line-height: 1.5;
+    }
+
+    &__intro {
+        display: inline-flex;
+        align-items: center;
+        min-height: 32px;
+        color: var(--ink);
+        font-size: var(--fs-meta);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--signal);
+        text-underline-offset: 0.2em;
+    }
+
+    .disclosure--home {
+        margin-top: var(--space-3);
+        padding: var(--space-3) 0 0;
+        border: 0;
+        border-top: 1px solid var(--rule);
+        border-radius: 0;
+        font-size: var(--fs-meta);
+    }
+
+    @media (max-width: 479px) {
+        &__grid {
+            grid-template-columns: 1fr;
+            gap: var(--space-3);
+        }
+    }
+}

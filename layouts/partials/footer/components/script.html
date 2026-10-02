@@ -1,17 +1,9 @@
 {{/*
     Override of themes/hugo-theme-stack/layouts/partials/footer/components/script.html
-    Gates the Vibrant.js external dependency so it only loads on pages that
-    actually render article-list--tile (single posts, section/taxonomy lists,
-    taxonomy archives). All other scripts continue to load sitewide.
+    Tile rendering marks the owning page. Do not infer dependencies from page
+    type: most lists no longer contain tiles, while archives use a page layout.
 */}}
-{{- $needsVibrant := false -}}
-{{- if or (and .IsPage (eq .Section "post")) (eq .Section "categories") (eq .Section "tags") (eq .Section "difficulty") (eq .Type "archives") -}}
-    {{- $needsVibrant = true -}}
-{{- else if and .IsNode (in (.Site.Params.mainSections | default (slice "post")) .Section) -}}
-    {{- $needsVibrant = true -}}
-{{- end -}}
-
-{{- if $needsVibrant -}}
+{{- if .Store.Get "needsVibrant" -}}
     {{- partial "helper/external" (dict "Context" . "Namespace" "Vibrant") -}}
 {{- end -}}
 

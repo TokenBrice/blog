@@ -13,7 +13,25 @@ toc: true
 draft: false
 type: post
 difficulty: "intermediate"
+lastmod: '2026-10-02'
+context:
+  kind: update
+  checked: '2026-10-02'
+  text: "This is the March 2026 launch article. Coverage, features, team and funding have since changed. Read the dated update below before treating the original text as current; the launch contest is closed."
+  sources:
+    - https://pharos.watch/about/
+    - https://pharos.watch/funding/
 ---
+
+## Update: 2 October 2026
+
+I still lead Pharos, and Ike has joined me to handle growth and communications. The [current team page](https://pharos.watch/about/) describes how we work.
+
+The dashboard remains free and open source. Funding has evolved since launch: Pharos now relies on community support and plans paid API access for heavy programmatic use. The [public funding ledger](https://pharos.watch/funding/) documents that support.
+
+The original introduction below records the project at launch, including its then-current coverage, methodology, solo development and funding plans. For current features and methodology, start with [Pharos](https://pharos.watch/) and its [documentation](https://pharos.watch/methodology/). The one-week, 3,000 BOLD launch contest has ended.
+
+## Original launch introduction: 12 March 2026
 
 [Pharos](https://pharos.watch) is a free, open-source dashboard that monitors stablecoin pegs, risk scores and liquidity. Here is the problem it exists to solve.
 
@@ -197,4 +215,4 @@ Pharos will keep expanding its coverage and refining its models. If you want to 
 
 Stablecoins won the adoption race. It's time the information infrastructure catches up.
 
-PS: A one-week content production (using Pharos data) and feedback submission contest is running, with 3000 BOLD to win in total. [Take part](https://x.com/PharosWatch/status/2032107485629202921)
+**Launch contest (archived):** The one-week content and feedback contest offered 3,000 BOLD in total. It has ended. [Original announcement](https://x.com/PharosWatch/status/2032107485629202921)

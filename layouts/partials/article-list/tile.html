@@ -1,4 +1,5 @@
 {{ $image := partialCached "helper/image" (dict "Context" .context "Type" .Type) .context.RelPermalink .Type }}
+{{- if $image.exists }}{{ .Page.Store.Set "needsVibrant" true }}{{ end -}}
 <article class="{{ if $image.exists }}has-image{{ end }}">
     <a href="{{ .context.RelPermalink }}">
         {{ if $image.exists }}

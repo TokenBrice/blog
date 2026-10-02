@@ -471,6 +471,12 @@ other = "Tutorial"
 [disclosureBoth]
 other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics) and co-founded {{ .Polaris }}, which I now advise. Both get covered here."
 
+[homeProjectsTitle]
+other = "My projects"
+
+[homeProjectsIntroduction]
+other = "Read about {{ .Project }}"
+
 [disclosurePharos]
 other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics). I cover it here."
 

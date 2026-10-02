@@ -1,0 +1,8 @@
+{{- /* Responsive inline images for raw HTML cards and Markdown table cells. */ -}}
+{{- partial "helper/picture.html" (dict
+    "src" (.Get "src")
+    "alt" (.Get "alt" | default "")
+    "role" (.Get "role" | default "body")
+    "class" (.Get "class" | default "")
+    "sizes" (.Get "sizes" | default "(max-width: 768px) 100vw, 720px")
+) -}}
