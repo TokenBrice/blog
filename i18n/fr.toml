@@ -469,7 +469,7 @@ other = "Pratique"
 other = "Tutoriel"
 
 [disclosureBoth]
-other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille désormais. Je parle des deux ici."
+other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse de stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille. J’en parle ici."
 
 [disclosurePharos]
 other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins). J’en parle ici."
