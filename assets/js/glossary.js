@@ -16,21 +16,30 @@
     var searchQuery = '';
     var prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    function normalizeSearch(value) {
+        return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+    }
+
+    // Text is static: avoid rebuilding every card's index on each keystroke.
+    var searchableCards = new Map();
+    allCards.forEach(function(card) {
+        var termId = card.getAttribute('data-term-id') || '';
+        var termName = (card.querySelector('.compact-term-name') || {}).textContent || '';
+        var definition = (card.querySelector('.compact-definition') || {}).textContent || '';
+        var fullTerm = (card.querySelector('.compact-full-term') || {}).textContent || '';
+        searchableCards.set(card, normalizeSearch(termId + ' ' + termName + ' ' + definition + ' ' + fullTerm));
+    });
+
     function applyFilters() {
         var visibleCount = 0;
-        var query = searchQuery.toLowerCase();
+        var query = normalizeSearch(searchQuery);
 
         allCards.forEach(function(card) {
             var matchesCategory = !activeCategory || card.getAttribute('data-category') === activeCategory;
             var matchesSearch = true;
 
             if (query) {
-                var termId = (card.getAttribute('data-term-id') || '').toLowerCase();
-                var termName = (card.querySelector('.compact-term-name') || {}).textContent || '';
-                var definition = (card.querySelector('.compact-definition') || {}).textContent || '';
-                var fullTerm = (card.querySelector('.compact-full-term') || {}).textContent || '';
-                var searchable = (termId + ' ' + termName + ' ' + definition + ' ' + fullTerm).toLowerCase();
-                matchesSearch = searchable.indexOf(query) !== -1;
+                matchesSearch = searchableCards.get(card).indexOf(query) !== -1;
             }
 
             if (matchesCategory && matchesSearch) {
@@ -97,7 +106,11 @@
         for (var i = 0; i < pairs.length; i++) {
             var kv = pairs[i].split('=');
             if (kv[0] === 'cat' || kv[0] === 'category') {
-                return decodeURIComponent(kv[1] || '');
+                try {
+                    return decodeURIComponent(kv[1] || '');
+                } catch (error) {
+                    return '';
+                }
             }
         }
         return '';
@@ -118,7 +131,11 @@
 
     function activatePill(category, opts) {
         opts = opts || {};
-        activeCategory = category || '';
+        // Treat the fragment as data, not a CSS selector, and ignore unknown IDs.
+        var knownCategory = !category || (pillContainer && Array.from(pillContainer.querySelectorAll('.category-pill')).some(function(pill) {
+            return pill.getAttribute('data-category') === category;
+        }));
+        activeCategory = knownCategory ? category || '' : '';
         if (pillContainer) {
             pillContainer.querySelectorAll('.category-pill').forEach(function(p) {
                 var isMatch = (p.getAttribute('data-category') || '') === activeCategory;
@@ -171,6 +188,7 @@
         alphabetContainer.addEventListener('click', function(e) {
             var link = e.target.closest('.alphabet-link');
             if (!link) return;
+            if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
             // Block jumps to empty letters
             if (link.classList.contains('is-empty')) {
                 e.preventDefault();
@@ -182,12 +200,15 @@
             e.preventDefault();
             var behavior = prefersReducedMotion ? 'auto' : 'smooth';
             section.scrollIntoView({ behavior: behavior, block: 'start' });
+            var hadTabindex = section.hasAttribute('tabindex');
+            if (!hadTabindex) section.setAttribute('tabindex', '-1');
+            section.focus({ preventScroll: true });
+            if (!hadTabindex) {
+                section.addEventListener('blur', function() { section.removeAttribute('tabindex'); }, { once: true });
+            }
             setActiveAlphabetLetter(letter);
             // Update URL fragment without triggering native jump
             if (window.history && window.history.replaceState) {
-                var hashParts = [];
-                if (activeCategory) hashParts.push('cat=' + encodeURIComponent(activeCategory));
-                hashParts.push('letter-' + letter);
                 // Hash carries either filter or letter target; keep filter if active
                 var newHash = activeCategory
                     ? '#cat=' + encodeURIComponent(activeCategory)
@@ -221,7 +242,7 @@
         var urlCategory = urlParams.get('category');
         if (urlCategory) initialCategory = urlCategory;
     }
-    if (initialCategory && pillContainer && pillContainer.querySelector('[data-category="' + initialCategory + '"]')) {
+    if (initialCategory) {
         activatePill(initialCategory, { persist: false });
     }
 

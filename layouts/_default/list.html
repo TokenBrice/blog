@@ -95,7 +95,7 @@
             <div class="subsection-list">
                 <div class="article-list--tile">
                     {{ range . }}
-                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
+                        {{ partial "article-list/tile" (dict "context" . "Page" $ "size" "250x150" "Type" "section") }}
                     {{ end }}
                 </div>
             </div>

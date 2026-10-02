@@ -221,6 +221,9 @@ class Search {
         const url = new URL(window.location.href);
         if (query) url.searchParams.set('keyword', query);
         else url.searchParams.delete('keyword');
+        // Live typing already updates this URL; Enter must not add an identical
+        // history entry that makes Back appear unresponsive.
+        if (url.href === window.location.href) return;
         if (replaceState) window.history.replaceState(null, '', url);
         else window.history.pushState(null, '', url);
     }

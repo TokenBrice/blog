@@ -10,6 +10,10 @@ projects:
     tagline:
       en: Stablecoin analytics dashboard
       fr: Tableau de bord d'analyse des stablecoins
+    introduction: /post/2026/pharos
+    home_summary:
+      en: Stablecoin pegs, liquidity and risk monitoring.
+      fr: Suivi du peg, de la liquidité et du risque stablecoin.
   - id: polaris
     name: Polaris
     url: https://polaris.finance
@@ -21,3 +25,7 @@ projects:
     tagline:
       en: Self-scaling stablecoin OS
       fr: OS stablecoin auto-évolutif
+    introduction: /post/2026/why-polaris
+    home_summary:
+      en: Stablecoins with an immutable core and onchain collateral.
+      fr: Des stablecoins au cœur immuable, au collatéral onchain.

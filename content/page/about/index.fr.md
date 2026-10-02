@@ -30,7 +30,7 @@ J'ai passé des années à écrire sur la DeFi, analyser des protocoles, regarde
 Si vous avez vu des stablecoins abandonner leurs fondations et senti que quelque chose n'allait pas, vous comprenez pourquoi nous sommes là. Si vous croyez que la décentralisation est une propriété d'architecture, pas de marketing, vous comprenez ce que nous construisons. **[Polaris](https://polaris.finance)** n'est pas juste un énième protocole DeFi : c'est la réponse immunitaire éruptive de la DeFi au virus USDC/T. On est dans les tranchées depuis trop longtemps pour voir l'espace auquel on a dédié nos vies finir capturé, domestiqué et neutralisé comme l'a été Internet.
 
 <a href="/fr/why-polaris/" style="display:block; text-decoration:none; color:inherit; border:1px solid var(--card-separator-color, #e0e0e0); border-radius:12px; overflow:hidden; transition:box-shadow 0.2s, transform 0.2s; margin:1.5rem 0;">
-<img src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Pourquoi Polaris ?" style="width:100%; display:block;">
+{{< picture src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Pourquoi Polaris ?" class="about-project-cover" >}}
 <div style="padding:1.25rem 1.5rem;">
 <strong style="font-size:2.2rem !important; display:block; margin-bottom:0.6rem; line-height:1.3;">Pourquoi Polaris ? Le stablecoin qu’il nous fallait construire</strong>
 <span style="opacity:0.7; font-size:1.5rem !important; line-height:1.6; display:block;">Après des années à voir les stablecoins sacrifier la décentralisation à la croissance, nous en construisons un qui ne peut pas le faire : un cœur immuable, sans contrepartie, qui passe à l’échelle tout seul.</span>
@@ -47,17 +47,17 @@ Je travaille à développer l'écosystème de la finance décentralisée Ethereu
 
 | Logo | Projet | Description | Rôle |
 | :---: | :--- | :--- | :--- |
-| <img src="/img/others/polaris-emblem.png" alt="" width="80"> | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Pourquoi Polaris ?](/fr/why-polaris/)** | Cofondateur historique et conseiller stratégique |
-| <img src="/img/others/pharos.png" alt="" width="80"> | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant les stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. **[Présentation de Pharos](/fr/pharos/)** | Créateur |
-| <img src="/img/others/symbol_tdc_color.png" alt="" width="80"> | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
+| {{< picture src="/img/others/polaris-emblem.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Pourquoi Polaris ?](/fr/why-polaris/)** | Cofondateur historique et conseiller stratégique |
+| {{< picture src="/img/others/pharos.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant les stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. **[Présentation de Pharos](/fr/pharos/)** | Créateur |
+| {{< picture src="/img/others/symbol_tdc_color.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
 
 ### Quêtes Secondaires
 
 | Logo | Projet | Description | Rôle |
 | :---: | :--- | :--- | :--- |
-| <img src="/img/main/emblem-color-square-250.png" alt="" width="80"> | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
-| <img src="/img/others/defiscan.png" alt="" width="80"> | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
-| <img src="/img/others/defifrance-logo.png" alt="" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
+| {{< picture src="/img/main/emblem-color-square-250.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
+| {{< picture src="/img/others/defiscan.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
+| {{< picture src="/img/others/defifrance-logo.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
 
 ### Engagements Précédents
 

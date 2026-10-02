@@ -11,6 +11,17 @@
     }
 }
 
+/* The navigation landmark must shrink inside the bounded desktop sidebar so
+   the menu's existing overflow can reach language and color-scheme controls. */
+@media (min-width: 768px) {
+    .left-sidebar > nav {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        min-height: 0;
+    }
+}
+
 #main-menu {
     ol {
         list-style: none;

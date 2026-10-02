@@ -28,7 +28,7 @@ I've spent years writing about DeFi, analyzing protocols, watching the compromis
 If you've seen stablecoins abandon their foundations and felt something was wrong, you understand why we're here. If you believe that decentralization is a property of architecture, not marketing, you understand what we're building. **[Polaris](https://polaris.finance)** is not just yet another DeFi protocol: it's DeFi's immune system eruptive answer to the USDC/T virus. We've been in the trenches for too long to see the space we've dedicated our lives to end up captured, tamed and neutralized like the Internet was.
 
 <a href="/why-polaris/" style="display:block; text-decoration:none; color:inherit; border:1px solid var(--card-separator-color, #e0e0e0); border-radius:12px; overflow:hidden; transition:box-shadow 0.2s, transform 0.2s; margin:1.5rem 0;">
-<img src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Why Polaris?" style="width:100%; display:block;">
+{{< picture src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Why Polaris?" class="about-project-cover" >}}
 <div style="padding:1.25rem 1.5rem;">
 <strong style="font-size:2.2rem !important; display:block; margin-bottom:0.6rem; line-height:1.3;">Why Polaris? The Stablecoin we needed to build</strong>
 <span style="opacity:0.7; font-size:1.5rem !important; line-height:1.6; display:block;">After years watching stablecoins abandon decentralization for growth, we are building one that can't: harnessing an immutable core, free of counterparty, and self-scaling.</span>
@@ -45,17 +45,17 @@ I'm working to grow the Ethereum decentralized finance ecosystem while ensuring 
 
 | Logo | Project | Description | Role |
 | :---: | :--- | :--- | :--- |
-| <img src="/img/others/polaris-emblem.png" alt="" width="80"> | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Original Cofounder and Strategic Advisor |
-| <img src="/img/others/pharos.png" alt="" width="80"> | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
-| <img src="/img/others/symbol_tdc_color.png" alt="" width="80"> | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
+| {{< picture src="/img/others/polaris-emblem.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Polaris](https://polaris.finance) | DeFi's immune response to stablecoin centralization: an immutable, counterparty-free, self-scaling stablecoin. **[Why Polaris?](https://tokenbrice.xyz/why-polaris/)** | Original Cofounder and Strategic Advisor |
+| {{< picture src="/img/others/pharos.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Pharos](https://pharos.watch) | Stablecoin monitoring dashboard tracking stablecoins across every major chain with honest governance classification, live peg deviations, freeze tracking, and onchain analytics. **[Presenting Pharos](/pharos/)** | Creator |
+| {{< picture src="/img/others/symbol_tdc_color.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [The DeFi Collective](https://deficollective.org) | Swiss non-profit association, self-appointing no questions and compensation asked to support anti-fragile DeFi protocols. **[Announcement](https://tokenbrice.xyz/defi-collective/)** | Boardmember & Treasury Management |
 
 ### Side Quests
 
 | Logo | Project | Description | Role |
 | :---: | :--- | :--- | :--- |
-| <img src="/img/main/emblem-color-square-250.png" alt="" width="80"> | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
-| <img src="/img/others/defiscan.png" alt="" width="80"> | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
-| <img src="/img/others/defifrance-logo.png" alt="" width="80"> | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
+| {{< picture src="/img/main/emblem-color-square-250.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [TokenBrice](https://tokenbrice.xyz) | With this blog and my [live shows](/shows/), I explain the fundamental concepts related to decentralized finance and NFTs. We analyze projects and new mechanisms together. | Host/Author |
+| {{< picture src="/img/others/defiscan.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFiScan](https://defiscan.info) | A decentralization assessment framework, applied to all major protocols, enabling anyone even non-technical users to understand the effective state of decentralization of their favorite protocols. | Strategy & Growth |
+| {{< picture src="/img/others/defifrance-logo.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFi France](https://docs.defi-france.org) | Co-organized the main French-speaking DeFi community: monthly meetups, weekly [live shows](https://www.youtube.com/c/defifrance), and discussion groups. | Co-organizer |
 
 ### Previous Engagements
 

@@ -471,6 +471,12 @@ other = "Tutoriel"
 [disclosureBoth]
 other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse de stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille. J’en parle ici."
 
+[homeProjectsTitle]
+other = "Mes projets"
+
+[homeProjectsIntroduction]
+other = "Découvrir {{ .Project }}"
+
 [disclosurePharos]
 other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins). J’en parle ici."
 

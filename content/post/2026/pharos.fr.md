@@ -13,7 +13,25 @@ toc: true
 draft: false
 type: post
 difficulty: "intermediate"
+lastmod: '2026-10-02'
+context:
+  kind: update
+  checked: '2026-10-02'
+  text: "Cet article présente Pharos à son lancement en mars 2026. La couverture, les fonctionnalités, l'équipe et le financement ont évolué depuis. Lisez la mise à jour datée ci-dessous avant de considérer le texte original comme actuel ; le concours de lancement est terminé."
+  sources:
+    - https://pharos.watch/about/
+    - https://pharos.watch/funding/
 ---
+
+## Mise à jour du 2 octobre 2026
+
+Je mène toujours Pharos, et Ike m'a rejoint pour prendre en charge la croissance et la communication. La [page de l'équipe](https://pharos.watch/about/) décrit notre fonctionnement actuel.
+
+Le dashboard reste gratuit et open source. Le financement a évolué depuis le lancement : Pharos repose désormais sur le soutien de la communauté et prévoit un accès API payant pour les usages programmatiques intensifs. Le [registre public de financement](https://pharos.watch/funding/) documente ce soutien.
+
+La présentation originale ci-dessous décrit le projet au lancement : couverture, méthodologie, développement en solo et plans de financement de l'époque. Pour les fonctionnalités et la méthodologie actuelles, consultez [Pharos](https://pharos.watch/) et sa [documentation](https://pharos.watch/methodology/). Le concours de lancement d'une semaine, doté de 3 000 BOLD, est terminé.
+
+## Présentation originale du 12 mars 2026
 
 [Pharos](https://pharos.watch) est un dashboard gratuit et open source qui surveille le peg, le risque et la liquidité des stablecoins. Voici le problème auquel il répond.
 
@@ -33,7 +51,7 @@ Pharos est un dashboard d'analyse des stablecoins qui suit **156 stablecoins** �
 
 Le projet est entièrement [open source](https://github.com/TokenBrice/stablecoin-dashboard). Pas de compte. Pas de connexion wallet. Pas de monétisation, maintenant ou plus tard. **Pharos est un bien public** : gratuit, ouvert, et conçu pour donner à tout le monde le niveau d'intelligence stablecoin qui nécessitait jusqu'ici de construire sa propre infrastructure.
 
-Si vous avez lu mon [article précédent sur la crise de la couche de curation de la DeFi](/defi-ux-disaster/), vous connaissez déjà la thèse : l'espace a désespérément besoin de meilleurs services d'information. Pharos est ma façon de mettre mon argent là où est ma bouche, littéralement. Le projet est entièrement autofinancé, construit en solo, et restera librement accessible.
+Si vous avez lu mon [article précédent sur la crise de la couche de curation de la DeFi](/fr/defi-ux-disaster/), vous connaissez déjà la thèse : l'espace a désespérément besoin de meilleurs services d'information. Pharos est ma façon de mettre mon argent là où est ma bouche, littéralement. Le projet est entièrement autofinancé, construit en solo, et restera librement accessible.
 
 ## Penser les stablecoins correctement
 
@@ -170,7 +188,7 @@ Je veux être explicite là-dessus parce que c'est essentiel.
 
 **Pharos n'a pas de monétisation, pas de token, et aucun plan pour l'un ou l'autre.** Tout le code est open source. Il n'y a pas de tiers premium, pas de fonctionnalités verrouillées, pas de "contactez-nous pour l'offre enterprise". Chaque métrique, score et dataset calculé par Pharos est librement disponible pour tout le monde. Une API est disponible pour tous.
 
-C'est un choix délibéré. J'ai passé des années à défendre l'idée que la DeFi a besoin d'une meilleure infrastructure d'information, que la [couche de curation est sous-financée et sous-estimée](/defi-ux-disaster/). Pharos est ma réponse à ma propre critique. L'écosystème stablecoin est trop important et trop complexe pour que l'intelligence de risque soit enfermée derrière des paywalls.
+C'est un choix délibéré. J'ai passé des années à défendre l'idée que la DeFi a besoin d'une meilleure infrastructure d'information, que la [couche de curation est sous-financée et sous-estimée](/fr/defi-ux-disaster/). Pharos est ma réponse à ma propre critique. L'écosystème stablecoin est trop important et trop complexe pour que l'intelligence de risque soit enfermée derrière des paywalls.
 
 Le projet est construit en solo et autofinancé. La stack technique (frontend Next.js, backend Cloudflare Workers + D1) est conçue pour garder des coûts d'exploitation minimaux tout en gérant l'échelle des données : plus de 20 cron jobs, plus de 15 sources de données, 68 migrations de base de données. L'architecture vise la soutenabilité comme bien public, pas la maximisation du revenu.
 
@@ -188,4 +206,4 @@ Pharos continuera d'étendre sa couverture et d'affiner ses modèles. Si vous vo
 
 Les stablecoins ont gagné la course à l'adoption. Il est temps que l'infrastructure d'information rattrape son retard.
 
-PS : un concours d'une semaine de production de contenu (à partir des données Pharos) et de soumission de feedback est en cours, avec 3000 BOLD à gagner au total. [Participez](https://x.com/PharosWatch/status/2032107485629202921)
+**Concours de lancement (archive) :** le concours d'une semaine de création de contenu et de feedback offrait 3 000 BOLD au total. Il est terminé. [Annonce originale](https://x.com/PharosWatch/status/2032107485629202921)

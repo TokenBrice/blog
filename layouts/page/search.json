@@ -26,7 +26,7 @@
     {{- if and $type (not .Params.noindex) (not $externalCanonical) -}}
         {{- $title := .Title -}}
         {{- $names := slice -}}
-        {{- $searchText := delimit (slice (.Description | plainify) (.Summary | plainify)) " " -}}
+        {{- $searchText := delimit (slice (.Description | plainify | htmlUnescape) (.Summary | plainify | htmlUnescape)) " " -}}
         {{- if eq $type "term" -}}
             {{- with index $termsByID .Params.glossary_id -}}
                 {{- $fullName := .full_term | default .term -}}
@@ -35,7 +35,7 @@
                     {{- $title = printf "%s (%s)" .term $fullName -}}
                 {{- end -}}
                 {{- $names = slice .term $fullName -}}
-                {{- $searchText = delimit (slice (.short_definition | default "" | plainify) (.definition | default "" | plainify)) " " -}}
+                {{- $searchText = delimit (slice (.short_definition | default "" | plainify | htmlUnescape) (.definition | default "" | plainify | htmlUnescape)) " " -}}
             {{- end -}}
         {{- end -}}
         {{- $data := dict "title" $title "type" $type "date" .Date "permalink" .Permalink "content" $searchText -}}
