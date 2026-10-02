@@ -10,6 +10,7 @@ export function verifyReports(root = process.cwd()) {
   const { ci } = readJSON('.lighthouserc.json');
   const { devDependencies } = readJSON('package.json');
   assert.equal(ci.upload.target, 'filesystem');
+  assert.equal(ci.assert.includePassedAssertions, true, 'LHCI must retain passing assertions');
   const routes = ci.collect.url.map((url) => new URL(url).pathname);
   assert.equal(new Set(routes).size, routes.length, 'Audit routes must be unique');
   const runs = ci.collect.numberOfRuns;

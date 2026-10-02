@@ -3,6 +3,8 @@ import { test } from 'node:test';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { verifyReports } from './verify-lighthouse-reports.mjs';
 
 function fixture(t) {
@@ -15,7 +17,7 @@ function fixture(t) {
   };
   const config = { ci: {
     collect: { url: ['http://localhost/'], numberOfRuns: 3, settings: { formFactor: 'mobile' } },
-    assert: { assertions: { 'categories:performance': ['warn', { minScore: 0.85, aggregationMethod: 'median' }] } },
+    assert: { includePassedAssertions: true, assertions: { 'categories:performance': ['warn', { minScore: 0.85, aggregationMethod: 'median' }] } },
     upload: { target: 'filesystem', outputDir: 'reports' },
   } };
   write('.lighthouserc.json', config);
@@ -57,6 +59,7 @@ for (const [name, mutate] of Object.entries({
   'incorrect median': (f) => { f.results[0].actual = 1; f.write('.lighthouseci/assertion-results.json', f.results); },
   'unknown audit': (f) => { f.results[0].name = 'auditRan'; f.write('.lighthouseci/assertion-results.json', f.results); },
   'changed threshold': (f) => { f.results[0].expected = 0; f.write('.lighthouseci/assertion-results.json', f.results); },
+  'omitted passing assertions': (f) => { delete f.config.ci.assert.includePassedAssertions; f.write('.lighthouserc.json', f.config); },
   'public upload': (f) => { f.config.ci.upload.target = 'temporary-public-storage'; f.write('.lighthouserc.json', f.config); },
 })) {
   test(`rejects ${name}`, (t) => {
@@ -64,4 +67,25 @@ for (const [name, mutate] of Object.entries({
     mutate(f);
     assert.throws(() => verifyReports(f.root));
   });
+}
+
+// Exercise the real wrapper API: LHCI otherwise omits successful assertions.
+for (const score of [0.9, 0.5]) {
+test(`LHCI retains all assertions and keeps warnings non-blocking (score ${score})`, (t) => {
+  const f = fixture(t);
+  const repo = fileURLToPath(new URL('../../', import.meta.url));
+  const config = JSON.parse(fs.readFileSync(path.join(repo, '.lighthouserc.json'), 'utf8'));
+  assert.equal(config.ci.assert.includePassedAssertions, true);
+  f.config.ci.assert.includePassedAssertions = config.ci.assert.includePassedAssertions;
+  f.write('.lighthouserc.json', f.config);
+  for (let i = 0; i < 3; i++) {
+    f.write(`.lighthouseci/lhr-${i}.json`, { ...f.report,
+      finalUrl: f.report.requestedUrl, audits: {}, categories: { performance: { score } } });
+  }
+  const result = spawnSync(process.execPath,
+    [path.join(repo, 'node_modules/@lhci/cli/src/cli.js'), 'assert', '--config=.lighthouserc.json'],
+    { cwd: f.root, encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+  assert.deepEqual(verifyReports(f.root), { reports: 3, assertions: 1 });
+});
 }

@@ -111,6 +111,10 @@ installed Chrome/Chromium. `CHROME_PATH` can select the browser. `make verify`
 also covers source, tooling tests, image generation, build and output checks;
 browser and full Lighthouse checks remain explicit commands.
 
+LHCI is configured with `includePassedAssertions: true` because its default
+output contains only failed assertions. The regression suite exercises the real
+LHCI assertion command to protect this integration.
+
 The report verifier requires 24 HTML/JSON report pairs, one representative run
 per URL, the pinned engine, no runtime error, and 72 populated median assertions
 with all three finite samples. Its regression tests include missing reports,
