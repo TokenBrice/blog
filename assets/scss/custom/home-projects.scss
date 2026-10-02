@@ -22,6 +22,8 @@
     }
 
     &__project {
+        display: flex;
+        flex-direction: column;
         min-width: 0;
     }
 
@@ -56,7 +58,9 @@
 
     &__intro {
         display: inline-flex;
+        align-self: flex-start;
         align-items: center;
+        margin-top: auto;
         min-height: 32px;
         color: var(--ink);
         font-size: var(--fs-meta);
