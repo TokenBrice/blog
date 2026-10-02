@@ -469,13 +469,13 @@ other = "Practical"
 other = "Tutorial"
 
 [disclosureBoth]
-other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics) and co-founded {{ .Polaris }}, which I now advise. Both get covered here; read accordingly."
+other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics) and co-founded {{ .Polaris }}, which I now advise. Both get covered here."
 
 [disclosurePharos]
-other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics). I cover it here; read accordingly."
+other = "<strong>Disclosure:</strong> I build {{ .Pharos }} (stablecoin analytics). I cover it here."
 
 [disclosurePolaris]
-other = "<strong>Disclosure:</strong> I co-founded {{ .Polaris }}, which I now advise. I cover it here; read accordingly."
+other = "<strong>Disclosure:</strong> I co-founded {{ .Polaris }}, which I now advise. I cover it here."
 
 # --- K: context, notices and mobile contents ---
 [contextKindHistorical]

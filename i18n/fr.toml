@@ -469,13 +469,13 @@ other = "Pratique"
 other = "Tutoriel"
 
 [disclosureBoth]
-other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille désormais. Je parle des deux ici ; à lire en connaissance de cause."
+other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins) et j’ai cofondé {{ .Polaris }}, que je conseille désormais. Je parle des deux ici."
 
 [disclosurePharos]
-other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins). J’en parle ici ; à lire en connaissance de cause."
+other = "<strong>Transparence :</strong> je développe {{ .Pharos }} (analyse des stablecoins). J’en parle ici."
 
 [disclosurePolaris]
-other = "<strong>Transparence :</strong> j’ai cofondé {{ .Polaris }}, que je conseille désormais. J’en parle ici ; à lire en connaissance de cause."
+other = "<strong>Transparence :</strong> j’ai cofondé {{ .Polaris }}, que je conseille désormais. J’en parle ici."
 
 # --- K: context, notices and mobile contents ---
 [contextKindHistorical]
