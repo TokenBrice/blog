@@ -3,7 +3,7 @@
     "collect": {
       "numberOfRuns": 3,
       "staticDistDir": "./public",
-      "settings": { "formFactor": "mobile" },
+      "settings": { "formFactor": "mobile", "enableErrorReporting": false },
       "url": [
         "http://localhost/",
         "http://localhost/fr/",
@@ -16,6 +16,7 @@
       ]
     },
     "assert": {
+      "includePassedAssertions": true,
       "assertions": {
         "categories:performance": ["warn", { "minScore": 0.85, "aggregationMethod": "median" }],
         "categories:accessibility": ["warn", { "minScore": 0.95, "aggregationMethod": "median" }],

@@ -9,6 +9,11 @@ set -euo pipefail
 PORT=1314
 REPORT_DIR="$(cd "$(dirname "$0")" && pwd)/lighthouse-reports"
 HUGO_PID=""
+LIGHTHOUSE="$(cd "$(dirname "$0")" && pwd)/node_modules/.bin/lighthouse"
+if [[ ! -x "$LIGHTHOUSE" ]]; then
+  echo "Run npm ci before running Lighthouse." >&2
+  exit 1
+fi
 
 cleanup() {
   if [ -n "$HUGO_PID" ]; then
@@ -43,17 +48,19 @@ for PAGE in "${PAGES[@]}"; do
   [ -z "$SLUG" ] && SLUG="homepage"
 
   echo "Running Lighthouse on $PAGE -> $SLUG..."
-  npx lighthouse "http://localhost:$PORT$PAGE" \
+  "$LIGHTHOUSE" "http://localhost:$PORT$PAGE" \
     --chrome-flags="--headless --no-sandbox" \
     --preset desktop \
+    --no-enable-error-reporting \
     --output html \
     --output-path "$REPORT_DIR/${SLUG}_${TIMESTAMP}.report.html" \
     --quiet 2>&1
 
   # Also generate JSON
-  npx lighthouse "http://localhost:$PORT$PAGE" \
+  "$LIGHTHOUSE" "http://localhost:$PORT$PAGE" \
     --chrome-flags="--headless --no-sandbox" \
     --preset desktop \
+    --no-enable-error-reporting \
     --output json \
     --output-path "$REPORT_DIR/${SLUG}_${TIMESTAMP}.report.json" \
     --quiet 2>&1

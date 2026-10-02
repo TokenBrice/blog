@@ -36,7 +36,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version-file: '.nvmrc'
           cache: 'npm'
 
       - name: Install Node.js dependencies
@@ -60,6 +60,7 @@ jobs:
 
       - name: Validate source and validator regressions
         run: |
+          npm run test:tooling
           npm run test:validators
           npm run validate:glossary
           npm run validate:frontmatter
@@ -128,7 +129,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version-file: '.nvmrc'
+      - name: Install locked audit tools
+        run: npm ci
       - name: Download production Pages artifact
         uses: actions/download-artifact@v4
         with:
@@ -137,7 +140,7 @@ jobs:
       - name: Extract static site
         run: mkdir -p public && tar -xf pages-artifact/artifact.tar -C public
       - name: Run three mobile Lighthouse samples per page
-        run: npx --yes --package=@lhci/cli@0.15.1 lhci autorun --config=.lighthouserc.json
+        run: npm run lighthouse:ci
       - name: Retain Lighthouse reports
         if: always()
         uses: actions/upload-artifact@v4
