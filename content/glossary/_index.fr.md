@@ -4,11 +4,6 @@ description: "Glossaire DeFi avec définitions claires, exemples, articles liés
 date: 2024-01-01
 lastmod: 2026-09-11
 outputs: [HTML]
-menu:
-    main:
-        weight: 5
-        params:
-            icon: vocabulary
 aliases:
     - /glossaire-defi/
     - /dictionnaire/

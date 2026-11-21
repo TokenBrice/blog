@@ -2,30 +2,54 @@ projects:
   - id: pharos
     name: Pharos
     url: https://pharos.watch
-    emblem: img/others/pharos.png
-    emblem_webp: img/others/pharos.webp
+    group: build
+    mark: img/projects/pharos-mark-on-light.svg
+    mark_dark: img/projects/pharos-mark-on-dark.svg
     role:
-      en: creator
-      fr: créateur
-    tagline:
-      en: Stablecoin analytics dashboard
-      fr: Tableau de bord d'analyse des stablecoins
+      en: Founder and maintainer
+      fr: Fondateur et mainteneur
     introduction: /post/2026/pharos
     home_summary:
-      en: Stablecoin pegs, liquidity and risk monitoring.
-      fr: Suivi du peg, de la liquidité et du risque stablecoin.
+      en: Independent stablecoin risk analytics.
+      fr: Analyse indépendante du risque des stablecoins.
+    summary:
+      en: "Pharos is a free, open-source resource for stablecoin research. It tracks peg stability, liquidity, reserve backing and dependencies, and freeze risk so you can look past the price and see what keeps a stablecoin stable."
+      fr: "Pharos est un outil gratuit et open source pour étudier les stablecoins. Il suit la parité, la liquidité, les réserves et leurs dépendances, ainsi que le risque de gel : de quoi voir, au-delà du prix, ce qui fait tenir un stablecoin."
   - id: polaris
     name: Polaris
     url: https://polaris.finance
-    emblem: img/others/polaris-emblem.png
-    emblem_webp: img/others/polaris-emblem.webp
+    group: advise
+    mark: img/projects/polaris-emblem.svg
     role:
-      en: original cofounder, now strategic advisor
-      fr: cofondateur historique, désormais conseiller stratégique
-    tagline:
-      en: Self-scaling stablecoin OS
-      fr: OS stablecoin auto-évolutif
+      en: Co-founder and strategic advisor
+      fr: Cofondateur et conseiller stratégique
     introduction: /post/2026/why-polaris
+    docs: https://docs.polaris.finance/
     home_summary:
-      en: Stablecoins with an immutable core and onchain collateral.
-      fr: Des stablecoins au cœur immuable, au collatéral onchain.
+      en: Building toward stablecoins backed by onchain reserves.
+      fr: Vers des stablecoins adossés à des réserves onchain.
+    summary:
+      en: "Polaris tackles stablecoin centralization at the reserve layer. The team is building pETH, a yield-bearing ETH reserve asset designed to back decentralized stablecoins and synthetic assets."
+      fr: "Polaris s’attaque à la centralisation des stablecoins du côté des réserves. L’équipe développe pETH, un actif de réserve en ETH qui génère du rendement et vise à adosser des stablecoins décentralisés et des actifs synthétiques."
+  - id: claudeville
+    name: ClaudeVille
+    url: https://github.com/TokenBrice/claude-ville
+    group: build
+    role:
+      en: Maintainer of the multi-provider fork
+      fr: Mainteneur du fork multi-fournisseurs
+    home_summary:
+      en: Your AI coding sessions, in a pixel-art village.
+      fr: Vos sessions de code avec l’IA dans un village en pixel art.
+    summary:
+      en: "ClaudeVille is a local, read-only dashboard that turns your AI coding sessions into a pixel-art village. See what’s running, what’s waiting for approval, and where your tokens are going without hopping between terminals."
+      fr: "ClaudeVille est un tableau de bord local, en lecture seule, qui transforme vos sessions de code avec l’IA en village de pixel art. Voyez quelles sessions tournent, lesquelles attendent une validation et combien de jetons elles consomment, sans passer d’un terminal à l’autre."
+    preview:
+      resource: projects/claudeville-activity-panel.png
+      upstream: https://github.com/honorstudio/claude-ville
+      alt:
+        en: Pixel-art village with agent status indicators and an open agent activity panel.
+        fr: Village en pixel art avec les indicateurs d’état des agents et un panneau d’activité ouvert.
+      caption:
+        en: "ClaudeVille’s World view and activity panel. The sessions shown are simulated."
+        fr: "Le village et le panneau d’activité de ClaudeVille. Les sessions à l’écran sont simulées."

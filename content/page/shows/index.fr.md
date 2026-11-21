@@ -1,19 +1,15 @@
 ---
-title: Shows
+title: "Archives des émissions"
+slug: shows
 date: 2025-10-16
-description: "Liens vers les emissions DeFi de TokenBrice en anglais et les anciennes emissions francophones de DeFi France."
+description: "Rediffusions et ressources des anciennes émissions DeFi de TokenBrice, en français et en anglais."
 license: CC BY-NC-ND
-lastmod: '2026-05-18'
+lastmod: '2026-11-21'
 toc: false
-menu:
-    main: 
-        weight: -80
-        params:
-            icon: microphone-2
 readingTime: false
 image: 
 ---
 
-Mes émissions sont désormais en anglais, veuillez vous réferer à la version anglaise de cette page pour plus d'informations.
+Retrouvez les rediffusions de mes émissions anglophones dans les [archives en anglais](/shows/).
 
-Mes anciennes émissions, en francais, restent disponibles sur la [chaine YouTube DeFi France](https://www.youtube.com/c/defifrance).
+Les anciennes émissions en français restent disponibles sur la [chaîne YouTube de DeFi France](https://www.youtube.com/c/defifrance).

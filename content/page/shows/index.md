@@ -1,24 +1,20 @@
 ---
-title: Shows
+title: "Show Archive"
+slug: shows
 date: 2025-10-16
-description: "Live DeFi shows, episode resources, and replay links for In The Arena, Origins of DeFi, and Spotlight."
+description: "Replays, episode notes, and resources from TokenBrice’s past DeFi shows."
 license: CC BY-NC-ND
-lastmod: '2026-05-19'
+lastmod: '2026-11-21'
 toc: false
-menu:
-    main: 
-        weight: -80
-        params:
-            icon: microphone-2
 readingTime: false
 image: 
 ---
 
-I host live shows in English, relayed on [Twitter](https://x.com/TokenBrice) and [YouTube](https://www.youtube.com/@Token_Brice), to explore DeFi protocols, discuss the latest developments, and show you how to harness DeFi practically.
+Replays and resources from my past DeFi shows: stablecoin risk, protocol history, and experiments where I put strategies to work onchain.
 
 ## Stable Talk with Pharos
 
-Stable Talk with Pharos is a stablecoin-focused show where we discuss stablecoin design, risk, and market structure through the lens of Pharos.
+On Stable Talk with Pharos, we discussed stablecoin design, risk, and market structure.
 
 ### Episodes Overview
 
@@ -29,15 +25,7 @@ Stable Talk with Pharos is a stablecoin-focused show where we discuss stablecoin
 
 ## In The Arena
 
-Where we actually do things onchain! The concept is simple: we have one dedicated wallet I fund with $3000 every month, so that, together, every two weeks we can deploy up to $1500 to DeFi protocols. Our job doesn't stop there, as we will track the positions together, decide when to terminate/take profit, and account for everything down to the gwei!
-
-So I show how I harness DeFi, in the hope that this more practical take will inspire viewers to cross the chasm:
-- Researching the protocols and potential positions beforehand
-- Implementing the strategies
-- Accounting and performance measurement
-- Gas management
-
-While I remain in control of the investment decisions since the goal is to show you how I use DeFi, you are welcome to suggest protocols and strategies that I will analyze live, and potentially allocate to.
+In The Arena followed real DeFi positions in a dedicated wallet. I researched and deployed strategies onchain, tracked performance and gas costs, and explained when I decided to exit. The wallet and tracking sheet are linked below.
 
 ### Resources
 
@@ -61,7 +49,7 @@ While I remain in control of the investment decisions since the goal is to show 
 
 ## The Origins of DeFi, with Digital Duniya
 
-With [Digital Duniya](https://www.youtube.com/@Digital%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE), we go back on DeFi's early days, exploring the early history and lore through the lense of landmark protocols.
+With [Digital Duniya](https://www.youtube.com/@Digital%E0%A4%A6%E0%A5%81%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%BE), we revisited DeFi’s early history through landmark protocols.
 
 ### Episodes Overview
 
@@ -79,12 +67,7 @@ With [Digital Duniya](https://www.youtube.com/@Digital%E0%A4%A6%E0%A5%81%E0%A4%A
 
 ## Spotlight
 
-<div align = center>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=ETdxyQVzCJ21aPfU&amp;list=PLZz0VhvssvNOrf7DQu3wAzlJlVWEzEgP9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-
-[Spotlight](https://www.youtube.com/playlist?list=PLZz0VhvssvNOrf7DQu3wAzlJlVWEzEgP9) is a show made to share my DeFi discoveries: I feature protocols I've previously validated as interesting, with a 30-minute research session, and I discover them with you, live, alongside a team member or an expert on the protocol.
+[Spotlight](https://www.youtube.com/playlist?list=PLZz0VhvssvNOrf7DQu3wAzlJlVWEzEgP9) explored one DeFi protocol at a time, with a short research walkthrough and a guest from the team or an expert.
 
 ### Episodes Overview
 

@@ -1,0 +1,12 @@
+{{- $page := .Page -}}
+{{- with $page.Site.GetPage "/page/projects" }}
+    {{- $projects := .RelPermalink -}}
+    <ul class="about-project-roles">
+        {{- range hugo.Data.projects.projects }}
+        <li>
+            <a href="{{ $projects }}#{{ .id }}">{{ partial "project-mark.html" (dict "project" . "size" 24) }}<span>{{ .name }}</span></a>
+            <span>{{ index .role $page.Language.Lang }}</span>
+        </li>
+        {{- end }}
+    </ul>
+{{- end }}

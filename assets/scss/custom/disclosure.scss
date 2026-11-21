@@ -21,11 +21,6 @@
         text-decoration: underline;
         text-underline-offset: 0.2em;
 
-        picture {
-            display: inline-flex;
-            flex: 0 0 28px;
-        }
-
         &:hover {
             text-decoration-color: var(--signal);
         }
@@ -34,13 +29,6 @@
             outline: 2px solid var(--slate);
             outline-offset: 3px;
         }
-    }
-
-    &__emblem {
-        display: block;
-        width: 28px;
-        height: 28px;
-        object-fit: contain;
     }
 
     &--home {

@@ -1,19 +1,26 @@
 {{- $page := . -}}
 <section class="home-projects" aria-labelledby="home-projects-title">
-    <h2 id="home-projects-title" class="home-projects__title">{{ T "homeProjectsTitle" }}</h2>
+    <div class="home-projects__header">
+        <h2 id="home-projects-title" class="home-projects__title">{{ T "homeProjectsTitle" }}</h2>
+        {{- with $page.Site.GetPage "/page/projects" }}
+        <a href="{{ .RelPermalink }}" class="home-projects__all">{{ T "homeProjectsAll" }}</a>
+        {{- end }}
+    </div>
     <div class="home-projects__grid">
         {{- range hugo.Data.projects.projects }}
         {{- $project := . -}}
-        <article class="home-projects__project">
+        <article class="home-projects__project" data-project="{{ .id }}">
             <h3 class="home-projects__name">
-                <a href="{{ .url }}" target="_blank" rel="noopener">
-                    {{ partial "helper/picture.html" (dict "src" (printf "/%s" .emblem) "alt" "" "role" "thumb" "class" "home-projects__emblem" "sizes" "32px" "loading" "eager") }}
+                <a href="{{ .url }}">
+                    {{ partial "project-mark.html" (dict "project" . "loading" "eager") }}
                     <span>{{ .name }}</span>
                 </a>
             </h3>
             <p class="home-projects__summary">{{ index .home_summary $page.Language.Lang }}</p>
-            {{- with $page.Site.GetPage .introduction }}
-            <a class="home-projects__intro" href="{{ .RelPermalink }}">{{ T "homeProjectsIntroduction" (dict "Project" $project.name) }}</a>
+            {{- with .introduction }}
+                {{- with $page.Site.GetPage . }}
+                <a class="home-projects__intro" href="{{ .RelPermalink }}">{{ T "homeProjectsIntroduction" (dict "Project" $project.name) }}</a>
+                {{- end }}
             {{- end }}
         </article>
         {{- end }}

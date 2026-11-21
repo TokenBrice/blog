@@ -1,0 +1,11 @@
+{{- $project := .project -}}
+{{- $size := .size | default 32 -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- with $project.mark -}}
+<span class="project-mark project-mark--{{ $project.id }}{{ with $.class }} {{ . }}{{ end }}" aria-hidden="true">
+    <img src="{{ . | relURL }}" alt="" width="{{ $size }}" height="{{ $size }}" loading="{{ $loading }}" decoding="async">
+    {{- with $project.mark_dark }}
+    <img class="project-mark__dark" src="{{ . | relURL }}" alt="" width="{{ $size }}" height="{{ $size }}" loading="{{ $loading }}" decoding="async">
+    {{- end }}
+</span>
+{{- end -}}

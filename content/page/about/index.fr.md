@@ -8,67 +8,25 @@ aliases:
   - contact
   - about
 license: CC BY-NC-SA 4.0
-lastmod: '2026-09-29'
+lastmod: '2026-11-21'
 toc: false
 menu:
     main:
-        weight: -90
+        name: "À propos"
+        weight: -70
         params:
             icon: user
 readingTime: false
 image: /img/others/star-sky-mountain.png
 ---
 
-Ce blog propose des analyses approfondies de protocoles DeFi, des stratégies de liquidité et des expériences onchain en direct — consultez les [émissions](/shows/) pour voir la DeFi en action.
+J’ai suivi la DeFi sur Ethereum depuis les débuts de MakerDAO. Ici, j’écris sur les mécanismes des protocoles, les stratégies de liquidité et ce qui se passe quand on les met à l’épreuve onchain.
 
-J'ai suivi l'émergence de la finance décentralisée sur Ethereum depuis ses débuts avec le lancement de MakerDAO. Depuis lors, j'ai partagé ma compréhension à travers divers canaux, y compris des [émissions en direct](/shows/), ce blog et mon compte Twitter.
+Mon fil conducteur : faire en sorte qu’il existe davantage de protocoles qui fonctionnent sans tiers de confiance, et qu’on sache les reconnaître. C’est dans cet esprit que j’ai cofondé [The DeFi Collective](https://deficollective.org/) avec Nils Bundi et Florian Prantl en 2023.
 
-Toutes mes actions et mon implication dans l'espace suivent le même but : maximiser le nombre de protocoles trustless disponibles, et leur reconnaissance. À cette fin, j'ai co-fondé [The DeFi Collective](https://deficollective.org/) avec Nils Bundi et Florian Prantl en octobre 2023, une organisation à but non lucratif qui exploite DeFi pour s'auto-financer et soutenir toutes les initiatives pertinentes visant à renforcer la forme la plus décentralisée de finance décentralisée (DeFi).
+Je crée et maintiens Pharos et le fork multi-fournisseurs de ClaudeVille. J’ai cofondé Polaris et j’y reste conseiller stratégique. Retrouvez le détail sur la page [Projets](/fr/projets/).
 
-J'ai passé des années à écrire sur la DeFi, analyser des protocoles, regarder les compromis s'accumuler et les promesses s'évaporer. Alors je suis passé du côté bâtisseur en co-fondant Polaris avec des amis rencontrés en chemin, pour m'attaquer à ce que je considère comme le problème existentiel central de la DeFi : la centralisation des stablecoins, son premier cas d'usage. J'ai depuis quitté mes fonctions de fondateur, mais je reste activement impliqué en tant que conseiller stratégique.
-
-Si vous avez vu des stablecoins abandonner leurs fondations et senti que quelque chose n'allait pas, vous comprenez pourquoi nous sommes là. Si vous croyez que la décentralisation est une propriété d'architecture, pas de marketing, vous comprenez ce que nous construisons. **[Polaris](https://polaris.finance)** n'est pas juste un énième protocole DeFi : c'est la réponse immunitaire éruptive de la DeFi au virus USDC/T. On est dans les tranchées depuis trop longtemps pour voir l'espace auquel on a dédié nos vies finir capturé, domestiqué et neutralisé comme l'a été Internet.
-
-<a href="/fr/why-polaris/" style="display:block; text-decoration:none; color:inherit; border:1px solid var(--card-separator-color, #e0e0e0); border-radius:12px; overflow:hidden; transition:box-shadow 0.2s, transform 0.2s; margin:1.5rem 0;">
-{{< picture src="/img/2026/why-polaris/why-polaris-cover.jpg" alt="Pourquoi Polaris ?" class="about-project-cover" >}}
-<div style="padding:1.25rem 1.5rem;">
-<strong style="font-size:2.2rem !important; display:block; margin-bottom:0.6rem; line-height:1.3;">Pourquoi Polaris ? Le stablecoin qu’il nous fallait construire</strong>
-<span style="opacity:0.7; font-size:1.5rem !important; line-height:1.6; display:block;">Après des années à voir les stablecoins sacrifier la décentralisation à la croissance, nous en construisons un qui ne peut pas le faire : un cœur immuable, sans contrepartie, qui passe à l’échelle tout seul.</span>
-</div>
-</a>
-
----
-
-## Que fais-je ?
-
-Je travaille à développer l'écosystème de la finance décentralisée Ethereum tout en veillant à ce qu'il reste aligné sur ses valeurs fondamentales de sans confiance, accessibilité, résilience et sans permission.
-
-### Projets Principaux
-
-| Logo | Projet | Description | Rôle |
-| :---: | :--- | :--- | :--- |
-| {{< picture src="/img/others/polaris-emblem.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Polaris](https://polaris.finance) | La réponse immunitaire de la DeFi à la centralisation des stablecoins : un stablecoin immuable, sans contrepartie, et auto-scalable. **[Pourquoi Polaris ?](/fr/why-polaris/)** | Cofondateur historique et conseiller stratégique |
-| {{< picture src="/img/others/pharos.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [Pharos](https://pharos.watch) | Tableau de bord de suivi des stablecoins, analysant les stablecoins sur toutes les chaînes majeures avec une classification honnête de gouvernance, des déviations de peg en direct, un suivi des gels et des analyses onchain. **[Présentation de Pharos](/fr/pharos/)** | Créateur |
-| {{< picture src="/img/others/symbol_tdc_color.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [The DeFi Collective](https://deficollective.org) | Association suisse à but non lucratif, s'auto-désignant sans questions ni compensation demandée pour soutenir les protocoles DeFi anti-fragiles. **[Annonce](https://tokenbrice.xyz/fr/defi-collective/)** | Membre du conseil & Gestion de trésorerie |
-
-### Quêtes Secondaires
-
-| Logo | Projet | Description | Rôle |
-| :---: | :--- | :--- | :--- |
-| {{< picture src="/img/main/emblem-color-square-250.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [TokenBrice](https://tokenbrice.xyz) | Avec ce blog et mes [émissions en direct](/shows/), j'explique les concepts fondamentaux liés à la finance décentralisée et aux NFTs. Nous analysons ensemble les projets et les nouveaux mécanismes. | Animateur/Auteur |
-| {{< picture src="/img/others/defiscan.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFiScan](https://defiscan.info) | Un cadre d'évaluation de la décentralisation, appliqué à tous les principaux protocoles, permettant à quiconque, même aux utilisateurs non techniques, de comprendre l'état effectif de décentralisation de leurs protocoles préférés. | Stratégie & Croissance |
-| {{< picture src="/img/others/defifrance-logo.png" alt="" role="thumb" sizes="80px" class="about-project-logo" >}} | [DeFi France](https://docs.defi-france.org) | Co-organisation de la principale communauté francophone DeFi : meetups mensuels, [émissions en direct](https://www.youtube.com/c/defifrance) hebdomadaires et groupes de discussion. | Co-organisateur |
-
-### Engagements Précédents
-
-- **[Luchadores](https://luchadores.io)** — Baleine alpha & Conseil DeFi pour une collection NFT 100% onchain (SVG + ChainLink VRF) avec un modèle de jeu stratégique autobattler Fight 2 Earn. **[La thèse Luchadores](https://tokenbrice.xyz/fr/luchadores-nft/)**
-- **[Leverage Sir](https://www.sir.trading/)** — Conseil DeFi & BD pour un protocole de levier sans liquidation, sans frais continus, à levier polynomial constant. **[Leverage comme un Sir](https://tokenbrice.xyz/fr/leverage-sir/)**
-- **GHO Liquidity Committee** — Rejoint à la demande de la communauté en octobre 2023 pour aider au repeg de GHO et optimiser sa stratégie de liquidité. Départ en février 2024. **[Adieu](/fr/farewell-glc/)**
-- **[Liquity](https://www.liquity.org/)** — Ingénieur de liquidité pendant plus de 18 mois, contribuant à la croissance d'un des protocoles de prêt les plus résilients de la DeFi. **[Annonce](/fr/joining-liquity/)**
-- **[ParaSwap (désormais Velora)](https://paraswap.io)** — Aide au lancement de la DAO et aux premières contributions.
-- **[Monolith](https://monolith.xyz)** — Community Manager pendant 18 mois avant de se consacrer pleinement aux engagements communautaires DeFi.
-
----
+{{< project-roles >}}
 
 ## TokenBrice.xyz
 
@@ -89,4 +47,4 @@ N'hésitez pas à me contacter pour discuter d'Ethereum, de DeFi et de tout autr
 | :--- | :--- | :--- | :--- |
 | [@TokenBrice](https://x.com/tokenbrice) | [@TokenBrice](https://t.me/tokenbrice) | [@TokenBrice_News](https://t.me/tokenbrice_news) | [TokenBrice](https://warpcast.com/tokenbrice) |
 
-Nouveau ici ? Commencez par les [derniers articles](/fr/) ou regardez [les émissions](/shows/).
+Nouveau ici ? Commencez par les [derniers articles](/fr/) ou parcourez les [archives des émissions](/fr/shows/).

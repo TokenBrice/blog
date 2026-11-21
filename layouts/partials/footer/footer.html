@@ -8,7 +8,7 @@
         {{ with site.GetPage "page/subscribe" }}<a href="{{ .RelPermalink }}" data-placement="footer" data-purpose="follow">{{ T "menuSubscribe" }}</a>{{ end }}
         <a href="{{ "/guides/" | relLangURL }}" data-placement="footer">{{ T "menuGuides" }}</a>
         <a href="{{ "/glossary/" | relLangURL }}" data-placement="footer">{{ T "menuGlossary" }}</a>
-        <a href="{{ "/shows/" | relLangURL }}" data-placement="footer">{{ T "menuShows" }}</a>
+        {{ with site.GetPage "page/shows" }}<a href="{{ .RelPermalink }}" data-placement="footer">{{ T "menuShows" }}</a>{{ end }}
         {{ with site.GetPage "page/about" }}<a href="{{ .RelPermalink }}" data-placement="footer">{{ T "menuAbout" }}</a>{{ end }}
         <a href="https://github.com/tokenbrice/blog" rel="external noopener" data-placement="footer">GitHub</a>
     </nav>

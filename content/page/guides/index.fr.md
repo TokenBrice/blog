@@ -16,8 +16,8 @@ reading_path:
   - { path: "/governance/", group: core, category: analysis }
 menu:
     main:
-        name: Guides
-        weight: -85
+        name: "Guides DeFi"
+        weight: -80
         params:
             icon: book
 ---
