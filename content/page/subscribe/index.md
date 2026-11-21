@@ -1,17 +1,12 @@
 ---
-title: Subscribe
-description: "Follow TokenBrice through RSS and social channels for new DeFi articles, live shows, and protocol research."
+title: "Follow / RSS"
+description: "Follow TokenBrice through RSS and social channels for new DeFi articles, project updates, and protocol research."
 date: 2026-05-18
-lastmod: '2026-05-18'
+lastmod: '2026-11-21'
 slug: "subscribe"
 license: CC BY-NC-SA 4.0
 toc: false
 readingTime: false
-menu:
-    main:
-        weight: -50
-        params:
-            icon: rss
 ---
 
 The simplest way to follow the blog is the full-content RSS feed:
@@ -19,7 +14,7 @@ The simplest way to follow the blog is the full-content RSS feed:
 - [English RSS feed](/index.xml)
 - [French RSS feed](/fr/index.xml)
 
-You can also follow the public channels where new articles, live shows, and project updates are announced:
+You can also follow these public channels for new articles and project updates:
 
 | Channel | Link |
 | :--- | :--- |

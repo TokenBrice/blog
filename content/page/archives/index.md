@@ -9,7 +9,8 @@ toc: false
 readingTime: false
 menu:
     main:
-        weight: -70
+        name: "Writing"
+        weight: -90
         params: 
             icon: archives
 ---

@@ -1,26 +1,20 @@
 ---
-title: S'abonner
-description: "Suivez TokenBrice via RSS et les canaux sociaux pour les nouveaux articles DeFi, emissions et analyses de protocoles."
+title: "Suivre / RSS"
+description: "Suivez les articles DeFi et les nouvelles des projets de TokenBrice par RSS ou sur les réseaux sociaux."
 date: 2026-05-18
-lastmod: '2026-05-18'
+lastmod: '2026-11-21'
 slug: "subscribe"
 license: CC BY-NC-SA 4.0
 toc: false
 readingTime: false
-menu:
-    main:
-        name: S'abonner
-        weight: -50
-        params:
-            icon: rss
 ---
 
 Le moyen le plus simple de suivre le blog reste le flux RSS en contenu complet :
 
 - [Flux RSS en anglais](/index.xml)
-- [Flux RSS en francais](/fr/index.xml)
+- [Flux RSS en français](/fr/index.xml)
 
-Vous pouvez aussi suivre les canaux publics ou sont annonces les nouveaux articles, emissions et projets :
+Vous pouvez aussi suivre ces canaux pour les nouveaux articles et les nouvelles des projets :
 
 | Canal | Lien |
 | :--- | :--- |

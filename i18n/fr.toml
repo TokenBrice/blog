@@ -283,7 +283,7 @@ other = "Glossaire"
 other = "Guides"
 
 [menuShows]
-other = "Émissions"
+other = "Archives des émissions"
 
 [menuAbout]
 other = "À propos"
@@ -292,7 +292,7 @@ other = "À propos"
 other = "Commencez ici"
 
 [menuSubscribe]
-other = "S'abonner"
+other = "Suivre / RSS"
 
 [toggleColorScheme]
 other = "Basculer le thème"
@@ -667,3 +667,15 @@ other = "Parcours de lecture"
 [q2ReadingPathCount]
 one = "1 parcours de lecture"
 other = "{{ .Count }} parcours de lecture"
+
+[homeProjectsAll]
+other = "Voir tous les projets"
+
+[projectsGithub]
+other = "Voir sur GitHub"
+
+[projectsDocs]
+other = "Documentation"
+
+[projectsUpstream]
+other = "Projet d’origine :"

@@ -6,8 +6,17 @@
     background: var(--surface);
     color: var(--ink);
 
+    &__header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--space-3);
+    }
+
     &__title {
-        margin: 0 0 var(--space-3);
+        margin: 0;
         font-family: var(--font-body);
         font-size: var(--fs-micro);
         font-weight: 700;
@@ -15,9 +24,16 @@
         text-transform: uppercase;
     }
 
+    &__all {
+        color: var(--ink);
+        font-size: var(--fs-meta);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
     &__grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: var(--space-5);
     }
 
@@ -40,13 +56,6 @@
             min-height: 44px;
             color: var(--ink);
         }
-    }
-
-    &__emblem {
-        display: block;
-        width: 32px;
-        height: 32px;
-        object-fit: contain;
     }
 
     &__summary {
@@ -83,10 +92,72 @@
         font-size: var(--fs-meta);
     }
 
-    @media (max-width: 479px) {
+    @media (max-width: 600px) {
         &__grid {
             grid-template-columns: 1fr;
             gap: var(--space-3);
         }
+    }
+}
+
+.project-mark {
+    display: inline-grid;
+    flex: none;
+    place-items: center;
+    vertical-align: middle;
+
+    img {
+        display: block;
+        object-fit: contain;
+    }
+
+    .project-mark__dark {
+        display: none;
+    }
+
+    [data-scheme="dark"] &--pharos {
+        img:not(.project-mark__dark) { display: none; }
+        .project-mark__dark { display: block; }
+    }
+
+    &--polaris {
+        padding: 3px;
+        border-radius: 5px;
+        background: #161a24;
+    }
+}
+
+.article-content {
+    .project-profile {
+        margin: var(--space-4) 0;
+        padding: var(--space-4);
+        border: 1px solid var(--rule);
+        border-radius: var(--radius-card);
+
+        h3 {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            margin: 0;
+        }
+
+        &__role {
+            margin: var(--space-2) 0;
+            color: var(--ink-2);
+            font-size: var(--fs-small);
+        }
+
+        &__preview {
+            margin: var(--space-3) 0 0;
+
+            img { border-radius: var(--radius-card); }
+        }
+    }
+
+    .about-project-roles a {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        margin-inline-end: var(--space-2);
     }
 }

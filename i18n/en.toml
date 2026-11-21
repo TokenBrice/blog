@@ -283,7 +283,7 @@ other = "Glossary"
 other = "Guides"
 
 [menuShows]
-other = "Shows"
+other = "Show Archive"
 
 [menuAbout]
 other = "About"
@@ -292,7 +292,7 @@ other = "About"
 other = "Start here"
 
 [menuSubscribe]
-other = "Subscribe"
+other = "Follow / RSS"
 
 [toggleColorScheme]
 other = "Toggle color scheme"
@@ -667,3 +667,15 @@ other = "Reading paths"
 [q2ReadingPathCount]
 one = "1 reading path"
 other = "{{ .Count }} reading paths"
+
+[homeProjectsAll]
+other = "View all projects"
+
+[projectsGithub]
+other = "View on GitHub"
+
+[projectsDocs]
+other = "Documentation"
+
+[projectsUpstream]
+other = "Original project:"

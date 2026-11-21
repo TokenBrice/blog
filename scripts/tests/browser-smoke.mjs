@@ -95,10 +95,37 @@ try {
   await page.setViewport({ width: 1440, height: 960 });
   for (const lang of ["", "/fr"]) {
     await go(lang + "/");
-    assert.equal(
-      await page.$$eval(".home-projects__project", (x) => x.length),
-      2,
+    const projects = lang ? "/fr/projets/" : "/projects/";
+    assert.deepEqual(
+      await page.$$eval(".home-projects__project", (cards) =>
+        cards.map((card) => card.dataset.project),
+      ),
+      ["pharos", "polaris", "claudeville"],
     );
+    assert.equal(
+      await page.$eval(".home-projects__all", (link) => new URL(link.href).pathname),
+      projects,
+    );
+    assert.deepEqual(
+      await page.$$eval("#main-menu > li:not([class*='menu-']) > a", (links) =>
+        links.map((link) => new URL(link.href).pathname),
+      ),
+      [projects, lang + "/archives/", lang + "/guides/", lang ? "/fr/a-propos/" : "/about/"],
+    );
+    assert.deepEqual(
+      await page.$$eval(".disclosure--home .disclosure__project", (links) =>
+        links.map((link) => link.textContent.trim()),
+      ),
+      ["Pharos", "Polaris"],
+    );
+    const light = await page.$eval(
+      '[data-project="pharos"] .project-mark img:not(.project-mark__dark)',
+      async (img) => {
+        await img.decode();
+        return getComputedStyle(img).display !== "none" && img.src.endsWith("pharos-mark-on-light.svg");
+      },
+    );
+    assert.ok(light);
     assert.deepEqual(
       await page.$$eval(".home-projects__intro", (xs) =>
         xs.map((x) => new URL(x.href).pathname),
@@ -108,7 +135,7 @@ try {
     const widths = await page.$$eval(".home-projects__project", (xs) =>
       xs.map((x) => x.getBoundingClientRect().width),
     );
-    assert.ok(Math.abs(widths[0] - widths[1]) < 1);
+    assert.ok(widths.every((width) => Math.abs(width - widths[0]) < 1));
     assert.equal(
       await page.$eval("#sidebar-search-input", (x) =>
         x.labels[0].textContent.trim(),
@@ -116,6 +143,61 @@ try {
       lang ? "Rechercher" : "Search",
     );
     await screenshot(`${lang ? "fr" : "en"}-desktop`);
+    await go(projects);
+    assert.equal(
+      await page.$eval("link[hreflang='" + (lang ? "en" : "fr") + "']", (link) => new URL(link.href).pathname),
+      lang ? "/projects/" : "/fr/projets/",
+    );
+    assert.equal(
+      await page.$eval("#main-menu > li.current > a", (link) => link.getAttribute("aria-current")),
+      "page",
+    );
+    assert.deepEqual(
+      await page.$$eval(".project-profile", (sections) => sections.map((section) => section.id)),
+      ["pharos", "claudeville", "polaris"],
+    );
+    assert.equal(
+      await page.$eval("#claudeville .project-profile__links a", (link) => link.href),
+      "https://github.com/TokenBrice/claude-ville",
+    );
+    const preview = await page.$eval("#claudeville figure", async (figure) => {
+      const img = figure.querySelector("img");
+      img.scrollIntoView();
+      await img.decode();
+      return {
+        alt: img.alt,
+        caption: figure.querySelector("figcaption").textContent,
+        credit: figure.querySelector("figcaption a").href,
+        local: new URL(img.currentSrc).origin === location.origin,
+        responsive: Boolean(img.srcset && img.width && img.height),
+      };
+    });
+    assert.ok(preview.alt && preview.local && preview.responsive);
+    assert.match(preview.caption, /simulat|simulées/i);
+    assert.equal(preview.credit, "https://github.com/honorstudio/claude-ville");
+    await screenshot(`${lang ? "fr" : "en"}-projects-preview-desktop`);
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await screenshot(`${lang ? "fr" : "en"}-projects-desktop`);
+    assert.equal(
+      await page.$eval("link[rel=canonical]", (link) => new URL(link.href).pathname),
+      projects,
+    );
+    assert.equal(
+      await page.$eval('link[rel=alternate][type="application/rss+xml"]', (link) => new URL(link.href).pathname),
+      lang + "/index.xml",
+    );
+    const alternate = lang ? "/projects/" : "/fr/projets/";
+    await Promise.all([
+      page.waitForNavigation({ waitUntil: "networkidle0" }),
+      page.select("#i18n-switch select", alternate),
+    ]);
+    assert.equal(new URL(page.url()).pathname, alternate);
+    await go(lang + "/shows/");
+    assert.ok(await page.$eval("main h1", (heading) => /archive/i.test(heading.textContent)));
+    assert.ok(await page.$eval(".site-footer", (footer, prefix) =>
+      ["/shows/", "/subscribe/", "/index.xml", "/glossary/"].every((route) =>
+        footer.querySelector(`a[href="${prefix + route}"]`),
+      ), lang));
   }
   await go("/pharos/");
   await page.keyboard.press("Tab");
@@ -139,11 +221,6 @@ try {
   for (const height of [600, 768]) {
     await page.setViewport({ width: 1173, height });
     await go("/fr/difficulty/beginner/");
-    const overflow = await page.$eval("#main-menu", (e) => ({
-      client: e.clientHeight,
-      scroll: e.scrollHeight,
-    }));
-    assert.ok(overflow.scroll > overflow.client);
     await page.focus("#dark-mode-toggle button");
     const rect = await page.$eval("#dark-mode-toggle button", (e) => ({
       y: e.getBoundingClientRect().y,
@@ -238,6 +315,14 @@ try {
       await page.evaluate(() => document.documentElement.dataset.scheme),
       "dark",
     );
+    const dark = await page.$eval(
+      '[data-project="pharos"] .project-mark__dark',
+      async (img) => {
+        await img.decode();
+        return getComputedStyle(img).display !== "none" && img.src.endsWith("pharos-mark-on-dark.svg");
+      },
+    );
+    assert.ok(dark);
     await page.click("#toggle-menu");
     await screenshot(`${lang ? "fr" : "en"}-mobile-dark`);
     await page.click("#toggle-menu");
@@ -247,6 +332,10 @@ try {
   for (const route of [
     "/about/",
     "/fr/a-propos/",
+    "/projects/",
+    "/fr/projets/",
+    "/shows/",
+    "/fr/shows/",
     "/static-roots/",
     "/static-edge/",
   ]) {
@@ -258,7 +347,7 @@ try {
             !img.getAttribute("width") ||
             !img.getAttribute("height") ||
             img.loading !== "lazy" ||
-            !img.srcset,
+            (!new URL(img.src).pathname.endsWith('.svg') && !img.srcset),
         )
         .map((img) => img.src),
     );
@@ -273,7 +362,7 @@ try {
   }
   assert.deepEqual(errors, []);
   console.log(
-    "PASS: project parity, EN/FR links, search labels, keyboard jumps, short sidebars, accent glossary search, malformed fragments, archives palette, entity decoding, search history and mobile dark/menu checks.",
+    "PASS: bilingual portfolio, project marks, archive and menu routes, EN/FR links, search labels, keyboard jumps, short sidebars, accent glossary search, malformed fragments, archives palette, entity decoding, search history and mobile dark/menu checks.",
   );
 } catch (error) {
   if (page) await screenshot("failure").catch(() => {});

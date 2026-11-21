@@ -1,0 +1,37 @@
+{{- $page := .Page -}}
+{{- $lang := $page.Language.Lang -}}
+{{- $group := .Get 0 -}}
+<div class="project-profiles">
+    {{- range where hugo.Data.projects.projects "group" $group }}
+    {{- $project := . -}}
+    <section class="project-profile" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
+        <h3 id="{{ .id }}-title">
+            {{ partial "project-mark.html" (dict "project" .) }}<span>{{ .name }}</span>
+        </h3>
+        <p class="project-profile__role">{{ index .role $lang }}</p>
+        <p>{{ index .summary $lang }}</p>
+        <ul class="project-profile__links">
+            <li><a href="{{ .url }}">{{ if .preview }}{{ T "projectsGithub" }}{{ else }}{{ .name }}{{ end }}</a></li>
+            {{- with .docs }}
+            <li><a href="{{ . }}">{{ T "projectsDocs" }}</a></li>
+            {{- end }}
+            {{- with .introduction }}
+                {{- with $page.Site.GetPage . }}
+                <li><a href="{{ .RelPermalink }}">{{ T "homeProjectsIntroduction" (dict "Project" $project.name) }}</a></li>
+                {{- end }}
+            {{- end }}
+        </ul>
+        {{- with .preview }}
+            {{- $preview := . -}}
+            {{- with resources.Get .resource }}
+            <figure class="project-profile__preview">
+                {{ partial "helper/picture.html" (dict "src" . "alt" (index $preview.alt $lang) "sizes" "(max-width: 767px) 100vw, 850px") }}
+                <figcaption>{{ index $preview.caption $lang }} {{ T "projectsUpstream" }} <a href="{{ $preview.upstream }}">honorstudio/claude-ville</a>.</figcaption>
+            </figure>
+            {{- else }}
+                {{ errorf "Missing project preview: %s" $preview.resource }}
+            {{- end }}
+        {{- end }}
+    </section>
+    {{- end }}
+</div>

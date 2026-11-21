@@ -24,7 +24,7 @@
         {{- $role := index .role $page.Language.Lang | default (index .role "en") -}}
         {{- $emblem := "" -}}
         {{- if eq $variant "home" -}}
-            {{- $emblem = partial "helper/picture.html" (dict "src" (printf "/%s" .emblem) "alt" "" "role" "thumb" "class" "disclosure__emblem" "sizes" "28px" "loading" "eager") -}}
+            {{- $emblem = partial "project-mark.html" (dict "project" . "size" 28 "class" "disclosure__emblem" "loading" "eager") -}}
         {{- end -}}
         {{- $link := printf "<a class=\"disclosure__project\" href=\"%s\" target=\"_blank\" rel=\"noopener\" title=\"%s\">%s<span>%s</span></a>" (htmlEscape .url) (htmlEscape $role) $emblem (htmlEscape .name) -}}
         {{- $links = merge $links (dict .id $link) -}}
