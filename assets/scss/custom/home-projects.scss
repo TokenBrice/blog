@@ -148,6 +148,7 @@
         }
 
         &__preview {
+            width: auto;
             margin: var(--space-3) 0 0;
 
             img { border-radius: var(--radius-card); }
