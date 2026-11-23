@@ -70,6 +70,30 @@ async function screenshot(name) {
     fullPage: false,
   });
 }
+async function assertProjectPreviewFits(route) {
+  const bounds = await page.$eval("#claudeville .project-profile__preview", async (figure) => {
+    const img = figure.querySelector("img");
+    await img.decode();
+    const edges = (element) => {
+      const { left, right, width } = element.getBoundingClientRect();
+      return { left, right, width };
+    };
+    return {
+      card: edges(figure.closest(".project-profile")),
+      figure: edges(figure),
+      picture: edges(figure.querySelector("picture")),
+      image: edges(img),
+    };
+  });
+  const fits = (inner, outer) =>
+    inner.width > 0 && inner.left >= outer.left - 1 && inner.right <= outer.right + 1;
+  assert.ok(
+    fits(bounds.figure, bounds.card) &&
+      fits(bounds.picture, bounds.figure) &&
+      fits(bounds.image, bounds.figure),
+    `ClaudeVille preview fits ${route} at ${page.viewport().width}px: ${JSON.stringify(bounds)}`,
+  );
+}
 try {
   if (!executablePath)
     throw new Error(
@@ -173,6 +197,7 @@ try {
       };
     });
     assert.ok(preview.alt && preview.local && preview.responsive);
+    await assertProjectPreviewFits(projects);
     assert.match(preview.caption, /simulat|simulées/i);
     assert.equal(preview.credit, "https://github.com/honorstudio/claude-ville");
     await screenshot(`${lang ? "fr" : "en"}-projects-preview-desktop`);
@@ -352,6 +377,9 @@ try {
         .map((img) => img.src),
     );
     assert.deepEqual(missing, [], `Responsive image attributes: ${route}`);
+    if (route === "/projects/" || route === "/fr/projets/") {
+      await assertProjectPreviewFits(route);
+    }
     assert.ok(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
