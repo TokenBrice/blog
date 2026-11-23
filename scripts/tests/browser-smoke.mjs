@@ -78,8 +78,13 @@ async function assertProjectPreviewFits(route) {
       const { left, right, width } = element.getBoundingClientRect();
       return { left, right, width };
     };
+    const card = figure.closest(".project-profile");
+    const style = getComputedStyle(card);
+    const content = edges(card);
+    content.left += parseFloat(style.borderLeftWidth) + parseFloat(style.paddingLeft);
+    content.right -= parseFloat(style.borderRightWidth) + parseFloat(style.paddingRight);
     return {
-      card: edges(figure.closest(".project-profile")),
+      content,
       figure: edges(figure),
       picture: edges(figure.querySelector("picture")),
       image: edges(img),
@@ -88,7 +93,7 @@ async function assertProjectPreviewFits(route) {
   const fits = (inner, outer) =>
     inner.width > 0 && inner.left >= outer.left - 1 && inner.right <= outer.right + 1;
   assert.ok(
-    fits(bounds.figure, bounds.card) &&
+    fits(bounds.figure, bounds.content) &&
       fits(bounds.picture, bounds.figure) &&
       fits(bounds.image, bounds.figure),
     `ClaudeVille preview fits ${route} at ${page.viewport().width}px: ${JSON.stringify(bounds)}`,
