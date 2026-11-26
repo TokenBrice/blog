@@ -35,6 +35,7 @@ projects:
     name: ClaudeVille
     url: https://github.com/TokenBrice/claude-ville
     group: build
+    mark: img/projects/claudeville-mark.svg
     role:
       en: Maintainer of the multi-provider fork
       fr: Mainteneur du fork multi-fournisseurs
