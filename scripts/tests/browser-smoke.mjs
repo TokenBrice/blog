@@ -141,11 +141,12 @@ try {
       ),
       [projects, lang + "/archives/", lang + "/guides/", lang ? "/fr/a-propos/" : "/about/"],
     );
-    assert.deepEqual(
-      await page.$$eval(".disclosure--home .disclosure__project", (links) =>
-        links.map((link) => link.textContent.trim()),
-      ),
-      ["Pharos", "Polaris"],
+    assert.equal(await page.$(".home-projects .disclosure"), null);
+    assert.ok(
+      await page.$eval('[data-project="claudeville"] .project-mark img', async (img) => {
+        await img.decode();
+        return img.naturalWidth > 0 && img.src.endsWith("claudeville-mark.svg");
+      }),
     );
     const light = await page.$eval(
       '[data-project="pharos"] .project-mark img:not(.project-mark__dark)',

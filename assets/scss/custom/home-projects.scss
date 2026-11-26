@@ -83,15 +83,6 @@
         text-underline-offset: 0.2em;
     }
 
-    .disclosure--home {
-        margin-top: var(--space-3);
-        padding: var(--space-3) 0 0;
-        border: 0;
-        border-top: 1px solid var(--rule);
-        border-radius: 0;
-        font-size: var(--fs-meta);
-    }
-
     @media (max-width: 600px) {
         &__grid {
             grid-template-columns: 1fr;
